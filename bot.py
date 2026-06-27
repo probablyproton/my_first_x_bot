@@ -432,8 +432,9 @@ def post_tweet(text: str, state: dict) -> bool:
             page = context.new_page()
             _apply_stealth(page)
 
+            page.goto("https://x.com", wait_until="load", timeout=60000)
+            time.sleep(random.uniform(2.0, 3.0))
             page.goto("https://x.com/compose/tweet", wait_until="load", timeout=60000)
-            time.sleep(random.uniform(1.5, 3.0))
 
             textarea = page.locator("[data-testid='tweetTextarea_0']")
             textarea.wait_for(timeout=15000)
