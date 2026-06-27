@@ -1,0 +1,5 @@
+yfinance
+requests
+python-dotenv
+playwright
+playwright-stealth
