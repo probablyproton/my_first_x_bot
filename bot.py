@@ -436,7 +436,7 @@ def post_tweet(text: str, state: dict) -> bool:
             time.sleep(random.uniform(2.0, 3.0))
             page.goto("https://x.com/compose/tweet", wait_until="load", timeout=60000)
 
-            textarea = page.locator("[data-testid='tweetTextarea_0']")
+            textarea = page.locator("[data-testid='primaryColumn'] [data-testid='tweetTextarea_0']")
             textarea.wait_for(timeout=15000)
             textarea.click()
             time.sleep(random.uniform(0.5, 1.2))
