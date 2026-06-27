@@ -247,10 +247,18 @@ def _gemini(system: str, prompt: str) -> str:
         }
     }).encode("utf-8")
     req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
-    with urllib.request.urlopen(req) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
-    return data["candidates"][0]["content"]["parts"][-1]["text"].strip()
-
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            return data["candidates"][0]["content"]["parts"][-1]["text"].strip()
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 2:
+                wait = 60 * (attempt + 1)
+                log.warning("Gemini 429 — waiting %ds before retry %d/2", wait, attempt + 1)
+                time.sleep(wait)
+            else:
+                raise
 
 def generate_daily_plan(symbol: str, slots: list[dict], price_ctx: dict, market: str) -> list[dict]:
     price_str = ""
