@@ -42,8 +42,8 @@ SLOT_JITTER_SECONDS          = int(os.getenv("SLOT_JITTER_SECONDS", "90"))
 DRY_RUN                      = os.getenv("DRY_RUN", "false").lower() == "true"
 EU_WATCHLIST                 = [t.strip().upper() for t in os.getenv("EU_WATCHLIST", "").split(",") if t.strip()]
 US_WATCHLIST                 = [t.strip().upper() for t in os.getenv("US_WATCHLIST", "").split(",") if t.strip()]
-EU_FOCUS_TICKER              = os.getenv("EU_FOCUS_TICKER", "").strip().upper()
-US_FOCUS_TICKER              = os.getenv("US_FOCUS_TICKER", "").strip().upper()
+EU_FOCUS_TICKER              = os.getenv("EU_FOCUS_TICKER", "").strip().upper().replace("{}", "")
+US_FOCUS_TICKER              = os.getenv("US_FOCUS_TICKER", "").strip().upper().replace("{}", "")
 EVENT_INTERVAL_THRESHOLD_PCT = float(os.getenv("EVENT_INTERVAL_THRESHOLD_PCT", "1.5"))
 EVENT_DAY_THRESHOLD_PCT      = float(os.getenv("EVENT_DAY_THRESHOLD_PCT", "4.0"))
 EVENT_COOLDOWN_MINUTES       = int(os.getenv("EVENT_COOLDOWN_MINUTES", "12"))
@@ -420,6 +420,7 @@ def post_tweet(text: str, state: dict) -> bool:
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(
+                channel="msedge",
                 headless=HEADLESS,
                 args=["--disable-blink-features=AutomationControlled"],
             )
