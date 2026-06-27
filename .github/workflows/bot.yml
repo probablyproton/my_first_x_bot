@@ -1,0 +1,56 @@
+name: Ticker Bot
+
+on:
+  schedule:
+    # Every 15 minutes, 06:00–21:00 UTC (covers 08:00–23:00 CET summer / 07:00–22:00 CET winter)
+    - cron: '*/15 6-21 * * *'
+  workflow_dispatch:  # Lets you trigger a manual run from github.com (useful from iPad)
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Playwright browser
+        run: playwright install chromium --with-deps
+
+      - name: Write env file
+        run: |
+          echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > my.env
+          echo "EU_WATCHLIST=${{ vars.EU_WATCHLIST }}" >> my.env
+          echo "US_WATCHLIST=${{ vars.US_WATCHLIST }}" >> my.env
+          echo "EU_FOCUS_TICKER=${{ vars.EU_FOCUS_TICKER }}" >> my.env
+          echo "US_FOCUS_TICKER=${{ vars.US_FOCUS_TICKER }}" >> my.env
+          echo "SLOT_JITTER_SECONDS=90" >> my.env
+          echo "EVENT_INTERVAL_THRESHOLD_PCT=1.5" >> my.env
+          echo "EVENT_DAY_THRESHOLD_PCT=4.0" >> my.env
+          echo "EVENT_COOLDOWN_MINUTES=12" >> my.env
+          echo "DRY_RUN=false" >> my.env
+
+      - name: Decode Twitter session
+        run: echo "${{ secrets.TWITTER_SESSION }}" | base64 -d > twitter_session.json
+
+      - name: Run bot cycle
+        run: python bot.py
+
+      - name: Save state back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add state.json
+          git diff --staged --quiet || git commit -m "state: $(date -u +%H:%M)"
+          git push
