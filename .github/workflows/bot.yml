@@ -60,4 +60,4 @@ jobs:
           git reset --soft origin/main
           git add state.json
           git diff --staged --quiet || git commit -m "state: $(date -u +%H:%M)"
-          git push origin main
+          git push --force origin main
