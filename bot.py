@@ -485,7 +485,7 @@ def post_tweet(text: str, state: dict) -> bool:
 
             post_btn = page.locator("[data-testid='tweetButtonInline']")
             post_btn.wait_for(timeout=5000)
-            post_btn.click()
+            post_btn.dispatch_event("click")
             time.sleep(random.uniform(2.5, 4.0))
 
             context.storage_state(path=SESSION_FILE)
