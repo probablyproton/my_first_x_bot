@@ -449,7 +449,7 @@ def post_tweet(text: str, state: dict) -> bool:
             # Use primaryColumn to avoid strict mode violation with multiple textareas
             textarea = page.locator("[data-testid='primaryColumn'] [data-testid='tweetTextarea_0']")
             textarea.wait_for(timeout=15000)
-            textarea.click()
+            textarea.click(force=True)
             time.sleep(random.uniform(0.5, 1.2))
 
             for char in text:
