@@ -2,9 +2,8 @@ name: Ticker Bot
 
 on:
   schedule:
-    # Every 15 minutes, 06:00–21:00 UTC (covers 08:00–23:00 CET summer / 07:00–22:00 CET winter)
     - cron: '*/15 6-21 * * *'
-  workflow_dispatch:  # Lets you trigger a manual run from github.com (useful from iPad)
+  workflow_dispatch:
 
 jobs:
   run:
@@ -50,9 +49,6 @@ jobs:
         run: python bot.py
         env:
           TZ: Europe/Amsterdam
-          
-      - name: Run bot cycle
-        run: python bot.py
 
       - name: Save state back to repo
         continue-on-error: true
@@ -60,7 +56,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git fetch origin main
+          git reset --soft origin/main
           git add state.json
           git diff --staged --quiet || git commit -m "state: $(date -u +%H:%M)"
-          git pull origin main --rebase
           git push origin main
