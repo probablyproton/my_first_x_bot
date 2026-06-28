@@ -38,7 +38,7 @@ log = logging.getLogger(__name__)
 
 GEMINI_API_KEY               = os.environ["GEMINI_API_KEY"]
 
-SLOT_JITTER_SECONDS          = int(os.getenv("SLOT_JITTER_SECONDS", "300"))
+SLOT_JITTER_SECONDS          = int(os.getenv("SLOT_JITTER_SECONDS", "90"))
 DRY_RUN                      = os.getenv("DRY_RUN", "false").lower() == "true"
 EU_WATCHLIST                 = [t.strip().upper() for t in os.getenv("EU_WATCHLIST", "").split(",") if t.strip()]
 US_WATCHLIST                 = [t.strip().upper() for t in os.getenv("US_WATCHLIST", "").split(",") if t.strip()]
