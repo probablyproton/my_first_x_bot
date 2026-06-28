@@ -55,6 +55,7 @@ jobs:
         run: python bot.py
 
       - name: Save state back to repo
+        continue-on-error: true
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
