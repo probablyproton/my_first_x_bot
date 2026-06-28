@@ -440,16 +440,13 @@ def post_tweet(text: str, state: dict) -> bool:
             page = context.new_page()
             _apply_stealth(page)
 
-            # Visit home first to establish session, then go to compose
             page.goto("https://x.com/home", wait_until="load", timeout=60000)
             time.sleep(random.uniform(2.0, 3.0))
-            page.goto("https://x.com/compose/tweet", wait_until="load", timeout=60000)
-            time.sleep(random.uniform(1.5, 3.0))
 
-            # Use primaryColumn to avoid strict mode violation with multiple textareas
-            textarea = page.locator("[data-testid='primaryColumn'] [data-testid='tweetTextarea_0']")
+            # Use the inline compose box on the home page — no modal, no overlay issues
+            textarea = page.locator("[data-testid='tweetTextarea_0']").first
             textarea.wait_for(timeout=15000)
-            textarea.click(force=True)
+            textarea.click()
             time.sleep(random.uniform(0.5, 1.2))
 
             for char in text:
