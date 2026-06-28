@@ -38,7 +38,7 @@ log = logging.getLogger(__name__)
 
 GEMINI_API_KEY               = os.environ["GEMINI_API_KEY"]
 
-SLOT_JITTER_SECONDS          = int(os.getenv("SLOT_JITTER_SECONDS", "90"))
+SLOT_JITTER_SECONDS          = int(os.getenv("SLOT_JITTER_SECONDS", "300"))
 DRY_RUN                      = os.getenv("DRY_RUN", "false").lower() == "true"
 EU_WATCHLIST                 = [t.strip().upper() for t in os.getenv("EU_WATCHLIST", "").split(",") if t.strip()]
 US_WATCHLIST                 = [t.strip().upper() for t in os.getenv("US_WATCHLIST", "").split(",") if t.strip()]
@@ -209,11 +209,16 @@ Return a JSON array. Each object must have:
   - "angle": one sentence — the specific narrative angle for that tweet
 
 Rules:
-- Every angle must be tight and punchy — these are 280-character tweets
-- The angles must build a coherent story arc. Every angle must be distinct.
-- fomo slots: the angle should be a quiet, unsettling observation — something that implies
-  more is coming without stating it. Calm, not hyped. Think: pattern recognition, not prediction.
-- Start strong, develop with data, drive engagement, react to moves, close with a tease.
+- GROUND every angle in the recent news headlines provided. Reference real events, deals, or data points.
+- If news mentions a specific partnership, earnings beat, contract win, or analyst call — use it.
+- Every angle must be tight, punchy, and distinct. These are 280-character tweets.
+- The angles must build a coherent story arc across the day.
+- hook slots: open with the most striking news item or price action fact.
+- analytical slots: use actual numbers, ratios, or price levels from the news/price context.
+- fomo slots: quiet, unsettling observation based on a real event the market may be underpricing.
+  Think: "X happened and the stock barely moved — that's not normal."
+- question slots: spark genuine debate based on a specific news angle.
+- wrap slots: tease what to watch tomorrow based on actual upcoming catalysts.
 Return ONLY the JSON array, no other text."""
 
 PLANNER_SYSTEM_WEEKEND = """You are planning weekend Twitter content about a single stock ticker.
@@ -223,15 +228,19 @@ Markets are closed. Return a JSON array. Each object must have:
   - "angle": one sentence — the specific narrative angle for that tweet
 
 Weekend rules — STRICT:
-- NEVER reference today's price, daily % moves, or live market activity — markets are closed
-- NEVER use phrases like "today", "this session", "the dip", "down X%", "up X%"
-- Focus ONLY on: week-in-review themes, structural thesis, long-term fundamentals,
-  macro tailwinds, insider activity, what to watch when markets reopen Monday
-- question slots: engaging community questions — "what are you buying Monday?",
-  "do you agree with this thesis?", "would you add here or wait?", "bull or bear on $TICKER?"
-- fomo slots: quiet long-term conviction — "the kind of company that builds the invisible backbone of tomorrow"
-- hook slots: open with a striking fact or paradox about the company, not about price
-- wrap slots: tease what catalysts or events to watch in the coming week
+- GROUND angles in the recent news headlines provided. Reference specific events from the past week.
+- NEVER reference today's price, daily % moves, or live market activity — markets are closed.
+- NEVER use phrases like "today", "this session", "the dip", "down X%", "up X%".
+- Focus on: week-in-review, structural thesis grounded in recent news, what to watch Monday.
+- question slots: mix of community engagement and Monday setup:
+    * "Will $TICKER open green or red Monday — and why?"
+    * "Are you adding more before Monday's open, or waiting for a clearer entry?"
+    * "Bull or bear on $TICKER into next week?"
+    * "What's the Monday morning trade on $TICKER?"
+    * "Given [specific news], do you think the market has priced this in yet?"
+- fomo slots: quiet long-term conviction tied to a specific real development from the week.
+- hook slots: open with a striking fact, paradox, or overlooked news item from the past week.
+- wrap slots: name 2-3 specific catalysts or events to watch in the coming week.
 - Every angle must be distinct. Build a coherent weekend narrative.
 Return ONLY the JSON array, no other text."""
 
@@ -254,11 +263,22 @@ def _gemini(system: str, prompt: str) -> str:
             return data["candidates"][0]["content"]["parts"][-1]["text"].strip()
         except urllib.error.HTTPError as e:
             if e.code in (429, 503) and attempt < 2:
-                wait = 60 * (attempt + 1)
-                log.warning("Gemini 429 — waiting %ds before retry %d/2", wait, attempt + 1)
+                wait = 30 * (attempt + 1)
+                log.warning("Gemini %d — waiting %ds before retry %d/2", e.code, wait, attempt + 1)
                 time.sleep(wait)
             else:
                 raise
+
+
+_FALLBACK_ANGLES = {
+    "hook":       "This ticker is being systematically overlooked. The setup is rare.",
+    "analytical": "Let's cut through the noise and look at what the chart is actually saying.",
+    "question":   "Are you bullish or bearish on this name heading into next week?",
+    "fomo":       "The quiet accumulation phase doesn't announce itself. This might be it.",
+    "reaction":   "The price action here is telling a story most people are misreading.",
+    "wrap":       "That's the session. Tomorrow's open will be the tell — watch it closely.",
+    "event":      "Big move. Here's what the market is pricing in — and what it's missing.",
+}
 
 
 def generate_daily_plan(symbol: str, slots: list[dict], price_ctx: dict, market: str) -> list[dict]:
@@ -267,6 +287,9 @@ def generate_daily_plan(symbol: str, slots: list[dict], price_ctx: dict, market:
         sign = "+" if price_ctx["change_pct"] >= 0 else ""
         price_str = f"Current price: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}% vs yesterday)"
 
+    news = get_ticker_context(symbol, max_messages=8)
+    news_block = "\n".join(f"- {h}" for h in news) if news else "No recent news available."
+
     slot_list = "\n".join(
         f"  slot {s['slot']}: {s['target_time']} — {s['type']}" for s in slots
     )
@@ -274,10 +297,13 @@ def generate_daily_plan(symbol: str, slots: list[dict], price_ctx: dict, market:
     prompt = f"""Plan a {market} market day of Twitter content about ${symbol}.
 {price_str}
 
+Recent news headlines (ground your angles in these):
+{news_block}
+
 Slots (produce exactly one entry per slot):
 {slot_list}
 
-Make every angle distinct. Build a narrative that evolves across the day."""
+Make every angle distinct. Reference specific news items where possible. Build a narrative that evolves across the day."""
 
     planner_system = PLANNER_SYSTEM_WEEKEND if is_weekend() else PLANNER_SYSTEM_WEEKDAY
     try:
@@ -294,7 +320,7 @@ Make every angle distinct. Build a narrative that evolves across the day."""
     except Exception as e:
         log.error("Plan generation failed for %s: %s", symbol, e)
 
-    return [{**s, "angle": f"Cover ${symbol} from the {s['type']} angle"} for s in slots]
+    return [{**s, "angle": _FALLBACK_ANGLES.get(s["type"], f"Analyze ${symbol} from the {s['type']} angle")} for s in slots]
 
 
 def pick_ticker(watchlist: list[str], override: str, label: str) -> str:
@@ -345,22 +371,25 @@ def ensure_daily_plans(state: dict) -> dict:
 # ── Tweet generation ──────────────────────────────────────────────────────────
 
 TWEET_SYSTEM = """You are a sharp financial Twitter personality — punchy, direct, data-driven.
+
+CRITICAL RULE: If recent news headlines are provided, your tweet MUST reference or react to at least one of them specifically. Never write generic observations ("the backbone of tomorrow", "building something big") when real news exists to anchor the tweet. Specific > vague. Always.
+
+Style rules:
 - 2-3 emojis max, placed for visual punch
 - 1-2 hashtags max, only if they add signal
-- No filler phrases ("hot take", "buckle up", "thread")
-- Short sentences. Bold claims. Facts over fluff.
+- No filler phrases ("hot take", "buckle up", "thread", "building the backbone")
+- Short sentences. Bold claims. Real events. Facts over fluff.
 - Sound like a smart trader talking to other smart traders
 - MUST be ≤280 characters
 
 Tweet types:
-  hook       — stops the scroll. Bold opener that sets the day's narrative.
-  analytical — data-driven. Specific numbers, ratios, price levels.
-  question   — one sharp genuine question. No fake urgency.
-  reaction   — on weekdays: grounded in the actual price move. On weekends: reaction to the week's narrative, NOT daily price moves.
-  fomo       — creates anticipation and tension. Vague signal, implied pattern recognition,
-               no specifics. Feels like the poster knows something. Short. Calm. Unsettling.
-               Example: "$NOK signed a deal last week and the stock didn't move. That's not normal."
-  wrap       — closes the day. Teases what to watch tomorrow.
+  hook       — stops the scroll. Tie it to a real news item or price development.
+  analytical — reference specific numbers, price levels, or data points from the news/context.
+  question   — one sharp genuine question rooted in real news or price action. No fake urgency.
+  reaction   — weekdays: ground in the actual price move. Weekends: react to the week's news, NOT daily moves.
+  fomo       — short, calm, unsettling observation based on a real event being underpriced.
+               Example: "$NOK signed a massive 5G deal last week. Stock barely moved. That's not normal."
+  wrap       — closes the session. Name specific catalysts to watch next.
   event      — urgent reaction to a sudden price move. Raw and immediate.
 
 Output ONLY the tweet text. No quotes, no commentary."""
@@ -373,7 +402,8 @@ def generate_tweet(symbol: str, slot: dict, price_ctx: dict, community: list[str
         sign = "+" if price_ctx["change_pct"] >= 0 else ""
         price_str = f"Live: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"
 
-    community_block = "\n".join(f"- {m}" for m in community) if community else "No community messages."
+    news_block = "\n".join(f"- {m}" for m in community) if community else ""
+    news_section = f"\nRecent news headlines (reference at least one in your tweet):\n{news_block}" if news_block else "\nNo recent news available — use the angle and price context only."
     angle      = event_trigger if event_trigger else slot["angle"]
     tweet_type = "event"      if event_trigger else slot["type"]
 
@@ -382,11 +412,9 @@ def generate_tweet(symbol: str, slot: dict, price_ctx: dict, community: list[str
 
 Angle: {angle}
 Tweet type: {tweet_type}
+{news_section}
 
-Community sentiment:
-{community_block}
-
-Write the tweet."""
+Write the tweet. Keep it under 280 characters. Be specific — name real events, numbers, or catalysts."""
 
     try:
         text = _gemini(TWEET_SYSTEM, prompt).strip('"').strip("'")
