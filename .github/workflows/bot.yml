@@ -48,6 +48,11 @@ jobs:
 
       - name: Run bot cycle
         run: python bot.py
+        env:
+          TZ: Europe/Amsterdam
+          
+      - name: Run bot cycle
+        run: python bot.py
 
       - name: Save state back to repo
         run: |
