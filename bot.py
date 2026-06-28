@@ -5,7 +5,7 @@ US story:  15:30–22:00 local time  [15 slots]
 Weekend:   08:00–21:30             [30 slots]
 
 Local run:  python bot.py          (browser window visible)
-GitHub:     triggered every 15 min by Actions cron (headless)
+GitHub:     triggered every 15 min by Actions cron (headless, TZ=Europe/Amsterdam)
 """
 
 import os
@@ -260,6 +260,7 @@ def _gemini(system: str, prompt: str) -> str:
             else:
                 raise
 
+
 def generate_daily_plan(symbol: str, slots: list[dict], price_ctx: dict, market: str) -> list[dict]:
     price_str = ""
     if price_ctx:
@@ -428,7 +429,6 @@ def post_tweet(text: str, state: dict) -> bool:
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(
-                channel="msedge",
                 headless=HEADLESS,
                 args=["--disable-blink-features=AutomationControlled"],
             )
@@ -440,10 +440,13 @@ def post_tweet(text: str, state: dict) -> bool:
             page = context.new_page()
             _apply_stealth(page)
 
-            page.goto("https://x.com", wait_until="load", timeout=60000)
+            # Visit home first to establish session, then go to compose
+            page.goto("https://x.com/home", wait_until="load", timeout=60000)
             time.sleep(random.uniform(2.0, 3.0))
             page.goto("https://x.com/compose/tweet", wait_until="load", timeout=60000)
+            time.sleep(random.uniform(1.5, 3.0))
 
+            # Use primaryColumn to avoid strict mode violation with multiple textareas
             textarea = page.locator("[data-testid='primaryColumn'] [data-testid='tweetTextarea_0']")
             textarea.wait_for(timeout=15000)
             textarea.click()
