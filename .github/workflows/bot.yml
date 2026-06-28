@@ -61,4 +61,5 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add state.json
           git diff --staged --quiet || git commit -m "state: $(date -u +%H:%M)"
+          git pull origin main --rebase
           git push origin main
