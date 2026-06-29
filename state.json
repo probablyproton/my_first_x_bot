@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "daily_posts": 7,
+  "daily_posts": 9,
   "eu_ticker": "ANET",
   "eu_plan": [
     {
@@ -123,20 +123,22 @@
     10,
     11,
     12,
-    13
+    13,
+    14
   ],
   "price_snapshots": {
-    "ANET": 162.49,
-    "CSCO": 116.85,
-    "MRVL": 262.82,
-    "MU": 1073.88,
-    "NOK": 12.71
+    "ANET": 164.04,
+    "CSCO": 117.99,
+    "MRVL": 273.27,
+    "MU": 1125.31,
+    "NOK": 12.9
   },
   "event_cooldowns": {
     "ANET": 393,
     "news_MRVL": 897,
     "news_MU": 898,
-    "NOK": 1030
+    "NOK": 1030,
+    "MU": 1156
   },
   "engagement": {},
   "news_seen": {
@@ -297,6 +299,11 @@
   "us_posted": [
     0,
     1,
-    2
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
   ]
 }
