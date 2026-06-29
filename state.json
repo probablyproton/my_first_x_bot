@@ -1,309 +1,107 @@
 {
-  "date": "2026-06-29",
-  "daily_posts": 9,
-  "eu_ticker": "ANET",
+  "date": "2026-06-30",
+  "daily_posts": 0,
+  "eu_ticker": "NOK",
   "eu_plan": [
     {
       "slot": 0,
       "type": "hook",
-      "target_time": "09:00",
-      "fire_time": "09:00",
-      "angle": "This ticker is being systematically overlooked. The setup is rare."
+      "angle": "Nokia's recent partnership with Nvidia to build AI RAN 6G networks could significantly accelerate its future growth trajectory \u2013 is the market fully pricing in this strategic collaboration at the open?",
+      "fire_time": "08:58"
     },
     {
       "slot": 1,
       "type": "analytical",
-      "target_time": "09:33",
-      "fire_time": "09:35",
-      "angle": "Let's cut through the noise and look at what the chart is actually saying."
+      "angle": "With $NOK up +0.77% to $13.02, the market may be reacting to its Amazon.com partnership, raising questions about how this collaboration could impact enterprise revenue streams moving forward.",
+      "fire_time": "09:28"
     },
     {
       "slot": 2,
       "type": "question",
-      "target_time": "10:06",
-      "fire_time": "10:06",
-      "angle": "Are you bullish or bearish on this name heading into next week?"
+      "angle": "Given Nokia's defense deal and the rising demand for border security, could this specialized market segment offer a more stable and high-margin revenue stream, potentially leading to a re-evaluation of its long-term outlook?",
+      "fire_time": "10:01"
     },
     {
       "slot": 3,
       "type": "fomo",
-      "target_time": "10:39",
-      "fire_time": "10:43",
-      "angle": "The quiet accumulation phase doesn't announce itself. This might be it."
+      "angle": "Nokia's strategic partnership with Nvidia positions it squarely in the burgeoning AI infrastructure space, yet the stock's current valuation might not fully reflect its potential as an 'Nvidia-backed' play, a quiet observation worth noting.",
+      "fire_time": "10:36"
     },
     {
       "slot": 4,
       "type": "analytical",
-      "target_time": "11:12",
-      "fire_time": "11:10",
-      "angle": "Let's cut through the noise and look at what the chart is actually saying."
+      "angle": "European equities traded as American Depositary Receipts tracking higher suggests a broader positive sentiment, and $NOK's current $13.02 price level could hint at further upside if this trend continues to build momentum.",
+      "fire_time": "11:14"
     },
     {
       "slot": 5,
       "type": "question",
-      "target_time": "11:45",
-      "fire_time": "11:45",
-      "angle": "Are you bullish or bearish on this name heading into next week?"
+      "angle": "Between the Amazon.com partnership for enterprise solutions and the Nvidia collaboration for 6G AI RAN, which strategic move potentially offers a greater long-term competitive advantage for Nokia, and how might that shape investor perception?",
+      "fire_time": "11:42"
     },
     {
       "slot": 6,
       "type": "fomo",
-      "target_time": "12:18",
-      "fire_time": "12:14",
-      "angle": "The quiet accumulation phase doesn't announce itself. This might be it."
+      "angle": "The pivotal role Nokia is playing with Nvidia in building AI RAN 6G networks represents a massive future market, and its current share price might be underestimating the first-mover advantage and long-term earnings potential from this next-gen technology.",
+      "fire_time": "12:15"
     },
     {
       "slot": 7,
       "type": "reaction",
-      "target_time": "12:51",
-      "fire_time": "12:55",
-      "angle": "The price action here is telling a story most people are misreading."
+      "angle": "The modest +0.77% price increase for $NOK today, despite significant partnerships with Amazon and Nvidia, could indicate a cautious market reaction that might not yet grasp the full scope of these strategic developments.",
+      "fire_time": "12:52"
     },
     {
       "slot": 8,
       "type": "analytical",
-      "target_time": "13:24",
-      "fire_time": "13:19",
-      "angle": "Let's cut through the noise and look at what the chart is actually saying."
+      "angle": "The focus on AI RAN 6G networks with Nvidia suggests a future revenue stream potentially tied to advanced infrastructure, where a small percentage of a massive market could translate into substantial gains for Nokia beyond its current $13.02 valuation.",
+      "fire_time": "13:25"
     },
     {
       "slot": 9,
       "type": "question",
-      "target_time": "13:57",
-      "fire_time": "14:00",
-      "angle": "Are you bullish or bearish on this name heading into next week?"
+      "angle": "With partnerships in defense, cloud (Amazon), and AI/6G (Nvidia), is the market still categorizing Nokia primarily as a traditional telecom equipment provider, or are investors beginning to view it as a diversified technology play with broader growth potential?",
+      "fire_time": "13:55"
     },
     {
       "slot": 10,
       "type": "fomo",
-      "target_time": "14:30",
-      "fire_time": "14:33",
-      "angle": "The quiet accumulation phase doesn't announce itself. This might be it."
+      "angle": "Nokia's defense deal, capitalizing on rising border security demand, offers a robust, potentially government-backed revenue channel that may not be fully priced into the stock yet, creating an overlooked opportunity for long-term investors.",
+      "fire_time": "14:27"
     },
     {
       "slot": 11,
       "type": "analytical",
-      "target_time": "15:03",
-      "fire_time": "15:00",
-      "angle": "Let's cut through the noise and look at what the chart is actually saying."
+      "angle": "Trading at $13.02, $NOK remains in a price range that potentially undervalues the cumulative impact of its strategic moves with Amazon, Nvidia, and its defense segment, suggesting room for an upward re-rating as these initiatives mature.",
+      "fire_time": "15:00"
     },
     {
       "slot": 12,
       "type": "question",
-      "target_time": "15:36",
-      "fire_time": "15:33",
-      "angle": "Are you bullish or bearish on this name heading into next week?"
+      "angle": "How sustainable are Nokia's high-profile partnerships with tech giants like Amazon and Nvidia, and could the success of these collaborations fundamentally alter Nokia's competitive landscape and market share in the coming years?",
+      "fire_time": "15:34"
     },
     {
       "slot": 13,
       "type": "fomo",
-      "target_time": "16:20",
-      "fire_time": "16:19",
-      "angle": "The quiet accumulation phase doesn't announce itself. This might be it."
+      "angle": "The quiet accumulation in $NOK, even with its modest +0.77% gain, might be a signal that smart money is positioning for its long-term future in AI-powered 6G networks and critical infrastructure, potentially ahead of broader market recognition.",
+      "fire_time": "16:16"
     },
     {
       "slot": 14,
       "type": "wrap",
-      "target_time": "16:55",
-      "fire_time": "16:55",
-      "angle": "That's the session. Tomorrow's open will be the tell \u2014 watch it closely."
-    }
-  ],
-  "eu_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14
-  ],
-  "price_snapshots": {
-    "ANET": 164.04,
-    "CSCO": 117.99,
-    "MRVL": 273.27,
-    "MU": 1125.31,
-    "NOK": 12.9
-  },
-  "event_cooldowns": {
-    "ANET": 393,
-    "news_MRVL": 897,
-    "news_MU": 898,
-    "NOK": 1030,
-    "MU": 1156
-  },
-  "engagement": {},
-  "news_seen": {
-    "ANET": [
-      "Arista Networks, Inc. (ANET) Is a Trending Stock: Facts to Know Before Betting on It",
-      "JPMorgan Removes Arista Networks (ANET) from Equity Focus List",
-      "The Real Risk Inside Cisco Stock",
-      "Nvidia, Micron, AMD Lead Chip Selloff on OpenAI IPO Delay Report Rattles Tech",
-      "Arista Networks Sees AI Sales Doubling, Nears New High",
-      "What Arista Networks Stock's Balance Sheet Revealed Before the AI Boom",
-      "KeyBanc Raises PT on Arista Networks (ANET) Stock",
-      "Everyone Is Watching Cisco Stock's AI Orders. Here's The Number They Stopped Bragging About.",
-      "Arista and Paradise Commercial Acquire Thornhill Square Shopping Centre",
-      "Analysts Pound The Table For 4 Rising S&P 500 Stocks"
-    ],
-    "CSCO": [
-      "Here\u2019s Why Cisco (CSCO) is Among the 15 Best AI Stocks That Will Make You Rich in 10 Years",
-      "JPMorgan Removes Arista Networks (ANET) from Equity Focus List",
-      "The Real Risk Inside Cisco Stock",
-      "The Old-School Signal That Lit Up Palo Alto Networks Stock",
-      "Cisco to lay off more than 400 workers in California",
-      "Nvidia, Micron, AMD Lead Chip Selloff on OpenAI IPO Delay Report Rattles Tech",
-      "1 Growth Stock Set to Flourishand 2 Facing Headwinds",
-      "Fabrinet Is Becoming a Quiet Winner in the AI Optics Buildout",
-      "Q1 Earnings Roundup: Cisco (NASDAQ:CSCO) And The Rest Of The IT Services & Other Tech Segment",
-      "2 Growth Stocks with Explosive Upside and 1 Facing Challenges"
-    ],
-    "MRVL": [
-      "Stock futures rise as U.S. and Iran agree to stop latest attacks",
-      "Amazon Explores External Trainium Chip Sales, Putting Marvell (MRVL) in Focus",
-      "Stifel Raises PT on Astera Labs (ALAB)",
-      "5 AI Hardware Stocks Create a New \u2018MANIA\u2019 Trade That Replaces the Magnificent 7. Hedge Your Bets on the Hot Tickers with These 2 Leveraged ETFs.",
-      "Stifel Raises its Price Target on Marvell Technology (MRVL)",
-      "Is Broadcom (AVGO) One of the Best Trending AI Stocks to Watch in 2026?",
-      "2 Artificial Intelligence (AI) Stocks to Buy as Demand for Custom Chips Soars",
-      "Marvell Technology (NasdaqGS:MRVL) Expands AI Push With Nvidia Deal And Two Acquisitions",
-      "What If The Real Power Behind Marvell Stock Isn't Just Growth?",
-      "AI Power Stocks Could Be a Once-in-a-Generation Trade. Start With the Companies Behind Every Data Center."
-    ],
-    "MU": [
-      "Mizuho says ignore Apple noise, flags key catalyst for Micron and memory in H2",
-      "Micron Technology Stock: Is It Heading for a $2 Trillion Valuation?",
-      "Samsung, SK Hynix, Micron face antitrust class action lawsuit",
-      "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands",
-      "AI Memory Crunch Hits Hardware Makers",
-      "Why Chinese AI Models Should Worry Nvidia, Micron Stock Investors",
-      "Micron Stock Faces $500 Billion Memory Threat From SK Hynix, Samsung",
-      "Wall Street Weans Itself From Tech in Early Summer Rotation",
-      "Latest News In AI Chips - WNSTN Joins Google Marketplace Elevating Financial AI Compliance",
-      "New leader board: Citi refreshes AI compute semiconductor picks"
-    ],
-    "NOK": [
-      "Amazon.com (AMZN) Partners With Nokia, Here\u2019s What You Need to Know",
-      "Nokia (HLSE:NOKIA) Partners With Nvidia To Build AI RAN 6G Networks",
-      "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now",
-      "2 Nvidia-Owned Stocks Investors Should Buy Now",
-      "Is Alphabet (GOOG) One of the Top Trending US Stocks to Buy Now?",
-      "Google DeepMind and A24 Announces First-of-its-Kind Partnership",
-      "Alphabet (GOOG) Reports Computer Use Now a Built-In Tool Supported in Gemini 3.5 Flash",
-      "NOK Stock Heads For Second Straight Weekly Loss \u2014 Retail Sees Dip As Buying Chance",
-      "Can Motorola's AI Expansion for Mission-Critical Response Aid Stock?",
-      "Trump name-dropped Nokia and Eli Lilly in a Pennsylvania speech. Here's what happened to 5 other stocks he singled out"
-    ]
-  },
-  "us_ticker": "ANET",
-  "us_plan": [
-    {
-      "slot": 0,
-      "type": "hook",
-      "angle": "$ANET is trading up +1.14% and nearing new highs today, fueled by news of AI sales potentially doubling. Is the market fully pricing in this aggressive growth trajectory?",
-      "fire_time": "15:30"
-    },
-    {
-      "slot": 1,
-      "type": "analytical",
-      "angle": "Despite $ANET's recent strength near $159.2, JPMorgan's decision to remove it from their Equity Focus List raises questions. What does this re-evaluation mean for institutional interest moving forward?",
-      "fire_time": "16:04"
-    },
-    {
-      "slot": 2,
-      "type": "question",
-      "angle": "Arista Networks expects AI sales to double \u2013 a significant claim for a company nearing new highs. Could this translate into an even faster earnings acceleration than analysts anticipate?",
-      "fire_time": "16:23"
-    },
-    {
-      "slot": 3,
-      "type": "fomo",
-      "angle": "News highlighted Arista's strong balance sheet even before its AI segment began to truly boom. This robust financial position might be an underpriced factor supporting future growth for $ANET.",
+      "angle": "As the trading day concludes, all eyes could be on how $NOK's defense contracts and 6G AI RAN developments with Nvidia continue to unfold, offering key catalysts to watch at tomorrow's open.",
       "fire_time": "16:57"
-    },
-    {
-      "slot": 4,
-      "type": "analytical",
-      "angle": "KeyBanc recently raised its price target on $ANET stock, signaling renewed bullish sentiment. With shares currently around $159.2, this upward revision could suggest further upside potential from analyst projections.",
-      "fire_time": "17:24"
-    },
-    {
-      "slot": 5,
-      "type": "question",
-      "angle": "While $ANET projects doubling AI sales, competitor Cisco has reportedly stopped 'bragging' about its AI orders. Is Arista truly capturing the lion's share of critical data center AI infrastructure, shifting the competitive landscape?",
-      "fire_time": "17:51"
-    },
-    {
-      "slot": 6,
-      "type": "fomo",
-      "angle": "Even with broader tech rattling from the OpenAI IPO delay report, $ANET continues to trade near its new high. This resilience might be a quiet signal of deep confidence in its AI roadmap.",
-      "fire_time": "18:22"
-    },
-    {
-      "slot": 7,
-      "type": "reaction",
-      "angle": "Arista Networks' strong balance sheet, revealed before the full AI boom, potentially provides a solid foundation. This financial strength could enable aggressive investment into AI infrastructure or strategic acquisitions.",
-      "fire_time": "18:44"
-    },
-    {
-      "slot": 8,
-      "type": "analytical",
-      "angle": "The general tech selloff triggered by the OpenAI IPO delay report impacted several chip giants. $ANET, currently around $159.2, showed some resilience, but could this broader market sentiment still present a subtle headwind moving forward?",
-      "fire_time": "19:20"
-    },
-    {
-      "slot": 9,
-      "type": "question",
-      "angle": "Arista's acquisition of Thornhill Square Shopping Centre, alongside Paradise Commercial, raises an interesting question. How should investors weigh this real estate diversification against the company's core networking and surging AI business?",
-      "fire_time": "19:43"
-    },
-    {
-      "slot": 10,
-      "type": "fomo",
-      "angle": "JPMorgan removed $ANET from its focus list recently, yet the company sees AI sales doubling and is nearing new highs. Is the market quietly underestimating the magnitude of Arista's AI momentum, despite institutional skepticism?",
-      "fire_time": "20:09"
-    },
-    {
-      "slot": 11,
-      "type": "analytical",
-      "angle": "Arista Networks' projection of doubling AI sales represents a significant growth vector. This ambitious target suggests a potential for substantial market share capture in the high-growth AI infrastructure segment, worth watching closely.",
-      "fire_time": "20:35"
-    },
-    {
-      "slot": 12,
-      "type": "question",
-      "angle": "With KeyBanc raising its price target on $ANET while JPMorgan removed it from its focus list, analysts appear split. Which perspective \u2013 the bullish PT or the cautious removal \u2013 better reflects Arista's true immediate trajectory?",
-      "fire_time": "21:07"
-    },
-    {
-      "slot": 13,
-      "type": "fomo",
-      "angle": "Arista's projected doubling of AI sales, backed by a strong balance sheet pre-AI boom, creates a compelling, quiet narrative. This fundamental strength might be fostering sustained upward pressure on $ANET, unperturbed by broader noise.",
-      "fire_time": "21:33"
-    },
-    {
-      "slot": 14,
-      "type": "wrap",
-      "angle": "As the day closes, all eyes may be on $ANET's AI sales trajectory and how it balances against broader tech sentiment at tomorrow's open. Watch for analyst commentary and any continued strength near its recent highs.",
-      "fire_time": "22:04"
     }
   ],
-  "us_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7
-  ]
+  "eu_posted": [],
+  "engagement": {},
+  "price_snapshots": {
+    "ANET": 164.09,
+    "CSCO": 117.62,
+    "MRVL": 277.53,
+    "MU": 1145.31,
+    "NOK": 13.02
+  },
+  "event_cooldowns": {}
 }
