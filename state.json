@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "daily_posts": 4,
+  "daily_posts": 5,
   "eu_ticker": "ANET",
   "eu_plan": [
     {
@@ -120,14 +120,16 @@
     7,
     8,
     9,
-    10
+    10,
+    11,
+    12
   ],
   "price_snapshots": {
-    "ANET": 157.6,
-    "CSCO": 113.77,
-    "MRVL": 266.77,
-    "MU": 1132.33,
-    "NOK": 13.01
+    "ANET": 158.84,
+    "CSCO": 116.28,
+    "MRVL": 256.8,
+    "MU": 1057.56,
+    "NOK": 12.39
   },
   "event_cooldowns": {
     "ANET": 393,
@@ -173,16 +175,16 @@
       "AI Power Stocks Could Be a Once-in-a-Generation Trade. Start With the Companies Behind Every Data Center."
     ],
     "MU": [
+      "Mizuho says ignore Apple noise, flags key catalyst for Micron and memory in H2",
+      "Micron Technology Stock: Is It Heading for a $2 Trillion Valuation?",
+      "Samsung, SK Hynix, Micron face antitrust class action lawsuit",
+      "Nvidia, Micron, and Broadcom hold the stock market's fate in the palm of their hands",
+      "AI Memory Crunch Hits Hardware Makers",
+      "Why Chinese AI Models Should Worry Nvidia, Micron Stock Investors",
+      "Micron Stock Faces $500 Billion Memory Threat From SK Hynix, Samsung",
+      "Wall Street Weans Itself From Tech in Early Summer Rotation",
       "Latest News In AI Chips - WNSTN Joins Google Marketplace Elevating Financial AI Compliance",
-      "New leader board: Citi refreshes AI compute semiconductor picks",
-      "Stock futures rise as U.S. and Iran agree to stop latest attacks",
-      "'One-time opportunity': South Korea bets big on AI boom",
-      "SK Hynix Just Sent a Huge Warning to Micron Investors",
-      "2 Unpopular Stocks That Deserve Some Love and 1 We Avoid",
-      "Comcast, Alphabet, Palantir, SpaceX, Microsoft, and More Stocks That Explain Today\u2019s Market",
-      "Can Micron (MU) \u2019s Deal With Anthropic Cement Its Place in the AI Memory Market?",
-      "Micron Stock Has Soared by More Than 12X. Can It Double Again?",
-      "How Micron Stock Will Fight Off Rivals\u2019 $500 Billion Memory-Chip Move"
+      "New leader board: Citi refreshes AI compute semiconductor picks"
     ],
     "NOK": [
       "Amazon.com (AMZN) Partners With Nokia, Here\u2019s What You Need to Know",
@@ -196,5 +198,99 @@
       "Can Motorola's AI Expansion for Mission-Critical Response Aid Stock?",
       "Trump name-dropped Nokia and Eli Lilly in a Pennsylvania speech. Here's what happened to 5 other stocks he singled out"
     ]
-  }
+  },
+  "us_ticker": "ANET",
+  "us_plan": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "angle": "$ANET is trading up +1.14% and nearing new highs today, fueled by news of AI sales potentially doubling. Is the market fully pricing in this aggressive growth trajectory?",
+      "fire_time": "15:30"
+    },
+    {
+      "slot": 1,
+      "type": "analytical",
+      "angle": "Despite $ANET's recent strength near $159.2, JPMorgan's decision to remove it from their Equity Focus List raises questions. What does this re-evaluation mean for institutional interest moving forward?",
+      "fire_time": "16:04"
+    },
+    {
+      "slot": 2,
+      "type": "question",
+      "angle": "Arista Networks expects AI sales to double \u2013 a significant claim for a company nearing new highs. Could this translate into an even faster earnings acceleration than analysts anticipate?",
+      "fire_time": "16:23"
+    },
+    {
+      "slot": 3,
+      "type": "fomo",
+      "angle": "News highlighted Arista's strong balance sheet even before its AI segment began to truly boom. This robust financial position might be an underpriced factor supporting future growth for $ANET.",
+      "fire_time": "16:57"
+    },
+    {
+      "slot": 4,
+      "type": "analytical",
+      "angle": "KeyBanc recently raised its price target on $ANET stock, signaling renewed bullish sentiment. With shares currently around $159.2, this upward revision could suggest further upside potential from analyst projections.",
+      "fire_time": "17:24"
+    },
+    {
+      "slot": 5,
+      "type": "question",
+      "angle": "While $ANET projects doubling AI sales, competitor Cisco has reportedly stopped 'bragging' about its AI orders. Is Arista truly capturing the lion's share of critical data center AI infrastructure, shifting the competitive landscape?",
+      "fire_time": "17:51"
+    },
+    {
+      "slot": 6,
+      "type": "fomo",
+      "angle": "Even with broader tech rattling from the OpenAI IPO delay report, $ANET continues to trade near its new high. This resilience might be a quiet signal of deep confidence in its AI roadmap.",
+      "fire_time": "18:22"
+    },
+    {
+      "slot": 7,
+      "type": "reaction",
+      "angle": "Arista Networks' strong balance sheet, revealed before the full AI boom, potentially provides a solid foundation. This financial strength could enable aggressive investment into AI infrastructure or strategic acquisitions.",
+      "fire_time": "18:44"
+    },
+    {
+      "slot": 8,
+      "type": "analytical",
+      "angle": "The general tech selloff triggered by the OpenAI IPO delay report impacted several chip giants. $ANET, currently around $159.2, showed some resilience, but could this broader market sentiment still present a subtle headwind moving forward?",
+      "fire_time": "19:20"
+    },
+    {
+      "slot": 9,
+      "type": "question",
+      "angle": "Arista's acquisition of Thornhill Square Shopping Centre, alongside Paradise Commercial, raises an interesting question. How should investors weigh this real estate diversification against the company's core networking and surging AI business?",
+      "fire_time": "19:43"
+    },
+    {
+      "slot": 10,
+      "type": "fomo",
+      "angle": "JPMorgan removed $ANET from its focus list recently, yet the company sees AI sales doubling and is nearing new highs. Is the market quietly underestimating the magnitude of Arista's AI momentum, despite institutional skepticism?",
+      "fire_time": "20:09"
+    },
+    {
+      "slot": 11,
+      "type": "analytical",
+      "angle": "Arista Networks' projection of doubling AI sales represents a significant growth vector. This ambitious target suggests a potential for substantial market share capture in the high-growth AI infrastructure segment, worth watching closely.",
+      "fire_time": "20:35"
+    },
+    {
+      "slot": 12,
+      "type": "question",
+      "angle": "With KeyBanc raising its price target on $ANET while JPMorgan removed it from its focus list, analysts appear split. Which perspective \u2013 the bullish PT or the cautious removal \u2013 better reflects Arista's true immediate trajectory?",
+      "fire_time": "21:07"
+    },
+    {
+      "slot": 13,
+      "type": "fomo",
+      "angle": "Arista's projected doubling of AI sales, backed by a strong balance sheet pre-AI boom, creates a compelling, quiet narrative. This fundamental strength might be fostering sustained upward pressure on $ANET, unperturbed by broader noise.",
+      "fire_time": "21:33"
+    },
+    {
+      "slot": 14,
+      "type": "wrap",
+      "angle": "As the day closes, all eyes may be on $ANET's AI sales trajectory and how it balances against broader tech sentiment at tomorrow's open. Watch for analyst commentary and any continued strength near its recent highs.",
+      "fire_time": "22:04"
+    }
+  ],
+  "us_posted": []
 }
