@@ -863,18 +863,57 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
     return state
 
 
+def get_ticker_context_with_dates(symbol: str, max_messages: int = 10) -> list[dict]:
+    try:
+        url = f"https://finance.yahoo.com/rss/headline?s={symbol}"
+        resp = requests.get(url, timeout=10, verify=False,
+                            headers={"User-Agent": "Mozilla/5.0"})
+        resp.raise_for_status()
+        import xml.etree.ElementTree as ET
+        from email.utils import parsedate_to_datetime
+        root = ET.fromstring(resp.content)
+        items = root.findall(".//item")
+        results = []
+        for item in items[:max_messages]:
+            title = item.findtext("title")
+            pub_date = item.findtext("pubDate")
+            if not title:
+                continue
+            try:
+                pub_dt = parsedate_to_datetime(pub_date).replace(tzinfo=None) if pub_date else None
+            except Exception:
+                pub_dt = None
+            results.append({"headline": title, "published": pub_dt})
+        return results
+    except Exception as e:
+        log.warning("News fetch with dates failed for %s: %s", symbol, e)
+        return []
+
+
 def check_news_events(state: dict, symbols: list[str]) -> dict:
+    # Only run during market hours CET to avoid off-hours noise
+    if not ("09:00" <= now_hhmm() <= "22:00"):
+        return state
+
     cooldowns = state.setdefault("event_cooldowns", {})
     news_seen = state.setdefault("news_seen", {})
+    now_dt    = datetime.datetime.utcnow()
 
     for symbol in symbols:
         last_event_min = cooldowns.get(f"news_{symbol}", 0)
         if now_minutes() - last_event_min < EVENT_COOLDOWN_MINUTES:
             continue
 
-        headlines = get_ticker_context(symbol, max_messages=10)
-        new_headlines = [h for h in headlines if h not in news_seen.get(symbol, [])]
+        articles = get_ticker_context_with_dates(symbol, max_messages=10)
+
+        # Only consider headlines published within the last 24 hours
+        recent = [
+            a["headline"] for a in articles
+            if a["published"] and (now_dt - a["published"]).total_seconds() < 86400
+        ]
+        new_headlines = [h for h in recent if h not in news_seen.get(symbol, [])]
         if not new_headlines:
+            news_seen[symbol] = [a["headline"] for a in articles]
             continue
 
         classification = classify_news(symbol, new_headlines)
@@ -887,7 +926,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                 if post_tweet(tweet, state):
                     cooldowns[f"news_{symbol}"] = now_minutes()
 
-        news_seen[symbol] = headlines
+        news_seen[symbol] = [a["headline"] for a in articles]
         save_state(state)
 
     return state
@@ -958,14 +997,29 @@ def run_cycle(state: dict) -> dict:
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
-def main():
-    log.info("Bot starting. DRY_RUN=%s  DAILY_LIMIT=%d  HEADLESS=%s",
-             DRY_RUN, DAILY_POST_LIMIT, HEADLESS)
-    log.info("EU watchlist: %s | US watchlist: %s",
-             EU_WATCHLIST or "not set", US_WATCHLIST or "not set")
+LOCK_FILE = os.path.join(os.path.dirname(__file__), "bot.lock")
 
-    state = load_state()
-    state = run_cycle(state)
+
+def main():
+    if os.path.exists(LOCK_FILE):
+        log.warning("Another instance is already running (bot.lock exists) — exiting.")
+        return
+
+    try:
+        with open(LOCK_FILE, "w") as f:
+            f.write(str(os.getpid()))
+
+        log.info("Bot starting. DRY_RUN=%s  DAILY_LIMIT=%d  HEADLESS=%s",
+                 DRY_RUN, DAILY_POST_LIMIT, HEADLESS)
+        log.info("EU watchlist: %s | US watchlist: %s",
+                 EU_WATCHLIST or "not set", US_WATCHLIST or "not set")
+
+        state = load_state()
+        state = run_cycle(state)
+
+    finally:
+        if os.path.exists(LOCK_FILE):
+            os.remove(LOCK_FILE)
 
 
 if __name__ == "__main__":
