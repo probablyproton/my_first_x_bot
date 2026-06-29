@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "daily_posts": 1,
+  "daily_posts": 4,
   "eu_ticker": "ANET",
   "eu_plan": [
     {
@@ -109,11 +109,92 @@
       "angle": "That's the session. Tomorrow's open will be the tell \u2014 watch it closely."
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
   "price_snapshots": {
-    "ANET": 157.6
+    "ANET": 157.6,
+    "CSCO": 113.77,
+    "MRVL": 266.77,
+    "MU": 1132.33,
+    "NOK": 13.01
   },
   "event_cooldowns": {
-    "ANET": 393
+    "ANET": 393,
+    "news_MRVL": 897,
+    "news_MU": 898
+  },
+  "engagement": {},
+  "news_seen": {
+    "ANET": [
+      "JPMorgan Removes Arista Networks (ANET) from Equity Focus List",
+      "The Real Risk Inside Cisco Stock",
+      "Nvidia, Micron, AMD Lead Chip Selloff on OpenAI IPO Delay Report Rattles Tech",
+      "Arista Networks Sees AI Sales Doubling, Nears New High",
+      "What Arista Networks Stock's Balance Sheet Revealed Before the AI Boom",
+      "KeyBanc Raises PT on Arista Networks (ANET) Stock",
+      "Everyone Is Watching Cisco Stock's AI Orders. Here's The Number They Stopped Bragging About.",
+      "Arista and Paradise Commercial Acquire Thornhill Square Shopping Centre",
+      "Analysts Pound The Table For 4 Rising S&P 500 Stocks",
+      "The Zacks Analyst Blog Highlights Micron, The Coca-Cola, Arista Networks and Where Food Comes From"
+    ],
+    "CSCO": [
+      "Here\u2019s Why Cisco (CSCO) is Among the 15 Best AI Stocks That Will Make You Rich in 10 Years",
+      "JPMorgan Removes Arista Networks (ANET) from Equity Focus List",
+      "The Real Risk Inside Cisco Stock",
+      "The Old-School Signal That Lit Up Palo Alto Networks Stock",
+      "Cisco to lay off more than 400 workers in California",
+      "Nvidia, Micron, AMD Lead Chip Selloff on OpenAI IPO Delay Report Rattles Tech",
+      "1 Growth Stock Set to Flourishand 2 Facing Headwinds",
+      "Fabrinet Is Becoming a Quiet Winner in the AI Optics Buildout",
+      "Q1 Earnings Roundup: Cisco (NASDAQ:CSCO) And The Rest Of The IT Services & Other Tech Segment",
+      "2 Growth Stocks with Explosive Upside and 1 Facing Challenges"
+    ],
+    "MRVL": [
+      "Stock futures rise as U.S. and Iran agree to stop latest attacks",
+      "Amazon Explores External Trainium Chip Sales, Putting Marvell (MRVL) in Focus",
+      "Stifel Raises PT on Astera Labs (ALAB)",
+      "5 AI Hardware Stocks Create a New \u2018MANIA\u2019 Trade That Replaces the Magnificent 7. Hedge Your Bets on the Hot Tickers with These 2 Leveraged ETFs.",
+      "Stifel Raises its Price Target on Marvell Technology (MRVL)",
+      "Is Broadcom (AVGO) One of the Best Trending AI Stocks to Watch in 2026?",
+      "2 Artificial Intelligence (AI) Stocks to Buy as Demand for Custom Chips Soars",
+      "Marvell Technology (NasdaqGS:MRVL) Expands AI Push With Nvidia Deal And Two Acquisitions",
+      "What If The Real Power Behind Marvell Stock Isn't Just Growth?",
+      "AI Power Stocks Could Be a Once-in-a-Generation Trade. Start With the Companies Behind Every Data Center."
+    ],
+    "MU": [
+      "Latest News In AI Chips - WNSTN Joins Google Marketplace Elevating Financial AI Compliance",
+      "New leader board: Citi refreshes AI compute semiconductor picks",
+      "Stock futures rise as U.S. and Iran agree to stop latest attacks",
+      "'One-time opportunity': South Korea bets big on AI boom",
+      "SK Hynix Just Sent a Huge Warning to Micron Investors",
+      "2 Unpopular Stocks That Deserve Some Love and 1 We Avoid",
+      "Comcast, Alphabet, Palantir, SpaceX, Microsoft, and More Stocks That Explain Today\u2019s Market",
+      "Can Micron (MU) \u2019s Deal With Anthropic Cement Its Place in the AI Memory Market?",
+      "Micron Stock Has Soared by More Than 12X. Can It Double Again?",
+      "How Micron Stock Will Fight Off Rivals\u2019 $500 Billion Memory-Chip Move"
+    ],
+    "NOK": [
+      "Amazon.com (AMZN) Partners With Nokia, Here\u2019s What You Need to Know",
+      "Nokia (HLSE:NOKIA) Partners With Nvidia To Build AI RAN 6G Networks",
+      "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now",
+      "2 Nvidia-Owned Stocks Investors Should Buy Now",
+      "Is Alphabet (GOOG) One of the Top Trending US Stocks to Buy Now?",
+      "Google DeepMind and A24 Announces First-of-its-Kind Partnership",
+      "Alphabet (GOOG) Reports Computer Use Now a Built-In Tool Supported in Gemini 3.5 Flash",
+      "NOK Stock Heads For Second Straight Weekly Loss \u2014 Retail Sees Dip As Buying Chance",
+      "Can Motorola's AI Expansion for Mission-Critical Response Aid Stock?",
+      "Trump name-dropped Nokia and Eli Lilly in a Pennsylvania speech. Here's what happened to 5 other stocks he singled out"
+    ]
   }
 }
