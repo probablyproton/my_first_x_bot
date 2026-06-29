@@ -48,7 +48,6 @@ EVENT_INTERVAL_THRESHOLD_PCT = float(os.getenv("EVENT_INTERVAL_THRESHOLD_PCT", "
 EVENT_DAY_THRESHOLD_PCT      = float(os.getenv("EVENT_DAY_THRESHOLD_PCT", "4.0"))
 EVENT_COOLDOWN_MINUTES       = int(os.getenv("EVENT_COOLDOWN_MINUTES", "12"))
 
-# GitHub Actions sets CI=true automatically — run headless in the cloud
 HEADLESS = os.getenv("CI", "false") == "true"
 
 STATE_FILE   = os.path.join(os.path.dirname(__file__), "state.json")
@@ -56,7 +55,7 @@ SESSION_FILE = os.path.join(os.path.dirname(__file__), "twitter_session.json")
 
 DAILY_POST_LIMIT = 30
 
-# ── Slot definitions ───────────────────────────────────────────────────────────
+# ── Slot definitions ──────────────────────────────────────────────────────────
 
 EU_SLOTS = [
     ("09:00", "hook"),
@@ -172,6 +171,19 @@ def now_minutes() -> int:
     n = datetime.datetime.now()
     return n.hour * 60 + n.minute
 
+
+def is_weekend() -> bool:
+    return datetime.date.today().weekday() >= 5
+
+
+def active_tickers_sorted() -> list[str]:
+    combined = set(EU_WATCHLIST + US_WATCHLIST)
+    if EU_FOCUS_TICKER:
+        combined.add(EU_FOCUS_TICKER)
+    if US_FOCUS_TICKER:
+        combined.add(US_FOCUS_TICKER)
+    return sorted(combined)
+
 # ── Data ──────────────────────────────────────────────────────────────────────
 
 def get_ticker_context(symbol: str, max_messages: int = 8) -> list[str]:
@@ -200,50 +212,45 @@ def get_price_context(symbol: str) -> dict:
         log.warning("yfinance failed for %s: %s", symbol, e)
         return {}
 
-# ── Daily plan ────────────────────────────────────────────────────────────────
 
-PLANNER_SYSTEM_WEEKDAY = """You are planning a day of Twitter content about a single stock ticker.
-Return a JSON array. Each object must have:
-  - "slot": integer index (0-based)
-  - "type": matching the type provided
-  - "angle": one sentence — the specific narrative angle for that tweet
+def is_market_open(symbol: str) -> bool:
+    try:
+        info = yf.Ticker(symbol).fast_info
+        return bool(info.market_cap and info.last_price and info.last_price != info.previous_close)
+    except Exception:
+        return False
 
-Rules:
-- GROUND every angle in the recent news headlines provided. Reference real events, deals, or data points.
-- If news mentions a specific partnership, earnings beat, contract win, or analyst call — use it.
-- Every angle must be tight, punchy, and distinct. These are 280-character tweets.
-- The angles must build a coherent story arc across the day.
-- hook slots: open with the most striking news item or price action fact.
-- analytical slots: use actual numbers, ratios, or price levels from the news/price context.
-- fomo slots: quiet, unsettling observation based on a real event the market may be underpricing.
-  Think: "X happened and the stock barely moved — that's not normal."
-- question slots: spark genuine debate based on a specific news angle.
-- wrap slots: tease what to watch tomorrow based on actual upcoming catalysts.
-Return ONLY the JSON array, no other text."""
 
-PLANNER_SYSTEM_WEEKEND = """You are planning weekend Twitter content about a single stock ticker.
-Markets are closed. Return a JSON array. Each object must have:
-  - "slot": integer index (0-based)
-  - "type": matching the type provided
-  - "angle": one sentence — the specific narrative angle for that tweet
+def market_session_open(symbol: str) -> bool:
+    try:
+        ticker = yf.Ticker(symbol)
+        hist = ticker.history(period="1d", interval="1m")
+        if hist.empty:
+            return False
+        last_ts = hist.index[-1]
+        now_utc = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
+        minutes_since_last_trade = (now_utc - last_ts).total_seconds() / 60
+        return minutes_since_last_trade < 15
+    except Exception as e:
+        log.warning("Market open check failed for %s: %s", symbol, e)
+        return False
 
-Weekend rules — STRICT:
-- GROUND angles in the recent news headlines provided. Reference specific events from the past week.
-- NEVER reference today's price, daily % moves, or live market activity — markets are closed.
-- NEVER use phrases like "today", "this session", "the dip", "down X%", "up X%".
-- Focus on: week-in-review, structural thesis grounded in recent news, what to watch Monday.
-- question slots: mix of community engagement and Monday setup:
-    * "Will $TICKER open green or red Monday — and why?"
-    * "Are you adding more before Monday's open, or waiting for a clearer entry?"
-    * "Bull or bear on $TICKER into next week?"
-    * "What's the Monday morning trade on $TICKER?"
-    * "Given [specific news], do you think the market has priced this in yet?"
-- fomo slots: quiet long-term conviction tied to a specific real development from the week.
-- hook slots: open with a striking fact, paradox, or overlooked news item from the past week.
-- wrap slots: name 2-3 specific catalysts or events to watch in the coming week.
-- Every angle must be distinct. Build a coherent weekend narrative.
-Return ONLY the JSON array, no other text."""
 
+def get_week_performance(symbols: list[str]) -> dict[str, float]:
+    result = {}
+    for symbol in symbols:
+        try:
+            ticker = yf.Ticker(symbol)
+            hist = ticker.history(period="5d")
+            if len(hist) >= 2:
+                start = hist["Close"].iloc[0]
+                end   = hist["Close"].iloc[-1]
+                result[symbol] = round((end - start) / start * 100, 2)
+        except Exception as e:
+            log.warning("Week performance failed for %s: %s", symbol, e)
+    return result
+
+# ── Gemini ────────────────────────────────────────────────────────────────────
 
 def _gemini(system: str, prompt: str) -> str:
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -264,20 +271,73 @@ def _gemini(system: str, prompt: str) -> str:
         except urllib.error.HTTPError as e:
             if e.code in (429, 503) and attempt < 2:
                 wait = 30 * (attempt + 1)
-                log.warning("Gemini %d — waiting %ds before retry %d/2", e.code, wait, attempt + 1)
+                log.warning("Gemini %d – waiting %ds before retry %d/2", e.code, wait, attempt + 1)
                 time.sleep(wait)
             else:
                 raise
 
+# ── Daily plan ────────────────────────────────────────────────────────────────
+
+PLANNER_SYSTEM_WEEKDAY = """You are planning a day of Twitter content about a single stock ticker.
+Return a JSON array. Each object must have:
+  - "slot": integer index (0-based)
+  - "type": matching the type provided
+  - "angle": one sentence – the specific narrative angle for that tweet
+
+Rules:
+- GROUND every angle in the recent news headlines provided. Reference real events, deals, or data points.
+- If news mentions a specific partnership, earnings beat, contract win, or analyst initiation – use it.
+- Every angle must carry a point of view or forward hook. Never purely descriptive.
+- Always frame as possibility: "X happened, which could mean Y" or "X happened – is the market pricing this in?"
+- Never use definitive predictions: no "will", "confirms", "proves", "guarantees".
+- Use: could, might, may, potentially, worth watching, raises the question.
+- Never reference a specific day name. Use "at the open" or "tomorrow's open" instead of "Monday", "Tuesday", etc.
+- Never use em dash. Use en dash (–) only.
+- hook slots: open with the most striking news item or price action fact, end with a hook.
+- analytical slots: use actual numbers, ratios, or price levels from the news/price context.
+- fomo slots: quiet, unsettling observation based on a real event the market may be underpricing.
+  Example: "X signed a deal last week and the stock barely moved – that might not last."
+- question slots: spark genuine debate based on a specific news angle.
+- wrap slots: tease specific catalysts to watch at the open.
+- Every angle must be distinct. Build a coherent story arc across the day.
+Return ONLY the JSON array, no other text."""
+
+PLANNER_SYSTEM_WEEKEND = """You are planning weekend Twitter content about a single stock ticker.
+Markets are closed. Return a JSON array. Each object must have:
+  - "slot": integer index (0-based)
+  - "type": matching the type provided
+  - "angle": one sentence – the specific narrative angle for that tweet
+
+Weekend rules – STRICT:
+- GROUND angles in the recent news headlines provided. Reference specific events from the past week.
+- NEVER reference today's price, daily % moves, or live market activity – markets are closed.
+- NEVER use phrases like "today", "this session", "the dip", "down X%", "up X%".
+- Every angle must carry a point of view or forward hook. Never purely descriptive.
+- Always frame as possibility: "X happened, which could mean Y" or "X happened – is the market pricing this in?"
+- Never use definitive predictions: no "will", "confirms", "proves", "guarantees".
+- Never reference a specific day name. Use "at the open" or "tomorrow's open" instead.
+- Never use em dash. Use en dash (–) only.
+- Focus on: week-in-review, structural thesis grounded in recent news, what to watch at the open.
+- question slots: community engagement and open setup:
+    * "Will this go 🟢 or 🔴 at the open – what's your read?"
+    * "Are you adding before the open, or waiting for a clearer entry?"
+    * "Bull or bear into next week?"
+    * "Given [specific news], do you think the market has priced this in yet?"
+- fomo slots: quiet long-term conviction tied to a specific real development from the week.
+- hook slots: open with a striking fact, paradox, or overlooked news item from the past week.
+- wrap slots: name 2-3 specific catalysts or events to watch at the open.
+- Every angle must be distinct. Build a coherent weekend narrative.
+Return ONLY the JSON array, no other text."""
+
 
 _FALLBACK_ANGLES = {
-    "hook":       "This ticker is being systematically overlooked. The setup is rare.",
-    "analytical": "Let's cut through the noise and look at what the chart is actually saying.",
-    "question":   "Are you bullish or bearish on this name heading into next week?",
+    "hook":       "This ticker is being systematically overlooked – the setup is rare.",
+    "analytical": "Let's cut through the noise and look at what the data is actually saying.",
+    "question":   "Are you bullish or bearish on this name heading into the open?",
     "fomo":       "The quiet accumulation phase doesn't announce itself. This might be it.",
     "reaction":   "The price action here is telling a story most people are misreading.",
-    "wrap":       "That's the session. Tomorrow's open will be the tell — watch it closely.",
-    "event":      "Big move. Here's what the market is pricing in — and what it's missing.",
+    "wrap":       "That's the session. Tomorrow's open will be the tell – watch it closely.",
+    "event":      "Big move. Here's what the market could be pricing in – and what it might be missing.",
 }
 
 
@@ -291,7 +351,7 @@ def generate_daily_plan(symbol: str, slots: list[dict], price_ctx: dict, market:
     news_block = "\n".join(f"- {h}" for h in news) if news else "No recent news available."
 
     slot_list = "\n".join(
-        f"  slot {s['slot']}: {s['target_time']} — {s['type']}" for s in slots
+        f"  slot {s['slot']}: {s['target_time']} – {s['type']}" for s in slots
     )
 
     prompt = f"""Plan a {market} market day of Twitter content about ${symbol}.
@@ -329,7 +389,7 @@ def pick_ticker(watchlist: list[str], override: str, label: str) -> str:
     if watchlist:
         day_index = (datetime.date.today() - datetime.date(2026, 1, 1)).days
         return watchlist[day_index % len(watchlist)]
-    log.warning("No %s watchlist configured — defaulting to SPY", label)
+    log.warning("No %s watchlist configured – defaulting to SPY", label)
     return "SPY"
 
 
@@ -347,9 +407,9 @@ def ensure_storyline(state: dict, key: str, watchlist: list[str], override: str,
     state[f"{key}_plan"]   = plan
     state[f"{key}_posted"] = []
 
-    log.info("%s story: $%s — %d slots planned", key.upper(), symbol, len(plan))
+    log.info("%s story: $%s – %d slots planned", key.upper(), symbol, len(plan))
     for p in plan:
-        log.info("  [%s] %s — %s", p["fire_time"], p["type"].upper(), p["angle"])
+        log.info("  [%s] %s – %s", p["fire_time"], p["type"].upper(), p["angle"])
 
     return state
 
@@ -370,29 +430,106 @@ def ensure_daily_plans(state: dict) -> dict:
 
 # ── Tweet generation ──────────────────────────────────────────────────────────
 
-TWEET_SYSTEM = """You are a sharp financial Twitter personality — punchy, direct, data-driven.
+TWEET_SYSTEM = """You are a sharp financial Twitter personality – punchy, direct, data-driven.
 
-CRITICAL RULE: If recent news headlines are provided, your tweet MUST reference or react to at least one of them specifically. Never write generic observations ("the backbone of tomorrow", "building something big") when real news exists to anchor the tweet. Specific > vague. Always.
-
-Style rules:
-- 2-3 emojis max, placed for visual punch
-- 1-2 hashtags max, only if they add signal
-- No filler phrases ("hot take", "buckle up", "thread", "building the backbone")
-- Short sentences. Bold claims. Real events. Facts over fluff.
-- Sound like a smart trader talking to other smart traders
-- MUST be ≤280 characters
+CRITICAL RULES:
+- If recent news headlines are provided, your tweet MUST reference or react to at least one specifically.
+- Never write generic observations when real news exists to anchor the tweet. Specific beats vague, always.
+- Every tweet must have a point of view or end with a hook. Never end on a plain statement.
+- Frame all forward-looking statements as possibilities, never certainties.
+  Use: could, might, may, potentially, worth watching, raises the question.
+  Never: will, confirms, proves, guarantees.
+- Never reference a specific day name. Use "at the open" or "tomorrow's open" instead.
+- Never use em dash. Use en dash (–) only.
+- Use line breaks to create breathing room – no walls of text.
+- Emoji only where it adds visual meaning: 🟢🔴 for green/red calls, 👇 for CTAs. Never decorative.
+- No filler phrases: "hot take", "buckle up", "thread", "building the backbone", "this is huge".
+- 1-2 hashtags max, only if they add signal.
+- MUST be under 280 characters.
 
 Tweet types:
-  hook       — stops the scroll. Tie it to a real news item or price development.
-  analytical — reference specific numbers, price levels, or data points from the news/context.
-  question   — one sharp genuine question rooted in real news or price action. No fake urgency.
-  reaction   — weekdays: ground in the actual price move. Weekends: react to the week's news, NOT daily moves.
-  fomo       — short, calm, unsettling observation based on a real event being underpriced.
-               Example: "$NOK signed a massive 5G deal last week. Stock barely moved. That's not normal."
-  wrap       — closes the session. Name specific catalysts to watch next.
-  event      — urgent reaction to a sudden price move. Raw and immediate.
+  hook       – stops the scroll. Tie it to a real news item or price development. End with a hook.
+  analytical – reference specific numbers, price levels, or data points. End with a question or implication.
+  question   – one sharp genuine question rooted in real news or price action. No fake urgency.
+  reaction   – weekdays: ground in the actual price move.
+               Weekends: react to the week's news, not daily moves.
+  fomo       – short, calm, unsettling observation based on a real event being underpriced.
+               Example: "$NOK signed a massive 5G deal last week. Stock barely moved.
+               That might not last."
+  wrap       – closes the session. Name specific catalysts to watch at the open.
+  event      – urgent reaction to a price move or major news. Raw and immediate.
+               Must include a "so what" framed as possibility, not prediction.
+               End with a 🟢🔴 question or CTA.
 
 Output ONLY the tweet text. No quotes, no commentary."""
+
+NEWS_CLASSIFIER_SYSTEM = """You are a financial news classifier. Given a news headline and a stock ticker, determine if the headline represents a major catalyst that could significantly move the stock price.
+
+A headline qualifies as MAJOR if it meets ANY of these criteria:
+
+Earnings:
+- EPS beat or miss vs estimate: >5%
+- Revenue beat or miss vs estimate: >3%
+- Full-year guidance raise or cut: any
+- Margin guidance change: >2 percentage points
+
+Contract / Partnership:
+- Contract value: >$100M or described as "major", "significant", "multi-year"
+- New major customer win or loss: any
+- Government or defense contract: any
+
+M&A:
+- Acquisition, merger, or buyout: any
+- Buyout rumor with named acquirer: any
+- Asset sale >$500M: any
+
+Analyst:
+- First-ever initiation of coverage by a major firm only (not upgrades/downgrades)
+
+Regulatory / Geopolitical:
+- Named company or direct sector ruling: any
+- Export control or sanctions affecting supply chain: any
+- Government security ban on competitor or own products: any
+- CHIPS Act or equivalent government funding: any
+
+Macro:
+- Hyperscaler capex revision: >$1B
+- Fed rate decision surprise vs expectation: any
+- Semiconductor supply/demand shift: >10%
+
+Company-specific:
+- Share buyback announcement: >$500M
+- Insider buying: >$1M in a single transaction
+- Dividend change: any
+- Loss of a top 3 customer: any
+- Patent win or loss in core business area: any
+
+Ignore: opinion pieces, analysis recaps, general market commentary not specific to the ticker.
+
+Respond with a JSON object:
+{
+  "is_major": true or false,
+  "category": "earnings|contract|ma|analyst|regulatory|macro|company|none",
+  "headline": "the exact headline that triggered this",
+  "reason": "one sentence explaining why it qualifies or not"
+}
+
+Return ONLY the JSON object, no other text."""
+
+ENGAGEMENT_SYSTEM = """You are writing a weekly engagement post for a financial Twitter account focused on AI infrastructure stocks – connectivity, memory, networking. The account tracks the unglamorous but essential picks behind the AI buildout.
+
+Rules:
+- Casual, direct, first-person voice – never sounds automated
+- Use line breaks generously – no walls of text
+- Always list tickers alphabetically and on separate lines with $ prefix
+- Always end with a question or CTA
+- Emoji only where it adds visual meaning: 🟢🔴 for green/red, 👇 for CTAs. Never decorative.
+- No filler, no hype, no em dash – use en dash (–) only
+- Never reference a specific day name. Use "at the open" or "tomorrow's open".
+- Forward-looking statements as possibilities only: could, might, may – never will or confirms.
+- MUST be under 280 characters.
+
+Output ONLY the post text. No quotes, no commentary."""
 
 
 def generate_tweet(symbol: str, slot: dict, price_ctx: dict, community: list[str],
@@ -403,7 +540,7 @@ def generate_tweet(symbol: str, slot: dict, price_ctx: dict, community: list[str
         price_str = f"Live: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"
 
     news_block = "\n".join(f"- {m}" for m in community) if community else ""
-    news_section = f"\nRecent news headlines (reference at least one in your tweet):\n{news_block}" if news_block else "\nNo recent news available — use the angle and price context only."
+    news_section = f"\nRecent news headlines (reference at least one in your tweet):\n{news_block}" if news_block else "\nNo recent news available – use the angle and price context only."
     angle      = event_trigger if event_trigger else slot["angle"]
     tweet_type = "event"      if event_trigger else slot["type"]
 
@@ -414,7 +551,7 @@ Angle: {angle}
 Tweet type: {tweet_type}
 {news_section}
 
-Write the tweet. Keep it under 280 characters. Be specific — name real events, numbers, or catalysts."""
+Write the tweet. Keep it under 280 characters. Be specific – name real events, numbers, or catalysts. Use line breaks for breathing room. End with a point of view, question, or CTA."""
 
     try:
         text = _gemini(TWEET_SYSTEM, prompt).strip('"').strip("'")
@@ -423,7 +560,182 @@ Write the tweet. Keep it under 280 characters. Be specific — name real events,
         log.error("Tweet generation failed: %s", e)
     return None
 
-# ── Twitter via Playwright ─────────────────────────────────────────────────────
+# ── News event classifier ─────────────────────────────────────────────────────
+
+def classify_news(symbol: str, headlines: list[str]) -> dict | None:
+    if not headlines:
+        return None
+
+    headlines_block = "\n".join(f"- {h}" for h in headlines)
+    prompt = f"""Ticker: ${symbol}
+
+Headlines:
+{headlines_block}
+
+Classify whether any of these headlines is a major catalyst for ${symbol}."""
+
+    try:
+        text = _gemini(NEWS_CLASSIFIER_SYSTEM, prompt)
+        if text.startswith("```"):
+            text = text.split("```")[1]
+            if text.startswith("json"):
+                text = text[4:]
+        result = json.loads(text.strip())
+        if result.get("is_major"):
+            return result
+    except Exception as e:
+        log.warning("News classification failed for %s: %s", symbol, e)
+    return None
+
+
+NEWS_EVENT_SYSTEM = """You are a sharp financial Twitter personality reacting to a major news event for a stock.
+
+Rules:
+- Reference the specific headline – never generic reactions
+- Include a "so what": what this could mean for price, margins, market share, or competitive position
+- Frame all implications as possibilities, never certainties
+  Use: could, might, may, potentially, raises the question, worth asking
+  Never: will, confirms, proves, guarantees
+- End with one of:
+  * A 🟢🔴 green/red at the open question
+  * A sharp CTA (👇)
+  * A genuine forward-looking question
+- Never restate the headline without adding meaning
+- No filler: "this is huge", "big news", "buckle up"
+- Use line breaks – no walls of text
+- Emoji only where it adds visual meaning: 🟢🔴, 👇
+- Never use em dash. Use en dash (–) only.
+- Never reference a specific day name. Use "at the open" or "tomorrow's open".
+- MUST be under 280 characters.
+
+Output ONLY the tweet text. No quotes, no commentary."""
+
+
+def generate_news_event_tweet(symbol: str, classification: dict, price_ctx: dict) -> str | None:
+    price_str = ""
+    if price_ctx and not is_weekend():
+        sign = "+" if price_ctx["change_pct"] >= 0 else ""
+        price_str = f"Current: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"
+
+    prompt = f"""Ticker: ${symbol}
+{price_str}
+
+Major news headline: {classification['headline']}
+Category: {classification['category']}
+Why it qualifies: {classification['reason']}
+
+Write a reaction tweet. Be specific. Add a "so what" framed as possibility. End with a 🟢🔴 question or CTA."""
+
+    try:
+        text = _gemini(NEWS_EVENT_SYSTEM, prompt).strip('"').strip("'")
+        return text[:277].rsplit(" ", 1)[0] + "..." if len(text) > 280 else text
+    except Exception as e:
+        log.error("News event tweet generation failed: %s", e)
+    return None
+
+# ── Weekly engagement posts ───────────────────────────────────────────────────
+
+def check_weekly_engagement(state: dict) -> dict:
+    today_str  = today()
+    weekday    = datetime.date.today().weekday()
+    now        = now_hhmm()
+    tickers    = active_tickers_sorted()
+    ticker_str = "\n".join(f"${t}" for t in tickers)
+    engagement = state.setdefault("engagement", {})
+
+    posts = []
+
+    # All time windows are CET (TZ=Europe/Amsterdam set on runner)
+    # Monday open:      07:00–08:30 CET (pre-market, before EU open at 09:00)
+    # Wednesday midday: 12:00–13:30 CET
+    # Friday close:     17:00–18:30 CET (after EU market close)
+    # Saturday recap:   10:00–11:30 CET
+
+    if weekday == 0 and "07:00" <= now <= "08:30" and engagement.get("monday") != today_str:
+        posts.append(("monday", f"""Write a Monday opening post for a financial Twitter account.
+
+This week's tickers (already sorted alphabetically, list them exactly as given):
+{ticker_str}
+
+Format:
+- Open with a short intro line about tracking these this week
+- List the tickers on separate lines
+- End with: "$1000 to allocate across these – how do you split it? 👇"
+
+Keep it casual, direct, under 280 characters."""))
+
+    if weekday == 2 and "12:00" <= now <= "13:30" and engagement.get("wednesday") != today_str:
+        posts.append(("wednesday", f"""Write a midweek engagement post for a financial Twitter account.
+
+This week's tickers (already sorted alphabetically, list them exactly as given):
+{ticker_str}
+
+Format:
+- Open with a short midweek check-in line
+- List the tickers on separate lines
+- End with: "Which one did you add this week? 👇"
+
+Keep it casual, direct, under 280 characters."""))
+
+    if weekday == 4 and "17:00" <= now <= "18:30" and engagement.get("friday") != today_str:
+        posts.append(("friday", f"""Write a Friday closing post for a financial Twitter account.
+
+This week's tickers (already sorted alphabetically, list them exactly as given):
+{ticker_str}
+
+Format:
+- Open with a short week wrap line
+- List the tickers on separate lines
+- End with what to watch at the open next week and a CTA
+
+Keep it casual, direct, under 280 characters."""))
+
+    if weekday == 6 and "19:00" <= now <= "20:00" and engagement.get("sunday") != today_str:
+        posts.append(("sunday", f"""Write a Sunday evening weekly outlook post for a financial Twitter account focused on AI infrastructure stocks.
+
+This week's tickers (already sorted alphabetically, list them exactly as given):
+{ticker_str}
+
+Format:
+- Open with a short line about the week ahead
+- List the tickers on separate lines
+- For each ticker hint at what could matter this week (catalysts, earnings, macro events) framed as possibilities – could, might, worth watching
+- End with a forward-looking question or CTA about the open
+
+Keep it calm, considered, under 280 characters. No hype. No em dash – use en dash only."""))
+
+    if weekday == 5 and "10:00" <= now <= "11:30" and engagement.get("saturday") != today_str:
+        perf = get_week_performance(tickers)
+        if perf:
+            perf_lines = "\n".join(
+                f"${t}  {'+' if v >= 0 else ''}{v}%" for t, v in sorted(perf.items())
+            )
+            posts.append(("saturday", f"""Write a Saturday weekly performance post for a financial Twitter account.
+
+Weekly performance (use exactly these numbers, tickers already sorted alphabetically):
+{perf_lines}
+
+Format:
+- Open with "Week in numbers:" or similar
+- List each ticker and its performance on a separate line exactly as given
+- End with an engaging question like "Which one surprised you most? 👇"
+
+Keep it casual, direct, under 280 characters."""))
+
+    for key, prompt in posts:
+        try:
+            text = _gemini(ENGAGEMENT_SYSTEM, prompt).strip('"').strip("'")
+            tweet = text[:277].rsplit(" ", 1)[0] + "..." if len(text) > 280 else text
+            log.info("Engagement [%s] (%d chars):\n%s", key, len(tweet), tweet)
+            if post_tweet(tweet, state):
+                engagement[key] = today_str
+                save_state(state)
+        except Exception as e:
+            log.error("Engagement post [%s] failed: %s", key, e)
+
+    return state
+
+# ── Twitter via Playwright ────────────────────────────────────────────────────
 
 _BROWSER_UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -442,7 +754,7 @@ def _apply_stealth(page):
 
 def post_tweet(text: str, state: dict) -> bool:
     if state.get("daily_posts", 0) >= DAILY_POST_LIMIT:
-        log.info("Daily post limit (%d) reached — skipping", DAILY_POST_LIMIT)
+        log.info("Daily post limit (%d) reached – skipping", DAILY_POST_LIMIT)
         return False
 
     if DRY_RUN:
@@ -471,7 +783,6 @@ def post_tweet(text: str, state: dict) -> bool:
             page.goto("https://x.com/home", wait_until="load", timeout=60000)
             time.sleep(random.uniform(2.0, 3.0))
 
-            # Use the inline compose box on the home page — no modal, no overlay issues
             textarea = page.locator("[data-testid='tweetTextarea_0']").first
             textarea.wait_for(timeout=15000)
             textarea.click()
@@ -537,18 +848,48 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
             )
 
         if trigger:
-            log.info("EVENT triggered for $%s: %s", symbol, trigger)
+            log.info("PRICE EVENT triggered for $%s: %s", symbol, trigger)
             community = get_ticker_context(symbol)
             slot  = {"type": "event", "format": "short", "angle": trigger}
             tweet = generate_tweet(symbol, slot, price_ctx, community, event_trigger=trigger)
             if tweet:
-                log.info("Event tweet (%d chars):\n%s", len(tweet), tweet)
+                log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
                 if post_tweet(tweet, state):
                     cooldowns[symbol] = now_minutes()
 
         snapshots[symbol] = current
 
     save_state(state)
+    return state
+
+
+def check_news_events(state: dict, symbols: list[str]) -> dict:
+    cooldowns = state.setdefault("event_cooldowns", {})
+    news_seen = state.setdefault("news_seen", {})
+
+    for symbol in symbols:
+        last_event_min = cooldowns.get(f"news_{symbol}", 0)
+        if now_minutes() - last_event_min < EVENT_COOLDOWN_MINUTES:
+            continue
+
+        headlines = get_ticker_context(symbol, max_messages=10)
+        new_headlines = [h for h in headlines if h not in news_seen.get(symbol, [])]
+        if not new_headlines:
+            continue
+
+        classification = classify_news(symbol, new_headlines)
+        if classification:
+            log.info("NEWS EVENT for $%s [%s]: %s", symbol, classification["category"], classification["headline"])
+            price_ctx = get_price_context(symbol)
+            tweet = generate_news_event_tweet(symbol, classification, price_ctx)
+            if tweet:
+                log.info("News event tweet (%d chars):\n%s", len(tweet), tweet)
+                if post_tweet(tweet, state):
+                    cooldowns[f"news_{symbol}"] = now_minutes()
+
+        news_seen[symbol] = headlines
+        save_state(state)
+
     return state
 
 # ── Cycle ─────────────────────────────────────────────────────────────────────
@@ -581,7 +922,12 @@ def process_storyline(state: dict, key: str) -> dict:
     if not slot:
         return state
 
-    log.info("%s slot due: [%s] %s — %s",
+    # Override session-closing slot types if the market is still open for this ticker
+    if slot["type"] in ("wrap", "reaction") and market_session_open(symbol):
+        log.info("Market still open for $%s – overriding %s slot to analytical", symbol, slot["type"])
+        slot = {**slot, "type": "analytical"}
+
+    log.info("%s slot due: [%s] %s – %s",
              key.upper(), slot.get("fire_time") or slot.get("target_time"), slot["type"].upper(), slot["angle"])
 
     price_ctx = get_price_context(symbol)
@@ -597,19 +943,16 @@ def process_storyline(state: dict, key: str) -> dict:
     return state
 
 
-def is_weekend() -> bool:
-    return datetime.date.today().weekday() >= 5
-
-
 def run_cycle(state: dict) -> dict:
     state = ensure_daily_plans(state)
+    state = check_weekly_engagement(state)
     state = process_storyline(state, "eu")
     state = process_storyline(state, "us")
 
-    if not is_weekend():
-        watched = list({state.get("eu_ticker", ""), state.get("us_ticker", "")} - {""})
-        if watched:
-            state = check_price_events(state, watched)
+    all_tickers = active_tickers_sorted()
+    if not is_weekend() and all_tickers:
+        state = check_price_events(state, all_tickers)
+        state = check_news_events(state, all_tickers)
 
     return state
 
@@ -623,12 +966,6 @@ def main():
 
     state = load_state()
     state = run_cycle(state)
-    # Single cycle — GitHub Actions re-triggers on schedule
-    # For local continuous run, uncomment the loop below:
-    # while True:
-    #     time.sleep(120)
-    #     state = load_state()
-    #     state = run_cycle(state)
 
 
 if __name__ == "__main__":
