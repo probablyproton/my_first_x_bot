@@ -1,6 +1,6 @@
 {
   "date": "2026-06-29",
-  "daily_posts": 5,
+  "daily_posts": 7,
   "eu_ticker": "ANET",
   "eu_plan": [
     {
@@ -122,23 +122,26 @@
     9,
     10,
     11,
-    12
+    12,
+    13
   ],
   "price_snapshots": {
-    "ANET": 158.84,
-    "CSCO": 116.28,
-    "MRVL": 256.8,
-    "MU": 1057.56,
-    "NOK": 12.39
+    "ANET": 162.49,
+    "CSCO": 116.85,
+    "MRVL": 262.82,
+    "MU": 1073.88,
+    "NOK": 12.71
   },
   "event_cooldowns": {
     "ANET": 393,
     "news_MRVL": 897,
-    "news_MU": 898
+    "news_MU": 898,
+    "NOK": 1030
   },
   "engagement": {},
   "news_seen": {
     "ANET": [
+      "Arista Networks, Inc. (ANET) Is a Trending Stock: Facts to Know Before Betting on It",
       "JPMorgan Removes Arista Networks (ANET) from Equity Focus List",
       "The Real Risk Inside Cisco Stock",
       "Nvidia, Micron, AMD Lead Chip Selloff on OpenAI IPO Delay Report Rattles Tech",
@@ -147,8 +150,7 @@
       "KeyBanc Raises PT on Arista Networks (ANET) Stock",
       "Everyone Is Watching Cisco Stock's AI Orders. Here's The Number They Stopped Bragging About.",
       "Arista and Paradise Commercial Acquire Thornhill Square Shopping Centre",
-      "Analysts Pound The Table For 4 Rising S&P 500 Stocks",
-      "The Zacks Analyst Blog Highlights Micron, The Coca-Cola, Arista Networks and Where Food Comes From"
+      "Analysts Pound The Table For 4 Rising S&P 500 Stocks"
     ],
     "CSCO": [
       "Here\u2019s Why Cisco (CSCO) is Among the 15 Best AI Stocks That Will Make You Rich in 10 Years",
@@ -292,5 +294,9 @@
       "fire_time": "22:04"
     }
   ],
-  "us_posted": []
+  "us_posted": [
+    0,
+    1,
+    2
+  ]
 }
