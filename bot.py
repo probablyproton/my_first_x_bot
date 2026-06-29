@@ -47,6 +47,7 @@ US_FOCUS_TICKER              = os.getenv("US_FOCUS_TICKER", "").strip().upper().
 EVENT_INTERVAL_THRESHOLD_PCT = float(os.getenv("EVENT_INTERVAL_THRESHOLD_PCT", "1.5"))
 EVENT_DAY_THRESHOLD_PCT      = float(os.getenv("EVENT_DAY_THRESHOLD_PCT", "4.0"))
 EVENT_COOLDOWN_MINUTES       = int(os.getenv("EVENT_COOLDOWN_MINUTES", "12"))
+NEWS_COOLDOWN_MINUTES        = 60
 
 HEADLESS = os.getenv("CI", "false") == "true"
 
@@ -203,17 +204,53 @@ def get_ticker_context(symbol: str, max_messages: int = 8) -> list[str]:
 
 def get_price_context(symbol: str) -> dict:
     try:
-        info   = yf.Ticker(symbol).fast_info
-        price  = round(info.last_price, 2)
+        ticker = yf.Ticker(symbol)
+        info   = ticker.fast_info
         prev   = round(info.previous_close, 2)
-        if prev <= 0 or price <= 0:
+        if prev <= 0:
             return {}
-        # Reject clearly bad data — price should never be >3x or <0.3x previous close
+
+        # Use 1-minute history last close as primary price — more reliable than
+        # fast_info.last_price which can return a stale cached value near prev close.
+        price = None
+        day_high = None
+        day_low  = None
+        try:
+            hist = ticker.history(period="1d", interval="1m")
+            if not hist.empty:
+                price    = round(float(hist["Close"].iloc[-1]), 2)
+                day_high = round(float(hist["High"].max()), 2)
+                day_low  = round(float(hist["Low"].min()), 2)
+        except Exception:
+            pass
+
+        # Fall back to fast_info if history unavailable
+        if price is None:
+            price = round(info.last_price, 2)
+
+        if price <= 0:
+            return {}
+
+        # Cross-check: if fast_info diverges >5% from history close, it's likely stale
+        fast_price = round(info.last_price, 2)
+        if fast_price > 0 and abs(fast_price - price) / price > 0.05:
+            log.warning(
+                "fast_info.last_price=%s diverges >5%% from history close=%s for %s — using history",
+                fast_price, price, symbol,
+            )
+
+        # Reject clearly bad data
         if price > prev * 3 or price < prev * 0.3:
             log.warning("Suspicious price data for %s: price=%s prev=%s — skipping", symbol, price, prev)
             return {}
+
         change = round((price - prev) / prev * 100, 2)
-        return {"price": price, "prev_close": prev, "change_pct": change}
+        result = {"price": price, "prev_close": prev, "change_pct": change}
+        if day_high is not None:
+            result["day_high"] = day_high
+        if day_low is not None:
+            result["day_low"] = day_low
+        return result
     except Exception as e:
         log.warning("yfinance failed for %s: %s", symbol, e)
         return {}
@@ -840,17 +877,25 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
 
         interval_pct = abs((current - last_price) / last_price * 100)
 
+        intraday = ""
+        if "day_high" in price_ctx and "day_low" in price_ctx:
+            intraday = (
+                f" Intraday range: low ${price_ctx['day_low']} / high ${price_ctx['day_high']}."
+                f" Use this context — if the stock dropped sharply and is now rebounding, say so."
+            )
+
         if interval_pct >= EVENT_INTERVAL_THRESHOLD_PCT:
             direction = "up" if current > last_price else "down"
             candidates.append((interval_pct, symbol, price_ctx, (
                 f"${symbol} just moved {direction} {interval_pct:.1f}% in the last few minutes "
-                f"(now ${current}, {price_ctx['change_pct']:+.1f}% on the day). "
-                f"React immediately and specifically."
+                f"(now ${current}, {price_ctx['change_pct']:+.1f}% on the day).{intraday} "
+                f"React immediately and specifically to what is actually happening — "
+                f"a rebound is different from a continuation move."
             )))
         elif day_pct >= EVENT_DAY_THRESHOLD_PCT:
             direction = "up" if price_ctx["change_pct"] > 0 else "down"
             candidates.append((day_pct, symbol, price_ctx, (
-                f"${symbol} is {direction} {day_pct:.1f}% today (now ${current}). "
+                f"${symbol} is {direction} {day_pct:.1f}% today (now ${current}).{intraday} "
                 f"This is a significant day move. React with conviction."
             )))
 
@@ -911,7 +956,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
 
     for symbol in symbols:
         last_event_min = cooldowns.get(f"news_{symbol}", 0)
-        if now_minutes() - last_event_min < EVENT_COOLDOWN_MINUTES:
+        if now_minutes() - last_event_min < NEWS_COOLDOWN_MINUTES:
             continue
 
         articles = get_ticker_context_with_dates(symbol, max_messages=10)
