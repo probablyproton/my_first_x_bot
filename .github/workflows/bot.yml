@@ -36,7 +36,7 @@ jobs:
           echo "US_WATCHLIST=${{ vars.US_WATCHLIST }}" >> my.env
           echo "EU_FOCUS_TICKER=${{ vars.EU_FOCUS_TICKER }}" >> my.env
           echo "US_FOCUS_TICKER=${{ vars.US_FOCUS_TICKER }}" >> my.env
-          echo "SLOT_JITTER_SECONDS=300" >> my.env
+          echo "SLOT_JITTER_SECONDS=90" >> my.env
           echo "EVENT_INTERVAL_THRESHOLD_PCT=1.5" >> my.env
           echo "EVENT_DAY_THRESHOLD_PCT=4.0" >> my.env
           echo "EVENT_COOLDOWN_MINUTES=12" >> my.env
