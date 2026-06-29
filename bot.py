@@ -38,7 +38,7 @@ log = logging.getLogger(__name__)
 
 GEMINI_API_KEY               = os.environ["GEMINI_API_KEY"]
 
-SLOT_JITTER_SECONDS          = int(os.getenv("SLOT_JITTER_SECONDS", "90"))
+SLOT_JITTER_SECONDS          = int(os.getenv("SLOT_JITTER_SECONDS", "300"))
 DRY_RUN                      = os.getenv("DRY_RUN", "false").lower() == "true"
 EU_WATCHLIST                 = [t.strip().upper() for t in os.getenv("EU_WATCHLIST", "").split(",") if t.strip()]
 US_WATCHLIST                 = [t.strip().upper() for t in os.getenv("US_WATCHLIST", "").split(",") if t.strip()]
@@ -53,7 +53,7 @@ HEADLESS = os.getenv("CI", "false") == "true"
 STATE_FILE   = os.path.join(os.path.dirname(__file__), "state.json")
 SESSION_FILE = os.path.join(os.path.dirname(__file__), "twitter_session.json")
 
-DAILY_POST_LIMIT = 30
+DAILY_POST_LIMIT = 32
 
 # ── Slot definitions ──────────────────────────────────────────────────────────
 
@@ -206,19 +206,17 @@ def get_price_context(symbol: str) -> dict:
         info   = yf.Ticker(symbol).fast_info
         price  = round(info.last_price, 2)
         prev   = round(info.previous_close, 2)
+        if prev <= 0 or price <= 0:
+            return {}
+        # Reject clearly bad data — price should never be >3x or <0.3x previous close
+        if price > prev * 3 or price < prev * 0.3:
+            log.warning("Suspicious price data for %s: price=%s prev=%s — skipping", symbol, price, prev)
+            return {}
         change = round((price - prev) / prev * 100, 2)
         return {"price": price, "prev_close": prev, "change_pct": change}
     except Exception as e:
         log.warning("yfinance failed for %s: %s", symbol, e)
         return {}
-
-
-def is_market_open(symbol: str) -> bool:
-    try:
-        info = yf.Ticker(symbol).fast_info
-        return bool(info.market_cap and info.last_price and info.last_price != info.previous_close)
-    except Exception:
-        return False
 
 
 def market_session_open(symbol: str) -> bool:
@@ -299,6 +297,7 @@ Rules:
   Example: "X signed a deal last week and the stock barely moved – that might not last."
 - question slots: spark genuine debate based on a specific news angle.
 - wrap slots: tease specific catalysts to watch at the open.
+- If a headline appears to be about a different company that shares part of the ticker's name, ignore it entirely.
 - Every angle must be distinct. Build a coherent story arc across the day.
 Return ONLY the JSON array, no other text."""
 
@@ -326,6 +325,7 @@ Weekend rules – STRICT:
 - fomo slots: quiet long-term conviction tied to a specific real development from the week.
 - hook slots: open with a striking fact, paradox, or overlooked news item from the past week.
 - wrap slots: name 2-3 specific catalysts or events to watch at the open.
+- If a headline appears to be about a different company that shares part of the ticker's name, ignore it entirely.
 - Every angle must be distinct. Build a coherent weekend narrative.
 Return ONLY the JSON array, no other text."""
 
@@ -504,7 +504,7 @@ Company-specific:
 - Loss of a top 3 customer: any
 - Patent win or loss in core business area: any
 
-Ignore: opinion pieces, analysis recaps, general market commentary not specific to the ticker.
+Ignore: opinion pieces, analysis recaps, general market commentary not specific to the ticker, and any headline that appears to be about a different company that shares part of the ticker's name.
 
 Respond with a JSON object:
 {
@@ -816,6 +816,8 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
     snapshots = state.setdefault("price_snapshots", {})
     cooldowns = state.setdefault("event_cooldowns", {})
 
+    candidates = []
+
     for symbol in symbols:
         price_ctx = get_price_context(symbol)
         if not price_ctx:
@@ -829,35 +831,43 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
             snapshots[symbol] = current
             continue
 
-        last_price   = snapshots.get(symbol)
-        interval_pct = abs((current - last_price) / last_price * 100) if last_price else 0
+        last_price = snapshots.get(symbol)
 
-        trigger = ""
+        # Skip if no baseline yet — don't trigger on first run
+        if last_price is None:
+            snapshots[symbol] = current
+            continue
+
+        interval_pct = abs((current - last_price) / last_price * 100)
+
         if interval_pct >= EVENT_INTERVAL_THRESHOLD_PCT:
             direction = "up" if current > last_price else "down"
-            trigger = (
+            candidates.append((interval_pct, symbol, price_ctx, (
                 f"${symbol} just moved {direction} {interval_pct:.1f}% in the last few minutes "
                 f"(now ${current}, {price_ctx['change_pct']:+.1f}% on the day). "
                 f"React immediately and specifically."
-            )
+            )))
         elif day_pct >= EVENT_DAY_THRESHOLD_PCT:
             direction = "up" if price_ctx["change_pct"] > 0 else "down"
-            trigger = (
+            candidates.append((day_pct, symbol, price_ctx, (
                 f"${symbol} is {direction} {day_pct:.1f}% today (now ${current}). "
                 f"This is a significant day move. React with conviction."
-            )
-
-        if trigger:
-            log.info("PRICE EVENT triggered for $%s: %s", symbol, trigger)
-            community = get_ticker_context(symbol)
-            slot  = {"type": "event", "format": "short", "angle": trigger}
-            tweet = generate_tweet(symbol, slot, price_ctx, community, event_trigger=trigger)
-            if tweet:
-                log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
-                if post_tweet(tweet, state):
-                    cooldowns[symbol] = now_minutes()
+            )))
 
         snapshots[symbol] = current
+
+    # Only fire the single biggest mover per cycle to avoid Gemini rate limit spiral
+    if candidates:
+        candidates.sort(reverse=True)
+        _, symbol, price_ctx, trigger = candidates[0]
+        log.info("PRICE EVENT triggered for $%s: %s", symbol, trigger)
+        community = get_ticker_context(symbol)
+        slot  = {"type": "event", "format": "short", "angle": trigger}
+        tweet = generate_tweet(symbol, slot, price_ctx, community, event_trigger=trigger)
+        if tweet:
+            log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
+            if post_tweet(tweet, state):
+                cooldowns[symbol] = now_minutes()
 
     save_state(state)
     return state
@@ -989,9 +999,14 @@ def run_cycle(state: dict) -> dict:
     state = process_storyline(state, "us")
 
     all_tickers = active_tickers_sorted()
+    # Price events watch all tickers but only fire the biggest mover per cycle
     if not is_weekend() and all_tickers:
         state = check_price_events(state, all_tickers)
-        state = check_news_events(state, all_tickers)
+
+    # News events only check the day's story ticker to avoid Gemini rate limit spiral
+    story_tickers = list({state.get("eu_ticker", ""), state.get("us_ticker", "")} - {""})
+    if not is_weekend() and story_tickers:
+        state = check_news_events(state, story_tickers)
 
     return state
 
