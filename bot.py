@@ -52,6 +52,7 @@ EVENT_INTERVAL_THRESHOLD_PCT = float(os.getenv("EVENT_INTERVAL_THRESHOLD_PCT", "
 EVENT_DAY_THRESHOLD_PCT      = float(os.getenv("EVENT_DAY_THRESHOLD_PCT", "4.0"))
 EVENT_COOLDOWN_MINUTES       = int(os.getenv("EVENT_COOLDOWN_MINUTES", "60"))
 NEWS_COOLDOWN_MINUTES        = 60
+TICKER_POST_COOLDOWN_MINUTES = 120  # minimum gap between any two posts about the same ticker
 
 HEADLESS = os.getenv("CI", "false") == "true"
 
@@ -473,16 +474,13 @@ Make every angle distinct. Match the angle to the market phase. Build a narrativ
     return [{**s, "angle": _FALLBACK_ANGLES.get(s["type"], f"Analyze ${symbol} from the {s['type']} angle")} for s in slots]
 
 
-def pick_ticker(watchlist: list[str], override: str, label: str, exclude: str = "") -> str:
+def pick_ticker(watchlist: list[str], override: str, label: str) -> str:
     if override:
         return override
     if watchlist:
         day_index = (datetime.date.today() - datetime.date(2026, 1, 1)).days
         offset = 1 if label == "US" else 0
-        candidates = [t for t in watchlist if t != exclude] if exclude else watchlist
-        if not candidates:
-            candidates = watchlist
-        return candidates[(day_index + offset) % len(candidates)]
+        return watchlist[(day_index + offset) % len(watchlist)]
     log.warning("No %s watchlist configured – defaulting to SPY", label)
     return "SPY"
 
@@ -492,8 +490,7 @@ def ensure_storyline(state: dict, key: str, watchlist: list[str], override: str,
     if state.get("date") == today() and state.get(f"{key}_plan"):
         return state
 
-    exclude = state.get("eu_ticker", "") if key == "us" else ""
-    symbol  = pick_ticker(watchlist, override, key.upper(), exclude=exclude)
+    symbol  = pick_ticker(watchlist, override, key.upper())
     price_ctx = get_price_context(symbol)
     slots     = _build_slots(slot_defs)
     plan      = generate_daily_plan(symbol, slots, price_ctx, market)
@@ -1035,16 +1032,20 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
     if candidates:
         candidates.sort(reverse=True)
         _, symbol, price_ctx, event_type, trigger = candidates[0]
-        log.info("PRICE EVENT [%s] triggered for $%s: %s", event_type, symbol, trigger)
-        community = get_ticker_context(symbol)
-        slot  = {"type": "event", "format": "short", "angle": trigger}
-        tweet = generate_tweet(symbol, slot, price_ctx, community, event_trigger=trigger)
-        if tweet:
-            log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
-            if post_tweet(tweet, state):
-                cooldowns[symbol] = now_minutes()
-                if event_type == "day":
-                    day_event_fired[symbol] = today()
+        if _ticker_on_cooldown(state, symbol):
+            log.info("PRICE EVENT suppressed — $%s posted within last %d min", symbol, TICKER_POST_COOLDOWN_MINUTES)
+        else:
+            log.info("PRICE EVENT [%s] triggered for $%s: %s", event_type, symbol, trigger)
+            community = get_ticker_context(symbol)
+            slot  = {"type": "event", "format": "short", "angle": trigger}
+            tweet = generate_tweet(symbol, slot, price_ctx, community, event_trigger=trigger)
+            if tweet:
+                log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
+                if post_tweet(tweet, state):
+                    cooldowns[symbol] = now_minutes()
+                    _record_ticker_post(state, symbol)
+                    if event_type == "day":
+                        day_event_fired[symbol] = today()
 
     save_state(state)
     return state
@@ -1103,13 +1104,17 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
 
         classification = classify_news(symbol, new_headlines)
         if classification:
-            log.info("NEWS EVENT for $%s [%s]: %s", symbol, classification["category"], classification["headline"])
-            price_ctx = get_price_context(symbol)
-            tweet = generate_news_event_tweet(symbol, classification, price_ctx)
-            if tweet:
-                log.info("News event tweet (%d chars):\n%s", len(tweet), tweet)
-                if post_tweet(tweet, state):
-                    cooldowns[f"news_{symbol}"] = now_minutes()
+            if _ticker_on_cooldown(state, symbol):
+                log.info("NEWS EVENT suppressed — $%s posted within last %d min", symbol, TICKER_POST_COOLDOWN_MINUTES)
+            else:
+                log.info("NEWS EVENT for $%s [%s]: %s", symbol, classification["category"], classification["headline"])
+                price_ctx = get_price_context(symbol)
+                tweet = generate_news_event_tweet(symbol, classification, price_ctx)
+                if tweet:
+                    log.info("News event tweet (%d chars):\n%s", len(tweet), tweet)
+                    if post_tweet(tweet, state):
+                        cooldowns[f"news_{symbol}"] = now_minutes()
+                        _record_ticker_post(state, symbol)
 
         news_seen[symbol] = [a["headline"] for a in articles]
         save_state(state)
@@ -1160,6 +1165,16 @@ def next_due_slot(plan: list[dict], posted: list[int]) -> dict | None:
     
     return None
 
+def _ticker_on_cooldown(state: dict, symbol: str) -> bool:
+    last_posted = state.get("last_posted", {})
+    last_min = last_posted.get(symbol, 0)
+    return now_minutes() - last_min < TICKER_POST_COOLDOWN_MINUTES
+
+
+def _record_ticker_post(state: dict, symbol: str):
+    state.setdefault("last_posted", {})[symbol] = now_minutes()
+
+
 def process_storyline(state: dict, key: str) -> dict:
     plan   = state.get(f"{key}_plan", [])
     posted = state.get(f"{key}_posted", [])
@@ -1167,6 +1182,11 @@ def process_storyline(state: dict, key: str) -> dict:
 
     slot = next_due_slot(plan, posted)
     if not slot:
+        return state
+
+    if _ticker_on_cooldown(state, symbol):
+        log.info("%s slot skipped — $%s posted within last %d min",
+                 key.upper(), symbol, TICKER_POST_COOLDOWN_MINUTES)
         return state
 
     price_ctx = get_price_context(symbol)
@@ -1215,6 +1235,7 @@ def process_storyline(state: dict, key: str) -> dict:
         log.info("%s tweet (%d chars):\n%s", key.upper(), len(tweet), tweet)
         if post_tweet(tweet, state):
             state[f"{key}_posted"].append(slot["slot"])
+            _record_ticker_post(state, symbol)
             save_state(state)
 
     return state
