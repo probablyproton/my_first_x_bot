@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "daily_posts": 2,
+  "daily_posts": 3,
   "eu_ticker": "NOKIA.HE",
   "eu_plan": [
     {
@@ -121,7 +121,7 @@
   "engagement": {},
   "price_snapshots": {
     "NOKIA.HE": 11.56,
-    "VRT": 328.66
+    "VRT": 328.2
   },
   "event_cooldowns": {
     "VRT": 1113
@@ -262,6 +262,7 @@
     4,
     5,
     6,
-    7
+    7,
+    8
   ]
 }
