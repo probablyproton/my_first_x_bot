@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "daily_posts": 22,
+  "daily_posts": 23,
   "eu_ticker": "NOK",
   "eu_plan": [
     {
@@ -134,7 +134,7 @@
     "ANET": 498,
     "NBIS": 586,
     "FIX": 616,
-    "NOKIA.HE": 737
+    "NOKIA.HE": 752
   },
   "news_seen": {
     "NOK": [
