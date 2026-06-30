@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "daily_posts": 4,
+  "daily_posts": 5,
   "eu_ticker": "NOK",
   "eu_plan": [
     {
@@ -103,10 +103,26 @@
     "MU": 1145.31,
     "NOK": 13.02,
     "ERIC-B.ST": 107.9,
-    "NOKIA.HE": 11.22
+    "NOKIA.HE": 11.22,
+    "AVGO": 372.44,
+    "BE": 275.02,
+    "CEG": 259.29,
+    "DLR": 190.6,
+    "EQIX": 1085.75,
+    "ERIC": 11.15,
+    "ETN": 408.26,
+    "FIX": 1946.91,
+    "GEV": 1101.43,
+    "HUT": 118.25,
+    "IREN": 45.89,
+    "NBIS": 261.07,
+    "NVDA": 194.9,
+    "PWR": 714.69,
+    "TSM": 455.12,
+    "VRT": 307.01
   },
   "event_cooldowns": {
     "MRVL": 466,
-    "ANET": 406
+    "ANET": 498
   }
 }
