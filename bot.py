@@ -1108,26 +1108,49 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
 
     return state
 
-# ── Cycle ───────────────────────────────────────────────────────────[...]
+# ── CONFIG ────────────────────────────────────────────────────────────
+
+SLOT_FIRE_WINDOW_SECONDS = 1200  # 20 minutes
+
+# ── CYCLE ────────────────────────────────────────────────────────────
 
 def next_due_slot(plan: list[dict], posted: list[int]) -> dict | None:
-    now    = now_hhmm()
+    """
+    FIXED: Return the next slot that is:
+    1. Not already posted
+    2. Within SLOT_FIRE_WINDOW_SECONDS of its scheduled fire time
+    
+    This prevents slots from firing long after their scheduled time.
+    """
     now_dt = datetime.datetime.now()
+    now    = now_hhmm()
+    
     for slot in plan:
         if slot["slot"] in posted:
             continue
+        
         fire_time = slot.get("fire_time") or slot.get("target_time", "00:00")
+        
+        # Slot hasn't reached its fire time yet
         if fire_time > now:
             continue
+        
+        # Parse fire time and calculate how long ago it was
         h, m = map(int, fire_time.split(":"))
         fire_dt = now_dt.replace(hour=h, minute=m, second=0, microsecond=0)
-        if (now_dt - fire_dt).total_seconds() > 2700:
+        seconds_since_fire = (now_dt - fire_dt).total_seconds()
+        
+        # If slot is older than the fire window, mark it as posted and skip
+        if seconds_since_fire > SLOT_FIRE_WINDOW_SECONDS:
             posted.append(slot["slot"])
-            log.info("Skipping stale slot [%s] %s", fire_time, slot["type"].upper())
+            log.info("Slot [%s] %s is stale (%.0f sec old, window=%d sec) – skipping",
+                     fire_time, slot["type"].upper(), seconds_since_fire, SLOT_FIRE_WINDOW_SECONDS)
             continue
+        
+        # Slot is within the fire window – return it
         return slot
+    
     return None
-
 
 def process_storyline(state: dict, key: str) -> dict:
     plan   = state.get(f"{key}_plan", [])
