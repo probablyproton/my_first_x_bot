@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "daily_posts": 3,
+  "daily_posts": 4,
   "eu_ticker": "NOK",
   "eu_plan": [
     {
@@ -104,7 +104,7 @@
     "NOK": 13.02
   },
   "event_cooldowns": {
-    "MRVL": 436,
+    "MRVL": 466,
     "ANET": 406
   }
 }
