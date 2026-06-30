@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "daily_posts": 28,
+  "daily_posts": 29,
   "eu_ticker": "NOK",
   "eu_plan": [
     {
@@ -104,7 +104,8 @@
     6,
     7,
     8,
-    9
+    9,
+    10
   ],
   "engagement": {},
   "price_snapshots": {
