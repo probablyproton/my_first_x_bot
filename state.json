@@ -1,1 +1,136 @@
-{}
+{
+  "date": "2026-06-30",
+  "daily_posts": 0,
+  "eu_ticker": "NOKIA.HE",
+  "eu_plan": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "angle": "$NOKIA.HE opens strong at $11.60, a nearly 3.4% jump, as investors eagerly react to the game-changing Nvidia partnership for AI RAN 6G networks.",
+      "fire_time": "08:57"
+    },
+    {
+      "slot": 1,
+      "type": "analytical",
+      "angle": "Following the open, $NOKIA.HE has maintained its initial gains, holding above the $11.55 level, which could suggest strong underlying demand fueled by the Nvidia collaboration.",
+      "fire_time": "09:37"
+    },
+    {
+      "slot": 2,
+      "type": "question",
+      "angle": "With the Nvidia partnership driving initial momentum, might Nokia's potential defense deal to capitalize on rising border security demand provide additional upside that the market is yet to fully price in?",
+      "fire_time": "10:03"
+    },
+    {
+      "slot": 3,
+      "type": "fomo",
+      "angle": "While the Nvidia partnership captured headlines, the recent Amazon.com collaboration with Nokia might still be underappreciated by the market \u2013 this dynamic could soon shift.",
+      "fire_time": "10:39"
+    },
+    {
+      "slot": 4,
+      "type": "analytical",
+      "angle": "$NOKIA.HE has pushed past the $11.70 mark, now trading roughly 4.2% higher than yesterday's close, indicating a robust upward trend since the market opened.",
+      "fire_time": "11:11"
+    },
+    {
+      "slot": 5,
+      "type": "question",
+      "angle": "As $NOKIA.HE sustains its gains, is the current price movement merely a reaction to the Nvidia news, or could it represent a broader re-evaluation of Nokia's strategic partnerships and growth trajectory?",
+      "fire_time": "11:41"
+    },
+    {
+      "slot": 6,
+      "type": "fomo",
+      "angle": "The market's focus on immediate catalysts may be overlooking the long-term strategic value of Nokia's defense deal, especially given the increasing demand for advanced border security \u2013 this could be an underestimated growth area.",
+      "fire_time": "12:17"
+    },
+    {
+      "slot": 7,
+      "type": "reaction",
+      "angle": "$NOKIA.HE continues to show resilience, trading comfortably above the $11.65 level, demonstrating sustained positive sentiment from earlier catalyst announcements.",
+      "fire_time": "12:51"
+    },
+    {
+      "slot": 8,
+      "type": "analytical",
+      "angle": "After peaking near $11.80 earlier, $NOKIA.HE has seen some modest profit-taking, but is now consolidating around $11.72, suggesting bulls are defending the higher price range.",
+      "fire_time": "13:21"
+    },
+    {
+      "slot": 9,
+      "type": "question",
+      "angle": "Considering both the Nvidia 6G and Amazon.com partnerships, which of Nokia's recent strategic moves could potentially unlock the most significant long-term value for shareholders?",
+      "fire_time": "13:57"
+    },
+    {
+      "slot": 10,
+      "type": "fomo",
+      "angle": "Despite the visible price action today, the full implications of Nokia's deep dive into AI RAN 6G networks with Nvidia might still be unfolding, suggesting its future potential could be underestimated at current levels.",
+      "fire_time": "14:30"
+    },
+    {
+      "slot": 11,
+      "type": "analytical",
+      "angle": "With about two hours left in the trading session, $NOKIA.HE is holding firm at approximately $11.74, maintaining a gain of around 4.6% since yesterday's close, signaling a conviction in its upward movement.",
+      "fire_time": "15:03"
+    },
+    {
+      "slot": 12,
+      "type": "question",
+      "angle": "Given the strong performance today, fueled by the Nvidia and Amazon partnerships, could Nokia's current valuation still offer an attractive entry point for investors looking at its 6G and defense market potential?",
+      "fire_time": "15:32"
+    },
+    {
+      "slot": 13,
+      "type": "fomo",
+      "angle": "The market might be primarily celebrating the Nvidia partnership, yet the consistent, underlying demand for robust border security that Nokia's defense deal addresses could represent an underappreciated revenue stream.",
+      "fire_time": "16:21"
+    },
+    {
+      "slot": 14,
+      "type": "wrap",
+      "angle": "$NOKIA.HE concluded the day with significant gains, trading consistently above its open and closing near the high of $11.76, reflecting strong investor confidence driven primarily by the Nvidia 6G network partnership.",
+      "fire_time": "16:52"
+    },
+    {
+      "slot": 15,
+      "type": "close_summary",
+      "angle": "$NOKIA.HE closed at $11.76, +4.81% \u2013 the Nvidia 6G partnership and Amazon.com collaboration were key drivers of today's positive sentiment.",
+      "fire_time": "17:03"
+    }
+  ],
+  "eu_posted": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "engagement": {},
+  "price_snapshots": {
+    "NOKIA.HE": 11.59
+  },
+  "event_cooldowns": {},
+  "day_event_fired": {},
+  "news_seen": {
+    "NOKIA.HE": [
+      "The Buyback Pays Off: Withings Confirms Full-Year Profitability for 2025, Driven by U.S. Market Dominance",
+      "Inseego Advances International Expansion with New Regional Leadership, International Headquarters, and Continued Investment in Athens Software Development Center",
+      "Can NOK's Defense Deal Capitalize on Rising Border Security Demand?",
+      "European Equities Traded in the US as American Depositary Receipts Track Higher in Monday Trading",
+      "Amazon.com (AMZN) Partners With Nokia, Here\u2019s What You Need to Know",
+      "Nokia (HLSE:NOKIA) Partners With Nvidia To Build AI RAN 6G Networks",
+      "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now",
+      "2 Nvidia-Owned Stocks Investors Should Buy Now",
+      "Is Alphabet (GOOG) One of the Top Trending US Stocks to Buy Now?",
+      "Google DeepMind and A24 Announces First-of-its-Kind Partnership"
+    ]
+  }
+}
