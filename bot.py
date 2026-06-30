@@ -63,7 +63,7 @@ DAILY_POST_LIMIT = 32
 # ── Slot definitions ────────────────────────────────────────────────────────[...]
 
 EU_SLOTS = [
-    ("09:00", "hook"),
+    ("08:45", "hook"),
     ("09:33", "analytical"),
     ("10:06", "question"),
     ("10:39", "fomo"),
@@ -82,7 +82,7 @@ EU_SLOTS = [
 ]
 
 US_SLOTS = [
-    ("15:15", "hook"),
+    ("15:10", "hook"),
     ("15:45", "analytical"),
     ("16:00", "reaction"),
     ("16:28", "question"),
@@ -195,7 +195,7 @@ def market_phase(key: str) -> str:
             return "open"
         return "post_market"
     if key == "us":
-        if now < "15:15":
+        if now < "15:30":
             return "pre_market"
         if now <= "22:00":
             return "open"
@@ -355,15 +355,10 @@ def ensure_daily_plans(state: dict) -> dict:
     if state.get("date") != today():
         state = {"date": today(), "daily_posts": 0}
 
-    if is_weekend():
-        state = ensure_storyline(state, "eu")
-        state = ensure_storyline(state, "us")
-    else:
-        state = ensure_storyline(state, "eu")
-        if now_hhmm() >= "15:15":
-            state = ensure_storyline(state, "us")
-        if "15:30" <= now_hhmm() <= "17:00":
-            log.info("▶ OVERLAP WINDOW 15:30–17:00 CET: EU closing + US opening")
+    state = ensure_storyline(state, "eu")
+    state = ensure_storyline(state, "us")
+    if not is_weekend() and "15:30" <= now_hhmm() <= "17:00":
+        log.info("▶ OVERLAP WINDOW 15:30–17:00 CET: EU closing + US opening")
 
     save_state(state)
     return state
@@ -1164,15 +1159,10 @@ def process_storyline(state: dict, key: str) -> dict:
         return state
 
     phase   = market_phase(key)
-    now     = now_hhmm()
     overlap = in_overlap_window()
 
     # EU close_summary only fires during overlap window
     if slot["type"] == "close_summary" and key == "eu" and not overlap:
-        return state
-
-    # US pre-market hook waits until 15:15 CET
-    if key == "us" and slot["type"] == "hook" and phase == "pre_market" and now < "15:15":
         return state
 
     # Collect eligible tickers (not on 120-min cooldown)
