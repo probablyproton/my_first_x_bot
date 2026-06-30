@@ -121,7 +121,26 @@
   "engagement": {},
   "price_snapshots": {
     "NOKIA.HE": 11.56,
-    "VRT": 334.58
+    "VRT": 334.58,
+    "PWR": 720.2,
+    "ETN": 425.99,
+    "SU": 53.71,
+    "BE": 302.47,
+    "VST": 158.63,
+    "NVT": 169.64,
+    "NOK": 13.26,
+    "CRWV": 99.49,
+    "ENR": 21.46,
+    "NEE": 87.74,
+    "GEV": 1174.27,
+    "APLD": 37.28,
+    "DLR": 179.61,
+    "EQIX": 1042.51,
+    "IREN": 45.73,
+    "ERIC": 11.16,
+    "POWL": 286.56,
+    "CEG": 248.32,
+    "TLN": 384.34
   },
   "event_cooldowns": {
     "VRT": 1113
@@ -274,5 +293,201 @@
   ],
   "last_posted": {
     "VRT": 1306
-  }
+  },
+  "eu_slots": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "target_time": "09:00",
+      "fire_time": "08:57"
+    },
+    {
+      "slot": 1,
+      "type": "analytical",
+      "target_time": "09:33",
+      "fire_time": "09:33"
+    },
+    {
+      "slot": 2,
+      "type": "question",
+      "target_time": "10:06",
+      "fire_time": "10:05"
+    },
+    {
+      "slot": 3,
+      "type": "fomo",
+      "target_time": "10:39",
+      "fire_time": "10:35"
+    },
+    {
+      "slot": 4,
+      "type": "analytical",
+      "target_time": "11:12",
+      "fire_time": "11:15"
+    },
+    {
+      "slot": 5,
+      "type": "question",
+      "target_time": "11:45",
+      "fire_time": "11:48"
+    },
+    {
+      "slot": 6,
+      "type": "fomo",
+      "target_time": "12:18",
+      "fire_time": "12:17"
+    },
+    {
+      "slot": 7,
+      "type": "reaction",
+      "target_time": "12:51",
+      "fire_time": "12:51"
+    },
+    {
+      "slot": 8,
+      "type": "analytical",
+      "target_time": "13:24",
+      "fire_time": "13:26"
+    },
+    {
+      "slot": 9,
+      "type": "question",
+      "target_time": "13:57",
+      "fire_time": "14:00"
+    },
+    {
+      "slot": 10,
+      "type": "fomo",
+      "target_time": "14:30",
+      "fire_time": "14:33"
+    },
+    {
+      "slot": 11,
+      "type": "analytical",
+      "target_time": "15:03",
+      "fire_time": "14:59"
+    },
+    {
+      "slot": 12,
+      "type": "question",
+      "target_time": "15:36",
+      "fire_time": "15:36"
+    },
+    {
+      "slot": 13,
+      "type": "fomo",
+      "target_time": "16:20",
+      "fire_time": "16:20"
+    },
+    {
+      "slot": 14,
+      "type": "wrap",
+      "target_time": "16:55",
+      "fire_time": "16:52"
+    },
+    {
+      "slot": 15,
+      "type": "close_summary",
+      "target_time": "17:00",
+      "fire_time": "17:02"
+    }
+  ],
+  "us_slots": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "target_time": "15:15",
+      "fire_time": "15:11"
+    },
+    {
+      "slot": 1,
+      "type": "analytical",
+      "target_time": "15:45",
+      "fire_time": "15:44"
+    },
+    {
+      "slot": 2,
+      "type": "reaction",
+      "target_time": "16:00",
+      "fire_time": "15:59"
+    },
+    {
+      "slot": 3,
+      "type": "question",
+      "target_time": "16:28",
+      "fire_time": "16:23"
+    },
+    {
+      "slot": 4,
+      "type": "fomo",
+      "target_time": "16:56",
+      "fire_time": "16:56"
+    },
+    {
+      "slot": 5,
+      "type": "analytical",
+      "target_time": "17:24",
+      "fire_time": "17:26"
+    },
+    {
+      "slot": 6,
+      "type": "question",
+      "target_time": "17:52",
+      "fire_time": "17:53"
+    },
+    {
+      "slot": 7,
+      "type": "fomo",
+      "target_time": "18:20",
+      "fire_time": "18:19"
+    },
+    {
+      "slot": 8,
+      "type": "reaction",
+      "target_time": "18:48",
+      "fire_time": "18:50"
+    },
+    {
+      "slot": 9,
+      "type": "analytical",
+      "target_time": "19:16",
+      "fire_time": "19:15"
+    },
+    {
+      "slot": 10,
+      "type": "question",
+      "target_time": "19:44",
+      "fire_time": "19:41"
+    },
+    {
+      "slot": 11,
+      "type": "fomo",
+      "target_time": "20:12",
+      "fire_time": "20:13"
+    },
+    {
+      "slot": 12,
+      "type": "analytical",
+      "target_time": "20:40",
+      "fire_time": "20:42"
+    },
+    {
+      "slot": 13,
+      "type": "question",
+      "target_time": "21:08",
+      "fire_time": "21:11"
+    },
+    {
+      "slot": 14,
+      "type": "fomo",
+      "target_time": "21:36",
+      "fire_time": "21:33"
+    },
+    {
+      "slot": 15,
+      "type": "wrap",
+      "target_time": "22:00",
+      "fire_time": "22:00"
+    }
+  ]
 }
