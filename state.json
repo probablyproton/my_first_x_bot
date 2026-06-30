@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "daily_posts": 5,
+  "daily_posts": 6,
   "eu_ticker": "NOKIA.HE",
   "eu_plan": [
     {
@@ -121,7 +121,7 @@
   "engagement": {},
   "price_snapshots": {
     "NOKIA.HE": 11.56,
-    "VRT": 332.52
+    "VRT": 333.14
   },
   "event_cooldowns": {
     "VRT": 1113
@@ -143,7 +143,7 @@
       "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now"
     ],
     "VRT": [
-      "Vertiv and 6 More Stocks to Play the AI Buildout Boom",
+      "Vertiv and 6 More Stocks to Play the \u2018Physical AI\u2019 Boom",
       "VRT Boosts Data Center Portfolio Through Acquisitions: What's Ahead?",
       "Here's Why AI Data Center Infrastructure Stock, Vertiv, Shot Higher Today",
       "Compass Datacenters Donates $12.6M Building to Texas State Technical College to Expand Career Training for the Fast-Growing Digital Economy",
@@ -268,9 +268,10 @@
     10,
     11,
     12,
-    13
+    13,
+    14
   ],
   "last_posted": {
-    "VRT": 1186
+    "VRT": 1306
   }
 }
