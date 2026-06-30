@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "daily_posts": 6,
+  "daily_posts": 7,
   "eu_ticker": "NOKIA.HE",
   "eu_plan": [
     {
@@ -143,10 +143,12 @@
     "TLN": 384.34
   },
   "event_cooldowns": {
-    "VRT": 1113
+    "VRT": 1113,
+    "BE": 1412
   },
   "day_event_fired": {
-    "VRT": "2026-06-30"
+    "VRT": "2026-06-30",
+    "BE": "2026-06-30"
   },
   "news_seen": {
     "NOKIA.HE": [
@@ -292,7 +294,8 @@
     15
   ],
   "last_posted": {
-    "VRT": 1306
+    "VRT": 1306,
+    "BE": 1412
   },
   "eu_slots": [
     {
