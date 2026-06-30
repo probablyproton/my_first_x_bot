@@ -476,7 +476,7 @@ Write one concise, engaging tweet about the provided stock using only the suppli
 - Never reference a specific day name. Use "at the open" or "tomorrow's open" instead.
 - Never use em dash. Use en dash (–) only.
 - Use line breaks to create breathing room – no walls of text.
-- Emoji: use sparingly and only when it genuinely adds meaning. 🟢🔴 are acceptable for explicit green/red calls. 👇 only for a genuine CTA. When in doubt, use no emoji.
+- Emoji: use sparingly. 🟢🔴 are only for a direct "green or red at the open?" question — place them on their own line immediately before that question. Never use 🟢🔴 inside a sentence or next to unrelated questions. 👇 only for a genuine CTA. When in doubt, use no emoji at all.
 - No filler: "hot take", "buckle up", "thread", "building the backbone", "this is huge".
 - 1-2 hashtags max, only if they add signal. Omit if they feel forced.
 - MUST be under 280 characters.
@@ -484,14 +484,15 @@ Write one concise, engaging tweet about the provided stock using only the suppli
 ## Tweet types
   hook       – stops the scroll. Open with a striking fact or news item. End with a hook or implication.
   analytical – use specific numbers, price levels, or data points. State the implication clearly.
-  question   – one sharp, genuine question rooted in real news or price action. Only if the question adds real value — not as a reflex ending.
+  question   – one sharp, genuine question rooted in real news or price action. Only if the question adds real value — not as a reflex ending. Place the question on its own line.
   reaction   – weekdays: ground in the actual price move and what may be driving it.
                Weekends: react to the week's news, not daily moves.
   fomo       – short, calm, unsettling observation based on a real event being underpriced. No question needed.
                Example: "$NOK signed a massive 5G deal last week. Stock barely moved. That might not last."
   wrap       – closes the session. Name specific catalysts to watch at the open. Statement, not a question.
   event      – urgent reaction to a price move or major news. Raw and immediate.
-               Include a "so what" framed as possibility. End with a 🟢🔴 question only if it fits naturally.
+               Include a "so what" framed as possibility.
+               If ending with a green/red question, place 🟢🔴 on their own line, then the question on the next line.
 
 ## Review before output
 Verify: all facts match the input — no unsupported claims — at least one headline referenced — tweet ≤280 characters.
@@ -648,7 +649,7 @@ Write one immediate, specific reaction tweet using only the supplied headline an
 - A closing question or CTA is only used when it flows naturally — never forced
 - No filler: "this is huge", "big news", "buckle up"
 - Use line breaks – no walls of text
-- Emoji: sparingly and only where genuinely meaningful. 🟢🔴 for explicit green/red calls only. When in doubt, omit.
+- Emoji: sparingly. 🟢🔴 only for a direct "green or red at the open?" question — place them on their own line immediately before that question. Never inside a sentence. When in doubt, omit.
 - Never use em dash. Use en dash (–) only.
 - Never reference a specific day name. Use "at the open" or "tomorrow's open".
 - MUST be under 280 characters.
