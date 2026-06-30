@@ -101,7 +101,9 @@
     "CSCO": 117.62,
     "MRVL": 277.53,
     "MU": 1145.31,
-    "NOK": 13.02
+    "NOK": 13.02,
+    "ERIC-B.ST": 107.9,
+    "NOKIA.HE": 11.22
   },
   "event_cooldowns": {
     "MRVL": 466,
