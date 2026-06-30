@@ -215,12 +215,16 @@ def get_price_context(symbol: str) -> dict:
         price = None
         day_high = None
         day_low  = None
+        market_open = False
         try:
             hist = ticker.history(period="1d", interval="1m")
             if not hist.empty:
                 price    = round(float(hist["Close"].iloc[-1]), 2)
                 day_high = round(float(hist["High"].max()), 2)
                 day_low  = round(float(hist["Low"].min()), 2)
+                last_ts  = hist.index[-1]
+                now_utc  = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
+                market_open = (now_utc - last_ts).total_seconds() < 900
         except Exception:
             pass
 
@@ -245,7 +249,7 @@ def get_price_context(symbol: str) -> dict:
             return {}
 
         change = round((price - prev) / prev * 100, 2)
-        result = {"price": price, "prev_close": prev, "change_pct": change}
+        result = {"price": price, "prev_close": prev, "change_pct": change, "market_open": market_open}
         if day_high is not None:
             result["day_high"] = day_high
         if day_low is not None:
@@ -255,20 +259,6 @@ def get_price_context(symbol: str) -> dict:
         log.warning("yfinance failed for %s: %s", symbol, e)
         return {}
 
-
-def market_session_open(symbol: str) -> bool:
-    try:
-        ticker = yf.Ticker(symbol)
-        hist = ticker.history(period="1d", interval="1m")
-        if hist.empty:
-            return False
-        last_ts = hist.index[-1]
-        now_utc = datetime.datetime.utcnow().replace(tzinfo=datetime.timezone.utc)
-        minutes_since_last_trade = (now_utc - last_ts).total_seconds() / 60
-        return minutes_since_last_trade < 15
-    except Exception as e:
-        log.warning("Market open check failed for %s: %s", symbol, e)
-        return False
 
 
 def get_week_performance(symbols: list[str]) -> dict[str, float]:
@@ -284,6 +274,15 @@ def get_week_performance(symbols: list[str]) -> dict[str, float]:
         except Exception as e:
             log.warning("Week performance failed for %s: %s", symbol, e)
     return result
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
+
+def _strip_json_fences(text: str) -> str:
+    text = text.strip()
+    if "```" in text:
+        lines = [l for l in text.splitlines() if not l.strip().startswith("```")]
+        text = "\n".join(lines).strip()
+    return text
 
 # ── Gemini ────────────────────────────────────────────────────────────────────
 
@@ -404,12 +403,8 @@ Make every angle distinct. Reference specific news items where possible. Build a
 
     planner_system = PLANNER_SYSTEM_WEEKEND if is_weekend() else PLANNER_SYSTEM_WEEKDAY
     try:
-        text = _gemini(planner_system, prompt)
-        if text.startswith("```"):
-            text = text.split("```")[1]
-            if text.startswith("json"):
-                text = text[4:]
-        plan = json.loads(text.strip())
+        text = _strip_json_fences(_gemini(planner_system, prompt))
+        plan = json.loads(text)
         fire_map = {s["slot"]: s["fire_time"] for s in slots}
         for p in plan:
             p["fire_time"] = fire_map.get(p["slot"], slots[p["slot"]]["target_time"])
@@ -612,12 +607,8 @@ Headlines:
 Classify whether any of these headlines is a major catalyst for ${symbol}."""
 
     try:
-        text = _gemini(NEWS_CLASSIFIER_SYSTEM, prompt)
-        if text.startswith("```"):
-            text = text.split("```")[1]
-            if text.startswith("json"):
-                text = text[4:]
-        result = json.loads(text.strip())
+        text = _strip_json_fences(_gemini(NEWS_CLASSIFIER_SYSTEM, prompt))
+        result = json.loads(text)
         if result.get("is_major"):
             return result
     except Exception as e:
@@ -820,6 +811,11 @@ def post_tweet(text: str, state: dict) -> bool:
             page.goto("https://x.com/home", wait_until="load", timeout=60000)
             time.sleep(random.uniform(2.0, 3.0))
 
+            if "login" in page.url or "flow/login" in page.url:
+                log.error("Twitter session expired — re-run login.py and update TWITTER_SESSION secret. URL: %s", page.url)
+                browser.close()
+                return False
+
             textarea = page.locator("[data-testid='tweetTextarea_0']").first
             textarea.wait_for(timeout=15000)
             textarea.click()
@@ -832,7 +828,7 @@ def post_tweet(text: str, state: dict) -> bool:
             time.sleep(random.uniform(1.5, 3.0))
 
             post_btn = page.locator("[data-testid='tweetButtonInline']")
-            post_btn.wait_for(timeout=5000)
+            post_btn.wait_for(timeout=10000)
             post_btn.dispatch_event("click")
             time.sleep(random.uniform(2.5, 4.0))
 
@@ -845,6 +841,10 @@ def post_tweet(text: str, state: dict) -> bool:
 
     except Exception as e:
         log.error("Tweet post failed: %s", e)
+        try:
+            log.error("Page URL at failure: %s", page.url)
+        except Exception:
+            pass
         return False
 
 # ── Event monitor ─────────────────────────────────────────────────────────────
@@ -1016,15 +1016,16 @@ def process_storyline(state: dict, key: str) -> dict:
     if not slot:
         return state
 
+    price_ctx = get_price_context(symbol)
+
     # Override session-closing slot types if the market is still open for this ticker
-    if slot["type"] in ("wrap", "reaction") and market_session_open(symbol):
+    if slot["type"] in ("wrap", "reaction") and price_ctx.get("market_open", False):
         log.info("Market still open for $%s – overriding %s slot to analytical", symbol, slot["type"])
         slot = {**slot, "type": "analytical"}
 
     log.info("%s slot due: [%s] %s – %s",
              key.upper(), slot.get("fire_time") or slot.get("target_time"), slot["type"].upper(), slot["angle"])
 
-    price_ctx = get_price_context(symbol)
     community = get_ticker_context(symbol)
     tweet     = generate_tweet(symbol, slot, price_ctx, community)
 
