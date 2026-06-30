@@ -1,332 +1,36 @@
 {
-  "date": "2026-06-30",
-  "daily_posts": 7,
-  "eu_ticker": "NOKIA.HE",
-  "eu_plan": [
-    {
-      "slot": 0,
-      "type": "hook",
-      "angle": "$NOKIA.HE opens strong at $11.60, a nearly 3.4% jump, as investors eagerly react to the game-changing Nvidia partnership for AI RAN 6G networks.",
-      "fire_time": "08:57"
-    },
-    {
-      "slot": 1,
-      "type": "analytical",
-      "angle": "Following the open, $NOKIA.HE has maintained its initial gains, holding above the $11.55 level, which could suggest strong underlying demand fueled by the Nvidia collaboration.",
-      "fire_time": "09:37"
-    },
-    {
-      "slot": 2,
-      "type": "question",
-      "angle": "With the Nvidia partnership driving initial momentum, might Nokia's potential defense deal to capitalize on rising border security demand provide additional upside that the market is yet to fully price in?",
-      "fire_time": "10:03"
-    },
-    {
-      "slot": 3,
-      "type": "fomo",
-      "angle": "While the Nvidia partnership captured headlines, the recent Amazon.com collaboration with Nokia might still be underappreciated by the market \u2013 this dynamic could soon shift.",
-      "fire_time": "10:39"
-    },
-    {
-      "slot": 4,
-      "type": "analytical",
-      "angle": "$NOKIA.HE has pushed past the $11.70 mark, now trading roughly 4.2% higher than yesterday's close, indicating a robust upward trend since the market opened.",
-      "fire_time": "11:11"
-    },
-    {
-      "slot": 5,
-      "type": "question",
-      "angle": "As $NOKIA.HE sustains its gains, is the current price movement merely a reaction to the Nvidia news, or could it represent a broader re-evaluation of Nokia's strategic partnerships and growth trajectory?",
-      "fire_time": "11:41"
-    },
-    {
-      "slot": 6,
-      "type": "fomo",
-      "angle": "The market's focus on immediate catalysts may be overlooking the long-term strategic value of Nokia's defense deal, especially given the increasing demand for advanced border security \u2013 this could be an underestimated growth area.",
-      "fire_time": "12:17"
-    },
-    {
-      "slot": 7,
-      "type": "reaction",
-      "angle": "$NOKIA.HE continues to show resilience, trading comfortably above the $11.65 level, demonstrating sustained positive sentiment from earlier catalyst announcements.",
-      "fire_time": "12:51"
-    },
-    {
-      "slot": 8,
-      "type": "analytical",
-      "angle": "After peaking near $11.80 earlier, $NOKIA.HE has seen some modest profit-taking, but is now consolidating around $11.72, suggesting bulls are defending the higher price range.",
-      "fire_time": "13:21"
-    },
-    {
-      "slot": 9,
-      "type": "question",
-      "angle": "Considering both the Nvidia 6G and Amazon.com partnerships, which of Nokia's recent strategic moves could potentially unlock the most significant long-term value for shareholders?",
-      "fire_time": "13:57"
-    },
-    {
-      "slot": 10,
-      "type": "fomo",
-      "angle": "Despite the visible price action today, the full implications of Nokia's deep dive into AI RAN 6G networks with Nvidia might still be unfolding, suggesting its future potential could be underestimated at current levels.",
-      "fire_time": "14:30"
-    },
-    {
-      "slot": 11,
-      "type": "analytical",
-      "angle": "With about two hours left in the trading session, $NOKIA.HE is holding firm at approximately $11.74, maintaining a gain of around 4.6% since yesterday's close, signaling a conviction in its upward movement.",
-      "fire_time": "15:03"
-    },
-    {
-      "slot": 12,
-      "type": "question",
-      "angle": "Given the strong performance today, fueled by the Nvidia and Amazon partnerships, could Nokia's current valuation still offer an attractive entry point for investors looking at its 6G and defense market potential?",
-      "fire_time": "15:32"
-    },
-    {
-      "slot": 13,
-      "type": "fomo",
-      "angle": "The market might be primarily celebrating the Nvidia partnership, yet the consistent, underlying demand for robust border security that Nokia's defense deal addresses could represent an underappreciated revenue stream.",
-      "fire_time": "16:21"
-    },
-    {
-      "slot": 14,
-      "type": "wrap",
-      "angle": "$NOKIA.HE concluded the day with significant gains, trading consistently above its open and closing near the high of $11.76, reflecting strong investor confidence driven primarily by the Nvidia 6G network partnership.",
-      "fire_time": "16:52"
-    },
-    {
-      "slot": 15,
-      "type": "close_summary",
-      "angle": "$NOKIA.HE closed at $11.76, +4.81% \u2013 the Nvidia 6G partnership and Amazon.com collaboration were key drivers of today's positive sentiment.",
-      "fire_time": "17:03"
-    }
-  ],
-  "eu_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
-  ],
-  "engagement": {},
-  "price_snapshots": {
-    "NOKIA.HE": 11.56,
-    "VRT": 334.58,
-    "PWR": 720.2,
-    "ETN": 425.99,
-    "SU": 53.71,
-    "BE": 302.47,
-    "VST": 158.63,
-    "NVT": 169.64,
-    "NOK": 13.26,
-    "CRWV": 99.49,
-    "ENR": 21.46,
-    "NEE": 87.74,
-    "GEV": 1174.27,
-    "APLD": 37.28,
-    "DLR": 179.61,
-    "EQIX": 1042.51,
-    "IREN": 45.73,
-    "ERIC": 11.16,
-    "POWL": 286.56,
-    "CEG": 248.32,
-    "TLN": 384.34
-  },
-  "event_cooldowns": {
-    "VRT": 1113,
-    "BE": 1412
-  },
-  "day_event_fired": {
-    "VRT": "2026-06-30",
-    "BE": "2026-06-30"
-  },
-  "news_seen": {
-    "NOKIA.HE": [
-      "Notification under Chapter 9, Section 10 of the Finnish Securities Market Act: voting rights of FMR LLC in Nokia Corporation decreased below 5%",
-      "European Equities Traded in the US as American Depositary Receipts Rise in Tuesday Trading",
-      "Can Rising Defense Solutions Demand Boost Viasat's Growth Prospects?",
-      "The Buyback Pays Off: Withings Confirms Full-Year Profitability for 2025, Driven by U.S. Market Dominance",
-      "Inseego Advances International Expansion with New Regional Leadership, International Headquarters, and Continued Investment in Athens Software Development Center",
-      "Can NOK's Defense Deal Capitalize on Rising Border Security Demand?",
-      "European Equities Traded in the US as American Depositary Receipts Track Higher in Monday Trading",
-      "Amazon.com (AMZN) Partners With Nokia, Here\u2019s What You Need to Know",
-      "Nokia (HLSE:NOKIA) Partners With Nvidia To Build AI RAN 6G Networks",
-      "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now"
-    ],
-    "VRT": [
-      "Vertiv and 6 More Stocks to Play the \u2018Physical AI\u2019 Boom",
-      "VRT Boosts Data Center Portfolio Through Acquisitions: What's Ahead?",
-      "Here's Why AI Data Center Infrastructure Stock, Vertiv, Shot Higher Today",
-      "Compass Datacenters Donates $12.6M Building to Texas State Technical College to Expand Career Training for the Fast-Growing Digital Economy",
-      "V&E Appoints Michael Jay as New IP Litigation Partner in LA",
-      "Vertiv (VRT) Expands AI Cooling Reach With ThermoKey And Strategic Thermal Labs",
-      "Data Center Delays Create Opportunity in These 3 Stocks",
-      "Eaton vs. Vertiv: Which Industrials Stock Is a Better Buy in 2026?",
-      "Investors Heavily Search Vertiv Holdings Co. (VRT): Here is What You Need to Know",
-      "Can AI Infrastructure Demand Fuel CDW's Growth in 2026?"
-    ]
-  },
-  "us_ticker": "VRT",
-  "us_plan": [
-    {
-      "slot": 0,
-      "type": "hook",
-      "angle": "$VRT is gaining early traction at the open, as investors consider its recent expansion into AI cooling with ThermoKey and Strategic Thermal Labs.",
-      "fire_time": "15:10"
-    },
-    {
-      "slot": 1,
-      "type": "analytical",
-      "angle": "$VRT is trading at $308.50, holding above yesterday's close of $307.31, suggesting cautious optimism as AI cooling demand continues to be a focal point for investors.",
-      "fire_time": "15:44"
-    },
-    {
-      "slot": 2,
-      "type": "reaction",
-      "angle": "$VRT surged past the $310 mark, up over +0.88% from yesterday's close, as investors react positively to its expanded reach in AI cooling.",
-      "fire_time": "15:57"
-    },
-    {
-      "slot": 3,
-      "type": "question",
-      "angle": "With $VRT holding above $310, could the growing demand for AI infrastructure and strategic data center expansions continue to drive its valuation higher through the session?",
-      "fire_time": "16:28"
-    },
-    {
-      "slot": 4,
-      "type": "fomo",
-      "angle": "Vertiv's recent strategic expansion in AI cooling with ThermoKey and Strategic Thermal Labs might be a long-term game-changer \u2013 its current trading around $309.80 could be seen as an underestimation of its future growth.",
-      "fire_time": "16:59"
-    },
-    {
-      "slot": 5,
-      "type": "analytical",
-      "angle": "$VRT has now climbed to $311, a +1.2% gain today, reflecting sustained investor interest in companies with strong positions in the burgeoning AI infrastructure market.",
-      "fire_time": "17:19"
-    },
-    {
-      "slot": 6,
-      "type": "question",
-      "angle": "As $VRT consolidates near $311, might its strong session today further intensify the debate around \"Eaton vs. Vertiv\" and which industrial stock offers superior long-term potential?",
-      "fire_time": "17:47"
-    },
-    {
-      "slot": 7,
-      "type": "fomo",
-      "angle": "The relentless demand for AI infrastructure and specialized cooling, which $VRT is aggressively expanding to meet, suggests its current trading around $310.50 might not fully reflect its increasing market relevance.",
-      "fire_time": "18:23"
-    },
-    {
-      "slot": 8,
-      "type": "reaction",
-      "angle": "$VRT is pushing higher, now trading at $312, up +1.52% and marking a new intraday high, indicating robust investor confidence in its strategic AI cooling initiatives.",
-      "fire_time": "18:45"
-    },
-    {
-      "slot": 9,
-      "type": "analytical",
-      "angle": "$VRT is consolidating around $311.80 after its latest surge, a price level that might represent growing institutional support, as the market increasingly recognizes its pivotal role in AI infrastructure.",
-      "fire_time": "19:13"
-    },
-    {
-      "slot": 10,
-      "type": "question",
-      "angle": "With $VRT holding firmly above $311, could its expanded AI cooling capabilities position it for continued outperformance, especially as demand for specialized data center solutions intensifies?",
-      "fire_time": "19:43"
-    },
-    {
-      "slot": 11,
-      "type": "fomo",
-      "angle": "The speed and strategic nature of Vertiv's AI cooling expansion, now trading around $311.50, could be a key long-term differentiator that the broader market has yet to fully price in.",
-      "fire_time": "20:15"
-    },
-    {
-      "slot": 12,
-      "type": "analytical",
-      "angle": "$VRT is pushing towards the upper end of its daily range, now at $312.50 for a +1.68% gain, underscoring robust conviction from investors in its AI infrastructure story as the session nears its close.",
-      "fire_time": "20:43"
-    },
-    {
-      "slot": 13,
-      "type": "question",
-      "angle": "As $VRT holds strong at $312 nearing the close, could the intensifying focus on AI infrastructure and Vertiv's strategic expansions build further momentum for tomorrow's open?",
-      "fire_time": "21:06"
-    },
-    {
-      "slot": 14,
-      "type": "fomo",
-      "angle": "With $VRT closing strong at $312.80, its fortified position in AI-driven liquid cooling, a sector with immense growth, might represent a value that late entrants are only now beginning to recognize.",
-      "fire_time": "21:34"
-    },
-    {
-      "slot": 15,
-      "type": "wrap",
-      "angle": "$VRT closed the day at $312.80, an impressive +1.79% gain, largely driven by sustained investor enthusiasm for its strategic expansion in high-demand AI cooling solutions.",
-      "fire_time": "22:03"
-    }
-  ],
-  "us_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15
-  ],
-  "last_posted": {
-    "VRT": 1306,
-    "BE": 1412
-  },
+  "date": "2026-07-01",
+  "daily_posts": 0,
   "eu_slots": [
     {
       "slot": 0,
       "type": "hook",
-      "target_time": "09:00",
-      "fire_time": "08:57"
+      "target_time": "08:45",
+      "fire_time": "08:43"
     },
     {
       "slot": 1,
       "type": "analytical",
       "target_time": "09:33",
-      "fire_time": "09:33"
+      "fire_time": "09:36"
     },
     {
       "slot": 2,
       "type": "question",
       "target_time": "10:06",
-      "fire_time": "10:05"
+      "fire_time": "10:04"
     },
     {
       "slot": 3,
       "type": "fomo",
       "target_time": "10:39",
-      "fire_time": "10:35"
+      "fire_time": "10:43"
     },
     {
       "slot": 4,
       "type": "analytical",
       "target_time": "11:12",
-      "fire_time": "11:15"
+      "fire_time": "11:12"
     },
     {
       "slot": 5,
@@ -338,7 +42,7 @@
       "slot": 6,
       "type": "fomo",
       "target_time": "12:18",
-      "fire_time": "12:17"
+      "fire_time": "12:18"
     },
     {
       "slot": 7,
@@ -350,93 +54,94 @@
       "slot": 8,
       "type": "analytical",
       "target_time": "13:24",
-      "fire_time": "13:26"
+      "fire_time": "13:21"
     },
     {
       "slot": 9,
       "type": "question",
       "target_time": "13:57",
-      "fire_time": "14:00"
+      "fire_time": "13:59"
     },
     {
       "slot": 10,
       "type": "fomo",
       "target_time": "14:30",
-      "fire_time": "14:33"
+      "fire_time": "14:26"
     },
     {
       "slot": 11,
       "type": "analytical",
       "target_time": "15:03",
-      "fire_time": "14:59"
+      "fire_time": "15:07"
     },
     {
       "slot": 12,
       "type": "question",
       "target_time": "15:36",
-      "fire_time": "15:36"
+      "fire_time": "15:33"
     },
     {
       "slot": 13,
       "type": "fomo",
       "target_time": "16:20",
-      "fire_time": "16:20"
+      "fire_time": "16:16"
     },
     {
       "slot": 14,
       "type": "wrap",
       "target_time": "16:55",
-      "fire_time": "16:52"
+      "fire_time": "16:58"
     },
     {
       "slot": 15,
       "type": "close_summary",
       "target_time": "17:00",
-      "fire_time": "17:02"
+      "fire_time": "17:03"
     }
   ],
+  "eu_posted": [],
   "us_slots": [
     {
       "slot": 0,
       "type": "hook",
-      "target_time": "15:15",
-      "fire_time": "15:11"
+      "target_time": "15:10",
+      "fire_time": "15:07"
     },
     {
       "slot": 1,
       "type": "analytical",
       "target_time": "15:45",
-      "fire_time": "15:44"
+      "fire_time": "15:40"
     },
     {
       "slot": 2,
       "type": "reaction",
       "target_time": "16:00",
-      "fire_time": "15:59"
+      "fire_time": "16:01"
     },
     {
       "slot": 3,
       "type": "question",
       "target_time": "16:28",
-      "fire_time": "16:23"
+      "fire_time": "16:27"
     },
     {
       "slot": 4,
       "type": "fomo",
       "target_time": "16:56",
-      "fire_time": "16:56"
+      "fire_time": "16:59"
     },
     {
       "slot": 5,
       "type": "analytical",
       "target_time": "17:24",
-      "fire_time": "17:26"
+      "fire_time": "17:19"
     },
     {
       "slot": 6,
       "type": "question",
       "target_time": "17:52",
-      "fire_time": "17:53"
+      "fire_time": "17:48"
     },
     {
       "slot": 7,
@@ -448,49 +153,75 @@
       "slot": 8,
       "type": "reaction",
       "target_time": "18:48",
-      "fire_time": "18:50"
+      "fire_time": "18:48"
     },
     {
       "slot": 9,
       "type": "analytical",
       "target_time": "19:16",
-      "fire_time": "19:15"
+      "fire_time": "19:12"
     },
     {
       "slot": 10,
       "type": "question",
       "target_time": "19:44",
-      "fire_time": "19:41"
+      "fire_time": "19:42"
     },
     {
       "slot": 11,
       "type": "fomo",
       "target_time": "20:12",
-      "fire_time": "20:13"
+      "fire_time": "20:09"
     },
     {
       "slot": 12,
       "type": "analytical",
       "target_time": "20:40",
-      "fire_time": "20:42"
+      "fire_time": "20:36"
     },
     {
       "slot": 13,
       "type": "question",
       "target_time": "21:08",
-      "fire_time": "21:11"
+      "fire_time": "21:04"
     },
     {
       "slot": 14,
       "type": "fomo",
       "target_time": "21:36",
-      "fire_time": "21:33"
+      "fire_time": "21:32"
     },
     {
       "slot": 15,
       "type": "wrap",
       "target_time": "22:00",
-      "fire_time": "22:00"
+      "fire_time": "22:04"
     }
-  ]
+  ],
+  "us_posted": [],
+  "engagement": {},
+  "price_snapshots": {
+    "ENR": 21.46,
+    "PWR": 720.2,
+    "NEE": 87.74,
+    "POWL": 286.56,
+    "NOK": 13.26,
+    "APLD": 37.28,
+    "NVT": 169.64,
+    "CRWV": 99.49,
+    "BE": 302.47,
+    "SU": 53.71,
+    "VST": 158.63,
+    "EQIX": 1042.51,
+    "ERIC": 11.16,
+    "TLN": 384.34,
+    "VRT": 334.58,
+    "IREN": 45.73,
+    "GEV": 1174.27,
+    "DLR": 179.61,
+    "CEG": 248.32,
+    "ETN": 425.99
+  },
+  "event_cooldowns": {},
+  "day_event_fired": {}
 }
