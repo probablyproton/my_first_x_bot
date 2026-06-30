@@ -121,7 +121,7 @@
   "engagement": {},
   "price_snapshots": {
     "NOKIA.HE": 11.56,
-    "VRT": 333.74
+    "VRT": 332.52
   },
   "event_cooldowns": {
     "VRT": 1113
@@ -267,7 +267,8 @@
     9,
     10,
     11,
-    12
+    12,
+    13
   ],
   "last_posted": {
     "VRT": 1186
