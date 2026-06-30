@@ -115,7 +115,8 @@
   ],
   "engagement": {},
   "price_snapshots": {
-    "NOKIA.HE": 11.59
+    "NOKIA.HE": 11.65,
+    "VRT": 307.01
   },
   "event_cooldowns": {},
   "day_event_fired": {},
@@ -131,6 +132,118 @@
       "2 Nvidia-Owned Stocks Investors Should Buy Now",
       "Is Alphabet (GOOG) One of the Top Trending US Stocks to Buy Now?",
       "Google DeepMind and A24 Announces First-of-its-Kind Partnership"
+    ],
+    "VRT": [
+      "Compass Datacenters Donates $12.6M Building to Texas State Technical College to Expand Career Training for the Fast-Growing Digital Economy",
+      "V&E Appoints Michael Jay as New IP Litigation Partner in LA",
+      "Vertiv (VRT) Expands AI Cooling Reach With ThermoKey And Strategic Thermal Labs",
+      "Data Center Delays Create Opportunity in These 3 Stocks",
+      "Eaton vs. Vertiv: Which Industrials Stock Is a Better Buy in 2026?",
+      "Investors Heavily Search Vertiv Holdings Co. (VRT): Here is What You Need to Know",
+      "Can AI Infrastructure Demand Fuel CDW's Growth in 2026?",
+      "Can AI-Driven Liquid Cooling Demand Boost NVT's Long-Term Growth?",
+      "Why nVent Could Be a Long-Term AI Infrastructure Winner",
+      "The Trillion-Dollar AI Shockwave Nobody Is Ready For"
     ]
-  }
+  },
+  "us_ticker": "VRT",
+  "us_plan": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "angle": "$VRT is gaining early traction at the open, as investors consider its recent expansion into AI cooling with ThermoKey and Strategic Thermal Labs.",
+      "fire_time": "15:10"
+    },
+    {
+      "slot": 1,
+      "type": "analytical",
+      "angle": "$VRT is trading at $308.50, holding above yesterday's close of $307.31, suggesting cautious optimism as AI cooling demand continues to be a focal point for investors.",
+      "fire_time": "15:44"
+    },
+    {
+      "slot": 2,
+      "type": "reaction",
+      "angle": "$VRT surged past the $310 mark, up over +0.88% from yesterday's close, as investors react positively to its expanded reach in AI cooling.",
+      "fire_time": "15:57"
+    },
+    {
+      "slot": 3,
+      "type": "question",
+      "angle": "With $VRT holding above $310, could the growing demand for AI infrastructure and strategic data center expansions continue to drive its valuation higher through the session?",
+      "fire_time": "16:28"
+    },
+    {
+      "slot": 4,
+      "type": "fomo",
+      "angle": "Vertiv's recent strategic expansion in AI cooling with ThermoKey and Strategic Thermal Labs might be a long-term game-changer \u2013 its current trading around $309.80 could be seen as an underestimation of its future growth.",
+      "fire_time": "16:59"
+    },
+    {
+      "slot": 5,
+      "type": "analytical",
+      "angle": "$VRT has now climbed to $311, a +1.2% gain today, reflecting sustained investor interest in companies with strong positions in the burgeoning AI infrastructure market.",
+      "fire_time": "17:19"
+    },
+    {
+      "slot": 6,
+      "type": "question",
+      "angle": "As $VRT consolidates near $311, might its strong session today further intensify the debate around \"Eaton vs. Vertiv\" and which industrial stock offers superior long-term potential?",
+      "fire_time": "17:47"
+    },
+    {
+      "slot": 7,
+      "type": "fomo",
+      "angle": "The relentless demand for AI infrastructure and specialized cooling, which $VRT is aggressively expanding to meet, suggests its current trading around $310.50 might not fully reflect its increasing market relevance.",
+      "fire_time": "18:23"
+    },
+    {
+      "slot": 8,
+      "type": "reaction",
+      "angle": "$VRT is pushing higher, now trading at $312, up +1.52% and marking a new intraday high, indicating robust investor confidence in its strategic AI cooling initiatives.",
+      "fire_time": "18:45"
+    },
+    {
+      "slot": 9,
+      "type": "analytical",
+      "angle": "$VRT is consolidating around $311.80 after its latest surge, a price level that might represent growing institutional support, as the market increasingly recognizes its pivotal role in AI infrastructure.",
+      "fire_time": "19:13"
+    },
+    {
+      "slot": 10,
+      "type": "question",
+      "angle": "With $VRT holding firmly above $311, could its expanded AI cooling capabilities position it for continued outperformance, especially as demand for specialized data center solutions intensifies?",
+      "fire_time": "19:43"
+    },
+    {
+      "slot": 11,
+      "type": "fomo",
+      "angle": "The speed and strategic nature of Vertiv's AI cooling expansion, now trading around $311.50, could be a key long-term differentiator that the broader market has yet to fully price in.",
+      "fire_time": "20:15"
+    },
+    {
+      "slot": 12,
+      "type": "analytical",
+      "angle": "$VRT is pushing towards the upper end of its daily range, now at $312.50 for a +1.68% gain, underscoring robust conviction from investors in its AI infrastructure story as the session nears its close.",
+      "fire_time": "20:43"
+    },
+    {
+      "slot": 13,
+      "type": "question",
+      "angle": "As $VRT holds strong at $312 nearing the close, could the intensifying focus on AI infrastructure and Vertiv's strategic expansions build further momentum for tomorrow's open?",
+      "fire_time": "21:06"
+    },
+    {
+      "slot": 14,
+      "type": "fomo",
+      "angle": "With $VRT closing strong at $312.80, its fortified position in AI-driven liquid cooling, a sector with immense growth, might represent a value that late entrants are only now beginning to recognize.",
+      "fire_time": "21:34"
+    },
+    {
+      "slot": 15,
+      "type": "wrap",
+      "angle": "$VRT closed the day at $312.80, an impressive +1.79% gain, largely driven by sustained investor enthusiasm for its strategic expansion in high-demand AI cooling solutions.",
+      "fire_time": "22:03"
+    }
+  ],
+  "us_posted": []
 }
