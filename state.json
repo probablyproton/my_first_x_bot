@@ -120,14 +120,15 @@
   ],
   "engagement": {},
   "price_snapshots": {
-    "NOKIA.HE": 11.52,
-    "VRT": 330.54
+    "NOKIA.HE": 11.56,
+    "VRT": 331.24
   },
   "event_cooldowns": {},
   "day_event_fired": {},
   "news_seen": {
     "NOKIA.HE": [
       "European Equities Traded in the US as American Depositary Receipts Rise in Tuesday Trading",
+      "Can Rising Defense Solutions Demand Boost Viasat's Growth Prospects?",
       "The Buyback Pays Off: Withings Confirms Full-Year Profitability for 2025, Driven by U.S. Market Dominance",
       "Inseego Advances International Expansion with New Regional Leadership, International Headquarters, and Continued Investment in Athens Software Development Center",
       "Can NOK's Defense Deal Capitalize on Rising Border Security Demand?",
@@ -135,8 +136,7 @@
       "Amazon.com (AMZN) Partners With Nokia, Here\u2019s What You Need to Know",
       "Nokia (HLSE:NOKIA) Partners With Nvidia To Build AI RAN 6G Networks",
       "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now",
-      "2 Nvidia-Owned Stocks Investors Should Buy Now",
-      "Is Alphabet (GOOG) One of the Top Trending US Stocks to Buy Now?"
+      "2 Nvidia-Owned Stocks Investors Should Buy Now"
     ],
     "VRT": [
       "Compass Datacenters Donates $12.6M Building to Texas State Technical College to Expand Career Training for the Fast-Growing Digital Economy",
@@ -255,6 +255,7 @@
     1,
     2,
     3,
-    4
+    4,
+    5
   ]
 }
