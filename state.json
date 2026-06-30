@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "daily_posts": 23,
+  "daily_posts": 24,
   "eu_ticker": "NOK",
   "eu_plan": [
     {
@@ -110,7 +110,7 @@
     "MRVL": 277.53,
     "MU": 1145.31,
     "NOK": 13.02,
-    "ERIC-B.ST": 108.75,
+    "ERIC-B.ST": 108.9,
     "NOKIA.HE": 11.7,
     "AVGO": 372.44,
     "BE": 275.02,
@@ -134,10 +134,11 @@
     "ANET": 498,
     "NBIS": 586,
     "FIX": 616,
-    "NOKIA.HE": 752
+    "NOKIA.HE": 766
   },
   "news_seen": {
     "NOK": [
+      "Inseego Advances International Expansion with New Regional Leadership, International Headquarters, and Continued Investment in Athens Software Development Center",
       "Can NOK's Defense Deal Capitalize on Rising Border Security Demand?",
       "European Equities Traded in the US as American Depositary Receipts Track Higher in Monday Trading",
       "Amazon.com (AMZN) Partners With Nokia, Here\u2019s What You Need to Know",
@@ -146,8 +147,7 @@
       "2 Nvidia-Owned Stocks Investors Should Buy Now",
       "Is Alphabet (GOOG) One of the Top Trending US Stocks to Buy Now?",
       "Google DeepMind and A24 Announces First-of-its-Kind Partnership",
-      "Alphabet (GOOG) Reports Computer Use Now a Built-In Tool Supported in Gemini 3.5 Flash",
-      "NOK Stock Heads For Second Straight Weekly Loss \u2014 Retail Sees Dip As Buying Chance"
+      "Alphabet (GOOG) Reports Computer Use Now a Built-In Tool Supported in Gemini 3.5 Flash"
     ]
   }
 }
