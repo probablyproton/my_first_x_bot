@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "daily_posts": 12,
+  "daily_posts": 13,
   "eu_ticker": "NOK",
   "eu_plan": [
     {
@@ -105,7 +105,7 @@
     "MRVL": 277.53,
     "MU": 1145.31,
     "NOK": 13.02,
-    "ERIC-B.ST": 109.05,
+    "ERIC-B.ST": 109.25,
     "NOKIA.HE": 11.72,
     "AVGO": 372.44,
     "BE": 275.02,
@@ -127,7 +127,7 @@
   "event_cooldowns": {
     "MRVL": 466,
     "ANET": 498,
-    "NBIS": 572
+    "NBIS": 586
   },
   "news_seen": {
     "NOK": [
