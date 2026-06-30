@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "daily_posts": 0,
+  "daily_posts": 2,
   "eu_ticker": "NOKIA.HE",
   "eu_plan": [
     {
@@ -121,10 +121,14 @@
   "engagement": {},
   "price_snapshots": {
     "NOKIA.HE": 11.56,
-    "VRT": 328.54
+    "VRT": 328.66
   },
-  "event_cooldowns": {},
-  "day_event_fired": {},
+  "event_cooldowns": {
+    "VRT": 1113
+  },
+  "day_event_fired": {
+    "VRT": "2026-06-30"
+  },
   "news_seen": {
     "NOKIA.HE": [
       "European Equities Traded in the US as American Depositary Receipts Rise in Tuesday Trading",
@@ -257,6 +261,7 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ]
 }
