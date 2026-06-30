@@ -593,7 +593,16 @@ Write the tweet. Keep it under 280 characters. Be specific – name real events,
 
     try:
         text = _gemini(TWEET_SYSTEM, prompt).strip('"').strip("'")
-        return text[:277].rsplit(" ", 1)[0] + "..." if len(text) > 280 else text
+        if len(text) > 280:
+            # Trim to last complete sentence within limit
+            trimmed = text[:280]
+            for sep in (". ", ".\n", "? ", "?\n", "! ", "!\n"):
+                idx = trimmed.rfind(sep)
+                if idx > 100:
+                    return trimmed[:idx + 1]
+            # Fall back to last word boundary
+            return trimmed.rsplit(" ", 1)[0]
+        return text
     except Exception as e:
         log.error("Tweet generation failed: %s", e)
     return None
@@ -668,7 +677,14 @@ Write a reaction tweet. Be specific. Add a "so what" framed as possibility. End 
 
     try:
         text = _gemini(NEWS_EVENT_SYSTEM, prompt).strip('"').strip("'")
-        return text[:277].rsplit(" ", 1)[0] + "..." if len(text) > 280 else text
+        if len(text) > 280:
+            trimmed = text[:280]
+            for sep in (". ", ".\n", "? ", "?\n", "! ", "!\n"):
+                idx = trimmed.rfind(sep)
+                if idx > 100:
+                    return trimmed[:idx + 1]
+            return trimmed.rsplit(" ", 1)[0]
+        return text
     except Exception as e:
         log.error("News event tweet generation failed: %s", e)
     return None
@@ -765,7 +781,16 @@ Keep it casual, direct, under 280 characters."""))
     for key, prompt in posts:
         try:
             text = _gemini(ENGAGEMENT_SYSTEM, prompt).strip('"').strip("'")
-            tweet = text[:277].rsplit(" ", 1)[0] + "..." if len(text) > 280 else text
+            if len(text) > 280:
+                trimmed = text[:280]
+                for sep in (". ", ".\n", "? ", "?\n", "! ", "!\n"):
+                    idx = trimmed.rfind(sep)
+                    if idx > 100:
+                        text = trimmed[:idx + 1]
+                        break
+                else:
+                    text = trimmed.rsplit(" ", 1)[0]
+            tweet = text
             log.info("Engagement [%s] (%d chars):\n%s", key, len(tweet), tweet)
             if post_tweet(tweet, state):
                 engagement[key] = today_str
