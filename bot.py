@@ -50,7 +50,7 @@ EU_FOCUS_TICKER              = os.getenv("EU_FOCUS_TICKER", "").strip().upper().
 US_FOCUS_TICKER              = os.getenv("US_FOCUS_TICKER", "").strip().upper().replace("{}", "")
 EVENT_INTERVAL_THRESHOLD_PCT = float(os.getenv("EVENT_INTERVAL_THRESHOLD_PCT", "1.5"))
 EVENT_DAY_THRESHOLD_PCT      = float(os.getenv("EVENT_DAY_THRESHOLD_PCT", "4.0"))
-EVENT_COOLDOWN_MINUTES       = int(os.getenv("EVENT_COOLDOWN_MINUTES", "12"))
+EVENT_COOLDOWN_MINUTES       = int(os.getenv("EVENT_COOLDOWN_MINUTES", "60"))
 NEWS_COOLDOWN_MINUTES        = 60
 
 HEADLESS = os.getenv("CI", "false") == "true"
@@ -976,8 +976,9 @@ def post_tweet(text: str, state: dict) -> bool:
 # ── Event monitor ─────────────────────────────────────────────────────────[...]
 
 def check_price_events(state: dict, symbols: list[str]) -> dict:
-    snapshots = state.setdefault("price_snapshots", {})
-    cooldowns = state.setdefault("event_cooldowns", {})
+    snapshots        = state.setdefault("price_snapshots", {})
+    cooldowns        = state.setdefault("event_cooldowns", {})
+    day_event_fired  = state.setdefault("day_event_fired", {})  # ticker → date string
 
     candidates = []
 
@@ -989,6 +990,7 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
         current  = price_ctx["price"]
         day_pct  = abs(price_ctx["change_pct"])
 
+        # Per-event cooldown (interval moves)
         last_event_min = cooldowns.get(symbol, 0)
         if now_minutes() - last_event_min < EVENT_COOLDOWN_MINUTES:
             snapshots[symbol] = current
@@ -1011,15 +1013,19 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
 
         if interval_pct >= EVENT_INTERVAL_THRESHOLD_PCT:
             direction = "up" if current > last_price else "down"
-            candidates.append((interval_pct, symbol, price_ctx, (
+            candidates.append((interval_pct, symbol, price_ctx, "interval", (
                 f"${symbol} just moved {direction} {interval_pct:.1f}% in the last few minutes "
                 f"(now ${current}, {price_ctx['change_pct']:+.1f}% on the day).{intraday} "
                 f"React immediately and specifically to what is actually happening — "
                 f"a rebound is different from a continuation move."
             )))
         elif day_pct >= EVENT_DAY_THRESHOLD_PCT:
+            # Day-move events fire at most once per ticker per day
+            if day_event_fired.get(symbol) == today():
+                snapshots[symbol] = current
+                continue
             direction = "up" if price_ctx["change_pct"] > 0 else "down"
-            candidates.append((day_pct, symbol, price_ctx, (
+            candidates.append((day_pct, symbol, price_ctx, "day", (
                 f"${symbol} is {direction} {day_pct:.1f}% today (now ${current}).{intraday} "
                 f"This is a significant day move. React with conviction."
             )))
@@ -1028,8 +1034,8 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
 
     if candidates:
         candidates.sort(reverse=True)
-        _, symbol, price_ctx, trigger = candidates[0]
-        log.info("PRICE EVENT triggered for $%s: %s", symbol, trigger)
+        _, symbol, price_ctx, event_type, trigger = candidates[0]
+        log.info("PRICE EVENT [%s] triggered for $%s: %s", event_type, symbol, trigger)
         community = get_ticker_context(symbol)
         slot  = {"type": "event", "format": "short", "angle": trigger}
         tweet = generate_tweet(symbol, slot, price_ctx, community, event_trigger=trigger)
@@ -1037,6 +1043,8 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
             log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
             if post_tweet(tweet, state):
                 cooldowns[symbol] = now_minutes()
+                if event_type == "day":
+                    day_event_fired[symbol] = today()
 
     save_state(state)
     return state
@@ -1218,11 +1226,11 @@ def run_cycle(state: dict) -> dict:
     state = process_storyline(state, "eu")
     state = process_storyline(state, "us")
 
-    all_tickers = active_tickers_sorted()
-    if not is_weekend() and all_tickers:
-        state = check_price_events(state, all_tickers)
-
     story_tickers = list({state.get("eu_ticker", ""), state.get("us_ticker", "")} - {""})
+
+    # Price events only on today's story tickers — avoids dual-posting for NOKIA.HE + NOK
+    if not is_weekend() and story_tickers:
+        state = check_price_events(state, story_tickers)
     if not is_weekend() and story_tickers:
         state = check_news_events(state, story_tickers)
 
