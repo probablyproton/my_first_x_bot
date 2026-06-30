@@ -1,8 +1,6 @@
 name: Ticker Bot
 
 on:
-  schedule:
-    - cron: '*/15 6-21 * * *'
   workflow_dispatch:
 
 jobs:
@@ -44,6 +42,9 @@ jobs:
 
       - name: Decode Twitter session
         run: echo "${{ secrets.TWITTER_SESSION }}" | base64 -d > twitter_session.json
+
+      - name: Clear stale lock
+        run: rm -f bot.lock
 
       - name: Run bot cycle
         run: python bot.py
