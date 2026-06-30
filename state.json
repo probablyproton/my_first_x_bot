@@ -1,6 +1,6 @@
 {
   "date": "2026-06-30",
-  "daily_posts": 4,
+  "daily_posts": 5,
   "eu_ticker": "NOKIA.HE",
   "eu_plan": [
     {
@@ -121,7 +121,7 @@
   "engagement": {},
   "price_snapshots": {
     "NOKIA.HE": 11.56,
-    "VRT": 329.23
+    "VRT": 330.7
   },
   "event_cooldowns": {
     "VRT": 1113
@@ -131,6 +131,7 @@
   },
   "news_seen": {
     "NOKIA.HE": [
+      "Notification under Chapter 9, Section 10 of the Finnish Securities Market Act: voting rights of FMR LLC in Nokia Corporation decreased below 5%",
       "European Equities Traded in the US as American Depositary Receipts Rise in Tuesday Trading",
       "Can Rising Defense Solutions Demand Boost Viasat's Growth Prospects?",
       "The Buyback Pays Off: Withings Confirms Full-Year Profitability for 2025, Driven by U.S. Market Dominance",
@@ -139,8 +140,7 @@
       "European Equities Traded in the US as American Depositary Receipts Track Higher in Monday Trading",
       "Amazon.com (AMZN) Partners With Nokia, Here\u2019s What You Need to Know",
       "Nokia (HLSE:NOKIA) Partners With Nvidia To Build AI RAN 6G Networks",
-      "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now",
-      "2 Nvidia-Owned Stocks Investors Should Buy Now"
+      "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now"
     ],
     "VRT": [
       "Here's Why AI Data Center Infrastructure Stock, Vertiv, Shot Higher Today",
@@ -264,6 +264,10 @@
     6,
     7,
     8,
-    9
-  ]
+    9,
+    10
+  ],
+  "last_posted": {
+    "VRT": 1186
+  }
 }
