@@ -630,16 +630,20 @@ Write the tweet. Keep it under 280 characters. Be specific – name real events,
 
 # ── News event classifier ─────────────────────────────────────────────────────
 
-def classify_news_batch(ticker_headlines: dict[str, list[str]]) -> dict[str, dict]:
-    """Classify multiple tickers' fresh headlines in a single Gemini call.
-    Returns {symbol: classification} only for tickers judged major."""
-    if not ticker_headlines:
+def classify_news_batch(ticker_articles: dict[str, list[dict]]) -> dict[str, dict]:
+    """Classify multiple tickers' fresh headlines (+ summary excerpt where available) in a
+    single Gemini call. Returns {symbol: classification} only for tickers judged major."""
+    if not ticker_articles:
         return {}
 
     blocks = []
-    for symbol, headlines in ticker_headlines.items():
-        headlines_block = "\n".join(f"- {h}" for h in headlines)
-        blocks.append(f"Ticker: ${symbol}\nHeadlines:\n{headlines_block}")
+    for symbol, articles in ticker_articles.items():
+        lines = []
+        for a in articles:
+            lines.append(f"- {a['headline']}")
+            if a.get("summary"):
+                lines.append(f"  Summary: {a['summary']}")
+        blocks.append(f"Ticker: ${symbol}\nHeadlines:\n" + "\n".join(lines))
     prompt = "\n\n".join(blocks) + "\n\nClassify each ticker independently per the rules above."
 
     try:
@@ -648,12 +652,52 @@ def classify_news_batch(ticker_headlines: dict[str, list[str]]) -> dict[str, dic
         major = {}
         for r in results:
             symbol = r.get("symbol", "")
-            if symbol in ticker_headlines and r.get("is_major"):
+            if symbol in ticker_articles and r.get("is_major"):
                 major[symbol] = r
         return major
     except Exception as e:
-        log.warning("Batch news classification failed for %s: %s", list(ticker_headlines), e)
+        log.warning("Batch news classification failed for %s: %s", list(ticker_articles), e)
     return {}
+
+
+# ── Zero-LLM news fallback ──────────────────────────────────────────────────
+# Only used when Gemini classification isn't available for a ticker this cycle
+# (storyline's news budget already spent, or Gemini itself is down). Compound
+# pattern matching, not bare keyword presence — mirrors Gemini's own category
+# list but can't verify exact thresholds (a headline rarely states "beat by
+# 6.2%"), so it's deliberately narrower: only categorically unambiguous events.
+_KEYWORD_RULES = [
+    ("ma",         re.compile(r"\b(acquir\w*|merger|buyout|takeover)\b", re.I), None),
+    ("contract",   re.compile(r"\b(contract|partnership|deal)\b", re.I),
+                   re.compile(r"\$[\d,.]+\s?(million|billion|M|B)\b", re.I)),
+    ("earnings",   re.compile(r"\b(beats?|misses?|tops? estimates?|guidance (raised|cut|lowered))\b", re.I), None),
+    ("buyback",    re.compile(r"\b(buyback|share repurchase)\b", re.I),
+                   re.compile(r"\$[\d,.]+\s?(million|billion|M|B)\b", re.I)),
+    ("regulatory", re.compile(r"\b(sanctions|export (ban|control)|security ban|CHIPS Act)\b", re.I), None),
+    ("analyst",    re.compile(r"\binitiates? coverage\b", re.I), None),
+]
+_ANALYST_ROUTINE_RE = re.compile(r"\b(upgrade\w*|downgrade\w*|reiterat\w*|maintain\w*)\b", re.I)
+
+
+def classify_news_keyword(articles: list[dict]) -> dict | None:
+    """Zero-LLM classifier for a single ticker's fresh articles. Returns the first article
+    matching a compound rule, in the same shape classify_news_batch's Gemini path returns."""
+    for a in articles:
+        text = f"{a['headline']} {a.get('summary') or ''}"
+        for category, primary, secondary in _KEYWORD_RULES:
+            if not primary.search(text):
+                continue
+            if category == "analyst" and _ANALYST_ROUTINE_RE.search(text):
+                continue  # routine rating change, not an initiation — same exclusion Gemini applies
+            if secondary and not secondary.search(text):
+                continue  # e.g. "partnership" without a dollar figure is too vague to act on
+            return {
+                "is_major": True,
+                "category": category,
+                "headline": a["headline"],
+                "reason": f"Keyword rule matched (category: {category})",
+            }
+    return None
 
 
 NEWS_EVENT_SYSTEM = """## Role
@@ -731,6 +775,33 @@ Write a reaction tweet. Be specific. Add a "so what" framed as possibility. End 
     except Exception as e:
         log.error("News event tweet generation failed: %s", e)
     return None
+
+
+def generate_keyword_event_tweet(symbol: str, classification: dict, price_ctx: dict,
+                                  link: str = "", source: str = "") -> str | None:
+    """Zero-LLM counterpart to generate_news_event_tweet — pure template, no Gemini call.
+    Used only when Gemini classification wasn't available for this ticker this cycle."""
+    base = _base_symbol(symbol)
+    price_str = ""
+    if price_ctx and _is_market_open_for(symbol):
+        sign = "+" if price_ctx["change_pct"] >= 0 else ""
+        price_str = f" (${price_ctx['price']}, {sign}{price_ctx['change_pct']}% today)"
+
+    prefix = f"${base}{price_str}: "
+    suffix = f"\nvia {source}" if source else ""
+    suffix += f"\n{link}" if link else ""
+    # X counts any URL as a fixed ~23 characters (t.co shortening) regardless of its real length.
+    suffix_budget = len(suffix) - len(link) + 23 if link else len(suffix)
+
+    headline = classification["headline"]
+    max_headline_len = 280 - len(prefix) - suffix_budget
+    if max_headline_len < 20:
+        return None
+    if len(headline) > max_headline_len:
+        headline = headline[:max_headline_len].rsplit(" ", 1)[0] + "…"
+
+    return prefix + headline + suffix
+
 
 MARKET_UPDATE_SYSTEM = """## Role
 You are an expert financial X (Twitter) market commentator — sharp, credible, market-native.
@@ -1238,6 +1309,17 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
 
 
 _DC_CREATOR = "{http://purl.org/dc/elements/1.1/}creator"
+_HTML_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def _clean_summary(raw: str | None) -> str:
+    """Strip HTML (Google News wraps its <description> in <a>/<font> tags) and collapse
+    whitespace (Yahoo/Nasdaq's <description> often has leading/trailing newlines)."""
+    if not raw:
+        return ""
+    import html
+    text = html.unescape(_HTML_TAG_RE.sub(" ", raw))
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def _fetch_rss_with_dates(url: str, max_messages: int) -> list[dict]:
@@ -1273,7 +1355,11 @@ def _fetch_rss_with_dates(url: str, max_messages: int) -> list[dict]:
         else:
             source = None
 
-        results.append({"headline": title, "link": link, "source": source, "published": pub_dt})
+        # Google News's <description> is just an HTML restatement of title+source — no real
+        # extra content. Yahoo/Nasdaq's is a genuine 1-3 sentence excerpt, worth keeping.
+        summary = "" if "news.google.com" in url else _clean_summary(item.findtext("description"))
+
+        results.append({"headline": title, "link": link, "source": source, "summary": summary, "published": pub_dt})
     return results
 
 
@@ -1306,28 +1392,26 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
     reopens. Detected events are queued rather than posted immediately: at most one
     news-event tweet is released per cycle, at least NEWS_POST_MIN_GAP_MINUTES apart
     from the last one, so a burst of simultaneous headlines doesn't post back-to-back
-    like a bot firing instantly — it reads as paced, human-like coverage instead."""
+    like a bot firing instantly — it reads as paced, human-like coverage instead.
+
+    Classification routes to Gemini normally, but falls back to zero-LLM keyword
+    matching for a ticker whenever its storyline's news budget is already spent, or
+    Gemini itself is unavailable this cycle — so news coverage keeps going even when
+    the AI-written path can't run, just with a coarser (but still specific) bar and
+    a templated tweet instead of AI-written commentary."""
     cooldowns = state.setdefault("event_cooldowns", {})
     news_seen = state.setdefault("news_seen", {})
     queue     = state.setdefault("pending_news_posts", [])
     now_dt    = datetime.datetime.utcnow()
     queued_symbols = {item["symbol"] for item in queue}
 
-    # ── Gather: fetch fresh headlines per ticker first, no Gemini calls yet ──
-    candidates: dict[str, list[str]] = {}
-    article_meta: dict[str, dict[str, dict]] = {}  # symbol -> {headline: {"link":, "source":}}
+    # ── Gather: fetch fresh headlines+summaries per ticker, no Gemini calls yet.
+    # Always runs regardless of budget/Gemini state — routing happens next, after we
+    # know what's actually available to classify. ──
+    candidates: dict[str, list[dict]] = {}
     for symbol in symbols:
         if symbol in queued_symbols:
             continue  # already holding a news event for this ticker — don't pile on
-
-        if not _has_news_budget(state, symbol):
-            continue  # storyline's flexible+buffer budget exhausted — not worth spending a
-                       # Gemini call classifying news we couldn't post about anyway today
-
-        if _gemini_unavailable:
-            continue  # don't mark headlines "seen" if we can't classify them this cycle —
-                       # otherwise a story that breaks during an outage gets silently skipped
-                       # forever once it's no longer "new" on the next successful cycle
 
         last_event_min = cooldowns.get(f"news_{symbol}", 0)
         if now_minutes() - last_event_min < NEWS_COOLDOWN_MINUTES:
@@ -1339,38 +1423,51 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             a for a in articles
             if a["published"] and (now_dt - a["published"]).total_seconds() < 86400
         ]
-        new_headlines = [a["headline"] for a in recent if a["headline"] not in news_seen.get(symbol, [])]
+        new_articles = [a for a in recent if a["headline"] not in news_seen.get(symbol, [])]
         news_seen[symbol] = [a["headline"] for a in articles]
 
-        if new_headlines:
-            candidates[symbol] = new_headlines
-            article_meta[symbol] = {a["headline"]: {"link": a["link"], "source": a["source"]} for a in recent}
+        if new_articles:
+            candidates[symbol] = new_articles
 
-    # ── Classify: batch tickers with fresh headlines into groups of NEWS_CLASSIFY_BATCH_SIZE,
-    # so a busy day costs a handful of Gemini calls instead of one call per ticker ──
-    candidate_symbols = list(candidates)
-    for i in range(0, len(candidate_symbols), NEWS_CLASSIFY_BATCH_SIZE):
+    # ── Route: Gemini when the storyline still has budget and Gemini's reachable
+    # this cycle, keyword fallback otherwise. ──
+    gemini_symbols  = [s for s in candidates if _has_news_budget(state, s) and not _gemini_unavailable]
+    keyword_symbols = [s for s in candidates if s not in gemini_symbols]
+
+    def _queue_item(symbol, classification, method):
+        meta = next((a for a in candidates[symbol] if a["headline"] == classification["headline"]), {})
+        # Only attach a link if we could identify a real, named, non-aggregator source —
+        # never cite/link Yahoo's or Google's own domain as if it were "the source".
+        source = meta.get("source")
+        link = meta.get("link") if source else None
+        log.info("NEWS EVENT queued [%s] for $%s [%s]: %s (source: %s)",
+                 method, symbol, classification["category"], classification["headline"], source or "unknown")
+        queue.append({
+            "symbol": symbol,
+            "classification": classification,
+            "link": link,
+            "source": source,
+            "method": method,
+            "queued_min": _epoch_minutes(),
+        })
+
+    # ── Classify via Gemini: batch into groups of NEWS_CLASSIFY_BATCH_SIZE, so a busy
+    # day costs a handful of calls instead of one call per ticker ──
+    for i in range(0, len(gemini_symbols), NEWS_CLASSIFY_BATCH_SIZE):
         if _gemini_unavailable:
             log.warning("Gemini unavailable this cycle — skipping remaining news classification batches (%d tickers left)",
-                        len(candidate_symbols) - i)
+                        len(gemini_symbols) - i)
             break
-        batch = candidate_symbols[i:i + NEWS_CLASSIFY_BATCH_SIZE]
+        batch = gemini_symbols[i:i + NEWS_CLASSIFY_BATCH_SIZE]
         major = classify_news_batch({s: candidates[s] for s in batch})
         for symbol, classification in major.items():
-            meta = article_meta.get(symbol, {}).get(classification["headline"], {})
-            # Only attach a link if we could identify a real, named, non-aggregator source —
-            # never cite/link Yahoo's or Google's own domain as if it were "the source".
-            source = meta.get("source")
-            link = meta.get("link") if source else None
-            log.info("NEWS EVENT queued for $%s [%s]: %s (source: %s)",
-                     symbol, classification["category"], classification["headline"], source or "unknown")
-            queue.append({
-                "symbol": symbol,
-                "classification": classification,
-                "link": link,
-                "source": source,
-                "queued_min": _epoch_minutes(),
-            })
+            _queue_item(symbol, classification, "gemini")
+
+    # ── Classify via keyword fallback: pure local pattern matching, no API call ──
+    for symbol in keyword_symbols:
+        classification = classify_news_keyword(candidates[symbol])
+        if classification:
+            _queue_item(symbol, classification, "keyword")
 
     # ── Release: post at most one held event this cycle, respecting the global gap ──
     last_post_min = state.get("last_news_post_min", 0)
@@ -1381,37 +1478,48 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
         for item in queue:
             age = _epoch_minutes() - item["queued_min"]
             symbol, classification = item["symbol"], item["classification"]
+            method = item.get("method", "gemini")
 
             if age > NEWS_QUEUE_MAX_AGE_MINUTES:
                 log.warning("NEWS EVENT dropped (stale, held %d min) — $%s: %s",
                             age, symbol, classification["headline"])
                 continue
 
-            if released or _gemini_unavailable:
-                remaining.append(item)  # already posted one this cycle, or Gemini's down — retry next cycle
+            # Gemini's outage only blocks Gemini-sourced items — keyword items don't need it.
+            if released or (method == "gemini" and _gemini_unavailable):
+                remaining.append(item)
                 continue
 
             if _ticker_on_cooldown(state, symbol):
                 remaining.append(item)  # ticker itself busy — try again next cycle
                 continue
 
-            pool = _consume_news_slot(state, symbol)
-            if not pool:
-                remaining.append(item)  # storyline's flexible+buffer budget exhausted for today
-                continue
+            # Only Gemini-classified posts draw from the flexible/buffer budget — keyword
+            # fallback posts are, by design, only used once that budget is already spent.
+            pool = None
+            if method == "gemini":
+                pool = _consume_news_slot(state, symbol)
+                if not pool:
+                    remaining.append(item)  # storyline's flexible+buffer budget exhausted for today
+                    continue
 
             price_ctx = get_price_context(symbol)
-            tweet = generate_news_event_tweet(symbol, classification, price_ctx,
-                                               link=item.get("link"), source=item.get("source"))
+            if method == "gemini":
+                tweet = generate_news_event_tweet(symbol, classification, price_ctx,
+                                                   link=item.get("link"), source=item.get("source"))
+            else:
+                tweet = generate_keyword_event_tweet(symbol, classification, price_ctx,
+                                                      link=item.get("link"), source=item.get("source"))
             if tweet:
-                log.info("News event tweet (%d chars):\n%s", len(tweet), tweet)
+                log.info("News event tweet [%s] (%d chars):\n%s", method, len(tweet), tweet)
                 if post_tweet(tweet, state):
                     cooldowns[f"news_{symbol}"] = now_minutes()
                     _record_ticker_post(state, symbol)
                     state["last_news_post_min"] = _epoch_minutes()
                     released = True
                     continue
-            _refund_slot(state, symbol, pool)
+            if pool:
+                _refund_slot(state, symbol, pool)
             remaining.append(item)
 
         queue[:] = remaining
