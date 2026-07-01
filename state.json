@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "daily_posts": 2,
+  "daily_posts": 3,
   "eu_slots": [
     {
       "slot": 0,
@@ -224,14 +224,17 @@
   },
   "event_cooldowns": {
     "BE": 136,
-    "VRT": 166
+    "VRT": 166,
+    "GEV": 183
   },
   "day_event_fired": {
     "BE": "2026-07-01",
-    "VRT": "2026-07-01"
+    "VRT": "2026-07-01",
+    "GEV": "2026-07-01"
   },
   "last_posted": {
     "BE": 136,
-    "VRT": 166
+    "VRT": 166,
+    "GEV": 183
   }
 }
