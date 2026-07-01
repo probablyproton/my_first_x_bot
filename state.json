@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "daily_posts": 0,
+  "daily_posts": 1,
   "eu_slots": [
     {
       "slot": 0,
@@ -222,6 +222,13 @@
     "CEG": 248.32,
     "ETN": 425.99
   },
-  "event_cooldowns": {},
-  "day_event_fired": {}
+  "event_cooldowns": {
+    "BE": 136
+  },
+  "day_event_fired": {
+    "BE": "2026-07-01"
+  },
+  "last_posted": {
+    "BE": 136
+  }
 }
