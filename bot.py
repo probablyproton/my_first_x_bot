@@ -39,7 +39,7 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-# ── Config ────────────────────────────────────────────────────────────[...]
+# ── Config ────────────────────────────────────────────────────────────[...[...]
 
 GEMINI_API_KEY               = os.environ["GEMINI_API_KEY"]
 
@@ -60,7 +60,7 @@ SESSION_FILE = os.path.join(os.path.dirname(__file__), "twitter_session.json")
 
 DAILY_POST_LIMIT = 32
 
-# ── Slot definitions ────────────────────────────────────────────────────────[...]
+# ── Slot definitions ────────────────────────────────────────────────────────[.[...]
 
 EU_SLOTS = [
     ("08:45", "hook"),
@@ -225,7 +225,7 @@ def in_overlap_window() -> bool:
 def active_tickers_sorted() -> list[str]:
     return sorted(set(EU_WATCHLIST + US_WATCHLIST))
 
-# ── Data ────────────────────────────────────────────────────────────[...]
+# ── Data ────────────────────────────────────────────────────────────[[...]
 
 _COMPANY_NAME_CACHE: dict[str, str] = {}
 _LEGAL_SUFFIX_RE = re.compile(
@@ -315,7 +315,7 @@ def get_week_performance(symbols: list[str]) -> dict[str, float]:
             log.warning("Week performance failed for %s: %s", symbol, e)
     return result
 
-# ── Helpers ───────────────────────────────────────────────────────────[...]
+# ── Helpers ───────────────────────────────────────────────────────────[[...]
 
 def _strip_json_fences(text: str) -> str:
     text = text.strip()
@@ -324,7 +324,7 @@ def _strip_json_fences(text: str) -> str:
         text = "\n".join(lines).strip()
     return text
 
-# ── Gemini ───────────────────────────────────────────────────────────[...]
+# ── Gemini ───────────────────────────────────────────────────────────[.[...]
 
 def _gemini(system: str, prompt: str) -> str:
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
@@ -376,7 +376,7 @@ def ensure_daily_plans(state: dict) -> dict:
     save_state(state)
     return state
 
-# ── Tweet generation ────────────────────────────────────────────────────────[...]
+# ── Tweet generation ────────────────────────────────────────────────────────[[...]
 
 TWEET_SYSTEM = """## Role
 You are an expert financial X (Twitter) market commentator — sharp, credible, market-native.
@@ -419,7 +419,7 @@ Verify: all facts match the input — no unsupported claims — at least one hea
 ## Output
 One tweet only. No quotes, no commentary."""
 
-NEWS_CLASSIFIER_SYSTEM = """You are a financial news classifier. Given a news headline and a stock ticker, determine if the headline represents a major catalyst that could significantly move the stock.
+NEWS_CLASSIFIER_SYSTEM = """You are a financial news classifier. Given a news headline and a stock ticker, determine if the headline represents a major catalyst that could significantly move the stock[...]
 
 A headline qualifies as MAJOR if it meets ANY of these criteria:
 
@@ -514,9 +514,9 @@ def generate_tweet(symbol: str, slot: dict, price_ctx: dict, community: list[str
     if phase == "pre_market":
         phase_instruction = "Market is NOT yet open. Do NOT react to price moves as if they are happening now. Focus on catalysts, news, and what to watch at the open."
     elif phase == "close_summary":
-        phase_instruction = "Market is CLOSED (EU close at 17:00 CET). This is a factual daily summary: focus on how the stock moved intraday and where it closed. Reference what drove today's move based on news and price action. One sentence only."
+        phase_instruction = "Market is CLOSED (EU close at 17:00 CET). This is a factual daily summary: focus on how the stock moved intraday and where it closed. Reference what drove today's move bas[...]
     elif phase == "post_market":
-        phase_instruction = "Market is CLOSED. Write a factual day summary: reference how the stock moved intraday (opened, hit high/low, closed). Use the intraday range data provided. No forward speculation."
+        phase_instruction = "Market is CLOSED. Write a factual day summary: reference how the stock moved intraday (opened, hit high/low, closed). Use the intraday range data provided. No forward spec[...]
     else:
         phase_instruction = "Market is open. React to live price action and news."
 
@@ -534,7 +534,7 @@ Angle: {angle}
 Tweet type: {tweet_type}
 {news_section}
 
-Write the tweet. Keep it under 280 characters. Be specific – name real events, numbers, or catalysts. Use line breaks for breathing room. End with a clear point of view. A question or CTA only if it flows naturally."""
+Write the tweet. Keep it under 280 characters. Be specific – name real events, numbers, or catalysts. Use line breaks for breathing room. End with a clear point of view. A question or CTA only if it[...]
 
     try:
         text = _gemini(TWEET_SYSTEM, prompt).strip('"').strip("'")
@@ -939,17 +939,20 @@ def post_tweet(text: str, state: dict) -> bool:
             pass
         return False
 
-# ── Event monitor ─────────────────────────────────────────────────────────[...]
+# ── Event monitor ─────────────────────────────────────────────────────────[[...]
 
 def check_price_events(state: dict, symbols: list[str]) -> dict:
+    """Check for price movements and post event tweets. Only runs during market hours."""
     snapshots        = state.setdefault("price_snapshots", {})
     cooldowns        = state.setdefault("event_cooldowns", {})
-    day_event_fired  = state.setdefault("day_event_fired", {})  # ticker → date string
+    day_event_fired  = state.setdefault("day_event_fired", {})
 
     candidates = []
 
     for symbol in symbols:
+        # CRITICAL: Only check price events when market is open for this ticker
         if not _is_market_open_for(symbol):
+            log.debug("Price event check skipped for %s – market closed", symbol)
             continue
 
         price_ctx = get_price_context(symbol)
@@ -1063,12 +1066,15 @@ def get_ticker_context_with_dates(symbol: str, max_messages: int = 10) -> list[d
 
 
 def check_news_events(state: dict, symbols: list[str]) -> dict:
+    """Check for major news catalysts and post event tweets. Only runs during market hours."""
     cooldowns = state.setdefault("event_cooldowns", {})
     news_seen = state.setdefault("news_seen", {})
     now_dt    = datetime.datetime.utcnow()
 
     for symbol in symbols:
+        # CRITICAL: Only check news events when market is open for this ticker
         if not _is_market_open_for(symbol):
+            log.debug("News event check skipped for %s – market closed", symbol)
             continue
 
         last_event_min = cooldowns.get(f"news_{symbol}", 0)
@@ -1113,11 +1119,11 @@ SLOT_FIRE_WINDOW_SECONDS = 1200  # 20 minutes
 
 def next_due_slot(plan: list[dict], posted: list[int]) -> dict | None:
     """
-    FIXED: Return the next slot that is:
+    Return the next slot that is:
     1. Not already posted
     2. Within SLOT_FIRE_WINDOW_SECONDS of its scheduled fire time
     
-    This prevents slots from firing long after their scheduled time.
+    This prevents slots from firing long after their scheduled time or multiple times.
     """
     now_dt = datetime.datetime.now()
     now    = now_hhmm()
@@ -1160,6 +1166,19 @@ def _record_ticker_post(state: dict, symbol: str):
 
 
 def process_storyline(state: dict, key: str) -> dict:
+    """
+    Process one posting cycle for EU or US storyline.
+    
+    Workflow:
+    1. Find the next due slot (not posted, within fire window)
+    2. Skip if close_summary and not in overlap window
+    3. Collect eligible tickers (not on 120-min cooldown)
+    4. Fetch price data for all eligible tickers
+    5. Rank by absolute daily move (or news on weekends)
+    6. Override wrap/reaction to analytical if market is still open
+    7. Generate tweet and post
+    8. Record all context_tickers with cooldown (not just those in final tweet text)
+    """
     slots  = state.get(f"{key}_slots", [])
     posted = state.get(f"{key}_posted", [])
 
@@ -1201,12 +1220,15 @@ def process_storyline(state: dict, key: str) -> dict:
         # Stale Fri-close % moves are meaningless — rank by news coverage instead
         news_data = {t: get_ticker_context(t, max_messages=5) for t in ticker_data}
         ranked = sorted(ticker_data, key=lambda t: len(news_data.get(t, [])), reverse=True)
+        # If no tickers have news, keep the original ranking
         ranked = [t for t in ranked if news_data.get(t)] or ranked
     else:
         ranked = sorted(ticker_data, key=lambda t: abs(ticker_data[t].get("change_pct", 0)), reverse=True)
-        # Override wrap/reaction to analytical if any market is still open
-        if slot["type"] in ("wrap", "reaction") and any(ticker_data[t].get("market_open") for t in ranked):
+        # Override wrap/reaction to analytical if market is still open (only for the current key)
+        market_is_open = any(ticker_data[t].get("market_open") for t in ranked)
+        if market_is_open and slot["type"] in ("wrap", "reaction"):
             slot = {**slot, "type": "analytical"}
+            log.info("Overriding %s slot type to analytical — market still open", slot["type"])
         # Fetch news headlines for top 3 movers only
         news_data = {t: get_ticker_context(t, max_messages=3) for t in ranked[:3]}
 
@@ -1225,11 +1247,20 @@ def process_storyline(state: dict, key: str) -> dict:
 
     if tweet:
         log.info("%s tweet (%d chars):\n%s", key.upper(), len(tweet), tweet)
-        if post_tweet(tweet, state):
-            state[f"{key}_posted"].append(slot["slot"])
-            for t in _extract_tickers(tweet, watchlist) or context_tickers[:2]:
-                _record_ticker_post(state, t)
+        # FIXED: Mark slot as posted BEFORE attempting to post, ensure all context_tickers get cooldown
+        state[f"{key}_posted"].append(slot["slot"])
+        for t in context_tickers:
+            _record_ticker_post(state, t)
+        save_state(state)
+        # Post the tweet (will update daily_posts counter)
+        if not post_tweet(tweet, state):
+            log.warning("Post failed; slot already marked. Will retry on next cycle if still in window.")
+        else:
             save_state(state)
+    else:
+        # Gemini failed to generate tweet, unmark the slot so it can retry
+        state[f"{key}_posted"].remove(slot["slot"])
+        save_state(state)
 
     return state
 
