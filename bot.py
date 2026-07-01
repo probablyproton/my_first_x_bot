@@ -1549,13 +1549,19 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
     keyword_symbols = [s for s in candidates if s not in gemini_symbols]
 
     def _queue_item(symbol, classification, method):
+        category = classification["category"]
+        if _news_category_posted_today(state, symbol, category):
+            log.info("NEWS EVENT skipped [%s] for $%s [%s] — already posted this category today "
+                     "(likely same story, different headline): %s",
+                     method, symbol, category, classification["headline"])
+            return
         meta = next((a for a in candidates[symbol] if a["headline"] == classification["headline"]), {})
         # Only attach a link if we could identify a real, named, non-aggregator source —
         # never cite/link Yahoo's or Google's own domain as if it were "the source".
         source = meta.get("source")
         link = meta.get("link") if source else None
         log.info("NEWS EVENT queued [%s] for $%s [%s]: %s (source: %s)",
-                 method, symbol, classification["category"], classification["headline"], source or "unknown")
+                 method, symbol, category, classification["headline"], source or "unknown")
         queue.append({
             "symbol": symbol,
             "classification": classification,
@@ -1629,6 +1635,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                 if post_tweet(tweet, state):
                     cooldowns[f"news_{symbol}"] = now_minutes()
                     _record_ticker_post(state, symbol)
+                    _record_news_category_posted(state, symbol, classification["category"])
                     state["last_news_post_min"] = _epoch_minutes()
                     released = True
                     continue
@@ -1693,6 +1700,18 @@ def _ticker_on_cooldown(state: dict, symbol: str) -> bool:
 
 def _record_ticker_post(state: dict, symbol: str):
     state.setdefault("last_posted", {})[symbol] = now_minutes()
+
+
+def _news_category_posted_today(state: dict, symbol: str, category: str) -> bool:
+    """True if a news post about this exact (ticker, category) already went out today —
+    catches the same underlying story resurfacing with different headline wording from a
+    different outlet, which exact-headline-string tracking and the 2h ticker cooldown can
+    both miss if it happens more than 2 hours after the first post."""
+    return state.get("news_category_posted", {}).get(symbol, {}).get(category) == today()
+
+
+def _record_news_category_posted(state: dict, symbol: str, category: str):
+    state.setdefault("news_category_posted", {}).setdefault(symbol, {})[category] = today()
 
 
 def _storyline_key_for(symbol: str) -> str:
