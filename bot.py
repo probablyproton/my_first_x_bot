@@ -66,7 +66,12 @@ HEADLESS = os.getenv("CI", "false") == "true"
 STATE_FILE   = os.path.join(os.path.dirname(__file__), "state.json")
 SESSION_FILE = os.path.join(os.path.dirname(__file__), "twitter_session.json")
 
-DAILY_POST_LIMIT = 20
+DAILY_POST_LIMIT = 20  # LLM-driven posts only: scheduled updates, price events, Gemini-classified news, engagement
+
+# Zero-LLM content (keyword-classified news, weekend caption/poll) doesn't touch the Gemini quota,
+# so it gets its own separate, more generous ceiling — a backstop against runaway volume on a heavy
+# news day, not a budget tied to any API limit. Worst case combined with DAILY_POST_LIMIT: ~35/day.
+DAILY_KEYWORD_POST_LIMIT = int(os.getenv("DAILY_KEYWORD_POST_LIMIT", "15"))
 
 # ── Slot definitions ────────────────────────────────────────────────────────[.[...]
 
@@ -472,7 +477,7 @@ def ensure_storyline(state: dict, key: str) -> dict:
 
 def ensure_daily_plans(state: dict) -> dict:
     if state.get("date") != today():
-        state = {"date": today(), "daily_posts": 0}
+        state = {"date": today(), "daily_posts": 0, "daily_keyword_posts": 0}
 
     state = ensure_storyline(state, "eu")
     state = ensure_storyline(state, "us")
@@ -1175,14 +1180,17 @@ def _apply_stealth(page):
         pass
 
 
-def post_tweet(text: str, state: dict) -> bool:
-    if state.get("daily_posts", 0) >= DAILY_POST_LIMIT:
-        log.info("Daily post limit (%d) reached – skipping", DAILY_POST_LIMIT)
+def post_tweet(text: str, state: dict, is_llm: bool = True) -> bool:
+    counter_key = "daily_posts" if is_llm else "daily_keyword_posts"
+    limit       = DAILY_POST_LIMIT if is_llm else DAILY_KEYWORD_POST_LIMIT
+    if state.get(counter_key, 0) >= limit:
+        log.info("Daily %s post limit (%d) reached – skipping", "LLM" if is_llm else "keyword", limit)
         return False
 
     if DRY_RUN:
-        log.info("[DRY RUN] (%d/%d)\n%s", state.get("daily_posts", 0) + 1, DAILY_POST_LIMIT, text)
-        state["daily_posts"] = state.get("daily_posts", 0) + 1
+        log.info("[DRY RUN] (%d/%d %s)\n%s", state.get(counter_key, 0) + 1, limit,
+                  "LLM" if is_llm else "keyword", text)
+        state[counter_key] = state.get(counter_key, 0) + 1
         return True
 
     if not os.path.exists(SESSION_FILE):
@@ -1230,8 +1238,8 @@ def post_tweet(text: str, state: dict) -> bool:
             context.storage_state(path=SESSION_FILE)
             browser.close()
 
-        state["daily_posts"] = state.get("daily_posts", 0) + 1
-        log.info("Posted (%d/%d): %s", state["daily_posts"], DAILY_POST_LIMIT, text[:80])
+        state[counter_key] = state.get(counter_key, 0) + 1
+        log.info("Posted (%d/%d %s): %s", state[counter_key], limit, "LLM" if is_llm else "keyword", text[:80])
         return True
 
     except Exception as e:
@@ -1249,17 +1257,17 @@ def post_poll(question: str, options: list[str], state: dict, duration_hours: in
     one Playwright flow in this file that hasn't been tested against a live session, so expect to
     verify/adjust the poll-specific selectors (createPollButton / Choice1.. / durationMinutes etc.)
     against the real compose UI on first run, same as any new UI automation."""
-    if state.get("daily_posts", 0) >= DAILY_POST_LIMIT:
-        log.info("Daily post limit (%d) reached – skipping poll", DAILY_POST_LIMIT)
+    if state.get("daily_keyword_posts", 0) >= DAILY_KEYWORD_POST_LIMIT:
+        log.info("Daily keyword post limit (%d) reached – skipping poll", DAILY_KEYWORD_POST_LIMIT)
         return False
     if len(options) < 2 or len(options) > 4:
         log.error("Poll needs 2-4 options, got %d", len(options))
         return False
 
     if DRY_RUN:
-        log.info("[DRY RUN] POLL (%d/%d)\n%s\n%s", state.get("daily_posts", 0) + 1, DAILY_POST_LIMIT,
-                  question, options)
-        state["daily_posts"] = state.get("daily_posts", 0) + 1
+        log.info("[DRY RUN] POLL (%d/%d keyword)\n%s\n%s", state.get("daily_keyword_posts", 0) + 1,
+                  DAILY_KEYWORD_POST_LIMIT, question, options)
+        state["daily_keyword_posts"] = state.get("daily_keyword_posts", 0) + 1
         return True
 
     if not os.path.exists(SESSION_FILE):
@@ -1323,8 +1331,9 @@ def post_poll(question: str, options: list[str], state: dict, duration_hours: in
             context.storage_state(path=SESSION_FILE)
             browser.close()
 
-        state["daily_posts"] = state.get("daily_posts", 0) + 1
-        log.info("Posted poll (%d/%d): %s %s", state["daily_posts"], DAILY_POST_LIMIT, question, options)
+        state["daily_keyword_posts"] = state.get("daily_keyword_posts", 0) + 1
+        log.info("Posted poll (%d/%d keyword): %s %s", state["daily_keyword_posts"], DAILY_KEYWORD_POST_LIMIT,
+                  question, options)
         return True
 
     except Exception as e:
@@ -1632,7 +1641,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                                                       link=item.get("link"))
             if tweet:
                 log.info("News event tweet [%s] (%d chars):\n%s", method, len(tweet), tweet)
-                if post_tweet(tweet, state):
+                if post_tweet(tweet, state, is_llm=(method == "gemini")):
                     cooldowns[f"news_{symbol}"] = now_minutes()
                     _record_ticker_post(state, symbol)
                     _record_news_category_posted(state, symbol, classification["category"])
@@ -1877,7 +1886,7 @@ def check_zero_llm_weekend_content(state: dict) -> dict:
         text = generate_zero_llm_weekend_post(tickers)
         if text:
             log.info("Zero-LLM weekend caption (%d chars):\n%s", len(text), text)
-            if post_tweet(text, state):
+            if post_tweet(text, state, is_llm=False):
                 zero_llm["caption"] = today_str
                 save_state(state)
 
