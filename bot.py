@@ -47,9 +47,10 @@ SLOT_JITTER_SECONDS          = int(os.getenv("SLOT_JITTER_SECONDS", "300"))
 DRY_RUN                      = os.getenv("DRY_RUN", "false").lower() == "true"
 EU_WATCHLIST                 = [t.strip().upper() for t in os.getenv("EU_WATCHLIST", "").split(",") if t.strip()]
 US_WATCHLIST                 = [t.strip().upper() for t in os.getenv("US_WATCHLIST", "").split(",") if t.strip()]
-EVENT_INTERVAL_THRESHOLD_PCT = float(os.getenv("EVENT_INTERVAL_THRESHOLD_PCT", "1.5"))
-EVENT_DAY_THRESHOLD_PCT      = float(os.getenv("EVENT_DAY_THRESHOLD_PCT", "4.0"))
+EVENT_DAY_THRESHOLD_PCT      = float(os.getenv("EVENT_DAY_THRESHOLD_PCT", "5.0"))
 EVENT_COOLDOWN_MINUTES       = int(os.getenv("EVENT_COOLDOWN_MINUTES", "60"))
+FLEXIBLE_SLOTS_PER_STORYLINE = int(os.getenv("FLEXIBLE_SLOTS_PER_STORYLINE", "6"))  # shared by price + news events
+BUFFER_SLOTS_PER_STORYLINE   = int(os.getenv("BUFFER_SLOTS_PER_STORYLINE", "2"))    # news-only, used once flexible is exhausted
 NEWS_COOLDOWN_MINUTES        = 60
 TICKER_POST_COOLDOWN_MINUTES = 120  # minimum gap between any two posts about the same ticker
 NEWS_POST_MIN_GAP_MINUTES    = int(os.getenv("NEWS_POST_MIN_GAP_MINUTES", "10"))    # base minimum gap between any two news-event posts, across all tickers
@@ -62,79 +63,26 @@ HEADLESS = os.getenv("CI", "false") == "true"
 STATE_FILE   = os.path.join(os.path.dirname(__file__), "state.json")
 SESSION_FILE = os.path.join(os.path.dirname(__file__), "twitter_session.json")
 
-DAILY_POST_LIMIT = 32
+DAILY_POST_LIMIT = 20
 
 # ── Slot definitions ────────────────────────────────────────────────────────[.[...]
 
+# Each storyline gets exactly 2 scheduled posts/day (pre-market + close). The rest of that
+# storyline's 10-post daily budget is event-driven: 6 slots shared between price moves (>=5%)
+# and major news, plus 2 buffer slots reserved for news once the shared 6 are used up.
 EU_SLOTS = [
-    ("08:45", "hook"),
-    ("09:33", "analytical"),
-    ("10:06", "question"),
-    ("10:39", "fomo"),
-    ("11:12", "analytical"),
-    ("11:45", "question"),
-    ("12:18", "fomo"),
-    ("12:51", "reaction"),
-    ("13:24", "analytical"),
-    ("13:57", "question"),
-    ("14:30", "fomo"),
-    ("15:03", "analytical"),
-    ("15:36", "question"),
-    ("16:20", "fomo"),
-    ("16:55", "wrap"),
-    ("17:00", "close_summary"),
+    ("08:45", "hook"),           # pre-market: expectations for the day
+    ("17:00", "close_summary"),  # close: top 5 movers + major announcements
 ]
 
 US_SLOTS = [
-    ("15:10", "hook"),
-    ("15:45", "analytical"),
-    ("16:00", "reaction"),
-    ("16:28", "question"),
-    ("16:56", "fomo"),
-    ("17:24", "analytical"),
-    ("17:52", "question"),
-    ("18:20", "fomo"),
-    ("18:48", "reaction"),
-    ("19:16", "analytical"),
-    ("19:44", "question"),
-    ("20:12", "fomo"),
-    ("20:40", "analytical"),
-    ("21:08", "question"),
-    ("21:36", "fomo"),
-    ("22:00", "wrap"),
+    ("15:10", "hook"),   # pre-market: expectations for the day
+    ("22:00", "wrap"),   # close: top 5 movers + major announcements
 ]
 
 WEEKEND_SLOTS = [
-    ("08:00", "hook"),
-    ("08:28", "analytical"),
-    ("08:56", "question"),
-    ("09:24", "fomo"),
-    ("09:52", "analytical"),
-    ("10:20", "question"),
-    ("10:48", "hook"),
-    ("11:16", "analytical"),
-    ("11:44", "question"),
-    ("12:12", "fomo"),
-    ("12:40", "analytical"),
-    ("13:08", "question"),
-    ("13:36", "fomo"),
-    ("14:04", "analytical"),
-    ("14:32", "question"),
-    ("15:00", "fomo"),
-    ("15:28", "analytical"),
-    ("15:56", "question"),
-    ("16:24", "hook"),
-    ("16:52", "analytical"),
-    ("17:20", "question"),
-    ("17:48", "fomo"),
-    ("18:16", "analytical"),
-    ("18:44", "question"),
-    ("19:12", "fomo"),
-    ("19:40", "analytical"),
-    ("20:08", "question"),
-    ("20:36", "fomo"),
-    ("21:04", "analytical"),
-    ("21:30", "wrap"),
+    ("10:00", "hook"),   # morning: week-in-review framing, news-grounded
+    ("18:00", "wrap"),   # evening: recap + what to watch at Monday's open
 ]
 
 
@@ -352,7 +300,17 @@ def _strip_json_fences(text: str) -> str:
 
 # ── Gemini ───────────────────────────────────────────────────────────[.[...]
 
+# Circuit breaker: once any Gemini call fails in this process (= this cron run),
+# stop attempting further Gemini calls for the rest of the cycle. Each run is a
+# fresh `python bot.py` invocation, so this always starts False on every cron trigger —
+# no manual reset needed. Prevents one outage from cascading into dozens of doomed
+# retry-and-fail attempts (classify batches, queued news releases, etc.) that just
+# burn more of an already-exhausted quota without any chance of succeeding.
+_gemini_unavailable = False
+
+
 def _gemini(system: str, prompt: str) -> str:
+    global _gemini_unavailable
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     body = json.dumps({
         "contents": [{"parts": [{"text": f"{system}\n\n{prompt}"}]}],
@@ -363,18 +321,21 @@ def _gemini(system: str, prompt: str) -> str:
         }
     }).encode("utf-8")
     req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
-    for attempt in range(3):
+    for attempt in range(2):
         try:
             with urllib.request.urlopen(req) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
             return data["candidates"][0]["content"]["parts"][-1]["text"].strip()
         except urllib.error.HTTPError as e:
-            if e.code in (429, 503) and attempt < 2:
-                wait = 30 * (attempt + 1)
-                log.warning("Gemini %d – waiting %ds before retry %d/2", e.code, wait, attempt + 1)
-                time.sleep(wait)
+            if e.code in (429, 503) and attempt == 0:
+                log.warning("Gemini %d – waiting 30s before one retry", e.code)
+                time.sleep(30)
             else:
+                _gemini_unavailable = True
                 raise
+        except Exception:
+            _gemini_unavailable = True
+            raise
 
 def ensure_storyline(state: dict, key: str) -> dict:
     if state.get("date") == today() and state.get(f"{key}_slots"):
@@ -643,33 +604,47 @@ Verify: facts match the input — no unsupported claims — tweet ≤280 charact
 One tweet only. No quotes, no commentary."""
 
 
-def generate_news_event_tweet(symbol: str, classification: dict, price_ctx: dict) -> str | None:
+def generate_news_event_tweet(symbol: str, classification: dict, price_ctx: dict,
+                               link: str = "", source: str = "") -> str | None:
     price_str = ""
     if price_ctx and _is_market_open_for(symbol):
         sign = "+" if price_ctx["change_pct"] >= 0 else ""
         price_str = f"Current: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"
+
+    source_line = f"\nReported by: {source}" if source else ""
+    link_instruction = (
+        "Do NOT include a URL yourself — the article link is appended separately after your text. "
+        "You may naturally name the reporting outlet in your commentary if it adds credibility."
+        if link else ""
+    )
 
     prompt = f"""Ticker: ${_base_symbol(symbol)}
 {price_str}
 
 Major news headline: {classification['headline']}
 Category: {classification['category']}
-Why it qualifies: {classification['reason']}
+Why it qualifies: {classification['reason']}{source_line}
 
-Write a reaction tweet. Be specific. Add a "so what" framed as possibility. End with a clear point of view. A 🟢🔴 question or CTA only if it flows naturally."""
+Write a reaction tweet. Be specific. Add a "so what" framed as possibility. End with a clear point of view. A 🟢🔴 question or CTA only if it flows naturally. {link_instruction}"""
+
+    # X counts any URL as a fixed ~23 characters (t.co shortening) regardless of its real length.
+    suffix = f"\n\n{link}" if link else ""
+    budget = 280 - 25 if link else 280  # 23 for the shortened link + 2 for the newlines
 
     try:
         text = _gemini(NEWS_EVENT_SYSTEM, prompt).strip('"').strip("'")
         if _has_unknown_ticker(text, [symbol]):
             return None
-        if len(text) > 280:
-            trimmed = text[:280]
+        if len(text) > budget:
+            trimmed = text[:budget]
             for sep in (". ", ".\n", "? ", "?\n", "! ", "!\n"):
                 idx = trimmed.rfind(sep)
                 if idx > 100:
-                    return trimmed[:idx + 1]
-            return trimmed.rsplit(" ", 1)[0]
-        return text
+                    text = trimmed[:idx + 1]
+                    break
+            else:
+                text = trimmed.rsplit(" ", 1)[0]
+        return text + suffix
     except Exception as e:
         log.error("News event tweet generation failed: %s", e)
     return None
@@ -705,13 +680,15 @@ The biggest movers, clearest news catalyst, or a cross-stock pattern are all val
 - MUST be under 280 characters.
 
 ## Tweet types
-  hook          – stops the scroll. Open with a striking fact or overlooked news item.
+  hook          – the day's pre-market post. Set expectations for the session ahead: what to watch,
+                  overnight moves, upcoming catalysts. Do not react to live price action — market isn't open yet.
   analytical    – specific numbers, price levels, or data points. State the implication clearly.
   question      – one sharp, genuine question rooted in real news or price action. Only if it adds value.
   reaction      – ground in actual price moves and what may be driving them.
   fomo          – short, calm, unsettling observation based on a real event being underpriced.
-  wrap          – closes the session. Name specific catalysts to watch at the open. Statement, not a question.
-  close_summary – concise recap of key moves and drivers today. Factual, no speculation.
+  wrap          – the day's close post. Recap the top movers from the data provided and any major news
+                  from today. Factual, no speculation. This is the day's one closing summary.
+  close_summary – same role as wrap (EU's version): recap the top movers and today's major news at the close.
   event         – urgent reaction to a price move or major news. Raw and immediate.
 
 ## Weekend rules (only apply when phase = WEEKEND)
@@ -897,6 +874,9 @@ Format:
 Keep it casual, direct, under 280 characters."""))
 
     for key, prompt in posts:
+        if _gemini_unavailable:
+            log.warning("Engagement post [%s] skipped — Gemini unavailable this cycle", key)
+            continue
         try:
             text = _gemini(ENGAGEMENT_SYSTEM, prompt).strip('"').strip("'")
             if len(text) > 280:
@@ -1005,7 +985,9 @@ def post_tweet(text: str, state: dict) -> bool:
 # ── Event monitor ─────────────────────────────────────────────────────────[[...]
 
 def check_price_events(state: dict, symbols: list[str]) -> dict:
-    """Check for price movements and post event tweets. Only runs during market hours."""
+    """Check for significant daily price moves (>= EVENT_DAY_THRESHOLD_PCT, up or down) and
+    post event tweets. Only runs during market hours, and draws from each storyline's shared
+    flexible budget (FLEXIBLE_SLOTS_PER_STORYLINE/day) — never the news-only buffer."""
     snapshots        = state.setdefault("price_snapshots", {})
     cooldowns        = state.setdefault("event_cooldowns", {})
     day_event_fired  = state.setdefault("day_event_fired", {})
@@ -1013,9 +995,7 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
     candidates = []
 
     for symbol in symbols:
-        # CRITICAL: Only check price events when market is open for this ticker
         if not _is_market_open_for(symbol):
-            log.debug("Price event check skipped for %s – market closed", symbol)
             continue
 
         price_ctx = get_price_context(symbol)
@@ -1024,20 +1004,18 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
 
         current  = price_ctx["price"]
         day_pct  = abs(price_ctx["change_pct"])
+        snapshots[symbol] = current
 
-        # Per-event cooldown (interval moves)
         last_event_min = cooldowns.get(symbol, 0)
         if now_minutes() - last_event_min < EVENT_COOLDOWN_MINUTES:
-            snapshots[symbol] = current
             continue
 
-        last_price = snapshots.get(symbol)
-
-        if last_price is None:
-            snapshots[symbol] = current
+        if day_pct < EVENT_DAY_THRESHOLD_PCT:
             continue
 
-        interval_pct = abs((current - last_price) / last_price * 100)
+        # Day-move events fire at most once per ticker per day
+        if day_event_fired.get(symbol) == today():
+            continue
 
         intraday = ""
         if "day_high" in price_ctx and "day_low" in price_ctx:
@@ -1045,59 +1023,58 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
                 f" Intraday range: low ${price_ctx['day_low']} / high ${price_ctx['day_high']}."
                 f" Use this context — if the stock dropped sharply and is now rebounding, say so."
             )
+        direction = "up" if price_ctx["change_pct"] > 0 else "down"
+        trigger = (
+            f"${_base_symbol(symbol)} is {direction} {day_pct:.1f}% today (now ${current}).{intraday} "
+            f"This is a significant day move. React with conviction."
+        )
+        candidates.append((day_pct, symbol, price_ctx, trigger))
 
-        if interval_pct >= EVENT_INTERVAL_THRESHOLD_PCT:
-            direction = "up" if current > last_price else "down"
-            candidates.append((interval_pct, symbol, price_ctx, "interval", (
-                f"${_base_symbol(symbol)} just moved {direction} {interval_pct:.1f}% in the last few minutes "
-                f"(now ${current}, {price_ctx['change_pct']:+.1f}% on the day).{intraday} "
-                f"React immediately and specifically to what is actually happening — "
-                f"a rebound is different from a continuation move."
-            )))
-        elif day_pct >= EVENT_DAY_THRESHOLD_PCT:
-            # Day-move events fire at most once per ticker per day
-            if day_event_fired.get(symbol) == today():
-                snapshots[symbol] = current
-                continue
-            direction = "up" if price_ctx["change_pct"] > 0 else "down"
-            candidates.append((day_pct, symbol, price_ctx, "day", (
-                f"${_base_symbol(symbol)} is {direction} {day_pct:.1f}% today (now ${current}).{intraday} "
-                f"This is a significant day move. React with conviction."
-            )))
-
-        snapshots[symbol] = current
-
-    if candidates:
-        candidates.sort(reverse=True)
-        _, symbol, price_ctx, event_type, trigger = candidates[0]
+    candidates.sort(reverse=True)
+    for day_pct, symbol, price_ctx, trigger in candidates:
+        if _gemini_unavailable:
+            log.warning("PRICE EVENT skipped for $%s — Gemini unavailable this cycle", symbol)
+            break
         if _ticker_on_cooldown(state, symbol):
             log.info("PRICE EVENT suppressed — $%s posted within last %d min", symbol, TICKER_POST_COOLDOWN_MINUTES)
+            continue
+        pool = _consume_price_slot(state, symbol)
+        if not pool:
+            log.info("PRICE EVENT suppressed — $%s's storyline flexible budget exhausted today", symbol)
+            continue
+
+        log.info("PRICE EVENT triggered for $%s: %s", symbol, trigger)
+        community = get_ticker_context(symbol)
+        slot  = {"type": "event", "format": "short", "angle": trigger}
+        tweet = generate_tweet(symbol, slot, price_ctx, community, event_trigger=trigger)
+        if tweet:
+            log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
+        if tweet and post_tweet(tweet, state):
+            cooldowns[symbol] = now_minutes()
+            _record_ticker_post(state, symbol)
+            day_event_fired[symbol] = today()
         else:
-            log.info("PRICE EVENT [%s] triggered for $%s: %s", event_type, symbol, trigger)
-            community = get_ticker_context(symbol)
-            slot  = {"type": "event", "format": "short", "angle": trigger}
-            tweet = generate_tweet(symbol, slot, price_ctx, community, event_trigger=trigger)
-            if tweet:
-                log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
-                if post_tweet(tweet, state):
-                    cooldowns[symbol] = now_minutes()
-                    _record_ticker_post(state, symbol)
-                    if event_type == "day":
-                        day_event_fired[symbol] = today()
+            _refund_slot(state, symbol, pool)
+        break  # at most one price-event attempt per cycle, success or not
 
     save_state(state)
     return state
 
 
+_DC_CREATOR = "{http://purl.org/dc/elements/1.1/}creator"
+
+
 def _fetch_rss_with_dates(url: str, max_messages: int) -> list[dict]:
     import xml.etree.ElementTree as ET
     from email.utils import parsedate_to_datetime
+    from urllib.parse import urlparse
     resp = requests.get(url, timeout=10, verify=False, headers={"User-Agent": "Mozilla/5.0"})
     resp.raise_for_status()
     root = ET.fromstring(resp.content)
     results = []
     for item in root.findall(".//item")[:max_messages]:
         title = item.findtext("title")
+        link = item.findtext("link")
         pub_date = item.findtext("pubDate")
         if not title:
             continue
@@ -1105,7 +1082,22 @@ def _fetch_rss_with_dates(url: str, max_messages: int) -> list[dict]:
             pub_dt = parsedate_to_datetime(pub_date).replace(tzinfo=None) if pub_date else None
         except Exception:
             pub_dt = None
-        results.append({"headline": title, "published": pub_dt})
+
+        # Attribution: Google News <source>, Nasdaq <dc:creator>, else the link's own domain
+        # (e.g. a Yahoo item that links straight to fool.com) — never "Yahoo"/"Google" themselves.
+        source_el = item.find("source")
+        creator = item.findtext(_DC_CREATOR)
+        if source_el is not None and source_el.text:
+            source = source_el.text.strip()
+        elif creator:
+            source = creator.strip()
+        elif link:
+            domain = urlparse(link).netloc.replace("www.", "")
+            source = None if domain in ("finance.yahoo.com", "news.google.com") else domain
+        else:
+            source = None
+
+        results.append({"headline": title, "link": link, "source": source, "published": pub_dt})
     return results
 
 
@@ -1115,6 +1107,10 @@ def get_ticker_context_with_dates(symbol: str, max_messages: int = 10) -> list[d
         f"https://finance.yahoo.com/rss/headline?s={symbol}",
         f"https://news.google.com/rss/search?q={q}&hl=en&gl=US&ceid=US:en",
     ]
+    if symbol in US_WATCHLIST:
+        # Nasdaq's per-symbol feed only understands US-listed tickers — querying it with an
+        # EU-suffixed symbol (e.g. SU.PA) silently returns an unrelated generic news feed.
+        sources.append(f"https://www.nasdaq.com/feed/rssoutbound?symbol={_base_symbol(symbol)}")
     seen_titles: set[str] = set()
     results: list[dict] = []
     for url in sources:
@@ -1143,9 +1139,14 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
 
     # ── Gather: fetch fresh headlines per ticker first, no Gemini calls yet ──
     candidates: dict[str, list[str]] = {}
+    article_meta: dict[str, dict[str, dict]] = {}  # symbol -> {headline: {"link":, "source":}}
     for symbol in symbols:
         if symbol in queued_symbols:
             continue  # already holding a news event for this ticker — don't pile on
+
+        if not _has_news_budget(state, symbol):
+            continue  # storyline's flexible+buffer budget exhausted — not worth spending a
+                       # Gemini call classifying news we couldn't post about anyway today
 
         last_event_min = cooldowns.get(f"news_{symbol}", 0)
         if now_minutes() - last_event_min < NEWS_COOLDOWN_MINUTES:
@@ -1154,26 +1155,39 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
         articles = get_ticker_context_with_dates(symbol, max_messages=10)
 
         recent = [
-            a["headline"] for a in articles
+            a for a in articles
             if a["published"] and (now_dt - a["published"]).total_seconds() < 86400
         ]
-        new_headlines = [h for h in recent if h not in news_seen.get(symbol, [])]
+        new_headlines = [a["headline"] for a in recent if a["headline"] not in news_seen.get(symbol, [])]
         news_seen[symbol] = [a["headline"] for a in articles]
 
         if new_headlines:
             candidates[symbol] = new_headlines
+            article_meta[symbol] = {a["headline"]: {"link": a["link"], "source": a["source"]} for a in recent}
 
     # ── Classify: batch tickers with fresh headlines into groups of NEWS_CLASSIFY_BATCH_SIZE,
     # so a busy day costs a handful of Gemini calls instead of one call per ticker ──
     candidate_symbols = list(candidates)
     for i in range(0, len(candidate_symbols), NEWS_CLASSIFY_BATCH_SIZE):
+        if _gemini_unavailable:
+            log.warning("Gemini unavailable this cycle — skipping remaining news classification batches (%d tickers left)",
+                        len(candidate_symbols) - i)
+            break
         batch = candidate_symbols[i:i + NEWS_CLASSIFY_BATCH_SIZE]
         major = classify_news_batch({s: candidates[s] for s in batch})
         for symbol, classification in major.items():
-            log.info("NEWS EVENT queued for $%s [%s]: %s", symbol, classification["category"], classification["headline"])
+            meta = article_meta.get(symbol, {}).get(classification["headline"], {})
+            # Only attach a link if we could identify a real, named, non-aggregator source —
+            # never cite/link Yahoo's or Google's own domain as if it were "the source".
+            source = meta.get("source")
+            link = meta.get("link") if source else None
+            log.info("NEWS EVENT queued for $%s [%s]: %s (source: %s)",
+                     symbol, classification["category"], classification["headline"], source or "unknown")
             queue.append({
                 "symbol": symbol,
                 "classification": classification,
+                "link": link,
+                "source": source,
                 "queued_min": _epoch_minutes(),
             })
 
@@ -1187,20 +1201,27 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             age = _epoch_minutes() - item["queued_min"]
             symbol, classification = item["symbol"], item["classification"]
 
-            if released or age > NEWS_QUEUE_MAX_AGE_MINUTES:
-                if age > NEWS_QUEUE_MAX_AGE_MINUTES:
-                    log.warning("NEWS EVENT dropped (stale, held %d min) — $%s: %s",
-                                age, symbol, classification["headline"])
-                else:
-                    remaining.append(item)
+            if age > NEWS_QUEUE_MAX_AGE_MINUTES:
+                log.warning("NEWS EVENT dropped (stale, held %d min) — $%s: %s",
+                            age, symbol, classification["headline"])
+                continue
+
+            if released or _gemini_unavailable:
+                remaining.append(item)  # already posted one this cycle, or Gemini's down — retry next cycle
                 continue
 
             if _ticker_on_cooldown(state, symbol):
                 remaining.append(item)  # ticker itself busy — try again next cycle
                 continue
 
+            pool = _consume_news_slot(state, symbol)
+            if not pool:
+                remaining.append(item)  # storyline's flexible+buffer budget exhausted for today
+                continue
+
             price_ctx = get_price_context(symbol)
-            tweet = generate_news_event_tweet(symbol, classification, price_ctx)
+            tweet = generate_news_event_tweet(symbol, classification, price_ctx,
+                                               link=item.get("link"), source=item.get("source"))
             if tweet:
                 log.info("News event tweet (%d chars):\n%s", len(tweet), tweet)
                 if post_tweet(tweet, state):
@@ -1209,6 +1230,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                     state["last_news_post_min"] = _epoch_minutes()
                     released = True
                     continue
+            _refund_slot(state, symbol, pool)
             remaining.append(item)
 
         queue[:] = remaining
@@ -1270,25 +1292,75 @@ def _record_ticker_post(state: dict, symbol: str):
     state.setdefault("last_posted", {})[symbol] = now_minutes()
 
 
+def _storyline_key_for(symbol: str) -> str:
+    return "eu" if symbol in EU_WATCHLIST else "us"
+
+
+def _flexible_remaining(state: dict, key: str) -> int:
+    return max(0, FLEXIBLE_SLOTS_PER_STORYLINE - state.get(f"{key}_flexible_used", 0))
+
+
+def _buffer_remaining(state: dict, key: str) -> int:
+    return max(0, BUFFER_SLOTS_PER_STORYLINE - state.get(f"{key}_buffer_used", 0))
+
+
+def _has_news_budget(state: dict, symbol: str) -> bool:
+    key = _storyline_key_for(symbol)
+    return _flexible_remaining(state, key) > 0 or _buffer_remaining(state, key) > 0
+
+
+def _consume_price_slot(state: dict, symbol: str) -> str | None:
+    """Price events only ever draw from the shared flexible pool, never the buffer.
+    Returns the pool name consumed ('flexible'), or None if no budget remains."""
+    key = _storyline_key_for(symbol)
+    if _flexible_remaining(state, key) <= 0:
+        return None
+    state[f"{key}_flexible_used"] = state.get(f"{key}_flexible_used", 0) + 1
+    return "flexible"
+
+
+def _consume_news_slot(state: dict, symbol: str) -> str | None:
+    """News events draw from the shared flexible pool first, then the reserved buffer.
+    Returns the pool name actually consumed, or None if no budget remains."""
+    key = _storyline_key_for(symbol)
+    if _flexible_remaining(state, key) > 0:
+        state[f"{key}_flexible_used"] = state.get(f"{key}_flexible_used", 0) + 1
+        return "flexible"
+    if _buffer_remaining(state, key) > 0:
+        state[f"{key}_buffer_used"] = state.get(f"{key}_buffer_used", 0) + 1
+        return "buffer"
+    return None
+
+
+def _refund_slot(state: dict, symbol: str, pool: str):
+    """Give back a tentatively-consumed slot when generation or posting ends up failing."""
+    key = _storyline_key_for(symbol)
+    field = f"{key}_{pool}_used"
+    state[field] = max(0, state.get(field, 0) - 1)
+
+
 def process_storyline(state: dict, key: str) -> dict:
     """
     Process one posting cycle for EU or US storyline.
     
     Workflow:
-    1. Find the next due slot (not posted, within fire window)
-    2. Skip if close_summary and not in overlap window
-    3. Collect eligible tickers (not on 120-min cooldown)
-    4. Fetch price data for all eligible tickers
-    5. Rank by absolute daily move (or news on weekends)
-    6. Override wrap/reaction to analytical if market is still open
-    7. Generate tweet and post
-    8. Record all context_tickers with cooldown (not just those in final tweet text)
+    1. Find the next due slot (not posted, within fire window) — pre-market or close, 2/day
+    2. Collect eligible tickers (not on 120-min cooldown)
+    3. Fetch price data for all eligible tickers
+    4. Rank by absolute daily move (or news on weekends)
+    5. Override wrap/reaction to analytical if market is still open
+    6. Generate tweet and post
+    7. Record all context_tickers with cooldown (not just those in final tweet text)
     """
     slots  = state.get(f"{key}_slots", [])
     posted = state.get(f"{key}_posted", [])
 
     slot = next_due_slot(slots, posted)
     if not slot:
+        return state
+
+    if _gemini_unavailable:
+        log.warning("%s slot skipped — Gemini unavailable this cycle, will retry next cycle", key.upper())
         return state
 
     watchlist = EU_WATCHLIST if key == "eu" else US_WATCHLIST
@@ -1300,10 +1372,6 @@ def process_storyline(state: dict, key: str) -> dict:
 
     phase   = market_phase(key)
     overlap = in_overlap_window()
-
-    # EU close_summary only fires during overlap window
-    if slot["type"] == "close_summary" and key == "eu" and not overlap:
-        return state
 
     # Collect eligible tickers (not on 120-min cooldown)
     eligible = [t for t in watchlist if not _ticker_on_cooldown(state, t)]
@@ -1337,8 +1405,8 @@ def process_storyline(state: dict, key: str) -> dict:
         # Fetch news headlines for top 3 movers only
         news_data = {t: get_ticker_context(t, max_messages=3) for t in ranked[:3]}
 
-    # Pass top 6 to Gemini (keeps prompt tight)
-    context_tickers = ranked[:6]
+    # Pass top 5 to Gemini (keeps prompt tight, matches the "top 5 movers" framing for the close post)
+    context_tickers = ranked[:5]
 
     log.info("%s slot due: [%s] %s (phase=%s)%s — candidates: %s",
              key.upper(),
