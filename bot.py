@@ -55,6 +55,7 @@ TICKER_POST_COOLDOWN_MINUTES = 120  # minimum gap between any two posts about th
 NEWS_POST_MIN_GAP_MINUTES    = int(os.getenv("NEWS_POST_MIN_GAP_MINUTES", "10"))    # base minimum gap between any two news-event posts, across all tickers
 NEWS_POST_GAP_JITTER_MINUTES = int(os.getenv("NEWS_POST_GAP_JITTER_MINUTES", "2"))  # +/- randomness applied to that gap each time (e.g. 10+/-2 -> 8-12min)
 NEWS_QUEUE_MAX_AGE_MINUTES   = int(os.getenv("NEWS_QUEUE_MAX_AGE_MINUTES", "360"))  # drop a held news event if it's waited this long unreleased (6h – too stale)
+NEWS_CLASSIFY_BATCH_SIZE     = int(os.getenv("NEWS_CLASSIFY_BATCH_SIZE", "5"))      # tickers per news-classification Gemini call
 
 HEADLESS = os.getenv("CI", "false") == "true"
 
@@ -324,6 +325,22 @@ def get_week_performance(symbols: list[str]) -> dict[str, float]:
             log.warning("Week performance failed for %s: %s", symbol, e)
     return result
 
+
+def get_recent_volatility(symbols: list[str], sessions: int = 3) -> dict[str, float]:
+    """Rough volatility score per ticker: largest single-day |% move| over the
+    last `sessions` trading sessions (including today, if the market's open)."""
+    result = {}
+    for symbol in symbols:
+        try:
+            hist = yf.Ticker(symbol).history(period=f"{sessions + 2}d")
+            closes = hist["Close"].tail(sessions + 1)
+            moves = closes.pct_change().dropna().abs() * 100
+            if len(moves) > 0:
+                result[symbol] = round(float(moves.max()), 2)
+        except Exception as e:
+            log.warning("Volatility fetch failed for %s: %s", symbol, e)
+    return result
+
 # ── Helpers ───────────────────────────────────────────────────────────[[...]
 
 def _strip_json_fences(text: str) -> str:
@@ -428,7 +445,10 @@ Verify: all facts match the input — no unsupported claims — at least one hea
 ## Output
 One tweet only. No quotes, no commentary."""
 
-NEWS_CLASSIFIER_SYSTEM = """You are a financial news classifier. Given a news headline and a stock ticker, determine if the headline represents a major catalyst that could significantly move the stock.
+NEWS_CLASSIFIER_SYSTEM = """You are a financial news classifier. You'll be given several tickers, each with its own
+set of recent headlines. For EACH ticker independently, determine if any of its headlines represents a major
+catalyst that could significantly move that stock. Treat every ticker as a separate, fully independent judgment —
+do not let one ticker's news influence another's classification.
 
 A headline qualifies as MAJOR if it meets ANY of these criteria:
 
@@ -471,15 +491,18 @@ Company-specific:
 
 Ignore: opinion pieces, analysis recaps, general market commentary not specific to the ticker, and any headline that appears to be about a different company that shares part of the ticker's name.
 
-Respond with a JSON object:
-{
-  "is_major": true or false,
-  "category": "earnings|contract|ma|analyst|regulatory|macro|company|none",
-  "headline": "the exact headline that triggered this",
-  "reason": "one sentence explaining why it qualifies or not"
-}
+Respond with a JSON array, exactly one object per ticker given, in the same order:
+[
+  {
+    "symbol": "the ticker this judgment is about",
+    "is_major": true or false,
+    "category": "earnings|contract|ma|analyst|regulatory|macro|company|none",
+    "headline": "the exact headline that triggered this (omit or empty if is_major is false)",
+    "reason": "one sentence explaining why it qualifies or not"
+  }
+]
 
-Return ONLY the JSON object, no other text."""
+Return ONLY the JSON array, no other text."""
 
 ENGAGEMENT_SYSTEM = """## Role
 You are writing a weekly engagement post for a financial Twitter account tracking AI infrastructure stocks – connectivity, memory, networking.
@@ -563,26 +586,30 @@ Write the tweet. Keep it under 280 characters. Be specific – name real events,
 
 # ── News event classifier ─────────────────────────────────────────────────────
 
-def classify_news(symbol: str, headlines: list[str]) -> dict | None:
-    if not headlines:
-        return None
+def classify_news_batch(ticker_headlines: dict[str, list[str]]) -> dict[str, dict]:
+    """Classify multiple tickers' fresh headlines in a single Gemini call.
+    Returns {symbol: classification} only for tickers judged major."""
+    if not ticker_headlines:
+        return {}
 
-    headlines_block = "\n".join(f"- {h}" for h in headlines)
-    prompt = f"""Ticker: ${symbol}
-
-Headlines:
-{headlines_block}
-
-Classify whether any of these headlines is a major catalyst for ${symbol}."""
+    blocks = []
+    for symbol, headlines in ticker_headlines.items():
+        headlines_block = "\n".join(f"- {h}" for h in headlines)
+        blocks.append(f"Ticker: ${symbol}\nHeadlines:\n{headlines_block}")
+    prompt = "\n\n".join(blocks) + "\n\nClassify each ticker independently per the rules above."
 
     try:
         text = _strip_json_fences(_gemini(NEWS_CLASSIFIER_SYSTEM, prompt))
-        result = json.loads(text)
-        if result.get("is_major"):
-            return result
+        results = json.loads(text)
+        major = {}
+        for r in results:
+            symbol = r.get("symbol", "")
+            if symbol in ticker_headlines and r.get("is_major"):
+                major[symbol] = r
+        return major
     except Exception as e:
-        log.warning("News classification failed for %s: %s", symbol, e)
-    return None
+        log.warning("Batch news classification failed for %s: %s", list(ticker_headlines), e)
+    return {}
 
 
 NEWS_EVENT_SYSTEM = """## Role
@@ -807,17 +834,22 @@ Format:
 Keep it casual, direct, under 280 characters."""))
 
     if weekday == 2 and "12:00" <= now <= "13:30" and engagement.get("wednesday") != today_str:
-        posts.append(("wednesday", f"""Write a midweek engagement post for a financial Twitter account.
+        vol = get_recent_volatility(tickers, sessions=3)
+        top5 = sorted(sorted(vol, key=vol.get, reverse=True)[:5], key=_base_symbol)
+        if top5:
+            vol_lines = "\n".join(f"${_base_symbol(t)}" for t in top5)
+            posts.append(("wednesday", f"""Write a midweek engagement post for a financial Twitter account.
 
-This week's tickers (already sorted alphabetically, list them exactly as given):
-{ticker_str}
+The 5 most volatile tickers this week so far (biggest single-day moves over the last 3 sessions):
+{vol_lines}
 
 Format:
-- Open with a short midweek check-in line
-- List the tickers on separate lines
-- End with: "Which one did you add this week? 👇"
+- One brief line noting these specific names have seen real volatility across the first few sessions this week
+- List the 5 tickers on separate lines, nothing else attached to them
+- End with a simple, clear hypothetical: if you had $1000 to invest right now, how would you split it across
+  these 5? Phrase this fresh each time in your own words – don't reuse the same wording as a template.
 
-Keep it casual, direct, under 280 characters."""))
+Keep it simple, clear, casual, engaging. Under 280 characters."""))
 
     if weekday == 4 and "17:00" <= now <= "18:30" and engagement.get("friday") != today_str:
         posts.append(("friday", f"""Write a Friday closing post for a financial Twitter account.
@@ -1109,7 +1141,8 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
     now_dt    = datetime.datetime.utcnow()
     queued_symbols = {item["symbol"] for item in queue}
 
-    # ── Detect: classify new headlines per ticker, hold qualifying ones in the queue ──
+    # ── Gather: fetch fresh headlines per ticker first, no Gemini calls yet ──
+    candidates: dict[str, list[str]] = {}
     for symbol in symbols:
         if symbol in queued_symbols:
             continue  # already holding a news event for this ticker — don't pile on
@@ -1127,11 +1160,16 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
         new_headlines = [h for h in recent if h not in news_seen.get(symbol, [])]
         news_seen[symbol] = [a["headline"] for a in articles]
 
-        if not new_headlines:
-            continue
+        if new_headlines:
+            candidates[symbol] = new_headlines
 
-        classification = classify_news(symbol, new_headlines)
-        if classification:
+    # ── Classify: batch tickers with fresh headlines into groups of NEWS_CLASSIFY_BATCH_SIZE,
+    # so a busy day costs a handful of Gemini calls instead of one call per ticker ──
+    candidate_symbols = list(candidates)
+    for i in range(0, len(candidate_symbols), NEWS_CLASSIFY_BATCH_SIZE):
+        batch = candidate_symbols[i:i + NEWS_CLASSIFY_BATCH_SIZE]
+        major = classify_news_batch({s: candidates[s] for s in batch})
+        for symbol, classification in major.items():
             log.info("NEWS EVENT queued for $%s [%s]: %s", symbol, classification["category"], classification["headline"])
             queue.append({
                 "symbol": symbol,
@@ -1325,9 +1363,10 @@ def process_storyline(state: dict, key: str) -> dict:
         else:
             save_state(state)
     else:
-        # Gemini failed to generate tweet, unmark the slot so it can retry
-        state[f"{key}_posted"].remove(slot["slot"])
-        save_state(state)
+        # Generation failed — slot was never marked posted, so it naturally retries
+        # next cycle (as long as it's still within the slot's fire window).
+        log.warning("%s tweet generation failed for slot [%s] — will retry next cycle if still in window.",
+                    key.upper(), slot["type"])
 
     return state
 
