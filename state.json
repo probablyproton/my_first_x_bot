@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "daily_posts": 11,
+  "daily_posts": 12,
   "eu_slots": [
     {
       "slot": 0,
@@ -223,15 +223,15 @@
     "DLR": 179.61,
     "CEG": 248.32,
     "ETN": 425.99,
-    "ENGI.PA": 27.47,
-    "SIE.DE": 280.05,
-    "ENR.DE": 165.48,
-    "LR.PA": 147.15,
-    "RWE.DE": 56.42,
-    "EOAN.DE": 17.92,
-    "ABBN.SW": 87.62,
-    "SU.PA": 280.9,
-    "IBE.MC": 21.9
+    "ENGI.PA": 27.16,
+    "SIE.DE": 277.5,
+    "ENR.DE": 163.42,
+    "LR.PA": 146.15,
+    "RWE.DE": 56.18,
+    "EOAN.DE": 17.76,
+    "ABBN.SW": 86.86,
+    "SU.PA": 277.35,
+    "IBE.MC": 21.73
   },
   "event_cooldowns": {
     "BE": 136,
@@ -243,7 +243,8 @@
     "news_RWE": 497,
     "news_BE": 545,
     "news_SIE.DE": 557,
-    "news_LR.PA": 558
+    "news_LR.PA": 558,
+    "news_SU.PA": 575
   },
   "day_event_fired": {
     "BE": "2026-07-01",
@@ -264,7 +265,8 @@
     "ENR": 542,
     "SU": 542,
     "SIE.DE": 557,
-    "LR.PA": 558
+    "LR.PA": 558,
+    "SU.PA": 575
   },
   "news_seen": {
     "VST": [
@@ -345,8 +347,8 @@
       "Ericsson demonstrates portable 5G core for emergency operations - telecomtv.com",
       "Ericsson puts agentic AI at the core of its OSS/BSS operations - RCR Wireless News",
       "Ericsson CEO Ekholm to step down, be replaced by Per Narvinger - Reuters",
-      "SEK 675,701,000.06 Ericsson (ERIC) share buybacks executed in June 2026 - Stock Titan",
-      "Ericsson expands its Intelligent Automation Platform to the Core - Data Center Dynamics"
+      "Ericsson cloud boss still resists a Nokia move in the 5G core - Light Reading",
+      "SEK 675,701,000.06 Ericsson (ERIC) share buybacks executed in June 2026 - Stock Titan"
     ],
     "NOK": [
       "Notification under Chapter 9, Section 10 of the Finnish Securities Market Act: voting rights of FMR LLC in Nokia Corporation decreased below 5%",
@@ -390,7 +392,7 @@
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript - Fortune",
       "Sparkle expands quantum safe connectivity with Equinix - GSMA",
       "Equinix, NTT East, Sakura Internet Plan IOWN APN Ishikari-Tokyo PoC - International Business Times",
-      "Barclays Raises Equinix Price Target to $1,130 From $1,109, Maintains Equal Weight Rating - marketscreener.com"
+      "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint - PR Newswire"
     ],
     "GEV": [
       "Dow Jones Futures Fall, Bloom Energy Soars Late; SpaceX's First Buy Point",
@@ -428,7 +430,7 @@
       "Here Is What to Expect From Vertiv Holdings (VRT) Following Two Major Acquisitions? - Yahoo Finance",
       "Vertiv Holdings Stock: When Even A Great Quarter Isn't Enough (NYSE:VRT) - Seeking Alpha",
       "Does Vertiv (VRT) Joining Large-Cap Growth Indexes Reframe Its AI Data Center Investment Story? - simplywall.st",
-      "Vertiv Opens Malaysia Plant to Meet AI Data Centers\u2019 Power Needs - Bloomberg",
+      "Vertiv Opens Malaysia Plant to Meet AI Data Centers\u2019 Power Needs - Bloomberg.com",
       "A Look at Vertiv Holdings Co (VRT) After 9.1% Gain -- GF Value $152.90 vs Price $334.82 - GuruFocus",
       "Vertiv Holdings Co Stock (VRT) Moved Up by 7.52% on Jun 30: What Investors Need To Know - TradingKey",
       "VRT Boosts Data Center Portfolio Through Acquisitions: What's Ahead? - TradingView",
@@ -488,12 +490,12 @@
       "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG) - The Globe and Mail",
       "Constellation Energy Corporation (CEG) Among Stocks Expected to Bounce Back According to Analysts - Yahoo Finance",
       "Constellation Energy Corporation(NasdaqGS:CEG) added to Russell 3000E Growth Benchmark - marketscreener.com",
-      "Markin Volterra Fund LP's Constellation Energy Corp(CEG) Holding History - GuruFocus",
       "Constellation Energy Corp stock hits 52-week low at 243.3 USD - Investing.com",
       "Price to sales forward of Constellation Energy Corporation \u2013 NASDAQ:CEG - TradingView",
       "Constellation Energy Corporation (CEG) Down 14.3% Since Last Earnings Report: Can It Rebound? - Yahoo Finance",
       "Constellation Energy Corp. stock falls Friday, underperforms market - MarketWatch",
-      "Constellation Energy Corporation Files License Renewal Applications With Nuclear Regulatory Commission - marketscreener.com"
+      "Constellation Energy Corporation Files License Renewal Applications With Nuclear Regulatory Commission - marketscreener.com",
+      "Constellation Energy Corporation (CEG) Gets a Buy from Wells Fargo - The Globe and Mail"
     ],
     "ENGI": [
       "Price to earnings forward of ENGIE S.A. \u2013 EURONEXT:ENGI - TradingView",
@@ -600,10 +602,10 @@
       "Wells Fargo Sticks to Its Buy Rating for Talen Energy Corp (TLN) - The Globe and Mail",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 3000E Growth Benchmark - marketscreener.com",
       "Talen Energy Announces Credit Facility Refinancing Transactions | Thu, 05/14/2026 - 16:27 - Talen Energy",
+      "TLN - Talen Energy Corp Volatility & Greeks - Finviz",
       "How Talen Energy\u2019s US$983 Million Shelf Registration At Talen Energy (TLN) Has Changed Its Investment Story - simplywall.st",
       "Talen and Amazon expand their partnership for Pennsylvania - American Nuclear Society -- ANS",
       "Price to book forward of Talen Energy Corporation \u2013 NASDAQ:TLN - TradingView",
-      "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment - X-energy",
       "Talen Energy to Report Full Year and Fourth Quarter 2025 Financial Results on February 26, 2026 - Talen Energy",
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00 - Talen Energy"
     ],
@@ -678,7 +680,7 @@
       "Digital Realty Trust Reports $2.35 Billion Common Stock Offering by Blackstone",
       "Digital Realty to pay Blackstone $3.5 billion for stake in Virginia data centers - Reuters",
       "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers - CNBC",
-      "Digital Realty Pays $3.5 Billion for Blackstone Data Centers - Bloomberg",
+      "Digital Realty Pays $3.5 Billion for Blackstone Data Centers - Bloomberg.com",
       "Digital Realty to pay $3.5B for Blackstone's stake in three new Northern Virginia data centers - The Business Journals",
       "Digital Realty to buy Blackstone stakes in three data centers for $3.5B (DLR:NYSE) - Seeking Alpha",
       "Digital Realty Trust Inc. stock underperforms Tuesday when compared to competitors - MarketWatch",
@@ -814,16 +816,16 @@
       "ENGIY vs. PNW: Which Stock Is the Better Value Option?",
       "Engie\u2019s Belgian Battery Project And What It Means For Cash Flows",
       "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?",
-      "All You Need to Know About ENGIE - Sponsored ADR (ENGIY) Rating Upgrade to Strong Buy - Yahoo Finance",
+      "All You Need to Know About ENGIE - Sponsored ADR (ENGIY) Rating Upgrade to Strong Buy - Yahoo Finance Singapore",
       "European BESS developments: Axpo, e-Storage, RES, R.Power - Energy-Storage.News",
       "Engie buys 1,000 MWh energy storage project in Poland - Renewables Now",
+      "Engie begins construction of 140.8 MW solar-plus-storage project in Peru - ESS News",
       "Engie Recognizes Hitachi Energy for Strategic Role in Decarbonizing the Power System - Hitachi Energy",
       "Human Rights Approach and Compliance - ENGIE.com",
       "Aker BioMarine signs agreement with Engie for 100% renewable energy - Nutrition Insight",
       "Arcadia acquires Engie Impact to create unified energy management platform - ESG Dive",
       "ENGIE and European Energy start cooperation on large-scale renewable hydrogen development in Denmark - Hydrocarbon Processing",
-      "Engie buys RPower BESS - pfie.com",
-      "Has ENGIE - Sponsored ADR (ENGIY) Outpaced Other Utilities Stocks This Year? - Yahoo Finance"
+      "Engie buys RPower BESS - pfie.com"
     ],
     "SIE.DE": [
       "Global Industrial Process Heating Market to Hit USD 17.47 Billion by 2032",
@@ -862,7 +864,7 @@
       "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS) - Seeking Alpha",
       "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice - Yahoo Finance",
       "Siemens Energy\u2019s $421 million N.C. expansion adding 500 jobs - Business North Carolina",
-      "Siemens Energy to Invest $1 Billion in US to Tap Power Boom - Bloomberg",
+      "Siemens Energy to Invest $1 Billion in US to Tap Power Boom - Bloomberg.com",
       "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026 - marketscreener.com",
       "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations - Tata Consultancy Services",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion - Charlotte Observer",
@@ -950,11 +952,11 @@
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results - simplywall.st",
       "ABB to divest Robotics division to SoftBank Group | News center - ABB",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says - Reuters",
-      "ABB outlines 2030 growth ambitions, shares backed by steady analyst view - AD HOC NEWS",
       "Watch: ABB robot helps build 3D-printed railway station overnight - Interesting Engineering",
+      "ABB outlines 2030 growth ambitions, shares backed by steady analyst view - AD HOC NEWS",
       "ABB expands building solutions portfolio and appoints new retail distributor in Vietnam - ABB",
       "ABB (ABBNY) Stock Price, News & Analysis - MarketBeat",
-      "ABB Ltd stock (CH0012221716): Latest business update and what it means - AD HOC NEWS",
+      "ABB India Shares Drop 2% as Parent Sells Robotics to SoftBank for $5.4B - HDFC Sky",
       "ABB Ltd Stock (CH0012221716): Analyst Targets And Valuation In Focus After Fresh Gains - AD HOC NEWS"
     ],
     "SU.PA": [
@@ -970,7 +972,7 @@
       "Should HPE\u2019s Expanded AI Partnerships and Hybrid Cloud Push Require Action From Hewlett Packard Enterprise (HPE) Investors?",
       "Schneider Electric to acquire Cognite for $3.1 billion - Investing.com",
       "Schneider Electric to buy AI software firm Cognite for $3.1 billion - Reuters",
-      "Schneider to Buy Industrial AI Firm Cognite for $3.1 Billion - Bloomberg",
+      "Schneider to Buy Industrial AI Firm Cognite for $3.1 Billion - Bloomberg.com",
       "Aker ASA \u2013 Agreement to sell Cognite to Schneider Electric - TradingView",
       "Schneider Electric Agrees to Buy Industrial AI Firm Cognite for $3.1 billion - The Information",
       "Schneider Electric acquires Cognite for $3.1B in industrial AI push - SiliconANGLE",
@@ -1001,5 +1003,7 @@
       "We announced full-year 2022 results - Iberdrola",
       "Private Cloud Renaissance - Deloitte"
     ]
-  }
+  },
+  "pending_news_posts": [],
+  "last_news_post_min": 29714855
 }
