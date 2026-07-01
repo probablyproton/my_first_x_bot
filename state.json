@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "daily_posts": 7,
+  "daily_posts": 9,
   "eu_slots": [
     {
       "slot": 0,
@@ -99,7 +99,9 @@
       "fire_time": "17:03"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
@@ -229,7 +231,8 @@
     "ETN": 256,
     "CEG": 376,
     "TLN": 392,
-    "news_RWE": 497
+    "news_RWE": 497,
+    "news_BE": 545
   },
   "day_event_fired": {
     "BE": "2026-07-01",
@@ -240,13 +243,15 @@
     "TLN": "2026-07-01"
   },
   "last_posted": {
-    "BE": 136,
+    "BE": 545,
     "VRT": 166,
     "GEV": 183,
     "ETN": 256,
     "CEG": 376,
     "TLN": 392,
-    "RWE": 497
+    "RWE": 497,
+    "ENR": 542,
+    "SU": 542
   },
   "news_seen": {
     "VST": [
@@ -262,13 +267,13 @@
       "Does Constellation Energy Stock Add A Different Kind of Risk?",
       "Vistra Corp. (VST) Stock Slides as Market Rises: Facts to Know Before You Trade - Yahoo Finance Singapore",
       "Vistra Corp. (VST) boosts revolving credit capacity to $5.50B and releases guarantees - Stock Titan",
-      "Vistra Corp. (VST) Expands Credit Facilities with Key Amendments - GuruFocus",
       "Vistra Corp - Unit Increases Revolving Credit Commitments To $5.5 Billion Effective June 24, 2026 - SEC Filing - TradingView",
+      "Vistra Corp. (VST) Expands Credit Facilities with Key Amendments - GuruFocus",
       "Vistra (NYSE:VST) Trading Down 2.1% - Time to Sell? - MarketBeat",
       "$6&period;8bn sale of Energy Harbor to Vistra powers a leading zero-carbon energy platform - RBC Capital Markets",
       "Vistra (VST) Leans On Power Demand Growth, Is The Stock Still Undervalued? - simplywall.st",
-      "Wells Fargo Sticks to Their Buy Rating for Vistra Corp (VST) - The Globe and Mail",
       "Vistra Stock (VST) Opinions on AI Data Center Power Demand - Quiver Quantitative",
+      "Wells Fargo Sticks to Their Buy Rating for Vistra Corp (VST) - The Globe and Mail",
       "Vistra Stock Is Down 24% From Its High. Here\u2019s What the KKR-Nvidia AI Partnership Means for the Recovery - TIKR.com"
     ],
     "RWE": [
@@ -370,9 +375,9 @@
       "Carahsoft wins Equinix 2025 AMER Distributor of the Year for second year, boosting public sector IT solutions. - Pluang",
       "Equinix Inc (EQIX) Shares Fall 3.9% -- GF Value Says Still Overvalued - GuruFocus",
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript - Fortune",
-      "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint - PR Newswire",
+      "Sparkle expands quantum safe connectivity with Equinix - GSMA",
       "Equinix, NTT East, Sakura Internet Plan IOWN APN Ishikari-Tokyo PoC - International Business Times",
-      "Sparkle expands quantum safe connectivity with Equinix - GSMA"
+      "Barclays Raises Equinix Price Target to $1,130 From $1,109, Maintains Equal Weight Rating - marketscreener.com"
     ],
     "GEV": [
       "Dow Jones Futures Fall, Bloom Energy Soars Late; SpaceX's First Buy Point",
@@ -388,13 +393,13 @@
       "Cramer's lightning round: Buy GE Vernova - CNBC",
       "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out - Investor's Business Daily",
       "GE Vernova Is Overheating (NYSE:GEV) - Seeking Alpha",
-      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High - Investor's Business Daily",
-      "GE Vernova: A Significant Upside, No Room For Mistake (NYSE:GEV) - Seeking Alpha",
       "JP Morgan\u2019s Top 3 Stocks for 2026: The Halftime Scorecard - 24/7 Wall St.",
-      "These 2 Industrial Giants Have Crushed Tesla's Returns Over the Last 12 Months. Will The Party Continue? - Yahoo Finance",
       "GE Vernova Inc. stock rises Tuesday, outperforms market - MarketWatch",
       "BlackRock Flags Big AI Trade Beyond Nvidia, AMD, Micron - Benzinga",
-      "GE Vernova loses renewed bid to end work on New England wind farm - Reuters"
+      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High - Investor's Business Daily",
+      "GE Vernova loses renewed bid to end work on New England wind farm - Reuters",
+      "How GE Vernova builds the massive gas turbines powering the AI data center boom - CNBC",
+      "An off-grid power project gets a major proof of concept. What it means for GE Vernova - CNBC"
     ],
     "VRT": [
       "Here Is What to Expect From Vertiv Holdings (VRT) Following Two Major Acquisitions?",
@@ -409,12 +414,12 @@
       "Investors Heavily Search Vertiv Holdings Co. (VRT): Here is What You Need to Know",
       "Here Is What to Expect From Vertiv Holdings (VRT) Following Two Major Acquisitions? - Yahoo Finance",
       "Vertiv Holdings Stock: When Even A Great Quarter Isn't Enough (NYSE:VRT) - Seeking Alpha",
+      "Does Vertiv (VRT) Joining Large-Cap Growth Indexes Reframe Its AI Data Center Investment Story? - simplywall.st",
       "Vertiv Opens Malaysia Plant to Meet AI Data Centers\u2019 Power Needs - Bloomberg.com",
       "A Look at Vertiv Holdings Co (VRT) After 9.1% Gain -- GF Value $152.90 vs Price $334.82 - GuruFocus",
       "Vertiv Holdings Co Stock (VRT) Moved Up by 7.52% on Jun 30: What Investors Need To Know - TradingKey",
       "VRT Boosts Data Center Portfolio Through Acquisitions: What's Ahead? - TradingView",
       "Vertiv Holdings Co(NYSE: VRT) dropped from Russell Midcap Growth Benchmark - marketscreener.com",
-      "Vertiv Holdings Co (VRT) Could Be 26% Undervalued Following Its AI Cooling Expansion - simplywall.st",
       "Vertiv Holdings Down Over 10%, on Pace for Largest Percent Decrease Since April 2025 -- Data Talk - Moomoo",
       "Vertiv Holdings (VRT) Q1 2026 Earnings Call Transcript - Fortune"
     ],
@@ -506,8 +511,8 @@
       "Form 144 POWELL INDUSTRIES INC For: 30 June By Investing.com - Investing.com Canada",
       "Powell Industries (POWL) Is Down 5.9% After Data Center Wins And Capacity Expansion Plans - Has The Bull Case Changed? - simplywall.st",
       "Should You Investigate Powell Industries, Inc. (NASDAQ:POWL) At US$280? - Moomoo",
-      "Powell Industries (POWL) Joins Russell 1000 As Its Investor Base Shifts - Yahoo Finance",
       "Powell Industries rises as investors lean into data-center backlog story - Quiver Quantitative",
+      "Powell Industries (POWL) Joins Russell 1000 As Its Investor Base Shifts - Yahoo Finance",
       "Powell Industries 10% Owner Sold Shares Worth Over $10M - TradingView",
       "Powell Industries Inc (POWL) Shares Fall 9.6% -- What GF Score o - GuruFocus"
     ],
@@ -548,7 +553,7 @@
       "Bloom Energy vs. Ballard Power: Which Hydrogen Stock Should You Buy? - TradingView",
       "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion; Fivefold Increase to Build and Finance Rapid Power for AI Infrastructure - Bloom Energy",
       "Bloom Energy stock jumps on expanded Brookfield partnership - Investing.com",
-      "Bloom Energy: AI Boom Has Pushed It Precariously Close To The Cliff (NYSE:BE) - Seeking Alpha",
+      "Bloom Energy, Brookfield expand AI infrastructure partnership by 5x to $25B (BE:NYSE) - Seeking Alpha",
       "Bloom Energy (BE) Lands $25 Billion Brookfield Backing For AI Power Buildout - Yahoo Finance",
       "Bloom Energy Stock Rallies As AI Power Crunch Drives Demand - StocksToTrade",
       "Bloom Energy (NYSE:BE) Stock Price Up 10% - Here's Why - MarketBeat",
@@ -658,10 +663,10 @@
       "Digital Realty (DLR) Launches ServiceFabric MCP for AI-Native Infrastructure Control",
       "Digital Realty Prices Secondary Offering of Common Stock by Blackstone",
       "Digital Realty Trust Reports $2.35 Billion Common Stock Offering by Blackstone",
-      "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers - CNBC",
-      "Digital Realty to pay $3.5B for Blackstone's stake in three new Northern Virginia data centers - The Business Journals",
-      "Digital Realty Pays $3.5 Billion for Blackstone Data Centers - Bloomberg.com",
       "Digital Realty to pay Blackstone $3.5 billion for stake in Virginia data centers - Reuters",
+      "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers - CNBC",
+      "Digital Realty Pays $3.5 Billion for Blackstone Data Centers - Bloomberg.com",
+      "Digital Realty to pay $3.5B for Blackstone's stake in three new Northern Virginia data centers - The Business Journals",
       "Digital Realty to buy Blackstone stakes in three data centers for $3.5B (DLR:NYSE) - Seeking Alpha",
       "Blackstone offloads stakes in three Virginia data centres - The Star",
       "Digital Realty Trust Inc. stock underperforms Tuesday when compared to competitors - MarketWatch",
@@ -716,11 +721,11 @@
       "Why Is Suncor Energy (SU) Up 1.9% Since Last Earnings Report?",
       "Suncor Energy Inc. stock falls Tuesday, underperforms market - MarketWatch",
       "Has Suncor Energy (SU) Truly Turned the Corner - Kavout | AI",
-      "Is Suncor Energy (SU) One of the Best Canadian Stocks to Invest In According to Billionaires? - Yahoo Finance",
       "Suncor Energy cut at Goldman Sachs following strong multi-year outperformance (SU:NYSE) - Seeking Alpha",
       "Suncor Stock And Other Dividend Payers Built For Steady Income - simplywall.st",
       "Suncor mandating local residency for some oilsands workers - CBC",
       "Canadian Natural Resources, Omai Gold Mines, Suncor Energy - TradingView",
+      "Is Suncor Energy (SU) One of the Best Canadian Stocks to Invest In According to Billionaires? - Yahoo Finance",
       "Suncor Energy | 6-K: Report of foreign private issuer (related to financial reporting) - Moomoo",
       "Suncor Energy (TSX:SU): Crude Swings Put Oil Sands on Watch - Kalkine Media",
       "Suncor Energy Inc. stock remains steady Monday, still outperforms market - MarketWatch"
@@ -735,11 +740,11 @@
       "Columbia Township man pleads guilty to stabbing girlfriend - Chronicle Telegram",
       "How Fairness Develops in Kids Around the World - The Atlantic",
       "BMW and Kith start Season 2 of their successful collaboration with the BMW i4 M50. - BMW Group",
+      "Schuettler vs Youzhny : Stats \u2022 Saint-P 2003 - Tennis Temple - Live tennis",
       "The Prime Minister and the President of the European Investment Bank discuss the opportunities for implementing new joint projects - Iravaban.net",
       "Safavid-era palace undergoes restoration - Tehran Times",
       "Oprah Winfrey Plants a Huge Oak Tree in Front Yard - E! News",
-      "Joe Demarinis Announces His Retirement - TravelPress",
-      "Trade Ministry drafts new rule alongside export SOE formation - ANTARA News"
+      "Joe Demarinis Announces His Retirement - TravelPress"
     ],
     "CRWV": [
       "A Small-Cap Utility Stock Just Signed 1 of the Biggest AI Power Deals You Haven\u2019t Heard Of",
