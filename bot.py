@@ -56,6 +56,7 @@ FLEXIBLE_SLOTS_PER_STORYLINE = int(os.getenv("FLEXIBLE_SLOTS_PER_STORYLINE", "6"
 BUFFER_SLOTS_PER_STORYLINE   = int(os.getenv("BUFFER_SLOTS_PER_STORYLINE", "2"))    # news-only, used once flexible is exhausted
 NEWS_COOLDOWN_MINUTES        = 60
 TICKER_POST_COOLDOWN_MINUTES = 120  # minimum gap between any two posts about the same ticker
+NEWS_CATEGORY_DEDUP_MINUTES  = int(os.getenv("NEWS_CATEGORY_DEDUP_MINUTES", "1440"))  # rolling window (24h), not calendar-day
 NEWS_POST_MIN_GAP_MINUTES    = int(os.getenv("NEWS_POST_MIN_GAP_MINUTES", "10"))    # base minimum gap between any two news-event posts, across all tickers
 NEWS_POST_GAP_JITTER_MINUTES = int(os.getenv("NEWS_POST_GAP_JITTER_MINUTES", "2"))  # +/- randomness applied to that gap each time (e.g. 10+/-2 -> 8-12min)
 NEWS_QUEUE_MAX_AGE_MINUTES   = int(os.getenv("NEWS_QUEUE_MAX_AGE_MINUTES", "360"))  # drop a held news event if it's waited this long unreleased (6h – too stale)
@@ -477,7 +478,22 @@ def ensure_storyline(state: dict, key: str) -> dict:
 
 def ensure_daily_plans(state: dict) -> dict:
     if state.get("date") != today():
-        state = {"date": today(), "daily_posts": 0, "daily_keyword_posts": 0}
+        # Only reset what's genuinely tied to the calendar day: post counters (mirrors
+        # Gemini's own daily quota reset) and each storyline's flexible/buffer budget pools
+        # and scheduled-slot plan. Everything else — news_seen, pending_news_posts,
+        # news_category_posted, event_cooldowns, last_posted/ticker cooldown — is a
+        # rolling-window concept, not a calendar-day one. A full wipe here used to drop
+        # queued-but-unposted news the instant the clock crossed midnight (regardless of how
+        # fresh it still was) and let a story dodge category-dedup just by reposting a few
+        # minutes into the new day.
+        state["date"] = today()
+        state["daily_posts"] = 0
+        state["daily_keyword_posts"] = 0
+        for key in ("eu", "us"):
+            state.pop(f"{key}_flexible_used", None)
+            state.pop(f"{key}_buffer_used", None)
+            state.pop(f"{key}_slots", None)
+            state.pop(f"{key}_posted", None)
 
     state = ensure_storyline(state, "eu")
     state = ensure_storyline(state, "us")
@@ -1559,10 +1575,10 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
 
     def _queue_item(symbol, classification, method):
         category = classification["category"]
-        if _news_category_posted_today(state, symbol, category):
-            log.info("NEWS EVENT skipped [%s] for $%s [%s] — already posted this category today "
-                     "(likely same story, different headline): %s",
-                     method, symbol, category, classification["headline"])
+        if _news_category_posted_recently(state, symbol, category):
+            log.info("NEWS EVENT skipped [%s] for $%s [%s] — already posted this category within "
+                     "the last %dh (likely same story, different headline): %s",
+                     method, symbol, category, NEWS_CATEGORY_DEDUP_MINUTES // 60, classification["headline"])
             return
         meta = next((a for a in candidates[symbol] if a["headline"] == classification["headline"]), {})
         # Only attach a link if we could identify a real, named, non-aggregator source —
@@ -1711,16 +1727,21 @@ def _record_ticker_post(state: dict, symbol: str):
     state.setdefault("last_posted", {})[symbol] = now_minutes()
 
 
-def _news_category_posted_today(state: dict, symbol: str, category: str) -> bool:
-    """True if a news post about this exact (ticker, category) already went out today —
-    catches the same underlying story resurfacing with different headline wording from a
-    different outlet, which exact-headline-string tracking and the 2h ticker cooldown can
-    both miss if it happens more than 2 hours after the first post."""
-    return state.get("news_category_posted", {}).get(symbol, {}).get(category) == today()
+def _news_category_posted_recently(state: dict, symbol: str, category: str) -> bool:
+    """True if a news post about this exact (ticker, category) went out within the last
+    NEWS_CATEGORY_DEDUP_MINUTES — catches the same underlying story resurfacing with different
+    headline wording from a different outlet, which exact-headline-string tracking and the 2h
+    ticker cooldown can both miss if it happens more than 2 hours after the first post.
+    Rolling window, not a calendar-day match — a fixed 'today()' comparison would let a story
+    posted at 23:58 dodge dedup entirely by reposting at 00:02 the next day."""
+    last_min = state.get("news_category_posted", {}).get(symbol, {}).get(category)
+    if last_min is None:
+        return False
+    return now_minutes() - last_min < NEWS_CATEGORY_DEDUP_MINUTES
 
 
 def _record_news_category_posted(state: dict, symbol: str, category: str):
-    state.setdefault("news_category_posted", {}).setdefault(symbol, {})[category] = today()
+    state.setdefault("news_category_posted", {}).setdefault(symbol, {})[category] = now_minutes()
 
 
 def _storyline_key_for(symbol: str) -> str:
