@@ -183,6 +183,19 @@ def is_weekend() -> bool:
     return datetime.date.today().weekday() >= 5
 
 
+def _is_market_open_for(symbol: str) -> bool:
+    """Whether the ticker's home market (EU or US) is currently in its trading session."""
+    if is_weekend():
+        return False
+    now = now_hhmm()
+    if symbol in EU_WATCHLIST:
+        return "09:00" <= now <= "17:30"
+    if symbol in US_WATCHLIST:
+        return "15:30" <= now <= "22:00"
+    # Unknown / off-watchlist ticker — fall back to the broader combined window
+    return "09:00" <= now <= "22:00"
+
+
 def market_phase(key: str) -> str:
     """Return 'weekend', 'pre_market', 'open', or 'post_market' for the given storyline."""
     if is_weekend():
@@ -936,6 +949,9 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
     candidates = []
 
     for symbol in symbols:
+        if not _is_market_open_for(symbol):
+            continue
+
         price_ctx = get_price_context(symbol)
         if not price_ctx:
             continue
@@ -1047,14 +1063,14 @@ def get_ticker_context_with_dates(symbol: str, max_messages: int = 10) -> list[d
 
 
 def check_news_events(state: dict, symbols: list[str]) -> dict:
-    if not ("09:00" <= now_hhmm() <= "22:00"):
-        return state
-
     cooldowns = state.setdefault("event_cooldowns", {})
     news_seen = state.setdefault("news_seen", {})
     now_dt    = datetime.datetime.utcnow()
 
     for symbol in symbols:
+        if not _is_market_open_for(symbol):
+            continue
+
         last_event_min = cooldowns.get(f"news_{symbol}", 0)
         if now_minutes() - last_event_min < NEWS_COOLDOWN_MINUTES:
             continue
