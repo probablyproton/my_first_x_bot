@@ -1324,6 +1324,11 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             continue  # storyline's flexible+buffer budget exhausted — not worth spending a
                        # Gemini call classifying news we couldn't post about anyway today
 
+        if _gemini_unavailable:
+            continue  # don't mark headlines "seen" if we can't classify them this cycle —
+                       # otherwise a story that breaks during an outage gets silently skipped
+                       # forever once it's no longer "new" on the next successful cycle
+
         last_event_min = cooldowns.get(f"news_{symbol}", 0)
         if now_minutes() - last_event_min < NEWS_COOLDOWN_MINUTES:
             continue
