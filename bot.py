@@ -305,6 +305,26 @@ def get_recent_volatility(symbols: list[str], sessions: int = 3) -> dict[str, fl
             log.warning("Volatility fetch failed for %s: %s", symbol, e)
     return result
 
+
+def get_week_to_date_change(symbols: list[str]) -> dict[str, float]:
+    """Signed net % change since this week's Monday open — current price vs. Monday's
+    opening price. Signed so direction (+xx% / -xx%) is unambiguous at a glance."""
+    monday = datetime.date.today() - datetime.timedelta(days=datetime.date.today().weekday())
+    result = {}
+    for symbol in symbols:
+        try:
+            hist = yf.Ticker(symbol).history(period="5d")
+            hist = hist[hist.index.date >= monday]
+            if hist.empty:
+                continue
+            monday_open = float(hist["Open"].iloc[0])
+            current = float(hist["Close"].iloc[-1])
+            if monday_open > 0:
+                result[symbol] = round((current - monday_open) / monday_open * 100, 2)
+        except Exception as e:
+            log.warning("Week-to-date change failed for %s: %s", symbol, e)
+    return result
+
 # ── Zero-LLM content (weekend recaps + polls) ─────────────────────────────────
 # Everything below fires with zero Gemini calls — pure yfinance data + string
 # templates. Meant to run as an ADDITIONAL weekend post type, outside the
@@ -568,9 +588,13 @@ ENGAGEMENT_SYSTEM = """## Role
 You are writing a weekly engagement post for a financial Twitter account tracking AI infrastructure stocks – connectivity, memory, networking.
 
 ## Rules
+- NEVER invent or infer a catalyst, theme, or driver not supported by the data/headlines provided.
+  If nothing in the data supports a real narrative, describe the numbers themselves rather than
+  fabricating a reason behind them.
 - Casual, direct, first-person voice – never sounds automated or templated
 - Use line breaks – no walls of text
-- Always list tickers alphabetically, one per line, with $ prefix
+- Always list tickers alphabetically, one per line, with $ prefix, UNLESS the prompt explicitly
+  specifies a different order (e.g. sorted by performance) — follow the prompt's order in that case.
 - A closing question or CTA is used when it flows naturally – not as a reflex
 - Emoji: sparingly and only where genuinely meaningful. 👇 for a real CTA only. When in doubt, omit.
 - No filler, no hype, no em dash – use en dash (–) only
@@ -1026,21 +1050,43 @@ Keep it casual, direct, under 280 characters."""))
 
     if weekday == 2 and "12:00" <= now <= "13:30" and engagement.get("wednesday") != today_str:
         vol = get_recent_volatility(tickers, sessions=3)
-        top5 = sorted(sorted(vol, key=vol.get, reverse=True)[:5], key=_base_symbol)
+        top5 = sorted(vol, key=vol.get, reverse=True)[:5]
         if top5:
-            vol_lines = "\n".join(f"${_base_symbol(t)}" for t in top5)
+            wtd = get_week_to_date_change(top5)
+            # Biggest gain to biggest loss — NOT alphabetical, overriding the general
+            # engagement-post rule for this one post since the ranking itself is the point.
+            top5_sorted = sorted(top5, key=lambda t: wtd.get(t, float("-inf")), reverse=True)
+            vol_lines = "\n".join(
+                f"${_base_symbol(t)}: {'+' if wtd[t] >= 0 else ''}{wtd[t]}%" if t in wtd else f"${_base_symbol(t)}"
+                for t in top5_sorted
+            )
+            news_by_ticker = {t: get_ticker_context(t, max_messages=1) for t in top5_sorted}
+            news_lines = "\n".join(
+                f"${_base_symbol(t)}: {headlines[0]}" if (headlines := news_by_ticker.get(t)) else f"${_base_symbol(t)}: no notable headline this week"
+                for t in top5_sorted
+            )
             posts.append(("wednesday", f"""Write a midweek engagement post for a financial Twitter account.
 
-The 5 most volatile tickers this week so far (biggest single-day moves over the last 3 sessions):
+This week's biggest movers, already sorted from biggest gain to biggest loss (net % change since
+Monday's open):
 {vol_lines}
 
+A recent headline per ticker, for context on what may be driving the move:
+{news_lines}
+
 Format:
-- One brief line noting these specific names have seen real volatility across the first few sessions this week
-- List the 5 tickers on separate lines, nothing else attached to them
+- Open with "Midweek check-in:" followed by ONE specific observation grounded in the actual headlines
+  above — name a real theme or catalyst (a specific deal, sector trend, earnings reaction) tying
+  together why these stocks moved. If the headlines don't genuinely support a shared driver, name the
+  single standout mover and its move instead of inventing a connection. Never a generic line like
+  "the week has seen volatility" that could apply to any week.
+- List the 5 tickers on separate lines with their % figure, in the EXACT order given above — do NOT
+  resort alphabetically, the gain-to-loss order is the point of this post
 - End with a simple, clear hypothetical: if you had $1000 to invest right now, how would you split it across
   these 5? Phrase this fresh each time in your own words – don't reuse the same wording as a template.
 
-Keep it simple, clear, casual, engaging. Under 280 characters."""))
+Use a line break between the opener, the ticker list, and the closing question. Keep it simple, clear,
+casual, engaging. Under 280 characters."""))
 
     if weekday == 4 and "17:00" <= now <= "18:30" and engagement.get("friday") != today_str:
         posts.append(("friday", f"""Write a Friday closing post for a financial Twitter account.
