@@ -1390,6 +1390,12 @@ def _fetch_rss_with_dates(url: str, max_messages: int) -> list[dict]:
         creator = item.findtext(_DC_CREATOR)
         if source_el is not None and source_el.text:
             source = source_el.text.strip()
+            # Google News appends " - PublisherName" directly onto the title. Now that
+            # we've captured the publisher separately, strip it so the headline text
+            # itself doesn't carry an inconsistent, redundant source mention.
+            suffix = f" - {source}"
+            if title.lower().endswith(suffix.lower()):
+                title = title[: -len(suffix)].strip()
         elif creator:
             source = creator.strip()
         elif link:
