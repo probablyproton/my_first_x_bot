@@ -100,7 +100,8 @@
     }
   ],
   "eu_posted": [
-    0
+    0,
+    1
   ],
   "us_slots": [
     {
@@ -223,14 +224,14 @@
     "DLR": 179.61,
     "CEG": 248.32,
     "ETN": 425.99,
-    "ENGI.PA": 27.16,
-    "SIE.DE": 277.5,
-    "ENR.DE": 163.42,
-    "LR.PA": 146.15,
-    "RWE.DE": 56.18,
-    "EOAN.DE": 17.76,
-    "ABBN.SW": 86.86,
-    "SU.PA": 277.35,
+    "ENGI.PA": 27.25,
+    "SIE.DE": 278.1,
+    "ENR.DE": 165.2,
+    "LR.PA": 146.55,
+    "RWE.DE": 56.22,
+    "EOAN.DE": 17.88,
+    "ABBN.SW": 87.3,
+    "SU.PA": 278.45,
     "IBE.MC": 21.73
   },
   "event_cooldowns": {
@@ -288,8 +289,8 @@
       "$6&period;8bn sale of Energy Harbor to Vistra powers a leading zero-carbon energy platform - RBC Capital Markets",
       "Vistra (VST) Leans On Power Demand Growth, Is The Stock Still Undervalued? - simplywall.st",
       "Vistra Stock (VST) Opinions on AI Data Center Power Demand - Quiver Quantitative",
-      "Wells Fargo Sticks to Their Buy Rating for Vistra Corp (VST) - The Globe and Mail",
-      "Vistra Stock Is Down 24% From Its High. Here\u2019s What the KKR-Nvidia AI Partnership Means for the Recovery - TIKR.com"
+      "Vistra Stock Is Down 24% From Its High. Here\u2019s What the KKR-Nvidia AI Partnership Means for the Recovery - TIKR.com",
+      "Wells Fargo Sticks to Their Buy Rating for Vistra Corp (VST) - The Globe and Mail"
     ],
     "RWE": [
       "How The RWE (XTRA:RWE) Story Is Shifting With Fresh Targets And A New Fair Value",
@@ -340,6 +341,7 @@
       "Anterix Surges 163% in the Past Year: Should You Bet on the Stock?",
       "Share buybacks in Ericsson during the period June 15 - June 19, 2026",
       "Verizon ups pressure on Ericsson to be open like Samsung - Light Reading",
+      "Ericsson: Global 5G User Base Surpasses 3 Billion as AI Reshapes Mobile Networks - TechAfrica News",
       "Share buybacks in Ericsson during the period June 22 - June 26, 2026 - Yahoo Finance",
       "Goldman Sachs cuts Ericsson price target to 92 kronor (93), reiterates sell - BN - marketscreener.com",
       "Ericsson: Concerns On Growth/Valuation (Rating Downgrade) - Seeking Alpha",
@@ -347,7 +349,6 @@
       "Ericsson demonstrates portable 5G core for emergency operations - telecomtv.com",
       "Ericsson puts agentic AI at the core of its OSS/BSS operations - RCR Wireless News",
       "Ericsson CEO Ekholm to step down, be replaced by Per Narvinger - Reuters",
-      "Ericsson cloud boss still resists a Nokia move in the 5G core - Light Reading",
       "SEK 675,701,000.06 Ericsson (ERIC) share buybacks executed in June 2026 - Stock Titan"
     ],
     "NOK": [
@@ -384,15 +385,15 @@
       "Cisco (CSCO) Pushes Further Into Quantum Security And Enterprise AI",
       "Equinix Is Now Becoming a Key Stop in the AI Supply Chain. How to Play EQIX Stock Here.",
       "Equinix (EQIX) Stock Dips While Market Gains: Key Facts - Yahoo Finance",
-      "Equinix officially retires bare metal offering - SDxCentral",
       "Equinix launches AI-ready data center with direct link to Hong Kong-Shenzhen tech park - Frontier Enterprise",
+      "Equinix officially retires bare metal offering - SDxCentral",
       "Equinix falls as sector-wide REIT weakness appears to outweigh its recent upbeat updates - Quiver Quantitative",
       "Carahsoft wins Equinix 2025 AMER Distributor of the Year for second year, boosting public sector IT solutions. - Pluang",
       "Equinix Inc (EQIX) Shares Fall 3.9% -- GF Value Says Still Overvalued - GuruFocus",
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript - Fortune",
+      "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint - PR Newswire",
       "Sparkle expands quantum safe connectivity with Equinix - GSMA",
-      "Equinix, NTT East, Sakura Internet Plan IOWN APN Ishikari-Tokyo PoC - International Business Times",
-      "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint - PR Newswire"
+      "Equinix, NTT East, Sakura Internet Plan IOWN APN Ishikari-Tokyo PoC - International Business Times"
     ],
     "GEV": [
       "Dow Jones Futures Fall, Bloom Energy Soars Late; SpaceX's First Buy Point",
@@ -408,13 +409,13 @@
       "Cramer's lightning round: Buy GE Vernova - CNBC",
       "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out - Investor's Business Daily",
       "GE Vernova Is Overheating (NYSE:GEV) - Seeking Alpha",
-      "JP Morgan\u2019s Top 3 Stocks for 2026: The Halftime Scorecard - 24/7 Wall St.",
+      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High - Investor's Business Daily",
+      "GE Vernova: A Significant Upside, No Room For Mistake (NYSE:GEV) - Seeking Alpha",
+      "These 2 Industrial Giants Have Crushed Tesla's Returns Over the Last 12 Months. Will The Party Continue? - Yahoo Finance",
       "GE Vernova Inc. stock rises Tuesday, outperforms market - MarketWatch",
       "BlackRock Flags Big AI Trade Beyond Nvidia, AMD, Micron - Benzinga",
-      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High - Investor's Business Daily",
       "GE Vernova loses renewed bid to end work on New England wind farm - Reuters",
-      "How GE Vernova builds the massive gas turbines powering the AI data center boom - CNBC",
-      "An off-grid power project gets a major proof of concept. What it means for GE Vernova - CNBC"
+      "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning - 24/7 Wall St."
     ],
     "VRT": [
       "Here Is What to Expect From Vertiv Holdings (VRT) Following Two Major Acquisitions?",
@@ -428,7 +429,7 @@
       "Eaton vs. Vertiv: Which Industrials Stock Is a Better Buy in 2026?",
       "Investors Heavily Search Vertiv Holdings Co. (VRT): Here is What You Need to Know",
       "Here Is What to Expect From Vertiv Holdings (VRT) Following Two Major Acquisitions? - Yahoo Finance",
-      "Vertiv Holdings Stock: When Even A Great Quarter Isn't Enough (NYSE:VRT) - Seeking Alpha",
+      "Vertiv Holdings: When Even A Great Quarter Isn't Enough - Seeking Alpha",
       "Does Vertiv (VRT) Joining Large-Cap Growth Indexes Reframe Its AI Data Center Investment Story? - simplywall.st",
       "Vertiv Opens Malaysia Plant to Meet AI Data Centers\u2019 Power Needs - Bloomberg.com",
       "A Look at Vertiv Holdings Co (VRT) After 9.1% Gain -- GF Value $152.90 vs Price $334.82 - GuruFocus",
@@ -490,12 +491,12 @@
       "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG) - The Globe and Mail",
       "Constellation Energy Corporation (CEG) Among Stocks Expected to Bounce Back According to Analysts - Yahoo Finance",
       "Constellation Energy Corporation(NasdaqGS:CEG) added to Russell 3000E Growth Benchmark - marketscreener.com",
+      "Markin Volterra Fund LP's Constellation Energy Corp(CEG) Holding History - GuruFocus",
       "Constellation Energy Corp stock hits 52-week low at 243.3 USD - Investing.com",
       "Price to sales forward of Constellation Energy Corporation \u2013 NASDAQ:CEG - TradingView",
       "Constellation Energy Corporation (CEG) Down 14.3% Since Last Earnings Report: Can It Rebound? - Yahoo Finance",
       "Constellation Energy Corp. stock falls Friday, underperforms market - MarketWatch",
-      "Constellation Energy Corporation Files License Renewal Applications With Nuclear Regulatory Commission - marketscreener.com",
-      "Constellation Energy Corporation (CEG) Gets a Buy from Wells Fargo - The Globe and Mail"
+      "Constellation Energy Corporation Files License Renewal Applications With Nuclear Regulatory Commission - marketscreener.com"
     ],
     "ENGI": [
       "Price to earnings forward of ENGIE S.A. \u2013 EURONEXT:ENGI - TradingView",
@@ -527,9 +528,9 @@
       "Powell Industries (POWL) Is Down 5.9% After Data Center Wins And Capacity Expansion Plans - Has The Bull Case Changed? - simplywall.st",
       "Should You Investigate Powell Industries, Inc. (NASDAQ:POWL) At US$280? - Moomoo",
       "Powell Industries rises as investors lean into data-center backlog story - Quiver Quantitative",
-      "Powell Industries (POWL) Joins Russell 1000 As Its Investor Base Shifts - Yahoo Finance",
       "Powell Industries 10% Owner Sold Shares Worth Over $10M - TradingView",
-      "Powell Industries Inc (POWL) Shares Fall 9.6% -- What GF Score o - GuruFocus"
+      "Powell Industries Inc (POWL) Shares Fall 9.6% -- What GF Score o - GuruFocus",
+      "Powell Industries, Inc.(NasdaqGS: POWL) added to Russell 1000 Growth Benchmark - marketscreener.com"
     ],
     "PWR": [
       "Will the Lhoist Acquisition Strengthen Martin Marietta's Market Lead?",
@@ -542,6 +543,7 @@
       "Data Center Delays Create Opportunity in These 3 Stocks",
       "Can Grid Modernization Become Quanta's Next Growth Driver?",
       "Forget XLU. The Grid Fund Actually Powering the AI Boom Is Up 23% in 2026",
+      "Bull of the Day: Quanta Services (PWR) - Zacks Investment Research",
       "How Investors Are Reacting To Quanta Services (PWR) Russell Upgrade And Grid Equipment JV Shift - simplywall.st",
       "Price to sales forward of Quanta Services, Inc. \u2013 LSX:912294 - TradingView",
       "Quanta Services Stock Jumped 63% This Year: Does the Math Still Support Buying In? - TIKR.com",
@@ -550,8 +552,7 @@
       "Is Quanta Services, Inc. (PWR) A Good Stock To Buy Now? - Yahoo Finance",
       "Quanta Services, Inc.(NYSE: PWR) added to Russell Top 200 Index - marketscreener.com",
       "Quanta Services To Go Ex-Dividend On July 1st, 2026 With 0.11 USD Dividend Per Share - Moomoo",
-      "Quanta Services (PWR) Surged on Strong Earnings and Improved Guidance - Yahoo Finance",
-      "Quanta Services, Inc.(NYSE: PWR) dropped from Russell Midcap Growth Benchmark - marketscreener.com"
+      "Quanta Services (PWR) Surged on Strong Earnings and Improved Guidance - Yahoo Finance"
     ],
     "BE": [
       "Brookfield Expands Bloom Energy AI Power Partnership to $25 Billion",
@@ -602,10 +603,10 @@
       "Wells Fargo Sticks to Its Buy Rating for Talen Energy Corp (TLN) - The Globe and Mail",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 3000E Growth Benchmark - marketscreener.com",
       "Talen Energy Announces Credit Facility Refinancing Transactions | Thu, 05/14/2026 - 16:27 - Talen Energy",
-      "TLN - Talen Energy Corp Volatility & Greeks - Finviz",
       "How Talen Energy\u2019s US$983 Million Shelf Registration At Talen Energy (TLN) Has Changed Its Investment Story - simplywall.st",
       "Talen and Amazon expand their partnership for Pennsylvania - American Nuclear Society -- ANS",
       "Price to book forward of Talen Energy Corporation \u2013 NASDAQ:TLN - TradingView",
+      "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment - X-energy",
       "Talen Energy to Report Full Year and Fourth Quarter 2025 Financial Results on February 26, 2026 - Talen Energy",
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00 - Talen Energy"
     ],
@@ -647,11 +648,11 @@
       "Golden State Warriors and IREN Limited Secure Record-Breaking North American Sponsorship Deal - Ministry of Sport",
       "Jefferies Assigns Buy Rating to IREN Ltd. (IREN) - Yahoo Finance",
       "(IREN) and the Role of Price-Sensitive Allocations - Stock Traders Daily",
+      "Why IREN Limited Rallied Almost 40% in May - The Motley Fool",
       "$IREN Ltd (IREN.US)$ - Moomoo",
       "IREN Limited(NasdaqGS: IREN) added to Russell Midcap Value Benchmark - marketscreener.com",
       "Russell U.S. Indexes shift to semi-annual reconstitution from annual, IREN in Russell 1000 (IREN:NASDAQ) - Seeking Alpha",
-      "Warriors, Chase Center announce new multi-year sponsorship with IREN Limited - Yahoo Sports",
-      "IREN Limited(NasdaqGS: IREN) added to Russell Midcap Growth Benchmark - marketscreener.com"
+      "Warriors, Chase Center announce new multi-year sponsorship with IREN Limited - Yahoo Sports"
     ],
     "LR": [
       "Legrand Deepens Data Center Focus With Keydak And TES Acquisitions",
@@ -680,8 +681,8 @@
       "Digital Realty Trust Reports $2.35 Billion Common Stock Offering by Blackstone",
       "Digital Realty to pay Blackstone $3.5 billion for stake in Virginia data centers - Reuters",
       "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers - CNBC",
-      "Digital Realty Pays $3.5 Billion for Blackstone Data Centers - Bloomberg.com",
       "Digital Realty to pay $3.5B for Blackstone's stake in three new Northern Virginia data centers - The Business Journals",
+      "Digital Realty Pays $3.5 Billion for Blackstone Data Centers - Bloomberg.com",
       "Digital Realty to buy Blackstone stakes in three data centers for $3.5B (DLR:NYSE) - Seeking Alpha",
       "Digital Realty Trust Inc. stock underperforms Tuesday when compared to competitors - MarketWatch",
       "News | Blackstone sells $3.5 billion stake in data centers to Digital Realty - CoStar",
@@ -709,7 +710,7 @@
       "Applied Digital Reaches Significant Milestone, Surpassing 1 GW of Contracted Capacity with U.S. Based High Investment-Grade Hyperscaler Lease at Fourth Campus, Polaris Forge 3 - Applied Digital Corporation (APLD)",
       "Applied Digital (APLD) Price Target Raised at Needham by $3 - Yahoo Finance",
       "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth - Applied Digital Corporation (APLD)",
-      "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory - PR Newswire"
+      "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1 - Applied Digital Corporation (APLD)"
     ],
     "ABBN": [
       "ABB (SWX:ABBN) Stock Valuation After A 74% One Year Total Return - Yahoo Finance",
@@ -762,6 +763,7 @@
       "Joe Demarinis Announces His Retirement - TravelPress"
     ],
     "CRWV": [
+      "CoreWeave (CRWV) Stock May Still Look Cheap Following Record AI Backlog",
       "A Small-Cap Utility Stock Just Signed 1 of the Biggest AI Power Deals You Haven\u2019t Heard Of",
       "Dell\u2019s AI boom is real, but so is the profit margin hit nobody is pricing in",
       "Up Over 400%, I\u2019m Standing Still on Applied Digital Stock",
@@ -771,17 +773,16 @@
       "Tesla\u2019s 10% Weight in ARKK Sets Up a Make-or-Break Year for the Innovation ETF",
       "CoreWeave Dives After a Massive Rally. Here\u2019s Why You Should Stay Cautious on CRWV Stock.",
       "CoreWeave Price Prediction: The Case for 70% Upside",
-      "CoreWeave Collaborates With Conapto to Expand Sweden AI Cloud Capacity",
-      "CoreWeave Collaborates With Conapto to Expand Sweden AI Cloud Capacity - Yahoo Finance",
       "CoreWeave Unveils Aria to Streamline AI Workflows for Data Centers - Data Center Knowledge",
       "CoreWeave ARIA Launches as an AI Research and Iteration Agent with autonomous research and collaborative intelligence - Business Wire",
+      "This Nvidia-Backed Artificial Intelligence (AI) Infrastructure Stock Has Multibagger Potential. It Is Trading at an Incredibly Attractive Valuation Right Now - The Motley Fool",
       "Lawsuit Notice: Investors who hold CoreWeave, Inc. (NASDAQ: CRWV) shares should contact the Shareholders Foundation - Newswire.com",
       "CoreWeave Dives After a Massive Rally. Here\u2019s Why You Should Stay Cautious on CRWV Stock. - Yahoo Finance",
       "CoreWeave Price Prediction: The Case for 70% Upside - 24/7 Wall St.",
+      "CoreWeave (CRWV) Stock May Still Look Cheap Following Record AI Backlog - Yahoo Finance",
       "CoreWeave Insider Sold Shares Worth $7,793,608, According to a Recent SEC Filing - Moomoo",
       "CoreWeave\u2019s $1.4 billion bet just showed its first real payoff - thestreet.com",
-      "CoreWeave debuts ARIA agent to automate AI research in Weights & Biases - SiliconANGLE",
-      "CoreWeave (CRWV) Rolls Out New AI Agent to Help Developers Improve Models Faster - TipRanks"
+      "CoreWeave debuts ARIA agent to automate AI research in Weights & Biases - SiliconANGLE"
     ],
     "NEE": [
       "FE or NEE: Which Is the Better Value Stock Right Now?",
@@ -816,16 +817,16 @@
       "ENGIY vs. PNW: Which Stock Is the Better Value Option?",
       "Engie\u2019s Belgian Battery Project And What It Means For Cash Flows",
       "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?",
-      "All You Need to Know About ENGIE - Sponsored ADR (ENGIY) Rating Upgrade to Strong Buy - Yahoo Finance Singapore",
+      "All You Need to Know About ENGIE - Sponsored ADR (ENGIY) Rating Upgrade to Strong Buy - Yahoo Finance",
       "European BESS developments: Axpo, e-Storage, RES, R.Power - Energy-Storage.News",
       "Engie buys 1,000 MWh energy storage project in Poland - Renewables Now",
-      "Engie begins construction of 140.8 MW solar-plus-storage project in Peru - ESS News",
       "Engie Recognizes Hitachi Energy for Strategic Role in Decarbonizing the Power System - Hitachi Energy",
       "Human Rights Approach and Compliance - ENGIE.com",
       "Aker BioMarine signs agreement with Engie for 100% renewable energy - Nutrition Insight",
       "Arcadia acquires Engie Impact to create unified energy management platform - ESG Dive",
       "ENGIE and European Energy start cooperation on large-scale renewable hydrogen development in Denmark - Hydrocarbon Processing",
-      "Engie buys RPower BESS - pfie.com"
+      "Engie buys RPower BESS - pfie.com",
+      "Has ENGIE - Sponsored ADR (ENGIY) Outpaced Other Utilities Stocks This Year? - Yahoo Finance"
     ],
     "SIE.DE": [
       "Global Industrial Process Heating Market to Hit USD 17.47 Billion by 2032",
@@ -928,8 +929,8 @@
       "How The E.ON (XTRA:EOAN) Narrative Is Shifting As Analyst Views Split On Upside Potential",
       "E.ON Home Energy Check from E.ON SE - free digital scan helps households cut power bills - AD HOC NEWS",
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November - Local 3 News",
+      "Here are takeaways from Sen. Malone's roundtable discussion on e-bikes, micromobility - LancasterOnline",
       "E.ON SE edges higher as investors weigh earnings outlook. Valuation and dividend profile draw intere - AD HOC NEWS",
-      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview - Houston Chronicle",
       "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors - WCIV",
       "E.ON adjusts borrowing costs for shareholders, stock and energy transition in focus - AD HOC NEWS",
       "E.ON edges higher on Xetra as dividend appeal supports valuation - AD HOC NEWS",
@@ -952,11 +953,11 @@
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results - simplywall.st",
       "ABB to divest Robotics division to SoftBank Group | News center - ABB",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says - Reuters",
-      "Watch: ABB robot helps build 3D-printed railway station overnight - Interesting Engineering",
       "ABB outlines 2030 growth ambitions, shares backed by steady analyst view - AD HOC NEWS",
+      "Watch: ABB robot helps build 3D-printed railway station overnight - Interesting Engineering",
       "ABB expands building solutions portfolio and appoints new retail distributor in Vietnam - ABB",
       "ABB (ABBNY) Stock Price, News & Analysis - MarketBeat",
-      "ABB India Shares Drop 2% as Parent Sells Robotics to SoftBank for $5.4B - HDFC Sky",
+      "ABB Ltd stock (CH0012221716): Latest business update and what it means - AD HOC NEWS",
       "ABB Ltd Stock (CH0012221716): Analyst Targets And Valuation In Focus After Fresh Gains - AD HOC NEWS"
     ],
     "SU.PA": [
