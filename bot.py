@@ -52,6 +52,9 @@ EVENT_DAY_THRESHOLD_PCT      = float(os.getenv("EVENT_DAY_THRESHOLD_PCT", "4.0")
 EVENT_COOLDOWN_MINUTES       = int(os.getenv("EVENT_COOLDOWN_MINUTES", "60"))
 NEWS_COOLDOWN_MINUTES        = 60
 TICKER_POST_COOLDOWN_MINUTES = 120  # minimum gap between any two posts about the same ticker
+NEWS_POST_MIN_GAP_MINUTES    = int(os.getenv("NEWS_POST_MIN_GAP_MINUTES", "10"))    # base minimum gap between any two news-event posts, across all tickers
+NEWS_POST_GAP_JITTER_MINUTES = int(os.getenv("NEWS_POST_GAP_JITTER_MINUTES", "2"))  # +/- randomness applied to that gap each time (e.g. 10+/-2 -> 8-12min)
+NEWS_QUEUE_MAX_AGE_MINUTES   = int(os.getenv("NEWS_QUEUE_MAX_AGE_MINUTES", "360"))  # drop a held news event if it's waited this long unreleased (6h – too stale)
 
 HEADLESS = os.getenv("CI", "false") == "true"
 
@@ -177,6 +180,12 @@ def now_hhmm() -> str:
 def now_minutes() -> int:
     n = datetime.datetime.now()
     return n.hour * 60 + n.minute
+
+
+def _epoch_minutes() -> int:
+    """Absolute minute counter (unlike now_minutes, doesn't reset at midnight) —
+    used for spacing that must hold correctly across a day boundary."""
+    return int(time.time() // 60)
 
 
 def is_weekend() -> bool:
@@ -538,6 +547,8 @@ Write the tweet. Keep it under 280 characters. Be specific – name real events,
 
     try:
         text = _gemini(TWEET_SYSTEM, prompt).strip('"').strip("'")
+        if _has_unknown_ticker(text, [symbol]):
+            return None
         if len(text) > 280:
             trimmed = text[:280]
             for sep in (". ", ".\n", "? ", "?\n", "! ", "!\n"):
@@ -622,6 +633,8 @@ Write a reaction tweet. Be specific. Add a "so what" framed as possibility. End 
 
     try:
         text = _gemini(NEWS_EVENT_SYSTEM, prompt).strip('"').strip("'")
+        if _has_unknown_ticker(text, [symbol]):
+            return None
         if len(text) > 280:
             trimmed = text[:280]
             for sep in (". ", ".\n", "? ", "?\n", "! ", "!\n"):
@@ -644,6 +657,10 @@ The biggest movers, clearest news catalyst, or a cross-stock pattern are all val
 
 ## Rules
 - NEVER invent or infer market conditions, catalysts, or facts not present in the provided data.
+- ONLY give a $TICKER + specific price or % move for a stock that appears in the "Market data" block below.
+  If a headline mentions some OTHER company (a peer, competitor, or supplier), you may reference what that
+  headline literally says about it in prose — but NEVER invent a price, a % move, or a $TICKER for it.
+  That other company has no data block here; anything you'd write about its price would be fabricated.
 - Reference specific prices, % moves, and headlines from the data — specific beats vague, always.
 - ALWAYS reference a stock by its bare ticker symbol with a $ prefix (e.g. $VRT, $SU). Never write out
   the company name in place of, or alongside in parentheses, the ticker — traders recognize the symbol,
@@ -683,6 +700,18 @@ One tweet only. No quotes, no commentary."""
 
 def _base_symbol(t: str) -> str:
     return t.split(".")[0].split("-")[0]
+
+
+def _has_unknown_ticker(tweet: str, allowed_symbols) -> bool:
+    """True if the tweet $-mentions a ticker with no real supplied price data —
+    guards against the model fabricating a price/% move for a company it only
+    saw referenced inside a headline (e.g. a peer or competitor)."""
+    allowed = {_base_symbol(t) for t in allowed_symbols}
+    mentioned = set(re.findall(r"\$([A-Z]{1,6})\b", tweet))
+    unknown = mentioned - allowed
+    if unknown:
+        log.warning("Tweet references untracked ticker(s) %s with no supplied data — rejecting", unknown)
+    return bool(unknown)
 
 
 def generate_market_update_tweet(key: str, ranked: list[str], ticker_data: dict,
@@ -732,6 +761,8 @@ Can reference one stock or multiple. Always use $TICKER (bare symbol, no company
 
     try:
         text = _gemini(MARKET_UPDATE_SYSTEM, prompt).strip('"').strip("'")
+        if _has_unknown_ticker(text, ranked):
+            return None
         if len(text) > 280:
             trimmed = text[:280]
             for sep in (". ", ".\n", "? ", "?\n", "! ", "!\n"):
@@ -1066,14 +1097,23 @@ def get_ticker_context_with_dates(symbol: str, max_messages: int = 10) -> list[d
 
 
 def check_news_events(state: dict, symbols: list[str]) -> dict:
-    """Check for major news catalysts and post event tweets. Runs around the clock —
-    news can break outside market hours and should be covered in the next cycle, not
-    held until the market reopens."""
+    """Check for major news catalysts. Runs around the clock — news can break outside
+    market hours and should be covered in the next cycle, not held until the market
+    reopens. Detected events are queued rather than posted immediately: at most one
+    news-event tweet is released per cycle, at least NEWS_POST_MIN_GAP_MINUTES apart
+    from the last one, so a burst of simultaneous headlines doesn't post back-to-back
+    like a bot firing instantly — it reads as paced, human-like coverage instead."""
     cooldowns = state.setdefault("event_cooldowns", {})
     news_seen = state.setdefault("news_seen", {})
+    queue     = state.setdefault("pending_news_posts", [])
     now_dt    = datetime.datetime.utcnow()
+    queued_symbols = {item["symbol"] for item in queue}
 
+    # ── Detect: classify new headlines per ticker, hold qualifying ones in the queue ──
     for symbol in symbols:
+        if symbol in queued_symbols:
+            continue  # already holding a news event for this ticker — don't pile on
+
         last_event_min = cooldowns.get(f"news_{symbol}", 0)
         if now_minutes() - last_event_min < NEWS_COOLDOWN_MINUTES:
             continue
@@ -1085,27 +1125,57 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             if a["published"] and (now_dt - a["published"]).total_seconds() < 86400
         ]
         new_headlines = [h for h in recent if h not in news_seen.get(symbol, [])]
+        news_seen[symbol] = [a["headline"] for a in articles]
+
         if not new_headlines:
-            news_seen[symbol] = [a["headline"] for a in articles]
             continue
 
         classification = classify_news(symbol, new_headlines)
         if classification:
+            log.info("NEWS EVENT queued for $%s [%s]: %s", symbol, classification["category"], classification["headline"])
+            queue.append({
+                "symbol": symbol,
+                "classification": classification,
+                "queued_min": _epoch_minutes(),
+            })
+
+    # ── Release: post at most one held event this cycle, respecting the global gap ──
+    last_post_min = state.get("last_news_post_min", 0)
+    required_gap  = NEWS_POST_MIN_GAP_MINUTES + random.randint(-NEWS_POST_GAP_JITTER_MINUTES, NEWS_POST_GAP_JITTER_MINUTES)
+    if queue and _epoch_minutes() - last_post_min >= required_gap:
+        remaining = []
+        released = False
+        for item in queue:
+            age = _epoch_minutes() - item["queued_min"]
+            symbol, classification = item["symbol"], item["classification"]
+
+            if released or age > NEWS_QUEUE_MAX_AGE_MINUTES:
+                if age > NEWS_QUEUE_MAX_AGE_MINUTES:
+                    log.warning("NEWS EVENT dropped (stale, held %d min) — $%s: %s",
+                                age, symbol, classification["headline"])
+                else:
+                    remaining.append(item)
+                continue
+
             if _ticker_on_cooldown(state, symbol):
-                log.info("NEWS EVENT suppressed — $%s posted within last %d min", symbol, TICKER_POST_COOLDOWN_MINUTES)
-            else:
-                log.info("NEWS EVENT for $%s [%s]: %s", symbol, classification["category"], classification["headline"])
-                price_ctx = get_price_context(symbol)
-                tweet = generate_news_event_tweet(symbol, classification, price_ctx)
-                if tweet:
-                    log.info("News event tweet (%d chars):\n%s", len(tweet), tweet)
-                    if post_tweet(tweet, state):
-                        cooldowns[f"news_{symbol}"] = now_minutes()
-                        _record_ticker_post(state, symbol)
+                remaining.append(item)  # ticker itself busy — try again next cycle
+                continue
 
-        news_seen[symbol] = [a["headline"] for a in articles]
-        save_state(state)
+            price_ctx = get_price_context(symbol)
+            tweet = generate_news_event_tweet(symbol, classification, price_ctx)
+            if tweet:
+                log.info("News event tweet (%d chars):\n%s", len(tweet), tweet)
+                if post_tweet(tweet, state):
+                    cooldowns[f"news_{symbol}"] = now_minutes()
+                    _record_ticker_post(state, symbol)
+                    state["last_news_post_min"] = _epoch_minutes()
+                    released = True
+                    continue
+            remaining.append(item)
 
+        queue[:] = remaining
+
+    save_state(state)
     return state
 
 # ── CONFIG ────────────────────────────────────────────────────────────
