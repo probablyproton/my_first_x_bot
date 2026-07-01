@@ -195,7 +195,7 @@ def _company_name(symbol: str) -> str:
     if symbol not in _COMPANY_NAME_CACHE:
         try:
             raw = yf.Ticker(symbol).info.get("shortName", "") or ""
-            name = _LEGAL_SUFFIX_RE.sub("", raw).strip()
+            name = _LEGAL_SUFFIX_RE.sub("", raw).strip().rstrip(",.").strip()
             _COMPANY_NAME_CACHE[symbol] = name or symbol.split(".")[0].split("-")[0]
         except Exception:
             _COMPANY_NAME_CACHE[symbol] = symbol.split(".")[0].split("-")[0]
@@ -670,7 +670,8 @@ _KEYWORD_RULES = [
     ("ma",         re.compile(r"\b(acquir\w*|merger|buyout|takeover)\b", re.I), None),
     ("contract",   re.compile(r"\b(contract|partnership|deal)\b", re.I),
                    re.compile(r"\$[\d,.]+\s?(million|billion|M|B)\b", re.I)),
-    ("earnings",   re.compile(r"\b(beats?|misses?|tops? estimates?|guidance (raised|cut|lowered))\b", re.I), None),
+    ("earnings",   re.compile(r"\b(beats?|misses?)\s+(Q\d\s+)?estimates?\b|\btops? estimates?\b|"
+                               r"\bguidance (raised|cut|lowered)\b", re.I), None),
     ("buyback",    re.compile(r"\b(buyback|share repurchase)\b", re.I),
                    re.compile(r"\$[\d,.]+\s?(million|billion|M|B)\b", re.I)),
     ("regulatory", re.compile(r"\b(sanctions|export (ban|control)|security ban|CHIPS Act)\b", re.I), None),
@@ -678,12 +679,53 @@ _KEYWORD_RULES = [
 ]
 _ANALYST_ROUTINE_RE = re.compile(r"\b(upgrade\w*|downgrade\w*|reiterat\w*|maintain\w*)\b", re.I)
 
+# Generic Zacks/Motley Fool-style opinion pieces that reference real events (an old
+# acquisition, a past guidance change) as supporting color in a valuation thesis — not
+# reporting news. A bare category-keyword match can't tell "reporting X happened" from
+# "mentioning X happened as background", so these title templates are excluded outright.
+_ANALYSIS_PIECE_PATTERNS = [
+    re.compile(r"\bis\s+.+\s+a\s+good\s+(investment|stock|buy)\b", re.I),
+    re.compile(r"\bstock\s+look(s)?\s+(cheap|expensive|undervalued|overvalued)\b", re.I),
+    re.compile(r"\bwhat\s+to\s+expect\s+from\b", re.I),
+    re.compile(r"\bshould\s+you\s+buy\b", re.I),
+    re.compile(r"\bbuy\s+or\s+sell\b", re.I),
+    re.compile(r"\b(the\s+)?better\s+buy\b", re.I),
+    re.compile(r"\btop\s+\d*\s*stocks?\s+to\b", re.I),
+    re.compile(r"\bwhy\s+.+\s+is(n'?t)?\s+a\s+good\s+investment\b", re.I),
+    re.compile(r"\bis\s+it\s+time\s+to\s+buy\b", re.I),
+    re.compile(r"\bworth\s+(buying|investing)\b", re.I),
+]
 
-def classify_news_keyword(articles: list[dict]) -> dict | None:
+
+def _is_generic_analysis_piece(headline: str) -> bool:
+    return any(p.search(headline) for p in _ANALYSIS_PIECE_PATTERNS)
+
+
+def _mentions_company(symbol: str, text: str) -> bool:
+    """Loose check that an article is actually about this company, not just topically
+    adjacent (e.g. a Bloom Energy story showing up in Equinix's feed). Requires either
+    standard ticker notation — (VRT), (NYSE: VRT), $VRT — or the company's distinguishing
+    name to appear. Uses the first word of the resolved name rather than the full name,
+    since headlines routinely abbreviate ("NextEra-Dominion merger", not "NextEra Energy")."""
+    text_lower = text.lower()
+    base = _base_symbol(symbol).lower()
+    if re.search(rf"[(\$]\s*(nyse|nasdaq)?\s*:?\s*{re.escape(base)}\b", text_lower):
+        return True
+    name = _company_name(symbol)
+    first_word = re.sub(r"[^\w]", "", name.split()[0]).lower() if name else ""
+    return bool(first_word) and first_word in text_lower
+
+
+def classify_news_keyword(symbol: str, articles: list[dict]) -> dict | None:
     """Zero-LLM classifier for a single ticker's fresh articles. Returns the first article
-    matching a compound rule, in the same shape classify_news_batch's Gemini path returns."""
+    matching a compound rule AND actually being about this company, in the same shape
+    classify_news_batch's Gemini path returns."""
     for a in articles:
+        if _is_generic_analysis_piece(a["headline"]):
+            continue  # opinion/valuation piece, not a news report — skip regardless of keywords
         text = f"{a['headline']} {a.get('summary') or ''}"
+        if not _mentions_company(symbol, text):
+            continue  # topically adjacent but not actually about this ticker — skip
         for category, primary, secondary in _KEYWORD_RULES:
             if not primary.search(text):
                 continue
@@ -778,9 +820,11 @@ Write a reaction tweet. Be specific. Add a "so what" framed as possibility. End 
 
 
 def generate_keyword_event_tweet(symbol: str, classification: dict, price_ctx: dict,
-                                  link: str = "", source: str = "") -> str | None:
+                                  link: str = "") -> str | None:
     """Zero-LLM counterpart to generate_news_event_tweet — pure template, no Gemini call.
-    Used only when Gemini classification wasn't available for this ticker this cycle."""
+    Used only when Gemini classification wasn't available for this ticker this cycle.
+    No explicit source attribution line — the link itself (and its preview card) already
+    makes the source obvious."""
     base = _base_symbol(symbol)
     price_str = ""
     if price_ctx and _is_market_open_for(symbol):
@@ -788,10 +832,9 @@ def generate_keyword_event_tweet(symbol: str, classification: dict, price_ctx: d
         price_str = f" (${price_ctx['price']}, {sign}{price_ctx['change_pct']}% today)"
 
     prefix = f"${base}{price_str}: "
-    suffix = f"\nvia {source}" if source else ""
-    suffix += f"\n{link}" if link else ""
+    suffix = f"\n\n{link}" if link else ""
     # X counts any URL as a fixed ~23 characters (t.co shortening) regardless of its real length.
-    suffix_budget = len(suffix) - len(link) + 23 if link else len(suffix)
+    suffix_budget = 25 if link else 0  # 2 newlines + 23-char shortened link
 
     headline = classification["headline"]
     max_headline_len = 280 - len(prefix) - suffix_budget
@@ -1465,7 +1508,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
 
     # ── Classify via keyword fallback: pure local pattern matching, no API call ──
     for symbol in keyword_symbols:
-        classification = classify_news_keyword(candidates[symbol])
+        classification = classify_news_keyword(symbol, candidates[symbol])
         if classification:
             _queue_item(symbol, classification, "keyword")
 
@@ -1509,7 +1552,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                                                    link=item.get("link"), source=item.get("source"))
             else:
                 tweet = generate_keyword_event_tweet(symbol, classification, price_ctx,
-                                                      link=item.get("link"), source=item.get("source"))
+                                                      link=item.get("link"))
             if tweet:
                 log.info("News event tweet [%s] (%d chars):\n%s", method, len(tweet), tweet)
                 if post_tweet(tweet, state):
