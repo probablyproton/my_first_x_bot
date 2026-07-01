@@ -101,7 +101,8 @@
   ],
   "eu_posted": [
     0,
-    1
+    1,
+    2
   ],
   "us_slots": [
     {
@@ -224,15 +225,15 @@
     "DLR": 179.61,
     "CEG": 248.32,
     "ETN": 425.99,
-    "ENGI.PA": 27.25,
-    "SIE.DE": 278.1,
-    "ENR.DE": 165.2,
-    "LR.PA": 146.55,
-    "RWE.DE": 56.22,
-    "EOAN.DE": 17.88,
-    "ABBN.SW": 87.3,
-    "SU.PA": 278.45,
-    "IBE.MC": 21.73
+    "ENGI.PA": 27.19,
+    "SIE.DE": 278.75,
+    "ENR.DE": 166.7,
+    "LR.PA": 146.65,
+    "RWE.DE": 56.32,
+    "EOAN.DE": 17.82,
+    "ABBN.SW": 87.48,
+    "SU.PA": 278.9,
+    "IBE.MC": 21.77
   },
   "event_cooldowns": {
     "BE": 136,
@@ -290,7 +291,7 @@
       "Vistra (VST) Leans On Power Demand Growth, Is The Stock Still Undervalued? - simplywall.st",
       "Vistra Stock (VST) Opinions on AI Data Center Power Demand - Quiver Quantitative",
       "Vistra Stock Is Down 24% From Its High. Here\u2019s What the KKR-Nvidia AI Partnership Means for the Recovery - TIKR.com",
-      "Wells Fargo Sticks to Their Buy Rating for Vistra Corp (VST) - The Globe and Mail"
+      "The Ultimate AI Power Supercycle Winner: NextEra Energy or Vistra Stock? - The Motley Fool"
     ],
     "RWE": [
       "How The RWE (XTRA:RWE) Story Is Shifting With Fresh Targets And A New Fair Value",
@@ -326,8 +327,8 @@
       "Eaton Corporation plc(NYSE: ETN) added to Russell 1000 Growth Benchmark - marketscreener.com",
       "Eaton Corporation to Merge Mobility Business with Dana - Yahoo Finance",
       "Eaton (ETN) Has a Broader Electrical Backlog Story Than the Data-Center Trade - AlphaStreet",
-      "Enterprise value to EBIT forward of Eaton Corporation, PLC \u2013 NYSE:ETN - TradingView",
-      "Eaton Advances 2030 Growth Strategy with Announcement to Combine Mobility Group with Dana Incorporated - Business Wire"
+      "Eaton Advances 2030 Growth Strategy with Announcement to Combine Mobility Group with Dana Incorporated - Business Wire",
+      "Eaton moves one step closer to becoming a cleaner bet on the AI boom - CNBC"
     ],
     "ERIC": [
       "Vonage Launches Network-Powered Solutions for Fraud Prevention Across Canada",
@@ -349,7 +350,7 @@
       "Ericsson demonstrates portable 5G core for emergency operations - telecomtv.com",
       "Ericsson puts agentic AI at the core of its OSS/BSS operations - RCR Wireless News",
       "Ericsson CEO Ekholm to step down, be replaced by Per Narvinger - Reuters",
-      "SEK 675,701,000.06 Ericsson (ERIC) share buybacks executed in June 2026 - Stock Titan"
+      "Ericsson cloud boss still resists a Nokia move in the 5G core - Light Reading"
     ],
     "NOK": [
       "Notification under Chapter 9, Section 10 of the Finnish Securities Market Act: voting rights of FMR LLC in Nokia Corporation decreased below 5%",
@@ -385,12 +386,12 @@
       "Cisco (CSCO) Pushes Further Into Quantum Security And Enterprise AI",
       "Equinix Is Now Becoming a Key Stop in the AI Supply Chain. How to Play EQIX Stock Here.",
       "Equinix (EQIX) Stock Dips While Market Gains: Key Facts - Yahoo Finance",
-      "Equinix launches AI-ready data center with direct link to Hong Kong-Shenzhen tech park - Frontier Enterprise",
       "Equinix officially retires bare metal offering - SDxCentral",
+      "Equinix launches AI-ready data center with direct link to Hong Kong-Shenzhen tech park - Frontier Enterprise",
       "Equinix falls as sector-wide REIT weakness appears to outweigh its recent upbeat updates - Quiver Quantitative",
       "Carahsoft wins Equinix 2025 AMER Distributor of the Year for second year, boosting public sector IT solutions. - Pluang",
-      "Equinix Inc (EQIX) Shares Fall 3.9% -- GF Value Says Still Overvalued - GuruFocus",
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript - Fortune",
+      "Equinix Inc (EQIX) Shares Fall 3.9% -- GF Value Says Still Overvalued - GuruFocus",
       "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint - PR Newswire",
       "Sparkle expands quantum safe connectivity with Equinix - GSMA",
       "Equinix, NTT East, Sakura Internet Plan IOWN APN Ishikari-Tokyo PoC - International Business Times"
@@ -434,8 +435,8 @@
       "Vertiv Opens Malaysia Plant to Meet AI Data Centers\u2019 Power Needs - Bloomberg.com",
       "A Look at Vertiv Holdings Co (VRT) After 9.1% Gain -- GF Value $152.90 vs Price $334.82 - GuruFocus",
       "Vertiv Holdings Co Stock (VRT) Moved Up by 7.52% on Jun 30: What Investors Need To Know - TradingKey",
-      "VRT Boosts Data Center Portfolio Through Acquisitions: What's Ahead? - TradingView",
       "Vertiv Holdings Co(NYSE: VRT) dropped from Russell Midcap Growth Benchmark - marketscreener.com",
+      "VRT Boosts Data Center Portfolio Through Acquisitions: What's Ahead? - TradingView",
       "Vertiv Holdings Down Over 10%, on Pace for Largest Percent Decrease Since April 2025 -- Data Talk - Moomoo",
       "Vertiv Holdings (VRT) Q1 2026 Earnings Call Transcript - Fortune"
     ],
@@ -488,8 +489,8 @@
       "Constellation Energy (CEG) Files To Extend New York Reactor Licenses Through 2049",
       "Does Constellation Energy Stock Add A Different Kind of Risk?",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market - MarketWatch",
-      "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG) - The Globe and Mail",
       "Constellation Energy Corporation (CEG) Among Stocks Expected to Bounce Back According to Analysts - Yahoo Finance",
+      "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG) - The Globe and Mail",
       "Constellation Energy Corporation(NasdaqGS:CEG) added to Russell 3000E Growth Benchmark - marketscreener.com",
       "Markin Volterra Fund LP's Constellation Energy Corp(CEG) Holding History - GuruFocus",
       "Constellation Energy Corp stock hits 52-week low at 243.3 USD - Investing.com",
@@ -524,8 +525,8 @@
       "Powell Industries (POWL) Outperforms Broader Market: What You Need to Know - Yahoo Finance",
       "Oracle Construction and Engineering Recognizes Customers Driving Industry Transformation - Oracle",
       "Affiliate files resale notice for 4,500 shares at Powell (NASDAQ: POWL) - Stock Titan",
-      "Form 144 POWELL INDUSTRIES INC For: 30 June By Investing.com - Investing.com Canada",
       "Powell Industries (POWL) Is Down 5.9% After Data Center Wins And Capacity Expansion Plans - Has The Bull Case Changed? - simplywall.st",
+      "Form 144 POWELL INDUSTRIES INC For: 30 June By Investing.com - Investing.com Canada",
       "Should You Investigate Powell Industries, Inc. (NASDAQ:POWL) At US$280? - Moomoo",
       "Powell Industries rises as investors lean into data-center backlog story - Quiver Quantitative",
       "Powell Industries 10% Owner Sold Shares Worth Over $10M - TradingView",
@@ -569,12 +570,12 @@
       "Bloom Energy vs. Ballard Power: Which Hydrogen Stock Should You Buy? - TradingView",
       "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion; Fivefold Increase to Build and Finance Rapid Power for AI Infrastructure - Bloom Energy",
       "Bloom Energy stock jumps on expanded Brookfield partnership - Investing.com",
-      "Bloom Energy, Brookfield expand AI infrastructure partnership by 5x to $25B (BE:NYSE) - Seeking Alpha",
-      "Bloom Energy (BE) Lands $25 Billion Brookfield Backing For AI Power Buildout - Yahoo Finance",
-      "Bloom Energy Stock Rallies As AI Power Crunch Drives Demand - StocksToTrade",
+      "Brookfield Expands Bloom Energy AI Power Partnership to $25 Billion - Yahoo Finance",
       "Bloom Energy (NYSE:BE) Stock Price Up 10% - Here's Why - MarketBeat",
+      "Bloom Energy Stock Rallies As AI Power Crunch Drives Demand - StocksToTrade",
+      "Bloom Energy, Brookfield expand AI infrastructure power partnership to $25 billion - marketscreener.com",
       "Bloom Energy Corp Stock (BE) Moved Up by 10.83% on Jun 30: What Investors Need To Know - TradingKey",
-      "Bloom Energy, Brookfield expand AI infrastructure power partnership to $25 billion - marketscreener.com"
+      "Bloom Energy expands Brookfield partnership to $25B for AI data-center power - eciks.org"
     ],
     "EOAN": [
       "Price to sales forward of E.ON SE \u2013 HAM:EOAN - TradingView",
@@ -669,6 +670,7 @@
       "Costa Rica\u2019s refugee lifeline at breaking point amid funding crisis - Global Issues.org"
     ],
     "DLR": [
+      "Is Digital Realty (DLR) Quietly Shifting From Landlord To AI Infrastructure Platform With Its Latest Move?",
       "Digital Realty Buys $3.5 Billion in Blackstone Data Centers",
       "US Equity Markets End Higher Amid Semiconductor-Led Technology Stock Gains",
       "Digital Realty Schedules Second Quarter 2026 Earnings Release and Conference Call",
@@ -678,7 +680,6 @@
       "IPO Edge NYSE Firesides Scheduled for July 28",
       "Digital Realty (DLR) Launches ServiceFabric MCP for AI-Native Infrastructure Control",
       "Digital Realty Prices Secondary Offering of Common Stock by Blackstone",
-      "Digital Realty Trust Reports $2.35 Billion Common Stock Offering by Blackstone",
       "Digital Realty to pay Blackstone $3.5 billion for stake in Virginia data centers - Reuters",
       "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers - CNBC",
       "Digital Realty to pay $3.5B for Blackstone's stake in three new Northern Virginia data centers - The Business Journals",
@@ -710,7 +711,7 @@
       "Applied Digital Reaches Significant Milestone, Surpassing 1 GW of Contracted Capacity with U.S. Based High Investment-Grade Hyperscaler Lease at Fourth Campus, Polaris Forge 3 - Applied Digital Corporation (APLD)",
       "Applied Digital (APLD) Price Target Raised at Needham by $3 - Yahoo Finance",
       "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth - Applied Digital Corporation (APLD)",
-      "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1 - Applied Digital Corporation (APLD)"
+      "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory - PR Newswire"
     ],
     "ABBN": [
       "ABB (SWX:ABBN) Stock Valuation After A 74% One Year Total Return - Yahoo Finance",
@@ -820,8 +821,8 @@
       "All You Need to Know About ENGIE - Sponsored ADR (ENGIY) Rating Upgrade to Strong Buy - Yahoo Finance",
       "European BESS developments: Axpo, e-Storage, RES, R.Power - Energy-Storage.News",
       "Engie buys 1,000 MWh energy storage project in Poland - Renewables Now",
-      "Engie Recognizes Hitachi Energy for Strategic Role in Decarbonizing the Power System - Hitachi Energy",
       "Human Rights Approach and Compliance - ENGIE.com",
+      "Engie Recognizes Hitachi Energy for Strategic Role in Decarbonizing the Power System - Hitachi Energy",
       "Aker BioMarine signs agreement with Engie for 100% renewable energy - Nutrition Insight",
       "Arcadia acquires Engie Impact to create unified energy management platform - ESG Dive",
       "ENGIE and European Energy start cooperation on large-scale renewable hydrogen development in Denmark - Hydrocarbon Processing",
@@ -839,18 +840,19 @@
       "[Latest] Global Bioprocess Digital Twin Market Size/Share Worth USD 6.47 Billion by 2035 at a 19.6% CAGR: Healthcare Foresights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)",
       "Siemens recognizes PROLIM as \u201cSupplier of the Year 2026\u201d",
       "US curbs on AI spur European firms to spread the risk",
-      "Siemens Invests $165M for U.S. Data Center Manufacturing - Siemens",
+      "Siemens Invests $165M for U.S. Data Center Manufacturing - Siemens Newsroom",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States - Siemens Energy",
       "Siemens Energy\u2019s $421 million N.C. expansion adding 500 jobs - Business North Carolina",
       "Siemens Energy to invest $421 million in NC - Carolina Journal",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment - The Business Journals",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion - Charlotte Observer",
       "Siemens Healthineers Experience Center USA opens in Charlotte\u2019s Innovation District - Siemens Healthineers",
-      "Siemens Achieves $1B in U.S. Manufacturing Investments - Siemens",
+      "Siemens Achieves $1B in U.S. Manufacturing Investments - Siemens Newsroom",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC - NC Newsline",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement - Procurement Magazine"
     ],
     "ENR.DE": [
+      "Siemens Energy to supply technology for two Oman power plants",
       "Hanwha Power Marks U.S. Market with Successful Commissioning of Trumbull Energy Center CCGT",
       "Europe Unveils a Record 35 New NVIDIA AI Supercomputers",
       "Is Ring Energy (REI) Stock Outpacing Its Oils-Energy Peers This Year?",
@@ -860,7 +862,6 @@
       "Siemens Energy chosen for 2.6GW Taweelah C turbine supply",
       "Zacks.com featured highlights include HF Sinclair, Siemens Energy, American Healthcare REIT, Inc., Par Pacific and Green Dot",
       "Bet on These 5 Low-Leverage Stocks as US Releases Strong Job Data",
-      "Assessing Siemens Energy (XTRA:ENR) Valuation After Record Q2 Orders And Upgraded Outlook",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States - Siemens Energy",
       "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS) - Seeking Alpha",
       "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice - Yahoo Finance",
@@ -929,12 +930,12 @@
       "How The E.ON (XTRA:EOAN) Narrative Is Shifting As Analyst Views Split On Upside Potential",
       "E.ON Home Energy Check from E.ON SE - free digital scan helps households cut power bills - AD HOC NEWS",
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November - Local 3 News",
-      "Here are takeaways from Sen. Malone's roundtable discussion on e-bikes, micromobility - LancasterOnline",
       "E.ON SE edges higher as investors weigh earnings outlook. Valuation and dividend profile draw intere - AD HOC NEWS",
+      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview - Houston Chronicle",
       "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors - WCIV",
       "E.ON adjusts borrowing costs for shareholders, stock and energy transition in focus - AD HOC NEWS",
-      "E.ON edges higher on Xetra as dividend appeal supports valuation - AD HOC NEWS",
       "Computational investigation of CO2 hydrogenation and electrochemical reduction to formic acid and methanol using chalcogen-doped nitrogen-graphene nanoflake as a metal-free catalyst | Scientific Reports - Nature",
+      "E.ON edges higher on Xetra as dividend appeal supports valuation - AD HOC NEWS",
       "E-Book Published on Former State Sen. William Gormley - Stockton University",
       "EON SE: Target Price Consensus and Analysts Recommendations | EOAN | DE000ENAG999 - marketscreener.com"
     ],
@@ -949,16 +950,16 @@
       "ABB (SWX:ABBN) Stock Valuation After A 74% One Year Total Return",
       "ABB to upgrade automation systems at Buzzard North Sea platform",
       "Strength Seen in ABB (ABBNY): Can Its 6.0% Jump Turn into More Strength?",
-      "ABB/N Forecast \u2014 Price Target \u2014 Prediction for 2027 - TradingView",
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results - simplywall.st",
       "ABB to divest Robotics division to SoftBank Group | News center - ABB",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says - Reuters",
-      "ABB outlines 2030 growth ambitions, shares backed by steady analyst view - AD HOC NEWS",
-      "Watch: ABB robot helps build 3D-printed railway station overnight - Interesting Engineering",
       "ABB expands building solutions portfolio and appoints new retail distributor in Vietnam - ABB",
-      "ABB (ABBNY) Stock Price, News & Analysis - MarketBeat",
       "ABB Ltd stock (CH0012221716): Latest business update and what it means - AD HOC NEWS",
-      "ABB Ltd Stock (CH0012221716): Analyst Targets And Valuation In Focus After Fresh Gains - AD HOC NEWS"
+      "ABB completes Accelleron spin-off - ABB",
+      "ABB Ltd Stock (CH0012221716): Data-center grid move puts the stock in focus - AD HOC NEWS",
+      "ABB Ltd Stock (CH0012221716): Earnings outlook keeps shares in focus - AD HOC NEWS",
+      "ABB expands operations center to strengthen support for process industries customers in North America - ABB",
+      "Our legal name has changed - ABB"
     ],
     "SU.PA": [
       "Schneider Electric Buys Cognite in $3.1 Billion AI Software Deal",
