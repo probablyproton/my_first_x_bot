@@ -233,15 +233,15 @@
     "DLR": 179.61,
     "CEG": 248.32,
     "ETN": 425.99,
-    "ENGI.PA": 26.94,
-    "SIE.DE": 276.2,
-    "ENR.DE": 167.36,
-    "LR.PA": 146.65,
-    "RWE.DE": 56.52,
-    "EOAN.DE": 17.83,
-    "ABBN.SW": 87.62,
-    "SU.PA": 278.6,
-    "IBE.MC": 21.6
+    "ENGI.PA": 26.89,
+    "SIE.DE": 275.15,
+    "ENR.DE": 164.96,
+    "LR.PA": 146.15,
+    "RWE.DE": 56.16,
+    "EOAN.DE": 17.81,
+    "ABBN.SW": 87.1,
+    "SU.PA": 277.05,
+    "IBE.MC": 21.57
   },
   "event_cooldowns": {
     "BE": 136,
@@ -290,16 +290,16 @@
       "Morgan Stanley Cuts Price Target on Vistra (VST). Here is Why",
       "The $7 Trillion AI Boom Is Turning Into The Energy Trade of the Century",
       "Does Constellation Energy Stock Add A Different Kind of Risk?",
+      "Vistra (VST) Buys Cogentrix For $4 Billion And Locks In Meta And AWS Deals - Yahoo Finance",
+      "The Ultimate AI Power Supercycle Winner: NextEra Energy or Vistra Stock? - The Motley Fool",
+      "More complex cleanup phase to begin at Moss Landing battery fire site - Santa Cruz Sentinel",
+      "Vistra Corp Updates Key Credit and Financing Agreements - TipRanks",
+      "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning - 24/7 Wall St.",
+      "Analyst Raises Vistra (VST) Price Target by $4 - Yahoo Finance",
+      "Vistra vs. Constellation Energy: The Big Revenue Face-Off - The Motley Fool",
       "Bernstein Reaffirms Their Buy Rating on Vistra Corp (VST) - The Globe and Mail",
       "Vistra Corp. (VST) Stock Slides as Market Rises: Facts to Know Before You Trade - Yahoo Finance Singapore",
-      "Vistra Corp - Unit Increases Revolving Credit Commitments To $5.5 Billion Effective June 24, 2026 - SEC Filing - TradingView",
-      "Vistra Corp. (VST) boosts revolving credit capacity to $5.50B and releases guarantees - Stock Titan",
-      "$6&period;8bn sale of Energy Harbor to Vistra powers a leading zero-carbon energy platform - RBC Capital Markets",
-      "Vistra Corp. (VST) Expands Credit Facilities with Key Amendments - GuruFocus",
-      "Vistra (NYSE:VST) Trading Down 2.1% - Time to Sell? - MarketBeat",
-      "Vistra Stock (VST) Opinions on AI Data Center Power Demand - Quiver Quantitative",
-      "Vistra (VST) Leans On Power Demand Growth, Is The Stock Still Undervalued? - simplywall.st",
-      "Vistra Stock Is Down 24% From Its High. Here\u2019s What the KKR-Nvidia AI Partnership Means for the Recovery - TIKR.com"
+      "Vistra Corp - Unit Increases Revolving Credit Commitments To $5.5 Billion Effective June 24, 2026 - SEC Filing - TradingView"
     ],
     "RWE": [
       "How The RWE (XTRA:RWE) Story Is Shifting With Fresh Targets And A New Fair Value",
@@ -402,7 +402,7 @@
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript - Fortune",
       "Equinix falls as sector-wide REIT weakness appears to outweigh its recent upbeat updates - Quiver Quantitative",
       "Equinix Inc (EQIX) Shares Fall 3.9% -- GF Value Says Still Overvalued - GuruFocus",
-      "Sparkle expands quantum safe connectivity with Equinix - GSMA"
+      "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint - PR Newswire"
     ],
     "GEV": [
       "Dow Jones Futures Fall, Bloom Energy Jumps; SpaceX's First Buy Point",
@@ -417,14 +417,14 @@
       "After Doubling in a Year, GE Vernova Stock Isn\u2019t Done Climbing",
       "Cramer's lightning round: Buy GE Vernova - CNBC",
       "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out - Investor's Business Daily",
-      "GE Vernova Is Overheating (NYSE:GEV) - Seeking Alpha",
       "These 2 Industrial Giants Have Crushed Tesla's Returns Over the Last 12 Months. Will The Party Continue? - Yahoo Finance",
       "Blue Energy, GE Vernova Advance \u2018Gas Bridge\u2019 Model to Unlock Nuclear Finance - POWER Magazine",
+      "GE Vernova Is Overheating (NYSE:GEV) - Seeking Alpha",
       "GE Vernova Inc. stock rises Tuesday, outperforms market - MarketWatch",
       "BlackRock Flags Big AI Trade Beyond Nvidia, AMD, Micron - Benzinga",
-      "GE Vernova loses renewed bid to end work on New England wind farm - Reuters",
-      "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning - 24/7 Wall St.",
-      "How GE Vernova builds the massive gas turbines powering the AI data center boom - CNBC"
+      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High - Investor's Business Daily",
+      "GE Vernova: A Significant Upside, No Room For Mistake (NYSE:GEV) - Seeking Alpha",
+      "GE Vernova loses renewed bid to end work on New England wind farm - Reuters"
     ],
     "VRT": [
       "Here Is What to Expect From Vertiv Holdings (VRT) Following Two Major Acquisitions?",
@@ -502,8 +502,8 @@
       "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG) - The Globe and Mail",
       "Constellation Energy Corp stock hits 52-week low at 243.3 USD - Investing.com",
       "Price to sales forward of Constellation Energy Corporation \u2013 NASDAQ:CEG - TradingView",
-      "Markin Volterra Fund LP's Constellation Energy Corp(CEG) Holding History - GuruFocus",
-      "Constellation Energy Corporation (CEG) Exceeds Market Returns: Some Facts to Consider - Yahoo Finance",
+      "Constellation Reports First Quarter 2026 Results - constellationenergy.com",
+      "Constellation Energy Corporation (CEG) Down 14.3% Since Last Earnings Report: Can It Rebound? - Yahoo Finance",
       "Constellation Energy Corp. stock falls Friday, underperforms market - MarketWatch",
       "Constellation Energy Corporation Files License Renewal Applications With Nuclear Regulatory Commission - marketscreener.com"
     ],
@@ -608,16 +608,16 @@
       "Stocks Supported as Geopolitical Risks Recede",
       "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
       "Goldman starts Talen at buy, sees PJM power tightness boosting earnings",
-      "Talen Energy (TLN) Downgraded at Jefferies. Here is Why - Yahoo Finance",
-      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 3000E Growth Benchmark - marketscreener.com",
+      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 1000 Growth Benchmark - marketscreener.com",
       "Wells Fargo Sticks to Its Buy Rating for Talen Energy Corp (TLN) - The Globe and Mail",
+      "Talen Energy (TLN) Is Down 7.4% After Russell Index Additions And $984M Shelf Filing - What's Changed - Yahoo Finance",
       "Talen Energy Announces Credit Facility Refinancing Transactions | Thu, 05/14/2026 - 16:27 - Talen Energy",
       "TLN - Talen Energy Corp Volatility & Greeks - Finviz",
+      "Talen Energy (TLN) Downgraded at Jefferies. Here is Why - Insider Monkey",
       "How Talen Energy\u2019s US$983 Million Shelf Registration At Talen Energy (TLN) Has Changed Its Investment Story - simplywall.st",
       "Price to book forward of Talen Energy Corporation \u2013 NASDAQ:TLN - TradingView",
       "Talen and Amazon expand their partnership for Pennsylvania - American Nuclear Society -- ANS",
-      "Talen Energy (TLN) Is Down 7.4% After Russell Index Additions And $984M Shelf Filing - What's Changed - Yahoo Finance",
-      "Talen Energy to Report Full Year and Fourth Quarter 2025 Financial Results on February 26, 2026 - Talen Energy"
+      "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment - X-energy"
     ],
     "NVT": [
       "Vicor Surges 621% in the Past Year: Should You Buy the Stock?",
@@ -632,14 +632,14 @@
       "Amphenol Stock And The AI Guidance Wall Street Is Still Sizing Up",
       "Corporate Governance - Board of Directors - nVent",
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List - GuruFocus",
-      "nVent Electric (Ondo Tokenized) (NVTON) Price Prediction & Forecast 2026 - 2030 - BeInCrypto",
       "Does nVent Electric\u2019s (NVT) Russell Growth Inclusion Reframe Its Electrification And AI Infrastructure Narrative? - simplywall.st",
       "NVent Electric plc(NYSE: NVT) added to Russell 1000 Growth Benchmark - marketscreener.com",
       "nVent Electric (NVT) Stock Forum and Discussion - Moomoo",
       "Analysts Get Bullish on nVent Electric (NVT). Here is Why - Yahoo Finance",
       "nVent Electric plc - nVent",
       "A Look at nVent Electric PLC (NVT) After 3.8% Gain -- GF Value $115.26 vs Price $169.61 - GuruFocus",
-      "Enterprise value to revenue forward of nVent Electric plc \u2013 NYSE:NVT - TradingView"
+      "Enterprise value to revenue forward of nVent Electric plc \u2013 NYSE:NVT - TradingView",
+      "nVent Electric (NVT) Wins Fresh Analyst Support, Is The Upside Already Priced In? - Sahm"
     ],
     "IREN": [
       "IREN added to Russell 1000, achieves NVIDIA Exemplar Cloud status",
@@ -784,14 +784,14 @@
       "CoreWeave Dives After a Massive Rally. Here\u2019s Why You Should Stay Cautious on CRWV Stock.",
       "CoreWeave Unveils Aria to Streamline AI Workflows for Data Centers - Data Center Knowledge",
       "Nebius, IREN and CoreWeave Retreat Amid Rising Short Interest - Benzinga",
+      "CoreWeave and Nebius shares fall on Meta cloud report - Investing.com",
       "Backblaze (BLZE), CoreWeave (CRWV) Partner on $335M AI Cloud Storage Initiative - Yahoo Finance",
       "Lawsuit Notice: Investors who hold CoreWeave, Inc. (NASDAQ: CRWV) shares should contact the Shareholders Foundation - Newswire.com",
       "CoreWeave Price Prediction: The Case for 70% Upside - 24/7 Wall St.",
       "This Nvidia-Backed Artificial Intelligence (AI) Infrastructure Stock Has Multibagger Potential. It Is Trading at an Incredibly Attractive Valuation Right Now - The Motley Fool",
       "CoreWeave (CRWV) Secures $99 Billion Backlog With Nvidia, Meta, Microsoft And OpenAI - Yahoo Finance",
       "CoreWeave Insider Sold Shares Worth $7,793,608, According to a Recent SEC Filing - Moomoo",
-      "CoreWeave Collaborates With Conapto to Expand Sweden AI Cloud Capacity - Zacks Investment Research",
-      "CoreWeave ARIA Launches as an AI Research and Iteration Agent with autonomous research and collaborative intelligence - Business Wire"
+      "CoreWeave Collaborates With Conapto to Expand Sweden AI Cloud Capacity - Zacks Investment Research"
     ],
     "NEE": [
       "Global M&A Tops $2.5 Trillion After First-Half Deals Surge",
@@ -962,8 +962,8 @@
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results - simplywall.st",
       "ABB to divest Robotics division to SoftBank Group | News center - ABB",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says - Reuters",
-      "Watch: ABB robot helps build 3D-printed railway station overnight - Interesting Engineering",
       "ABB outlines 2030 growth ambitions, shares backed by steady analyst view - AD HOC NEWS",
+      "Watch: ABB robot helps build 3D-printed railway station overnight - Interesting Engineering",
       "ABB expands building solutions portfolio and appoints new retail distributor in Vietnam - ABB",
       "ABB (ABBNY) Stock Price, News & Analysis - MarketBeat",
       "ABB Ltd stock (CH0012221716): Latest business update and what it means - AD HOC NEWS",
