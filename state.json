@@ -1,6 +1,6 @@
 {
   "date": "2026-07-01",
-  "daily_posts": 1,
+  "daily_posts": 2,
   "eu_slots": [
     {
       "slot": 0,
@@ -223,12 +223,15 @@
     "ETN": 425.99
   },
   "event_cooldowns": {
-    "BE": 136
+    "BE": 136,
+    "VRT": 166
   },
   "day_event_fired": {
-    "BE": "2026-07-01"
+    "BE": "2026-07-01",
+    "VRT": "2026-07-01"
   },
   "last_posted": {
-    "BE": 136
+    "BE": 136,
+    "VRT": 166
   }
 }
