@@ -419,7 +419,7 @@ Verify: all facts match the input — no unsupported claims — at least one hea
 ## Output
 One tweet only. No quotes, no commentary."""
 
-NEWS_CLASSIFIER_SYSTEM = """You are a financial news classifier. Given a news headline and a stock ticker, determine if the headline represents a major catalyst that could significantly move the stock[...]
+NEWS_CLASSIFIER_SYSTEM = """You are a financial news classifier. Given a news headline and a stock ticker, determine if the headline represents a major catalyst that could significantly move the stock.
 
 A headline qualifies as MAJOR if it meets ANY of these criteria:
 
@@ -514,9 +514,9 @@ def generate_tweet(symbol: str, slot: dict, price_ctx: dict, community: list[str
     if phase == "pre_market":
         phase_instruction = "Market is NOT yet open. Do NOT react to price moves as if they are happening now. Focus on catalysts, news, and what to watch at the open."
     elif phase == "close_summary":
-        phase_instruction = "Market is CLOSED (EU close at 17:00 CET). This is a factual daily summary: focus on how the stock moved intraday and where it closed. Reference what drove today's move bas[...]
+        phase_instruction = "Market is CLOSED (EU close at 17:00 CET). This is a factual daily summary: focus on how the stock moved intraday and where it closed. Reference what drove today's move based on news and price action. One sentence only."
     elif phase == "post_market":
-        phase_instruction = "Market is CLOSED. Write a factual day summary: reference how the stock moved intraday (opened, hit high/low, closed). Use the intraday range data provided. No forward spec[...]
+        phase_instruction = "Market is CLOSED. Write a factual day summary: reference how the stock moved intraday (opened, hit high/low, closed). Use the intraday range data provided. No forward speculation."
     else:
         phase_instruction = "Market is open. React to live price action and news."
 
@@ -534,7 +534,7 @@ Angle: {angle}
 Tweet type: {tweet_type}
 {news_section}
 
-Write the tweet. Keep it under 280 characters. Be specific – name real events, numbers, or catalysts. Use line breaks for breathing room. End with a clear point of view. A question or CTA only if it[...]
+Write the tweet. Keep it under 280 characters. Be specific – name real events, numbers, or catalysts. Use line breaks for breathing room. End with a clear point of view. A question or CTA only if it flows naturally."""
 
     try:
         text = _gemini(TWEET_SYSTEM, prompt).strip('"').strip("'")
@@ -607,7 +607,7 @@ One tweet only. No quotes, no commentary."""
 
 def generate_news_event_tweet(symbol: str, classification: dict, price_ctx: dict) -> str | None:
     price_str = ""
-    if price_ctx and not is_weekend():
+    if price_ctx and _is_market_open_for(symbol):
         sign = "+" if price_ctx["change_pct"] >= 0 else ""
         price_str = f"Current: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"
 
@@ -1066,17 +1066,14 @@ def get_ticker_context_with_dates(symbol: str, max_messages: int = 10) -> list[d
 
 
 def check_news_events(state: dict, symbols: list[str]) -> dict:
-    """Check for major news catalysts and post event tweets. Only runs during market hours."""
+    """Check for major news catalysts and post event tweets. Runs around the clock —
+    news can break outside market hours and should be covered in the next cycle, not
+    held until the market reopens."""
     cooldowns = state.setdefault("event_cooldowns", {})
     news_seen = state.setdefault("news_seen", {})
     now_dt    = datetime.datetime.utcnow()
 
     for symbol in symbols:
-        # CRITICAL: Only check news events when market is open for this ticker
-        if not _is_market_open_for(symbol):
-            log.debug("News event check skipped for %s – market closed", symbol)
-            continue
-
         last_event_min = cooldowns.get(f"news_{symbol}", 0)
         if now_minutes() - last_event_min < NEWS_COOLDOWN_MINUTES:
             continue
@@ -1271,11 +1268,11 @@ def run_cycle(state: dict) -> dict:
     state = process_storyline(state, "eu")
     state = process_storyline(state, "us")
 
-    if not is_weekend():
-        all_tickers = list(set(EU_WATCHLIST + US_WATCHLIST))
-        if all_tickers:
+    all_tickers = list(set(EU_WATCHLIST + US_WATCHLIST))
+    if all_tickers:
+        if not is_weekend():
             state = check_price_events(state, all_tickers)
-            state = check_news_events(state, all_tickers)
+        state = check_news_events(state, all_tickers)
 
     return state
 
