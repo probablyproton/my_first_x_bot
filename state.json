@@ -106,7 +106,8 @@
     3,
     4,
     5,
-    6
+    6,
+    7
   ],
   "us_slots": [
     {
@@ -229,15 +230,15 @@
     "DLR": 179.61,
     "CEG": 248.32,
     "ETN": 425.99,
-    "ENGI.PA": 27.11,
-    "SIE.DE": 277.15,
-    "ENR.DE": 167.66,
-    "LR.PA": 147.0,
-    "RWE.DE": 56.62,
+    "ENGI.PA": 27.04,
+    "SIE.DE": 277.2,
+    "ENR.DE": 168.24,
+    "LR.PA": 147.2,
+    "RWE.DE": 56.44,
     "EOAN.DE": 17.85,
-    "ABBN.SW": 87.7,
-    "SU.PA": 278.5,
-    "IBE.MC": 21.7
+    "ABBN.SW": 87.74,
+    "SU.PA": 279.25,
+    "IBE.MC": 21.64
   },
   "event_cooldowns": {
     "BE": 136,
@@ -290,8 +291,8 @@
       "Vistra Corp - Unit Increases Revolving Credit Commitments To $5.5 Billion Effective June 24, 2026 - SEC Filing - TradingView",
       "Vistra Corp. (VST) boosts revolving credit capacity to $5.50B and releases guarantees - Stock Titan",
       "Vistra Corp. (VST) Expands Credit Facilities with Key Amendments - GuruFocus",
-      "Vistra (NYSE:VST) Trading Down 2.1% - Time to Sell? - MarketBeat",
       "$6&period;8bn sale of Energy Harbor to Vistra powers a leading zero-carbon energy platform - RBC Capital Markets",
+      "Vistra (NYSE:VST) Trading Down 2.1% - Time to Sell? - MarketBeat",
       "Vistra Stock (VST) Opinions on AI Data Center Power Demand - Quiver Quantitative",
       "Vistra (VST) Leans On Power Demand Growth, Is The Stock Still Undervalued? - simplywall.st",
       "Vistra Stock Is Down 24% From Its High. Here\u2019s What the KKR-Nvidia AI Partnership Means for the Recovery - TIKR.com",
@@ -330,9 +331,9 @@
       "Eaton Corp PLC (ETN) Shares Surge 4.4% -- What GF Score of 89 Tells Investors - GuruFocus",
       "Eaton Corporation plc(NYSE: ETN) added to Russell Top 200 Growth Benchmark - marketscreener.com",
       "Eaton Corporation to Merge Mobility Business with Dana - Yahoo Finance",
+      "Eaton Advances 2030 Growth Strategy with Announcement to Combine Mobility Group with Dana Incorporated - Business Wire",
       "Eaton (ETN) Has a Broader Electrical Backlog Story Than the Data-Center Trade - AlphaStreet",
-      "Enterprise value to EBIT forward of Eaton Corporation, PLC \u2013 NYSE:ETN - TradingView",
-      "Eaton Advances 2030 Growth Strategy with Announcement to Combine Mobility Group with Dana Incorporated - Business Wire"
+      "Eaton moves one step closer to becoming a cleaner bet on the AI boom - CNBC"
     ],
     "ERIC": [
       "Vonage Launches Network-Powered Solutions for Fraud Prevention Across Canada",
@@ -391,9 +392,9 @@
       "Equinix Is Now Becoming a Key Stop in the AI Supply Chain. How to Play EQIX Stock Here.",
       "Director claims Equinix staged layoff to mask race, age bias - hcamag.com",
       "Equinix (EQIX) Stock Dips While Market Gains: Key Facts - Yahoo Finance",
+      "NTT photonics push reaches across Japan with Equinix and Sakura Internet - SDxCentral",
       "Barclays Maintains Equinix Inc(EQIX.US) With Hold Rating, Raises Target Price to $1,130 - \u5bcc\u9014\u725b\u725b",
       "Equinix launches AI-ready data center with direct link to Hong Kong-Shenzhen tech park - Frontier Enterprise",
-      "Equinix officially retires bare metal offering - SDxCentral",
       "Equinix falls as sector-wide REIT weakness appears to outweigh its recent upbeat updates - Quiver Quantitative",
       "Carahsoft wins Equinix 2025 AMER Distributor of the Year for second year, boosting public sector IT solutions. - Pluang",
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript - Fortune",
@@ -414,13 +415,13 @@
       "Cramer's lightning round: Buy GE Vernova - CNBC",
       "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out - Investor's Business Daily",
       "GE Vernova Is Overheating (NYSE:GEV) - Seeking Alpha",
-      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High - Investor's Business Daily",
-      "GE Vernova: A Significant Upside, No Room For Mistake (NYSE:GEV) - Seeking Alpha",
-      "Blue Energy, GE Vernova Advance \u2018Gas Bridge\u2019 Model to Unlock Nuclear Finance - POWER Magazine",
       "These 2 Industrial Giants Have Crushed Tesla's Returns Over the Last 12 Months. Will The Party Continue? - Yahoo Finance",
+      "Blue Energy, GE Vernova Advance \u2018Gas Bridge\u2019 Model to Unlock Nuclear Finance - POWER Magazine",
       "GE Vernova Inc. stock rises Tuesday, outperforms market - MarketWatch",
       "BlackRock Flags Big AI Trade Beyond Nvidia, AMD, Micron - Benzinga",
-      "GE Vernova loses renewed bid to end work on New England wind farm - Reuters"
+      "GE Vernova loses renewed bid to end work on New England wind farm - Reuters",
+      "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning - 24/7 Wall St.",
+      "How GE Vernova builds the massive gas turbines powering the AI data center boom - CNBC"
     ],
     "VRT": [
       "Here Is What to Expect From Vertiv Holdings (VRT) Following Two Major Acquisitions?",
@@ -438,11 +439,11 @@
       "Does Vertiv (VRT) Joining Large-Cap Growth Indexes Reframe Its AI Data Center Investment Story? - simplywall.st",
       "A Look at Vertiv Holdings Co (VRT) After 9.1% Gain -- GF Value $152.90 vs Price $334.82 - GuruFocus",
       "Vertiv and 6 More Stocks to Play the \u2018Physical AI\u2019 Boom - Barron's",
+      "Bernstein Initiates Vertiv Holdings(VRT.US) With Buy Rating, Announces Target Price $416 - Moomoo",
       "Vertiv Holdings Co Stock (VRT) Moved Up by 7.52% on Jun 30: What Investors Need To Know - TradingKey",
       "Vertiv Holdings Co(NYSE: VRT) dropped from Russell Midcap Growth Benchmark - marketscreener.com",
       "VRT Boosts Data Center Portfolio Through Acquisitions: What's Ahead? - TradingView",
-      "Vertiv Holdings Down Over 10%, on Pace for Largest Percent Decrease Since April 2025 -- Data Talk - Moomoo",
-      "Vertiv Holdings (VRT) Q1 2026 Earnings Call Transcript - Fortune"
+      "Vertiv Holdings: AI Pick And Shovel Status Proven - Growth Premium Already Baked-In - Seeking Alpha"
     ],
     "ENR": [
       "Newell Brands (NWL) Surges 6.9%: Is This an Indication of Further Gains?",
@@ -527,14 +528,14 @@
       "Powell Industries (POWL) Dips More Than Broader Market: What You Should Know",
       "Here is What to Know Beyond Why Powell Industries, Inc. (POWL) is a Trending Stock",
       "Powell Industries (POWL) Outperforms Broader Market: What You Need to Know - Yahoo Finance",
-      "Affiliate files resale notice for 4,500 shares at Powell (NASDAQ: POWL) - Stock Titan",
       "Oracle Construction and Engineering Recognizes Customers Driving Industry Transformation - Oracle",
+      "Affiliate files resale notice for 4,500 shares at Powell (NASDAQ: POWL) - Stock Titan",
       "Powell Industries (POWL) Is Down 5.9% After Data Center Wins And Capacity Expansion Plans - Has The Bull Case Changed? - simplywall.st",
       "Powell Industries, Inc.(NasdaqGS: POWL) added to Russell Midcap Growth Benchmark - marketscreener.com",
       "Form 144 POWELL INDUSTRIES INC For: 30 June By Investing.com - Investing.com Canada",
       "Should You Investigate Powell Industries, Inc. (NASDAQ:POWL) At US$280? - Moomoo",
       "Powell Industries rises as investors lean into data-center backlog story - Quiver Quantitative",
-      "Powell Industries, Inc. Actuals & Estimates (NASDAQ:POWL) - TradingView",
+      "Powell Industries 10% Owner Sold Shares Worth Over $10M - TradingView",
       "Powell Industries Inc (POWL) Shares Fall 9.6% -- What GF Score o - GuruFocus"
     ],
     "PWR": [
@@ -560,8 +561,8 @@
       "Quanta Services (PWR) Surged on Strong Earnings and Improved Guidance - Yahoo Finance"
     ],
     "BE": [
+      "Bloom Energy Is Soaring Overnight. Here's Why.",
       "Dow Jones Futures Fall, Bloom Energy Jumps; SpaceX's First Buy Point",
-      "Bloom Energy Is Soaring Late. Here's Why.",
       "Brookfield Expands Bloom Energy AI Power Partnership to $25 Billion",
       "FCEL Stock's Massive Rally Rolls On: Is Retail Adding Or Cashing In On Gains?",
       "Why Is BE Stock Surging Over 7% In Overnight Trading?",
@@ -577,9 +578,9 @@
       "4,002 Shares in Bloom Energy Corporation $BE Bought by Patriot Financial Group Insurance Agency LLC - MarketBeat",
       "Brookfield Expands Bloom Energy AI Power Partnership to $25 Billion - Yahoo Finance",
       "Bloom Energy (BE) Expands Partnership with Brookfield, Shares Su - GuruFocus",
-      "Bloom Energy, Brookfield expand AI infrastructure power partnership to $25 billion - marketscreener.com",
       "BMO reiterates Market Perform on Bloom Energy stock, $279 target - Investing.com",
-      "Janney Montgomery Scott LLC Boosts Position in Bloom Energy Corporation $BE - MarketBeat"
+      "Janney Montgomery Scott LLC Boosts Position in Bloom Energy Corporation $BE - MarketBeat",
+      "Bloom Energy: Friday's 18% Plunge Is A Warning - Seeking Alpha"
     ],
     "EOAN": [
       "Price to sales forward of E.ON SE \u2013 HAM:EOAN - TradingView",
@@ -628,14 +629,14 @@
       "Amphenol Stock And The AI Guidance Wall Street Is Still Sizing Up",
       "Corporate Governance - Board of Directors - nVent",
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List - GuruFocus",
+      "nVent Electric (Ondo Tokenized) (NVTON) Price Prediction & Forecast 2026 - 2030 - BeInCrypto",
       "Does nVent Electric\u2019s (NVT) Russell Growth Inclusion Reframe Its Electrification And AI Infrastructure Narrative? - simplywall.st",
       "NVent Electric plc(NYSE: NVT) added to Russell 1000 Growth Benchmark - marketscreener.com",
       "nVent Electric (NVT) Stock Forum and Discussion - Moomoo",
       "Analysts Get Bullish on nVent Electric (NVT). Here is Why - Yahoo Finance",
       "nVent Electric plc - nVent",
       "A Look at nVent Electric PLC (NVT) After 3.8% Gain -- GF Value $115.26 vs Price $169.61 - GuruFocus",
-      "Enterprise value to revenue forward of nVent Electric plc \u2013 NYSE:NVT - TradingView",
-      "NVent Electric plc(NYSE: NVT) added to Russell 3000E Growth Benchmark - marketscreener.com"
+      "Enterprise value to revenue forward of nVent Electric plc \u2013 NYSE:NVT - TradingView"
     ],
     "IREN": [
       "IREN added to Russell 1000, achieves NVIDIA Exemplar Cloud status",
@@ -693,7 +694,7 @@
       "Digital Realty Pays $3.5 Billion for Blackstone Data Centers - Bloomberg.com",
       "Digital Realty to buy Blackstone stakes in three data centers for $3.5B (DLR:NYSE) - Seeking Alpha",
       "Digital Realty Announces Purchase of Blackstone Interest in Three Northern Virginia Data Centers - GlobeNewswire",
-      "Digital Realty Trust Inc (DLR) Stock Down 5.8% but Still Overval - GuruFocus"
+      "Digital Realty (DLR) registers 12.31M shares for Blackstone resale - Stock Titan"
     ],
     "APLD": [
       "A Small-Cap Utility Stock Just Signed 1 of the Biggest AI Power Deals You Haven\u2019t Heard Of",
@@ -707,15 +708,15 @@
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Applied Digital (APLD) Just Secured Another Major Lease; What It Means for Its AI Infrastructure Ambitions",
       "Applied Digital Corporation(NasdaqGS: APLD) added to Russell 1000 Value Benchmark - marketscreener.com",
-      "Applied Digital (APLD) Joins Russell 1000 As Its Market Profile Shifts - Yahoo Finance",
+      "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now? - Yahoo Finance",
       "Applied Digital Expands Credit Facility, Increases Preferred Stock Cap - Moomoo",
       "Explaining The Market Divide On Applied Digital \u2014 Does Their Strategy Actually Work - Seeking Alpha",
-      "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now? - Yahoo Finance",
+      "Applied Digital (APLD) Joins Russell 1000 As Its Market Profile Shifts - Yahoo Finance",
       "Applied Digital (APLD) Finalizes Electric Service Agreement for Power Supply to Polaris Forge 3 - Yahoo Finance",
       "Applied Digital Reaches Significant Milestone, Surpassing 1 GW of Contracted Capacity with U.S. Based High Investment-Grade Hyperscaler Lease at Fourth Campus, Polaris Forge 3 - Applied Digital Corporation (APLD)",
       "Applied Digital (APLD) Price Target Raised at Needham by $3 - Yahoo Finance",
       "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth - Applied Digital Corporation (APLD)",
-      "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16 - Barchart.com"
+      "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory - PR Newswire"
     ],
     "ABBN": [
       "ABB (SWX:ABBN) Stock Valuation After A 74% One Year Total Return - Yahoo Finance",
@@ -787,7 +788,7 @@
       "This Nvidia-Backed Artificial Intelligence (AI) Infrastructure Stock Has Multibagger Potential. It Is Trading at an Incredibly Attractive Valuation Right Now - The Motley Fool",
       "CoreWeave (CRWV) Secures $99 Billion Backlog With Nvidia, Meta, Microsoft And OpenAI - Yahoo Finance",
       "CoreWeave Insider Sold Shares Worth $7,793,608, According to a Recent SEC Filing - Moomoo",
-      "CoreWeave ARIA Launches as an AI Research and Iteration Agent with autonomous research and collaborative intelligence - Business Wire"
+      "CoreWeave Collaborates With Conapto to Expand Sweden AI Cloud Capacity - Zacks Investment Research"
     ],
     "NEE": [
       "Global M&A Tops $2.5 Trillion After First-Half Deals Surge",
@@ -822,7 +823,7 @@
       "ENGIY vs. PNW: Which Stock Is the Better Value Option?",
       "Engie\u2019s Belgian Battery Project And What It Means For Cash Flows",
       "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?",
-      "All You Need to Know About ENGIE - Sponsored ADR (ENGIY) Rating Upgrade to Strong Buy - Yahoo Finance",
+      "All You Need to Know About ENGIE - Sponsored ADR (ENGIY) Rating Upgrade to Strong Buy - Yahoo Finance Singapore",
       "Engie buys 1,000 MWh energy storage project in Poland - Renewables Now",
       "European BESS developments: Axpo, e-Storage, RES, R.Power - Energy-Storage.News",
       "Human Rights Approach and Compliance - ENGIE.com",
@@ -844,16 +845,16 @@
       "[Latest] Global Bioprocess Digital Twin Market Size/Share Worth USD 6.47 Billion by 2035 at a 19.6% CAGR: Healthcare Foresights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)",
       "Siemens recognizes PROLIM as \u201cSupplier of the Year 2026\u201d",
       "US curbs on AI spur European firms to spread the risk",
-      "Siemens Invests $165M for U.S. Data Center Manufacturing - Siemens",
+      "Siemens Invests $165M for U.S. Data Center Manufacturing - Siemens Newsroom",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States - Siemens Energy",
       "Siemens Energy\u2019s $421 million N.C. expansion adding 500 jobs - Business North Carolina",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement - Procurement Magazine",
-      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion - Charlotte Observer",
-      "Siemens Achieves $1B in U.S. Manufacturing Investments - Siemens",
+      "Siemens Energy to invest $421 million in NC - Carolina Journal",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment - The Business Journals",
+      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion - Charlotte Observer",
       "Siemens Healthineers Experience Center USA opens in Charlotte\u2019s Innovation District - Siemens Healthineers",
-      "Siemens AG (ADR) stock (DE0007236101): Recent price move and earnings outlook for US investors - AD HOC NEWS",
-      "Siemens Launches Wendell Microgrid at HQ Campus - Siemens"
+      "Siemens Achieves $1B in U.S. Manufacturing Investments - Siemens Newsroom",
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC - NC Newsline",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement - Procurement Magazine"
     ],
     "ENR.DE": [
       "Siemens Energy to supply technology for two Oman power plants",
@@ -932,16 +933,16 @@
       "Should Value Investors Buy AES (AES) Stock?",
       "European Stocks Rise in Friday Trading Following Middle East War Ceasefire",
       "How The E.ON (XTRA:EOAN) Narrative Is Shifting As Analyst Views Split On Upside Potential",
-      "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision - WGME",
       "E.ON Home Energy Check from E.ON SE - free digital scan helps households cut power bills - AD HOC NEWS",
-      "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November - Local 3 News",
+      "E.ON announces acquisition of UK energy supplier OVO - marketscreener.com",
       "E.ON SE edges higher as investors weigh earnings outlook. Valuation and dividend profile draw intere - AD HOC NEWS",
-      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview - Houston Chronicle",
-      "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors - WCIV",
-      "E.ON adjusts borrowing costs for shareholders, stock and energy transition in focus - AD HOC NEWS",
-      "Ekant Sen Career Stats - Cricinfo",
+      "The E.ON Home Solar from E.ON SE - bundled rooftop power for households - AD HOC NEWS",
       "Computational investigation of CO2 hydrogenation and electrochemical reduction to formic acid and methanol using chalcogen-doped nitrogen-graphene nanoflake as a metal-free catalyst | Scientific Reports - Nature",
-      "E-Book Published on Former State Sen. William Gormley - Stockton University"
+      "E.ON with robust grid investment update, shares supported by sector demand - AD HOC NEWS",
+      "Sen. Tim Kearney Officially Introduces Abby\u2019s Law to Improve E-Scooter Safety - Pennsylvania Senate Democrats",
+      "What is the current Price Target and Forecast for E.ON (EONGY) - Zacks Investment Research",
+      "E.ON clears a multi-year share buyback, stock framed by capital return and grid growth - AD HOC NEWS",
+      "Fresenius SE CEO to quit after earnings outlook sours - Reuters"
     ],
     "ABBN.SW": [
       "Battery Energy Storage, Grid Investments Surge Across Europe",
@@ -958,8 +959,8 @@
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results - simplywall.st",
       "ABB to divest Robotics division to SoftBank Group | News center - ABB",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says - Reuters",
-      "ABB outlines 2030 growth ambitions, shares backed by steady analyst view - AD HOC NEWS",
       "Watch: ABB robot helps build 3D-printed railway station overnight - Interesting Engineering",
+      "ABB outlines 2030 growth ambitions, shares backed by steady analyst view - AD HOC NEWS",
       "ABB expands building solutions portfolio and appoints new retail distributor in Vietnam - ABB",
       "ABB (ABBNY) Stock Price, News & Analysis - MarketBeat",
       "ABB Ltd stock (CH0012221716): Latest business update and what it means - AD HOC NEWS",
@@ -978,14 +979,14 @@
       "Pre-stabilisation Announcement",
       "Schneider Electric to acquire Cognite for $3.1 billion - Investing.com",
       "Schneider Electric to buy AI software firm Cognite for $3.1 billion - Reuters",
-      "Why is Schneider Electric stock sliding today? - Investing.com",
+      "Schneider Electric Buys Cognite in $3.1 Billion AI Software Deal - Yahoo Finance",
+      "Schneider to Buy Industrial AI Firm Cognite for $3.1 Billion - Bloomberg.com",
       "Schneider Electric acquires Cognite for $3.1B in industrial AI push - SiliconANGLE",
       "Aker Sells Cognite to Schneider Electric in Record USD 3.1 Billion AI Deal - TipRanks",
       "Schneider Electric progresses phased-delivery of over $290M in AI Infrastructure Solutions, including Motivair technologies, at TeraWulf's Google-Backed Lake Mariner Campus - PR Newswire",
       "Schneider Electric sees India data center business outpacing core growth on AI boom - Reuters",
       "Aker ASA \u2013 Agreement to sell Cognite to Schneider Electric - TradingView",
-      "Schneider Electric Agrees to Buy Industrial AI Firm Cognite for $3.1 billion - The Information",
-      "Schneider Electric to buy industrial AI firm Cognite in $3.1B deal (SBGSF:OTCMKTS) - Seeking Alpha"
+      "Schneider Electric Agrees to Buy Industrial AI Firm Cognite for $3.1 billion - The Information"
     ],
     "IBE.MC": [
       "Iberdrola selects ICEYE to strengthen its network in the face of extreme weather",
@@ -1010,6 +1011,17 @@
       "Private Cloud Renaissance - Deloitte"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "VRT",
+      "classification": {
+        "is_major": true,
+        "category": "analyst",
+        "headline": "Bernstein Initiates Vertiv Holdings(VRT.US) With Buy Rating, Announces Target Price $416 - Moomoo",
+        "reason": "Bernstein, a major firm, initiated coverage on Vertiv Holdings with a buy rating, which qualifies as a first-ever initiation."
+      },
+      "queued_min": 29715079
+    }
+  ],
   "last_news_post_min": 29714855
 }
