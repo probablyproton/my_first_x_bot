@@ -289,6 +289,89 @@ def get_recent_volatility(symbols: list[str], sessions: int = 3) -> dict[str, fl
             log.warning("Volatility fetch failed for %s: %s", symbol, e)
     return result
 
+# ── Zero-LLM content (weekend recaps + polls) ─────────────────────────────────
+# Everything below fires with zero Gemini calls — pure yfinance data + string
+# templates. Meant to run as an ADDITIONAL weekend post type, outside the
+# per-storyline flexible/buffer budget entirely, since it costs nothing to fire.
+
+WEEKEND_CAPTION_TEMPLATES = [
+    "Week in numbers:\n{top5}\n\n$1000 to split across these – how would you weight it?",
+    "$1000, one week, these names:\n{top5}\n\nWhere's it going?",
+    "Biggest mover this week: {best} {best_pct}.\nBiggest laggard: {worst} {worst_pct}.\n\nSpread like that raises the question of what the market's pricing in.",
+    "{best} led the group this week at {best_pct}. {worst} brought up the rear at {worst_pct}.\n\nWhich one's the better setup going into next week?",
+    "This week's board:\n{top5}\n\nOne of these could be quietly setting up. Which one are you watching?",
+    "{spread} points separated the best and worst performer this week ({best} vs {worst}).\n\nDispersion like that doesn't happen without a reason.",
+    "Closing out the week with these names on watch:\n{top5}\n\nWhat's your read heading into Monday's open?",
+    "Top movers this week:\n{top3}\n\nMomentum like that could carry into next week – or stall right at the open.",
+    "Wildly different outcomes on the board this week:\n{top3}\n\nThe dispersion alone is worth watching.",
+    "$1000. These tickers. One week to hold:\n{top5}\n\nHow do you split it?",
+    "{best} quietly put up {best_pct} this week while most eyes were elsewhere.\n\nWorth asking what's still underpriced here.",
+    "Weekly scoreboard:\n{top3}\n\nWhich of these keeps the momentum into next week?",
+    "Watching these into next week:\n{top5}\n\nNo action needed this weekend – just setting the board.",
+    "{worst} lagged the group this week at {worst_pct}. Could be a gap that closes fast, or a warning sign.\n\nWhich is it?",
+    "This week's spread between {best} and {worst} was {spread} points.\n\nThat's not noise – that's a market making a decision.",
+    "Sunday check-in:\n{top5}\n\nAny of these you're adding before Monday's open?",
+    "{best} was the standout this week at {best_pct}.\n\nThe question now is whether that continues or whether it's already priced in.",
+    "Full board heading into next week:\n{top5}\n\nWhich one moves first?",
+    "Weekly split:\n{top3}\n\n$1000 across just these three – how do you weight it?",
+    "A lot of divergence on the board this week:\n{top3}\n\nThat kind of spread tends to resolve one way or another.",
+    "Heading into next week still watching:\n{top5}\n\nNothing's changed thesis-wise – just tracking the setup.",
+    "{best} up {best_pct}, {worst} down {worst_pct} – same watchlist, opposite outcomes.\n\nWorth asking why.",
+    "This week's names, ranked:\n{top3}\n\nMonday's open will be the first real test of whether this holds.",
+    "Quiet week for headlines, loud week for price action:\n{top3}\n\nSometimes the moves happen before the news does.",
+    "$1000 to deploy, this week's board to choose from:\n{top5}\n\nWhat's the split?",
+    "{best} led, {worst} lagged, and the rest sat in between:\n{top5}\n\nWhere do you see the most room left?",
+]
+
+POLL_QUESTION_TEMPLATES = [
+    "If you had $1000 to invest right now, which of these gets it?",
+    "Which of these is the best setup heading into next week?",
+    "One of these outperforms the rest by Friday. Which one?",
+    "Forced to hold just one of these for a month – which do you pick?",
+    "Which of these has the most room left to run?",
+]
+
+
+def generate_zero_llm_weekend_post(tickers: list[str]) -> str | None:
+    """Fill a random template with this week's real performance numbers. No Gemini call."""
+    perf = get_week_performance(tickers)
+    if len(perf) < 2:
+        return None
+
+    ranked = sorted(perf.items(), key=lambda kv: kv[1], reverse=True)
+    best_t, best_v = ranked[0]
+    worst_t, worst_v = ranked[-1]
+
+    def fmt(t, v):
+        return f"${_base_symbol(t)} {'+' if v >= 0 else ''}{v}%"
+
+    values = {
+        "best": f"${_base_symbol(best_t)}",
+        "best_pct": f"{'+' if best_v >= 0 else ''}{best_v}%",
+        "worst": f"${_base_symbol(worst_t)}",
+        "worst_pct": f"{'+' if worst_v >= 0 else ''}{worst_v}%",
+        "spread": round(best_v - worst_v, 1),
+        "top3": "\n".join(fmt(t, v) for t, v in ranked[:3]),
+        "top5": "\n".join(fmt(t, v) for t, v in ranked[:5]),
+    }
+
+    template = random.choice(WEEKEND_CAPTION_TEMPLATES)
+    text = template.format(**values)
+    return text if len(text) <= 280 else None
+
+
+def generate_zero_llm_poll(tickers: list[str]) -> tuple[str, list[str]] | None:
+    """Pick this week's top-volatility tickers as poll options. No Gemini call."""
+    vol = get_recent_volatility(tickers, sessions=5)
+    if len(vol) < 2:
+        return None
+    top = sorted(vol, key=vol.get, reverse=True)[:4]
+    if len(top) < 2:
+        return None
+    question = random.choice(POLL_QUESTION_TEMPLATES)
+    options = [f"${_base_symbol(t)}" for t in top]
+    return question, options
+
 # ── Helpers ───────────────────────────────────────────────────────────[[...]
 
 def _strip_json_fences(text: str) -> str:
@@ -982,6 +1065,99 @@ def post_tweet(text: str, state: dict) -> bool:
             pass
         return False
 
+
+def post_poll(question: str, options: list[str], state: dict, duration_hours: int = 24) -> bool:
+    """Post a native X poll. Zero LLM cost — question/options are template-filled, not generated.
+    NOTE: selectors below are X's standard poll-composer pattern as of this writing — this is the
+    one Playwright flow in this file that hasn't been tested against a live session, so expect to
+    verify/adjust the poll-specific selectors (createPollButton / Choice1.. / durationMinutes etc.)
+    against the real compose UI on first run, same as any new UI automation."""
+    if state.get("daily_posts", 0) >= DAILY_POST_LIMIT:
+        log.info("Daily post limit (%d) reached – skipping poll", DAILY_POST_LIMIT)
+        return False
+    if len(options) < 2 or len(options) > 4:
+        log.error("Poll needs 2-4 options, got %d", len(options))
+        return False
+
+    if DRY_RUN:
+        log.info("[DRY RUN] POLL (%d/%d)\n%s\n%s", state.get("daily_posts", 0) + 1, DAILY_POST_LIMIT,
+                  question, options)
+        state["daily_posts"] = state.get("daily_posts", 0) + 1
+        return True
+
+    if not os.path.exists(SESSION_FILE):
+        log.error("twitter_session.json not found. Run login.py on your laptop first.")
+        return False
+
+    try:
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=HEADLESS,
+                args=["--disable-blink-features=AutomationControlled"],
+            )
+            context = browser.new_context(
+                storage_state=SESSION_FILE,
+                viewport={"width": 1280, "height": 800},
+                user_agent=_BROWSER_UA,
+            )
+            page = context.new_page()
+            _apply_stealth(page)
+
+            page.goto("https://x.com/home", wait_until="load", timeout=60000)
+            time.sleep(random.uniform(2.0, 3.0))
+
+            if "login" in page.url or "flow/login" in page.url:
+                log.error("Twitter session expired — re-run login.py and update TWITTER_SESSION secret. URL: %s", page.url)
+                browser.close()
+                return False
+
+            textarea = page.locator("[data-testid='tweetTextarea_0']").first
+            textarea.wait_for(timeout=15000)
+            textarea.click()
+            time.sleep(random.uniform(0.5, 1.2))
+            for char in question:
+                page.keyboard.type(char)
+                time.sleep(random.uniform(0.03, 0.11))
+
+            time.sleep(random.uniform(0.5, 1.0))
+            page.locator("[data-testid='createPollButton']").first.click()
+            time.sleep(random.uniform(1.0, 1.5))
+
+            for i, option_text in enumerate(options):
+                if i >= 2:
+                    add_choice = page.locator("[data-testid='addChoice']")
+                    if add_choice.count() > 0:
+                        add_choice.click()
+                        time.sleep(random.uniform(0.4, 0.7))
+                choice_input = page.locator(f"[data-testid='Choice{i+1}']")
+                choice_input.click()
+                for char in option_text:
+                    page.keyboard.type(char)
+                    time.sleep(random.uniform(0.03, 0.08))
+                time.sleep(random.uniform(0.3, 0.5))
+
+            time.sleep(random.uniform(1.0, 2.0))
+
+            post_btn = page.locator("[data-testid='tweetButtonInline']")
+            post_btn.wait_for(timeout=10000)
+            post_btn.dispatch_event("click")
+            time.sleep(random.uniform(2.5, 4.0))
+
+            context.storage_state(path=SESSION_FILE)
+            browser.close()
+
+        state["daily_posts"] = state.get("daily_posts", 0) + 1
+        log.info("Posted poll (%d/%d): %s %s", state["daily_posts"], DAILY_POST_LIMIT, question, options)
+        return True
+
+    except Exception as e:
+        log.error("Poll post failed: %s", e)
+        try:
+            log.error("Page URL at failure: %s", page.url)
+        except Exception:
+            pass
+        return False
+
 # ── Event monitor ─────────────────────────────────────────────────────────[[...]
 
 def check_price_events(state: dict, symbols: list[str]) -> dict:
@@ -1439,9 +1615,42 @@ def process_storyline(state: dict, key: str) -> dict:
     return state
 
 
+def check_zero_llm_weekend_content(state: dict) -> dict:
+    """Free weekend content — zero Gemini calls, so these run in ADDITION to the storyline
+    budget rather than competing with it. One caption post (Saturday) + one poll (Sunday)."""
+    if not is_weekend():
+        return state
+
+    today_str = today()
+    zero_llm  = state.setdefault("zero_llm_posts", {})
+    weekday   = datetime.date.today().weekday()
+    now       = now_hhmm()
+    tickers   = active_tickers_sorted()
+
+    if weekday == 5 and "12:00" <= now <= "13:00" and zero_llm.get("caption") != today_str:
+        text = generate_zero_llm_weekend_post(tickers)
+        if text:
+            log.info("Zero-LLM weekend caption (%d chars):\n%s", len(text), text)
+            if post_tweet(text, state):
+                zero_llm["caption"] = today_str
+                save_state(state)
+
+    if weekday == 6 and "14:00" <= now <= "15:00" and zero_llm.get("poll") != today_str:
+        result = generate_zero_llm_poll(tickers)
+        if result:
+            question, options = result
+            log.info("Zero-LLM weekend poll: %s %s", question, options)
+            if post_poll(question, options, state):
+                zero_llm["poll"] = today_str
+                save_state(state)
+
+    return state
+
+
 def run_cycle(state: dict) -> dict:
     state = ensure_daily_plans(state)
     state = check_weekly_engagement(state)
+    state = check_zero_llm_weekend_content(state)
     state = process_storyline(state, "eu")
     state = process_storyline(state, "us")
 
