@@ -1,6 +1,6 @@
 {
   "date": "2026-07-02",
-  "daily_posts": 1,
+  "daily_posts": 2,
   "eu_slots": [
     {
       "slot": 0,
@@ -35,22 +35,23 @@
   "us_posted": [],
   "engagement": {},
   "price_snapshots": {
-    "LR.PA": 143.45,
-    "SU.PA": 274.1,
-    "ENR.DE": 160.02,
-    "EOAN.DE": 17.9,
-    "IBE.MC": 21.46,
-    "ABBN.SW": 85.24,
-    "RWE.DE": 55.54,
-    "SIE.DE": 271.9,
-    "ENGI.PA": 26.74
+    "LR.PA": 143.25,
+    "SU.PA": 274.05,
+    "ENR.DE": 160.12,
+    "EOAN.DE": 17.92,
+    "IBE.MC": 21.48,
+    "ABBN.SW": 85.26,
+    "RWE.DE": 55.56,
+    "SIE.DE": 271.7,
+    "ENGI.PA": 26.77
   },
   "event_cooldowns": {
     "news_BE": 122,
     "news_SU.PA": 137,
     "news_NEE": 152,
     "news_DLR": 167,
-    "news_IREN": 243
+    "news_IREN": 243,
+    "news_VRT": 677
   },
   "day_event_fired": {},
   "news_seen": {
@@ -87,12 +88,12 @@
       "European Equities Traded in the US as American Depositary Receipts Decline in Wednesday Trading",
       "Vistance Rides on Secular Growth Drivers: Should You Buy the Stock?",
       "European Equities Traded in the US as American Depositary Receipts Fall Sharply in Tuesday Trading",
-      "Verizon ups pressure on Ericsson to be open like Samsung",
+      "US Defense Dept backs 6G rival to tech used by Ericsson and Nokia",
       "Ericsson sets July 14 webcast for Q2 2026 results",
       "Ericsson says AI demand is accelerating 5G SA and FWA deployment",
       "Rakuten Symphony names former Boost, Ericsson tech exec as new RAN lead",
       "Rakuten Symphony puts ex-Boost, Ericsson leader at helm of RAN business unit",
-      "US Defense Dept backs 6G rival to tech used by Ericsson and Nokia",
+      "Verizon ups pressure on Ericsson to be open like Samsung",
       "Ericsson: Global 5G User Base Surpasses 3 Billion as AI Reshapes Mobile Networks",
       "Ericsson names Per Narvinger CEO as B\u00f6rje Ekholm steps down after 9-year run",
       "Ericsson CEO Ekholm to step down, be replaced by Per Narvinger",
@@ -134,12 +135,12 @@
       "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
+      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview",
       "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors",
       "Hegseth revives push to punish Sen. Mark Kelly",
       "E.ON SE edges higher as investors weigh earnings outlook. Valuation and dividend profile draw intere",
       "Ekant Sen Career Stats",
-      "E.ON Home Energy Check from E.ON SE - free digital scan helps households cut power bills",
-      "Computational investigation of CO2 hydrogenation and electrochemical reduction to formic acid and methanol using chalcogen-doped nitrogen-graphene nanoflake as a metal-free catalyst | Scientific Reports"
+      "E.ON Home Energy Check from E.ON SE - free digital scan helps households cut power bills"
     ],
     "ENGI.PA": [
       "ENGIY or PNW: Which Is the Better Value Stock Right Now?",
@@ -158,11 +159,12 @@
       "ENGIE ANZ CEO Shannon Hyde announces departure",
       "Aker BioMarine signs agreement with Engie for 100% renewable energy",
       "Arcadia acquires Engie Impact to create unified energy management platform",
+      "Engie begins construction of 140.8 MW solar-plus-storage project in Peru",
       "ENGIE and European Energy start cooperation on large-scale renewable hydrogen development in Denmark",
-      "Engie Recognizes Hitachi Energy for Strategic Role in Decarbonizing the Power System",
-      "Engie launches US DG sale process"
+      "Engie Recognizes Hitachi Energy for Strategic Role in Decarbonizing the Power System"
     ],
     "VST": [
+      "Here is What Analysts Think About Vistra Corp. (VST)",
       "Vistra Corp. (VST) Stock Slides as Market Rises: Facts to Know Before You Trade",
       "Northampton Capital Partners, Olympus Power Form JV and Reach Agreement to Acquire New England, New York Generating Assets",
       "Nuclear Power Is the Only Real Answer to AI Data Center Demand and These 3 ETFs Cover the Trade at Three Risk Levels",
@@ -172,17 +174,16 @@
       "The Ultimate AI Power Supercycle Winner: NextEra Energy or Vistra Stock?",
       "Morgan Stanley Cuts Price Target on Vistra (VST). Here is Why",
       "The $7 Trillion AI Boom Is Turning Into The Energy Trade of the Century",
-      "Does Constellation Energy Stock Add A Different Kind of Risk?",
       "Battery removal at Moss Landing nears completion after 2025 Vistra fire",
       "Vistra Corp. stock underperforms Wednesday when compared to competitors",
       "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
       "Vistra vs. Constellation Energy: The Big Revenue Face-Off",
       "Vistra (NYSE:VST) Stock Price Down 3.5% - Here's Why",
-      "$6&period;8bn sale of Energy Harbor to Vistra powers a leading zero-carbon energy platform",
-      "Vistra Corp (VST) Stock Down 3.5% -- Now Undervalued? GF Score: 84/100",
+      "Vistra Corp Updates Key Credit and Financing Agreements",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
       "3 Nuclear Stocks Worth Owning for the Entire Year as Power Demand Keeps Climbing",
-      "iShares Russell Mid-Cap Growth ETF Experiences Big Inflow"
+      "iShares Russell Mid-Cap Growth ETF Experiences Big Inflow",
+      "Here's Why Vistra Corp. (VST) is a Strong Momentum Stock"
     ],
     "ABBN.SW": [
       "Battery Energy Storage, Grid Investments Surge Across Europe",
@@ -221,8 +222,8 @@
       "Schneider Electric to acquire Cognite for $3.1 billion",
       "Schneider Electric acquires Cognite for $3.1B in industrial AI push",
       "Schneider Electric Announces Intention To Acquire Cognite",
-      "Schneider Electric to acquire Cognite for $3.1B in cash",
       "Why Schneider Electric Is Acquiring Cognite For $3.1 Billion",
+      "Schneider Electric to acquire Cognite for $3.1B in cash",
       "Schneider Electric Launches EcoStruxure Water Advisor for Water Utilities",
       "Wilson Sonsini Advises Cognite, Major Shareholders on $3.1 Billion Sale to Schneider Electric",
       "Schneider Electric to buy AI software firm Cognite for $3.1 billi"
@@ -242,9 +243,9 @@
       "Sen. King urges FERC to reject $67B NextEra-Dominion merger",
       "AI fuels record $200bn M&A boom in US power sector",
       "Dominion Energy Seeks Tie-Up With NextEra Energy To Fund Growth",
-      "ICYMI: Nuclear developments around the nation this month -- ANS / Nuclear Newswire",
       "Why Big Tech\u2019s Demand for Uninterrupted AI Power Is a Major Reality Check for NextEra Energy Investors",
       "Regulator should reject NextEra-Dominion power megadeal, senator says (NEE:NYSE)",
+      "How an Ambitious Energy Giant Wielded Political Power in Florida",
       "Can Duke Energy's Investment Plan Deliver Years of Earnings Growth?",
       "5 Places Investors Can Hide If the AI Trade Keeps Cracking",
       "The Ultimate AI Power Supercycle Winner: NextEra Energy or Vistra Stock?"
@@ -264,8 +265,8 @@
       "Price to earnings forward of RWE AG \u2013 XETR:RWE",
       "Germany\u2019s RWE plans nearly $20B US investment, including gas peakers",
       "The Zacks Analyst Blog Highlights Nvidia, Equinor and RWE AG",
-      "RWE AG focuses on energy transition and global power markets",
       "RWE delivers strong start to the year: adjusted earnings per share up 25 per cent year-on-year",
+      "RWE AG focuses on energy transition and global power markets",
       "RWE AG(NEU) : Barclays gives a Buy rating",
       "US NGOs urge RWE to reject offshore wind exit deal with Trump administration",
       "Earnings call transcript: RWE Q1 2026 shows strong growth amid trading headwinds",
@@ -294,6 +295,7 @@
       "3 Great Stocks to Buy to Benefit From the Next Generation of AI Data Centers Led by Nvidia"
     ],
     "POWL": [
+      "Powell Industries, Inc. (POWL) Declares Quarterly Cash Dividend",
       "New Strong Buy Stocks for July 1st",
       "Powell Industries (POWL) Outperforms Broader Market",
       "Powell Industries (POWL) Joins Russell 1000 As Its Investor Base Shifts",
@@ -303,7 +305,6 @@
       "What Makes Powell Industries (POWL) a Strong Investment?",
       "3 Reasons We\u2019re Fans of Powell (POWL)",
       "Powell Industries (POWL) Dips More Than Broader Market",
-      "Here is What to Know Beyond Why Powell Industries, Inc. (POWL) is a Trending Stock",
       "Powell Industries options trading surges amid stock decline",
       "A Look at Powell Industries Inc (POWL) After 7.5% Decline -- GF Value $76.27 vs Price $264.86",
       "Oracle Construction and Engineering Recognizes Customers Driving Industry Transformation",
@@ -313,7 +314,7 @@
       "Affiliate files resale notice for 4,500 shares at Powell (NASDAQ: POWL)",
       "Insider Sell: Michael Metcalf Sells 4,500 Shares of Powell Indus",
       "Notable ETF Inflow Detected - SDVY, FIX, POWL, ENS",
-      "Beyond the Mag 7: Finding the Real Winners of the AI Boom"
+      "Here is What to Know Beyond Why Powell Industries, Inc. (POWL) is a Trending Stock"
     ],
     "ENR.DE": [
       "Hewlett Packard (HPE) Ranks Among Hot Stocks with the Highest Upside Potential",
@@ -353,9 +354,9 @@
       "Lawsuit Notice: Investors who hold CoreWeave, Inc. (NASDAQ: CRWV) shares should contact the Shareholders Foundation",
       "CoreWeave Unveils Aria to Streamline AI Workflows for Data Centers",
       "CoreWeave Insider Sold Shares Worth $7,793,608, According to a Recent SEC Filing",
+      "CoreWeave\u2019s $1.4 billion bet just showed its first real payoff",
       "CoreWeave Launches ARIA Research Agent for Weights & Biases",
       "CoreWeave Collaborates With Conapto to Expand Sweden AI Cloud Capacity",
-      "CoreWeave\u2019s $1.4 billion bet just showed its first real payoff",
       "CRWV, NBIS, IREN: Why Neocloud Stocks Are Plunging Today, 7/1/26",
       "Why Meta Platforms Stock Surged Today"
     ],
@@ -470,6 +471,7 @@
       "Industrial Select Sector SPDR Fund Experiences Big Inflow"
     ],
     "VRT": [
+      "GLJ Research\u2019s Analyst Upgrades Vertiv Holdings Co (VRT)",
       "Does Vertiv Holdings Co (VRT) Have 18% Upside Or Is It Pricey?",
       "Vertiv (VRT) Opens New Johor Facility To Serve Asia Pacific AI Data Center Demand",
       "5 Under-the-Radar Stocks Fueling the AI Revolution",
@@ -479,19 +481,19 @@
       "Vertiv (VRT) Is Considered a Good Investment by Brokers: Is That True?",
       "Vertiv Increases Manufacturing Capacity with New Facility in Malaysia, to Support Growing Demand for AI and Digital Infrastructure Across Asia",
       "Here Is What to Expect From Vertiv Holdings (VRT) Following Two Major Acquisitions?",
-      "Vertiv and 6 More Stocks to Play the \u2018Physical AI\u2019 Boom",
       "Price to earnings forward of Vertiv Holdings, LLC \u2013 NYSE:VRT",
       "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
       "Vertiv (NYSE:VRT) Trading Down 7% - What's Next?",
       "Does Vertiv (VRT) Joining Large-Cap Growth Indexes Reframe Its AI Data Center Investment Story?",
       "Vertiv Holdings Co(NYSE: VRT) dropped from Russell Midcap Growth Benchmark",
+      "Vertiv and 6 More Stocks to Play the \u2018Physical AI\u2019 Boom",
       "Vertiv Stock Jumped 9% on South Korea\u2019s $518 Billion AI Chip Bet. Is the Stock Just a High-Beta Proxy Now?",
       "Vertiv Holdings Co. (VRT) is a Top-Ranked Growth Stock: Should You Buy?",
       "VRT Boosts Data Center Portfolio Through Acquisitions: What's Ahead?",
-      "Here's Why AI Data Center Infrastructure Stock, Vertiv, Shot Higher Today",
-      "2 Hidden Industrial Stocks That Will Benefit From the AI Infrastructure Build-Out Not Named SpaceX or Intel"
+      "Here's Why AI Data Center Infrastructure Stock, Vertiv, Shot Higher Today"
     ],
     "CEG": [
+      "Is Constellation Energy Corporation (CEG) Among the Best AI Power Grid Stocks to Buy According to Analysts?",
       "CEG Stock Takes A Hit After Citi's Price-Target Cut \u2014 But Retail Is Already Diving In To Buy The Dip",
       "Why Did KR, CEG, SSTK Stocks Tumble To 52-Week Lows Today?",
       "Constellation Energy Corporation (CEG) Declines, Here\u2019s What Wall Street Thinks About it",
@@ -501,7 +503,6 @@
       "V&E Appoints Michael Jay as New IP Litigation Partner in LA",
       "Walmart (WMT) Secures Long Term Nuclear Power Deal With Constellation Energy",
       "Will Constellation's Long-Term Nuclear PPAs Drive Sustainable Growth?",
-      "Constellation Energy (CEG) and Walmart Announce Long-Term Nuclear Power Purchase Agreement",
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "Constellation Energy (CEG) director adds 146 phantom share equivalents",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
@@ -510,8 +511,8 @@
       "Constellation Energy (NASDAQ:CEG) falls as stock faces overhang despite PJM heat stress support",
       "Form 4 Constellation Energy Corp For: 1 July By Investing.com",
       "Price to sales forward of Constellation Energy Corporation \u2013 NASDAQ:CEG",
-      "Is Constellation Energy Corporation (CEG) A Good Stock To Buy Now?",
-      "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
+      "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS",
+      "3 Nuclear Stocks Worth Owning for the Entire Year as Power Demand Keeps Climbing"
     ],
     "IBE.MC": [
       "Iberdrola selects ICEYE to strengthen its network in the face of extreme weather",
@@ -576,8 +577,8 @@
       "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Legrand Acquires Girtz Industries",
       "APS welcomes Jason LeGrand as global director of development",
-      "West Hartford-based Legrand adds Indiana power system maker to its growing data center power portfolio",
-      "Lyle Legrand Wood Obituary Jun 14, 2026"
+      "Lyle Legrand Wood Obituary Jun 14, 2026",
+      "Ms. Catherine Legrand Humphries Obituary Feb 4, 2026"
     ],
     "SIE.DE": [
       "AI EDA Market to Reach USD 15.85 Billion by 2032 with a 24.4% CAGR",
@@ -591,7 +592,6 @@
       "Fermi (FRMI) Is Down 7.4% After Governance Rift Deepens Around Project Matador Strategy Shift",
       "[Latest] Global Bioprocess Digital Twin Market Size/Share Worth USD 6.47 Billion by 2035 at a 19.6% CAGR: Healthcare Foresights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy\u2019s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy to invest $421 million in NC",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
@@ -599,7 +599,8 @@
       "Siemens Healthineers Experience Center USA opens in Charlotte\u2019s Innovation District",
       "Siemens Achieves $1B in U.S. Manufacturing Investments",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Launches Wendell Microgrid at HQ Campus"
     ],
     "NOK": [
       "Nokia Rises 105.2% Year to Date: Is There More Upside Ahead?",
@@ -657,7 +658,8 @@
     "ENGI.PA": 541,
     "SIE.DE": 541,
     "IBE.MC": 541,
-    "EOAN.DE": 541
+    "EOAN.DE": 541,
+    "VRT": 677
   },
   "news_category_posted": {
     "BE": {
@@ -674,7 +676,11 @@
     },
     "IREN": {
       "contract": 243
+    },
+    "VRT": {
+      "ma": 677
     }
   },
-  "last_news_post_min": 29715963
+  "last_news_post_min": 29716397,
+  "us_flexible_used": 1
 }
