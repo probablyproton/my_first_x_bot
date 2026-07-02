@@ -35,15 +35,15 @@
   "us_posted": [],
   "engagement": {},
   "price_snapshots": {
-    "LR.PA": 143.85,
-    "SU.PA": 275.25,
-    "ENR.DE": 160.44,
-    "EOAN.DE": 17.94,
-    "IBE.MC": 21.5,
-    "ABBN.SW": 85.2,
-    "RWE.DE": 56.0,
-    "SIE.DE": 271.5,
-    "ENGI.PA": 26.81
+    "LR.PA": 143.5,
+    "SU.PA": 275.2,
+    "ENR.DE": 159.46,
+    "EOAN.DE": 17.9,
+    "IBE.MC": 21.48,
+    "ABBN.SW": 84.96,
+    "RWE.DE": 55.8,
+    "SIE.DE": 271.25,
+    "ENGI.PA": 26.72
   },
   "event_cooldowns": {
     "news_BE": 122,
@@ -177,8 +177,8 @@
       "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
       "Vistra vs. Constellation Energy: The Big Revenue Face-Off",
       "Vistra (NYSE:VST) Stock Price Down 3.5% - Here's Why",
-      "Vistra Corp Updates Key Credit and Financing Agreements",
       "$6&period;8bn sale of Energy Harbor to Vistra powers a leading zero-carbon energy platform",
+      "Vistra Corp (VST) Stock Down 3.5% -- Now Undervalued? GF Score: 84/100",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
       "3 Nuclear Stocks Worth Owning for the Entire Year as Power Demand Keeps Climbing",
       "iShares Russell Mid-Cap Growth ETF Experiences Big Inflow"
@@ -262,8 +262,8 @@
       "RWE delivers strong financial performance in 2025 and sets course for exceptional earnings growth until 2031",
       "Price to earnings forward of RWE AG \u2013 XETR:RWE",
       "Germany\u2019s RWE plans nearly $20B US investment, including gas peakers",
-      "RWE AG focuses on energy transition and global power markets",
       "The Zacks Analyst Blog Highlights Nvidia, Equinor and RWE AG",
+      "RWE AG focuses on energy transition and global power markets",
       "RWE AG(NEU) : Barclays gives a Buy rating",
       "RWE delivers strong start to the year: adjusted earnings per share up 25 per cent year-on-year",
       "US NGOs urge RWE to reject offshore wind exit deal with Trump administration",
@@ -282,14 +282,14 @@
       "NVT vs. APH: Which Electrical Infrastructure Stock is a Better Buy?",
       "Amphenol Stock And The AI Guidance Wall Street Is Still Sizing Up",
       "Corporate Governance - Board of Directors",
-      "Analysts Offer Insights on Industrial Goods Companies: nVent Electric (NVT) and Freightos Limited (CRGO)",
+      "Bull of the Day: nVent Electric (NVT)",
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
+      "Analysts Offer Insights on Industrial Goods Companies: nVent Electric (NVT) and Freightos Limited (CRGO)",
       "Does nVent Electric\u2019s (NVT) Russell Growth Inclusion Reframe Its Electrification And AI Infrastructure Narrative?",
       "NVent Electric plc(NYSE: NVT) added to Russell 1000 Growth Benchmark",
       "nVent Electric (Ondo Tokenized) (NVTON) Price Prediction & Forecast 2026 - 2030",
       "nVent Electric plc",
       "NVENT ELECTRIC PLC (NYSE:NVT) Shows Strong High Growth Momentum Setup with Ratings of 7, 9, and 7",
-      "Enterprise value to revenue forward of nVent Electric plc \u2013 NYSE:NVT",
       "3 Great Stocks to Buy to Benefit From the Next Generation of AI Data Centers Led by Nvidia"
     ],
     "POWL": [
@@ -391,8 +391,8 @@
       "Stocks Supported as Geopolitical Risks Recede",
       "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
       "Goldman starts Talen at buy, sees PJM power tightness boosting earnings",
-      "TLN - Talen Energy Corp Volatility & Greeks",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 3000E Growth Benchmark",
+      "TLN - Talen Energy Corp Volatility & Greeks",
       "Talen Energy Announces Credit Facility Refinancing Transactions | Thu, 05/14/2026 - 16:27",
       "Wells Fargo Sticks to Its Buy Rating for Talen Energy Corp (TLN)",
       "TLN slides as resale-share overhang and valuation concerns pressure shares",
@@ -422,7 +422,7 @@
       "News | Blackstone sells $3.5 billion stake in data centers to Digital Realty",
       "Digital Realty Trust Inc. stock underperforms Tuesday when compared to competitors",
       "Digital Realty to pay $3.5B for Blackstone's stake in three new Northern Virginia data centers",
-      "Stocks Settle Higher as Chipmakers Rally"
+      "Want a Lifetime of Passive Income? Buy Realty Income Stock in July and Never Sell."
     ],
     "EQIX": [
       "How a $25B AI Power Deal Is Sending Bloom Energy Higher",
@@ -504,10 +504,10 @@
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "Constellation Energy (CEG) director adds 146 phantom share equivalents",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
-      "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
       "Form 4 Constellation Energy Corp For: 1 July By Investing.com",
       "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
       "Constellation Energy (NASDAQ:CEG) falls as stock faces overhang despite PJM heat stress support",
+      "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
       "Price to sales forward of Constellation Energy Corporation \u2013 NASDAQ:CEG",
       "Constellation Energy Corporation (CEG) Exceeds Market Returns: Some Facts to Consider",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
@@ -535,6 +535,7 @@
       "Private Cloud Renaissance"
     ],
     "IREN": [
+      "IREN Stock Dips Premarket: Neocloud Firm Announces $687M Stock Grants To Co-CEOs",
       "Nebius, Coreweave, and IREN Tumble on Meta\u2019s Cloud Ambitions. Is This the End of the Neocloud Boom?",
       "IREN added to Russell 1000, achieves NVIDIA Exemplar Cloud status",
       "Australian cloud company pays millions for spot on Warriors jersey",
@@ -544,7 +545,6 @@
       "Jefferies Assigns Buy Rating to IREN Ltd. (IREN)",
       "IREN (NasdaqGS:IREN) Lands Microsoft And Nvidia Deals As AI Data Center Expansion Grows",
       "3 Artificial Intelligence (AI) Stocks I'd Buy Now and Never Sell",
-      "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "IREN Stock Falls on Wednesday",
       "IREN (NASDAQ: IREN) approves multi-year RSU packages for Co-CEOs through 2033",
       "IREN Ltd | 4: Statement of changes in beneficial ownership of securities-Director ALFRED MICHAEL",
@@ -553,7 +553,7 @@
       "SG Americas Securities LLC Purchases 26,012 Shares of IREN Limited $IREN",
       "Equity grant lifts IREN (NASDAQ: IREN) director Alfred Michael\u2019s holdings",
       "IREN Ltd | 4: Statement of changes in beneficial ownership of securities-Officer Roberts William Gregory",
-      "IREN Limited (IREN) Signs $1.6B Agreement With Dell (DELL) for Blackwell AI Systems",
+      "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "An Ex-OpenAI Researcher With $20 Billion Just Built a Neocloud Trifecta: Here Are the 3 Stocks He's Buying."
     ],
     "LR.PA": [
@@ -573,9 +573,9 @@
       "Camille Elaine LeGRAND",
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
+      "Legrand Acquires Girtz Industries",
       "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum",
       "APS welcomes Jason LeGrand as global director of development",
-      "Legrand Acquires Girtz Industries",
       "Lyle Legrand Wood Obituary Jun 14, 2026"
     ],
     "SIE.DE": [
