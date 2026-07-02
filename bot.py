@@ -57,6 +57,10 @@ BUFFER_SLOTS_PER_STORYLINE   = int(os.getenv("BUFFER_SLOTS_PER_STORYLINE", "2"))
 NEWS_COOLDOWN_MINUTES        = 60
 TICKER_POST_COOLDOWN_MINUTES = 120  # minimum gap between any two posts about the same ticker
 NEWS_CATEGORY_DEDUP_MINUTES  = int(os.getenv("NEWS_CATEGORY_DEDUP_MINUTES", "1440"))  # rolling window (24h), not calendar-day
+NEWS_FRESHNESS_HOURS         = int(os.getenv("NEWS_FRESHNESS_HOURS", "24"))  # shared by the RSS-pubDate filter and the
+                                                                              # destination-page cross-check — must match,
+                                                                              # or the cross-check becomes a weaker backstop
+                                                                              # than the filter it's supposed to be backing up
 NEWS_POST_MIN_GAP_MINUTES    = int(os.getenv("NEWS_POST_MIN_GAP_MINUTES", "10"))    # base minimum gap between any two news-event posts, across all tickers
 NEWS_POST_GAP_JITTER_MINUTES = int(os.getenv("NEWS_POST_GAP_JITTER_MINUTES", "2"))  # +/- randomness applied to that gap each time (e.g. 10+/-2 -> 8-12min)
 NEWS_QUEUE_MAX_AGE_MINUTES   = int(os.getenv("NEWS_QUEUE_MAX_AGE_MINUTES", "360"))  # drop a held news event if it's waited this long unreleased (6h – too stale)
@@ -822,9 +826,15 @@ One tweet only. No quotes, no commentary."""
 def generate_news_event_tweet(symbol: str, classification: dict, price_ctx: dict,
                                link: str = "", source: str = "") -> str | None:
     price_str = ""
-    if price_ctx and _is_market_open_for(symbol):
+    if price_ctx:
         sign = "+" if price_ctx["change_pct"] >= 0 else ""
-        price_str = f"Current: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"
+        # Same number either way (move vs. prior close) — just be honest about whether it's
+        # live or last session's, rather than dropping a genuinely newsworthy move (e.g. a
+        # post-news selloff) just because the post happens to fire outside market hours.
+        if _is_market_open_for(symbol):
+            price_str = f"Current: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"
+        else:
+            price_str = f"Last close: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}%)"
 
     source_line = f"\nReported by: {source}" if source else ""
     link_instruction = (
@@ -873,9 +883,16 @@ def generate_keyword_event_tweet(symbol: str, classification: dict, price_ctx: d
     makes the source obvious."""
     base = _base_symbol(symbol)
     price_str = ""
-    if price_ctx and _is_market_open_for(symbol):
+    if price_ctx:
         sign = "+" if price_ctx["change_pct"] >= 0 else ""
-        price_str = f" (${price_ctx['price']}, {sign}{price_ctx['change_pct']}% today)"
+        # change_pct is always the move vs. the prior close, live or not — while the market's
+        # open that's "today"'s move; once it's closed, the same number is last session's move,
+        # so say so rather than dropping a genuinely newsworthy number (e.g. a post-news selloff)
+        # just because the post happens to fire outside market hours.
+        if _is_market_open_for(symbol):
+            price_str = f" (${price_ctx['price']}, {sign}{price_ctx['change_pct']}% today)"
+        else:
+            price_str = f" (${price_ctx['price']}, {sign}{price_ctx['change_pct']}% at last close)"
 
     prefix = f"${base}{price_str}: "
     suffix = f"\n\n{link}" if link else ""
@@ -1563,6 +1580,34 @@ def _resolve_google_news_url(link: str) -> str:
         return link
 
 
+_JSON_LD_DATE_RE = re.compile(r'"datePublished"\s*:\s*"([^"]+)"')
+_OG_DATE_RE      = re.compile(r'<meta[^>]+property="article:published_time"[^>]+content="([^"]+)"')
+
+
+def _is_confirmed_stale(url: str) -> bool:
+    """Cross-checks a resolved article's own publish-date metadata against age. Google News
+    RSS occasionally reports a fresh-looking pubDate for content that's actually a day, weeks,
+    or months old — apparently re-surfaced because it's topically relevant to something
+    currently trending — which slips right past the RSS-pubDate freshness filter in
+    check_news_events. Uses the SAME NEWS_FRESHNESS_HOURS window as that filter, since a looser
+    threshold here would just make this a weaker backstop than the filter it's meant to back up.
+    Only rejects when a real published date is found AND it's clearly stale; an unparseable or
+    missing date defaults to 'assume fresh' so publishers without clean date metadata don't
+    get needlessly filtered out."""
+    try:
+        resp = requests.get(url, timeout=10, verify=False, headers={"User-Agent": "Mozilla/5.0"})
+        resp.raise_for_status()
+        m = _JSON_LD_DATE_RE.search(resp.text) or _OG_DATE_RE.search(resp.text)
+        if not m:
+            return False
+        published = datetime.datetime.fromisoformat(m.group(1).replace("Z", "+00:00"))
+        age_hours = (datetime.datetime.now(datetime.timezone.utc) - published).total_seconds() / 3600
+        return age_hours > NEWS_FRESHNESS_HOURS
+    except Exception as e:
+        log.warning("Article freshness check failed, assuming fresh: %s", e)
+        return False
+
+
 def get_ticker_context_with_dates(symbol: str, max_messages: int = 10) -> list[dict]:
     q = _company_name(symbol).replace(" ", "+")
     sources = [
@@ -1621,7 +1666,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
 
         recent = [
             a for a in articles
-            if a["published"] and (now_dt - a["published"]).total_seconds() < 86400
+            if a["published"] and (now_dt - a["published"]).total_seconds() < NEWS_FRESHNESS_HOURS * 3600
         ]
         new_articles = [a for a in recent if a["headline"] not in news_seen.get(symbol, [])]
         news_seen[symbol] = [a["headline"] for a in articles]
@@ -1713,6 +1758,15 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
 
             price_ctx = get_price_context(symbol)
             link = _resolve_google_news_url(item.get("link"))
+            # RSS pubDate unreliability isn't unique to Google News — check any link we have,
+            # not just ones that went through Google's redirect resolution.
+            if link and _is_confirmed_stale(link):
+                log.warning("NEWS EVENT dropped (confirmed stale via destination page, "
+                            "published >%dh ago) — $%s: %s",
+                            NEWS_FRESHNESS_HOURS, symbol, classification["headline"])
+                if pool:
+                    _refund_slot(state, symbol, pool)
+                continue
             if method == "gemini":
                 tweet = generate_news_event_tweet(symbol, classification, price_ctx,
                                                    link=link, source=item.get("source"))
