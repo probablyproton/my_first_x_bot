@@ -36,14 +36,14 @@
   "engagement": {},
   "price_snapshots": {
     "LR.PA": 143.25,
-    "SU.PA": 274.05,
-    "ENR.DE": 160.12,
+    "SU.PA": 273.9,
+    "ENR.DE": 159.9,
     "EOAN.DE": 17.92,
-    "IBE.MC": 21.48,
-    "ABBN.SW": 85.26,
-    "RWE.DE": 55.56,
-    "SIE.DE": 271.7,
-    "ENGI.PA": 26.77
+    "IBE.MC": 21.49,
+    "ABBN.SW": 85.08,
+    "RWE.DE": 55.48,
+    "SIE.DE": 272.05,
+    "ENGI.PA": 26.72
   },
   "event_cooldowns": {
     "news_BE": 122,
@@ -69,8 +69,8 @@
       "Data-Center Play Breaks Out Bullishly After 312% Rally",
       "Bloom Energy Stock (BE) Opinions on AI Power Infrastructure Surge",
       "EBITDA per share of Bloom Energy Corporation Class A \u2013 SIX:BE",
-      "Bloom Energy Stock Eyes New Highs as AI Data Center Demand Drives a $25 Billion Deal",
       "Bloom Energy stock jumps on expanded Brookfield partnership",
+      "Bloom Energy Stock Eyes New Highs as AI Data Center Demand Drives a $25 Billion Deal",
       "Bloom Energy: Friday's 18% Plunge Is A Warning",
       "Bloom Energy (NYSE:BE) Trading Down 4.5% - Here's Why",
       "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion; Fivefold Increase to Build and Finance Rapid Power for AI Infrastructure",
@@ -159,7 +159,7 @@
       "ENGIE ANZ CEO Shannon Hyde announces departure",
       "Aker BioMarine signs agreement with Engie for 100% renewable energy",
       "Arcadia acquires Engie Impact to create unified energy management platform",
-      "Engie begins construction of 140.8 MW solar-plus-storage project in Peru",
+      "Engie and Ignis close a long-term pact to boost battery energy storage in Spain",
       "ENGIE and European Energy start cooperation on large-scale renewable hydrogen development in Denmark",
       "Engie Recognizes Hitachi Energy for Strategic Role in Decarbonizing the Power System"
     ],
@@ -179,7 +179,7 @@
       "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
       "Vistra vs. Constellation Energy: The Big Revenue Face-Off",
       "Vistra (NYSE:VST) Stock Price Down 3.5% - Here's Why",
-      "Vistra Corp Updates Key Credit and Financing Agreements",
+      "$6&period;8bn sale of Energy Harbor to Vistra powers a leading zero-carbon energy platform",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
       "3 Nuclear Stocks Worth Owning for the Entire Year as Power Demand Keeps Climbing",
       "iShares Russell Mid-Cap Growth ETF Experiences Big Inflow",
@@ -203,9 +203,9 @@
       "ABB to divest Robotics division to SoftBank Group | News center",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "ABB outlines 2030 growth ambitions, shares backed by steady analyst view",
-      "ABB to invest $75 million in India to expand manufacturing, R&D",
       "ABB expands building solutions portfolio and appoints new retail distributor in Vietnam",
-      "ABB Ltd (VTX:ABBN) most popular amongst retail investors who own 51% of the shares, institutions hold 34%"
+      "ABB India Shares Drop 2% as Parent Sells Robotics to SoftBank for $5.4B",
+      "ABB vs. Rockwell: Which Industrial Automation Stock has Better Prospects?"
     ],
     "SU.PA": [
       "Schneider Electric acquires Cognite in $3.1 billion deal",
@@ -224,8 +224,8 @@
       "Schneider Electric Announces Intention To Acquire Cognite",
       "Why Schneider Electric Is Acquiring Cognite For $3.1 Billion",
       "Schneider Electric to acquire Cognite for $3.1B in cash",
-      "Schneider Electric Launches EcoStruxure Water Advisor for Water Utilities",
       "Wilson Sonsini Advises Cognite, Major Shareholders on $3.1 Billion Sale to Schneider Electric",
+      "Schneider Electric Launches EcoStruxure Water Advisor for Water Utilities",
       "Schneider Electric to buy AI software firm Cognite for $3.1 billi"
     ],
     "NEE": [
@@ -339,6 +339,7 @@
       "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG"
     ],
     "CRWV": [
+      "SoftBank Plans AI Cloud Services in US to Tap Surging Demand",
       "CoreWeave (CRWV) Is Down 15.1% After Meta Weighs Selling Excess AI Compute Capacity \u2013 What's Changed",
       "Dow Jones Futures: Techs Rise With Tesla, Jobs Report Ahead; Meta Jumps On AI Move",
       "5 Under-the-Radar Stocks Fueling the AI Revolution",
@@ -348,17 +349,16 @@
       "Why Meta\u2019s Move to the Cloud Is a Big Deal\u2014and Bad News for CoreWeave and Nebius",
       "Meta Stock Rallies On Reported Plan For AI Cloud Business; CoreWeave Slides",
       "Meta, CoreWeave, Salesforce, Corning, Bending Spoons, and More Stocks That Explain Today\u2019s Market",
-      "Meta AI Cloud Push Sends Nvidia, AMD, Intel, Micron Stocks Sinking",
       "CoreWeave Selloff Is Mispriced - Here's Why The Growth Story Is Intact (NASDAQ:CRWV)",
+      "Why CoreWeave Stock Is Tumbling Today",
       "CoreWeave Is Down 13% Today: How Does CRWV Compare to Other Cloud Stocks Like Cloudflare and Oracle?",
+      "CoreWeave Expands HQ with Additional 31,000 SF in Livingston",
+      "News | CoreWeave expands New Jersey headquarters",
       "Lawsuit Notice: Investors who hold CoreWeave, Inc. (NASDAQ: CRWV) shares should contact the Shareholders Foundation",
-      "CoreWeave Unveils Aria to Streamline AI Workflows for Data Centers",
-      "CoreWeave Insider Sold Shares Worth $7,793,608, According to a Recent SEC Filing",
-      "CoreWeave\u2019s $1.4 billion bet just showed its first real payoff",
-      "CoreWeave Launches ARIA Research Agent for Weights & Biases",
-      "CoreWeave Collaborates With Conapto to Expand Sweden AI Cloud Capacity",
-      "CRWV, NBIS, IREN: Why Neocloud Stocks Are Plunging Today, 7/1/26",
-      "Why Meta Platforms Stock Surged Today"
+      "CoreWeave Is Down 11% Today: How Does CRWV Compare to Other Cloud Stocks Like Cloudflare and Oracle?",
+      "Why Meta Platforms Stock Surged Today",
+      "Weakness in Chipmakers Drags Stock Indexes Lower",
+      "Stocks Mixed on Chipmaker Weakness and Easing US Price Pressures"
     ],
     "GEV": [
       "GE Vernova (GEV) Dips More Than Broader Market",
@@ -393,11 +393,11 @@
       "Stocks Supported as Geopolitical Risks Recede",
       "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
       "Goldman starts Talen at buy, sees PJM power tightness boosting earnings",
+      "TLN - Talen Energy Corp Volatility & Greeks",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 3000E Growth Benchmark",
       "Talen Energy Announces Credit Facility Refinancing Transactions | Thu, 05/14/2026 - 16:27",
       "Wells Fargo Sticks to Its Buy Rating for Talen Energy Corp (TLN)",
       "TLN slides as resale-share overhang and valuation concerns pressure shares",
-      "TLN - Talen Energy Corp Volatility & Greeks",
       "Talen Energy to Report Full Year and Fourth Quarter 2025 Financial Results on February 26, 2026",
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
@@ -439,12 +439,12 @@
       "How Cisco\u2019s Secure AI Factory and Quantum Networking Bets Could Reshape the Cisco Systems (CSCO) Narrative",
       "Equinix officially retires bare metal offering",
       "Director claims Equinix staged layoff to mask race, age bias",
+      "Barclays Reaffirms Their Hold Rating on Equinix (EQIX)",
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript",
       "Equinix falls as sector-wide REIT weakness appears to outweigh its recent upbeat updates",
       "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint",
       "Equinix Inc. stock underperforms Tuesday when compared to competitors",
       "Equinix launches AI-ready data center with direct link to Hong Kong-Shenzhen tech park",
-      "Barclays Maintains Equinix Inc(EQIX.US) With Hold Rating, Raises Target Price to $1,130",
       "Southern Takes Over #104 Spot From Equinix",
       "Fidelity Nasdaq Composite Index ETF Experiences Big Outflow"
     ],
@@ -506,10 +506,10 @@
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "Constellation Energy (CEG) director adds 146 phantom share equivalents",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
-      "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
       "Constellation Energy (NASDAQ:CEG) falls as stock faces overhang despite PJM heat stress support",
       "Form 4 Constellation Energy Corp For: 1 July By Investing.com",
+      "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
       "Price to sales forward of Constellation Energy Corporation \u2013 NASDAQ:CEG",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS",
       "3 Nuclear Stocks Worth Owning for the Entire Year as Power Demand Keeps Climbing"
@@ -537,6 +537,7 @@
       "Private Cloud Renaissance"
     ],
     "IREN": [
+      "Nasdaq, S&P 500, Dow Futures Subdued Ahead Of June Jobs Report: Why TSLA, MU, NBIS, NVDA, SMCI, IREN Are In Focus",
       "IREN Stock Dips Premarket: Neocloud Firm Announces $687M Stock Grants To Co-CEOs",
       "Nebius, Coreweave, and IREN Tumble on Meta\u2019s Cloud Ambitions. Is This the End of the Neocloud Boom?",
       "IREN added to Russell 1000, achieves NVIDIA Exemplar Cloud status",
@@ -546,7 +547,6 @@
       "3 Artificial Intelligence Stocks You Can Buy and Hold for the Next Decade",
       "Jefferies Assigns Buy Rating to IREN Ltd. (IREN)",
       "IREN (NasdaqGS:IREN) Lands Microsoft And Nvidia Deals As AI Data Center Expansion Grows",
-      "3 Artificial Intelligence (AI) Stocks I'd Buy Now and Never Sell",
       "IREN Stock Falls on Wednesday",
       "IREN (NASDAQ: IREN) approves multi-year RSU packages for Co-CEOs through 2033",
       "IREN Ltd | 4: Statement of changes in beneficial ownership of securities-Officer Roberts William Gregory",
@@ -554,9 +554,9 @@
       "Golden State Warriors and IREN Limited Secure Record-Breaking North American Sponsorship Deal",
       "SG Americas Securities LLC Purchases 26,012 Shares of IREN Limited $IREN",
       "Equity grant lifts IREN (NASDAQ: IREN) director Alfred Michael\u2019s holdings",
-      "IREN Limited (IREN) Signs $1.6B Agreement With Dell (DELL) for Blackwell AI Systems",
-      "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
-      "An Ex-OpenAI Researcher With $20 Billion Just Built a Neocloud Trifecta: Here Are the 3 Stocks He's Buying."
+      "$IREN Ltd (IREN.US)$",
+      "3 Artificial Intelligence (AI) Stocks I'd Buy Now and Never Sell",
+      "Can IREN's Contracted AI Capacity Support Future Revenue Growth?"
     ],
     "LR.PA": [
       "Legrand Announces the Acquisition of Girtz Industries in the U.S.",
@@ -576,9 +576,9 @@
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Legrand Acquires Girtz Industries",
+      "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum",
       "APS welcomes Jason LeGrand as global director of development",
-      "Lyle Legrand Wood Obituary Jun 14, 2026",
-      "Ms. Catherine Legrand Humphries Obituary Feb 4, 2026"
+      "Lyle Legrand Wood Obituary Jun 14, 2026"
     ],
     "SIE.DE": [
       "AI EDA Market to Reach USD 15.85 Billion by 2032 with a 24.4% CAGR",
@@ -592,6 +592,7 @@
       "Fermi (FRMI) Is Down 7.4% After Governance Rift Deepens Around Project Matador Strategy Shift",
       "[Latest] Global Bioprocess Digital Twin Market Size/Share Worth USD 6.47 Billion by 2035 at a 19.6% CAGR: Healthcare Foresights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
+      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy\u2019s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy to invest $421 million in NC",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
@@ -599,8 +600,7 @@
       "Siemens Healthineers Experience Center USA opens in Charlotte\u2019s Innovation District",
       "Siemens Achieves $1B in U.S. Manufacturing Investments",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Launches Wendell Microgrid at HQ Campus"
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
     ],
     "NOK": [
       "Nokia Rises 105.2% Year to Date: Is There More Upside Ahead?",
