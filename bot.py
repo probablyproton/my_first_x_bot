@@ -680,9 +680,12 @@ Write the tweet. Keep it under 280 characters. Be specific – name real events,
 
 # ── News event classifier ─────────────────────────────────────────────────────
 
-def classify_news_batch(ticker_articles: dict[str, list[dict]]) -> dict[str, dict]:
+def classify_news_batch(ticker_articles: dict[str, list[dict]]) -> dict[str, dict] | None:
     """Classify multiple tickers' fresh headlines (+ summary excerpt where available) in a
-    single Gemini call. Returns {symbol: classification} only for tickers judged major."""
+    single Gemini call. Returns {symbol: classification} for tickers judged major (empty dict
+    if the call succeeded but found nothing major), or None if the call itself failed — the
+    caller needs to tell these apart to fall back to keyword classification only on a genuine
+    failure, not silently treat a failure the same as 'nothing major found'."""
     if not ticker_articles:
         return {}
 
@@ -707,7 +710,7 @@ def classify_news_batch(ticker_articles: dict[str, list[dict]]) -> dict[str, dic
         return major
     except Exception as e:
         log.warning("Batch news classification failed for %s: %s", list(ticker_articles), e)
-    return {}
+    return None
 
 
 # ── Zero-LLM news fallback ──────────────────────────────────────────────────
@@ -914,8 +917,10 @@ You are an expert financial X (Twitter) market commentator — sharp, credible, 
 
 ## Aim
 Write one tweet about the current market session using the stock data provided.
-You may focus on one stock or reference multiple — choose based on what's most interesting.
-The biggest movers, clearest news catalyst, or a cross-stock pattern are all valid angles.
+For event-driven types (analytical, question, reaction, fomo, event), you may focus on one stock
+or reference multiple — choose based on what's most interesting. For the scheduled session posts
+(hook, wrap, close_summary), the type instructions below REQUIRE covering every ticker in the data
+block — that requirement overrides this general discretion.
 
 ## Rules
 - NEVER invent or infer market conditions, catalysts, or facts not present in the provided data.
@@ -929,8 +934,9 @@ The biggest movers, clearest news catalyst, or a cross-stock pattern are all val
   spelling out the name wastes space.
 - When the post covers more than one ticker, give EACH its own line — a short line breaking down
   that ticker's move (e.g. "$VRT -6.6% at $314.26, off its $335.66 high"), not multiple tickers woven
-  into one flowing sentence. Skimmable beats prose when there's more than one name to cover. A shared
-  takeaway or point of view can follow as its own line underneath.
+  into one flowing sentence. Skimmable beats prose when there's more than one name to cover. Structure
+  the whole tweet as three visually separated blocks with a full BLANK line between each: the opening
+  sentence, then the ticker list, then the closing takeaway — not just single line breaks between them.
 - Frame all forward-looking statements as possibilities, never certainties.
   Use: could, might, may, potentially, worth watching, raises the question.
   Never: will, confirms, proves, guarantees.
@@ -946,19 +952,30 @@ The biggest movers, clearest news catalyst, or a cross-stock pattern are all val
 - MUST be under 280 characters.
 
 ## Tweet types
-  hook          – the day's pre-market post. Real pre-market prints, not yesterday's close — if a
+  hook          – the day's pre-market post. Cover EVERY ticker in the data block below, one line
+                  each (same skimmable format the multi-ticker rule above describes) — never narrow
+                  the whole tweet to a single name, even if one stock moved the most. Open with one
+                  sentence naming that biggest mover or the clearest catalyst, then list every
+                  ticker's line underneath. Real pre-market prints, not yesterday's close — if a
                   stock has genuinely moved, name it and tie it to a catalyst. Otherwise frame around
                   what to watch at the open. Do not write as if the regular session is already live —
-                  explicitly say "pre-market" or "before the open"; never ambiguous phrasing like
-                  "early session" that could be misread as regular trading already underway.
+                  never phrase it as "early session", which reads as if regular trading has already
+                  started. The tweet is prefixed with "Pre-market update: " automatically (see the
+                  phase instructions below) — don't write that label yourself.
   analytical    – specific numbers, price levels, or data points. State the implication clearly.
   question      – one sharp, genuine question rooted in real news or price action. Only if it adds value.
   reaction      – ground in actual price moves and what may be driving them.
   fomo          – short, calm, unsettling observation based on a real event being underpriced.
-  wrap          – the day's close post (US). Where each stock closed, how volatile the session was
-                  (use the intraday range — near-high close vs. near-low close tell different stories),
-                  and what drove the biggest move if the news supports it. This is the day's one recap.
-  close_summary – same role as wrap (EU's version): closing price, session volatility, and driver.
+  wrap          – the day's close post (US). Cover EVERY ticker in the data block, one line each —
+                  never narrow to a single name. Open with one sentence naming the biggest mover,
+                  then list where each stock closed and how volatile its session was (use the
+                  intraday range — near-high close vs. near-low close tell different stories). Name
+                  what drove the biggest move if the news supports it. This is the day's one recap.
+                  The tweet is prefixed with "Market wrap-up: " automatically (see the phase
+                  instructions below) — don't write that label yourself.
+  close_summary – same role as wrap (EU's version): cover every ticker, biggest mover named up
+                  front, closing price, session volatility, and driver for each. Also prefixed
+                  with "Market wrap-up: " automatically.
   event         – urgent reaction to a price move or major news. Raw and immediate.
 
 ## Weekend rules (only apply when phase = WEEKEND)
@@ -998,22 +1015,27 @@ def generate_market_update_tweet(key: str, ranked: list[str], ticker_data: dict,
         )
     elif phase == "pre_market":
         phase_instruction = (
-            "Market is NOT yet open. The price/% figures below are real pre-market prints, not "
-            "yesterday's close — if a stock has actually moved pre-market, name the specific move and "
-            "treat it as the day's setup, not background noise. Tie it to a catalyst from the news "
-            "provided if one exists. If nothing has genuinely moved pre-market, don't invent tension — "
-            "frame the post around what to watch at the open instead. Do NOT write as if the regular "
-            "session is already underway. The tweet MUST explicitly use the word 'pre-market' (or "
-            "'before the open') when presenting these figures — a phrase like 'early session' is "
-            "ambiguous and reads as if regular trading has already started, which is misleading."
+            "Market is NOT yet open. Cover EVERY ticker in the data block below, one line each — do "
+            "NOT narrow the whole tweet to a single name even if one stock is the biggest mover. Open "
+            "with one sentence naming that biggest mover or the clearest catalyst, then list every "
+            "ticker's line same as any other multi-ticker post. The price/% figures below are real "
+            "pre-market prints, not yesterday's close — if a stock has actually moved pre-market, "
+            "name the specific move and treat it as the day's setup, not background noise. Tie it to "
+            "a catalyst from the news provided if one exists. If nothing has genuinely moved "
+            "pre-market, don't invent tension — frame the post around what to watch at the open "
+            "instead. Do NOT write as if the regular session is already underway — never phrase it "
+            "as 'early session', which reads as if regular trading has already started."
         )
     elif phase == "post_market":
         phase_instruction = (
-            "Market is CLOSED — this is the day's one closing summary, so make it count. State where "
-            "each stock actually closed, and use the intraday range (low-to-high spread) to characterize "
-            "how volatile the session was — a stock that closed near its low after a much higher open "
-            "tells a different story than one that closed at its high. Name what likely drove the "
-            "biggest move if the news data supports it. Factual and specific, no forward speculation."
+            "Market is CLOSED — this is the day's one closing summary, so make it count. Cover EVERY "
+            "ticker in the data block below, one line each — do NOT narrow the whole tweet to a "
+            "single name even if one stock is the biggest mover. Open with one sentence naming that "
+            "biggest mover, then list where each stock actually closed, using the intraday range "
+            "(low-to-high spread) to characterize how volatile each session was — a stock that closed "
+            "near its low after a much higher open tells a different story than one that closed at "
+            "its high. Name what likely drove the biggest move if the news data supports it. Factual "
+            "and specific, no forward speculation."
         )
     else:
         phase_instruction = "Market is open. React to live price action and news as they develop."
@@ -1034,27 +1056,40 @@ def generate_market_update_tweet(key: str, ranked: list[str], ticker_data: dict,
             line += "\n  News: " + " | ".join(headlines[:3] if phase == "weekend" else headlines[:1])
         lines.append(line)
 
+    # Every pre-market/close post starts with this exact label, guaranteed in code rather than
+    # left to the model to remember every time — a prompt instruction alone drifted in practice.
+    prefix = {"pre_market": "Pre-market update: ", "post_market": "Market wrap-up: "}.get(phase, "")
+    prefix_note = (
+        f'\nThe tweet will be prefixed with "{prefix}" automatically — do NOT write that label '
+        "yourself. Write your opening sentence (naming the biggest mover) as a natural continuation "
+        "of that phrase." if prefix else ""
+    )
+
     prompt = f"""Market data ({key.upper()} session):
 {chr(10).join(lines)}
 
 Phase: {phase_instruction}
 Slot type: {slot['type']}
-
+{prefix_note}
 Write one tweet. Focus on what's most interesting — biggest mover, news catalyst, or a cross-stock pattern. \
 Can reference one stock or multiple. Always use $TICKER (bare symbol, no company name). Under 280 characters."""
+
+    budget = 280 - len(prefix)
 
     try:
         text = _gemini(MARKET_UPDATE_SYSTEM, prompt).strip('"').strip("'")
         if _has_unknown_ticker(text, ranked):
             return None
-        if len(text) > 280:
-            trimmed = text[:280]
+        if len(text) > budget:
+            trimmed = text[:budget]
             for sep in (". ", ".\n", "? ", "?\n", "! ", "!\n"):
                 idx = trimmed.rfind(sep)
                 if idx > 100:
-                    return trimmed[:idx + 1]
-            return trimmed.rsplit(" ", 1)[0]
-        return text
+                    text = trimmed[:idx + 1]
+                    break
+            else:
+                text = trimmed.rsplit(" ", 1)[0]
+        return prefix + text
     except Exception as e:
         log.error("Market update tweet failed: %s", e)
     return None
@@ -1736,6 +1771,17 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             break
         batch = gemini_symbols[i:i + NEWS_CLASSIFY_BATCH_SIZE]
         major = classify_news_batch({s: candidates[s] for s in batch})
+        if major is None:
+            # The call itself failed (e.g. a 429 despite passing the pre-check) — these
+            # tickers' headlines are already marked seen from gather, so without a same-cycle
+            # fallback they'd be silently lost for the rest of the day. Fall back to keyword
+            # classification for just this batch instead of dropping it.
+            log.warning("Gemini batch failed for %s — falling back to keyword classification", batch)
+            for symbol in batch:
+                classification = classify_news_keyword(symbol, candidates[symbol])
+                if classification:
+                    _queue_item(symbol, classification, "keyword")
+            continue
         for symbol, classification in major.items():
             _queue_item(symbol, classification, "gemini")
 
