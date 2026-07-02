@@ -35,15 +35,15 @@
   "us_posted": [],
   "engagement": {},
   "price_snapshots": {
-    "LR.PA": 143.5,
-    "SU.PA": 275.2,
-    "ENR.DE": 159.46,
-    "EOAN.DE": 17.9,
-    "IBE.MC": 21.48,
-    "ABBN.SW": 84.96,
-    "RWE.DE": 55.8,
-    "SIE.DE": 271.25,
-    "ENGI.PA": 26.72
+    "LR.PA": 143.05,
+    "SU.PA": 274.4,
+    "ENR.DE": 158.86,
+    "EOAN.DE": 17.94,
+    "IBE.MC": 21.46,
+    "ABBN.SW": 84.58,
+    "RWE.DE": 55.7,
+    "SIE.DE": 270.3,
+    "ENGI.PA": 26.75
   },
   "event_cooldowns": {
     "news_BE": 122,
@@ -133,12 +133,12 @@
       "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
-      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview",
       "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors",
       "Hegseth revives push to punish Sen. Mark Kelly",
       "E.ON SE edges higher as investors weigh earnings outlook. Valuation and dividend profile draw intere",
       "Ekant Sen Career Stats",
-      "E.ON Home Energy Check from E.ON SE - free digital scan helps households cut power bills"
+      "E.ON Home Energy Check from E.ON SE - free digital scan helps households cut power bills",
+      "Computational investigation of CO2 hydrogenation and electrochemical reduction to formic acid and methanol using chalcogen-doped nitrogen-graphene nanoflake as a metal-free catalyst | Scientific Reports"
     ],
     "ENGI.PA": [
       "ENGIY or PNW: Which Is the Better Value Stock Right Now?",
@@ -157,9 +157,9 @@
       "ENGIE ANZ CEO Shannon Hyde announces departure",
       "Aker BioMarine signs agreement with Engie for 100% renewable energy",
       "Arcadia acquires Engie Impact to create unified energy management platform",
+      "Engie begins construction of 140.8 MW solar-plus-storage project in Peru",
       "ENGIE and European Energy start cooperation on large-scale renewable hydrogen development in Denmark",
-      "Engie Recognizes Hitachi Energy for Strategic Role in Decarbonizing the Power System",
-      "Engie launches US DG sale process"
+      "Engie Recognizes Hitachi Energy for Strategic Role in Decarbonizing the Power System"
     ],
     "VST": [
       "Vistra Corp. (VST) Stock Slides as Market Rises: Facts to Know Before You Trade",
@@ -195,15 +195,15 @@
       "ABB (SWX:ABBN) Stock Valuation After A 74% One Year Total Return",
       "ABB to upgrade automation systems at Buzzard North Sea platform",
       "ABB/N Forecast \u2014 Price Target \u2014 Prediction for 2027",
-      "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results",
-      "ABB (ABBNY) Stock Price, News & Analysis",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
-      "ABB to divest Robotics division to SoftBank Group | News center",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
-      "ABB outlines 2030 growth ambitions, shares backed by steady analyst view",
-      "ABB expands building solutions portfolio and appoints new retail distributor in Vietnam",
-      "ABB India Shares Drop 2% as Parent Sells Robotics to SoftBank for $5.4B",
-      "ABB Ltd stock (CH0012221716): Latest business update and what it means"
+      "A $5.4 Billion Robotics Sale Signals Europe\u2019s Loss of Control",
+      "ABB vs. Rockwell: Which Industrial Automation Stock has Better Prospects?",
+      "SoftBank Eyes 2026 IPO For New AI-Robotics Venture, Targets Up To $100 Billion Valuation: Report - ABB LT",
+      "Bombay HC raises major questions on SEBI ODR framework, sets aside award in three-decade old ABB share...",
+      "ABB Plans USD 75 Million Investment in India to Boost Manufacturing, R&D and RE Solutions",
+      "ABB to invest $75 million in India to expand manufacturing, R&D",
+      "ABB India Shares Drop 2% as Parent Sells Robotics to SoftBank for $5.4B"
     ],
     "SU.PA": [
       "Schneider Electric acquires Cognite in $3.1 billion deal",
@@ -264,8 +264,8 @@
       "Germany\u2019s RWE plans nearly $20B US investment, including gas peakers",
       "The Zacks Analyst Blog Highlights Nvidia, Equinor and RWE AG",
       "RWE AG focuses on energy transition and global power markets",
-      "RWE AG(NEU) : Barclays gives a Buy rating",
       "RWE delivers strong start to the year: adjusted earnings per share up 25 per cent year-on-year",
+      "RWE AG(NEU) : Barclays gives a Buy rating",
       "US NGOs urge RWE to reject offshore wind exit deal with Trump administration",
       "Earnings call transcript: RWE Q1 2026 shows strong growth amid trading headwinds",
       "The Zacks Analyst Blog Micron, Exxon and RWE AG - May 11, 2026"
@@ -352,9 +352,9 @@
       "Lawsuit Notice: Investors who hold CoreWeave, Inc. (NASDAQ: CRWV) shares should contact the Shareholders Foundation",
       "CoreWeave Unveils Aria to Streamline AI Workflows for Data Centers",
       "CoreWeave Insider Sold Shares Worth $7,793,608, According to a Recent SEC Filing",
+      "CoreWeave Launches ARIA Research Agent for Weights & Biases",
       "CoreWeave Collaborates With Conapto to Expand Sweden AI Cloud Capacity",
       "CoreWeave\u2019s $1.4 billion bet just showed its first real payoff",
-      "CoreWeave Launches ARIA Research Agent for Weights & Biases",
       "CRWV, NBIS, IREN: Why Neocloud Stocks Are Plunging Today, 7/1/26",
       "Why Meta Platforms Stock Surged Today"
     ],
@@ -441,8 +441,8 @@
       "Equinix falls as sector-wide REIT weakness appears to outweigh its recent upbeat updates",
       "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint",
       "Equinix Inc. stock underperforms Tuesday when compared to competitors",
-      "Barclays Maintains Equinix Inc(EQIX.US) With Hold Rating, Raises Target Price to $1,130",
       "Equinix launches AI-ready data center with direct link to Hong Kong-Shenzhen tech park",
+      "Barclays Maintains Equinix Inc(EQIX.US) With Hold Rating, Raises Target Price to $1,130",
       "Southern Takes Over #104 Spot From Equinix",
       "Fidelity Nasdaq Composite Index ETF Experiences Big Outflow"
     ],
@@ -460,12 +460,12 @@
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
       "Heavy police presence spotted at crash on I96 in Eaton Co",
       "Eaton Corp. to spin off Mobility Group to Dana Inc. for $5.1B",
+      "Eaton Corp. PLC stock underperforms Wednesday when compared to competitors",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.79% on Jun 30: A Full Analysis",
       "Eaton Corporation plc(NYSE: ETN) added to Russell 1000 Growth Benchmark",
       "Eaton Corp PLC (ETN) Shares Surge 4.4% -- What GF Score of 89 Tells Investors",
       "Eaton (ETN) Has a Broader Electrical Backlog Story Than the Data-Center Trade",
       "Eaton moves one step closer to becoming a cleaner bet on the AI boom",
-      "Homeowners accuse insurers of underpaying smoke damage claims 18 months after Eaton and Palisades fires",
       "Industrial Select Sector SPDR Fund Experiences Big Inflow"
     ],
     "VRT": [
@@ -484,8 +484,8 @@
       "Vertiv (NYSE:VRT) Trading Down 7% - What's Next?",
       "Does Vertiv (VRT) Joining Large-Cap Growth Indexes Reframe Its AI Data Center Investment Story?",
       "Vertiv Stock Jumped 9% on South Korea\u2019s $518 Billion AI Chip Bet. Is the Stock Just a High-Beta Proxy Now?",
-      "Vertiv opens Malaysia factory to chase AI data center demand across Asia",
       "Vertiv Holdings Co(NYSE: VRT) dropped from Russell Midcap Growth Benchmark",
+      "Vertiv opens Malaysia factory to chase AI data center demand across Asia",
       "Vertiv Holdings Co. (VRT) is a Top-Ranked Growth Stock: Should You Buy?",
       "VRT Boosts Data Center Portfolio Through Acquisitions: What's Ahead?",
       "Here's Why AI Data Center Infrastructure Stock, Vertiv, Shot Higher Today"
@@ -504,10 +504,10 @@
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "Constellation Energy (CEG) director adds 146 phantom share equivalents",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
+      "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
       "Form 4 Constellation Energy Corp For: 1 July By Investing.com",
       "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
       "Constellation Energy (NASDAQ:CEG) falls as stock faces overhang despite PJM heat stress support",
-      "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
       "Price to sales forward of Constellation Energy Corporation \u2013 NASDAQ:CEG",
       "Constellation Energy Corporation (CEG) Exceeds Market Returns: Some Facts to Consider",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
@@ -574,9 +574,9 @@
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Legrand Acquires Girtz Industries",
-      "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum",
       "APS welcomes Jason LeGrand as global director of development",
-      "Lyle Legrand Wood Obituary Jun 14, 2026"
+      "Lyle Legrand Wood Obituary Jun 14, 2026",
+      "Ms. Catherine Legrand Humphries Obituary Feb 4, 2026"
     ],
     "SIE.DE": [
       "AI EDA Market to Reach USD 15.85 Billion by 2032 with a 24.4% CAGR",
@@ -638,11 +638,11 @@
       "Explaining The Market Divide On Applied Digital \u2014 Does Their Strategy Actually Work",
       "Applied Digital (APLD) Price Target Raised at Needham by $3",
       "Applied Digital Reaches Significant Milestone, Surpassing 1 GW of Contracted Capacity with U.S. Based High Investment-Grade Hyperscaler Lease at Fourth Campus, Polaris Forge 3",
+      "APLD Stock Slips After-Hours \u2014 What\u2019s The Nvidia Connection?",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
       "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day",
-      "Synopsys vs. Applied Digital: Which AI Stock Has an Edge Right Now?",
-      "Could Applied Digital (APLD) Stock Triple by 2030?"
+      "Synopsys vs. Applied Digital: Which AI Stock Has an Edge Right Now?"
     ]
   },
   "pending_news_posts": [],
