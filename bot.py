@@ -1244,7 +1244,19 @@ def post_tweet(text: str, state: dict, is_llm: bool = True) -> bool:
                 page.keyboard.type(char)
                 time.sleep(random.uniform(0.03, 0.11))
 
-            time.sleep(random.uniform(1.5, 3.0))
+            if "http://" in text or "https://" in text:
+                # X fetches the link's Open Graph tags asynchronously to build the rich
+                # preview card. A short fixed pause risks clicking post before that finishes,
+                # which publishes with a bare link instead of the image/title card. Wait for
+                # the card explicitly (best-effort selector — some links genuinely never get
+                # a card if the destination site has no usable OG tags, so don't block forever).
+                try:
+                    page.locator("[data-testid='card.wrapper']").first.wait_for(timeout=8000)
+                except Exception:
+                    log.warning("Link preview card didn't render in time — posting with plain link.")
+                time.sleep(random.uniform(0.5, 1.0))
+            else:
+                time.sleep(random.uniform(1.5, 3.0))
 
             post_btn = page.locator("[data-testid='tweetButtonInline']")
             post_btn.wait_for(timeout=10000)
@@ -1500,6 +1512,57 @@ def _fetch_rss_with_dates(url: str, max_messages: int) -> list[dict]:
     return results
 
 
+_GOOGLE_NEWS_SIG_RE = re.compile(r'data-n-a-sg="([^"]+)"')
+_GOOGLE_NEWS_TS_RE  = re.compile(r'data-n-a-ts="([^"]+)"')
+
+
+def _resolve_google_news_url(link: str) -> str:
+    """Google News RSS links are a redirect wrapper, not the real article — X's link-preview
+    card fetch (and readers who click through) land on a Google interstitial rather than the
+    actual publisher. Decodes it to the real destination via Google's internal batchexecute
+    endpoint (the same call the News web UI itself makes to resolve the redirect).
+
+    Unofficial/reverse-engineered — Google has changed this encoding before and could again.
+    Any failure just falls back to the original link rather than blocking the post."""
+    if not link or "news.google.com" not in link:
+        return link
+    try:
+        from urllib.parse import urlparse
+        article_id = urlparse(link).path.rsplit("/", 1)[-1]
+        headers = {"User-Agent": "Mozilla/5.0"}
+        # Bypasses the GDPR consent interstitial that'd otherwise replace the real page
+        # (and its embedded signature/timestamp) for EU-geolocated requests.
+        resp = requests.get(link, timeout=10, verify=False, headers=headers,
+                             cookies={"SOCS": "CAISHAgBEhJnd3NfMjAyNDAxMDEtMF9SQzIaAmVuIAEaBgiA_LyuBg"})
+        resp.raise_for_status()
+        sig = _GOOGLE_NEWS_SIG_RE.search(resp.text)
+        ts  = _GOOGLE_NEWS_TS_RE.search(resp.text)
+        if not sig or not ts:
+            return link
+
+        inner = json.dumps(["garturlreq", [
+            ["en-US", "US", ["FINANCE_TOP_INDICES", "GENESIS_PUBLISHER_SECTION", "WEB_TEST_1_0_0"],
+             None, None, 1, 1, "US:en", None, 180, None, None, None, None, None, 0, None, None,
+             [1608992183, 723341000]],
+            "en-US", "US", 1, [2, 3, 4, 8], 1, 0, "655000234", 0, 0, None, 0],
+            article_id, int(ts.group(1)), sig.group(1)])
+        payload = {"f.req": json.dumps([[["Fbv4je", inner, None, "generic"]]])}
+        resp2 = requests.post("https://news.google.com/_/DotsSplashUi/data/batchexecute",
+                               headers={**headers, "content-type": "application/x-www-form-urlencoded;charset=UTF-8"},
+                               data=payload, timeout=10, verify=False)
+        resp2.raise_for_status()
+        # Response body is `)]}'` (XSSI protection) followed by a JSON array; the real URL
+        # sits inside a JSON-encoded string one level down, so it needs a second json.loads.
+        body = resp2.text.split("\n", 1)[-1]
+        outer = json.loads(body)
+        inner_result = json.loads(outer[0][2])
+        resolved = inner_result[1]
+        return resolved if isinstance(resolved, str) and resolved.startswith("http") else link
+    except Exception as e:
+        log.warning("Google News URL resolve failed, keeping original link: %s", e)
+        return link
+
+
 def get_ticker_context_with_dates(symbol: str, max_messages: int = 10) -> list[dict]:
     q = _company_name(symbol).replace(" ", "+")
     sources = [
@@ -1649,12 +1712,13 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                     continue
 
             price_ctx = get_price_context(symbol)
+            link = _resolve_google_news_url(item.get("link"))
             if method == "gemini":
                 tweet = generate_news_event_tweet(symbol, classification, price_ctx,
-                                                   link=item.get("link"), source=item.get("source"))
+                                                   link=link, source=item.get("source"))
             else:
                 tweet = generate_keyword_event_tweet(symbol, classification, price_ctx,
-                                                      link=item.get("link"))
+                                                      link=link)
             if tweet:
                 log.info("News event tweet [%s] (%d chars):\n%s", method, len(tweet), tweet)
                 if post_tweet(tweet, state, is_llm=(method == "gemini")):
