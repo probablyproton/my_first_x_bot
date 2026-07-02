@@ -35,15 +35,15 @@
   "us_posted": [],
   "engagement": {},
   "price_snapshots": {
-    "LR.PA": 143.5,
-    "SU.PA": 276.15,
-    "ENR.DE": 162.78,
+    "LR.PA": 144.55,
+    "SU.PA": 277.9,
+    "ENR.DE": 164.02,
     "EOAN.DE": 18.07,
-    "IBE.MC": 21.53,
-    "ABBN.SW": 85.58,
-    "RWE.DE": 56.06,
-    "SIE.DE": 273.25,
-    "ENGI.PA": 26.9
+    "IBE.MC": 21.52,
+    "ABBN.SW": 86.02,
+    "RWE.DE": 55.96,
+    "SIE.DE": 275.45,
+    "ENGI.PA": 26.89
   },
   "event_cooldowns": {
     "news_BE": 122,
@@ -138,11 +138,11 @@
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE focuses on energy transition and grid investment as European utilities adapt",
       "E.ON SE focuses on energy transition and grid investment",
-      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview",
       "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors",
       "Hegseth revives push to punish Sen. Mark Kelly",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
-      "Ekant Sen Career Stats"
+      "Ekant Sen Career Stats",
+      "Computational investigation of CO2 hydrogenation and electrochemical reduction to formic acid and methanol using chalcogen-doped nitrogen-graphene nanoflake as a metal-free catalyst | Scientific Reports"
     ],
     "ENGI.PA": [
       "ENGIY or PNW: Which Is the Better Value Stock Right Now?",
@@ -155,15 +155,15 @@
       "ENGIY vs. PNW: Which Stock Is the Better Value Option?",
       "Engie\u2019s Belgian Battery Project And What It Means For Cash Flows",
       "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?",
+      "Proinversi\u00f3n awards Engie four transmission projects that will provide electricity to more than 1.6 million Peruvians",
       "Barclays Thinks Engie\u2019s Geopolitical Worries Look Overdone",
-      "South Dakota storm strikes two ENGIE wind farms",
       "Barclays: Geopolitical Fears for Engie 'Overdone' Heading into Q2 Print",
-      "Engie buys 1,000 MWh energy storage project in Poland",
+      "South Dakota storm strikes two ENGIE wind farms",
       "The Group\u2019s human rights approach",
-      "Aker BioMarine signs agreement with Engie for 100% renewable energy",
+      "Engie balances energy transition and stable cash flows",
       "Arcadia acquires Engie Impact to create unified energy management platform",
-      "ENGIE ANZ CEO Shannon Hyde announces departure",
-      "ENGIE and European Energy start cooperation on large-scale renewable hydrogen development in Denmark"
+      "Engie buys 1,000 MWh energy storage project in Poland",
+      "ENGIE ANZ CEO Shannon Hyde announces departure"
     ],
     "VST": [
       "Here is What Analysts Think About Vistra Corp. (VST)",
@@ -231,6 +231,7 @@
       "Schneider Electric to acquire Cognite for $3.1B in cash"
     ],
     "NEE": [
+      "Here\u2019s What It Costs to Buy Back Your Fridays",
       "How to AI-Proof Your Fund Portfolio",
       "NextEra Energy (NEE) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
       "NextEra Energy (NEE) Is A Top Stock To Buy According To Billionaire Glenn Dubin\u2019s Highbridge Capital",
@@ -240,7 +241,6 @@
       "Global M&A Tops $2.5 Trillion After First-Half Deals Surge",
       "NextEra\u2019s Dominion Deal Could Put It at the Center of the AI Power Race",
       "FE or NEE: Which Is the Better Value Stock Right Now?",
-      "Take Home an Electrician\u2019s Paycheck Without the High Voltage",
       "US senator asks regulator to reject giant NextEra-Dominion power deal, filing",
       "AI fuels record $200bn M&A boom in US power sector",
       "Dominion Energy Seeks Tie-Up With NextEra Energy To Fund Growth",
@@ -290,8 +290,8 @@
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
       "Analysts Offer Insights on Industrial Goods Companies: nVent Electric (NVT) and Freightos Limited (CRGO)",
       "NVent Electric plc(NYSE: NVT) added to Russell 1000 Growth Benchmark",
-      "nVent Electric plc",
       "nVent Electric (Ondo Tokenized) (NVTON) Price Prediction & Forecast 2026 - 2030",
+      "nVent Electric plc",
       "NVENT ELECTRIC PLC (NYSE:NVT) Shows Strong High Growth Momentum Setup with Ratings of 7, 9, and 7",
       "A Look at nVent Electric PLC (NVT) After 3.8% Gain -- GF Value $115.26 vs Price $169.61",
       "3 Great Stocks to Buy to Benefit From the Next Generation of AI Data Centers Led by Nvidia"
@@ -308,11 +308,11 @@
       "3 Reasons We\u2019re Fans of Powell (POWL)",
       "Powell Industries (POWL) Dips More Than Broader Market",
       "Have Insiders Sold Powell Industries Shares Recently?",
-      "Powell Industries options trading surges amid stock decline",
       "A Look at Powell Industries Inc (POWL) After 7.5% Decline -- GF Value $76.27 vs Price $264.86",
-      "Oracle Construction and Engineering Recognizes Customers Driving Industry Transformation",
+      "Powell Industries options trading surges amid stock decline",
       "Powell Industries, Inc.(NasdaqGS: POWL) added to Russell Midcap Growth Benchmark",
       "Should You Investigate Powell Industries, Inc. (NASDAQ:POWL) At US$280?",
+      "Oracle Construction and Engineering Recognizes Customers Driving Industry Transformation",
       "Affiliate files resale notice for 4,500 shares at Powell (NASDAQ: POWL)",
       "Insider Sell: Michael Metcalf Sells 4,500 Shares of Powell Indus",
       "Notable ETF Inflow Detected - SDVY, FIX, POWL, ENS",
@@ -343,24 +343,24 @@
     "CRWV": [
       "Stocks Mostly Up Pre-Bell Ahead of Key Jobs Report",
       "Dow Jones Futures Rise With Tesla, Jobs Report Ahead",
+      "A New Threat to Meta\u2019s AI Cloud: SoftBank Crashes an Already Crowded Party",
+      "Nvidia Reveals New Revenue Sharing Plan for AI Startups. The Stock Is Falling.",
       "CoreWeave Just Joined the Nasdaq-100",
       "SoftBank Plans AI Cloud Services in US to Tap Surging Demand",
       "CoreWeave (CRWV) Is Down 15.1% After Meta Weighs Selling Excess AI Compute Capacity \u2013 What's Changed",
       "5 Under-the-Radar Stocks Fueling the AI Revolution",
       "The Neocloud Trade Could Turn Shareholders Into Bagholders. Nebius Just Cratered 17%",
       "Stock Market Today, July 1: CoreWeave Stock Tumbles as Meta Cloud Report Raises Customer Concerns",
-      "Stock Market Today, July 1: Meta Shakes Up Cloud Sector and Tech Stocks Weigh on Markets",
       "Why Meta\u2019s Move to the Cloud Is a Big Deal\u2014and Bad News for CoreWeave and Nebius",
       "CoreWeave Junk Bonds Slide Further as Investors Question AI Boom",
       "Why CoreWeave Stock Is Tumbling Today",
       "CoreWeave and Nebius shares fall on Meta cloud report",
+      "How Meta Crashed CoreWeave Stock\u2019s Cloud Party",
       "Is CoreWeave (CRWV) Ready for Meta\u2019s Compute Competition After Launching ARIA and Expanding in Europe?",
       "CoreWeave Is Down 13% Today: How Does CRWV Compare to Other Cloud Stocks Like Cloudflare and Oracle?",
       "CoreWeave faces $35 billion Meta exposure as stock slumps",
       "News | CoreWeave expands New Jersey headquarters",
-      "CoreWeave Expands HQ with Additional 31,000 SF in Livingston",
-      "Weakness in Chipmakers Drags Stock Indexes Lower",
-      "Meta Is Finally Entering This High-Margin $500 Billion Market. Is the Stock a No-Brainer Buy?"
+      "Weakness in Chipmakers Drags Stock Indexes Lower"
     ],
     "GEV": [
       "Why GE Vernova (GEV) Is Up 7.3% After Russell Top 50 Nod And AI Power Orders",
@@ -395,6 +395,7 @@
       "Stocks Supported as Geopolitical Risks Recede",
       "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
       "Goldman starts Talen at buy, sees PJM power tightness boosting earnings",
+      "TLN - Talen Energy Corp Volatility & Greeks",
       "Talen Energy Announces Credit Facility Refinancing Transactions | Thu, 05/14/2026 - 16:27",
       "Wells Fargo Sticks to Its Buy Rating for Talen Energy Corp (TLN)",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell Midcap Growth Benchmark",
@@ -402,7 +403,6 @@
       "Talen Energy to Report Full Year and Fourth Quarter 2025 Financial Results on February 26, 2026",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
-      "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
       "Notable Tuesday Option Activity: MSFT, TLN, UNM",
       "Best Nuclear and AI Energy Stocks to Buy Now and Hold : GEV, TLN"
     ],
@@ -594,7 +594,6 @@
       "Fermi (FRMI) Is Down 7.4% After Governance Rift Deepens Around Project Matador Strategy Shift",
       "[Latest] Global Bioprocess Digital Twin Market Size/Share Worth USD 6.47 Billion by 2035 at a 19.6% CAGR: Healthcare Foresights (Analysis, Outlook, Leaders, Report, Trends, Forecast, Segmentation, Growth Rate, Value, SWOT Analysis)",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy\u2019s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy to invest $421 million in NC",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
@@ -602,7 +601,8 @@
       "Siemens Healthineers Experience Center USA opens in Charlotte\u2019s Innovation District",
       "Siemens Achieves $1B in U.S. Manufacturing Investments",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Launches Wendell Microgrid at HQ Campus"
     ],
     "NOK": [
       "Nokia Rises 105.2% Year to Date: Is There More Upside Ahead?",
@@ -618,13 +618,13 @@
       "NOK Stock Slides As Selling Pressure Builds In June",
       "Nokia Corporation Sponsored Stock 12\u2011Month Price Target Raised to $12.07, Implies 16% Downside",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
+      "Nokia Stock Slides As Bearish Momentum Tests Retail Traders",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
       "NOK Stock Draws Bullish Targets On AI And 5G Momentum",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
       "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
-      "NOK Stock Slides As Volatility And Meme Hype Collide",
-      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum"
+      "NOK Stock Slides As Volatility And Meme Hype Collide"
     ],
     "APLD": [
       "Applied Digital (APLD): One of the Top Hot Stocks with the Highest Upside Potential",
