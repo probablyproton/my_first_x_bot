@@ -1482,6 +1482,23 @@ def _clean_summary(raw: str | None) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+# Outlets like Motley Fool routinely tack a generic templated clause onto an otherwise
+# real, newsworthy headline ("...Expanded to $25 Billion. Here's What Investors Need to
+# Know."). Unlike _is_generic_analysis_piece (which rejects headlines that are ENTIRELY a
+# templated opinion piece), this strips just the trailing filler clause so the real news
+# survives — a fixed, recognizable template, so a regex handles it without needing an LLM.
+_CLICKBAIT_TAIL_RE = re.compile(
+    r"[.:?!]\s*Here'?s\s+(what|why|how|my\s+take)\b.*$|"
+    r"[.:?!]\s*What\s+(Investors|You)\s+(Need\s+to\s+Know|Should\s+Know)\b.*$",
+    re.I,
+)
+
+
+def _strip_clickbait_tail(title: str) -> str:
+    stripped = _CLICKBAIT_TAIL_RE.sub("", title).strip()
+    return stripped if len(stripped) > 15 else title
+
+
 def _fetch_rss_with_dates(url: str, max_messages: int) -> list[dict]:
     import xml.etree.ElementTree as ET
     from email.utils import parsedate_to_datetime
@@ -1520,6 +1537,8 @@ def _fetch_rss_with_dates(url: str, max_messages: int) -> list[dict]:
             source = None if domain in ("finance.yahoo.com", "news.google.com") else domain
         else:
             source = None
+
+        title = _strip_clickbait_tail(title)
 
         # Google News's <description> is just an HTML restatement of title+source — no real
         # extra content. Yahoo/Nasdaq's is a genuine 1-3 sentence excerpt, worth keeping.
