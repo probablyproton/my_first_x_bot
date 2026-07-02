@@ -948,7 +948,9 @@ The biggest movers, clearest news catalyst, or a cross-stock pattern are all val
 ## Tweet types
   hook          – the day's pre-market post. Real pre-market prints, not yesterday's close — if a
                   stock has genuinely moved, name it and tie it to a catalyst. Otherwise frame around
-                  what to watch at the open. Do not write as if the regular session is already live.
+                  what to watch at the open. Do not write as if the regular session is already live —
+                  explicitly say "pre-market" or "before the open"; never ambiguous phrasing like
+                  "early session" that could be misread as regular trading already underway.
   analytical    – specific numbers, price levels, or data points. State the implication clearly.
   question      – one sharp, genuine question rooted in real news or price action. Only if it adds value.
   reaction      – ground in actual price moves and what may be driving them.
@@ -1001,7 +1003,9 @@ def generate_market_update_tweet(key: str, ranked: list[str], ticker_data: dict,
             "treat it as the day's setup, not background noise. Tie it to a catalyst from the news "
             "provided if one exists. If nothing has genuinely moved pre-market, don't invent tension — "
             "frame the post around what to watch at the open instead. Do NOT write as if the regular "
-            "session is already underway."
+            "session is already underway. The tweet MUST explicitly use the word 'pre-market' (or "
+            "'before the open') when presenting these figures — a phrase like 'early session' is "
+            "ambiguous and reads as if regular trading has already started, which is misleading."
         )
     elif phase == "post_market":
         phase_instruction = (
