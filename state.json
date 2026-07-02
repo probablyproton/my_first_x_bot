@@ -1,42 +1,6 @@
 {
-  "date": "2026-07-02",
-  "daily_posts": 9,
-  "eu_slots": [
-    {
-      "slot": 0,
-      "type": "hook",
-      "target_time": "08:50",
-      "fire_time": "08:48"
-    },
-    {
-      "slot": 1,
-      "type": "close_summary",
-      "target_time": "17:40",
-      "fire_time": "17:35"
-    }
-  ],
-  "eu_posted": [
-    0,
-    1
-  ],
-  "us_slots": [
-    {
-      "slot": 0,
-      "type": "hook",
-      "target_time": "15:10",
-      "fire_time": "15:12"
-    },
-    {
-      "slot": 1,
-      "type": "wrap",
-      "target_time": "22:10",
-      "fire_time": "22:06"
-    }
-  ],
-  "us_posted": [
-    0,
-    1
-  ],
+  "date": "2026-07-03",
+  "daily_posts": 0,
   "engagement": {},
   "price_snapshots": {
     "LR.PA": 143.45,
@@ -679,7 +643,7 @@
     ]
   },
   "pending_news_posts": [],
-  "daily_keyword_posts": 6,
+  "daily_keyword_posts": 0,
   "last_posted": {
     "BE": 1337,
     "SU.PA": 541,
@@ -728,5 +692,34 @@
     }
   },
   "last_news_post_min": 29716938,
-  "us_flexible_used": 6
+  "eu_slots": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "target_time": "08:50",
+      "fire_time": "08:54"
+    },
+    {
+      "slot": 1,
+      "type": "close_summary",
+      "target_time": "17:40",
+      "fire_time": "17:41"
+    }
+  ],
+  "eu_posted": [],
+  "us_slots": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "target_time": "15:10",
+      "fire_time": "15:05"
+    },
+    {
+      "slot": 1,
+      "type": "wrap",
+      "target_time": "22:10",
+      "fire_time": "22:05"
+    }
+  ],
+  "us_posted": []
 }
