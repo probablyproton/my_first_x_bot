@@ -36,14 +36,14 @@
   "engagement": {},
   "price_snapshots": {
     "LR.PA": 142.75,
-    "SU.PA": 274.4,
-    "ENR.DE": 161.0,
-    "EOAN.DE": 18.03,
-    "IBE.MC": 21.51,
-    "ABBN.SW": 85.02,
-    "RWE.DE": 55.6,
-    "SIE.DE": 271.8,
-    "ENGI.PA": 26.77
+    "SU.PA": 274.35,
+    "ENR.DE": 161.3,
+    "EOAN.DE": 18.01,
+    "IBE.MC": 21.48,
+    "ABBN.SW": 85.04,
+    "RWE.DE": 55.78,
+    "SIE.DE": 271.5,
+    "ENGI.PA": 26.79
   },
   "event_cooldowns": {
     "news_BE": 122,
@@ -57,6 +57,7 @@
   "day_event_fired": {},
   "news_seen": {
     "BE": [
+      "This Unstoppable Onsite Power Stock Is Quietly Solving AI's Biggest Bottleneck",
       "Bloom Energy Stock Is Priced For A Perfect Future, But Is Its AI Power Play Just Beginning?",
       "Stock Market Today: Nasdaq Ends Lower As Chip Names Dive; Meta Soars On This News",
       "Brookfield and Bloom Energy Expanded Their AI Power Partnership to $25 Billion",
@@ -69,13 +70,12 @@
       "The One Thing Bloom Energy Has That Rivals Can\u2019t Easily Match, According To Wall Street Analysts",
       "Bloom Energy Stock Rallies After The Bell \u2014 Here's Why - Bloom Energy (NYSE:BE)",
       "Bloom Energy Stock (BE) Opinions on AI Power Infrastructure Surge",
-      "EBITDA per share of Bloom Energy Corporation Class A \u2013 SIX:BE",
-      "Bloom Energy stock jumps on expanded Brookfield partnership",
-      "Bloom Energy: Friday's 18% Plunge Is A Warning",
       "Bloom Energy\u2019s $25B partnership targets AI\u2019s next bottleneck",
+      "Bloom Energy stock jumps on expanded Brookfield partnership",
+      "EBITDA per share of Bloom Energy Corporation Class A \u2013 SIX:BE",
+      "Bloom Energy: Friday's 18% Plunge Is A Warning",
       "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion; Fivefold Increase to Build and Finance Rapid Power for AI Infrastructure",
       "Bloom Energy (NYSE:BE) Trading Down 4.5% - Here's Why",
-      "Bloom Energy Corporation(NYSE: BE) dropped from Russell 2000 Index",
       "Bloom Energy vs. Ballard Power: Which Hydrogen Stock Should You Buy?"
     ],
     "ERIC": [
@@ -137,11 +137,11 @@
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE focuses on energy transition and grid investment",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
-      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview",
       "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors",
       "Hegseth revives push to punish Sen. Mark Kelly",
       "Ekant Sen Career Stats",
-      "E.ON adjusts borrowing costs for shareholders, stock and energy transition in focus"
+      "E.ON adjusts borrowing costs for shareholders, stock and energy transition in focus",
+      "Computational investigation of CO2 hydrogenation and electrochemical reduction to formic acid and methanol using chalcogen-doped nitrogen-graphene nanoflake as a metal-free catalyst | Scientific Reports"
     ],
     "ENGI.PA": [
       "ENGIY or PNW: Which Is the Better Value Stock Right Now?",
@@ -180,11 +180,11 @@
       "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
       "Vistra vs. Constellation Energy: The Big Revenue Face-Off",
       "Vistra (NYSE:VST) Stock Price Down 3.5% - Here's Why",
-      "$6&period;8bn sale of Energy Harbor to Vistra powers a leading zero-carbon energy platform",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
       "3 Nuclear Stocks Worth Owning for the Entire Year as Power Demand Keeps Climbing",
       "iShares Russell Mid-Cap Growth ETF Experiences Big Inflow",
-      "Here's Why Vistra Corp. (VST) is a Strong Momentum Stock"
+      "Here's Why Vistra Corp. (VST) is a Strong Momentum Stock",
+      "The U.S. Just Put $17.5 Billion Behind a Nuclear Comeback. These Stocks Could Benefit."
     ],
     "ABBN.SW": [
       "Battery Energy Storage, Grid Investments Surge Across Europe",
@@ -226,8 +226,8 @@
       "Why Schneider Electric Is Acquiring Cognite For $3.1 Billion",
       "Wilson Sonsini Advises Cognite, Major Shareholders on $3.1 Billion Sale to Schneider Electric",
       "Schneider Electric to buy AI software firm Cognite for $3.1 billi",
-      "Schneider Electric to acquire Cognite for $3.1B in cash",
-      "Schneider Electric to acquire Cognite in $3.1 billion deal"
+      "Schneider Electric to acquire Cognite in $3.1 billion deal",
+      "Schneider Electric to acquire Cognite for $3.1B in cash"
     ],
     "NEE": [
       "How to AI-Proof Your Fund Portfolio",
@@ -289,8 +289,8 @@
       "Analysts Offer Insights on Industrial Goods Companies: nVent Electric (NVT) and Freightos Limited (CRGO)",
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
       "NVent Electric plc(NYSE: NVT) added to Russell 1000 Growth Benchmark",
-      "nVent Electric (Ondo Tokenized) (NVTON) Price Prediction & Forecast 2026 - 2030",
       "nVent Electric plc",
+      "nVent Electric (Ondo Tokenized) (NVTON) Price Prediction & Forecast 2026 - 2030",
       "NVENT ELECTRIC PLC (NYSE:NVT) Shows Strong High Growth Momentum Setup with Ratings of 7, 9, and 7",
       "A Look at nVent Electric PLC (NVT) After 3.8% Gain -- GF Value $115.26 vs Price $169.61",
       "3 Great Stocks to Buy to Benefit From the Next Generation of AI Data Centers Led by Nvidia"
@@ -306,11 +306,11 @@
       "What Makes Powell Industries (POWL) a Strong Investment?",
       "3 Reasons We\u2019re Fans of Powell (POWL)",
       "Powell Industries (POWL) Dips More Than Broader Market",
+      "Have Insiders Sold Powell Industries Shares Recently?",
       "A Look at Powell Industries Inc (POWL) After 7.5% Decline -- GF Value $76.27 vs Price $264.86",
       "Powell Industries options trading surges amid stock decline",
       "Oracle Construction and Engineering Recognizes Customers Driving Industry Transformation",
       "Powell Industries, Inc.(NasdaqGS: POWL) added to Russell Midcap Growth Benchmark",
-      "Powell Industries (POWL) Is Down 5.9% After Data Center Wins And Capacity Expansion Plans - Has The Bull Case Changed?",
       "Should You Investigate Powell Industries, Inc. (NASDAQ:POWL) At US$280?",
       "Affiliate files resale notice for 4,500 shares at Powell (NASDAQ: POWL)",
       "Insider Sell: Michael Metcalf Sells 4,500 Shares of Powell Indus",
@@ -358,8 +358,8 @@
       "CoreWeave Launches ARIA Research Agent for Weights & Biases",
       "CoreWeave Collaborates With Conapto to Expand Sweden AI Cloud Capacity",
       "CoreWeave\u2019s $1.4 billion bet just showed its first real payoff",
-      "Weakness in Chipmakers Drags Stock Indexes Lower",
-      "Will SpaceX Soar After It Joins the Nasdaq-100? History Offers a Compellingly Clear Answer."
+      "Meta Is Finally Entering This High-Margin $500 Billion Market. Is the Stock a No-Brainer Buy?",
+      "Weakness in Chipmakers Drags Stock Indexes Lower"
     ],
     "GEV": [
       "Why GE Vernova (GEV) Is Up 7.3% After Russell Top 50 Nod And AI Power Orders",
@@ -373,15 +373,15 @@
       "Here is What to Know Beyond Why GE Vernova Inc. (GEV) is a Trending Stock",
       "Dow Jones Futures Fall, Bloom Energy Jumps; SpaceX's First Buy Point",
       "Cramer's lightning round: Buy GE Vernova",
-      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High",
+      "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out",
       "Blue Energy, GE Vernova Advance \u2018Gas Bridge\u2019 Model to Unlock Nuclear Finance",
       "GE Vernova: A Significant Upside, No Room For Mistake (NYSE:GEV)",
-      "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out",
+      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High",
       "These 2 Industrial Giants Have Crushed Tesla's Returns Over the Last 12 Months. Will The Party Continue?",
       "GE Vernova loses renewed bid to end work on New England wind farm",
-      "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
       "SPHQ, GEV, MCO, ADP: Large Outflows Detected at ETF",
-      "How to Boost Your Portfolio with Top Oils and Energy Stocks Set to Beat Earnings"
+      "How to Boost Your Portfolio with Top Oils and Energy Stocks Set to Beat Earnings",
+      "2 Hidden Industrial Stocks That Will Benefit From the AI Infrastructure Build-Out Not Named SpaceX or Intel"
     ],
     "TLN": [
       "Talen Energy, Stock Of The Day, Delivers For Amazon, AI Data Centers",
@@ -394,6 +394,7 @@
       "Stocks Supported as Geopolitical Risks Recede",
       "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
       "Goldman starts Talen at buy, sees PJM power tightness boosting earnings",
+      "TLN - Talen Energy Corp Volatility & Greeks",
       "Talen Energy Announces Credit Facility Refinancing Transactions | Thu, 05/14/2026 - 16:27",
       "Wells Fargo Sticks to Its Buy Rating for Talen Energy Corp (TLN)",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell Midcap Growth Benchmark",
@@ -401,7 +402,6 @@
       "Talen Energy to Report Full Year and Fourth Quarter 2025 Financial Results on February 26, 2026",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
-      "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
       "Notable Tuesday Option Activity: MSFT, TLN, UNM",
       "Best Nuclear and AI Energy Stocks to Buy Now and Hold : GEV, TLN"
     ],
@@ -438,6 +438,7 @@
       "Here\u2019s Why Cisco (CSCO) is Among the 15 Best AI Stocks That Will Make You Rich in 10 Years",
       "AI Data Center Boom Could Drive Fuel Cell Market to $30 Billion by 2030",
       "How Cisco\u2019s Secure AI Factory and Quantum Networking Bets Could Reshape the Cisco Systems (CSCO) Narrative",
+      "How Equinix Turns Data Centre Heat into Milan City Heating",
       "A2A and Equinix launch data centre heat recovery partnership in Milan",
       "Equinix officially retires bare metal offering",
       "Barclays Reaffirms Their Hold Rating on Equinix (EQIX)",
@@ -445,7 +446,6 @@
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript",
       "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint",
       "Equinix launches AI-ready data center with direct link to Hong Kong-Shenzhen tech park",
-      "Equinix Expands Cisco, Nvidia Alliance To Help Partners Move AI From Pilots To Production",
       "Southern Takes Over #104 Spot From Equinix",
       "Fidelity Nasdaq Composite Index ETF Experiences Big Outflow"
     ],
@@ -463,11 +463,11 @@
       "Heavy police presence spotted at crash on I96 in Eaton Co",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
       "Eaton Corp. to spin off Mobility Group to Dana Inc. for $5.1B",
-      "Eaton Corp. PLC stock underperforms Wednesday when compared to competitors",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.79% on Jun 30: A Full Analysis",
       "Eaton reports 40% cut in operational emissions since 2018 By Investing.com",
+      "Eaton moves one step closer to becoming a cleaner bet on the AI boom",
+      "Eaton Advances 2030 Growth Strategy with Announcement to Combine Mobility Group with Dana Incorporated",
       "Eaton Corp PLC (ETN) Shares Surge 4.4% -- What GF Score of 89 Tells Investors",
-      "Eaton (ETN) Has a Broader Electrical Backlog Story Than the Data-Center Trade",
       "Industrial Select Sector SPDR Fund Experiences Big Inflow",
       "Beyond the Mag 7: Finding the Real Winners of the AI Boom"
     ],
@@ -505,13 +505,13 @@
       "Walmart (WMT) Secures Long Term Nuclear Power Deal With Constellation Energy",
       "Will Constellation's Long-Term Nuclear PPAs Drive Sustainable Growth?",
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
+      "Constellation Energy Corp. stock falls Wednesday, underperforms market",
       "Constellation Energy (CEG) director adds 146 phantom share equivalents",
       "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
       "Constellation Energy (NASDAQ:CEG) falls as stock faces overhang despite PJM heat stress support",
       "Form 4 Constellation Energy Corp For: 1 July By Investing.com",
       "Price to sales forward of Constellation Energy Corporation \u2013 NASDAQ:CEG",
-      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS",
       "3 Nuclear Stocks Worth Owning for the Entire Year as Power Demand Keeps Climbing"
     ],
@@ -577,9 +577,9 @@
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Legrand Acquires Girtz Industries",
-      "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum",
       "APS welcomes Jason LeGrand as global director of development",
-      "Lyle Legrand Wood Obituary Jun 14, 2026"
+      "Lyle Legrand Wood Obituary Jun 14, 2026",
+      "Ms. Catherine Legrand Humphries Obituary Feb 4, 2026"
     ],
     "SIE.DE": [
       "AI EDA Market to Reach USD 15.85 Billion by 2032 with a 24.4% CAGR",
@@ -617,13 +617,13 @@
       "NOK Stock Slides As Selling Pressure Builds In June",
       "Nokia Corporation Sponsored Stock 12\u2011Month Price Target Raised to $12.07, Implies 16% Downside",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
-      "Nokia Stock Slides As Bearish Momentum Tests Retail Traders",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
       "NOK Stock Draws Bullish Targets On AI And 5G Momentum",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
       "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
-      "NOK Stock Slides As Volatility And Meme Hype Collide"
+      "NOK Stock Slides As Volatility And Meme Hype Collide",
+      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum"
     ],
     "APLD": [
       "Applied Digital (APLD): One of the Top Hot Stocks with the Highest Upside Potential",
