@@ -47,24 +47,24 @@
     "RWE.DE": 56.64,
     "SIE.DE": 276.6,
     "ENGI.PA": 27.08,
-    "DLR": 173.42,
-    "NOK": 11.94,
-    "CEG": 237.92,
-    "CRWV": 81.06,
-    "BE": 259.79,
-    "ERIC": 10.77,
-    "VRT": 297.92,
-    "EQIX": 996.27,
-    "APLD": 32.13,
-    "GEV": 1096.49,
-    "ETN": 394.73,
-    "PWR": 654.97,
-    "NVT": 150.84,
-    "IREN": 38.67,
-    "POWL": 246.59,
-    "NEE": 87.26,
-    "VST": 150.03,
-    "TLN": 361.46
+    "DLR": 174.32,
+    "NOK": 11.98,
+    "CEG": 239.15,
+    "CRWV": 81.6,
+    "BE": 261.28,
+    "ERIC": 10.78,
+    "VRT": 300.51,
+    "EQIX": 1001.13,
+    "APLD": 32.19,
+    "GEV": 1101.22,
+    "ETN": 395.27,
+    "PWR": 658.08,
+    "NVT": 151.75,
+    "IREN": 38.9,
+    "POWL": 246.0,
+    "NEE": 87.4,
+    "VST": 150.76,
+    "TLN": 363.42
   },
   "event_cooldowns": {
     "news_BE": 122,
@@ -77,7 +77,8 @@
     "IREN": 1052,
     "APLD": 1082,
     "BE": 1127,
-    "POWL": 1142
+    "POWL": 1142,
+    "news_ETN": 1218
   },
   "day_event_fired": {
     "IREN": "2026-07-02",
@@ -99,13 +100,13 @@
       "How a $25B AI Power Deal Is Sending Bloom Energy Higher",
       "The One Thing Bloom Energy Has That Rivals Can\u2019t Easily Match, According To Wall Street Analysts",
       "Bloom Energy's Long-Term Rally Is Just Getting Started (NYSE:BE)",
-      "UBS Just Raised Its Price Target on Bloom Energy Stock",
+      "Bloom Energy Stock Rallies After The Bell \u2014 Here's Why - Bloom Energy (NYSE:BE)",
+      "Bloom Energy\u2019s $25B partnership targets AI\u2019s next bottleneck",
       "Shorting the Grid: Bloom Energy\u2019s $25B AI Power Play",
       "Bloom Energy Stock (BE) Opinions on AI Power Infrastructure Surge",
       "Bloom Energy stock jumps on expanded Brookfield partnership",
-      "Bloom Energy\u2019s $25B partnership targets AI\u2019s next bottleneck",
       "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion; Fivefold Increase to Build and Finance Rapid Power for AI Infrastructure",
-      "Bloom Energy Stock Rallies After The Bell \u2014 Here's Why - Bloom Energy (NYSE:BE)",
+      "EBITDA per share of Bloom Energy Corporation Class A \u2013 SIX:BE",
       "Bloom Energy Corporation(NYSE: BE) dropped from Russell 2000 Index"
     ],
     "ERIC": [
@@ -185,6 +186,7 @@
       "ENGIY vs. PNW: Which Stock Is the Better Value Option?",
       "Engie\u2019s Belgian Battery Project And What It Means For Cash Flows",
       "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?",
+      "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
       "Engie wins contract to build, operate over 400km of power lines in Peru",
       "Proinversi\u00f3n awards Engie four transmission projects that will provide electricity to more than 1.6 million Peruvians",
       "ENGIE launches its first campaign with Tamara Klink, reinforcing the concept of \"The Same Energy\" alongside the sailor",
@@ -192,8 +194,7 @@
       "Engie strengthens its position in Peru",
       "South Dakota storm strikes two ENGIE wind farms",
       "Barclays Thinks Engie\u2019s Geopolitical Worries Look Overdone",
-      "The Group\u2019s human rights approach",
-      "Aker BioMarine signs agreement with Engie for 100% renewable energy"
+      "The Group\u2019s human rights approach"
     ],
     "VST": [
       "Here is What Analysts Think About Vistra Corp. (VST)",
@@ -271,16 +272,16 @@
       "How to AI-Proof Your Fund Portfolio",
       "NextEra Energy (NEE) Sees a More Significant Dip Than Broader Market: Some Facts to Know",
       "NextEra Energy (NEE) Is A Top Stock To Buy According To Billionaire Glenn Dubin\u2019s Highbridge Capital",
+      "Sen. King urges FERC to reject $67B NextEra-Dominion merger",
       "NextEra\u2019s $67 Billion Megamerger Proves Dominion Was the Real AI Infrastructure Prize All Along",
       "Will Dominion merger benefit SC ratepayers? Regulatory scrutiny over deal sought",
-      "US senator asks regulator to reject giant NextEra-Dominion power deal, filing",
-      "AI fuels record $200bn M&A boom in US power sector",
       "Why Big Tech\u2019s Demand for Uninterrupted AI Power Is a Major Reality Check for NextEra Energy Investors",
       "How an Ambitious Energy Giant Wielded Political Power in Florida",
       "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
       "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers",
       "NextEra\u2019s Dominion Deal Could Put It at the Center of the AI Power Race",
-      "FE or NEE: Which Is the Better Value Stock Right Now?"
+      "FE or NEE: Which Is the Better Value Stock Right Now?",
+      "Can Duke Energy's Investment Plan Deliver Years of Earnings Growth?"
     ],
     "RWE.DE": [
       "FPT Achieves SAP\u00ae Silver Partner Status in the SAP\u00ae PartnerEdge\u00ae Program, Expanding SAP Capabilities for European Enterprises",
@@ -319,7 +320,7 @@
       "Does nVent Electric\u2019s (NVT) Russell Growth Inclusion Reframe Its Electrification And AI Infrastructure Narrative?",
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
       "NVent Electric plc(NYSE: NVT) added to Russell 1000 Growth Benchmark",
-      "A Look at nVent Electric PLC (NVT) After 3.8% Gain -- GF Value $115.26 vs Price $169.61",
+      "nVent Electric: operations-driven story for US investors",
       "MDY, CW, NVT, ENTG: ETF Inflow Alert",
       "3 Great Stocks to Buy to Benefit From the Next Generation of AI Data Centers Led by Nvidia"
     ],
@@ -368,18 +369,17 @@
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment"
     ],
     "CRWV": [
+      "Meta Stock Falls as AI Cloud Plans Hit an Immediate Snag",
+      "CoreWeave Takes Another Hit From Meta. One Analyst Sees 200% Upside for the AI Stock.",
       "CoreWeave and Nebius Plunged 14% and 17% in a Single Day. Which Beaten-Down AI Cloud Stock Is the Better Rebound Bet?",
-      "Meta-Fueled Selloff Is a CoreWeave Stock Buying Opportunity, Analysts Say",
       "CoreWeave Just Slipped Under $50 Billion. Is the Debt Finally Catching Up?",
       "Forget Nvidia: Is Google Quietly About to Steal the Crown as the World\u2019s Most Valuable Company?",
       "CoreWeave Unveils ARIA to Accelerate AI Research and Agent Development",
-      "Meta Stock Falls as AI Cloud Plans Hit an Immediate Snag",
+      "Data Centers Face a Growing Public Backlash. It\u2019s a Threat to AI Companies and Stocks.",
       "Nvidia Stock Rises Amid New Revenue Sharing Plan for AI Startups",
       "Why CoreWeave Stock Just Nosedived",
       "Meta Jumps 9.3% on Plans for AI Cloud Infrastructure Business",
-      "How Meta Crashed CoreWeave Stock's Cloud Party",
       "CoreWeave (CRWV) Is Down 15.1% After Meta Weighs Selling Excess AI Compute Capacity \u2013 What's Changed",
-      "CoreWeave Takes Another Hit From Meta. One Analyst Sees 200% Upside for the AI Stock.",
       "CoreWeave Selloff Is Mispriced - Here's Why The Growth Story Is Intact (NASDAQ:CRWV)",
       "CoreWeave Just Joined the Nasdaq-100",
       "CoreWeave Is Down 13% Today: How Does CRWV Compare to Other Cloud Stocks Like Cloudflare and Oracle?",
@@ -387,7 +387,8 @@
       "CoreWeave Launches ARIA Research Agent for Weights & Biases",
       "Lawsuit Notice: Investors who hold CoreWeave, Inc. (NASDAQ: CRWV) shares should contact the Shareholders Foundation",
       "CoreWeave Insider Sold Shares Worth $7,793,608, According to a Recent SEC Filing",
-      "Weakness in Chipmakers Drags Stock Indexes Lower"
+      "Weakness in Chipmakers Drags Stock Indexes Lower",
+      "Why Meta Platforms Stock Crashed Thursday Morning"
     ],
     "GEV": [
       "Will GE Vernova (GEV) Beat Estimates Again in Its Next Earnings Report?",
@@ -444,6 +445,7 @@
       "Blackstone Sells $3.5 Billion Data-Center Stakes to Digital Realty",
       "A $27M-Per-Megawatt Data Center Deal Just Gave Bitcoin Miners A Price Tag \u2014 And VanEck Says CIFR, HUT Are Way Too Cheap",
       "IPO Edge NYSE Firesides Scheduled for July 28",
+      "What to Expect From Digital Realty Trust's Next Quarterly Earnings Report",
       "Digital Realty to pay Blackstone $3.5 billion for stake in Virginia data centers",
       "Digital Realty Announces Purchase of Blackstone Interest in Three Northern Virginia Data Centers",
       "Blackstone Offloads Stakes in Trio of Virginia Data Centers",
@@ -451,8 +453,7 @@
       "Digital Realty Trust (DLR) Sells New Equity, Is The Pullback A Buying Opportunity?",
       "News | Blackstone sells $3.5 billion stake in data centers to Digital Realty",
       "Digital Realty Trust (DLR) Announces Completion of Blackstone Ac",
-      "Digital Realty Trust Inc. stock underperforms Tuesday when compared to competitors",
-      "Digital Realty to pay $3.5B for Blackstone's stake in three new Northern Virginia data centers",
+      "Digital Realty Trust Inc. stock underperforms Wednesday when compared to competitors",
       "Prediction: Realty Income's Data Center Pivot Will Supercharge Its Dividend Growth Over the Next Decade"
     ],
     "EQIX": [
@@ -488,13 +489,13 @@
       "Eaton (ETN) Is Up 5.1% After Joining Multiple Russell Growth Indices - What's Changed",
       "Vertiv and 6 More Stocks to Play the \u2018Physical AI\u2019 Boom",
       "Eaton (ETN) Dips More Than Broader Market",
-      "Heavy police presence spotted at crash on I96 in Eaton Co",
+      "Duncan Oil acquires Eaton-based company",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
+      "Heavy police presence spotted at crash on I96 in Eaton Co",
       "Is Eaton\u2019s Broad Russell Growth Inclusion Reshaping the Investment Case For Eaton (ETN)?",
-      "Eaton reports 40% cut in operational emissions since 2018",
       "Eaton Corp. to spin off Mobility Group to Dana Inc. for $5.1B",
+      "Eaton reports 40% cut in operational emissions since 2018",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.79% on Jun 30: A Full Analysis",
-      "Eaton Corp PLC (ETN) Shares Surge 4.4% -- What GF Score of 89 Tells Investors",
       "Beyond Cloud & Memory: Infrastructure ETFs to Buy Amid AI Data Center Boom",
       "Data Center Delays Create Opportunity in These 3 Stocks",
       "Eaton vs. Vertiv: Which Industrials Stock Is a Better Buy in 2026?"
@@ -513,8 +514,8 @@
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
       "Smithbridge Asset Management Inc. DE Sells 82,130 Shares of Vertiv Holdings Co. $VRT",
       "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
-      "Price to earnings forward of Vertiv Holdings, LLC \u2013 NYSE:VRT",
       "Vertiv Increases Manufacturing Capacity with New Facility in Malaysia, to Support Growing Demand for AI and Digital Infrastructure Across Asia",
+      "Price to earnings forward of Vertiv Holdings, LLC \u2013 NYSE:VRT",
       "Does Vertiv (VRT) Joining Large-Cap Growth Indexes Reframe Its AI Data Center Investment Story?",
       "Vertiv Holdings Co(NYSE: VRT) dropped from Russell Midcap Growth Benchmark",
       "Vertiv Holdings Co. (VRT) Registers a Bigger Fall Than the Market: Important Facts to Note",
@@ -539,7 +540,7 @@
       "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
       "Constellation Energy Corp stock hits 52-week low at 243.3 USD",
       "Constellation Energy (NASDAQ:CEG) falls as stock faces overhang despite PJM heat stress support",
-      "Constellation Energy Corporation (CEG) Gets a Buy from Wells Fargo",
+      "Constellation Energy Corp. stock falls Wednesday, underperforms market",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS",
       "Will Constellation's Long-Term Nuclear PPAs Drive Sustainable Growth?"
     ],
@@ -621,6 +622,7 @@
       "Fermi Selects TSK to Advance Engineering for Texas Power Project",
       "Fermi (FRMI) Is Down 7.4% After Governance Rift Deepens Around Project Matador Strategy Shift",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
+      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy\u2019s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy to invest $421 million in NC",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
@@ -628,8 +630,7 @@
       "Siemens Healthineers Experience Center USA opens in Charlotte\u2019s Innovation District",
       "Siemens Achieves $1B in U.S. Manufacturing Investments",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Launches Wendell Microgrid at HQ Campus"
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
     ],
     "NOK": [
       "Nokia (NOK) Joins Finnish Consortium to Develop National Counter-Drone Network",
@@ -645,13 +646,13 @@
       "NOK Stock Slides As Selling Pressure Builds In June",
       "Nokia Corporation Sponsored Stock 12\u2011Month Price Target Raised to $12.07, Implies 16% Downside",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
-      "Nokia Stock Slides As Bearish Momentum Tests Retail Traders",
       "NOK Stock Draws Bullish Targets On AI And 5G Momentum",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
       "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
-      "NOK Stock Slides As Volatility And Meme Hype Collide"
+      "NOK Stock Slides As Volatility And Meme Hype Collide",
+      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum"
     ],
     "APLD": [
       "Wall Street Thinks You Should Buy The Dip On Applied Digital (APLD) Stock",
@@ -677,7 +678,7 @@
     ]
   },
   "pending_news_posts": [],
-  "daily_keyword_posts": 5,
+  "daily_keyword_posts": 6,
   "last_posted": {
     "BE": 1127,
     "SU.PA": 541,
@@ -695,7 +696,8 @@
     "GEV": 917,
     "CRWV": 917,
     "APLD": 1082,
-    "POWL": 1142
+    "POWL": 1142,
+    "ETN": 1218
   },
   "news_category_posted": {
     "BE": {
@@ -718,8 +720,11 @@
     },
     "PWR": {
       "contract": 753
+    },
+    "ETN": {
+      "ma": 1218
     }
   },
-  "last_news_post_min": 29716473,
+  "last_news_post_min": 29716938,
   "us_flexible_used": 6
 }
