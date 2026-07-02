@@ -35,15 +35,15 @@
   "us_posted": [],
   "engagement": {},
   "price_snapshots": {
-    "LR.PA": 143.3,
-    "SU.PA": 272.05,
-    "ENR.DE": 163.34,
-    "EOAN.DE": 17.73,
-    "IBE.MC": 21.47,
-    "ABBN.SW": 86.18,
-    "RWE.DE": 55.72,
-    "SIE.DE": 272.1,
-    "ENGI.PA": 26.59
+    "LR.PA": 143.0,
+    "SU.PA": 273.2,
+    "ENR.DE": 159.46,
+    "EOAN.DE": 17.82,
+    "IBE.MC": 21.44,
+    "ABBN.SW": 84.68,
+    "RWE.DE": 55.8,
+    "SIE.DE": 270.65,
+    "ENGI.PA": 26.69
   },
   "event_cooldowns": {
     "news_BE": 122,
@@ -95,8 +95,8 @@
       "Ericsson: Global 5G User Base Surpasses 3 Billion as AI Reshapes Mobile Networks",
       "Ericsson names Per Narvinger CEO as B\u00f6rje Ekholm steps down after 9-year run",
       "Ericsson CEO Ekholm to step down, be replaced by Per Narvinger",
-      "Can NOK's Defense Deal Capitalize on Rising Border Security Demand?",
-      "Anterix Surges 163% in the Past Year: Should You Bet on the Stock?"
+      "Network operators must start autonomous journey now, says Ericsson core networks chief",
+      "Can NOK's Defense Deal Capitalize on Rising Border Security Demand?"
     ],
     "PWR": [
       "Quanta Services (PWR) Declines More Than Market: Some Information for Investors",
@@ -159,7 +159,7 @@
       "Arcadia acquires Engie Impact to create unified energy management platform",
       "ENGIE and European Energy start cooperation on large-scale renewable hydrogen development in Denmark",
       "Engie Recognizes Hitachi Energy for Strategic Role in Decarbonizing the Power System",
-      "Green Gases: Biomethane and Hydrogen Strategies - ENGIE"
+      "Engie launches US DG sale process"
     ],
     "VST": [
       "Vistra Corp. (VST) Stock Slides as Market Rises: Facts to Know Before You Trade",
@@ -259,13 +259,13 @@
       "Meta expands partnership with RWE through a long-term corporate PPA for Rabbit's Foot Solar in North Texas",
       "DNV certifies third milestone for Nordseecluster A offshore wind projects",
       "Prysmian completes cable installation for Sofia offshore wind farm",
-      "RWE delivers strong start to the year: adjusted earnings per share up 25 per cent year-on-year",
-      "Price to earnings forward of RWE AG \u2013 XETR:RWE",
-      "RWE AG focuses on energy transition and global power markets",
-      "RWE AG(NEU) : Barclays gives a Buy rating",
-      "Germany\u2019s RWE plans nearly $20B US investment, including gas peakers",
-      "The Zacks Analyst Blog Highlights Nvidia, Equinor and RWE AG",
       "RWE delivers strong financial performance in 2025 and sets course for exceptional earnings growth until 2031",
+      "Price to earnings forward of RWE AG \u2013 XETR:RWE",
+      "Germany\u2019s RWE plans nearly $20B US investment, including gas peakers",
+      "RWE AG focuses on energy transition and global power markets",
+      "The Zacks Analyst Blog Highlights Nvidia, Equinor and RWE AG",
+      "RWE AG(NEU) : Barclays gives a Buy rating",
+      "RWE delivers strong start to the year: adjusted earnings per share up 25 per cent year-on-year",
       "US NGOs urge RWE to reject offshore wind exit deal with Trump administration",
       "Earnings call transcript: RWE Q1 2026 shows strong growth amid trading headwinds",
       "The Zacks Analyst Blog Micron, Exxon and RWE AG - May 11, 2026"
@@ -283,13 +283,13 @@
       "Amphenol Stock And The AI Guidance Wall Street Is Still Sizing Up",
       "Corporate Governance - Board of Directors",
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
-      "Analysts Offer Insights on Industrial Goods Companies: nVent Electric (NVT) and Freightos Limited (CRGO)",
       "Does nVent Electric\u2019s (NVT) Russell Growth Inclusion Reframe Its Electrification And AI Infrastructure Narrative?",
+      "Analysts Offer Insights on Industrial Goods Companies: nVent Electric (NVT) and Freightos Limited (CRGO)",
       "NVent Electric plc(NYSE: NVT) added to Russell 1000 Growth Benchmark",
-      "nVent Electric (Ondo Tokenized) (NVTON) Price Prediction & Forecast 2026 - 2030",
       "nVent Electric plc",
       "NVENT ELECTRIC PLC (NYSE:NVT) Shows Strong High Growth Momentum Setup with Ratings of 7, 9, and 7",
       "Enterprise value to revenue forward of nVent Electric plc \u2013 NYSE:NVT",
+      "NVent Electric plc(NYSE: NVT) added to Russell 3000E Growth Benchmark",
       "3 Great Stocks to Buy to Benefit From the Next Generation of AI Data Centers Led by Nvidia"
     ],
     "POWL": [
@@ -392,10 +392,10 @@
       "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
       "Goldman starts Talen at buy, sees PJM power tightness boosting earnings",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 3000E Growth Benchmark",
+      "TLN - Talen Energy Corp Volatility & Greeks",
       "Talen Energy Announces Credit Facility Refinancing Transactions | Thu, 05/14/2026 - 16:27",
       "Wells Fargo Sticks to Its Buy Rating for Talen Energy Corp (TLN)",
       "TLN slides as resale-share overhang and valuation concerns pressure shares",
-      "TLN - Talen Energy Corp Volatility & Greeks",
       "Talen Energy to Report Full Year and Fourth Quarter 2025 Financial Results on February 26, 2026",
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
@@ -459,13 +459,13 @@
       "Eaton Corporation to Merge Mobility Business with Dana",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
       "Heavy police presence spotted at crash on I96 in Eaton Co",
-      "Eaton Corp. PLC stock underperforms Wednesday when compared to competitors",
       "Eaton Corp. to spin off Mobility Group to Dana Inc. for $5.1B",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.79% on Jun 30: A Full Analysis",
       "Eaton Corporation plc(NYSE: ETN) added to Russell 1000 Growth Benchmark",
+      "Eaton moves one step closer to becoming a cleaner bet on the AI boom",
+      "Eaton Advances 2030 Growth Strategy with Announcement to Combine Mobility Group with Dana Incorporated",
       "Eaton Corp PLC (ETN) Shares Surge 4.4% -- What GF Score of 89 Tells Investors",
       "Eaton (ETN) Has a Broader Electrical Backlog Story Than the Data-Center Trade",
-      "Eaton moves one step closer to becoming a cleaner bet on the AI boom",
       "Industrial Select Sector SPDR Fund Experiences Big Inflow"
     ],
     "VRT": [
@@ -483,12 +483,12 @@
       "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
       "Vertiv (NYSE:VRT) Trading Down 7% - What's Next?",
       "Does Vertiv (VRT) Joining Large-Cap Growth Indexes Reframe Its AI Data Center Investment Story?",
-      "Vertiv Holdings Co(NYSE: VRT) dropped from Russell Midcap Growth Benchmark",
+      "Vertiv opens Malaysia factory to chase AI data center demand across Asia",
       "Vertiv Stock Jumped 9% on South Korea\u2019s $518 Billion AI Chip Bet. Is the Stock Just a High-Beta Proxy Now?",
+      "Vertiv Holdings Co(NYSE: VRT) dropped from Russell Midcap Growth Benchmark",
       "Vertiv Holdings Co. (VRT) is a Top-Ranked Growth Stock: Should You Buy?",
       "VRT Boosts Data Center Portfolio Through Acquisitions: What's Ahead?",
-      "Here's Why AI Data Center Infrastructure Stock, Vertiv, Shot Higher Today",
-      "2 Hidden Industrial Stocks That Will Benefit From the AI Infrastructure Build-Out Not Named SpaceX or Intel"
+      "Here's Why AI Data Center Infrastructure Stock, Vertiv, Shot Higher Today"
     ],
     "CEG": [
       "CEG Stock Takes A Hit After Citi's Price-Target Cut \u2014 But Retail Is Already Diving In To Buy The Dip",
@@ -575,8 +575,8 @@
       "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Legrand Acquires Girtz Industries",
       "APS welcomes Jason LeGrand as global director of development",
-      "Lyle Legrand Wood Obituary Jun 14, 2026",
-      "Ms. Catherine Legrand Humphries Obituary Feb 4, 2026"
+      "West Hartford-based Legrand adds Indiana power system maker to its growing data center power portfolio",
+      "Lyle Legrand Wood Obituary Jun 14, 2026"
     ],
     "SIE.DE": [
       "AI EDA Market to Reach USD 15.85 Billion by 2032 with a 24.4% CAGR",
@@ -613,12 +613,12 @@
       "1 Nvidia-Backed AI Infrastructure Stock to Buy Hand Over Fist Right Now",
       "NOK Stock Slides As Selling Pressure Builds In June",
       "Nokia Corporation Sponsored Stock 12\u2011Month Price Target Raised to $12.07, Implies 16% Downside",
-      "NOK Stock Slides As Repeated ADR Selloffs Rattle Traders",
-      "Nokia Stock Slides As Bearish Momentum Tests Retail Traders",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
-      "Nokia Stock Slides Again As ADR Weakness Draws Trader Scrutiny",
+      "NOK Stock Slides As Repeated ADR Selloffs Rattle Traders",
+      "Nokia Stock Slides As Volatility And Social Buzz Collide",
       "NOK Stock Draws Bullish Targets On AI And 5G Momentum",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
+      "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
       "NOK Stock Slides As Selling Pressure Dominates Recent Trading"
     ],
