@@ -35,15 +35,15 @@
   "us_posted": [],
   "engagement": {},
   "price_snapshots": {
-    "LR.PA": 143.2,
-    "SU.PA": 274.9,
-    "ENR.DE": 161.78,
-    "EOAN.DE": 18.02,
-    "IBE.MC": 21.51,
-    "ABBN.SW": 85.14,
-    "RWE.DE": 55.86,
-    "SIE.DE": 271.8,
-    "ENGI.PA": 26.84
+    "LR.PA": 143.5,
+    "SU.PA": 276.15,
+    "ENR.DE": 162.78,
+    "EOAN.DE": 18.07,
+    "IBE.MC": 21.53,
+    "ABBN.SW": 85.58,
+    "RWE.DE": 56.06,
+    "SIE.DE": 273.25,
+    "ENGI.PA": 26.9
   },
   "event_cooldowns": {
     "news_BE": 122,
@@ -68,7 +68,7 @@
       "How a $25B AI Power Deal Is Sending Bloom Energy Higher",
       "Bloom Energy Rises On Big AI Infrastructure Expansion",
       "The One Thing Bloom Energy Has That Rivals Can\u2019t Easily Match, According To Wall Street Analysts",
-      "Bloom Energy Stock Rallies After The Bell \u2014 Here's Why - Bloom Energy (NYSE:BE)",
+      "Bloom Energy vs. Ballard Power: Which Hydrogen Stock Should You Buy?",
       "Bloom Energy Stock (BE) Opinions on AI Power Infrastructure Surge",
       "Bloom Energy\u2019s $25B partnership targets AI\u2019s next bottleneck",
       "Bloom Energy stock jumps on expanded Brookfield partnership",
@@ -76,7 +76,7 @@
       "Bloom Energy: Friday's 18% Plunge Is A Warning",
       "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion; Fivefold Increase to Build and Finance Rapid Power for AI Infrastructure",
       "Bloom Energy (NYSE:BE) Trading Down 4.5% - Here's Why",
-      "Bloom Energy vs. Ballard Power: Which Hydrogen Stock Should You Buy?"
+      "Up 275% This Year: Is It Too Late to Buy Bloom Energy Stock?"
     ],
     "ERIC": [
       "Invitation to media and analyst briefing for Ericsson Q2 2026 report",
@@ -112,6 +112,7 @@
       "Bull of the Day: Quanta Services (PWR)",
       "Will the Lhoist Acquisition Strengthen Martin Marietta's Market Lead?",
       "Quanta Services (PWR) Stock Could Trade At A Premium Following Raised Outlook",
+      "Quanta Services Inc. stock underperforms Wednesday when compared to competitors",
       "Quanta Services Slides as Pullback Appears Tied to Valuation and a Lack of Fresh Catalysts",
       "Quanta Services Stock Jumped 63% This Year: Does the Math Still Support Buying In?",
       "Price to sales forward of Quanta Services, Inc. \u2013 LSX:912294",
@@ -137,11 +138,11 @@
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE focuses on energy transition and grid investment as European utilities adapt",
       "E.ON SE focuses on energy transition and grid investment",
+      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview",
       "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors",
       "Hegseth revives push to punish Sen. Mark Kelly",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
-      "Ekant Sen Career Stats",
-      "Computational investigation of CO2 hydrogenation and electrochemical reduction to formic acid and methanol using chalcogen-doped nitrogen-graphene nanoflake as a metal-free catalyst | Scientific Reports"
+      "Ekant Sen Career Stats"
     ],
     "ENGI.PA": [
       "ENGIY or PNW: Which Is the Better Value Stock Right Now?",
@@ -179,7 +180,7 @@
       "Vistra Corp. stock underperforms Wednesday when compared to competitors",
       "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
       "Vistra vs. Constellation Energy: The Big Revenue Face-Off",
-      "Vistra (NYSE:VST) Stock Price Down 3.5% - Here's Why",
+      "$6&period;8bn sale of Energy Harbor to Vistra powers a leading zero-carbon energy platform",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
       "3 Nuclear Stocks Worth Owning for the Entire Year as Power Demand Keeps Climbing",
       "iShares Russell Mid-Cap Growth ETF Experiences Big Inflow",
@@ -200,11 +201,11 @@
       "ABB/N Forecast \u2014 Price Target \u2014 Prediction for 2027",
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results",
       "ABB (ABBNY) Stock Price, News & Analysis",
+      "Siemens, ABB, Jyoti CNC And More In Focus Ahead Of Capital Goods Q1 Results \u2014 Check New Target Prices",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
       "ABB to divest Robotics division to SoftBank Group | News center",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "ABB outlines 2030 growth ambitions, shares backed by steady analyst view",
-      "ABB to invest $75 million in India to expand manufacturing, R&D",
       "ABB expands building solutions portfolio and appoints new retail distributor in Vietnam",
       "ABB India Shares Drop 2% as Parent Sells Robotics to SoftBank for $5.4B"
     ],
@@ -340,6 +341,7 @@
       "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG"
     ],
     "CRWV": [
+      "Stocks Mostly Up Pre-Bell Ahead of Key Jobs Report",
       "Dow Jones Futures Rise With Tesla, Jobs Report Ahead",
       "CoreWeave Just Joined the Nasdaq-100",
       "SoftBank Plans AI Cloud Services in US to Tap Surging Demand",
@@ -349,17 +351,16 @@
       "Stock Market Today, July 1: CoreWeave Stock Tumbles as Meta Cloud Report Raises Customer Concerns",
       "Stock Market Today, July 1: Meta Shakes Up Cloud Sector and Tech Stocks Weigh on Markets",
       "Why Meta\u2019s Move to the Cloud Is a Big Deal\u2014and Bad News for CoreWeave and Nebius",
-      "Meta Stock Rallies On Reported Plan For AI Cloud Business; CoreWeave Slides",
-      "Is CoreWeave (CRWV) Ready for Meta\u2019s Compute Competition After Launching ARIA and Expanding in Europe?",
+      "CoreWeave Junk Bonds Slide Further as Investors Question AI Boom",
       "Why CoreWeave Stock Is Tumbling Today",
       "CoreWeave and Nebius shares fall on Meta cloud report",
+      "Is CoreWeave (CRWV) Ready for Meta\u2019s Compute Competition After Launching ARIA and Expanding in Europe?",
       "CoreWeave Is Down 13% Today: How Does CRWV Compare to Other Cloud Stocks Like Cloudflare and Oracle?",
       "CoreWeave faces $35 billion Meta exposure as stock slumps",
       "News | CoreWeave expands New Jersey headquarters",
       "CoreWeave Expands HQ with Additional 31,000 SF in Livingston",
       "Weakness in Chipmakers Drags Stock Indexes Lower",
-      "Meta Is Finally Entering This High-Margin $500 Billion Market. Is the Stock a No-Brainer Buy?",
-      "Will SpaceX Soar After It Joins the Nasdaq-100? History Offers a Compellingly Clear Answer."
+      "Meta Is Finally Entering This High-Margin $500 Billion Market. Is the Stock a No-Brainer Buy?"
     ],
     "GEV": [
       "Why GE Vernova (GEV) Is Up 7.3% After Russell Top 50 Nod And AI Power Orders",
@@ -373,15 +374,15 @@
       "Here is What to Know Beyond Why GE Vernova Inc. (GEV) is a Trending Stock",
       "Dow Jones Futures Fall, Bloom Energy Jumps; SpaceX's First Buy Point",
       "Cramer's lightning round: Buy GE Vernova",
-      "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out",
+      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High",
       "Blue Energy, GE Vernova Advance \u2018Gas Bridge\u2019 Model to Unlock Nuclear Finance",
       "GE Vernova: A Significant Upside, No Room For Mistake (NYSE:GEV)",
-      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High",
+      "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out",
       "These 2 Industrial Giants Have Crushed Tesla's Returns Over the Last 12 Months. Will The Party Continue?",
       "GE Vernova loses renewed bid to end work on New England wind farm",
+      "Constellation Energy vs. GE Vernova: Which Utilities Stock Is a Better Buy in 2026?",
       "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
-      "SPHQ, GEV, MCO, ADP: Large Outflows Detected at ETF",
-      "How to Boost Your Portfolio with Top Oils and Energy Stocks Set to Beat Earnings"
+      "SPHQ, GEV, MCO, ADP: Large Outflows Detected at ETF"
     ],
     "TLN": [
       "Talen Energy, Stock Of The Day, Delivers For Amazon, AI Data Centers",
@@ -538,6 +539,7 @@
       "Private Cloud Renaissance"
     ],
     "IREN": [
+      "Does Iren's Golden State Warriors Partnership Make Any Sense?",
       "Nasdaq, S&P 500, Dow Futures Subdued Ahead Of June Jobs Report: Why TSLA, MU, NBIS, NVDA, SMCI, IREN Are In Focus",
       "IREN Stock Dips Premarket: Neocloud Firm Announces $687M Stock Grants To Co-CEOs",
       "Nebius, Coreweave, and IREN Tumble on Meta\u2019s Cloud Ambitions. Is This the End of the Neocloud Boom?",
@@ -547,7 +549,6 @@
       "IREN Shares Gain After Joining the Russell 1000 Index (IREN)",
       "3 Artificial Intelligence Stocks You Can Buy and Hold for the Next Decade",
       "Jefferies Assigns Buy Rating to IREN Ltd. (IREN)",
-      "IREN (NasdaqGS:IREN) Lands Microsoft And Nvidia Deals As AI Data Center Expansion Grows",
       "IREN: Dead Money Or The Next AI Winner? (Rating Upgrade) (NASDAQ:IREN)",
       "IREN Stock Falls on Wednesday",
       "IREN grants significant multi-year RSU awards to co-CEOs",
@@ -617,13 +618,13 @@
       "NOK Stock Slides As Selling Pressure Builds In June",
       "Nokia Corporation Sponsored Stock 12\u2011Month Price Target Raised to $12.07, Implies 16% Downside",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
-      "Nokia Stock Slides As Bearish Momentum Tests Retail Traders",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
       "NOK Stock Draws Bullish Targets On AI And 5G Momentum",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
       "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
-      "NOK Stock Slides As Volatility And Meme Hype Collide"
+      "NOK Stock Slides As Volatility And Meme Hype Collide",
+      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum"
     ],
     "APLD": [
       "Applied Digital (APLD): One of the Top Hot Stocks with the Highest Upside Potential",
@@ -641,11 +642,11 @@
       "Explaining The Market Divide On Applied Digital \u2014 Does Their Strategy Actually Work",
       "Applied Digital (APLD) Price Target Raised at Needham by $3",
       "Applied Digital Reaches Significant Milestone, Surpassing 1 GW of Contracted Capacity with U.S. Based High Investment-Grade Hyperscaler Lease at Fourth Campus, Polaris Forge 3",
-      "Applied Digital subsidiary plans $1.59 billion notes offering By Investing.com",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
       "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day",
-      "Synopsys vs. Applied Digital: Which AI Stock Has an Edge Right Now?"
+      "Synopsys vs. Applied Digital: Which AI Stock Has an Edge Right Now?",
+      "Could Applied Digital (APLD) Stock Triple by 2030?"
     ]
   },
   "pending_news_posts": [],
