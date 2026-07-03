@@ -908,6 +908,21 @@ _KEYWORD_RULES = [
 ]
 _ANALYST_ROUTINE_RE = re.compile(r"\b(upgrade\w*|downgrade\w*|reiterat\w*|maintain\w*)\b", re.I)
 
+# "Acquired" fires on genuine M&A ("Company X acquires Company Y") but just as readily on routine
+# institutional 13F-style disclosures ("Shares Acquired by Leonteq Securities AG") — the latter
+# happens for every stock, constantly, and isn't remotely "major" in the sense this rule means.
+_MA_ROUTINE_RE = re.compile(
+    r"\bshares?\s+acquired\b|\bacquires?\s+(shares|stake|position)\b|"
+    r"\bacquired\s+by\s+[A-Z][\w.&]*(\s+[A-Z][\w.&]*){0,3}\s+"
+    r"(Securities|Capital|Advisors?|Advisers?|Management|Partners|Wealth|Financial|Investment"
+    r"|Asset|Trust|Group|LLC|Inc\.?)\b",
+    re.I,
+)
+
+# "Beat/miss estimates" fires just as readily inside a speculative preview question ("Will X Beat
+# Estimates Again in Its Next Earnings Report?") as inside an actual report of one — a real beat/
+# miss headline states it as a fact, never as a question.
+
 # Generic Zacks/Motley Fool-style opinion pieces that reference real events (an old
 # acquisition, a past guidance change) as supporting color in a valuation thesis — not
 # reporting news. A bare category-keyword match can't tell "reporting X happened" from
@@ -960,6 +975,10 @@ def classify_news_keyword(symbol: str, articles: list[dict]) -> dict | None:
                 continue
             if category == "analyst" and _ANALYST_ROUTINE_RE.search(text):
                 continue  # routine rating change, not an initiation — same exclusion Gemini applies
+            if category == "ma" and _MA_ROUTINE_RE.search(text):
+                continue  # a fund buying shares, not the company itself being acquired
+            if category == "earnings" and a["headline"].rstrip().endswith("?"):
+                continue  # speculative preview ("Will X Beat Estimates?"), not a reported beat/miss
             if secondary and not secondary.search(text):
                 continue  # e.g. "partnership" without a dollar figure is too vague to act on
             return {
