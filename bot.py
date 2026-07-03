@@ -86,12 +86,18 @@ DAILY_KEYWORD_POST_LIMIT = int(os.getenv("DAILY_KEYWORD_POST_LIMIT", "15"))
 EU_SLOTS = [
     ("08:50", "hook"),           # pre-market: 10min before the real 09:00 open — pre-open
                                  # price discovery has mostly settled by now
-    ("17:40", "close_summary"),  # close: 10min after the real 17:30 close — final prints in
+    ("18:00", "close_summary"),  # close: 30min after the real 17:30 close — a 10min buffer
+                                 # wasn't enough; yfinance's official closing print (especially
+                                 # for anything settled via closing auction) can lag by more than
+                                 # that, so the reported number was consistently a bit off from
+                                 # the true final close. Doesn't need to be immediate — the first
+                                 # post-close cycle catching this slot is fine.
 ]
 
 US_SLOTS = [
     ("15:10", "hook"),   # pre-market: 20min before the real 15:30 open (9:10am ET)
-    ("22:10", "wrap"),   # close: 10min after the real 22:00 close (4:10pm ET) — final prints in
+    ("22:30", "wrap"),   # close: 30min after the real 22:00 close (4:00pm ET) — same settlement-
+                         # lag reasoning as EU's close_summary above.
 ]
 
 WEEKEND_SLOTS = [
