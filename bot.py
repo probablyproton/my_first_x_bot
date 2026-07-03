@@ -2204,6 +2204,19 @@ def process_storyline(state: dict, key: str) -> dict:
         return state
 
     phase   = market_phase(key)
+
+    # A holiday-induced 'weekend' phase on an actual trading weekday (not a genuine Sat/Sun) means
+    # this storyline's whole watchlist has nothing live to report today. Skip the scheduled Gemini
+    # call entirely rather than spend one on a reframed "quiet day" post — genuine news, if any,
+    # is still covered independently by check_news_events (Gemini or keyword, unaffected by this).
+    # GEMINI_DAILY_CALL_LIMIT is one shared pool across both storylines, not split per-storyline,
+    # so this reallocates the freed call to whichever storyline IS actively trading automatically —
+    # no explicit EU/US split to maintain.
+    if phase == "weekend" and not is_weekend():
+        log.info("%s slot skipped — exchange closed for a holiday, not a genuine weekend; "
+                  "saving the Gemini call for the other storyline", key.upper())
+        return state
+
     overlap = in_overlap_window()
 
     # Collect eligible tickers (not on 120-min cooldown, and — on a partial-holiday day — not on
