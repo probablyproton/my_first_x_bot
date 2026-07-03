@@ -3,15 +3,15 @@
   "daily_posts": 1,
   "engagement": {},
   "price_snapshots": {
-    "LR.PA": 143.7,
-    "SU.PA": 278.05,
-    "ENR.DE": 167.26,
-    "EOAN.DE": 18.97,
-    "IBE.MC": 21.8,
-    "ABBN.SW": 86.22,
-    "RWE.DE": 57.86,
-    "SIE.DE": 281.9,
-    "ENGI.PA": 27.61,
+    "LR.PA": 143.1,
+    "SU.PA": 277.8,
+    "ENR.DE": 166.18,
+    "EOAN.DE": 18.95,
+    "IBE.MC": 21.79,
+    "ABBN.SW": 85.92,
+    "RWE.DE": 57.64,
+    "SIE.DE": 280.6,
+    "ENGI.PA": 27.6,
     "DLR": 173.34,
     "NOK": 12.02,
     "CEG": 240.13,
@@ -53,6 +53,7 @@
   },
   "news_seen": {
     "BE": [
+      "Bull of the Day: Bloom Energy (BE)",
       "Bloom Energy (BE) Stock Moves -6.43%",
       "Stock Market Rebounds, But AI Falters; Meta, Tesla, Jobs Report In Focus: Weekly Review",
       "UBS Just Raised Its Price Target on Bloom Energy Stock",
@@ -62,17 +63,16 @@
       "Stock Market Today: Nasdaq Ends Lower As Chip Names Dive; Meta Soars On This News",
       "Brookfield and Bloom Energy Expanded Their AI Power Partnership to $25 Billion",
       "Price Prediction: We\u2019re Bearish on Bloom Energy and See Shares Falling",
-      "Why investors should 'complement' their SpaceX ETFs with these other themes",
       "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion; Fivefold Increase to Build and Finance Rapid Power for AI Infrastructure",
       "Bloom Energy's Long-Term Rally Is Just Getting Started (NYSE:BE)",
-      "Bloom Energy (NYSE: BE) director Cynthia Warner receives 76 deferred stock units grant",
-      "Bloom Energy Corp (BE) Shares Fall 6.4% -- GF Value Says Still O",
-      "Bloom Energy Stock (BE) Opinions on AI Power Infrastructure Surge",
-      "Bloom Energy stock jumps on expanded Brookfield partnership",
       "Bloom Energy Stock Rallies After The Bell \u2014 Here's Why - Bloom Energy (NYSE:BE)",
-      "Elemental Capital Partners LLC Has $150.04 Million Position in Bloom Energy Corporation $BE",
-      "Bloom Energy (NYSE: BE) CCO sells 8,343 shares in pre-planned trade",
-      "Noteworthy Thursday Option Activity: KOP, BE, IREN"
+      "Bloom Energy rises 12% after partnering with European AI infrastructure upstart in $2.6 billion deal",
+      "Bloom Energy vs. Plug Power: Which Hydrogen Stock Is a Better Buy in 2026?",
+      "What's Going On With Bloom Energy Stock Today?",
+      "Shorting the Grid: Bloom Energy\u2019s $25B AI Power Play",
+      "Noteworthy Thursday Option Activity: KOP, BE, IREN",
+      "Bloom Energy vs. Ballard Power: Which Hydrogen Stock Should You Buy?",
+      "Up 275% This Year: Is It Too Late to Buy Bloom Energy Stock?"
     ],
     "ERIC": [
       "Invitation to media and analyst briefing for Ericsson Q2 2026 report",
@@ -91,8 +91,8 @@
       "Ericsson sets July 14 webcast for Q2 2026 results",
       "Chip Ganassi Racing says six-time IndyCar champion Scott Dixon won\u2019t return in 2027",
       "Rakuten Symphony names former Boost, Ericsson tech exec as new RAN lead",
-      "Ericsson Commits to Full-Stack 5G Core as Nokia Customers Find New Homes",
       "Ericsson names Per Narvinger CEO as B\u00f6rje Ekholm steps down after 9-year run",
+      "Ericsson Commits to Full-Stack 5G Core as Nokia Customers Find New Homes",
       "Ericsson CEO Ekholm to step down, be replaced by Per Narvinger",
       "Can NOK's Defense Deal Capitalize on Rising Border Security Demand?"
     ],
@@ -133,8 +133,8 @@
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE focuses on energy transition and grid investment",
-      "E.ON SE focuses on energy transition and grid investment as European utilities adapt",
       "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors",
+      "E.ON SE focuses on energy transition and grid investment as European utilities adapt",
       "Hegseth revives push to punish Sen. Mark Kelly",
       "Ekant Sen Career Stats",
       "E.ON SE outlines long-term energy transition strategy as investors weigh European utility valuations",
@@ -158,8 +158,8 @@
       "South Dakota storm strikes two ENGIE wind farms",
       "Engie To Build 400 KM Of New Electricity Lines In Peru",
       "ENGIE to build more than 400 km of new power transmission lines in Peru",
-      "Barclays Thinks Engie\u2019s Geopolitical Worries Look Overdone",
-      "The Group\u2019s human rights approach"
+      "The Group\u2019s human rights approach",
+      "Barclays Thinks Engie\u2019s Geopolitical Worries Look Overdone"
     ],
     "VST": [
       "Here is What Analysts Think About Vistra Corp. (VST)",
@@ -178,7 +178,7 @@
       "Vistra vs. Constellation Energy: The Big Revenue Face-Off",
       "Analyst Raises Vistra (VST) Price Target by $4",
       "Latham Advises Vistra Corp. on Sale of New England, New York Generating Assets",
-      "Vistra (NYSE:VST) Stock Price Down 1.4% - What's Next?",
+      "40,000 Shares in Vistra Corp. $VST Acquired by General Pension Society PZU Joint Stock Co",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
       "3 Nuclear Stocks Worth Owning for the Entire Year as Power Demand Keeps Climbing",
       "iShares Russell Mid-Cap Growth ETF Experiences Big Inflow"
@@ -358,6 +358,7 @@
     ],
     "GEV": [
       "Jim Cramer on GE Vernova: \u201cI Believe In Scott Strazik\u201d",
+      "Bull of the Day: Bloom Energy (BE)",
       "Will GE Vernova (GEV) Beat Estimates Again in Its Next Earnings Report?",
       "Here's Why GE Vernova Stock Soared Last Month",
       "Why GE Vernova (GEV) Is Up 7.3% After Russell Top 50 Nod And AI Power Orders",
@@ -366,17 +367,16 @@
       "GE Vernova (GEV) Dips More Than Broader Market",
       "Chevron Corporation (CVX) A Top Dividend Aristocrat Stock to Buy amid Growth on New Energies and Strategic Partnerships",
       "AirJoule Unveils Prime System, Clearing Path to Commercialization",
-      "GE Vernova Was Red Hot in the First Six Months of 2026. Can It Keep the Momentum Going in the Second Half?",
       "GE Vernova's gas turbines aren't the only way it's winning from the AI boom",
       "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High",
       "Hitachi Energy, GE Vernova, Siemens Energy, other power equipment stocks crash up to 10%. Here\u2019s why",
       "Bearish Options Bets Slam GE Vernova Ahead Earnings",
       "Cramer's lightning round: Buy GE Vernova",
       "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out",
+      "GE Vernova Was Red Hot in the First Six Months of 2026. Can It Keep the Momentum Going in the Second Half?",
       "Notable Thursday Option Activity: GLW, PYPL, GEV",
       "Can Rising Demand From AI and Data Centers Benefit NANO Nuclear?",
-      "GE Vernova Trades at a Premium Valuation: Buy, Hold or Sell the Stock?",
-      "Here is What to Know Beyond Why GE Vernova Inc. (GEV) is a Trending Stock"
+      "GE Vernova Trades at a Premium Valuation: Buy, Hold or Sell the Stock?"
     ],
     "TLN": [
       "Talen Energy, Stock Of The Day, Delivers For Amazon, AI Data Centers",
@@ -434,13 +434,13 @@
       "Here\u2019s Why Cisco (CSCO) is Among the 15 Best AI Stocks That Will Make You Rich in 10 Years",
       "AI Data Center Boom Could Drive Fuel Cell Market to $30 Billion by 2030",
       "Hsbc Holdings PLC Acquires 25,259 Shares of Equinix, Inc. $EQIX",
+      "Equinix (EQIX) Q1 2026 Earnings Call Transcript",
       "Is Equinix the AI Infrastructure Stock Investors Are Missing Out On?",
       "Equinix officially retires bare metal offering",
       "How Equinix Turns Data Centre Heat into Milan City Heating",
       "Director claims Equinix staged layoff to mask race, age bias",
       "Equinix Launches AI-Ready Data Center with Direct Connectivity to Hong Kong\u2013Shenzhen Innovation and Technology Park",
       "Equinix falls as sector-wide REIT weakness appears to outweigh its recent upbeat updates",
-      "Equinix (EQIX) Q1 2026 Earnings Call Transcript",
       "A2A and Equinix launch data centre heat recovery partnership in Milan",
       "Is BB Seguridade Participacoes (BBSEY) Outperforming Other Finance Stocks This Year?"
     ],
@@ -501,9 +501,9 @@
       "V&E Appoints Michael Jay as New IP Litigation Partner in LA",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
+      "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
       "Constellation Energy (CEG) director adds 146 phantom share equivalents",
       "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
-      "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
       "Constellation Energy Corp stock hits 52-week low at 243.3 USD",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS",
@@ -729,5 +729,5 @@
     }
   ],
   "us_posted": [],
-  "gemini_calls_today": 14
+  "gemini_calls_today": 15
 }
