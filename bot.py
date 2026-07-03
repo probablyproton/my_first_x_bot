@@ -73,6 +73,12 @@ SESSION_FILE = os.path.join(os.path.dirname(__file__), "twitter_session.json")
 
 DAILY_POST_LIMIT = 20  # LLM-driven posts only: scheduled updates, price events, Gemini-classified news, engagement
 
+# The real ceiling Gemini enforces (20 RPD) counts every actual HTTP request — including the
+# classify+generate split for news events (2 calls per post, not 1) and every 429-triggered
+# retry — none of which the post-count budgets above track. This is the one limit that maps
+# directly onto what Google is actually counting. Set below 20 for a safety margin.
+GEMINI_DAILY_CALL_LIMIT = int(os.getenv("GEMINI_DAILY_CALL_LIMIT", "18"))
+
 # Zero-LLM content (keyword-classified news, weekend caption/poll) doesn't touch the Gemini quota,
 # so it gets its own separate, more generous ceiling — a backstop against runaway volume on a heavy
 # news day, not a budget tied to any API limit. Worst case combined with DAILY_POST_LIMIT: ~35/day.
@@ -444,8 +450,14 @@ def _strip_json_fences(text: str) -> str:
 _gemini_unavailable = False
 
 
-def _gemini(system: str, prompt: str) -> str:
+def _gemini(system: str, prompt: str, state: dict) -> str:
     global _gemini_unavailable
+    # Refuse to even attempt once at the real-call ceiling — a post-count budget doesn't catch
+    # this because a single logical "call" can cost 2+ real requests (see GEMINI_DAILY_CALL_LIMIT).
+    if state.get("gemini_calls_today", 0) >= GEMINI_DAILY_CALL_LIMIT:
+        _gemini_unavailable = True
+        raise RuntimeError(f"Gemini daily call limit ({GEMINI_DAILY_CALL_LIMIT}) reached — refusing further calls")
+
     url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     body = json.dumps({
         "contents": [{"parts": [{"text": f"{system}\n\n{prompt}"}]}],
@@ -457,6 +469,9 @@ def _gemini(system: str, prompt: str) -> str:
     }).encode("utf-8")
     req = urllib.request.Request(url, data=body, headers={"Content-Type": "application/json"})
     for attempt in range(2):
+        # Every attempt here is a real HTTP request to Google, counted against RPD whether it
+        # succeeds, fails, or gets retried — so count it here, not just on success.
+        state["gemini_calls_today"] = state.get("gemini_calls_today", 0) + 1
         try:
             with urllib.request.urlopen(req) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
@@ -499,6 +514,7 @@ def ensure_daily_plans(state: dict) -> dict:
         state["date"] = today()
         state["daily_posts"] = 0
         state["daily_keyword_posts"] = 0
+        state["gemini_calls_today"] = 0
         for key in ("eu", "us"):
             state.pop(f"{key}_flexible_used", None)
             state.pop(f"{key}_buffer_used", None)
@@ -638,7 +654,7 @@ Post text only. No quotes, no commentary."""
 
 
 def generate_tweet(symbol: str, slot: dict, price_ctx: dict, community: list[str],
-                   event_trigger: str = "") -> str | None:
+                   state: dict, event_trigger: str = "") -> str | None:
     # Only ever called by check_price_events, which is itself gated to a ticker's real
     # market hours — so this is always a live, in-session reaction. No other phase is
     # reachable here (that's what generate_market_update_tweet handles).
@@ -669,7 +685,7 @@ Tweet type: {tweet_type}
 Write the tweet. Keep it under 280 characters. Be specific – name real events, numbers, or catalysts. Use line breaks for breathing room. End with a clear point of view. A question or CTA only if it flows naturally."""
 
     try:
-        text = _gemini(TWEET_SYSTEM, prompt).strip('"').strip("'")
+        text = _gemini(TWEET_SYSTEM, prompt, state).strip('"').strip("'")
         if _has_unknown_ticker(text, [symbol]):
             return None
         if len(text) > 280:
@@ -686,7 +702,7 @@ Write the tweet. Keep it under 280 characters. Be specific – name real events,
 
 # ── News event classifier ─────────────────────────────────────────────────────
 
-def classify_news_batch(ticker_articles: dict[str, list[dict]]) -> dict[str, dict] | None:
+def classify_news_batch(ticker_articles: dict[str, list[dict]], state: dict) -> dict[str, dict] | None:
     """Classify multiple tickers' fresh headlines (+ summary excerpt where available) in a
     single Gemini call. Returns {symbol: classification} for tickers judged major (empty dict
     if the call succeeded but found nothing major), or None if the call itself failed — the
@@ -706,7 +722,7 @@ def classify_news_batch(ticker_articles: dict[str, list[dict]]) -> dict[str, dic
     prompt = "\n\n".join(blocks) + "\n\nClassify each ticker independently per the rules above."
 
     try:
-        text = _strip_json_fences(_gemini(NEWS_CLASSIFIER_SYSTEM, prompt))
+        text = _strip_json_fences(_gemini(NEWS_CLASSIFIER_SYSTEM, prompt, state))
         results = json.loads(text)
         major = {}
         for r in results:
@@ -832,7 +848,7 @@ Verify: facts match the input — no unsupported claims — tweet ≤280 charact
 One tweet only. No quotes, no commentary."""
 
 
-def generate_news_event_tweet(symbol: str, classification: dict, price_ctx: dict,
+def generate_news_event_tweet(symbol: str, classification: dict, price_ctx: dict, state: dict,
                                link: str = "", source: str = "") -> str | None:
     price_str = ""
     if price_ctx:
@@ -866,7 +882,7 @@ Write a reaction tweet. Be specific. Add a "so what" framed as possibility. End 
     budget = 280 - 25 if link else 280  # 23 for the shortened link + 2 for the newlines
 
     try:
-        text = _gemini(NEWS_EVENT_SYSTEM, prompt).strip('"').strip("'")
+        text = _gemini(NEWS_EVENT_SYSTEM, prompt, state).strip('"').strip("'")
         if _has_unknown_ticker(text, [symbol]):
             return None
         if len(text) > budget:
@@ -1012,7 +1028,7 @@ def _has_unknown_ticker(tweet: str, allowed_symbols) -> bool:
 
 
 def generate_market_update_tweet(key: str, ranked: list[str], ticker_data: dict,
-                                  news_data: dict, slot: dict, phase: str) -> str | None:
+                                  news_data: dict, slot: dict, phase: str, state: dict) -> str | None:
     if phase == "weekend":
         phase_instruction = (
             "WEEKEND. Markets are closed. Do NOT reference today's price, daily % moves, or live "
@@ -1083,7 +1099,7 @@ Can reference one stock or multiple. Always use $TICKER (bare symbol, no company
     budget = 280 - len(prefix)
 
     try:
-        text = _gemini(MARKET_UPDATE_SYSTEM, prompt).strip('"').strip("'")
+        text = _gemini(MARKET_UPDATE_SYSTEM, prompt, state).strip('"').strip("'")
         if _has_unknown_ticker(text, ranked):
             return None
         if len(text) > budget:
@@ -1221,7 +1237,7 @@ Keep it casual, direct, under 280 characters."""))
             log.warning("Engagement post [%s] skipped — Gemini unavailable this cycle", key)
             continue
         try:
-            text = _gemini(ENGAGEMENT_SYSTEM, prompt).strip('"').strip("'")
+            text = _gemini(ENGAGEMENT_SYSTEM, prompt, state).strip('"').strip("'")
             if len(text) > 280:
                 trimmed = text[:280]
                 for sep in (". ", ".\n", "? ", "?\n", "! ", "!\n"):
@@ -1498,7 +1514,7 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
         log.info("PRICE EVENT triggered for $%s: %s", symbol, trigger)
         community = get_ticker_context(symbol)
         slot  = {"type": "event", "format": "short", "angle": trigger}
-        tweet = generate_tweet(symbol, slot, price_ctx, community, event_trigger=trigger)
+        tweet = generate_tweet(symbol, slot, price_ctx, community, state, event_trigger=trigger)
         if tweet:
             log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
         if tweet and post_tweet(tweet, state):
@@ -1776,7 +1792,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                         len(gemini_symbols) - i)
             break
         batch = gemini_symbols[i:i + NEWS_CLASSIFY_BATCH_SIZE]
-        major = classify_news_batch({s: candidates[s] for s in batch})
+        major = classify_news_batch({s: candidates[s] for s in batch}, state)
         if major is None:
             # The call itself failed (e.g. a 429 despite passing the pre-check) — these
             # tickers' headlines are already marked seen from gather, so without a same-cycle
@@ -1843,7 +1859,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                     _refund_slot(state, symbol, pool)
                 continue
             if method == "gemini":
-                tweet = generate_news_event_tweet(symbol, classification, price_ctx,
+                tweet = generate_news_event_tweet(symbol, classification, price_ctx, state,
                                                    link=link, source=item.get("source"))
             else:
                 tweet = generate_keyword_event_tweet(symbol, classification, price_ctx,
@@ -2061,7 +2077,7 @@ def process_storyline(state: dict, key: str) -> dict:
              " [OVERLAP]" if overlap else "",
              ", ".join(f"${_base_symbol(t)}" for t in context_tickers))
 
-    tweet = generate_market_update_tweet(key, context_tickers, ticker_data, news_data, slot, phase)
+    tweet = generate_market_update_tweet(key, context_tickers, ticker_data, news_data, slot, phase, state)
 
     if tweet:
         log.info("%s tweet (%d chars):\n%s", key.upper(), len(tweet), tweet)
