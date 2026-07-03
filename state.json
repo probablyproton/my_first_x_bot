@@ -3,14 +3,14 @@
   "daily_posts": 1,
   "engagement": {},
   "price_snapshots": {
-    "LR.PA": 143.5,
-    "SU.PA": 279.75,
-    "ENR.DE": 167.04,
-    "EOAN.DE": 19.03,
+    "LR.PA": 143.55,
+    "SU.PA": 280.1,
+    "ENR.DE": 167.68,
+    "EOAN.DE": 19.04,
     "IBE.MC": 21.78,
-    "ABBN.SW": 86.42,
-    "RWE.DE": 57.9,
-    "SIE.DE": 282.35,
+    "ABBN.SW": 86.58,
+    "RWE.DE": 57.82,
+    "SIE.DE": 282.55,
     "ENGI.PA": 27.63,
     "DLR": 173.34,
     "NOK": 12.02,
@@ -134,8 +134,8 @@
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE focuses on energy transition and grid investment",
       "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors",
-      "E.ON SE focuses on energy transition and grid investment as European utilities adapt",
       "Hegseth revives push to punish Sen. Mark Kelly",
+      "E.ON SE focuses on energy transition and grid investment as European utilities adapt",
       "Ekant Sen Career Stats",
       "E.ON SE outlines long-term energy transition strategy as investors weigh European utility valuations",
       "Computational investigation of CO2 hydrogenation and electrochemical reduction to formic acid and methanol using chalcogen-doped nitrogen-graphene nanoflake as a metal-free catalyst | Scientific Reports"
@@ -335,6 +335,7 @@
       "Siemens: Using AI & Robotics to Streamline Rail Procurement"
     ],
     "CRWV": [
+      "SpaceX Stock Is Joining the Nasdaq 100 Soon. What History Says Happens Next.",
       "BNP Paribas Sends Fresh Message on CoreWeave and Nebius Stocks",
       "Americans Hate AI Data Centers. For Stocks, the Trouble Is Just Beginning.",
       "3 AI Stocks to Still Buy If Inflation Stays Sticky",
@@ -344,7 +345,6 @@
       "CoreWeave Just Slipped Under $50 Billion. Is the Debt Finally Catching Up?",
       "Forget Nvidia: Is Google Quietly About to Steal the Crown as the World\u2019s Most Valuable Company?",
       "CoreWeave Unveils ARIA to Accelerate AI Research and Agent Development",
-      "Nvidia Stock Rises Amid New Revenue Sharing Plan for AI Startups",
       "CoreWeave and Nebius shares slide after Meta cloud expansion report (CRWV)",
       "Why CoreWeave Stock Is Tumbling Today",
       "CoreWeave, Nebius in spotlight as BNP discusses capacity vs. sustainability debate (CRWV:NASDAQ)",
@@ -352,9 +352,9 @@
       "CoreWeave Stock Drops Sharply on Report of Meta AI Cloud Business",
       "CoreWeave CSO Brian Venturo sells $12.9m in company stock",
       "CoreWeave (CRWV) Stock May Still Look Cheap Following Record AI Backlog",
+      "CoreWeave (CRWV) Is Down 15.1% After Meta Weighs Selling Excess AI Compute Capacity \u2013 What's Changed",
       "Meta Wants In on the Cloud. Is Amazon Stock Still a Buy?",
-      "Weakness in Chipmakers Drags Stock Indexes Lower",
-      "Why Meta Platforms Stock Crashed Thursday Morning"
+      "Weakness in Chipmakers Drags Stock Indexes Lower"
     ],
     "GEV": [
       "Jim Cramer on GE Vernova: \u201cI Believe In Scott Strazik\u201d",
@@ -368,15 +368,15 @@
       "Chevron Corporation (CVX) A Top Dividend Aristocrat Stock to Buy amid Growth on New Energies and Strategic Partnerships",
       "AirJoule Unveils Prime System, Clearing Path to Commercialization",
       "GE Vernova's gas turbines aren't the only way it's winning from the AI boom",
-      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High",
-      "Hitachi Energy, GE Vernova, Siemens Energy, other power equipment stocks crash up to 10%. Here\u2019s why",
-      "CG Power, Hitachi Energy fall up to 7.5% as Centre allows four Chinese-linked power equipment firms to bid...",
-      "Bearish Options Bets Slam GE Vernova Ahead Earnings",
       "Cramer's lightning round: Buy GE Vernova",
-      "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out",
+      "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High",
+      "Bearish Options Bets Slam GE Vernova Ahead Earnings",
+      "GE Vernova loses renewed bid to end work on New England wind farm",
+      "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
+      "How GE Vernova builds the massive gas turbines powering the AI data center boom",
+      "Five Stocks Near Buy Points. Most Are In This Hot AI Space.",
       "Notable Thursday Option Activity: GLW, PYPL, GEV",
-      "GE Vernova Was Red Hot in the First Six Months of 2026. Can It Keep the Momentum Going in the Second Half?",
-      "Can Rising Demand From AI and Data Centers Benefit NANO Nuclear?"
+      "GE Vernova Was Red Hot in the First Six Months of 2026. Can It Keep the Momentum Going in the Second Half?"
     ],
     "TLN": [
       "Talen Energy, Stock Of The Day, Delivers For Amazon, AI Data Centers",
@@ -483,10 +483,10 @@
       "Why Vertiv (VRT) is Poised to Beat Earnings Estimates Again",
       "Vertiv Holdings: AI Pick And Shovel Status Proven - Growth Premium Already Baked-In",
       "Vertiv: Selling The Bottleneck, Billing At The Pace Of The Build",
+      "Sierra Summit Advisors LLC Trims Stake in Vertiv Holdings Co. $VRT",
+      "Vertiv Holdings Co (VRT) Stock Down 3.5% but Still Overvalued -- GF Score: 80/100",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
-      "Smithbridge Asset Management Inc. DE Sells 82,130 Shares of Vertiv Holdings Co. $VRT",
-      "Vertiv Holdings Co. (VRT) Registers a Bigger Fall Than the Market: Important Facts to Note",
-      "Should You Buy, Sell, or Hold VRT Stock at Its Price/Book of 27.78X?"
+      "Vertiv Holdings Co. (VRT) Registers a Bigger Fall Than the Market: Important Facts to Note"
     ],
     "CEG": [
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
@@ -634,8 +634,8 @@
       "Explaining The Market Divide On Applied Digital \u2014 Does Their Strategy Actually Work",
       "Applied Digital (APLD) Price Target Raised at Needham by $3",
       "Applied Digital Reaches Significant Milestone, Surpassing 1 GW of Contracted Capacity with U.S. Based High Investment-Grade Hyperscaler Lease at Fourth Campus, Polaris Forge 3",
+      "APLD Stock (Applied Digital Corporation) APLD Stock Analysis | April 23, 2026 Lens \u2013 Paris-sg (GDfLovoa2L)",
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
-      "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
       "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day",
