@@ -577,6 +577,17 @@ PULSE_QUIET_TEMPLATES = [
     "Low-key hour across the watchlist. ${base} at ${price}, {sign}{pct}%.",
 ]
 
+# Fallback for a genuine >= EVENT_DAY_THRESHOLD_PCT day move when Gemini's daily budget is
+# already exhausted. No LLM call, so – same discipline as generate_tweet's no-catalyst branch –
+# this only ever describes the move itself, never speculates about a cause.
+PRICE_EVENT_ZERO_LLM_TEMPLATES = [
+    "${base} {sign}{pct}% today at ${price} – one of the bigger moves on the board right now.{range}",
+    "Sharp move: ${base} {sign}{pct}% to ${price} today.{range}",
+    "${base} swinging {sign}{pct}% on the day, now ${price}.{range}",
+    "Big print: ${base} {sign}{pct}% at ${price} today – a real standout.{range}",
+    "${base} on the move – {sign}{pct}% to ${price} today.{range}",
+]
+
 
 def _draw_template(state: dict, pool_key: str, templates: list[str]) -> str:
     """Draw without replacement from a shuffled deck of template indices, reshuffling only once
@@ -620,6 +631,25 @@ def generate_zero_llm_pulse(tickers: list[str], state: dict) -> str | None:
         text = _draw_template(state, "mover", PULSE_MOVER_TEMPLATES).format(**values)
     else:
         text = _draw_template(state, "quiet", PULSE_QUIET_TEMPLATES).format(**values)
+    return text if len(text) <= 280 else None
+
+
+def generate_zero_llm_price_event(symbol: str, price_ctx: dict, state: dict) -> str | None:
+    """No-LLM fallback for check_price_events when Gemini's daily call budget is already
+    exhausted. A significant move is still worth posting – it just can't be attributed to
+    anything, since there's no LLM call left to weigh a headline's timing against it."""
+    pct = price_ctx["change_pct"]
+    range_str = ""
+    if "day_high" in price_ctx and "day_low" in price_ctx:
+        range_str = f" Intraday range: low ${price_ctx['day_low']} / high ${price_ctx['day_high']}."
+    values = {
+        "base": _base_symbol(symbol),
+        "price": price_ctx["price"],
+        "pct": pct,
+        "sign": "+" if pct >= 0 else "",
+        "range": range_str,
+    }
+    text = _draw_template(state, "price_event", PRICE_EVENT_ZERO_LLM_TEMPLATES).format(**values)
     return text if len(text) <= 280 else None
 
 
@@ -746,11 +776,11 @@ Write one concise, engaging tweet about the provided stock using only the suppli
 ## Rules
 - NEVER invent or infer market conditions, catalysts, or facts not present in the provided data.
 - If a headline mentions another company, reference only what that headline actually says — never fabricate what other stocks are doing.
-- Only claim a specific event caused this move if the data explicitly marks it as a confirmed,
-  timing-matched catalyst. If the data instead says no headline lines up with the move's timing,
-  or that the move looks like gradual drift, do NOT attach a cause — describe the price action
-  itself (the move, the intraday range) with real conviction. A move without a known cause is
-  still worth a sharp tweet; an invented cause is worse than none.
+- If the data marks a headline as a CONFIRMED, timing-matched catalyst, ground your reaction in
+  it specifically — that's the strongest, most credible claim available.
+- Otherwise, you may reference the provided headlines and offer your own read on what's likely
+  driving the move. Frame it as a possibility ("could be", "may reflect"), never as a confirmed
+  fact — opinions are fine on Twitter, fabricated facts are not.
 - Mention the ticker, current price, and % daily change where relevant.
 - Reference the stock only via its bare $TICKER symbol (e.g. $VRT). Never spell out the company
   name in place of, or alongside in parentheses, the ticker.
@@ -878,10 +908,10 @@ def generate_tweet(symbol: str, slot: dict, price_ctx: dict,
 
     phase_instruction = "Market is open. React to live price action and news."
 
-    # Ground the reaction in a headline whose PUBLISH TIME actually lines up with when this move
-    # happened, instead of handing the model an undifferentiated list of "recent headlines" and
-    # letting it guess (or invent) which one, if any, is the reason — that's exactly the "random
-    # LLM insight" failure mode this is meant to close off.
+    # Prefer grounding the reaction in a headline whose PUBLISH TIME actually lines up with when
+    # this move happened. If no such timing-confirmed catalyst exists, fall back to the original
+    # behavior: hand the model the general headline list and let it form its own read — this is a
+    # Twitter account, not a compliance filing, so a clearly-framed guess beats a flat "no comment."
     move_time = _find_move_timestamp(symbol)
     articles = get_ticker_context_with_dates(symbol, max_messages=10)
     catalyst = _closest_headline_to_move(move_time, articles) if move_time else None
@@ -893,18 +923,21 @@ def generate_tweet(symbol: str, slot: dict, price_ctx: dict,
             f"within a few hours before the move), not just a recent story — ground your "
             f"reaction in it specifically."
         )
-    elif move_time:
-        news_section = (
-            "\n\nNo headline lines up with the timing of this specific move. Do NOT guess or "
-            "invent a cause — describe the price action itself (the move, the intraday range) "
-            "with conviction, without attaching a narrative reason."
-        )
     else:
-        news_section = (
-            "\n\nThis move looks like gradual drift across the session, not a single sharp "
-            "catalyst moment. Do NOT invent a single triggering event — if you reference a cause "
-            "at all, frame it as a steady trend, not a reaction to one thing."
-        )
+        headlines = [a["headline"] for a in articles if a.get("headline")]
+        if headlines:
+            headline_list = "\n".join(f"- {h}" for h in headlines)
+            news_section = (
+                "\n\nNo headline's publish time lines up precisely with this specific move, so "
+                "none of these is a confirmed cause. Recent headlines – reference at least one, "
+                "and you're welcome to offer your own read on what's likely driving the move, "
+                f"framed as a possibility, not a fact:\n{headline_list}"
+            )
+        else:
+            news_section = (
+                "\n\nNo recent headlines available. Describe the price action itself (the move, "
+                "the intraday range) with conviction."
+            )
 
     angle      = event_trigger if event_trigger else slot["angle"]
     tweet_type = "event"      if event_trigger else slot["type"]
@@ -1755,9 +1788,6 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
 
     candidates.sort(reverse=True)
     for day_pct, symbol, price_ctx, trigger in candidates:
-        if _gemini_unavailable:
-            log.warning("PRICE EVENT skipped for $%s — Gemini unavailable this cycle", symbol)
-            break
         if _ticker_on_cooldown(state, symbol):
             log.info("PRICE EVENT suppressed — $%s posted within last %d min", symbol, TICKER_POST_COOLDOWN_MINUTES)
             continue
@@ -1766,9 +1796,13 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
             log.info("PRICE EVENT suppressed — $%s's storyline flexible budget exhausted today", symbol)
             continue
 
-        log.info("PRICE EVENT triggered for $%s: %s", symbol, trigger)
-        slot  = {"type": "event", "format": "short", "angle": trigger}
-        tweet = generate_tweet(symbol, slot, price_ctx, state, event_trigger=trigger)
+        if _gemini_unavailable:
+            log.info("PRICE EVENT for $%s falling back to zero-LLM template — Gemini unavailable this cycle", symbol)
+            tweet = generate_zero_llm_price_event(symbol, price_ctx, state)
+        else:
+            log.info("PRICE EVENT triggered for $%s: %s", symbol, trigger)
+            slot  = {"type": "event", "format": "short", "angle": trigger}
+            tweet = generate_tweet(symbol, slot, price_ctx, state, event_trigger=trigger)
         if tweet:
             log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
         if tweet and post_tweet(tweet, state):
