@@ -1928,9 +1928,16 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
 
     # ── Route: Gemini when the storyline still has budget, Gemini's reachable this
     # cycle, AND it's within active hours (08:45-22:00 CET) — keyword fallback otherwise,
-    # including automatically overnight regardless of budget/availability. ──
+    # including automatically overnight regardless of budget/availability. A symbol whose
+    # exchange is closed today (holiday) always routes to keyword too, regardless of budget —
+    # there's no live-reaction angle for a closed market anyway (it's "Last close" framing
+    # either way), so there's no reason for it to compete with the actively-trading side for
+    # the same shared Gemini pool. This is what actually lets EU "blow through" the budget on a
+    # US holiday: it's not that EU gets more calls reserved for it, it's that closed-exchange
+    # news is removed from the competition for the shared pool entirely. ──
     use_gemini = _gemini_news_hours_active() and not _gemini_unavailable
-    gemini_symbols  = [s for s in candidates if use_gemini and _has_news_budget(state, s)]
+    gemini_symbols  = [s for s in candidates
+                       if use_gemini and _has_news_budget(state, s) and _ticker_exchange_open_today(s)]
     keyword_symbols = [s for s in candidates if s not in gemini_symbols]
 
     def _queue_item(symbol, classification, method):
