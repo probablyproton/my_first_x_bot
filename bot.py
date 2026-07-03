@@ -17,6 +17,7 @@ GitHub:     triggered every 15 min by Actions cron (headless, TZ=Europe/Amsterda
 
 import os
 import re
+import csv
 import ssl
 import json
 import time
@@ -71,6 +72,61 @@ HEADLESS = os.getenv("CI", "false") == "true"
 
 STATE_FILE   = os.path.join(os.path.dirname(__file__), "state.json")
 SESSION_FILE = os.path.join(os.path.dirname(__file__), "twitter_session.json")
+
+# ── Events log (CSV) ─────────────────────────────────────────────────────────
+# One row per candidate decision the bot makes — posted AND not-posted alike — so this is
+# usable for real data analysis later (hit rate by mechanism, Gemini vs keyword split, time-of-
+# day patterns, why things get dropped), not just an audit trail of what went out.
+EVENTS_LOG_FILE = os.path.join(os.path.dirname(__file__), "events_log.csv")
+
+EVENTS_LOG_COLUMNS = [
+    "event_id", "date", "time", "weekday",
+    "mechanism", "storyline", "slot_type", "generation_method",
+    "symbol", "base_symbol", "related_tickers",
+    "exchange", "exchange_open_today", "market_phase",
+    "price", "change_pct", "day_high", "day_low",
+    "headline", "headline_source", "headline_link", "headline_published_utc",
+    "news_category", "holding_disclosure_fingerprint",
+    "day_move_pct", "catalyst_found", "catalyst_headline",
+    "gemini_call_used", "gemini_calls_today_after", "pool_used",
+    "posted", "skip_reason",
+    "tweet_text", "tweet_char_count",
+    # Reserved for a future engagement-backfill step — always blank for now.
+    "tweet_url", "likes", "retweets", "replies", "engagement_checked_at",
+]
+
+
+def _log_event(state: dict, **fields) -> None:
+    unknown = set(fields) - set(EVENTS_LOG_COLUMNS)
+    if unknown:
+        raise ValueError(f"_log_event got unknown column(s): {unknown}")
+
+    now = datetime.datetime.now()
+    event_id = state.get("event_log_next_id", 1)
+    state["event_log_next_id"] = event_id + 1
+
+    row = {col: "" for col in EVENTS_LOG_COLUMNS}
+    row.update({
+        "event_id": event_id,
+        # ISO 8601 (yyyy-mm-dd) is the one text date format Excel/Sheets auto-recognizes as a
+        # real, sortable date in EVERY locale. A literal dd/mm/yyyy string only parses correctly
+        # on a day-first system — on a US-locale machine it's silently misread as mm/dd for any
+        # day <=12 (e.g. 03/07/2026 becomes March 7th instead of July 3rd) while days >12 fall
+        # back to plain text, so the same column ends up part-genuine-date, part-text. Once this
+        # is recognized as a real date, reformatting the column's display to dd/mm/yyyy is a
+        # one-time Format Cells step and stays correct.
+        "date": now.strftime("%Y-%m-%d"),
+        "time": now.strftime("%H:%M:%S"),
+        "weekday": now.strftime("%A"),
+    })
+    row.update(fields)
+
+    file_exists = os.path.exists(EVENTS_LOG_FILE)
+    with open(EVENTS_LOG_FILE, "a", newline="", encoding="utf-8") as f:
+        writer = csv.DictWriter(f, fieldnames=EVENTS_LOG_COLUMNS)
+        if not file_exists:
+            writer.writeheader()
+        writer.writerow(row)
 
 DAILY_POST_LIMIT = 20  # LLM-driven posts only: scheduled updates, price events, Gemini-classified news, engagement
 
@@ -1034,6 +1090,43 @@ _MA_ROUTINE_RE = re.compile(
     re.I,
 )
 
+# MarketBeat-style "instant alert" institutional-holdings headlines ("HSBC Holdings PLC Acquires
+# 25,259 Shares of Equinix, Inc.") are genuinely worth posting — a major bank taking a real
+# position is real signal. But these alert mills are known to re-issue the SAME underlying filing
+# (identical filer + identical share count) weeks or months apart under a brand-new URL/date, with
+# every layer of metadata (RSS pubDate, URL slug, on-page datePublished) uniformly reporting the
+# NEW generation date — there's no metadata mismatch for a staleness check to catch, because the
+# page genuinely was (re-)generated that day. The only way to catch the source repeating itself is
+# to fingerprint the actual disclosed facts (filer + share count, per ticker) and remember them
+# well past the 24h category-dedup window, since a re-issue can land weeks later.
+_HOLDING_DISCLOSURE_RE = re.compile(
+    r"^(?P<institution>[\w.,&'-]+(?:\s+[\w.,&'-]+){0,4}?)\s+"
+    r"(?:Acquires|Purchases|Buys|Sells|Increases|Decreases|Boosts|Trims|Cuts|Raises|Lowers|Grows|Reduces)"
+    r"\b.*?(?P<shares>[\d,]{3,})\s+Shares?\b",
+    re.I,
+)
+
+
+def _holding_disclosure_fingerprint(symbol: str, headline: str) -> str | None:
+    m = _HOLDING_DISCLOSURE_RE.search(headline)
+    if not m:
+        return None
+    institution = re.sub(r"[^\w]", "", m.group("institution")).lower()
+    shares = m.group("shares").replace(",", "")
+    return f"{_base_symbol(symbol).lower()}:{institution}:{shares}"
+
+
+# Comfortably longer than a 13F's quarterly (~90 day) filing cadence, so a delayed reprocessing
+# re-issue is still caught — but bounded, so state.json doesn't carry this dict forever.
+HOLDING_DISCLOSURE_MEMORY_DAYS = 400
+
+
+def _prune_holding_disclosures(holding_seen: dict):
+    cutoff = (datetime.date.today() - datetime.timedelta(days=HOLDING_DISCLOSURE_MEMORY_DAYS)).isoformat()
+    for fp in [fp for fp, seen_date in holding_seen.items() if seen_date < cutoff]:
+        del holding_seen[fp]
+
+
 # "Beat/miss estimates" fires just as readily inside a speculative preview question ("Will X Beat
 # Estimates Again in Its Next Earnings Report?") as inside an actual report of one — a real beat/
 # miss headline states it as a fact, never as a question.
@@ -1523,8 +1616,11 @@ Format:
 Keep it casual, direct, under 280 characters."""))
 
     for key, prompt in posts:
+        log_kwargs = dict(mechanism="weekly_engagement", slot_type=key, generation_method="gemini",
+                           related_tickers=", ".join(f"${t}" for t in tickers))
         if _gemini_unavailable:
             log.warning("Engagement post [%s] skipped — Gemini unavailable this cycle", key)
+            _log_event(state, **log_kwargs, posted="N", skip_reason="gemini_unavailable")
             continue
         try:
             text = _gemini(ENGAGEMENT_SYSTEM, prompt, state).strip('"').strip("'")
@@ -1539,11 +1635,19 @@ Keep it casual, direct, under 280 characters."""))
                     text = trimmed.rsplit(" ", 1)[0]
             tweet = text
             log.info("Engagement [%s] (%d chars):\n%s", key, len(tweet), tweet)
+            log_kwargs["gemini_call_used"] = "Y"
+            log_kwargs["gemini_calls_today_after"] = state.get("gemini_calls_today", 0)
             if post_tweet(tweet, state):
                 engagement[key] = today_str
                 save_state(state)
+                _log_event(state, **log_kwargs, pool_used="llm", posted="Y",
+                           tweet_text=tweet, tweet_char_count=len(tweet))
+            else:
+                _log_event(state, **log_kwargs, posted="N", skip_reason="post_failed",
+                           tweet_text=tweet, tweet_char_count=len(tweet))
         except Exception as e:
             log.error("Engagement post [%s] failed: %s", key, e)
+            _log_event(state, **log_kwargs, posted="N", skip_reason=f"exception: {e}")
 
     return state
 
@@ -1796,6 +1900,7 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
             log.info("PRICE EVENT suppressed — $%s's storyline flexible budget exhausted today", symbol)
             continue
 
+        gemini_used = not _gemini_unavailable
         if _gemini_unavailable:
             log.info("PRICE EVENT for $%s falling back to zero-LLM template — Gemini unavailable this cycle", symbol)
             tweet = generate_zero_llm_price_event(symbol, price_ctx, state)
@@ -1805,12 +1910,30 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
             tweet = generate_tweet(symbol, slot, price_ctx, state, event_trigger=trigger)
         if tweet:
             log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
+
+        log_kwargs = dict(
+            mechanism="price_event", storyline="eu" if symbol in EU_WATCHLIST else "us",
+            generation_method="gemini" if gemini_used else "zero_llm_template",
+            symbol=symbol, base_symbol=_base_symbol(symbol), exchange=_exchange_for(symbol),
+            exchange_open_today="Y", market_phase="open",
+            price=price_ctx.get("price"), change_pct=price_ctx.get("change_pct"),
+            day_high=price_ctx.get("day_high", ""), day_low=price_ctx.get("day_low", ""),
+            day_move_pct=day_pct, gemini_call_used="Y" if gemini_used else "N",
+            gemini_calls_today_after=state.get("gemini_calls_today", 0),
+        )
         if tweet and post_tweet(tweet, state):
             cooldowns[symbol] = now_minutes()
             _record_ticker_post(state, symbol)
             day_event_fired[symbol] = today()
+            _log_event(state, **log_kwargs, pool_used="llm", posted="Y",
+                       tweet_text=tweet, tweet_char_count=len(tweet))
         else:
             _refund_slot(state, symbol, pool)
+            if tweet:
+                _log_event(state, **log_kwargs, posted="N", skip_reason="post_failed",
+                           tweet_text=tweet, tweet_char_count=len(tweet))
+            else:
+                _log_event(state, **log_kwargs, posted="N", skip_reason="generation_failed")
         break  # at most one price-event attempt per cycle, success or not
 
     save_state(state)
@@ -2028,6 +2151,13 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
     now_dt    = datetime.datetime.utcnow()
     queued_symbols = {item["symbol"] for item in queue}
 
+    # Recorded the instant a matching headline is SEEN, not when it's posted — an institutional
+    # disclosure that shows up but never gets classified as major (budget spent, didn't trip a
+    # rule that day) still needs to be remembered, or a later re-issue of the exact same filing
+    # would look like a first-ever sighting and get waved through as fresh news.
+    holding_seen = state.setdefault("holding_disclosures_seen", {})
+    _prune_holding_disclosures(holding_seen)
+
     # ── Gather: fetch fresh headlines+summaries per ticker, no Gemini calls yet.
     # Always runs regardless of budget/Gemini state — routing happens next, after we
     # know what's actually available to classify. ──
@@ -2049,6 +2179,27 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
         new_articles = [a for a in recent if a["headline"] not in news_seen.get(symbol, [])]
         news_seen[symbol] = [a["headline"] for a in articles]
 
+        # Drop recycled institutional-holding disclosures (same filer + same share count as a
+        # fingerprint we've seen before, on any prior day) before they ever reach classification.
+        deduped = []
+        for a in new_articles:
+            fp = _holding_disclosure_fingerprint(symbol, a["headline"])
+            if fp:
+                if fp in holding_seen:
+                    log.info("NEWS EVENT ignored for $%s — same filer + share count already seen "
+                              "on %s, this looks like a source re-publish of an old filing: %s",
+                              symbol, holding_seen[fp], a["headline"])
+                    _log_event(state, mechanism="news_event", symbol=symbol, base_symbol=_base_symbol(symbol),
+                               headline=a["headline"], headline_source=a.get("source") or "",
+                               headline_link=a.get("link") or "",
+                               headline_published_utc=a["published"].isoformat() if a.get("published") else "",
+                               holding_disclosure_fingerprint=fp,
+                               posted="N", skip_reason="holding_disclosure_recycled")
+                    continue
+                holding_seen[fp] = today()
+            deduped.append(a)
+        new_articles = deduped
+
         if new_articles:
             candidates[symbol] = new_articles
 
@@ -2068,12 +2219,19 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
 
     def _queue_item(symbol, classification, method):
         category = classification["category"]
+        meta = next((a for a in candidates[symbol] if a["headline"] == classification["headline"]), {})
         if _news_category_posted_recently(state, symbol, category):
             log.info("NEWS EVENT skipped [%s] for $%s [%s] — already posted this category within "
                      "the last %dh (likely same story, different headline): %s",
                      method, symbol, category, NEWS_CATEGORY_DEDUP_MINUTES // 60, classification["headline"])
+            _log_event(state, mechanism="news_event", storyline="", generation_method=method,
+                       symbol=symbol, base_symbol=_base_symbol(symbol),
+                       headline=classification["headline"], headline_source=meta.get("source") or "",
+                       headline_link=meta.get("link") or "",
+                       headline_published_utc=meta["published"].isoformat() if meta.get("published") else "",
+                       news_category=category,
+                       posted="N", skip_reason="duplicate_category_24h")
             return
-        meta = next((a for a in candidates[symbol] if a["headline"] == classification["headline"]), {})
         # Only attach a link if we could identify a real, named, non-aggregator source —
         # never cite/link Yahoo's or Google's own domain as if it were "the source".
         source = meta.get("source")
@@ -2086,6 +2244,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             "link": link,
             "source": source,
             "method": method,
+            "published": meta.get("published"),
             "queued_min": _epoch_minutes(),
         })
 
@@ -2132,6 +2291,13 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             if age > NEWS_QUEUE_MAX_AGE_MINUTES:
                 log.warning("NEWS EVENT dropped (stale, held %d min) — $%s: %s",
                             age, symbol, classification["headline"])
+                _log_event(state, mechanism="news_event", generation_method=method,
+                           symbol=symbol, base_symbol=_base_symbol(symbol),
+                           headline=classification["headline"], headline_source=item.get("source") or "",
+                           headline_link=item.get("link") or "",
+                           headline_published_utc=item["published"].isoformat() if item.get("published") else "",
+                           news_category=classification["category"],
+                           posted="N", skip_reason="queue_aged_out")
                 continue
 
             # Gemini's outage only blocks Gemini-sourced items — keyword items don't need it.
@@ -2162,6 +2328,13 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                             NEWS_FRESHNESS_HOURS, symbol, classification["headline"])
                 if pool:
                     _refund_slot(state, symbol, pool)
+                _log_event(state, mechanism="news_event", generation_method=method,
+                           symbol=symbol, base_symbol=_base_symbol(symbol),
+                           headline=classification["headline"], headline_source=item.get("source") or "",
+                           headline_link=link or "", news_category=classification["category"],
+                           price=price_ctx.get("price") if price_ctx else "",
+                           change_pct=price_ctx.get("change_pct") if price_ctx else "",
+                           posted="N", skip_reason="confirmed_stale_source")
                 continue
             if method == "gemini":
                 tweet = generate_news_event_tweet(symbol, classification, price_ctx, state,
@@ -2169,6 +2342,16 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             else:
                 tweet = generate_keyword_event_tweet(symbol, classification, price_ctx,
                                                       link=link)
+            log_kwargs = dict(
+                mechanism="news_event", generation_method=method,
+                symbol=symbol, base_symbol=_base_symbol(symbol),
+                headline=classification["headline"], headline_source=item.get("source") or "",
+                headline_link=link or "", news_category=classification["category"],
+                price=price_ctx.get("price") if price_ctx else "",
+                change_pct=price_ctx.get("change_pct") if price_ctx else "",
+                gemini_call_used="Y" if method == "gemini" else "N",
+                gemini_calls_today_after=state.get("gemini_calls_today", 0),
+            )
             if tweet:
                 log.info("News event tweet [%s] (%d chars):\n%s", method, len(tweet), tweet)
                 if post_tweet(tweet, state, pool=("llm" if method == "gemini" else "keyword")):
@@ -2177,7 +2360,13 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                     _record_news_category_posted(state, symbol, classification["category"])
                     state["last_news_post_min"] = _epoch_minutes()
                     released = True
+                    _log_event(state, **log_kwargs, pool_used=("llm" if method == "gemini" else "keyword"),
+                               posted="Y", tweet_text=tweet, tweet_char_count=len(tweet))
                     continue
+                _log_event(state, **log_kwargs, posted="N", skip_reason="post_failed",
+                           tweet_text=tweet, tweet_char_count=len(tweet))
+            else:
+                _log_event(state, **log_kwargs, posted="N", skip_reason="generation_failed")
             if pool:
                 _refund_slot(state, symbol, pool)
             remaining.append(item)
@@ -2403,6 +2592,16 @@ def process_storyline(state: dict, key: str) -> dict:
 
     tweet = generate_market_update_tweet(key, context_tickers, ticker_data, news_data, slot, phase, state)
 
+    primary = context_tickers[0] if context_tickers else ""
+    primary_ctx = ticker_data.get(primary, {})
+    log_kwargs = dict(
+        mechanism="scheduled_slot", storyline=key, slot_type=slot["type"], generation_method="gemini",
+        symbol=primary, base_symbol=_base_symbol(primary) if primary else "",
+        related_tickers=", ".join(f"${_base_symbol(t)}" for t in context_tickers[1:]),
+        market_phase=phase, price=primary_ctx.get("price", ""), change_pct=primary_ctx.get("change_pct", ""),
+        gemini_call_used="Y", gemini_calls_today_after=state.get("gemini_calls_today", 0),
+    )
+
     if tweet:
         log.info("%s tweet (%d chars):\n%s", key.upper(), len(tweet), tweet)
         # FIXED: Mark slot as posted BEFORE attempting to post, ensure all context_tickers get cooldown
@@ -2413,13 +2612,18 @@ def process_storyline(state: dict, key: str) -> dict:
         # Post the tweet (will update daily_posts counter)
         if not post_tweet(tweet, state):
             log.warning("Post failed; slot already marked. Will retry on next cycle if still in window.")
+            _log_event(state, **log_kwargs, posted="N", skip_reason="post_failed",
+                       tweet_text=tweet, tweet_char_count=len(tweet))
         else:
             save_state(state)
+            _log_event(state, **log_kwargs, pool_used="llm", posted="Y",
+                       tweet_text=tweet, tweet_char_count=len(tweet))
     else:
         # Generation failed — slot was never marked posted, so it naturally retries
         # next cycle (as long as it's still within the slot's fire window).
         log.warning("%s tweet generation failed for slot [%s] — will retry next cycle if still in window.",
                     key.upper(), slot["type"])
+        _log_event(state, **log_kwargs, posted="N", skip_reason="generation_failed")
 
     return state
 
@@ -2438,20 +2642,40 @@ def check_zero_llm_weekend_content(state: dict) -> dict:
 
     if weekday == 5 and "12:00" <= now <= "13:00" and zero_llm.get("caption") != today_str:
         text = generate_zero_llm_weekend_post(tickers)
+        caption_kwargs = dict(mechanism="weekend_content", slot_type="caption",
+                               generation_method="zero_llm_template",
+                               related_tickers=", ".join(f"${t}" for t in tickers))
         if text:
             log.info("Zero-LLM weekend caption (%d chars):\n%s", len(text), text)
             if post_tweet(text, state, pool="keyword"):
                 zero_llm["caption"] = today_str
                 save_state(state)
+                _log_event(state, **caption_kwargs, pool_used="keyword", posted="Y",
+                           tweet_text=text, tweet_char_count=len(text))
+            else:
+                _log_event(state, **caption_kwargs, posted="N", skip_reason="post_failed",
+                           tweet_text=text, tweet_char_count=len(text))
+        else:
+            _log_event(state, **caption_kwargs, posted="N", skip_reason="generation_failed")
 
     if weekday == 6 and "14:00" <= now <= "15:00" and zero_llm.get("poll") != today_str:
         result = generate_zero_llm_poll(tickers)
+        poll_kwargs = dict(mechanism="poll", slot_type="poll", generation_method="poll_template",
+                            related_tickers=", ".join(f"${t}" for t in tickers))
         if result:
             question, options = result
             log.info("Zero-LLM weekend poll: %s %s", question, options)
+            poll_text = f"{question} | options: {', '.join(options)}"
             if post_poll(question, options, state):
                 zero_llm["poll"] = today_str
                 save_state(state)
+                _log_event(state, **poll_kwargs, pool_used="keyword", posted="Y",
+                           tweet_text=poll_text, tweet_char_count=len(question))
+            else:
+                _log_event(state, **poll_kwargs, posted="N", skip_reason="post_failed",
+                           tweet_text=poll_text, tweet_char_count=len(question))
+        else:
+            _log_event(state, **poll_kwargs, posted="N", skip_reason="no_volatility_data")
 
     return state
 
@@ -2480,12 +2704,20 @@ def check_zero_llm_pulse(state: dict) -> dict:
         return state
 
     text = generate_zero_llm_pulse(tickers, state)
+    log_kwargs = dict(mechanism="pulse", generation_method="zero_llm_template")
     if text:
         log.info("Zero-LLM pulse (%d chars):\n%s", len(text), text)
         if post_tweet(text, state, pool="pulse"):
             state["last_pulse_post_min"] = _epoch_minutes()
             state["next_pulse_interval"] = random.randint(PULSE_INTERVAL_MIN_MINUTES, PULSE_INTERVAL_MAX_MINUTES)
             save_state(state)
+            _log_event(state, **log_kwargs, pool_used="pulse", posted="Y",
+                       tweet_text=text, tweet_char_count=len(text))
+        else:
+            _log_event(state, **log_kwargs, posted="N", skip_reason="post_failed",
+                       tweet_text=text, tweet_char_count=len(text))
+    else:
+        _log_event(state, **log_kwargs, posted="N", skip_reason="no_valid_mover_data")
 
     return state
 
