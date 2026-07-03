@@ -4,14 +4,14 @@
   "engagement": {},
   "price_snapshots": {
     "LR.PA": 143.65,
-    "SU.PA": 278.6,
-    "ENR.DE": 167.12,
-    "EOAN.DE": 18.71,
-    "IBE.MC": 21.76,
-    "ABBN.SW": 86.42,
-    "RWE.DE": 57.7,
-    "SIE.DE": 281.5,
-    "ENGI.PA": 27.6,
+    "SU.PA": 277.7,
+    "ENR.DE": 167.04,
+    "EOAN.DE": 18.85,
+    "IBE.MC": 21.79,
+    "ABBN.SW": 86.3,
+    "RWE.DE": 57.84,
+    "SIE.DE": 281.15,
+    "ENGI.PA": 27.74,
     "DLR": 173.34,
     "NOK": 12.02,
     "CEG": 240.13,
@@ -92,8 +92,8 @@
       "Ericsson Commits to Full-Stack 5G Core as Nokia Customers Find New Homes",
       "Rakuten Symphony names former Boost, Ericsson tech exec as new RAN lead",
       "Ericsson names Per Narvinger CEO as B\u00f6rje Ekholm steps down after 9-year run",
-      "Ericsson: Global 5G User Base Surpasses 3 Billion as AI Reshapes Mobile Networks",
       "Ericsson CEO Ekholm to step down, be replaced by Per Narvinger",
+      "Ericsson and Intel collaborate to accelerate the path to commercial AI-native 6G",
       "Can NOK's Defense Deal Capitalize on Rising Border Security Demand?"
     ],
     "PWR": [
@@ -373,7 +373,7 @@
       "Bearish Options Bets Slam GE Vernova Ahead Earnings",
       "Cramer's lightning round: Buy GE Vernova",
       "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out",
-      "These 2 Industrial Giants Have Crushed Tesla's Returns Over the Last 12 Months. Will The Party Continue?",
+      "GE Vernova loses renewed bid to end work on New England wind farm",
       "Notable Thursday Option Activity: GLW, PYPL, GEV",
       "GE Vernova Trades at a Premium Valuation: Buy, Hold or Sell the Stock?",
       "Here is What to Know Beyond Why GE Vernova Inc. (GEV) is a Trending Stock"
@@ -433,15 +433,15 @@
       "Multiple Factors Lifted Equinix (EQIX) in Q1",
       "Here\u2019s Why Cisco (CSCO) is Among the 15 Best AI Stocks That Will Make You Rich in 10 Years",
       "AI Data Center Boom Could Drive Fuel Cell Market to $30 Billion by 2030",
+      "Hsbc Holdings PLC Acquires 25,259 Shares of Equinix, Inc. $EQIX",
       "Is Equinix the AI Infrastructure Stock Investors Are Missing Out On?",
       "How Equinix Turns Data Centre Heat into Milan City Heating",
       "Equinix officially retires bare metal offering",
       "Director claims Equinix staged layoff to mask race, age bias",
-      "Equinix Launches AI-Ready Data Center with Direct Connectivity to Hong Kong\u2013Shenzhen Innovation and Technology Park",
       "A2A and Equinix launch data centre heat recovery partnership in Milan",
+      "Equinix Launches AI-Ready Data Center with Direct Connectivity to Hong Kong\u2013Shenzhen Innovation and Technology Park",
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript",
       "Equinix falls as sector-wide REIT weakness appears to outweigh its recent upbeat updates",
-      "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint",
       "Is BB Seguridade Participacoes (BBSEY) Outperforming Other Finance Stocks This Year?"
     ],
     "ETN": [
@@ -587,16 +587,16 @@
       "Siemens and IFS partner to close the loop across the product lifecycle with Industrial AI",
       "Fermi Selects TSK to Advance Engineering for Texas Power Project",
       "Fermi (FRMI) Is Down 7.4% After Governance Rift Deepens Around Project Matador Strategy Shift",
-      "Siemens in Chicago, IL",
+      "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
-      "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice",
-      "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS)",
       "Siemens Energy\u2019s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy to invest $421 million in NC",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "US Production: Siemens North Carolina Manufacturing Facility",
-      "Siemens Healthineers Experience Center USA opens in Charlotte\u2019s Innovation District"
+      "Siemens Healthineers Experience Center USA opens in Charlotte\u2019s Innovation District",
+      "Siemens Achieves $1B in U.S. Manufacturing Investments",
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
     ],
     "NOK": [
       "Nokia (HLSE:NOKIA) Expands Into Defense With Military Networks And Anti Drone Partnerships",
@@ -613,12 +613,12 @@
       "Nokia Corporation Sponsored Stock 12\u2011Month Price Target Raised to $12.07, Implies 16% Downside",
       "Nokia Stock Whipsaws As WallStreetBets Fuels Short-Term Spike",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
+      "Nokia Stock Slides As Bearish Momentum Tests Retail Traders",
       "NOK Stock Slides As Selling Pressure Builds In June",
       "NOK Stock Draws Bullish Targets On AI And 5G Momentum",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
-      "NOK Stock Slides As ADR Declines Rattle Traders",
-      "Nokia Stock Jumps As AI Photonics And Price Targets Rise"
+      "NOK Stock Slides As ADR Declines Rattle Traders"
     ],
     "APLD": [
       "Wall Street Thinks You Should Buy The Dip On Applied Digital (APLD) Stock",
@@ -729,5 +729,5 @@
     }
   ],
   "us_posted": [],
-  "gemini_calls_today": 6
+  "gemini_calls_today": 7
 }
