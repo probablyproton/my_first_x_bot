@@ -3,14 +3,14 @@
   "daily_posts": 1,
   "engagement": {},
   "price_snapshots": {
-    "LR.PA": 143.55,
-    "SU.PA": 280.1,
-    "ENR.DE": 167.68,
-    "EOAN.DE": 19.04,
-    "IBE.MC": 21.78,
-    "ABBN.SW": 86.58,
-    "RWE.DE": 57.82,
-    "SIE.DE": 282.55,
+    "LR.PA": 143.35,
+    "SU.PA": 279.0,
+    "ENR.DE": 167.52,
+    "EOAN.DE": 19.1,
+    "IBE.MC": 21.8,
+    "ABBN.SW": 86.4,
+    "RWE.DE": 57.84,
+    "SIE.DE": 282.7,
     "ENGI.PA": 27.63,
     "DLR": 173.34,
     "NOK": 12.02,
@@ -63,7 +63,6 @@
       "Stock Market Today: Nasdaq Ends Lower As Chip Names Dive; Meta Soars On This News",
       "Brookfield and Bloom Energy Expanded Their AI Power Partnership to $25 Billion",
       "Price Prediction: We\u2019re Bearish on Bloom Energy and See Shares Falling",
-      "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion; Fivefold Increase to Build and Finance Rapid Power for AI Infrastructure",
       "Bloom Energy's Long-Term Rally Is Just Getting Started (NYSE:BE)",
       "Bloom Energy Stock Rallies After The Bell \u2014 Here's Why - Bloom Energy (NYSE:BE)",
       "Bloom Energy rises 12% after partnering with European AI infrastructure upstart in $2.6 billion deal",
@@ -72,7 +71,8 @@
       "Shorting the Grid: Bloom Energy\u2019s $25B AI Power Play",
       "Why Is BE Stock Surging Over 7% In Overnight Trading?",
       "Noteworthy Thursday Option Activity: KOP, BE, IREN",
-      "Bloom Energy vs. Ballard Power: Which Hydrogen Stock Should You Buy?"
+      "Bloom Energy vs. Ballard Power: Which Hydrogen Stock Should You Buy?",
+      "Up 275% This Year: Is It Too Late to Buy Bloom Energy Stock?"
     ],
     "ERIC": [
       "Invitation to media and analyst briefing for Ericsson Q2 2026 report",
@@ -245,8 +245,8 @@
       "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
       "Why I Can\u2019t Stop Buying This Dividend Stock",
       "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers",
-      "An AI trade involving energy and infrastructure that's doubled your money, topping Nvidia",
-      "What Dominion and NextEra Energy\u2019s proposed merger means for Virginia customers"
+      "NextEra to buy Quantum-backed energy firm Caliber, set up US shale JV, sources say",
+      "An AI trade involving energy and infrastructure that's doubled your money, topping Nvidia"
     ],
     "RWE.DE": [
       "FPT Achieves SAP\u00ae Silver Partner Status in the SAP\u00ae PartnerEdge\u00ae Program, Expanding SAP Capabilities for European Enterprises",
@@ -368,15 +368,15 @@
       "Chevron Corporation (CVX) A Top Dividend Aristocrat Stock to Buy amid Growth on New Energies and Strategic Partnerships",
       "AirJoule Unveils Prime System, Clearing Path to Commercialization",
       "GE Vernova's gas turbines aren't the only way it's winning from the AI boom",
-      "Cramer's lightning round: Buy GE Vernova",
       "AI-Driven Turbine Demand Propels GE Vernova, IBD Stock Of The Day, Toward All-Time High",
+      "Hitachi Energy, GE Vernova, Siemens Energy, other power equipment stocks crash up to 10%. Here\u2019s why",
       "Bearish Options Bets Slam GE Vernova Ahead Earnings",
-      "GE Vernova loses renewed bid to end work on New England wind farm",
-      "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
-      "How GE Vernova builds the massive gas turbines powering the AI data center boom",
-      "Five Stocks Near Buy Points. Most Are In This Hot AI Space.",
+      "Cramer's lightning round: Buy GE Vernova",
+      "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out",
       "Notable Thursday Option Activity: GLW, PYPL, GEV",
-      "GE Vernova Was Red Hot in the First Six Months of 2026. Can It Keep the Momentum Going in the Second Half?"
+      "GE Vernova Was Red Hot in the First Six Months of 2026. Can It Keep the Momentum Going in the Second Half?",
+      "Can Rising Demand From AI and Data Centers Benefit NANO Nuclear?",
+      "GE Vernova Trades at a Premium Valuation: Buy, Hold or Sell the Stock?"
     ],
     "TLN": [
       "Talen Energy, Stock Of The Day, Delivers For Amazon, AI Data Centers",
@@ -437,8 +437,8 @@
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript",
       "Is Equinix the AI Infrastructure Stock Investors Are Missing Out On?",
       "Equinix officially retires bare metal offering",
-      "How Equinix Turns Data Centre Heat into Milan City Heating",
       "Director claims Equinix staged layoff to mask race, age bias",
+      "How Equinix Turns Data Centre Heat into Milan City Heating",
       "Equinix Launches AI-Ready Data Center with Direct Connectivity to Hong Kong\u2013Shenzhen Innovation and Technology Park",
       "Equinix falls as sector-wide REIT weakness appears to outweigh its recent upbeat updates",
       "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint",
@@ -501,9 +501,9 @@
       "V&E Appoints Michael Jay as New IP Litigation Partner in LA",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
-      "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
-      "Constellation Energy (CEG) director adds 146 phantom share equivalents",
       "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
+      "Constellation Energy (CEG) director adds 146 phantom share equivalents",
+      "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
       "Constellation Energy Corp stock hits 52-week low at 243.3 USD",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS",
@@ -550,9 +550,9 @@
       "Golden State Warriors and IREN Limited Secure Record-Breaking North American Sponsorship Deal",
       "Golden State and Iren Announce Landmark Partnership | Golden State Warriors",
       "IREN Limited Announces Executive Appointments",
+      "$IREN Ltd (IREN.US)$ help me !! \u26bd\ufe0f\u26bd\ufe0fs deep in fire \ud83d\udd25!!",
       "Noteworthy Thursday Option Activity: KOP, BE, IREN",
-      "3 Artificial Intelligence Stocks You Can Buy and Hold for the Next Decade",
-      "3 Artificial Intelligence (AI) Stocks I'd Buy Now and Never Sell"
+      "3 Artificial Intelligence Stocks You Can Buy and Hold for the Next Decade"
     ],
     "LR.PA": [
       "Legrand Announces the Acquisition of Girtz Industries in the U.S.",
@@ -571,8 +571,8 @@
       "Legrand Powers Armenia's First AI Data Center at Yerevan State University",
       "Scott Legrand Nail Obituary (2026) - -, AL - Crestview Memorial Gardens & Funeral Home",
       "Interview: The Summer Knows \u2013 Melissa Errico at Ronnie Scott\u2019s",
-      "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
+      "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum",
       "Legrand Acquires Girtz Industries"
     ],
@@ -588,7 +588,7 @@
       "Fermi Selects TSK to Advance Engineering for Texas Power Project",
       "Fermi (FRMI) Is Down 7.4% After Governance Rift Deepens Around Project Matador Strategy Shift",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice",
+      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy\u2019s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy to invest $421 million in NC",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
@@ -611,14 +611,14 @@
       "Can Rising Defense Solutions Demand Boost Viasat's Growth Prospects?",
       "NOK Stock Slides As ADR Underperformance Draws Trader Scrutiny",
       "Nokia Corporation Sponsored Stock 12\u2011Month Price Target Raised to $12.07, Implies 16% Downside",
-      "Nokia Stock Whipsaws As WallStreetBets Fuels Short-Term Spike",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
       "NOK Stock Draws Bullish Targets On AI And 5G Momentum",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
       "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
-      "NOK Stock Slides As Volatility And Meme Hype Collide"
+      "NOK Stock Slides As Volatility And Meme Hype Collide",
+      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum"
     ],
     "APLD": [
       "Wall Street Thinks You Should Buy The Dip On Applied Digital (APLD) Stock",
@@ -631,16 +631,16 @@
       "Applied Digital CEO: AI Industry Will See \u201cPretty Significant Delays Through 2026 and 2027\u201d",
       "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now?",
       "Sector Update: Tech Stocks Rise Premarket Monday",
-      "Explaining The Market Divide On Applied Digital \u2014 Does Their Strategy Actually Work",
-      "Applied Digital (APLD) Price Target Raised at Needham by $3",
-      "Applied Digital Reaches Significant Milestone, Surpassing 1 GW of Contracted Capacity with U.S. Based High Investment-Grade Hyperscaler Lease at Fourth Campus, Polaris Forge 3",
       "APLD Stock (Applied Digital Corporation) APLD Stock Analysis | April 23, 2026 Lens \u2013 Paris-sg (GDfLovoa2L)",
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
+      "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
+      "Enterprise value to revenue forward of Applied Digital Corporation \u2013 NASDAQ:APLD",
+      "Explaining The Market Divide On Applied Digital \u2014 Does Their Strategy Actually Work",
+      "Applied Digital (NASDAQ: APLD) Stock Price Looks Fully Valued Despite 337% Surge, Analysts Remain Bullish",
+      "Applied Digital Corporation(NasdaqGS:APLD) dropped from Russell 2000 Value Benchmark",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
-      "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day",
-      "Synopsys vs. Applied Digital: Which AI Stock Has an Edge Right Now?",
-      "Could Applied Digital (APLD) Stock Triple by 2030?"
+      "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day"
     ]
   },
   "pending_news_posts": [],
@@ -729,5 +729,6 @@
     }
   ],
   "us_posted": [],
-  "gemini_calls_today": 18
+  "gemini_calls_today": 18,
+  "eu_flexible_used": 0
 }
