@@ -27,6 +27,7 @@ import requests
 import yfinance as yf
 import urllib.request
 import urllib.error
+import pandas_market_calendars as mcal
 from dotenv import load_dotenv
 from playwright.sync_api import sync_playwright
 
@@ -186,44 +187,65 @@ def is_weekend() -> bool:
     return datetime.date.today().weekday() >= 5
 
 
-_holiday_cache: dict[str, bool] = {}
+# Derived from the Yahoo Finance ticker suffix, not a per-ticker table — works automatically
+# for any future watchlist addition using the same suffix convention. The EU watchlist spans
+# four distinct national exchanges with four distinct holiday calendars (a French-only holiday
+# doesn't close Xetra, and vice versa), so "EU" can't be treated as a single calendar the way the
+# rest of this file treats it as a single storyline for scheduling/budget purposes.
+_SUFFIX_TO_EXCHANGE = {
+    ".PA": "XPAR",  # Euronext Paris
+    ".DE": "XETR",  # Deutsche Börse / Xetra
+    ".SW": "XSWX",  # SIX Swiss Exchange
+    ".MC": "XMAD",  # Bolsa de Madrid
+}
 
 
-def _is_market_holiday(group: str) -> bool:
-    """True if the group's exchange has no session today, despite it being a weekday — bank
-    holidays (Independence Day, Christmas, etc., including a weekend holiday's observed weekday
-    shift) aren't tracked by is_weekend() at all. Rather than hand-maintain a date list that
-    silently goes stale every year, this uses yfinance's own data as the source of truth: on a
-    real trading day, once the session opens, intraday bars for TODAY appear within a minute or
-    two; on a holiday, the freshest available bar stays dated to the prior session all day. Only
-    meaningful once called at/after the scheduled open — the caller gates on time-of-day first,
-    so this is never asked to distinguish "holiday" from "hasn't opened yet today" pre-open."""
-    if group in _holiday_cache:
-        return _holiday_cache[group]
-    watchlist = EU_WATCHLIST if group == "eu" else US_WATCHLIST
-    representative = watchlist[0] if watchlist else None
-    if not representative:
-        _holiday_cache[group] = False
-        return False
+def _exchange_for(symbol: str) -> str:
+    for suffix, code in _SUFFIX_TO_EXCHANGE.items():
+        if symbol.endswith(suffix):
+            return code
+    return "NYSE"  # no-suffix tickers are US-listed; NASDAQ observes the same holiday schedule
+
+
+_exchange_open_cache: dict[str, bool] = {}
+
+
+def _exchange_open_today(exchange_code: str) -> bool:
+    """Forward-looking holiday check via pandas_market_calendars, not a hand-maintained date
+    list that silently goes stale every year, and not a data-absence check either — this works
+    just as well before the open as after, so it also catches a holiday morning's pre-market
+    slot (a data-absence check can't, since there's no session yet to be missing from either way).
+    Cached per-process since it's the same answer all day for a given exchange."""
+    if exchange_code in _exchange_open_cache:
+        return _exchange_open_cache[exchange_code]
     try:
-        hist = yf.Ticker(representative).history(period="1d", interval="5m", prepost=True)
-        is_holiday = hist.empty or hist.index[-1].date() != datetime.date.today()
+        today = datetime.date.today()
+        sched = mcal.get_calendar(exchange_code).schedule(start_date=today, end_date=today)
+        is_open = not sched.empty
     except Exception as e:
-        log.warning("Holiday check failed for %s, assuming trading day: %s", representative, e)
-        is_holiday = False
-    _holiday_cache[group] = is_holiday
-    return is_holiday
+        log.warning("Exchange calendar check failed for %s, assuming open: %s", exchange_code, e)
+        is_open = True
+    _exchange_open_cache[exchange_code] = is_open
+    return is_open
+
+
+def _ticker_exchange_open_today(symbol: str) -> bool:
+    return _exchange_open_today(_exchange_for(symbol))
 
 
 def _is_market_open_for(symbol: str) -> bool:
-    """Whether the ticker's home market (EU or US) is currently in its trading session."""
+    """Whether the ticker's home exchange is currently in its trading session — per-exchange,
+    not per-storyline, so a Xetra-only holiday correctly leaves Euronext Paris/SIX/Madrid tickers
+    open (and vice versa)."""
     if is_weekend():
+        return False
+    if not _ticker_exchange_open_today(symbol):
         return False
     now = now_hhmm()
     if symbol in EU_WATCHLIST:
-        return "09:00" <= now <= "17:30" and not _is_market_holiday("eu")
+        return "09:00" <= now <= "17:30"
     if symbol in US_WATCHLIST:
-        return "15:30" <= now <= "22:00" and not _is_market_holiday("us")
+        return "15:30" <= now <= "22:00"
     # Unknown / off-watchlist ticker — fall back to the broader combined window
     return "09:00" <= now <= "22:00"
 
@@ -242,29 +264,32 @@ def _gemini_news_hours_active() -> bool:
 def market_phase(key: str) -> str:
     """Return 'weekend', 'pre_market', 'open', or 'post_market' for the given storyline.
 
-    On a bank holiday, 'open'/'post_market' fall back to 'weekend' treatment (no live price
-    framing, news-grounded content) via _is_market_holiday — reusing 'weekend' rather than adding
-    a distinct phase since the correct framing is identical either way. This only works once the
-    scheduled open has passed, since holiday detection needs to see that no fresh same-day data
-    ever showed up; a holiday morning's pre-market slot can't be caught this way (there's no
-    session yet to be missing at that point, same as any normal pre-market check) — a known,
-    narrower residual gap, not a full fix."""
+    On a day where EVERY exchange in this storyline's watchlist is closed for a holiday, returns
+    'weekend' regardless of time of day — reusing 'weekend' rather than a distinct phase since the
+    correct framing (no live price references, news-grounded content) is identical either way. If
+    only SOME exchanges are closed (e.g. Xetra closed, Euronext Paris/SIX/Madrid open), the
+    storyline stays in its normal phase — the ranking logic in process_storyline separately
+    excludes just the closed-exchange tickers, so coverage reallocates to whichever exchanges are
+    actually open rather than the whole EU post going quiet. Calendar-based (via
+    _ticker_exchange_open_today), so unlike a data-absence check, this works before the open too —
+    a holiday morning's pre-market slot is caught, not just the after-open phases."""
     if is_weekend():
         return "weekend"
+
+    watchlist = EU_WATCHLIST if key == "eu" else US_WATCHLIST if key == "us" else []
+    if watchlist and not any(_ticker_exchange_open_today(t) for t in watchlist):
+        return "weekend"
+
     now = now_hhmm()
     if key == "eu":
         if now < "09:00":
             return "pre_market"
-        if _is_market_holiday("eu"):
-            return "weekend"
         if now <= "17:30":
             return "open"
         return "post_market"
     if key == "us":
         if now < "15:30":
             return "pre_market"
-        if _is_market_holiday("us"):
-            return "weekend"
         if now <= "22:00":
             return "open"
         return "post_market"
@@ -2161,10 +2186,16 @@ def process_storyline(state: dict, key: str) -> dict:
     phase   = market_phase(key)
     overlap = in_overlap_window()
 
-    # Collect eligible tickers (not on 120-min cooldown)
+    # Collect eligible tickers (not on 120-min cooldown, and — on a partial-holiday day — not on
+    # a closed exchange, so a Xetra holiday reallocates coverage to open Euronext Paris/SIX/Madrid
+    # names instead of just posting less. Skipped when phase is already 'weekend': that means
+    # EVERY exchange in this storyline is closed today, and the weekend branch below ranks by
+    # news/last-close instead of live movement, so excluding everything here would leave nothing.
     eligible = [t for t in watchlist if not _ticker_on_cooldown(state, t)]
+    if phase != "weekend":
+        eligible = [t for t in eligible if _ticker_exchange_open_today(t)]
     if not eligible:
-        log.info("%s slot skipped — all tickers on cooldown", key.upper())
+        log.info("%s slot skipped — all tickers on cooldown or exchange closed", key.upper())
         return state
 
     # Fetch price for all eligible tickers, rank by absolute daily move
