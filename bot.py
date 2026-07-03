@@ -1318,10 +1318,11 @@ Keep it casual, direct, under 280 characters."""))
                 f"${_base_symbol(t)}: {headlines[0]}" if (headlines := news_by_ticker.get(t)) else f"${_base_symbol(t)}: no notable headline this week"
                 for t in top5_sorted
             )
+            n = len(top5_sorted)
             posts.append(("wednesday", f"""Write a midweek engagement post for a financial Twitter account.
 
 This week's biggest movers, already sorted from biggest gain to biggest loss (net % change since
-Monday's open):
+Monday's open) — {n} ticker{'s' if n != 1 else ''} total, exactly as many as listed below, none missing:
 {vol_lines}
 
 A recent headline per ticker, for context on what may be driving the move:
@@ -1333,10 +1334,10 @@ Format:
   together why these stocks moved. If the headlines don't genuinely support a shared driver, name the
   single standout mover and its move instead of inventing a connection. Never a generic line like
   "the week has seen volatility" that could apply to any week.
-- List the 5 tickers on separate lines with their % figure, in the EXACT order given above — do NOT
-  resort alphabetically, the gain-to-loss order is the point of this post
-- End with a simple, clear hypothetical: if you had $1000 to invest right now, how would you split it across
-  these 5? Phrase this fresh each time in your own words – don't reuse the same wording as a template.
+- List {'the ticker' if n == 1 else f'all {n} tickers'} on separate lines with their % figure, in the
+  EXACT order given above — do NOT resort alphabetically (the gain-to-loss order is the point) and do
+  NOT add or invent any ticker not in that list.
+- End with a simple, clear hypothetical: {"if you had $1000 to invest right now, would you put it into this one or hold off?" if n == 1 else f"if you had $1000 to invest right now, how would you split it across these {n}?"} Phrase this fresh each time in your own words – don't reuse the same wording as a template.
 
 Use a line break between the opener, the ticker list, and the closing question. Keep it simple, clear,
 casual, engaging. Under 280 characters."""))
