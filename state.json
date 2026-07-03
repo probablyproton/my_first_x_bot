@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-03",
-  "daily_posts": 1,
+  "date": "2026-07-04",
+  "daily_posts": 0,
   "engagement": {},
   "price_snapshots": {
     "LR.PA": 144.0,
@@ -644,7 +644,7 @@
     ]
   },
   "pending_news_posts": [],
-  "daily_keyword_posts": 1,
+  "daily_keyword_posts": 0,
   "last_posted": {
     "BE": 1337,
     "SU.PA": 541,
@@ -701,45 +701,8 @@
     }
   },
   "last_news_post_min": 29718377,
-  "eu_slots": [
-    {
-      "slot": 0,
-      "type": "hook",
-      "target_time": "08:50",
-      "fire_time": "08:54"
-    },
-    {
-      "slot": 1,
-      "type": "close_summary",
-      "target_time": "17:40",
-      "fire_time": "17:41"
-    }
-  ],
-  "eu_posted": [
-    0,
-    1
-  ],
-  "us_slots": [
-    {
-      "slot": 0,
-      "type": "hook",
-      "target_time": "15:10",
-      "fire_time": "15:05"
-    },
-    {
-      "slot": 1,
-      "type": "wrap",
-      "target_time": "22:10",
-      "fire_time": "22:05"
-    }
-  ],
-  "us_posted": [
-    0,
-    1
-  ],
-  "gemini_calls_today": 18,
-  "eu_flexible_used": 0,
-  "daily_pulse_posts": 3,
+  "gemini_calls_today": 0,
+  "daily_pulse_posts": 0,
   "last_pulse_post_min": 29718166,
   "next_pulse_interval": 50,
   "pulse_template_decks": {
@@ -751,5 +714,36 @@
       3
     ]
   },
-  "holding_disclosures_seen": {}
+  "holding_disclosures_seen": {},
+  "eu_slots": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "target_time": "10:00",
+      "fire_time": "10:00"
+    },
+    {
+      "slot": 1,
+      "type": "wrap",
+      "target_time": "18:00",
+      "fire_time": "17:57"
+    }
+  ],
+  "eu_posted": [],
+  "us_slots": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "target_time": "10:00",
+      "fire_time": "10:03"
+    },
+    {
+      "slot": 1,
+      "type": "wrap",
+      "target_time": "18:00",
+      "fire_time": "18:00"
+    }
+  ],
+  "us_posted": [],
+  "zero_llm_posts": {}
 }
