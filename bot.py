@@ -89,7 +89,10 @@ DAILY_KEYWORD_POST_LIMIT = int(os.getenv("DAILY_KEYWORD_POST_LIMIT", "15"))
 # depend on whether anything "major" happened. Kept in a separate pool from DAILY_KEYWORD_POST_LIMIT
 # on purpose: sharing that pool would mean either a busy news day starves the heartbeat, or the
 # heartbeat crowds out real news — both defeat the point of one or the other.
-PULSE_INTERVAL_MINUTES = int(os.getenv("PULSE_INTERVAL_MINUTES", "50"))
+# The gap itself is randomized fresh within this range each time (not a fixed base +/- jitter) —
+# a hard fixed interval would make the account's automation trivially obvious from the outside.
+PULSE_INTERVAL_MIN_MINUTES = int(os.getenv("PULSE_INTERVAL_MIN_MINUTES", "45"))
+PULSE_INTERVAL_MAX_MINUTES = int(os.getenv("PULSE_INTERVAL_MAX_MINUTES", "60"))
 DAILY_PULSE_POST_LIMIT = int(os.getenv("DAILY_PULSE_POST_LIMIT", "18"))
 
 # Maps a post's pool to its (state counter key, daily limit) — one shared lookup so post_tweet/
@@ -457,10 +460,22 @@ PULSE_QUIET_TEMPLATES = [
 ]
 
 
-def generate_zero_llm_pulse(tickers: list[str]) -> str | None:
-    """Fill a random template with the biggest live mover right now. No Gemini call. Only
-    considers tickers whose market is actually open, so the number shown is always live, not a
-    stale closed-market print."""
+def _draw_template(state: dict, pool_key: str, templates: list[str]) -> str:
+    """Draw without replacement from a shuffled deck of template indices, reshuffling only once
+    the deck is empty. Firing up to ~18x/day from a pool of 5-7 templates, plain random.choice()
+    would visibly repeat within just a few posts (and could repeat back-to-back) — this
+    guarantees every template gets used once before any of them repeat."""
+    deck = state.setdefault("pulse_template_decks", {}).setdefault(pool_key, [])
+    if not deck:
+        deck.extend(range(len(templates)))
+        random.shuffle(deck)
+    return templates[deck.pop()]
+
+
+def generate_zero_llm_pulse(tickers: list[str], state: dict) -> str | None:
+    """Fill a template with the biggest live mover right now. No Gemini call. Only considers
+    tickers whose market is actually open, so the number shown is always live, not a stale
+    closed-market print."""
     open_tickers = [t for t in tickers if _is_market_open_for(t)]
     if not open_tickers:
         return None
@@ -483,8 +498,10 @@ def generate_zero_llm_pulse(tickers: list[str]) -> str | None:
         "sign": "+" if pct >= 0 else "",
     }
 
-    templates = PULSE_MOVER_TEMPLATES if abs(pct) >= 1.5 else PULSE_QUIET_TEMPLATES
-    text = random.choice(templates).format(**values)
+    if abs(pct) >= 1.5:
+        text = _draw_template(state, "mover", PULSE_MOVER_TEMPLATES).format(**values)
+    else:
+        text = _draw_template(state, "quiet", PULSE_QUIET_TEMPLATES).format(**values)
     return text if len(text) <= 280 else None
 
 
@@ -2202,29 +2219,34 @@ def check_zero_llm_weekend_content(state: dict) -> dict:
 
 
 def check_zero_llm_pulse(state: dict) -> dict:
-    """Guaranteed ~PULSE_INTERVAL_MINUTES cadence, independent of Gemini's budget and of whether
-    any qualifying news/price event happened — a heartbeat, not a reaction. Covers the combined
-    EU+US trading day (09:00-22:00 CET always has at least one market open, given EU runs
-    09:00-17:30 and US runs 15:30-22:00)."""
+    """Guaranteed cadence (a fresh random gap within PULSE_INTERVAL_MIN/MAX_MINUTES each time,
+    not a fixed interval), independent of Gemini's budget and of whether any qualifying
+    news/price event happened — a heartbeat, not a reaction. Covers the combined EU+US trading
+    day (09:00-22:00 CET always has at least one market open, given EU runs 09:00-17:30 and US
+    runs 15:30-22:00)."""
     if is_weekend():
         return state
     now = now_hhmm()
     if not ("09:00" <= now <= "22:00"):
         return state
 
+    if "next_pulse_interval" not in state:
+        state["next_pulse_interval"] = random.randint(PULSE_INTERVAL_MIN_MINUTES, PULSE_INTERVAL_MAX_MINUTES)
+
     last_pulse_min = state.get("last_pulse_post_min", 0)
-    if _epoch_minutes() - last_pulse_min < PULSE_INTERVAL_MINUTES:
+    if _epoch_minutes() - last_pulse_min < state["next_pulse_interval"]:
         return state
 
     tickers = EU_WATCHLIST + US_WATCHLIST
     if not tickers:
         return state
 
-    text = generate_zero_llm_pulse(tickers)
+    text = generate_zero_llm_pulse(tickers, state)
     if text:
         log.info("Zero-LLM pulse (%d chars):\n%s", len(text), text)
         if post_tweet(text, state, pool="pulse"):
             state["last_pulse_post_min"] = _epoch_minutes()
+            state["next_pulse_interval"] = random.randint(PULSE_INTERVAL_MIN_MINUTES, PULSE_INTERVAL_MAX_MINUTES)
             save_state(state)
 
     return state
