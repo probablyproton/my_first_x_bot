@@ -84,6 +84,22 @@ GEMINI_DAILY_CALL_LIMIT = int(os.getenv("GEMINI_DAILY_CALL_LIMIT", "18"))
 # news day, not a budget tied to any API limit. Worst case combined with DAILY_POST_LIMIT: ~35/day.
 DAILY_KEYWORD_POST_LIMIT = int(os.getenv("DAILY_KEYWORD_POST_LIMIT", "15"))
 
+# Zero-LLM cadence heartbeat, independent of both Gemini's budget and real news volume — a
+# templated "biggest mover right now" snapshot on its own clock, so posting frequency doesn't
+# depend on whether anything "major" happened. Kept in a separate pool from DAILY_KEYWORD_POST_LIMIT
+# on purpose: sharing that pool would mean either a busy news day starves the heartbeat, or the
+# heartbeat crowds out real news — both defeat the point of one or the other.
+PULSE_INTERVAL_MINUTES = int(os.getenv("PULSE_INTERVAL_MINUTES", "50"))
+DAILY_PULSE_POST_LIMIT = int(os.getenv("DAILY_PULSE_POST_LIMIT", "18"))
+
+# Maps a post's pool to its (state counter key, daily limit) — one shared lookup so post_tweet/
+# post_poll don't duplicate this logic, and adding a new pool later is a one-line change here.
+_POST_POOLS = {
+    "llm":     ("daily_posts", DAILY_POST_LIMIT),
+    "keyword": ("daily_keyword_posts", DAILY_KEYWORD_POST_LIMIT),
+    "pulse":   ("daily_pulse_posts", DAILY_PULSE_POST_LIMIT),
+}
+
 # ── Slot definitions ────────────────────────────────────────────────────────[.[...]
 
 # Each storyline gets exactly 2 scheduled posts/day (pre-market + close). The rest of that
@@ -418,6 +434,60 @@ def generate_zero_llm_weekend_post(tickers: list[str]) -> str | None:
     return text if len(text) <= 280 else None
 
 
+# Weekday cadence heartbeat — a templated "biggest mover right now" snapshot, zero Gemini calls,
+# fired on its own clock (see check_zero_llm_pulse) rather than triggered by news or a move
+# threshold. Two pools so a quiet market isn't dressed up as exciting — matches the same
+# anti-hallucination principle used for pre-market framing elsewhere in this file.
+PULSE_MOVER_TEMPLATES = [
+    "${base} leading the tape right now: {sign}{pct}% to ${price}.",
+    "Biggest mover this hour: ${base} {sign}{pct}% at ${price}.",
+    "${base} standing out at {sign}{pct}%, now ${price}.",
+    "Live check: ${base} {sign}{pct}% to ${price} – the standout so far.",
+    "${base} is the one to watch right now – {sign}{pct}% at ${price}.",
+    "Hourly check-in: ${base} {sign}{pct}% to ${price}, well ahead of the rest of the board.",
+    "${base} pulling away at {sign}{pct}%, now trading at ${price}.",
+]
+
+PULSE_QUIET_TEMPLATES = [
+    "Quiet stretch across the board – ${base} holding near flat at ${price}.",
+    "Nothing dramatic this hour. ${base} sits at ${price} ({sign}{pct}%).",
+    "Calm session so far – ${base} at ${price}, barely moved ({sign}{pct}%).",
+    "${base} holding steady at ${price} ({sign}{pct}%) – a quiet stretch for the group.",
+    "Low-key hour across the watchlist. ${base} at ${price}, {sign}{pct}%.",
+]
+
+
+def generate_zero_llm_pulse(tickers: list[str]) -> str | None:
+    """Fill a random template with the biggest live mover right now. No Gemini call. Only
+    considers tickers whose market is actually open, so the number shown is always live, not a
+    stale closed-market print."""
+    open_tickers = [t for t in tickers if _is_market_open_for(t)]
+    if not open_tickers:
+        return None
+
+    contexts = {}
+    for t in open_tickers:
+        ctx = get_price_context(t)
+        if ctx:
+            contexts[t] = ctx
+    if not contexts:
+        return None
+
+    base_t = max(contexts, key=lambda t: abs(contexts[t]["change_pct"]))
+    ctx = contexts[base_t]
+    pct = ctx["change_pct"]
+    values = {
+        "base": _base_symbol(base_t),
+        "price": ctx["price"],
+        "pct": pct,
+        "sign": "+" if pct >= 0 else "",
+    }
+
+    templates = PULSE_MOVER_TEMPLATES if abs(pct) >= 1.5 else PULSE_QUIET_TEMPLATES
+    text = random.choice(templates).format(**values)
+    return text if len(text) <= 280 else None
+
+
 def generate_zero_llm_poll(tickers: list[str]) -> tuple[str, list[str]] | None:
     """Pick this week's top-volatility tickers as poll options. No Gemini call."""
     vol = get_recent_volatility(tickers, sessions=5)
@@ -514,6 +584,7 @@ def ensure_daily_plans(state: dict) -> dict:
         state["date"] = today()
         state["daily_posts"] = 0
         state["daily_keyword_posts"] = 0
+        state["daily_pulse_posts"] = 0
         state["gemini_calls_today"] = 0
         for key in ("eu", "us"):
             state.pop(f"{key}_flexible_used", None)
@@ -1274,16 +1345,14 @@ def _apply_stealth(page):
         pass
 
 
-def post_tweet(text: str, state: dict, is_llm: bool = True) -> bool:
-    counter_key = "daily_posts" if is_llm else "daily_keyword_posts"
-    limit       = DAILY_POST_LIMIT if is_llm else DAILY_KEYWORD_POST_LIMIT
+def post_tweet(text: str, state: dict, pool: str = "llm") -> bool:
+    counter_key, limit = _POST_POOLS[pool]
     if state.get(counter_key, 0) >= limit:
-        log.info("Daily %s post limit (%d) reached – skipping", "LLM" if is_llm else "keyword", limit)
+        log.info("Daily %s post limit (%d) reached – skipping", pool, limit)
         return False
 
     if DRY_RUN:
-        log.info("[DRY RUN] (%d/%d %s)\n%s", state.get(counter_key, 0) + 1, limit,
-                  "LLM" if is_llm else "keyword", text)
+        log.info("[DRY RUN] (%d/%d %s)\n%s", state.get(counter_key, 0) + 1, limit, pool, text)
         state[counter_key] = state.get(counter_key, 0) + 1
         return True
 
@@ -1345,7 +1414,7 @@ def post_tweet(text: str, state: dict, is_llm: bool = True) -> bool:
             browser.close()
 
         state[counter_key] = state.get(counter_key, 0) + 1
-        log.info("Posted (%d/%d %s): %s", state[counter_key], limit, "LLM" if is_llm else "keyword", text[:80])
+        log.info("Posted (%d/%d %s): %s", state[counter_key], limit, pool, text[:80])
         return True
 
     except Exception as e:
@@ -1866,7 +1935,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                                                       link=link)
             if tweet:
                 log.info("News event tweet [%s] (%d chars):\n%s", method, len(tweet), tweet)
-                if post_tweet(tweet, state, is_llm=(method == "gemini")):
+                if post_tweet(tweet, state, pool=("llm" if method == "gemini" else "keyword")):
                     cooldowns[f"news_{symbol}"] = now_minutes()
                     _record_ticker_post(state, symbol)
                     _record_news_category_posted(state, symbol, classification["category"])
@@ -2116,7 +2185,7 @@ def check_zero_llm_weekend_content(state: dict) -> dict:
         text = generate_zero_llm_weekend_post(tickers)
         if text:
             log.info("Zero-LLM weekend caption (%d chars):\n%s", len(text), text)
-            if post_tweet(text, state, is_llm=False):
+            if post_tweet(text, state, pool="keyword"):
                 zero_llm["caption"] = today_str
                 save_state(state)
 
@@ -2132,10 +2201,52 @@ def check_zero_llm_weekend_content(state: dict) -> dict:
     return state
 
 
+def check_zero_llm_pulse(state: dict) -> dict:
+    """Guaranteed ~PULSE_INTERVAL_MINUTES cadence, independent of Gemini's budget and of whether
+    any qualifying news/price event happened — a heartbeat, not a reaction. Covers the combined
+    EU+US trading day (09:00-22:00 CET always has at least one market open, given EU runs
+    09:00-17:30 and US runs 15:30-22:00)."""
+    if is_weekend():
+        return state
+    now = now_hhmm()
+    if not ("09:00" <= now <= "22:00"):
+        return state
+
+    last_pulse_min = state.get("last_pulse_post_min", 0)
+    if _epoch_minutes() - last_pulse_min < PULSE_INTERVAL_MINUTES:
+        return state
+
+    tickers = EU_WATCHLIST + US_WATCHLIST
+    if not tickers:
+        return state
+
+    text = generate_zero_llm_pulse(tickers)
+    if text:
+        log.info("Zero-LLM pulse (%d chars):\n%s", len(text), text)
+        if post_tweet(text, state, pool="pulse"):
+            state["last_pulse_post_min"] = _epoch_minutes()
+            save_state(state)
+
+    return state
+
+
 def run_cycle(state: dict) -> dict:
+    global _gemini_unavailable
     state = ensure_daily_plans(state)
+
+    # _gemini_unavailable is a fresh per-process flag (correctly reset every cron run so a
+    # transient outage doesn't persist past it) but gemini_calls_today persists in state.json
+    # across cycles. Without this check, every cycle for the rest of the day would have to
+    # rediscover an already-exhausted daily budget reactively — consuming a slot, fetching real
+    # news context, THEN failing the Gemini call — instead of skipping Gemini-dependent work
+    # up front. This makes that discovery proactive.
+    if state.get("gemini_calls_today", 0) >= GEMINI_DAILY_CALL_LIMIT:
+        _gemini_unavailable = True
+        log.warning("Gemini daily call limit (%d) already reached — skipping all Gemini-dependent "
+                    "work this cycle", GEMINI_DAILY_CALL_LIMIT)
     state = check_weekly_engagement(state)
     state = check_zero_llm_weekend_content(state)
+    state = check_zero_llm_pulse(state)
     state = process_storyline(state, "eu")
     state = process_storyline(state, "us")
 
