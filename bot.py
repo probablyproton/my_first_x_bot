@@ -382,6 +382,58 @@ def get_price_context(symbol: str) -> dict:
         return {}
 
 
+def _find_move_timestamp(symbol: str) -> datetime.datetime | None:
+    """Identifies the approximate UTC moment of the day's sharpest price move, if the day had a
+    genuinely catalyst-shaped one — used to correlate against news publish times so a price-event
+    tweet can be grounded in the headline whose timing actually lines up with the move, instead of
+    handing the model an undifferentiated list of "recent headlines" and letting it guess (or
+    invent) a connection. Returns None when the day's move looks like gradual drift rather than a
+    single sharp jump — no one window accounts for a meaningful share of the day's total change —
+    since there's no honest "moment" to correlate news against in that case."""
+    try:
+        hist = yf.Ticker(symbol).history(period="1d", interval="5m", prepost=True)
+        if hist.empty or len(hist) < 2:
+            return None
+        closes = hist["Close"]
+        total_move_pct = abs((closes.iloc[-1] - closes.iloc[0]) / closes.iloc[0] * 100)
+        if total_move_pct < 1:
+            return None  # too small a day to meaningfully attribute to anything
+        step_pct = closes.pct_change().abs() * 100
+        biggest_idx = step_pct.idxmax()
+        biggest_step_pct = step_pct.loc[biggest_idx]
+        if biggest_step_pct < 1 or biggest_step_pct < 0.4 * total_move_pct:
+            return None  # gradual drift, no single sharp moment to point to
+        ts = biggest_idx.to_pydatetime()
+        if ts.tzinfo is not None:
+            ts = ts.astimezone(datetime.timezone.utc).replace(tzinfo=None)
+        return ts
+    except Exception as e:
+        log.warning("Move-timestamp detection failed for %s: %s", symbol, e)
+        return None
+
+
+def _closest_headline_to_move(move_time: datetime.datetime, articles: list[dict]) -> dict | None:
+    """Among fresh articles, find the one published closest to the move timestamp — a generous
+    lookback (reporting/data lag is common) but only a short lookahead (a headline can't cause a
+    move that already happened well before it existed). Returns None if nothing lines up within a
+    plausible window, which the caller should treat as "no confirmed catalyst," not license to
+    guess."""
+    MAX_LOOKBACK  = datetime.timedelta(hours=4)
+    MAX_LOOKAHEAD = datetime.timedelta(minutes=30)
+    best, best_delta = None, None
+    for a in articles:
+        if not a.get("published"):
+            continue
+        if _is_generic_analysis_piece(a["headline"]):
+            continue  # a coincidentally-timed analyst-roundup/opinion piece isn't a real catalyst
+        delta = move_time - a["published"]
+        if -MAX_LOOKAHEAD <= delta <= MAX_LOOKBACK:
+            abs_delta = abs(delta)
+            if best_delta is None or abs_delta < best_delta:
+                best, best_delta = a, abs_delta
+    return best
+
+
 def get_week_performance(symbols: list[str]) -> dict[str, float]:
     result = {}
     for symbol in symbols:
@@ -694,7 +746,11 @@ Write one concise, engaging tweet about the provided stock using only the suppli
 ## Rules
 - NEVER invent or infer market conditions, catalysts, or facts not present in the provided data.
 - If a headline mentions another company, reference only what that headline actually says — never fabricate what other stocks are doing.
-- Reference at least one provided headline specifically. Specific beats vague, always.
+- Only claim a specific event caused this move if the data explicitly marks it as a confirmed,
+  timing-matched catalyst. If the data instead says no headline lines up with the move's timing,
+  or that the move looks like gradual drift, do NOT attach a cause — describe the price action
+  itself (the move, the intraday range) with real conviction. A move without a known cause is
+  still worth a sharp tweet; an invented cause is worse than none.
 - Mention the ticker, current price, and % daily change where relevant.
 - Reference the stock only via its bare $TICKER symbol (e.g. $VRT). Never spell out the company
   name in place of, or alongside in parentheses, the ticker.
@@ -807,7 +863,7 @@ You are writing a weekly engagement post for a financial Twitter account trackin
 Post text only. No quotes, no commentary."""
 
 
-def generate_tweet(symbol: str, slot: dict, price_ctx: dict, community: list[str],
+def generate_tweet(symbol: str, slot: dict, price_ctx: dict,
                    state: dict, event_trigger: str = "") -> str | None:
     # Only ever called by check_price_events, which is itself gated to a ticker's real
     # market hours — so this is always a live, in-session reaction. No other phase is
@@ -822,8 +878,34 @@ def generate_tweet(symbol: str, slot: dict, price_ctx: dict, community: list[str
 
     phase_instruction = "Market is open. React to live price action and news."
 
-    news_block = "\n".join(f"- {m}" for m in community) if community else ""
-    news_section = f"\nRecent news headlines (reference at least one in your tweet):\n{news_block}" if news_block else "\nNo recent news available – use the angle and price context only."
+    # Ground the reaction in a headline whose PUBLISH TIME actually lines up with when this move
+    # happened, instead of handing the model an undifferentiated list of "recent headlines" and
+    # letting it guess (or invent) which one, if any, is the reason — that's exactly the "random
+    # LLM insight" failure mode this is meant to close off.
+    move_time = _find_move_timestamp(symbol)
+    articles = get_ticker_context_with_dates(symbol, max_messages=10)
+    catalyst = _closest_headline_to_move(move_time, articles) if move_time else None
+
+    if catalyst:
+        news_section = (
+            f"\n\nLIKELY CATALYST — the only headline whose publish time actually lines up with "
+            f"this move: \"{catalyst['headline']}\". This is a confirmed timing match (published "
+            f"within a few hours before the move), not just a recent story — ground your "
+            f"reaction in it specifically."
+        )
+    elif move_time:
+        news_section = (
+            "\n\nNo headline lines up with the timing of this specific move. Do NOT guess or "
+            "invent a cause — describe the price action itself (the move, the intraday range) "
+            "with conviction, without attaching a narrative reason."
+        )
+    else:
+        news_section = (
+            "\n\nThis move looks like gradual drift across the session, not a single sharp "
+            "catalyst moment. Do NOT invent a single triggering event — if you reference a cause "
+            "at all, frame it as a steady trend, not a reaction to one thing."
+        )
+
     angle      = event_trigger if event_trigger else slot["angle"]
     tweet_type = "event"      if event_trigger else slot["type"]
 
@@ -938,6 +1020,7 @@ _ANALYSIS_PIECE_PATTERNS = [
     re.compile(r"\bwhy\s+.+\s+is(n'?t)?\s+a\s+good\s+investment\b", re.I),
     re.compile(r"\bis\s+it\s+time\s+to\s+buy\b", re.I),
     re.compile(r"\bworth\s+(buying|investing)\b", re.I),
+    re.compile(r"\bwhat\s+analysts?\s+think\b", re.I),
 ]
 
 
@@ -1684,9 +1767,8 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
             continue
 
         log.info("PRICE EVENT triggered for $%s: %s", symbol, trigger)
-        community = get_ticker_context(symbol)
         slot  = {"type": "event", "format": "short", "angle": trigger}
-        tweet = generate_tweet(symbol, slot, price_ctx, community, state, event_trigger=trigger)
+        tweet = generate_tweet(symbol, slot, price_ctx, state, event_trigger=trigger)
         if tweet:
             log.info("Price event tweet (%d chars):\n%s", len(tweet), tweet)
         if tweet and post_tweet(tweet, state):
@@ -1747,7 +1829,17 @@ def _fetch_rss_with_dates(url: str, max_messages: int) -> list[dict]:
         if not title:
             continue
         try:
-            pub_dt = parsedate_to_datetime(pub_date).replace(tzinfo=None) if pub_date else None
+            # Normalize to UTC BEFORE stripping tzinfo — different feeds state pubDate in
+            # different zones (Yahoo/Google in UTC, some wires in US Eastern, etc.), and just
+            # stripping tzinfo without converting first would leave their "naive" clock times
+            # hours apart for the same real moment, silently corrupting any freshness or timing
+            # comparison against other sources' timestamps (they're all compared as if UTC
+            # elsewhere in this file, e.g. against datetime.utcnow()).
+            parsed = parsedate_to_datetime(pub_date) if pub_date else None
+            if parsed is not None and parsed.tzinfo is not None:
+                pub_dt = parsed.astimezone(datetime.timezone.utc).replace(tzinfo=None)
+            else:
+                pub_dt = parsed
         except Exception:
             pub_dt = None
 
