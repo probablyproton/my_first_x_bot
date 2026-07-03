@@ -186,15 +186,44 @@ def is_weekend() -> bool:
     return datetime.date.today().weekday() >= 5
 
 
+_holiday_cache: dict[str, bool] = {}
+
+
+def _is_market_holiday(group: str) -> bool:
+    """True if the group's exchange has no session today, despite it being a weekday — bank
+    holidays (Independence Day, Christmas, etc., including a weekend holiday's observed weekday
+    shift) aren't tracked by is_weekend() at all. Rather than hand-maintain a date list that
+    silently goes stale every year, this uses yfinance's own data as the source of truth: on a
+    real trading day, once the session opens, intraday bars for TODAY appear within a minute or
+    two; on a holiday, the freshest available bar stays dated to the prior session all day. Only
+    meaningful once called at/after the scheduled open — the caller gates on time-of-day first,
+    so this is never asked to distinguish "holiday" from "hasn't opened yet today" pre-open."""
+    if group in _holiday_cache:
+        return _holiday_cache[group]
+    watchlist = EU_WATCHLIST if group == "eu" else US_WATCHLIST
+    representative = watchlist[0] if watchlist else None
+    if not representative:
+        _holiday_cache[group] = False
+        return False
+    try:
+        hist = yf.Ticker(representative).history(period="1d", interval="5m", prepost=True)
+        is_holiday = hist.empty or hist.index[-1].date() != datetime.date.today()
+    except Exception as e:
+        log.warning("Holiday check failed for %s, assuming trading day: %s", representative, e)
+        is_holiday = False
+    _holiday_cache[group] = is_holiday
+    return is_holiday
+
+
 def _is_market_open_for(symbol: str) -> bool:
     """Whether the ticker's home market (EU or US) is currently in its trading session."""
     if is_weekend():
         return False
     now = now_hhmm()
     if symbol in EU_WATCHLIST:
-        return "09:00" <= now <= "17:30"
+        return "09:00" <= now <= "17:30" and not _is_market_holiday("eu")
     if symbol in US_WATCHLIST:
-        return "15:30" <= now <= "22:00"
+        return "15:30" <= now <= "22:00" and not _is_market_holiday("us")
     # Unknown / off-watchlist ticker — fall back to the broader combined window
     return "09:00" <= now <= "22:00"
 
@@ -211,19 +240,31 @@ def _gemini_news_hours_active() -> bool:
 
 
 def market_phase(key: str) -> str:
-    """Return 'weekend', 'pre_market', 'open', or 'post_market' for the given storyline."""
+    """Return 'weekend', 'pre_market', 'open', or 'post_market' for the given storyline.
+
+    On a bank holiday, 'open'/'post_market' fall back to 'weekend' treatment (no live price
+    framing, news-grounded content) via _is_market_holiday — reusing 'weekend' rather than adding
+    a distinct phase since the correct framing is identical either way. This only works once the
+    scheduled open has passed, since holiday detection needs to see that no fresh same-day data
+    ever showed up; a holiday morning's pre-market slot can't be caught this way (there's no
+    session yet to be missing at that point, same as any normal pre-market check) — a known,
+    narrower residual gap, not a full fix."""
     if is_weekend():
         return "weekend"
     now = now_hhmm()
     if key == "eu":
         if now < "09:00":
             return "pre_market"
+        if _is_market_holiday("eu"):
+            return "weekend"
         if now <= "17:30":
             return "open"
         return "post_market"
     if key == "us":
         if now < "15:30":
             return "pre_market"
+        if _is_market_holiday("us"):
+            return "weekend"
         if now <= "22:00":
             return "open"
         return "post_market"
