@@ -4,14 +4,14 @@
   "engagement": {},
   "price_snapshots": {
     "LR.PA": 143.65,
-    "SU.PA": 277.7,
-    "ENR.DE": 167.04,
-    "EOAN.DE": 18.85,
-    "IBE.MC": 21.79,
-    "ABBN.SW": 86.3,
-    "RWE.DE": 57.84,
-    "SIE.DE": 281.15,
-    "ENGI.PA": 27.74,
+    "SU.PA": 276.65,
+    "ENR.DE": 166.56,
+    "EOAN.DE": 18.84,
+    "IBE.MC": 21.82,
+    "ABBN.SW": 86.26,
+    "RWE.DE": 57.82,
+    "SIE.DE": 281.05,
+    "ENGI.PA": 27.75,
     "DLR": 173.34,
     "NOK": 12.02,
     "CEG": 240.13,
@@ -70,8 +70,8 @@
       "Bloom Energy Stock (BE) Opinions on AI Power Infrastructure Surge",
       "Bloom Energy stock jumps on expanded Brookfield partnership",
       "Bloom Energy Stock Rallies After The Bell \u2014 Here's Why - Bloom Energy (NYSE:BE)",
+      "IFM Investors Pty Ltd Has $6.31 Million Stake in Bloom Energy Corporation $BE",
       "Bloom Energy (NYSE: BE) CCO sells 8,343 shares in pre-planned trade",
-      "Bloom Energy (NYSE:BE) Trading Down 6.3% - Should You Sell?",
       "Noteworthy Thursday Option Activity: KOP, BE, IREN"
     ],
     "ERIC": [
@@ -132,8 +132,8 @@
       "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
-      "E.ON SE focuses on energy transition and grid investment as European utilities adapt",
       "E.ON SE focuses on energy transition and grid investment",
+      "E.ON SE focuses on energy transition and grid investment as European utilities adapt",
       "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors",
       "Hegseth revives push to punish Sen. Mark Kelly",
       "Ekant Sen Career Stats",
@@ -194,16 +194,16 @@
       "Here's How to Invest in the $200 Billion Humanoid Robot Future With ETFs",
       "ABB (SWX:ABBN) Stock Valuation After A 74% One Year Total Return",
       "ABB to upgrade automation systems at Buzzard North Sea platform",
-      "Strength Seen in ABB (ABBNY): Can Its 6.0% Jump Turn into More Strength?",
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results",
       "ABB/N Forecast \u2014 Price Target \u2014 Prediction for 2027",
-      "ABB (ABBNY) Stock Price, News & Analysis",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
       "ABB to divest Robotics division to SoftBank Group",
+      "ABB (ABBNY) Stock Price, News & Analysis",
       "Siemens, ABB, Jyoti CNC And More In Focus Ahead Of Capital Goods Q1 Results \u2014 Check New Target Prices",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
-      "ABB Ltd stock (CH0012221716): Latest business update and what it means",
-      "ABB to invest $75 million in India to expand manufacturing, R&D"
+      "ABB to invest $75 million in India to expand manufacturing, R&D",
+      "ABB outlines 2030 growth ambitions, shares backed by steady analyst view",
+      "ABB expands building solutions portfolio and appoints new retail distributor in Vietnam"
     ],
     "SU.PA": [
       "Schneider Electric acquires Cognite in $3.1 billion deal",
@@ -350,8 +350,8 @@
       "CoreWeave Vs. Nebius: CoreWeave\u2019s US Footprint Beats Nebius\u2019s Premium European Expansion",
       "CoreWeave Just Joined the Nasdaq-100",
       "CoreWeave\u2019s $1.4 billion bet just showed its first real payoff",
-      "Meta, CoreWeave, Salesforce, Corning, Bending Spoons, and More Stocks That Explain Today\u2019s Market",
       "CoreWeave Is Down 13% Today: How Does CRWV Compare to Other Cloud Stocks Like Cloudflare and Oracle?",
+      "Meta, CoreWeave, Salesforce, Corning, Bending Spoons, and More Stocks That Explain Today\u2019s Market",
       "Meta Wants In on the Cloud. Is Amazon Stock Still a Buy?",
       "Weakness in Chipmakers Drags Stock Indexes Lower",
       "Why Meta Platforms Stock Crashed Thursday Morning"
@@ -438,8 +438,8 @@
       "How Equinix Turns Data Centre Heat into Milan City Heating",
       "Equinix officially retires bare metal offering",
       "Director claims Equinix staged layoff to mask race, age bias",
-      "A2A and Equinix launch data centre heat recovery partnership in Milan",
       "Equinix Launches AI-Ready Data Center with Direct Connectivity to Hong Kong\u2013Shenzhen Innovation and Technology Park",
+      "A2A and Equinix launch data centre heat recovery partnership in Milan",
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript",
       "Equinix falls as sector-wide REIT weakness appears to outweigh its recent upbeat updates",
       "Is BB Seguridade Participacoes (BBSEY) Outperforming Other Finance Stocks This Year?"
@@ -613,12 +613,12 @@
       "Nokia Corporation Sponsored Stock 12\u2011Month Price Target Raised to $12.07, Implies 16% Downside",
       "Nokia Stock Whipsaws As WallStreetBets Fuels Short-Term Spike",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
-      "Nokia Stock Slides As Bearish Momentum Tests Retail Traders",
       "NOK Stock Slides As Selling Pressure Builds In June",
       "NOK Stock Draws Bullish Targets On AI And 5G Momentum",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
-      "NOK Stock Slides As ADR Declines Rattle Traders"
+      "NOK Stock Slides As ADR Declines Rattle Traders",
+      "Nokia Stock Jumps As AI Photonics And Price Targets Rise"
     ],
     "APLD": [
       "Wall Street Thinks You Should Buy The Dip On Applied Digital (APLD) Stock",
@@ -729,5 +729,5 @@
     }
   ],
   "us_posted": [],
-  "gemini_calls_today": 7
+  "gemini_calls_today": 9
 }
