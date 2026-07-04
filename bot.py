@@ -432,6 +432,16 @@ def get_price_context(symbol: str) -> dict:
             result["day_high"] = day_high
         if day_low is not None:
             result["day_low"] = day_low
+        if not market_open:
+            # Only needed for the "last close" framing used when the market's shut — lets a
+            # news-event tweet say WHICH session that price is from instead of an undated "last
+            # close" that reads as current even after a multi-day holiday/weekend closure.
+            try:
+                daily = ticker.history(period="5d", interval="1d")
+                if not daily.empty:
+                    result["last_close_date"] = daily.index[-1].date().isoformat()
+            except Exception:
+                pass
         return result
     except Exception as e:
         log.warning("yfinance failed for %s: %s", symbol, e)
@@ -1230,6 +1240,17 @@ Verify: facts match the input — no unsupported claims — tweet ≤280 charact
 One tweet only. No quotes, no commentary."""
 
 
+def _format_close_date(iso_date: str) -> str:
+    """Compact, unambiguous 'as of' qualifier for a last-close price. A bare weekday name would
+    violate the existing 'never reference a specific day name' style rule, and a slash-separated
+    date (dd/mm vs mm/dd) is ambiguous to a global audience — 'Jul 2' has neither problem."""
+    try:
+        d = datetime.date.fromisoformat(iso_date)
+        return f"{d.strftime('%b')} {d.day}"
+    except Exception:
+        return ""
+
+
 def generate_news_event_tweet(symbol: str, classification: dict, price_ctx: dict, state: dict,
                                link: str = "", source: str = "") -> str | None:
     price_str = ""
@@ -1241,7 +1262,9 @@ def generate_news_event_tweet(symbol: str, classification: dict, price_ctx: dict
         if _is_market_open_for(symbol):
             price_str = f"Current: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"
         else:
-            price_str = f"Last close: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}%)"
+            close_date = _format_close_date(price_ctx.get("last_close_date", ""))
+            date_suffix = f" as of {close_date}" if close_date else ""
+            price_str = f"Last close{date_suffix}: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}%)"
 
     source_line = f"\nReported by: {source}" if source else ""
     link_instruction = (
@@ -1299,7 +1322,9 @@ def generate_keyword_event_tweet(symbol: str, classification: dict, price_ctx: d
         if _is_market_open_for(symbol):
             price_str = f" (${price_ctx['price']}, {sign}{price_ctx['change_pct']}% today)"
         else:
-            price_str = f" (${price_ctx['price']}, {sign}{price_ctx['change_pct']}% at last close)"
+            close_date = _format_close_date(price_ctx.get("last_close_date", ""))
+            date_suffix = f" as of {close_date}" if close_date else ""
+            price_str = f" (${price_ctx['price']}, {sign}{price_ctx['change_pct']}% at last close{date_suffix})"
 
     prefix = f"${base}{price_str}: "
     suffix = f"\n\n{link}" if link else ""
@@ -2081,8 +2106,50 @@ def _resolve_google_news_url(link: str) -> str:
         return link
 
 
+_SAME_STORY_WORD_OVERLAP_THRESHOLD = 0.5
+
+
+def _headline_similarity(a: str, b: str) -> float:
+    """Rough same-story heuristic — word overlap ratio, ignoring case/punctuation/short filler
+    words. Not real NLP, just enough to tell 'two wire distributions of the same story worded
+    differently' apart from 'two unrelated headlines that happen to mention the same ticker'."""
+    def words(s):
+        return {w for w in re.findall(r"[a-z0-9]+", s.lower()) if len(w) > 3}
+    wa, wb = words(a), words(b)
+    if not wa or not wb:
+        return 0.0
+    return len(wa & wb) / len(wa | wb)
+
+
+def _find_verifiable_alternate_link(headline: str, articles: list[dict], exclude_link: str) -> tuple[str, str] | None:
+    """When the link we'd otherwise attach is in doubt (still an unresolved Google redirect, or
+    fails the destination-page staleness check), look for another article fetched this same
+    cycle that's plausibly the same story but from a source we CAN vouch for — rather than either
+    posting an imprecise/unverifiable link or dropping a genuinely real story just because ONE
+    wire distribution of it happened to be the unverifiable one."""
+    for a in articles:
+        link = a.get("link")
+        if not link or link == exclude_link or "news.google.com" in link:
+            continue
+        if _headline_similarity(headline, a["headline"]) < _SAME_STORY_WORD_OVERLAP_THRESHOLD:
+            continue
+        if _is_confirmed_stale(link):
+            continue
+        return link, a.get("source") or ""
+    return None
+
+
 _JSON_LD_DATE_RE = re.compile(r'"datePublished"\s*:\s*"([^"]+)"')
 _OG_DATE_RE      = re.compile(r'<meta[^>]+property="article:published_time"[^>]+content="([^"]+)"')
+
+# msn.com's article pages are a pure client-side-rendered shell — confirmed by directly fetching
+# one: 40KB+ of HTML, zero datePublished/article:published_time/JSON-LD, nothing for the checks
+# below to find. That's not a one-off gap, it's every MSN article, always — so "missing metadata"
+# there can never mean "publisher just doesn't tag dates cleanly", it can only mean "unverifiable".
+# Concretely confirmed to matter: a September 2024 Talen Energy buyback filing, re-surfaced via
+# MSN with a fresh-looking pubDate, posted as if it were breaking news in July 2026. For domains
+# on this list, "can't verify" flips to "reject" instead of the general lenient default below.
+_UNVERIFIABLE_STALENESS_DOMAINS = {"msn.com", "www.msn.com"}
 
 
 def _is_confirmed_stale(url: str) -> bool:
@@ -2094,12 +2161,20 @@ def _is_confirmed_stale(url: str) -> bool:
     threshold here would just make this a weaker backstop than the filter it's meant to back up.
     Only rejects when a real published date is found AND it's clearly stale; an unparseable or
     missing date defaults to 'assume fresh' so publishers without clean date metadata don't
-    get needlessly filtered out."""
+    get needlessly filtered out — except for domains already proven to systematically hide it
+    (see _UNVERIFIABLE_STALENESS_DOMAINS), where that same leniency is what let stale content
+    through in the first place."""
     try:
         resp = requests.get(url, timeout=10, verify=False, headers={"User-Agent": "Mozilla/5.0"})
         resp.raise_for_status()
         m = _JSON_LD_DATE_RE.search(resp.text) or _OG_DATE_RE.search(resp.text)
         if not m:
+            from urllib.parse import urlparse
+            domain = urlparse(url).netloc.replace("www.", "")
+            if domain in _UNVERIFIABLE_STALENESS_DOMAINS:
+                log.warning("No publish-date metadata from %s (known unverifiable domain) — "
+                            "treating as stale rather than assuming fresh: %s", domain, url)
+                return True
             return False
         published = datetime.datetime.fromisoformat(m.group(1).replace("Z", "+00:00"))
         age_hours = (datetime.datetime.now(datetime.timezone.utc) - published).total_seconds() / 3600
@@ -2246,6 +2321,10 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             "method": method,
             "published": meta.get("published"),
             "queued_min": _epoch_minutes(),
+            # Snapshot of everything else fetched for this ticker this cycle, so if the primary
+            # link turns out to be in doubt at release time, there's something to fall back to
+            # besides just dropping the post or using a link we can't vouch for.
+            "all_articles": candidates[symbol],
         })
 
     # ── Classify via Gemini: batch into groups of NEWS_CLASSIFY_BATCH_SIZE, so a busy
@@ -2319,33 +2398,55 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                     continue
 
             price_ctx = get_price_context(symbol)
-            link = _resolve_google_news_url(item.get("link"))
-            # RSS pubDate unreliability isn't unique to Google News — check any link we have,
-            # not just ones that went through Google's redirect resolution.
-            if link and _is_confirmed_stale(link):
-                log.warning("NEWS EVENT dropped (confirmed stale via destination page, "
-                            "published >%dh ago) — $%s: %s",
-                            NEWS_FRESHNESS_HOURS, symbol, classification["headline"])
-                if pool:
-                    _refund_slot(state, symbol, pool)
-                _log_event(state, mechanism="news_event", generation_method=method,
-                           symbol=symbol, base_symbol=_base_symbol(symbol),
-                           headline=classification["headline"], headline_source=item.get("source") or "",
-                           headline_link=link or "", news_category=classification["category"],
-                           price=price_ctx.get("price") if price_ctx else "",
-                           change_pct=price_ctx.get("change_pct") if price_ctx else "",
-                           posted="N", skip_reason="confirmed_stale_source")
-                continue
+            link   = _resolve_google_news_url(item.get("link"))
+            source = item.get("source")
+
+            # "In doubt" covers two different things: the link never resolved off Google's
+            # redirect wrapper at all (imprecise — a bad preview card, not evidence of stale
+            # content), or it resolved but failed the destination-page staleness check (evidence
+            # the CONTENT itself is old, e.g. an MSN re-publish of a 2024 filing). Either way,
+            # prefer a different wire distribution of the same story that we CAN vouch for over
+            # posting an imprecise link or dropping a real story over one bad distribution of it.
+            unresolved = bool(link) and "news.google.com" in link
+            stale      = bool(link) and not unresolved and _is_confirmed_stale(link)
+
+            if unresolved or stale:
+                alt = _find_verifiable_alternate_link(classification["headline"],
+                                                       item.get("all_articles", []), exclude_link=link)
+                if alt:
+                    log.info("NEWS EVENT link swapped for $%s (original was %s) — using verified "
+                              "alternate source instead: %s",
+                              symbol, "an unresolved Google redirect" if unresolved else "confirmed stale",
+                              alt[1])
+                    link, source = alt
+                    stale = False
+                elif stale:
+                    log.warning("NEWS EVENT dropped (confirmed stale via destination page, "
+                                "published >%dh ago, no verifiable alternate source found) — $%s: %s",
+                                NEWS_FRESHNESS_HOURS, symbol, classification["headline"])
+                    if pool:
+                        _refund_slot(state, symbol, pool)
+                    _log_event(state, mechanism="news_event", generation_method=method,
+                               symbol=symbol, base_symbol=_base_symbol(symbol),
+                               headline=classification["headline"], headline_source=source or "",
+                               headline_link=link or "", news_category=classification["category"],
+                               price=price_ctx.get("price") if price_ctx else "",
+                               change_pct=price_ctx.get("change_pct") if price_ctx else "",
+                               posted="N", skip_reason="confirmed_stale_source")
+                    continue
+                # else: still just an unresolved redirect, not confirmed stale, no alternate found
+                # — fall through and use it as a last resort, same as before this feature existed.
+
             if method == "gemini":
                 tweet = generate_news_event_tweet(symbol, classification, price_ctx, state,
-                                                   link=link, source=item.get("source"))
+                                                   link=link, source=source)
             else:
                 tweet = generate_keyword_event_tweet(symbol, classification, price_ctx,
                                                       link=link)
             log_kwargs = dict(
                 mechanism="news_event", generation_method=method,
                 symbol=symbol, base_symbol=_base_symbol(symbol),
-                headline=classification["headline"], headline_source=item.get("source") or "",
+                headline=classification["headline"], headline_source=source or "",
                 headline_link=link or "", news_category=classification["category"],
                 price=price_ctx.get("price") if price_ctx else "",
                 change_pct=price_ctx.get("change_pct") if price_ctx else "",
