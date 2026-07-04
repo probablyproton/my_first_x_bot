@@ -3,6 +3,10 @@ name: Ticker Bot
 on:
   workflow_dispatch:
 
+concurrency:
+  group: ticker-bot
+  cancel-in-progress: false
+
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -52,11 +56,24 @@ jobs:
           TZ: Europe/Amsterdam
 
       - name: Save state back to repo
-        continue-on-error: true
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add state.json
-          git diff --staged --quiet || git commit -m "state: $(date -u +%H:%M)"
-          git push --force origin main
+          git add events_log.csv 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "No state changes to commit."
+            exit 0
+          fi
+          git commit -m "state: $(date -u +%H:%M)"
+          for i in 1 2 3; do
+            if git push --force origin main; then
+              exit 0
+            fi
+            echo "Push attempt $i failed, retrying in 5s..."
+            sleep 5
+          done
+          echo "::error::Failed to push state.json/events_log.csv after 3 attempts — dedup state is stale on remote, risking duplicate posts until a future run succeeds."
+          exit 1
