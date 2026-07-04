@@ -1,7 +1,9 @@
 {
   "date": "2026-07-04",
-  "daily_posts": 0,
-  "engagement": {},
+  "daily_posts": 1,
+  "engagement": {
+    "saturday": "2026-07-04"
+  },
   "price_snapshots": {
     "LR.PA": 144.0,
     "SU.PA": 280.95,
@@ -92,8 +94,8 @@
       "Ericsson sets July 14 webcast for Q2 2026 results",
       "Rakuten Symphony names former Boost, Ericsson tech exec as new RAN lead",
       "Ericsson CEO Ekholm to step down, be replaced by Per Narvinger",
-      "Ericsson and Intel collaborate to accelerate the path to commercial AI-native 6G",
-      "Brady Jay Ericsson Obituary Apr 24, 2026",
+      "Ericsson: Global 5G User Base Surpasses 3 Billion as AI Reshapes Mobile Networks",
+      "US Defense Dept backs 6G rival to tech used by Ericsson and Nokia",
       "Can Nokia's Orange Belgium Network Upgrade Deal Aid the Stock?"
     ],
     "PWR": [
@@ -130,15 +132,15 @@
       "European Stocks Rise in Friday Trading Following Middle East War Ceasefire",
       "How The E.ON (XTRA:EOAN) Narrative Is Shifting As Analyst Views Split On Upside Potential",
       "E.ON SE strengthens its energy transition role as a European utility heavyweight",
+      "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
+      "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON stock. Generalized investor focus holds",
-      "E.ON announces acquisition of UK energy supplier OVO",
       "E.ON stock stays focused on the business mix. Long-term utility earnings remain the story.",
+      "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors",
+      "Ekant Sen Career Stats",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
       "E.ON SE focuses on energy transition and grid investment",
-      "E.ON SE focuses on energy transition and grid investment as European utilities adapt",
-      "E.ON SE outlines long-term energy transition strategy as investors weigh European utility valuations",
-      "E.ON Home Energy Check from E.ON SE - free digital scan helps households cut power bills",
-      "E.ON adjusts borrowing costs for shareholders, stock and energy transition in focus"
+      "E.ON SE focuses on energy transition and grid investment as European utilities adapt"
     ],
     "ENGI.PA": [
       "ENGIY or PNW: Which Is the Better Value Stock Right Now?",
@@ -152,8 +154,8 @@
       "Engie\u2019s Belgian Battery Project And What It Means For Cash Flows",
       "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?",
       "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
-      "Ignis, Engie sign long-term battery storage deal in Spain",
       "South Dakota storm strikes two ENGIE wind farms",
+      "Ignis, Engie sign long-term battery storage deal in Spain",
       "Engie wins contract to build, operate over 400km of power lines in Peru",
       "Turbines destroyed after 'uniquely violent' storm strikes South Dakota",
       "ENGIE Brasil sets sail with new ESG campaign",
@@ -201,7 +203,7 @@
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
       "ABB to divest Robotics division to SoftBank Group",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
-      "ABB Ltd stock (CH0012221716): Latest business update and what it means",
+      "ABB outlines 2030 growth ambitions, shares backed by steady analyst view",
       "ABB to invest $75 million in India to expand manufacturing, R&D",
       "ABB expands building solutions portfolio and appoints new retail distributor in Vietnam"
     ],
@@ -262,13 +264,13 @@
       "RWE delivers strong financial performance in 2025 and sets course for exceptional earnings growth until 2031",
       "Germany\u2019s RWE plans nearly $20B US investment, including gas peakers",
       "RWE increases investment in Focused Energy",
-      "How many employees work at RWE?",
       "Price to earnings forward of RWE AG \u2013 XETR:RWE",
       "US NGOs urge RWE to reject offshore wind exit deal with Trump administration",
       "Earnings call transcript: RWE Q1 2026 shows strong growth amid trading headwinds",
-      "RWE's revenue 2008-2024",
       "RWE AG(NEU) : Jefferies gives a Buy rating",
-      "RWE AG focuses on energy transition and global power markets"
+      "RWE's revenue 2008-2024",
+      "RWE AG focuses on energy transition and global power markets",
+      "Goldman Sachs Remains a Buy on RWE AG (0HA0)"
     ],
     "NVT": [
       "nVent Electric Surges 49% YTD: Should You Still Buy the Stock?",
@@ -282,11 +284,10 @@
       "Littelfuse Rides on Holistic Growth Focus: Should You Buy the Stock?",
       "Vishay Precision Surges 373% in the Past Year: Time to Buy the Stock?",
       "nVent Electric (NVT) Joins Russell Growth Indexes With Valuation Still In Focus",
+      "nVent Electric plc",
       "A Look at nVent Electric PLC (NVT) After 4.9% Decline -- GF Value $115.60 vs Price $152.15",
       "Person Details",
-      "Enterprise value to EBITDA forward of nVent Electric plc \u2013 NYSE:NVT",
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
-      "Does nVent Electric\u2019s (NVT) Russell Growth Inclusion Reframe Its Electrification And AI Infrastructure Narrative?",
       "MDY, CW, NVT, ENTG: ETF Inflow Alert",
       "3 Great Stocks to Buy to Benefit From the Next Generation of AI Data Centers Led by Nvidia"
     ],
@@ -324,9 +325,9 @@
       "50Hertz awards converter project to Siemens-led consortium",
       "Siemens Energy to build 2 GW converter platform with German shipyard",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
-      "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS)",
       "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice",
       "Siemens Energy\u2019s $421 million N.C. expansion adding 500 jobs",
+      "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS)",
       "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
       "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
       "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations",
@@ -370,13 +371,13 @@
       "GE Vernova's gas turbines aren't the only way it's winning from the AI boom",
       "Hitachi Energy, GE Vernova, Siemens Energy, other power equipment stocks crash up to 10%. Here\u2019s why",
       "Nasdaq Jumps Above 26,000 As Stock Market, Chip Stocks Strengthen; GE Vernova Breaks Out",
-      "CG Power, Hitachi Energy fall up to 8% as Centre allows four Chinese-linked power equipment firms to bid...",
       "Cramer's lightning round: Buy GE Vernova",
       "GE Vernova loses renewed bid to end work on New England wind farm",
       "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
       "How GE Vernova builds the massive gas turbines powering the AI data center boom",
       "Five Stocks Near Buy Points. Most Are In This Hot AI Space.",
-      "Notable Thursday Option Activity: GLW, PYPL, GEV"
+      "Notable Thursday Option Activity: GLW, PYPL, GEV",
+      "GE Vernova (GEV) Dips More Than Broader Market"
     ],
     "TLN": [
       "Talen Energy, Stock Of The Day, Delivers For Amazon, AI Data Centers",
@@ -391,13 +392,13 @@
       "Goldman starts Talen at buy, sees PJM power tightness boosting earnings",
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
-      "Talen Energy upsizes share buyback program by $1.005B",
       "TLN - Talen Energy Corp Revenue Breakdown",
       "Wells Fargo Sticks to Its Buy Rating for Talen Energy Corp (TLN)",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
       "Donald Trump - TALEN ENERGY CORP NEW CLASS EQUITY Trump Trade on Mar. 26, 2026",
       "Talen Energy Announces Credit Facility Refinancing Transactions | Thu, 05/14/2026 - 16:27",
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
+      "TLN - Talen Energy Corp Volatility & Greeks",
       "Notable Tuesday Option Activity: MSFT, TLN, UNM"
     ],
     "DLR": [
@@ -414,9 +415,9 @@
       "Hsbc Holdings PLC Boosts Holdings in Digital Realty Trust, Inc. $DLR",
       "Digital Realty to pay Blackstone $3.5 billion for stake in Virginia data centers",
       "Digital Realty Announces Purchase of Blackstone Interest in Three Northern Virginia Data Centers",
-      "Digital Realty Trust, Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh",
       "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers",
       "Blackstone Offloads Stakes in Trio of Virginia Data Centers",
+      "Digital Realty Trust, Inc. Shs Unsponsored Brazilian Depositary Receipt Repr 0.25 Sh",
       "Digital Realty Trust Inc. stock underperforms Thursday when compared to competitors",
       "News | Blackstone sells $3.5 billion stake in data centers to Digital Realty",
       "Prediction: Realty Income's Data Center Pivot Will Supercharge Its Dividend Growth Over the Next Decade",
@@ -501,8 +502,8 @@
       "V&E Appoints Michael Jay as New IP Litigation Partner in LA",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
-      "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
       "Constellation Energy (CEG) director adds 146 phantom share equivalents",
+      "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
       "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Constellation Energy Corp. stock falls Wednesday, underperforms market",
@@ -569,8 +570,8 @@
       "LeGrand\u2019s Market shares its four-bean baked bean recipe for the perfect Fourth of July side",
       "Legrand Powers Armenia's First AI Data Center at Yerevan State University",
       "Scott Legrand Nail Obituary (2026) - -, AL - Crestview Memorial Gardens & Funeral Home",
-      "Legrand regains ground after RBC raises its target",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
+      "Legrand regains ground after RBC raises its target",
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
       "Q1 2026 Legrand SA Earnings Call Transcript",
       "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum",
@@ -633,14 +634,14 @@
       "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now?",
       "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
       "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth",
-      "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
       "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
-      "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1",
+      "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
+      "APLD Stock (Applied Digital Corporation) APLD Stock Analysis | April 6, 2026 Julie Snyder (eWZXJqfhrR)",
+      "Applied Digital Corporation Delivers Second Building at Polaris Forge 1",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
       "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day",
-      "Synopsys vs. Applied Digital: Which AI Stock Has an Edge Right Now?",
-      "Could Applied Digital (APLD) Stock Triple by 2030?"
+      "Synopsys vs. Applied Digital: Which AI Stock Has an Edge Right Now?"
     ]
   },
   "pending_news_posts": [],
@@ -705,7 +706,7 @@
     }
   },
   "last_news_post_min": 29718917,
-  "gemini_calls_today": 0,
+  "gemini_calls_today": 1,
   "daily_pulse_posts": 0,
   "last_pulse_post_min": 29718166,
   "next_pulse_interval": 50,
@@ -752,5 +753,5 @@
   ],
   "us_posted": [],
   "zero_llm_posts": {},
-  "event_log_next_id": 7
+  "event_log_next_id": 8
 }

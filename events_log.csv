@@ -1,3 +1,24 @@
 event_id,date,time,weekday,mechanism,storyline,slot_type,generation_method,symbol,base_symbol,related_tickers,exchange,exchange_open_today,market_phase,price,change_pct,day_high,day_low,headline,headline_source,headline_link,headline_published_utc,news_category,holding_disclosure_fingerprint,day_move_pct,catalyst_found,catalyst_headline,gemini_call_used,gemini_calls_today_after,pool_used,posted,skip_reason,tweet_text,tweet_char_count,tweet_url,likes,retweets,replies,engagement_checked_at
 5,2026-07-04,09:01:57,Saturday,news_event,,,keyword,TLN,TLN,,,,,,,,,Talen Energy upsizes share buyback program by $1.005B,MSN,https://news.google.com/rss/articles/CBMivgJBVV95cUxPdmNzWUNEVXdjTlFkUWt6anJiZ0hkeFlMT19SMjhIOWhfclNmOEwwUGI4REwyR3lKV2xqOUxaZy1SaVIxUkNrYTVTNWRPOXRKTnQ1SlI0ZzFDbnRIdk50OHJybHZIUlNWRlFDR0FoSnRmcmJqeWRSRzVqY3FFM3pIanBzMFpsT2E2RkFobm1MY01vc05SaEY3MmttVXU4YmtUTDl5cGUzVGhBeHVPREplRlFDcE5MRFNaWWpzT1NYSVNyQXRWcEVhMVA5YTRpTmxPRHVuTFk4RXZvSThhWlZNSzZqTnJ6OVVEeEFMeGowQ0x3Rm4zYU1tQi1jNFhuNXB0dDhQSmVadHpTSHZCZ2xzejVGRzlZT1F1Sy1qMU1zNjZMVTNKQ3hzSWdIbHdGR1JTX0EtenpBR0pGSXoydUE?oc=5,2026-07-03T22:06:22,buyback,,,,,,,,N,duplicate_category_24h,,,,,,,
 6,2026-07-04,09:31:56,Saturday,news_event,,,keyword,TLN,TLN,,,,,,,,,Talen Energy upsizes share buyback program by $1.005B,MSN,https://news.google.com/rss/articles/CBMivgJBVV95cUxPdmNzWUNEVXdjTlFkUWt6anJiZ0hkeFlMT19SMjhIOWhfclNmOEwwUGI4REwyR3lKV2xqOUxaZy1SaVIxUkNrYTVTNWRPOXRKTnQ1SlI0ZzFDbnRIdk50OHJybHZIUlNWRlFDR0FoSnRmcmJqeWRSRzVqY3FFM3pIanBzMFpsT2E2RkFobm1MY01vc05SaEY3MmttVXU4YmtUTDl5cGUzVGhBeHVPREplRlFDcE5MRFNaWWpzT1NYSVNyQXRWcEVhMVA5YTRpTmxPRHVuTFk4RXZvSThhWlZNSzZqTnJ6OVVEeEFMeGowQ0x3Rm4zYU1tQi1jNFhuNXB0dDhQSmVadHpTSHZCZ2xzejVGRzlZT1F1Sy1qMU1zNjZMVTNKQ3hzSWdIbHdGR1JTX0EtenpBR0pGSXoydUE?oc=5,2026-07-03T22:06:22,buyback,,,,,,,,N,duplicate_category_24h,,,,,,,
+7,2026-07-04,10:02:39,Saturday,weekly_engagement,,saturday,gemini,,,"$ABBN.SW, $APLD, $BE, $CEG, $CRWV, $DLR, $ENGI.PA, $ENR.DE, $EOAN.DE, $EQIX, $ERIC, $ETN, $GEV, $IBE.MC, $IREN, $LR.PA, $NEE, $NOK, $NVT, $POWL, $PWR, $RWE.DE, $SIE.DE, $SU.PA, $TLN, $VRT, $VST",,,,,,,,,,,,,,,,,Y,1,llm,Y,,"Week in numbers:
+$ABBN.SW +2.27%
+$APLD -15.58%
+$BE +7.49%
+$CEG -9.38%
+$CRWV -15.36%
+$DLR -10.21%
+$ENGI.PA +1.2%
+$ENR.DE +7.04%
+$EOAN.DE +5.88%
+$EQIX -8.18%
+$ERIC -1.55%
+$ETN -1.03%
+$GEV +6.5%
+$IBE.MC -0.27%
+$IREN -17.77%
+$LR.PA -0.8%
+$NEE -0.25%
+$NOK -7.23%
+
+Which one surprised",278,,,,,
