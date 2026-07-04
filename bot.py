@@ -183,8 +183,15 @@ US_SLOTS = [
 ]
 
 WEEKEND_SLOTS = [
-    ("10:00", "hook"),   # morning: week-in-review framing, news-grounded
-    ("18:00", "wrap"),   # evening: recap + what to watch at Monday's open
+    # Weekends have neither price events nor much real news (confirmed empirically — far less
+    # than a weekday), so the Gemini budget goes mostly unused unless the SCHEDULE itself fills
+    # more of the day. hook/wrap still cover the full watchlist; the two additions in between use
+    # "analytical"/"question" specifically because those types allow single-ticker focus (see
+    # MARKET_UPDATE_SYSTEM) rather than forcing a repetitive full-watchlist recap four times a day.
+    ("10:00", "hook"),        # morning: week-in-review framing, news-grounded
+    ("13:00", "analytical"),  # midday: single sharpest angle (a research spotlight, if one exists)
+    ("15:30", "question"),    # afternoon: one genuine question to keep engagement going
+    ("18:00", "wrap"),        # evening: recap + what to watch at Monday's open
 ]
 
 
@@ -1131,10 +1138,13 @@ def _holding_disclosure_fingerprint(symbol: str, headline: str) -> str | None:
 HOLDING_DISCLOSURE_MEMORY_DAYS = 400
 
 
-def _prune_holding_disclosures(holding_seen: dict):
-    cutoff = (datetime.date.today() - datetime.timedelta(days=HOLDING_DISCLOSURE_MEMORY_DAYS)).isoformat()
-    for fp in [fp for fp, seen_date in holding_seen.items() if seen_date < cutoff]:
-        del holding_seen[fp]
+def _prune_date_keyed_dict(d: dict, max_age_days: int):
+    """Drops entries whose ISO-date value is older than max_age_days. Shared by any fingerprint
+    dict that maps 'thing we've seen' -> 'date we saw it', so state.json doesn't carry them
+    forever once they're too old to plausibly matter again."""
+    cutoff = (datetime.date.today() - datetime.timedelta(days=max_age_days)).isoformat()
+    for key in [key for key, seen_date in d.items() if seen_date < cutoff]:
+        del d[key]
 
 
 # "Beat/miss estimates" fires just as readily inside a speculative preview question ("Will X Beat
@@ -1177,6 +1187,73 @@ def _mentions_company(symbol: str, text: str) -> bool:
     name = _company_name(symbol)
     first_word = re.sub(r"[^\w]", "", name.split()[0]).lower() if name else ""
     return bool(first_word) and first_word in text_lower
+
+
+# Genuine bank/research-house activity — a price target change, a rating, a coverage call —
+# confirmed empirically to show up regularly in the same Yahoo/Google News/Nasdaq feeds already
+# fetched (e.g. "Stifel Backs Equinix (EQIX) as AI Infrastructure Demand Drives Data Center
+# Growth", "Morgan Stanley Cuts Price Target on Vistra (VST)", "Vistra Corp (VST) Gets a Buy from
+# Wells Fargo"). None of this qualifies as MAJOR news for the real-time pipeline (routine rating
+# changes are deliberately excluded there — see _ANALYST_ROUTINE_RE), but that bar exists to avoid
+# reacting to every rating tweak in real time, not because the content itself is uninteresting.
+# For a weekend recap specifically, a named firm's actual research view is exactly the substance a
+# plain "top mover by headline count" ranking misses.
+_RESEARCH_NOTE_RE = re.compile(
+    r"^[A-Z][\w.&'-]*(?:\s+[A-Z][\w.&'-]*){0,4}\s+"
+    r"(?:Backs|Raises|Cuts|Lowers|Maintains|Reiterates|Initiates|Sees|Sets|Gives|Upgrades|Downgrades|"
+    r"Sends|Starts|Boosts|Trims)\b"
+    r"|\bGets?\s+an?\s+(?:Buy|Sell|Hold|Overweight|Underweight|Outperform|Underperform)\s+(?:from|Rating)\b"
+    r"|\bSees?\s+\d+%\s+(?:Upside|Downside)\b"
+    r"|\bPrice\s+Target\b"
+    r"|\bInitiates?\s+Coverage\b",
+    re.I,
+)
+
+
+def _is_research_note_headline(headline: str) -> bool:
+    return not _is_generic_analysis_piece(headline) and bool(_RESEARCH_NOTE_RE.search(headline))
+
+
+WEEKEND_RESEARCH_LOOKBACK_DAYS = int(os.getenv("WEEKEND_RESEARCH_LOOKBACK_DAYS", "6"))
+# A note reused across weekends would just be a duplicate the following week — this doesn't need
+# to be nearly as long-lived as the holding-disclosure fingerprint, since the failure mode here is
+# "repeated within a couple weekends", not "resurfaced months later".
+RESEARCH_SPOTLIGHT_MEMORY_DAYS = 21
+
+
+def _find_research_spotlight(watchlist: list[str], state: dict) -> dict | None:
+    """Scans the whole watchlist over WEEKEND_RESEARCH_LOOKBACK_DAYS (not just the usual 24h
+    freshness window) for a genuine research-note headline not already spotlighted in a prior
+    weekend, richest-first: most recent, but skipping any candidate whose link can't be verified
+    (same staleness/redirect-resolution discipline as the real-time news pipeline) in favor of the
+    next-best one instead of just giving up. Returns the article (plus its symbol and a resolved,
+    verified link) or None if nothing qualifies this week."""
+    used = state.setdefault("research_spotlights_used", {})
+    _prune_date_keyed_dict(used, RESEARCH_SPOTLIGHT_MEMORY_DAYS)
+
+    cutoff = datetime.datetime.utcnow() - datetime.timedelta(days=WEEKEND_RESEARCH_LOOKBACK_DAYS)
+    candidates = []
+    for symbol in watchlist:
+        for a in get_ticker_context_with_dates(symbol, max_messages=20):
+            if not a.get("published") or a["published"] < cutoff:
+                continue
+            if not _mentions_company(symbol, a["headline"]):
+                continue
+            if not _is_research_note_headline(a["headline"]):
+                continue
+            fp = f"{_base_symbol(symbol).lower()}:{a['headline'].strip().lower()}"
+            if fp in used:
+                continue
+            candidates.append({**a, "symbol": symbol, "fingerprint": fp})
+
+    candidates.sort(key=lambda a: a["published"], reverse=True)
+    for a in candidates:
+        link = _resolve_google_news_url(a.get("link"))
+        if link and _is_confirmed_stale(link):
+            continue
+        a["link"] = link
+        return a
+    return None
 
 
 def classify_news_keyword(symbol: str, articles: list[dict]) -> dict | None:
@@ -1435,13 +1512,27 @@ def _has_unknown_ticker(tweet: str, allowed_symbols) -> bool:
 
 
 def generate_market_update_tweet(key: str, ranked: list[str], ticker_data: dict,
-                                  news_data: dict, slot: dict, phase: str, state: dict) -> str | None:
+                                  news_data: dict, slot: dict, phase: str, state: dict,
+                                  research_spotlight: dict | None = None) -> str | None:
     if phase == "weekend":
         phase_instruction = (
             "WEEKEND. Markets are closed. Do NOT reference today's price, daily % moves, or live "
             "activity. Ground the tweet in the news headlines below — week-in-review, structural "
             "thesis, or what to watch at the open."
         )
+        if research_spotlight:
+            source_note  = f" ({research_spotlight['source']})" if research_spotlight.get("source") else ""
+            summary_note = f"\nReport summary: {research_spotlight['summary']}" if research_spotlight.get("summary") else ""
+            phase_instruction += (
+                f"\n\nRESEARCH SPOTLIGHT this week on ${_base_symbol(research_spotlight['symbol'])}: "
+                f"\"{research_spotlight['headline']}\"{source_note}.{summary_note}\n"
+                "This is a genuine named-firm research view, not routine chatter. Distill it into a "
+                "tight, high-level executive-summary callout — the specific number or thesis that "
+                "matters (the price target, the rating, the stated reasoning) — not a restatement of "
+                "the headline. Build the tweet's main angle around it. Frame implications as "
+                "possibilities, never certainties. Do NOT include a URL yourself — the report link is "
+                "appended separately after your text."
+            )
     elif phase == "pre_market":
         phase_instruction = (
             "Market is NOT yet open. Cover EVERY ticker in the data block below, one line each — do "
@@ -1503,7 +1594,9 @@ Slot type: {slot['type']}
 Write one tweet. Focus on what's most interesting — biggest mover, news catalyst, or a cross-stock pattern. \
 Can reference one stock or multiple. Always use $TICKER (bare symbol, no company name). Under 280 characters."""
 
-    budget = 280 - len(prefix)
+    link = research_spotlight.get("link") if research_spotlight else None
+    # X counts any URL as a fixed ~23 characters (t.co shortening) regardless of its real length.
+    budget = 280 - len(prefix) - (25 if link else 0)  # 2 newlines + 23-char shortened link
 
     try:
         text = _gemini(MARKET_UPDATE_SYSTEM, prompt, state).strip('"').strip("'")
@@ -1518,7 +1611,10 @@ Can reference one stock or multiple. Always use $TICKER (bare symbol, no company
                     break
             else:
                 text = trimmed.rsplit(" ", 1)[0]
-        return prefix + text
+        result = prefix + text
+        if link:
+            result += f"\n\n{link}"
+        return result
     except Exception as e:
         log.error("Market update tweet failed: %s", e)
     return None
@@ -2279,7 +2375,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
     # rule that day) still needs to be remembered, or a later re-issue of the exact same filing
     # would look like a first-ever sighting and get waved through as fresh news.
     holding_seen = state.setdefault("holding_disclosures_seen", {})
-    _prune_holding_disclosures(holding_seen)
+    _prune_date_keyed_dict(holding_seen, HOLDING_DISCLOSURE_MEMORY_DAYS)
 
     # ── Gather: fetch fresh headlines+summaries per ticker, no Gemini calls yet.
     # Always runs regardless of budget/Gemini state — routing happens next, after we
@@ -2712,12 +2808,25 @@ def process_storyline(state: dict, key: str) -> dict:
     if not ticker_data:
         return state
 
+    research_spotlight = None
     if phase == "weekend":
         # Stale Fri-close % moves are meaningless — rank by news coverage instead
         news_data = {t: get_ticker_context(t, max_messages=5) for t in ticker_data}
         ranked = sorted(ticker_data, key=lambda t: len(news_data.get(t, [])), reverse=True)
         # If no tickers have news, keep the original ranking
         ranked = [t for t in ranked if news_data.get(t)] or ranked
+
+        # A ticker with one genuine research note but otherwise quiet week can lose to a ticker
+        # with five recycled generic articles under pure headline-count ranking — look wider
+        # (days, not the usual 24h) and bump the spotlighted ticker to the front if it's not
+        # naturally on top, so the post doesn't miss it just because it wasn't already loud.
+        research_spotlight = _find_research_spotlight(watchlist, state)
+        if research_spotlight and research_spotlight["symbol"] in ticker_data:
+            spot_t = research_spotlight["symbol"]
+            ranked = [spot_t] + [t for t in ranked if t != spot_t]
+            news_data.setdefault(spot_t, [])
+            if research_spotlight["headline"] not in news_data[spot_t]:
+                news_data[spot_t] = [research_spotlight["headline"]] + news_data[spot_t]
     else:
         ranked = sorted(ticker_data, key=lambda t: abs(ticker_data[t].get("change_pct", 0)), reverse=True)
         # Override wrap/reaction to analytical if market is still open (only for the current key)
@@ -2739,7 +2848,8 @@ def process_storyline(state: dict, key: str) -> dict:
              " [OVERLAP]" if overlap else "",
              ", ".join(f"${_base_symbol(t)}" for t in context_tickers))
 
-    tweet = generate_market_update_tweet(key, context_tickers, ticker_data, news_data, slot, phase, state)
+    tweet = generate_market_update_tweet(key, context_tickers, ticker_data, news_data, slot, phase, state,
+                                          research_spotlight=research_spotlight)
 
     primary = context_tickers[0] if context_tickers else ""
     primary_ctx = ticker_data.get(primary, {})
@@ -2767,6 +2877,8 @@ def process_storyline(state: dict, key: str) -> dict:
                        tweet_text=tweet, tweet_char_count=len(tweet))
             save_state(state)
         else:
+            if research_spotlight:
+                state["research_spotlights_used"][research_spotlight["fingerprint"]] = today()
             save_state(state)
             _log_event(state, **log_kwargs, pool_used="llm", posted="Y",
                        tweet_text=tweet, tweet_char_count=len(tweet))
