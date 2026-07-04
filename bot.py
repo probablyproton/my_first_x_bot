@@ -1668,7 +1668,12 @@ Keep it casual, direct, under 280 characters."""))
                 _log_event(state, **log_kwargs, pool_used="llm", posted="Y",
                            tweet_text=tweet, tweet_char_count=len(tweet))
             else:
-                _log_event(state, **log_kwargs, posted="N", skip_reason="post_failed",
+                # Mark done so this doesn't regenerate (and re-spend Gemini) next cycle — the
+                # already-written text goes to the backlog for a straight repost retry instead.
+                engagement[key] = today_str
+                _push_to_backlog(state, tweet, "llm", **log_kwargs)
+                save_state(state)
+                _log_event(state, **log_kwargs, posted="N", skip_reason="post_failed_backlogged",
                            tweet_text=tweet, tweet_char_count=len(tweet))
         except Exception as e:
             log.error("Engagement post [%s] failed: %s", key, e)
@@ -1691,6 +1696,49 @@ def _apply_stealth(page):
         stealth_sync(page)
     except ImportError:
         pass
+
+
+# Content that's already been generated (Gemini spend already happened) but Playwright/X failed
+# to actually post it — held here for a straight repost retry, never regeneration, since the
+# whole point is to not spend a second Gemini call on text that already exists. Bounded to
+# POST_BACKLOG_MAX_AGE_MINUTES because a "pre-market hook" naming specific pre-open prices stops
+# being honest a couple hours later, even though the text itself hasn't changed.
+POST_BACKLOG_MAX_AGE_MINUTES = int(os.getenv("POST_BACKLOG_MAX_AGE_MINUTES", "90"))
+
+
+def _push_to_backlog(state: dict, text: str, pool: str, **log_meta):
+    backlog = state.setdefault("post_backlog", [])
+    backlog.append({"text": text, "pool": pool, "queued_min": _epoch_minutes(), "log_meta": log_meta})
+
+
+def _flush_post_backlog(state: dict) -> dict:
+    """Retries the oldest backlogged post, at most one per cycle — same pacing philosophy as the
+    news queue: a recovered outage shouldn't dump several backlogged posts back-to-back."""
+    backlog = state.get("post_backlog", [])
+    if not backlog:
+        return state
+
+    item = backlog[0]
+    age = _epoch_minutes() - item["queued_min"]
+    if age > POST_BACKLOG_MAX_AGE_MINUTES:
+        log.warning("Backlogged post expired (held %d min, no longer honest to post as-is) — "
+                    "dropping: %s", age, item["text"][:80])
+        _log_event(state, **item["log_meta"], posted="N", skip_reason="backlog_expired",
+                   tweet_text=item["text"], tweet_char_count=len(item["text"]))
+        backlog.pop(0)
+        save_state(state)
+        return state
+
+    log.info("Retrying backlogged post (%d min old, no Gemini call needed): %s", age, item["text"][:80])
+    if post_tweet(item["text"], state, pool=item["pool"]):
+        _log_event(state, **item["log_meta"], pool_used=item["pool"], posted="Y",
+                   tweet_text=item["text"], tweet_char_count=len(item["text"]))
+        backlog.pop(0)
+        save_state(state)
+    else:
+        log.warning("Backlogged post retry failed again — will retry next cycle.")
+
+    return state
 
 
 def post_tweet(text: str, state: dict, pool: str = "llm") -> bool:
@@ -2712,9 +2760,12 @@ def process_storyline(state: dict, key: str) -> dict:
         save_state(state)
         # Post the tweet (will update daily_posts counter)
         if not post_tweet(tweet, state):
-            log.warning("Post failed; slot already marked. Will retry on next cycle if still in window.")
-            _log_event(state, **log_kwargs, posted="N", skip_reason="post_failed",
+            log.warning("Post failed; slot already marked so it won't regenerate — queuing the "
+                        "already-written text to the backlog for a straight repost retry instead.")
+            _push_to_backlog(state, tweet, "llm", **log_kwargs)
+            _log_event(state, **log_kwargs, posted="N", skip_reason="post_failed_backlogged",
                        tweet_text=tweet, tweet_char_count=len(tweet))
+            save_state(state)
         else:
             save_state(state)
             _log_event(state, **log_kwargs, pool_used="llm", posted="Y",
@@ -2837,6 +2888,11 @@ def run_cycle(state: dict) -> dict:
         _gemini_unavailable = True
         log.warning("Gemini daily call limit (%d) already reached — skipping all Gemini-dependent "
                     "work this cycle", GEMINI_DAILY_CALL_LIMIT)
+
+    # Retry any already-generated post that failed to actually go out last cycle, before doing
+    # anything else this cycle — it's already overdue, and doesn't cost a Gemini call either way.
+    state = _flush_post_backlog(state)
+
     state = check_weekly_engagement(state)
     state = check_zero_llm_weekend_content(state)
     state = check_zero_llm_pulse(state)
