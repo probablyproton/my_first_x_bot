@@ -1,6 +1,6 @@
 {
-  "date": "2026-07-04",
-  "daily_posts": 4,
+  "date": "2026-07-05",
+  "daily_posts": 0,
   "engagement": {
     "saturday": "2026-07-04"
   },
@@ -646,7 +646,7 @@
     ]
   },
   "pending_news_posts": [],
-  "daily_keyword_posts": 2,
+  "daily_keyword_posts": 0,
   "last_posted": {
     "BE": 1337,
     "SU.PA": 541,
@@ -709,7 +709,7 @@
     }
   },
   "last_news_post_min": 29718917,
-  "gemini_calls_today": 4,
+  "gemini_calls_today": 0,
   "daily_pulse_posts": 0,
   "last_pulse_post_min": 29718166,
   "next_pulse_interval": 50,
@@ -728,25 +728,11 @@
     "crwv:pfginvestmentsllc:28553": "2026-07-04",
     "eqix:janneymontgomeryscottllc:1439": "2026-07-04"
   },
+  "zero_llm_posts": {
+    "caption": "2026-07-04"
+  },
+  "event_log_next_id": 21,
   "eu_slots": [
-    {
-      "slot": 0,
-      "type": "hook",
-      "target_time": "10:00",
-      "fire_time": "10:00"
-    },
-    {
-      "slot": 1,
-      "type": "wrap",
-      "target_time": "18:00",
-      "fire_time": "17:57"
-    }
-  ],
-  "eu_posted": [
-    0,
-    1
-  ],
-  "us_slots": [
     {
       "slot": 0,
       "type": "hook",
@@ -755,17 +741,49 @@
     },
     {
       "slot": 1,
+      "type": "analytical",
+      "target_time": "13:00",
+      "fire_time": "12:57"
+    },
+    {
+      "slot": 2,
+      "type": "question",
+      "target_time": "15:30",
+      "fire_time": "15:27"
+    },
+    {
+      "slot": 3,
       "type": "wrap",
       "target_time": "18:00",
       "fire_time": "18:00"
     }
   ],
-  "us_posted": [
-    0,
-    1
+  "eu_posted": [],
+  "us_slots": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "target_time": "10:00",
+      "fire_time": "10:04"
+    },
+    {
+      "slot": 1,
+      "type": "analytical",
+      "target_time": "13:00",
+      "fire_time": "13:03"
+    },
+    {
+      "slot": 2,
+      "type": "question",
+      "target_time": "15:30",
+      "fire_time": "15:31"
+    },
+    {
+      "slot": 3,
+      "type": "wrap",
+      "target_time": "18:00",
+      "fire_time": "18:04"
+    }
   ],
-  "zero_llm_posts": {
-    "caption": "2026-07-04"
-  },
-  "event_log_next_id": 21
+  "us_posted": []
 }
