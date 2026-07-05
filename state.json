@@ -1,7 +1,7 @@
 {
   "date": "2026-07-05",
   "daily_posts": 2,
-  "daily_keyword_posts": 2,
+  "daily_keyword_posts": 3,
   "daily_pulse_posts": 0,
   "gemini_calls_today": 2,
   "evergreen_opinion_posts_today": 1,
@@ -118,11 +118,13 @@
     "EQIX": 707,
     "ETN": 707,
     "CEG": 707,
-    "VST": 709
+    "VST": 709,
+    "TLN": 722
   },
-  "event_log_next_id": 4,
+  "event_log_next_id": 6,
   "event_cooldowns": {
-    "news_VST": 709
+    "news_VST": 709,
+    "news_TLN": 722
   },
   "news_seen": {
     "ETN": [
@@ -136,7 +138,6 @@
       "Eaton Accelerates Sustainability Impact with 40% Emissions Reduction and $2.1B in R&D Investment",
       "Eaton (ETN) Stock Looks Above Fair Value On Cash Flow Alone",
       "Eaton (ETN) Is Up 5.1% After Joining Multiple Russell Growth Indices - What's Changed",
-      "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
       "Eaton Corp. to spin off Mobility Group to Dana Inc. for $5.1B",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
@@ -145,7 +146,8 @@
       "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
       "Eaton Co. man charged with criminal sexual conduct, police asking other potential victims to come forward",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.79% on Jun 30: A Full Analysis",
-      "Eaton (ETN) Dips More Than Broader Market"
+      "Eaton (ETN) Dips More Than Broader Market",
+      "Beyond Cloud & Memory: Infrastructure ETFs to Buy Amid AI Data Center Boom"
     ],
     "CEG": [
       "Stock Market Week Ahead: Oil Hints At A Paradigm Shift",
@@ -158,8 +160,8 @@
       "Why Constellation Energy Stock Is Tumbling Today",
       "NextEra’s Dominion Deal Could Put It at the Center of the AI Power Race",
       "CEG or DUK: Which Stock Deserves to Be in Your Portfolio Now?",
-      "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
+      "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
       "Constellation Energy (CEG) director adds 146 phantom share equivalents",
       "CEG - Constellation Energy Corp Latest SEC Filings",
@@ -187,8 +189,8 @@
       "Quanta Services Inc. stock underperforms Wednesday when compared to competitors",
       "Quanta Services Slides as Pullback Appears Tied to Valuation and a Lack of Fresh Catalysts",
       "Quanta Services Is Maintained at Buy by Truist Securities",
-      "Price to sales forward of Quanta Services, Inc. – NYSE:PWR",
       "Quanta Services Line Construction Services - A classic backbone for US power grids",
+      "Price to sales forward of Quanta Services, Inc. – NYSE:PWR",
       "Jacobs Lands Orange County Highway Modernization Contracts"
     ],
     "EQIX": [
@@ -226,13 +228,13 @@
       "Does Iren's Golden State Warriors Partnership Make Any Sense?",
       "IREN Limited (NASDAQ:IREN) Given Average Recommendation of \"Moderate Buy\" by Analysts",
       "Better Than Nvidia? Why IREN Is the New King of AI Infrastructure",
-      "IREN Limited Signs Five-Year AI Infrastructure Cloud Services Contract With NVIDIA",
       "Earnings call transcript: IREN Q3 2026 misses earnings, stock dips",
       "IREN: Dead Money Or The Next AI Winner? (Rating Upgrade) (NASDAQ:IREN)",
+      "IREN Stock Falls on Wednesday",
       "Trending Industry Today: IREN Ltd Leads Losses In Crypto Stocks",
-      "Bitcoin Mining Stocks IREN, RIOT, and MARA Slide as AI Pivot Faces Fresh Headwinds",
       "GM Advisory Group LLC Increases Stake in IREN Limited $IREN",
       "Golden State and Iren Announce Landmark Partnership | Golden State Warriors",
+      "IREN (NASDAQ: IREN) approves multi-year RSU packages for Co-CEOs through 2033",
       "Noteworthy Thursday Option Activity: KOP, BE, IREN"
     ],
     "VST": [
@@ -312,10 +314,10 @@
       "Vicor Surges 621% in the Past Year: Should You Buy the Stock?",
       "Littelfuse Rides on Holistic Growth Focus: Should You Buy the Stock?",
       "Vishay Precision Surges 373% in the Past Year: Time to Buy the Stock?",
+      "15 Best Data Center Stocks to Buy and Hold for the Next Decade",
       "nVent Electric (NVT) Joins Russell Growth Indexes With Valuation Still In Focus",
       "A Look at nVent Electric PLC (NVT) After 4.9% Decline -- GF Value $115.60 vs Price $152.15",
       "Person Details",
-      "Bernstein Initiates NVent Electric(NVT.US) With Buy Rating, Announces Target Price $218",
       "Enterprise value to EBITDA forward of nVent Electric plc – NYSE:NVT",
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
@@ -355,11 +357,11 @@
       "Applied Digital CEO: AI Industry Will See “Pretty Significant Delays Through 2026 and 2027”",
       "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now?",
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
-      "APLD Stock (Applied Digital Corporation) APLD Stock Analysis | May 12, 2026 Jays Game (2BceIi9gc2)",
       "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
       "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
       "Applied Digital Corporation Delivers Second Building at Polaris Forge 1",
       "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth",
+      "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
       "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day",
@@ -554,8 +556,8 @@
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
       "NOK Stock Draws Bullish Targets On AI And 5G Momentum",
-      "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
+      "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
       "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum",
       "NOK Stock Slides As Volatility And Meme Hype Collide"
@@ -712,84 +714,27 @@
       "Legrand Powers Armenia's First AI Data Center at Yerevan State University",
       "APS welcomes Jason LeGrand as global director of development",
       "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum",
-      "Legrand Acquires Girtz Industries"
+      "Legrand regains ground after RBC raises its target"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "TLN",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "Talen Energy Corp (TLN) Gets a Buy from Wells Fargo",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblIxWmhSRVRUU2xGeHJkdDBGNHI2Q191cG81c01WdTJDX3M3bmQ1bTJiNkVsaHlhQkZIQXY3dzV5WGoxVktrTHhmVEdJSWEtSkdoNmp1VzJMX3BsNXk4TGh3bG5tamV5dEp0TGEtMDRaRUg3Sk00RlhHUmVudGdwWWU1UmdUM1RCdW9fQ0R2Y1J4dTZibVg4U0lOSlRmUVVEd0pNYnF6U3VORDVRMU5lTkpJWlVsOElibm5mYU5scjNzZlVoeFZHWmZHWmFYZw?oc=5",
-      "source": "The Globe and Mail",
-      "method": "keyword",
-      "published": "2026-07-04T10:42:00",
-      "queued_min": 29720748,
-      "all_articles": [
-        {
-          "headline": "Talen Energy Corp (TLN) Gets a Buy from Wells Fargo",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOblIxWmhSRVRUU2xGeHJkdDBGNHI2Q191cG81c01WdTJDX3M3bmQ1bTJiNkVsaHlhQkZIQXY3dzV5WGoxVktrTHhmVEdJSWEtSkdoNmp1VzJMX3BsNXk4TGh3bG5tamV5dEp0TGEtMDRaRUg3Sk00RlhHUmVudGdwWWU1UmdUM1RCdW9fQ0R2Y1J4dTZibVg4U0lOSlRmUVVEd0pNYnF6U3VORDVRMU5lTkpJWlVsOElibm5mYU5scjNzZlVoeFZHWmZHWmFYZw?oc=5",
-          "source": "The Globe and Mail",
-          "summary": "",
-          "published": "2026-07-04T10:42:00"
-        }
-      ]
-    },
-    {
-      "symbol": "DLR",
-      "classification": {
-        "is_major": true,
-        "category": "ma",
-        "headline": "Digital Realty (NYSE: DLR) to acquire $3.5B Blackstone hyperscale data centers",
-        "reason": "Keyword rule matched (category: ma)"
-      },
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOazl6WHphelB5U0VfNXBTemMtYy04NVkzVEJGQVFmaVpOSXRFMC1KSjU0QTNQbGFDQkRIcTFHWktkOGJPd1JBSGNCeFpnUWt0N3ZPSWZabThOMGt6NklYdXB5YW16S1BnXzY0MWJOd0pwb2IyV0prb1MteDNBdDI5UnVDN0poZTlVVUN3aHpOSEtNX3lIUGdtYVBkSEpOMVEzVV96emlLQWZERFFDWmZvRE9R?oc=5",
-      "source": "Stock Titan",
-      "method": "keyword",
-      "published": "2026-07-04T16:14:53",
-      "queued_min": 29720748,
-      "all_articles": [
-        {
-          "headline": "Digital Realty Trust, Inc. $DLR Shares Acquired by QRG Capital Management Inc.",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNZ1ZHdHpuMncwWHM2Y0ZNc0FRZnlkeC04WmN6bU9hTWZycXdjbDA3NE93M1pXci13bmVzbGltNzFvdDN0TzFPMm5fQXFKZkxpaXEzMGE0MHh0ZXlvVlp1Wmp4LVU2V3V6LTlPazAzbDNHN3Z6ZlE0RW1vY1ZtS0syQXp6RVVYOHl1MVdZTHRnUFJVZTV5S0dkV1Z2M0VhMXM2Wldqejk4VEJSYjR4aGQyVTdKRmlGMFQ5b3BCQTRyc1RPNXE3VmJ5V2xDLWNTaTJa?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-07-05T09:32:10"
-        },
-        {
-          "headline": "Digital Realty (DLR) Stock Could Be 35% Undervalued Despite $3.5b Data Center Deal",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOZ05ER0ljLXd6ZEVBV2dlZk1xRDI3NTNweG1HMzk1VmhteWZva2EwTFlOWWtoVU1XU3B4T3pNTl9pcWhsTW5XZzBUS1pnUG85Y3I1UjF4cTJoRFlTeWxnNXltMlVVMWN6WWlZWmh5amc2NWV4M0NOQVViN0JTQTg3QXE2YTc2UzZhSDM1Zk1FTlJhYmVNVHE0ZE84TEJYaVlCdW9vd2J5YlRGRWVyMXR6VVBjMzdRUUdoZmJiUU1IQ21iaC1FYmtEbTcxZEo5eGZKbmtmOFJfTF81bGvSAdsBQVVfeXFMTmdOREdJYy13emRFQVdnZWZNcUQyNzUzcHhtRzM5NVZobXlmb2thMExZTllraFVNV1NweE96TU5faXFobE1uV2cwVEtaZ1BvOWNyNVIxeHEyaERZU3lsZzV5bTJVVTFjellpWVpoeWpnNjVleDNDTkFVYjdCU0E4N0FxNmE3NlM2YUgzNWZNRU5SYWJlTVRxNGRPOExCWGlZQnVvb3dieWJURkVlcjF0elVQYzM3UVFHaGZiYlFNSENtYmgtRWJrRG03MWRKOXhmSm5rZjhSX0xfNWxr?oc=5",
-          "source": "simplywall.st",
-          "summary": "",
-          "published": "2026-07-04T21:58:31"
-        },
-        {
-          "headline": "Digital Realty (NYSE: DLR) to acquire $3.5B Blackstone hyperscale data centers",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOazl6WHphelB5U0VfNXBTemMtYy04NVkzVEJGQVFmaVpOSXRFMC1KSjU0QTNQbGFDQkRIcTFHWktkOGJPd1JBSGNCeFpnUWt0N3ZPSWZabThOMGt6NklYdXB5YW16S1BnXzY0MWJOd0pwb2IyV0prb1MteDNBdDI5UnVDN0poZTlVVUN3aHpOSEtNX3lIUGdtYVBkSEpOMVEzVV96emlLQWZERFFDWmZvRE9R?oc=5",
-          "source": "Stock Titan",
-          "summary": "",
-          "published": "2026-07-04T16:14:53"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05"
   },
   "news_category_posted": {
     "VST": {
       "analyst_note": 709
+    },
+    "TLN": {
+      "analyst_note": 722
     }
   },
   "recent_post_sources": [
     "The Globe and Mail",
-    "Reuters"
+    "Reuters",
+    "The Globe and Mail"
   ],
-  "last_news_post_min": 29720749,
+  "last_news_post_min": 29720762,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05"
   },
