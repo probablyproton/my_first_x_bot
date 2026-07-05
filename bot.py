@@ -24,6 +24,7 @@ GitHub:     runs on workflow_dispatch (headless, TZ=Europe/Amsterdam), dispatche
 
 import os
 import re
+import tempfile
 import csv
 import ssl
 import json
@@ -254,16 +255,154 @@ def _build_slots(slot_defs: list[tuple]) -> list[dict]:
 def load_state() -> dict:
     if os.path.exists(STATE_FILE):
         try:
-            with open(STATE_FILE) as f:
+            with open(STATE_FILE, encoding="utf-8") as f:
                 return json.load(f)
-        except Exception:
-            pass
+        except Exception as e:
+            log.warning("State load failed, starting from empty state: %s", e)
     return {}
 
 
+def _parse_datetime_value(value):
+    """Best-effort parser for datetimes from RSS feeds, page metadata, and saved state.
+
+    The bot stores state as JSON, so datetimes may come back as strings on the next
+    run. This helper accepts both live datetime objects and persisted strings.
+    """
+    if value is None or value == "":
+        return None
+
+    if isinstance(value, datetime.datetime):
+        return value
+
+    if isinstance(value, datetime.date):
+        return datetime.datetime.combine(value, datetime.time.min)
+
+    if not isinstance(value, str):
+        return None
+
+    raw = value.strip()
+    if not raw:
+        return None
+
+    # ISO-8601 / JSON-LD / state.json strings.
+    try:
+        return datetime.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+    except Exception:
+        pass
+
+    # RFC-2822 style feed dates, where available.
+    try:
+        from email.utils import parsedate_to_datetime
+        parsed = parsedate_to_datetime(raw)
+        if parsed is not None:
+            return parsed
+    except Exception:
+        pass
+
+    # Some destination pages use strings such as: "Sat Jul 4, 5:42AM CDT".
+    # They are not ISO strings and often omit the year, so infer the current year
+    # and normalize common US timezone abbreviations.
+    m = re.match(
+        r"^(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s+"
+        r"(?P<mon>Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+"
+        r"(?P<day>\d{1,2}),\s*"
+        r"(?P<hour>\d{1,2}):(?P<minute>\d{2})\s*"
+        r"(?P<ampm>AM|PM)\s*(?P<tz>[A-Z]{2,4})?$",
+        raw,
+        re.I,
+    )
+    if m:
+        months = {
+            "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+            "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12,
+        }
+        hour = int(m.group("hour"))
+        if m.group("ampm").upper() == "PM" and hour != 12:
+            hour += 12
+        if m.group("ampm").upper() == "AM" and hour == 12:
+            hour = 0
+
+        tz_offsets = {
+            "UTC": 0, "GMT": 0,
+            "EST": -5, "EDT": -4,
+            "CST": -6, "CDT": -5,
+            "MST": -7, "MDT": -6,
+            "PST": -8, "PDT": -7,
+        }
+        tz_name = (m.group("tz") or "UTC").upper()
+        tzinfo = datetime.timezone(datetime.timedelta(hours=tz_offsets.get(tz_name, 0)))
+        candidate = datetime.datetime(
+            datetime.datetime.utcnow().year,
+            months[m.group("mon").lower()],
+            int(m.group("day")),
+            hour,
+            int(m.group("minute")),
+            tzinfo=tzinfo,
+        )
+        # Around New Year, a no-year date from late December can otherwise look
+        # almost a full year in the future. Pull implausible future dates back.
+        if candidate.astimezone(datetime.timezone.utc) > datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(days=1):
+            candidate = candidate.replace(year=candidate.year - 1)
+        return candidate
+
+    return None
+
+
+def _isoformat_or_empty(value) -> str:
+    parsed = _parse_datetime_value(value)
+    if parsed is None:
+        return value if isinstance(value, str) else ""
+    return parsed.isoformat()
+
+
+def _make_json_safe(obj):
+    """Recursively convert state values into JSON-serializable primitives."""
+    if isinstance(obj, datetime.datetime):
+        return obj.isoformat()
+
+    if isinstance(obj, datetime.date):
+        return obj.isoformat()
+
+    if isinstance(obj, dict):
+        return {str(k): _make_json_safe(v) for k, v in obj.items()}
+
+    if isinstance(obj, list):
+        return [_make_json_safe(v) for v in obj]
+
+    if isinstance(obj, tuple):
+        return [_make_json_safe(v) for v in obj]
+
+    if isinstance(obj, set):
+        return [_make_json_safe(v) for v in obj]
+
+    # Handles numpy/pandas scalar values without adding a hard dependency here.
+    item = getattr(obj, "item", None)
+    if callable(item):
+        try:
+            return _make_json_safe(item())
+        except Exception:
+            pass
+
+    return obj
+
+
 def save_state(state: dict):
-    with open(STATE_FILE, "w") as f:
-        json.dump(state, f, indent=2)
+    """Persist state atomically and tolerate datetime/date values in nested structures."""
+    safe_state = _make_json_safe(state)
+    state_dir = os.path.dirname(STATE_FILE) or "."
+    fd, tmp_path = tempfile.mkstemp(prefix=".state.", suffix=".json.tmp", dir=state_dir)
+
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            json.dump(safe_state, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        os.replace(tmp_path, STATE_FILE)
+    except Exception:
+        try:
+            os.remove(tmp_path)
+        except OSError:
+            pass
+        raise
 
 
 def today() -> str:
@@ -2508,7 +2647,14 @@ def _is_confirmed_stale(url: str) -> bool:
                             "treating as stale rather than assuming fresh: %s", domain, url)
                 return True
             return False
-        published = datetime.datetime.fromisoformat(m.group(1).replace("Z", "+00:00"))
+        published = _parse_datetime_value(m.group(1))
+        if published is None:
+            log.warning("Article freshness check found an unparseable publish date, assuming fresh: %s", m.group(1))
+            return False
+        if published.tzinfo is None:
+            published = published.replace(tzinfo=datetime.timezone.utc)
+        else:
+            published = published.astimezone(datetime.timezone.utc)
         age_hours = (datetime.datetime.now(datetime.timezone.utc) - published).total_seconds() / 3600
         return age_hours > NEWS_FRESHNESS_HOURS
     except Exception as e:
@@ -2599,7 +2745,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                     _log_event(state, mechanism="news_event", symbol=symbol, base_symbol=_base_symbol(symbol),
                                headline=a["headline"], headline_source=a.get("source") or "",
                                headline_link=a.get("link") or "",
-                               headline_published_utc=a["published"].isoformat() if a.get("published") else "",
+                               headline_published_utc=_isoformat_or_empty(a.get("published")),
                                holding_disclosure_fingerprint=fp,
                                posted="N", skip_reason="holding_disclosure_recycled")
                     continue
@@ -2647,7 +2793,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                        symbol=symbol, base_symbol=_base_symbol(symbol),
                        headline=classification["headline"], headline_source=meta.get("source") or "",
                        headline_link=meta.get("link") or "",
-                       headline_published_utc=meta["published"].isoformat() if meta.get("published") else "",
+                       headline_published_utc=_isoformat_or_empty(meta.get("published")),
                        news_category=category,
                        posted="N", skip_reason="duplicate_category_24h")
             return
@@ -2726,7 +2872,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                            symbol=symbol, base_symbol=_base_symbol(symbol),
                            headline=classification["headline"], headline_source=item.get("source") or "",
                            headline_link=item.get("link") or "",
-                           headline_published_utc=item["published"].isoformat() if item.get("published") else "",
+                           headline_published_utc=_isoformat_or_empty(item.get("published")),
                            news_category=classification["category"],
                            posted="N", skip_reason="queue_aged_out")
                 continue
@@ -3418,7 +3564,7 @@ def check_evergreen_opinion(state: dict) -> dict:
 
     log_kwargs = dict(mechanism="evergreen_opinion", headline=item["headline"],
                       headline_source=item.get("source") or "", headline_link=item.get("link") or "",
-                      headline_published_utc=item["published"].isoformat() if item.get("published") else "")
+                      headline_published_utc=_isoformat_or_empty(item.get("published")))
 
     text, used_gemini = None, False
     if not _gemini_unavailable:
