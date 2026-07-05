@@ -1,9 +1,9 @@
 {
   "date": "2026-07-05",
-  "daily_posts": 6,
+  "daily_posts": 7,
   "daily_keyword_posts": 4,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 6,
+  "gemini_calls_today": 7,
   "evergreen_opinion_posts_today": 2,
   "eu_slots": [
     {
@@ -103,7 +103,8 @@
     0,
     1,
     2,
-    3
+    3,
+    4
   ],
   "engagement": {},
   "zero_llm_posts": {},
@@ -111,7 +112,8 @@
     "lr:legrand regains ground after rbc raises its target": "2026-07-05",
     "gev:jim cramer backs ge vernova (nyse: gev) stock and ceo scott strazik in latest mad money segment": "2026-07-05",
     "pwr:truist financial maintains quanta services(pwr.us) with buy rating, announces target price $940": "2026-07-05",
-    "eric:us defense dept backs 6g rival to tech used by ericsson and nokia": "2026-07-05"
+    "eric:us defense dept backs 6g rival to tech used by ericsson and nokia": "2026-07-05",
+    "nvt:bernstein initiates nvent electric(nvt.us) with buy rating, announces target price $218": "2026-07-05"
   },
   "last_posted": {
     "LR.PA": 873,
@@ -119,25 +121,26 @@
     "ABBN.SW": 873,
     "IBE.MC": 873,
     "RWE.DE": 873,
-    "GEV": 707,
+    "GEV": 962,
     "VRT": 874,
     "EQIX": 874,
     "ETN": 874,
     "CEG": 874,
-    "VST": 709,
+    "VST": 962,
     "TLN": 722,
     "PWR": 782,
     "CRWV": 782,
-    "IREN": 782,
-    "APLD": 782,
+    "IREN": 962,
+    "APLD": 962,
     "DLR": 782,
     "EOAN.DE": 796,
     "SIE.DE": 796,
     "SU.PA": 796,
     "ENGI.PA": 796,
-    "ERIC": 874
+    "ERIC": 874,
+    "NVT": 962
   },
-  "event_log_next_id": 16,
+  "event_log_next_id": 17,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722
@@ -159,8 +162,8 @@
       "Eaton Corp. to spin off Mobility Group to Dana Inc. for $5.1B",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
       "Eaton Corp. PLC stock underperforms Thursday when compared to competitors",
-      "Duncan Oil acquires Eaton-based company",
       "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
+      "Duncan Oil acquires Eaton-based company",
       "Eaton Co. man charged with criminal sexual conduct, police asking other potential victims to come forward",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.79% on Jun 30: A Full Analysis",
       "Eaton (ETN) Dips More Than Broader Market"
@@ -181,11 +184,11 @@
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
       "Constellation Energy (CEG) director adds 146 phantom share equivalents",
       "CEG - Constellation Energy Corp Latest SEC Filings",
+      "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
-      "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS",
-      "Will Constellation's Long-Term Nuclear PPAs Drive Sustainable Growth?"
+      "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
     ],
     "PWR": [
       "Quanta Services, Inc. (PWR) Gains Growth Momentum with Index Shift and PT Raise",
@@ -243,6 +246,7 @@
       "IREN Ltd (IREN) Upside Becomes Attractive Amid Stock Price Decline",
       "Does Iren's Golden State Warriors Partnership Make Any Sense?",
       "IREN Limited (NASDAQ:IREN) Given Average Recommendation of \"Moderate Buy\" by Analysts",
+      "IREN Limited Signs Five-Year AI Infrastructure Cloud Services Contract With NVIDIA",
       "Better Than Nvidia? Why IREN Is the New King of AI Infrastructure",
       "Earnings call transcript: IREN Q3 2026 misses earnings, stock dips",
       "IREN: Dead Money Or The Next AI Winner? (Rating Upgrade) (NASDAQ:IREN)",
@@ -250,7 +254,6 @@
       "Trending Industry Today: IREN Ltd Leads Losses In Crypto Stocks",
       "GM Advisory Group LLC Increases Stake in IREN Limited $IREN",
       "Golden State and Iren Announce Landmark Partnership | Golden State Warriors",
-      "IREN (NASDAQ: IREN) approves multi-year RSU packages for Co-CEOs through 2033",
       "Noteworthy Thursday Option Activity: KOP, BE, IREN"
     ],
     "VST": [
@@ -334,8 +337,8 @@
       "15 Best Data Center Stocks to Buy and Hold for the Next Decade",
       "A Look at nVent Electric PLC (NVT) After 4.9% Decline -- GF Value $115.60 vs Price $152.15",
       "Person Details",
-      "Enterprise value to EBITDA forward of nVent Electric plc – NYSE:NVT",
       "Bernstein Initiates NVent Electric(NVT.US) With Buy Rating, Announces Target Price $218",
+      "Enterprise value to EBITDA forward of nVent Electric plc – NYSE:NVT",
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
       "MDY, CW, NVT, ENTG: ETF Inflow Alert"
@@ -377,7 +380,7 @@
       "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth",
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
       "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
-      "APLD Stock Analysis: $23.60 Entry Or Massive Trap? Applied Digital Deep Dive Marcello Hernandez (bszBsGHfee)",
+      "APLD Stock (Applied Digital Corporation) APLD Stock Analysis | May 12, 2026 Jays Game (2BceIi9gc2)",
       "Applied Digital Corporation Delivers Second Building at Polaris Forge 1",
       "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
@@ -397,14 +400,14 @@
       "How The E.ON (XTRA:EOAN) Narrative Is Shifting As Analyst Views Split On Upside Potential",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
-      "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
-      "Computational investigation of CO2 hydrogenation and electrochemical reduction to formic acid and methanol using chalcogen-doped nitrogen-graphene nanoflake as a metal-free catalyst | Scientific Reports",
-      "E-Book Published on Former State Sen. William Gormley",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
+      "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
       "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors",
       "Hegseth revives push to punish Sen. Mark Kelly",
       "E.ON SE strengthens its energy transition role as a European utility heavyweight",
-      "Pentagon to investigate Sen. Mark Kelly for anti-Trump video"
+      "Ekant Sen Career Stats",
+      "E.ON SE focuses on energy transition and grid investment",
+      "Computational investigation of CO2 hydrogenation and electrochemical reduction to formic acid and methanol using chalcogen-doped nitrogen-graphene nanoflake as a metal-free catalyst | Scientific Reports"
     ],
     "TLN": [
       "Talen Energy, Stock Of The Day, Delivers For Amazon, AI Data Centers",
@@ -639,11 +642,11 @@
       "CoreWeave Takes Another Hit From Meta. One Analyst Sees 200% Upside for the AI Stock.",
       "CoreWeave, Nebius shares tumble as Meta stands to become a fresh threat in the cloud",
       "CoreWeave Options Spot-On: On July 2nd, 322.13K Contracts Were Traded, With 1.78 Million Open Interest",
-      "CoreWeave: Meta Compute Scare Is A Long-Term Buying Opportunity (CRWV)",
-      "CoreWeave (CRWV) Is Down 15.1% After Meta Weighs Selling Excess AI Compute Capacity – What's Changed",
+      "CoreWeave Selloff Is Mispriced - Here's Why The Growth Story Is Intact (NASDAQ:CRWV)",
       "Why Did Nebius Stock Jump 20% in June?",
       "Meta Wants In on the Cloud. Is Amazon Stock Still a Buy?",
-      "3 AI Stocks to Still Buy If Inflation Stays Sticky"
+      "3 AI Stocks to Still Buy If Inflation Stays Sticky",
+      "Weakness in Chipmakers Drags Stock Indexes Lower"
     ],
     "ERIC": [
       "Nokia's 138% Run Has A Margin Problem",
@@ -661,8 +664,8 @@
       "Telcos want autonomous networks, but Ericsson says trust remains key hurdle",
       "Ericsson: Concerns On Growth/Valuation (Rating Downgrade)",
       "Ericsson CEO Ekholm to step down, be replaced by Per Narvinger",
-      "Ericsson and Intel collaborate to accelerate the path to commercial AI-native 6G",
       "Pentagon Bets Open-Source Code Will Break Ericsson and Nokia’s 6G Lock",
+      "Ericsson and Intel collaborate to accelerate the path to commercial AI-native 6G",
       "Brady Jay Ericsson Obituary Apr 24, 2026",
       "Verizon ups pressure on Ericsson to be open like Samsung",
       "Can Nokia's Orange Belgium Network Upgrade Deal Aid the Stock?"
@@ -709,7 +712,7 @@
       "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
       "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
+      "Siemens Energy, RE Royalties, and E.ON – Your Ticket to the Lucrative Future of Energy Infrastructure"
     ],
     "LR.PA": [
       "Legrand: Total Number of Shares and Voting Rights",
@@ -725,8 +728,8 @@
       "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
       "LeGrand’s Market shares its four-bean baked bean recipe for the perfect Fourth of July side",
       "Gabrielle Leann LeGrand Obituary (2026) - Cole Camp, MO - Fox Funeral Home - Cole Camp",
-      "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Q1 2026 Legrand SA Earnings Call Transcript",
+      "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
       "Legrand Powers Armenia's First AI Data Center at Yerevan State University",
       "APS welcomes Jason LeGrand as global director of development",
