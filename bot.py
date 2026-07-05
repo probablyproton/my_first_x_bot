@@ -1,10 +1,13 @@
 """
 Ticker Twitter Bot — dual storyline + event-driven edition
-EU story:  08:50 pre-market hook, 17:40 close-out    [2 scheduled slots/day]
-US story:  15:10 pre-market hook, 22:10 close-out    [2 scheduled slots/day]
-Weekend:   10:00 / 18:00                             [2 scheduled slots/day]
+EU story:  08:50 pre-market hook, 18:00 close_summary   [2 scheduled slots/day]
+US story:  15:10 pre-market hook, 22:30 wrap            [2 scheduled slots/day]
+Weekend:   10:00 hook / 13:00 analytical / 15:30 question / 18:00 wrap, PER
+           storyline (EU + US) — see WEEKEND_SLOTS      [4 scheduled slots/day each]
 Each storyline's remaining daily budget is event-driven (price moves + news) — see
-FLEXIBLE_SLOTS_PER_STORYLINE / BUFFER_SLOTS_PER_STORYLINE.
+FLEXIBLE_SLOTS_PER_STORYLINE / BUFFER_SLOTS_PER_STORYLINE. Separately, a zero-LLM
+"pulse" heartbeat (see check_zero_llm_pulse) posts every 45-60min on weekdays,
+independent of both the Gemini budget and real news/price activity.
 
 Real market hours: EU 09:00-17:30 CET, US 15:30-22:00 CET (see _is_market_open_for).
 Scheduled slots deliberately sit just before the open and just after the close, so
@@ -12,7 +15,11 @@ pre-market posts have real pre-open data to reference and close-out posts have r
 settled closing data, rather than firing at the exact open/close boundary.
 
 Local run:  python bot.py          (browser window visible)
-GitHub:     triggered every 15 min by Actions cron (headless, TZ=Europe/Amsterdam)
+GitHub:     runs on workflow_dispatch (headless, TZ=Europe/Amsterdam) — this repo's
+            own bot.yml has NO schedule: trigger; something external must be calling
+            the GitHub API on a cadence for this to run automatically. Verify that
+            external trigger's actual interval before relying on any cadence assumed
+            elsewhere in this file (e.g. SLOT_FIRE_WINDOW_SECONDS).
 """
 
 import os
@@ -869,15 +876,8 @@ Write one concise, engaging tweet about the provided stock using only the suppli
 - 1-2 hashtags max, only if they add signal. Omit if they feel forced.
 - MUST be under 280 characters.
 
-## Tweet types
-  hook       – stops the scroll. Open with a striking fact or news item. End with a hook or implication.
-  analytical – use specific numbers, price levels, or data points. State the implication clearly.
-  question   – one sharp, genuine question rooted in real news or price action. Only if the question adds real value — not as a reflex ending.
-  reaction   – ground in the actual price move and what may be driving it.
-  fomo       – short, calm, unsettling observation based on a real event being underpriced. No question needed.
-  wrap       – closes the session. Name specific catalysts to watch at the open. Statement, not a question.
-  close_summary – EU close-out: concise recap of final price and key driver. Factual, no speculation.
-  event      – urgent reaction to a price move or major news. Raw and immediate.
+## Tweet type
+  event – urgent reaction to a price move. Raw and immediate.
 
 ## Review before output
 Verify: all facts match the input — no unsupported claims — at least one headline referenced — tweet ≤280 characters.
@@ -1167,6 +1167,12 @@ _ANALYSIS_PIECE_PATTERNS = [
     re.compile(r"\bis\s+it\s+time\s+to\s+buy\b", re.I),
     re.compile(r"\bworth\s+(buying|investing)\b", re.I),
     re.compile(r"\bwhat\s+analysts?\s+think\b", re.I),
+    # SimplyWall.St-style automated "intrinsic value" pieces ("Digital Realty (DLR) Stock Could
+    # Be 35% Undervalued Despite $3.5b Data Center Deal") — a real dollar figure or real deal
+    # name in the headline is just background color for the valuation model's opinion, not fresh
+    # reporting of that deal. "stock look(s) undervalued" above only caught "looks undervalued";
+    # this catches the more common "could be X% undervalued" template separately.
+    re.compile(r"\b(could|might|may)\s+be\s+(\d+%\s+)?(undervalued|overvalued)\b", re.I),
 ]
 
 
@@ -1423,10 +1429,10 @@ You are an expert financial X (Twitter) market commentator — sharp, credible, 
 
 ## Aim
 Write one tweet about the current market session using the stock data provided.
-For event-driven types (analytical, question, reaction, fomo, event), you may focus on one stock
-or reference multiple — choose based on what's most interesting. For the scheduled session posts
-(hook, wrap, close_summary), the type instructions below REQUIRE covering every ticker in the data
-block — that requirement overrides this general discretion.
+For analytical/question types, you may focus on one stock or reference multiple — choose based on
+what's most interesting. For the scheduled session posts (hook, wrap, close_summary), the type
+instructions below REQUIRE covering every ticker in the data block — that requirement overrides
+this general discretion.
 
 ## Rules
 - NEVER invent or infer market conditions, catalysts, or facts not present in the provided data.
@@ -1443,6 +1449,12 @@ block — that requirement overrides this general discretion.
   into one flowing sentence. Skimmable beats prose when there's more than one name to cover. Structure
   the whole tweet as three visually separated blocks with a full BLANK line between each: the opening
   sentence, then the ticker list, then the closing takeaway — not just single line breaks between them.
+- For any post covering multiple tickers, the opening sentence must be a GENERAL summary or shared
+  theme across the group (e.g. "AI/data center demand led this week") — never a specific single
+  ticker's specific detail (e.g. NOT "$VRT eyed for earnings growth"). That specific detail belongs
+  on $VRT's own line below, not the opener — naming it in both places is pure duplication and wastes
+  space that could cover another ticker's detail instead. Save each ticker's specific fact — a
+  number, a named catalyst, a concrete event, not a vague tag like "Analyst fav" — for its own line.
 - Frame all forward-looking statements as possibilities, never certainties.
   Use: could, might, may, potentially, worth watching, raises the question.
   Never: will, confirms, proves, guarantees.
@@ -1469,9 +1481,10 @@ block — that requirement overrides this general discretion.
                   started. The tweet is prefixed with "Pre-market update: " automatically (see the
                   phase instructions below) — don't write that label yourself.
   analytical    – specific numbers, price levels, or data points. State the implication clearly.
+                  May focus on a single ticker (e.g. a research spotlight) rather than the full
+                  watchlist — see the general Aim section above.
   question      – one sharp, genuine question rooted in real news or price action. Only if it adds value.
-  reaction      – ground in actual price moves and what may be driving them.
-  fomo          – short, calm, unsettling observation based on a real event being underpriced.
+                  May focus on a single ticker rather than the full watchlist.
   wrap          – the day's close post (US). Cover EVERY ticker in the data block, one line each —
                   never narrow to a single name. Open with one sentence naming the biggest mover,
                   then list where each stock closed and how volatile its session was (use the
@@ -1482,7 +1495,6 @@ block — that requirement overrides this general discretion.
   close_summary – same role as wrap (EU's version): cover every ticker, biggest mover named up
                   front, closing price, session volatility, and driver for each. Also prefixed
                   with "Market wrap-up: " automatically.
-  event         – urgent reaction to a price move or major news. Raw and immediate.
 
 ## Weekend rules (only apply when phase = WEEKEND)
 - Markets are closed. NEVER reference today's price, daily % moves, or live market activity.
@@ -1490,6 +1502,11 @@ block — that requirement overrides this general discretion.
 - Ground every angle in the recent news headlines provided — reference specific events from the past week.
 - Frame as possibility: "X happened, which could mean Y" or "X happened – is the market pricing this in?"
 - Focus on: week-in-review, structural thesis grounded in news, what to watch at the open.
+- The hook/wrap "automatic prefix" described under Tweet types ("Pre-market update: " / "Market
+  wrap-up: ") is a WEEKDAY-only mechanic tied to a real market open/close — it does NOT apply on
+  weekends, and nothing gets prepended for you here. Do NOT write "Pre-market update:" or "Market
+  wrap-up:" yourself as an opener; write a plain, natural opening sentence per the general-summary
+  rule above instead.
 
 ## Output
 One tweet only. No quotes, no commentary."""
