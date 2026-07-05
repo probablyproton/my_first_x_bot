@@ -2,11 +2,11 @@
 Ticker Twitter Bot — dual storyline + event-driven edition
 EU story:  08:50 pre-market hook, 18:00 close_summary   [2 scheduled slots/day]
 US story:  15:10 pre-market hook, 22:30 wrap            [2 scheduled slots/day]
-Weekend:   10:00 hook / 13:00 analytical / 15:30 question / 18:00 wrap, PER
-           storyline (EU + US) — see WEEKEND_SLOTS      [4 scheduled slots/day each]
+Weekend:   10:00-19:00, 7 slots (hook/analytical/question mix, wrap to close),
+           PER storyline (EU + US) — see WEEKEND_SLOTS  [7 scheduled slots/day each]
 Each storyline's remaining daily budget is event-driven (price moves + news) — see
 FLEXIBLE_SLOTS_PER_STORYLINE / BUFFER_SLOTS_PER_STORYLINE. Separately, a zero-LLM
-"pulse" heartbeat (see check_zero_llm_pulse) posts every 45-60min on weekdays,
+"pulse" heartbeat (see check_zero_llm_pulse) posts every 30-45min on weekdays,
 independent of both the Gemini budget and real news/price activity.
 
 Real market hours: EU 09:00-17:30 CET, US 15:30-22:00 CET (see _is_market_open_for).
@@ -15,11 +15,11 @@ pre-market posts have real pre-open data to reference and close-out posts have r
 settled closing data, rather than firing at the exact open/close boundary.
 
 Local run:  python bot.py          (browser window visible)
-GitHub:     runs on workflow_dispatch (headless, TZ=Europe/Amsterdam) — this repo's
-            own bot.yml has NO schedule: trigger; something external must be calling
-            the GitHub API on a cadence for this to run automatically. Verify that
-            external trigger's actual interval before relying on any cadence assumed
-            elsewhere in this file (e.g. SLOT_FIRE_WINDOW_SECONDS).
+GitHub:     runs on workflow_dispatch (headless, TZ=Europe/Amsterdam), dispatched
+            externally on a confirmed ~15min cadence — this repo's own bot.yml has
+            no schedule: trigger itself, so that external caller is load-bearing for
+            every cadence assumption in this file (SLOT_FIRE_WINDOW_SECONDS, pulse
+            interval, news queue pacing).
 """
 
 import os
@@ -74,6 +74,25 @@ NEWS_POST_MIN_GAP_MINUTES    = int(os.getenv("NEWS_POST_MIN_GAP_MINUTES", "10"))
 NEWS_POST_GAP_JITTER_MINUTES = int(os.getenv("NEWS_POST_GAP_JITTER_MINUTES", "2"))  # +/- randomness applied to that gap each time (e.g. 10+/-2 -> 8-12min)
 NEWS_QUEUE_MAX_AGE_MINUTES   = int(os.getenv("NEWS_QUEUE_MAX_AGE_MINUTES", "360"))  # drop a held news event if it's waited this long unreleased (6h – too stale)
 NEWS_CLASSIFY_BATCH_SIZE     = int(os.getenv("NEWS_CLASSIFY_BATCH_SIZE", "5"))      # tickers per news-classification Gemini call
+
+# Feature toggle: post "large_share_purchases" — a named institution buying a sizeable number of
+# SHARES of a tracked company (distinct from the company itself being acquired, which is `ma`).
+# Its own category AND its own on/off switch, so it can be paused independently without touching
+# any other news handling. Set the env var to "false" to mute this whole class of post.
+ENABLE_LARGE_SHARE_PURCHASES = os.getenv("ENABLE_LARGE_SHARE_PURCHASES", "true").lower() == "true"
+
+# Feature toggle: "evergreen opinion" — thematic think-pieces on AI infrastructure (the sector,
+# not a single stock: policy essays, consultancy/bank sector notes, "what it means" analysis).
+# These don't lose value in a day, so they're used as FILLER on weekends and slow weekdays to keep
+# the feed alive when there's little live news. Sourced from topic (not ticker) RSS searches.
+ENABLE_EVERGREEN_OPINION            = os.getenv("ENABLE_EVERGREEN_OPINION", "true").lower() == "true"
+EVERGREEN_OPINION_LOOKBACK_DAYS     = int(os.getenv("EVERGREEN_OPINION_LOOKBACK_DAYS", "30"))   # evergreen: older is fine
+EVERGREEN_OPINION_MEMORY_DAYS       = 60   # don't re-post the same piece within this window
+EVERGREEN_OPINION_DAILY_LIMIT       = int(os.getenv("EVERGREEN_OPINION_DAILY_LIMIT", "2"))
+EVERGREEN_OPINION_MIN_GAP_MINUTES   = int(os.getenv("EVERGREEN_OPINION_MIN_GAP_MINUTES", "180"))
+# "Slow day" = past the midpoint of the combined trading day AND fewer than this many substantive
+# (non-pulse) posts have gone out — i.e. a genuinely quiet news day worth filling.
+SLOW_DAY_SUBSTANTIVE_POST_THRESHOLD = int(os.getenv("SLOW_DAY_SUBSTANTIVE_POST_THRESHOLD", "8"))
 
 HEADLESS = os.getenv("CI", "false") == "true"
 
@@ -155,9 +174,13 @@ DAILY_KEYWORD_POST_LIMIT = int(os.getenv("DAILY_KEYWORD_POST_LIMIT", "15"))
 # heartbeat crowds out real news — both defeat the point of one or the other.
 # The gap itself is randomized fresh within this range each time (not a fixed base +/- jitter) —
 # a hard fixed interval would make the account's automation trivially obvious from the outside.
-PULSE_INTERVAL_MIN_MINUTES = int(os.getenv("PULSE_INTERVAL_MIN_MINUTES", "45"))
-PULSE_INTERVAL_MAX_MINUTES = int(os.getenv("PULSE_INTERVAL_MAX_MINUTES", "60"))
-DAILY_PULSE_POST_LIMIT = int(os.getenv("DAILY_PULSE_POST_LIMIT", "18"))
+PULSE_INTERVAL_MIN_MINUTES = int(os.getenv("PULSE_INTERVAL_MIN_MINUTES", "30"))
+PULSE_INTERVAL_MAX_MINUTES = int(os.getenv("PULSE_INTERVAL_MAX_MINUTES", "45"))
+# Tightened from 45-60min: over the 09:00-22:00 window this averages ~21 posts/day instead of
+# ~15, pushing weekday volume closer to the 30/day objective. The limit below is raised to match
+# — it used to sit right at the old interval's natural output (~18), which would now silently cap
+# the tighter interval below what it can actually produce.
+DAILY_PULSE_POST_LIMIT = int(os.getenv("DAILY_PULSE_POST_LIMIT", "24"))
 
 # Maps a post's pool to its (state counter key, daily limit) — one shared lookup so post_tweet/
 # post_poll don't duplicate this logic, and adding a new pool later is a one-line change here.
@@ -192,13 +215,18 @@ US_SLOTS = [
 WEEKEND_SLOTS = [
     # Weekends have neither price events nor much real news (confirmed empirically — far less
     # than a weekday), so the Gemini budget goes mostly unused unless the SCHEDULE itself fills
-    # more of the day. hook/wrap still cover the full watchlist; the two additions in between use
-    # "analytical"/"question" specifically because those types allow single-ticker focus (see
-    # MARKET_UPDATE_SYSTEM) rather than forcing a repetitive full-watchlist recap four times a day.
+    # more of the day. hook/wrap still cover the full watchlist; the analytical/question slots in
+    # between use single-ticker focus (see MARKET_UPDATE_SYSTEM) rather than forcing a repetitive
+    # full-watchlist recap seven times a day. 7 slots x 2 storylines = 14 Gemini calls, + up to 1
+    # weekly-engagement call = 15, leaving a few calls in reserve out of the 18/day ceiling for any
+    # genuine weekend news rather than committing the entire budget to the fixed schedule.
     ("10:00", "hook"),        # morning: week-in-review framing, news-grounded
-    ("13:00", "analytical"),  # midday: single sharpest angle (a research spotlight, if one exists)
-    ("15:30", "question"),    # afternoon: one genuine question to keep engagement going
-    ("18:00", "wrap"),        # evening: recap + what to watch at Monday's open
+    ("11:30", "analytical"),  # single sharpest angle (a research spotlight, if one exists)
+    ("13:00", "analytical"),
+    ("14:30", "question"),    # one genuine question to keep engagement going
+    ("16:00", "analytical"),
+    ("17:30", "question"),
+    ("19:00", "wrap"),        # evening: recap + what to watch at Monday's open
 ]
 
 
@@ -570,7 +598,7 @@ def get_week_to_date_change(symbols: list[str]) -> dict[str, float]:
 # per-storyline flexible/buffer budget entirely, since it costs nothing to fire.
 
 WEEKEND_CAPTION_TEMPLATES = [
-    "Week in numbers:\n{top5}\n\n$1000 to split across these – how would you weight it?",
+    "Week in numbers:\n{top5}\n\nWhich of these would you add to your portfolio?",
     "$1000, one week, these names:\n{top5}\n\nWhere's it going?",
     "Biggest mover this week: {best} {best_pct}.\nBiggest laggard: {worst} {worst_pct}.\n\nSpread like that raises the question of what the market's pricing in.",
     "{best} led the group this week at {best_pct}. {worst} brought up the rear at {worst_pct}.\n\nWhich one's the better setup going into next week?",
@@ -579,7 +607,7 @@ WEEKEND_CAPTION_TEMPLATES = [
     "Closing out the week with these names on watch:\n{top5}\n\nWhat's your read heading into Monday's open?",
     "Top movers this week:\n{top3}\n\nMomentum like that could carry into next week – or stall right at the open.",
     "Wildly different outcomes on the board this week:\n{top3}\n\nThe dispersion alone is worth watching.",
-    "$1000. These tickers. One week to hold:\n{top5}\n\nHow do you split it?",
+    "$1000. These tickers. One week to hold:\n{top5}\n\nWhich one are you picking up?",
     "{best} quietly put up {best_pct} this week while most eyes were elsewhere.\n\nWorth asking what's still underpriced here.",
     "Weekly scoreboard:\n{top3}\n\nWhich of these keeps the momentum into next week?",
     "Watching these into next week:\n{top5}\n\nNo action needed this weekend – just setting the board.",
@@ -588,13 +616,13 @@ WEEKEND_CAPTION_TEMPLATES = [
     "Sunday check-in:\n{top5}\n\nAny of these you're adding before Monday's open?",
     "{best} was the standout this week at {best_pct}.\n\nThe question now is whether that continues or whether it's already priced in.",
     "Full board heading into next week:\n{top5}\n\nWhich one moves first?",
-    "Weekly split:\n{top3}\n\n$1000 across just these three – how do you weight it?",
+    "Weekly standouts:\n{top3}\n\nWhich of these three would you add?",
     "A lot of divergence on the board this week:\n{top3}\n\nThat kind of spread tends to resolve one way or another.",
     "Heading into next week still watching:\n{top5}\n\nNothing's changed thesis-wise – just tracking the setup.",
     "{best} up {best_pct}, {worst} down {worst_pct} – same watchlist, opposite outcomes.\n\nWorth asking why.",
     "This week's names, ranked:\n{top3}\n\nMonday's open will be the first real test of whether this holds.",
     "Quiet week for headlines, loud week for price action:\n{top3}\n\nSometimes the moves happen before the news does.",
-    "$1000 to deploy, this week's board to choose from:\n{top5}\n\nWhat's the split?",
+    "$1000 to deploy, this week's board to choose from:\n{top5}\n\nWhat are you picking up?",
     "{best} led, {worst} lagged, and the rest sat in between:\n{top5}\n\nWhere do you see the most room left?",
 ]
 
@@ -608,8 +636,13 @@ POLL_QUESTION_TEMPLATES = [
 
 
 def generate_zero_llm_weekend_post(tickers: list[str]) -> str | None:
-    """Fill a random template with this week's real performance numbers. No Gemini call."""
-    perf = get_week_performance(tickers)
+    """Fill a random template with this week's real performance numbers. No Gemini call.
+    Uses get_week_to_date_change (Monday's OPEN vs. latest close) rather than get_week_performance
+    (a 5-trading-day rolling window) — the same metric the Wednesday midweek post already uses, so
+    a reader doesn't see two differently-computed "this week" numbers for the same tickers on the
+    same weekend. Every figure is explicitly labeled "WTD" so it's unambiguous which window it
+    covers, rather than a bare % that could be read as a single day's move."""
+    perf = get_week_to_date_change(tickers)
     if len(perf) < 2:
         return None
 
@@ -618,13 +651,13 @@ def generate_zero_llm_weekend_post(tickers: list[str]) -> str | None:
     worst_t, worst_v = ranked[-1]
 
     def fmt(t, v):
-        return f"${_base_symbol(t)} {'+' if v >= 0 else ''}{v}%"
+        return f"${_base_symbol(t)} {'+' if v >= 0 else ''}{v}% WTD"
 
     values = {
         "best": f"${_base_symbol(best_t)}",
-        "best_pct": f"{'+' if best_v >= 0 else ''}{best_v}%",
+        "best_pct": f"{'+' if best_v >= 0 else ''}{best_v}% WTD",
         "worst": f"${_base_symbol(worst_t)}",
-        "worst_pct": f"{'+' if worst_v >= 0 else ''}{worst_v}%",
+        "worst_pct": f"{'+' if worst_v >= 0 else ''}{worst_v}% WTD",
         "spread": round(best_v - worst_v, 1),
         "top3": "\n".join(fmt(t, v) for t, v in ranked[:3]),
         "top5": "\n".join(fmt(t, v) for t, v in ranked[:5]),
@@ -831,6 +864,7 @@ def ensure_daily_plans(state: dict) -> dict:
         state["daily_keyword_posts"] = 0
         state["daily_pulse_posts"] = 0
         state["gemini_calls_today"] = 0
+        state["evergreen_opinion_posts_today"] = 0
         for key in ("eu", "us"):
             state.pop(f"{key}_flexible_used", None)
             state.pop(f"{key}_buffer_used", None)
@@ -904,12 +938,24 @@ Contract / Partnership:
 - Government or defense contract: any
 
 M&A:
-- Acquisition, merger, or buyout: any
+- Acquisition, merger, or buyout of the COMPANY ITSELF (the ticker being taken over, or the
+  ticker acquiring another whole company): any
 - Buyout rumor with named acquirer: any
 - Asset sale >$500M: any
+- NOTE: a fund or institution buying a block of SHARES of the company is NOT M&A — the company
+  itself isn't being acquired. Classify that as "large_share_purchases" instead (see below).
 
-Analyst:
-- First-ever initiation of coverage by a major firm only (not upgrades/downgrades)
+Large share purchase (institutional):
+- A named institution, fund, or investor buying a specific, sizeable number of SHARES of the
+  company (e.g. "HSBC Holdings PLC Acquires 25,259 Shares of Equinix"): any. Use category
+  "large_share_purchases". This is distinct from M&A above (the company is the target of a
+  purchase of its stock, not being acquired outright).
+
+Analyst note (category "analyst_note"):
+- A named firm's research action on the company — price-target change, rating change (upgrade/
+  downgrade), initiation of coverage, or a specific forward call ("BofA expects strong Q2 AI
+  orders"): any. Must name the firm and say what it concluded — a generic "is this stock a buy?"
+  opinion piece with no named firm is NOT this; ignore those.
 
 Regulatory / Geopolitical:
 - Named company or direct sector ruling: any
@@ -936,7 +982,7 @@ Respond with a JSON array, exactly one object per ticker given, in the same orde
   {
     "symbol": "the ticker this judgment is about",
     "is_major": true or false,
-    "category": "earnings|contract|ma|analyst|regulatory|macro|company|none",
+    "category": "earnings|contract|ma|large_share_purchases|analyst_note|regulatory|macro|company|none",
     "headline": "the exact headline that triggered this (omit or empty if is_major is false)",
     "reason": "one sentence explaining why it qualifies or not"
   }
@@ -1092,9 +1138,11 @@ _KEYWORD_RULES = [
     ("buyback",    re.compile(r"\b(buyback|share repurchase)\b", re.I),
                    re.compile(r"\$[\d,.]+\s?(million|billion|M|B)\b", re.I)),
     ("regulatory", re.compile(r"\b(sanctions|export (ban|control)|security ban|CHIPS Act)\b", re.I), None),
-    ("analyst",    re.compile(r"\binitiates? coverage\b", re.I), None),
+    # Analyst research notes (initiations, ratings, price-target changes, forward expectations) are
+    # handled by the dedicated `analyst_note` check in classify_news_keyword (via _RESEARCH_NOTE_RE),
+    # not a keyword rule here — that check catches the full range, not just "initiates coverage",
+    # and runs before this loop. No separate `analyst` rule / routine-exclusion needed anymore.
 ]
-_ANALYST_ROUTINE_RE = re.compile(r"\b(upgrade\w*|downgrade\w*|reiterat\w*|maintain\w*)\b", re.I)
 
 # "Acquired" fires on genuine M&A ("Company X acquires Company Y") but just as readily on routine
 # institutional 13F-style disclosures ("Shares Acquired by Leonteq Securities AG") — the latter
@@ -1106,6 +1154,34 @@ _MA_ROUTINE_RE = re.compile(
     r"|Asset|Trust|Group|LLC|Inc\.?)\b",
     re.I,
 )
+
+# A named institution buying a specific, sizeable number of SHARES of a tracked company ("HSBC
+# Holdings PLC Acquires 25,259 Shares of Equinix"; "40,000 Shares in Vistra Corp. $VST Acquired
+# by ... PZU ...") is real, price-relevant signal — but it is NOT M&A (the company itself isn't
+# being bought), so it gets its own `large_share_purchases` category rather than muddying `ma`.
+# The tell is a share COUNT + a purchase verb, in either order; genuine M&A names a target
+# company and a deal value ("$4 billion deal"), not a share count of the tracked ticker.
+#   - Share count requires a comma group or 4+ digits (>= ~1,000 shares) so a trivial "acquires
+#     500 shares" doesn't qualify as "large". True dollar-size can't be judged from the headline
+#     alone (no price), so this nominal-count floor is the practical proxy.
+#   - A strategic stake buildup toward a takeover is technically pre-M&A, but telling a passive
+#     pension fund from an activist accumulator isn't reliable via regex — the Gemini path may
+#     still call a genuine strategic stake `ma`, which is fine.
+_SHARE_COUNT_ANY_RE   = re.compile(r"\b\d[\d,]*\s+(?:new\s+)?shares?\b", re.I)
+_SHARE_COUNT_LARGE_RE = re.compile(r"\b(\d{1,3}(?:,\d{3})+|\d{4,})\s+(?:new\s+)?shares?\b", re.I)
+_PURCHASE_VERB_RE     = re.compile(r"\b(acquir\w*|purchas\w*|buys?|bought|boosts?|increas\w*|raises?|grows?|lifts?)\b", re.I)
+
+
+def _is_share_purchase(text: str) -> bool:
+    """Any institutional share purchase (a purchase verb + a share COUNT, any size). Used to
+    recognize the whole CLASS so a small one can be dropped rather than leaking into `ma`."""
+    return bool(_SHARE_COUNT_ANY_RE.search(text) and _PURCHASE_VERB_RE.search(text))
+
+
+def _is_large_share_purchase(text: str) -> bool:
+    """The subset of _is_share_purchase that clears the size floor (comma group or 4+ digits,
+    i.e. >= ~1,000 shares) — only these are worth posting as `large_share_purchases`."""
+    return bool(_SHARE_COUNT_LARGE_RE.search(text) and _PURCHASE_VERB_RE.search(text))
 
 # MarketBeat-style "instant alert" institutional-holdings headlines ("HSBC Holdings PLC Acquires
 # 25,259 Shares of Equinix, Inc.") are genuinely worth posting — a major bank taking a real
@@ -1173,6 +1249,27 @@ _ANALYSIS_PIECE_PATTERNS = [
     # reporting of that deal. "stock look(s) undervalued" above only caught "looks undervalued";
     # this catches the more common "could be X% undervalued" template separately.
     re.compile(r"\b(could|might|may)\s+be\s+(\d+%\s+)?(undervalued|overvalued)\b", re.I),
+    # Urgency/FOMO clickbait templates — confirmed live on the real watchlist ("After
+    # Skyrocketing Nearly 200%, Is It Too Late to Buy Bloom Energy?", "All You Need to Know
+    # About ENGIE - Sponsored ADR (ENGIY) Rating Upgrade to Strong Buy"). These are engagement
+    # bait regardless of whether a real event is buried inside — the phrasing itself is the
+    # signal, not the content. Deliberately NOT matching on bare words like "secret" (a Barron's
+    # piece on Meta's "Secret Cloud Move" and a routine "Corporate Secretary" hire both showed up
+    # in the same real data pull — a loose keyword would have wrongly excluded one and matched
+    # the other by accident) — every pattern here is a full phrase, tested against 741 real
+    # headlines from the actual watchlist with zero false positives.
+    re.compile(r"\bis\s+it\s+too\s+late\s+to\s+buy\b", re.I),
+    re.compile(r"\ball\s+you\s+need\s+to\s+know\s+about\b", re.I),
+    re.compile(r"\byou\s+(need|have)\s+to\s+see\s+this\b", re.I),
+    re.compile(r"\byou'?(ll| will)\s+(only\s+)?(read|know|realize|find\s+out|regret)\b.*\btoo\s+late\b", re.I),
+    re.compile(r"\bbefore\s+it'?s\s+too\s+late\b", re.I),
+    re.compile(r"\bdon'?t\s+miss\s+(this|out)\b", re.I),
+    re.compile(r"\byou\s+won'?t\s+believe\b", re.I),
+    re.compile(r"\byour\s+last\s+chance\b", re.I),
+    re.compile(r"\bact\s+(now|fast)\b", re.I),
+    re.compile(r"\bwake[- ]up\s+call\b", re.I),
+    re.compile(r"^warning:", re.I),
+    re.compile(r"\bwish\s+you\s+(had\s+)?(bought|sold)\b", re.I),
 ]
 
 
@@ -1195,22 +1292,23 @@ def _mentions_company(symbol: str, text: str) -> bool:
     return bool(first_word) and first_word in text_lower
 
 
-# Genuine bank/research-house activity — a price target change, a rating, a coverage call —
-# confirmed empirically to show up regularly in the same Yahoo/Google News/Nasdaq feeds already
-# fetched (e.g. "Stifel Backs Equinix (EQIX) as AI Infrastructure Demand Drives Data Center
-# Growth", "Morgan Stanley Cuts Price Target on Vistra (VST)", "Vistra Corp (VST) Gets a Buy from
-# Wells Fargo"). None of this qualifies as MAJOR news for the real-time pipeline (routine rating
-# changes are deliberately excluded there — see _ANALYST_ROUTINE_RE), but that bar exists to avoid
-# reacting to every rating tweak in real time, not because the content itself is uninteresting.
-# For a weekend recap specifically, a named firm's actual research view is exactly the substance a
-# plain "top mover by headline count" ranking misses.
+# Genuine bank/research-house activity — a price target change, a rating, a coverage call, a
+# named firm's forward expectation — shows up regularly in the Yahoo/Google News/Nasdaq feeds
+# already fetched ("Morgan Stanley Cuts Price Target on Vistra", "BofA Lifts Nokia Price Objective
+# on Expectations of Strong Q2 AI Orders", "BofA Expects Nokia AI Orders to Stay Strong in Q2",
+# "Vistra Corp Gets a Buy from Wells Fargo"). This is real, price-relevant substance — competitor
+# accounts post it — so it's caught both in the real-time pipeline (category `analyst_note`, see
+# classify_news_keyword) AND surfaced in the weekend research spotlight.
+# Verb list stays broad on purpose (Lifts/Hikes/Bumps, Expects/Anticipates, etc.) since these
+# headlines are phrased a dozen different ways; "Price Objective"/"Target Price" are the same
+# thing as "Price Target" reworded, and both bare phrases match regardless of the verb used.
 _RESEARCH_NOTE_RE = re.compile(
     r"^[A-Z][\w.&'-]*(?:\s+[A-Z][\w.&'-]*){0,4}\s+"
-    r"(?:Backs|Raises|Cuts|Lowers|Maintains|Reiterates|Initiates|Sees|Sets|Gives|Upgrades|Downgrades|"
-    r"Sends|Starts|Boosts|Trims)\b"
+    r"(?:Backs|Raises|Cuts|Lowers|Lifts|Hikes|Bumps|Maintains|Reiterates|Initiates|Sees|Sets|Gives|"
+    r"Upgrades|Downgrades|Sends|Starts|Boosts|Trims|Expects|Anticipates|Flags)\b"
     r"|\bGets?\s+an?\s+(?:Buy|Sell|Hold|Overweight|Underweight|Outperform|Underperform)\s+(?:from|Rating)\b"
     r"|\bSees?\s+\d+%\s+(?:Upside|Downside)\b"
-    r"|\bPrice\s+Target\b"
+    r"|\b(Price\s+Target|Price\s+Objective|Target\s+Price)\b"
     r"|\bInitiates?\s+Coverage\b",
     re.I,
 )
@@ -1272,11 +1370,36 @@ def classify_news_keyword(symbol: str, articles: list[dict]) -> dict | None:
         text = f"{a['headline']} {a.get('summary') or ''}"
         if not _mentions_company(symbol, text):
             continue  # topically adjacent but not actually about this ticker — skip
+        # Institutional share purchase gets its own handling, checked BEFORE the M&A rule so
+        # "[Institution] acquires N shares of [company]" isn't miscategorized as a corporate
+        # takeover. A large one → its own category (toggle enforced downstream at queue time, so
+        # this stays a pure "what is it" classifier). A small one → skipped entirely, since it's
+        # neither sizeable enough to be interesting NOR M&A (letting it fall through would leak it
+        # into `ma`, because the active-voice "Acquires N Shares" form evades _MA_ROUTINE_RE).
+        if _is_share_purchase(text):
+            if _is_large_share_purchase(text):
+                return {
+                    "is_major": True,
+                    "category": "large_share_purchases",
+                    "headline": a["headline"],
+                    "reason": "Sizeable institutional share purchase",
+                }
+            continue
+        # Named-firm research note (price-target change, rating, initiation, forward call) — a
+        # real, price-relevant view competitor accounts post too. Checked before the keyword loop
+        # so e.g. "BofA Lifts Nokia Price Objective ..." is caught as its own category rather than
+        # slipping through uncategorized. _is_research_note_headline already excludes generic
+        # valuation/opinion clickbait, so this stays tight.
+        if _is_research_note_headline(a["headline"]):
+            return {
+                "is_major": True,
+                "category": "analyst_note",
+                "headline": a["headline"],
+                "reason": "Named-firm analyst research note",
+            }
         for category, primary, secondary in _KEYWORD_RULES:
             if not primary.search(text):
                 continue
-            if category == "analyst" and _ANALYST_ROUTINE_RE.search(text):
-                continue  # routine rating change, not an initiation — same exclusion Gemini applies
             if category == "ma" and _MA_ROUTINE_RE.search(text):
                 continue  # a fund buying shares, not the company itself being acquired
             if category == "earnings" and a["headline"].rstrip().endswith("?"):
@@ -1663,7 +1786,7 @@ This week's tickers (already sorted alphabetically, list them exactly as given):
 Format:
 - Open with a short intro line about tracking these this week
 - List the tickers on separate lines
-- End with: "$1000 to allocate across these – how do you split it? 👇"
+- End with: "$1000 to deploy this week – which one are you picking up? 👇"
 
 Keep it casual, direct, under 280 characters."""))
 
@@ -1703,7 +1826,7 @@ Format:
 - List {'the ticker' if n == 1 else f'all {n} tickers'} on separate lines with their % figure, in the
   EXACT order given above — do NOT resort alphabetically (the gain-to-loss order is the point) and do
   NOT add or invent any ticker not in that list.
-- End with a simple, clear hypothetical: {"if you had $1000 to invest right now, would you put it into this one or hold off?" if n == 1 else f"if you had $1000 to invest right now, how would you split it across these {n}?"} Phrase this fresh each time in your own words – don't reuse the same wording as a template.
+- End with a simple, clear hypothetical: {"if you had $1000 to invest right now, would you put it into this one or hold off?" if n == 1 else f"if you had $1000 to invest right now, which of these {n} would you pick up?"} Phrase this fresh each time in your own words – don't reuse the same wording as a template.
 
 Use a line break between the opener, the ticker list, and the closing question. Keep it simple, clear,
 casual, engaging. Under 280 characters."""))
@@ -1736,19 +1859,25 @@ Format:
 Keep it calm, considered, under 280 characters. No hype. No em dash – use en dash only."""))
 
     if weekday == 5 and "10:00" <= now <= "11:30" and engagement.get("saturday") != today_str:
-        perf = get_week_performance(tickers)
+        # Week-to-date (Monday's open vs. latest close) — same metric the Wednesday post and the
+        # zero-LLM weekend caption both use, so this ticker's % doesn't read differently across
+        # the day's several "this week" posts depending on which one happened to generate it.
+        perf = get_week_to_date_change(tickers)
         if perf:
             perf_lines = "\n".join(
-                f"${t}  {'+' if v >= 0 else ''}{v}%" for t, v in sorted(perf.items())
+                f"${t}  {'+' if v >= 0 else ''}{v}% WTD" for t, v in sorted(perf.items())
             )
             posts.append(("saturday", f"""Write a Saturday weekly performance post for a financial Twitter account.
 
-Weekly performance (use exactly these numbers, tickers already sorted alphabetically):
+Week-to-date performance, Monday's open through the latest close (use exactly these numbers,
+tickers already sorted alphabetically):
 {perf_lines}
 
 Format:
 - Open with "Week in numbers:" or similar
-- List each ticker and its performance on a separate line exactly as given
+- List each ticker and its week-to-date performance on a separate line exactly as given —
+  explicitly label it "week-to-date" or "WTD" somewhere in the post so it's unambiguous this
+  covers the whole week, not just today or Friday alone
 - End with an engaging question like "Which one surprised you most? 👇"
 
 Keep it casual, direct, under 280 characters."""))
@@ -2456,6 +2585,18 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
     def _queue_item(symbol, classification, method):
         category = classification["category"]
         meta = next((a for a in candidates[symbol] if a["headline"] == classification["headline"]), {})
+        # Single toggle gate for both classifier paths (keyword assigns this category directly;
+        # Gemini can too via NEWS_CLASSIFIER_SYSTEM). Enforced here rather than inside each
+        # classifier so there's exactly one place the on/off switch lives.
+        if category == "large_share_purchases" and not ENABLE_LARGE_SHARE_PURCHASES:
+            log.info("NEWS EVENT skipped [%s] for $%s — large_share_purchases muted via toggle: %s",
+                     method, symbol, classification["headline"])
+            _log_event(state, mechanism="news_event", generation_method=method,
+                       symbol=symbol, base_symbol=_base_symbol(symbol),
+                       headline=classification["headline"], headline_source=meta.get("source") or "",
+                       headline_link=meta.get("link") or "", news_category=category,
+                       posted="N", skip_reason="large_share_purchases_disabled")
+            return
         if _news_category_posted_recently(state, symbol, category):
             log.info("NEWS EVENT skipped [%s] for $%s [%s] — already posted this category within "
                      "the last %dh (likely same story, different headline): %s",
@@ -2961,6 +3102,294 @@ def check_zero_llm_weekend_content(state: dict) -> dict:
     return state
 
 
+# ── Evergreen opinion (thematic AI-infra think-pieces, weekend / slow-day filler) ─────────────
+# Sourced by TOPIC (not ticker) — a sector essay like AEI's "AI Infrastructure Is a New Asset
+# Class" won't show up in any single stock's feed. Query 1 below empirically surfaces credible
+# analysis (AEI, McKinsey, Morgan Stanley, Fortune, MIT); a stock-tout "investment thesis" query
+# was tested and rejected as too noisy. Quality is enforced by three filters, since a topic search
+# inevitably drags in clickbait: the shared generic-analysis/clickbait patterns, a stock-tout
+# noise regex, and a source blocklist of known stock-pumping mills.
+_EVERGREEN_OPINION_QUERIES = [
+    '"AI infrastructure" (opinion OR analysis OR "asset class" OR outlook OR policy)',
+    '"data center" (power OR grid OR buildout) AI (policy OR opinion OR analysis)',
+    # The "who pays for the buildout" / hidden-enablers angle: grid economics + policy. This is
+    # where the stories that move the whole basket (ETN/NEE/POWL/GEV/PWR + the data-center REITs)
+    # surface first — interconnection queues, PPAs, demand response, ratepayer/cost-shift fights.
+    '("AI infrastructure" OR "data center") (FERC OR "Department of Energy" OR interconnection OR '
+    '"power purchase" OR "demand response" OR transmission OR permitting OR moratorium OR '
+    'regulator OR ratepayer)',
+    # High-signal majors that are paywalled / have no clean RSS — reached via Google News site:
+    # search (which indexes their headlines) rather than a direct feed. One OR-group = one fetch.
+    '("data center" OR "AI infrastructure" OR "power grid") (site:reuters.com OR site:bloomberg.com '
+    'OR site:cnbc.com OR site:politico.com OR site:axios.com)',
+]
+# Direct RSS feeds from credible AI-infra / grid trade press — fetched alongside the topic searches
+# so their coverage reliably surfaces instead of depending on Google News to index it. All confirmed
+# live with full pubDate coverage. The source label is forced (these link to their own domain, which
+# would otherwise show as a bare hostname). DCD/DCK cover data centers; Power Magazine / Utility Dive
+# / Canary Media cover the grid + utility-economics side the basket's power names hinge on.
+_EVERGREEN_DIRECT_FEEDS = [
+    ("https://www.datacenterdynamics.com/en/rss/", "DatacenterDynamics"),
+    ("https://www.datacenterknowledge.com/rss.xml", "Data Center Knowledge"),
+    ("https://www.powermag.com/feed/", "POWER Magazine"),
+    ("https://www.utilitydive.com/feeds/news/", "Utility Dive"),
+    ("https://www.canarymedia.com/feed", "Canary Media"),
+]
+_AI_INFRA_TOPIC_RE = re.compile(
+    r"\b(AI|artificial intelligence|data cent(?:er|re)|infrastructure|compute|hyperscal|grid|"
+    r"power|electricity|colocation|nuclear)\b", re.I)
+_OPINION_NOISE_RE = re.compile(
+    r"\b(top\s+\d+\s+stocks?|best\s+stocks?|stocks?\s+to\s+buy|which\s+of\s+these|buy\s+the\s+dip|"
+    r"price\s+target|fair\s+value|\d+%\s+(?:upside|downside)|scorecard|earnings\s+call|"
+    r"stock\s+(?:soars?|surges?|plunges?|jumps?|rises?|falls?|is\s+a\s+buy))\b", re.I)
+# A headline about a SPECIFIC stock's price/estimate story ("Why Oracle (ORCL)... Estimate Story",
+# "Can Caterpillar Stock Keep Climbing?") is a stock piece, not the sector-level "what it means"
+# essay this feature is for. A ticker in parentheses / $-notation, or the words "stock"/"shares",
+# are reliable tells — genuine theme/policy essays (AEI, McKinsey, Morgan Stanley sector notes)
+# don't use them. NOT re.I: the ticker-paren must be uppercase to avoid matching "(the)" etc.
+_STOCK_SPECIFIC_RE = re.compile(r"\([A-Z]{2,6}\)|\$[A-Z]{1,6}\b|\b[Ss]tocks?\b|\b[Ss]hares?\b")
+_OPINION_SOURCE_BLOCKLIST = {s.lower() for s in [
+    "The Motley Fool", "Seeking Alpha", "24/7 Wall St.", "Intellectia AI", "Moomoo", "Zacks",
+    "Insider Monkey", "GuruFocus", "Simply Wall St", "Morningstar", "citybiz", "gritdaily.com",
+    "foreignpolicyjournal.com", "eciks.org", "MarketBeat", "Benzinga",
+]}
+# Soft preference (not a hard filter): when multiple pieces qualify, lead with a genuinely credible
+# think-tank / consultancy / major-journalism / academic source over a generic financial-news
+# aggregator. Substring match against the RSS <source>.
+_OPINION_SOURCE_PREFERRED = {s.lower() for s in [
+    "AEI", "American Enterprise", "McKinsey", "Morgan Stanley", "Goldman", "Fortune", "WSJ",
+    "Wall Street Journal", "MIT", "Brookings", "RAND", "Economist", "Financial Times", "Bloomberg",
+    "Reuters", "Bain", "BCG", "Boston Consulting", "Deloitte", "PwC", "Gartner", "IDC", "Harvard",
+    "Stanford", "Department of Energy", "CNBC", "Barron", "Axios", "The Atlantic", "Foreign Affairs",
+    "Politico",
+    # AI-infra / grid trade press + the regulatory bodies that shape the sector
+    "DatacenterDynamics", "Data Center Knowledge", "Data Center Frontier", "FERC", "NERC",
+    "POWER Magazine", "Utility Dive", "Canary Media",
+]}
+_NAV_JUNK_RE = re.compile(r"\b(subscribe|donate|newsletter|cookie|sign\s+up|log\s+in|browse|"
+                          r"all\s+scholars|menu|advertisement)\b", re.I)
+_EVERGREEN_MAX_PER_SOURCE = 3  # diversity cap: no single feed floods the candidate pool
+
+# Neutral framings that read well for BOTH a thematic essay and a concrete sector development,
+# since the broadened sourcing (trade press + gov/policy) surfaces news as well as opinion. Avoids
+# "interesting take" as the default — that implies opinion and reads wrong on a hard-news item.
+EVERGREEN_OPINION_TEMPLATES = [
+    "Worth a read from {source}:\n\n\"{headline}\"\n\n{link}",
+    "On the radar ({source}):\n\n\"{headline}\"\n\n{link}",
+    "{source} on the AI infrastructure buildout:\n\n\"{headline}\"\n\n{link}",
+    "Interesting read from {source}:\n\n\"{headline}\"\n\n{link}",
+    "From {source}:\n\n\"{headline}\"\n\n{link}",
+]
+
+EVERGREEN_OPINION_SYSTEM = """## Role
+You are a sharp financial X commentator sharing a thought-provoking piece on AI infrastructure —
+the sector this account covers (power, data centers, networking, compute).
+
+## Rules
+- Summarize the core point in 1-2 tight sentences a busy trader would find worth their time — the
+  central argument if it's analysis/opinion, or what happened and why it matters if it's a
+  development. Base it ONLY on the provided article text — never invent claims, numbers, or
+  conclusions not in it.
+- This is a SECTOR-level piece, not a stock call. Do NOT attach a $ticker, a price, or a buy/sell view.
+- Name the source. Frame it as an interesting perspective, not settled fact.
+- No hype, no filler, no clickbait. Never use em dash — use en dash (–) only.
+- Do NOT include a URL yourself — a link is appended after your text. Keep the text under 255 characters.
+
+## Output
+One post only. No surrounding quotes, no commentary."""
+
+
+def _is_slow_day(state: dict) -> bool:
+    """Past the midpoint of the combined EU+US trading day (>=15:30 CET) but not late evening, AND
+    fewer than SLOW_DAY_SUBSTANTIVE_POST_THRESHOLD substantive (non-pulse) posts out so far — a
+    genuinely quiet news day worth filling with evergreen content."""
+    if not ("15:30" <= now_hhmm() <= "22:00"):
+        return False
+    substantive = state.get("daily_posts", 0) + state.get("daily_keyword_posts", 0)
+    return substantive < SLOW_DAY_SUBSTANTIVE_POST_THRESHOLD
+
+
+def _fetch_article_text(url: str, max_chars: int = 2500) -> str:
+    """Best-effort readable body extraction: strip scripts/styles, pull <p> blocks that look like
+    real prose (long enough, contain sentences, not nav junk). Returns '' on any failure — the
+    caller falls back to the no-LLM template, so a fetch failure just means a simpler post."""
+    try:
+        import html as _html
+        r = requests.get(url, timeout=12, verify=False, headers={"User-Agent": "Mozilla/5.0"})
+        r.raise_for_status()
+        body = re.sub(r"(?is)<script.*?</script>|<style.*?</style>", " ", r.text)
+        out, total = [], 0
+        for p in re.findall(r"(?is)<p[^>]*>(.*?)</p>", body):
+            t = re.sub(r"\s+", " ", _html.unescape(re.sub(r"<[^>]+>", " ", p))).strip()
+            if len(t) >= 100 and ". " in t and not _NAV_JUNK_RE.search(t):
+                out.append(t)
+                total += len(t)
+                if total > max_chars:
+                    break
+        return " ".join(out)[:max_chars]
+    except Exception as e:
+        log.warning("Article text fetch failed for %s: %s", url, e)
+        return ""
+
+
+def _find_evergreen_opinion(state: dict) -> dict | None:
+    """Freshest credible AI-infra sector piece — from the topic searches AND the direct trade-press
+    feeds — that's not been posted before and clears every quality filter. Returns the article dict
+    (+ fingerprint) or None."""
+    used = state.setdefault("evergreen_opinion_used", {})
+    _prune_date_keyed_dict(used, EVERGREEN_OPINION_MEMORY_DAYS)
+
+    from urllib.parse import quote
+    cutoff = datetime.datetime.utcnow() - datetime.timedelta(days=EVERGREEN_OPINION_LOOKBACK_DAYS)
+    seen_titles, candidates, per_source = set(), [], {}
+
+    # (fetch_url, source_override) — Google topic searches carry their own <source>; direct feeds
+    # link to their own domain, so their clean label is forced instead.
+    to_fetch = [
+        (f"https://news.google.com/rss/search?q={quote(q)}+when:{EVERGREEN_OPINION_LOOKBACK_DAYS}d"
+         f"&hl=en-US&gl=US&ceid=US:en", None)
+        for q in _EVERGREEN_OPINION_QUERIES
+    ] + list(_EVERGREEN_DIRECT_FEEDS)
+
+    for url, source_override in to_fetch:
+        try:
+            items = _fetch_rss_with_dates(url, 25)
+        except Exception as e:
+            log.warning("Evergreen opinion fetch failed (%s): %s", url, e)
+            continue
+        for a in items:
+            if source_override:
+                a["source"] = source_override
+            elif a.get("source"):
+                # Google News sometimes tags a bare hostname ("Bloomberg.com"); drop the TLD so the
+                # posted tweet reads "from Bloomberg", not "from Bloomberg.com".
+                a["source"] = re.sub(r"\.(com|org|net|io)$", "", a["source"], flags=re.I).strip()
+            h = a["headline"]
+            if h in seen_titles:
+                continue
+            seen_titles.add(h)
+            if not a.get("published") or a["published"] < cutoff:
+                continue
+            if not _AI_INFRA_TOPIC_RE.search(h):
+                continue  # tangential result — not actually about AI infra
+            if _is_generic_analysis_piece(h) or _OPINION_NOISE_RE.search(h) or _STOCK_SPECIFIC_RE.search(h):
+                continue  # stock-tout / valuation clickbait / single-stock piece, not a sector piece
+            if any(b in (a.get("source") or "").lower() for b in _OPINION_SOURCE_BLOCKLIST):
+                continue  # known stock-pumping mill
+            fp = re.sub(r"\s+", " ", h.strip().lower())
+            if fp in used:
+                continue
+            # Cap contributions per source so a single high-volume feed (e.g. DatacenterDynamics
+            # with a dozen fresh items) can't monopolize the ranking and bury thematic pieces from
+            # lower-volume sources (a WSJ essay, an AEI paper). Keeps the mix diverse.
+            src_key = (a.get("source") or "").lower()
+            if per_source.get(src_key, 0) >= _EVERGREEN_MAX_PER_SOURCE:
+                continue
+            per_source[src_key] = per_source.get(src_key, 0) + 1
+            candidates.append({**a, "fingerprint": fp})
+
+    # Freshest first, then stably float credible sources above generic aggregators — so a
+    # McKinsey/AEI/DCK piece from a few days ago beats a fresher-but-blander wire-aggregator item.
+    candidates.sort(key=lambda a: a["published"], reverse=True)
+    candidates.sort(key=lambda a: 0 if any(
+        p in (a.get("source") or "").lower() for p in _OPINION_SOURCE_PREFERRED) else 1)
+    return candidates[0] if candidates else None
+
+
+def _evergreen_template_tweet(state: dict, item: dict) -> str:
+    """No-LLM fallback: 'Interesting take from {source}: "{headline}"' + link, budget-aware."""
+    source = item.get("source") or "an industry source"
+    headline, link = item["headline"], item["link"]
+    text = _draw_template(state, "evergreen", EVERGREEN_OPINION_TEMPLATES).format(
+        source=source, headline=headline, link=link)
+    if len(text) <= 280:
+        return text
+    # Too long — trim the headline (the only variable-length free part) to fit.
+    fixed = len(text) - len(headline)
+    room = 280 - fixed
+    if room < 25:
+        return f"Worth a read on AI infrastructure from {source}.\n\n{link}"[:280]
+    trimmed = headline[:room].rsplit(" ", 1)[0] + "…"
+    return text.replace(headline, trimmed)
+
+
+def generate_evergreen_opinion_tweet(item: dict, article_text: str, state: dict) -> str | None:
+    prompt = f"""Source: {item.get('source') or 'unknown'}
+Headline: {item['headline']}
+
+Article excerpt:
+{article_text}
+
+Write the post: summarize the core argument, name the source, make a trader want to read it.
+Do NOT include a URL (it is appended separately)."""
+    try:
+        text = _gemini(EVERGREEN_OPINION_SYSTEM, prompt, state).strip('"').strip("'")
+        budget = 280 - 25  # 23-char shortened link + 2 newlines
+        if len(text) > budget:
+            trimmed = text[:budget]
+            for sep in (". ", ".\n", "? ", "! "):
+                idx = trimmed.rfind(sep)
+                if idx > 100:
+                    text = trimmed[:idx + 1]
+                    break
+            else:
+                text = trimmed.rsplit(" ", 1)[0]
+        return f"{text}\n\n{item['link']}"
+    except Exception as e:
+        log.error("Evergreen opinion generation failed: %s", e)
+        return None
+
+
+def check_evergreen_opinion(state: dict) -> dict:
+    """Weekend / slow-day filler: one thematic AI-infra think-piece, summarized by Gemini if budget
+    remains, else a clean no-LLM 'interesting take' template. Bounded by a daily cap and a min-gap
+    so it stays a garnish, not a firehose."""
+    if not ENABLE_EVERGREEN_OPINION:
+        return state
+    now = now_hhmm()
+    eligible = ("10:00" <= now <= "20:00") if is_weekend() else _is_slow_day(state)
+    if not eligible:
+        return state
+    if state.get("evergreen_opinion_posts_today", 0) >= EVERGREEN_OPINION_DAILY_LIMIT:
+        return state
+    if _epoch_minutes() - state.get("last_evergreen_min", 0) < EVERGREEN_OPINION_MIN_GAP_MINUTES:
+        return state
+
+    item = _find_evergreen_opinion(state)
+    if not item:
+        return state
+    item["link"] = _resolve_google_news_url(item.get("link"))
+
+    log_kwargs = dict(mechanism="evergreen_opinion", headline=item["headline"],
+                      headline_source=item.get("source") or "", headline_link=item.get("link") or "",
+                      headline_published_utc=item["published"].isoformat() if item.get("published") else "")
+
+    text, used_gemini = None, False
+    if not _gemini_unavailable:
+        article_text = _fetch_article_text(item["link"])
+        if len(article_text) > 200:
+            text = generate_evergreen_opinion_tweet(item, article_text, state)
+            used_gemini = bool(text)
+    if not text:
+        text = _evergreen_template_tweet(state, item)
+    if not text:
+        return state
+
+    pool = "llm" if used_gemini else "keyword"
+    log.info("Evergreen opinion (%s, %d chars):\n%s", "gemini" if used_gemini else "template", len(text), text)
+    if post_tweet(text, state, pool=pool):
+        state["evergreen_opinion_posts_today"] = state.get("evergreen_opinion_posts_today", 0) + 1
+        state["last_evergreen_min"] = _epoch_minutes()
+        state.setdefault("evergreen_opinion_used", {})[item["fingerprint"]] = today()
+        save_state(state)
+        _log_event(state, **log_kwargs, generation_method=("gemini" if used_gemini else "template"),
+                   pool_used=pool, posted="Y", tweet_text=text, tweet_char_count=len(text))
+    else:
+        _log_event(state, **log_kwargs, generation_method=("gemini" if used_gemini else "template"),
+                   posted="N", skip_reason="post_failed", tweet_text=text, tweet_char_count=len(text))
+    return state
+
+
 def check_zero_llm_pulse(state: dict) -> dict:
     """Guaranteed cadence (a fresh random gap within PULSE_INTERVAL_MIN/MAX_MINUTES each time,
     not a fixed interval), independent of Gemini's budget and of whether any qualifying
@@ -3033,6 +3462,10 @@ def run_cycle(state: dict) -> dict:
         if not is_weekend():
             state = check_price_events(state, all_tickers)
         state = check_news_events(state, all_tickers)
+
+    # Last, so its "slow day" check reflects everything else this cycle already did — it only fires
+    # as filler when the day genuinely stayed quiet (or on a weekend).
+    state = check_evergreen_opinion(state)
 
     return state
 
