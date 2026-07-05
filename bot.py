@@ -74,6 +74,10 @@ NEWS_POST_MIN_GAP_MINUTES    = int(os.getenv("NEWS_POST_MIN_GAP_MINUTES", "10"))
 NEWS_POST_GAP_JITTER_MINUTES = int(os.getenv("NEWS_POST_GAP_JITTER_MINUTES", "2"))  # +/- randomness applied to that gap each time (e.g. 10+/-2 -> 8-12min)
 NEWS_QUEUE_MAX_AGE_MINUTES   = int(os.getenv("NEWS_QUEUE_MAX_AGE_MINUTES", "360"))  # drop a held news event if it's waited this long unreleased (6h – too stale)
 NEWS_CLASSIFY_BATCH_SIZE     = int(os.getenv("NEWS_CLASSIFY_BATCH_SIZE", "5"))      # tickers per news-classification Gemini call
+# How many recent posts' sources to remember, to keep the feed from looking like a single-source
+# reposter. When a story's source was used within this window, the bot tries to attach a different
+# outlet's version of the same story instead (see _diversify_source).
+RECENT_SOURCE_MEMORY         = int(os.getenv("RECENT_SOURCE_MEMORY", "6"))
 
 # Feature toggle: post "large_share_purchases" — a named institution buying a sizeable number of
 # SHARES of a tracked company (distinct from the company itself being acquired, which is `ma`).
@@ -2429,6 +2433,44 @@ def _find_verifiable_alternate_link(headline: str, articles: list[dict], exclude
     return None
 
 
+def _diversify_source(headline: str, source: str, link: str,
+                      articles: list[dict], recent_sources: list[str]) -> tuple[str, str]:
+    """Keep the feed from reading like a single-source reposter. If `source` was used in a recent
+    post, look for the SAME story from a different outlet among the articles already fetched this
+    cycle (the per-ticker Google/Yahoo/Nasdaq pull already carries multiple outlets' versions, so
+    this needs no extra request) and prefer that outlet — as long as it's one we'd not just posted
+    and isn't a low-quality mill. If no diverse alternate exists (story only ran on the one source),
+    keep the original — variety is a preference, not a reason to drop or downgrade a real story."""
+    if not source or not link:
+        return link, source  # nothing attributable to diversify
+    recent_lower = {s.lower() for s in recent_sources}
+    if source.lower() not in recent_lower:
+        return link, source  # this source isn't over-used right now — keep it
+    for a in articles:
+        alt_src, alt_link = a.get("source"), a.get("link")
+        if not alt_src or not alt_link:
+            continue
+        if alt_src.lower() == source.lower() or alt_src.lower() in recent_lower:
+            continue  # same source, or one we also just used — no diversity gained
+        if any(b in alt_src.lower() for b in _OPINION_SOURCE_BLOCKLIST):
+            continue  # never diversify INTO a known stock-pump mill
+        if _headline_similarity(headline, a["headline"]) < _SAME_STORY_WORD_OVERLAP_THRESHOLD:
+            continue  # not actually the same story
+        log.info("Source diversity: %s -> %s for same story: %s", source, alt_src, headline[:60])
+        return alt_link, alt_src
+    return link, source
+
+
+def _record_post_source(state: dict, source: str):
+    """Remember the source just posted (rolling window) so _diversify_source can steer the next
+    few posts toward other outlets. Shared across news + evergreen for whole-feed diversity."""
+    if not source:
+        return
+    recent = state.setdefault("recent_post_sources", [])
+    recent.append(source)
+    del recent[:-RECENT_SOURCE_MEMORY]
+
+
 _JSON_LD_DATE_RE = re.compile(r'"datePublished"\s*:\s*"([^"]+)"')
 _OG_DATE_RE      = re.compile(r'<meta[^>]+property="article:published_time"[^>]+content="([^"]+)"')
 
@@ -2662,6 +2704,14 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
     last_post_min = state.get("last_news_post_min", 0)
     required_gap  = NEWS_POST_MIN_GAP_MINUTES + random.randint(-NEWS_POST_GAP_JITTER_MINUTES, NEWS_POST_GAP_JITTER_MINUTES)
     if queue and _epoch_minutes() - last_post_min >= required_gap:
+        # Source diversity: only one item is released per cycle, so which one matters. Try items
+        # whose source WASN'T used in the last few posts first, then oldest-first — so a run of
+        # different stories that all happen to come from one aggregator doesn't post back-to-back
+        # from that same aggregator. Each item keeps its own real link, so there's no mismatch risk
+        # (unlike link-swapping, which stays reserved for genuine same-story near-duplicates).
+        recent_lower = {s.lower() for s in state.get("recent_post_sources", [])}
+        queue.sort(key=lambda it: ((it.get("source") or "").lower() in recent_lower,
+                                    it.get("queued_min", 0)))
         remaining = []
         released = False
         for item in queue:
@@ -2700,8 +2750,13 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                     continue
 
             price_ctx = get_price_context(symbol)
-            link   = _resolve_google_news_url(item.get("link"))
-            source = item.get("source")
+
+            # Source diversity FIRST, on the raw link, so an over-used source gets swapped for the
+            # same story from a fresher outlet before that link is resolved/staleness-checked below.
+            raw_link, source = _diversify_source(
+                classification["headline"], item.get("source"), item.get("link"),
+                item.get("all_articles", []), state.get("recent_post_sources", []))
+            link = _resolve_google_news_url(raw_link)
 
             # "In doubt" covers two different things: the link never resolved off Google's
             # redirect wrapper at all (imprecise — a bad preview card, not evidence of stale
@@ -2761,6 +2816,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                     cooldowns[f"news_{symbol}"] = now_minutes()
                     _record_ticker_post(state, symbol)
                     _record_news_category_posted(state, symbol, classification["category"])
+                    _record_post_source(state, source)
                     state["last_news_post_min"] = _epoch_minutes()
                     released = True
                     _log_event(state, **log_kwargs, pool_used=("llm" if method == "gemini" else "keyword"),
@@ -3381,6 +3437,7 @@ def check_evergreen_opinion(state: dict) -> dict:
         state["evergreen_opinion_posts_today"] = state.get("evergreen_opinion_posts_today", 0) + 1
         state["last_evergreen_min"] = _epoch_minutes()
         state.setdefault("evergreen_opinion_used", {})[item["fingerprint"]] = today()
+        _record_post_source(state, item.get("source"))
         save_state(state)
         _log_event(state, **log_kwargs, generation_method=("gemini" if used_gemini else "template"),
                    pool_used=pool, posted="Y", tweet_text=text, tweet_char_count=len(text))
