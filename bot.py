@@ -1040,17 +1040,26 @@ Write one concise, engaging tweet about the provided stock using only the suppli
   fact — opinions are fine on Twitter, fabricated facts are not.
 - Mention the ticker, current price, and % daily change where relevant.
 - Reference the stock only via its bare $TICKER symbol (e.g. $VRT). Never spell out the company
-  name in place of, or alongside in parentheses, the ticker.
+  name in place of the ticker. Never put the ticker inside brackets or parentheses — e.g. NOT
+  "(NYSE: VRT)" or "($VRT)" — a bracketed ticker won't render as a clickable cashtag on X. If you
+  ever need the company name for clarity, write it plainly followed by the bare ticker with no
+  brackets between them: "Vertiv $VRT", not "Vertiv ($VRT)".
 - Frame all forward-looking statements as possibilities, never certainties.
   Use: could, might, may, potentially, worth watching, raises the question.
   Never: will, confirms, proves, guarantees.
-- Every tweet must have a clear point of view. A question or CTA at the end is only used when it flows naturally — never forced.
+- Every tweet must have a clear point of view. A question or CTA at the end is only used when it
+  flows naturally — never forced. When used, it goes on its OWN line with a blank line before it —
+  never tacked onto the end of the preceding sentence.
 - Never reference a specific day name. Use "at the open" or "tomorrow's open" instead.
 - Never use em dash. Use en dash (–) only.
 - Use line breaks to create breathing room – no walls of text.
 - Emoji: use sparingly. 🟢🔴 are only for a direct "green or red at the open?" question — place them on their own line immediately before that question.
 - No filler: "hot take", "buckle up", "thread", "building the backbone", "this is huge".
 - 1-2 hashtags max, only if they add signal. Omit if they feel forced.
+- Write in clear, complete sentences a reader parses in one pass — not clipped telegraphic
+  fragments strung together with semicolons ("AI narrative vs. CEO award" reads as a puzzle, not
+  a sentence). Keep real financial terms and abbreviations (PT, JV, upgrade, buyback) — this is a
+  finance audience — the fix is sentence structure, not vocabulary.
 - MUST be under 280 characters.
 
 ## Tweet type
@@ -1144,7 +1153,8 @@ You are writing a weekly engagement post for a financial Twitter account trackin
 - Use line breaks – no walls of text
 - Always list tickers alphabetically, one per line, with $ prefix, UNLESS the prompt explicitly
   specifies a different order (e.g. sorted by performance) — follow the prompt's order in that case.
-- A closing question or CTA is used when it flows naturally – not as a reflex
+- A closing question or CTA is used when it flows naturally – not as a reflex. When used, put it
+  on its own line with a blank line before it – never run on from the previous sentence.
 - Emoji: sparingly and only where genuinely meaningful. 👇 for a real CTA only. When in doubt, omit.
 - No filler, no hype, no em dash – use en dash (–) only
 - Never reference a specific day name. Use "at the open" or "tomorrow's open".
@@ -1572,10 +1582,19 @@ Write one immediate, specific reaction tweet using only the supplied headline an
   Use: could, might, may, potentially, raises the question, worth watching
   Never: will, confirms, proves, guarantees
 - Never restate the headline without adding meaning or context
-- A closing question or CTA is only used when it flows naturally — never forced
+- A closing question or CTA is only used when it flows naturally — never forced. When used, it
+  goes on its OWN line with a blank line before it — never appended straight onto the sentence
+  before it (e.g. NOT "...for incumbents. How might this play out?" on the same line/run-on —
+  put a blank line, then the question, on its own).
 - No filler: "this is huge", "big news", "buckle up"
+- Write in clear, complete sentences a reader parses in one pass — not clipped telegraphic
+  fragments. Keep real financial terms (PT, JV, upgrade, buyback) — this is a finance audience —
+  the fix is sentence structure, not vocabulary.
 - Reference the stock only via its bare $TICKER symbol (e.g. $VRT). Never spell out the company
-  name in place of, or alongside in parentheses, the ticker.
+  name in place of the ticker. Never put the ticker inside brackets or parentheses — e.g. NOT
+  "(NYSE: VRT)" or "($VRT)" — a bracketed ticker won't render as a clickable cashtag on X. If you
+  ever need the company name for clarity, write it plainly followed by the bare ticker with no
+  brackets between them: "Vertiv $VRT", not "Vertiv ($VRT)".
 - Use line breaks – no walls of text
 - Emoji: sparingly. 🟢🔴 only for a direct "green or red at the open?" question — place them on their own line immediately before that question.
 - Never use em dash. Use en dash (–) only.
@@ -1708,13 +1727,26 @@ this general discretion.
   That other company has no data block here; anything you'd write about its price would be fabricated.
 - Reference specific prices, % moves, and headlines from the data — specific beats vague, always.
 - ALWAYS reference a stock by its bare ticker symbol with a $ prefix (e.g. $VRT, $SU). Never write out
-  the company name in place of, or alongside in parentheses, the ticker — traders recognize the symbol,
-  spelling out the name wastes space.
-- When the post covers more than one ticker, give EACH its own line — a short line breaking down
-  that ticker's move (e.g. "$VRT -6.6% at $314.26, off its $335.66 high"), not multiple tickers woven
-  into one flowing sentence. Skimmable beats prose when there's more than one name to cover. Structure
-  the whole tweet as three visually separated blocks with a full BLANK line between each: the opening
-  sentence, then the ticker list, then the closing takeaway — not just single line breaks between them.
+  the company name in place of the ticker — traders recognize the symbol, spelling out the name wastes
+  space. Never put the ticker inside brackets or parentheses — e.g. NOT "(NYSE: VRT)" or "($VRT)" — a
+  bracketed ticker won't render as a clickable cashtag on X. If the company name is ever needed for
+  clarity, write it plainly followed by the bare ticker with no brackets: "Vertiv $VRT", not
+  "Vertiv ($VRT)".
+- When the post covers more than one ticker, give EACH its own line — a short, CLEAR, complete
+  phrase (e.g. "$VRT -6.6% at $314.26, off its $335.66 high"), not multiple tickers woven into one
+  flowing sentence, and not a clipped fragment either (NOT "$IREN: AI narrative vs. CEO award." —
+  that's a puzzle, not a sentence; write "$IREN: AI narrative debate overshadowed by its CEO's
+  industry award" instead). Keep real financial terms and abbreviations (PT, JV, upgrade,
+  buyback) — this is a finance audience — the fix is sentence structure, not vocabulary.
+  Skimmable beats prose when there's more than one name to cover. Structure the whole tweet as
+  THREE visually separated blocks with a full BLANK line between each: the opening sentence, then
+  the ticker list, then the closing takeaway.
+- The closing takeaway is MANDATORY, not optional — a multi-ticker tweet must never end on the
+  last ticker's line. It must add a genuine "so what": what connects these moves, what it implies,
+  or what to watch for — never a generic label that just restates the category (NOT "AI
+  infrastructure is a core theme." — that says nothing a reader didn't already know from the
+  ticker list above it). Ask: after reading the ticker lines, what's the ONE insight a sharp
+  trader would take away? Write that.
 - For any post covering multiple tickers, the opening sentence must be a GENERAL summary or shared
   theme across the group (e.g. "AI/data center demand led this week") — never a specific single
   ticker's specific detail (e.g. NOT "$VRT eyed for earnings growth"). That specific detail belongs
@@ -1727,6 +1759,7 @@ this general discretion.
 - Every tweet must have a clear point of view.
 - If asking a question, ask exactly ONE for the whole tweet — never one question per ticker
   when covering multiple stocks. Pick the single most interesting angle and ask about that.
+  Put it on its OWN line with a blank line before it — never run on from the sentence before it.
 - Never reference a specific day name. Use "at the open" or "tomorrow's open" instead.
 - Never use em dash. Use en dash (–) only.
 - Use line breaks to create breathing room – no walls of text.
@@ -1921,17 +1954,30 @@ def check_weekly_engagement(state: dict) -> dict:
     posts = []
 
     if weekday == 0 and "07:00" <= now <= "08:30" and engagement.get("monday") != today_str:
+        last_week_perf = get_week_performance(tickers)
+        if last_week_perf:
+            monday_top5 = sorted(last_week_perf, key=last_week_perf.get, reverse=True)[:5]
+            monday_lines = "\n".join(
+                f"${t}  {'+' if last_week_perf[t] >= 0 else ''}{last_week_perf[t]}%" for t in monday_top5
+            )
+            ranked_note = "already ranked best to worst by last week's % change, "
+        else:
+            monday_top5 = tickers[:5]
+            monday_lines = "\n".join(f"${t}" for t in monday_top5)
+            ranked_note = ""
+        n = len(monday_top5)
         posts.append(("monday", f"""Write a Monday opening post for a financial Twitter account.
 
-This week's tickers (already sorted alphabetically, list them exactly as given):
-{ticker_str}
+Last week's top {n} performers from the watchlist, worth a fresh look this week ({ranked_note}use
+exactly these {n}, none added or dropped):
+{monday_lines}
 
 Format:
-- Open with a short intro line about tracking these this week
+- Open with a short intro line noting these are last week's standout names
 - List the tickers on separate lines
 - End with: "$1000 to deploy this week – which one are you picking up? 👇"
 
-Keep it casual, direct, under 280 characters."""))
+Keep it casual, direct, simple everyday English, under 280 characters."""))
 
     if weekday == 2 and "12:00" <= now <= "13:30" and engagement.get("wednesday") != today_str:
         vol = get_recent_volatility(tickers, sessions=3)
