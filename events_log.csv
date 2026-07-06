@@ -283,3 +283,4 @@ https://www.datacenterdynamics.com/en/news/cameroons-st-digital-opens-data-cente
 44,2026-07-06,15:47:28,Monday,price_event,us,,zero_llm_template,BE,BE,,NYSE,Y,open,292.55,7.57,293.7,276.68,,,,,,,7.57,,,N,18,llm,Y,,$BE +7.57% today at $292.55 – one of the bigger moves on the board right now. Intraday range: low $276.68 / high $293.7.,120,,,,,
 45,2026-07-06,16:02:20,Monday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$IREN pulling away at +12.02%, now trading at $43.88.",53,,,,,
 46,2026-07-06,16:02:50,Monday,price_event,us,,zero_llm_template,POWL,POWL,,NYSE,Y,open,258.58,5.11,259.99,246.33,,,,,,,5.11,,,N,18,llm,Y,,"$POWL swinging +5.11% on the day, now $258.58. Intraday range: low $246.33 / high $259.99.",90,,,,,
+47,2026-07-06,16:17:33,Monday,price_event,us,,zero_llm_template,NOK,NOK,,NYSE,Y,open,12.74,5.73,12.76,12.07,,,,,,,5.73,,,N,18,llm,Y,,Big print: $NOK +5.73% at $12.74 today – a real standout. Intraday range: low $12.07 / high $12.76.,99,,,,,
