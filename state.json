@@ -1,10 +1,10 @@
 {
-  "date": "2026-07-06",
-  "daily_posts": 7,
-  "daily_keyword_posts": 9,
-  "daily_pulse_posts": 17,
-  "gemini_calls_today": 18,
-  "evergreen_opinion_posts_today": 1,
+  "date": "2026-07-07",
+  "daily_posts": 0,
+  "daily_keyword_posts": 0,
+  "daily_pulse_posts": 0,
+  "gemini_calls_today": 0,
+  "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-07-06"
@@ -725,42 +725,6 @@
   },
   "last_evergreen_min": 29722412,
   "post_backlog": [],
-  "eu_slots": [
-    {
-      "slot": 0,
-      "type": "hook",
-      "target_time": "08:50",
-      "fire_time": "08:48"
-    },
-    {
-      "slot": 1,
-      "type": "close_summary",
-      "target_time": "18:00",
-      "fire_time": "17:57"
-    }
-  ],
-  "eu_posted": [
-    0,
-    1
-  ],
-  "us_slots": [
-    {
-      "slot": 0,
-      "type": "hook",
-      "target_time": "15:10",
-      "fire_time": "15:12"
-    },
-    {
-      "slot": 1,
-      "type": "wrap",
-      "target_time": "22:30",
-      "fire_time": "22:30"
-    }
-  ],
-  "us_posted": [
-    0,
-    1
-  ],
   "price_snapshots": {
     "IBE.MC": 20.97,
     "ENGI.PA": 27.22,
@@ -800,5 +764,34 @@
   },
   "next_pulse_interval": 38,
   "last_pulse_post_min": 29722756,
-  "us_flexible_used": 6
+  "eu_slots": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "target_time": "08:50",
+      "fire_time": "08:52"
+    },
+    {
+      "slot": 1,
+      "type": "close_summary",
+      "target_time": "18:00",
+      "fire_time": "17:56"
+    }
+  ],
+  "eu_posted": [],
+  "us_slots": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "target_time": "15:10",
+      "fire_time": "15:09"
+    },
+    {
+      "slot": 1,
+      "type": "wrap",
+      "target_time": "22:30",
+      "fire_time": "22:29"
+    }
+  ],
+  "us_posted": []
 }
