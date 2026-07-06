@@ -1,6 +1,6 @@
 {
   "date": "2026-07-06",
-  "daily_posts": 5,
+  "daily_posts": 6,
   "daily_keyword_posts": 7,
   "daily_pulse_posts": 15,
   "gemini_calls_today": 18,
@@ -29,7 +29,7 @@
     "ETN": 1052,
     "CEG": 1052,
     "VST": 1144,
-    "TLN": 722,
+    "TLN": 1216,
     "PWR": 1144,
     "CRWV": 1187,
     "IREN": 1144,
@@ -45,7 +45,7 @@
     "POWL": 962,
     "NOK": 977
   },
-  "event_log_next_id": 66,
+  "event_log_next_id": 67,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -57,7 +57,8 @@
     "news_DLR": 1052,
     "news_EQIX": 1172,
     "VRT": 1186,
-    "news_CRWV": 1187
+    "news_CRWV": 1187,
+    "TLN": 1216
   },
   "news_seen": {
     "ETN": [
@@ -77,7 +78,7 @@
       "Eaton Corp. PLC stock underperforms Thursday when compared to competitors",
       "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
       "Duncan Oil acquires Eaton-based company",
-      "Eaton Corp. to spin off Mobility Group to Dana Inc. for $5.1B",
+      "Modular solutions for electrical power systems | Eaton PSEC",
       "Industrial Select Sector SPDR Fund Experiences Big Inflow",
       "This Critical Infrastructure Stock Could Be a Hidden AI Winner"
     ],
@@ -93,14 +94,14 @@
       "Is Constellation Energy Corporation (CEG) Among the Best AI Power Grid Stocks to Buy According to Analysts?",
       "CEG Stock Takes A Hit After Citi's Price-Target Cut — But Retail Is Already Diving In To Buy The Dip",
       "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
+      "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
-      "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Certain Warrants of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "CEG - Constellation Energy Corp Latest SEC Filings",
-      "Constellation Energy (CEG) director adds 146 phantom share equivalents",
       "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
+      "Wells Fargo Remains a Buy on Constellation Energy Corporation (CEG)",
       "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)"
     ],
     "PWR": [
@@ -180,14 +181,14 @@
       "Vistra Corp. (VST) Stock Slides as Market Rises: Facts to Know Before You Trade",
       "Northampton Capital Partners, Olympus Power Form JV and Reach Agreement to Acquire New England, New York Generating Assets",
       "Nuclear Power Is the Only Real Answer to AI Data Center Demand and These 3 ETFs Cover the Trade at Three Risk Levels",
-      "Earnings call transcript: Vistra Energy tops Q1 2026 forecasts, stock rises",
       "Vistra sets Aug. 7 call for second-quarter results",
       "Vistra Corp. $VST Shares Sold by CUSHING ASSET MANAGEMENT LP dba NXG INVESTMENT MANAGEMENT",
+      "Vistra Q1 2026 slides: $1.5B EBITDA rebounds after Q4 miss",
       "Battery removal at Moss Landing nears completion after 2025 Vistra fire",
       "Latham Advises Vistra Corp. on Sale of New England, New York Generating Assets",
       "CA: VISTRA FIRE BATTERY REMOVAL NEARLY DONE",
-      "$Vistra Energy (VST.US)$",
       "Vistra to announce Q2 2026 financial results on Aug 7 via live webcast and call",
+      "$Vistra Energy (VST.US)$",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
       "Vistra or Public Service Enterprise: Which Utility Stock Stands Out?"
     ],
@@ -205,8 +206,8 @@
       "If You Invested $1,000 in Abb Ltd Zuerich (ABLZF)",
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results",
       "ABB/N Forecast — Price Target — Prediction for 2027",
-      "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "ABB (ABBNY) Stock Price, News & Analysis",
+      "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
       "ABB to divest Robotics division to SoftBank Group",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
@@ -338,7 +339,7 @@
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
       "TLN - Talen Energy Corp Revenue Breakdown",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
-      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
+      "Donald Trump - TALEN ENERGY CORP NEW CLASS EQUITY Trump Trade on Mar. 23, 2026",
       "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05",
       "Notable Tuesday Option Activity: MSFT, TLN, UNM"
     ],
@@ -468,8 +469,8 @@
       "NextEra Energy to buy Dominion in deal that unites two key players in race to power AI data centers",
       "What Dominion and NextEra Energy’s proposed merger means for Virginia customers",
       "Why you should care about 2 power companies merging. Hint: affordability",
-      "NextEra's $67 billion Dominion takeover creates world's largest utility—just in time to win the AI data center power surge",
-      "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge."
+      "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge.",
+      "Oklo Advances Groves Isotope Test Reactor With Key DOE Safety Approval"
     ],
     "NOK": [
       "European Equities Traded in the US as American Depositary Receipts Rise in Monday Trading",
@@ -507,10 +508,10 @@
       "Powell Industries (POWL) Joins Key Russell Indexes, Is The Upside Already Priced In?",
       "Powell Industries slides as valuation pressure and recent insider selling weigh on sentiment",
       "Powell Industries options trading surges amid stock decline",
+      "POWL - Powell Industries Inc Latest SEC Filings",
       "Powell Industries Drops 6.5% Amid Sector-Wide Selling",
       "A Look at Powell Industries Inc (POWL) After 7.5% Decline -- GF Value $76.27 vs Price $264.86",
-      "Affiliate files resale notice for 4,500 shares at Powell (NASDAQ: POWL)",
-      "Insider Sell: Michael Metcalf Sells 4,500 Shares of Powell Indus",
+      "Have Insiders Sold Powell Industries Shares Recently?",
       "Powell Industries (POWL) Dips More Than Broader Market",
       "Notable ETF Inflow Detected - SDVY, FIX, POWL, ENS",
       "Here is What to Know Beyond Why Powell Industries, Inc. (POWL) is a Trending Stock"
@@ -529,10 +530,10 @@
       "Iberdrola raises its interim dividend to €0.253 per share",
       "Iberdrola ejecutará un programa de recompra de hasta 5,5 millones de acciones",
       "Iberdrola presenta la opa por las acciones de Neoenergia que no controla",
+      "Iberdrola emprende acciones legales contra el presidente de Red Eléctrica tras el apagón.",
       "Iberdrola will invest €41 billion and hire 10,000 people by 2026 to accelerate electrification",
       "Mexico’s Dispute With Iberdrola Over Illegal Energy Sale Seen Dragging On",
       "Iberdrola debe mejorar su beneficio un 14% este miércoles si no quiere decepcionar al mercado",
-      "Iberdrola emprende acciones legales contra el presidente de Red Eléctrica tras el apagón.",
       "Giving banking a more human voice: Unicaja’s move to conversational banking driven by Artificial Intelligence",
       "We announced full-year 2022 results",
       "Spain’s Iberdrola to Sell Majority of Its Electric Power Generation Plants In Mexico"
@@ -615,15 +616,15 @@
       "50Hertz awards converter project to Siemens-led consortium",
       "Siemens Energy to build 2 GW converter platform with German shipyard",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
+      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice",
       "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG",
-      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
-      "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
       "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
-      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
+      "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
       "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS)",
-      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations"
+      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
+      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations",
+      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion"
     ],
     "LR.PA": [
       "Legrand: Total Number of Shares and Voting Rights",
@@ -637,8 +638,8 @@
       "3 Market-Beating Stocks with Exciting Potential",
       "Assessing Whether Legrand (ENXTPA:LR) Still Offers Upside After Strong Recent Share Performance",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
+      "Camille LeGRAND Obituary - CA",
       "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
-      "Legrand | AV Earns 18 Awards at InfoComm 2026, Validating “Where Solutions Live” Strategy",
       "LeGrand’s Market shares its four-bean baked bean recipe for the perfect Fourth of July side",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Gabrielle Leann LeGrand Obituary (2026) - Cole Camp, MO - Fox Funeral Home - Cole Camp",
@@ -750,9 +751,7 @@
       5,
       6
     ],
-    "price_event": [
-      4
-    ]
+    "price_event": []
   },
   "last_evergreen_min": 29722412,
   "post_backlog": [],
@@ -801,32 +800,33 @@
     "ABBN.SW": 86.84,
     "ENR.DE": 169.56,
     "RWE.DE": 57.46,
-    "ETN": 413.5,
-    "EQIX": 995.46,
-    "CRWV": 85.48,
-    "NEE": 87.59,
-    "POWL": 249.2,
-    "NVT": 155.73,
-    "TLN": 374.99,
-    "IREN": 43.87,
-    "APLD": 33.39,
-    "GEV": 1156.09,
-    "NOK": 12.47,
-    "DLR": 173.22,
-    "VRT": 321.8,
-    "ERIC": 10.9,
-    "CEG": 243.52,
-    "VST": 153.8,
-    "BE": 290.1,
-    "PWR": 677.95
+    "ETN": 414.35,
+    "EQIX": 997.85,
+    "CRWV": 86.32,
+    "NEE": 87.51,
+    "POWL": 250.75,
+    "NVT": 156.3,
+    "TLN": 377.52,
+    "IREN": 44.22,
+    "APLD": 33.81,
+    "GEV": 1158.22,
+    "NOK": 12.52,
+    "DLR": 173.59,
+    "VRT": 322.46,
+    "ERIC": 10.93,
+    "CEG": 245.74,
+    "VST": 154.53,
+    "BE": 294.36,
+    "PWR": 679.12
   },
   "day_event_fired": {
     "BE": "2026-07-06",
     "POWL": "2026-07-06",
     "NOK": "2026-07-06",
-    "VRT": "2026-07-06"
+    "VRT": "2026-07-06",
+    "TLN": "2026-07-06"
   },
   "next_pulse_interval": 33,
   "last_pulse_post_min": 29722666,
-  "us_flexible_used": 4
+  "us_flexible_used": 5
 }
