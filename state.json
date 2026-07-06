@@ -1,8 +1,8 @@
 {
   "date": "2026-07-06",
-  "daily_posts": 4,
-  "daily_keyword_posts": 6,
-  "daily_pulse_posts": 14,
+  "daily_posts": 5,
+  "daily_keyword_posts": 7,
+  "daily_pulse_posts": 15,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -24,14 +24,14 @@
     "IBE.MC": 1066,
     "RWE.DE": 1066,
     "GEV": 1144,
-    "VRT": 1052,
+    "VRT": 1186,
     "EQIX": 1172,
     "ETN": 1052,
     "CEG": 1052,
     "VST": 1144,
     "TLN": 722,
     "PWR": 1144,
-    "CRWV": 1052,
+    "CRWV": 1187,
     "IREN": 1144,
     "APLD": 1144,
     "DLR": 1052,
@@ -45,7 +45,7 @@
     "POWL": 962,
     "NOK": 977
   },
-  "event_log_next_id": 63,
+  "event_log_next_id": 66,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -55,7 +55,9 @@
     "NOK": 977,
     "news_ERIC": 1007,
     "news_DLR": 1052,
-    "news_EQIX": 1172
+    "news_EQIX": 1172,
+    "VRT": 1186,
+    "news_CRWV": 1187
   },
   "news_seen": {
     "ETN": [
@@ -119,7 +121,7 @@
       "Quanta Services Is Maintained at Buy by Truist Securities",
       "Bull of the Day: Quanta Services (PWR)",
       "Quanta Services Inc (PWR) Shares Fall 3.3% -- GF Value Says Stil",
-      "Quanta Services Slides as Pullback Appears Tied to Valuation and a Lack of Fresh Catalysts",
+      "Quanta Services (PWR) Stock Could Trade At A Premium Following Raised Outlook",
       "BCKIY or PWR: Which Is the Better Value Stock Right Now?",
       "Jacobs Lands Orange County Highway Modernization Contracts"
     ],
@@ -227,8 +229,8 @@
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
-      "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
       "Vertiv Holdings Co Investor Conference- Executive Presentations Transcript",
+      "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
       "Vertiv Increases Manufacturing Capacity with New Facility in Malaysia, to Support Growing Demand for AI and Digital Infrastructure Across Asia",
       "S&P 500 Movers: ORLY, VRT",
       "Here's Why Vertiv Holdings Co. (VRT) is a Strong Momentum Stock"
@@ -247,6 +249,7 @@
       "Person Details",
       "Price to sales forward of nVent Electric plc – BX:NVT",
       "nVent Electric (NVT) Joins Russell Growth Indexes With Valuation Still In Focus",
+      "NVT News | NVENT ELECTRIC PLC (NYSE:NVT)",
       "A Look at nVent Electric PLC (NVT) After 4.9% Decline -- GF Value $115.60 vs Price $152.15",
       "nVent Electric(NVT) Stock Options Chain | Quotes & News",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
@@ -332,8 +335,8 @@
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
       "Talen Energy Corp (TLN) Gets a Buy from Wells Fargo",
       "Price to sales forward of Talen Energy Corporation – NASDAQ:TLN",
-      "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
+      "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
       "TLN - Talen Energy Corp Revenue Breakdown",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
@@ -357,7 +360,7 @@
       "Digital Realty (DLR) Stock Could Be 35% Undervalued Despite $3.5b Data Center Deal",
       "Digital Realty Announces Transactions to Drive Continued Platform Growth",
       "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers",
-      "News | Blackstone sells $3.5 billion stake in data centers to Digital Realty",
+      "Digital Realty Trust Inc. stock underperforms Wednesday when compared to competitors",
       "This Asset Class Has Lagged the Market for Years But Was the Best Performer in June. Time to Invest?",
       "Noteworthy ETF Outflows: IYR, WELL, EQIX, DLR",
       "Prediction: Realty Income's Data Center Pivot Will Supercharge Its Dividend Growth Over the Next Decade"
@@ -613,15 +616,15 @@
       "50Hertz awards converter project to Siemens-led consortium",
       "Siemens Energy to build 2 GW converter platform with German shipyard",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
+      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice",
       "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG",
-      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
-      "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
       "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
+      "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
       "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS)",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
-      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations"
+      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations",
+      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion"
     ],
     "LR.PA": [
       "Legrand: Total Number of Shares and Voting Rights",
@@ -671,78 +674,6 @@
       ]
     },
     {
-      "symbol": "CRWV",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "Wolfe Research reiterates CoreWeave stock Outperform rating at $150",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGp4bjU0cnJiWmxyTHU1VU1qSlVPMktIRWRaNzBoZUNFT0k1aFJKcDJmbjJrWmhUdkw0cno3Nm5oVGt3TEs0Q08wRGRKSkFYMENGYU1zMzdZd0VscE92Z2xiXzhZblFSU3VRdnZQeWpIOUZuODB5R0o1N1g2V0tMSVJSeXdBcld0ZjM2LUFMMGhLQ1NEdFVkTkNOVlZ5SXdzY3pmVVNmalBaQlpEU3dRQWQ1Xy1UVVJlVVNST0txRDY4bld2?oc=5",
-      "source": "Investing.com",
-      "method": "keyword",
-      "published": "2026-07-06T11:46:10",
-      "queued_min": 29722592,
-      "all_articles": [
-        {
-          "headline": "TeraWulf, Anthropic Sign $19 Billion Data Center Lease. Neocloud Stocks Soar.",
-          "link": "https://finance.yahoo.com/m/21a0c327-87ae-3213-b30a-e194f708d278/terawulf%2C-anthropic-sign-%2419.html?.tsrc=rss",
-          "source": null,
-          "summary": "News of the deal lifted neocloud stocks, which had taken a beating over the past week. Terawulf spiked more than 15%.",
-          "published": "2026-07-06T15:55:32"
-        },
-        {
-          "headline": "Piper Sandler defends Oracle ahead of earnings, sees $2.2bn OCI revenue upside",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/piper-sandler-defends-oracle-ahead-145402573.html?.tsrc=rss",
-          "source": null,
-          "summary": "Investing.com -- Piper Sandler defended its Overweight rating on Oracle in a note to clients on Monday, arguing the company could generate approximately $2.2 billion in Oracle Cloud Infrastructure revenue not currently captured in consensus estimates, based on the firm’s analysis of capital expenditure to data center capacity to revenue conversion.",
-          "published": "2026-07-06T14:54:02"
-        },
-        {
-          "headline": "Nebius Stock Jumps 124% in 6 Months: Time to Buy, Hold or Sell?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nebius-stock-jumps-124-6-142800710.html?.tsrc=rss",
-          "source": null,
-          "summary": "NBIS stock rallies on AI infrastructure expansion, surging revenues and strong demand, but high capex and premium valuation temper near-term upside.",
-          "published": "2026-07-06T14:28:00"
-        },
-        {
-          "headline": "Okta upgraded, Datadog downgraded: Wall Street's top analyst calls",
-          "link": "https://finance.yahoo.com/news/marvell-upgraded-trade-desk-downgraded-143122342.html?.tsrc=rss",
-          "source": null,
-          "summary": "Okta upgraded, Datadog downgraded: Wall Street's top analyst calls",
-          "published": "2026-07-06T13:47:50"
-        },
-        {
-          "headline": "SpaceX, SK Hynix, and 2 More Unknown Factors Threatening Markets This Week. Four Other Things to Know Today.",
-          "link": "https://finance.yahoo.com/m/aec32344-b1c1-3612-9d11-1a875f1800b9/spacex%2C-sk-hynix%2C-and-2-more.html?.tsrc=rss",
-          "source": null,
-          "summary": "OpenAI and Anthropic need an IPO soon, Elon Musk's wealth soars again after SpaceX IPO, and more news to start your day.",
-          "published": "2026-07-06T12:16:00"
-        },
-        {
-          "headline": "Bitcoin Miners Want To Be AI Landlords. Four Companies Making It Work.",
-          "link": "https://finance.yahoo.com/m/6513e392-3bd5-3e9c-8795-a798400db9a4/bitcoin-miners-want-to-be-ai.html?.tsrc=rss",
-          "source": null,
-          "summary": "Bitcoin mining isn’t the easiest way to make money these days, but a few companies that invested in the space may not care. CoreWeave the poster child for crypto-to-AI conversion, is thriving after switching from mining Bitcoin to selling AI cloud computing capacity. Another wave of miners, including Applied Digital Bitdeer Technologies and Cipher Digital want to lease the land, infrastructure, and grid connections that cloud companies need.",
-          "published": "2026-07-06T09:55:00"
-        },
-        {
-          "headline": "Wolfe Research reiterates CoreWeave stock Outperform rating at $150",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWGp4bjU0cnJiWmxyTHU1VU1qSlVPMktIRWRaNzBoZUNFT0k1aFJKcDJmbjJrWmhUdkw0cno3Nm5oVGt3TEs0Q08wRGRKSkFYMENGYU1zMzdZd0VscE92Z2xiXzhZblFSU3VRdnZQeWpIOUZuODB5R0o1N1g2V0tMSVJSeXdBcld0ZjM2LUFMMGhLQ1NEdFVkTkNOVlZ5SXdzY3pmVVNmalBaQlpEU3dRQWQ1Xy1UVVJlVVNST0txRDY4bld2?oc=5",
-          "source": "Investing.com",
-          "summary": "",
-          "published": "2026-07-06T11:46:10"
-        },
-        {
-          "headline": "CoreWeave Stock Is Climbing After Meta Competition Selloff: What's Driving the Action?",
-          "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQcHdNcnRFU1NZTmp2OHFXS0p1WkZoR2xReUw3bFRrMFF6amg5TGdneEU1ZEVtVnlrYzVmeHhyV3IzMmdfaERkZmtmLTliZWxDWmlkWVZ6TDRXTWVLWV9vQzdSVnZGSDU3amRVZ1lFcnVpUzUyRkZHczltY3RMVWMtZ2ZVMF96U18zU1puM3FwVC1JY3FTZGctLXBlUmlMSmY2ckt4VmNWVFVoNHQ3V0xVaVVmaFpBSTMzUVNXUmxoTmRULXhsZkpNLVAyeGpBeFZYUXJ3andfbnBhaHdY?oc=5",
-          "source": "Benzinga",
-          "summary": "",
-          "published": "2026-07-06T15:28:07"
-        }
-      ]
-    },
-    {
       "symbol": "IREN",
       "classification": {
         "is_major": true,
@@ -788,17 +719,20 @@
     },
     "EQIX": {
       "ma": 1172
+    },
+    "CRWV": {
+      "analyst_note": 1187
     }
   },
   "recent_post_sources": [
-    "DatacenterDynamics",
     "Investing.com",
     "DatacenterDynamics",
     "marketscreener.com",
     "StocksToTrade",
-    "MLex"
+    "MLex",
+    "Investing.com"
   ],
-  "last_news_post_min": 29722652,
+  "last_news_post_min": 29722667,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -809,10 +743,16 @@
       0,
       2
     ],
-    "mover": [],
-    "price_event": [
+    "mover": [
       4,
-      1
+      1,
+      0,
+      2,
+      5,
+      6
+    ],
+    "price_event": [
+      4
     ]
   },
   "last_evergreen_min": 29722412,
@@ -862,31 +802,32 @@
     "ABBN.SW": 86.84,
     "ENR.DE": 169.56,
     "RWE.DE": 57.46,
-    "ETN": 413.18,
-    "EQIX": 997.79,
-    "CRWV": 86.77,
-    "NEE": 87.62,
-    "POWL": 250.16,
-    "NVT": 155.72,
-    "TLN": 375.38,
-    "IREN": 43.91,
-    "APLD": 33.76,
-    "GEV": 1148.17,
+    "ETN": 413.99,
+    "EQIX": 996.91,
+    "CRWV": 86.47,
+    "NEE": 87.5,
+    "POWL": 250.35,
+    "NVT": 155.86,
+    "TLN": 375.4,
+    "IREN": 43.92,
+    "APLD": 33.6,
+    "GEV": 1150.29,
     "NOK": 12.49,
-    "DLR": 174.04,
-    "VRT": 320.77,
-    "ERIC": 10.93,
-    "CEG": 243.81,
-    "VST": 153.9,
-    "BE": 292.17,
-    "PWR": 679.55
+    "DLR": 173.84,
+    "VRT": 322.71,
+    "ERIC": 10.91,
+    "CEG": 243.83,
+    "VST": 153.85,
+    "BE": 292.14,
+    "PWR": 677.25
   },
   "day_event_fired": {
     "BE": "2026-07-06",
     "POWL": "2026-07-06",
-    "NOK": "2026-07-06"
+    "NOK": "2026-07-06",
+    "VRT": "2026-07-06"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29722622,
-  "us_flexible_used": 3
+  "next_pulse_interval": 33,
+  "last_pulse_post_min": 29722666,
+  "us_flexible_used": 4
 }
