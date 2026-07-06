@@ -2,8 +2,8 @@
   "date": "2026-07-06",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 2,
-  "gemini_calls_today": 11,
+  "daily_pulse_posts": 3,
+  "gemini_calls_today": 12,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -42,7 +42,7 @@
     "ERIC": 874,
     "NVT": 962
   },
-  "event_log_next_id": 32,
+  "event_log_next_id": 33,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722
@@ -82,13 +82,13 @@
       "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
       "Why Constellation Energy Stock Is Tumbling Today",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
-      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
+      "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "CEG - Constellation Energy Corp Latest SEC Filings",
       "Constellation Energy (CEG) director adds 146 phantom share equivalents",
       "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
-      "Constellation Energy Corp. stock rises Thursday, outperforms market",
+      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
     ],
@@ -213,14 +213,14 @@
       "Vertiv Holdings Co (VRT) Continues to Add Strong Backlogs",
       "Can Capacity Expansion Support nVent Electric's Next Growth Phase?",
       "GLJ Research’s Analyst Upgrades Vertiv Holdings Co (VRT)",
-      "Vertiv Holdings Co Investor Conference- Executive Presentations Transcript",
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
-      "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
+      "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
       "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
       "Vertiv Increases Manufacturing Capacity with New Facility in Malaysia, to Support Growing Demand for AI and Digital Infrastructure Across Asia",
-      "Does Vertiv Holdings Co (VRT) Have 18% Upside Or Is It Pricey?",
       "Vertiv Holdings Co (XSWX:VRT) Valuation: Data Out of Date, Use Caution",
+      "Vertiv Holdings(VRT) Stock Options Chain | Quotes & News",
+      "Does Vertiv Holdings Co (VRT) Have 18% Upside Or Is It Pricey?",
       "Vertiv Holdings Co. $VRT Position Increased by QRG Capital Management Inc.",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In."
     ],
@@ -235,9 +235,9 @@
       "Vicor Surges 621% in the Past Year: Should You Buy the Stock?",
       "Littelfuse Rides on Holistic Growth Focus: Should You Buy the Stock?",
       "Vishay Precision Surges 373% in the Past Year: Time to Buy the Stock?",
+      "Person Details",
       "Price to sales forward of nVent Electric plc – BX:NVT",
       "nVent Electric (NVT) Joins Russell Growth Indexes With Valuation Still In Focus",
-      "Person Details",
       "A Look at nVent Electric PLC (NVT) After 4.9% Decline -- GF Value $115.60 vs Price $152.15",
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
       "Does nVent Electric’s (NVT) Russell Growth Inclusion Reframe Its Electrification And AI Infrastructure Narrative?",
@@ -258,8 +258,8 @@
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
-      "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
+      "Siemens Energy to invest $421 million in NC",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
@@ -343,10 +343,10 @@
       "US Equity Markets End Higher Amid Semiconductor-Led Technology Stock Gains",
       "Digital Realty Schedules Second Quarter 2026 Earnings Release and Conference Call",
       "Digital Realty Strengthens Portfolio With $7.8B Data Center Deal",
+      "Elevation Point Wealth Partners LLC Increases Stock Position in Digital Realty Trust, Inc. $DLR",
       "Digital Realty to pay Blackstone $3.5 billion for stake in Virginia data centers",
       "Digital Realty Announces Purchase of Blackstone Interest in Three Northern Virginia Data Centers",
       "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers",
-      "Digital Realty Trust, Inc. $DLR Shares Acquired by QRG Capital Management Inc.",
       "Digital Realty (NYSE: DLR) to acquire $3.5B Blackstone hyperscale data centers",
       "Digital Realty (DLR) Stock Could Be 35% Undervalued Despite $3.5b Data Center Deal",
       "News | Blackstone sells $3.5 billion stake in data centers to Digital Realty",
@@ -499,11 +499,11 @@
       "Powell Industries Drops 6.5% Amid Sector-Wide Selling",
       "Powell Industries options trading surges amid stock decline",
       "A Look at Powell Industries Inc (POWL) After 7.5% Decline -- GF Value $76.27 vs Price $264.86",
-      "Affiliate files resale notice for 4,500 shares at Powell (NASDAQ: POWL)",
-      "Powell Industries, Inc.(NasdaqGS: POWL) dropped from Russell 2000 Index",
       "Insider Sell: Michael Metcalf Sells 4,500 Shares of Powell Indus",
+      "Have Insiders Sold Powell Industries Shares Recently?",
       "Powell Industries (POWL) Dips More Than Broader Market",
-      "Notable ETF Inflow Detected - SDVY, FIX, POWL, ENS"
+      "Notable ETF Inflow Detected - SDVY, FIX, POWL, ENS",
+      "Here is What to Know Beyond Why Powell Industries, Inc. (POWL) is a Trending Stock"
     ],
     "IBE.MC": [
       "Iberdrola selects ICEYE to strengthen its network in the face of extreme weather",
@@ -538,16 +538,16 @@
       "CRWV Shares Slip 24% in a Month: Buy the Dip or Stay on the Sidelines?",
       "Wall Street Is Split on Meta’s Secret Cloud Move, and One Side Is Very Wrong",
       "SpaceX Stock Is Joining the Nasdaq 100 Soon. What History Says Happens Next.",
-      "5 Underperforming Data Center Stocks to Buy According to Short Sellers",
       "CoreWeave Insider Sold Shares Worth $12,957,630, According to a Recent SEC Filing",
+      "BNP Paribas Sends Fresh Message on CoreWeave and Nebius Stocks",
       "Here’s Why CoreWeave CEO Sold $38 Million in Stock",
       "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius",
       "CoreWeave Is Down 13% Today: How Does CRWV Compare to Other Cloud Stocks Like Cloudflare and Oracle?",
+      "Could SpaceX Surge When It Joins the Nasdaq-100? Maybe, but History Says the Bounce Won't Last.",
       "Why Did Nebius Stock Jump 20% in June?",
       "Meta Wants In on the Cloud. Is Amazon Stock Still a Buy?",
       "3 AI Stocks to Still Buy If Inflation Stays Sticky",
-      "Weakness in Chipmakers Drags Stock Indexes Lower",
-      "CoreWeave and Nebius Plunged 14% and 17% in a Single Day. Which Beaten-Down AI Cloud Stock Is the Better Rebound Bet?"
+      "Weakness in Chipmakers Drags Stock Indexes Lower"
     ],
     "ERIC": [
       "Nokia's 138% Run Has A Margin Problem",
@@ -604,16 +604,16 @@
       "Is Ring Energy (REI) Stock Outpacing Its Oils-Energy Peers This Year?",
       "50Hertz awards converter project to Siemens-led consortium",
       "Siemens Energy to build 2 GW converter platform with German shipyard",
-      "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS)",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
-      "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
-      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
+      "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice",
+      "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG",
       "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
+      "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS)",
+      "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
+      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations"
     ],
     "LR.PA": [
       "Legrand: Total Number of Shares and Voting Rights",
@@ -719,8 +719,7 @@
       3,
       0,
       4,
-      6,
-      5
+      6
     ]
   },
   "last_evergreen_min": 29720942,
@@ -758,17 +757,17 @@
   ],
   "us_posted": [],
   "price_snapshots": {
-    "IBE.MC": 21.14,
-    "ENGI.PA": 27.63,
-    "SU.PA": 277.25,
-    "SIE.DE": 283.2,
-    "LR.PA": 142.05,
-    "EOAN.DE": 19.24,
-    "ABBN.SW": 85.54,
-    "ENR.DE": 166.32,
-    "RWE.DE": 57.36
+    "IBE.MC": 21.09,
+    "ENGI.PA": 27.59,
+    "SU.PA": 276.35,
+    "SIE.DE": 282.3,
+    "LR.PA": 142.0,
+    "EOAN.DE": 19.22,
+    "ABBN.SW": 85.44,
+    "ENR.DE": 165.78,
+    "RWE.DE": 57.44
   },
   "day_event_fired": {},
-  "next_pulse_interval": 40,
-  "last_pulse_post_min": 29722066
+  "next_pulse_interval": 39,
+  "last_pulse_post_min": 29722111
 }
