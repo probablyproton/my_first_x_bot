@@ -45,7 +45,7 @@
     "POWL": 962,
     "NOK": 977
   },
-  "event_log_next_id": 73,
+  "event_log_next_id": 74,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -183,12 +183,12 @@
       "Vistra Corp. (VST) Stock Slides as Market Rises: Facts to Know Before You Trade",
       "Northampton Capital Partners, Olympus Power Form JV and Reach Agreement to Acquire New England, New York Generating Assets",
       "Nuclear Power Is the Only Real Answer to AI Data Center Demand and These 3 ETFs Cover the Trade at Three Risk Levels",
+      "Earnings call transcript: Vistra Energy tops Q1 2026 forecasts, stock rises",
       "Vistra sets Aug. 7 call for second-quarter results",
       "Vistra Corp. $VST Shares Sold by CUSHING ASSET MANAGEMENT LP dba NXG INVESTMENT MANAGEMENT",
-      "Vistra Q1 2026 slides: $1.5B EBITDA rebounds after Q4 miss",
       "Battery removal at Moss Landing nears completion after 2025 Vistra fire",
-      "Latham Advises Vistra Corp. on Sale of New England, New York Generating Assets",
       "CA: VISTRA FIRE BATTERY REMOVAL NEARLY DONE",
+      "Latham Advises Vistra Corp. on Sale of New England, New York Generating Assets",
       "$Vistra Energy (VST.US)$",
       "Vistra to announce Q2 2026 financial results on Aug 7 via live webcast and call",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
@@ -217,6 +217,7 @@
       "ABB to invest $75 million in India to expand manufacturing, R&D"
     ],
     "VRT": [
+      "Will Vertiv’s New Malaysia AI Cooling Hub Reshape Vertiv Holdings Co's (VRT) Data Center Narrative?",
       "Why Vertiv and Eaton Are the Ultimate Infrastructure Plays for the AI Boom",
       "Here’s Why Vertiv (VRT) is Among the 10 Best Pick and Shovel AI Stocks to Invest In",
       "1 Cash-Producing Stock Worth Your Attention and 2 We Find Risky",
@@ -226,8 +227,6 @@
       "nVent Stock Outlook Gets a Boost From Data Center Demand Wave",
       "NVT Is Emerging as an AI Infrastructure Winner Beyond Liquid Cooling",
       "Is NVT Stock Still Worth Buying After Its Huge Rally in 2026?",
-      "Vertiv Holdings Co (VRT) Continues to Add Strong Backlogs",
-      "Vertiv Jumps 9.2% as AI Infrastructure Expansion Supports Bullish Sentiment",
       "Vertiv Holdings Co Stock (VRT) Closed Up by 5.79% on Jul 6",
       "Vertiv Holdings (NYSE:VRT) stock jumps, valued at 58x cash flow guide as AI demand talk grows",
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
@@ -235,6 +234,7 @@
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
       "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
       "Vertiv Holdings Co (XSWX:VRT) Valuation: Data Out of Date, Use Caution",
+      "Vertiv Increases Manufacturing Capacity with New Facility in Malaysia, to Support Growing Demand for AI and Digital Infrastructure Across Asia",
       "S&P 500 Movers: ORLY, VRT",
       "Here's Why Vertiv Holdings Co. (VRT) is a Strong Momentum Stock"
     ],
@@ -250,10 +250,8 @@
       "Vicor Surges 621% in the Past Year: Should You Buy the Stock?",
       "Littelfuse Rides on Holistic Growth Focus: Should You Buy the Stock?",
       "Person Details",
-      "If You Invested $1000 In nVent Electric Stock 5 Years Ago, You Would Have This Much Today",
       "Price to sales forward of nVent Electric plc – BX:NVT",
       "nVent Electric (NVT) Joins Russell Growth Indexes With Valuation Still In Focus",
-      "NVT News | NVENT ELECTRIC PLC (NYSE:NVT)",
       "A Look at nVent Electric PLC (NVT) After 4.9% Decline -- GF Value $115.60 vs Price $152.15",
       "nVent Electric(NVT) Stock Options Chain | Quotes & News",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
@@ -292,16 +290,16 @@
       "Wall Street Thinks You Should Buy The Dip On Applied Digital (APLD) Stock",
       "Applied Digital (APLD): One of the Top Hot Stocks with the Highest Upside Potential",
       "Oracle Just Became an AI Cloud Powerhouse. Here Are 5 Under-the-Radar Stocks Along for the Ride",
-      "Applied Digital Delivers Second Building at Polaris Forge 1",
-      "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
       "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
       "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
       "Applied Digital Corporation Delivers Second Building at Polaris Forge 1",
       "APLD Stock (Applied Digital Corporation) APLD Stock Analysis | April 14, 2026 Abnb Stock (CVsG8od85X)",
-      "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth",
+      "Applied Digital Shares Fall on $1.59 Billion Notes Pricing",
+      "Enterprise value to revenue forward of Applied Digital Corporation – NASDAQ:APLD",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
-      "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day"
+      "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day",
+      "Synopsys vs. Applied Digital: Which AI Stock Has an Edge Right Now?"
     ],
     "EOAN.DE": [
       "FPT Achieves SAP® Silver Partner Status in the SAP® PartnerEdge® Program, Expanding SAP Capabilities for European Enterprises",
@@ -343,9 +341,9 @@
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
       "TLN - Talen Energy Corp Revenue Breakdown",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
-      "Donald Trump - TALEN ENERGY CORP NEW CLASS EQUITY Trump Trade on Mar. 23, 2026",
       "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05",
-      "Notable Tuesday Option Activity: MSFT, TLN, UNM"
+      "TLN - Talen Energy Corp Volatility & Greeks",
+      "Talen Energy Corporation (TLN) Q1 Earnings and Revenues Beat Estimates"
     ],
     "DLR": [
       "Keel Infrastructure appoints former REIT executive Ganesh Aiyer as president amid 2.2 GW AI pipeline push",
@@ -404,8 +402,8 @@
       "Schneider Electric to acquire Cognite for $3.1 billion to expand industrial AI, operational data capabilities",
       "Behind Schneider Electric's Acquisition of AI Firm Cognite",
       "Schneider expands its remote-service EcoCare plan to mission-critical systems",
-      "Schneider Electric & SCE's SF₆ Reduction Technology",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
+      "Schneider Electric & SCE's SF₆ Reduction Technology",
       "Schneider Electric Announces Plan to Acquire Cognite",
       "Schneider Electric’s solutions to turn problems into competitive advantages",
       "Schneider Electric Announces Intention To Acquire Cognite",
@@ -422,15 +420,16 @@
       "Brookfield (TSX:BN) Stock Looks Stretched On Fresh AI Data Center Expansion",
       "Bloom Energy Skyrocketed Over 248% in the First Half of 2026",
       "Brookfield’s US$25 Billion Bloom Energy Fuel Cell Deal Could Be A Game Changer For Brookfield (TSX:BN)",
-      "Bull of the Day: Bloom Energy (BE)",
       "Bloom Energy Just Entered a $25 Billion Pact for AI Infrastructure. What This Means for BE Stock.",
       "What's Going On With Bloom Energy Stock Thursday?",
       "Bloom Energy rises 12% after partnering with European AI infrastructure upstart in $2.6 billion deal",
       "Bloom Energy vs. Plug Power: Which Hydrogen Stock Is a Better Buy in 2026?",
+      "Bloom Energy Stock Jumps As Brookfield Boosts $25B AI Power Deal",
       "I Want to Become Financially Independent in 5 Years: Here's My 3-Part Plan to Reach That Bold Goal.",
       "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge.",
       "Why Did Nebius Stock Jump 20% in June?",
-      "After Skyrocketing Nearly 200%, Is It Too Late to Buy Bloom Energy?"
+      "After Skyrocketing Nearly 200%, Is It Too Late to Buy Bloom Energy?",
+      "Bull of the Day: Bloom Energy (BE)"
     ],
     "RWE.DE": [
       "FPT Achieves SAP® Silver Partner Status in the SAP® PartnerEdge® Program, Expanding SAP Capabilities for European Enterprises",
@@ -534,13 +533,13 @@
       "Iberdrola raises its interim dividend to €0.253 per share",
       "Iberdrola ejecutará un programa de recompra de hasta 5,5 millones de acciones",
       "Iberdrola presenta la opa por las acciones de Neoenergia que no controla",
-      "Iberdrola will invest €41 billion and hire 10,000 people by 2026 to accelerate electrification",
-      "Mexico’s Dispute With Iberdrola Over Illegal Energy Sale Seen Dragging On",
-      "Iberdrola debe mejorar su beneficio un 14% este miércoles si no quiere decepcionar al mercado",
       "Iberdrola emprende acciones legales contra el presidente de Red Eléctrica tras el apagón.",
+      "Iberdrola will invest €41 billion and hire 10,000 people by 2026 to accelerate electrification",
+      "Iberdrola debe mejorar su beneficio un 14% este miércoles si no quiere decepcionar al mercado",
+      "Spain’s Iberdrola to Sell Majority of Its Electric Power Generation Plants In Mexico",
       "Giving banking a more human voice: Unicaja’s move to conversational banking driven by Artificial Intelligence",
       "We announced full-year 2022 results",
-      "Spain’s Iberdrola to Sell Majority of Its Electric Power Generation Plants In Mexico"
+      "Deloitte’s private equity in sports playbook"
     ],
     "CRWV": [
       "TeraWulf, Anthropic Sign $19 Billion Data Center Lease. Neocloud Stocks Soar.",
@@ -581,7 +580,7 @@
       "Obituary: Inger Margareta Ericsson Corson",
       "DNB Carnegie raises Ericsson price target to 133 kronor (121), reiterates buy",
       "AI and modernization amid key sustainability levers – Ericsson",
-      "Ericsson CEO Ekholm to step down, be replaced by Per Narvinger",
+      "Ericsson and Intel collaborate to accelerate the path to commercial AI-native 6G",
       "Ericsson names Per Narvinger CEO as Börje Ekholm steps down after 9-year run",
       "Can Nokia's Orange Belgium Network Upgrade Deal Aid the Stock?",
       "Can NOK's Defense Deal Capitalize on Rising Border Security Demand?"
@@ -619,6 +618,7 @@
       "Is Ring Energy (REI) Stock Outpacing Its Oils-Energy Peers This Year?",
       "50Hertz awards converter project to Siemens-led consortium",
       "Siemens Energy to build 2 GW converter platform with German shipyard",
+      "CAUTION with Siemens Energy! BUY CTS Eventim? OPPORTUNITY with Strategic Resources!",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice",
       "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG",
@@ -627,8 +627,7 @@
       "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
       "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS)",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
-      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations",
-      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion"
+      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations"
     ],
     "LR.PA": [
       "Legrand: Total Number of Shares and Voting Rights",
@@ -642,6 +641,7 @@
       "3 Market-Beating Stocks with Exciting Potential",
       "Assessing Whether Legrand (ENXTPA:LR) Still Offers Upside After Strong Recent Share Performance",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
+      "Camille LeGRAND Obituary - CA",
       "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
       "Legrand | AV Earns 18 Awards at InfoComm 2026, Validating “Where Solutions Live” Strategy",
       "LeGrand’s Market shares its four-bean baked bean recipe for the perfect Fourth of July side",
@@ -649,7 +649,6 @@
       "Gabrielle Leann LeGrand Obituary (2026) - Cole Camp, MO - Fox Funeral Home - Cole Camp",
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
       "APS welcomes Jason LeGrand as global director of development",
-      "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum",
       "Q1 2026 Legrand SA Earnings Call Transcript"
     ]
   },
