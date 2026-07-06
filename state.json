@@ -1,7 +1,7 @@
 {
   "date": "2026-07-06",
   "daily_posts": 4,
-  "daily_keyword_posts": 5,
+  "daily_keyword_posts": 6,
   "daily_pulse_posts": 14,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
@@ -25,7 +25,7 @@
     "RWE.DE": 1066,
     "GEV": 1144,
     "VRT": 1052,
-    "EQIX": 1052,
+    "EQIX": 1172,
     "ETN": 1052,
     "CEG": 1052,
     "VST": 1144,
@@ -45,7 +45,7 @@
     "POWL": 962,
     "NOK": 977
   },
-  "event_log_next_id": 62,
+  "event_log_next_id": 63,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -54,7 +54,8 @@
     "POWL": 962,
     "NOK": 977,
     "news_ERIC": 1007,
-    "news_DLR": 1052
+    "news_DLR": 1052,
+    "news_EQIX": 1172
   },
   "news_seen": {
     "ETN": [
@@ -118,7 +119,7 @@
       "Quanta Services Is Maintained at Buy by Truist Securities",
       "Bull of the Day: Quanta Services (PWR)",
       "Quanta Services Inc (PWR) Shares Fall 3.3% -- GF Value Says Stil",
-      "Quanta Services (PWR) Stock Could Trade At A Premium Following Raised Outlook",
+      "Quanta Services Slides as Pullback Appears Tied to Valuation and a Lack of Fresh Catalysts",
       "BCKIY or PWR: Which Is the Better Value Stock Right Now?",
       "Jacobs Lands Orange County Highway Modernization Contracts"
     ],
@@ -177,14 +178,14 @@
       "Northampton Capital Partners, Olympus Power Form JV and Reach Agreement to Acquire New England, New York Generating Assets",
       "Nuclear Power Is the Only Real Answer to AI Data Center Demand and These 3 ETFs Cover the Trade at Three Risk Levels",
       "Vistra (VST) Buys Cogentrix For $4 Billion And Locks In Meta And AWS Deals",
-      "Earnings call transcript: Vistra Energy tops Q1 2026 forecasts, stock rises",
       "Vistra sets Aug. 7 call for second-quarter results",
       "Vistra Corp. $VST Shares Sold by CUSHING ASSET MANAGEMENT LP dba NXG INVESTMENT MANAGEMENT",
+      "Vistra Q1 2026 slides: $1.5B EBITDA rebounds after Q4 miss",
       "Battery removal at Moss Landing nears completion after 2025 Vistra fire",
       "Latham Advises Vistra Corp. on Sale of New England, New York Generating Assets",
       "CA: VISTRA FIRE BATTERY REMOVAL NEARLY DONE",
       "$Vistra Energy (VST.US)$",
-      "Vistra Corp (VST) Gets a Buy from Wells Fargo",
+      "Vistra to announce Q2 2026 financial results on Aug 7 via live webcast and call",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
       "Vistra or Public Service Enterprise: Which Utility Stock Stands Out?"
     ],
@@ -226,8 +227,8 @@
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
-      "Vertiv Holdings Co Investor Conference- Executive Presentations Transcript",
       "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
+      "Vertiv Holdings Co Investor Conference- Executive Presentations Transcript",
       "Vertiv Increases Manufacturing Capacity with New Facility in Malaysia, to Support Growing Demand for AI and Digital Infrastructure Across Asia",
       "S&P 500 Movers: ORLY, VRT",
       "Here's Why Vertiv Holdings Co. (VRT) is a Strong Momentum Stock"
@@ -246,7 +247,6 @@
       "Person Details",
       "Price to sales forward of nVent Electric plc – BX:NVT",
       "nVent Electric (NVT) Joins Russell Growth Indexes With Valuation Still In Focus",
-      "NVT News | NVENT ELECTRIC PLC (NYSE:NVT)",
       "A Look at nVent Electric PLC (NVT) After 4.9% Decline -- GF Value $115.60 vs Price $152.15",
       "nVent Electric(NVT) Stock Options Chain | Quotes & News",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
@@ -312,8 +312,8 @@
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE outlines long-term energy transition strategy for investors",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
-      "E.ON SE builds its role in Europe. Energy systems shift toward renewables",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
+      "E.ON SE builds its role in Europe. Energy systems shift toward renewables",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
       "E.ON SE focuses on energy transition and grid investment",
       "E.ON SE strengthens its energy transition role as a European utility heavyweight"
@@ -353,10 +353,10 @@
       "Digital Realty (DLR) Buys $3.5 Billion Blackstone Data Centers In Northern Virginia",
       "Elevation Point Wealth Partners LLC Increases Stock Position in Digital Realty Trust, Inc. $DLR",
       "Digital Realty to pay Blackstone $3.5 billion for stake in Virginia data centers",
-      "Digital Realty Announces Transactions to Drive Continued Platform Growth",
-      "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers",
       "Digital Realty (NYSE: DLR) to acquire $3.5B Blackstone hyperscale data centers",
       "Digital Realty (DLR) Stock Could Be 35% Undervalued Despite $3.5b Data Center Deal",
+      "Digital Realty Announces Transactions to Drive Continued Platform Growth",
+      "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers",
       "News | Blackstone sells $3.5 billion stake in data centers to Digital Realty",
       "This Asset Class Has Lagged the Market for Years But Was the Best Performer in June. Time to Invest?",
       "Noteworthy ETF Outflows: IYR, WELL, EQIX, DLR",
@@ -529,11 +529,11 @@
       "Iberdrola presenta la opa por las acciones de Neoenergia que no controla",
       "Iberdrola emprende acciones legales contra el presidente de Red Eléctrica tras el apagón.",
       "Iberdrola will invest €41 billion and hire 10,000 people by 2026 to accelerate electrification",
-      "Mexico’s Dispute With Iberdrola Over Illegal Energy Sale Seen Dragging On",
       "Iberdrola debe mejorar su beneficio un 14% este miércoles si no quiere decepcionar al mercado",
+      "Spain’s Iberdrola to Sell Majority of Its Electric Power Generation Plants In Mexico",
       "Giving banking a more human voice: Unicaja’s move to conversational banking driven by Artificial Intelligence",
       "We announced full-year 2022 results",
-      "Spain’s Iberdrola to Sell Majority of Its Electric Power Generation Plants In Mexico"
+      "Deloitte’s private equity in sports playbook"
     ],
     "CRWV": [
       "TeraWulf, Anthropic Sign $19 Billion Data Center Lease. Neocloud Stocks Soar.",
@@ -613,15 +613,15 @@
       "50Hertz awards converter project to Siemens-led consortium",
       "Siemens Energy to build 2 GW converter platform with German shipyard",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
-      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice",
       "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG",
-      "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
+      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
+      "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
       "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS)",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
-      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations",
-      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion"
+      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations"
     ],
     "LR.PA": [
       "Legrand: Total Number of Shares and Voting Rights",
@@ -647,43 +647,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "EQIX",
-      "classification": {
-        "is_major": true,
-        "category": "ma",
-        "headline": "CPPIB, Equinix file buyout of data-center provider atNorth for EU clearance",
-        "reason": "Keyword rule matched (category: ma)"
-      },
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUTVmeWJGV0ppNUJINUNhaTdySkVmVEFOUGQ2U1h1V1hMc0NvYlc0ZFJfdldsZnh1cjRjSHROX2ZTZVQ5LUNJOEVCX2dfVS05NjFKZnpHZUlVaU0yNGcybXJMTkFOb2hqRUxRR0toWEc2Y3M1amhwNUFxLVBKb3RpYTZUdC1jSkVobVBjRVpzQS12M3BOVW5WVThEZ2RRSEVDNXphZHBQYW9ocGtUbk9WVWxNNW1nVmht0gFaQVVfeXFMTzE1anhzSUw3bVVpVmx2a0NtSlJUYWJ0bHV3elFmQlRsUy0zV1pVRXl2TUIzUEl5Q2wyNUt5cklZcmttOEtrUDlqMXJjXzhHYU52NTFtNWJteEdR?oc=5",
-      "source": "MLex",
-      "method": "keyword",
-      "published": "2026-07-06T11:41:00",
-      "queued_min": 29722592,
-      "all_articles": [
-        {
-          "headline": "Brookfield’s Data Center Firm Csquare Seeks $1.35 Billion in IPO",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/brookfield-data-center-firm-csquare-110755671.html?.tsrc=rss",
-          "source": null,
-          "summary": "(Bloomberg) -- Csquare Inc., a data center company backed by Brookfield Corp., is seeking to raise as much as $1.35 billion in a US initial public offering.Most Read from BloombergGreece Offers Bounty to Catch Ravenous Fish Lured by Warming SeaOil, Gas Tankers Cross Hormuz Via Oman-Side Route After U-TurnsThe Tanker Tycoon Making Millions on Hormuz Shuttle RunsModi’s Flagship Biofuel Push Faces Backlash From MotoristsOil’s Supply Wave, Tumbling Prices Rekindle Fears of Global GlutThe company is",
-          "published": "2026-07-06T11:07:55"
-        },
-        {
-          "headline": "CPPIB, Equinix file buyout of data-center provider atNorth for EU clearance",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUTVmeWJGV0ppNUJINUNhaTdySkVmVEFOUGQ2U1h1V1hMc0NvYlc0ZFJfdldsZnh1cjRjSHROX2ZTZVQ5LUNJOEVCX2dfVS05NjFKZnpHZUlVaU0yNGcybXJMTkFOb2hqRUxRR0toWEc2Y3M1amhwNUFxLVBKb3RpYTZUdC1jSkVobVBjRVpzQS12M3BOVW5WVThEZ2RRSEVDNXphZHBQYW9ocGtUbk9WVWxNNW1nVmht0gFaQVVfeXFMTzE1anhzSUw3bVVpVmx2a0NtSlJUYWJ0bHV3elFmQlRsUy0zV1pVRXl2TUIzUEl5Q2wyNUt5cklZcmttOEtrUDlqMXJjXzhHYU52NTFtNWJteEdR?oc=5",
-          "source": "MLex",
-          "summary": "",
-          "published": "2026-07-06T11:41:00"
-        },
-        {
-          "headline": "Noteworthy ETF Outflows: IYR, WELL, EQIX, DLR",
-          "link": "https://www.nasdaq.com/articles/noteworthy-etf-outflows-iyr-well-eqix-dlr",
-          "source": "BNK Invest",
-          "summary": "Looking today at week-over-week shares outstanding changes among the universe of ETFs covered at ETF Channel, one standout is the iShares US Real Estate ETF (Symbol: IYR) where we have detected an approximate $317.2 million dollar outflow -- that's a 6.5% decrease week over wee",
-          "published": "2026-07-06T14:53:23"
-        }
-      ]
-    },
     {
       "symbol": "SU.PA",
       "classification": {
@@ -822,17 +785,20 @@
     },
     "DLR": {
       "analyst_note": 1052
+    },
+    "EQIX": {
+      "ma": 1172
     }
   },
   "recent_post_sources": [
-    "The Globe and Mail",
     "DatacenterDynamics",
     "Investing.com",
     "DatacenterDynamics",
     "marketscreener.com",
-    "StocksToTrade"
+    "StocksToTrade",
+    "MLex"
   ],
-  "last_news_post_min": 29722562,
+  "last_news_post_min": 29722652,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -896,24 +862,24 @@
     "ABBN.SW": 86.84,
     "ENR.DE": 169.56,
     "RWE.DE": 57.46,
-    "ETN": 413.77,
-    "EQIX": 997.62,
-    "CRWV": 86.87,
-    "NEE": 87.61,
-    "POWL": 250.05,
-    "NVT": 156.24,
-    "TLN": 375.64,
-    "IREN": 44.67,
-    "APLD": 34.04,
-    "GEV": 1151.31,
-    "NOK": 12.54,
-    "DLR": 174.14,
-    "VRT": 320.88,
-    "ERIC": 10.95,
-    "CEG": 243.95,
-    "VST": 153.89,
-    "BE": 295.13,
-    "PWR": 680.69
+    "ETN": 413.18,
+    "EQIX": 997.79,
+    "CRWV": 86.77,
+    "NEE": 87.62,
+    "POWL": 250.16,
+    "NVT": 155.72,
+    "TLN": 375.38,
+    "IREN": 43.91,
+    "APLD": 33.76,
+    "GEV": 1148.17,
+    "NOK": 12.49,
+    "DLR": 174.04,
+    "VRT": 320.77,
+    "ERIC": 10.93,
+    "CEG": 243.81,
+    "VST": 153.9,
+    "BE": 292.17,
+    "PWR": 679.55
   },
   "day_event_fired": {
     "BE": "2026-07-06",
