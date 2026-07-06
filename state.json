@@ -45,7 +45,7 @@
     "POWL": 962,
     "NOK": 977
   },
-  "event_log_next_id": 60,
+  "event_log_next_id": 62,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -177,16 +177,16 @@
       "Northampton Capital Partners, Olympus Power Form JV and Reach Agreement to Acquire New England, New York Generating Assets",
       "Nuclear Power Is the Only Real Answer to AI Data Center Demand and These 3 ETFs Cover the Trade at Three Risk Levels",
       "Vistra (VST) Buys Cogentrix For $4 Billion And Locks In Meta And AWS Deals",
+      "Earnings call transcript: Vistra Energy tops Q1 2026 forecasts, stock rises",
       "Vistra sets Aug. 7 call for second-quarter results",
       "Vistra Corp. $VST Shares Sold by CUSHING ASSET MANAGEMENT LP dba NXG INVESTMENT MANAGEMENT",
-      "$6&period;8bn sale of Energy Harbor to Vistra powers a leading zero-carbon energy platform",
       "Battery removal at Moss Landing nears completion after 2025 Vistra fire",
       "Latham Advises Vistra Corp. on Sale of New England, New York Generating Assets",
       "CA: VISTRA FIRE BATTERY REMOVAL NEARLY DONE",
+      "$Vistra Energy (VST.US)$",
       "Vistra Corp (VST) Gets a Buy from Wells Fargo",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
-      "Vistra or Public Service Enterprise: Which Utility Stock Stands Out?",
-      "The Ultimate AI Power Supercycle Winner: NextEra Energy or Vistra Stock?"
+      "Vistra or Public Service Enterprise: Which Utility Stock Stands Out?"
     ],
     "ABBN.SW": [
       "Battery Energy Storage, Grid Investments Surge Across Europe",
@@ -221,14 +221,14 @@
       "NVT Is Emerging as an AI Infrastructure Winner Beyond Liquid Cooling",
       "Is NVT Stock Still Worth Buying After Its Huge Rally in 2026?",
       "Vertiv Holdings Co (VRT) Continues to Add Strong Backlogs",
+      "Vertiv Jumps 9.2% as AI Infrastructure Expansion Supports Bullish Sentiment",
       "Vertiv Holdings (NYSE:VRT) stock jumps, valued at 58x cash flow guide as AI demand talk grows",
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
+      "Vertiv Holdings Co Investor Conference- Executive Presentations Transcript",
       "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
       "Vertiv Increases Manufacturing Capacity with New Facility in Malaysia, to Support Growing Demand for AI and Digital Infrastructure Across Asia",
-      "Vertiv Holdings Co (VRT) Stock Down 3.5% but Still Overvalued -- GF Score: 80/100",
-      "Does Vertiv Holdings Co (VRT) Have 18% Upside Or Is It Pricey?",
       "S&P 500 Movers: ORLY, VRT",
       "Here's Why Vertiv Holdings Co. (VRT) is a Strong Momentum Stock"
     ],
@@ -246,9 +246,9 @@
       "Person Details",
       "Price to sales forward of nVent Electric plc – BX:NVT",
       "nVent Electric (NVT) Joins Russell Growth Indexes With Valuation Still In Focus",
+      "NVT News | NVENT ELECTRIC PLC (NYSE:NVT)",
       "A Look at nVent Electric PLC (NVT) After 4.9% Decline -- GF Value $115.60 vs Price $152.15",
       "nVent Electric(NVT) Stock Options Chain | Quotes & News",
-      "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
       "MDY, CW, NVT, ENTG: ETF Inflow Alert"
     ],
@@ -264,15 +264,15 @@
       "Compass Datacenters Donates $12.6M Building to Texas State Technical College to Expand Career Training for the Fast-Growing Digital Economy",
       "Fermi Selects Primoris Services Corporation to Engineer and Construct Balance of Plant for First Six SGT-800 Gas Turbines of Phase One Power Buildout",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Launches Wendell Microgrid at HQ Campus",
-      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
-      "Tobias Bauer",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Launches Wendell Microgrid at HQ Campus",
+      "Siemens stock falls after Q4 earnings miss and weaker 2026 outlook"
     ],
     "APLD": [
       "TeraWulf, Anthropic Sign $19 Billion Data Center Lease. Neocloud Stocks Soar.",
@@ -352,12 +352,12 @@
       "Digital Realty Trust (DLR) Stock Looks Cheap On Cash Flow But Rich On Earnings",
       "Digital Realty (DLR) Buys $3.5 Billion Blackstone Data Centers In Northern Virginia",
       "Elevation Point Wealth Partners LLC Increases Stock Position in Digital Realty Trust, Inc. $DLR",
-      "ETFs Investing in Digital Realty Trust, Inc. Cum Conv Red Pfd Registered Shs Series L Stocks",
       "Digital Realty to pay Blackstone $3.5 billion for stake in Virginia data centers",
       "Digital Realty Announces Transactions to Drive Continued Platform Growth",
       "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers",
       "Digital Realty (NYSE: DLR) to acquire $3.5B Blackstone hyperscale data centers",
       "Digital Realty (DLR) Stock Could Be 35% Undervalued Despite $3.5b Data Center Deal",
+      "News | Blackstone sells $3.5 billion stake in data centers to Digital Realty",
       "This Asset Class Has Lagged the Market for Years But Was the Best Performer in June. Time to Invest?",
       "Noteworthy ETF Outflows: IYR, WELL, EQIX, DLR",
       "Prediction: Realty Income's Data Center Pivot Will Supercharge Its Dividend Growth Over the Next Decade"
@@ -380,8 +380,8 @@
       "Ineos agrees ‘preliminary commercial terms’ to offtake blue hydrogen from Engie and Equinor’s 1GW H2BE project",
       "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
       "South Dakota storm strikes two ENGIE wind farms",
-      "ENGIE Q1 2026 Financial Information",
-      "ENGIE launches its first campaign with Tamara Klink, reinforcing the concept of \"The Same Energy\" alongside the sailor"
+      "ENGIE launches its first campaign with Tamara Klink, reinforcing the concept of \"The Same Energy\" alongside the sailor",
+      "Turbines destroyed after 'uniquely violent' storm strikes South Dakota"
     ],
     "SU.PA": [
       "Keel Infrastructure appoints former REIT executive Ganesh Aiyer as president amid 2.2 GW AI pipeline push",
@@ -406,6 +406,7 @@
     ],
     "BE": [
       "Here's Why Bloom Energy Stock Rallied Again Today",
+      "Is the AI Power Boom Driving Brookfield-Bloom Partnership Expansion?",
       "BE Stock Is Trading At A Massive Premium To Peers — Retail Bulls Still See A Nearly 4x Rally",
       "Bloom Energy (BE) Extends Strategic Alliance With Brookfield",
       "Prediction: This Energy Stock Will Make You a Lot Richer by 2029",
@@ -414,7 +415,6 @@
       "Brookfield (TSX:BN) Stock Looks Stretched On Fresh AI Data Center Expansion",
       "Bloom Energy Skyrocketed Over 248% in the First Half of 2026",
       "Brookfield’s US$25 Billion Bloom Energy Fuel Cell Deal Could Be A Game Changer For Brookfield (TSX:BN)",
-      "After Skyrocketing Nearly 200%, Is It Too Late to Buy Bloom Energy?",
       "Bull of the Day: Bloom Energy (BE)",
       "Bloom Energy Just Entered a $25 Billion Pact for AI Infrastructure. What This Means for BE Stock.",
       "What's Going On With Bloom Energy Stock Thursday?",
@@ -423,7 +423,7 @@
       "I Want to Become Financially Independent in 5 Years: Here's My 3-Part Plan to Reach That Bold Goal.",
       "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge.",
       "Why Did Nebius Stock Jump 20% in June?",
-      "Bloom Energy (BE) Stock Moves -6.43%"
+      "After Skyrocketing Nearly 200%, Is It Too Late to Buy Bloom Energy?"
     ],
     "RWE.DE": [
       "FPT Achieves SAP® Silver Partner Status in the SAP® PartnerEdge® Program, Expanding SAP Capabilities for European Enterprises",
@@ -486,10 +486,10 @@
       "NOK Stock Draws Bullish Targets On AI And 5G Momentum",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
-      "NOK Stock Slides As Repeated ADR Selloffs Rattle Traders",
       "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
-      "NOK Stock Slides As Selling Pressure Dominates Recent Trading"
+      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum",
+      "NOK Stock Jumps As Analysts Chase AI-Fueled Upside"
     ],
     "POWL": [
       "Investors Heavily Search Powell Industries, Inc. (POWL): Here is What You Need to Know",
@@ -507,8 +507,8 @@
       "Powell Industries options trading surges amid stock decline",
       "Powell Industries Drops 6.5% Amid Sector-Wide Selling",
       "A Look at Powell Industries Inc (POWL) After 7.5% Decline -- GF Value $76.27 vs Price $264.86",
-      "Oracle Construction and Engineering Recognizes Customers Driving Industry Transformation",
-      "Have Insiders Sold Powell Industries Shares Recently?",
+      "Affiliate files resale notice for 4,500 shares at Powell (NASDAQ: POWL)",
+      "Insider Sell: Michael Metcalf Sells 4,500 Shares of Powell Indus",
       "Powell Industries (POWL) Dips More Than Broader Market",
       "Notable ETF Inflow Detected - SDVY, FIX, POWL, ENS",
       "Here is What to Know Beyond Why Powell Industries, Inc. (POWL) is a Trending Stock"
@@ -575,8 +575,8 @@
       "Obituary: Inger Margareta Ericsson Corson",
       "DNB Carnegie raises Ericsson price target to 133 kronor (121), reiterates buy",
       "AI and modernization amid key sustainability levers – Ericsson",
-      "Ericsson and Intel collaborate to accelerate the path to commercial AI-native 6G",
       "Ericsson CEO Ekholm to step down, be replaced by Per Narvinger",
+      "BNP Paribas cuts its target price for Ericsson to 80 kronor (85), reiterates underperform - BN",
       "Can Nokia's Orange Belgium Network Upgrade Deal Aid the Stock?"
     ],
     "GEV": [
@@ -636,13 +636,13 @@
       "Assessing Whether Legrand (ENXTPA:LR) Still Offers Upside After Strong Recent Share Performance",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
       "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
-      "Margaret Edwards Legrand Obituary Jan 9, 2016",
-      "Legrand Jackman Obituary Jul 25, 2017",
+      "Legrand | AV Earns 18 Awards at InfoComm 2026, Validating “Where Solutions Live” Strategy",
       "LeGrand’s Market shares its four-bean baked bean recipe for the perfect Fourth of July side",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Gabrielle Leann LeGrand Obituary (2026) - Cole Camp, MO - Fox Funeral Home - Cole Camp",
-      "APS welcomes Jason LeGrand as global director of development",
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
+      "APS welcomes Jason LeGrand as global director of development",
+      "Q1 2026 Legrand SA Earnings Call Transcript",
       "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum"
     ]
   },
@@ -896,24 +896,24 @@
     "ABBN.SW": 86.84,
     "ENR.DE": 169.56,
     "RWE.DE": 57.46,
-    "ETN": 413.14,
-    "EQIX": 997.04,
-    "CRWV": 86.39,
-    "NEE": 87.55,
-    "POWL": 249.3,
-    "NVT": 155.87,
-    "TLN": 374.48,
-    "IREN": 44.44,
-    "APLD": 34.1,
-    "GEV": 1145.7,
-    "NOK": 12.49,
-    "DLR": 173.84,
-    "VRT": 320.5,
-    "ERIC": 10.94,
-    "CEG": 243.09,
-    "VST": 153.57,
-    "BE": 293.06,
-    "PWR": 679.85
+    "ETN": 413.77,
+    "EQIX": 997.62,
+    "CRWV": 86.87,
+    "NEE": 87.61,
+    "POWL": 250.05,
+    "NVT": 156.24,
+    "TLN": 375.64,
+    "IREN": 44.67,
+    "APLD": 34.04,
+    "GEV": 1151.31,
+    "NOK": 12.54,
+    "DLR": 174.14,
+    "VRT": 320.88,
+    "ERIC": 10.95,
+    "CEG": 243.95,
+    "VST": 153.89,
+    "BE": 295.13,
+    "PWR": 680.69
   },
   "day_event_fired": {
     "BE": "2026-07-06",
