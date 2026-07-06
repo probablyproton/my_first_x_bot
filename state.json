@@ -109,9 +109,9 @@
       "Bull of the Day: Quanta Services (PWR)",
       "Quanta Services Inc. stock underperforms Thursday when compared to competitors",
       "Quanta Services Is Maintained at Buy by Truist Securities",
+      "The Quanta Services Transmission Line Construction - Backbone for US grid upgrades",
       "Quanta Services Inc (PWR) Shares Fall 3.3% -- GF Value Says Stil",
       "Quanta Services Slides as Pullback Appears Tied to Valuation and a Lack of Fresh Catalysts",
-      "Quanta Services Stock Jumped 63% This Year: Does the Math Still Support Buying In?",
       "Jacobs Lands Orange County Highway Modernization Contracts",
       "Here's Why Quanta Services (PWR) is a Strong Growth Stock",
       "Quanta Services and Peabody Energy have been highlighted as Zacks Bull and Bear of the Day"
@@ -502,11 +502,11 @@
       "Powell Industries Drops 6.5% Amid Sector-Wide Selling",
       "Powell Industries options trading surges amid stock decline",
       "A Look at Powell Industries Inc (POWL) After 7.5% Decline -- GF Value $76.27 vs Price $264.86",
+      "Affiliate files resale notice for 4,500 shares at Powell (NASDAQ: POWL)",
       "Insider Sell: Michael Metcalf Sells 4,500 Shares of Powell Indus",
       "Have Insiders Sold Powell Industries Shares Recently?",
       "Powell Industries (POWL) Dips More Than Broader Market",
-      "Notable ETF Inflow Detected - SDVY, FIX, POWL, ENS",
-      "Here is What to Know Beyond Why Powell Industries, Inc. (POWL) is a Trending Stock"
+      "Notable ETF Inflow Detected - SDVY, FIX, POWL, ENS"
     ],
     "IBE.MC": [
       "Iberdrola selects ICEYE to strengthen its network in the face of extreme weather",
@@ -857,14 +857,14 @@
   ],
   "us_posted": [],
   "price_snapshots": {
-    "IBE.MC": 21.01,
+    "IBE.MC": 21.0,
     "ENGI.PA": 27.34,
-    "SU.PA": 276.3,
-    "SIE.DE": 280.1,
-    "LR.PA": 142.05,
-    "EOAN.DE": 19.08,
-    "ABBN.SW": 85.56,
-    "ENR.DE": 165.7,
+    "SU.PA": 276.25,
+    "SIE.DE": 279.9,
+    "LR.PA": 141.95,
+    "EOAN.DE": 19.1,
+    "ABBN.SW": 85.62,
+    "ENR.DE": 165.76,
     "RWE.DE": 57.44
   },
   "day_event_fired": {},
