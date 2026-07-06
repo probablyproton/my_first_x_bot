@@ -1,8 +1,8 @@
 {
   "date": "2026-07-06",
-  "daily_posts": 2,
+  "daily_posts": 3,
   "daily_keyword_posts": 2,
-  "daily_pulse_posts": 9,
+  "daily_pulse_posts": 10,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -41,14 +41,16 @@
     "ENGI.PA": 1142,
     "ERIC": 874,
     "NVT": 962,
-    "BE": 947
+    "BE": 947,
+    "POWL": 962
   },
-  "event_log_next_id": 45,
+  "event_log_next_id": 47,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
     "news_BE": 827,
-    "BE": 947
+    "BE": 947,
+    "POWL": 962
   },
   "news_seen": {
     "ETN": [
@@ -69,8 +71,8 @@
       "Eaton Corp. to spin off Mobility Group to Dana Inc. for $5.1B",
       "Eaton Corp. PLC stock underperforms Thursday when compared to competitors",
       "Duncan Oil acquires Eaton-based company",
+      "Modular solutions for electrical power systems | Eaton PSEC",
       "Two automotive suppliers strike $10 billion deal to combine operations",
-      "Eaton Co. man charged with criminal sexual conduct, police asking other potential victims to come forward",
       "Eaton (ETN) Dips More Than Broader Market"
     ],
     "CEG": [
@@ -109,13 +111,13 @@
       "Quanta Services (PWR) Joins Bigger Russell Indexes, Is The Upside Already Priced In?",
       "Quanta Services outlines its role in U.S. infrastructure expansion",
       "Quanta Services Inc. stock underperforms Thursday when compared to competitors",
-      "Bull of the Day: Quanta Services (PWR)",
       "Quanta Services Is Maintained at Buy by Truist Securities",
+      "Bull of the Day: Quanta Services (PWR)",
       "Quanta Services Inc (PWR) Shares Fall 3.3% -- GF Value Says Stil",
+      "Quanta Services (PWR) Stock Could Trade At A Premium Following Raised Outlook",
       "Quanta Services Slides as Pullback Appears Tied to Valuation and a Lack of Fresh Catalysts",
       "Jacobs Lands Orange County Highway Modernization Contracts",
-      "Here's Why Quanta Services (PWR) is a Strong Growth Stock",
-      "Quanta Services and Peabody Energy have been highlighted as Zacks Bull and Bear of the Day"
+      "Here's Why Quanta Services (PWR) is a Strong Growth Stock"
     ],
     "EQIX": [
       "Barclays Raises its Price Target on Equinix (EQIX)",
@@ -140,6 +142,7 @@
       "Southern Takes Over #104 Spot From Equinix"
     ],
     "IREN": [
+      "TeraWulf, Anthropic Sign $19 Billion Data Center Lease. Neocloud Stocks Soar.",
       "Nasdaq, S&P 500, Dow Futures Kick Off Fresh Week On Strong Note: Why META, NVDA, MU, IREN, PEP, HOOD Are In Focus",
       "IREN Stock Climbs 5% Overnight As Speculation Builds Over Anthropic Contract",
       "Bitcoin Miner IREN Falls After $700 Million CEO Stock Award",
@@ -149,7 +152,6 @@
       "IREN (NasdaqGS:IREN) Approves $800 Million Founder Equity Deal And Warriors Sponsorship",
       "IREN grants 18.2M in restricted stock to co-CEOs",
       "IREN board just approved 18 million in stock worth $700M to co-CEOs",
-      "IREN Stock Heads For Ninth Straight Loss: $50M-A-Year NBA Spends, $788M Co-Founder Pay Packet Leave Retail Unimpressed",
       "IREN Ltd (IREN) Upside Becomes Attractive Amid Stock Price Decline",
       "Trending Stocks Today | IREN Ltd up 5.46% Pre-Market",
       "Why Is IREN Stock Soaring Monday? - IREN (NASDAQ:IREN)",
@@ -195,15 +197,15 @@
       "ABB (SWX:ABBN) Stock Valuation After A 74% One Year Total Return",
       "ABB to upgrade automation systems at Buzzard North Sea platform",
       "If You Invested $1,000 in Abb Ltd Zuerich (ABLZF)",
-      "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results",
       "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
+      "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results",
       "ABB/N Forecast — Price Target — Prediction for 2027",
       "ABB (ABBNY) Stock Price, News & Analysis",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
       "ABB to divest Robotics division to SoftBank Group",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
-      "From linear to circular: how rethinking usage and waste saves Earth’s resources",
-      "ABB to invest $75 million in India to expand manufacturing, R&D"
+      "ABB to invest $75 million in India to expand manufacturing, R&D",
+      "ABB outlines long-term electrification strategy as industrial demand evolves"
     ],
     "VRT": [
       "Here’s Why Vertiv (VRT) is Among the 10 Best Pick and Shovel AI Stocks to Invest In",
@@ -259,8 +261,8 @@
       "Fermi Selects Primoris Services Corporation to Engineer and Construct Balance of Plant for First Six SGT-800 Gas Turbines of Phase One Power Buildout",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
-      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy to invest $421 million in NC",
+      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
@@ -269,6 +271,7 @@
       "Siemens stock falls after Q4 earnings miss and weaker 2026 outlook"
     ],
     "APLD": [
+      "TeraWulf, Anthropic Sign $19 Billion Data Center Lease. Neocloud Stocks Soar.",
       "Brookfield’s Data Center Firm Csquare Seeks $1.35 Billion in IPO",
       "3 of Wall Street’s Favorite Stocks with Open Questions",
       "Bitcoin Miners Want To Be AI Landlords. Four Companies Making It Work.",
@@ -278,9 +281,8 @@
       "Oracle Just Became an AI Cloud Powerhouse. Here Are 5 Under-the-Radar Stocks Along for the Ride",
       "Applied Digital Delivers Second Building at Polaris Forge 1",
       "A Small-Cap Utility Stock Just Signed 1 of the Biggest AI Power Deals You Haven’t Heard Of",
-      "Up Over 400%, I’m Standing Still on Applied Digital Stock",
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
-      "APLD Stock (Applied Digital Corporation) APLD Stock Analysis | April 2, 2026 Diamondbacks Vs Rangers (7KyoCfjm7t)",
+      "APLD Stock (Applied Digital Corporation) APLD Stock Analysis | April 14, 2026 Abnb Stock (CVsG8od85X)",
       "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
       "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
       "Applied Digital Corporation Delivers Second Building at Polaris Forge 1",
@@ -390,8 +392,8 @@
       "Schneider Electric named World's Most Sustainable Company for the third consecutive year by TIME Magazine and Statista",
       "Schneider Electric to acquire Cognite for $3.1 billion to expand industrial AI, operational data capabilities",
       "Schneider Electric & SCE's SF₆ Reduction Technology",
-      "Schneider Electric Announces Intention To Acquire Cognite",
       "Schneider Electric’s solutions to turn problems into competitive advantages",
+      "Schneider Electric Announces Intention To Acquire Cognite",
       "Schneider Electric to buy AI software firm Cognite for $3.1 billion",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
       "Schneider Electric’s Planned Acquisition of Cognite Reinforces the Data Foundation for Industrial AI",
@@ -412,11 +414,11 @@
       "Bull of the Day: Bloom Energy (BE)",
       "Bloom Energy Just Entered a $25 Billion Pact for AI Infrastructure. What This Means for BE Stock.",
       "Bloom Energy vs. Plug Power: Which Hydrogen Stock Is a Better Buy in 2026?",
-      "Bloom Energy Stock Rallies After The Bell — Here's Why - Bloom Energy (NYSE:BE)",
+      "What's Going On With Bloom Energy Stock Thursday?",
       "Bloom Energy rises 12% after partnering with European AI infrastructure upstart in $2.6 billion deal",
+      "Bloom Energy Stock Rallies After The Bell — Here's Why - Bloom Energy (NYSE:BE)",
       "What's Going On With Bloom Energy Stock Today?",
       "Bloom Energy Corporation $BE is Marietta Investment Partners LLC's 5th Largest Position",
-      "Why is Bloom Energy stock surging today?",
       "I Want to Become Financially Independent in 5 Years: Here's My 3-Part Plan to Reach That Bold Goal.",
       "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge."
     ],
@@ -499,8 +501,8 @@
       "3 Reasons We’re Fans of Powell (POWL)",
       "Powell Industries (POWL) Joins Key Russell Indexes, Is The Upside Already Priced In?",
       "Powell Industries slides as valuation pressure and recent insider selling weigh on sentiment",
-      "Powell Industries Drops 6.5% Amid Sector-Wide Selling",
       "Powell Industries options trading surges amid stock decline",
+      "Powell Industries Drops 6.5% Amid Sector-Wide Selling",
       "A Look at Powell Industries Inc (POWL) After 7.5% Decline -- GF Value $76.27 vs Price $264.86",
       "Affiliate files resale notice for 4,500 shares at Powell (NASDAQ: POWL)",
       "Insider Sell: Michael Metcalf Sells 4,500 Shares of Powell Indus",
@@ -633,8 +635,8 @@
       "Camille LeGRAND Obituary - CA",
       "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
       "LeGrand’s Market shares its four-bean baked bean recipe for the perfect Fourth of July side",
-      "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Gabrielle Leann LeGrand Obituary (2026) - Cole Camp, MO - Fox Funeral Home - Cole Camp",
+      "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
       "APS welcomes Jason LeGrand as global director of development",
       "Q1 2026 Legrand SA Earnings Call Transcript",
@@ -801,14 +803,12 @@
       5,
       1,
       2,
-      3,
-      6
+      3
     ],
     "price_event": [
       4,
       1,
-      3,
-      2
+      3
     ]
   },
   "last_evergreen_min": 29722412,
@@ -849,37 +849,38 @@
   ],
   "price_snapshots": {
     "IBE.MC": 21.01,
-    "ENGI.PA": 27.29,
-    "SU.PA": 275.45,
-    "SIE.DE": 278.75,
-    "LR.PA": 141.45,
-    "EOAN.DE": 19.08,
-    "ABBN.SW": 85.26,
-    "ENR.DE": 165.82,
-    "RWE.DE": 57.34,
-    "ETN": 417.02,
-    "EQIX": 1001.0,
-    "CRWV": 85.73,
-    "NEE": 87.65,
-    "POWL": 256.47,
-    "NVT": 157.07,
-    "TLN": 377.27,
-    "IREN": 43.55,
-    "APLD": 35.38,
-    "GEV": 1187.88,
-    "NOK": 12.55,
-    "DLR": 173.96,
-    "VRT": 324.08,
-    "ERIC": 11.02,
-    "CEG": 246.16,
-    "VST": 155.61,
-    "BE": 292.55,
-    "PWR": 687.48
+    "ENGI.PA": 27.22,
+    "SU.PA": 277.9,
+    "SIE.DE": 279.9,
+    "LR.PA": 142.9,
+    "EOAN.DE": 18.98,
+    "ABBN.SW": 86.48,
+    "ENR.DE": 169.32,
+    "RWE.DE": 57.42,
+    "ETN": 419.8,
+    "EQIX": 1002.76,
+    "CRWV": 85.72,
+    "NEE": 87.36,
+    "POWL": 258.58,
+    "NVT": 158.42,
+    "TLN": 375.76,
+    "IREN": 43.8,
+    "APLD": 34.96,
+    "GEV": 1188.69,
+    "NOK": 12.6,
+    "DLR": 174.36,
+    "VRT": 325.48,
+    "ERIC": 11.03,
+    "CEG": 244.85,
+    "VST": 155.12,
+    "BE": 301.88,
+    "PWR": 687.32
   },
   "day_event_fired": {
-    "BE": "2026-07-06"
+    "BE": "2026-07-06",
+    "POWL": "2026-07-06"
   },
-  "next_pulse_interval": 36,
-  "last_pulse_post_min": 29722396,
-  "us_flexible_used": 1
+  "next_pulse_interval": 43,
+  "last_pulse_post_min": 29722442,
+  "us_flexible_used": 2
 }
