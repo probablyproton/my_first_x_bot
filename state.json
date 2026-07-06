@@ -2,8 +2,8 @@
   "date": "2026-07-06",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 3,
-  "gemini_calls_today": 17,
+  "daily_pulse_posts": 4,
+  "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -42,7 +42,7 @@
     "ERIC": 874,
     "NVT": 962
   },
-  "event_log_next_id": 34,
+  "event_log_next_id": 35,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722
@@ -60,14 +60,14 @@
       "Eaton (ETN) Stock Looks Above Fair Value On Cash Flow Alone",
       "Eaton (ETN) Is Up 5.1% After Joining Multiple Russell Growth Indices - What's Changed",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
-      "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
+      "Heavy police presence spotted at crash on I96 in Eaton Co",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
       "Eaton Corp. to spin off Mobility Group to Dana Inc. for $5.1B",
       "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
-      "Eaton Corp. PLC stock underperforms Thursday when compared to competitors",
+      "Dana Incorporated Announces Agreement to Combine with Eaton's Mobility Business, Strengthens Dana's Position as a Leading Global Powertrain Systems Provider",
       "Duncan Oil acquires Eaton-based company",
-      "Eaton Co. man charged with criminal sexual conduct, police asking other potential victims to come forward",
-      "Eaton reports 40% cut in operational emissions since 2018",
+      "Dana, Eaton Mobility Deal Would Create Larger Global Powertrain Supplier",
+      "Eaton Corporation PLC Stock (ETN) Moved Up by 3.79% on Jun 30: A Full Analysis",
       "Eaton (ETN) Dips More Than Broader Market"
     ],
     "CEG": [
@@ -81,14 +81,14 @@
       "Why Did KR, CEG, SSTK Stocks Tumble To 52-Week Lows Today?",
       "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
       "Why Constellation Energy Stock Is Tumbling Today",
-      "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
-      "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
+      "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
+      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "CEG - Constellation Energy Corp Latest SEC Filings",
       "Constellation Energy (CEG) director adds 146 phantom share equivalents",
-      "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
-      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
+      "Constellation Energy Corporation Actuals & Estimates (SIX:CEG)",
+      "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
     ],
@@ -103,6 +103,7 @@
       "Is Quanta's Massive CapEx Plan a Risk or a Long-Term Gold Mine?",
       "BCKIY or PWR: Which Is the Better Value Stock Right Now?",
       "Is Index Reclassification And A New Grid JV Altering The Investment Case For Quanta Services (PWR)?",
+      "Quanta Services president and CEO Austin Earl C. Jr. $120.2m share sale",
       "Quanta Services (PWR) Joins Bigger Russell Indexes, Is The Upside Already Priced In?",
       "Quanta Services Slides as Pullback Appears Tied to Valuation and a Lack of Fresh Catalysts",
       "Quanta Services Inc. stock underperforms Wednesday when compared to competitors",
@@ -111,8 +112,7 @@
       "Bull of the Day: Quanta Services (PWR)",
       "Quanta Services Stock Jumped 63% This Year: Does the Math Still Support Buying In?",
       "Jacobs Lands Orange County Highway Modernization Contracts",
-      "Here's Why Quanta Services (PWR) is a Strong Growth Stock",
-      "Quanta Services and Peabody Energy have been highlighted as Zacks Bull and Bear of the Day"
+      "Here's Why Quanta Services (PWR) is a Strong Growth Stock"
     ],
     "EQIX": [
       "Stifel Backs Equinix (EQIX) as AI Infrastructure Demand Drives Data Center Growth",
@@ -126,14 +126,14 @@
       "Multiple Factors Lifted Equinix (EQIX) in Q1",
       "Here’s Why Cisco (CSCO) is Among the 15 Best AI Stocks That Will Make You Rich in 10 Years",
       "Build Sustainable, Future-Ready Data Center Infrastructure",
+      "Keybank National Association OH Reduces Holdings in Equinix, Inc. $EQIX",
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript",
       "Equinix, A2A ink data centre heat recovery deal",
       "Equinix (EQIX) Names Carahsoft 2025 AMER Distributor Of The Year",
-      "Milan Draws Heat From Equinix Data Centres",
       "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint",
       "Is Equinix the AI Infrastructure Stock Investors Are Missing Out On?",
       "How Equinix Turns Data Centre Heat into Milan City Heating",
-      "Strs Ohio Sells 10,591 Shares of Equinix, Inc. $EQIX",
+      "Equinix Inc. builds out digital infrastructure. Data centers anchor the long-term story",
       "Is BB Seguridade Participacoes (BBSEY) Outperforming Other Finance Stocks This Year?"
     ],
     "IREN": [
@@ -213,15 +213,15 @@
       "Vertiv Holdings Co (VRT) Continues to Add Strong Backlogs",
       "Can Capacity Expansion Support nVent Electric's Next Growth Phase?",
       "GLJ Research’s Analyst Upgrades Vertiv Holdings Co (VRT)",
-      "Vertiv Holdings Co Investor Conference- Executive Presentations Transcript",
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
-      "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
       "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
       "Vertiv Increases Manufacturing Capacity with New Facility in Malaysia, to Support Growing Demand for AI and Digital Infrastructure Across Asia",
+      "Vertiv Holdings Co (VRT) Stock Down 3.5% but Still Overvalued -- GF Score: 80/100",
+      "Strs Ohio Sells 41,013 Shares of Vertiv Holdings Co. $VRT",
       "Does Vertiv Holdings Co (VRT) Have 18% Upside Or Is It Pricey?",
-      "Vertiv Holdings Co (XSWX:VRT) Valuation: Data Out of Date, Use Caution",
-      "Vertiv Holdings Co. $VRT Position Increased by QRG Capital Management Inc.",
+      "Sierra Summit Advisors LLC Trims Stake in Vertiv Holdings Co. $VRT",
+      "Vertiv Holdings: AI Pick And Shovel Status Proven - Growth Premium Already Baked-In",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In."
     ],
     "NVT": [
@@ -235,12 +235,13 @@
       "Vicor Surges 621% in the Past Year: Should You Buy the Stock?",
       "Littelfuse Rides on Holistic Growth Focus: Should You Buy the Stock?",
       "Vishay Precision Surges 373% in the Past Year: Time to Buy the Stock?",
-      "Price to sales forward of nVent Electric plc – BX:NVT",
       "Person Details",
+      "Price to sales forward of nVent Electric plc – BX:NVT",
+      "nVent Electric (NVT) Joins Russell Growth Indexes With Valuation Still In Focus",
+      "NVT News | NVENT ELECTRIC PLC (NYSE:NVT)",
       "A Look at nVent Electric PLC (NVT) After 4.9% Decline -- GF Value $115.60 vs Price $152.15",
       "nVent Electric(NVT) Stock Options Chain | Quotes & News",
       "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
-      "A Look at nVent Electric PLC (NVT) After 3.8% Gain -- GF Value $115.26 vs Price $169.61",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
       "MDY, CW, NVT, ENTG: ETF Inflow Alert"
     ],
@@ -277,12 +278,12 @@
       "Applied Digital (APLD) Joins Russell 1000 As Its Market Profile Shifts",
       "Applied Digital CEO: AI Industry Will See “Pretty Significant Delays Through 2026 and 2027”",
       "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now?",
+      "Quote",
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
-      "APLD Stock (Applied Digital Corporation) APLD Stock Analysis | May 8, 2026 Cal Raleigh (BbL4wA6C8Y)",
-      "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
       "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
-      "Applied Digital Corporation Delivers Second Building at Polaris Forge 1",
+      "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
       "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth",
+      "Applied Digital (APLD) Is One Of The AI Stocks That Can Still Skyrocket On The Neo Cloud Boom",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
       "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day",
@@ -438,7 +439,7 @@
       "US NGOs urge RWE to reject offshore wind exit deal with Trump administration",
       "RWE AG - Increases Investment In Focused Energy",
       "Earnings call transcript: RWE Q1 2026 shows strong growth amid trading headwinds",
-      "RWE increases investment in Focused Energy"
+      "RWE's revenue 2008-2024"
     ],
     "NEE": [
       "What NextEra Energy (NEE)'s AI Data Center Power Push and Dividend Plans Mean For Shareholders",
@@ -541,9 +542,9 @@
       "SpaceX Stock Is Joining the Nasdaq 100 Soon. What History Says Happens Next.",
       "CoreWeave Insider Sold Shares Worth $12,957,630, According to a Recent SEC Filing",
       "BNP Paribas Sends Fresh Message on CoreWeave and Nebius Stocks",
+      "5 Underperforming Data Center Stocks to Buy According to Short Sellers",
       "Here’s Why CoreWeave CEO Sold $38 Million in Stock",
       "Why Meta’s Move to the Cloud Is a Big Deal—and Bad News for CoreWeave and Nebius",
-      "CoreWeave Is Down 13% Today: How Does CRWV Compare to Other Cloud Stocks Like Cloudflare and Oracle?",
       "Could SpaceX Surge When It Joins the Nasdaq-100? Maybe, but History Says the Bounce Won't Last.",
       "Why Did Nebius Stock Jump 20% in June?",
       "Meta Wants In on the Cloud. Is Amazon Stock Still a Buy?",
@@ -743,8 +744,7 @@
     "mover": [
       3,
       0,
-      4,
-      6
+      4
     ]
   },
   "last_evergreen_min": 29720942,
@@ -782,17 +782,17 @@
   ],
   "us_posted": [],
   "price_snapshots": {
-    "IBE.MC": 21.03,
-    "ENGI.PA": 27.47,
-    "SU.PA": 275.85,
-    "SIE.DE": 281.5,
-    "LR.PA": 141.5,
-    "EOAN.DE": 19.15,
-    "ABBN.SW": 85.16,
+    "IBE.MC": 21.04,
+    "ENGI.PA": 27.42,
+    "SU.PA": 275.8,
+    "SIE.DE": 281.55,
+    "LR.PA": 141.65,
+    "EOAN.DE": 19.14,
+    "ABBN.SW": 85.3,
     "ENR.DE": 165.82,
-    "RWE.DE": 57.32
+    "RWE.DE": 57.22
   },
   "day_event_fired": {},
   "next_pulse_interval": 39,
-  "last_pulse_post_min": 29722111
+  "last_pulse_post_min": 29722156
 }
