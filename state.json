@@ -1,8 +1,8 @@
 {
   "date": "2026-07-06",
   "daily_posts": 4,
-  "daily_keyword_posts": 2,
-  "daily_pulse_posts": 10,
+  "daily_keyword_posts": 3,
+  "daily_pulse_posts": 11,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -39,23 +39,25 @@
     "SIE.DE": 1142,
     "SU.PA": 1142,
     "ENGI.PA": 1142,
-    "ERIC": 874,
+    "ERIC": 1007,
     "NVT": 962,
     "BE": 947,
     "POWL": 962,
     "NOK": 977
   },
-  "event_log_next_id": 48,
+  "event_log_next_id": 50,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
     "news_BE": 827,
     "BE": 947,
     "POWL": 962,
-    "NOK": 977
+    "NOK": 977,
+    "news_ERIC": 1007
   },
   "news_seen": {
     "ETN": [
+      "Why Vertiv and Eaton Are the Ultimate Infrastructure Plays for the AI Boom",
       "VWDRY or ETN: Which Is the Better Value Stock Right Now?",
       "Eaton (ETN) Stock Moves -3.34%",
       "VoltServer and Eaton Form Strategic Partnership to Advance Next-Generation Power Distribution",
@@ -65,9 +67,7 @@
       "Eaton Corporation, PLC (ETN) Is a Trending Stock: Facts to Know Before Betting on It",
       "Eaton Accelerates Sustainability Impact with 40% Emissions Reduction and $2.1B in R&D Investment",
       "Eaton (ETN) Stock Looks Above Fair Value On Cash Flow Alone",
-      "Eaton (ETN) Is Up 5.1% After Joining Multiple Russell Growth Indices - What's Changed",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
-      "Why Vertiv and Eaton Are the Ultimate Infrastructure Plays for the AI Boom",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
       "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
@@ -75,7 +75,8 @@
       "Eaton Corp. to spin off Mobility Group to Dana Inc. for $5.1B",
       "Duncan Oil acquires Eaton-based company",
       "Modular solutions for electrical power systems | Eaton PSEC",
-      "Eaton (ETN) Dips More Than Broader Market"
+      "Eaton (ETN) Dips More Than Broader Market",
+      "Beyond Cloud & Memory: Infrastructure ETFs to Buy Amid AI Data Center Boom"
     ],
     "CEG": [
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
@@ -155,14 +156,14 @@
       "IREN grants 18.2M in restricted stock to co-CEOs",
       "IREN board just approved 18 million in stock worth $700M to co-CEOs",
       "IREN Ltd (IREN) Upside Becomes Attractive Amid Stock Price Decline",
-      "Trending Stocks Today | IREN Ltd up 5.46% Pre-Market",
       "Why Is IREN Stock Soaring Monday? - IREN (NASDAQ:IREN)",
+      "Trending Stocks Today | IREN Ltd up 5.46% Pre-Market",
       "IREN stock surges 27% on Nvidia partnership for AI infrastructure",
       "IREN Limited (NASDAQ:IREN) Given Average Recommendation of \"Moderate Buy\" by Analysts",
       "IREN stock edges back from lows as $700M grant call nears",
       "IREN Limited Signs Five-Year AI Infrastructure Cloud Services Contract With NVIDIA",
       "Golden State and Iren Announce Landmark Partnership | Golden State Warriors",
-      "IREN (NASDAQ: IREN) approves multi-year RSU packages for Co-CEOs through 2033",
+      "GM Advisory Group LLC Increases Stake in IREN Limited $IREN",
       "Noteworthy Thursday Option Activity: KOP, BE, IREN"
     ],
     "VST": [
@@ -210,6 +211,7 @@
       "ABB to invest $75 million in India to expand manufacturing, R&D"
     ],
     "VRT": [
+      "Why Vertiv and Eaton Are the Ultimate Infrastructure Plays for the AI Boom",
       "Here’s Why Vertiv (VRT) is Among the 10 Best Pick and Shovel AI Stocks to Invest In",
       "1 Cash-Producing Stock Worth Your Attention and 2 We Find Risky",
       "Vertiv Holdings (VRT) Didn’t Fail To Impress After Jim Cramer Shared When To Buy The Shares",
@@ -219,17 +221,16 @@
       "NVT Is Emerging as an AI Infrastructure Winner Beyond Liquid Cooling",
       "Is NVT Stock Still Worth Buying After Its Huge Rally in 2026?",
       "Vertiv Holdings Co (VRT) Continues to Add Strong Backlogs",
-      "Can Capacity Expansion Support nVent Electric's Next Growth Phase?",
-      "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
       "Vertiv Holdings Co Investor Conference- Executive Presentations Transcript",
-      "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
-      "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
       "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
-      "Vertiv Increases Manufacturing Capacity with New Facility in Malaysia, to Support Growing Demand for AI and Digital Infrastructure Across Asia",
+      "Vertiv Holdings(VRT) Stock Options Chain | Quotes & News",
       "Does Vertiv Holdings Co (VRT) Have 18% Upside Or Is It Pricey?",
+      "Vertiv Holdings: AI Pick And Shovel Status Proven - Growth Premium Already Baked-In",
+      "GLJ Research’s Analyst Upgrades Vertiv Holdings Co (VRT)",
       "Vertiv Holdings Co (XSWX:VRT) Valuation: Data Out of Date, Use Caution",
+      "Vertiv Holdings Co (VRT) Stock Down 3.5% but Still Overvalued -- GF Score: 80/100",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
-      "Vertiv Holdings Co. (VRT) Registers a Bigger Fall Than the Market: Important Facts to Note"
+      "Can Capacity Expansion Support nVent Electric's Next Growth Phase?"
     ],
     "NVT": [
       "Goldman Sachs Removes nVent Electric (NVT) from US Conviction List",
@@ -328,7 +329,7 @@
       "Nuclear Stocks Oklo, Centrus Jump After Signing Uranium Deal",
       "Stocks Supported as Geopolitical Risks Recede",
       "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
-      "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
+      "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05",
       "Talen Energy Corp (TLN) Gets a Buy from Wells Fargo",
       "Price to sales forward of Talen Energy Corporation – NASDAQ:TLN",
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
@@ -336,7 +337,7 @@
       "TLN - Talen Energy Corp Revenue Breakdown",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
-      "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05",
+      "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
       "Notable Tuesday Option Activity: MSFT, TLN, UNM"
     ],
     "DLR": [
@@ -374,15 +375,16 @@
       "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?",
       "Engie confirms wind turbine damage in South Dakota after storm",
       "Engie agrees offtake deal with developer for 625MWh of Spain BESS",
+      "Engie and Ignis Ink 625 MWh Battery Storage Agreement in Spain - News and Statistics",
       "Ineos agrees ‘preliminary commercial terms’ to offtake blue hydrogen from Engie and Equinor’s 1GW H2BE project",
       "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
       "South Dakota storm strikes two ENGIE wind farms",
       "ENGIE launches its first campaign with Tamara Klink, reinforcing the concept of \"The Same Energy\" alongside the sailor",
       "Turbines destroyed after 'uniquely violent' storm strikes South Dakota",
-      "The Group’s human rights approach",
-      "Arcadia acquires Engie Impact to create unified energy management platform"
+      "The Group’s human rights approach"
     ],
     "SU.PA": [
+      "Keel Infrastructure appoints former REIT executive Ganesh Aiyer as president amid 2.2 GW AI pipeline push",
       "Surging Demand: Data Center Direct-to-Chip Cooling Market Poised for 26.5% CAGR Growth by 2032",
       "Building Automation Dominates Power Monitoring Market as Demand for Energy Efficiency Soars",
       "How Cognex Corporation’s (CGNX) Machine Vision Focus Keeps It Close to AI-Enabled Factory Automation",
@@ -392,16 +394,15 @@
       "Schneider Electric Tapped by Southern California Edison to Add Grid Capacity Faster With SF6‑Free Technology",
       "Compass Datacenters Donates $12.6M Building to Texas State Technical College to Expand Career Training for the Fast-Growing Digital Economy",
       "Schneider Electric expands EcoCare services to 3-Phase UPS, delivering AI-powered condition-based maintenance to help organizations maximize uptime and reduce risk",
-      "Schneider Electric named World's Most Sustainable Company for the third consecutive year by TIME Magazine and Statista",
       "Schneider Electric to acquire Cognite for $3.1 billion to expand industrial AI, operational data capabilities",
       "Schneider Electric & SCE's SF₆ Reduction Technology",
+      "Schneider expands its remote-service EcoCare plan to mission-critical systems",
       "Schneider Electric’s solutions to turn problems into competitive advantages",
       "Schneider Electric Announces Intention To Acquire Cognite",
       "Schneider Electric to buy AI software firm Cognite for $3.1 billion",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
       "Schneider Electric’s Planned Acquisition of Cognite Reinforces the Data Foundation for Industrial AI",
-      "Wilson Sonsini Advises Cognite, Major Shareholders on $3.1 Billion Sale to Schneider Electric",
-      "Schneider to Buy Industrial AI Firm Cognite for $3.1 Billion"
+      "Wilson Sonsini Advises Cognite, Major Shareholders on $3.1 Billion Sale to Schneider Electric"
     ],
     "BE": [
       "BE Stock Is Trading At A Massive Premium To Peers — Retail Bulls Still See A Nearly 4x Rally",
@@ -449,6 +450,7 @@
     ],
     "NEE": [
       "3 Utility ETFs to Buy Now as AI Data Centers Trigger a 1970s-Scale Power Buildout",
+      "NextEra Energy Lags Industry in the Past Month: Is It Still a Buy?",
       "Still Think Gold Is Overcrowded? 3 More Stocks Retirees Should Consider Instead, Ranked",
       "What NextEra Energy (NEE)'s AI Data Center Power Push and Dividend Plans Mean For Shareholders",
       "What It Takes To Build A Portfolio That Covers A Retiree’s Grocery Bill Forever",
@@ -457,17 +459,16 @@
       "The Portfolio That Lets You Go Part-Time Five Years Early",
       "What A $750,000 Dividend Portfolio Actually Pays After Taxes, Medicare Premiums, And Reality",
       "What Happens When Medicare Premiums Are No Longer Your Problem?",
-      "Jim Cramer Says He Happens to “Like NextEra Very Much”",
       "Fire extinguished on property of Seabrook Station Nuclear Power Plant, plant's owner says",
-      "NextEra Energy Lags Industry in the Past Month: Is It Still a Buy?",
       "How an Ambitious Energy Giant Wielded Political Power in Florida",
       "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
-      "NextEra Energy, Inc. (NEE) Sets Sights on Growing Data Center Opportunity on Dominion Energy Acquisition",
-      "NextEra to buy Quantum-backed energy firm Caliber, set up US shale JV, sources say",
       "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers",
-      "What Dominion and NextEra Energy’s proposed merger means for Virginia customers",
+      "NextEra to buy Quantum-backed energy firm Caliber, set up US shale JV, sources say",
       "NextEra Energy to buy Dominion in deal that unites two key players in race to power AI data centers",
-      "Why you should care about 2 power companies merging. Hint: affordability"
+      "What Dominion and NextEra Energy’s proposed merger means for Virginia customers",
+      "Why you should care about 2 power companies merging. Hint: affordability",
+      "NextEra's $67 billion Dominion takeover creates world's largest utility—just in time to win the AI data center power surge",
+      "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge."
     ],
     "NOK": [
       "Is Nokia (NOK) The Best Under-The-Radar AI Stock To Buy?",
@@ -504,8 +505,8 @@
       "What Makes Powell Industries (POWL) a Strong Investment?",
       "Powell Industries (POWL) Joins Key Russell Indexes, Is The Upside Already Priced In?",
       "Powell Industries slides as valuation pressure and recent insider selling weigh on sentiment",
-      "Powell Industries options trading surges amid stock decline",
       "Powell Industries Drops 6.5% Amid Sector-Wide Selling",
+      "Powell Industries options trading surges amid stock decline",
       "A Look at Powell Industries Inc (POWL) After 7.5% Decline -- GF Value $76.27 vs Price $264.86",
       "Have Insiders Sold Powell Industries Shares Recently?",
       "Powell Industries (POWL) Dips More Than Broader Market",
@@ -635,7 +636,6 @@
       "3 Market-Beating Stocks with Exciting Potential",
       "Assessing Whether Legrand (ENXTPA:LR) Still Offers Upside After Strong Recent Share Performance",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
-      "Camille LeGRAND Obituary - CA",
       "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
       "LeGrand’s Market shares its four-bean baked bean recipe for the perfect Fourth of July side",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
@@ -643,7 +643,8 @@
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
       "APS welcomes Jason LeGrand as global director of development",
       "Q1 2026 Legrand SA Earnings Call Transcript",
-      "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum"
+      "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum",
+      "Legrand Acquires Girtz Industries"
     ]
   },
   "pending_news_posts": [
@@ -718,57 +719,6 @@
       ]
     },
     {
-      "symbol": "ERIC",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "BNP Paribas cuts its target price for Ericsson to 80 kronor (85), reiterates underperform - BN",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQWhGQ3BtUDVRcTRTcXhPMWgxUmFkMUNQVThobEZydmVtZFNKZW8xYjJqLVVISm1ZOTdYR3Itam1fUjBCeWU2RXZfRG5jNnZDVEdjLU9fNGhiZHI4bUV0MnhqdUFvUUpKcXM2d3dyOUk2T0hOSWFSVFFfYWlkVlFFRk5zTmI0VzZmbGpyb28yNnZJUzhmaTh5bjFFLVBHTE8wYmZkSmxoLXBndDNsNFFwN3lDSUQ4czlWTmZNTjl3TnBNYVVkLVRvVkZfZFhRenlOYVZlSk15dmM2QQ?oc=5",
-      "source": "marketscreener.com",
-      "method": "keyword",
-      "published": "2026-07-06T05:16:18",
-      "queued_min": 29722262,
-      "all_articles": [
-        {
-          "headline": "Share buybacks in Ericsson during the period June 29 - July 3, 2026",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/share-buybacks-ericsson-during-period-071200172.html?.tsrc=rss",
-          "source": null,
-          "summary": "During the period June 29 - July 3, 2026, Telefonaktiebolaget LM Ericsson (publ) (\"Ericsson\") (LEI code 549300W9JLPW15XIFM52) repurchased own Class B shares (ISIN: SE0000108656) as follows:",
-          "published": "2026-07-06T07:12:00"
-        },
-        {
-          "headline": "Ericsson Intelligent Automation Platform expands to support core network automation",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOOTlIUkJlYnJla1NCNndKalVuMWhkU1R1UVJGeEktRXNobWpwRTl4d1V6TmRZYWJEbUx2dXc1cTlVeWo2eVQ1SDhpUDJjWEtsZnJGWFh2Y1RVT29MUm5ENEIwVWJQVTFWdFRuRk5uT2k2OUlLclBTZ1M5aUpIOEs3LXNneEl4cmRRd2JGOFNjeFg3UzFjWDVJSHIwZ3pyZWpQYjdlOXpfeFRHcjA3dVNVSHJVYnVsa0ttVGdTWUt3?oc=5",
-          "source": "Light Reading",
-          "summary": "",
-          "published": "2026-07-06T08:36:37"
-        },
-        {
-          "headline": "Ericsson Platform expands to support core network automation",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWjNFaDdnTm5QMGF6R2NISFRIOWgzaWJlU2dTenVfWEdTbFpLZHh1UUdzcG5BR2ZNU1MzSHJLNF9ncEgtWHNramlXX3hkWDJibklPQmxBV2Y5RDd5Ry1GczNTUE1vSFdHdXhrUVZNYlhlU1JjRzBZWDZXQ1lXOFo2ZGhZVnVQUFcyaFJFYWZnSlM3OHRiZ3Azc0h5T2NLaURldk90ck1IUW5CbTkzTElEZjEzRHZzOGF2?oc=5",
-          "source": "Telecoms",
-          "summary": "",
-          "published": "2026-07-06T09:25:13"
-        },
-        {
-          "headline": "Westcon-Comstor And Ericsson Expand Enterprise Wireless Distribution Across Asia-Pacific",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNLXNsYmlQMktHNDFWZ1JFRE5iSjhDU0c2U0tTMS1WWGp2dUlGUXBLNHppMlVIU1RxcmRuLVNjOF9JWThpSE93UVZFR0h3UHgwLWxWR2N2NVhiYXExZkF2dmUwNlR2WDNOUFRGLW1WRld3dW1MUWhtTlhEOG1BM0JlMEhERHF1Y1FkMzA3NjQ1WENxb2s2VlRGMU1zSmpoWVZaR0Zpb18yS0F0R1BVREkyb3A3RQ?oc=5",
-          "source": "SMBtech",
-          "summary": "",
-          "published": "2026-07-06T08:35:07"
-        },
-        {
-          "headline": "BNP Paribas cuts its target price for Ericsson to 80 kronor (85), reiterates underperform - BN",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPQWhGQ3BtUDVRcTRTcXhPMWgxUmFkMUNQVThobEZydmVtZFNKZW8xYjJqLVVISm1ZOTdYR3Itam1fUjBCeWU2RXZfRG5jNnZDVEdjLU9fNGhiZHI4bUV0MnhqdUFvUUpKcXM2d3dyOUk2T0hOSWFSVFFfYWlkVlFFRk5zTmI0VzZmbGpyb28yNnZJUzhmaTh5bjFFLVBHTE8wYmZkSmxoLXBndDNsNFFwN3lDSUQ4czlWTmZNTjl3TnBNYVVkLVRvVkZfZFhRenlOYVZlSk15dmM2QQ?oc=5",
-          "source": "marketscreener.com",
-          "summary": "",
-          "published": "2026-07-06T05:16:18"
-        }
-      ]
-    },
-    {
       "symbol": "BE",
       "classification": {
         "is_major": true,
@@ -804,17 +754,20 @@
     },
     "BE": {
       "analyst_note": 827
+    },
+    "ERIC": {
+      "analyst_note": 1007
     }
   },
   "recent_post_sources": [
-    "The Globe and Mail",
     "Reuters",
     "The Globe and Mail",
     "DatacenterDynamics",
     "Investing.com",
-    "DatacenterDynamics"
+    "DatacenterDynamics",
+    "marketscreener.com"
   ],
-  "last_news_post_min": 29722307,
+  "last_news_post_min": 29722487,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -828,8 +781,7 @@
     "mover": [
       5,
       1,
-      2,
-      3
+      2
     ],
     "price_event": [
       4,
@@ -874,39 +826,39 @@
   ],
   "price_snapshots": {
     "IBE.MC": 21.02,
-    "ENGI.PA": 27.29,
-    "SU.PA": 278.7,
+    "ENGI.PA": 27.31,
+    "SU.PA": 278.6,
     "SIE.DE": 280.6,
-    "LR.PA": 143.65,
-    "EOAN.DE": 18.99,
-    "ABBN.SW": 86.82,
-    "ENR.DE": 170.14,
-    "RWE.DE": 57.54,
-    "ETN": 416.98,
-    "EQIX": 1003.63,
-    "CRWV": 86.19,
-    "NEE": 87.46,
-    "POWL": 260.05,
-    "NVT": 159.3,
-    "TLN": 375.96,
-    "IREN": 44.48,
-    "APLD": 34.95,
-    "GEV": 1185.65,
-    "NOK": 12.69,
-    "DLR": 175.02,
-    "VRT": 328.08,
-    "ERIC": 11.04,
-    "CEG": 243.53,
-    "VST": 154.18,
-    "BE": 302.99,
-    "PWR": 686.37
+    "LR.PA": 143.3,
+    "EOAN.DE": 19.03,
+    "ABBN.SW": 86.78,
+    "ENR.DE": 169.9,
+    "RWE.DE": 57.52,
+    "ETN": 416.17,
+    "EQIX": 1002.03,
+    "CRWV": 85.9,
+    "NEE": 87.3,
+    "POWL": 261.0,
+    "NVT": 159.16,
+    "TLN": 376.27,
+    "IREN": 44.32,
+    "APLD": 34.81,
+    "GEV": 1176.57,
+    "NOK": 12.68,
+    "DLR": 174.56,
+    "VRT": 327.92,
+    "ERIC": 11.02,
+    "CEG": 243.07,
+    "VST": 153.45,
+    "BE": 302.22,
+    "PWR": 686.9
   },
   "day_event_fired": {
     "BE": "2026-07-06",
     "POWL": "2026-07-06",
     "NOK": "2026-07-06"
   },
-  "next_pulse_interval": 43,
-  "last_pulse_post_min": 29722442,
+  "next_pulse_interval": 42,
+  "last_pulse_post_min": 29722486,
   "us_flexible_used": 3
 }
