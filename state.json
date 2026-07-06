@@ -237,12 +237,12 @@
       "Bull of the Day: nVent Electric (NVT)",
       "Vicor Surges 621% in the Past Year: Should You Buy the Stock?",
       "Littelfuse Rides on Holistic Growth Focus: Should You Buy the Stock?",
+      "Person Details",
       "Price to sales forward of nVent Electric plc – BX:NVT",
       "nVent Electric (NVT) Joins Russell Growth Indexes With Valuation Still In Focus",
-      "Person Details",
+      "NVT News | NVENT ELECTRIC PLC (NYSE:NVT)",
       "A Look at nVent Electric PLC (NVT) After 4.9% Decline -- GF Value $115.60 vs Price $152.15",
       "nVent Electric(NVT) Stock Options Chain | Quotes & News",
-      "nVent Electric (NVT) Removed from Goldman Sachs Conviction List",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
       "MDY, CW, NVT, ENTG: ETF Inflow Alert"
     ],
@@ -269,6 +269,7 @@
       "Siemens Launches Wendell Microgrid at HQ Campus"
     ],
     "APLD": [
+      "Brookfield’s Data Center Firm Csquare Seeks $1.35 Billion in IPO",
       "3 of Wall Street’s Favorite Stocks with Open Questions",
       "Bitcoin Miners Want To Be AI Landlords. Four Companies Making It Work.",
       "Applied Digital Continues Heavy Capital Spending: What's Ahead?",
@@ -278,7 +279,6 @@
       "Applied Digital Delivers Second Building at Polaris Forge 1",
       "A Small-Cap Utility Stock Just Signed 1 of the Biggest AI Power Deals You Haven’t Heard Of",
       "Up Over 400%, I’m Standing Still on Applied Digital Stock",
-      "Applied Digital (APLD) Joins Russell 1000 As Its Market Profile Shifts",
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
       "APLD Stock (Applied Digital Corporation) APLD Stock Analysis | May 8, 2026 Cal Raleigh (BbL4wA6C8Y)",
       "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
@@ -436,13 +436,14 @@
       "Germany’s RWE plans nearly $20B US investment, including gas peakers",
       "All You Need to Know About RWE AG (RWEOY) Rating Upgrade to Strong Buy",
       "RWE delivers strong start to the year: adjusted earnings per share up 25 per cent year-on-year",
-      "RWE AG outlines long-term transition strategy as energy markets evolve",
       "US NGOs urge RWE to reject offshore wind exit deal with Trump administration",
+      "RWE AG outlines long-term transition strategy as energy markets evolve",
       "RWE AG - Increases Investment In Focused Energy",
       "Earnings call transcript: RWE Q1 2026 shows strong growth amid trading headwinds",
       "RWE's revenue 2008-2024"
     ],
     "NEE": [
+      "Still Think Gold Is Overcrowded? 3 More Stocks Retirees Should Consider Instead, Ranked",
       "What NextEra Energy (NEE)'s AI Data Center Power Push and Dividend Plans Mean For Shareholders",
       "What It Takes To Build A Portfolio That Covers A Retiree’s Grocery Bill Forever",
       "How To Turn A Portfolio Into $500 A Month Without Chasing Dangerous Yields",
@@ -452,7 +453,6 @@
       "What Happens When Medicare Premiums Are No Longer Your Problem?",
       "Jim Cramer Says He Happens to “Like NextEra Very Much”",
       "MarketBeat Week in Review – 06/29 - 07/03",
-      "The Dividend Portfolio That Can Cover a Silicon Valley House Payment",
       "Fire extinguished on property of Seabrook Station Nuclear Power Plant, plant's owner says",
       "IDU: Immediate And Lasting Catalysts For Energy Demand",
       "How an Ambitious Energy Giant Wielded Political Power in Florida",
@@ -643,30 +643,6 @@
   },
   "pending_news_posts": [
     {
-      "symbol": "IREN",
-      "classification": {
-        "symbol": "IREN",
-        "is_major": true,
-        "category": "earnings",
-        "headline": "Earnings call transcript: IREN Q3 2026 misses earnings, stock dips",
-        "reason": "The headline indicates that IREN missed earnings estimates, which is a major catalyst under the earnings criteria."
-      },
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaVNqczJOWmRuR1hQMEJta0NtbU1qUi1PSllYVHBiWDFEYTJoVDd6RDBCVnlETmFPOWNaOXhfaTdteGdqVzVLcWl4aDhXdGw1RTNBd3V4VkRIZ096dWNBN3NVSGdtVEk1X1Z4OWdVbTlqeFRLLUNIVXBxVV9hUGd5WHhpZ3FEZnprWkZPbEp2V3R4UmlidGdKRVBORVVuSDhBZ1dzdUpIa3BVdk1kMGtVa29aVlZnX2VKZkRITQ?oc=5",
-      "source": "Investing.com",
-      "method": "gemini",
-      "published": "2026-07-05T14:54:01",
-      "queued_min": 29722022,
-      "all_articles": [
-        {
-          "headline": "Earnings call transcript: IREN Q3 2026 misses earnings, stock dips",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaVNqczJOWmRuR1hQMEJta0NtbU1qUi1PSllYVHBiWDFEYTJoVDd6RDBCVnlETmFPOWNaOXhfaTdteGdqVzVLcWl4aDhXdGw1RTNBd3V4VkRIZ096dWNBN3NVSGdtVEk1X1Z4OWdVbTlqeFRLLUNIVXBxVV9hUGd5WHhpZ3FEZnprWkZPbEp2V3R4UmlidGdKRVBORVVuSDhBZ1dzdUpIa3BVdk1kMGtVa29aVlZnX2VKZkRITQ?oc=5",
-          "source": "Investing.com",
-          "summary": "",
-          "published": "2026-07-05T14:54:01"
-        }
-      ]
-    },
-    {
       "symbol": "DLR",
       "classification": {
         "symbol": "DLR",
@@ -786,6 +762,30 @@
           "published": "2026-07-06T05:16:18"
         }
       ]
+    },
+    {
+      "symbol": "IREN",
+      "classification": {
+        "symbol": "IREN",
+        "is_major": true,
+        "category": "earnings",
+        "headline": "Earnings call transcript: IREN Q3 2026 misses earnings, stock dips",
+        "reason": "The headline indicates that IREN missed earnings estimates, which is a major catalyst under the earnings criteria."
+      },
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaVNqczJOWmRuR1hQMEJta0NtbU1qUi1PSllYVHBiWDFEYTJoVDd6RDBCVnlETmFPOWNaOXhfaTdteGdqVzVLcWl4aDhXdGw1RTNBd3V4VkRIZ096dWNBN3NVSGdtVEk1X1Z4OWdVbTlqeFRLLUNIVXBxVV9hUGd5WHhpZ3FEZnprWkZPbEp2V3R4UmlidGdKRVBORVVuSDhBZ1dzdUpIa3BVdk1kMGtVa29aVlZnX2VKZkRITQ?oc=5",
+      "source": "Investing.com",
+      "method": "gemini",
+      "published": "2026-07-05T14:54:01",
+      "queued_min": 29722022,
+      "all_articles": [
+        {
+          "headline": "Earnings call transcript: IREN Q3 2026 misses earnings, stock dips",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNaVNqczJOWmRuR1hQMEJta0NtbU1qUi1PSllYVHBiWDFEYTJoVDd6RDBCVnlETmFPOWNaOXhfaTdteGdqVzVLcWl4aDhXdGw1RTNBd3V4VkRIZ096dWNBN3NVSGdtVEk1X1Z4OWdVbTlqeFRLLUNIVXBxVV9hUGd5WHhpZ3FEZnprWkZPbEp2V3R4UmlidGdKRVBORVVuSDhBZ1dzdUpIa3BVdk1kMGtVa29aVlZnX2VKZkRITQ?oc=5",
+          "source": "Investing.com",
+          "summary": "",
+          "published": "2026-07-05T14:54:01"
+        }
+      ]
     }
   ],
   "holding_disclosures_seen": {
@@ -857,14 +857,14 @@
   ],
   "us_posted": [],
   "price_snapshots": {
-    "IBE.MC": 21.03,
-    "ENGI.PA": 27.35,
-    "SU.PA": 275.8,
-    "SIE.DE": 279.6,
-    "LR.PA": 142.0,
-    "EOAN.DE": 19.06,
-    "ABBN.SW": 85.46,
-    "ENR.DE": 165.24,
+    "IBE.MC": 21.01,
+    "ENGI.PA": 27.34,
+    "SU.PA": 276.3,
+    "SIE.DE": 280.1,
+    "LR.PA": 142.05,
+    "EOAN.DE": 19.08,
+    "ABBN.SW": 85.56,
+    "ENR.DE": 165.7,
     "RWE.DE": 57.44
   },
   "day_event_fired": {},
