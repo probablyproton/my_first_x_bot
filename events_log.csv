@@ -312,3 +312,7 @@ https://www.mlex.com/mlex/articles/2497262/cppib-equinix-file-buyout-of-data-cen
 https://www.investing.com/news/analyst-ratings/wolfe-research-reiterates-coreweave-stock-outperform-rating-at-150-93CH-4776174",225,,,,,
 66,2026-07-06,20:16:41,Monday,price_event,us,,zero_llm_template,TLN,TLN,,NYSE,Y,open,377.52,4.06,382.33,355.69,,,,,,,4.06,,,N,18,llm,Y,,$TLN on the move – +4.06% to $377.52 today. Intraday range: low $355.69 / high $382.33.,87,,,,,
 67,2026-07-06,20:31:51,Monday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$IREN pulling away at +11.74%, now trading at $43.77.",53,,,,,
+68,2026-07-06,21:02:24,Monday,news_event,,,keyword,CRWV,CRWV,,,,,,,,,Wall Street Sees CoreWeave (CRWV) Stock Doubling From Here For This Simple Reason,,https://finance.yahoo.com/technology/ai/articles/wall-street-sees-coreweave-crwv-175037558.html?.tsrc=rss,2026-07-06T17:50:37,analyst_note,,,,,,,,N,duplicate_category_24h,,,,,,,
+69,2026-07-06,21:02:52,Monday,news_event,,,keyword,SU.PA,SU,,,,,278.0,-1.23,,,Schneider Electric Announces Plan to Acquire Cognite,Business Chief,https://businesschief.com/news/schneider-electric-announces-plan-to-acquire-cognite,,ma,,,,,N,18,keyword,Y,,"$SU ($278.0, -1.23% at last close as of Jul 6): Schneider Electric Announces Plan to Acquire Cognite
+
+https://businesschief.com/news/schneider-electric-announces-plan-to-acquire-cognite",185,,,,,
