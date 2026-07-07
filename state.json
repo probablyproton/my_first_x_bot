@@ -1,7 +1,7 @@
 {
   "date": "2026-07-07",
   "daily_posts": 6,
-  "daily_keyword_posts": 9,
+  "daily_keyword_posts": 10,
   "daily_pulse_posts": 17,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
@@ -33,7 +33,7 @@
     "PWR": 1292,
     "CRWV": 1322,
     "IREN": 1412,
-    "APLD": 1277,
+    "APLD": 1412,
     "DLR": 1052,
     "EOAN.DE": 1142,
     "SIE.DE": 1142,
@@ -46,7 +46,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 110,
+  "event_log_next_id": 112,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -69,7 +69,8 @@
     "news_RWE.DE": 1187,
     "APLD": 1277,
     "news_PWR": 1292,
-    "news_GEV": 1307
+    "news_GEV": 1307,
+    "news_APLD": 1412
   },
   "news_seen": {
     "ETN": [
@@ -86,12 +87,12 @@
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
       "Eaton Corporation, PLC (ETN) Is a Trending Stock: Facts to Know Before Betting on It",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
-      "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
       "Eaton Denied Refund Claim Citing California Tax Authority Advice",
-      "Eaton Corp. PLC stock outperforms competitors on strong trading day",
+      "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
+      "Dana and Eaton to combine vehicle businesses in $5.1B deal",
+      "Eaton Corp. PLC stock underperforms Thursday when compared to competitors",
       "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
-      "A Look at Eaton Corp PLC (ETN) After 3.7% Gain -- GF Value $388.",
       "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now"
     ],
     "CEG": [
@@ -134,7 +135,7 @@
       "Quanta Services Slides as Pullback Appears Tied to Valuation and a Lack of Fresh Catalysts",
       "Quanta Services Inc. stock underperforms Thursday when compared to competitors",
       "Quanta Services Is Maintained at Buy by Truist Securities",
-      "Joseph Kim Joins Quanta Services Board of Directors",
+      "Quanta Services Inc (PWR) Shares Fall 3.3% -- GF Value Says Stil",
       "Noteworthy ETF Outflows: IVW, VRT, PWR, NEM",
       "Is Quanta's Massive CapEx Plan a Risk or a Long-Term Gold Mine?"
     ],
@@ -152,11 +153,11 @@
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript",
       "Equinix Stock And 2 US REITs Built For Low Rate Income",
       "Build Sustainable, Future-Ready Data Center Infrastructure",
-      "PubConcierge Expands Singapore Hub at Equinix SG3 to Support Growing APAC IPv4 Demand",
       "South Korean chip startup FuriosaAI invades European datacenters",
+      "Milan Draws Heat From Equinix Data Centres",
+      "PubConcierge Expands Singapore Hub at Equinix SG3 to Support Growing APAC IPv4 Demand",
       "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint",
       "Is Equinix the AI Infrastructure Stock Investors Are Missing Out On?",
-      "How Equinix Turns Data Centre Heat into Milan City Heating",
       "This Asset Class Has Lagged the Market for Years But Was the Best Performer in June. Time to Invest?",
       "Noteworthy ETF Outflows: IYR, WELL, EQIX, DLR"
     ],
@@ -193,16 +194,16 @@
       "Vistra Corp. (VST) Stock Slides as Market Rises: Facts to Know Before You Trade",
       "Northampton Capital Partners, Olympus Power Form JV and Reach Agreement to Acquire New England, New York Generating Assets",
       "Nuclear Power Is the Only Real Answer to AI Data Center Demand and These 3 ETFs Cover the Trade at Three Risk Levels",
-      "Vistra seeks dismissal of key claims in Sulphur Springs legal fight over data center site",
       "Vistra Vs. Talen: I Prefer The Higher-Risk AI Power Trade",
+      "Vistra seeks dismissal of key claims in Sulphur Springs legal fight over data center site",
       "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
       "The Ultimate AI Power Supercycle Winner: NextEra Energy or Vistra Stock?",
+      "What Vistra (VST)'s Record PJM Heat-Dome Demand Means For Shareholders",
+      "Meitav Investment House Ltd. Buys 200,000 Shares of Vistra Corp. $VST",
       "Earnings call transcript: Vistra Energy tops Q1 2026 forecasts, stock rises",
-      "Battery removal at Moss Landing nears completion after 2025 Vistra fire",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
       "Vistra or Public Service Enterprise: Which Utility Stock Stands Out?",
-      "3 Nuclear Stocks Worth Owning for the Entire Year as Power Demand Keeps Climbing",
-      "iShares Russell Mid-Cap Growth ETF Experiences Big Inflow"
+      "3 Nuclear Stocks Worth Owning for the Entire Year as Power Demand Keeps Climbing"
     ],
     "ABBN.SW": [
       "AI’s Next Act Isn’t Chatbots. It’s Robots, and BOTZ Is the Bet",
@@ -261,9 +262,9 @@
       "Bull of the Day: nVent Electric (NVT)",
       "Board of Directors",
       "How Investors Are Reacting To nVent Electric (NVT) Joining Key Russell Growth and Midcap Indices",
-      "A Look at nVent Electric PLC (NVT) After 3.1% Gain -- GF Value $115.86 vs Price $156.89",
       "Person Details",
       "Price to sales forward of nVent Electric plc – BX:NVT",
+      "A Look at nVent Electric PLC (NVT) After 3.1% Gain -- GF Value $115.86 vs Price $156.89",
       "If You Invested $1000 In nVent Electric Stock 5 Years Ago, You Would Have This Much Today",
       "NVT News | NVENT ELECTRIC PLC (NYSE:NVT)",
       "Why Investors Need to Take Advantage of These 2 Computer and Technology Stocks Now",
@@ -414,12 +415,12 @@
       "Schneider Electric Buys Cognite in $3.1 Billion AI Software Deal",
       "Schneider Electric Tapped by Southern California Edison to Add Grid Capacity Faster With SF6‑Free Technology",
       "Schneider Electric to Acquire Cognite",
+      "Schneider Electric’s solutions to turn problems into competitive advantages",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
       "Mouser Electronics Partners with Schneider Electric, Siemens, and Banner Engineering for Control Automation Day Virtual Conference",
       "Schneider Electric to deploy SF₆-free switchgear in California",
       "Schneider Electric To Buy Cognite in $3.1 Billion Deal",
       "Schneider Electric to acquire Cognite for $3.1 billion to expand industrial AI, operational data capabilities",
-      "Schneider Electric’s solutions to turn problems into competitive advantages",
       "How Schneider Electric Scales Industrial AI with Cognite",
       "Schneider Electric Cognite deal targets IT/OT convergence",
       "Schneider Electric Announces Intention To Acquire Cognite"
@@ -436,11 +437,11 @@
       "Dow Jones Futures: Tech Futures Slide On Samsung Earnings; SpaceX Falls Ahead Of Nasdaq-100 Inclusion",
       "Can Small-Cap Stocks Continue to Outperform?",
       "Here's Why Bloom Energy Stock Rallied Again Today",
-      "Bloom Energy Stock Surges Monday: What's Driving the Move?",
+      "What's Going on With Bloom Energy Stock Tuesday?",
       "Bloom Energy (BE) Extends Strategic Alliance With Brookfield",
       "Bloom Energy to Announce Second Quarter 2026 Financial Results on July 28, 2026",
-      "Prediction: This Energy Stock Will Make You a Lot Richer by 2029",
       "BE Stock Is Trading At A Massive Premium To Peers — Retail Bulls Still See A Nearly 4x Rally",
+      "Prediction: This Energy Stock Will Make You a Lot Richer by 2029",
       "Bloom Energy rises 12% after partnering with European AI infrastructure upstart in $2.6 billion deal",
       "Bloom Energy vs. Plug Power: Which Hydrogen Stock Is a Better Buy in 2026?",
       "Is the AI Power Boom Driving Brookfield-Bloom Partnership Expansion?",
@@ -655,43 +656,19 @@
       "Tallo Wins 2026 EdTech Award for Hiring, Internships, and Apprenticeship Solution",
       "3 Market-Beating Stocks with Exciting Potential",
       "Assessing Whether Legrand (ENXTPA:LR) Still Offers Upside After Strong Recent Share Performance",
-      "Legrand upgraded by Barclays on AI data center demand, 800VDC optimism",
       "On Cloud AV/IT: Legrand | AV",
-      "Camille LeGRAND Obituary - CA",
-      "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
-      "Bobby Legrand Driskill, 82 of Polkville, Mississippi",
+      "Legrand upgraded by Barclays on AI data center demand, 800VDC optimism",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
-      "Bobby Legrand Driskill Obituary Jul 4, 2026 - Colonial Chapel Funeral Home",
+      "Bobby Legrand Driskill, 82 of Polkville, Mississippi",
+      "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
       "Legrand | AV Earns 18 Awards at InfoComm 2026, Validating “Where Solutions Live” Strategy",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
-      "Q1 2026 Legrand SA Earnings Call Transcript"
+      "Bobby Legrand Driskill Obituary Jul 4, 2026 - Colonial Chapel Funeral Home",
+      "APS welcomes Jason LeGrand as global director of development",
+      "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "APLD",
-      "classification": {
-        "is_major": true,
-        "category": "contract",
-        "headline": "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
-        "reason": "Keyword rule matched (category: contract)"
-      },
-      "link": "https://247wallst.com/investing/2026/07/07/terawulf-drops-8-even-as-analysts-raise-price-targets-on-19b-anthropic-deal-iren-falls-7-applied-digital-slides-6/?.tsrc=rss",
-      "source": "247wallst.com",
-      "method": "keyword",
-      "published": "2026-07-07T16:54:08",
-      "queued_min": 29724076,
-      "all_articles": [
-        {
-          "headline": "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
-          "link": "https://247wallst.com/investing/2026/07/07/terawulf-drops-8-even-as-analysts-raise-price-targets-on-19b-anthropic-deal-iren-falls-7-applied-digital-slides-6/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "Shares of TeraWulf (NASDAQ:WULF) are down 8% to $20.41 in Tuesday’s midday session, reversing yesterday’s rally on the Anthropic mega-deal. The drop lands in a broad AI-infrastructure pullback, with the NASDAQ 100 down 1.5% intraday. The move gives back most of the July 6 pop but leaves TeraWulf stock still up 78% year to date ... TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
-          "published": "2026-07-07T16:54:08"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -740,17 +717,20 @@
     },
     "GEV": {
       "analyst_note": 1307
+    },
+    "APLD": {
+      "contract": 1412
     }
   },
   "recent_post_sources": [
-    "Virginia Mercury",
     "POWER Magazine",
     "MarketBeat",
     "富途牛牛",
     "TipRanks",
+    "247wallst.com",
     "247wallst.com"
   ],
-  "last_news_post_min": 29724242,
+  "last_news_post_min": 29724332,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
