@@ -1,7 +1,7 @@
 {
   "date": "2026-07-07",
   "daily_posts": 0,
-  "daily_keyword_posts": 2,
+  "daily_keyword_posts": 3,
   "daily_pulse_posts": 10,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
@@ -44,9 +44,9 @@
     "BE": 1082,
     "POWL": 962,
     "NOK": 977,
-    "NEE": 783
+    "NEE": 992
   },
-  "event_log_next_id": 88,
+  "event_log_next_id": 89,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -63,7 +63,7 @@
     "news_SU.PA": 1262,
     "IREN": 1277,
     "news_IREN": 1412,
-    "news_NEE": 783
+    "news_NEE": 992
   },
   "news_seen": {
     "ETN": [
@@ -78,12 +78,12 @@
       "VoltServer and Eaton Form Strategic Partnership to Advance Next-Generation Power Distribution",
       "nVent Stock Outlook Gets a Boost From Data Center Demand Wave",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
-      "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
       "Eaton Denied Refund Claim Citing California Tax Authority Advice",
+      "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
+      "Eaton Corp. PLC stock outperforms competitors on strong trading day",
       "A Look at Eaton Corp PLC (ETN) After 3.7% Gain -- GF Value $388.",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
-      "Eaton Corp. PLC stock underperforms Thursday when compared to competitors",
       "Dana and Eaton to combine vehicle businesses in $5.1B deal",
       "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
       "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now"
@@ -102,8 +102,8 @@
       "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
-      "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "CEG - Constellation Energy Corp Latest SEC Filings",
+      "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
       "Is Constellation Energy Corporation (CEG) Among the Best AI Power Grid Stocks to Buy According to Analysts?",
@@ -128,8 +128,8 @@
       "Is PWR Overvalued? DCF Says Worth $364",
       "Quanta Services Inc. stock underperforms Wednesday when compared to competitors",
       "Quanta Services Is Maintained at Buy by Truist Securities",
-      "Joseph Kim Joins Quanta Services Board of Directors",
       "Quanta Services (PWR) Stock Could Trade At A Premium Following Raised Outlook",
+      "Joseph Kim Joins Quanta Services Board of Directors",
       "BCKIY or PWR: Which Is the Better Value Stock Right Now?"
     ],
     "EQIX": [
@@ -210,6 +210,7 @@
       "Here's How to Invest in the $200 Billion Humanoid Robot Future With ETFs",
       "ABB (SWX:ABBN) Stock Valuation After A 74% One Year Total Return",
       "If You Invested $1,000 in Abb Ltd Zuerich (ABLZF)",
+      "Strength Seen in ABB (ABBNY): Can Its 6.0% Jump Turn into More Strength?",
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results",
       "ABB/N Forecast — Price Target — Prediction for 2027",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
@@ -217,8 +218,7 @@
       "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "From linear to circular: how rethinking usage and waste saves Earth’s resources",
-      "ABB to invest $75 million in India to expand manufacturing, R&D",
-      "ABB outlines long-term electrification strategy as industrial demand evolves"
+      "ABB to invest $75 million in India to expand manufacturing, R&D"
     ],
     "VRT": [
       "Vertiv Holdings Co. (VRT) Is a Trending Stock: Facts to Know Before Betting on It",
@@ -232,8 +232,8 @@
       "Vertiv Holdings (VRT) Didn’t Fail To Impress After Jim Cramer Shared When To Buy The Shares",
       "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Data Center Play Leads EPS Gauge",
       "A Look at Vertiv Holdings Co (VRT) After 6.0% Gain -- GF Value $154.33 vs Price $324.88",
-      "Vertiv Holdings Co’s Stock Price Soars to $318.47, Witnessing a Robust 5.97% Increase",
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
+      "Vertiv Holdings Co’s Stock Price Soars to $318.47, Witnessing a Robust 5.97% Increase",
       "Vertiv Holdings Co Stock (VRT) Closed Up by 5.79% on Jul 6",
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
@@ -304,9 +304,9 @@
       "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
       "Applied Digital Delivers Second Building at Polaris Forge 1",
       "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1",
+      "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now?",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
-      "Bear of the Day: Applied Digital (APLD)",
-      "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day"
+      "Bear of the Day: Applied Digital (APLD)"
     ],
     "EOAN.DE": [
       "FPT Achieves SAP® Silver Partner Status in the SAP® PartnerEdge® Program, Expanding SAP Capabilities for European Enterprises",
@@ -342,12 +342,12 @@
       "Stocks Supported as Geopolitical Risks Recede",
       "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
+      "TLN - Talen Energy Corp Options",
       "Talen Energy Corp (TLN) Gets a Buy from Wells Fargo",
       "Price to sales forward of Talen Energy Corporation – NASDAQ:TLN",
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
       "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
-      "TLN - Talen Energy Corp Revenue Breakdown",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
       "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05"
@@ -472,13 +472,13 @@
       "How To Turn A Portfolio Into $500 A Month Without Chasing Dangerous Yields",
       "The Real Cost Of Building A $2,500-A-Month Income Portfolio",
       "The Portfolio That Lets You Go Part-Time Five Years Early",
+      "Va. Lt. Gov. Hashmi calls on regulators to extend review period for NextEra-Dominion Energy merger",
       "NextEra Energy: Buy Rating Reaffirmed with Unchanged $112 Price Target as Dominion Acquisition Advances Strategic and Regulatory Positioning",
       "How an Ambitious Energy Giant Wielded Political Power in Florida",
       "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
       "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers",
       "NextEra to buy Quantum-backed energy firm Caliber, set up US shale JV, sources say",
       "NextEra Energy to buy Dominion in deal that unites two key players in race to power AI data centers",
-      "What Dominion and NextEra Energy’s proposed merger means for Virginia customers",
       "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge.",
       "Oklo Advances Groves Isotope Test Reactor With Key DOE Safety Approval",
       "Can Partnerships and PPAs Continue to Power NextEra's Earnings Growth?"
@@ -612,8 +612,8 @@
       "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
       "Hitachi Energy, GE Vernova, Siemens Energy, other power equipment stocks crash up to 10%. Here’s why",
       "How GE Vernova builds the massive gas turbines powering the AI data center boom",
-      "Amazon, GE Vernova Lead 5 Stocks Near Buy Points In Strong Market",
-      "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In."
+      "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
+      "Notable Thursday Option Activity: GLW, PYPL, GEV"
     ],
     "ENR.DE": [
       "Siemens Energy (XTRA:ENR) Secures Oman Power Contracts With Decades Long Service Work",
@@ -626,8 +626,8 @@
       "Is Ring Energy (REI) Stock Outpacing Its Oils-Energy Peers This Year?",
       "50Hertz awards converter project to Siemens-led consortium",
       "Siemens Energy to build 2 GW converter platform with German shipyard",
-      "CAUTION with Siemens Energy! BUY CTS Eventim? OPPORTUNITY with Strategic Resources!",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
+      "CAUTION with Siemens Energy! BUY CTS Eventim? OPPORTUNITY with Strategic Resources!",
       "Is Siemens Energy AG's (ETR:ENR) Latest Stock Performance A Reflection Of Its Financial Health?",
       "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
@@ -749,18 +749,19 @@
       "analyst_note": 1412
     },
     "NEE": {
-      "analyst_note": 783
+      "analyst_note": 783,
+      "ma": 992
     }
   },
   "recent_post_sources": [
-    "MLex",
     "Investing.com",
     "Business Chief",
     "Investing.com",
     "TipRanks",
-    "DatacenterDynamics"
+    "DatacenterDynamics",
+    "Virginia Mercury"
   ],
-  "last_news_post_min": 29723703,
+  "last_news_post_min": 29723912,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -784,33 +785,33 @@
   "last_evergreen_min": 29723852,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 21.01,
-    "ENGI.PA": 27.47,
-    "SU.PA": 269.6,
-    "SIE.DE": 270.65,
-    "LR.PA": 142.15,
+    "IBE.MC": 21.04,
+    "ENGI.PA": 27.48,
+    "SU.PA": 268.25,
+    "SIE.DE": 269.5,
+    "LR.PA": 141.45,
     "EOAN.DE": 19.08,
-    "ABBN.SW": 83.64,
-    "ENR.DE": 157.0,
-    "RWE.DE": 56.64,
-    "ETN": 391.6,
-    "EQIX": 1005.53,
-    "CRWV": 80.68,
-    "NEE": 88.66,
-    "POWL": 229.31,
-    "NVT": 148.04,
-    "TLN": 369.84,
-    "IREN": 39.97,
-    "APLD": 31.14,
-    "GEV": 1044.55,
-    "NOK": 11.97,
-    "DLR": 174.14,
-    "VRT": 290.36,
-    "ERIC": 10.86,
-    "CEG": 241.44,
-    "VST": 155.02,
-    "BE": 271.33,
-    "PWR": 652.76
+    "ABBN.SW": 83.18,
+    "ENR.DE": 155.48,
+    "RWE.DE": 56.68,
+    "ETN": 391.02,
+    "EQIX": 1006.0,
+    "CRWV": 80.51,
+    "NEE": 88.9,
+    "POWL": 229.7,
+    "NVT": 148.18,
+    "TLN": 368.96,
+    "IREN": 39.86,
+    "APLD": 31.01,
+    "GEV": 1049.05,
+    "NOK": 11.96,
+    "DLR": 173.44,
+    "VRT": 289.81,
+    "ERIC": 10.87,
+    "CEG": 241.54,
+    "VST": 154.79,
+    "BE": 269.23,
+    "PWR": 651.27
   },
   "day_event_fired": {
     "BE": "2026-07-06",
