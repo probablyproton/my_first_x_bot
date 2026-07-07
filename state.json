@@ -2,7 +2,7 @@
   "date": "2026-07-07",
   "daily_posts": 0,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 6,
+  "daily_pulse_posts": 7,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -46,7 +46,7 @@
     "NOK": 977,
     "NEE": 783
   },
-  "event_log_next_id": 82,
+  "event_log_next_id": 83,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -99,14 +99,14 @@
       "Energy Transition Today - Driving Grid Stability With Vehicle-To-Grid Innovation",
       "Is Constellation Energy Corporation (CEG) Among the Best AI Power Grid Stocks to Buy According to Analysts?",
       "CEG Stock Takes A Hit After Citi's Price-Target Cut — But Retail Is Already Diving In To Buy The Dip",
+      "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
-      "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "CEG - Constellation Energy Corp Latest SEC Filings",
-      "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
       "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
-      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
+      "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
+      "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
     ],
@@ -193,7 +193,7 @@
       "Vistra (NYSE:VST) Shares Up 4.1% - Here's Why",
       "Vistra Corp (VST) Shares Surge 4.1% -- What GF Score of 84 Tells Investors",
       "Battery removal at Moss Landing nears completion after 2025 Vistra fire",
-      "CA: VISTRA FIRE BATTERY REMOVAL NEARLY DONE",
+      "$Vistra Energy (VST.US)$",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
       "Vistra or Public Service Enterprise: Which Utility Stock Stands Out?",
       "The Ultimate AI Power Supercycle Winner: NextEra Energy or Vistra Stock?"
@@ -214,8 +214,8 @@
       "ABB/N Forecast — Price Target — Prediction for 2027",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
       "ABB to divest Robotics division to SoftBank Group",
-      "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "ABB Ltd (VTX:ABBN) most popular amongst retail investors who own 51% of the shares, institutions hold 34%",
+      "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "From linear to circular: how rethinking usage and waste saves Earth’s resources",
       "ABB to invest $75 million in India to expand manufacturing, R&D"
@@ -303,7 +303,7 @@
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
       "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
       "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1",
-      "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now?",
+      "Applied Digital Signs 210 MW Lease at Delta Forge 2, Expanding Its AI Factory Franchise Model to a Fifth Campus",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
       "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day"
@@ -341,13 +341,13 @@
       "Nuclear Stocks Oklo, Centrus Jump After Signing Uranium Deal",
       "Stocks Supported as Geopolitical Risks Recede",
       "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
-      "TLN - Talen Energy Corp Options",
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
       "Talen Energy Corp (TLN) Gets a Buy from Wells Fargo",
       "Price to sales forward of Talen Energy Corporation – NASDAQ:TLN",
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
       "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
+      "TLN - Talen Energy Corp Revenue Breakdown",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
       "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05"
@@ -498,12 +498,12 @@
       "Nokia Corporation Sponsored Stock 12‑Month Price Target Raised to $12.07, Implies 16% Downside",
       "NOK Stock Slides As ADR Underperformance Draws Trader Scrutiny",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
-      "NOK Stock Slides As Selling Pressure Builds In June",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
       "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
-      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum"
+      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum",
+      "NOK Stock Jumps As Analysts Chase AI-Fueled Upside"
     ],
     "POWL": [
       "Investors Heavily Search Powell Industries, Inc. (POWL): Here is What You Need to Know",
@@ -521,11 +521,11 @@
       "Brett A. Cope awarded 36,000 RSUs by Powell",
       "POWL - Powell Industries Inc Latest SEC Filings",
       "Powell Industries slides as valuation pressure and recent insider selling weigh on sentiment",
-      "Powell Industries options trading surges amid stock decline",
       "Powell Industries (POWL) awards 36,000 backloaded RSUs to CEO Brett Cope",
       "Powell Industries (POWL) Joins Key Russell Indexes, Is The Upside Already Priced In?",
       "Powell Industries (POWL) Dips More Than Broader Market",
-      "Notable ETF Inflow Detected - SDVY, FIX, POWL, ENS"
+      "Notable ETF Inflow Detected - SDVY, FIX, POWL, ENS",
+      "Here is What to Know Beyond Why Powell Industries, Inc. (POWL) is a Trending Stock"
     ],
     "IBE.MC": [
       "Iberdrola selects ICEYE to strengthen its network in the face of extreme weather",
@@ -628,7 +628,7 @@
       "Siemens Energy to build 2 GW converter platform with German shipyard",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "CAUTION with Siemens Energy! BUY CTS Eventim? OPPORTUNITY with Strategic Resources!",
-      "Is Siemens Energy AG's (ETR:ENR) Latest Stock Performance A Reflection Of Its Financial Health?",
+      "Are You Looking for a Top Momentum Pick? Why Siemens Energy AG Unsponsored ADR (SMNEY) is a Great Choice",
       "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
@@ -767,8 +767,7 @@
       6,
       5,
       0,
-      3,
-      2
+      3
     ],
     "price_event": [
       2,
@@ -780,15 +779,15 @@
   "last_evergreen_min": 29722412,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.9,
-    "ENGI.PA": 27.27,
-    "SU.PA": 271.9,
-    "SIE.DE": 273.35,
-    "LR.PA": 143.3,
-    "EOAN.DE": 19.0,
-    "ABBN.SW": 84.24,
-    "ENR.DE": 158.74,
-    "RWE.DE": 56.58,
+    "IBE.MC": 20.91,
+    "ENGI.PA": 27.3,
+    "SU.PA": 272.05,
+    "SIE.DE": 273.15,
+    "LR.PA": 143.55,
+    "EOAN.DE": 19.03,
+    "ABBN.SW": 84.42,
+    "ENR.DE": 158.5,
+    "RWE.DE": 56.56,
     "ETN": 413.18,
     "EQIX": 997.96,
     "CRWV": 86.66,
@@ -816,8 +815,8 @@
     "TLN": "2026-07-06",
     "IREN": "2026-07-06"
   },
-  "next_pulse_interval": 44,
-  "last_pulse_post_min": 29723702,
+  "next_pulse_interval": 31,
+  "last_pulse_post_min": 29723746,
   "eu_slots": [
     {
       "slot": 0,
