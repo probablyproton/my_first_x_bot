@@ -1,8 +1,8 @@
 {
   "date": "2026-07-07",
-  "daily_posts": 3,
-  "daily_keyword_posts": 4,
-  "daily_pulse_posts": 14,
+  "daily_posts": 4,
+  "daily_keyword_posts": 5,
+  "daily_pulse_posts": 15,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
@@ -22,11 +22,11 @@
     "ENR.DE": 1066,
     "ABBN.SW": 1066,
     "IBE.MC": 1066,
-    "RWE.DE": 1066,
+    "RWE.DE": 1187,
     "GEV": 1144,
     "VRT": 1186,
     "EQIX": 1172,
-    "ETN": 1052,
+    "ETN": 1187,
     "CEG": 1052,
     "VST": 1144,
     "TLN": 1216,
@@ -46,7 +46,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 98,
+  "event_log_next_id": 101,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -64,7 +64,9 @@
     "IREN": 1277,
     "news_IREN": 1412,
     "news_NEE": 992,
-    "NVT": 1142
+    "NVT": 1142,
+    "ETN": 1187,
+    "news_RWE.DE": 1187
   },
   "news_seen": {
     "ETN": [
@@ -83,8 +85,8 @@
       "Eaton Denied Refund Claim Citing California Tax Authority Advice",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
-      "A Look at Eaton Corp PLC (ETN) After 3.7% Gain -- GF Value $388.",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
+      "A Look at Eaton Corp PLC (ETN) After 3.7% Gain -- GF Value $388.",
       "Eaton Corp. PLC stock underperforms Thursday when compared to competitors",
       "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
       "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now"
@@ -275,7 +277,17 @@
       "TeamViewer Tops Frost & Sullivan's 2026 AR-Centric Augmented Connected Worker Rankings",
       "Global Industrial Process Heating Market to Hit USD 17.47 Billion by 2032",
       "Compass Datacenters Donates $12.6M Building to Texas State Technical College to Expand Career Training for the Fast-Growing Digital Economy",
-      "Fermi Selects Primoris Services Corporation to Engineer and Construct Balance of Plant for First Six SGT-800 Gas Turbines of Phase One Power Buildout"
+      "Fermi Selects Primoris Services Corporation to Engineer and Construct Balance of Plant for First Six SGT-800 Gas Turbines of Phase One Power Buildout",
+      "Siemens Invests $165M for U.S. Data Center Manufacturing",
+      "Siemens Energy to invest $421 million in NC",
+      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
+      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
+      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Launches Wendell Microgrid at HQ Campus",
+      "Siemens stock falls after Q4 earnings miss and weaker 2026 outlook"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -322,6 +334,7 @@
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects"
     ],
     "TLN": [
+      "X-Energy Declines 18.9% in a Month: How Should You Play the Stock Now?",
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
       "Talen Energy, Stock Of The Day, Delivers For Amazon, AI Data Centers",
       "Talen Energy (TLN) Is Down 7.4% After Russell Index Additions And $984M Shelf Filing - What's Changed",
@@ -331,17 +344,16 @@
       "Stocks Sharply Higher as US-Iran Peace Deal Eases Inflation Risks",
       "Nuclear Stocks Oklo, Centrus Jump After Signing Uranium Deal",
       "Stocks Supported as Geopolitical Risks Recede",
-      "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
-      "TLN - Talen Energy Corp Options",
       "Talen Energy Corp (TLN) Gets a Buy from Wells Fargo",
       "Price to sales forward of Talen Energy Corporation – NASDAQ:TLN",
-      "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
+      "TLN - Talen Energy Corp Revenue Breakdown",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
       "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
-      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell Midcap Growth Benchmark",
-      "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05"
+      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
+      "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05",
+      "Notable Tuesday Option Activity: MSFT, TLN, UNM"
     ],
     "DLR": [
       "The Best REITs to Buy",
@@ -375,7 +387,17 @@
       "Southern Company Approves Rate Cut for Georgia Power Customers",
       "ENGIY vs. PNW: Which Stock Is the Better Value Option?",
       "Engie’s Belgian Battery Project And What It Means For Cash Flows",
-      "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?"
+      "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?",
+      "Engie confirms wind turbine damage in South Dakota after storm",
+      "Engie agrees offtake deal with developer for 625MWh of Spain BESS",
+      "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
+      "ENGIE and IGNIS Sign a Long-Term Agreement for Battery Energy Storage in Spain",
+      "Ineos lines up blue hydrogen supply from Equinor-Engie for Antwerp cracker",
+      "ENGIE Q1 2026 Financial Information",
+      "South Dakota storm strikes two ENGIE wind farms",
+      "The Group’s human rights approach",
+      "ENGIE launches its first campaign with Tamara Klink, reinforcing the concept of \"The Same Energy\" alongside the sailor",
+      "Engie Secures 10-Year Use of 625 MWh in Batteries to Store Excess Solar and Wind Energy in Spain by 2028"
     ],
     "SU.PA": [
       "Schneider Electric (ENXTPA:SU) Buys Cognite And Lands California SF6 Free Grid Deal",
@@ -410,10 +432,11 @@
       "Bloom Energy to Announce Second Quarter 2026 Financial Results on July 28, 2026",
       "Here's Why Bloom Energy Stock Rallied Again Today",
       "Bloom Energy Stock Surges Monday: What's Driving the Move?",
+      "Bloom Energy (BE) Extends Strategic Alliance With Brookfield",
       "Prediction: This Energy Stock Will Make You a Lot Richer by 2029",
       "BE Stock Is Trading At A Massive Premium To Peers — Retail Bulls Still See A Nearly 4x Rally",
-      "Bloom Energy (BE) Extends Strategic Alliance With Brookfield",
       "Bloom Energy rises 12% after partnering with European AI infrastructure upstart in $2.6 billion deal",
+      "Bloom Energy vs. Plug Power: Which Hydrogen Stock Is a Better Buy in 2026?",
       "Is the AI Power Boom Driving Brookfield-Bloom Partnership Expansion?",
       "I Want to Become Financially Independent in 5 Years: Here's My 3-Part Plan to Reach That Bold Goal.",
       "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge."
@@ -441,6 +464,7 @@
       "RWE AG highlights renewable expansion as energy transition accelerates"
     ],
     "NEE": [
+      "Can PPL's Balanced Energy Portfolio Fuel Long-Term Earnings Growth?",
       "Here is What to Know Beyond Why NextEra Energy, Inc. (NEE) is a Trending Stock",
       "Exelon, FirstEnergy utilities’ RTO adder targeted by Maryland in FERC complaint",
       "The Income Ladder: What It Takes To Go From $250 To $5,000 A Month",
@@ -450,7 +474,6 @@
       "What NextEra Energy (NEE)'s AI Data Center Power Push and Dividend Plans Mean For Shareholders",
       "What It Takes To Build A Portfolio That Covers A Retiree’s Grocery Bill Forever",
       "How To Turn A Portfolio Into $500 A Month Without Chasing Dangerous Yields",
-      "The Real Cost Of Building A $2,500-A-Month Income Portfolio",
       "Va. Lt. Gov. Hashmi calls on regulators to extend review period for NextEra-Dominion Energy merger",
       "NextEra Energy: Buy Rating Reaffirmed with Unchanged $112 Price Target as Dominion Acquisition Advances Strategic and Regulatory Positioning",
       "How an Ambitious Energy Giant Wielded Political Power in Florida",
@@ -473,12 +496,16 @@
       "Nokia's 138% Run Has A Margin Problem",
       "Nokia (HLSE:NOKIA) Expands Into Defense With Military Networks And Anti Drone Partnerships",
       "Nokia (NOK) Joins Finnish Consortium to Develop National Counter-Drone Network",
-      "Pre-Market Most Active for Jul 7, 2026 :  CRNX, TQQQ, NVDA, SQQQ, SPCX, NOK, INTC, NU, BRBR, SMR, BABA, TOST",
-      "Pre-Market Most Active for Jul 6, 2026 :  SEER, NOK, IBIT, PEW, TQQQ, SQQQ, SPCX, KEEL, BMNR, NIO, ORCL, CRCL",
-      "Nvidia CEO Jensen Huang Highlighted a New AI Bottleneck. 3 AI Stocks That Could Benefit.",
-      "Pre-Market Most Active for Jul 2, 2026 :  SQQQ, TQQQ, TSLL, MUD, IBIT, INTC, NOK, NIO, FPS, BMNR, CRCL, INFQ",
-      "Nokia Rises 105.2% Year to Date: Is There More Upside Ahead?",
-      "Pre-Market Most Active for Jul 1, 2026 :  SOC, TQQQ, SPCX, SQQQ, OKLL, TSLL, NOWL, NOK, NIO, NKE, CRCL, SGOV"
+      "NOK Stock Rides AI Partnerships And Fresh Buy Rating",
+      "Nokia Corporation Sponsored Stock 12‑Month Price Target Raised to $12.07, Implies 16% Downside",
+      "NOK Stock Slides As ADR Underperformance Draws Trader Scrutiny",
+      "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
+      "NOK Stock Slides As Selling Pressure Builds In June",
+      "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
+      "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
+      "Nokia Stock Slides As Volatility And Social Buzz Collide",
+      "NOK Stock Slides As ADR Declines Rattle Traders",
+      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum"
     ],
     "POWL": [
       "Investors Heavily Search Powell Industries, Inc. (POWL): Here is What You Need to Know",
@@ -495,8 +522,8 @@
       "Powell Industries (POWL) CEO trims stake with 36,000-share sale",
       "POWL - Powell Industries Inc Latest SEC Filings",
       "Powell Industries slides as valuation pressure and recent insider selling weigh on sentiment",
-      "Brett A. Cope awarded 36,000 RSUs by Powell",
       "Powell Industries options trading surges amid stock decline",
+      "Brett A. Cope awarded 36,000 RSUs by Powell",
       "Powell Industries (POWL) Joins Key Russell Indexes, Is The Upside Already Priced In?",
       "Powell Industries (POWL) awards 36,000 backloaded RSUs to CEO Brett Cope",
       "Powell Industries (POWL) Dips More Than Broader Market",
@@ -565,7 +592,7 @@
       "Ericsson expands cloud RAN and network infrastructure across US",
       "Telcos want autonomous networks, but Ericsson says trust remains key hurdle",
       "Obituary: Inger Margareta Ericsson Corson",
-      "Former Ericsson CEO Björn Svedberg Has Died - DN",
+      "Ericsson Intelligent Automation Platform expands to support core network automation",
       "Can Nokia's Orange Belgium Network Upgrade Deal Aid the Stock?"
     ],
     "GEV": [
@@ -623,49 +650,19 @@
       "Tallo Wins 2026 EdTech Award for Hiring, Internships, and Apprenticeship Solution",
       "3 Market-Beating Stocks with Exciting Potential",
       "Assessing Whether Legrand (ENXTPA:LR) Still Offers Upside After Strong Recent Share Performance",
-      "Legrand upgraded by Barclays on AI data center demand, 800VDC optimism",
       "On Cloud AV/IT: Legrand | AV",
-      "Bobby Legrand Driskill, 82 of Polkville, Mississippi",
+      "Legrand upgraded by Barclays on AI data center demand, 800VDC optimism",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
+      "Bobby Legrand Driskill, 82 of Polkville, Mississippi",
       "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
       "Legrand | AV Earns 18 Awards at InfoComm 2026, Validating “Where Solutions Live” Strategy",
-      "Kepler Cheuvreux upgrades Legrand stock rating on data center demand",
-      "Bobby Legrand Driskill Obituary Jul 4, 2026 - Colonial Chapel Funeral Home",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
+      "Bobby Legrand Driskill Obituary Jul 4, 2026 - Colonial Chapel Funeral Home",
+      "APS welcomes Jason LeGrand as global director of development",
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art"
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "RWE.DE",
-      "classification": {
-        "is_major": true,
-        "category": "contract",
-        "headline": "Germany's Proxima Fusion secures $2.7B valuation as Google backs Europe's reactor race",
-        "reason": "Keyword rule matched (category: contract)"
-      },
-      "link": null,
-      "source": null,
-      "method": "keyword",
-      "published": "2026-07-07T12:16:34",
-      "queued_min": 29723792,
-      "all_articles": [
-        {
-          "headline": "Germany's Proxima Fusion secures $2.7B valuation as Google backs Europe's reactor race",
-          "link": "https://finance.yahoo.com/energy/articles/germanys-proxima-fusion-secures-2-121634349.html?.tsrc=rss",
-          "source": null,
-          "summary": "Proxima Fusion co-founder and CEO Francesco Sciortino Image courtesy of Proxima Fusion Energy startup Proxima Fusion has raised €411 million from an investor group that includes Google and German energy giant RWE, to build Europe’s first commercial fusion reactor. The deal, which values Proxima at €2.4 billion (about $2.7 billion), is the largest in a series of VC energy deals in Europe this year, driven by the continent’s push for energy sovereignty. XTX Ventures and East X Ventures led the rou",
-          "published": "2026-07-07T12:16:34"
-        },
-        {
-          "headline": "RWE AG outlines its energy transition path as investors weigh long-term growth",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPc3dyRXRPR3NBeGxETzY1ZG1LMVpraTBEcTJWOC1qdGNqaEJYcFZwMmJ0aWFOMHgxZkhXWVdpQnFBLVZiSFQ0V09RRlIxZVJvN0g3XzFseU1ZbVUwYTNSWDktcThvbmtJZ0lEUndPdEdGMG9VazlSelhPZmhXaFRXdWh3MzhBNWZNMTNFODJxbkZxdW02OFZkVlZncTZSSjVKWmdxemdfMHRHMHFqUm5DXzRQT3VnTWxxV2k2VjdHb2IwbnVrMF9RTmJR?oc=5",
-          "source": "AD HOC NEWS",
-          "summary": "",
-          "published": "2026-07-07T12:24:25"
-        }
-      ]
-    },
     {
       "symbol": "VST",
       "classification": {
@@ -810,6 +807,9 @@
     "NEE": {
       "analyst_note": 783,
       "ma": 992
+    },
+    "RWE.DE": {
+      "contract": 1187
     }
   },
   "recent_post_sources": [
@@ -820,7 +820,7 @@
     "Virginia Mercury",
     "POWER Magazine"
   ],
-  "last_news_post_min": 29723912,
+  "last_news_post_min": 29724107,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -833,12 +833,9 @@
     "mover": [
       5,
       2,
-      1,
-      0
+      1
     ],
-    "price_event": [
-      2
-    ]
+    "price_event": []
   },
   "last_evergreen_min": 29724047,
   "post_backlog": [],
@@ -852,24 +849,24 @@
     "ABBN.SW": 83.4,
     "ENR.DE": 154.66,
     "RWE.DE": 56.62,
-    "ETN": 392.16,
-    "EQIX": 1022.46,
-    "CRWV": 83.23,
-    "NEE": 88.49,
-    "POWL": 230.73,
-    "NVT": 150.51,
-    "TLN": 368.54,
-    "IREN": 41.37,
-    "APLD": 31.84,
-    "GEV": 1061.22,
-    "NOK": 11.91,
-    "DLR": 175.18,
-    "VRT": 302.67,
+    "ETN": 392.95,
+    "EQIX": 1021.95,
+    "CRWV": 83.31,
+    "NEE": 88.37,
+    "POWL": 231.6,
+    "NVT": 150.72,
+    "TLN": 367.9,
+    "IREN": 41.7,
+    "APLD": 31.96,
+    "GEV": 1065.49,
+    "NOK": 11.92,
+    "DLR": 175.45,
+    "VRT": 303.64,
     "ERIC": 10.85,
-    "CEG": 241.08,
-    "VST": 155.93,
-    "BE": 269.14,
-    "PWR": 650.05
+    "CEG": 240.54,
+    "VST": 155.46,
+    "BE": 270.41,
+    "PWR": 651.28
   },
   "day_event_fired": {
     "BE": "2026-07-06",
@@ -878,10 +875,11 @@
     "VRT": "2026-07-06",
     "TLN": "2026-07-06",
     "IREN": "2026-07-06",
-    "NVT": "2026-07-07"
+    "NVT": "2026-07-07",
+    "ETN": "2026-07-07"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29724062,
+  "next_pulse_interval": 41,
+  "last_pulse_post_min": 29724106,
   "eu_slots": [
     {
       "slot": 0,
@@ -917,5 +915,5 @@
   "us_posted": [
     0
   ],
-  "us_flexible_used": 3
+  "us_flexible_used": 4
 }
