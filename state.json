@@ -2,8 +2,8 @@
   "date": "2026-07-07",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 3,
-  "gemini_calls_today": 11,
+  "daily_pulse_posts": 4,
+  "gemini_calls_today": 12,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -45,7 +45,7 @@
     "POWL": 962,
     "NOK": 977
   },
-  "event_log_next_id": 78,
+  "event_log_next_id": 79,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -83,7 +83,7 @@
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
       "Eaton Corp. PLC stock underperforms Thursday when compared to competitors",
       "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
-      "Dana and Eaton to combine vehicle businesses in $5.1B deal",
+      "Duncan Oil acquires Eaton-based company",
       "Industrial Select Sector SPDR Fund Experiences Big Inflow"
     ],
     "CEG": [
@@ -213,10 +213,10 @@
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
       "ABB to divest Robotics division to SoftBank Group",
       "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
+      "ABB Ltd (VTX:ABBN) most popular amongst retail investors who own 51% of the shares, institutions hold 34%",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "From linear to circular: how rethinking usage and waste saves Earth’s resources",
-      "ABB to invest $75 million in India to expand manufacturing, R&D",
-      "ABB outlines long-term electrification strategy as industrial demand evolves"
+      "ABB to invest $75 million in India to expand manufacturing, R&D"
     ],
     "VRT": [
       "Why Vertiv (VRT) Stock Is Up Today",
@@ -295,16 +295,16 @@
       "Applied Digital Continues Heavy Capital Spending: What's Ahead?",
       "Wall Street Thinks You Should Buy The Dip On Applied Digital (APLD) Stock",
       "Applied Digital (APLD): One of the Top Hot Stocks with the Highest Upside Potential",
+      "Is Applied Digital’s (APLD) 75 MW AI Expansion a Turning Point in Its Infrastructure Strategy?",
+      "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth",
       "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
-      "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
-      "Applied Digital Options Spot-On: On July 6th, 65,957 Contracts Were Traded, With 775.41K Open Interest",
-      "APLD Stock Slips After-Hours — What’s The Nvidia Connection?",
-      "Applied Digital Shares Fall on $1.59 Billion Notes Pricing",
+      "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
+      "Applied Digital Delivers Second Building at Polaris Forge 1",
+      "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1",
       "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now?",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
-      "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day",
-      "Synopsys vs. Applied Digital: Which AI Stock Has an Edge Right Now?"
+      "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day"
     ],
     "EOAN.DE": [
       "FPT Achieves SAP® Silver Partner Status in the SAP® PartnerEdge® Program, Expanding SAP Capabilities for European Enterprises",
@@ -322,11 +322,11 @@
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
-      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview",
       "E.ON shares track its regulated utility model. Investor focus stays on power grids and customer supp",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
-      "E.ON SE focuses on energy transition and grid investment"
+      "E.ON SE focuses on energy transition and grid investment",
+      "E.ON stock stays focused on the business mix. Long-term utility earnings remain the story."
     ],
     "TLN": [
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
@@ -392,7 +392,7 @@
       "ENGIE Q1 2026 Financial Information",
       "South Dakota storm strikes two ENGIE wind farms",
       "Turbines destroyed after 'uniquely violent' storm strikes South Dakota",
-      "ENGIE launches its first campaign with Tamara Klink, reinforcing the concept of \"The Same Energy\" alongside the sailor"
+      "The Group’s human rights approach"
     ],
     "SU.PA": [
       "Schneider Electric (ENXTPA:SU) Buys Cognite And Lands California SF6 Free Grid Deal",
@@ -498,8 +498,8 @@
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
-      "Nokia Stock Slides As Volatility And Social Buzz Collide",
       "NOK Stock Slides As ADR Declines Rattle Traders",
+      "Nokia Stock Slides As Volatility And Social Buzz Collide",
       "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum",
       "NOK Stock Jumps As Analysts Chase AI-Fueled Upside"
     ],
@@ -519,7 +519,7 @@
       "Brett A. Cope awarded 36,000 RSUs by Powell",
       "POWL - Powell Industries Inc Latest SEC Filings",
       "Powell Industries slides as valuation pressure and recent insider selling weigh on sentiment",
-      "Powell Industries Drops 6.5% Amid Sector-Wide Selling",
+      "Powell Industries options trading surges amid stock decline",
       "Powell Industries (POWL) awards 36,000 backloaded RSUs to CEO Brett Cope",
       "Powell Industries (POWL) Joins Key Russell Indexes, Is The Upside Already Priced In?",
       "Powell Industries (POWL) Dips More Than Broader Market",
@@ -646,16 +646,16 @@
       "Tallo Wins 2026 EdTech Award for Hiring, Internships, and Apprenticeship Solution",
       "3 Market-Beating Stocks with Exciting Potential",
       "Assessing Whether Legrand (ENXTPA:LR) Still Offers Upside After Strong Recent Share Performance",
+      "On Cloud AV/IT: Legrand | AV",
       "Legrand upgraded by Barclays on AI data center demand, 800VDC optimism",
+      "Bobby Legrand Driskill, 82 of Polkville, Mississippi",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
       "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
+      "Legrand | AV Earns 18 Awards at InfoComm 2026, Validating “Where Solutions Live” Strategy",
+      "Bobby Legrand Driskill Obituary Jul 4, 2026 - Colonial Chapel Funeral Home",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
-      "APS welcomes Jason LeGrand as global director of development",
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
-      "Gabrielle Leann LeGrand Obituary (2026) - Cole Camp, MO - Fox Funeral Home - Cole Camp",
-      "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum",
-      "LeGrand’s Market shares its four-bean baked bean recipe for the perfect Fourth of July side",
-      "Legrand Acquires Girtz Industries"
+      "APS welcomes Jason LeGrand as global director of development"
     ]
   },
   "pending_news_posts": [
@@ -735,9 +735,7 @@
       0,
       2
     ],
-    "mover": [
-      4
-    ],
+    "mover": [],
     "price_event": [
       2,
       4,
@@ -748,15 +746,15 @@
   "last_evergreen_min": 29722412,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.97,
-    "ENGI.PA": 27.4,
-    "SU.PA": 272.75,
-    "SIE.DE": 275.9,
-    "LR.PA": 143.85,
-    "EOAN.DE": 19.11,
-    "ABBN.SW": 84.72,
-    "ENR.DE": 158.36,
-    "RWE.DE": 57.18,
+    "IBE.MC": 20.95,
+    "ENGI.PA": 27.34,
+    "SU.PA": 273.3,
+    "SIE.DE": 276.2,
+    "LR.PA": 144.25,
+    "EOAN.DE": 19.03,
+    "ABBN.SW": 84.66,
+    "ENR.DE": 159.16,
+    "RWE.DE": 57.04,
     "ETN": 413.18,
     "EQIX": 997.96,
     "CRWV": 86.66,
@@ -784,8 +782,8 @@
     "TLN": "2026-07-06",
     "IREN": "2026-07-06"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29723566,
+  "next_pulse_interval": 44,
+  "last_pulse_post_min": 29723611,
   "eu_slots": [
     {
       "slot": 0,
