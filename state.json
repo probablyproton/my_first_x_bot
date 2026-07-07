@@ -2,8 +2,8 @@
   "date": "2026-07-07",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 7,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 8,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -45,7 +45,7 @@
     "POWL": 962,
     "NOK": 977
   },
-  "event_log_next_id": 76,
+  "event_log_next_id": 77,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -232,8 +232,8 @@
       "A Look at Vertiv Holdings Co (VRT) After 6.0% Gain -- GF Value $154.33 vs Price $324.88",
       "Vertiv Holdings Co’s Stock Price Soars to $318.47, Witnessing a Robust 5.97% Increase",
       "Vertiv Jumps 9.2% as AI Infrastructure Expansion Supports Bullish Sentiment",
-      "Vertiv Holdings Co Stock (VRT) Closed Up by 5.79% on Jul 6",
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
+      "Vertiv Holdings Co Stock (VRT) Closed Up by 5.79% on Jul 6",
       "Vertiv Holdings (NYSE:VRT) stock jumps, valued at 58x cash flow guide as AI demand talk grows",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
@@ -517,8 +517,8 @@
       "Does Powell Industries’ (POWL) Russell 1000 Promotion Reframe Its Role in Critical Infrastructure Markets?",
       "Powell Industries (POWL) CEO trims stake with 36,000-share sale",
       "Brett A. Cope awarded 36,000 RSUs by Powell",
-      "POWL - Powell Industries Inc Latest SEC Filings",
       "Powell Industries slides as valuation pressure and recent insider selling weigh on sentiment",
+      "POWL - Powell Industries Inc Latest SEC Filings",
       "Powell Industries Drops 6.5% Amid Sector-Wide Selling",
       "Powell Industries options trading surges amid stock decline",
       "Powell Industries (POWL) awards 36,000 backloaded RSUs to CEO Brett Cope",
@@ -647,6 +647,7 @@
       "3 Market-Beating Stocks with Exciting Potential",
       "Assessing Whether Legrand (ENXTPA:LR) Still Offers Upside After Strong Recent Share Performance",
       "On Cloud AV/IT: Legrand | AV",
+      "Legrand upgraded by Barclays on AI data center demand, 800VDC optimism",
       "Bobby Legrand Driskill, 82 of Polkville, Mississippi",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
       "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
@@ -654,8 +655,7 @@
       "Bobby Legrand Driskill Obituary Jul 4, 2026 - Colonial Chapel Funeral Home",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
-      "APS welcomes Jason LeGrand as global director of development",
-      "LeGrand’s Market shares its four-bean baked bean recipe for the perfect Fourth of July side"
+      "APS welcomes Jason LeGrand as global director of development"
     ]
   },
   "pending_news_posts": [
@@ -737,8 +737,7 @@
     ],
     "mover": [
       4,
-      1,
-      0
+      1
     ],
     "price_event": [
       2,
@@ -750,15 +749,15 @@
   "last_evergreen_min": 29722412,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.93,
-    "ENGI.PA": 27.37,
-    "SU.PA": 275.0,
-    "SIE.DE": 277.9,
-    "LR.PA": 144.9,
-    "EOAN.DE": 19.02,
-    "ABBN.SW": 84.64,
-    "ENR.DE": 160.22,
-    "RWE.DE": 57.36,
+    "IBE.MC": 20.92,
+    "ENGI.PA": 27.41,
+    "SU.PA": 275.2,
+    "SIE.DE": 278.45,
+    "LR.PA": 145.65,
+    "EOAN.DE": 19.07,
+    "ABBN.SW": 85.24,
+    "ENR.DE": 162.3,
+    "RWE.DE": 57.38,
     "ETN": 413.18,
     "EQIX": 997.96,
     "CRWV": 86.66,
@@ -786,8 +785,8 @@
     "TLN": "2026-07-06",
     "IREN": "2026-07-06"
   },
-  "next_pulse_interval": 45,
-  "last_pulse_post_min": 29723462,
+  "next_pulse_interval": 40,
+  "last_pulse_post_min": 29723522,
   "eu_slots": [
     {
       "slot": 0,
