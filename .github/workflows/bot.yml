@@ -28,6 +28,15 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Remove broken preinstalled apt repos
+        run: |
+          # The GitHub-hosted runner image preregisters the Microsoft Azure CLI apt repo.
+          # It intermittently serves a corrupted/invalid signature ("Clearsigned file isn't
+          # valid, got 'NOSPLIT'"), which makes `apt-get update` fail entirely and takes down
+          # the unrelated Playwright browser install with it. We don't need this repo at all.
+          sudo rm -f /etc/apt/sources.list.d/azure-cli.list
+          sudo rm -f /etc/apt/sources.list.d/microsoft-prod.list
+
       - name: Install Playwright browser
         run: playwright install chromium --with-deps
 
