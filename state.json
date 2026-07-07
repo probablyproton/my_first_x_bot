@@ -303,7 +303,7 @@
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
       "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
       "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1",
-      "Applied Digital Signs 210 MW Lease at Delta Forge 2, Expanding Its AI Factory Franchise Model to a Fifth Campus",
+      "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now?",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
       "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day"
@@ -654,10 +654,10 @@
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
       "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
       "Legrand | AV Earns 18 Awards at InfoComm 2026, Validating “Where Solutions Live” Strategy",
+      "Kepler Cheuvreux upgrades Legrand stock rating on data center demand",
       "Bobby Legrand Driskill Obituary Jul 4, 2026 - Colonial Chapel Funeral Home",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
-      "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
-      "APS welcomes Jason LeGrand as global director of development"
+      "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art"
     ]
   },
   "pending_news_posts": [
@@ -681,6 +681,29 @@
           "source": "富途牛牛",
           "summary": "",
           "published": "2026-07-07T03:31:00"
+        }
+      ]
+    },
+    {
+      "symbol": "LR.PA",
+      "classification": {
+        "is_major": true,
+        "category": "analyst_note",
+        "headline": "Kepler Cheuvreux upgrades Legrand stock rating on data center demand",
+        "reason": "Named-firm analyst research note"
+      },
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUnBFb21pYWZiTkx3LVRUQ1RWTlRORG8xRzRITWY3eFktQ2YySWJxR1pfMU03cDJzVzN6dHFSRlE4N3gzeVFHM0M4eEFoSzdnSTNDREwzcllqM28zcHM2SXZtUEZLVDd5M1k5WUJLNXJZcXJ3d05DUVdlanVFcnpLVl9GX1U2Mk0xWVdpbFNCN3QwTmhaOTVZeWRmVkotNk5FNjl2UEZ0aEpVSzdWWlpxbUlqekdMSmN3TF9PUlVWNEpDcUNobzdB?oc=5",
+      "source": "Investing.com",
+      "method": "keyword",
+      "published": "2026-07-07T08:26:45",
+      "queued_min": 29723731,
+      "all_articles": [
+        {
+          "headline": "Kepler Cheuvreux upgrades Legrand stock rating on data center demand",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUnBFb21pYWZiTkx3LVRUQ1RWTlRORG8xRzRITWY3eFktQ2YySWJxR1pfMU03cDJzVzN6dHFSRlE4N3gzeVFHM0M4eEFoSzdnSTNDREwzcllqM28zcHM2SXZtUEZLVDd5M1k5WUJLNXJZcXJ3d05DUVdlanVFcnpLVl9GX1U2Mk0xWVdpbFNCN3QwTmhaOTVZeWRmVkotNk5FNjl2UEZ0aEpVSzdWWlpxbUlqekdMSmN3TF9PUlVWNEpDcUNobzdB?oc=5",
+          "source": "Investing.com",
+          "summary": "",
+          "published": "2026-07-07T08:26:45"
         }
       ]
     }
@@ -758,14 +781,14 @@
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.9,
-    "ENGI.PA": 27.26,
-    "SU.PA": 271.75,
-    "SIE.DE": 273.9,
-    "LR.PA": 143.4,
-    "EOAN.DE": 18.95,
-    "ABBN.SW": 84.28,
-    "ENR.DE": 158.94,
-    "RWE.DE": 56.62,
+    "ENGI.PA": 27.27,
+    "SU.PA": 271.9,
+    "SIE.DE": 273.35,
+    "LR.PA": 143.3,
+    "EOAN.DE": 19.0,
+    "ABBN.SW": 84.24,
+    "ENR.DE": 158.74,
+    "RWE.DE": 56.58,
     "ETN": 413.18,
     "EQIX": 997.96,
     "CRWV": 86.66,
