@@ -1,7 +1,7 @@
 {
   "date": "2026-07-07",
   "daily_posts": 6,
-  "daily_keyword_posts": 6,
+  "daily_keyword_posts": 7,
   "daily_pulse_posts": 17,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
@@ -30,7 +30,7 @@
     "CEG": 1052,
     "VST": 1277,
     "TLN": 1216,
-    "PWR": 1144,
+    "PWR": 1292,
     "CRWV": 1187,
     "IREN": 1412,
     "APLD": 1277,
@@ -46,7 +46,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 106,
+  "event_log_next_id": 107,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -67,7 +67,8 @@
     "NVT": 1142,
     "ETN": 1187,
     "news_RWE.DE": 1187,
-    "APLD": 1277
+    "APLD": 1277,
+    "news_PWR": 1292
   },
   "news_seen": {
     "ETN": [
@@ -83,12 +84,12 @@
       "VoltServer and Eaton Form Strategic Partnership to Advance Next-Generation Power Distribution",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
       "Eaton Corporation, PLC (ETN) Is a Trending Stock: Facts to Know Before Betting on It",
-      "Eaton Denied Refund Claim Citing California Tax Authority Advice",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
+      "Eaton Denied Refund Claim Citing California Tax Authority Advice",
+      "Eaton Corp. PLC stock outperforms competitors on strong trading day",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
       "A Look at Eaton Corp PLC (ETN) After 3.7% Gain -- GF Value $388.",
-      "Eaton Corp. PLC stock underperforms Thursday when compared to competitors",
       "Dana and Eaton to combine vehicle businesses in $5.1B deal",
       "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now"
     ],
@@ -107,10 +108,10 @@
       "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
       "Constellation Energy Corp outlook for investors as a leading US power supplier",
-      "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
-      "Constellation Energy Corporation Actuals & Estimates (SIX:CEG)",
       "CEG - Constellation Energy Corp Latest SEC Filings",
+      "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
+      "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
       "Here's Why Constellation Energy Corporation (CEG) is a Strong Growth Stock",
       "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)"
     ],
@@ -148,15 +149,15 @@
       "MEDIA ALERT: Equinix Sets Conference Call for Second-Quarter Results",
       "Equinix (EQIX) Stock Dips While Market Gains: Key Facts",
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript",
-      "Equinix Stock And 2 US REITs Built For Low Rate Income",
+      "Build Sustainable, Future-Ready Data Center Infrastructure",
       "PubConcierge Expands Singapore Hub at Equinix SG3 to Support Growing APAC IPv4 Demand",
       "South Korean chip startup FuriosaAI invades European datacenters",
-      "Equinix Launches AI-Ready Data Center with Direct Connectivity to Hong Kong–Shenzhen Innovation and Technology Park",
-      "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint",
       "Equinix-occupied data center in Manchester, UK, sold to a new landlord - report",
-      "Equinix Leads Real Estate Companies on the JUST 100 Index",
+      "Is Equinix the AI Infrastructure Stock Investors Are Missing Out On?",
+      "How Equinix Turns Data Centre Heat into Milan City Heating",
       "This Asset Class Has Lagged the Market for Years But Was the Best Performer in June. Time to Invest?",
-      "Noteworthy ETF Outflows: IYR, WELL, EQIX, DLR"
+      "Noteworthy ETF Outflows: IYR, WELL, EQIX, DLR",
+      "Is BB Seguridade Participacoes (BBSEY) Outperforming Other Finance Stocks This Year?"
     ],
     "IREN": [
       "TeraWulf, Anthropic Sign $19 Billion Data Center Lease. Neocloud Stocks Soar.",
@@ -238,8 +239,8 @@
       "Shelton Wealth Management LLC Has $2.39 Million Stock Holdings in Vertiv Holdings Co. $VRT",
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
       "A Look at Vertiv Holdings Co (VRT) After 6.0% Gain -- GF Value $154.33 vs Price $324.88",
-      "Vertiv Holdings Co’s Stock Price Soars to $318.47, Witnessing a Robust 5.97% Increase",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
+      "Vertiv Holdings Co’s Stock Price Soars to $318.47, Witnessing a Robust 5.97% Increase",
       "Vertiv Jumps 9.2% as AI Infrastructure Expansion Supports Bullish Sentiment",
       "Vertiv Holdings Co Stock (VRT) Closed Up by 5.79% on Jul 6",
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
@@ -280,15 +281,15 @@
       "Compass Datacenters Donates $12.6M Building to Texas State Technical College to Expand Career Training for the Fast-Growing Digital Economy",
       "Fermi Selects Primoris Services Corporation to Engineer and Construct Balance of Plant for First Six SGT-800 Gas Turbines of Phase One Power Buildout",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Launches Wendell Microgrid at HQ Campus",
-      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
-      "Tobias Bauer",
       "Siemens Energy to invest $421 million in NC",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Launches Wendell Microgrid at HQ Campus",
+      "Siemens stock falls after Q4 earnings miss and weaker 2026 outlook"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -323,16 +324,16 @@
       "Should Value Investors Buy AES (AES) Stock?",
       "European Stocks Rise in Friday Trading Following Middle East War Ceasefire",
       "How The E.ON (XTRA:EOAN) Narrative Is Shifting As Analyst Views Split On Upside Potential",
-      "Experts weigh in on Sen. McConnell's health issues, potential impacts",
+      "E.ON stock tracks its utility profile. E.ON SE stays in focus.",
       "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
-      "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
-      "Kari Lake ripped for VOA cuts, attack on Sen. Gallego",
+      "E.ON SE outlines long-term energy transition strategy amid stable operations",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
-      "Sen. Grassley optimistic on soybean exports to China, vote on E-15",
-      "Bipartisan supermajority of Montana Senate calls on Sen. Windy Boy to resign",
-      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview",
-      "Democrat calls on Sen. Graham to refund campaign contributions from Epstein-linked donors",
-      "Ekant Sen Career Stats"
+      "E.ON stock holds steady. Focus shifts to earnings and grid spending.",
+      "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix.",
+      "E.ON SE outlines grid investment priorities as energy transition accelerates",
+      "E.ON SE outlines long-term energy transition strategy for investors",
+      "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
+      "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri"
     ],
     "TLN": [
       "X-Energy Declines 18.9% in a Month: How Should You Play the Stock Now?",
@@ -351,9 +352,9 @@
       "Price to sales forward of Talen Energy Corporation – NASDAQ:TLN",
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
-      "Vistra Vs. Talen: I Prefer The Higher-Risk AI Power Trade",
-      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
+      "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
       "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05",
+      "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
       "Notable Tuesday Option Activity: MSFT, TLN, UNM"
     ],
     "DLR": [
@@ -373,10 +374,10 @@
       "Digital Realty (DLR) Stock Could Be 35% Undervalued Despite $3.5b Data Center Deal",
       "Digital Realty (NYSE: DLR) to acquire $3.5B Blackstone hyperscale data centers",
       "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers",
-      "Digital Realty Trust data center REIT and global cloud infrastructure context",
       "This Asset Class Has Lagged the Market for Years But Was the Best Performer in June. Time to Invest?",
       "Noteworthy ETF Outflows: IYR, WELL, EQIX, DLR",
-      "Prediction: Realty Income's Data Center Pivot Will Supercharge Its Dividend Growth Over the Next Decade"
+      "Prediction: Realty Income's Data Center Pivot Will Supercharge Its Dividend Growth Over the Next Decade",
+      "Want a Lifetime of Passive Income? Buy Realty Income Stock in July and Never Sell."
     ],
     "ENGI.PA": [
       "ENGIY or PNW: Which Is the Better Value Stock Right Now?",
@@ -394,11 +395,11 @@
       "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
       "ENGIE and IGNIS Sign a Long-Term Agreement for Battery Energy Storage in Spain",
       "Ineos lines up blue hydrogen supply from Equinor-Engie for Antwerp cracker",
+      "ENGIE Q1 2026 Financial Information",
       "South Dakota storm strikes two ENGIE wind farms",
       "The Group’s human rights approach",
-      "Arcadia acquires Engie Impact to create unified energy management platform",
-      "Engie and Ignis Ink 625 MWh Battery Storage Agreement in Spain - News and Statistics",
-      "Engie Secures 10-Year Use of 625 MWh in Batteries to Store Excess Solar and Wind Energy in Spain by 2028"
+      "ENGIE launches its first campaign with Tamara Klink, reinforcing the concept of \"The Same Energy\" alongside the sailor",
+      "Engie and Ignis Ink 625 MWh Battery Storage Agreement in Spain - News and Statistics"
     ],
     "SU.PA": [
       "Schneider Electric (ENXTPA:SU) Buys Cognite And Lands California SF6 Free Grid Deal",
@@ -438,8 +439,8 @@
       "Prediction: This Energy Stock Will Make You a Lot Richer by 2029",
       "BE Stock Is Trading At A Massive Premium To Peers — Retail Bulls Still See A Nearly 4x Rally",
       "Here's Why Bloom Energy Stock Rallied Again Today",
-      "Bloom Energy vs. Plug Power: Which Hydrogen Stock Is a Better Buy in 2026?",
       "Bloom Energy rises 12% after partnering with European AI infrastructure upstart in $2.6 billion deal",
+      "Bloom Energy vs. Plug Power: Which Hydrogen Stock Is a Better Buy in 2026?",
       "Is the AI Power Boom Driving Brookfield-Bloom Partnership Expansion?",
       "I Want to Become Financially Independent in 5 Years: Here's My 3-Part Plan to Reach That Bold Goal."
     ],
@@ -462,7 +463,7 @@
       "US NGOs urge RWE to reject offshore wind exit deal with Trump administration",
       "Earnings call transcript: RWE Q1 2026 shows strong growth amid trading headwinds",
       "RWE AG - Increases Investment In Focused Energy",
-      "RWE AG(NEU) : Jefferies gives a Buy rating",
+      "RWE AG(NEU) : Barclays gives a Buy rating",
       "RWE AG builds on energy transition strategy as European utilities adapt to new power market realitie"
     ],
     "NEE": [
@@ -665,36 +666,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "PWR",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "Truist Financial Maintains Quanta Services(PWR.US) With Buy Rating, Maintains Target Price $940",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMzlRdHhtd2J2eHlaNVNRSWtDWGlpTUF0U2VEYW8yZDZIWHlnWVgwWkpsTFZXalktY25YQjBUbGJ1eS1SMXpNOTJVQUVheFB1X3l1UmlBLVoyY3ViVFpBSkMyblI1a1JMTlk3Nm9Pdmh4TWpFOWxNc1ZXRGJqREhxRDlDY2FiUzVvUlVzM0ZhV2JrMG5jSjZEcWU0MXRiS2lraGI1UmstVHR6Q0VBMXB1a0cyZjZyZw?oc=5",
-      "source": "富途牛牛",
-      "method": "keyword",
-      "published": "2026-07-07T03:31:00",
-      "queued_min": 29724031,
-      "all_articles": [
-        {
-          "headline": "Truist Financial Maintains Quanta Services(PWR.US) With Buy Rating, Maintains Target Price $940",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMzlRdHhtd2J2eHlaNVNRSWtDWGlpTUF0U2VEYW8yZDZIWHlnWVgwWkpsTFZXalktY25YQjBUbGJ1eS1SMXpNOTJVQUVheFB1X3l1UmlBLVoyY3ViVFpBSkMyblI1a1JMTlk3Nm9Pdmh4TWpFOWxNc1ZXRGJqREhxRDlDY2FiUzVvUlVzM0ZhV2JrMG5jSjZEcWU0MXRiS2lraGI1UmstVHR6Q0VBMXB1a0cyZjZyZw?oc=5",
-          "source": "富途牛牛",
-          "summary": "",
-          "published": "2026-07-07T03:31:00"
-        },
-        {
-          "headline": "Is PWR Overvalued? DCF Says Worth $364",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUzMteGh3YWVTZHlvUF84T2M2cnNWVGFjZDhMLW5vX0FSa0dXUFdISVpSYzBMcGFqam5VRzI3aTBLdWxySTVjUTVNVUNzNVZoYkpOcE5CQXR4MlVvMXVpOEllVE5aTHhnaHJnbF9MSzhQYzNhd0lhUlYzN1Zvc2t1Vg?oc=5",
-          "source": "GuruFocus",
-          "summary": "",
-          "published": "2026-07-07T11:32:35"
-        }
-      ]
-    },
     {
       "symbol": "APLD",
       "classification": {
@@ -904,17 +875,20 @@
     },
     "RWE.DE": {
       "contract": 1187
+    },
+    "PWR": {
+      "analyst_note": 1292
     }
   },
   "recent_post_sources": [
-    "Investing.com",
     "TipRanks",
     "DatacenterDynamics",
     "Virginia Mercury",
     "POWER Magazine",
-    "MarketBeat"
+    "MarketBeat",
+    "富途牛牛"
   ],
-  "last_news_post_min": 29724197,
+  "last_news_post_min": 29724212,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -945,24 +919,24 @@
     "ABBN.SW": 83.4,
     "ENR.DE": 154.66,
     "RWE.DE": 56.62,
-    "ETN": 392.89,
-    "EQIX": 1019.38,
-    "CRWV": 81.66,
-    "NEE": 88.78,
-    "POWL": 232.16,
-    "NVT": 151.27,
-    "TLN": 366.15,
-    "IREN": 40.09,
-    "APLD": 30.77,
-    "GEV": 1060.95,
-    "NOK": 11.78,
-    "DLR": 174.27,
-    "VRT": 301.41,
-    "ERIC": 10.8,
-    "CEG": 238.62,
-    "VST": 155.4,
-    "BE": 263.17,
-    "PWR": 649.38
+    "ETN": 392.99,
+    "EQIX": 1027.34,
+    "CRWV": 82.64,
+    "NEE": 88.82,
+    "POWL": 233.29,
+    "NVT": 151.44,
+    "TLN": 369.45,
+    "IREN": 40.41,
+    "APLD": 31.07,
+    "GEV": 1064.64,
+    "NOK": 11.81,
+    "DLR": 174.74,
+    "VRT": 303.36,
+    "ERIC": 10.81,
+    "CEG": 239.6,
+    "VST": 156.31,
+    "BE": 266.4,
+    "PWR": 651.61
   },
   "day_event_fired": {
     "BE": "2026-07-07",
