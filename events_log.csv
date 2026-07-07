@@ -365,3 +365,8 @@ https://www.powermag.com/weavegrid-gm-advance-grid-integrated-ev-charging-and-ho
 100,2026-07-07,19:47:52,Tuesday,news_event,,,keyword,RWE.DE,RWE,,,,,56.58,-1.57,,,Germany's Proxima Fusion secures $2.7B valuation as Google backs Europe's reactor race,,,,contract,,,,,N,18,keyword,Y,,"$RWE ($56.58, -1.57% at last close as of Jul 7): Germany's Proxima Fusion secures $2.7B valuation as Google backs Europe's reactor race",135,,,,,
 101,2026-07-07,20:16:48,Tuesday,price_event,us,,zero_llm_template,BE,BE,,NYSE,Y,open,271.22,-7.2,295.05,261.51,,,,,,,7.2,,,N,18,llm,Y,,Big print: $BE -7.2% at $271.22 today – a real standout. Intraday range: low $261.51 / high $295.05.,100,,,,,
 102,2026-07-07,20:32:00,Tuesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,Biggest mover this hour: $BE -8.03% at $268.77.,47,,,,,
+103,2026-07-07,21:16:33,Tuesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$BE standing out at -9.93%, now $263.22.",40,,,,,
+104,2026-07-07,21:17:00,Tuesday,price_event,us,,zero_llm_template,APLD,APLD,,NYSE,Y,open,30.77,-8.69,33.49,30.24,,,,,,,8.69,,,N,18,llm,Y,,$APLD on the move – -8.69% to $30.77 today. Intraday range: low $30.24 / high $33.49.,85,,,,,
+105,2026-07-07,21:17:53,Tuesday,news_event,,,keyword,VST,VST,,,,,155.4,-1.1,,,"Meitav Investment House Ltd. Buys 200,000 Shares of Vistra Corp. $VST",MarketBeat,https://www.marketbeat.com/instant-alerts/filing-meitav-investment-house-ltd-buys-200000-shares-of-vistra-corp-vst-2026-07-07/,,large_share_purchases,,,,,N,18,keyword,Y,,"$VST ($155.4, -1.1% today): Meitav Investment House Ltd. Buys 200,000 Shares of Vistra Corp. $VST
+
+https://www.marketbeat.com/instant-alerts/filing-meitav-investment-house-ltd-buys-200000-shares-of-vistra-corp-vst-2026-07-07/",225,,,,,
