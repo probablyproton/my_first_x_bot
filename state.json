@@ -2,7 +2,7 @@
   "date": "2026-07-07",
   "daily_posts": 0,
   "daily_keyword_posts": 3,
-  "daily_pulse_posts": 10,
+  "daily_pulse_posts": 11,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -46,7 +46,7 @@
     "NOK": 977,
     "NEE": 992
   },
-  "event_log_next_id": 89,
+  "event_log_next_id": 90,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -99,14 +99,14 @@
       "Stock Market Week Ahead: Oil Hints At A Paradigm Shift",
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
       "Energy Transition Today - Driving Grid Stability With Vehicle-To-Grid Innovation",
-      "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
+      "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "CEG - Constellation Energy Corp Latest SEC Filings",
-      "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
       "Is Constellation Energy Corporation (CEG) Among the Best AI Power Grid Stocks to Buy According to Analysts?",
+      "Constellation Energy Corp. stock falls Wednesday, underperforms market",
       "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
     ],
@@ -187,11 +187,11 @@
       "Vistra Corp. (VST) Stock Slides as Market Rises: Facts to Know Before You Trade",
       "Northampton Capital Partners, Olympus Power Form JV and Reach Agreement to Acquire New England, New York Generating Assets",
       "Nuclear Power Is the Only Real Answer to AI Data Center Demand and These 3 ETFs Cover the Trade at Three Risk Levels",
-      "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
+      "Vistra Vs. Talen: I Prefer The Higher-Risk AI Power Trade",
       "Hodges Capital Management Inc. Sells 28,236 Shares of Vistra Corp. $VST",
       "Earnings call transcript: Vistra Energy tops Q1 2026 forecasts, stock rises",
-      "Vistra sets Aug. 7 call for second-quarter results",
       "Vistra Corp (VST) Shares Surge 4.1% -- What GF Score of 84 Tells Investors",
+      "Vistra sets Aug. 7 call for second-quarter results",
       "Battery removal at Moss Landing nears completion after 2025 Vistra fire",
       "CA: VISTRA FIRE BATTERY REMOVAL NEARLY DONE",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
@@ -210,7 +210,6 @@
       "Here's How to Invest in the $200 Billion Humanoid Robot Future With ETFs",
       "ABB (SWX:ABBN) Stock Valuation After A 74% One Year Total Return",
       "If You Invested $1,000 in Abb Ltd Zuerich (ABLZF)",
-      "Strength Seen in ABB (ABBNY): Can Its 6.0% Jump Turn into More Strength?",
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results",
       "ABB/N Forecast — Price Target — Prediction for 2027",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
@@ -218,7 +217,8 @@
       "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "From linear to circular: how rethinking usage and waste saves Earth’s resources",
-      "ABB to invest $75 million in India to expand manufacturing, R&D"
+      "ABB to invest $75 million in India to expand manufacturing, R&D",
+      "ABB outlines long-term electrification strategy as industrial demand evolves"
     ],
     "VRT": [
       "Vertiv Holdings Co. (VRT) Is a Trending Stock: Facts to Know Before Betting on It",
@@ -302,9 +302,9 @@
       "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
       "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
-      "Applied Digital Delivers Second Building at Polaris Forge 1",
-      "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1",
+      "Applied Digital Reports Fiscal Third Quarter 2026 Results",
       "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now?",
+      "Applied Digital Signs 210 MW Lease at Delta Forge 2, Expanding Its AI Factory Franchise Model to a Fifth Campus",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)"
     ],
@@ -325,10 +325,10 @@
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
       "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix.",
       "E.ON SE outlines grid investment priorities as energy transition accelerates",
-      "E.ON SE outlines long-term energy transition strategy for investors",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
       "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri",
-      "E.ON SE focuses on energy transition as investors weigh long-term growth prospects"
+      "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
+      "E.ON shares track its regulated utility model. Investor focus stays on power grids and customer supp"
     ],
     "TLN": [
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
@@ -390,11 +390,11 @@
       "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
       "ENGIE and IGNIS Sign a Long-Term Agreement for Battery Energy Storage in Spain",
       "Ineos lines up blue hydrogen supply from Equinor-Engie for Antwerp cracker",
-      "ENGIE Q1 2026 Financial Information",
       "South Dakota storm strikes two ENGIE wind farms",
       "The Group’s human rights approach",
-      "ENGIE launches its first campaign with Tamara Klink, reinforcing the concept of \"The Same Energy\" alongside the sailor",
-      "Arcadia acquires Engie Impact to create unified energy management platform"
+      "Arcadia acquires Engie Impact to create unified energy management platform",
+      "Ineos agrees ‘preliminary commercial terms’ to offtake blue hydrogen from Engie and Equinor’s 1GW H2BE project",
+      "Green Gases: Biomethane and Hydrogen Strategies - ENGIE"
     ],
     "SU.PA": [
       "Schneider Electric (ENXTPA:SU) Buys Cognite And Lands California SF6 Free Grid Deal",
@@ -604,6 +604,7 @@
       "Oklo Advances Groves Isotope Test Reactor With Key DOE Safety Approval",
       "Bull of the Day: Bloom Energy (BE)",
       "Will GE Vernova (GEV) Beat Estimates Again in Its Next Earnings Report?",
+      "Why GE Vernova Stock Is Getting Crushed",
       "Hitachi Energy, GE Vernova, Siemens rise up to 6% as Nomura calls recent correction an ‘overreaction’. 4 r",
       "GE Vernova Soars After Surprise Index Upgrade Buzz",
       "GE Vernova loses renewed bid to end work on New England wind farm",
@@ -612,8 +613,7 @@
       "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
       "Hitachi Energy, GE Vernova, Siemens Energy, other power equipment stocks crash up to 10%. Here’s why",
       "How GE Vernova builds the massive gas turbines powering the AI data center boom",
-      "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
-      "Notable Thursday Option Activity: GLW, PYPL, GEV"
+      "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In."
     ],
     "ENR.DE": [
       "Siemens Energy (XTRA:ENR) Secures Oman Power Contracts With Decades Long Service Work",
@@ -772,9 +772,7 @@
     "evergreen": [
       0
     ],
-    "mover": [
-      6
-    ],
+    "mover": [],
     "price_event": [
       2,
       4,
@@ -785,33 +783,33 @@
   "last_evergreen_min": 29723852,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 21.04,
-    "ENGI.PA": 27.48,
-    "SU.PA": 268.25,
-    "SIE.DE": 269.5,
-    "LR.PA": 141.45,
-    "EOAN.DE": 19.08,
-    "ABBN.SW": 83.18,
-    "ENR.DE": 155.48,
-    "RWE.DE": 56.68,
-    "ETN": 391.02,
-    "EQIX": 1006.0,
-    "CRWV": 80.51,
-    "NEE": 88.9,
-    "POWL": 229.7,
-    "NVT": 148.18,
-    "TLN": 368.96,
-    "IREN": 39.86,
-    "APLD": 31.01,
-    "GEV": 1049.05,
-    "NOK": 11.96,
-    "DLR": 173.44,
-    "VRT": 289.81,
-    "ERIC": 10.87,
-    "CEG": 241.54,
+    "IBE.MC": 21.06,
+    "ENGI.PA": 27.53,
+    "SU.PA": 268.75,
+    "SIE.DE": 269.8,
+    "LR.PA": 141.8,
+    "EOAN.DE": 19.12,
+    "ABBN.SW": 83.48,
+    "ENR.DE": 155.76,
+    "RWE.DE": 56.72,
+    "ETN": 389.05,
+    "EQIX": 1005.43,
+    "CRWV": 80.37,
+    "NEE": 89.2,
+    "POWL": 227.04,
+    "NVT": 147.48,
+    "TLN": 365.61,
+    "IREN": 40.15,
+    "APLD": 30.76,
+    "GEV": 1034.52,
+    "NOK": 11.82,
+    "DLR": 173.52,
+    "VRT": 288.48,
+    "ERIC": 10.82,
+    "CEG": 242.04,
     "VST": 154.79,
-    "BE": 269.23,
-    "PWR": 651.27
+    "BE": 265.67,
+    "PWR": 646.25
   },
   "day_event_fired": {
     "BE": "2026-07-06",
@@ -821,8 +819,8 @@
     "TLN": "2026-07-06",
     "IREN": "2026-07-06"
   },
-  "next_pulse_interval": 35,
-  "last_pulse_post_min": 29723882,
+  "next_pulse_interval": 39,
+  "last_pulse_post_min": 29723926,
   "eu_slots": [
     {
       "slot": 0,
