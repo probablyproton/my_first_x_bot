@@ -1,8 +1,8 @@
 {
   "date": "2026-07-07",
-  "daily_posts": 1,
+  "daily_posts": 2,
   "daily_keyword_posts": 4,
-  "daily_pulse_posts": 13,
+  "daily_pulse_posts": 14,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
@@ -40,13 +40,13 @@
     "SU.PA": 1262,
     "ENGI.PA": 1142,
     "ERIC": 1007,
-    "NVT": 962,
+    "NVT": 1142,
     "BE": 1082,
     "POWL": 1097,
     "NOK": 977,
     "NEE": 992
   },
-  "event_log_next_id": 93,
+  "event_log_next_id": 96,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -63,7 +63,8 @@
     "news_SU.PA": 1262,
     "IREN": 1277,
     "news_IREN": 1412,
-    "news_NEE": 992
+    "news_NEE": 992,
+    "NVT": 1142
   },
   "news_seen": {
     "ETN": [
@@ -81,10 +82,10 @@
       "Eaton Corporation, PLC (ETN) Is a Trending Stock: Facts to Know Before Betting on It",
       "Eaton Denied Refund Claim Citing California Tax Authority Advice",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
+      "Eaton Corp. PLC stock outperforms competitors on strong trading day",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "A Look at Eaton Corp PLC (ETN) After 3.7% Gain -- GF Value $388.",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
-      "Eaton Corp. PLC stock underperforms Thursday when compared to competitors",
       "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
       "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now"
     ],
@@ -232,11 +233,11 @@
       "1 Cash-Producing Stock Worth Your Attention and 2 We Find Risky",
       "Vertiv Holdings (VRT) Didn’t Fail To Impress After Jim Cramer Shared When To Buy The Shares",
       "Shelton Wealth Management LLC Has $2.39 Million Stock Holdings in Vertiv Holdings Co. $VRT",
-      "A Look at Vertiv Holdings Co (VRT) After 6.0% Gain -- GF Value $154.33 vs Price $324.88",
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
+      "A Look at Vertiv Holdings Co (VRT) After 6.0% Gain -- GF Value $154.33 vs Price $324.88",
       "Vertiv Holdings Co’s Stock Price Soars to $318.47, Witnessing a Robust 5.97% Increase",
-      "Vertiv Holdings Co Stock (VRT) Closed Up by 5.79% on Jul 6",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
+      "Vertiv Holdings Co Stock (VRT) Closed Up by 5.79% on Jul 6",
       "Vertiv Jumps 9.2% as AI Infrastructure Expansion Supports Bullish Sentiment",
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
       "Noteworthy ETF Outflows: IVW, VRT, PWR, NEM",
@@ -418,26 +419,24 @@
       "Schneider Electric to buy AI software firm Cognite for $3.1 billion"
     ],
     "BE": [
-      "Dow Jones Futures: AI Stocks Astera, Bloom, Tesla Rebound; SpaceX Slides Ahead Of Nasdaq-100 Inclusion",
+      "Brookfield, Bloom Energy Expand AI Infrastructure Partnership to $25 Billion",
+      "Bloom Energy vs. Eos Energy Enterprises: Which Power Stock Is a Better Buy in 2026?",
+      "If You Invested $5,000 in Bloom Energy at the Start of the Year, Here's What It's Worth Now and What to Expect Next",
+      "Musashi Seimitsu might be the missing piece in power distribution for datacenters",
+      "The Zacks Analyst Blog Highlights PepsiCo, Delta Air Lines, Bloom Energy, Ross Stores and NetEase",
+      "Prediction: Why Buying Brookfield Renewable Instead of Bloom Energy Could Set You Up For Life",
+      "Dow Jones Futures: Tech Futures Slide On Samsung Earnings; SpaceX Falls Ahead Of Nasdaq-100 Inclusion",
+      "Can Small-Cap Stocks Continue to Outperform?",
       "Bloom Energy to Announce Second Quarter 2026 Financial Results on July 28, 2026",
       "Here's Why Bloom Energy Stock Rallied Again Today",
-      "Is the AI Power Boom Driving Brookfield-Bloom Partnership Expansion?",
+      "Bloom Energy Stock Surges Monday: What's Driving the Move?",
+      "Prediction: This Energy Stock Will Make You a Lot Richer by 2029",
       "BE Stock Is Trading At A Massive Premium To Peers — Retail Bulls Still See A Nearly 4x Rally",
       "Bloom Energy (BE) Extends Strategic Alliance With Brookfield",
-      "Prediction: This Energy Stock Will Make You a Lot Richer by 2029",
-      "American Electric Power (AEP) Joins Bloom Expansion To Power AI Data Centers",
-      "Could Investing $10,000 in Bloom Energy Make You a Millionaire?",
-      "Brookfield (TSX:BN) Stock Looks Stretched On Fresh AI Data Center Expansion",
-      "Bloom Energy Stock Surges Monday: What's Driving the Move?",
-      "Brookfield’s US$25 Billion Bloom Energy Fuel Cell Deal Could Be A Game Changer For Brookfield (TSX:BN)",
-      "Bloom Energy Just Entered a $25 Billion Pact for AI Infrastructure. What This Means for BE Stock.",
       "Bloom Energy rises 12% after partnering with European AI infrastructure upstart in $2.6 billion deal",
-      "Bloom Energy vs. Plug Power: Which Hydrogen Stock Is a Better Buy in 2026?",
+      "Is the AI Power Boom Driving Brookfield-Bloom Partnership Expansion?",
       "I Want to Become Financially Independent in 5 Years: Here's My 3-Part Plan to Reach That Bold Goal.",
-      "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge.",
-      "Why Did Nebius Stock Jump 20% in June?",
-      "Bloom Energy Skyrocketed Over 248% in the First Half of 2026",
-      "After Skyrocketing Nearly 200%, Is It Too Late to Buy Bloom Energy?"
+      "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge."
     ],
     "RWE.DE": [
       "Germany's Proxima Fusion secures $2.7B valuation as Google backs Europe's reactor race",
@@ -859,13 +858,11 @@
       5,
       2,
       1,
-      0,
-      6
+      0
     ],
     "price_event": [
       2,
-      4,
-      3
+      4
     ]
   },
   "last_evergreen_min": 29724047,
@@ -880,24 +877,24 @@
     "ABBN.SW": 83.4,
     "ENR.DE": 154.66,
     "RWE.DE": 56.62,
-    "ETN": 392.05,
-    "EQIX": 1022.7,
-    "CRWV": 83.42,
-    "NEE": 88.55,
-    "POWL": 230.48,
-    "NVT": 151.18,
-    "TLN": 367.46,
-    "IREN": 41.03,
-    "APLD": 31.6,
-    "GEV": 1050.0,
-    "NOK": 11.94,
-    "DLR": 174.9,
-    "VRT": 302.35,
-    "ERIC": 10.85,
-    "CEG": 241.33,
-    "VST": 155.65,
-    "BE": 267.28,
-    "PWR": 649.51
+    "ETN": 391.29,
+    "EQIX": 1019.5,
+    "CRWV": 83.16,
+    "NEE": 88.57,
+    "POWL": 229.57,
+    "NVT": 150.22,
+    "TLN": 367.51,
+    "IREN": 41.26,
+    "APLD": 31.69,
+    "GEV": 1050.01,
+    "NOK": 11.95,
+    "DLR": 174.57,
+    "VRT": 301.62,
+    "ERIC": 10.86,
+    "CEG": 241.63,
+    "VST": 155.97,
+    "BE": 268.52,
+    "PWR": 648.86
   },
   "day_event_fired": {
     "BE": "2026-07-06",
@@ -905,10 +902,11 @@
     "NOK": "2026-07-06",
     "VRT": "2026-07-06",
     "TLN": "2026-07-06",
-    "IREN": "2026-07-06"
+    "IREN": "2026-07-06",
+    "NVT": "2026-07-07"
   },
-  "next_pulse_interval": 37,
-  "last_pulse_post_min": 29724016,
+  "next_pulse_interval": 42,
+  "last_pulse_post_min": 29724062,
   "eu_slots": [
     {
       "slot": 0,
@@ -944,5 +942,5 @@
   "us_posted": [
     0
   ],
-  "us_flexible_used": 1
+  "us_flexible_used": 2
 }
