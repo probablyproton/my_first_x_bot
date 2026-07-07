@@ -2,7 +2,7 @@
   "date": "2026-07-07",
   "daily_posts": 0,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 8,
+  "daily_pulse_posts": 9,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -46,7 +46,7 @@
     "NOK": 977,
     "NEE": 783
   },
-  "event_log_next_id": 85,
+  "event_log_next_id": 86,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -81,10 +81,10 @@
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
       "Eaton Denied Refund Claim Citing California Tax Authority Advice",
       "Eaton Corp. PLC stock outperforms competitors on strong trading day",
+      "A Look at Eaton Corp PLC (ETN) After 3.7% Gain -- GF Value $388.",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
       "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
-      "Dana and Eaton to combine vehicle businesses in $5.1B deal",
       "Industrial Select Sector SPDR Fund Experiences Big Inflow",
       "This Critical Infrastructure Stock Could Be a Hidden AI Winner"
     ],
@@ -99,14 +99,14 @@
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
       "Energy Transition Today - Driving Grid Stability With Vehicle-To-Grid Innovation",
       "Is Constellation Energy Corporation (CEG) Among the Best AI Power Grid Stocks to Buy According to Analysts?",
-      "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
-      "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
-      "Constellation Energy Corporation Actuals & Estimates (SIX:CEG)",
-      "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
-      "Is Constellation Energy Corporation (CEG) A Good Stock To Buy Now?",
+      "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
+      "CEG - Constellation Energy Corp Latest SEC Filings",
+      "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
+      "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
+      "Constellation Energy Corp. stock falls Wednesday, underperforms market",
       "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
     ],
@@ -235,9 +235,9 @@
       "Vertiv Holdings Co’s Stock Price Soars to $318.47, Witnessing a Robust 5.97% Increase",
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
       "Vertiv Holdings Co Stock (VRT) Closed Up by 5.79% on Jul 6",
-      "Vertiv Jumps 9.2% as AI Infrastructure Expansion Supports Bullish Sentiment",
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
+      "Vertiv Jumps 9.2% as AI Infrastructure Expansion Supports Bullish Sentiment",
       "Vertiv Holdings (NYSE:VRT) stock jumps, valued at 58x cash flow guide as AI demand talk grows",
       "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
       "S&P 500 Movers: ORLY, VRT"
@@ -324,11 +324,11 @@
       "E.ON stock holds steady. Focus shifts to earnings and grid spending.",
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
+      "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix.",
       "E.ON SE outlines grid investment priorities as energy transition accelerates",
+      "E.ON SE outlines long-term energy transition strategy for investors",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
-      "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri",
-      "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
-      "E.ON shares track its regulated utility model. Investor focus stays on power grids and customer supp"
+      "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri"
     ],
     "TLN": [
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
@@ -345,12 +345,12 @@
       "Talen Energy Corp (TLN) Gets a Buy from Wells Fargo",
       "Price to sales forward of Talen Energy Corporation – NASDAQ:TLN",
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
-      "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
+      "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
       "TLN - Talen Energy Corp Revenue Breakdown",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
-      "Talen Energy offers higher growth but more risk; Vistra is safer with strong diversification and buybacks.",
-      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark"
+      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
+      "Talen Energy offers higher growth but more risk; Vistra is safer with strong diversification and buybacks."
     ],
     "DLR": [
       "Keel Infrastructure appoints former REIT executive Ganesh Aiyer as president amid 2.2 GW AI pipeline push",
@@ -392,8 +392,8 @@
       "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
       "ENGIE Q1 2026 Financial Information",
       "South Dakota storm strikes two ENGIE wind farms",
-      "Ineos agrees ‘preliminary commercial terms’ to offtake blue hydrogen from Engie and Equinor’s 1GW H2BE project",
       "The Group’s human rights approach",
+      "Ineos agrees ‘preliminary commercial terms’ to offtake blue hydrogen from Engie and Equinor’s 1GW H2BE project",
       "ENGIE launches its first campaign with Tamara Klink, reinforcing the concept of \"The Same Energy\" alongside the sailor"
     ],
     "SU.PA": [
@@ -472,7 +472,6 @@
       "The Real Cost Of Building A $2,500-A-Month Income Portfolio",
       "The Portfolio That Lets You Go Part-Time Five Years Early",
       "What A $750,000 Dividend Portfolio Actually Pays After Taxes, Medicare Premiums, And Reality",
-      "NextEra Energy: Buy Rating Reaffirmed with Unchanged $112 Price Target as Dominion Acquisition Advances Strategic and Regulatory Positioning",
       "How an Ambitious Energy Giant Wielded Political Power in Florida",
       "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
       "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers",
@@ -480,6 +479,7 @@
       "NextEra Energy to buy Dominion in deal that unites two key players in race to power AI data centers",
       "What Dominion and NextEra Energy’s proposed merger means for Virginia customers",
       "Why you should care about 2 power companies merging. Hint: affordability",
+      "NextEra's $67 billion Dominion takeover creates world's largest utility—just in time to win the AI data center power surge",
       "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge.",
       "Oklo Advances Groves Isotope Test Reactor With Key DOE Safety Approval"
     ],
@@ -498,12 +498,12 @@
       "Nokia Corporation Sponsored Stock 12‑Month Price Target Raised to $12.07, Implies 16% Downside",
       "NOK Stock Slides As ADR Underperformance Draws Trader Scrutiny",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
-      "NOK Stock Slides As Selling Pressure Builds In June",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
-      "NOK Stock Slides As Repeated ADR Selloffs Rattle Traders",
+      "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
-      "NOK Stock Slides As ADR Declines Rattle Traders"
+      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum",
+      "NOK Stock Jumps As Analysts Chase AI-Fueled Upside"
     ],
     "POWL": [
       "Investors Heavily Search Powell Industries, Inc. (POWL): Here is What You Need to Know",
@@ -772,8 +772,7 @@
     ],
     "mover": [
       6,
-      5,
-      0
+      5
     ],
     "price_event": [
       2,
@@ -785,15 +784,15 @@
   "last_evergreen_min": 29722412,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.98,
-    "ENGI.PA": 27.31,
-    "SU.PA": 271.7,
-    "SIE.DE": 272.25,
-    "LR.PA": 143.6,
-    "EOAN.DE": 19.02,
-    "ABBN.SW": 84.28,
-    "ENR.DE": 158.26,
-    "RWE.DE": 56.5,
+    "IBE.MC": 20.96,
+    "ENGI.PA": 27.2,
+    "SU.PA": 271.45,
+    "SIE.DE": 272.0,
+    "LR.PA": 143.35,
+    "EOAN.DE": 18.95,
+    "ABBN.SW": 84.18,
+    "ENR.DE": 158.02,
+    "RWE.DE": 56.28,
     "ETN": 413.18,
     "EQIX": 997.96,
     "CRWV": 86.66,
@@ -821,8 +820,8 @@
     "TLN": "2026-07-06",
     "IREN": "2026-07-06"
   },
-  "next_pulse_interval": 31,
-  "last_pulse_post_min": 29723791,
+  "next_pulse_interval": 38,
+  "last_pulse_post_min": 29723836,
   "eu_slots": [
     {
       "slot": 0,
