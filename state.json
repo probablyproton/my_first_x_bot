@@ -2,7 +2,7 @@
   "date": "2026-07-07",
   "daily_posts": 5,
   "daily_keyword_posts": 5,
-  "daily_pulse_posts": 15,
+  "daily_pulse_posts": 16,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
@@ -46,7 +46,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 102,
+  "event_log_next_id": 103,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -136,6 +136,7 @@
       "Noteworthy ETF Outflows: IVW, VRT, PWR, NEM"
     ],
     "EQIX": [
+      "What You Need To Know Ahead of Equinix’s Earnings Release",
       "F5 (FFIV), Equinix (EQIX) Partner to Secure and Scale Distributed AI Infrastructure",
       "Brookfield’s Data Center Firm Csquare Seeks $1.35 Billion in IPO",
       "Barclays Raises its Price Target on Equinix (EQIX)",
@@ -145,15 +146,14 @@
       "Hyperscalers Want Bloom Energy's Fuel Cells. Brookfield Wants to Help",
       "MEDIA ALERT: Equinix Sets Conference Call for Second-Quarter Results",
       "Equinix (EQIX) Stock Dips While Market Gains: Key Facts",
-      "Cisco (CSCO) Expands AI And Quantum Networking Ties With Equinix Rafay And Rotterdam",
-      "Build Sustainable, Future-Ready Data Center Infrastructure",
       "Equinix (EQIX) Q1 2026 Earnings Call Transcript",
-      "Keybank National Association OH Reduces Holdings in Equinix, Inc. $EQIX",
-      "CPPIB, Equinix file buyout of data-center provider atNorth for EU clearance",
-      "Equinix (EQIX) Names Carahsoft 2025 AMER Distributor Of The Year",
-      "Milan Draws Heat From Equinix Data Centres",
-      "Equinix, A2A ink data centre heat recovery deal",
+      "Equinix Stock And 2 US REITs Built For Low Rate Income",
+      "Build Sustainable, Future-Ready Data Center Infrastructure",
+      "PubConcierge Expands Singapore Hub at Equinix SG3 to Support Growing APAC IPv4 Demand",
+      "South Korean chip startup FuriosaAI invades European datacenters",
+      "Equinix-occupied data center in Manchester, UK, sold to a new landlord - report",
       "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint",
+      "Janney Montgomery Scott LLC Buys 1,439 Shares of Equinix, Inc. $EQIX",
       "This Asset Class Has Lagged the Market for Years But Was the Best Performer in June. Time to Invest?",
       "Noteworthy ETF Outflows: IYR, WELL, EQIX, DLR"
     ],
@@ -324,14 +324,14 @@
       "How The E.ON (XTRA:EOAN) Narrative Is Shifting As Analyst Views Split On Upside Potential",
       "E.ON stock tracks its utility profile. E.ON SE stays in focus.",
       "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
+      "E.ON SE outlines long-term energy transition strategy amid stable operations",
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
-      "E.ON stock holds steady. Focus shifts to earnings and grid spending.",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
+      "E.ON stock holds steady. Focus shifts to earnings and grid spending.",
       "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix.",
       "E.ON SE outlines grid investment priorities as energy transition accelerates",
       "E.ON SE outlines long-term energy transition strategy for investors",
-      "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
-      "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri"
+      "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight"
     ],
     "TLN": [
       "X-Energy Declines 18.9% in a Month: How Should You Play the Stock Now?",
@@ -421,6 +421,7 @@
       "Schneider Electric to buy AI software firm Cognite for $3.1 billion"
     ],
     "BE": [
+      "FuelCell Energy Drops 10%, Bloom Energy Slides 8%, Plug Power Falls 5% Despite Positive News as Profit-Taking Hits Fuel Cell Stocks",
       "Brookfield, Bloom Energy Expand AI Infrastructure Partnership to $25 Billion",
       "Bloom Energy vs. Eos Energy Enterprises: Which Power Stock Is a Better Buy in 2026?",
       "If You Invested $5,000 in Bloom Energy at the Start of the Year, Here's What It's Worth Now and What to Expect Next",
@@ -430,11 +431,11 @@
       "Dow Jones Futures: Tech Futures Slide On Samsung Earnings; SpaceX Falls Ahead Of Nasdaq-100 Inclusion",
       "Can Small-Cap Stocks Continue to Outperform?",
       "Bloom Energy to Announce Second Quarter 2026 Financial Results on July 28, 2026",
-      "Here's Why Bloom Energy Stock Rallied Again Today",
       "Bloom Energy Stock Surges Monday: What's Driving the Move?",
       "Bloom Energy (BE) Extends Strategic Alliance With Brookfield",
       "Prediction: This Energy Stock Will Make You a Lot Richer by 2029",
       "BE Stock Is Trading At A Massive Premium To Peers — Retail Bulls Still See A Nearly 4x Rally",
+      "Here's Why Bloom Energy Stock Rallied Again Today",
       "Bloom Energy vs. Plug Power: Which Hydrogen Stock Is a Better Buy in 2026?",
       "Bloom Energy rises 12% after partnering with European AI infrastructure upstart in $2.6 billion deal",
       "Is the AI Power Boom Driving Brookfield-Bloom Partnership Expansion?",
@@ -832,8 +833,7 @@
     "evergreen": [],
     "mover": [
       5,
-      2,
-      1
+      2
     ],
     "price_event": [
       0,
@@ -854,24 +854,24 @@
     "ABBN.SW": 83.4,
     "ENR.DE": 154.66,
     "RWE.DE": 56.62,
-    "ETN": 393.51,
-    "EQIX": 1021.09,
-    "CRWV": 83.12,
-    "NEE": 88.56,
-    "POWL": 232.16,
-    "NVT": 151.37,
-    "TLN": 367.47,
-    "IREN": 41.5,
-    "APLD": 31.96,
-    "GEV": 1072.46,
-    "NOK": 11.93,
-    "DLR": 175.05,
-    "VRT": 303.84,
+    "ETN": 393.76,
+    "EQIX": 1023.57,
+    "CRWV": 82.93,
+    "NEE": 88.53,
+    "POWL": 233.01,
+    "NVT": 151.03,
+    "TLN": 367.42,
+    "IREN": 41.27,
+    "APLD": 31.88,
+    "GEV": 1073.1,
+    "NOK": 11.9,
+    "DLR": 175.24,
+    "VRT": 303.37,
     "ERIC": 10.85,
-    "CEG": 240.34,
-    "VST": 155.96,
-    "BE": 271.22,
-    "PWR": 650.9
+    "CEG": 239.13,
+    "VST": 155.41,
+    "BE": 268.65,
+    "PWR": 650.78
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -883,8 +883,8 @@
     "NVT": "2026-07-07",
     "ETN": "2026-07-07"
   },
-  "next_pulse_interval": 41,
-  "last_pulse_post_min": 29724106,
+  "next_pulse_interval": 36,
+  "last_pulse_post_min": 29724152,
   "eu_slots": [
     {
       "slot": 0,
