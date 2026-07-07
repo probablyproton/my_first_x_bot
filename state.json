@@ -1,6 +1,6 @@
 {
   "date": "2026-07-07",
-  "daily_posts": 2,
+  "daily_posts": 3,
   "daily_keyword_posts": 4,
   "daily_pulse_posts": 14,
   "gemini_calls_today": 18,
@@ -43,17 +43,17 @@
     "NVT": 1142,
     "BE": 1082,
     "POWL": 1097,
-    "NOK": 977,
+    "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 96,
+  "event_log_next_id": 98,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
     "news_BE": 1082,
     "BE": 947,
     "POWL": 1097,
-    "NOK": 977,
+    "NOK": 1172,
     "news_ERIC": 1007,
     "news_DLR": 1052,
     "news_EQIX": 1172,
@@ -102,10 +102,10 @@
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
       "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
-      "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
       "Constellation Energy Corp outlook for investors as a leading US power supplier",
-      "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
-      "Constellation Energy Corporation Actuals & Estimates (SIX:CEG)",
+      "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
+      "CEG - Constellation Energy Corp Latest SEC Filings",
+      "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
       "Here's Why Constellation Energy Corporation (CEG) is a Strong Growth Stock",
@@ -219,7 +219,7 @@
       "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "From linear to circular: how rethinking usage and waste saves Earth’s resources",
-      "ABB to invest $75 million in India to expand manufacturing, R&D"
+      "ABB Ltd (VTX:ABBN) most popular amongst retail investors who own 51% of the shares, institutions hold 34%"
     ],
     "VRT": [
       "Accenture Down 29.3% in 3 Months: How to Approach the Stock Now?",
@@ -238,7 +238,7 @@
       "Vertiv Holdings Co’s Stock Price Soars to $318.47, Witnessing a Robust 5.97% Increase",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
       "Vertiv Holdings Co Stock (VRT) Closed Up by 5.79% on Jul 6",
-      "Vertiv Holdings: When Even A Great Quarter Isn't Enough",
+      "Vertiv Jumps 9.2% as AI Infrastructure Expansion Supports Bullish Sentiment",
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
       "Noteworthy ETF Outflows: IVW, VRT, PWR, NEM",
       "S&P 500 Movers: ORLY, VRT"
@@ -275,17 +275,7 @@
       "TeamViewer Tops Frost & Sullivan's 2026 AR-Centric Augmented Connected Worker Rankings",
       "Global Industrial Process Heating Market to Hit USD 17.47 Billion by 2032",
       "Compass Datacenters Donates $12.6M Building to Texas State Technical College to Expand Career Training for the Fast-Growing Digital Economy",
-      "Fermi Selects Primoris Services Corporation to Engineer and Construct Balance of Plant for First Six SGT-800 Gas Turbines of Phase One Power Buildout",
-      "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Energy to invest $421 million in NC",
-      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
-      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
-      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Launches Wendell Microgrid at HQ Campus",
-      "Siemens stock falls after Q4 earnings miss and weaker 2026 outlook"
+      "Fermi Selects Primoris Services Corporation to Engineer and Construct Balance of Plant for First Six SGT-800 Gas Turbines of Phase One Power Buildout"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -350,7 +340,7 @@
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
       "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
-      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
+      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell Midcap Growth Benchmark",
       "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05"
     ],
     "DLR": [
@@ -370,7 +360,7 @@
       "Digital Realty (DLR) Stock Could Be 35% Undervalued Despite $3.5b Data Center Deal",
       "Digital Realty (NYSE: DLR) to acquire $3.5B Blackstone hyperscale data centers",
       "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers",
-      "Digital Realty Trust Inc. stock underperforms Wednesday when compared to competitors",
+      "Digital Realty Trust data center REIT and global cloud infrastructure context",
       "This Asset Class Has Lagged the Market for Years But Was the Best Performer in June. Time to Invest?",
       "Noteworthy ETF Outflows: IYR, WELL, EQIX, DLR",
       "Prediction: Realty Income's Data Center Pivot Will Supercharge Its Dividend Growth Over the Next Decade"
@@ -385,17 +375,7 @@
       "Southern Company Approves Rate Cut for Georgia Power Customers",
       "ENGIY vs. PNW: Which Stock Is the Better Value Option?",
       "Engie’s Belgian Battery Project And What It Means For Cash Flows",
-      "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?",
-      "Engie confirms wind turbine damage in South Dakota after storm",
-      "Engie agrees offtake deal with developer for 625MWh of Spain BESS",
-      "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
-      "ENGIE and IGNIS Sign a Long-Term Agreement for Battery Energy Storage in Spain",
-      "Ineos lines up blue hydrogen supply from Equinor-Engie for Antwerp cracker",
-      "South Dakota storm strikes two ENGIE wind farms",
-      "The Group’s human rights approach",
-      "Arcadia acquires Engie Impact to create unified energy management platform",
-      "Engie and Ignis Ink 625 MWh Battery Storage Agreement in Spain - News and Statistics",
-      "Ineos agrees ‘preliminary commercial terms’ to offtake blue hydrogen from Engie and Equinor’s 1GW H2BE project"
+      "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?"
     ],
     "SU.PA": [
       "Schneider Electric (ENXTPA:SU) Buys Cognite And Lands California SF6 Free Grid Deal",
@@ -493,16 +473,12 @@
       "Nokia's 138% Run Has A Margin Problem",
       "Nokia (HLSE:NOKIA) Expands Into Defense With Military Networks And Anti Drone Partnerships",
       "Nokia (NOK) Joins Finnish Consortium to Develop National Counter-Drone Network",
-      "NOK Stock Rides AI Partnerships And Fresh Buy Rating",
-      "Nokia Corporation Sponsored Stock 12‑Month Price Target Raised to $12.07, Implies 16% Downside",
-      "NOK Stock Slides As ADR Underperformance Draws Trader Scrutiny",
-      "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
-      "NOK Stock Slides As Selling Pressure Builds In June",
-      "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
-      "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
-      "Nokia Stock Slides As Volatility And Social Buzz Collide",
-      "NOK Stock Slides As Repeated ADR Selloffs Rattle Traders",
-      "NOK Stock Slides As ADR Declines Rattle Traders"
+      "Pre-Market Most Active for Jul 7, 2026 :  CRNX, TQQQ, NVDA, SQQQ, SPCX, NOK, INTC, NU, BRBR, SMR, BABA, TOST",
+      "Pre-Market Most Active for Jul 6, 2026 :  SEER, NOK, IBIT, PEW, TQQQ, SQQQ, SPCX, KEEL, BMNR, NIO, ORCL, CRCL",
+      "Nvidia CEO Jensen Huang Highlighted a New AI Bottleneck. 3 AI Stocks That Could Benefit.",
+      "Pre-Market Most Active for Jul 2, 2026 :  SQQQ, TQQQ, TSLL, MUD, IBIT, INTC, NOK, NIO, FPS, BMNR, CRCL, INFQ",
+      "Nokia Rises 105.2% Year to Date: Is There More Upside Ahead?",
+      "Pre-Market Most Active for Jul 1, 2026 :  SOC, TQQQ, SPCX, SQQQ, OKLL, TSLL, NOWL, NOK, NIO, NKE, CRCL, SGOV"
     ],
     "POWL": [
       "Investors Heavily Search Powell Industries, Inc. (POWL): Here is What You Need to Know",
@@ -767,29 +743,6 @@
       ]
     },
     {
-      "symbol": "LR.PA",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "Kepler Cheuvreux upgrades Legrand stock rating on data center demand",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUnBFb21pYWZiTkx3LVRUQ1RWTlRORG8xRzRITWY3eFktQ2YySWJxR1pfMU03cDJzVzN6dHFSRlE4N3gzeVFHM0M4eEFoSzdnSTNDREwzcllqM28zcHM2SXZtUEZLVDd5M1k5WUJLNXJZcXJ3d05DUVdlanVFcnpLVl9GX1U2Mk0xWVdpbFNCN3QwTmhaOTVZeWRmVkotNk5FNjl2UEZ0aEpVSzdWWlpxbUlqekdMSmN3TF9PUlVWNEpDcUNobzdB?oc=5",
-      "source": "Investing.com",
-      "method": "keyword",
-      "published": "2026-07-07T08:26:45",
-      "queued_min": 29723731,
-      "all_articles": [
-        {
-          "headline": "Kepler Cheuvreux upgrades Legrand stock rating on data center demand",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUnBFb21pYWZiTkx3LVRUQ1RWTlRORG8xRzRITWY3eFktQ2YySWJxR1pfMU03cDJzVzN6dHFSRlE4N3gzeVFHM0M4eEFoSzdnSTNDREwzcllqM28zcHM2SXZtUEZLVDd5M1k5WUJLNXJZcXJ3d05DUVdlanVFcnpLVl9GX1U2Mk0xWVdpbFNCN3QwTmhaOTVZeWRmVkotNk5FNjl2UEZ0aEpVSzdWWlpxbUlqekdMSmN3TF9PUlVWNEpDcUNobzdB?oc=5",
-          "source": "Investing.com",
-          "summary": "",
-          "published": "2026-07-07T08:26:45"
-        }
-      ]
-    },
-    {
       "symbol": "GEV",
       "classification": {
         "is_major": true,
@@ -884,8 +837,7 @@
       0
     ],
     "price_event": [
-      2,
-      4
+      2
     ]
   },
   "last_evergreen_min": 29724047,
@@ -900,29 +852,29 @@
     "ABBN.SW": 83.4,
     "ENR.DE": 154.66,
     "RWE.DE": 56.62,
-    "ETN": 390.96,
-    "EQIX": 1020.84,
-    "CRWV": 82.97,
-    "NEE": 88.71,
-    "POWL": 230.38,
-    "NVT": 150.25,
-    "TLN": 367.23,
-    "IREN": 41.23,
-    "APLD": 31.71,
-    "GEV": 1054.15,
-    "NOK": 11.94,
-    "DLR": 174.63,
-    "VRT": 301.45,
-    "ERIC": 10.88,
-    "CEG": 241.48,
-    "VST": 156.41,
-    "BE": 267.31,
-    "PWR": 649.08
+    "ETN": 392.16,
+    "EQIX": 1022.46,
+    "CRWV": 83.23,
+    "NEE": 88.49,
+    "POWL": 230.73,
+    "NVT": 150.51,
+    "TLN": 368.54,
+    "IREN": 41.37,
+    "APLD": 31.84,
+    "GEV": 1061.22,
+    "NOK": 11.91,
+    "DLR": 175.18,
+    "VRT": 302.67,
+    "ERIC": 10.85,
+    "CEG": 241.08,
+    "VST": 155.93,
+    "BE": 269.14,
+    "PWR": 650.05
   },
   "day_event_fired": {
     "BE": "2026-07-06",
     "POWL": "2026-07-07",
-    "NOK": "2026-07-06",
+    "NOK": "2026-07-07",
     "VRT": "2026-07-06",
     "TLN": "2026-07-06",
     "IREN": "2026-07-06",
@@ -965,5 +917,5 @@
   "us_posted": [
     0
   ],
-  "us_flexible_used": 2
+  "us_flexible_used": 3
 }
