@@ -1,10 +1,10 @@
 {
   "date": "2026-07-07",
   "daily_posts": 0,
-  "daily_keyword_posts": 1,
+  "daily_keyword_posts": 2,
   "daily_pulse_posts": 9,
   "gemini_calls_today": 18,
-  "evergreen_opinion_posts_today": 0,
+  "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-07-06"
@@ -46,7 +46,7 @@
     "NOK": 977,
     "NEE": 783
   },
-  "event_log_next_id": 86,
+  "event_log_next_id": 87,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -78,13 +78,13 @@
       "VoltServer and Eaton Form Strategic Partnership to Advance Next-Generation Power Distribution",
       "nVent Stock Outlook Gets a Boost From Data Center Demand Wave",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
+      "Eaton Corporation, PLC (ETN) Is a Trending Stock: Facts to Know Before Betting on It",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
       "Eaton Denied Refund Claim Citing California Tax Authority Advice",
       "Eaton Corp. PLC stock outperforms competitors on strong trading day",
       "A Look at Eaton Corp PLC (ETN) After 3.7% Gain -- GF Value $388.",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
-      "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
       "Industrial Select Sector SPDR Fund Experiences Big Inflow",
       "This Critical Infrastructure Stock Could Be a Hidden AI Winner"
     ],
@@ -99,14 +99,14 @@
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
       "Energy Transition Today - Driving Grid Stability With Vehicle-To-Grid Innovation",
       "Is Constellation Energy Corporation (CEG) Among the Best AI Power Grid Stocks to Buy According to Analysts?",
+      "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
-      "Constellation Energy Corp. stock rises Thursday, outperforms market",
-      "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "CEG - Constellation Energy Corp Latest SEC Filings",
-      "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
+      "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
-      "Constellation Energy Corp. stock falls Wednesday, underperforms market",
+      "Constellation Energy Corp. stock rises Thursday, outperforms market",
+      "Constellation Energy Corporation (CEG) Exceeds Market Returns: Some Facts to Consider",
       "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
     ],
@@ -188,15 +188,15 @@
       "Northampton Capital Partners, Olympus Power Form JV and Reach Agreement to Acquire New England, New York Generating Assets",
       "Nuclear Power Is the Only Real Answer to AI Data Center Demand and These 3 ETFs Cover the Trade at Three Risk Levels",
       "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
+      "Hodges Capital Management Inc. Sells 28,236 Shares of Vistra Corp. $VST",
       "Earnings call transcript: Vistra Energy tops Q1 2026 forecasts, stock rises",
       "Vistra sets Aug. 7 call for second-quarter results",
-      "Vistra (NYSE:VST) Shares Up 4.1% - Here's Why",
       "Vistra Corp (VST) Shares Surge 4.1% -- What GF Score of 84 Tells Investors",
       "Battery removal at Moss Landing nears completion after 2025 Vistra fire",
       "CA: VISTRA FIRE BATTERY REMOVAL NEARLY DONE",
-      "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
-      "Vistra or Public Service Enterprise: Which Utility Stock Stands Out?",
-      "The Ultimate AI Power Supercycle Winner: NextEra Energy or Vistra Stock?"
+      "Vistra Corp (VST) Gets a Buy from Wells Fargo",
+      "VST - Vistra Corp Volatility & Greeks",
+      "Noteworthy Wednesday Option Activity: AMZN, WMT, VST"
     ],
     "ABBN.SW": [
       "AI’s Next Act Isn’t Chatbots. It’s Robots, and BOTZ Is the Bet",
@@ -276,15 +276,15 @@
       "Compass Datacenters Donates $12.6M Building to Texas State Technical College to Expand Career Training for the Fast-Growing Digital Economy",
       "Fermi Selects Primoris Services Corporation to Engineer and Construct Balance of Plant for First Six SGT-800 Gas Turbines of Phase One Power Buildout",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
+      "Siemens Launches Wendell Microgrid at HQ Campus",
+      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
+      "Tobias Bauer",
       "Siemens Energy to invest $421 million in NC",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Launches Wendell Microgrid at HQ Campus",
-      "Siemens stock falls after Q4 earnings miss and weaker 2026 outlook"
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
     ],
     "APLD": [
       "Is Applied Digital’s (APLD) New 175 MW AI Campus Milestone Redefining Its Core Infrastructure Story?",
@@ -297,13 +297,13 @@
       "Applied Digital Continues Heavy Capital Spending: What's Ahead?",
       "Wall Street Thinks You Should Buy The Dip On Applied Digital (APLD) Stock",
       "Applied Digital (APLD): One of the Top Hot Stocks with the Highest Upside Potential",
+      "Applied Digital Delivers Second Building at Polaris Forge 1",
       "Is Applied Digital’s (APLD) 75 MW AI Expansion a Turning Point in Its Infrastructure Strategy?",
-      "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth",
       "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
-      "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
-      "Applied Digital Delivers Second Building at Polaris Forge 1",
-      "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1",
+      "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth",
+      "Applied Digital Reports Fiscal Third Quarter 2026 Results",
+      "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now?",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)",
       "Cboe Global Markets and Applied Digital have been highlighted as Zacks Bull and Bear of the Day"
@@ -320,15 +320,15 @@
       "European Stocks Rise in Friday Trading Following Middle East War Ceasefire",
       "How The E.ON (XTRA:EOAN) Narrative Is Shifting As Analyst Views Split On Upside Potential",
       "E.ON stock tracks its utility profile. E.ON SE stays in focus.",
-      "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
       "E.ON stock holds steady. Focus shifts to earnings and grid spending.",
-      "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
       "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix.",
       "E.ON SE outlines grid investment priorities as energy transition accelerates",
       "E.ON SE outlines long-term energy transition strategy for investors",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
-      "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri"
+      "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri",
+      "E.ON SE builds its role in Europe. Energy systems shift toward renewables",
+      "E.ON SE focuses on energy transition as investors weigh long-term growth prospects"
     ],
     "TLN": [
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
@@ -341,16 +341,16 @@
       "Nuclear Stocks Oklo, Centrus Jump After Signing Uranium Deal",
       "Stocks Supported as Geopolitical Risks Recede",
       "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
+      "TLN - Talen Energy Corp Options",
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
       "Talen Energy Corp (TLN) Gets a Buy from Wells Fargo",
       "Price to sales forward of Talen Energy Corporation – NASDAQ:TLN",
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
-      "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
       "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
-      "TLN - Talen Energy Corp Revenue Breakdown",
+      "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
       "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
-      "Talen Energy offers higher growth but more risk; Vistra is safer with strong diversification and buybacks."
+      "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05"
     ],
     "DLR": [
       "Keel Infrastructure appoints former REIT executive Ganesh Aiyer as president amid 2.2 GW AI pipeline push",
@@ -386,15 +386,15 @@
       "Engie’s Belgian Battery Project And What It Means For Cash Flows",
       "Should Value Investors Buy ENGIE - Sponsored ADR (ENGIY) Stock?",
       "Engie confirms wind turbine damage in South Dakota after storm",
-      "Ineos lines up blue hydrogen supply from Equinor-Engie for Antwerp cracker",
-      "Engie agrees offtake deal with developer for 625MWh of Spain BESS",
       "ENGIE and IGNIS Sign a Long-Term Agreement for Battery Energy Storage in Spain",
+      "Engie agrees offtake deal with developer for 625MWh of Spain BESS",
       "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
-      "ENGIE Q1 2026 Financial Information",
+      "Ineos lines up blue hydrogen supply from Equinor-Engie for Antwerp cracker",
       "South Dakota storm strikes two ENGIE wind farms",
       "The Group’s human rights approach",
+      "Arcadia acquires Engie Impact to create unified energy management platform",
       "Ineos agrees ‘preliminary commercial terms’ to offtake blue hydrogen from Engie and Equinor’s 1GW H2BE project",
-      "ENGIE launches its first campaign with Tamara Klink, reinforcing the concept of \"The Same Energy\" alongside the sailor"
+      "Aker BioMarine signs agreement with Engie for 100% renewable energy"
     ],
     "SU.PA": [
       "Schneider Electric (ENXTPA:SU) Buys Cognite And Lands California SF6 Free Grid Deal",
@@ -472,6 +472,7 @@
       "The Real Cost Of Building A $2,500-A-Month Income Portfolio",
       "The Portfolio That Lets You Go Part-Time Five Years Early",
       "What A $750,000 Dividend Portfolio Actually Pays After Taxes, Medicare Premiums, And Reality",
+      "NextEra Energy: Buy Rating Reaffirmed with Unchanged $112 Price Target as Dominion Acquisition Advances Strategic and Regulatory Positioning",
       "How an Ambitious Energy Giant Wielded Political Power in Florida",
       "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
       "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers",
@@ -479,7 +480,6 @@
       "NextEra Energy to buy Dominion in deal that unites two key players in race to power AI data centers",
       "What Dominion and NextEra Energy’s proposed merger means for Virginia customers",
       "Why you should care about 2 power companies merging. Hint: affordability",
-      "NextEra's $67 billion Dominion takeover creates world's largest utility—just in time to win the AI data center power surge",
       "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge.",
       "Oklo Advances Groves Isotope Test Reactor With Key DOE Safety Approval"
     ],
@@ -498,12 +498,12 @@
       "Nokia Corporation Sponsored Stock 12‑Month Price Target Raised to $12.07, Implies 16% Downside",
       "NOK Stock Slides As ADR Underperformance Draws Trader Scrutiny",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
+      "NOK Stock Slides As Selling Pressure Builds In June",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
-      "NOK Stock Slides As ADR Declines Rattle Traders",
+      "NOK Stock Slides As Repeated ADR Selloffs Rattle Traders",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
-      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum",
-      "NOK Stock Jumps As Analysts Chase AI-Fueled Upside"
+      "NOK Stock Slides As ADR Declines Rattle Traders"
     ],
     "POWL": [
       "Investors Heavily Search Powell Industries, Inc. (POWL): Here is What You Need to Know",
@@ -519,8 +519,8 @@
       "Does Powell Industries’ (POWL) Russell 1000 Promotion Reframe Its Role in Critical Infrastructure Markets?",
       "Powell Industries (POWL) CEO trims stake with 36,000-share sale",
       "POWL - Powell Industries Inc Latest SEC Filings",
-      "Brett A. Cope awarded 36,000 RSUs by Powell",
       "Powell Industries slides as valuation pressure and recent insider selling weigh on sentiment",
+      "Brett A. Cope awarded 36,000 RSUs by Powell",
       "Powell Industries options trading surges amid stock decline",
       "Powell Industries (POWL) awards 36,000 backloaded RSUs to CEO Brett Cope",
       "Powell Industries (POWL) Joins Key Russell Indexes, Is The Upside Already Priced In?",
@@ -716,7 +716,8 @@
     }
   ],
   "holding_disclosures_seen": {
-    "vrt:leonteqsecuritiesag:12801": "2026-07-05"
+    "vrt:leonteqsecuritiesag:12801": "2026-07-05",
+    "vst:hodgescapitalmanagementinc:28236": "2026-07-07"
   },
   "news_category_posted": {
     "VST": {
@@ -752,23 +753,23 @@
     }
   },
   "recent_post_sources": [
-    "StocksToTrade",
     "MLex",
     "Investing.com",
     "Business Chief",
     "Investing.com",
-    "TipRanks"
+    "TipRanks",
+    "DatacenterDynamics"
   ],
   "last_news_post_min": 29723703,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
-    "cameroon's st digital opens data center in gabon": "2026-07-06"
+    "cameroon's st digital opens data center in gabon": "2026-07-06",
+    "2mw telco data center on sale in cincinnati, ohio": "2026-07-07"
   },
   "pulse_template_decks": {
     "evergreen": [
-      0,
-      2
+      0
     ],
     "mover": [
       6,
@@ -781,36 +782,36 @@
       0
     ]
   },
-  "last_evergreen_min": 29722412,
+  "last_evergreen_min": 29723852,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.96,
-    "ENGI.PA": 27.2,
-    "SU.PA": 271.45,
-    "SIE.DE": 272.0,
-    "LR.PA": 143.35,
-    "EOAN.DE": 18.95,
-    "ABBN.SW": 84.18,
-    "ENR.DE": 158.02,
+    "IBE.MC": 20.91,
+    "ENGI.PA": 27.24,
+    "SU.PA": 271.6,
+    "SIE.DE": 272.85,
+    "LR.PA": 142.9,
+    "EOAN.DE": 18.96,
+    "ABBN.SW": 84.12,
+    "ENR.DE": 157.98,
     "RWE.DE": 56.28,
-    "ETN": 413.18,
-    "EQIX": 997.96,
-    "CRWV": 86.66,
-    "NEE": 87.33,
-    "POWL": 248.11,
-    "NVT": 156.18,
-    "TLN": 380.23,
-    "IREN": 44.0,
-    "APLD": 33.66,
-    "GEV": 1151.1,
-    "NOK": 12.51,
-    "DLR": 172.93,
-    "VRT": 317.69,
-    "ERIC": 10.91,
-    "CEG": 246.21,
-    "VST": 156.0,
-    "BE": 293.6,
-    "PWR": 672.28
+    "ETN": 399.91,
+    "EQIX": 999.17,
+    "CRWV": 84.31,
+    "NEE": 88.39,
+    "POWL": 237.18,
+    "NVT": 153.18,
+    "TLN": 372.73,
+    "IREN": 42.37,
+    "APLD": 32.7,
+    "GEV": 1076.28,
+    "NOK": 12.11,
+    "DLR": 174.61,
+    "VRT": 301.27,
+    "ERIC": 10.97,
+    "CEG": 243.35,
+    "VST": 155.82,
+    "BE": 280.5,
+    "PWR": 659.6
   },
   "day_event_fired": {
     "BE": "2026-07-06",
@@ -853,5 +854,7 @@
       "fire_time": "22:29"
     }
   ],
-  "us_posted": []
+  "us_posted": [
+    0
+  ]
 }
