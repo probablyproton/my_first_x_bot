@@ -2,8 +2,8 @@
   "date": "2026-07-07",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 0,
-  "gemini_calls_today": 2,
+  "daily_pulse_posts": 1,
+  "gemini_calls_today": 4,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -45,7 +45,7 @@
     "POWL": 962,
     "NOK": 977
   },
-  "event_log_next_id": 75,
+  "event_log_next_id": 76,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -104,7 +104,7 @@
       "CEG - Constellation Energy Corp Latest SEC Filings",
       "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
       "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
-      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
+      "Constellation Energy Corporation Announces Pricing of Secondary Public Offering of Common Stock",
       "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
     ],
@@ -209,14 +209,14 @@
       "ABB (SWX:ABBN) Stock Valuation After A 74% One Year Total Return",
       "If You Invested $1,000 in Abb Ltd Zuerich (ABLZF)",
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results",
-      "ABB (ABBNY) Stock Price, News & Analysis",
       "ABB/N Forecast — Price Target — Prediction for 2027",
+      "ABB (ABBNY) Stock Price, News & Analysis",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
-      "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "ABB to divest Robotics division to SoftBank Group",
+      "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "ABB Ltd (VTX:ABBN) most popular amongst retail investors who own 51% of the shares, institutions hold 34%",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
-      "ABB to invest $75 million in India to expand manufacturing, R&D"
+      "From linear to circular: how rethinking usage and waste saves Earth’s resources"
     ],
     "VRT": [
       "Why Vertiv (VRT) Stock Is Up Today",
@@ -322,7 +322,7 @@
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
-      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview",
+      "Here are takeaways from Sen. Malone's roundtable discussion on e-bikes, micromobility",
       "E.ON shares track its regulated utility model. Investor focus stays on power grids and customer supp",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
@@ -438,6 +438,7 @@
       "After Skyrocketing Nearly 200%, Is It Too Late to Buy Bloom Energy?"
     ],
     "RWE.DE": [
+      "Google, RWE back Proxima Fusion in €411 million financing round",
       "Proxima Fusion Raises €411 Million at a €2.4B Valuation to Build Europe’s Commercial Fusion Champion",
       "FPT Achieves SAP® Silver Partner Status in the SAP® PartnerEdge® Program, Expanding SAP Capabilities for European Enterprises",
       "Stocks Stall as Iran Nuclear Talks Hit Early Snag: Markets Wrap",
@@ -447,7 +448,6 @@
       "RWE completes installation of all turbines at Sofia offshore wind farm",
       "Meta Announces PPA With RWE for 298-MW Texas Solar Power Project",
       "Meta expands partnership with RWE through a long-term corporate PPA for Rabbit's Foot Solar in North Texas",
-      "DNV certifies third milestone for Nordseecluster A offshore wind projects",
       "RWE delivers strong financial performance in 2025 and sets course for exceptional earnings growth until 2031",
       "Germany’s RWE plans nearly $20B US investment, including gas peakers",
       "All You Need to Know About RWE AG (RWEOY) Rating Upgrade to Strong Buy",
@@ -470,7 +470,6 @@
       "The Real Cost Of Building A $2,500-A-Month Income Portfolio",
       "The Portfolio That Lets You Go Part-Time Five Years Early",
       "What A $750,000 Dividend Portfolio Actually Pays After Taxes, Medicare Premiums, And Reality",
-      "Fire extinguished on property of Seabrook Station Nuclear Power Plant, plant's owner says",
       "How an Ambitious Energy Giant Wielded Political Power in Florida",
       "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
       "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers",
@@ -478,6 +477,7 @@
       "NextEra Energy to buy Dominion in deal that unites two key players in race to power AI data centers",
       "What Dominion and NextEra Energy’s proposed merger means for Virginia customers",
       "Why you should care about 2 power companies merging. Hint: affordability",
+      "NextEra's $67 billion Dominion takeover creates world's largest utility—just in time to win the AI data center power surge",
       "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge.",
       "Oklo Advances Groves Isotope Test Reactor With Key DOE Safety Approval"
     ],
@@ -496,12 +496,12 @@
       "Nokia Corporation Sponsored Stock 12‑Month Price Target Raised to $12.07, Implies 16% Downside",
       "NOK Stock Slides As ADR Underperformance Draws Trader Scrutiny",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
-      "NOK Stock Slides As Selling Pressure Builds In June",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
-      "NOK Stock Slides As ADR Declines Rattle Traders",
       "Nokia Stock Slides As Volatility And Social Buzz Collide",
-      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum"
+      "NOK Stock Slides As ADR Declines Rattle Traders",
+      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum",
+      "NOK Stock Jumps As Analysts Chase AI-Fueled Upside"
     ],
     "POWL": [
       "Investors Heavily Search Powell Industries, Inc. (POWL): Here is What You Need to Know",
@@ -541,11 +541,11 @@
       "Iberdrola presenta la opa por las acciones de Neoenergia que no controla",
       "Iberdrola emprende acciones legales contra el presidente de Red Eléctrica tras el apagón.",
       "Iberdrola will invest €41 billion and hire 10,000 people by 2026 to accelerate electrification",
+      "Mexico’s Dispute With Iberdrola Over Illegal Energy Sale Seen Dragging On",
       "Iberdrola debe mejorar su beneficio un 14% este miércoles si no quiere decepcionar al mercado",
-      "Spain’s Iberdrola to Sell Majority of Its Electric Power Generation Plants In Mexico",
       "Giving banking a more human voice: Unicaja’s move to conversational banking driven by Artificial Intelligence",
       "We announced full-year 2022 results",
-      "Deloitte’s private equity in sports playbook"
+      "Spain’s Iberdrola to Sell Majority of Its Electric Power Generation Plants In Mexico"
     ],
     "CRWV": [
       "TeraWulf, Anthropic Sign $19 Billion Data Center Lease. Neocloud Stocks Soar.",
@@ -738,8 +738,7 @@
     "mover": [
       4,
       1,
-      0,
-      2
+      0
     ],
     "price_event": [
       2,
@@ -751,15 +750,15 @@
   "last_evergreen_min": 29722412,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.97,
-    "ENGI.PA": 27.22,
-    "SU.PA": 277.6,
-    "SIE.DE": 281.25,
-    "LR.PA": 143.35,
-    "EOAN.DE": 18.99,
-    "ABBN.SW": 86.84,
-    "ENR.DE": 169.56,
-    "RWE.DE": 57.46,
+    "IBE.MC": 20.93,
+    "ENGI.PA": 27.21,
+    "SU.PA": 278.35,
+    "SIE.DE": 281.6,
+    "LR.PA": 143.0,
+    "EOAN.DE": 19.0,
+    "ABBN.SW": 87.1,
+    "ENR.DE": 170.44,
+    "RWE.DE": 57.48,
     "ETN": 413.18,
     "EQIX": 997.96,
     "CRWV": 86.66,
@@ -787,8 +786,8 @@
     "TLN": "2026-07-06",
     "IREN": "2026-07-06"
   },
-  "next_pulse_interval": 38,
-  "last_pulse_post_min": 29722756,
+  "next_pulse_interval": 45,
+  "last_pulse_post_min": 29723462,
   "eu_slots": [
     {
       "slot": 0,
