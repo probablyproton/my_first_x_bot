@@ -2,7 +2,7 @@
   "date": "2026-07-07",
   "daily_posts": 0,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 7,
+  "daily_pulse_posts": 8,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -46,7 +46,7 @@
     "NOK": 977,
     "NEE": 783
   },
-  "event_log_next_id": 83,
+  "event_log_next_id": 85,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -80,10 +80,10 @@
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
       "Eaton Denied Refund Claim Citing California Tax Authority Advice",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
-      "Eaton Corp. PLC stock outperforms competitors on strong trading day",
+      "A Look at Eaton Corp PLC (ETN) After 3.7% Gain -- GF Value $388.",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
-      "EATON CORPORATION PLC shs Thailand Depositary Receipts Repr 1 Sh Trade Ideas — SET:ETN23",
+      "Eaton Corp. PLC stock underperforms Thursday when compared to competitors",
       "Dana and Eaton to combine vehicle businesses in $5.1B deal",
       "Industrial Select Sector SPDR Fund Experiences Big Inflow",
       "This Critical Infrastructure Stock Could Be a Hidden AI Winner"
@@ -99,14 +99,14 @@
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
       "Energy Transition Today - Driving Grid Stability With Vehicle-To-Grid Innovation",
       "Is Constellation Energy Corporation (CEG) Among the Best AI Power Grid Stocks to Buy According to Analysts?",
-      "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
-      "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
-      "Constellation Energy Corporation Actuals & Estimates (SIX:CEG)",
-      "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
-      "Is Constellation Energy Corporation (CEG) A Good Stock To Buy Now?",
+      "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
+      "CEG - Constellation Energy Corp Latest SEC Filings",
+      "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
+      "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
+      "Constellation Energy Corp. stock falls Wednesday, underperforms market",
       "AI Can't Thrive Without This Stock (Hint: It's Not Nvidia)",
       "Noteworthy Wednesday Option Activity: TRUP, CEG, ASTS"
     ],
@@ -192,8 +192,8 @@
       "Vistra sets Aug. 7 call for second-quarter results",
       "Vistra (NYSE:VST) Shares Up 4.1% - Here's Why",
       "Vistra Corp (VST) Shares Surge 4.1% -- What GF Score of 84 Tells Investors",
+      "$Vistra Energy (VST.US)$",
       "Battery removal at Moss Landing nears completion after 2025 Vistra fire",
-      "CA: VISTRA FIRE BATTERY REMOVAL NEARLY DONE",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST",
       "Vistra or Public Service Enterprise: Which Utility Stock Stands Out?",
       "The Ultimate AI Power Supercycle Winner: NextEra Energy or Vistra Stock?"
@@ -214,13 +214,14 @@
       "ABB/N Forecast — Price Target — Prediction for 2027",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
       "ABB to divest Robotics division to SoftBank Group",
-      "ABB Ltd (VTX:ABBN) most popular amongst retail investors who own 51% of the shares, institutions hold 34%",
       "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "From linear to circular: how rethinking usage and waste saves Earth’s resources",
-      "ABB to invest $75 million in India to expand manufacturing, R&D"
+      "ABB to invest $75 million in India to expand manufacturing, R&D",
+      "ABB outlines long-term electrification strategy as industrial demand evolves"
     ],
     "VRT": [
+      "Musashi Seimitsu might be the missing piece in power distribution for datacenters",
       "Why Vertiv (VRT) Stock Is Up Today",
       "What Vertiv Stock Was Saying About The AI Factory Build-Out",
       "Will Vertiv’s New Malaysia AI Cooling Hub Reshape Vertiv Holdings Co's (VRT) Data Center Narrative?",
@@ -230,7 +231,6 @@
       "Vertiv Holdings (VRT) Didn’t Fail To Impress After Jim Cramer Shared When To Buy The Shares",
       "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Data Center Play Leads EPS Gauge",
       "Should You Buy, Sell, or Hold TER Stock After a 38% Rise in 3 Months?",
-      "nVent Stock Outlook Gets a Boost From Data Center Demand Wave",
       "A Look at Vertiv Holdings Co (VRT) After 6.0% Gain -- GF Value $154.33 vs Price $324.88",
       "Vertiv Holdings Co’s Stock Price Soars to $318.47, Witnessing a Robust 5.97% Increase",
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
@@ -324,11 +324,11 @@
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE outlines long-term energy transition strategy for investors",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
+      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
       "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri",
       "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
-      "E.ON shares track its regulated utility model. Investor focus stays on power grids and customer supp",
-      "E.ON SE focuses on energy transition and grid investment"
+      "E.ON shares track its regulated utility model. Investor focus stays on power grids and customer supp"
     ],
     "TLN": [
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
@@ -341,16 +341,16 @@
       "Nuclear Stocks Oklo, Centrus Jump After Signing Uranium Deal",
       "Stocks Supported as Geopolitical Risks Recede",
       "Stocks Rally as President Trump Signs a Preliminary Deal to End the US-Iran War",
-      "TLN - Talen Energy Corp Options",
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
       "Talen Energy Corp (TLN) Gets a Buy from Wells Fargo",
       "Price to sales forward of Talen Energy Corporation – NASDAQ:TLN",
       "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
       "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
+      "TLN - Talen Energy Corp Revenue Breakdown",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
-      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
-      "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05"
+      "Talen Energy offers higher growth but more risk; Vistra is safer with strong diversification and buybacks.",
+      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark"
     ],
     "DLR": [
       "Keel Infrastructure appoints former REIT executive Ganesh Aiyer as president amid 2.2 GW AI pipeline push",
@@ -390,11 +390,11 @@
       "Engie agrees offtake deal with developer for 625MWh of Spain BESS",
       "ENGIE and IGNIS Sign a Long-Term Agreement for Battery Energy Storage in Spain",
       "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
+      "ENGIE Q1 2026 Financial Information",
       "South Dakota storm strikes two ENGIE wind farms",
       "Ineos agrees ‘preliminary commercial terms’ to offtake blue hydrogen from Engie and Equinor’s 1GW H2BE project",
-      "The Group’s human rights approach",
       "Turbines destroyed after 'uniquely violent' storm strikes South Dakota",
-      "Arcadia acquires Engie Impact to create unified energy management platform"
+      "The Group’s human rights approach"
     ],
     "SU.PA": [
       "Schneider Electric (ENXTPA:SU) Buys Cognite And Lands California SF6 Free Grid Deal",
@@ -440,6 +440,7 @@
       "After Skyrocketing Nearly 200%, Is It Too Late to Buy Bloom Energy?"
     ],
     "RWE.DE": [
+      "Germany's Proxima Fusion secures $2.7B valuation as Google backs Europe's reactor race",
       "Market Chatter: Google Invests in Proxima Fusion as Startup Plans Fusion Plant",
       "Google, RWE back Proxima Fusion in €411 million financing round",
       "Proxima Fusion Raises €411 Million at a €2.4B Valuation to Build Europe’s Commercial Fusion Champion",
@@ -449,9 +450,8 @@
       "First turbine up at Nordseecluster A offshore wind farm in German North Sea",
       "Cadeler completes final turbine installation at RWE’s Sofia Offshore Wind Farm",
       "RWE completes installation of all turbines at Sofia offshore wind farm",
-      "Meta Announces PPA With RWE for 298-MW Texas Solar Power Project",
       "RWE delivers strong financial performance in 2025 and sets course for exceptional earnings growth until 2031",
-      "RWE AG highlights renewable expansion as energy transition accelerates",
+      "RWE AG outlines its energy transition path as investors weigh long-term growth",
       "Germany’s RWE plans nearly $20B US investment, including gas peakers",
       "All You Need to Know About RWE AG (RWEOY) Rating Upgrade to Strong Buy",
       "RWE delivers strong start to the year: adjusted earnings per share up 25 per cent year-on-year",
@@ -459,7 +459,7 @@
       "RWE AG - Increases Investment In Focused Energy",
       "Earnings call transcript: RWE Q1 2026 shows strong growth amid trading headwinds",
       "RWE AG(NEU) : Barclays gives a Buy rating",
-      "RWE's revenue 2008-2024"
+      "RWE AG highlights renewable expansion as energy transition accelerates"
     ],
     "NEE": [
       "The Income Ladder: What It Takes To Go From $250 To $5,000 A Month",
@@ -498,12 +498,12 @@
       "Nokia Corporation Sponsored Stock 12‑Month Price Target Raised to $12.07, Implies 16% Downside",
       "NOK Stock Slides As ADR Underperformance Draws Trader Scrutiny",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
-      "NOK Stock Slides As Selling Pressure Builds In June",
       "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
-      "NOK Stock Slides As Repeated ADR Selloffs Rattle Traders",
+      "Nokia Stock Slides As Volatility And Social Buzz Collide",
       "NOK Stock Slides As ADR Declines Rattle Traders",
-      "Nokia Stock Slides As Volatility And Social Buzz Collide"
+      "Nokia Stock Jumps As AI And Analyst Upgrades Ignite Momentum",
+      "NOK Stock Jumps As Analysts Chase AI-Fueled Upside"
     ],
     "POWL": [
       "Investors Heavily Search Powell Industries, Inc. (POWL): Here is What You Need to Know",
@@ -518,9 +518,9 @@
       "What Makes Powell Industries (POWL) a Strong Investment?",
       "Does Powell Industries’ (POWL) Russell 1000 Promotion Reframe Its Role in Critical Infrastructure Markets?",
       "Powell Industries (POWL) CEO trims stake with 36,000-share sale",
-      "Brett A. Cope awarded 36,000 RSUs by Powell",
-      "POWL - Powell Industries Inc Latest SEC Filings",
       "Powell Industries slides as valuation pressure and recent insider selling weigh on sentiment",
+      "POWL - Powell Industries Inc Latest SEC Filings",
+      "Brett A. Cope awarded 36,000 RSUs by Powell",
       "Powell Industries options trading surges amid stock decline",
       "Powell Industries (POWL) awards 36,000 backloaded RSUs to CEO Brett Cope",
       "Powell Industries (POWL) Joins Key Russell Indexes, Is The Upside Already Priced In?",
@@ -543,11 +543,11 @@
       "Iberdrola presenta la opa por las acciones de Neoenergia que no controla",
       "Iberdrola emprende acciones legales contra el presidente de Red Eléctrica tras el apagón.",
       "Iberdrola will invest €41 billion and hire 10,000 people by 2026 to accelerate electrification",
-      "Mexico’s Dispute With Iberdrola Over Illegal Energy Sale Seen Dragging On",
       "Iberdrola debe mejorar su beneficio un 14% este miércoles si no quiere decepcionar al mercado",
+      "Spain’s Iberdrola to Sell Majority of Its Electric Power Generation Plants In Mexico",
       "Giving banking a more human voice: Unicaja’s move to conversational banking driven by Artificial Intelligence",
       "We announced full-year 2022 results",
-      "Spain’s Iberdrola to Sell Majority of Its Electric Power Generation Plants In Mexico"
+      "Deloitte’s private equity in sports playbook"
     ],
     "CRWV": [
       "TeraWulf, Anthropic Sign $19 Billion Data Center Lease. Neocloud Stocks Soar.",
@@ -594,6 +594,7 @@
       "Can NOK's Defense Deal Capitalize on Rising Border Security Demand?"
     ],
     "GEV": [
+      "Musashi Seimitsu might be the missing piece in power distribution for datacenters",
       "BE Stock Is Trading At A Massive Premium To Peers — Retail Bulls Still See A Nearly 4x Rally",
       "Jim Cramer makes bold buy call on one booming energy stock",
       "3 AI Data Center Power Stocks to Buy in July",
@@ -603,7 +604,6 @@
       "Oklo Advances Groves Isotope Test Reactor With Key DOE Safety Approval",
       "Bull of the Day: Bloom Energy (BE)",
       "Will GE Vernova (GEV) Beat Estimates Again in Its Next Earnings Report?",
-      "Here's Why GE Vernova Stock Soared Last Month",
       "Hitachi Energy, GE Vernova, Siemens rise up to 6% as Nomura calls recent correction an ‘overreaction’. 4 r",
       "GE Vernova Soars After Surprise Index Upgrade Buzz",
       "GE Vernova loses renewed bid to end work on New England wind farm",
@@ -662,25 +662,32 @@
   },
   "pending_news_posts": [
     {
-      "symbol": "PWR",
+      "symbol": "RWE.DE",
       "classification": {
         "is_major": true,
-        "category": "analyst_note",
-        "headline": "Truist Financial Maintains Quanta Services(PWR.US) With Buy Rating, Maintains Target Price $940",
-        "reason": "Named-firm analyst research note"
+        "category": "contract",
+        "headline": "Germany's Proxima Fusion secures $2.7B valuation as Google backs Europe's reactor race",
+        "reason": "Keyword rule matched (category: contract)"
       },
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMzlRdHhtd2J2eHlaNVNRSWtDWGlpTUF0U2VEYW8yZDZIWHlnWVgwWkpsTFZXalktY25YQjBUbGJ1eS1SMXpNOTJVQUVheFB1X3l1UmlBLVoyY3ViVFpBSkMyblI1a1JMTlk3Nm9Pdmh4TWpFOWxNc1ZXRGJqREhxRDlDY2FiUzVvUlVzM0ZhV2JrMG5jSjZEcWU0MXRiS2lraGI1UmstVHR6Q0VBMXB1a0cyZjZyZw?oc=5",
-      "source": "富途牛牛",
+      "link": null,
+      "source": null,
       "method": "keyword",
-      "published": "2026-07-07T03:31:00",
-      "queued_min": 29723416,
+      "published": "2026-07-07T12:16:34",
+      "queued_min": 29723792,
       "all_articles": [
         {
-          "headline": "Truist Financial Maintains Quanta Services(PWR.US) With Buy Rating, Maintains Target Price $940",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMzlRdHhtd2J2eHlaNVNRSWtDWGlpTUF0U2VEYW8yZDZIWHlnWVgwWkpsTFZXalktY25YQjBUbGJ1eS1SMXpNOTJVQUVheFB1X3l1UmlBLVoyY3ViVFpBSkMyblI1a1JMTlk3Nm9Pdmh4TWpFOWxNc1ZXRGJqREhxRDlDY2FiUzVvUlVzM0ZhV2JrMG5jSjZEcWU0MXRiS2lraGI1UmstVHR6Q0VBMXB1a0cyZjZyZw?oc=5",
-          "source": "富途牛牛",
+          "headline": "Germany's Proxima Fusion secures $2.7B valuation as Google backs Europe's reactor race",
+          "link": "https://finance.yahoo.com/energy/articles/germanys-proxima-fusion-secures-2-121634349.html?.tsrc=rss",
+          "source": null,
+          "summary": "Proxima Fusion co-founder and CEO Francesco Sciortino Image courtesy of Proxima Fusion Energy startup Proxima Fusion has raised €411 million from an investor group that includes Google and German energy giant RWE, to build Europe’s first commercial fusion reactor. The deal, which values Proxima at €2.4 billion (about $2.7 billion), is the largest in a series of VC energy deals in Europe this year, driven by the continent’s push for energy sovereignty. XTX Ventures and East X Ventures led the rou",
+          "published": "2026-07-07T12:16:34"
+        },
+        {
+          "headline": "RWE AG outlines its energy transition path as investors weigh long-term growth",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPc3dyRXRPR3NBeGxETzY1ZG1LMVpraTBEcTJWOC1qdGNqaEJYcFZwMmJ0aWFOMHgxZkhXWVdpQnFBLVZiSFQ0V09RRlIxZVJvN0g3XzFseU1ZbVUwYTNSWDktcThvbmtJZ0lEUndPdEdGMG9VazlSelhPZmhXaFRXdWh3MzhBNWZNMTNFODJxbkZxdW02OFZkVlZncTZSSjVKWmdxemdfMHRHMHFqUm5DXzRQT3VnTWxxV2k2VjdHb2IwbnVrMF9RTmJR?oc=5",
+          "source": "AD HOC NEWS",
           "summary": "",
-          "published": "2026-07-07T03:31:00"
+          "published": "2026-07-07T12:24:25"
         }
       ]
     },
@@ -766,8 +773,7 @@
     "mover": [
       6,
       5,
-      0,
-      3
+      0
     ],
     "price_event": [
       2,
@@ -779,15 +785,15 @@
   "last_evergreen_min": 29722412,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.9,
-    "ENGI.PA": 27.18,
-    "SU.PA": 272.05,
-    "SIE.DE": 272.65,
-    "LR.PA": 143.2,
-    "EOAN.DE": 18.98,
-    "ABBN.SW": 84.52,
-    "ENR.DE": 158.68,
-    "RWE.DE": 56.36,
+    "IBE.MC": 20.91,
+    "ENGI.PA": 27.26,
+    "SU.PA": 272.7,
+    "SIE.DE": 272.8,
+    "LR.PA": 143.7,
+    "EOAN.DE": 18.99,
+    "ABBN.SW": 84.6,
+    "ENR.DE": 157.92,
+    "RWE.DE": 56.52,
     "ETN": 413.18,
     "EQIX": 997.96,
     "CRWV": 86.66,
@@ -816,7 +822,7 @@
     "IREN": "2026-07-06"
   },
   "next_pulse_interval": 31,
-  "last_pulse_post_min": 29723746,
+  "last_pulse_post_min": 29723791,
   "eu_slots": [
     {
       "slot": 0,
