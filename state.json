@@ -2,7 +2,7 @@
   "date": "2026-07-07",
   "daily_posts": 0,
   "daily_keyword_posts": 3,
-  "daily_pulse_posts": 11,
+  "daily_pulse_posts": 12,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -46,7 +46,7 @@
     "NOK": 977,
     "NEE": 992
   },
-  "event_log_next_id": 90,
+  "event_log_next_id": 91,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
@@ -122,15 +122,15 @@
       "Quanta Services (PWR) Stock Looks Stretched Following Raised Outlook And AI Demand",
       "Is Quanta's Massive CapEx Plan a Risk or a Long-Term Gold Mine?",
       "Quanta Services president and CEO Austin Earl C. Jr. $120.2m share sale",
-      "Quanta Services (PWR) Joins Bigger Russell Indexes, Is The Upside Already Priced In?",
+      "Quanta Services",
       "Truist Financial Maintains Quanta Services(PWR.US) With Buy Rating, Maintains Target Price $940",
-      "Quanta Services Slides as Pullback Appears Tied to Valuation and a Lack of Fresh Catalysts",
       "Quanta Services Inc. stock underperforms Wednesday when compared to competitors",
       "Is PWR Overvalued? DCF Says Worth $364",
       "Quanta Services Is Maintained at Buy by Truist Securities",
       "Quanta Services (PWR) Stock Could Trade At A Premium Following Raised Outlook",
-      "Joseph Kim Joins Quanta Services Board of Directors",
-      "BCKIY or PWR: Which Is the Better Value Stock Right Now?"
+      "Bull of the Day: Quanta Services (PWR)",
+      "Quanta Services’ AI-Fueled Run Isn’t Done",
+      "Noteworthy ETF Outflows: IVW, VRT, PWR, NEM"
     ],
     "EQIX": [
       "F5 (FFIV), Equinix (EQIX) Partner to Secure and Scale Distributed AI Infrastructure",
@@ -210,6 +210,7 @@
       "Here's How to Invest in the $200 Billion Humanoid Robot Future With ETFs",
       "ABB (SWX:ABBN) Stock Valuation After A 74% One Year Total Return",
       "If You Invested $1,000 in Abb Ltd Zuerich (ABLZF)",
+      "Strength Seen in ABB (ABBNY): Can Its 6.0% Jump Turn into More Strength?",
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results",
       "ABB/N Forecast — Price Target — Prediction for 2027",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
@@ -217,8 +218,7 @@
       "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "From linear to circular: how rethinking usage and waste saves Earth’s resources",
-      "ABB to invest $75 million in India to expand manufacturing, R&D",
-      "ABB outlines long-term electrification strategy as industrial demand evolves"
+      "ABB Ltd (VTX:ABBN) most popular amongst retail investors who own 51% of the shares, institutions hold 34%"
     ],
     "VRT": [
       "Vertiv Holdings Co. (VRT) Is a Trending Stock: Facts to Know Before Betting on It",
@@ -299,12 +299,12 @@
       "Applied Digital (APLD): One of the Top Hot Stocks with the Highest Upside Potential",
       "Is Applied Digital’s (APLD) 75 MW AI Expansion a Turning Point in Its Infrastructure Strategy?",
       "Applied Digital Secures Revolving Credit Facility of Up To $550 Million in Support of Strategic Growth",
-      "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
       "Montana-Dakota Utilities Announces Electric Service Agreement with Applied Digital for Proposed AI Factory",
+      "Dear Applied Digital Stock Fans, Mark Your Calendars for June 16",
       "Analysts Raise Price Targets On Applied Digital (NASDAQ: APLD) Stock As Wall Street Calls The Dip A Buying Opportunity",
       "Applied Digital Delivers Second Building at Polaris Forge 1",
+      "APLD Stock Slips After-Hours — What’s The Nvidia Connection?",
       "Applied Digital Announces Proposed Offering of $1.59 Billion of Senior Secured Notes to fund the Fourth Building at Polaris Forge 1",
-      "Is Applied Digital Corporation (APLD) A Good Stock To Buy Now?",
       "Can IREN's Contracted AI Capacity Support Future Revenue Growth?",
       "Bear of the Day: Applied Digital (APLD)"
     ],
@@ -321,14 +321,14 @@
       "How The E.ON (XTRA:EOAN) Narrative Is Shifting As Analyst Views Split On Upside Potential",
       "E.ON stock tracks its utility profile. E.ON SE stays in focus.",
       "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
+      "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON stock holds steady. Focus shifts to earnings and grid spending.",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
       "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix.",
       "E.ON SE outlines grid investment priorities as energy transition accelerates",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
       "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri",
-      "E.ON SE focuses on energy transition as investors weigh long-term growth prospects",
-      "E.ON shares track its regulated utility model. Investor focus stays on power grids and customer supp"
+      "E.ON SE focuses on energy transition as investors weigh long-term growth prospects"
     ],
     "TLN": [
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
@@ -349,7 +349,7 @@
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
       "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
-      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell Midcap Growth Benchmark",
+      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
       "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05"
     ],
     "DLR": [
@@ -484,6 +484,7 @@
       "Can Partnerships and PPAs Continue to Power NextEra's Earnings Growth?"
     ],
     "NOK": [
+      "European Equities Traded in the US as American Depositary Receipts Decline in Tuesday Trading",
       "How AI-Driven 5G Network Slicing Positions Ciena for Long-Term Growth",
       "European Equities Traded in the US as American Depositary Receipts Rise in Monday Trading",
       "Is Nokia (NOK) The Best Under-The-Radar AI Stock To Buy?",
@@ -493,7 +494,6 @@
       "Nokia's 138% Run Has A Margin Problem",
       "Nokia (HLSE:NOKIA) Expands Into Defense With Military Networks And Anti Drone Partnerships",
       "Nokia (NOK) Joins Finnish Consortium to Develop National Counter-Drone Network",
-      "SAP SE (SAP) Among Jefferies’ Top European Software Stock Picks",
       "NOK Stock Rides AI Partnerships And Fresh Buy Rating",
       "Nokia Corporation Sponsored Stock 12‑Month Price Target Raised to $12.07, Implies 16% Downside",
       "NOK Stock Slides As ADR Underperformance Draws Trader Scrutiny",
@@ -606,14 +606,14 @@
       "Will GE Vernova (GEV) Beat Estimates Again in Its Next Earnings Report?",
       "Why GE Vernova Stock Is Getting Crushed",
       "Hitachi Energy, GE Vernova, Siemens rise up to 6% as Nomura calls recent correction an ‘overreaction’. 4 r",
-      "GE Vernova Soars After Surprise Index Upgrade Buzz",
+      "Insider Selling Sends GE Vernova Stock Suddenly Lower",
       "GE Vernova loses renewed bid to end work on New England wind farm",
       "GE Vernova's gas turbines aren't the only way it's winning from the AI boom",
       "Five Stocks Near Buy Points. Most Are In This Hot AI Space.",
       "Forget Vistra. One Quarter of Orders at GE Vernova Exceeded All of Last Year. That Is the AI Power Trade Worth Owning",
       "Hitachi Energy, GE Vernova, Siemens Energy, other power equipment stocks crash up to 10%. Here’s why",
-      "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
-      "Notable Thursday Option Activity: GLW, PYPL, GEV"
+      "S&P 500 Movers: GEV, FISV",
+      "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In."
     ],
     "ENR.DE": [
       "Siemens Energy (XTRA:ENR) Secures Oman Power Contracts With Decades Long Service Work",
@@ -713,6 +713,36 @@
           "published": "2026-07-07T08:26:45"
         }
       ]
+    },
+    {
+      "symbol": "GEV",
+      "classification": {
+        "is_major": true,
+        "category": "analyst_note",
+        "headline": "Insider Selling Sends GE Vernova Stock Suddenly Lower",
+        "reason": "Named-firm analyst research note"
+      },
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONGNab3ZFczRJMkpMUHRrZlRZWVZoenJueDlZa20ySGtqWHM2TVNNdUR2c3h1RGpITWZ6dkhHcmNIdHdUMEo3cnktcU5jMktDVk9XcnB3WEZRZVg5NHpWNkVaTXhOQTk2UG1BM1JmXzBNbHAybzRGQ1g3NVJiRjdqTDFibkUtM25RYWVwWjZMUF9NeW4wb3dv?oc=5",
+      "source": "TipRanks",
+      "method": "keyword",
+      "published": "2026-07-07T14:21:51",
+      "queued_min": 29723972,
+      "all_articles": [
+        {
+          "headline": "Insider Selling Sends GE Vernova Stock Suddenly Lower",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONGNab3ZFczRJMkpMUHRrZlRZWVZoenJueDlZa20ySGtqWHM2TVNNdUR2c3h1RGpITWZ6dkhHcmNIdHdUMEo3cnktcU5jMktDVk9XcnB3WEZRZVg5NHpWNkVaTXhOQTk2UG1BM1JmXzBNbHAybzRGQ1g3NVJiRjdqTDFibkUtM25RYWVwWjZMUF9NeW4wb3dv?oc=5",
+          "source": "TipRanks",
+          "summary": "",
+          "published": "2026-07-07T14:21:51"
+        },
+        {
+          "headline": "S&P 500 Movers: GEV, FISV",
+          "link": "https://www.nasdaq.com/articles/sp-500-movers-gev-fisv",
+          "source": "BNK Invest",
+          "summary": "In early trading on Tuesday, shares of Fiserv topped the list of the day's best performing components of the S&P 500 index, trading up 5.9%. Year to date, Fiserv has lost about 18.4% of its value. And the worst performing S&P 500 component thus far on the day is GE Ver",
+          "published": "2026-07-07T15:09:57"
+        }
+      ]
     }
   ],
   "holding_disclosures_seen": {
@@ -772,7 +802,14 @@
     "evergreen": [
       0
     ],
-    "mover": [],
+    "mover": [
+      5,
+      2,
+      1,
+      0,
+      6,
+      4
+    ],
     "price_event": [
       2,
       4,
@@ -792,24 +829,24 @@
     "ABBN.SW": 83.4,
     "ENR.DE": 154.66,
     "RWE.DE": 56.62,
-    "ETN": 390.05,
-    "EQIX": 1018.51,
-    "CRWV": 81.57,
-    "NEE": 88.93,
-    "POWL": 231.6,
-    "NVT": 150.01,
-    "TLN": 365.1,
-    "IREN": 40.5,
-    "APLD": 31.14,
-    "GEV": 1034.27,
-    "NOK": 11.88,
-    "DLR": 174.34,
-    "VRT": 291.75,
-    "ERIC": 10.84,
-    "CEG": 241.12,
-    "VST": 155.6,
-    "BE": 264.43,
-    "PWR": 647.7
+    "ETN": 390.04,
+    "EQIX": 1015.96,
+    "CRWV": 82.37,
+    "NEE": 88.76,
+    "POWL": 231.35,
+    "NVT": 150.02,
+    "TLN": 364.72,
+    "IREN": 40.52,
+    "APLD": 31.33,
+    "GEV": 1036.25,
+    "NOK": 11.89,
+    "DLR": 174.31,
+    "VRT": 294.42,
+    "ERIC": 10.85,
+    "CEG": 240.95,
+    "VST": 155.34,
+    "BE": 264.82,
+    "PWR": 646.97
   },
   "day_event_fired": {
     "BE": "2026-07-06",
@@ -819,8 +856,8 @@
     "TLN": "2026-07-06",
     "IREN": "2026-07-06"
   },
-  "next_pulse_interval": 39,
-  "last_pulse_post_min": 29723926,
+  "next_pulse_interval": 31,
+  "last_pulse_post_min": 29723972,
   "eu_slots": [
     {
       "slot": 0,
