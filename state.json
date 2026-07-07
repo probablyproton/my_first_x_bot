@@ -1,6 +1,6 @@
 {
   "date": "2026-07-07",
-  "daily_posts": 4,
+  "daily_posts": 5,
   "daily_keyword_posts": 5,
   "daily_pulse_posts": 15,
   "gemini_calls_today": 18,
@@ -41,17 +41,17 @@
     "ENGI.PA": 1142,
     "ERIC": 1007,
     "NVT": 1142,
-    "BE": 1082,
+    "BE": 1216,
     "POWL": 1097,
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 101,
+  "event_log_next_id": 102,
   "event_cooldowns": {
     "news_VST": 709,
     "news_TLN": 722,
     "news_BE": 1082,
-    "BE": 947,
+    "BE": 1216,
     "POWL": 1097,
     "NOK": 1172,
     "news_ERIC": 1007,
@@ -104,8 +104,8 @@
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
       "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
-      "Constellation Energy Corp outlook for investors as a leading US power supplier",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
+      "Constellation Energy Corp outlook for investors as a leading US power supplier",
       "CEG - Constellation Energy Corp Latest SEC Filings",
       "Certain Common Stock of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
@@ -221,7 +221,7 @@
       "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "From linear to circular: how rethinking usage and waste saves Earth’s resources",
-      "ABB to invest $75 million in India to expand manufacturing, R&D"
+      "ABB Ltd (VTX:ABBN) most popular amongst retail investors who own 51% of the shares, institutions hold 34%"
     ],
     "VRT": [
       "Is Vertiv (VRT) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
@@ -242,8 +242,8 @@
       "Vertiv Holdings Co Stock (VRT) Closed Up by 5.79% on Jul 6",
       "Vertiv Jumps 9.2% as AI Infrastructure Expansion Supports Bullish Sentiment",
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
-      "Noteworthy ETF Outflows: IVW, VRT, PWR, NEM",
-      "S&P 500 Movers: ORLY, VRT"
+      "Is Vertiv (VRT) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
+      "Noteworthy ETF Outflows: IVW, VRT, PWR, NEM"
     ],
     "NVT": [
       "What Vertiv Stock Was Saying About The AI Factory Build-Out",
@@ -324,14 +324,14 @@
       "How The E.ON (XTRA:EOAN) Narrative Is Shifting As Analyst Views Split On Upside Potential",
       "E.ON stock tracks its utility profile. E.ON SE stays in focus.",
       "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
+      "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON stock holds steady. Focus shifts to earnings and grid spending.",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
       "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix.",
       "E.ON SE outlines grid investment priorities as energy transition accelerates",
       "E.ON SE outlines long-term energy transition strategy for investors",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
-      "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri",
-      "E.ON SE focuses on energy transition as investors weigh long-term growth prospects"
+      "E.ON SE outlines its energy transition strategy as investors watch European utilities. Long-term gri"
     ],
     "TLN": [
       "X-Energy Declines 18.9% in a Month: How Should You Play the Stock Now?",
@@ -346,13 +346,13 @@
       "Stocks Supported as Geopolitical Risks Recede",
       "Daniel Kelly Joins Talen as General Counsel and Corporate Secretary | Wed, 05/20/2026 - 08:00",
       "Talen Energy Corp (TLN) Gets a Buy from Wells Fargo",
+      "TLN - Talen Energy Corp Options",
       "Price to sales forward of Talen Energy Corporation – NASDAQ:TLN",
       "Does Talen Energy (TLN) Joining Russell Growth Indexes Clarify Its Data Center Strategy?",
-      "TLN - Talen Energy Corp Revenue Breakdown",
       "X-energy, Talen Energy to Evaluate Gigawatt-Scale Xe-100 SMR Deployment",
       "Vistra Vs. Talen Stocks: I Prefer The Higher-Risk AI Power Trade (NYSE:VST)",
-      "Talen Energy Corporation(NasdaqGS: TLN) added to Russell 2500 Growth Benchmark",
       "Talen Energy Announces Pricing of Senior Notes | Fri, 04/17/2026 - 16:05",
+      "Talen Energy Corporation (TLN) Surges 5.3%: Is This an Indication of Further Gains?",
       "Notable Tuesday Option Activity: MSFT, TLN, UNM"
     ],
     "DLR": [
@@ -435,8 +435,8 @@
       "Bloom Energy (BE) Extends Strategic Alliance With Brookfield",
       "Prediction: This Energy Stock Will Make You a Lot Richer by 2029",
       "BE Stock Is Trading At A Massive Premium To Peers — Retail Bulls Still See A Nearly 4x Rally",
-      "Bloom Energy rises 12% after partnering with European AI infrastructure upstart in $2.6 billion deal",
       "Bloom Energy vs. Plug Power: Which Hydrogen Stock Is a Better Buy in 2026?",
+      "Bloom Energy rises 12% after partnering with European AI infrastructure upstart in $2.6 billion deal",
       "Is the AI Power Boom Driving Brookfield-Bloom Partnership Expansion?",
       "I Want to Become Financially Independent in 5 Years: Here's My 3-Part Plan to Reach That Bold Goal.",
       "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge."
@@ -477,7 +477,7 @@
       "Va. Lt. Gov. Hashmi calls on regulators to extend review period for NextEra-Dominion Energy merger",
       "NextEra Energy: Buy Rating Reaffirmed with Unchanged $112 Price Target as Dominion Acquisition Advances Strategic and Regulatory Positioning",
       "How an Ambitious Energy Giant Wielded Political Power in Florida",
-      "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
+      "The Ultimate AI Power Supercycle Winner: NextEra Energy or Vistra Stock?",
       "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers",
       "NextEra to buy Quantum-backed energy firm Caliber, set up US shale JV, sources say",
       "NextEra Energy to buy Dominion in deal that unites two key players in race to power AI data centers",
@@ -519,13 +519,13 @@
       "Why Powell (POWL) Stock Is Trading Up Today",
       "What Makes Powell Industries (POWL) a Strong Investment?",
       "Does Powell Industries’ (POWL) Russell 1000 Promotion Reframe Its Role in Critical Infrastructure Markets?",
-      "Powell Industries (POWL) CEO trims stake with 36,000-share sale",
+      "Powell Industries (POWL) awards 36,000 backloaded RSUs to CEO Brett Cope",
       "POWL - Powell Industries Inc Latest SEC Filings",
       "Powell Industries slides as valuation pressure and recent insider selling weigh on sentiment",
       "Powell Industries options trading surges amid stock decline",
       "Brett A. Cope awarded 36,000 RSUs by Powell",
       "Powell Industries (POWL) Joins Key Russell Indexes, Is The Upside Already Priced In?",
-      "Powell Industries (POWL) awards 36,000 backloaded RSUs to CEO Brett Cope",
+      "Powell Industries (POWL) CEO trims stake with 36,000-share sale",
       "Powell Industries (POWL) Dips More Than Broader Market",
       "Notable ETF Inflow Detected - SDVY, FIX, POWL, ENS"
     ],
@@ -835,7 +835,12 @@
       2,
       1
     ],
-    "price_event": []
+    "price_event": [
+      0,
+      1,
+      2,
+      4
+    ]
   },
   "last_evergreen_min": 29724047,
   "post_backlog": [],
@@ -849,27 +854,27 @@
     "ABBN.SW": 83.4,
     "ENR.DE": 154.66,
     "RWE.DE": 56.62,
-    "ETN": 393.28,
-    "EQIX": 1020.03,
-    "CRWV": 84.46,
-    "NEE": 88.5,
-    "POWL": 231.65,
-    "NVT": 151.07,
-    "TLN": 367.62,
-    "IREN": 41.47,
-    "APLD": 32.11,
-    "GEV": 1070.99,
+    "ETN": 393.51,
+    "EQIX": 1021.09,
+    "CRWV": 83.12,
+    "NEE": 88.56,
+    "POWL": 232.16,
+    "NVT": 151.37,
+    "TLN": 367.47,
+    "IREN": 41.5,
+    "APLD": 31.96,
+    "GEV": 1072.46,
     "NOK": 11.93,
-    "DLR": 174.96,
-    "VRT": 304.15,
-    "ERIC": 10.86,
-    "CEG": 240.65,
+    "DLR": 175.05,
+    "VRT": 303.84,
+    "ERIC": 10.85,
+    "CEG": 240.34,
     "VST": 155.96,
-    "BE": 271.7,
-    "PWR": 651.5
+    "BE": 271.22,
+    "PWR": 650.9
   },
   "day_event_fired": {
-    "BE": "2026-07-06",
+    "BE": "2026-07-07",
     "POWL": "2026-07-07",
     "NOK": "2026-07-07",
     "VRT": "2026-07-06",
@@ -915,5 +920,5 @@
   "us_posted": [
     0
   ],
-  "us_flexible_used": 4
+  "us_flexible_used": 5
 }
