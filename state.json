@@ -2,7 +2,7 @@
   "date": "2026-07-08",
   "daily_posts": 1,
   "daily_keyword_posts": 3,
-  "daily_pulse_posts": 17,
+  "daily_pulse_posts": 18,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 134,
+  "event_log_next_id": 136,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -75,6 +75,7 @@
   },
   "news_seen": {
     "ETN": [
+      "The United States could face a major electricity shortfall through 2030, BofA says",
       "JEPI vs. JEPQ: Which Is the Better Buy in July?",
       "Eaton Names Dan T. Simpson President, Global Energy Infrastructure Solutions",
       "115 years old but driving huge returns in a most modern way",
@@ -84,7 +85,6 @@
       "Why Vertiv and Eaton Are the Ultimate Infrastructure Plays for the AI Boom",
       "4 Manufacturing Electronics Stocks to Consider on Promising Industry Trends",
       "This Under-the-Radar Industrial Is Quietly Powering AI",
-      "VWDRY or ETN: Which Is the Better Value Stock Right Now?",
       "Eaton Names Dan T. Simpson President, Global Energy Infrastructure Solutions – Company Announcement",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
       "Eaton Appoints Dan Simpson President of Global Energy Infrastructure Solutions",
@@ -107,15 +107,15 @@
       "Can AI-Driven Electricity Demand Fuel CEG's Long-Term Growth?",
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
       "Citi Keeps Neutral Rating on Constellation Energy (CEG)",
-      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
+      "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
       "CEG - Constellation Energy Corp Latest SEC Filings",
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
-      "Constellation Energy Corp. stock rises Monday, outperforms market",
+      "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Constellation Reports First Quarter 2026 Results",
       "Is Constellation Energy Corporation (CEG) Among the Best AI Power Grid Stocks to Buy According to Analysts?",
-      "Constellation Energy Corp. stock rises Thursday, outperforms market",
+      "Constellation Energy Corporation (CEG) Exceeds Market Returns: Some Facts to Consider",
       "VO, WDC, CMI, CEG: Large Inflows Detected at ETF"
     ],
     "PWR": [
@@ -150,7 +150,7 @@
       "Swedbank AB Has $100.75 Million Stock Position in Equinix, Inc. $EQIX",
       "F5 (FFIV) Could Be 13% Undervalued As Equinix Tie Up Tests Valuation",
       "Equinix Inc. stock outperforms competitors on strong trading day",
-      "Milan Draws Heat From Equinix Data Centres",
+      "Equinix Collaborates with Cisco and NVIDIA to Deploy Secure AI Factories Across Global Data Center Footprint",
       "This Asset Class Has Lagged the Market for Years But Was the Best Performer in June. Time to Invest?",
       "Noteworthy ETF Outflows: IYR, WELL, EQIX, DLR",
       "Equinix (EQIX) Could Be a Great Choice"
@@ -427,6 +427,7 @@
       "Is the AI Power Boom Driving Brookfield-Bloom Partnership Expansion?"
     ],
     "RWE.DE": [
+      "RWE (XTRA:RWE) Backs Proxima To Help Build Europe’s First Commercial Fusion Plant",
       "Google Invests in $468-Million Funding Round for German Fusion Group",
       "Google Backs Fusion Startup Proxima",
       "Germany's Proxima Fusion secures $2.7B valuation as Google backs Europe's reactor race",
@@ -436,7 +437,16 @@
       "Proxima Fusion Raises €411 Million at a €2.4B Valuation to Build Europe’s Commercial Fusion Champion",
       "FPT Achieves SAP® Silver Partner Status in the SAP® PartnerEdge® Program, Expanding SAP Capabilities for European Enterprises",
       "Stocks Stall as Iran Nuclear Talks Hit Early Snag: Markets Wrap",
-      "Cadeler completes installation of 100 turbines at Sofia Wind Farm"
+      "RWE delivers strong financial performance in 2025 and sets course for exceptional earnings growth until 2031",
+      "Germany’s RWE plans nearly $20B US investment, including gas peakers",
+      "All You Need to Know About RWE AG (RWEOY) Rating Upgrade to Strong Buy",
+      "RWE delivers strong start to the year: adjusted earnings per share up 25 per cent year-on-year",
+      "RWE AG adjusts its renewable strategy amid evolving power markets",
+      "US NGOs urge RWE to reject offshore wind exit deal with Trump administration",
+      "RWE AG - Increases Investment In Focused Energy",
+      "RWE AG(NEU) : Barclays gives a Buy rating",
+      "The Zacks Analyst Blog Micron, Exxon and RWE AG - May 11, 2026",
+      "The Zacks Analyst Blog Highlights Nvidia, Equinor and RWE AG"
     ],
     "NEE": [
       "XLU vs. VPU: Which Utilities ETF Best Powers the AI Data-Center Boom?",
@@ -449,14 +459,14 @@
       "The Income Ladder: What It Takes To Go From $250 To $5,000 A Month",
       "3 Utility ETFs to Buy Now as AI Data Centers Trigger a 1970s-Scale Power Buildout",
       "NextEra Energy Lags Industry in the Past Month: Is It Still a Buy?",
-      "Va. Lt. Gov. Hashmi calls on regulators to extend review period for NextEra-Dominion Energy merger",
       "Hashmi urges extended review of proposed $67 billion Dominion Energy-NextEra merger",
+      "Va. Lt. Gov. Hashmi calls on regulators to extend review period for NextEra-Dominion Energy merger",
       "What NextEra Energy (NEE)'s AI Data Center Power Push and Dividend Plans Mean For Shareholders",
       "How an Ambitious Energy Giant Wielded Political Power in Florida",
-      "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
       "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers",
       "NextEra to buy Quantum-backed energy firm Caliber, set up US shale JV, sources say",
       "NextEra Energy to buy Dominion in deal that unites two key players in race to power AI data centers",
+      "NextEra and Dominion Are About to Become the World's Largest Electric Utility",
       "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge.",
       "Oklo Advances Groves Isotope Test Reactor With Key DOE Safety Approval"
     ],
@@ -564,7 +574,7 @@
       "Ericsson Grilled by 5th Cir. on Insurance for Terrorism Claims",
       "Ericsson, AT&T and MediaTek launch latency busting trial",
       "Ericsson, AT&T, MediaTek complete North America LTM trial",
-      "Nordic stocks in North America: Ericsson fell 0.7 percent",
+      "5th Circ. Presses Ericsson Insurers On Terrorism Suit Defense",
       "Nokia vs. Viavi: Which AI Networking Stock is the Better Buy?",
       "Can Nokia's Orange Belgium Network Upgrade Deal Aid the Stock?"
     ],
@@ -634,38 +644,7 @@
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "VRT",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "BNP Paribas Adjusts Price Target on Vertiv Holdings to $380 From $370",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMmxNd1ZrOGJFN0oxRVg4dEI1b2lZTmJMdExWUU1zYTFxTUpSdG4yS2wyV1FZREpqM3NnNHBrTXEyMlI0aXh6S2JHY214NHhDSllPVnI1UzZOOGFLbHllc2g2TXBFRkVWaWZfcG50eGxHaU0zQkU1cTZKWTBUQWp5X0RmR3AwcThBakotU2RkZ0RkbGkzVzlzR2ttdVVYUmVUd3c?oc=5",
-      "source": "Moomoo",
-      "method": "keyword",
-      "published": "2026-07-08T12:44:24",
-      "queued_min": 29725246,
-      "all_articles": [
-        {
-          "headline": "Here's Why Oracle Stock Slumped in the First Half of 2026 (Hint: Microsoft Was Also Impacted)",
-          "link": "https://www.fool.com/investing/2026/07/08/heres-why-oracle-stock-slumped-in-the-first-half-o/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Oracle and Microsoft stocks declined amid AI infrastructure spending and exposure to OpenAI.",
-          "published": "2026-07-08T12:27:43"
-        },
-        {
-          "headline": "BNP Paribas Adjusts Price Target on Vertiv Holdings to $380 From $370",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMmxNd1ZrOGJFN0oxRVg4dEI1b2lZTmJMdExWUU1zYTFxTUpSdG4yS2wyV1FZREpqM3NnNHBrTXEyMlI0aXh6S2JHY214NHhDSllPVnI1UzZOOGFLbHllc2g2TXBFRkVWaWZfcG50eGxHaU0zQkU1cTZKWTBUQWp5X0RmR3AwcThBakotU2RkZ0RkbGkzVzlzR2ttdVVYUmVUd3c?oc=5",
-          "source": "Moomoo",
-          "summary": "",
-          "published": "2026-07-08T12:44:24"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -749,8 +728,7 @@
       2,
       0,
       6,
-      3,
-      4
+      3
     ],
     "price_event": [
       0,
@@ -776,24 +754,24 @@
     "ABBN.SW": 82.82,
     "ENR.DE": 152.76,
     "RWE.DE": 56.2,
-    "ETN": 398.56,
-    "EQIX": 1017.97,
-    "CRWV": 87.26,
-    "NEE": 87.49,
-    "POWL": 231.28,
-    "NVT": 154.26,
-    "TLN": 364.34,
-    "IREN": 41.3,
-    "APLD": 30.51,
-    "GEV": 1082.86,
+    "ETN": 398.59,
+    "EQIX": 1018.33,
+    "CRWV": 88.04,
+    "NEE": 87.64,
+    "POWL": 231.48,
+    "NVT": 154.4,
+    "TLN": 365.04,
+    "IREN": 41.72,
+    "APLD": 30.88,
+    "GEV": 1083.48,
     "NOK": 11.8,
-    "DLR": 175.62,
-    "VRT": 315.42,
-    "ERIC": 10.99,
-    "CEG": 242.33,
-    "VST": 153.24,
-    "BE": 248.6,
-    "PWR": 665.3
+    "DLR": 175.43,
+    "VRT": 316.68,
+    "ERIC": 11.01,
+    "CEG": 242.75,
+    "VST": 153.54,
+    "BE": 250.57,
+    "PWR": 666.35
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -806,8 +784,8 @@
     "ETN": "2026-07-07",
     "APLD": "2026-07-07"
   },
-  "next_pulse_interval": 33,
-  "last_pulse_post_min": 29725576,
+  "next_pulse_interval": 45,
+  "last_pulse_post_min": 29725622,
   "eu_slots": [
     {
       "slot": 0,
