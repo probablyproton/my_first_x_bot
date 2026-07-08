@@ -2,7 +2,7 @@
   "date": "2026-07-08",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 7,
+  "daily_pulse_posts": 8,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 120,
+  "event_log_next_id": 121,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -113,7 +113,7 @@
       "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "CEG - Constellation Energy Corp Latest SEC Filings",
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
-      "Constellation Energy Corp outlook for investors as a leading US power supplier",
+      "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Constellation Reports First Quarter 2026 Results",
       "Here's Why Constellation Energy Corporation (CEG) is a Strong Growth Stock"
@@ -611,15 +611,15 @@
       "3 Market-Beating Stocks with Exciting Potential",
       "Assessing Whether Legrand (ENXTPA:LR) Still Offers Upside After Strong Recent Share Performance",
       "Legrand delivers digital infrastructure for new AI data center at Yerevan State University",
+      "William LeGrand Obituary and Online Memorial (2026)",
       "On Cloud AV/IT: Legrand | AV",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
       "Legrand upgraded by Barclays on AI data center demand, 800VDC optimism",
       "Camille LeGRAND Obituary - CA",
       "Bobby Legrand Driskill, 82 of Polkville, Mississippi",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
-      "Adorne Wi-Fi Ready Switch from Legrand - modular smart lighting for US homes",
       "Legrand | AV Earns 18 Awards at InfoComm 2026, Validating “Where Solutions Live” Strategy",
-      "Bobby Legrand Driskill Obituary Jul 4, 2026 - Colonial Chapel Funeral Home"
+      "Adorne Wi-Fi Ready Switch from Legrand - modular smart lighting for US homes"
     ]
   },
   "pending_news_posts": [
@@ -727,8 +727,7 @@
   "pulse_template_decks": {
     "evergreen": [],
     "mover": [
-      5,
-      4
+      5
     ],
     "price_event": [
       0,
@@ -745,15 +744,15 @@
   "last_evergreen_min": 29724047,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.91,
-    "ENGI.PA": 27.06,
-    "SU.PA": 262.75,
-    "SIE.DE": 264.1,
-    "LR.PA": 140.7,
+    "IBE.MC": 20.93,
+    "ENGI.PA": 27.09,
+    "SU.PA": 263.85,
+    "SIE.DE": 265.7,
+    "LR.PA": 141.15,
     "EOAN.DE": 19.36,
-    "ABBN.SW": 82.32,
-    "ENR.DE": 152.66,
-    "RWE.DE": 56.54,
+    "ABBN.SW": 82.68,
+    "ENR.DE": 153.24,
+    "RWE.DE": 56.52,
     "ETN": 394.12,
     "EQIX": 1026.95,
     "CRWV": 83.6,
@@ -784,8 +783,8 @@
     "ETN": "2026-07-07",
     "APLD": "2026-07-07"
   },
-  "next_pulse_interval": 31,
-  "last_pulse_post_min": 29725156,
+  "next_pulse_interval": 37,
+  "last_pulse_post_min": 29725202,
   "eu_slots": [
     {
       "slot": 0,
