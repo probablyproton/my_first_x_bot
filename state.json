@@ -2,8 +2,8 @@
   "date": "2026-07-08",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 7,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 8,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -46,7 +46,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 113,
+  "event_log_next_id": 114,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -88,10 +88,10 @@
       "Eaton Invests in VoltServer",
       "Eaton Corporation, PLC (ETN) Is a Trending Stock: Facts to Know Before Betting on It",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
-      "Thousands of survivors still waiting to rebuild 18 months after Eaton Fire",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
-      "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
+      "Thousands of survivors still waiting to rebuild 18 months after Eaton Fire",
       "Eaton Denied Refund Claim Citing California Tax Authority Advice",
+      "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
       "Eaton Corp. PLC stock outperforms competitors on strong trading day",
       "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now"
     ],
@@ -106,15 +106,15 @@
       "Constellation Energy (CEG) Applies for License Renewals for 2 Plants",
       "Big Tech’s $3 Trillion Struggle to Secure Enough Electricity",
       "Stock Market Week Ahead: Oil Hints At A Paradigm Shift",
-      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
+      "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
       "Constellation Energy Corp outlook for investors as a leading US power supplier",
       "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "CEG - Constellation Energy Corp Latest SEC Filings",
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
-      "Constellation Energy Corp. stock rises Monday, outperforms market",
-      "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
+      "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
+      "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Here's Why Constellation Energy Corporation (CEG) is a Strong Growth Stock"
     ],
     "PWR": [
@@ -237,6 +237,7 @@
       "Noteworthy ETF Outflows: IVW, VRT, PWR, NEM"
     ],
     "NVT": [
+      "nVent Electric (NVT) Stock Still Looks Expensive Despite A 436% Five Year Run",
       "Is nVent Electric (NVT) Undervalued As AI Demand And Index Additions Lift Growth Hopes?",
       "nVent Electric (NVT) Names Two Leaders For Its Data Center Push",
       "What Vertiv Stock Was Saying About The AI Factory Build-Out",
@@ -246,7 +247,6 @@
       "NVT Is Emerging as an AI Infrastructure Winner Beyond Liquid Cooling",
       "Is NVT Stock Still Worth Buying After Its Huge Rally in 2026?",
       "Can Capacity Expansion Support nVent Electric's Next Growth Phase?",
-      "nVent Electric and Lululemon have been highlighted as Zacks Bull and Bear of the Day",
       "Board of Directors",
       "How Investors Are Reacting To nVent Electric (NVT) Joining Key Russell Growth and Midcap Indices",
       "A Look at nVent Electric PLC (NVT) After 3.1% Gain -- GF Value $115.86 vs Price $156.89",
@@ -256,7 +256,7 @@
       "Why Investors Need to Take Advantage of These 2 Computer and Technology Stocks Now",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
       "MDY, CW, NVT, ENTG: ETF Inflow Alert",
-      "Bull of the Day: nVent Electric (NVT)"
+      "nVent Electric and Lululemon have been highlighted as Zacks Bull and Bear of the Day"
     ],
     "SIE.DE": [
       "Siemens (XTRA:SIE) Stock May Be 39% Undervalued As Industrial AI Ties Deepen",
@@ -612,10 +612,10 @@
       "Camille LeGRAND Obituary - CA",
       "Bobby Legrand Driskill, 82 of Polkville, Mississippi",
       "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
+      "Adorne Wi-Fi Ready Switch from Legrand - modular smart lighting for US homes",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
       "Legrand | AV Earns 18 Awards at InfoComm 2026, Validating “Where Solutions Live” Strategy",
-      "Bobby Legrand Driskill Obituary Jul 4, 2026 - Colonial Chapel Funeral Home",
-      "APS welcomes Jason LeGrand as global director of development"
+      "Bobby Legrand Driskill Obituary Jul 4, 2026 - Colonial Chapel Funeral Home"
     ]
   },
   "pending_news_posts": [],
@@ -695,20 +695,26 @@
       0,
       1,
       2
+    ],
+    "quiet": [
+      0,
+      3,
+      1,
+      2
     ]
   },
   "last_evergreen_min": 29724047,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.99,
-    "ENGI.PA": 27.34,
-    "SU.PA": 266.35,
-    "SIE.DE": 267.5,
-    "LR.PA": 141.2,
-    "EOAN.DE": 19.33,
-    "ABBN.SW": 82.92,
-    "ENR.DE": 155.64,
-    "RWE.DE": 57.16,
+    "IBE.MC": 21.04,
+    "ENGI.PA": 27.28,
+    "SU.PA": 266.85,
+    "SIE.DE": 267.55,
+    "LR.PA": 141.75,
+    "EOAN.DE": 19.26,
+    "ABBN.SW": 82.9,
+    "ENR.DE": 155.96,
+    "RWE.DE": 57.08,
     "ETN": 394.12,
     "EQIX": 1026.95,
     "CRWV": 83.6,
@@ -739,8 +745,8 @@
     "ETN": "2026-07-07",
     "APLD": "2026-07-07"
   },
-  "next_pulse_interval": 38,
-  "last_pulse_post_min": 29724902,
+  "next_pulse_interval": 30,
+  "last_pulse_post_min": 29724946,
   "eu_slots": [
     {
       "slot": 0,
