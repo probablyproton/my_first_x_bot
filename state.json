@@ -2,7 +2,7 @@
   "date": "2026-07-08",
   "daily_posts": 1,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 13,
+  "daily_pulse_posts": 14,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 128,
+  "event_log_next_id": 129,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -88,15 +88,16 @@
       "Eaton Names Dan T. Simpson President, Global Energy Infrastructure Solutions – Company Announcement",
       "Eaton Appoints Dan Simpson President of Global Energy Infrastructure Solutions",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
-      "Eaton Corp. PLC stock underperforms Tuesday when compared to competitors",
-      "Eaton Corporation, PLC (ETN) Is a Trending Stock: Facts to Know Before Betting on It",
       "Eaton names Dan Simpson president of energy infrastructure unit By Investing.com",
-      "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
       "Eaton Invests in VoltServer",
-      "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now"
+      "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
+      "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now",
+      "Industrial Select Sector SPDR Fund Experiences Big Inflow",
+      "This Critical Infrastructure Stock Could Be a Hidden AI Winner"
     ],
     "CEG": [
+      "XLU vs. VPU: Which Utilities ETF Best Powers the AI Data-Center Boom?",
       "3 Powerful Nuclear Energy Stocks to Buy in July",
       "Another AI power darling just hit a 52-week low",
       "Investors Heavily Search Constellation Energy Corporation (CEG): Here is What You Need to Know",
@@ -106,7 +107,6 @@
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
       "Citi Keeps Neutral Rating on Constellation Energy (CEG)",
       "Constellation Energy (CEG) Applies for License Renewals for 2 Plants",
-      "Big Tech’s $3 Trillion Struggle to Secure Enough Electricity",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
@@ -213,7 +213,7 @@
       "ABB outlines growth focus in electrification and automation. Investors weigh long-term strategy",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "From linear to circular: how rethinking usage and waste saves Earth’s resources",
-      "ABB to invest $75 million in India to expand manufacturing, R&D"
+      "ABB Ltd (VTX:ABBN) most popular amongst retail investors who own 51% of the shares, institutions hold 34%"
     ],
     "VRT": [
       "Here's Why Oracle Stock Slumped in the First Half of 2026 (Hint: Microsoft Was Also Impacted)",
@@ -317,13 +317,13 @@
       "Kentucky Gov. Andy Beshear requests update on Sen. Mitch McConnell's health",
       "E.ON SE strengthens its energy transition role as investors weigh long-term grid and renewables grow",
       "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
+      "E.ON SE focuses on energy transition strategy as investors assess long-term growth prospects",
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
-      "E.ON stock tracks its utility profile. E.ON SE stays in focus.",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
+      "E.ON stock tracks its utility profile. E.ON SE stays in focus.",
       "E.ON SE outlines long-term energy transition strategy amid stable operations",
       "E.ON SE outlines grid investment priorities as energy transition accelerates",
-      "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
-      "E.ON stock holds steady. Focus shifts to earnings and grid spending."
+      "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight"
     ],
     "TLN": [
       "X-Energy Declines 18.9% in a Month: How Should You Play the Stock Now?",
@@ -385,10 +385,10 @@
       "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
       "ENGIE and IGNIS Sign a Long-Term Agreement for Battery Energy Storage in Spain",
       "ENGIE’s Niko Cornelis on building a smarter, more flexible grid in the UAE",
-      "ENGIE Q1 2026 Financial Information",
       "Sale of Engie Soluções de Iluminação Pública Subsidiaries to Azevedo & Travassos",
       "The Group’s human rights approach",
-      "Arcadia acquires Engie Impact to create unified energy management platform"
+      "Arcadia acquires Engie Impact to create unified energy management platform",
+      "Ineos agrees ‘preliminary commercial terms’ to offtake blue hydrogen from Engie and Equinor’s 1GW H2BE project"
     ],
     "SU.PA": [
       "Schneider Electric (ENXTPA:SU) Stock Could Be 35% Overvalued Following Its $3.1b AI Deal",
@@ -432,6 +432,7 @@
       "Cadeler completes installation of 100 turbines at Sofia Wind Farm"
     ],
     "NEE": [
+      "XLU vs. VPU: Which Utilities ETF Best Powers the AI Data-Center Boom?",
       "Why the AI Boom Is About to Break the U.S. Power Grid",
       "Can PPL's Balanced Energy Portfolio Fuel Long-Term Earnings Growth?",
       "Here’s Why NextEra Energy Stock Might Be a Great Options Trade Hiding in Plain Sight",
@@ -441,17 +442,16 @@
       "3 Utility ETFs to Buy Now as AI Data Centers Trigger a 1970s-Scale Power Buildout",
       "NextEra Energy Lags Industry in the Past Month: Is It Still a Buy?",
       "Still Think Gold Is Overcrowded? 3 More Stocks Retirees Should Consider Instead, Ranked",
-      "What NextEra Energy (NEE)'s AI Data Center Power Push and Dividend Plans Mean For Shareholders",
       "Va. Lt. Gov. Hashmi calls on regulators to extend review period for NextEra-Dominion Energy merger",
       "Hashmi urges extended review of proposed $67 billion Dominion Energy-NextEra merger",
       "NextEra Energy: Buy Rating Reaffirmed with Unchanged $112 Price Target as Dominion Acquisition Advances Strategic and Regulatory Positioning",
+      "What NextEra Energy (NEE)'s AI Data Center Power Push and Dividend Plans Mean For Shareholders",
       "How an Ambitious Energy Giant Wielded Political Power in Florida",
       "This Is the First Energy Stock I Plan to Buy in June (Hint: It's Not ExxonMobil)",
       "NextEra Energy and Dominion Energy to Combine, Creating the World's Largest Regulated Electric Utility Business and North America's Premier Energy Infrastructure Platform Benefiting Customers",
       "NextEra to buy Quantum-backed energy firm Caliber, set up US shale JV, sources say",
       "AI is Driving Utilities to Spend a Record $240 Billion in 2026. Buy These Stocks to Capitalize on the Power Surge.",
-      "Oklo Advances Groves Isotope Test Reactor With Key DOE Safety Approval",
-      "Can Partnerships and PPAs Continue to Power NextEra's Earnings Growth?"
+      "Oklo Advances Groves Isotope Test Reactor With Key DOE Safety Approval"
     ],
     "NOK": [
       "Nokia (NOK) Taps SAP and Microsoft: Cloud and AI in Focus",
@@ -557,7 +557,7 @@
       "Ericsson Grilled by 5th Cir. on Insurance for Terrorism Claims",
       "Ericsson, AT&T and MediaTek launch latency busting trial",
       "Ericsson, AT&T, MediaTek complete North America LTM trial",
-      "Ericsson expands cloud RAN and network infrastructure across US",
+      "5th Circ. Presses Ericsson Insurers On Terrorism Suit Defense",
       "Can Nokia's Orange Belgium Network Upgrade Deal Aid the Stock?",
       "Can the Launch of Bandwidth Build Platform Propel BAND Stock Higher?"
     ],
@@ -616,15 +616,15 @@
       "Tallo Wins 2026 EdTech Award for Hiring, Internships, and Apprenticeship Solution",
       "3 Market-Beating Stocks with Exciting Potential",
       "Legrand delivers digital infrastructure for new AI data center at Yerevan State University",
-      "William LeGrand Obituary and Online Memorial (2026)",
-      "On Cloud AV/IT: Legrand | AV",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
-      "Legrand gains as Barclays, Kepler turn bullish on AI demand, earnings outlook",
-      "Camille LeGRAND Obituary - CA",
-      "Bobby Legrand Driskill, 82 of Polkville, Mississippi",
+      "Kepler Cheuvreux upgrades Legrand stock rating on data center demand",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
       "APS welcomes Jason LeGrand as global director of development",
-      "Legrand | AV Earns 18 Awards at InfoComm 2026, Validating “Where Solutions Live” Strategy"
+      "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
+      "MBB: UTA Coaching Legend LeGrand to be Posthumously Inducted into Texas Black Sports Hall of Fame",
+      "Ms. Catherine Legrand Humphries Obituary Feb 4, 2026",
+      "Keep Tyler Beautiful hosts 6th Annual Bee Day at Goodman-LeGrand Museum",
+      "LeGrand’s Market shares its four-bean baked bean recipe for the perfect Fourth of July side"
     ]
   },
   "pending_news_posts": [
@@ -738,8 +738,7 @@
     ],
     "mover": [
       6,
-      4,
-      1
+      4
     ],
     "price_event": [
       0,
@@ -765,24 +764,24 @@
     "ABBN.SW": 82.82,
     "ENR.DE": 152.76,
     "RWE.DE": 56.2,
-    "ETN": 391.7,
-    "EQIX": 1021.97,
-    "CRWV": 84.98,
-    "NEE": 88.43,
-    "POWL": 230.2,
-    "NVT": 150.85,
-    "TLN": 359.72,
-    "IREN": 40.99,
-    "APLD": 30.11,
-    "GEV": 1076.33,
-    "NOK": 11.61,
-    "DLR": 175.36,
-    "VRT": 307.92,
-    "ERIC": 10.85,
-    "CEG": 240.33,
-    "VST": 152.03,
-    "BE": 247.3,
-    "PWR": 653.67
+    "ETN": 392.89,
+    "EQIX": 1019.41,
+    "CRWV": 85.04,
+    "NEE": 88.24,
+    "POWL": 231.14,
+    "NVT": 151.45,
+    "TLN": 360.72,
+    "IREN": 40.73,
+    "APLD": 30.15,
+    "GEV": 1083.51,
+    "NOK": 11.65,
+    "DLR": 174.74,
+    "VRT": 310.32,
+    "ERIC": 10.86,
+    "CEG": 240.32,
+    "VST": 151.89,
+    "BE": 249.0,
+    "PWR": 658.44
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -795,8 +794,8 @@
     "ETN": "2026-07-07",
     "APLD": "2026-07-07"
   },
-  "next_pulse_interval": 30,
-  "last_pulse_post_min": 29725426,
+  "next_pulse_interval": 42,
+  "last_pulse_post_min": 29725456,
   "eu_slots": [
     {
       "slot": 0,
