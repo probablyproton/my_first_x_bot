@@ -1,7 +1,7 @@
 {
   "date": "2026-07-08",
   "daily_posts": 2,
-  "daily_keyword_posts": 3,
+  "daily_keyword_posts": 4,
   "daily_pulse_posts": 18,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
@@ -38,7 +38,7 @@
     "DLR": 1173,
     "EOAN.DE": 1142,
     "SIE.DE": 1142,
-    "SU.PA": 1262,
+    "SU.PA": 1382,
     "ENGI.PA": 1142,
     "ERIC": 1007,
     "NVT": 1142,
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 137,
+  "event_log_next_id": 138,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -61,7 +61,7 @@
     "VRT": 1306,
     "news_CRWV": 1322,
     "TLN": 1216,
-    "news_SU.PA": 1262,
+    "news_SU.PA": 1382,
     "IREN": 1277,
     "news_IREN": 1412,
     "news_NEE": 992,
@@ -92,8 +92,8 @@
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "Eaton Corp. PLC stock underperforms Tuesday when compared to competitors",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
-      "Eaton names Dan Simpson president of energy infrastructure unit By Investing.com",
       "Eaton Denied Refund Claim Citing California Tax Authority Advice",
+      "Eaton names Dan Simpson president of energy infrastructure unit By Investing.com",
       "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now"
     ],
     "CEG": [
@@ -108,6 +108,7 @@
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
       "Citi Keeps Neutral Rating on Constellation Energy (CEG)",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
+      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
       "CEG - Constellation Energy Corp Latest SEC Filings",
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
@@ -115,7 +116,6 @@
       "Constellation Reports First Quarter 2026 Results",
       "Is Constellation Energy Corporation (CEG) Among the Best AI Power Grid Stocks to Buy According to Analysts?",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
-      "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
       "VO, WDC, CMI, CEG: Large Inflows Detected at ETF"
     ],
     "PWR": [
@@ -195,9 +195,9 @@
       "Five Energy Stocks Riding Texas's Data Center Power Boom",
       "The Energy Stock Most Investors Overlook-And Why You Should Consider Adding It to Your Portfolio Today.",
       "Here is What Analysts Think About Vistra Corp. (VST)",
+      "UBS (AMUB) offers autocallable contingent-yield notes linked to Vistra stock",
       "Vistra seeks dismissal of key claims in Sulphur Springs legal fight over data center site",
       "Earnings call transcript: Vistra Energy tops Q1 2026 forecasts, stock rises",
-      "Vistra sets Aug. 7 call for second-quarter results",
       "What Vistra (VST)'s Record PJM Heat-Dome Demand Means For Shareholders",
       "Meitav Investment House Ltd. Buys 200,000 Shares of Vistra Corp. $VST",
       "Vistra Vs. Talen: I Prefer The Higher-Risk AI Power Trade",
@@ -439,13 +439,13 @@
       "Why Is Bloom Energy Stock Sinking Wednesday? - Bloom Energy (NYSE:BE)",
       "Bloom's Big Lie",
       "Bloom Energy falls amid Hunterbrook short report (update) (BE:NYSE)",
+      "Bloom Energy to Announce Second Quarter 2026 Financial Results on July 28, 2026",
       "Why FuelCell Energy Stock Is Tumbling on Wednesday",
       "Notable ETF Outflow Detected - FESM, BE, FN, GH",
       "The Zacks Analyst Blog Highlights PepsiCo, Delta Air Lines, Bloom Energy, Ross Stores and NetEase",
       "Prediction: Why Buying Brookfield Renewable Instead of Bloom Energy Could Set You Up For Life",
       "Can Small-Cap Stocks Continue to Outperform?",
-      "Here's Why Bloom Energy Stock Rallied Again Today",
-      "Is the AI Power Boom Driving Brookfield-Bloom Partnership Expansion?"
+      "Here's Why Bloom Energy Stock Rallied Again Today"
     ],
     "RWE.DE": [
       "RWE (XTRA:RWE) Backs Proxima To Help Build Europe’s First Commercial Fusion Plant",
@@ -588,8 +588,8 @@
       "Invitation to media and analyst briefing for Ericsson Q2 2026 report",
       "Nokia Rises 105.2% Year to Date: Is There More Upside Ahead?",
       "European Equities Traded in the US as American Depositary Receipts Fall Sharply in Wednesday Trading",
+      "Ericsson, AT&T fight lag with 5G-Advanced field trial",
       "Ericsson wins first ever African SEP injunctions; gets Verifone deal done",
-      "Ericsson, AT&T fight lag with 5G Advanced field trial",
       "Ericsson is starting to look like the only safe bet for RAN chips",
       "Ericsson Settles Patent Dispute With Chinese Phone Maker",
       "Ericsson, AT&T and MediaTek Complete First North America LTM 5G Advanced Trial",
@@ -600,25 +600,26 @@
       "Can Nokia's Orange Belgium Network Upgrade Deal Aid the Stock?"
     ],
     "GEV": [
-      "Dow Jones Futures: Nasdaq Slumps As Samsung Fans AI Fears, Oil Prices Jump On Iran News",
-      "Is GE Vernova (GEV) Undervalued Following AI Demand And Russell Top 50 Inclusion?",
+      "The United States could face a major electricity shortfall through 2030, BofA says",
+      "Here's Why Oracle Stock Slumped in the First Half of 2026 (Hint: Microsoft Was Also Impacted)",
+      "Dow Jones Futures Fall, Oil Prices Soar As Trump Says U.S.-Iran Ceasefire 'Over'",
+      "GE Vernova (GEV) Declines More Than Market: Some Information for Investors",
       "Why GE Vernova, Caterpillar Stocks Are Getting Crushed",
+      "Is GE Vernova (GEV) Undervalued Following AI Demand And Russell Top 50 Inclusion?",
       "X-Energy Declines 18.9% in a Month: How Should You Play the Stock Now?",
+      "GE Vernova’s Power Surge Turns the Grid Into an AI Trade",
       "Musashi Seimitsu might be the missing piece in power distribution for datacenters",
       "BE Stock Is Trading At A Massive Premium To Peers — Retail Bulls Still See A Nearly 4x Rally",
-      "Jim Cramer makes bold buy call on one booming energy stock",
-      "3 AI Data Center Power Stocks to Buy in July",
-      "Jim Cramer on GE Vernova: “I Believe In Scott Strazik”",
-      "2 High-Flying Stocks with Competitive Advantages and 1 We Turn Down",
-      "S&P 500 Movers: GEV, FISV",
-      "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
-      "Oklo Advances Groves Isotope Test Reactor With Key DOE Safety Approval",
-      "Bull of the Day: Bloom Energy (BE)",
-      "Notable Thursday Option Activity: GLW, PYPL, GEV",
-      "Will GE Vernova (GEV) Beat Estimates Again in Its Next Earnings Report?",
-      "Here's Why GE Vernova Stock Soared Last Month",
-      "GE Vernova (GEV) Dips More Than Broader Market",
-      "AirJoule Unveils Prime System, Clearing Path to Commercialization"
+      "Why GE Vernova, Caterpillar Stock Is Getting Crushed",
+      "Stocks making the biggest moves midday: SpaceX, GE Vernova, Crinetics Pharmaceuticals, Rivian & more",
+      "GE Vernova leads power generation equipment stocks lower after Siemens Energy downgrade (GEV:NYSE)",
+      "GE Vernova Stock (GEV) Is Down 10% Today. Here’s Why",
+      "Intel, Micron, SpaceX, GE Vernova, Caterpillar, and More Stocks That Explain Today’s Market",
+      "Why GE Vernova Stock Is Getting Crushed",
+      "GE Vernova loses renewed bid to end work on New England wind farm",
+      "Hitachi Energy, GE Vernova, Siemens Energy, other power equipment stocks crash up to 10%. Here’s why",
+      "Here's Why FTAI Aviation Stock Was Red Hot in the First Half of 2026",
+      "S&P 500 Movers: GEV, FISV"
     ],
     "ENR.DE": [
       "Eaton Names Dan T. Simpson President, Global Energy Infrastructure Solutions",
@@ -666,43 +667,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "SU.PA",
-      "classification": {
-        "is_major": true,
-        "category": "contract",
-        "headline": "Debevoise, McDermott Among Firms Leading on Schneider Electric’s $3.1 Billion Cognite Deal",
-        "reason": "Keyword rule matched (category: contract)"
-      },
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaEMyRlRRajF4d1Q4VFU4RjdnSG96YXByVHdYVm1pQTNWUmc5TDZnVVU3elhKckRjeXBXQlB3YTdnMVJUUmNEMHgyWGhWMS1LV3JXNGlrY0VoWFpJb3NsY21TX0hVVk54ejV6b2ZGMTV0U3ktM2huMm1YUmtzekJueHd4ODlYSFZPSjNJUWZmV0lickpGV1UwQ0docnQ0N0s5VFFnclZoUXg3TTVYZE92TkVuM1Vrak1MVmpMd0VLSHR5VjIyZlE2bmdvRlFiMzZDZWw1Y0R5QQ?oc=5",
-      "source": "Law.com",
-      "method": "keyword",
-      "published": "2026-07-08T09:57:00",
-      "queued_min": 29725682,
-      "all_articles": [
-        {
-          "headline": "Debevoise, McDermott Among Firms Leading on Schneider Electric’s $3.1 Billion Cognite Deal",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaEMyRlRRajF4d1Q4VFU4RjdnSG96YXByVHdYVm1pQTNWUmc5TDZnVVU3elhKckRjeXBXQlB3YTdnMVJUUmNEMHgyWGhWMS1LV3JXNGlrY0VoWFpJb3NsY21TX0hVVk54ejV6b2ZGMTV0U3ktM2huMm1YUmtzekJueHd4ODlYSFZPSjNJUWZmV0lickpGV1UwQ0docnQ0N0s5VFFnclZoUXg3TTVYZE92TkVuM1Vrak1MVmpMd0VLSHR5VjIyZlE2bmdvRlFiMzZDZWw1Y0R5QQ?oc=5",
-          "source": "Law.com",
-          "summary": "",
-          "published": "2026-07-08T09:57:00"
-        },
-        {
-          "headline": "HD Hyundai, Schneider Electric to build data centers at sea",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNGdaYUxoeEQ5UmZ5MWxOQldZNnJVc1k3ckZaZFQzTEhETnlxQmNtbXE0U1h6akJ5N3FrcFN4NWFjY0ZaZlNxdkZhQ3VzX1dWRzY4R2E2dWgzSHZ4Z0Z0MF9oTlpnNWFQSl9SMWZ3amdUOURoSEtOTTNIbWRTRU9pdWtZS2U2dnFqSGZNWXM5dUJ6TUdwUWgwQXJqcDBRQUdYTFRxNUhRc3g1U1c3SFBnbg?oc=5",
-          "source": "Korea JoongAng Daily",
-          "summary": "",
-          "published": "2026-07-08T05:04:04"
-        },
-        {
-          "headline": "Till signs Schneider Electric for 19,000 sq ft Warrington office",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQckJOd3ZkdXNBVWZpaTltaGhiUV8wQ2FMWjluSjNYb0wwblM1OUFIcEJ6Q2Y5UTBHM2lZejF1NWE4QXN6THNCek5xRFROTjFrWmI1ZlMzX1loV015c1VDcWRvS3NrQ1d1c0p5M3c5amxralpaNkJvZDhLWjF2SWxMQ09xSXdoTHUzZ0Rma2xOb1dTSFZhWjBSbUNlSHJJSzc3NHc?oc=5",
-          "source": "Green Street News",
-          "summary": "",
-          "published": "2026-07-08T12:00:01"
-        }
-      ]
-    },
     {
       "symbol": "VRT",
       "classification": {
@@ -780,7 +744,8 @@
       "contract": 1322
     },
     "SU.PA": {
-      "ma": 1262
+      "ma": 1262,
+      "contract": 1382
     },
     "IREN": {
       "analyst_note": 1412
@@ -803,14 +768,14 @@
     }
   },
   "recent_post_sources": [
-    "TipRanks",
     "247wallst.com",
     "247wallst.com",
     "Data Center Knowledge",
     "DatacenterDynamics",
-    "Technical.ly"
+    "Technical.ly",
+    "Law.com"
   ],
-  "last_news_post_min": 29725533,
+  "last_news_post_min": 29725742,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -921,7 +886,8 @@
     }
   ],
   "us_posted": [
-    0
+    0,
+    1
   ],
   "us_flexible_used": 1
 }
