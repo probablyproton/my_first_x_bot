@@ -1,7 +1,7 @@
 {
   "date": "2026-07-08",
   "daily_posts": 2,
-  "daily_keyword_posts": 4,
+  "daily_keyword_posts": 5,
   "daily_pulse_posts": 18,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
@@ -25,7 +25,7 @@
     "IBE.MC": 1066,
     "RWE.DE": 1187,
     "GEV": 1307,
-    "VRT": 1306,
+    "VRT": 1427,
     "EQIX": 1172,
     "ETN": 1187,
     "CEG": 1052,
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 138,
+  "event_log_next_id": 139,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -71,7 +71,8 @@
     "APLD": 1277,
     "news_PWR": 1292,
     "news_GEV": 1307,
-    "news_APLD": 1412
+    "news_APLD": 1412,
+    "news_VRT": 1427
   },
   "news_seen": {
     "ETN": [
@@ -108,7 +109,6 @@
       "Record Heat Dome Drove the Grid to All-Time Peak Demand Friday: Here’s 4 Stocks To Buy As Things Heat Up",
       "Citi Keeps Neutral Rating on Constellation Energy (CEG)",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
-      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
       "CEG - Constellation Energy Corp Latest SEC Filings",
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
@@ -116,6 +116,7 @@
       "Constellation Reports First Quarter 2026 Results",
       "Is Constellation Energy Corporation (CEG) Among the Best AI Power Grid Stocks to Buy According to Analysts?",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
+      "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
       "VO, WDC, CMI, CEG: Large Inflows Detected at ETF"
     ],
     "PWR": [
@@ -203,7 +204,7 @@
       "Vistra Vs. Talen: I Prefer The Higher-Risk AI Power Trade",
       "Vistra to Report Second Quarter Results on Aug. 7, 2026 – Company Announcement",
       "Vistra Corp (VST) Gets a Buy from Wells Fargo",
-      "CA: VISTRA FIRE BATTERY REMOVAL NEARLY DONE",
+      "UBS (AMUB) offers Vistra‑linked autocallable notes with contingent coupons",
       "Noteworthy Wednesday Option Activity: AMZN, WMT, VST"
     ],
     "ABBN.SW": [
@@ -283,16 +284,16 @@
       "Global Industrial Process Heating Market to Hit USD 17.47 Billion by 2032",
       "Compass Datacenters Donates $12.6M Building to Texas State Technical College to Expand Career Training for the Fast-Growing Digital Economy",
       "Fermi Selects Primoris Services Corporation to Engineer and Construct Balance of Plant for First Six SGT-800 Gas Turbines of Phase One Power Buildout",
-      "Siemens Invests $165M for U.S. Data Center Manufacturing",
+      "Siemens in Chicago, IL",
+      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
+      "Siemens Energy to invest $421 million in NC",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "US Production: Siemens North Carolina Manufacturing Facility",
+      "Harry Siemens Honored for Farm Reporting",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Launches Wendell Microgrid at HQ Campus",
-      "Siemens stock falls after Q4 earnings miss and weaker 2026 outlook",
-      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States"
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -374,7 +375,7 @@
       "Digital Realty Trust, Inc. $DLR Shares Sold by Swedbank AB",
       "$3.5B data center deal in Virginia as Digital Realty buys Blackstone stake",
       "Digital Realty to pay Blackstone $3.5 billion for stake in Virginia data centers",
-      "Digital Realty Announces Transactions to Drive Continued Platform Growth",
+      "Digital Realty Announces Purchase of Blackstone Interest in Three Northern Virginia Data Centers",
       "Digital Realty (DLR) Stock Could Be 35% Undervalued Despite $3.5b Data Center Deal",
       "Digital Realty (NYSE: DLR) to acquire $3.5B Blackstone hyperscale data centers",
       "Digital Realty falls 5% after taking $3.5 billion stake in Blackstone's Virginia data centers",
@@ -438,8 +439,8 @@
       "Musashi Seimitsu might be the missing piece in power distribution for datacenters",
       "Why Is Bloom Energy Stock Sinking Wednesday? - Bloom Energy (NYSE:BE)",
       "Bloom's Big Lie",
-      "Bloom Energy to Announce Second Quarter 2026 Financial Results on July 28, 2026",
       "Bloom Energy falls amid Hunterbrook short report (update) (BE:NYSE)",
+      "Bloom Energy to Announce Second Quarter 2026 Financial Results on July 28, 2026",
       "Bloom Energy shares drop after short seller questions supply claims",
       "Why FuelCell Energy Stock Is Tumbling on Wednesday",
       "Notable ETF Outflow Detected - FESM, BE, FN, GH",
@@ -572,12 +573,12 @@
       "How nTop Hit NASA’s 2030 CFD Goal Early on CoreWeave | CoreWeave Blog",
       "Meta Platforms Just Gave a Massive Warning to CoreWeave and Nebius. Is It Time to Sell These AI Infrastructure Stocks?",
       "Cloudflare Is Up 9% Today: Is It Outperforming Other AI Cloud Stocks Like Oracle, CoreWeave, and Snowflake?",
-      "Galaxy delivers 133 MW of critical IT load to CoreWeave as Helios bitcoin mine turns AI hub",
-      "AI agents reshape enterprise infrastructure at CoreWeave",
       "Galaxy completes first 133 MW Helios delivery to CoreWeave, begins generating revenue",
+      "AI agents reshape enterprise infrastructure at CoreWeave",
+      "Galaxy delivers 133 MW of critical IT load to CoreWeave as Helios bitcoin mine turns AI hub",
       "CoreWeave Stock Is Climbing After Meta Competition Selloff: What's Driving the Action?",
       "5 Underperforming Data Center Stocks to Buy According to Short Sellers",
-      "AI Insider Activity: Are Sales Across 3 Key Stocks Noteworthy or Just Noise?"
+      "Why Astera Labs Stock Skyrocketed Last Month"
     ],
     "ERIC": [
       "Vonage Launches Protection Suite for Okta for Secure MFA Delivery",
@@ -668,52 +669,7 @@
       "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "VRT",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "Swedbank AB Raises Stake in Vertiv Holdings Co. $VRT",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWlc5aHZ0bUtjMGE3b1BCQmNLSjVhbVIzUlZGNndYVG5JRGNoYWx3SWFaX19uODBnZkVNMzJvUG9KUF9CcFpESzF1TDRPVl82aUhSR1h0LXVHZGdaaVJlbmRDeFpwZXg0d1BrSUdrMUI1b000VXZfb1M4V0V2aGsyckhtZ29heEgtaElIc0VYc0tMSVlMaWRGY2pTLU1NbGtLYkZ2cUUxN29EdmtxVEgzQQ?oc=5",
-      "source": "MarketBeat",
-      "method": "keyword",
-      "published": "2026-07-08T09:55:16",
-      "queued_min": 29725696,
-      "all_articles": [
-        {
-          "headline": "Vertiv Holdings Co-A (NYSE:VRT) Flags Strong Growth and a Timely Technical Buy Setup",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdXdVOE9adl80LWlzWkswczRyeWJJQWZpOUdONXA1ZUpzTzZsQzRBTHhyWTh6Q3I0NGo1OTFtTmxWOHRCSHl5ZElyRUJCSV8zQTR2dTE4SnBPdmh3TzRNMUoxNHlWMURtdW9Vc210T05sT01TUmdwZktfc2pkUXhhNUF2a25lcFlnakdPWlhheWMzYW5yVklkRzFieHhmSEN1SV83cVRPdHVDaHZvVjllV2Q3NE15LUVOVmxyek9sdEZRUHgxXy1LWnNTVW8?oc=5",
-          "source": "ChartMill",
-          "summary": "",
-          "published": "2026-07-08T08:50:42"
-        },
-        {
-          "headline": "Swedbank AB Raises Stake in Vertiv Holdings Co. $VRT",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWlc5aHZ0bUtjMGE3b1BCQmNLSjVhbVIzUlZGNndYVG5JRGNoYWx3SWFaX19uODBnZkVNMzJvUG9KUF9CcFpESzF1TDRPVl82aUhSR1h0LXVHZGdaaVJlbmRDeFpwZXg0d1BrSUdrMUI1b000VXZfb1M4V0V2aGsyckhtZ29heEgtaElIc0VYc0tMSVlMaWRGY2pTLU1NbGtLYkZ2cUUxN29EdmtxVEgzQQ?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-07-08T09:55:16"
-        },
-        {
-          "headline": "Vertiv Holdings (NYSE:VRT) Signals A Fresh Growth Test",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc3FTbURrUnRVNXlQc2pFVkZuRHZvY1ZrckU4d1EzOGxFRlYyTXAzWU1ackhjcE5LelhTVTNXcUVSU2hJNTF1RzZvQzNNaXVNRWtlTWtObU94QWFPVnRxeWhwMlpTU1JGaDQ1UGFUWnh6dHFENmtPbzhEV3ppaVo0d1Zic2FyY3pwQXZ2SWlaanR1VExOdlhzSDVfOUhhZw?oc=5",
-          "source": "Kalkine Media",
-          "summary": "",
-          "published": "2026-07-08T18:22:00"
-        },
-        {
-          "headline": "Vertiv Holdings Co. $VRT Stock Position Increased by Geneva Partners LLC",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSVhhVFE1NTVpVkltajJrWGhlbXZhNk5aUjhJTGI0NWQxOVRuYWk5amx4YUFudjNPWjBmeExEbk5CeF94VGNvYlVlaDVIa3ZiZWNlSDc1cjUtN3IzTkxBZWh6bDA3RWNkUE1MTjVOSnRYWWFicVBDcldLODljck1vaFJqQVFxN1RyMUd0QVh5NTZYMVlGcUk0R0NYckJqQUN3OXpZUHNCa2tYNGJfZXRtT0l1emRRbEFwNlJURGhwb1pVRjBwcFE0QlMwaw?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-07-08T08:17:00"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -767,17 +723,20 @@
     },
     "APLD": {
       "contract": 1412
+    },
+    "VRT": {
+      "analyst_note": 1427
     }
   },
   "recent_post_sources": [
     "247wallst.com",
-    "247wallst.com",
     "Data Center Knowledge",
     "DatacenterDynamics",
     "Technical.ly",
-    "Law.com"
+    "Law.com",
+    "MarketBeat"
   ],
-  "last_news_post_min": 29725742,
+  "last_news_post_min": 29725787,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
