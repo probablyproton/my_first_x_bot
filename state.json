@@ -1,10 +1,10 @@
 {
   "date": "2026-07-08",
   "daily_posts": 1,
-  "daily_keyword_posts": 0,
-  "daily_pulse_posts": 9,
+  "daily_keyword_posts": 1,
+  "daily_pulse_posts": 10,
   "gemini_calls_today": 18,
-  "evergreen_opinion_posts_today": 0,
+  "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-07-06",
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 122,
+  "event_log_next_id": 123,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -588,16 +588,16 @@
       "Hanwha Power Marks U.S. Market with Successful Commissioning of Trumbull Energy Center CCGT",
       "Europe Unveils a Record 35 New NVIDIA AI Supercomputers",
       "Is Ring Energy (REI) Stock Outpacing Its Oils-Energy Peers This Year?",
-      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "CAUTION with Siemens Energy! BUY CTS Eventim? OPPORTUNITY with Strategic Resources!",
-      "Is Siemens Energy AG's (ETR:ENR) Latest Stock Performance A Reflection Of Its Financial Health?",
-      "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG",
-      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
-      "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
-      "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
-      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS)",
-      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations"
+      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
+      "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
+      "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG",
+      "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations",
+      "Is Siemens Energy AG's (ETR:ENR) Latest Stock Performance A Reflection Of Its Financial Health?",
+      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
+      "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
+      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment"
     ],
     "LR.PA": [
       "Legrand: Total Number of Shares and Voting Rights",
@@ -739,12 +739,12 @@
     }
   },
   "recent_post_sources": [
-    "POWER Magazine",
     "MarketBeat",
     "富途牛牛",
     "TipRanks",
     "247wallst.com",
-    "247wallst.com"
+    "247wallst.com",
+    "Data Center Knowledge"
   ],
   "last_news_post_min": 29724332,
   "evergreen_opinion_used": {
@@ -752,11 +752,24 @@
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
     "cameroon's st digital opens data center in gabon": "2026-07-06",
     "2mw telco data center on sale in cincinnati, ohio": "2026-07-07",
-    "weavegrid, gm advance grid-integrated ev charging and home energy programs": "2026-07-07"
+    "weavegrid, gm advance grid-integrated ev charging and home energy programs": "2026-07-07",
+    "second major virginia data center project dies, raising ai site selection stakes": "2026-07-08"
   },
   "pulse_template_decks": {
-    "evergreen": [],
-    "mover": [],
+    "evergreen": [
+      1,
+      2,
+      0,
+      3
+    ],
+    "mover": [
+      6,
+      4,
+      1,
+      2,
+      0,
+      5
+    ],
     "price_event": [
       0,
       1,
@@ -769,36 +782,36 @@
       2
     ]
   },
-  "last_evergreen_min": 29724047,
+  "last_evergreen_min": 29725293,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 21.03,
-    "ENGI.PA": 27.18,
-    "SU.PA": 262.75,
-    "SIE.DE": 264.75,
-    "LR.PA": 140.75,
-    "EOAN.DE": 19.42,
-    "ABBN.SW": 82.56,
-    "ENR.DE": 152.52,
-    "RWE.DE": 56.48,
-    "ETN": 394.12,
-    "EQIX": 1026.95,
-    "CRWV": 83.6,
-    "NEE": 88.89,
-    "POWL": 233.88,
-    "NVT": 151.75,
-    "TLN": 368.51,
-    "IREN": 40.18,
-    "APLD": 30.98,
-    "GEV": 1066.25,
-    "NOK": 11.79,
-    "DLR": 175.14,
-    "VRT": 303.79,
-    "ERIC": 10.81,
-    "CEG": 240.74,
-    "VST": 156.16,
-    "BE": 265.76,
-    "PWR": 653.42
+    "ENGI.PA": 27.22,
+    "SU.PA": 263.5,
+    "SIE.DE": 265.35,
+    "LR.PA": 141.3,
+    "EOAN.DE": 19.34,
+    "ABBN.SW": 82.8,
+    "ENR.DE": 153.12,
+    "RWE.DE": 56.46,
+    "ETN": 393.69,
+    "EQIX": 1024.06,
+    "CRWV": 83.78,
+    "NEE": 87.86,
+    "POWL": 233.78,
+    "NVT": 153.02,
+    "TLN": 364.32,
+    "IREN": 41.01,
+    "APLD": 31.04,
+    "GEV": 1083.72,
+    "NOK": 11.68,
+    "DLR": 175.12,
+    "VRT": 303.99,
+    "ERIC": 10.76,
+    "CEG": 237.54,
+    "VST": 154.88,
+    "BE": 260.0,
+    "PWR": 659.58
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -811,8 +824,8 @@
     "ETN": "2026-07-07",
     "APLD": "2026-07-07"
   },
-  "next_pulse_interval": 33,
-  "last_pulse_post_min": 29725246,
+  "next_pulse_interval": 41,
+  "last_pulse_post_min": 29725292,
   "eu_slots": [
     {
       "slot": 0,
@@ -844,5 +857,7 @@
       "fire_time": "22:27"
     }
   ],
-  "us_posted": []
+  "us_posted": [
+    0
+  ]
 }
