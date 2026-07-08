@@ -85,9 +85,9 @@
       "Eaton (ETN) Stock Moves -3.34%",
       "VoltServer and Eaton Form Strategic Partnership to Advance Next-Generation Power Distribution",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
-      "Eaton Corp. PLC stock underperforms Tuesday when compared to competitors",
       "Eaton Invests in VoltServer",
       "Eaton Corporation, PLC (ETN) Is a Trending Stock: Facts to Know Before Betting on It",
+      "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "Thousands of survivors still waiting to rebuild 18 months after Eaton Fire",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
@@ -106,15 +106,15 @@
       "Constellation Energy (CEG) Applies for License Renewals for 2 Plants",
       "Big Tech’s $3 Trillion Struggle to Secure Enough Electricity",
       "Stock Market Week Ahead: Oil Hints At A Paradigm Shift",
-      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
+      "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
       "Constellation Energy Corp outlook for investors as a leading US power supplier",
       "Certain Options of Constellation Energy Corporation are subject to a Lock-Up Agreement Ending on 2-JUL-2026.",
       "CEG - Constellation Energy Corp Latest SEC Filings",
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
-      "Constellation Energy Corp. stock rises Monday, outperforms market",
-      "Constellation Reports First Quarter 2026 Results",
+      "Constellation Energy Corporation Trade Ideas — SIX:CEG.USD",
+      "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Here's Why Constellation Energy Corporation (CEG) is a Strong Growth Stock"
     ],
     "PWR": [
@@ -230,9 +230,9 @@
       "Why Vertiv Holdings Co (VRT) Could Be 23% Undervalued On AI Infrastructure Expansion",
       "Vertiv Holdings Co-A (NYSE:VRT) Shows Strong Growth at a Reasonable Price in Affordable GARP Screen",
       "A Look at Vertiv Holdings Co (VRT) After 6.0% Gain -- GF Value $154.33 vs Price $324.88",
+      "Vertiv Jumps 9.2% as AI Infrastructure Expansion Supports Bullish Sentiment",
       "Vertiv (VRT) Stock After 160% One-Year Gain Is The Recent Rally Justified",
       "Leonteq Securities AG Sells 12,801 Shares of Vertiv Holdings Co. $VRT",
-      "Vertiv Holdings (VRT) Didn’t Fail To Impress After Jim Cramer Shared When To Buy The Shares",
       "Is Vertiv (VRT) a Solid Growth Stock? 3 Reasons to Think &quot;Yes&quot;",
       "Noteworthy ETF Outflows: IVW, VRT, PWR, NEM"
     ],
@@ -318,11 +318,11 @@
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE outlines long-term energy transition strategy amid stable operations",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
+      "Why Congressman Dan Crenshaw unloaded on Sen. Ted Cruz in interview",
       "E.ON stock holds steady. Focus shifts to earnings and grid spending.",
       "E.ON SE outlines grid investment priorities as energy transition accelerates",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
-      "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix.",
-      "E.ON stock stays focused on the business mix. Long-term utility earnings remain the story."
+      "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix."
     ],
     "TLN": [
       "X-Energy Declines 18.9% in a Month: How Should You Play the Stock Now?",
@@ -384,7 +384,7 @@
       "The Group’s human rights approach",
       "Arcadia acquires Engie Impact to create unified energy management platform",
       "Engie and Ignis Ink 625 MWh Battery Storage Agreement in Spain - News and Statistics",
-      "South Dakota storm strikes two ENGIE wind farms"
+      "ENGIE launches its first campaign with Tamara Klink, reinforcing the concept of \"The Same Energy\" alongside the sailor"
     ],
     "SU.PA": [
       "Schneider Electric (ENXTPA:SU) Stock Could Be 35% Overvalued Following Its $3.1b AI Deal",
@@ -702,13 +702,13 @@
   "price_snapshots": {
     "IBE.MC": 21.02,
     "ENGI.PA": 27.38,
-    "SU.PA": 268.0,
-    "SIE.DE": 269.6,
-    "LR.PA": 141.75,
+    "SU.PA": 266.25,
+    "SIE.DE": 267.65,
+    "LR.PA": 141.8,
     "EOAN.DE": 19.05,
-    "ABBN.SW": 83.36,
-    "ENR.DE": 155.3,
-    "RWE.DE": 56.58,
+    "ABBN.SW": 83.18,
+    "ENR.DE": 155.72,
+    "RWE.DE": 56.8,
     "ETN": 394.12,
     "EQIX": 1026.95,
     "CRWV": 83.6,
@@ -755,7 +755,9 @@
       "fire_time": "18:04"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
