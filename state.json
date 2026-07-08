@@ -2,8 +2,8 @@
   "date": "2026-07-08",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 4,
-  "gemini_calls_today": 13,
+  "daily_pulse_posts": 5,
+  "gemini_calls_today": 14,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -46,7 +46,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 116,
+  "event_log_next_id": 117,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -85,15 +85,15 @@
       "Eaton (ETN) Stock Moves -3.34%",
       "VoltServer and Eaton Form Strategic Partnership to Advance Next-Generation Power Distribution",
       "What's Driving the Unusual Bullish Options Activity in Eaton (ETN)",
-      "Eaton Corp. PLC stock underperforms Tuesday when compared to competitors",
       "Eaton Invests in VoltServer",
       "Eaton Corporation, PLC (ETN) Is a Trending Stock: Facts to Know Before Betting on It",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
-      "Eaton Denied Refund Claim Citing California Tax Authority Advice",
       "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
+      "Eaton Denied Refund Claim Citing California Tax Authority Advice",
       "Thousands of survivors still waiting to rebuild 18 months after Eaton Fire",
-      "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now"
+      "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now",
+      "Industrial Select Sector SPDR Fund Experiences Big Inflow"
     ],
     "CEG": [
       "Another AI power darling just hit a 52-week low",
@@ -318,8 +318,8 @@
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON SE outlines long-term energy transition strategy amid stable operations",
       "Natural Gas Distribution Industry Report 2026-2035: A $1.34 Trillion Market by 2030 with Gazprom, Uniper, Naturgy Energy Group, Centrica, Engie, Tokyo Gas, E.ON SE, Gail Leading",
-      "E.ON stock holds steady. Focus shifts to earnings and grid spending.",
       "E.ON SE outlines grid investment priorities as energy transition accelerates",
+      "E.ON stock holds steady. Focus shifts to earnings and grid spending.",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
       "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix.",
       "E.ON stock stays focused on the business mix. Long-term utility earnings remain the story."
@@ -606,16 +606,16 @@
       "Tallo Wins 2026 EdTech Award for Hiring, Internships, and Apprenticeship Solution",
       "3 Market-Beating Stocks with Exciting Potential",
       "Assessing Whether Legrand (ENXTPA:LR) Still Offers Upside After Strong Recent Share Performance",
-      "On Cloud AV/IT: Legrand | AV",
+      "Legrand delivers digital infrastructure for new AI data center at Yerevan State University",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
       "Legrand upgraded by Barclays on AI data center demand, 800VDC optimism",
       "Camille LeGRAND Obituary - CA",
-      "Bobby Legrand Driskill, 82 of Polkville, Mississippi",
-      "Legrand delivers Nvidia-powered supercomputer to Armenia’s Yerevan State University",
-      "Adorne Wi-Fi Ready Switch from Legrand - modular smart lighting for US homes",
       "Callen LeGrand Morris Obituary Apr 10, 2026",
-      "Legrand | AV Earns 18 Awards at InfoComm 2026, Validating “Where Solutions Live” Strategy",
-      "Bobby Legrand Driskill Obituary Jul 4, 2026 - Colonial Chapel Funeral Home"
+      "Adorne Wi-Fi Ready Switch from Legrand - modular smart lighting for US homes",
+      "APS welcomes Jason LeGrand as global director of development",
+      "Sarah Legrand Is Turning Rwandan Heritage Into Wearable Art",
+      "MBB: UTA Coaching Legend LeGrand to be Posthumously Inducted into Texas Black Sports Hall of Fame",
+      "Ms. Catherine Legrand Humphries Obituary Feb 4, 2026"
     ]
   },
   "pending_news_posts": [
@@ -726,8 +726,7 @@
       5,
       4,
       1,
-      3,
-      2
+      3
     ],
     "price_event": [
       0,
@@ -744,15 +743,15 @@
   "last_evergreen_min": 29724047,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.95,
-    "ENGI.PA": 27.12,
-    "SU.PA": 262.05,
-    "SIE.DE": 262.55,
-    "LR.PA": 140.0,
-    "EOAN.DE": 19.3,
-    "ABBN.SW": 81.62,
-    "ENR.DE": 152.44,
-    "RWE.DE": 56.8,
+    "IBE.MC": 20.91,
+    "ENGI.PA": 27.07,
+    "SU.PA": 262.3,
+    "SIE.DE": 262.5,
+    "LR.PA": 139.95,
+    "EOAN.DE": 19.31,
+    "ABBN.SW": 81.64,
+    "ENR.DE": 152.54,
+    "RWE.DE": 56.68,
     "ETN": 394.12,
     "EQIX": 1026.95,
     "CRWV": 83.6,
@@ -784,7 +783,7 @@
     "APLD": "2026-07-07"
   },
   "next_pulse_interval": 42,
-  "last_pulse_post_min": 29725022,
+  "last_pulse_post_min": 29725066,
   "eu_slots": [
     {
       "slot": 0,
