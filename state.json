@@ -2,8 +2,8 @@
   "date": "2026-07-09",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 0,
-  "gemini_calls_today": 0,
+  "daily_pulse_posts": 1,
+  "gemini_calls_today": 1,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 139,
+  "event_log_next_id": 140,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -265,13 +265,13 @@
       "Board of Directors",
       "How Investors Are Reacting To nVent Electric (NVT) Joining Key Russell Growth and Midcap Indices",
       "A Look at nVent Electric PLC (NVT) After 3.1% Gain -- GF Value $115.86 vs Price $156.89",
+      "Understanding the Setup: (NVT) and Scalable Risk",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
       "If You Invested $1000 In nVent Electric Stock 5 Years Ago, You Would Have This Much Today",
       "Price to sales forward of nVent Electric plc – NYSE:NVT",
       "Why Investors Need to Take Advantage of These 2 Computer and Technology Stocks Now",
       "MDY, CW, NVT, ENTG: ETF Inflow Alert",
-      "nVent Electric and Lululemon have been highlighted as Zacks Bull and Bear of the Day",
-      "Bull of the Day: nVent Electric (NVT)"
+      "nVent Electric and Lululemon have been highlighted as Zacks Bull and Bear of the Day"
     ],
     "SIE.DE": [
       "Siemens (XTRA:SIE) Stock May Be 39% Undervalued As Industrial AI Ties Deepen",
@@ -328,7 +328,7 @@
       "Should Value Investors Buy AES (AES) Stock?",
       "European Stocks Rise in Friday Trading Following Middle East War Ceasefire",
       "How The E.ON (XTRA:EOAN) Narrative Is Shifting As Analyst Views Split On Upside Potential",
-      "Kentucky governor demands transparency on Sen. McConnell’s health",
+      "Gov. Beshear seeks answers on Sen. Mitch McConnell’s health amid hospitalization",
       "E.ON SE strengthens its energy transition role as investors weigh long-term grid and renewables grow",
       "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
       "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
@@ -396,14 +396,14 @@
       "Engie’s Belgian Battery Project And What It Means For Cash Flows",
       "Engie confirms wind turbine damage in South Dakota after storm",
       "Engie agrees offtake deal with developer for 625MWh of Spain BESS",
-      "ENGIE Wins Four Electricity Transmission Projects in Peru for $230 Million",
       "Engie Wind Farm Damaged by Hurricane-Force Gale in South Dakota",
+      "ENGIE Wins Four Electricity Transmission Projects in Peru for $230 Million",
       "ENGIE and IGNIS Sign a Long-Term Agreement for Battery Energy Storage in Spain",
       "ENGIE Q1 2026 Financial Information",
       "The Group’s human rights approach",
       "Arcadia acquires Engie Impact to create unified energy management platform",
-      "Ineos agrees ‘preliminary commercial terms’ to offtake blue hydrogen from Engie and Equinor’s 1GW H2BE project",
-      "South Dakota storm strikes two ENGIE wind farms"
+      "South Dakota storm strikes two ENGIE wind farms",
+      "Green Gases: Biomethane and Hydrogen Strategies - ENGIE"
     ],
     "SU.PA": [
       "Schneider Electric (ENXTPA:SU) Stock Could Be 35% Overvalued Following Its $3.1b AI Deal",
@@ -640,8 +640,8 @@
       "Is Siemens Energy AG's (ETR:ENR) Latest Stock Performance A Reflection Of Its Financial Health?",
       "PTA-PVR: Siemens Energy AG: Release according to Article 40, Section 1 of the WpHG",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
-      "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
       "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
+      "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy wins order for 2 GW North Sea wind converter platform (SMEGF:OTCMKTS)",
       "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations"
@@ -659,8 +659,8 @@
       "3 Market-Beating Stocks with Exciting Potential",
       "Legrand delivers digital infrastructure for new AI data center at Yerevan State University",
       "Meet Melva LaJoy Legrand",
-      "On Cloud AV/IT: Legrand | AV",
       "William LeGrand Obituary and Online Memorial (2026)",
+      "On Cloud AV/IT: Legrand | AV",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
       "Legrand upgraded by Barclays on AI data center demand, 800VDC optimism",
       "Camille LeGRAND Obituary - CA",
@@ -756,8 +756,7 @@
       1,
       2,
       0,
-      6,
-      3
+      6
     ],
     "price_event": [
       0,
@@ -773,15 +772,15 @@
   "last_evergreen_min": 29725487,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.99,
-    "ENGI.PA": 26.95,
-    "SU.PA": 264.15,
-    "SIE.DE": 264.75,
-    "LR.PA": 142.05,
-    "EOAN.DE": 19.17,
-    "ABBN.SW": 82.82,
-    "ENR.DE": 152.76,
-    "RWE.DE": 56.2,
+    "IBE.MC": 21.02,
+    "ENGI.PA": 26.78,
+    "SU.PA": 263.8,
+    "SIE.DE": 265.55,
+    "LR.PA": 142.15,
+    "EOAN.DE": 19.2,
+    "ABBN.SW": 82.36,
+    "ENR.DE": 151.9,
+    "RWE.DE": 56.12,
     "ETN": 398.61,
     "EQIX": 1015.63,
     "CRWV": 89.72,
@@ -812,8 +811,8 @@
     "ETN": "2026-07-07",
     "APLD": "2026-07-07"
   },
-  "next_pulse_interval": 45,
-  "last_pulse_post_min": 29725622,
+  "next_pulse_interval": 36,
+  "last_pulse_post_min": 29726347,
   "eu_slots": [
     {
       "slot": 0,
