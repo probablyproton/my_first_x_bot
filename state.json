@@ -2,7 +2,7 @@
   "date": "2026-07-09",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 2,
+  "daily_pulse_posts": 3,
   "gemini_calls_today": 4,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 141,
+  "event_log_next_id": 142,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -90,12 +90,12 @@
       "Eaton Appoints Dan Simpson President of Global Energy Infrastructure Solutions",
       "Only 1% of Eaton Fire Homes Rebuilt So Far, Two-Thirds of Survivors Still Displaced",
       "Should I Buy ETN (Eaton Corporation plc) | AI Analysis, Technical & News Insights",
-      "Eaton Corporation to Merge Mobility Business with Dana",
       "Eaton Corp. PLC stock underperforms Tuesday when compared to competitors",
       "How Eaton Corporation Plc (ETN) Affects Rotational Strategy Timing",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 3.86% on Jul 6",
       "Eaton Denied Refund Claim Citing California Tax Authority Advice",
-      "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?"
+      "Is Eaton Corporation Plc (NYSE:ETN) Potentially Undervalued?",
+      "Why Investors Need to Take Advantage of These 2 Industrial Products Stocks Now"
     ],
     "CEG": [
       "Constellation Energy Corporation (CEG) Gains As Market Dips",
@@ -108,14 +108,14 @@
       "Investors Heavily Search Constellation Energy Corporation (CEG): Here is What You Need to Know",
       "Walmart signs nuclear PPA with Constellation to support Illinois operations",
       "This Week In Energy Transition - India's Path to Net Zero by 2050: A Renewable Revolution",
-      "Constellation Energy Corp. stock rises Wednesday, outperforms market",
+      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Announces Secondary Public Offering of Common Stock",
-      "Constellation Energy Corp. stock falls Tuesday, underperforms market",
+      "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Constellation Reports First Quarter 2026 Results",
       "Constellation Energy Corporation (CEG) Stock Moves 1.16%",
-      "Constellation Energy Corp. stock rises Monday, outperforms market",
       "Constellation Energy Corporation (CEG) Declines, Here’s What Wall Street Thinks About it",
+      "Constellation Energy Corporation (CEG) Among Stocks Expected to Bounce Back According to Analysts",
       "VO, WDC, CMI, CEG: Large Inflows Detected at ETF",
       "Here's Why Constellation Energy Corporation (CEG) is a Strong Growth Stock"
     ],
@@ -265,8 +265,8 @@
       "Board of Directors",
       "How Investors Are Reacting To nVent Electric (NVT) Joining Key Russell Growth and Midcap Indices",
       "A Look at nVent Electric PLC (NVT) After 3.1% Gain -- GF Value $115.86 vs Price $156.89",
-      "Understanding the Setup: (NVT) and Scalable Risk",
       "If You Invested $1000 In nVent Electric Stock 5 Years Ago, You Would Have This Much Today",
+      "Understanding the Setup: (NVT) and Scalable Risk",
       "The AI Boom Has a Power Problem. These Industrial Stocks Are Cashing In.",
       "Price to sales forward of nVent Electric plc – NYSE:NVT",
       "Why Investors Need to Take Advantage of These 2 Computer and Technology Stocks Now",
@@ -331,13 +331,13 @@
       "Gov. Beshear seeks answers on Sen. Mitch McConnell’s health amid hospitalization",
       "E.ON SE strengthens its energy transition role as investors weigh long-term grid and renewables grow",
       "Protesters cast blame on Sen. Collins as nation marks 4 years since Dobbs decision",
-      "Georgia Republicans deciding who will take on Sen. Jon Ossoff in November",
       "E.ON stock keeps its focus on grid spending. The utility leans on regulated earnings.",
       "E.ON stock tracks its utility profile. E.ON SE stays in focus.",
       "E.ON SE outlines grid investment priorities as energy transition accelerates",
       "E.ON SE outlines long-term energy transition strategy amid stable operations",
       "E.ON SE focuses on energy transition and grid investment as a European utility heavyweight",
-      "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix."
+      "E.ON stock stays tied to utility strategy. Investors watch the grid and customer mix.",
+      "E.ON shares track its regulated utility model. Investor focus stays on power grids and customer supp"
     ],
     "TLN": [
       "X-Energy Declines 18.9% in a Month: How Should You Play the Stock Now?",
@@ -526,8 +526,8 @@
       "Wall Street Analysts Think Powell Industries (POWL) Is a Good Investment: Is It?",
       "Why Powell (POWL) Stock Is Trading Up Today",
       "Does Powell Industries’ (POWL) Russell 1000 Promotion Reframe Its Role in Critical Infrastructure Markets?",
-      "Powell Industries (POWL) CEO trims stake with 36,000-share sale",
       "Powell Industries Inc (POWL) Shares Fall 5.6% -- GF Value Says S",
+      "Powell Industries (POWL) CEO trims stake with 36,000-share sale",
       "POWL - Powell Industries Inc Latest SEC Filings",
       "Powell Industries slides as valuation pressure and recent insider selling weigh on sentiment",
       "Powell Industries (POWL) Joins Key Russell Indexes, Is The Upside Already Priced In?",
@@ -658,8 +658,8 @@
       "Tallo Wins 2026 EdTech Award for Hiring, Internships, and Apprenticeship Solution",
       "3 Market-Beating Stocks with Exciting Potential",
       "Meet Melva LaJoy Legrand",
-      "Legrand delivers digital infrastructure for new AI data center at Yerevan State University",
       "On Cloud AV/IT: Legrand | AV",
+      "Legrand delivers digital infrastructure for new AI data center at Yerevan State University",
       "Deanna Kirk Sings Jacques Brel & Michel Legrand",
       "William LeGrand Obituary and Online Memorial (2026)",
       "Legrand upgraded by Barclays on AI data center demand, 800VDC optimism",
@@ -754,8 +754,7 @@
     ],
     "mover": [
       1,
-      2,
-      0
+      2
     ],
     "price_event": [
       0,
@@ -771,14 +770,14 @@
   "last_evergreen_min": 29725487,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.99,
-    "ENGI.PA": 26.96,
-    "SU.PA": 269.05,
-    "SIE.DE": 272.15,
-    "LR.PA": 143.1,
-    "EOAN.DE": 19.22,
-    "ABBN.SW": 84.82,
-    "ENR.DE": 155.88,
+    "IBE.MC": 20.98,
+    "ENGI.PA": 26.95,
+    "SU.PA": 268.15,
+    "SIE.DE": 270.25,
+    "LR.PA": 142.95,
+    "EOAN.DE": 19.19,
+    "ABBN.SW": 84.64,
+    "ENR.DE": 155.26,
     "RWE.DE": 56.06,
     "ETN": 398.61,
     "EQIX": 1015.63,
@@ -810,8 +809,8 @@
     "ETN": "2026-07-07",
     "APLD": "2026-07-07"
   },
-  "next_pulse_interval": 44,
-  "last_pulse_post_min": 29726391,
+  "next_pulse_interval": 35,
+  "last_pulse_post_min": 29726463,
   "eu_slots": [
     {
       "slot": 0,
