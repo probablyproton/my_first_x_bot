@@ -504,15 +504,15 @@
       "Can Nokia's Orange Belgium Network Upgrade Deal Aid the Stock?",
       "ANET Rises 56% in a Year: Should Investors Buy, Sell or Hold?",
       "NOK Stock Rides AI Partnerships And Fresh Buy Rating",
-      "NOK Stock Slips Again As ADR Weakness Worries Traders",
       "Nokia Corporation Sponsored Stock 12‑Month Price Target Raised to $12.07, Implies 16% Downside",
-      "NOK Stock Slides As ADR Underperformance Draws Trader Scrutiny",
+      "NOK Stock Slips Again As ADR Weakness Worries Traders",
       "Nokia Stock Jumps As AI Photonics And Price Targets Rise",
+      "NOK Stock Slides As ADR Underperformance Draws Trader Scrutiny",
       "NOK Stock Slides As Selling Pressure Builds In June",
       "Nokia Stock Draws Fresh Price Target Hikes On AI Hype",
       "NOK Stock Draws Bullish Targets On AI And 5G Momentum",
-      "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves",
-      "Nokia Stock Slides As Volatility And Social Buzz Collide"
+      "Nokia Stock Slides As Volatility And Social Buzz Collide",
+      "Nokia Stock Slides As ADRs Repeatedly Lead Downside Moves"
     ],
     "POWL": [
       "Northwest Pipe, Powell, and SPX Technologies Shares Are Falling, What You Need To Know",
@@ -772,15 +772,15 @@
   "last_evergreen_min": 29725487,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 21.02,
-    "ENGI.PA": 26.78,
-    "SU.PA": 263.8,
-    "SIE.DE": 265.55,
-    "LR.PA": 142.15,
-    "EOAN.DE": 19.2,
-    "ABBN.SW": 82.36,
-    "ENR.DE": 151.9,
-    "RWE.DE": 56.12,
+    "IBE.MC": 20.99,
+    "ENGI.PA": 26.91,
+    "SU.PA": 268.4,
+    "SIE.DE": 269.8,
+    "LR.PA": 143.9,
+    "EOAN.DE": 19.25,
+    "ABBN.SW": 84.42,
+    "ENR.DE": 155.62,
+    "RWE.DE": 56.18,
     "ETN": 398.61,
     "EQIX": 1015.63,
     "CRWV": 89.72,
@@ -827,7 +827,9 @@
       "fire_time": "17:55"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
