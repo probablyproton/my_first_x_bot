@@ -1,7 +1,7 @@
 {
-  "date": "2026-08-01",
+  "date": "2026-08-02",
   "daily_posts": 0,
-  "daily_keyword_posts": 1,
+  "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
   "gemini_calls_today": 0,
   "evergreen_opinion_posts_today": 0,
@@ -817,37 +817,37 @@
       "slot": 0,
       "type": "hook",
       "target_time": "10:00",
-      "fire_time": "09:58"
+      "fire_time": "10:00"
     },
     {
       "slot": 1,
       "type": "analytical",
       "target_time": "11:30",
-      "fire_time": "11:33"
+      "fire_time": "11:27"
     },
     {
       "slot": 2,
       "type": "analytical",
       "target_time": "13:00",
-      "fire_time": "12:59"
+      "fire_time": "12:56"
     },
     {
       "slot": 3,
       "type": "question",
       "target_time": "14:30",
-      "fire_time": "14:32"
+      "fire_time": "14:28"
     },
     {
       "slot": 4,
       "type": "analytical",
       "target_time": "16:00",
-      "fire_time": "15:58"
+      "fire_time": "16:00"
     },
     {
       "slot": 5,
       "type": "question",
       "target_time": "17:30",
-      "fire_time": "17:33"
+      "fire_time": "17:32"
     },
     {
       "slot": 6,
@@ -856,21 +856,13 @@
       "fire_time": "19:02"
     }
   ],
-  "eu_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-  ],
+  "eu_posted": [],
   "us_slots": [
     {
       "slot": 0,
       "type": "hook",
       "target_time": "10:00",
-      "fire_time": "10:03"
+      "fire_time": "10:04"
     },
     {
       "slot": 1,
@@ -882,13 +874,13 @@
       "slot": 2,
       "type": "analytical",
       "target_time": "13:00",
-      "fire_time": "13:00"
+      "fire_time": "12:56"
     },
     {
       "slot": 3,
       "type": "question",
       "target_time": "14:30",
-      "fire_time": "14:29"
+      "fire_time": "14:28"
     },
     {
       "slot": 4,
@@ -900,22 +892,14 @@
       "slot": 5,
       "type": "question",
       "target_time": "17:30",
-      "fire_time": "17:28"
+      "fire_time": "17:32"
     },
     {
       "slot": 6,
       "type": "wrap",
       "target_time": "19:00",
-      "fire_time": "19:04"
+      "fire_time": "18:56"
     }
   ],
-  "us_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-  ]
+  "us_posted": []
 }
