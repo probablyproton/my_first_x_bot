@@ -2,8 +2,8 @@
   "date": "2026-08-03",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 3,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 4,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 147,
+  "event_log_next_id": 148,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -89,14 +89,14 @@
       "The Zacks Analyst Blog Highlights Applied Materials, Sandisk, Eaton and Flanigan's",
       "Eaton: Electrical Global Backlog More Than Doubles As Orders Rise 33%",
       "Eaton Corporation, PLC Revenue Breakdown – NYSE:ETN",
+      "Evercore ISI upgrades Eaton stock rating on margin recovery outlook By Investing.com",
       "ETN Jumps As Eaton Tops Earnings And Lifts 2026 Outlook",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 5.61% on Jul 31: A Full Analysis",
       "Eaton Corporation plc Provides Earnings Guidance for the Third Quarter Ending September 30, 2026 and Full Year Ending December 31, 2026",
       "Eaton surges 7% after Q2 beat-and-raise above Wall Street expectations (ETN:NYSE)",
       "Eaton: Q2 Earnings Snapshot",
       "Eaton Boosts FY26 Outlook; Stock Up 5.4% - Update",
-      "Eaton Corporation Plc Reports Fall In Q2 Profit",
-      "Eaton Corp. Q2 26 Earnings Conference Call At 11:00 AM ET"
+      "Eaton Corporation Plc Reports Fall In Q2 Profit"
     ],
     "CEG": [
       "This Is The Best-Performing Nuclear Stock Now Even As Peers Are Losing Value",
@@ -286,8 +286,8 @@
       "Siemens advances self-verifying agentic AI workflows for semiconductor and PCB design",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "SIEMENS AG N (SIE.HA) Q1 FY2026 earnings call transcript",
-      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
+      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
@@ -398,8 +398,8 @@
       "Engie shares rise 5% on strong gas trading, power grid income",
       "Engie Raises Full-Year Profit Outlook Amid Market Volatility",
       "Engie: Guidance Improves, But Earnings Quality Limits Further Upside (OTCMKTS:ENGIY)",
-      "ENGIE Allocates €25 Million to French Forest Reconstruction Effort",
       "NTT Data, Engie Launch Clean Energy Partnership to Decarbonize Global Data Center Footprint",
+      "ENGIE Allocates €25 Million to French Forest Reconstruction Effort",
       "U.S. Permit Delays Slow Engie's Clean-Power Buildout",
       "NTT DATA, ENGIE Partner to Secure Renewable Energy for Global AI Data Centers",
       "ENGIE H1 2026 slides: guidance raised on infrastructure growth"
@@ -525,11 +525,11 @@
       "Microsoft Stock And 2 Quality Picks Backed by Strong Balance Sheets",
       "Powell Industries Number of Employees 2026 | Employee Count & Headcount Data",
       "Powell Industries (POWL) Falls Ahead of Earnings as Investors Weigh Prior Miss and Insider Sales",
-      "Powell Industries (PW2) Q2 2026 Earnings Report - Results, Call & Slides",
       "First Trust group reports 4.55% Powell Industries (POWL) stake in ownership update",
       "Powell Industries, Inc. Revenue Breakdown – FWB:PW2",
       "Powell Industries Q3 Preview: Good Time To Add Before Earnings (Rating Upgrade) (POWL)",
       "Brokers Suggest Investing in Powell Industries (POWL): Read This Before Placing a Bet",
+      "Powell Industries' (POWL) Backlog Surges on Energy Transition Demand, but Can Margins Keep Up?",
       "A.O. Smith (AOS) Q2 Earnings and Revenues Top Estimates",
       "How is Data Center Expansion Reshaping Eaton's Business?"
     ],
@@ -655,6 +655,7 @@
       "3 Reasons Investors Love Stride (LRN)",
       "Legrand Introduces Next-Generation KVM Platform Built to Bring Critical Systems Back Online in Minutes",
       "Legrand",
+      "France analyst calls: GTT, Elis, Legrand and Mersen upgraded",
       "Legrand Brand Vantage Forms Alliance with No. 8 Lighting",
       "Legrand Reports Record Sales in First Half of 2026",
       "Legrand Lifts Outlook as Clients Pour Billions Into Data Centers",
@@ -662,11 +663,35 @@
       "Full Year 2025 Legrand SA Earnings Call Transcript",
       "Beverly Huss and Anne LeGrand resign from Accuray board",
       "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29",
-      "Rita Mae LeGrand",
-      "Legrand SA (EPA:LR) Just Reported Half-Year Earnings: Have Analysts Changed Their Mind On The Stock?"
+      "Rita Mae LeGrand"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "ETN",
+      "classification": {
+        "symbol": "ETN",
+        "is_major": true,
+        "category": "analyst_note",
+        "headline": "Evercore ISI upgrades Eaton stock rating on margin recovery outlook By Investing.com",
+        "reason": "Evercore ISI, a named firm, upgraded Eaton's stock rating, which qualifies as a major catalyst under the 'analyst_note' category."
+      },
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcTVxdDZ6LTQ4N2MzTjVhWFE2SjRYMWxSa000UGROaGg0U19EU05sTUpkeldWX2xUMUwzSW4xZFRnQmRNc1d4cWhpVVYtMVlBN0ZvdExoZ0hWcVExSC1SekZlMXlFLS1sX2VWYlJMOVNWN1h6bWZRUG5VTkE3VTllcXdBMUpUWkNlSXBLclo1TjJwWnBzTmVJUVRQbGstalRLbElWN0xnZkVvb3RVYi1TaHZzX0FsRUZ4T3dBWEsyMm5KVFU0NFBn?oc=5",
+      "source": "Investing.com Canada",
+      "method": "gemini",
+      "published": "2026-08-03T08:01:43",
+      "queued_min": 29762407,
+      "all_articles": [
+        {
+          "headline": "Evercore ISI upgrades Eaton stock rating on margin recovery outlook By Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcTVxdDZ6LTQ4N2MzTjVhWFE2SjRYMWxSa000UGROaGg0U19EU05sTUpkeldWX2xUMUwzSW4xZFRnQmRNc1d4cWhpVVYtMVlBN0ZvdExoZ0hWcVExSC1SekZlMXlFLS1sX2VWYlJMOVNWN1h6bWZRUG5VTkE3VTllcXdBMUpUWkNlSXBLclo1TjJwWnBzTmVJUVRQbGstalRLbElWN0xnZkVvb3RVYi1TaHZzX0FsRUZ4T3dBWEsyMm5KVFU0NFBn?oc=5",
+          "source": "Investing.com Canada",
+          "summary": "",
+          "published": "2026-08-03T08:01:43"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -752,9 +777,7 @@
       1,
       2
     ],
-    "mover": [
-      1
-    ],
+    "mover": [],
     "price_event": [
       0,
       1
@@ -769,15 +792,15 @@
   "last_evergreen_min": 29761001,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.65,
-    "ENGI.PA": 27.11,
-    "SU.PA": 289.6,
-    "SIE.DE": 282.65,
-    "LR.PA": 131.4,
-    "EOAN.DE": 18.71,
-    "ABBN.SW": 79.52,
-    "ENR.DE": 147.44,
-    "RWE.DE": 57.18,
+    "IBE.MC": 20.53,
+    "ENGI.PA": 26.78,
+    "SU.PA": 289.85,
+    "SIE.DE": 284.65,
+    "LR.PA": 132.3,
+    "EOAN.DE": 19.06,
+    "ABBN.SW": 79.8,
+    "ENR.DE": 147.66,
+    "RWE.DE": 56.56,
     "ETN": 398.61,
     "EQIX": 1015.63,
     "CRWV": 89.72,
@@ -808,8 +831,8 @@
     "ETN": "2026-07-07",
     "APLD": "2026-07-07"
   },
-  "next_pulse_interval": 43,
-  "last_pulse_post_min": 29762341,
+  "next_pulse_interval": 37,
+  "last_pulse_post_min": 29762407,
   "eu_slots": [
     {
       "slot": 0,
@@ -824,7 +847,9 @@
       "fire_time": "17:59"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
