@@ -2,8 +2,8 @@
   "date": "2026-08-03",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 2,
-  "gemini_calls_today": 4,
+  "daily_pulse_posts": 3,
+  "gemini_calls_today": 5,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 148,
+  "event_log_next_id": 149,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -113,9 +113,9 @@
       "Barclays Sticks to Their Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Revenue Breakdown – NASDAQ:CEG",
       "Constellation Reports First Quarter 2026 Results",
-      "A Look at Constellation Energy Corp (CEG) After 3.8% Decline -- GF Value $275.02 vs Price $259.82",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
+      "Why Constellation Energy Corporation (CEG) Dipped More Than Broader Market Today",
       "US-Saudi Sign Landmark Atomic Deal: A Game Changer for Nuclear ETFs?",
       "Nuclear Energy Is Winning Repeated Government Backing and Investors Should Take Notice",
       "Can NRG's Capital Allocation Strategy Drive Shareholder Returns?"
@@ -226,8 +226,8 @@
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
       "ABB invests ~$75 million in India to expand manufacturing and R&D for critical segments",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
-      "ABB India to discuss Q2FY27 results in analyst call on July 31",
-      "From linear to circular: how rethinking usage and waste saves Earth’s resources"
+      "From linear to circular: how rethinking usage and waste saves Earth’s resources",
+      "ABB India to discuss Q2FY27 results in analyst call on July 31"
     ],
     "VRT": [
       "Vertiv Expands in Malaysia to Boost AI Infrastructure: What's Ahead?",
@@ -286,14 +286,14 @@
       "Siemens advances self-verifying agentic AI workflows for semiconductor and PCB design",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "SIEMENS AG N (SIE.HA) Q1 FY2026 earnings call transcript",
-      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
+      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
+      "Termine"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -490,6 +490,7 @@
       "Why NuScale Power Stock Is Soaring Today"
     ],
     "NOK": [
+      "NOK Stock In Focus: ‘Multiple Catalysts' Have Retail Traders Eyeing A Return To $15",
       "Is IDCC Stock a Buy After Strong Earnings and Higher Revenue Guidance?",
       "How InterDigital Is Expanding Beyond Smartphones With New Growth Drivers",
       "STARTRADER expands AI offering with 31 New US Share & ETF CFDs in Semiconductors, Optical Networking & Nuclear",
@@ -499,7 +500,6 @@
       "European Equities Traded in US as ADRs Ease in Wednesday Trading",
       "Binance Adds 10 More Tokenized Stocks to Its bStocks Lineup",
       "European Equities Traded in US as ADRs Ease in Tuesday Trading",
-      "Nokia Corporation - Managers' transactions (Ihamuotila)",
       "Nokia Stock Rallies As AI Orders Drive Outlook Upgrade",
       "Nokia Corporation Sponsored Stock 12‑Month Price Target Cut to $13.31, Implies 30% Upside",
       "NOK Stock Slides As ADR Underperformance Deepens",
@@ -525,11 +525,11 @@
       "Microsoft Stock And 2 Quality Picks Backed by Strong Balance Sheets",
       "Powell Industries Number of Employees 2026 | Employee Count & Headcount Data",
       "Powell Industries (POWL) Falls Ahead of Earnings as Investors Weigh Prior Miss and Insider Sales",
+      "Powell Industries (PW2) Q2 2026 Earnings Report - Results, Call & Slides",
       "First Trust group reports 4.55% Powell Industries (POWL) stake in ownership update",
       "Powell Industries, Inc. Revenue Breakdown – FWB:PW2",
       "Powell Industries Q3 Preview: Good Time To Add Before Earnings (Rating Upgrade) (POWL)",
       "Brokers Suggest Investing in Powell Industries (POWL): Read This Before Placing a Bet",
-      "Powell Industries' (POWL) Backlog Surges on Energy Transition Demand, but Can Margins Keep Up?",
       "A.O. Smith (AOS) Q2 Earnings and Revenues Top Estimates",
       "How is Data Center Expansion Reshaping Eaton's Business?"
     ],
@@ -654,6 +654,7 @@
       "Stride Announces Date for Fourth Quarter Fiscal Year 2026 Earnings Call",
       "3 Reasons Investors Love Stride (LRN)",
       "Legrand Introduces Next-Generation KVM Platform Built to Bring Critical Systems Back Online in Minutes",
+      "RBC upgrades Legrand stock rating on valuation opportunity",
       "Legrand",
       "France analyst calls: GTT, Elis, Legrand and Mersen upgraded",
       "Legrand Brand Vantage Forms Alliance with No. 8 Lighting",
@@ -662,8 +663,7 @@
       "Eric LeGrand encourages young people with spinal cord injuries in 'True Grit' program",
       "Full Year 2025 Legrand SA Earnings Call Transcript",
       "Beverly Huss and Anne LeGrand resign from Accuray board",
-      "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29",
-      "Rita Mae LeGrand"
+      "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29"
     ]
   },
   "pending_news_posts": [
@@ -688,6 +688,54 @@
           "source": "Investing.com Canada",
           "summary": "",
           "published": "2026-08-03T08:01:43"
+        }
+      ]
+    },
+    {
+      "symbol": "POWL",
+      "classification": {
+        "symbol": "POWL",
+        "is_major": true,
+        "category": "earnings",
+        "headline": "Powell Industries (PW2) Q2 2026 Earnings Report - Results, Call & Slides",
+        "reason": "This headline directly refers to the release of an earnings report, which is a major catalyst event, as it contains information that could meet the earnings criteria for beat/miss or guidance changes."
+      },
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9NU2h1QkJ4Q2tmbWg4VzFaZ3Zkbm5WeEJvN0h5ZWl5b192ZFlwdXdTNjR6NGx0OGR2QW5YQ0xUZHNFdjdOR3ppNlBaOXAwMThPNUZaWmRCZWJuajcyQ0NvSWwyRjRyWFA3dVV5YWxYdw?oc=5",
+      "source": "TipRanks",
+      "method": "gemini",
+      "published": "2026-08-02T15:32:19",
+      "queued_min": 29762462,
+      "all_articles": [
+        {
+          "headline": "Powell Industries (PW2) Q2 2026 Earnings Report - Results, Call & Slides",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9NU2h1QkJ4Q2tmbWg4VzFaZ3Zkbm5WeEJvN0h5ZWl5b192ZFlwdXdTNjR6NGx0OGR2QW5YQ0xUZHNFdjdOR3ppNlBaOXAwMThPNUZaWmRCZWJuajcyQ0NvSWwyRjRyWFA3dVV5YWxYdw?oc=5",
+          "source": "TipRanks",
+          "summary": "",
+          "published": "2026-08-02T15:32:19"
+        }
+      ]
+    },
+    {
+      "symbol": "LR.PA",
+      "classification": {
+        "symbol": "LR.PA",
+        "is_major": true,
+        "category": "analyst_note",
+        "headline": "RBC upgrades Legrand stock rating on valuation opportunity",
+        "reason": "A named firm (RBC) upgraded the stock rating, which qualifies as a major analyst note."
+      },
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMzNnc0ZuVHdyTFFrd0U2bF9LdTVkQVBpNGFIRnVtSDdOZ0NkWVVmQUtPUXBFOEdMWEZXRnJGaHJ2NEdSVGxaUlZKaHJmenNUbGVBX1NuVUs0WmtacFRkVVNTQ2dkYWp6TnFOcnhUYko2Q0ZnOHRUQV9oSWdoc3V4bXVNSVZWdWIyeUd5dTZVeDJ1Q1dWOTFJcXR6N0w2VDNjNVRKNFkyVTcxQjA5aG5ZR1BOYkdJQ1lwenc?oc=5",
+      "source": "Investing.com",
+      "method": "gemini",
+      "published": "2026-08-03T08:19:56",
+      "queued_min": 29762462,
+      "all_articles": [
+        {
+          "headline": "RBC upgrades Legrand stock rating on valuation opportunity",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMzNnc0ZuVHdyTFFrd0U2bF9LdTVkQVBpNGFIRnVtSDdOZ0NkWVVmQUtPUXBFOEdMWEZXRnJGaHJ2NEdSVGxaUlZKaHJmenNUbGVBX1NuVUs0WmtacFRkVVNTQ2dkYWp6TnFOcnhUYko2Q0ZnOHRUQV9oSWdoc3V4bXVNSVZWdWIyeUd5dTZVeDJ1Q1dWOTFJcXR6N0w2VDNjNVRKNFkyVTcxQjA5aG5ZR1BOYkdJQ1lwenc?oc=5",
+          "source": "Investing.com",
+          "summary": "",
+          "published": "2026-08-03T08:19:56"
         }
       ]
     }
@@ -777,7 +825,14 @@
       1,
       2
     ],
-    "mover": [],
+    "mover": [
+      1,
+      2,
+      0,
+      4,
+      3,
+      5
+    ],
     "price_event": [
       0,
       1
@@ -792,15 +847,15 @@
   "last_evergreen_min": 29761001,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.53,
-    "ENGI.PA": 26.78,
-    "SU.PA": 289.85,
-    "SIE.DE": 284.65,
-    "LR.PA": 132.3,
-    "EOAN.DE": 19.06,
-    "ABBN.SW": 79.8,
-    "ENR.DE": 147.66,
-    "RWE.DE": 56.56,
+    "IBE.MC": 20.52,
+    "ENGI.PA": 26.75,
+    "SU.PA": 289.5,
+    "SIE.DE": 285.0,
+    "LR.PA": 132.8,
+    "EOAN.DE": 18.98,
+    "ABBN.SW": 79.46,
+    "ENR.DE": 147.5,
+    "RWE.DE": 56.22,
     "ETN": 398.61,
     "EQIX": 1015.63,
     "CRWV": 89.72,
@@ -831,8 +886,8 @@
     "ETN": "2026-07-07",
     "APLD": "2026-07-07"
   },
-  "next_pulse_interval": 37,
-  "last_pulse_post_min": 29762407,
+  "next_pulse_interval": 43,
+  "last_pulse_post_min": 29762462,
   "eu_slots": [
     {
       "slot": 0,
