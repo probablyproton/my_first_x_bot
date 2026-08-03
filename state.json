@@ -2,7 +2,7 @@
   "date": "2026-08-03",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 3,
+  "daily_pulse_posts": 4,
   "gemini_calls_today": 5,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 149,
+  "event_log_next_id": 150,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -399,8 +399,8 @@
       "Engie Raises Full-Year Profit Outlook Amid Market Volatility",
       "Engie: Guidance Improves, But Earnings Quality Limits Further Upside (OTCMKTS:ENGIY)",
       "NTT Data, Engie Launch Clean Energy Partnership to Decarbonize Global Data Center Footprint",
-      "ENGIE Allocates €25 Million to French Forest Reconstruction Effort",
       "U.S. Permit Delays Slow Engie's Clean-Power Buildout",
+      "ENGIE Allocates €25 Million to French Forest Reconstruction Effort",
       "NTT DATA, ENGIE Partner to Secure Renewable Energy for Global AI Data Centers",
       "ENGIE H1 2026 slides: guidance raised on infrastructure growth"
     ],
@@ -639,9 +639,9 @@
       "Siemens Energy AG Reports Earnings Results for the Half Year Ended March 31, 2026",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy to Invest $1 Billion in US to Tap Power Boom",
-      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "TCS and Siemens Energy AG Forge Strategic AI Partnership to Drive Intelligent Operations",
-      "Siemens Energy announces $1B investment in U.S. manufacturing, adding 1,500 jobs"
+      "Siemens Energy announces $1B investment in U.S. manufacturing, adding 1,500 jobs",
+      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion"
     ],
     "LR.PA": [
       "Stride (LRN) Reports Q2: Everything You Need To Know Ahead Of Earnings",
@@ -830,8 +830,7 @@
       2,
       0,
       4,
-      3,
-      5
+      3
     ],
     "price_event": [
       0,
@@ -847,15 +846,15 @@
   "last_evergreen_min": 29761001,
   "post_backlog": [],
   "price_snapshots": {
-    "IBE.MC": 20.52,
-    "ENGI.PA": 26.75,
-    "SU.PA": 289.5,
-    "SIE.DE": 285.0,
-    "LR.PA": 132.8,
-    "EOAN.DE": 18.98,
-    "ABBN.SW": 79.46,
-    "ENR.DE": 147.5,
-    "RWE.DE": 56.22,
+    "IBE.MC": 20.58,
+    "ENGI.PA": 26.72,
+    "SU.PA": 289.65,
+    "SIE.DE": 285.75,
+    "LR.PA": 132.45,
+    "EOAN.DE": 19.06,
+    "ABBN.SW": 79.22,
+    "ENR.DE": 146.76,
+    "RWE.DE": 56.3,
     "ETN": 398.61,
     "EQIX": 1015.63,
     "CRWV": 89.72,
@@ -886,8 +885,8 @@
     "ETN": "2026-07-07",
     "APLD": "2026-07-07"
   },
-  "next_pulse_interval": 43,
-  "last_pulse_post_min": 29762462,
+  "next_pulse_interval": 40,
+  "last_pulse_post_min": 29762531,
   "eu_slots": [
     {
       "slot": 0,
