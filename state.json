@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-02",
+  "date": "2026-08-03",
   "daily_posts": 0,
-  "daily_keyword_posts": 1,
+  "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
   "gemini_calls_today": 0,
-  "evergreen_opinion_posts_today": 1,
+  "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-07-06",
@@ -94,7 +94,7 @@
       "Eaton surges 7% after Q2 beat-and-raise above Wall Street expectations (ETN:NYSE)",
       "Eaton: Q2 Earnings Snapshot",
       "Why Eaton and GE Vernova are Beating the AI Chip Stocks",
-      "Modular solutions for electrical power systems | Eaton PSEC",
+      "(ETN) Eaton Corporation plc Expects Q3 Adjusted EPS Range $3.46 - $3.56",
       "Eaton Boosts FY26 Outlook; Stock Up 5.4% - Update",
       "Eaton Corporation Plc Reports Fall In Q2 Profit"
     ],
@@ -112,10 +112,10 @@
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Barclays Sticks to Their Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Revenue Breakdown – NASDAQ:CEG",
+      "Constellation Reports First Quarter 2026 Results",
       "A Look at Constellation Energy Corp (CEG) After 3.8% Decline -- GF Value $275.02 vs Price $259.82",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
-      "Why Constellation Energy Corporation (CEG) Dipped More Than Broader Market Today",
-      "Is Constellation Energy Corporation (CEG) A Good Stock To Buy Now?",
+      "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "US-Saudi Sign Landmark Atomic Deal: A Game Changer for Nuclear ETFs?",
       "Nuclear Energy Is Winning Repeated Government Backing and Investors Should Take Notice",
       "Can NRG's Capital Allocation Strategy Drive Shareholder Returns?"
@@ -222,13 +222,13 @@
       "Strength Seen in ABB (ABBNY): Can Its 6.0% Jump Turn into More Strength?",
       "CHF60.30 - That's What Analysts Think ABB Ltd (VTX:ABBN) Is Worth After These Results",
       "If You Invested $1,000 in Abb Ltd Zuerich (ABLZF)",
-      "ABB (ABBNY) Stock Price, News & Analysis",
       "ABB to divest Robotics division to SoftBank Group",
       "ABB open to 'more than one' big deal in renewed M&A drive, chairman says",
       "ABB invests ~$75 million in India to expand manufacturing and R&D for critical segments",
       "Watch: ABB robot helps build 3D-printed railway station overnight",
       "ABB India to discuss Q2FY27 results in analyst call on July 31",
-      "From linear to circular: how rethinking usage and waste saves Earth’s resources"
+      "From linear to circular: how rethinking usage and waste saves Earth’s resources",
+      "Rotork plc (ROR) Added to Takeover Panel Disclosure Table as ABB Ltd Initiates Offer Period on 16 July 2026"
     ],
     "VRT": [
       "Vertiv Expands in Malaysia to Boost AI Infrastructure: What's Ahead?",
@@ -286,15 +286,15 @@
       "NVIDIA Expands NVIDIA Agent Toolkit With NVIDIA PhysicsNeMo and CUDA-X Libraries to Transform How the World Engineers, Designs and Builds",
       "Siemens advances self-verifying agentic AI workflows for semiconductor and PCB design",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
+      "Termine",
       "SIEMENS AG N (SIE.HA) Q1 FY2026 earnings call transcript",
-      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
-      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
-      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Launches Wendell Microgrid at HQ Campus",
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
-      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
+      "£4.6bn Siemens UK and Ireland appoints Manchester-based CEO",
+      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -398,8 +398,8 @@
       "NTT DATA and ENGIE announce strategic partnership to power sustainable AI and data center growth",
       "Engie shares rise 5% on strong gas trading, power grid income",
       "Engie Raises Full-Year Profit Outlook Amid Market Volatility",
-      "NTT Data, Engie Launch Clean Energy Partnership to Decarbonize Global Data Center Footprint",
       "Engie: Guidance Improves, But Earnings Quality Limits Further Upside (OTCMKTS:ENGIY)",
+      "NTT Data, Engie Launch Clean Energy Partnership to Decarbonize Global Data Center Footprint",
       "U.S. Permit Delays Slow Engie's Clean-Power Buildout",
       "NTT DATA, ENGIE Partner to Secure Renewable Energy for Global AI Data Centers",
       "ENGIE H1 2026 slides: guidance raised on infrastructure growth",
@@ -551,10 +551,10 @@
       "Iberdrola will invest €41 billion and hire 10,000 people by 2026 to accelerate electrification",
       "Radisson Hotels Partners with AWS and Deloitte to Achieve Strategic Cloud Migration and Operational Transformation",
       "Iberdrola debe mejorar su beneficio un 14% este miércoles si no quiere decepcionar al mercado",
+      "Iberdrola firma 5.336 millones en financiación sostenible hasta junio y acumula un volumen de 71.152 millones",
       "We announced full-year 2022 results",
       "Giving banking a more human voice: Unicaja’s move to conversational banking driven by Artificial Intelligence",
-      "IBE Stock Price and Chart — BME:IBE",
-      "Kutxabank distribuirá un nuevo dividendo de 107,8 millones a sus fundaciones accionistas correspondiente a sus resultados de 2025"
+      "IBE Stock Price and Chart — BME:IBE"
     ],
     "CRWV": [
       "CRWV Vs. QQQ: Buy CoreWeave for Explosive AI Alpha or Hold QQQ for Insulated Macro Safety?",
@@ -662,9 +662,9 @@
       "Eric LeGrand encourages young people with spinal cord injuries in 'True Grit' program",
       "Full Year 2025 Legrand SA Earnings Call Transcript",
       "Beverly Huss and Anne LeGrand resign from Accuray board",
-      "LeGrand Coffee House opens second NJ location in Middletown",
       "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29",
-      "Legrand Tests Data Centre Cable Resilience with CMP Products"
+      "LeGrand Coffee House opens second NJ location in Middletown",
+      "Legrand SA (EPA:LR) Just Reported Half-Year Earnings: Have Analysts Changed Their Mind On The Stock?"
     ]
   },
   "pending_news_posts": [],
@@ -816,106 +816,30 @@
     {
       "slot": 0,
       "type": "hook",
-      "target_time": "10:00",
-      "fire_time": "10:00"
+      "target_time": "08:50",
+      "fire_time": "08:46"
     },
     {
       "slot": 1,
-      "type": "analytical",
-      "target_time": "11:30",
-      "fire_time": "11:27"
-    },
-    {
-      "slot": 2,
-      "type": "analytical",
-      "target_time": "13:00",
-      "fire_time": "12:56"
-    },
-    {
-      "slot": 3,
-      "type": "question",
-      "target_time": "14:30",
-      "fire_time": "14:28"
-    },
-    {
-      "slot": 4,
-      "type": "analytical",
-      "target_time": "16:00",
-      "fire_time": "16:00"
-    },
-    {
-      "slot": 5,
-      "type": "question",
-      "target_time": "17:30",
-      "fire_time": "17:32"
-    },
-    {
-      "slot": 6,
-      "type": "wrap",
-      "target_time": "19:00",
-      "fire_time": "19:02"
+      "type": "close_summary",
+      "target_time": "18:00",
+      "fire_time": "17:59"
     }
   ],
-  "eu_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-  ],
+  "eu_posted": [],
   "us_slots": [
     {
       "slot": 0,
       "type": "hook",
-      "target_time": "10:00",
-      "fire_time": "10:04"
+      "target_time": "15:10",
+      "fire_time": "15:08"
     },
     {
       "slot": 1,
-      "type": "analytical",
-      "target_time": "11:30",
-      "fire_time": "11:25"
-    },
-    {
-      "slot": 2,
-      "type": "analytical",
-      "target_time": "13:00",
-      "fire_time": "12:56"
-    },
-    {
-      "slot": 3,
-      "type": "question",
-      "target_time": "14:30",
-      "fire_time": "14:28"
-    },
-    {
-      "slot": 4,
-      "type": "analytical",
-      "target_time": "16:00",
-      "fire_time": "15:56"
-    },
-    {
-      "slot": 5,
-      "type": "question",
-      "target_time": "17:30",
-      "fire_time": "17:32"
-    },
-    {
-      "slot": 6,
       "type": "wrap",
-      "target_time": "19:00",
-      "fire_time": "18:56"
+      "target_time": "22:30",
+      "fire_time": "22:34"
     }
   ],
-  "us_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-  ]
+  "us_posted": []
 }
