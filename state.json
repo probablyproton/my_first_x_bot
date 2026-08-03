@@ -1,13 +1,13 @@
 {
   "date": "2026-08-03",
-  "daily_posts": 0,
+  "daily_posts": 1,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 0,
+  "gemini_calls_today": 1,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
-    "monday": "2026-07-06",
+    "monday": "2026-08-03",
     "wednesday": "2026-07-08"
   },
   "zero_llm_posts": {},
@@ -47,7 +47,7 @@
     "NOK": 1172,
     "NEE": 992
   },
-  "event_log_next_id": 145,
+  "event_log_next_id": 146,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -87,38 +87,38 @@
       "Eaton (ETN) Q2 Earnings and Revenues Top Estimates",
       "Eaton Reports Record Second Quarter 2026 Results, with Strong Organic Growth, Accelerating Orders and Backlog, and Raises Organic Growth Guidance",
       "The Zacks Analyst Blog Highlights Applied Materials, Sandisk, Eaton and Flanigan's",
+      "Eaton: Electrical Global Backlog More Than Doubles As Orders Rise 33%",
       "ETN Jumps As Eaton Tops Earnings And Lifts 2026 Outlook",
       "Eaton Corporation, PLC Revenue Breakdown – NYSE:ETN",
       "Eaton Corporation PLC Stock (ETN) Moved Up by 5.61% on Jul 31: A Full Analysis",
       "Eaton Corporation plc Provides Earnings Guidance for the Third Quarter Ending September 30, 2026 and Full Year Ending December 31, 2026",
       "Eaton surges 7% after Q2 beat-and-raise above Wall Street expectations (ETN:NYSE)",
       "Eaton: Q2 Earnings Snapshot",
-      "(ETN) Eaton Corporation plc Expects Q3 Adjusted EPS Range $3.46 - $3.56",
       "Eaton Boosts FY26 Outlook; Stock Up 5.4% - Update",
       "Eaton Corporation Plc Reports Fall In Q2 Profit",
       "Eaton Corp. Q2 26 Earnings Conference Call At 11:00 AM ET"
     ],
     "CEG": [
+      "This Is The Best-Performing Nuclear Stock Now Even As Peers Are Losing Value",
+      "El Niño Hits the Panama Canal",
+      "AI’s Biggest Winners Today Will Share the Spotlight as Technology Spreads Across the Entire Market",
       "Constellation Energy Corporation (CEG) Earnings Expected to Grow: What to Know Ahead of Next Week's Release",
+      "This Week In Energy Transition - Atlas Suite Revolutionizes Solar Project Efficiency and Performance",
       "Can CEG's Capital Allocation Strategy Enhance Shareholder Value?",
+      "Energy Transition Update - SunPower Advances Amid Solar Industry Challenges",
+      "Constellation Energy Corporation (CEG) Stock Drops Despite Market Gains: Important Facts to Note",
       "Brokers Suggest Investing in Constellation Energy Corporation (CEG): Read This Before Placing a Bet",
       "My 3 Highest-Conviction Energy Stocks for the Second Half of 2026",
-      "Is the Options Market Predicting a Spike in Constellation Energy Stock?",
-      "Why Constellation Energy Stock Blasted Higher on Wednesday",
-      "Is NuScale Power a Better Nuclear Energy Stock Than Constellation Energy?",
-      "Constellation Energy Corporation (CEG) Is a Trending Stock: Facts to Know Before Betting on It",
-      "Nuclear Stocks Rally Off Lows On Milestone U.S. Deal And AI Program",
-      "El Niño Hits the Panama Canal",
       "Constellation Energy Corp. stock rises Thursday, outperforms market",
       "Barclays Sticks to Their Buy Rating for Constellation Energy Corporation (CEG)",
       "Constellation Energy Corporation Revenue Breakdown – NASDAQ:CEG",
       "Constellation Reports First Quarter 2026 Results",
       "A Look at Constellation Energy Corp (CEG) After 3.8% Decline -- GF Value $275.02 vs Price $259.82",
-      "Constellation Energy Corporation (CEG) Stock Drops Despite Market Gains: Important Facts to Note",
       "Constellation Energy Corp. stock falls Tuesday, underperforms market",
       "Wells Fargo Sticks to Its Buy Rating for Constellation Energy Corporation (CEG)",
       "US-Saudi Sign Landmark Atomic Deal: A Game Changer for Nuclear ETFs?",
-      "Nuclear Energy Is Winning Repeated Government Backing and Investors Should Take Notice"
+      "Nuclear Energy Is Winning Repeated Government Backing and Investors Should Take Notice",
+      "Can NRG's Capital Allocation Strategy Drive Shareholder Returns?"
     ],
     "PWR": [
       "Quanta Services Inc (PWR) (Q2 2026) Earnings Call Highlights: Record Backlog and Raised ...",
@@ -287,14 +287,14 @@
       "Siemens advances self-verifying agentic AI workflows for semiconductor and PCB design",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "SIEMENS AG N (SIE.HA) Q1 FY2026 earnings call transcript",
-      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
+      "Termine"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -551,10 +551,10 @@
       "Iberdrola will invest €41 billion and hire 10,000 people by 2026 to accelerate electrification",
       "Radisson Hotels Partners with AWS and Deloitte to Achieve Strategic Cloud Migration and Operational Transformation",
       "Iberdrola debe mejorar su beneficio un 14% este miércoles si no quiere decepcionar al mercado",
+      "Iberdrola firma 5.336 millones en financiación sostenible hasta junio y acumula un volumen de 71.152 millones",
       "We announced full-year 2022 results",
       "Giving banking a more human voice: Unicaja’s move to conversational banking driven by Artificial Intelligence",
-      "IBE Stock Price and Chart — BME:IBE",
-      "Kutxabank distribuirá un nuevo dividendo de 107,8 millones a sus fundaciones accionistas correspondiente a sus resultados de 2025"
+      "IBE Stock Price and Chart — BME:IBE"
     ],
     "CRWV": [
       "CRWV Vs. QQQ: Buy CoreWeave for Explosive AI Alpha or Hold QQQ for Insulated Macro Safety?",
