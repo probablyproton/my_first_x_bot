@@ -488,3 +488,10 @@ https://www.datacenterdynamics.com/en/news/crow-and-cleanarc-target-245mw-data-c
 162,2026-08-03,18:02:47,Monday,news_event,,,gemini,LR.PA,LR,,,,,,,,,RBC upgrades Legrand stock rating on valuation opportunity,Investing.com,https://news.google.com/rss/articles/CBMiugFBVV95cUxOMzNnc0ZuVHdyTFFrd0U2bF9LdTVkQVBpNGFIRnVtSDdOZ0NkWVVmQUtPUXBFOEdMWEZXRnJGaHJ2NEdSVGxaUlZKaHJmenNUbGVBX1NuVUs0WmtacFRkVVNTQ2dkYWp6TnFOcnhUYko2Q0ZnOHRUQV9oSWdoc3V4bXVNSVZWdWIyeUd5dTZVeDJ1Q1dWOTFJcXR6N0w2VDNjNVRKNFkyVTcxQjA5aG5ZR1BOYkdJQ1lwenc?oc=5,2026-08-03T08:19:56,analyst_note,,,,,,,,N,queue_aged_out,,,,,,,
 163,2026-08-03,19:01:45,Monday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$NVDA standing out at +4.01%, now $206.92.",42,,,,,
 164,2026-08-03,19:02:15,Monday,price_event,us,,zero_llm_template,NVDA,NVDA,,NYSE,Y,open,207.01,4.05,207.48,196.75,,,,,,,4.05,,,N,18,llm,Y,,$NVDA +4.05% today at $207.01 – one of the bigger moves on the board right now. Intraday range: low $196.75 / high $207.48.,123,,,,,
+165,2026-08-03,20:01:46,Monday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$NVDA pulling away at +4.75%, now trading at $208.4.",52,,,,,
+166,2026-08-03,20:02:12,Monday,price_event,us,,zero_llm_template,MRVL,MRVL,,NYSE,Y,open,193.82,4.44,193.82,177.57,,,,,,,4.44,,,N,18,llm,Y,,$MRVL on the move – +4.44% to $193.82 today. Intraday range: low $177.57 / high $193.82.,88,,,,,
+167,2026-08-03,20:03:07,Monday,evergreen_opinion,,,template,,,,,,,,,,,Jim Cramer wants to 'replenish' our position in this data center play,CNBC,https://www.cnbc.com/2026/08/03/jim-cramer-wants-to-replenish-our-position-in-this-data-center-play.html,2026-08-03T17:12:31,,,,,,,,keyword,Y,,"On the radar (CNBC):
+
+""Jim Cramer wants to 'replenish' our position in this data center play""
+
+https://www.cnbc.com/2026/08/03/jim-cramer-wants-to-replenish-our-position-in-this-data-center-play.html",199,,,,,
