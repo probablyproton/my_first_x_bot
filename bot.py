@@ -569,6 +569,20 @@ def get_ticker_context(symbol: str, max_messages: int = 8) -> list[str]:
     return [a["headline"] for a in get_ticker_context_with_dates(symbol, max_messages)]
 
 
+_CURRENCY_SYMBOLS = {
+    "USD": "$", "EUR": "€", "GBP": "£", "GBp": "£", "JPY": "¥",
+    "CHF": "CHF ", "CAD": "C$", "AUD": "A$", "SEK": "SEK ", "NOK": "NOK ",
+}
+
+
+def _currency_symbol(currency_code: str | None) -> str:
+    """Maps a yfinance currency code to the symbol to prefix a price with in a tweet — e.g.
+    EUR-denominated EU_WATCHLIST tickers (SAP.DE, ASML.AS, ...) must read as €165, not $165."""
+    if not currency_code:
+        return "$"
+    return _CURRENCY_SYMBOLS.get(currency_code.upper(), f"{currency_code.upper()} ")
+
+
 def get_price_context(symbol: str) -> dict:
     try:
         ticker = yf.Ticker(symbol)
@@ -612,7 +626,11 @@ def get_price_context(symbol: str) -> dict:
             return {}
 
         change = round((price - prev) / prev * 100, 2)
-        result = {"price": price, "prev_close": prev, "change_pct": change, "market_open": market_open}
+        currency = getattr(info, "currency", None) or "USD"
+        result = {
+            "price": price, "prev_close": prev, "change_pct": change, "market_open": market_open,
+            "currency": currency, "currency_symbol": _currency_symbol(currency),
+        }
         if day_high is not None:
             result["day_high"] = day_high
         if day_low is not None:
@@ -816,32 +834,32 @@ def generate_zero_llm_weekend_post(tickers: list[str]) -> str | None:
 # threshold. Two pools so a quiet market isn't dressed up as exciting — matches the same
 # anti-hallucination principle used for pre-market framing elsewhere in this file.
 PULSE_MOVER_TEMPLATES = [
-    "${base} leading the tape right now: {sign}{pct}% to ${price}.",
-    "Biggest mover this hour: ${base} {sign}{pct}% at ${price}.",
-    "${base} standing out at {sign}{pct}%, now ${price}.",
-    "Live check: ${base} {sign}{pct}% to ${price} – the standout so far.",
-    "${base} is the one to watch right now – {sign}{pct}% at ${price}.",
-    "Hourly check-in: ${base} {sign}{pct}% to ${price}, well ahead of the rest of the board.",
-    "${base} pulling away at {sign}{pct}%, now trading at ${price}.",
+    "${base} leading the tape right now: {sign}{pct}% to {currency}{price}.",
+    "Biggest mover this hour: ${base} {sign}{pct}% at {currency}{price}.",
+    "${base} standing out at {sign}{pct}%, now {currency}{price}.",
+    "Live check: ${base} {sign}{pct}% to {currency}{price} – the standout so far.",
+    "${base} is the one to watch right now – {sign}{pct}% at {currency}{price}.",
+    "Hourly check-in: ${base} {sign}{pct}% to {currency}{price}, well ahead of the rest of the board.",
+    "${base} pulling away at {sign}{pct}%, now trading at {currency}{price}.",
 ]
 
 PULSE_QUIET_TEMPLATES = [
-    "Quiet stretch across the board – ${base} holding near flat at ${price}.",
-    "Nothing dramatic this hour. ${base} sits at ${price} ({sign}{pct}%).",
-    "Calm session so far – ${base} at ${price}, barely moved ({sign}{pct}%).",
-    "${base} holding steady at ${price} ({sign}{pct}%) – a quiet stretch for the group.",
-    "Low-key hour across the watchlist. ${base} at ${price}, {sign}{pct}%.",
+    "Quiet stretch across the board – ${base} holding near flat at {currency}{price}.",
+    "Nothing dramatic this hour. ${base} sits at {currency}{price} ({sign}{pct}%).",
+    "Calm session so far – ${base} at {currency}{price}, barely moved ({sign}{pct}%).",
+    "${base} holding steady at {currency}{price} ({sign}{pct}%) – a quiet stretch for the group.",
+    "Low-key hour across the watchlist. ${base} at {currency}{price}, {sign}{pct}%.",
 ]
 
 # Fallback for a genuine >= EVENT_DAY_THRESHOLD_PCT day move when Gemini's daily budget is
 # already exhausted. No LLM call, so – same discipline as generate_tweet's no-catalyst branch –
 # this only ever describes the move itself, never speculates about a cause.
 PRICE_EVENT_ZERO_LLM_TEMPLATES = [
-    "${base} {sign}{pct}% today at ${price} – one of the bigger moves on the board right now.{range}",
-    "Sharp move: ${base} {sign}{pct}% to ${price} today.{range}",
-    "${base} swinging {sign}{pct}% on the day, now ${price}.{range}",
-    "Big print: ${base} {sign}{pct}% at ${price} today – a real standout.{range}",
-    "${base} on the move – {sign}{pct}% to ${price} today.{range}",
+    "${base} {sign}{pct}% today at {currency}{price} – one of the bigger moves on the board right now.{range}",
+    "Sharp move: ${base} {sign}{pct}% to {currency}{price} today.{range}",
+    "${base} swinging {sign}{pct}% on the day, now {currency}{price}.{range}",
+    "Big print: ${base} {sign}{pct}% at {currency}{price} today – a real standout.{range}",
+    "${base} on the move – {sign}{pct}% to {currency}{price} today.{range}",
 ]
 
 
@@ -879,6 +897,7 @@ def generate_zero_llm_pulse(tickers: list[str], state: dict) -> str | None:
     values = {
         "base": _base_symbol(base_t),
         "price": ctx["price"],
+        "currency": ctx.get("currency_symbol", "$"),
         "pct": pct,
         "sign": "+" if pct >= 0 else "",
     }
@@ -895,12 +914,14 @@ def generate_zero_llm_price_event(symbol: str, price_ctx: dict, state: dict) -> 
     exhausted. A significant move is still worth posting – it just can't be attributed to
     anything, since there's no LLM call left to weigh a headline's timing against it."""
     pct = price_ctx["change_pct"]
+    cur = price_ctx.get("currency_symbol", "$")
     range_str = ""
     if "day_high" in price_ctx and "day_low" in price_ctx:
-        range_str = f" Intraday range: low ${price_ctx['day_low']} / high ${price_ctx['day_high']}."
+        range_str = f" Intraday range: low {cur}{price_ctx['day_low']} / high {cur}{price_ctx['day_high']}."
     values = {
         "base": _base_symbol(symbol),
         "price": price_ctx["price"],
+        "currency": cur,
         "pct": pct,
         "sign": "+" if pct >= 0 else "",
         "range": range_str,
@@ -1044,6 +1065,8 @@ Write one concise, engaging tweet about the provided stock using only the suppli
   "(NYSE: VRT)" or "($VRT)" — a bracketed ticker won't render as a clickable cashtag on X. If you
   ever need the company name for clarity, write it plainly followed by the bare ticker with no
   brackets between them: "Vertiv $VRT", not "Vertiv ($VRT)".
+- The price data already comes with its correct currency symbol attached (e.g. € for EUR-denominated
+  stocks like $SAP, $ASML, $SU). Reproduce that symbol exactly as given — never convert it to $.
 - Frame all forward-looking statements as possibilities, never certainties.
   Use: could, might, may, potentially, worth watching, raises the question.
   Never: will, confirms, proves, guarantees.
@@ -1172,10 +1195,11 @@ def generate_tweet(symbol: str, slot: dict, price_ctx: dict,
     # reachable here (that's what generate_market_update_tweet handles).
     price_str = ""
     if price_ctx and not is_weekend():
+        cur = price_ctx.get("currency_symbol", "$")
         sign = "+" if price_ctx["change_pct"] >= 0 else ""
-        parts = [f"Live: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"]
+        parts = [f"Live: {cur}{price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"]
         if "day_high" in price_ctx and "day_low" in price_ctx:
-            parts.append(f"Intraday range: low ${price_ctx['day_low']} / high ${price_ctx['day_high']}")
+            parts.append(f"Intraday range: low {cur}{price_ctx['day_low']} / high {cur}{price_ctx['day_high']}")
         price_str = ". ".join(parts)
 
     phase_instruction = "Market is open. React to live price action and news."
@@ -1595,6 +1619,8 @@ Write one immediate, specific reaction tweet using only the supplied headline an
   "(NYSE: VRT)" or "($VRT)" — a bracketed ticker won't render as a clickable cashtag on X. If you
   ever need the company name for clarity, write it plainly followed by the bare ticker with no
   brackets between them: "Vertiv $VRT", not "Vertiv ($VRT)".
+- The price data already comes with its correct currency symbol attached (e.g. € for EUR-denominated
+  stocks like $SAP, $ASML, $SU). Reproduce that symbol exactly as given — never convert it to $.
 - Use line breaks – no walls of text
 - Emoji: sparingly. 🟢🔴 only for a direct "green or red at the open?" question — place them on their own line immediately before that question.
 - Never use em dash. Use en dash (–) only.
@@ -1623,16 +1649,17 @@ def generate_news_event_tweet(symbol: str, classification: dict, price_ctx: dict
                                link: str = "", source: str = "") -> str | None:
     price_str = ""
     if price_ctx:
+        cur = price_ctx.get("currency_symbol", "$")
         sign = "+" if price_ctx["change_pct"] >= 0 else ""
         # Same number either way (move vs. prior close) — just be honest about whether it's
         # live or last session's, rather than dropping a genuinely newsworthy move (e.g. a
         # post-news selloff) just because the post happens to fire outside market hours.
         if _is_market_open_for(symbol):
-            price_str = f"Current: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"
+            price_str = f"Current: {cur}{price_ctx['price']} ({sign}{price_ctx['change_pct']}% today)"
         else:
             close_date = _format_close_date(price_ctx.get("last_close_date", ""))
             date_suffix = f" as of {close_date}" if close_date else ""
-            price_str = f"Last close{date_suffix}: ${price_ctx['price']} ({sign}{price_ctx['change_pct']}%)"
+            price_str = f"Last close{date_suffix}: {cur}{price_ctx['price']} ({sign}{price_ctx['change_pct']}%)"
 
     source_line = f"\nReported by: {source}" if source else ""
     link_instruction = (
@@ -1682,17 +1709,18 @@ def generate_keyword_event_tweet(symbol: str, classification: dict, price_ctx: d
     base = _base_symbol(symbol)
     price_str = ""
     if price_ctx:
+        cur = price_ctx.get("currency_symbol", "$")
         sign = "+" if price_ctx["change_pct"] >= 0 else ""
         # change_pct is always the move vs. the prior close, live or not — while the market's
         # open that's "today"'s move; once it's closed, the same number is last session's move,
         # so say so rather than dropping a genuinely newsworthy number (e.g. a post-news selloff)
         # just because the post happens to fire outside market hours.
         if _is_market_open_for(symbol):
-            price_str = f" (${price_ctx['price']}, {sign}{price_ctx['change_pct']}% today)"
+            price_str = f" ({cur}{price_ctx['price']}, {sign}{price_ctx['change_pct']}% today)"
         else:
             close_date = _format_close_date(price_ctx.get("last_close_date", ""))
             date_suffix = f" as of {close_date}" if close_date else ""
-            price_str = f" (${price_ctx['price']}, {sign}{price_ctx['change_pct']}% at last close{date_suffix})"
+            price_str = f" ({cur}{price_ctx['price']}, {sign}{price_ctx['change_pct']}% at last close{date_suffix})"
 
     prefix = f"${base}{price_str}: "
     suffix = f"\n\n{link}" if link else ""
@@ -1732,6 +1760,9 @@ this general discretion.
   bracketed ticker won't render as a clickable cashtag on X. If the company name is ever needed for
   clarity, write it plainly followed by the bare ticker with no brackets: "Vertiv $VRT", not
   "Vertiv ($VRT)".
+- Each ticker's price in the data below already comes with its correct currency symbol attached —
+  EU_WATCHLIST names (e.g. $SAP, $ASML, $SU) are EUR-denominated and shown with €, not $. Reproduce
+  whichever symbol is given for each ticker exactly, never normalize every price to $.
 - When the post covers more than one ticker, give EACH its own line — a short, CLEAR, complete
   phrase (e.g. "$VRT -6.6% at $314.26, off its $335.66 high"), not multiple tickers woven into one
   flowing sentence, and not a clipped fragment either (NOT "$IREN: AI narrative vs. CEO award." —
@@ -1880,13 +1911,14 @@ def generate_market_update_tweet(key: str, ranked: list[str], ticker_data: dict,
     for t in ranked:
         ctx  = ticker_data.get(t, {})
         base = _base_symbol(t)
+        cur  = ctx.get("currency_symbol", "$")
         if phase == "weekend":
-            line = f"${base}: last close ${ctx['price']}" if ctx else f"${base}:"
+            line = f"${base}: last close {cur}{ctx['price']}" if ctx else f"${base}:"
         else:
             sign = "+" if ctx["change_pct"] >= 0 else ""
-            line = f"${base}: ${ctx['price']} ({sign}{ctx['change_pct']}%)"
+            line = f"${base}: {cur}{ctx['price']} ({sign}{ctx['change_pct']}%)"
             if "day_high" in ctx and "day_low" in ctx:
-                line += f"  |  range ${ctx['day_low']}–${ctx['day_high']}"
+                line += f"  |  range {cur}{ctx['day_low']}–{cur}{ctx['day_high']}"
         headlines = news_data.get(t, [])
         if headlines:
             line += "\n  News: " + " | ".join(headlines[:3] if phase == "weekend" else headlines[:1])
@@ -2381,15 +2413,16 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
         if day_event_fired.get(symbol) == today():
             continue
 
+        cur = price_ctx.get("currency_symbol", "$")
         intraday = ""
         if "day_high" in price_ctx and "day_low" in price_ctx:
             intraday = (
-                f" Intraday range: low ${price_ctx['day_low']} / high ${price_ctx['day_high']}."
+                f" Intraday range: low {cur}{price_ctx['day_low']} / high {cur}{price_ctx['day_high']}."
                 f" Use this context — if the stock dropped sharply and is now rebounding, say so."
             )
         direction = "up" if price_ctx["change_pct"] > 0 else "down"
         trigger = (
-            f"${_base_symbol(symbol)} is {direction} {day_pct:.1f}% today (now ${current}).{intraday} "
+            f"${_base_symbol(symbol)} is {direction} {day_pct:.1f}% today (now {cur}{current}).{intraday} "
             f"This is a significant day move. React with conviction."
         )
         candidates.append((day_pct, symbol, price_ctx, trigger))
