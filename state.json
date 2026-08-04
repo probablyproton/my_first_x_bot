@@ -1,8 +1,8 @@
 {
   "date": "2026-08-04",
-  "daily_posts": 5,
+  "daily_posts": 6,
   "daily_keyword_posts": 2,
-  "daily_pulse_posts": 8,
+  "daily_pulse_posts": 9,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -53,14 +53,14 @@
     "MRVL": 1202,
     "ANET": 1262,
     "MU": 1322,
-    "AMD": 783,
+    "AMD": 1022,
     "BESI.AS": 662,
     "ASML.AS": 542,
     "IFX.DE": 542,
     "LRCX": 844,
     "FORM": 964
   },
-  "event_log_next_id": 186,
+  "event_log_next_id": 189,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -97,7 +97,8 @@
     "news_AMD": 783,
     "BESI.AS": 662,
     "news_LRCX": 844,
-    "FORM": 964
+    "FORM": 964,
+    "AMD": 1022
   },
   "news_seen": {
     "ETN": [
@@ -312,12 +313,12 @@
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Harry Siemens Honored for Farm Reporting",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Termine"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
+      "Siemens Mobility North America appoints president"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -690,26 +691,26 @@
       "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29"
     ],
     "MRVL": [
+      "Momentum Stocks Are Making a Comeback",
+      "Palantir, AMD, Coherent, SpaceX, Caterpillar, Wayfair, and More Stocks That Explain Today’s Market",
+      "Today's Trade Is to Buy Chips and Sell the Magnificent 7",
       "1 Reason Wall Street Is Obsessed With This Tech Stock",
       "What Could Push Broadcom Stock Higher Is Already Sitting In Its Order Book",
+      "Marvell, Corning, and Lumentum Stocks Surge on Report of China Import Ban",
       "Marvell Advances AI Memory Infrastructure Portfolio to Accelerate Agentic AI Inference",
       "COHR, LITE, POET, AAOI, MRVL Stocks Gain On Trump’s Reported China Ban On Data Center Import Parts",
       "How Patience Re-Prices Marvell Technology Stock",
       "Top Research Reports for Amazon, Marvell & Starbucks",
-      "Photonics: The Next Big AI Investment Opportunity?",
-      "Marvell Technology, Inc. Announces Conference Call to Review Second Quarter of Fiscal Year 2027 Financial Results; Announces Investor Day on October 6, 2026",
-      "Marvell (MRVL) Is Putting $250 Million Into India To Grow AI Chip R and D",
-      "Semiconductor stocks pare losses amid fears of increased competition from China",
       "Marvell's Next Move Is To $100 (NASDAQ:MRVL)",
-      "Marvell, Corning, and Lumentum Stocks Surge on Report of China Import Ban",
-      "Marvell Technology Stock Is Falling Monday: What's Going On?",
-      "Marvell to showcase comprehensive portfolio of AI memory, storage solutions",
       "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
+      "Marvell Technology, Inc. Announces Conference Call to Review Second Quarter of Fiscal Year 2027 Financial Results; Announces Investor Day on October 6, 2026",
+      "Marvell Technology Stock Is Falling Monday: What's Going On?",
+      "Why Are Nvidia, Micron, AMD, Marvell, and Broadcom Stocks Rising Today? August 4",
       "Marvell rises after unveiling new products in AI memory infrastructure",
-      "Marvell Technology vs. UiPath: Which Tech Stock Is a Better Buy in 2026?",
+      "Marvell stock soars 32% as Nvidia's Huang says it could be the next trillion-dollar company",
       "Stocks Supported by Easing Middle East Tensions",
-      "Marvell Stock: Buy the Dip?",
-      "Stock Indexes Supported as Amazon Earnings Bolster Tech Stocks"
+      "Photonics: The Next Big AI Investment Opportunity?",
+      "Marvell Stock: Buy the Dip?"
     ],
     "FORM": [
       "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
@@ -727,7 +728,7 @@
       "FormFactor Q2 Review: If You Haven’t Sold On The Way Down, Don’t Sell On The Way Up (FORM)",
       "S&P 500 Futures Rise in Premarket Trading; Corcept Therapeutics, FormFactor Lead",
       "FormFactor (NASDAQ:FORM) Shares Gap Down - Here's What Happened",
-      "Lazard Asset Management LLC Makes New $2.15 Million Investment in FormFactor, Inc. $FORM",
+      "Edgestream Partners L.P. Makes New $4.45 Million Investment in FormFactor, Inc. $FORM",
       "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?",
       "Thursday's ETF Movers: PTF, AKRE",
       "Thursday Sector Leaders: Semiconductors, Computer Peripherals",
@@ -750,8 +751,8 @@
       "Lam Research (LRCX) Rose on AI Data Center and Memory Spending",
       "Lam Research Corporation Stock 12‑Month Price Target Raised to $377.3, Implies 29% Upside",
       "I Am Still Calling Lam Research A Strong Buy After Q4 2026 (NASDAQ:LRCX)",
-      "Lam Research Corporation $LRCX Position Decreased by Neville Rodie & Shaw Inc.",
       "Lam Research (Nasdaq: LRCX) lifts EPS to $1.81 and guides revenue near $8.10B",
+      "Lam Research Corporation $LRCX Position Decreased by Neville Rodie & Shaw Inc.",
       "Here’s Why Lam Research Corporation (LRCX) is Rallying",
       "RDA Financial Network Invests $2.37 Million in Lam Research Corporation $LRCX"
     ],
@@ -766,18 +767,21 @@
       "Buying Intel Over TSMC Isn’t as Crazy as It Might Seem",
       "Taiwan Semiconductor Just Reclaimed a $2 Trillion Market Cap. It Still Trades at About 20 Times Forward Earnings.",
       "Taiwan Semiconductor Manufacturing Company Limited (TSM):  An Unmatched Technological Lead in Semiconductors",
-      "Taiwan Semiconductor Manufacturing Company Limited (TSM): An Unmatched Technological Lead in Semiconductors",
       "Got $1,000? Taiwan Semiconductor Manufacturing's $100 Billion Arizona Investment Makes It a Must-Own Stock",
       "Is Taiwan Semiconductor Manufacturing (TSM) Expensive Or Undervalued On Mixed Valuation Signals?",
       "Fund Update: 55,557 TAIWAN SEMICONDUCTOR MANUFACTURING (TSM) shares added to Carnegie Investment Counsel portfolio",
       "Groupe la Francaise Sells 33,182 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
+      "Taiwan Semiconductor Manufacturing Company Limited (TSM): An Unmatched Technological Lead in Semiconductors",
       "Western Wealth Management LLC Boosts Stock Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
       "Taiwan Semiconductor Manufacturing (NYSE:TSM) Restarts Kumamoto Plant Operations After Earthquake",
       "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Looks Reasonable Despite Its 335% Run",
-      "Liontrust Investment Partners LLP Purchases 358,494 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
+      "PVG Asset Management Corp Purchases 4,736 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
       "3 Stocks to Buy as AI Infrastructure Continues to Surge"
     ],
     "WDC": [
+      "Sandisk Jumps 8%, Micron Gains 6%, SK Hynix Climbs 4% as Wall Street Hikes Price Targets on AI Memory Boom",
+      "ROKU to Report Q2 Earnings: What's in the Cards for the Stock?",
+      "FOXA Gears Up to Report Q4 Earnings: What's in Store for the Stock?",
       "Just How Wide Is the Potential Swing in Micron Stock?",
       "The Price of Reinvention for SanDisk Stock",
       "For Micron Stock, The Growth That Justifies The Price Has To Arrive",
@@ -785,12 +789,9 @@
       "Amazon, Apple, Boeing, Micron, Bristol Myers, GameStop, SpaceX, and More Stocks That Explain Today’s Market",
       "Buy Sandisk Stock Before Q4 Earnings",
       "Atlassian to Post Q4 Earnings: What's in Store for the Stock?",
-      "Jim Cramer Named Micron Technology (MU) His Top Memory Pick",
-      "Will Western Digital (WDC) Beat Estimates Again in Its Next Earnings Report?",
-      "MACOM Technology to Report Q3 Earnings: What's in Store for the Stock?",
       "Is Western Digital Stock a Compelling Buy Ahead of Q4 Earnings Release?",
-      "Western Digital Slides as Investors Appear to De-Risk Ahead of Earnings",
       "Western Digital Corp Stock (WDC) Moved Down by 3.79% on Aug 3",
+      "Western Digital Slides as Investors Appear to De-Risk Ahead of Earnings",
       "What To Expect From Western Digital’s (WDC) Q2 Earnings",
       "Are Wall Street Analysts Predicting Western Digital Stock Will Climb or Sink?",
       "Top DRAM ETF stocks to watch this week: Western Digital, SanDisk, Micron",
@@ -800,6 +801,7 @@
       "Western Digital Corp Stock (WDC) Moved Up by 3.74% on Jul 31"
     ],
     "AVGO": [
+      "Could Broadcom (AVGO) Be 40% Undervalued As It Heads To Memory And Storage Conference?",
       "1 Reason Wall Street Is Obsessed With This Tech Stock",
       "What Could Push Broadcom Stock Higher Is Already Sitting In Its Order Book",
       "Broadcom (AVGO) And Google’s $200 Billion AI Build Put Its Chip Role In Focus",
@@ -809,19 +811,19 @@
       "Inside Google’s $200bn Wall Street finance machine for Anthropic",
       "1 Nasdaq 100 Stock to Target This Week and 2 We Question",
       "Own The AI Boom? NVIDIA's Story vs. Micron's Contracts",
-      "Broadcom Stock Slips After Losing Major EU Antitrust Fight",
       "Microsoft joins, Broadcom exits Goldman’s top-stocks list",
-      "Broadcom Stock (AVGO) Falls as Goldman Sachs Removes It From the ‘Conviction List’",
       "Broadcom loses court bid to suspend EU antitrust request for US legal papers",
       "AMD Helios Architecture Deep Dive: The Power of AMD's Hardware Combined - Page 4 of 5",
       "Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats",
       "Celestica Wins OpenAI/Broadcom Contracts - AI Shovel With Premium Growth Prospects (CLS)",
+      "Why Are Nvidia, Micron, AMD, Marvell, and Broadcom Stocks Rising Today? August 4",
       "Broadcom Inc. to Announce Third Quarter Fiscal Year 2026 Financial Results on Wednesday, September 2, 2026",
-      "What The Bipolar Silicon Market Structure Means Moving Forward: Nividia Vs. Broadcom",
       "The Market Is Missing a Huge Opportunity in NVIDIA, Micron, and Broadcom",
-      "3 Semiconductor Stocks to Buy Before AI Demand Explodes in August"
+      "What The Bipolar Silicon Market Structure Means Moving Forward: Nividia Vs. Broadcom",
+      "Amazon and Microsoft Gained a Combined $1.04 Trillion in Market Cap in 2 Days, While Apple and Meta Platforms Lost $510 Billion. Meet the Vanguard ETF That's Built for This Exact Market."
     ],
     "KLAC": [
+      "How KLA Went From Cheaper Than Teradyne To The Pricier Stock",
       "BofA’s $1.18T cloud forecast puts 3 chip stocks in focus",
       "KLA Corporation Cratered 40% Over The Last 30 Days: The Next 12 Months Will Bring 75% Returns According to One Wall Street Pro",
       "Bearish Pressure Is Building Around These 3 Stocks",
@@ -831,17 +833,16 @@
       "Lam Research Stock's Surge Was Building In Plain Sight",
       "KLAC Q2 Deep Dive: AI Infrastructure Demand Drives Growth, Market Reacts to Outlook Uncertainty",
       "Why Lam Research Stock Is Having Its Best Day Since 1999",
-      "Top Chip Analyst: Semiconductor Oversupply Is Nearly Impossible Before 2028. Why He’s Bullish on Memory",
       "5 Must-Read Analyst Questions From KLA Corporation’s Q2 Earnings Call",
-      "How KLA Went From Cheaper Than Teradyne To The Pricier Stock",
       "KLA Corp | 4: Statement of changes in beneficial ownership of securities-Officer Wilkinson Mary Beth",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
       "KLA Stock Is Having Its Worst Month Ever. Why Earnings Can’t Stop the Selloff.",
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
-      "KLA Target of Unusually High Options Trading (NASDAQ:KLAC)",
       "KLA Corp posts Q4 beat but shares tumble on limited near-term upside, soft guide",
+      "KLA Corporation Stock (KLAC) Opinions on Post-Earnings Selloff",
       "KLA Corporation Revenue Breakdown – NASDAQ:KLAC",
-      "Stocks Supported by Easing Middle East Tensions"
+      "Stocks Supported by Easing Middle East Tensions",
+      "Stocks Turn Mixed as Bond Yields Jump"
     ],
     "SAP.DE": [
       "SAP (XTRA:SAP) Launches AI Agent Hub As AI Governance Reaches The Boardroom",
@@ -876,8 +877,8 @@
       "BESI raises long-term revenue, margin targets as demand increases",
       "Ultra Clean (UCTT) Surges 6.5%: Is This an Indication of Further Gains?",
       "BE Semiconductor Industries Upgraded to Buy as Berenberg Notes 'Opportunity' Amid Recent Share Weakness",
-      "Short Interest in BE Semiconductor Industries NV (OTCMKTS:BESIY) Rises By 86.9%",
       "Why is BE Semiconductor Industries stock rallying today? By Investing.com",
+      "Short Interest in BE Semiconductor Industries NV (OTCMKTS:BESIY) Rises By 86.9%",
       "ETFs Investing in BE Semiconductor Industries N.V. Stocks",
       "BE Semiconductor Industries N.V. Announces Q1-26 Results",
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
@@ -904,41 +905,41 @@
       "Advancing Semiconductor Innovation Across Materials Engineering and Manufacturing",
       "The AI Infrastructure Boom Is Far From Over for Applied Materials, KLA Corp.",
       "Applied Materials (AMAT) Stock May Not Be A Bargain Despite AI Materials Foundry News",
-      "Benicia chip manufacturing tool maker acquired by Applied Materials",
+      "Applied Materials Inc Stock (AMAT) Moved Up by 4.59% on Aug 4: Facts Behind the Movement",
       "Stocks Supported by Easing Middle East Tensions"
     ],
     "NVDA": [
-      "Is It Too Late to Buy Navitas Semiconductor (NVTS) After a 6% Single-Day Pop?",
-      "The Smartest Growth ETF to Buy Right Now -- and It's Up 50% in 2026",
-      "Stock Market Today: Dow Rallies On U.S.-Iran Hopes; Caterpillar, Palantir Soar On Earnings (Live Coverage)",
-      "Applied Optoelectronics Rockets 17%, Coherent Climbs 11%, Lumentum Gains 6% on Reported U.S. Ban of Chinese Optics",
-      "Just How Wide Is the Potential Swing in Micron Stock?",
-      "Donald Trump's Decision to Halt Iran Strikes Sent Meta Shares Up Nearly 7% in a Single Day",
-      "3 of the Best Dividend Stocks to Buy in August 2026",
-      "1 Reason Wall Street Is Obsessed With This Tech Stock",
-      "What Could Push Broadcom Stock Higher Is Already Sitting In Its Order Book",
-      "Dean of Valuation Aswath Damodaran Raises Alarm Bells for Meta, Alphabet, and Microsoft — Should You Be Worried?",
+      "Sandisk Jumps 8%, Micron Gains 6%, SK Hynix Climbs 4% as Wall Street Hikes Price Targets on AI Memory Boom",
+      "If a Bear Market Is Coming in 2026, Here's 1 ETF That History Says Has Never Let Investors Down",
+      "Strategy Sold Some Bitcoin…Again",
+      "Why Micron Stock Keeps Bouncing Higher",
+      "AI cloud startup Volta valued at $2.4 billion, announces $10 billion AI partnership",
+      "Meet the Most Profitable Company in America Right Now (It’s Not Apple or Microsoft)",
+      "Microsoft Price Prediction: After a 25% Three-Day Rally, Here’s Where The Stock is Headed",
+      "Got $100? This Is the Best Crypto ETF to Buy Right Now",
+      "Stock Market Today: Dow Rises On Hormuz Hopes; Palantir Leaps As Data Storage Name Soars 50% (Live Coverage)",
+      "BTDR Stock Rallies After Landing $4.7B AI Infrastructure Contract In Norway",
       "Jensen Huang says ‘a lot’ of six-figure jobs in plumbing and construction will soon be unlocked because someone needs to build new AI centers",
       "Huawei’s Top Scientist Warns of Chip Limit Nvidia Will Soon Face",
       "Nvidia: Financial Engineering Is Buying A Vera Rubin Beachhead (NASDAQ:NVDA)",
-      "Nvidia CEO Jensen Huang Said the Semiconductor Industry Could Grow to $7.9 Trillion to Support the Agentic AI Boom. Here Are 2 Stocks That Could Benefit",
+      "Data Center Sales Make Up 92% of Nvidia's Revenue",
+      "AMD’s Helios Is Coming for Nvidia’s Rack, Not Just Its GPU",
       "Oslo Pensjonsforsikring AS Makes New $13.50 Million Investment in NVIDIA Corporation $NVDA",
       "NVIDIA 610.57.04 Linux Graphics Driver Improves Support for Many Games",
       "Comparative Study: NVIDIA And Industry Competitors In Semiconductors & Semiconductor Equipment Indust",
-      "Nvidia, Dell Back AI Cloud Startup Volta at $2.4 Billion Value",
       "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
       "The Market Is Missing a Huge Opportunity in NVIDIA, Micron, and Broadcom"
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
@@ -949,38 +950,38 @@
       "Aixtron (AIXA) Stock Price, News & Analysis"
     ],
     "AMD": [
+      "Why Nvidia Stock Still Trades at a Heavy Discount to Chip Rivals",
+      "Just How Wide Is the Potential Swing in Micron Stock?",
       "1 Reason Wall Street Is Obsessed With This Tech Stock",
       "What Could Push Broadcom Stock Higher Is Already Sitting In Its Order Book",
       "Why AMD is a Yahoo Finance AlphaSpace rockstar",
       "IonQ vs. Advanced Micro Devices: Comparing Revenue Trends Between a Quantum Computing Innovator and an Artificial Intelligence Giant",
+      "AMD Reports Earnings on the Verge of a Sales Jump",
       "5 Things to Know Before the Stock Market Opens on Tuesday",
-      "Why Nvidia Stock Still Trades at a Heavy Discount to Chip Rivals",
       "Nvidia vs. Advanced Micro Devices: Evaluating Revenue Growth Trajectories for These Artificial Intelligence Giants",
       "Anthropic Inks $10 Billion Computing Deal With New Cloud Startup",
-      "SpaceX's first earnings, AMD Q2 results, JOLTS data: What to Watch",
-      "Stocks Rise Pre-Bell Ahead of Latest Round of Earnings; Investors Gauge Uncertainty Over Potential US-Iran Deal",
-      "Cathie Wood's Ark Invest Sold $11.8 Million of AMD Stock on a Single Day Last Month. Should Other Investors Also Sell?",
       "AMD has two big engines roaring as it heads into earnings",
       "AMD and Sandisk are two of the big chip stocks with earnings momentum in the new week",
+      "Advanced Micro Devices stock price ended at $484.64 on Monday, after gaining 1.78%",
+      "Advanced Micro Devices Inc Stock (AMD) Moved Up by 5.32% on Aug 4: Drivers Behind the Movement",
       "Advanced Micro Devices (NASDAQ:AMD) Trading 1.8% Higher - Time to Buy?",
-      "How Server CPUs Could Give AMD Stock a Big Boost After August 4",
-      "Advanced Micro Devices vs. Arm: Which Tech Stock Is a Better Buy in 2026?",
-      "Stanley Druckenmiller Holds Taiwan Semiconductor After Its Q2 Beat, Betting Chip Demand From Nvidia and AMD Keeps Growing",
+      "Wall Street sets Advanced Micro Devices stock price for the next 12 months",
+      "Social Buzz: Wallstreetbets Stocks Mostly Higher Pre-Bell Tuesday; Palantir Technologies, Advanced Micro Devices to Advance",
+      "Advanced Micro Devices Stock (AMD) Opinions on AI Event and Analyst Upgrades",
       "Amazon and Microsoft Gained a Combined $1.04 Trillion in Market Cap in 2 Days, While Apple and Meta Platforms Lost $510 Billion. Meet the Vanguard ETF That's Built for This Exact Market.",
-      "New Strong Buy Stocks for August 4th",
-      "Bull of the Day: Invesco (IVZ)"
+      "Stanley Druckenmiller Holds Taiwan Semiconductor After Its Q2 Beat, Betting Chip Demand From Nvidia and AMD Keeps Growing"
     ],
     "IFX.DE": [
-      "AI and Chips Are Turning Malaysia Into Asia’s Growth Standout",
       "Chip Stocks Climb as AI Rally Regains Strength",
-      "Chip Stocks Rise After Pause in Middle East Fighting",
+      "Infineon Technologies (XTRA:IFX) Opens Smart Power Fab Early On A Pricey Narrative",
+      "Infineon (XTRA:IFX) Stock May Still Be Rich Despite Dresden Fab News",
       "Japan's Power-Chip Giants Target September Deal to Challenge Infineon",
       "European chip stocks fall after sharp U.S. peers’ selloff",
       "Chips stocks fall. UnitedHealth rises. Netflix earnings are up next",
       "European Chip Stocks Skid After SK Hynix Nasdaq Debut",
       "SK Hynix's record plunge drags down global chip stocks",
       "Allegro MicroSystems Stock Story Hinges on EVs, AI and Margins",
-      "Allegro MicroSystems Trends Point to Higher Chip Content Ahead",
+      "European Stocks Rise at Open as Tech, Banks Recover",
       "INFINEON TECHNOLOGIES AG : Receives a Buy rating from JP Morgan",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon Technologies AG (IFNNF) Q4 2025 Earnings Call Highlights: Strong Quarter Amidst ...",
@@ -1005,16 +1006,17 @@
       "Prediction: Up 50% YTD, Cisco Will End The Year at This Price",
       "Arista Networks Inc. stock underperforms Monday when compared to competitors despite daily gains",
       "The Bull Case For Arista Networks (ANET) Could Change Following Raised 2026 Guidance And AI Demand Momentum",
-      "Arista Networks (NYSE:ANET) Shares Up 2.8% - What's Next?",
-      "Arista Networks Inc Stock (ANET) Moved Up by 3.28% on Aug 3: Drivers Behind the Movement",
       "The Calm Surface Of Arista Networks Stock Hides A Turbulent Forecast",
+      "Arista Networks (NYSE:ANET) Shares Up 2.8% - What's Next?",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
+      "Arista Networks Inc Stock (ANET) Moved Up by 3.28% on Aug 3: Drivers Behind the Movement",
       "Arista Networks Number of Employees 2026 | Employee Count & Headcount Data",
       "Arista Networks stock hits all-time high at 190.04 USD By Investing.com",
       "Arista Networks (NYSE:ANET): A High-Growth Leader With Powerful Momentum",
       "Arista Networks vs. BigBear.ai: Which Tech Stock Is a Better Buy in 2026?"
     ],
     "ASML.AS": [
+      "ASML (ENXTAM:ASML) Just Raised Its Interim Dividend 17% And Backed 2026 Guidance",
       "BE Semiconductor Stock Rises 5% on Berenberg Upgrade",
       "Micron (MU) vs. ASML (ASML): Which AI Chip Giant Offers the Better Risk-Reward?",
       "ASML reports transactions under its current share buyback program",
@@ -1024,7 +1026,6 @@
       "AI Isn’t a Catch-All Trade for Stocks in This Earnings Season",
       "What Makes ASML (ASML) a New Strong Buy Stock",
       "Best Momentum Stock to Buy for July 31st",
-      "ASML: Is a New Chinese Competitor a Major Threat? (NASDAQ: ASML)",
       "ASML’s hold over the future of chipmaking is weakening",
       "ASML Supplier Zeiss Says It Can Handle Demand for Key AI Parts",
       "ASML: The Peak Is In (NASDAQ:ASML)",
@@ -1035,6 +1036,7 @@
       "China’s DUV progress not the biggest threat to ASML, analysts say"
     ],
     "STX": [
+      "Sandisk Jumps 8%, Micron Gains 6%, SK Hynix Climbs 4% as Wall Street Hikes Price Targets on AI Memory Boom",
       "5 Momentum Stocks to Buy for August Despite a Mixed July",
       "The Price of Reinvention for SanDisk Stock",
       "Seagate (STX) Heads To FMS 2026 With Its Tech Leaders In Focus",
@@ -1044,17 +1046,16 @@
       "Is Western Digital Stock a Compelling Buy Ahead of Q4 Earnings Release?",
       "Analysts Say Data Storage Stocks Like WDC Are Set to Make a Turnaround",
       "Seagate Technology Is Soaring After Its Strong Earnings Report. Should You Buy Western Digital Before Its Earnings Report?",
-      "The Zacks Analyst Blog Highlights Micron, Seagate, Western Digital, Sandisk and Vertiv",
       "The Bull Case For Seagate Technology Holdings (STX) Could Change Following Strong Q4 Results And Upbeat Guidance",
       "Seagate (STX) Stock Looks Below Fair Value While Earnings Look Fair",
       "Seagate Technology Holdings PLC stock underperforms Monday when compared to competitors",
       "Seagate Technology (STX) CLO sells 694 shares in 10b5-1 trading plan",
       "Seagate Technology Holdings PLC Stock (STX) Moved Down by 5.32% on Aug 3: What Signal Does It Send?",
+      "Claim form open in $175 million Seagate Technology securities class action settlement",
       "Results: Seagate Technology Holdings Plc Exceeded Expectations And The Consensus Has Updated Its Estimates",
-      "Seagate Technology creates clear visibility for quarters ahead; BNP Paribas ups target",
       "Seagate Technology Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results",
-      "Seagate Technology Q4 Earnings Call Highlights AI Storage Demand",
-      "Seagate Technology (STX) Receives Upgraded Price Target from BNP Paribas"
+      "Seagate Technology creates clear visibility for quarters ahead; BNP Paribas ups target",
+      "Seagate Technology Q4 Earnings Call Highlights AI Storage Demand"
     ],
     "MU": [
       "Micron Stock Falls -- Apple Tests Chinese Memory Chips From Rising Rival",
@@ -1079,7 +1080,101 @@
       "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "NVDA",
+      "classification": {
+        "is_major": true,
+        "category": "contract",
+        "headline": "AI cloud startup Volta valued at $2.4 billion, announces $10 billion AI partnership",
+        "reason": "Keyword rule matched (category: contract)"
+      },
+      "link": null,
+      "source": null,
+      "method": "keyword",
+      "published": "2026-08-04T14:38:51",
+      "queued_min": 29764263,
+      "all_articles": [
+        {
+          "headline": "Sandisk Jumps 8%, Micron Gains 6%, SK Hynix Climbs 4% as Wall Street Hikes Price Targets on AI Memory Boom",
+          "link": "https://247wallst.com/investing/2026/08/04/sandisk-jumps-8-micron-gains-6-sk-hynix-climbs-4-as-wall-street-hikes-price-targets-on-ai-memory-boom/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Memory and storage stocks are surging Tuesday morning, with SanDisk (NASDAQ:SNDK) leading a broad rebound across the group. SanDisk stock is up 8% to $1,393. Micron Technology shares are up 6% to $880, and SK Hynix shares are climbing 4% to $148. The rally reaches well beyond the leaders. Western Digital (NASDAQ:WDC) shares are rising ... Sandisk Jumps 8%, Micron Gains 6%, SK Hynix Climbs 4% as Wall Street Hikes Price Targets on AI Memory Boom",
+          "published": "2026-08-04T14:52:31"
+        },
+        {
+          "headline": "If a Bear Market Is Coming in 2026, Here's 1 ETF That History Says Has Never Let Investors Down",
+          "link": "https://www.fool.com/investing/2026/08/04/if-a-bear-market-is-coming-heres-1-etf-that/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "The past 98 years of stock market history show that \"VOO and chill\" is a good strategy for long-term investors.",
+          "published": "2026-08-04T14:50:00"
+        },
+        {
+          "headline": "Strategy Sold Some Bitcoin…Again",
+          "link": "https://app.moby.co/home/news/news-strategy-sold-some-bitcoinagain?utm_source=yahoo_finance&utm_medium=rss&.tsrc=rss",
+          "source": "app.moby.co",
+          "summary": "Strategy sold Bitcoin, broke its own commandments, and somehow emerged with STRC near par, and Saylor isn’t in jail.",
+          "published": "2026-08-04T14:43:20"
+        },
+        {
+          "headline": "Why Micron Stock Keeps Bouncing Higher",
+          "link": "https://www.fool.com/investing/2026/08/04/why-micron-stock-keeps-bouncing-higher/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Micron stock could earn $150 a share in 2028, and is still a buy.",
+          "published": "2026-08-04T14:41:46"
+        },
+        {
+          "headline": "AI cloud startup Volta valued at $2.4 billion, announces $10 billion AI partnership",
+          "link": "https://finance.yahoo.com/technology/ai/articles/ai-cloud-startup-volta-valued-143851167.html?.tsrc=rss",
+          "source": null,
+          "summary": "Volta Infra, a seven-month-old AI infrastructure startup, said it raised funds at a $2.4 billion valuation ‌and landed a $10 billion contract with an unnamed AI ‌company to provide cloud-computing services in Europe alongside Bitdeer Technologies. • Bloomberg News reported that the Nvidia-backed Volta's $10 billion ‌cloud contract is with ⁠Anthropic, citing people familiar with the matter. • The six-year agreement covers computing capacity at a data center operated by crypto mining firm Bitdeer in Norway with 133 ​megawatts of ​capacity powered by Nvidia's Vera ​Rubin chips, the report ‌said.",
+          "published": "2026-08-04T14:38:51"
+        },
+        {
+          "headline": "Meet the Most Profitable Company in America Right Now (It’s Not Apple or Microsoft)",
+          "link": "https://247wallst.com/investing/2026/08/04/meet-the-most-profitable-company-in-america-right-now-its-not-apple-or-microsoft/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "The five most valuable companies in America just reported earnings, and the profit rankings will surprise you. One name sits at the top for reasons that have almost nothing to do with its actual business.",
+          "published": "2026-08-04T14:38:45"
+        },
+        {
+          "headline": "Microsoft Price Prediction: After a 25% Three-Day Rally, Here’s Where The Stock is Headed",
+          "link": "https://247wallst.com/investing/2026/08/04/microsoft-price-prediction-after-a-25-three-day-rally-heres-where-the-stock-is-headed/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Microsoft just posted its biggest post-earnings surge in recent mega-cap history, and the move happened so fast it raises a serious question about what comes next for investors still eyeing the stock.",
+          "published": "2026-08-04T14:30:41"
+        },
+        {
+          "headline": "Got $100? This Is the Best Crypto ETF to Buy Right Now",
+          "link": "https://www.fool.com/investing/2026/08/04/got-100-this-is-the-best-crypto-etf-to-buy-right-n/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "The iShares Bitcoin Trust ETF is a simple long-term bet on the crypto market.",
+          "published": "2026-08-04T14:25:00"
+        },
+        {
+          "headline": "Stock Market Today: Dow Rises On Hormuz Hopes; Palantir Leaps As Data Storage Name Soars 50% (Live Coverage)",
+          "link": "https://finance.yahoo.com/m/9e9492e8-dc43-3309-bb2e-9b428195c126/stock-market-today%3A-dow-rises.html?.tsrc=rss",
+          "source": null,
+          "summary": "Stock Market Today: The Dow Jones index rallies Tuesday on U.S.-Iran hopes. Caterpillar and Palantir spike on earnings.",
+          "published": "2026-08-04T14:24:54"
+        },
+        {
+          "headline": "BTDR Stock Rallies After Landing $4.7B AI Infrastructure Contract In Norway",
+          "link": "https://stocktwits.com/news-articles/markets/equity/btdr-stock-rallies-after-landing-4-7-b-ai-infrastructure-contract-in-norway/cZo5NQWRJEs?.tsrc=rss",
+          "source": "stocktwits.com",
+          "summary": "The contract covers 121 megawatts of AI infrastructure at Bitdeer's Tydal campus in Norway and could expand to $8 billion if an eight-year renewal option is exercised.",
+          "published": "2026-08-04T14:22:50"
+        },
+        {
+          "headline": "Data Center Sales Make Up 92% of Nvidia's Revenue",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYXdkaHNVZTM5cENYN0RyZlFSUjBXWEdwcTR4eDBoQVgzU045X2Y3VG4zQnBqUzM1YWxaaVktNkc0eVBGRU9xQ29LaS0yQ1JkN1dadzFPQTREblQyVTlCS1YyYVlxY01wVS1lSlB3bVowekdtVXE2LXh4V1BTZ2FUellwOWVnaFZIOFNZQjBJRnFUbWlu?oc=5",
+          "source": "The Motley Fool",
+          "summary": "",
+          "published": "2026-08-03T16:45:00"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1186,13 +1281,11 @@
       4
     ],
     "mover": [
-      3,
-      2
+      3
     ],
     "price_event": [
       2,
-      3,
-      1
+      3
     ],
     "quiet": [
       0,
@@ -1206,8 +1299,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 297.5,
-    "SIE.DE": 288.95,
+    "SU.PA": 296.65,
+    "SIE.DE": 288.3,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1233,24 +1326,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 166.6,
-    "BESI.AS": 216.4,
-    "AIXA.DE": 38.64,
-    "IFX.DE": 63.96,
-    "ASML.AS": 1480.2,
-    "MU": 874.39,
-    "TSM": 415.79,
-    "KLAC": 192.13,
-    "STX": 856.31,
-    "ANET": 189.43,
-    "LRCX": 310.36,
-    "FORM": 117.53,
-    "AVGO": 409.99,
-    "AMAT": 543.61,
-    "AMD": 512.72,
-    "MRVL": 214.41,
-    "NVDA": 209.98,
-    "WDC": 543.32
+    "SAP.DE": 167.86,
+    "BESI.AS": 216.3,
+    "AIXA.DE": 38.12,
+    "IFX.DE": 63.5,
+    "ASML.AS": 1470.8,
+    "MU": 887.72,
+    "TSM": 416.72,
+    "KLAC": 192.06,
+    "STX": 845.99,
+    "ANET": 190.94,
+    "LRCX": 311.5,
+    "FORM": 117.92,
+    "AVGO": 410.2,
+    "AMAT": 541.74,
+    "AMD": 518.39,
+    "MRVL": 215.85,
+    "NVDA": 209.68,
+    "WDC": 546.64
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1269,10 +1362,11 @@
     "MRVL": "2026-08-03",
     "ANET": "2026-08-03",
     "BESI.AS": "2026-08-04",
-    "FORM": "2026-08-04"
+    "FORM": "2026-08-04",
+    "AMD": "2026-08-04"
   },
-  "next_pulse_interval": 41,
-  "last_pulse_post_min": 29764202,
+  "next_pulse_interval": 30,
+  "last_pulse_post_min": 29764262,
   "eu_slots": [
     {
       "slot": 0,
@@ -1308,5 +1402,5 @@
     0
   ],
   "eu_flexible_used": 1,
-  "us_flexible_used": 3
+  "us_flexible_used": 4
 }
