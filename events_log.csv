@@ -504,3 +504,9 @@ https://www.tipranks.com/news/micron-mu-stock-is-down-today-but-one-analyst-just
 171,2026-08-04,05:02:23,Tuesday,news_event,,,keyword,AMD,AMD,,,,,494.6,4.76,,,"45,527 Shares in Advanced Micro Devices, Inc. $AMD Bought by VectorGlobal IAG Inc.",MarketBeat,https://www.marketbeat.com/instant-alerts/filing-45527-shares-in-advanced-micro-devices-inc-amd-bought-by-vectorglobal-iag-inc-2026-08-03/,,large_share_purchases,,,,,N,0,keyword,Y,,"$AMD ($494.6, +4.76% at last close as of Aug 3): 45,527 Shares in Advanced Micro Devices, Inc. $AMD Bought by VectorGlobal IAG Inc.
 
 https://www.marketbeat.com/instant-alerts/filing-45527-shares-in-advanced-micro-devices-inc-amd-bought-by-vectorglobal-iag-inc-2026-08-03/",271,,,,,
+172,2026-08-04,09:01:54,Tuesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,Biggest mover this hour: $SAP +4.41% at €164.64.,48,,,,,
+173,2026-08-04,09:02:52,Tuesday,scheduled_slot,eu,hook,gemini,BESI.AS,BESI,"$ASML, $IFX",,,open,201.4,2.05,,,,,,,,,,,,Y,1,llm,Y,,"$BESI jumps early in EU chip stocks after Q2 '26 earnings showed record growth.
+
+$BESI +2.05% at €201.4 on Q2 '26 record growth.
+$ASML -0.6% at €1419.6 as share buybacks continue.
+$IFX -0.32% at €61.47 despite positive AI/chip sector buzz.",239,,,,,
