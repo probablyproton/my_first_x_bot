@@ -1,9 +1,9 @@
 {
   "date": "2026-08-04",
-  "daily_posts": 1,
+  "daily_posts": 2,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 2,
-  "gemini_calls_today": 4,
+  "daily_pulse_posts": 3,
+  "gemini_calls_today": 6,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -54,11 +54,11 @@
     "ANET": 1262,
     "MU": 1322,
     "AMD": 302,
-    "BESI.AS": 542,
+    "BESI.AS": 662,
     "ASML.AS": 542,
     "IFX.DE": 542
   },
-  "event_log_next_id": 175,
+  "event_log_next_id": 177,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -92,7 +92,8 @@
     "MRVL": 1202,
     "ANET": 1262,
     "news_MU": 1322,
-    "news_AMD": 302
+    "news_AMD": 302,
+    "BESI.AS": 662
   },
   "news_seen": {
     "ETN": [
@@ -717,12 +718,12 @@
       "FormFactor Q2 Earnings Call Highlights AI Demand Drives Growth",
       "Why FormFactor Stock Is Skyrocketing Today",
       "FormFactor Inc (FORM) (Q2 2026) Earnings Call Highlights: Record Revenue and EPS Fueled by AI ...",
+      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "FormFactor (NASDAQ:FORM) Shares Gap Down - Here's What Happened",
       "FormFactor Q2 Review: If You Haven’t Sold On The Way Down, Don’t Sell On The Way Up (FORM)",
       "S&P 500 Futures Rise in Premarket Trading; Corcept Therapeutics, FormFactor Lead",
-      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Lazard Asset Management LLC Makes New $2.15 Million Investment in FormFactor, Inc. $FORM",
-      "Royal Bank of Canada Sells 157,742 Shares of FormFactor, Inc. $FORM",
+      "Edgestream Partners L.P. Makes New $4.45 Million Investment in FormFactor, Inc. $FORM",
       "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?",
       "Thursday's ETF Movers: PTF, AKRE",
       "Thursday Sector Leaders: Semiconductors, Computer Peripherals",
@@ -762,13 +763,13 @@
       "Got $1,000? Taiwan Semiconductor Manufacturing's $100 Billion Arizona Investment Makes It a Must-Own Stock",
       "ASML vs. TSMC: Which Semiconductor Supply Chain Stock Is the Better AI Play?",
       "Taiwan Semiconductor Manufacturing Company Limited (TSM): An Unmatched Technological Lead in Semiconductors",
-      "PVG Asset Management Corp Purchases 4,736 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
       "Fund Update: 55,557 TAIWAN SEMICONDUCTOR MANUFACTURING (TSM) shares added to Carnegie Investment Counsel portfolio",
       "Is Taiwan Semiconductor Manufacturing (TSM) Expensive Or Undervalued On Mixed Valuation Signals?",
-      "Taiwan Semiconductor Manufacturing Company Ltd. $TSM is Positano Wealth Management Ltd's 9th Largest Position",
-      "Keel Point LLC Cuts Stock Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
-      "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Looks Reasonable Despite Its 335% Run",
+      "PVG Asset Management Corp Purchases 4,736 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
       "Groupe la Francaise Sells 33,182 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
+      "Western Wealth Management LLC Boosts Stock Holdings in Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
+      "Taiwan Semiconductor Manufacturing (NYSE:TSM) Stock Looks Reasonable Despite Its 335% Run",
+      "Taiwan Semiconductor Manufacturing Company Ltd. $TSM is Positano Wealth Management Ltd's 9th Largest Position",
       "15% Of Israel Englander's $240 Billion Millennium Portfolio Sits in Just 10 Stocks",
       "Semiconductor Stocks Are Down 22%. Here's the 1 Chip Stock I'd Buy Right Now."
     ],
@@ -876,7 +877,7 @@
       "BE Semiconductor Industries N.V. Announces Q1-26 Results",
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
       "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
-      "Market Chatter: ASML, BE Semiconductor Industries Shares Fall Amid Report of Chinese Company Producing DUV Tool",
+      "Press Release: BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
       "Zacks Research Upgrades BE Semiconductor Industries (OTCMKTS:BESIY) to Strong-Buy"
     ],
     "AMAT": [
@@ -898,10 +899,13 @@
       "Advancing Semiconductor Innovation Across Materials Engineering and Manufacturing",
       "The AI Infrastructure Boom Is Far From Over for Applied Materials, KLA Corp.",
       "Stocks making the biggest moves premarket: Oracle, Intel, Applied Materials, Alcoa and more",
-      "Applied Materials: Strong Fundamentals, But I'm Downgrading Ahead Of Earnings",
-      "Stocks Supported by Easing Middle East Tensions"
+      "Applied Materials (AMAT) Stock May Not Be A Bargain Despite AI Materials Foundry News",
+      "Applied Materials: Strong Fundamentals, But I'm Downgrading Ahead Of Earnings"
     ],
     "NVDA": [
+      "President Trump Buys 2 AI Stocks That Wall Street Says Are Undervalued",
+      "One Word Repeated 10 Times by Fed Chair Kevin Warsh Has Effectively Reshaped the Central Bank's Monetary Policy Approach",
+      "If a Bear Market Is Coming, I'm Buying This 1 ETF Hand Over Fist",
       "Amazon And Microsoft Ace Wall Street’s AI Test — Analyst Warns ‘Mag Seven’ Now Faces A ‘Higher Burden Of Proof’",
       "Palantir's ‘Rule Of 40’ Score Hit 155% — Here's The Math And Why It Matters For Software Valuations",
       "Is Higher Net Interest Income And A New Dividend Altering The Investment Case For Butterfield (NTB)?",
@@ -909,19 +913,16 @@
       "Nvidia CEO Jensen Huang Said the Semiconductor Industry Could Grow to $7.9 Trillion to Support the Agentic AI Boom. Here Are 2 Stocks That Could Benefit",
       "Investors Are Learning a Hard Lesson About the Dangers of Using Leverage",
       "Fitch Says: AI Market Correction Could Be a Big Risk to Corporate Credit. That Might Be Bad News for This Junk Bond ETF.",
-      "Better Neocloud Stock: CoreWeave vs. Nebius",
-      "Why Sweetgreen Stock Fell 27% in July",
-      "Why Newell Brands Stock Keeps Rising",
       "Huawei’s Top Scientist Warns of Chip Limit Nvidia Will Soon Face",
       "The Market Is Missing a Huge Opportunity in NVIDIA, Micron, and Broadcom",
       "Co-Designing AI Model Attention for Fast, Interactive Long-Context Inference",
       "Nvidia: Financial Engineering Is Buying A Vera Rubin Beachhead (NASDAQ:NVDA)",
       "Data Center Sales Make Up 92% of Nvidia's Revenue",
       "Oslo Pensjonsforsikring AS Makes New $13.50 Million Investment in NVIDIA Corporation $NVDA",
+      "Comparing NVIDIA With Industry Competitors In Semiconductors & Semiconductor Equipment Industry - NVI",
       "NVIDIA 610.57.04 Linux Graphics Driver Improves Support for Many Games",
-      "Michael Burry Just Turned His Guns on Nvidia, Micron and SOXX — ETF Investors Are Watching the Fallout",
-      "Zacks.com featured highlights Micron, NVIDIA and TD SYNNEX",
-      "Nvidia's Pause Before The Next AI Wave (NASDAQ:NVDA)"
+      "1 Unstoppable Stock to Buy Before It Joins Nvidia, Alphabet, Apple, and Microsoft in the $3 Trillion Club",
+      "Zacks.com featured highlights Micron, NVIDIA and TD SYNNEX"
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
@@ -937,6 +938,7 @@
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
+      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Ac",
       "Who is the CEO of AIXTRON SE in 2026? Felix Grawert's Bio",
       "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
@@ -975,13 +977,13 @@
       "SK Hynix's record plunge drags down global chip stocks",
       "Allegro MicroSystems Stock Story Hinges on EVs, AI and Margins",
       "Allegro MicroSystems Trends Point to Higher Chip Content Ahead",
-      "Infineon Technologies AG (IFNNY) Is Up 2.90% in One Week",
+      "INFINEON TECHNOLOGIES AG : Receives a Buy rating from JP Morgan",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "Infineon Technologies AG (IFNNF) Q4 2025 Earnings Call Highlights: Strong Quarter Amidst ...",
       "Infineon Leads the Automotive Semiconductor",
       "Infineon’s Power Semis Portfolio Looks To Be in a Good Position to Deliver on AI",
       "Termine",
       "North America Silicon Carbide (SiC) Market",
-      "Infineon Technologies AG (IFNNF) Q4 2025 Earnings Call Highlights: Strong Quarter Amidst ...",
       "Germany's Merz Backs US Alliance, Calls Iran Nuclear Threat 'Common Goal' As Trump Pulls Troops Over War Rift",
       "Infineon-led European project Moore4Power launches",
       "Infineon upbeat on AI chips but cautious on automotive, industrials"
@@ -1001,8 +1003,8 @@
       "Arista Networks Inc Stock (ANET) Moved Up by 3.28% on Aug 3: Drivers Behind the Movement",
       "Arista Networks (NYSE:ANET) Shares Up 2.8% - What's Next?",
       "The Bull Case For Arista Networks (ANET) Could Change Following Raised 2026 Guidance And AI Demand Momentum",
-      "Arista Networks (NYSE:ANET): A High-Growth Leader With Powerful Momentum",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
+      "Arista Networks (NYSE:ANET): A High-Growth Leader With Powerful Momentum",
       "$100 Invested In Arista Networks 10 Years Ago Would Be Worth This Much Today",
       "Arista Networks vs. BigBear.ai: Which Tech Stock Is a Better Buy in 2026?",
       "Arista Networks price rallies - Forecast today - 03-08-2026",
@@ -1194,9 +1196,7 @@
   },
   "pulse_template_decks": {
     "evergreen": [],
-    "mover": [
-      3
-    ],
+    "mover": [],
     "price_event": [
       2,
       3,
@@ -1214,8 +1214,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 296.75,
-    "SIE.DE": 287.88,
+    "SU.PA": 296.05,
+    "SIE.DE": 287.45,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1241,11 +1241,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 166.5,
-    "BESI.AS": 211.2,
-    "AIXA.DE": 38.16,
-    "IFX.DE": 63.64,
-    "ASML.AS": 1449.2,
+    "SAP.DE": 164.6,
+    "BESI.AS": 212.8,
+    "AIXA.DE": 37.84,
+    "IFX.DE": 63.67,
+    "ASML.AS": 1456.4,
     "MU": 826.17,
     "TSM": 407.17,
     "KLAC": 180.91,
@@ -1275,10 +1275,11 @@
     "AIXA.DE": "2026-08-03",
     "NVDA": "2026-08-03",
     "MRVL": "2026-08-03",
-    "ANET": "2026-08-03"
+    "ANET": "2026-08-03",
+    "BESI.AS": "2026-08-04"
   },
-  "next_pulse_interval": 44,
-  "last_pulse_post_min": 29763841,
+  "next_pulse_interval": 35,
+  "last_pulse_post_min": 29763902,
   "eu_slots": [
     {
       "slot": 0,
@@ -1310,5 +1311,6 @@
       "fire_time": "22:31"
     }
   ],
-  "us_posted": []
+  "us_posted": [],
+  "eu_flexible_used": 1
 }
