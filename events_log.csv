@@ -554,3 +554,19 @@ https://www.marketbeat.com/instant-alerts/filing-2568-shares-in-taiwan-semicondu
 200,2026-08-05,10:01:57,Wednesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,Biggest mover this hour: $IFX -4.05% at €61.17.,47,,,,,
 201,2026-08-05,11:01:47,Wednesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$IFX pulling away at -5.66%, now trading at €60.14.",51,,,,,
 202,2026-08-05,11:02:48,Wednesday,news_event,,,keyword,BESI.AS,BESI,,,,,,,,,Berenberg Upgrades BE Semiconductor Industries to Buy,marketscreener.com,https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU1owYV9wcHB5YmwwMW9GdXJ1aVRNeklYNVZzRTRTRDk2ZjBMZ1JSNlFrZ3BSTGJFTmd1Q2VVNG1rT3gzSlZxOC1pRHhQeVcxY0pwTGptNk1DeDI3dWpURktXYXhmNnExWmtCa1NONlZyaHBaTHp3ZnRTWEdJRW1yZG5HUEItLWhNcDE3ZGtaY0x4Q1BNbHZQQUYtVFg3ZHZjZnhrZEswc0RIQQ?oc=5,2026-08-04T12:30:42,analyst_note,,,,,,,,N,queue_aged_out,,,,,,,
+203,2026-08-05,12:03:00,Wednesday,weekly_engagement,,wednesday,gemini,,,"$AIXA.DE, $AMAT, $AMD, $ANET, $ASML.AS, $AVGO, $BESI.AS, $FORM, $IFX.DE, $KLAC, $LRCX, $MRVL, $MU, $NVDA, $SAP.DE, $SIE.DE, $STX, $SU.PA, $TSM, $WDC",,,,,,,,,,,,,,,,,Y,9,llm,Y,,"Midweek check-in: $MRVL leads the pack with +21.09% this week on positive preclinical data.
+
+$MRVL: +21.09%
+$FORM: +18.73%
+$LRCX: +12.14%
+$BESI: +8.47%
+$AIXA: +5.34%
+
+If you had $1000 to invest, which of these would you grab?",225,,,,,
+204,2026-08-05,12:03:21,Wednesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,$IFX is the one to watch right now – -4.67% at €60.77.,54,,,,,
+205,2026-08-05,12:04:07,Wednesday,price_event,eu,,gemini,IFX.DE,IFX,,XETR,Y,open,60.75,-4.71,64.4,59.85,,,,,,,4.71,,,Y,10,llm,Y,,"$IFX slides 4.71% to €60.75 today, hitting €59.85 intraday.
+
+The sell-off in European chip names likely reflects broader sector weakness, potentially influenced by earlier sharp U.S. peer declines or the notable plunge from SK Hynix.
+
+Is the chip rally pausing?",261,,,,,
+206,2026-08-05,12:04:36,Wednesday,news_event,,,keyword,ANET,ANET,,,,,,,,,AI Cloud Networking Growth Drives Arista Earnings Beat,,,2026-08-04T21:03:00,earnings,,,,,,,,N,queue_aged_out,,,,,,,

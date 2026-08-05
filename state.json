@@ -1,14 +1,14 @@
 {
   "date": "2026-08-05",
-  "daily_posts": 0,
+  "daily_posts": 2,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 3,
-  "gemini_calls_today": 7,
+  "daily_pulse_posts": 4,
+  "gemini_calls_today": 11,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-03",
-    "wednesday": "2026-07-08"
+    "wednesday": "2026-08-05"
   },
   "zero_llm_posts": {},
   "research_spotlights_used": {
@@ -56,14 +56,14 @@
     "AMD": 1022,
     "BESI.AS": 662,
     "ASML.AS": 542,
-    "IFX.DE": 542,
+    "IFX.DE": 724,
     "LRCX": 844,
     "FORM": 964,
     "AVGO": 1082,
     "KLAC": 1142,
     "TSM": 1322
   },
-  "event_log_next_id": 203,
+  "event_log_next_id": 207,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -105,7 +105,8 @@
     "AVGO": 1082,
     "KLAC": 1142,
     "news_NVDA": 1262,
-    "news_TSM": 1322
+    "news_TSM": 1322,
+    "IFX.DE": 724
   },
   "news_seen": {
     "ETN": [
@@ -306,26 +307,26 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
-      "Macnica Invests in Malaysia's Leading Digital Transformation Company, Orangeleaf Consulting, to Expand Digital Transformation Services for Japan's Manufacturing Industry",
-      "Resilience and Digital Transformation Spearhead the Energy Infrastructure Transition",
-      "CXO Summit Opens Sponsorship Opportunities for Enterprise Leaders",
-      "PTC's AI-Led Lifecycle Strategy Reshapes Its Long-Term Growth Outlook",
-      "PTC Rides AI, Cloud and Product Data Trends Across Industrial Markets",
-      "Compass Datacenters and Meridian Community College Launch Mississippi's First Data Center Workforce Training Program",
       "Energy and Utilities Analytics Market Surges to $10.10 billion at a CAGR 10.6% by 2031 | Report by MarketsandMarkets™",
       "Siemens and Tulip Emerge as Leaders as AI in MES Prioritizes Trust, Governance, and Human Oversight",
+      "Fermi Announces First Siemens Turbines Arrive at Port of Houston",
+      "CXO Summit Opens Sponsorship Opportunities for Enterprise Leaders",
+      "Electronic Toll Collection Market to Reach USD 16.65 Billion by 2032, Driven by Intelligent Transportation Investment | Kapsch Trafficcom, Conduent, Transcore, Thales, and Siemens Dominate",
+      "Worldwide Digital Railway Market to Reach $136.49 Billion by 2031 as IoT, AI and Cloud Adoption Accelerate",
+      "Compass Datacenters and Meridian Community College Launch Mississippi's First Data Center Workforce Training Program",
       "Wolfspeed Strengthens Board with Appointment of Semiconductor and Technology Executive Andy W. Mattes",
-      "Nvidia (NVDA) Pours $5 Billion Into Safe AI And Expands Data Center Reach",
+      "Nvidia in Talks to Finance OpenAI, Report Says. What It Means for the Stock.",
+      "NVIDIA Expands NVIDIA Agent Toolkit With NVIDIA PhysicsNeMo and CUDA-X Libraries to Transform How the World Engineers, Designs and Builds",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
+      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "Harry Siemens Honored for Farm Reporting",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
-      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "Siemens Mobility North America appoints president"
+      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -698,6 +699,8 @@
       "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29"
     ],
     "MRVL": [
+      "Marvel Biosciences Reports Positive Preclinical Data Demonstrating MB-204 Reverses Behavioural and Cognitive Deficits in a Mouse Model of Fragile X",
+      "US Ban on Chinese Optical Parts Hurts Hyperscalers, Report Says",
       "Marvell Technology Stock Is On Sale, But Is It A Bargain?",
       "SpaceX, Palantir, AMD, Marvell, Caterpillar, Pfizer, and More Stocks That Explain Today’s Market",
       "Marvell Surges as China Ban Report Reignites Optical-Networking Stocks",
@@ -706,14 +709,12 @@
       "These 3 Chip Stocks Could Be Entering a New Growth Cycle",
       "Marvell Technology (MRVL) Could Be 38% Above Fair Value As AI Narrative Builds",
       "Should Investors Buy SIMO or Wait Despite Its Premium Valuation?",
-      "Why Silicon Motion Fell 21.1% in the Past Month and What Comes Next",
-      "Can AI Storage Demand Make SIMO a Long-Term Enterprise Winner?",
       "Marvell Stock, Corning, and Lumentum Surge on Report of Import China Ban",
       "Marvell Advances AI Memory Infrastructure Portfolio to Accelerate Agentic AI Inference",
       "Marvell Stock Surges 10%: Next-Gen AI Storage Unveiled Ahead of Q2 Earnings - Marvell Technology (NASDAQ",
       "Marvell surges after unveiling new products in AI memory infrastructure portfolio",
+      "Photonic Fabric™ Technology: How Optical Connectivity Enables the Next Generation of AI Infrastructure",
       "Marvell's Next Move Is To $100 (NASDAQ:MRVL)",
-      "Marvell Technology, Inc. Announces Conference Call to Review Second Quarter of Fiscal Year 2027 Financial Results; Announces Investor Day on October 6, 2026",
       "Huge, Unusual Trading in Marvell Technology Call Options - Investors Are Bullish on MRVL Stock",
       "Markets News, June 2, 2026: AI Trade Keeps Rocking as Marvell, HPE Soar; Major U.S. Indexes Close at Fresh Record Highs",
       "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz",
@@ -810,6 +811,7 @@
     "AVGO": [
       "I’m Buying Broadcom Because It Sucks Up The Hyperscaler AI Capex That Doesn’t Go To Nvidia",
       "AMD Vs. Broadcom: Why Broadcom is Actually Nvidia’s Biggest Problem",
+      "US Ban on Chinese Optical Parts Hurts Hyperscalers, Report Says",
       "Marvell Technology Stock Is On Sale, But Is It A Bargain?",
       "Intel, AMD Lead Powerful Chip Stocks Rally on AI Optimism",
       "Apollo Global Management Q2 Earnings Call Highlights",
@@ -817,16 +819,15 @@
       "Anthropic's Google Chip Procurement Could Lead To Another $36B Debt Financing Round",
       "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
       "Why Broadcom Stock Rallied Today",
-      "Intel Soars 10%, AMD Jumps 8%, Broadcom Rises 6% as Chip Stocks Ride a Risk-On Rally",
       "Broadcom Inc. to Announce Third Quarter Fiscal Year 2026 Financial Results on Wednesday, September 2, 2026",
       "What Could Push Broadcom Stock Higher Is Already Sitting In Its Order Book",
       "What Is Going on With Broadcom Stock on Tuesday?",
-      "Broadcom Stock (AVGO) Falls as Goldman Sachs Removes It From the ‘Conviction List’",
-      "Could Broadcom (AVGO) Be 40% Undervalued As It Heads To Memory And Storage Conference?",
+      "Intel Soars 10%, AMD Jumps 8%, Broadcom Rises 6% as Chip Stocks Ride a Risk-On Rally",
       "Broadcom loses court bid to suspend EU antitrust request for US legal papers",
       "The Market Is Missing a Huge Opportunity in NVIDIA, Micron, and Broadcom",
-      "AMD Helios Architecture Deep Dive: The Power of AMD's Hardware Combined - Page 4 of 5",
       "Broadcom joins Nvidia AI security alliance: 'We haven't forgotten open source'",
+      "AMD Helios Architecture Deep Dive: The Power of AMD's Hardware Combined - Page 4 of 5",
+      "Microsoft joins, Broadcom exits Goldman’s top-stocks list",
       "Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats"
     ],
     "KLAC": [
@@ -840,8 +841,8 @@
       "KLA (KLAC) Upgraded to Strong Buy: What Does It Mean for the Stock?",
       "Best Momentum Stock to Buy for July 31st",
       "KLA Rides on Strong Advanced Packaging Growth: More Upside Ahead?",
-      "KLA Corp. stock outperforms competitors on strong trading day",
       "5 Must-Read Analyst Questions From KLA Corporation’s Q2 Earnings Call",
+      "KLA Corp. stock outperforms competitors on strong trading day",
       "KLA Corp (NASDAQ: KLAC) CEO uses RSU shares to cover taxes",
       "KLA Corp | 4: Statement of changes in beneficial ownership of securities-Officer WALLACE RICHARD P",
       "A Look at KLA Corp (KLAC) After 7.0% Gain -- GF Value $106.85 vs Price $195.45",
@@ -883,15 +884,14 @@
       "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
       "BESI raises long-term revenue, margin targets as demand increases",
       "Ultra Clean (UCTT) Surges 6.5%: Is This an Indication of Further Gains?",
-      "Q4 2025 BE Semiconductor Industries NV Earnings Call Transcript",
+      "Why BE Semiconductor Industries (ENXTAM:BESI) Is Up 10.1% After Strong Half-Year Earnings And Efficiency Gains",
       "BE Semiconductor Industries Upgraded to Buy as Berenberg Notes 'Opportunity' Amid Recent Share Weakness",
-      "Why is BE Semiconductor Industries stock rallying today? By Investing.com",
       "Short Interest in BE Semiconductor Industries NV (OTCMKTS:BESIY) Rises By 86.9%",
+      "Why is BE Semiconductor Industries stock rallying today? By Investing.com",
       "ETFs Investing in BE Semiconductor Industries N.V. Stocks",
+      "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
       "BE Semiconductor Industries N.V. Announces Q1-26 Results",
-      "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
-      "Press Release: BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "Berenberg Upgrades BE Semiconductor Industries to Buy"
+      "Press Release: BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results"
     ],
     "AMAT": [
       "Chatham Lodging Trust Q2 2026 Earnings Call Summary",
@@ -911,7 +911,7 @@
       "Advancing Semiconductor Innovation Across Materials Engineering and Manufacturing",
       "The AI Infrastructure Boom Is Far From Over for Applied Materials, KLA Corp.",
       "Applied Materials (AMAT) Stock May Not Be A Bargain Despite AI Materials Foundry News",
-      "John Armitage's Egerton Delivered 1.4% In June As Applied Materials Soars",
+      "Morgan Stanley Adjusts PT on Applied Materials to $646 From $647, Maintains Equalweight Rating",
       "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz",
       "Stock Indices Rally on Strong Tech Earnings and US-Iran Peace Hopes"
     ],
@@ -939,22 +939,22 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
-      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Ac",
       "Who is the CEO of AIXTRON SE in 2026? Felix Grawert's Bio",
       "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
-      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe"
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "Aixtron (AIXA) Stock Price, News & Analysis"
     ],
     "AMD": [
       "Cathie Wood Invests $32.2 Million in Surging Tech Stocks",
@@ -980,7 +980,6 @@
     ],
     "IFX.DE": [
       "Infineon hits revenue record: AI data centres drive growth",
-      "FTSE 100 Live: Next and Glencore provide results boost, SpaceX tumbles",
       "AI and Chips Are Turning Malaysia Into Asia’s Growth Standout",
       "Chip Stocks Climb as AI Rally Regains Strength",
       "Chip Stocks Rise After Pause in Middle East Fighting",
@@ -989,15 +988,16 @@
       "Chips stocks fall. UnitedHealth rises. Netflix earnings are up next",
       "European Chip Stocks Skid After SK Hynix Nasdaq Debut",
       "SK Hynix's record plunge drags down global chip stocks",
+      "Allegro MicroSystems Stock Story Hinges on EVs, AI and Margins",
       "INFINEON TECHNOLOGIES AG : Receives a Buy rating from JP Morgan",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
-      "Infineon-led European project Moore4Power launches",
       "Infineon Technologies AG (IFNNF) Q4 2025 Earnings Call Highlights: Strong Quarter Amidst ...",
       "Infineon Leads the Automotive Semiconductor",
       "Infineon’s Power Semis Portfolio Looks To Be in a Good Position to Deliver on AI",
       "North America Silicon Carbide (SiC) Market",
       "Germany's Merz Backs US Alliance, Calls Iran Nuclear Threat 'Common Goal' As Trump Pulls Troops Over War Rift",
       "Termine",
+      "Infineon-led European project Moore4Power launches",
       "Infineon upbeat on AI chips but cautious on automotive, industrials"
     ],
     "ANET": [
@@ -1038,7 +1038,8 @@
       "ASML: The Peak Is In (NASDAQ:ASML)",
       "xLight bets on EUV light source, eyes ASML deal",
       "Ahead of SpaceX IPO, Elon Musk addresses ASML employees as part of push into chip manufacturing",
-      "Europe's biggest tech giant slides 5% on reports of a Chinese rival encroaching on its turf"
+      "Europe's biggest tech giant slides 5% on reports of a Chinese rival encroaching on its turf",
+      "ASML and 21 More Stocks to Consider Buying Out of the AI Wreckage"
     ],
     "STX": [
       "Can Strong Data Center & Edge Boost SNDK's Top Line in Q4 Earnings?",
@@ -1085,143 +1086,7 @@
       "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "ANET",
-      "classification": {
-        "is_major": true,
-        "category": "earnings",
-        "headline": "AI Cloud Networking Growth Drives Arista Earnings Beat",
-        "reason": "Keyword rule matched (category: earnings)"
-      },
-      "link": null,
-      "source": null,
-      "method": "keyword",
-      "published": "2026-08-04T21:03:00",
-      "queued_min": 29765041,
-      "all_articles": [
-        {
-          "headline": "Dow Jones Futures Rise; SpaceX, AMD, Arista Lead Earnings Movers After S&P 500 Jumps To High",
-          "link": "https://finance.yahoo.com/m/63f73cc3-b9b2-3295-a581-3f2fee0b0e0e/dow-jones-futures-rise%3B.html?.tsrc=rss",
-          "source": null,
-          "summary": "The Dow and S&P 500 hit new highs while the Nasdaq powered higher again. SpaceX, AMD and Arista led earnings movers late.",
-          "published": "2026-08-05T02:48:27"
-        },
-        {
-          "headline": "Arista Networks Stock Investors Just Got Fantastic News From CEO Jayshree Ullal",
-          "link": "https://www.fool.com/investing/2026/08/04/arista-networks-stock-investors-just-got-fantastic-news-from-ceo-jayshree-ullal/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Shareholders got a double dose of good news.",
-          "published": "2026-08-04T22:26:43"
-        },
-        {
-          "headline": "Arista forecasts upbeat quarterly revenue on AI-driven networking demand",
-          "link": "https://finance.yahoo.com/technology/articles/arista-forecasts-upbeat-quarterly-revenue-221420916.html?.tsrc=rss",
-          "source": null,
-          "summary": "Arista Networks forecast third-quarter revenue above Wall Street ‌estimates on Tuesday, betting on strong ‌demand for its networking gear as companies ​expand their AI infrastructure. The company has been expanding beyond its core cloud customer base into enterprise campus and branch ‌networking to ⁠diversify its revenue. Here are some details: • Shares were up 3% ⁠after the bell.",
-          "published": "2026-08-04T22:14:20"
-        },
-        {
-          "headline": "Arista Networks (ANET) Q2 Earnings and Revenues Surpass Estimates",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-anet-q2-earnings-214003640.html?.tsrc=rss",
-          "source": null,
-          "summary": "Arista Networks (ANET) delivered earnings and revenue surprises of +14.61% and +7.15%, respectively, for the quarter ended June 2026. Do the numbers hold clues to what lies ahead for the stock?",
-          "published": "2026-08-04T21:40:03"
-        },
-        {
-          "headline": "AI Cloud Networking Growth Drives Arista Earnings Beat",
-          "link": "https://finance.yahoo.com/m/30b0639a-a51d-338b-bfb4-53ff99db2f43/ai-cloud-networking-growth.html?.tsrc=rss",
-          "source": null,
-          "summary": "Arista stock jumped as Q2 earnings and revenue handily beat estimates amid strong demand for AI cloud computing networking gear.",
-          "published": "2026-08-04T21:03:00"
-        },
-        {
-          "headline": "Arista Networks Stock Surges as Earnings Prove AI Demand Is Real",
-          "link": "https://finance.yahoo.com/m/b6e106e5-4e33-3ce2-9439-8b5e5685ecc0/arista-networks-stock-surges.html?.tsrc=rss",
-          "source": null,
-          "summary": "Arista Networks stock soared Tuesday after the network infrastructure company reported better-than-expected second-quarter earnings. The results provided further evidence that demand for artificial-intelligence services is accelerating, with hardware suppliers like Arista among the main beneficiaries. Arista reported adjusted earnings of $1.02 a share for the second quarter, up from 73 cents last year and above analysts’ call for 89 cents, per FactSet.",
-          "published": "2026-08-04T20:55:00"
-        },
-        {
-          "headline": "Arista Networks soars 13% on strong Q2 beat and raised outlook",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-soars-13-strong-204329421.html?.tsrc=rss",
-          "source": null,
-          "summary": "Investing.com -- Arista Networks, Inc. (NYSE: ANET) reported second quarter results that exceeded analyst expectations and provided third quarter guidance well above consensus, sending shares up 13%.",
-          "published": "2026-08-04T20:43:29"
-        },
-        {
-          "headline": "Arista Networks, Inc. Reports Second Quarter 2026 Financial Results",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-networks-inc-reports-second-200500490.html?.tsrc=rss",
-          "source": null,
-          "summary": "SANTA CLARA, Calif., August 04, 2026--Arista Networks, Inc. (NYSE: ANET), an industry leader in data-driven, client-to-cloud networking for large AI, data center, campus, and routing environments, today announced financial results for its second quarter ended June 30, 2026.",
-          "published": "2026-08-04T20:05:00"
-        },
-        {
-          "headline": "Equities Rally Intraday Amid Upbeat Earnings, Hormuz Reopening Hopes",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/equities-rally-intraday-amid-upbeat-181005089.html?.tsrc=rss",
-          "source": null,
-          "summary": "US equities rallied intraday, fueled by upbeat earnings reports and hopes that the Strait of Hormuz",
-          "published": "2026-08-04T18:10:05"
-        },
-        {
-          "headline": "Stocks making the biggest moves after the bell: SpaceX, AMD, Pinterest, Arista Networks, Wynn Resorts & more",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUFB4VVZSMjVhUkR1ZUV5V0FEU3ZNaV9XS1U2cGMzdkxyRThMbTFIaWRIMGJxSl9rVU9OSnZMSEF1bWpoNXFlcFpqWXlKbUhtRlNqSHdnNTFVREdNWG80aUN0eVVQYTBUNm5EdXdYME5nRnN6THV0b0FCN1ZWalM4c1FyYmh5X2U4MHA5OHBkWDdHcEVPdTVkVkRJY1R6azBCSGo4d2JKQ3IwV0E?oc=5",
-          "source": "CNBC",
-          "summary": "",
-          "published": "2026-08-04T20:53:14"
-        },
-        {
-          "headline": "Arista Networks surges after Q2 results and outlook trounce estimates",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRGhWWGpTSnZTQzVxcVh4bEIwc3ZhOWhfMHlLU1BPTVJCMmlKOTJieDE3UE5wQ1JIemFBZ3FwSHRWVGlaemMtTXVneXRGU040MzM3UlpYODV4MFJYaGx5YllYU0UzZ29Wd1dta2VYQnNQMHdSVnRoM2tjeGlpdmtkQ2tuMEhUSlJ4UXMxckJOMmhteFdVTVVxVE1nbXo4QUMyd2w2WW9WbkZfbGM?oc=5",
-          "source": "Seeking Alpha",
-          "summary": "",
-          "published": "2026-08-04T20:29:07"
-        },
-        {
-          "headline": "Arista Networks’ stock jumps on stellar earnings and revenue beat and strong forecast",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOR0hqNi10ZFdPRm9YSV9waFhEZ2FGLTRrdzU2U0s5RGhaTmZUZERDMDF2X2JqR3BIcktHTVJNS0hPSlVOV3BQeW8tQ0xwS05jYXJlbkhmSGJId1BFaDJhRkFyN2NyX0FVd0ttRktwTG1pRjlNSlZObThEd1ZWNVhRbWRUMjg1dHV0NnVOc2pKeVJ6RGVtc0xNZDRSZDQwYy1SSlFQMXdneWQyaTdRWW0w?oc=5",
-          "source": "SiliconANGLE",
-          "summary": "",
-          "published": "2026-08-05T00:50:54"
-        },
-        {
-          "headline": "Why Arista Networks Stock is Hitting New All-Time Highs After Hours",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWXlBLUhDdUtoT3hrRnlQZTFzanJ1cE52V1RJcEZsUy1YLWpPbDMzVUtTUHB1Q2xFbUZMSktwY2taaW94Tk9QekpWMll0cHBSUzBuVTM5YTRnaUoxQ0RGcEJQcmwwTThuUGVhMXJLSzBNRUtuT3ZDUVBMNjNUSVFwbEREUjdremJoS2ZGR3pOeXh6RTJkMnFESTM2Z1dQTG5icTd5TkdvYW05b2l4dnQ4ZFNic1E3Z3BaWGY2cmg1MUNRQQ?oc=5",
-          "source": "Benzinga",
-          "summary": "",
-          "published": "2026-08-04T20:46:39"
-        },
-        {
-          "headline": "Arista Networks, Inc. Q2 Profit Rises",
-          "link": "https://www.nasdaq.com/articles/arista-networks-inc-q2-profit-rises",
-          "source": "RTTNews",
-          "summary": "(RTTNews) - Arista Networks, Inc. (ANET) released earnings for its second quarter that Increases, from the same period last year",
-          "published": "2026-08-04T20:25:43"
-        },
-        {
-          "headline": "Arista Networks Q2 26 Earnings Conference Call At 4:30 PM ET",
-          "link": "https://www.nasdaq.com/articles/arista-networks-q2-26-earnings-conference-call-4-30-pm-et",
-          "source": "RTTNews",
-          "summary": "(RTTNews) - Arista Networks, Inc. (ANET) will host a conference call at 4:30 PM ET on August 4, 2026, to discuss Q2 26 earnings results.",
-          "published": "2026-08-04T19:04:18"
-        },
-        {
-          "headline": "After-Hours Earnings Report for August 4, 2026 :  AMD, ANET, AMGN, GILD, BKNG, EMR, SU, EOG, ALAB, DVN, PRU, CPNG",
-          "link": "https://www.nasdaq.com/articles/after-hours-earnings-report-august-4-2026-amd-anet-amgn-gild-bkng-emr-su-eog-alab-dvn-pru",
-          "source": "NASDAQ.com",
-          "summary": "The following companies are expected to report earnings after hours on 08/04/2026. Visit our Earnings Calendar for a full list of expected earnings releases.Advanced Micro Devices, Inc. (AMD)is reporting for the quarter ending June 30, 2026. The computer company's consensus earn",
-          "published": "2026-08-04T18:00:01"
-        },
-        {
-          "headline": "Notable Tuesday Option Activity: ANET, CVX, APTV",
-          "link": "https://www.nasdaq.com/articles/notable-tuesday-option-activity-anet-cvx-aptv",
-          "source": "BNK Invest",
-          "summary": "Among the underlying components of the S&P 500 index, we saw noteworthy options trading volume today in Arista Networks Inc (Symbol: ANET), where a total of 31,847 contracts have traded so far, representing approximately 3.2 million underlying shares. That amounts to about",
-          "published": "2026-08-04T17:23:38"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1334,9 +1199,7 @@
       3,
       4
     ],
-    "mover": [
-      4
-    ],
+    "mover": [],
     "price_event": [],
     "quiet": [
       0,
@@ -1350,8 +1213,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 297.9,
-    "SIE.DE": 286.35,
+    "SU.PA": 298.85,
+    "SIE.DE": 286.8,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1377,11 +1240,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 169.6,
-    "BESI.AS": 216.3,
-    "AIXA.DE": 38.53,
-    "IFX.DE": 60.19,
-    "ASML.AS": 1465.4,
+    "SAP.DE": 169.46,
+    "BESI.AS": 217.6,
+    "AIXA.DE": 38.86,
+    "IFX.DE": 60.75,
+    "ASML.AS": 1472.8,
     "MU": 897.36,
     "TSM": 419.18,
     "KLAC": 196.23,
@@ -1416,10 +1279,11 @@
     "FORM": "2026-08-04",
     "AMD": "2026-08-04",
     "AVGO": "2026-08-04",
-    "KLAC": "2026-08-04"
+    "KLAC": "2026-08-04",
+    "IFX.DE": "2026-08-05"
   },
-  "next_pulse_interval": 32,
-  "last_pulse_post_min": 29765341,
+  "next_pulse_interval": 44,
+  "last_pulse_post_min": 29765403,
   "eu_slots": [
     {
       "slot": 0,
@@ -1451,5 +1315,6 @@
       "fire_time": "22:25"
     }
   ],
-  "us_posted": []
+  "us_posted": [],
+  "eu_flexible_used": 1
 }
