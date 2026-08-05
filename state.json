@@ -2,8 +2,8 @@
   "date": "2026-08-05",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 4,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 5,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -63,7 +63,7 @@
     "KLAC": 1142,
     "TSM": 1322
   },
-  "event_log_next_id": 200,
+  "event_log_next_id": 201,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -306,26 +306,26 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
+      "Macnica Invests in Malaysia's Leading Digital Transformation Company, Orangeleaf Consulting, to Expand Digital Transformation Services for Japan's Manufacturing Industry",
+      "Resilience and Digital Transformation Spearhead the Energy Infrastructure Transition",
+      "CXO Summit Opens Sponsorship Opportunities for Enterprise Leaders",
+      "PTC's AI-Led Lifecycle Strategy Reshapes Its Long-Term Growth Outlook",
+      "PTC Rides AI, Cloud and Product Data Trends Across Industrial Markets",
+      "Compass Datacenters and Meridian Community College Launch Mississippi's First Data Center Workforce Training Program",
       "Energy and Utilities Analytics Market Surges to $10.10 billion at a CAGR 10.6% by 2031 | Report by MarketsandMarkets™",
       "Siemens and Tulip Emerge as Leaders as AI in MES Prioritizes Trust, Governance, and Human Oversight",
-      "Fermi Announces First Siemens Turbines Arrive at Port of Houston",
-      "CXO Summit Opens Sponsorship Opportunities for Enterprise Leaders",
-      "Electronic Toll Collection Market to Reach USD 16.65 Billion by 2032, Driven by Intelligent Transportation Investment | Kapsch Trafficcom, Conduent, Transcore, Thales, and Siemens Dominate",
-      "Worldwide Digital Railway Market to Reach $136.49 Billion by 2031 as IoT, AI and Cloud Adoption Accelerate",
-      "Compass Datacenters and Meridian Community College Launch Mississippi's First Data Center Workforce Training Program",
       "Wolfspeed Strengthens Board with Appointment of Semiconductor and Technology Executive Andy W. Mattes",
-      "Nvidia in Talks to Finance OpenAI, Report Says. What It Means for the Stock.",
-      "NVIDIA Expands NVIDIA Agent Toolkit With NVIDIA PhysicsNeMo and CUDA-X Libraries to Transform How the World Engineers, Designs and Builds",
+      "Nvidia (NVDA) Pours $5 Billion Into Safe AI And Expands Data Center Reach",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Harry Siemens Honored for Farm Reporting",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
+      "Siemens Mobility North America appoints president"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -710,12 +710,12 @@
       "Can AI Storage Demand Make SIMO a Long-Term Enterprise Winner?",
       "Marvell Stock, Corning, and Lumentum Surge on Report of Import China Ban",
       "Marvell Advances AI Memory Infrastructure Portfolio to Accelerate Agentic AI Inference",
-      "Marvell Stock Surges 10%: Next-Gen AI Storage Unveiled Ahead of Q2 Earnings - Marvell Technology (NASDAQ",
       "Marvell surges after unveiling new products in AI memory infrastructure portfolio",
-      "Marvell's Next Move Is To $100 (NASDAQ:MRVL)",
+      "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
       "Marvell Technology, Inc. Announces Conference Call to Review Second Quarter of Fiscal Year 2027 Financial Results; Announces Investor Day on October 6, 2026",
+      "Marvell's Next Move Is To $100 (NASDAQ:MRVL)",
       "Huge, Unusual Trading in Marvell Technology Call Options - Investors Are Bullish on MRVL Stock",
-      "1 Reason Wall Street Is Obsessed With This Tech Stock",
+      "Markets News, June 2, 2026: AI Trade Keeps Rocking as Marvell, HPE Soar; Major U.S. Indexes Close at Fresh Record Highs",
       "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz",
       "Stock Indices Rally on Strong Tech Earnings and US-Iran Peace Hopes"
     ],
@@ -800,12 +800,12 @@
       "Is Western Digital Stock a Compelling Buy Ahead of Q4 Earnings Release?",
       "Western Digital Slides as Investors Appear to De-Risk Ahead of Earnings",
       "Are Wall Street Analysts Predicting Western Digital Stock Will Climb or Sink?",
-      "Top DRAM ETF stocks to watch this week: Western Digital, SanDisk, Micron",
       "Western Digital Shares Rise 4% After Key Trading Signal",
       "Western Digital Corporation (WDC) Is a Trending Stock: Facts to Know Before Betting on It",
       "Western Digital Corp Stock (WDC) Moved Up by 3.74% on Jul 31",
       "Arrow Electronics to Post Q2 Results: What's in Store for the Stock?",
-      "U to Report Q2 Earnings: What's in the Cards for the Stock?"
+      "U to Report Q2 Earnings: What's in the Cards for the Stock?",
+      "Stocks Supported by Easing Middle East Tensions"
     ],
     "AVGO": [
       "I’m Buying Broadcom Because It Sucks Up The Hyperscaler AI Capex That Doesn’t Go To Nvidia",
@@ -818,7 +818,7 @@
       "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
       "Why Broadcom Stock Rallied Today",
       "Intel Soars 10%, AMD Jumps 8%, Broadcom Rises 6% as Chip Stocks Ride a Risk-On Rally",
-      "Broadcom (AVGO) And Google’s $200 Billion AI Build Put Its Chip Role In Focus",
+      "Broadcom Inc. to Announce Third Quarter Fiscal Year 2026 Financial Results on Wednesday, September 2, 2026",
       "What Could Push Broadcom Stock Higher Is Already Sitting In Its Order Book",
       "What Is Going on With Broadcom Stock on Tuesday?",
       "Broadcom Stock (AVGO) Falls as Goldman Sachs Removes It From the ‘Conviction List’",
@@ -840,10 +840,10 @@
       "KLA (KLAC) Upgraded to Strong Buy: What Does It Mean for the Stock?",
       "Best Momentum Stock to Buy for July 31st",
       "KLA Rides on Strong Advanced Packaging Growth: More Upside Ahead?",
-      "KLA Corp | 4: Statement of changes in beneficial ownership of securities-Officer WALLACE RICHARD P",
-      "5 Must-Read Analyst Questions From KLA Corporation’s Q2 Earnings Call",
       "KLA Corp. stock outperforms competitors on strong trading day",
+      "5 Must-Read Analyst Questions From KLA Corporation’s Q2 Earnings Call",
       "KLA Corp (NASDAQ: KLAC) CEO uses RSU shares to cover taxes",
+      "KLA Corp | 4: Statement of changes in beneficial ownership of securities-Officer WALLACE RICHARD P",
       "KLA (NASDAQ:KLAC) CAO Sells 1,565 Shares of Stock",
       "A Look at KLA Corp (KLAC) After 7.0% Gain -- GF Value $106.85 vs Price $195.45",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
@@ -939,22 +939,22 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
+      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Ac",
       "Who is the CEO of AIXTRON SE in 2026? Felix Grawert's Bio",
       "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
-      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
-      "Aixtron (AIXA) Stock Price, News & Analysis"
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe"
     ],
     "AMD": [
       "Cathie Wood Invests $32.2 Million in Surging Tech Stocks",
@@ -1041,16 +1041,16 @@
       "Ahead of SpaceX IPO, Elon Musk addresses ASML employees as part of push into chip manufacturing"
     ],
     "STX": [
-      "Seagate Technology Is Soaring After Its Strong Earnings Report. Should You Buy Western Digital Before Its Earnings Report?",
-      "Seagate Rallies on Strong Q4 Results and Guidance. What Does This Mean for STX Stock Here.",
-      "Is Seagate (STX) a Solid Growth Stock? 3 Reasons to Think \"Yes\"",
-      "Sandisk Jumps 8%, Micron Gains 6%, SK Hynix Climbs 4% as Wall Street Hikes Price Targets on AI Memory Boom",
-      "The Zacks Analyst Blog Highlights Micron, Seagate, Western Digital, Sandisk and Vertiv",
-      "AI infrastructure fuels rising cloud storage demand across data centres",
       "Can Strong Data Center & Edge Boost SNDK's Top Line in Q4 Earnings?",
+      "Sandisk Jumps 8%, Micron Gains 6%, SK Hynix Climbs 4% as Wall Street Hikes Price Targets on AI Memory Boom",
       "5 Momentum Stocks to Buy for August Despite a Mixed July",
       "The Price of Reinvention for SanDisk Stock",
       "Seagate (STX) Heads To FMS 2026 With Its Tech Leaders In Focus",
+      "BNP Paribas Resets Seagate Target After Stunning AI Signal",
+      "Buy Sandisk Stock Before Q4 Earnings",
+      "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool",
+      "Is Western Digital Stock a Compelling Buy Ahead of Q4 Earnings Release?",
+      "Analysts Say Data Storage Stocks Like WDC Are Set to Make a Turnaround",
       "Seagate Technology Holdings PLC stock rises Tuesday, still underperforms market",
       "Seagate Technology Holdings (STX) EVP & CTO sells 168 shares at $817.76",
       "Seagate Technology Holdings PLC Stock (STX) Moved Up by 5.12% on Aug 4: A Full Analysis",
@@ -1366,8 +1366,7 @@
     ],
     "mover": [
       4,
-      6,
-      1
+      6
     ],
     "price_event": [],
     "quiet": [
@@ -1382,8 +1381,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 299.25,
-    "SIE.DE": 287.45,
+    "SU.PA": 297.6,
+    "SIE.DE": 289.15,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1409,11 +1408,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 167.38,
-    "BESI.AS": 217.7,
-    "AIXA.DE": 38.44,
-    "IFX.DE": 63.72,
-    "ASML.AS": 1472.6,
+    "SAP.DE": 169.46,
+    "BESI.AS": 217.2,
+    "AIXA.DE": 38.53,
+    "IFX.DE": 61.2,
+    "ASML.AS": 1477.6,
     "MU": 897.36,
     "TSM": 419.18,
     "KLAC": 196.23,
@@ -1450,8 +1449,8 @@
     "AVGO": "2026-08-04",
     "KLAC": "2026-08-04"
   },
-  "next_pulse_interval": 34,
-  "last_pulse_post_min": 29765221,
+  "next_pulse_interval": 31,
+  "last_pulse_post_min": 29765281,
   "eu_slots": [
     {
       "slot": 0,
@@ -1466,7 +1465,9 @@
       "fire_time": "18:02"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
