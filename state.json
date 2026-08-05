@@ -2,8 +2,8 @@
   "date": "2026-08-05",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 2,
-  "gemini_calls_today": 5,
+  "daily_pulse_posts": 3,
+  "gemini_calls_today": 7,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -63,7 +63,7 @@
     "KLAC": 1142,
     "TSM": 1322
   },
-  "event_log_next_id": 201,
+  "event_log_next_id": 203,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -710,10 +710,10 @@
       "Can AI Storage Demand Make SIMO a Long-Term Enterprise Winner?",
       "Marvell Stock, Corning, and Lumentum Surge on Report of Import China Ban",
       "Marvell Advances AI Memory Infrastructure Portfolio to Accelerate Agentic AI Inference",
+      "Marvell Stock Surges 10%: Next-Gen AI Storage Unveiled Ahead of Q2 Earnings - Marvell Technology (NASDAQ",
       "Marvell surges after unveiling new products in AI memory infrastructure portfolio",
-      "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
-      "Marvell Technology, Inc. Announces Conference Call to Review Second Quarter of Fiscal Year 2027 Financial Results; Announces Investor Day on October 6, 2026",
       "Marvell's Next Move Is To $100 (NASDAQ:MRVL)",
+      "Marvell Technology, Inc. Announces Conference Call to Review Second Quarter of Fiscal Year 2027 Financial Results; Announces Investor Day on October 6, 2026",
       "Huge, Unusual Trading in Marvell Technology Call Options - Investors Are Bullish on MRVL Stock",
       "Markets News, June 2, 2026: AI Trade Keeps Rocking as Marvell, HPE Soar; Major U.S. Indexes Close at Fresh Record Highs",
       "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz",
@@ -731,12 +731,12 @@
       "FormFactor Q2 Earnings Call Highlights AI Demand Drives Growth",
       "Why FormFactor Stock Is Skyrocketing Today",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
+      "FormFactor Inc 2026: Revenue $258.24M, EPS $0.71— 10-Q Summary",
       "FormFactor Jumps 9.1% Amid Sector-Wide Rally",
       "Bank of America Corp DE Has $240.64 Million Position in FormFactor, Inc. $FORM",
       "FormFactor Q2 Review: If You Haven’t Sold On The Way Down, Don’t Sell On The Way Up (FORM)",
       "FormFactor (NASDAQ:FORM) Delivers Impressive Q2, Stock Jumps 16.6%",
       "3 Stocks That May Be Priced Below Their Estimated Value In August 2026",
-      "Lazard Asset Management LLC Makes New $2.15 Million Investment in FormFactor, Inc. $FORM",
       "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?",
       "Thursday's ETF Movers: PTF, AKRE",
       "Thursday Sector Leaders: Semiconductors, Computer Peripherals"
@@ -796,16 +796,16 @@
       "ROKU to Report Q2 Earnings: What's in the Cards for the Stock?",
       "FOXA Gears Up to Report Q4 Earnings: What's in Store for the Stock?",
       "Just How Wide Is the Potential Swing in Micron Stock?",
+      "Western Digital: Sold Out, De-Levered, And Walking Into FQ4 With Momentum (NASDAQ:WDC)",
       "Western Digital Corp Stock (WDC) Moved Up by 4.77% on Aug 4",
       "Is Western Digital Stock a Compelling Buy Ahead of Q4 Earnings Release?",
       "Western Digital Slides as Investors Appear to De-Risk Ahead of Earnings",
       "Are Wall Street Analysts Predicting Western Digital Stock Will Climb or Sink?",
+      "Top DRAM ETF stocks to watch this week: Western Digital, SanDisk, Micron",
       "Western Digital Shares Rise 4% After Key Trading Signal",
       "Western Digital Corporation (WDC) Is a Trending Stock: Facts to Know Before Betting on It",
-      "Western Digital Corp Stock (WDC) Moved Up by 3.74% on Jul 31",
       "Arrow Electronics to Post Q2 Results: What's in Store for the Stock?",
-      "U to Report Q2 Earnings: What's in the Cards for the Stock?",
-      "Stocks Supported by Easing Middle East Tensions"
+      "U to Report Q2 Earnings: What's in the Cards for the Stock?"
     ],
     "AVGO": [
       "I’m Buying Broadcom Because It Sucks Up The Hyperscaler AI Capex That Doesn’t Go To Nvidia",
@@ -844,8 +844,8 @@
       "5 Must-Read Analyst Questions From KLA Corporation’s Q2 Earnings Call",
       "KLA Corp (NASDAQ: KLAC) CEO uses RSU shares to cover taxes",
       "KLA Corp | 4: Statement of changes in beneficial ownership of securities-Officer WALLACE RICHARD P",
-      "KLA (NASDAQ:KLAC) CAO Sells 1,565 Shares of Stock",
       "A Look at KLA Corp (KLAC) After 7.0% Gain -- GF Value $106.85 vs Price $195.45",
+      "KLA (NASDAQ:KLAC) CAO Sells 1,565 Shares of Stock",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
       "KLA Corporation Revenue Breakdown – NASDAQ:KLAC",
       "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz",
@@ -979,6 +979,8 @@
       "S&P 500 Posts a New Record High on Strong Tech Earnings"
     ],
     "IFX.DE": [
+      "Infineon hits revenue record: AI data centres drive growth",
+      "FTSE 100 Live: Next and Glencore provide results boost, SpaceX tumbles",
       "AI and Chips Are Turning Malaysia Into Asia’s Growth Standout",
       "Chip Stocks Climb as AI Rally Regains Strength",
       "Chip Stocks Rise After Pause in Middle East Fighting",
@@ -987,8 +989,6 @@
       "Chips stocks fall. UnitedHealth rises. Netflix earnings are up next",
       "European Chip Stocks Skid After SK Hynix Nasdaq Debut",
       "SK Hynix's record plunge drags down global chip stocks",
-      "Allegro MicroSystems Stock Story Hinges on EVs, AI and Margins",
-      "Allegro MicroSystems Trends Point to Higher Chip Content Ahead",
       "INFINEON TECHNOLOGIES AG : Receives a Buy rating from JP Morgan",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon-led European project Moore4Power launches",
@@ -1035,10 +1035,10 @@
       "AI Isn’t a Catch-All Trade for Stocks in This Earnings Season",
       "ASML’s hold over the future of chipmaking is weakening",
       "ASML Supplier Zeiss Says It Can Handle Demand for Key AI Parts",
-      "Inversion Semiconductor targets ASML with particle-accelerator X-ray lithography",
       "ASML: The Peak Is In (NASDAQ:ASML)",
       "xLight bets on EUV light source, eyes ASML deal",
-      "Ahead of SpaceX IPO, Elon Musk addresses ASML employees as part of push into chip manufacturing"
+      "Ahead of SpaceX IPO, Elon Musk addresses ASML employees as part of push into chip manufacturing",
+      "Europe's biggest tech giant slides 5% on reports of a Chinese rival encroaching on its turf"
     ],
     "STX": [
       "Can Strong Data Center & Edge Boost SNDK's Top Line in Q4 Earnings?",
@@ -1054,13 +1054,13 @@
       "Seagate Technology Holdings PLC stock rises Tuesday, still underperforms market",
       "Seagate Technology Holdings (STX) EVP & CTO sells 168 shares at $817.76",
       "Seagate Technology Holdings PLC Stock (STX) Moved Up by 5.12% on Aug 4: A Full Analysis",
-      "The Bull Case For Seagate Technology Holdings (STX) Could Change Following Strong Q4 Results And Upbeat Guidance",
       "Seagate Technology Holdings plc FY 2026: Revenue $12.2B, EPS $13.9— 10-K Summary",
+      "The Bull Case For Seagate Technology Holdings (STX) Could Change Following Strong Q4 Results And Upbeat Guidance",
       "Seagate Technology Holdings (STX) Lifted Fiscal 2027 Guidance, Is More Upside Already Priced In?",
       "Results: Seagate Technology Holdings Plc Exceeded Expectations And The Consensus Has Updated Its Estimates",
+      "Seagate Technology Holdings (STX) Falls On Tariffs As Fair Value Stays In Focus",
       "Seagate Technology creates clear visibility for quarters ahead; BNP Paribas ups target",
-      "Seagate Technology Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results",
-      "Seagate Technology Holdings (STX) Falls On Tariffs As Fair Value Stays In Focus"
+      "Seagate Technology Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results"
     ],
     "MU": [
       "Micron Stock Falls -- Apple Tests Chinese Memory Chips From Rising Rival",
@@ -1086,36 +1086,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "BESI.AS",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "Berenberg Upgrades BE Semiconductor Industries to Buy",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU1owYV9wcHB5YmwwMW9GdXJ1aVRNeklYNVZzRTRTRDk2ZjBMZ1JSNlFrZ3BSTGJFTmd1Q2VVNG1rT3gzSlZxOC1pRHhQeVcxY0pwTGptNk1DeDI3dWpURktXYXhmNnExWmtCa1NONlZyaHBaTHp3ZnRTWEdJRW1yZG5HUEItLWhNcDE3ZGtaY0x4Q1BNbHZQQUYtVFg3ZHZjZnhrZEswc0RIQQ?oc=5",
-      "source": "marketscreener.com",
-      "method": "keyword",
-      "published": "2026-08-04T12:30:42",
-      "queued_min": 29764981,
-      "all_articles": [
-        {
-          "headline": "Q4 2025 BE Semiconductor Industries NV Earnings Call Transcript",
-          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9hNVBGbzQyLVdrRlFVdHJIR0ZwWWg3Y2VVVWdVNlNoUk9BUzdTb2RHZENyOEN4R0NIQVpoU09EVHptV1o0TDFzV0ZDT3Q1UDQxS2x1Vy12T3Y3bmRWWS1FMDZfbmRpVVpPNFJZYg?oc=5",
-          "source": "GuruFocus",
-          "summary": "",
-          "published": "2026-08-04T19:21:37"
-        },
-        {
-          "headline": "Berenberg Upgrades BE Semiconductor Industries to Buy",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU1owYV9wcHB5YmwwMW9GdXJ1aVRNeklYNVZzRTRTRDk2ZjBMZ1JSNlFrZ3BSTGJFTmd1Q2VVNG1rT3gzSlZxOC1pRHhQeVcxY0pwTGptNk1DeDI3dWpURktXYXhmNnExWmtCa1NONlZyaHBaTHp3ZnRTWEdJRW1yZG5HUEItLWhNcDE3ZGtaY0x4Q1BNbHZQQUYtVFg3ZHZjZnhrZEswc0RIQQ?oc=5",
-          "source": "marketscreener.com",
-          "summary": "",
-          "published": "2026-08-04T12:30:42"
-        }
-      ]
-    },
     {
       "symbol": "ANET",
       "classification": {
@@ -1365,8 +1335,7 @@
       4
     ],
     "mover": [
-      4,
-      6
+      4
     ],
     "price_event": [],
     "quiet": [
@@ -1381,8 +1350,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 297.6,
-    "SIE.DE": 289.15,
+    "SU.PA": 297.9,
+    "SIE.DE": 286.35,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1408,11 +1377,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 169.46,
-    "BESI.AS": 217.2,
+    "SAP.DE": 169.6,
+    "BESI.AS": 216.3,
     "AIXA.DE": 38.53,
-    "IFX.DE": 61.2,
-    "ASML.AS": 1477.6,
+    "IFX.DE": 60.19,
+    "ASML.AS": 1465.4,
     "MU": 897.36,
     "TSM": 419.18,
     "KLAC": 196.23,
@@ -1449,8 +1418,8 @@
     "AVGO": "2026-08-04",
     "KLAC": "2026-08-04"
   },
-  "next_pulse_interval": 31,
-  "last_pulse_post_min": 29765281,
+  "next_pulse_interval": 32,
+  "last_pulse_post_min": 29765341,
   "eu_slots": [
     {
       "slot": 0,
