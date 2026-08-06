@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-06",
-  "daily_posts": 2,
-  "daily_keyword_posts": 2,
-  "daily_pulse_posts": 9,
-  "gemini_calls_today": 19,
-  "evergreen_opinion_posts_today": 1,
+  "date": "2026-08-07",
+  "daily_posts": 0,
+  "daily_keyword_posts": 0,
+  "daily_pulse_posts": 0,
+  "gemini_calls_today": 0,
+  "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-03",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 302
   },
-  "event_log_next_id": 237,
+  "event_log_next_id": 240,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -1094,157 +1094,7 @@
       "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "ANET",
-      "classification": {
-        "symbol": "ANET",
-        "is_major": true,
-        "category": "earnings",
-        "headline": "Why Is Arista Networks (ANET) Asking Bigger Questions After Its First $3 Billion Quarter?",
-        "reason": "The headline indicates the company reported record quarterly revenue and raised its guidance, which is a major earnings catalyst."
-      },
-      "link": null,
-      "source": null,
-      "method": "gemini",
-      "published": "2026-08-06T08:11:08",
-      "queued_min": 29766902,
-      "all_articles": [
-        {
-          "headline": "Why Is Arista Networks (ANET) Asking Bigger Questions After Its First $3 Billion Quarter?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-arista-networks-anet-asking-081108416.html?.tsrc=rss",
-          "source": null,
-          "summary": "Arista Networks (NYSE: ANET) reported record Q2 revenue, reaching its first ever US$3b quarter, supported by rising AI infrastructure demand. The company raised its guidance alongside the results, pointing to continued traction across its networking portfolio. Arista launched new 1.6 Tbps AI fabric platforms aimed at high performance data center workloads. The company was recognized as a Leader in Gartner’s 2026 Magic Quadrant for Enterprise Wired and Wireless LAN, marking progress beyond...",
-          "published": "2026-08-06T08:11:08"
-        },
-        {
-          "headline": "Arista Networks Stock Climbs 25% On A 5-Day Winning Streak",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQZU10WnB6Y3Z0aTlJR2doUmZEcHJMNGlNdTJtb0xMX3BzWFVmTlpSdDNvTnN2NzcwQ3haNnVNSXlzMjl2a2FrV25WWEEzWUxfTkltdTJCcnYzYWVGRl9ZUWNJOGdrajIzVzR6YzdRWWdReGYyY1BGZGF0LWJVVTNkTXRiWkk1V3Fqa0EwUm81bjVRUEVUWE1qMWxRT0EwMU5IY1c1M3FwVWFDX05oZ3FIdnE0czVnLWs0VkE?oc=5",
-          "source": "Trefis",
-          "summary": "",
-          "published": "2026-08-06T08:41:47"
-        },
-        {
-          "headline": "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
-          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnd0lra00wYUNPUjJiSnNuMThXcnpUTnFybDZqRHh2a2FySHU2S0tKdm81MXlRbEJaWEZPVFF0eXJ5N3Qzak5ZNF9mQ0tHd05ObEstRE85Nm4xQW13LUp1OS1zNmdCek85R0l6YXB3?oc=5",
-          "source": "Fortune",
-          "summary": "",
-          "published": "2026-08-05T19:01:38"
-        },
-        {
-          "headline": "Mirador Capital Partners LP Invests $3.60 Million in Arista Networks, Inc. $ANET",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxONUlFaXplMHMzemdRNDBieHpjcFpoYUp6WWZjNDc5V1pNNW0yUldmMU0tekN2UFB5b05rMy1kb1hkUWNMUmdyUEtxQUwyMUw0LTIwMWZDWnRjLVNWX0hmaHZNbnprbzBUc3ltZVVKWEtDSUp0YWdsRC1aY2JiUFB6Z2dvaVZVWUtPZVgzRGFuanlkYWt4REp3ajRPNVdxWmt0V0ZybHJCSFN5U0xEOXNjWWxzZ3llUTlqZVIxNUV0Ulp5SEN2a0ZnNUdEY09MQlVJTlE?oc=5",
-          "source": "marketbeat.com",
-          "summary": "",
-          "published": "2026-08-06T10:11:45"
-        },
-        {
-          "headline": "Nvidia, Micron, and Sandisk Are Up Over 1,000% Since the AI Boom Started. These 2 AI Stocks Could Be the Next Big Winners.",
-          "link": "https://www.nasdaq.com/articles/nvidia-micron-and-sandisk-are-over-1000-ai-boom-started-these-2-ai-stocks-could-be-next",
-          "source": "The Motley Fool",
-          "summary": "Key PointsAstera and Arista, companies focused on connectivity and networking solutions, should benefit as AI workloads proliferate and models become more complex.",
-          "published": "2026-08-06T09:08:00"
-        }
-      ]
-    },
-    {
-      "symbol": "AMD",
-      "classification": {
-        "symbol": "AMD",
-        "is_major": true,
-        "category": "contract",
-        "headline": "AMD Shares Fall 8% as Elon Musk Commits to Nvidia Chips for SpaceX",
-        "reason": "Elon Musk's commitment of SpaceX to Nvidia chips for AI represents a significant competitive loss or missed major customer opportunity for AMD, qualifying under 'New major customer win or loss'."
-      },
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFaGtxOHFMdFctcDd6TTgzZndpV0U1QUFGRV9nbFdxcVZDemlTTW80ZmZTOWxXT0N1ZUJYM3ByQ3Z1ZGF3d1E5S2FjRlp3dzBicVRtaGNBMUV5V1BEWUFfZ2lwaE9kck1xYlNYTENuTnFlMEFkcHlwRGpxYlY1UQ?oc=5",
-      "source": "WSJ",
-      "method": "gemini",
-      "published": "2026-08-06T13:13:31",
-      "queued_min": 29767082,
-      "all_articles": [
-        {
-          "headline": "Nvidia at $212: The No-Brainer Reason to Take Advantage of Nvidia Right Now",
-          "link": "https://247wallst.com/investing/2026/08/06/nvidia-at-212-the-no-brainer-reason-to-take-advantage-of-nvidia-right-now/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "Nvidia's earnings are compounding at triple-digit rates while its forward multiple sits in the low 20s, a mismatch that rarely lasts long. Here is what the numbers reveal about whether the current price represents a window or a warning.",
-          "published": "2026-08-06T13:27:57"
-        },
-        {
-          "headline": "Supermicro's Seventh Annual Open Storage Summit Brings Together 21 Ecosystem Partners to Share Practical Guidance on Deploying Enterprise AI at Scale",
-          "link": "https://finance.yahoo.com/technology/ai/articles/supermicros-seventh-annual-open-storage-130500097.html?.tsrc=rss",
-          "source": null,
-          "summary": "Super Micro Computer, Inc. (NASDAQ: SMCI), a Total IT Solution Provider for AI, Enterprise, Storage, and 5G/Edge featuring Data Center Building Block Solutions® (DCBBS), today announced the seventh annual Supermicro Open Storage Summit, a virtual event presented with theCUBE that will run from August 11 through September 3. The 12-session technical series brings together leading experts across the AI storage ecosystem to examine the data infrastructure required to deploy enterprise AI at scale.",
-          "published": "2026-08-06T13:05:00"
-        },
-        {
-          "headline": "MU, WDC, SKHY, AMD — VanEck’s Nicholas Frasse Downplays Volatility In Semiconductor Stocks, Says Chip Trade Is Still Very Strong",
-          "link": "https://stocktwits.com/news-articles/markets/equity/mu-wdc-skhy-amd-chip-memory-stocks-fall-vaneck-frasse-chip-trade-still-strong/cZoJUWaRJ7Y?.tsrc=rss",
-          "source": "stocktwits.com",
-          "summary": "During an interview with CNBC, Frasse said that the current downturn and volatility in chip and memory stocks is just a reversion to the mean more than anything else.",
-          "published": "2026-08-06T12:59:34"
-        },
-        {
-          "headline": "'This was not an exceptional result': Why AMD stock tanked 5% after earnings",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRnpDbmF1ZzlBRXRNaV94ODZreVE3VE0zRUkzWk1PMV9xblR6NmJ5aGwwYlFoTGU5NVRZY0cyclRWMDFRc1IzNnM1UHdqeW1FQjBqVHVmeXRObE9FTE56UjJUVGtSaFdCZ3VvRlQyalQxeEdoTTNOckhTYnJOYlBBNWVyUzFvbUtNazctYmdid3ZBUGpWNEJycVNkR29UajVMRkM4YjZiaEhFb2JRaDlWa05SN0xBYnR4aDF5UW5mLTZJZmYxYXgyUA?oc=5",
-          "source": "finance.yahoo.com",
-          "summary": "",
-          "published": "2026-08-05T17:25:11"
-        },
-        {
-          "headline": "AMD Shares Fall 8% as Elon Musk Commits to Nvidia Chips for SpaceX",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFaGtxOHFMdFctcDd6TTgzZndpV0U1QUFGRV9nbFdxcVZDemlTTW80ZmZTOWxXT0N1ZUJYM3ByQ3Z1ZGF3d1E5S2FjRlp3dzBicVRtaGNBMUV5V1BEWUFfZ2lwaE9kck1xYlNYTENuTnFlMEFkcHlwRGpxYlY1UQ?oc=5",
-          "source": "WSJ",
-          "summary": "",
-          "published": "2026-08-06T13:13:31"
-        },
-        {
-          "headline": "Sanders Morris Harris LLC Has $2.42 Million Stake in Advanced Micro Devices, Inc. $AMD",
-          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQcDI4TWVEdHMyQk9JZTNYOENaa0Q3MEQxR0NzcUVtVjJINWpjOWk5Uk9iLWFjSlBNZklSSWh4dDdTeEtacjZVbVlTZEZLUk5ZX1dmZXl3dkdhQjlVMnUzdldvY2dmOWlKQVBwandMdC01QUM4SmQyMUdNNVFuREowbXFTVHJNLU9JQzllVjJDZV9hc1M2aXF2TDVEWW9jWV9ZUnE4eWRzMGp4RjJMd3pmVUJnUS1wbmh2RnZYYnlWVndYbXBLTTlHaEgyQ0x1eXB5T2lsN1pPMDUwZw?oc=5",
-          "source": "marketbeat.com",
-          "summary": "",
-          "published": "2026-08-06T10:22:30"
-        },
-        {
-          "headline": "Continuing to buy $Advanced Micro Devices (AMD.US)$ despite the share price pulling back after a strong earnings report. The long-term AI infrastructure story is still in its early innings, with hyperscalers continuing to invest heavily in GPUs and AI data center",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTVlQRGx4SkFIQ2lYV3NFaGZNTVBrN3pReF9LR0pwUDREeWdBbENYYmdycHVQMHN0OFNCRFg0c0NXVFhLRG5IRWdNaTBVSmlMR1dNSEFlSzAtcm9fTU5mWVBzVk0wUjc0MTJxRXlFUWNLbHRObS1LMFN0WTVZYnhxQ1FvVXhxVEQ0THdHcDVhdlJYaHlkSmRwQlNVZnMwYkdlT1RZYkR4YlFGcmxucTIzcThxTQ?oc=5",
-          "source": "Moomoo",
-          "summary": "",
-          "published": "2026-08-05T15:33:53"
-        },
-        {
-          "headline": "Stock Indices Fall from Early Highs and Settle Mixed",
-          "link": "https://www.nasdaq.com/articles/stock-indices-fall-early-highs-and-settle-mixed",
-          "source": "Barchart",
-          "summary": "The S&P 500 Index ($SPX ) (SPY ) on Wednesday closed down -0.17%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.49%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.83%. September E-mini S&P futures (ESU26 ) fell -0.19%, and September E-mini Nasdaq futures...",
-          "published": "2026-08-06T13:55:48"
-        }
-      ]
-    },
-    {
-      "symbol": "SAP.DE",
-      "classification": {
-        "symbol": "SAP.DE",
-        "is_major": true,
-        "category": "contract",
-        "headline": "Khimji Ramdas Group Chooses Rimini Street to Reduce SAP Support Costs, Protect 700+ Customizations and Reinvest Savings in Innovation",
-        "reason": "Khimji Ramdas Group, described as a large conglomerate, chose a third-party (Rimini Street) for SAP support, indicating a loss of a major customer's support contract for SAP."
-      },
-      "link": null,
-      "source": null,
-      "method": "gemini",
-      "published": "2026-08-06T13:00:00",
-      "queued_min": 29767082,
-      "all_articles": [
-        {
-          "headline": "Khimji Ramdas Group Chooses Rimini Street to Reduce SAP Support Costs, Protect 700+ Customizations and Reinvest Savings in Innovation",
-          "link": "https://finance.yahoo.com/technology/ai/articles/khimji-ramdas-group-chooses-rimini-130000740.html?.tsrc=rss",
-          "source": null,
-          "summary": "LAS VEGAS, August 06, 2026--Rimini Street, Inc. (Nasdaq: RMNI), the Software Support and Agentic AI ERP Company™ and the leading third-party support provider for Oracle, SAP and VMware software, today announced that Khimji Ramdas Group, one of Oman’s largest privately held conglomerates, has selected Rimini Support™ for SAP, a move that has helped the organization reduce costs, reinvest savings in AI innovation and maintain its highly customized SAP ECC 6 environment with zero downtime.",
-          "published": "2026-08-06T13:00:00"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1470,28 +1320,23 @@
       "slot": 1,
       "type": "close_summary",
       "target_time": "18:00",
-      "fire_time": "17:55"
+      "fire_time": "17:57"
     }
   ],
-  "eu_posted": [
-    0
-  ],
+  "eu_posted": [],
   "us_slots": [
     {
       "slot": 0,
       "type": "hook",
       "target_time": "15:10",
-      "fire_time": "15:05"
+      "fire_time": "15:08"
     },
     {
       "slot": 1,
       "type": "wrap",
       "target_time": "22:30",
-      "fire_time": "22:34"
+      "fire_time": "22:29"
     }
   ],
-  "us_posted": [
-    0
-  ],
-  "eu_flexible_used": 2
+  "us_posted": []
 }
