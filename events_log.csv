@@ -610,3 +610,13 @@ https://ca.investing.com/news/stock-market-news/erste-group-downgrades-applied-m
 https://www.moomoo.com/news/post/74152788/kbc-securities-upgrades-be-semiconductor-industries-to-hold",334,,,,,
 231,2026-08-06,14:01:50,Thursday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,$SIE is the one to watch right now – -5.18% at €271.05.,55,,,,,
 232,2026-08-06,15:02:00,Thursday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,$SIE leading the tape right now: -4.64% to €272.6.,50,,,,,
+233,2026-08-06,16:02:16,Thursday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$ANET pulling away at -8.21%, now trading at $194.28.",53,,,,,
+234,2026-08-06,16:03:09,Thursday,news_event,,,gemini,SIE.DE,SIE,,,,,,,,,Siemens lifts full-year forecast after record orders in third quarter,dpa-international.com,https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260806-930-490704/?.tsrc=rss,2026-08-06T06:18:27,earnings,,,,,,,,N,queue_aged_out,,,,,,,
+235,2026-08-06,16:04:05,Thursday,news_event,,,gemini,IFX.DE,IFX,,,,,59.76,-0.94,,,INFINEON TECHNOLOGIES AG : Deutsche Bank remains its Buy rating,marketscreener.com,https://www.marketscreener.com/news/infineon-technologies-ag-deutsche-bank-remains-its-buy-rating-ce7f50ddd98cf620,,analyst_note,,,,,Y,17,llm,Y,,"Deutsche Bank maintains its Buy rating on Infineon Technologies AG $IFX. Even with $IFX down 0.94% today at €59.76, this reaffirmed conviction from a major analyst could signal underlying strength and potentially limit further downside.
+
+https://www.marketscreener.com/news/infineon-technologies-ag-deutsche-bank-remains-its-buy-rating-ce7f50ddd98cf620",352,,,,,
+236,2026-08-06,16:04:44,Thursday,evergreen_opinion,,,template,,,,,,,,,,,"Y Combinator-backed Impact Drones launches, offers missile-intercepting drone service for data centers and grid operators",DatacenterDynamics,https://www.datacenterdynamics.com/en/news/y-combinator-backed-impact-drones-launches-offers-missile-intercepting-drone-service-for-data-centers-and-grid-operators/,2026-08-06T13:55:17,,,,,,,,keyword,Y,,"Worth a read from DatacenterDynamics:
+
+""Y Combinator-backed Impact Drones launches, offers missile-intercepting…""
+
+https://www.datacenterdynamics.com/en/news/y-combinator-backed-impact-drones-launches-offers-missile-intercepting-drone-service-for-data-centers-and-grid-operators/",279,,,,,
