@@ -2,8 +2,8 @@
   "date": "2026-08-06",
   "daily_posts": 0,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 3,
-  "gemini_calls_today": 3,
+  "daily_pulse_posts": 4,
+  "gemini_calls_today": 5,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 302
   },
-  "event_log_next_id": 226,
+  "event_log_next_id": 228,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -722,7 +722,7 @@
       "Why Are Nvidia, Micron, AMD, Marvell, and Broadcom Stocks Rising Today? August 4",
       "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
       "Photonic Fabric™ Technology: How Optical Connectivity Enables the Next Generation of AI Infrastructure",
-      "Top Research Reports for Amazon, Marvell & Starbucks"
+      "Broadcom, Nvidia Face Risk From China AI Component Ban - Broadcom (NASDAQ:AVGO), Advanced Micro Devices"
     ],
     "FORM": [
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
@@ -738,11 +738,11 @@
       "A Look at FormFactor Inc (FORM) After 4.9% Decline -- GF Value $56.69 vs Price $114.44",
       "Northland Securities Estimates FormFactor Q3 Earnings",
       "FormFactor Inc 2026: Revenue $258.24M, EPS $0.71— 10-Q Summary",
-      "Formfactor (FMF) Q2 2025 Earnings Report - Results, Call & Slides",
       "FormFactor Jumps 9.1% Amid Sector-Wide Rally",
-      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
-      "FormFactor, Inc. $FORM Stock Position Increased by California State Teachers Retirement System",
       "Formfactor (FMF) Q1 2025 Earnings Report - Results, Call & Slides",
+      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
+      "Royal Bank of Canada Sells 157,742 Shares of FormFactor, Inc. $FORM",
+      "Formfactor (FMF) Q2 2025 Earnings Report - Results, Call & Slides",
       "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?",
       "Why FormFactor Stock Is Skyrocketing Today"
     ],
@@ -791,28 +791,29 @@
       "3 Stocks to Buy as AI Infrastructure Continues to Surge"
     ],
     "WDC": [
+      "AI momentum stocks tumble as earnings season shakes the tech sector",
+      "Stock market today: Nasdaq futures slip, Dow and S&P 500 futures inch up as earnings roll on",
+      "Nvidia, Micron, and Sandisk Are Up Over 1,000% Since the AI Boom Started. These 2 AI Stocks Could Be the Next Big Winners.",
+      "Western Digital Says AI Customers Are Already Negotiating Storage Deals Through 2031: 'Visibility Remains Very Strong'",
       "Western Digital Q4 Earnings Call Highlights",
       "Wall Street Is Selling Memory Stocks – Chipmakers Are Buying Them Back",
       "Western Digital Corp (WDC) (Q4 2026) Earnings Call Highlights: Record Revenue and EPS Soar on ...",
       "Dow Jones Futures: Nvidia Lifts Dow, But Google, SpaceX Skid; Sandisk, Western Digital Lead Earnings Losers Late",
       "WDC Stock Sinks 11% After-Hours Despite Earnings Beat — Retail Questions Selloff, Blames ‘Technicals And Algos’",
       "Western Digital (WDC) Q4 Earnings and Revenues Top Estimates",
-      "Western Digital Earnings Beat With 44% Sales Growth. But Stock Tumbles Late.",
-      "Western Digital forecasts upbeat revenue but shares fall on lofty expectations",
-      "Western Digital tops estimates, offers guidance; shares fall",
-      "Western Digital Stock Tanks. An Earnings Beat Isn’t Enough.",
       "Sandisk and Western Digital Are Set to Report Earnings Soon. Here’s What to Expect",
       "Western Digital Earnings Are Imminent; These Most Accurate Analysts Revise Forecasts Ahead Of Earnings Call",
       "Western Digital (NASDAQ:WDC) Surprises With Q2 Sales But Stock Drops 10%",
       "Western Digital: Sold Out, De-Levered, And Walking Into FQ4 With Momentum (NASDAQ:WDC)",
       "Sandisk earnings impact on Micron, Western Digital, and Seagate",
       "Buy Western Digital (WDC) Stock as Q4 Earnings Approach?",
+      "Western Digital tops estimates, offers guidance; shares fall",
       "Western Digital (WDC) Could Be 66% Overvalued On Earnings Week Optimism",
       "Western Digital Corporation 2026 Q4 - Results - Earnings Call Presentation (NASDAQ:WDC) 2026-08-06",
-      "Western Digital Corp Q4 Income Climbs",
-      "Western Digital Q4 26 Earnings Conference Call At 4:30 PM ET"
+      "Western Digital Corp Q4 Income Climbs"
     ],
     "AVGO": [
+      "The Zacks Analyst Blog Highlights Broadcom, The Coca-Cola and Palantir",
       "Marvell Is Positioned to Absorb a Disproportionate Amount of This AI Capex Surge, So I Keep Buying",
       "Alphabet CEO Sundar Pichai Just Made a $200 Billion Infrastructure Move. Nvidia, Micron, and Broadcom Investors Should Rejoice.",
       "Top Analyst Reports for Broadcom, Coca-Cola & Palantir",
@@ -822,15 +823,15 @@
       "Marvell Stock Amplifies The Market You Already Own",
       "NVIDIA to Power SpaceX AI Infrastructure: Will This Fuel NVDA's Growth?",
       "Can MRVL's Communications Recovery Drive Broad-Based Growth?",
-      "Prediction: A $5,000 Investment in Broadcom Could Be Worth This Much by Late-2028",
-      "What Could Push Broadcom Stock Higher Is Already Sitting In Its Order Book",
       "Broadcom: Big, Bad News When Compute Leaders Need Optical Advantage (Upgrade) (AVGO)",
+      "Broadcom Stock (AVGO) Falls as Goldman Sachs Removes It From the ‘Conviction List’",
+      "If You Invested $1000 in Broadcom Inc. a Decade Ago, This is How Much It'd Be Worth Now",
+      "Prediction: A $5,000 Investment in Broadcom Could Be Worth This Much by Late-2028",
       "Broadcom loses court bid to suspend EU antitrust request for US legal papers",
-      "Goldman Sachs Just Added Microsoft to Its Closely Watched 'Conviction List.' Broadcom and ServiceNow Were Removed.",
       "Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats",
       "AMD Helios Architecture Deep Dive: The Power of AMD's Hardware Combined - Page 4 of 5",
       "Microsoft joins, Broadcom exits Goldman’s top-stocks list",
-      "If You Invested $1000 in Broadcom Inc. a Decade Ago, This is How Much It'd Be Worth Now",
+      "Could Broadcom (AVGO) Be 40% Undervalued As It Heads To Memory And Storage Conference?",
       "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz"
     ],
     "KLAC": [
@@ -844,15 +845,15 @@
       "Bearish Pressure Is Building Around These 3 Stocks",
       "KLA (KLAC) Upgraded to Strong Buy: What Does It Mean for the Stock?",
       "Best Momentum Stock to Buy for July 31st",
-      "KLA Corp. stock outperforms competitors despite losses on the day",
       "5 Must-Read Analyst Questions From KLA Corporation’s Q2 Earnings Call",
+      "KLA Corp. stock outperforms competitors despite losses on the day",
+      "KLA Corp | 4: Statement of changes in beneficial ownership of securities-Officer Wilkinson Mary Beth",
       "KLA Corp (KLAC) EVP Mary Beth Wilkinson sells 13,802 shares under 10b5-1 plan",
       "KLA (NASDAQ:KLAC) EVP Mary Beth Wilkinson Sells 13,802 Shares",
-      "KLA Corp | 4: Statement of changes in beneficial ownership of securities-Officer Wilkinson Mary Beth",
-      "Earnings call transcript: KLA Q3 2026 beats forecasts but stock dips",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
       "KLA (NASDAQ:KLAC) CAO Virendra Kirloskar Sells 4,504 Shares of Stock",
       "KLA Corp (KLAC) insider Virendra Kirloskar plans sale of 4,504 shares",
+      "KLA Corp. stock outperforms competitors on strong trading day",
       "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz"
     ],
     "SAP.DE": [
@@ -877,6 +878,7 @@
       "SAP SE (SAP) Shares Surge 3.3% -- What GF Score of 81 Tells Inve"
     ],
     "BESI.AS": [
+      "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
       "Zacks.com featured highlights Celestica, Zurn Elkay, Lam, BE Semiconductor and Johnson Controls",
       "BE Semiconductor Stock Rises 5% on Berenberg Upgrade",
       "Buy These 5 Top-Ranked Efficient Stocks With Strong Growth Potential",
@@ -886,16 +888,15 @@
       "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
       "Besi orders more than double as AI and hybrid bonding tech drive demand",
       "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
-      "BESI raises long-term revenue, margin targets as demand increases",
+      "BE Semiconductor Industries Upgraded to Buy as Berenberg Notes 'Opportunity' Amid Recent Share Weakness",
       "Why BE Semiconductor Industries (ENXTAM:BESI) Is Up 10.1% After Strong Half-Year Earnings And Efficiency Gains",
-      "Q3 2025 BE Semiconductor Industries NV Earnings Call Transcript",
-      "KBC Securities Upgrades BE Semiconductor Industries to Hold",
+      "Berenberg Upgrades BE Semiconductor Industries to Buy",
       "Why is BE Semiconductor Industries stock rallying today? By Investing.com",
-      "Short Interest in BE Semiconductor Industries NV (OTCMKTS:BESIY) Rises By 86.9%",
       "ETFs Investing in BE Semiconductor Industries N.V. Stocks",
+      "Short Interest in BE Semiconductor Industries NV (OTCMKTS:BESIY) Rises By 86.9%",
       "BE Semiconductor Industries N.V. Announces Q1-26 Results",
-      "Press Release: BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "Q4 2025 BE Semiconductor Industries NV Earnings Call Transcript"
+      "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
+      "Press Release: BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results"
     ],
     "AMAT": [
       "IPGP Q2 Earnings Beat Estimates on Industrial Solutions Growth",
@@ -985,9 +986,9 @@
     "IFX.DE": [
       "Infineon Technologies AG (IFNNF) (Q3 2026) Earnings Call Highlights: Record Revenue and AI ...",
       "Infineon hits revenue record: AI data centres drive growth",
-      "AI and Chips Are Turning Malaysia Into Asia’s Growth Standout",
+      "German chipmaker Infineon posts record revenue as AI fuels growth",
       "Chip Stocks Climb as AI Rally Regains Strength",
-      "Chip Stocks Rise After Pause in Middle East Fighting",
+      "Infineon Technologies (XTRA:IFX) Opens Smart Power Fab Early On A Pricey Narrative",
       "Japan's Power-Chip Giants Target September Deal to Challenge Infineon",
       "European chip stocks fall after sharp U.S. peers’ selloff",
       "Chips stocks fall. UnitedHealth rises. Netflix earnings are up next",
@@ -995,14 +996,14 @@
       "SK Hynix's record plunge drags down global chip stocks",
       "Infineon Technologies AG Reports Earnings Results for the Nine Months Ended June 30, 2026",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
-      "Infineon Technologies AG (IFNNF) Q4 2025 Earnings Call Highlights: Strong Quarter Amidst ...",
+      "Infineon Technologies (IFNNY) is an Incredible Growth Stock: 3 Reasons Why",
       "Infineon Leads the Automotive Semiconductor",
       "Infineon’s Power Semis Portfolio Looks To Be in a Good Position to Deliver on AI",
       "INFINEON TECHNOLOGIES AG : Receives a Buy rating from JP Morgan",
+      "Infineon Technologies AG (IFNNF) Q4 2025 Earnings Call Highlights: Strong Quarter Amidst ...",
       "North America Silicon Carbide (SiC) Market",
       "Germany's Merz Backs US Alliance, Calls Iran Nuclear Threat 'Common Goal' As Trump Pulls Troops Over War Rift",
-      "Infineon-led European project Moore4Power launches",
-      "Infineon Technologies Ag - IFNNY - Stock Price & News"
+      "Infineon-led European project Moore4Power launches"
     ],
     "ANET": [
       "JPMorgan Resets Arista Stock Target After AI Surge",
@@ -1045,25 +1046,25 @@
       "ASML and 21 More Stocks to Consider Buying Out of the AI Wreckage"
     ],
     "STX": [
+      "Seagate (STX) Heads To FMS 2026 With Its Tech Leaders In Focus",
+      "Seagate Technology Is Soaring After Its Strong Earnings Report. Should You Buy Western Digital Before Its Earnings Report?",
+      "Seagate Rallies on Strong Q4 Results and Guidance. What Does This Mean for STX Stock Here.",
       "Western Digital Earnings Beat With 44% Sales Growth. But Stock Tumbles Late.",
       "Micron Slips 9% in a Month: Is This the Right Time to Buy MU Stock?",
-      "The Zacks Analyst Blog Highlights Comfort Systems, The Goldman Sachs, Vertiv, Seagate and The Travelers",
       "Can Strong Data Center & Edge Boost SNDK's Top Line in Q4 Earnings?",
       "Sandisk Jumps 8%, Micron Gains 6%, SK Hynix Climbs 4% as Wall Street Hikes Price Targets on AI Memory Boom",
-      "5 Momentum Stocks to Buy for August Despite a Mixed July",
       "The Price of Reinvention for SanDisk Stock",
-      "Seagate (STX) Heads To FMS 2026 With Its Tech Leaders In Focus",
       "BNP Paribas Resets Seagate Target After Stunning AI Signal",
-      "Buy Sandisk Stock Before Q4 Earnings",
+      "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool",
       "Sanders Capital (STX) discloses 3.5M Seagate shares under 5% ownership level",
-      "Seagate Technology Holdings PLC Stock (STX) Moved Up by 3.83% on Aug 5: A Full Analysis",
       "Seagate Technology Holdings PLC stock rises Tuesday, still underperforms market",
+      "Seagate Technology Holdings PLC Stock (STX) Moved Up by 3.83% on Aug 5: A Full Analysis",
       "The Bull Case For Seagate Technology Holdings (STX) Could Change Following Strong Q4 Results And Upbeat Guidance",
       "Sandisk earnings impact on Micron, Western Digital, and Seagate",
       "Seagate Technology Holdings (STX) Lifted Fiscal 2027 Guidance, Is More Upside Already Priced In?",
       "Seagate Technology Holdings (STX) Following Its Pullback Is The AI Storage Story Fully Valued",
+      "Seagate Technology Holdings Insider Sold Shares Worth $10,380,838, According to a Recent SEC Filing",
       "Seagate gains as investors continue to digest strong AI-storage outlook",
-      "Seagate Technology (STX) EVP & CTO John Morris Sells 168 Shares",
       "Seagate Technology Holdings plc FY 2026: Revenue $12.2B, EPS $13.9— 10-K Summary"
     ],
     "MU": [
@@ -1118,106 +1119,6 @@
           "source": null,
           "summary": "Siemens Chief Executive Officer Roland Busch says the company is \"very competitive\" in China, where the automation business is doing \"very well.\" He also comments on the data center business. Busch speaks on Bloomberg Television after Siemens raised its earnings expectations for a second time this year due to a surge in data center spending and higher returns from selling software to industry.",
           "published": "2026-08-06T05:44:15"
-        }
-      ]
-    },
-    {
-      "symbol": "ANET",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "Arista Networks (NYSE:ANET) Given New $250.00 Price Target at TD Cowen",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcF8xWGdLLVlfZndSOXVIV2V1Z3BGNU8yYUZmRlNuVkIzN3UxYzk4anR3T3VuTEdSeENlOXdjY21PbmV2ZWFwTkdZS1MwMFE5bHNUR1RDaHBoXzB4YlFoUF9OM1lmZlpUWTg5UGVuejJaSVZ4S3h0dm5EcTAtckt1a2JFalVuWTRuZ2FIWGNVYjlscWhieFJDUDFkTDlSVWJzM3lTWnRMVkZOLTBQOXVRaE9YY0F5bEcyRzNR?oc=5",
-      "source": "MarketBeat",
-      "method": "keyword",
-      "published": "2026-08-05T20:26:54",
-      "queued_min": 29766481,
-      "all_articles": [
-        {
-          "headline": "JPMorgan Resets Arista Stock Target After AI Surge",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-resets-arista-stock-target-035711424.html?.tsrc=rss",
-          "source": null,
-          "summary": "Improving supply may unlock another leg of growth",
-          "published": "2026-08-06T03:57:11"
-        },
-        {
-          "headline": "Arista Books Its First $3 Billion Quarter, Stock Rises 10%",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/arista-books-first-3-billion-035704794.html?.tsrc=rss",
-          "source": null,
-          "summary": "Revenue rose 37.7% to $3.04 billion as gross margin fell to 63.4% from 65.6%",
-          "published": "2026-08-06T03:57:04"
-        },
-        {
-          "headline": "Stock Market Today: Dow Scores Record As SpaceX Craters; SharkNinja Soars",
-          "link": "https://finance.yahoo.com/m/df8bb7aa-2f8c-3068-aac6-ba6ee88129f0/stock-market-today%3A-dow.html?.tsrc=rss",
-          "source": null,
-          "summary": "Stock Market Today: The Dow Jones index rises Wednesday with word on a Strait of Hormuz deal. AMD stock and SpaceX fall.",
-          "published": "2026-08-05T20:44:23"
-        },
-        {
-          "headline": "The companies emerging as new leaders in this renewed AI rally",
-          "link": "https://finance.yahoo.com/video/companies-emerging-leaders-renewed-ai-191536658.html?.tsrc=rss",
-          "source": null,
-          "summary": "Yahoo Finance Markets and Data Editor Jared Blikre examines the comeback seen across the semiconductor landscape over the past five trading days, while also analyzing which companies are emerging as leaders in the renewed AI rally.",
-          "published": "2026-08-05T19:15:36"
-        },
-        {
-          "headline": "Memory is the new gold, says Arista Networks CEO Jayshree Ullal",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNM2NtNzRuSmYtenc5Z05hYTNnS2F1Sm5leWVHcjdPZ05qR1NXWUQ4Qkxzc3AzcFV1NHlXWXFVdmZ4a243U2JuSm1KM2VRTDhxcVJhbl9EY2xqMVlCNnVGRENCa1pYZW10elhKdGdHSTY1YW9MZ2t2eGtuQldtZDNzU1BVT3BvalJVWC1GbjZibzVFZ08xaENlU0JFY2wzNS1WbmhfN3hVYXY?oc=5",
-          "source": "CNBC",
-          "summary": "",
-          "published": "2026-08-05T22:59:37"
-        },
-        {
-          "headline": "Arista Networks (ANET) Stock Faces Valuation Questions After 38.4% Margin",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONEVFR25SelhidWJjQ3l4OEplbDFGc0pBam1DZVY2NXRPTTIyb2dqczNtYWpSYkZTdy15Tlo4dnZkOFZVTTdhYlA1WnpKelN6eFFGeWhnSWh0dlhIUE1hUnUzZTVtclVfc0NnRWMyblFrT21EWFJ3SVgwZW5LdFJTenoteFB5UVZpQXQ1eWo3WTRSSkhZRG5mQlZTWlhsWVFoblZxY3hQOWVyWE1JYTNISjVPanBrTUpyOG5HMzJuWXBDcVRsVS12aGNtWUPSAcwBQVVfeXFMTjRFRUduUnpYYnViY0N5eDhKZWwxRnNKQWptQ2VWNjV0T00yMm9nanMzbWFqUmJGU3cteU5aOHZ2ZDhWVU03YWJQNVp6SnpTenhRRnloZ0lodHZYSFBNYVJ1M2U1bXJVX3NDZ0VjMm5Ra09tRFhSd0lYMGVuS3RSU3p6LXhQeVFWaUF0NXlqN1k0UkpIWURuZkJWU1pYbFlRaG5WcWN4UDllclhNSWEzSEo1T2pwa01KcjhuRzMybllwQ3FUbFUtdmhjbVlD?oc=5",
-          "source": "simplywall.st",
-          "summary": "",
-          "published": "2026-08-05T23:21:33"
-        },
-        {
-          "headline": "Arista Networks (NYSE: ANET) director's trust sells 8,000 shares",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORDk4NGprNXZuaFp5bUFsQ3hqUDBrdWU1czJFZy1jZllsQl92cGVsNzdzSjNCMy1TbWdnaFIxbU05dllHX0I1YzZvWTBwa1l6RmdVbVpIblI1cERMRFIxZlJ1dUcxSWJSWDlxYVFsZUVzd3BsTm1ZaE4xbW9MUE9KYm9lZWxzSUJkQzVMMjFuZ0xFZlVtSjhVMkRxbGZqZnBGYWxmZ1RyMDhjblhRQ1lhalFsSQ?oc=5",
-          "source": "Stock Titan",
-          "summary": "",
-          "published": "2026-08-05T22:13:27"
-        },
-        {
-          "headline": "Arista Networks Inc. stock outperforms competitors on strong trading day",
-          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOa0xHLW0wRDQyYU1ySXlHZ0FOT0VVcXNXUWdsRGdnSUtQYjQ2UGdGN0tndmR4eld6c1dBc2RvX1Y3dGs1Mlk3YnlsYkVlVXZYTmRPcUkxcjZJM3VzRU1PMGtwZnpYMVlUNG9heUtnVnp3YnZzaXR5ZE1kODdlLTNLR3J1LWRDVlZoR255dDc5U3g5NDIxVGZCd1hJUXY0MU1MZlpDUkE1a0ZfcEVYT1JxYW9Ua3dfZFZ2cFk0VEpoMWFHUTVjQnFfUXdmVkdKYmVTbi1iYVBhUFduWVE4bEU5RUpJUQ?oc=5",
-          "source": "MarketWatch",
-          "summary": "",
-          "published": "2026-08-05T20:34:00"
-        },
-        {
-          "headline": "These Analysts Boost Their Forecasts On Arista Networks After Upbeat Q2 Results",
-          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPdWlaRzJ0bWxBS2xmd0Y3UFptZ2RnYWFEaXlyUFZENndmNEhET3hzNEJ6TXNFdnJwUFE4VVNGcHNabC1uV0h1U0U1bmFNTEpKNkJ3MmpjdXNaRDFFeTdZZVhtdzJjU3dad0lDRFo1aXdNRi1YaUp6TnJfekxNM0pnVVlKT3NnT0s0bFhHeXVrTDFncEZWajZEOUZScDNaVm9QeDdER1dpVkZyZWFZekV5cWI1V0xFdHNHVTZzLU1jVkJjWW5OeEhISFNJREdkVmdoczY5eUNFbkVhX0lnNTJmN0Q1cXROVkVvb1E?oc=5",
-          "source": "Benzinga",
-          "summary": "",
-          "published": "2026-08-05T11:39:20"
-        },
-        {
-          "headline": "Arista Networks (NYSE:ANET) Given New $250.00 Price Target at TD Cowen",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQcF8xWGdLLVlfZndSOXVIV2V1Z3BGNU8yYUZmRlNuVkIzN3UxYzk4anR3T3VuTEdSeENlOXdjY21PbmV2ZWFwTkdZS1MwMFE5bHNUR1RDaHBoXzB4YlFoUF9OM1lmZlpUWTg5UGVuejJaSVZ4S3h0dm5EcTAtckt1a2JFalVuWTRuZ2FIWGNVYjlscWhieFJDUDFkTDlSVWJzM3lTWnRMVkZOLTBQOXVRaE9YY0F5bEcyRzNR?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-05T20:26:54"
-        },
-        {
-          "headline": "Stock Indices Fall from Early Highs and Settle Mixed",
-          "link": "https://www.nasdaq.com/articles/stock-indices-fall-early-highs-and-settle-mixed",
-          "source": "Barchart",
-          "summary": "The S&P 500 Index ($SPX ) (SPY ) on Wednesday closed down -0.17%, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up +0.49%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.83%. September E-mini S&P futures (ESU26 ) fell -0.19%, and September E-mini Nasdaq futures...",
-          "published": "2026-08-06T03:30:50"
-        },
-        {
-          "headline": "Strong Earnings Push the S&P 500 to New Record High",
-          "link": "https://www.nasdaq.com/articles/strong-earnings-push-sp-500-new-record-high",
-          "source": "Barchart",
-          "summary": "The S&P 500 Index ($SPX ) (SPY ) today is up +0.46%, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up +0.74%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up +0.51%. September E-mini S&P futures (ESU26 ) are up +0.50%, and September E-mini Nasdaq futures...",
-          "published": "2026-08-05T23:04:55"
         }
       ]
     }
@@ -1341,8 +1242,7 @@
       0
     ],
     "mover": [
-      5,
-      0
+      5
     ],
     "price_event": [],
     "quiet": [
@@ -1357,8 +1257,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 298.45,
-    "SIE.DE": 272.27,
+    "SU.PA": 299.05,
+    "SIE.DE": 268.98,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1384,11 +1284,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 171.36,
+    "SAP.DE": 171.02,
     "BESI.AS": 211.7,
-    "AIXA.DE": 37.89,
-    "IFX.DE": 59.6,
-    "ASML.AS": 1469.6,
+    "AIXA.DE": 38.13,
+    "IFX.DE": 59.78,
+    "ASML.AS": 1462.4,
     "MU": 920.56,
     "TSM": 417.05,
     "KLAC": 193.58,
@@ -1426,8 +1326,8 @@
     "KLAC": "2026-08-04",
     "IFX.DE": "2026-08-05"
   },
-  "next_pulse_interval": 34,
-  "last_pulse_post_min": 29766781,
+  "next_pulse_interval": 39,
+  "last_pulse_post_min": 29766841,
   "eu_slots": [
     {
       "slot": 0,
