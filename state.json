@@ -2,8 +2,8 @@
   "date": "2026-08-06",
   "daily_posts": 0,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 2,
-  "gemini_calls_today": 2,
+  "daily_pulse_posts": 3,
+  "gemini_calls_today": 3,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 302
   },
-  "event_log_next_id": 224,
+  "event_log_next_id": 226,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -722,7 +722,7 @@
       "Why Are Nvidia, Micron, AMD, Marvell, and Broadcom Stocks Rising Today? August 4",
       "Marvell, Sandisk, SK Hynix lead semiconductor stock rally as S&P 500 trades at record highs",
       "Photonic Fabric™ Technology: How Optical Connectivity Enables the Next Generation of AI Infrastructure",
-      "Broadcom, Nvidia Face Risk From China AI Component Ban - Broadcom (NASDAQ:AVGO), Advanced Micro Devices"
+      "Top Research Reports for Amazon, Marvell & Starbucks"
     ],
     "FORM": [
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
@@ -738,11 +738,11 @@
       "A Look at FormFactor Inc (FORM) After 4.9% Decline -- GF Value $56.69 vs Price $114.44",
       "Northland Securities Estimates FormFactor Q3 Earnings",
       "FormFactor Inc 2026: Revenue $258.24M, EPS $0.71— 10-Q Summary",
+      "Formfactor (FMF) Q2 2025 Earnings Report - Results, Call & Slides",
       "FormFactor Jumps 9.1% Amid Sector-Wide Rally",
-      "Formfactor (FMF) Q1 2025 Earnings Report - Results, Call & Slides",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "FormFactor, Inc. $FORM Stock Position Increased by California State Teachers Retirement System",
-      "Formfactor (FMF) Q2 2025 Earnings Report - Results, Call & Slides",
+      "Formfactor (FMF) Q1 2025 Earnings Report - Results, Call & Slides",
       "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?",
       "Why FormFactor Stock Is Skyrocketing Today"
     ],
@@ -808,7 +808,7 @@
       "Sandisk earnings impact on Micron, Western Digital, and Seagate",
       "Buy Western Digital (WDC) Stock as Q4 Earnings Approach?",
       "Western Digital (WDC) Could Be 66% Overvalued On Earnings Week Optimism",
-      "Will Western Digital (WDC) Beat Estimates Again in Its Next Earnings Report?",
+      "Western Digital Corporation 2026 Q4 - Results - Earnings Call Presentation (NASDAQ:WDC) 2026-08-06",
       "Western Digital Corp Q4 Income Climbs",
       "Western Digital Q4 26 Earnings Conference Call At 4:30 PM ET"
     ],
@@ -824,14 +824,13 @@
       "Can MRVL's Communications Recovery Drive Broad-Based Growth?",
       "Prediction: A $5,000 Investment in Broadcom Could Be Worth This Much by Late-2028",
       "What Could Push Broadcom Stock Higher Is Already Sitting In Its Order Book",
-      "If You Invested $1000 in Broadcom Inc. a Decade Ago, This is How Much It'd Be Worth Now",
       "Broadcom: Big, Bad News When Compute Leaders Need Optical Advantage (Upgrade) (AVGO)",
       "Broadcom loses court bid to suspend EU antitrust request for US legal papers",
       "Goldman Sachs Just Added Microsoft to Its Closely Watched 'Conviction List.' Broadcom and ServiceNow Were Removed.",
       "Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats",
       "AMD Helios Architecture Deep Dive: The Power of AMD's Hardware Combined - Page 4 of 5",
       "Microsoft joins, Broadcom exits Goldman’s top-stocks list",
-      "Could Broadcom (AVGO) Be 40% Undervalued As It Heads To Memory And Storage Conference?",
+      "If You Invested $1000 in Broadcom Inc. a Decade Ago, This is How Much It'd Be Worth Now",
       "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz"
     ],
     "KLAC": [
@@ -846,14 +845,14 @@
       "KLA (KLAC) Upgraded to Strong Buy: What Does It Mean for the Stock?",
       "Best Momentum Stock to Buy for July 31st",
       "KLA Corp. stock outperforms competitors despite losses on the day",
-      "KLA Corp (KLAC) EVP Mary Beth Wilkinson sells 13,802 shares under 10b5-1 plan",
       "5 Must-Read Analyst Questions From KLA Corporation’s Q2 Earnings Call",
+      "KLA Corp (KLAC) EVP Mary Beth Wilkinson sells 13,802 shares under 10b5-1 plan",
       "KLA (NASDAQ:KLAC) EVP Mary Beth Wilkinson Sells 13,802 Shares",
       "KLA Corp | 4: Statement of changes in beneficial ownership of securities-Officer Wilkinson Mary Beth",
+      "Earnings call transcript: KLA Q3 2026 beats forecasts but stock dips",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
-      "KLA Corp (KLAC) insider Virendra Kirloskar plans sale of 4,504 shares",
       "KLA (NASDAQ:KLAC) CAO Virendra Kirloskar Sells 4,504 Shares of Stock",
-      "KLA Corp. stock outperforms competitors on strong trading day",
+      "KLA Corp (KLAC) insider Virendra Kirloskar plans sale of 4,504 shares",
       "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz"
     ],
     "SAP.DE": [
@@ -1039,12 +1038,11 @@
       "Micron (MU) vs. ASML (ASML): Which AI Chip Giant Offers the Better Risk-Reward?",
       "ASML reports transactions under its current share buyback program",
       "ASML’s hold over the future of chipmaking is weakening",
-      "ASML: AI Litho-Density Supercycle Vs. Closed-Loop Chinese DUV Fleet (NASDAQ:ASML)",
       "ASML Supplier Zeiss Says It Can Handle Demand for Key AI Parts",
+      "ASML: AI Litho-Density Supercycle Vs. Closed-Loop Chinese DUV Fleet (NASDAQ:ASML)",
       "Inversion Semiconductor targets ASML with particle-accelerator X-ray lithography",
       "ASML: The Peak Is In",
-      "ASML and 21 More Stocks to Consider Buying Out of the AI Wreckage",
-      "China’s reported chip breakthrough comes with some big caveats"
+      "ASML and 21 More Stocks to Consider Buying Out of the AI Wreckage"
     ],
     "STX": [
       "Western Digital Earnings Beat With 44% Sales Growth. But Stock Tumbles Late.",
@@ -1060,13 +1058,13 @@
       "Sanders Capital (STX) discloses 3.5M Seagate shares under 5% ownership level",
       "Seagate Technology Holdings PLC Stock (STX) Moved Up by 3.83% on Aug 5: A Full Analysis",
       "Seagate Technology Holdings PLC stock rises Tuesday, still underperforms market",
-      "Sandisk earnings impact on Micron, Western Digital, and Seagate",
       "The Bull Case For Seagate Technology Holdings (STX) Could Change Following Strong Q4 Results And Upbeat Guidance",
+      "Sandisk earnings impact on Micron, Western Digital, and Seagate",
       "Seagate Technology Holdings (STX) Lifted Fiscal 2027 Guidance, Is More Upside Already Priced In?",
       "Seagate Technology Holdings (STX) Following Its Pullback Is The AI Storage Story Fully Valued",
       "Seagate gains as investors continue to digest strong AI-storage outlook",
-      "Seagate Technology Holdings plc FY 2026: Revenue $12.2B, EPS $13.9— 10-K Summary",
-      "Results: Seagate Technology Holdings Plc Exceeded Expectations And The Consensus Has Updated Its Estimates"
+      "Seagate Technology (STX) EVP & CTO John Morris Sells 168 Shares",
+      "Seagate Technology Holdings plc FY 2026: Revenue $12.2B, EPS $13.9— 10-K Summary"
     ],
     "MU": [
       "Micron Stock Falls -- Apple Tests Chinese Memory Chips From Rising Rival",
@@ -1092,29 +1090,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "BESI.AS",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "KBC Securities Upgrades BE Semiconductor Industries to Hold",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdHRZbTZfLUdSd2pOYTJDLTQ2U1Bqd1Q2cnoxb2lFb29uV1g0LTlEWUR2UTRVQS11dmIwMUVBaXluM3NWMXFxbkstcmJkMU1xTExwZm8wc21kdWo2QTlnSDNHbjRwVUdqLVUtdFRpRmRYTHVxaGJnX0UwSnNiT2xWc1FrZmlzUW5qeGhKUVlQbEtKdEhld01tOFUwdGlxUm5wUU1hZ0lZVUltb05qNTdkVGdR?oc=5",
-      "source": "marketscreener.com",
-      "method": "keyword",
-      "published": "2026-08-05T12:33:25",
-      "queued_min": 29766421,
-      "all_articles": [
-        {
-          "headline": "KBC Securities Upgrades BE Semiconductor Industries to Hold",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdHRZbTZfLUdSd2pOYTJDLTQ2U1Bqd1Q2cnoxb2lFb29uV1g0LTlEWUR2UTRVQS11dmIwMUVBaXluM3NWMXFxbkstcmJkMU1xTExwZm8wc21kdWo2QTlnSDNHbjRwVUdqLVUtdFRpRmRYTHVxaGJnX0UwSnNiT2xWc1FrZmlzUW5qeGhKUVlQbEtKdEhld01tOFUwdGlxUm5wUU1hZ0lZVUltb05qNTdkVGdR?oc=5",
-          "source": "marketscreener.com",
-          "summary": "",
-          "published": "2026-08-05T12:33:25"
-        }
-      ]
-    },
     {
       "symbol": "SIE.DE",
       "classification": {
@@ -1367,8 +1342,7 @@
     ],
     "mover": [
       5,
-      0,
-      6
+      0
     ],
     "price_event": [],
     "quiet": [
@@ -1383,8 +1357,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 297.15,
-    "SIE.DE": 272.55,
+    "SU.PA": 298.45,
+    "SIE.DE": 272.27,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1410,11 +1384,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 171.7,
-    "BESI.AS": 211.6,
-    "AIXA.DE": 38.05,
-    "IFX.DE": 59.79,
-    "ASML.AS": 1461.6,
+    "SAP.DE": 171.36,
+    "BESI.AS": 211.7,
+    "AIXA.DE": 37.89,
+    "IFX.DE": 59.6,
+    "ASML.AS": 1469.6,
     "MU": 920.56,
     "TSM": 417.05,
     "KLAC": 193.58,
@@ -1452,8 +1426,8 @@
     "KLAC": "2026-08-04",
     "IFX.DE": "2026-08-05"
   },
-  "next_pulse_interval": 45,
-  "last_pulse_post_min": 29766721,
+  "next_pulse_interval": 34,
+  "last_pulse_post_min": 29766781,
   "eu_slots": [
     {
       "slot": 0,
