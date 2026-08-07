@@ -2,7 +2,7 @@
   "date": "2026-08-07",
   "daily_posts": 3,
   "daily_keyword_posts": 2,
-  "daily_pulse_posts": 8,
+  "daily_pulse_posts": 9,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 256,
+  "event_log_next_id": 258,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -316,15 +316,14 @@
     "SIE.DE": [
       "Siemens Stock Falls 5% Despite Record AI-Fueled Industrial Profit",
       "Siemens AG (SIEGY) (Q3 2026) Earnings Call Highlights: Record Orders and Raised Guidance Signal ...",
-      "ARC Advisory Group Positions Trace One as a Major Player in the 2026 MarketMap for Formulation Technologies",
-      "Siemens (XTRA:SIE) Could Be 10% Undervalued On Record Q3 And Guidance Upgrade",
-      "European Indexes Rise as Earnings Drive Markets",
       "Siemens shares plunge on disappointing guidance raise",
-      "Siemens Aktiengesellschaft Q3 Earnings Call Highlights",
+      "Siemens lifts full-year forecast after record orders in third quarter",
       "Siemens Is Winning Customers in China, CEO Says",
-      "Macnica Invests in Malaysia's Leading Digital Transformation Company, Orangeleaf Consulting, to Expand Digital Transformation Services for Japan's Manufacturing Industry",
+      "Energy and Utilities Analytics Market Surges to $10.10 billion at a CAGR 10.6% by 2031 | Report by MarketsandMarkets™",
+      "Siemens and Tulip Emerge as Leaders as AI in MES Prioritizes Trust, Governance, and Human Oversight",
       "Resilience and Digital Transformation Spearhead the Energy Infrastructure Transition",
-      "SIEMENS AG N (SIE.DU) Q3 FY2026 earnings call transcript",
+      "CXO Summit Opens Sponsorship Opportunities for Enterprise Leaders",
+      "Compass Datacenters and Meridian Community College Launch Mississippi's First Data Center Workforce Training Program",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy AG N (ENR.DE) Q3 FY2026 earnings call transcript",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
@@ -333,7 +332,8 @@
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
-      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District"
+      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -728,26 +728,26 @@
       "Marvell Advances AI Memory Infrastructure Portfolio to Accelerate Agentic AI Inference"
     ],
     "FORM": [
-      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
-      "FormFactor (FORM) Stock Sees Modest Fair Value Cut As Analysts Reset AI Expectations",
-      "FormFactor Q2 Earnings Call Highlights AI Demand Drives Growth",
-      "Why FormFactor Stock Is Skyrocketing Today",
-      "FormFactor Inc (FORM) (Q2 2026) Earnings Call Highlights: Record Revenue and EPS Fueled by AI ...",
-      "FormFactor (FORM) Q2 Earnings and Revenues Surpass Estimates",
-      "FormFactor Q2 Earnings Call Highlights",
-      "FormFactor (NASDAQ:FORM) Delivers Impressive Q2, Stock Jumps 16.6%",
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
+      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
+      "New Strong Buy Stocks for August 3rd",
+      "FormFactor (FORM) Stock Sees Modest Fair Value Cut As Analysts Reset AI Expectations",
+      "STARTRADER expands AI offering with 31 New US Share & ETF CFDs in Semiconductors, Optical Networking & Nuclear",
+      "Why FormFactor (FORM) Stock Is Up Today",
+      "FORM vs. AEHR: Which Semi Test Equipment Stock is a Better Buy?",
+      "FormFactor's Q2 Earnings Beat Estimates, Revenues Increase Y/Y",
+      "FormFactor Q2 Earnings Call Highlights AI Demand Drives Growth",
       "Fund Update: 764,000 FORMFACTOR (FORM) shares added to GF FUND MANAGEMENT CO. LTD. portfolio",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "FormFactor (FORM) On Strong Earnings And Guidance While Valuation Still Sparks Debate",
       "FormFactor Inc 2026: Revenue $258.24M, EPS $0.71— 10-Q Summary",
       "A Look at FormFactor Inc (FORM) After 4.9% Decline -- GF Value $56.69 vs Price $114.44",
       "FormFactor, Inc. $FORM Stock Position Increased by California State Teachers Retirement System",
-      "Why FormFactor (FORM) Stock Is Up Today",
       "FormFactor Jumps 9.1% Amid Sector-Wide Rally",
       "Formfactor (FORM) Receives a Rating Update from a Top Analyst",
-      "New Strong Buy Stocks for August 3rd"
+      "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?",
+      "Why FormFactor Stock Is Skyrocketing Today"
     ],
     "LRCX": [
       "Wall Street Analysts See Lam Research (LRCX) as a Buy: Should You Invest?",
@@ -812,21 +812,21 @@
       "Why Is Western Digital Stock Sinking Thursday?",
       "Buy Western Digital (WDC) Stock as Q4 Earnings Approach?",
       "Western Digital (WDC) Says AI Storage Deal Talks Already Reach 2031",
-      "Western Digital (WDC) Q4 Earnings and Revenues Top Estimates",
-      "Western Digital Q4 Earnings Beat as Revenue Jumps 44% on Cloud Demand"
+      "Western Digital Q4 Earnings Beat as Revenue Jumps 44% on Cloud Demand",
+      "Western Digital (WDC) Q4 Earnings and Revenues Top Estimates"
     ],
     "AVGO": [
-      "While everyone chases Nvidia, Caterpillar just showed where AI money goes next",
       "Data Center Solutions Market to Reach US$1.33 Trillion by 2031 as AI and Hyperscale Investments Accelerate - Dell Technologies, Broadcom, NVIDIA, HPE, and Super Micro Computer Dominate",
+      "Is Broadcom the Best Chip Stock to Own Now? Maybe",
+      "Microsoft vs. Broadcom: Two AI Powerhouses, One Better Investment",
       "5 Safest Dividend ETFs Retirees Can Buy in August and Hold Forever",
+      "Anthropic SPVs Stack $71 Billion in Chip-Lease Debt in 60 Days",
+      "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom",
+      "While everyone chases Nvidia, Caterpillar just showed where AI money goes next",
       "AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition",
       "US stocks jump as employers unexpectedly cut 23,000 jobs, raising hopes for easier rate policy",
-      "Is Broadcom the Best Chip Stock to Own Now? Maybe",
       "Where to Invest in AI in 2026: A Guide for Advisors",
-      "Earn 14% On MRVL Stock Now, Or Own It 60% Cheaper Later",
-      "Anthropic SPVs Stack $71 Billion in Chip-Lease Debt in 60 Days",
-      "Synaptics (SYNA) Surpasses Q4 Earnings and Revenue Estimates",
-      "Microsoft vs. Broadcom: Two AI Powerhouses, One Better Investment",
+      "Broadcom: Big, Bad News When Compute Leaders Need Optical Advantage (Upgrade) (AVGO)",
       "Broadcom updates VMware security for AI-era threats",
       "Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats",
       "Broadcom, Nvidia Face Risk From China AI Component Ban - Broadcom (NASDAQ:AVGO), Advanced Micro Devices",
@@ -856,8 +856,8 @@
       "KLA Corporation (NASDAQ: KLAC) cites $12.57B backlog on AI demand",
       "KLA Q3 FY2026 slides: market share hits 58%, ambitious 2030 targets",
       "KLA CORP FY 2026: Revenue $13.58B, EPS $3.66— 10-K Summary",
-      "Noteworthy ETF Inflows: SMH, TSM, ASML, KLAC",
-      "Stocks Waver on Mixed Earnings and Chipmaker Strength"
+      "Stocks Rally on Earnings and Fed-Friendly US Payroll Report",
+      "Noteworthy ETF Inflows: SMH, TSM, ASML, KLAC"
     ],
     "SAP.DE": [
       "FUJIY Q1 Earnings Fall Y/Y on Bio CDMO Costs, Revenues Rise",
@@ -870,16 +870,16 @@
       "Loftware and RiseNow Partner to Accelerate Supply Chain Performance and Compliance",
       "Tungsten Automation Appoints Gopi Kalahasthy as Chief Revenue Officer",
       "Rimini Street Launches Rimini Govern™ for AI to Deliver Comprehensive AI Agent Governance, Security & Interoperability as a Service",
+      "SAP SE Stock (SAP) Moved Up by 3.66% on Aug 7: Facts Behind the Movement",
       "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
       "SAP Announces Q2 and Half-Year 2026 Results",
       "SAP SE: Release of a capital market information",
-      "SAP SE Stock (SAP) Moved Up by 3.20% on Aug 3: A Full Analysis",
       "An Analysis of SAP SE (SAP) in the AI Transition Era",
       "SAP Quarterly Statement Q2 2026",
       "SAP SE-SPONSORED ADR (NYSE:SAP): A Quality Stock with Superior Capital Efficiency and Strong Cash Generation",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "SAP Slides Ahead of Q2 Results as Investors Brace for High Expectations",
-      "SAP SE (SAP) Shares Surge 3.3% -- What GF Score of 81 Tells Inve"
+      "SAP SE Stock (SAP) Moved Up by 3.20% on Aug 3: A Full Analysis"
     ],
     "BESI.AS": [
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
@@ -1002,15 +1002,15 @@
       "INFINEON TECHNOLOGIES AG N (IFX.DE) Q3 FY2026 (Media) earnings call transcript",
       "Q3 2026 Infineon Technologies AG Earnings Call Transcript",
       "Infineon Technologies AG Reports Earnings Results for the Nine Months Ended June 30, 2026",
-      "INFINEON TECHNOLOGIES AG : Deutsche Bank remains its Buy rating",
+      "INFINEON TECHNOLOGIES AG : Buy rating from DZ Bank",
+      "INFINEON TECHNOLOGIES AG N (IFX.F) Q3 FY2026 earnings call transcript",
       "Infineon Leads the Automotive Semiconductor",
       "Infineon’s Power Semis Portfolio Looks To Be in a Good Position to Deliver on AI",
-      "Infineon Technologies (IFNNY) is an Incredible Growth Stock: 3 Reasons Why",
-      "INFINEON TECHNOLOGIES AG : Buy rating from DZ Bank",
       "North America Silicon Carbide (SiC) Market",
       "Germany's Merz Backs US Alliance, Calls Iran Nuclear Threat 'Common Goal' As Trump Pulls Troops Over War Rift"
     ],
     "ANET": [
+      "5 High ROE Stocks to Buy as Oil Price Surge Hits Short-Term Rally",
       "Arista Networks Stock Followed Its Chip Orders, Not Its Headlines",
       "The New York Times Q2 Earnings Beat Estimates as Digital Ads Rise",
       "Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?",
@@ -1020,7 +1020,6 @@
       "Arista Books Its First $3 Billion Quarter, Stock Rises 10%",
       "Stock Market Today: Dow Scores Record As SpaceX Craters; SharkNinja Soars",
       "The companies emerging as new leaders in this renewed AI rally",
-      "Arista Stock Jumps 5.2% as AI Networking Revenue Crushes Forecasts",
       "Memory is the new gold, says Arista Networks CEO Jayshree Ullal",
       "Stocks making the biggest moves after the bell: SpaceX, AMD, Pinterest, Arista Networks, Wynn Resorts & more",
       "Arista Networks Earnings: Supply Upside Drives a Big Raise to Guidance",
@@ -1278,8 +1277,7 @@
   "pulse_template_decks": {
     "evergreen": [],
     "mover": [
-      3,
-      5
+      3
     ],
     "price_event": [
       3,
@@ -1330,19 +1328,19 @@
     "AIXA.DE": 40.3,
     "IFX.DE": 61.76,
     "ASML.AS": 1501.4,
-    "MU": 873.01,
-    "TSM": 417.49,
-    "KLAC": 197.54,
-    "STX": 802.18,
-    "ANET": 191.2,
-    "LRCX": 309.12,
-    "FORM": 118.36,
-    "AVGO": 425.12,
-    "AMAT": 537.12,
-    "AMD": 480.8,
-    "MRVL": 217.02,
-    "NVDA": 224.38,
-    "WDC": 432.58
+    "MU": 876.41,
+    "TSM": 419.03,
+    "KLAC": 197.9,
+    "STX": 809.36,
+    "ANET": 192.18,
+    "LRCX": 309.45,
+    "FORM": 118.23,
+    "AVGO": 425.7,
+    "AMAT": 538.85,
+    "AMD": 483.75,
+    "MRVL": 218.15,
+    "NVDA": 223.85,
+    "WDC": 434.53
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1368,8 +1366,8 @@
     "IFX.DE": "2026-08-05",
     "WDC": "2026-08-07"
   },
-  "next_pulse_interval": 33,
-  "last_pulse_post_min": 29768601,
+  "next_pulse_interval": 38,
+  "last_pulse_post_min": 29768640,
   "eu_slots": [
     {
       "slot": 0,
