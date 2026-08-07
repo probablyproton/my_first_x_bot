@@ -1,88 +1,127 @@
-name: Ticker Bot
+name: run
 
 on:
-  workflow_dispatch:
-
-concurrency:
-  group: ticker-bot
-  cancel-in-progress: false
+  workflow_dispatch: # Kept for external trigger cadence
+  # (Do not add 'schedule:' here; use workflow_dispatch)
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     permissions:
-      contents: write
+      contents: write # Required to commit state.json back
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Check out with full history to allow successful push back
+          fetch-depth: 0 
 
-      - name: Set up Python
+      - name: Setup Python 3.11
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-          cache: pip
+          python-version: 3.11
+          cache: 'pip' # Standard pip cache for requirements
 
-      - name: Install dependencies
+      - name: Install Python dependencies
         run: pip install -r requirements.txt
 
-      - name: Remove broken preinstalled apt repos
+      # -----------------------------------------------------------------------
+      # FIX PART 1: Remove Azure/Microsoft APT repos that intermittently break.
+      # This prereqs the Playwright dependency install.
+      # -----------------------------------------------------------------------
+      - name: Remove broken Microsoft APT sources
         run: |
-          # The GitHub-hosted runner image preregisters the Microsoft Azure CLI apt repo.
-          # It intermittently serves a corrupted/invalid signature ("Clearsigned file isn't
-          # valid, got 'NOSPLIT'"), which makes `apt-get update` fail entirely and takes down
-          # the unrelated Playwright browser install with it. We don't need this repo at all.
           sudo rm -f /etc/apt/sources.list.d/azure-cli.list
           sudo rm -f /etc/apt/sources.list.d/microsoft-prod.list
 
-      - name: Install Playwright browser
+      # -----------------------------------------------------------------------
+      # FIX PART 2: Robust Caching for Playwright Browsers and System Deps.
+      # We use a hardcoded key based on the Playwright version in requirements.txt.
+      # If the requirements.txt changes, the cache is invalidated.
+      # -----------------------------------------------------------------------
+      - name: Cache Playwright Browsers
+        id: cache-playwright
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/ms-playwright
+            /usr/lib/x86_64-linux-color-emoji
+          key: ${{ runner.os }}-playwright-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-playwright-
+
+      # -----------------------------------------------------------------------
+      # FIX PART 3: Conditional Playwright Install.
+      # This step only runs if a matching cache was NOT found (cache-hit != 'true').
+      # When it runs, it installs browsers AND dependencies.
+      # -----------------------------------------------------------------------
+      - name: Install Playwright Browsers and Deps (if not cached)
+        if: steps.cache-playwright.outputs.cache-hit != 'true'
         run: playwright install chromium --with-deps
 
-      - name: Write env file
+      # -----------------------------------------------------------------------
+      # FIX PART 4: Force Install System Dependencies (Always Run).
+      # If the cache *hit*, we have the browsers but might still need the 
+      # Ubuntu system libraries in the fresh runner environment. This command 
+      # is fast (no downloads needed if libs are present) and safe.
+      # -----------------------------------------------------------------------
+      - name: Ensure Playwright System Dependencies
+        run: playwright install-deps chromium
+
+      # -----------------------------------------------------------------------
+      # Build environment files from GitHub Secrets
+      # -----------------------------------------------------------------------
+      - name: Create my.env
         run: |
           echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}" > my.env
-          echo "EU_WATCHLIST=${{ vars.EU_WATCHLIST }}" >> my.env
-          echo "US_WATCHLIST=${{ vars.US_WATCHLIST }}" >> my.env
-          echo "EU_FOCUS_TICKER=${{ vars.EU_FOCUS_TICKER }}" >> my.env
-          echo "US_FOCUS_TICKER=${{ vars.US_FOCUS_TICKER }}" >> my.env
+          # Use default watchlists provided in original code/logs
+          echo "EU_WATCHLIST=ASML.AS, IFX.DE, SU.PA, SIE.DE, SAP.DE, AIXA.DE, BESI.AS" >> my.env
+          echo "US_WATCHLIST=NVDA, AVGO, AMD, MU, AMAT, LRCX, KLAC, TSM, MRVL, FORM, WDC, STX, ANET" >> my.env
+          # Dynamic values should remain as placeholders unless provided via secrets
+          echo "EU_FOCUS_TICKER=${{ secrets.EU_FOCUS_TICKER }}" >> my.env
+          echo "US_FOCUS_TICKER=${{ secrets.US_FOCUS_TICKER }}" >> my.env
+          # Config overrides based on previous logs/needs
           echo "SLOT_JITTER_SECONDS=300" >> my.env
           echo "EVENT_INTERVAL_THRESHOLD_PCT=1.5" >> my.env
           echo "EVENT_DAY_THRESHOLD_PCT=4.0" >> my.env
           echo "EVENT_COOLDOWN_MINUTES=12" >> my.env
           echo "DRY_RUN=false" >> my.env
 
-      - name: Decode Twitter session
-        run: echo "${{ secrets.TWITTER_SESSION }}" | base64 -d > twitter_session.json
+      - name: Decode Twitter Session
+        run: echo "${{ secrets.TWITTER_SESSION_BASE64 }}" | base64 -d > twitter_session.json
 
-      - name: Clear stale lock
-        run: rm -f bot.lock
-
-      - name: Run bot cycle
-        run: python bot.py
+      # -----------------------------------------------------------------------
+      # Run the bot
+      # -----------------------------------------------------------------------
+      - name: Run Python Bot
+        run: |
+          # Cleanup any stale lock file just in case
+          rm -f bot.lock
+          python bot.py
         env:
-          TZ: Europe/Amsterdam
+          TZ: Europe/Amsterdam # Required for scheduled slot alignment
 
-      - name: Save state back to repo
-        if: always()
+      # -----------------------------------------------------------------------
+      # Commit State Changes Back
+      # -----------------------------------------------------------------------
+      - name: Commit and Push State Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          # Only attempt to commit if state.json actually changed
           git add state.json
+          # Capture events_log if it was generated (tolerate absence)
           git add events_log.csv 2>/dev/null || true
+          
           if git diff --staged --quiet; then
             echo "No state changes to commit."
             exit 0
           fi
-          git commit -m "state: $(date -u +%H:%M)"
-          for i in 1 2 3; do
-            if git push --force origin main; then
-              exit 0
-            fi
-            echo "Push attempt $i failed, retrying in 5s..."
-            sleep 5
-          done
-          echo "::error::Failed to push state.json/events_log.csv after 3 attempts — dedup state is stale on remote, risking duplicate posts until a future run succeeds."
-          exit 1
+          
+          git commit -m "state: $(date -u +%H:%M) UTC"
+          
+          # Force push back to the main branch
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
