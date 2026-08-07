@@ -2,7 +2,7 @@
   "date": "2026-08-07",
   "daily_posts": 4,
   "daily_keyword_posts": 5,
-  "daily_pulse_posts": 12,
+  "daily_pulse_posts": 13,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 265,
+  "event_log_next_id": 266,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -719,14 +719,14 @@
       "AMD's Record Quarter Landed With A Margin Guide That Did Not Move",
       "Marvell Stock, Corning, and Lumentum Surge on Report of Import China Ban",
       "Marvell Technology Stock Is On Sale, But Is It A Bargain?",
-      "High Beta Runners Up: Why AMD and Marvell Technology Now Command Attention",
+      "Marvell Is Positioned to Absorb a Disproportionate Amount of This AI Capex Surge, So I Keep Buying",
       "Photonic Fabric™ Technology: How Optical Connectivity Enables the Next Generation of AI Infrastructure",
-      "Marvell Technology Is Down 10% This Month but Rising Quickly: A Wall Street Pro Sees Near 100% Returns Ahead",
       "Broadcom, Nvidia Face Risk From China AI Component Ban - Broadcom (NASDAQ:AVGO), Advanced Micro Devices",
       "Markets News, June 2, 2026: AI Trade Keeps Rocking as Marvell, HPE Soar; Major U.S. Indexes Close at Fresh Record Highs",
       "Marvell Technology • Robinhood Token - MRVL - Stock Price & News",
       "Huge, Unusual Trading in Marvell Technology Call Options - Investors Are Bullish on MRVL Stock",
-      "Marvell surges after unveiling new products in AI memory infrastructure portfolio"
+      "Marvell Advances AI Memory Infrastructure Portfolio to Accelerate Agentic AI Inference",
+      "Why Are Nvidia, Micron, AMD, Marvell, and Broadcom Stocks Rising Today? August 4"
     ],
     "FORM": [
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
@@ -813,20 +813,20 @@
       "Why Is Western Digital Stock Sinking Thursday?",
       "Buy Western Digital (WDC) Stock as Q4 Earnings Approach?",
       "Western Digital Sinks 16%, SanDisk Falls 11%, Micron Drops 6% as Memory Selloff Hits Storage Stocks",
-      "Western Digital (WDC) Q4 Earnings and Revenues Top Estimates",
-      "Western Digital's AI Rally Just Hit a Much Higher Bar"
+      "Western Digital's AI Rally Just Hit a Much Higher Bar",
+      "Western Digital (WDC) Q4 Earnings and Revenues Top Estimates"
     ],
     "AVGO": [
-      "Data Center Solutions Market to Reach US$1.33 Trillion by 2031 as AI and Hyperscale Investments Accelerate - Dell Technologies, Broadcom, NVIDIA, HPE, and Super Micro Computer Dominate",
-      "3 AI Infrastructure Stocks That Could Make You Rich in August",
-      "Is Broadcom the Best Chip Stock to Own Now? Maybe",
-      "5 Safest Dividend ETFs Retirees Can Buy in August and Hold Forever",
       "The Toughest Questions AMD Faced On Its Latest Call",
+      "How To Earn 11% On NVDA Stock And Set A 30% Safety Net",
       "AMD Drops 6% Post Q2 Earnings: Is the Stock a Buy on the Dip?",
       "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
       "This AI Stock Is Surging. Can It Shake the ‘Meme Stock’ Label?",
-      "SERV Q2 Loss Wider Than Expected, Revenues Increase Y/Y, Stock Down",
       "Meet the Low-Cost Vanguard ETF That Just Gained 11% Over 4 Days, Thanks to a Combined 33% Weighting in Nvidia, Microsoft, Micron, and Broadcom",
+      "While everyone chases Nvidia, Caterpillar just showed where AI money goes next",
+      "Data Center Solutions Market to Reach US$1.33 Trillion by 2031 as AI and Hyperscale Investments Accelerate - Dell Technologies, Broadcom, NVIDIA, HPE, and Super Micro Computer Dominate",
+      "5 Safest Dividend ETFs Retirees Can Buy in August and Hold Forever",
+      "AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition",
       "Microsoft vs. Broadcom: Two AI Powerhouses, One Better Investment",
       "Why Is Broadcom Stock Surging Friday?",
       "Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats",
@@ -835,8 +835,8 @@
       "Broadcom Expands VMware Security Portfolio with AI-Powered Cyber Defense Updates",
       "The Zacks Analyst Blog Highlights Broadcom, The Coca-Cola and Palantir",
       "Alphabet CEO Sundar Pichai Just Made a $200 Billion Infrastructure Move. Nvidia, Micron, and Broadcom Investors Should Rejoice.",
-      "Intel Soars 10%, AMD Jumps 8%, Broadcom Rises 6% as Chip Stocks Ride a Risk-On Rally",
-      "Broadcom, Nvidia Face Risk From China AI Component Ban - Broadcom (NASDAQ:AVGO), Advanced Micro Devices"
+      "Broadcom, Nvidia Face Risk From China AI Component Ban - Broadcom (NASDAQ:AVGO), Advanced Micro Devices",
+      "Intel Soars 10%, AMD Jumps 8%, Broadcom Rises 6% as Chip Stocks Ride a Risk-On Rally"
     ],
     "KLAC": [
       "AI Boom: Top Stocks to Consider for Your Portfolio",
@@ -963,9 +963,9 @@
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "AIXTRON SE N (AIXA.DU) Stock Price, News, Quote & History",
       "Aixtron (AIXA) Stock Price, News & Analysis",
+      "Aixtron SE vs Veeco Instruments",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
-      "AIXTRON SE N (AIXA.DU) stock price, news, quote and history",
-      "Polarization-engineered high mobility of two-dimensional hole gas in GaN"
+      "AIXTRON SE N (AIXA.DU) stock price, news, quote and history"
     ],
     "AMD": [
       "Nvidia, Microsoft Partner Tests Breakout. Three Clues Bode Well.",
@@ -983,11 +983,11 @@
       "Advanced Micro Devices (AMD) Adds AI Inference Silicon With Taalas Acquisition",
       "Advanced Micro Devices to Buy Startup Taalas for New AI Chips",
       "Nvidia Stock: AMD Just Ramped Up the AI Chip Battle",
-      "AMD falls as investors demand bigger AI payoff",
       "AMD Earnings: Maintain $530 Fair Value Estimate as We’re Pleased With CPU and GPU Prospects",
       "AMD acquires Taalas to hardwire AI models into silicon",
       "Advanced Micro Devices vs. Arm: Which Tech Stock Is a Better Buy in 2026?",
-      "AMD Stock tumbles because of SpaceX"
+      "AMD Stock tumbles because of SpaceX",
+      "AMD’s Record Quarter Landed With A Margin Guide That Did Not Move"
     ],
     "IFX.DE": [
       "Infineon and MediaTek partner on automotive AI systems",
@@ -1012,15 +1012,15 @@
     ],
     "ANET": [
       "3 Reasons Why Growth Investors Shouldn't Overlook Arista Networks (ANET)",
+      "Stock Market Rally Powers Ahead; SpaceX, Palantir, Sandisk Are Key Earnings Movers: Weekly Review",
       "Is ANET Worth Buying Now or Waiting for a Better Entry Point?",
       "How Arista's New AI Platform Could Expand ANET's Growth Story",
-      "Arista Networks Stock Followed Its Chip Orders, Not Its Headlines",
-      "Why Is Arista Networks (ANET) Asking Bigger Questions After Its First $3 Billion Quarter?",
-      "Arista Books Its First $3 Billion Quarter, Stock Rises 10%",
-      "Arista Stock Jumps 5.2% as AI Networking Revenue Crushes Forecasts",
-      "Stock Market Rally Powers Ahead; SpaceX, Palantir, Sandisk Are Key Earnings Movers: Weekly Review",
-      "Company News for Aug 6, 2026",
       "ANET Jumps 30.1% in 3 Months: Can the Rally Continue?",
+      "5 High ROE Stocks to Buy as Oil Price Surge Hits Short-Term Rally",
+      "Arista Networks Stock Followed Its Chip Orders, Not Its Headlines",
+      "The New York Times Q2 Earnings Beat Estimates as Digital Ads Rise",
+      "Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?",
+      "Company News for Aug 6, 2026",
       "Memory is the new gold, says Arista Networks CEO Jayshree Ullal",
       "Stocks making the biggest moves after the bell: SpaceX, AMD, Pinterest, Arista Networks, Wynn Resorts & more",
       "Arista Networks Earnings: Supply Upside Drives a Big Raise to Guidance",
@@ -1032,18 +1032,17 @@
       "New Arista Network Price Target After $2.1 Billion Projection Boost"
     ],
     "ASML.AS": [
-      "ASML stock falls on reports of fresh competition from Chinese chipmaker",
-      "ASML Shares Slide",
-      "ASML Stock: Next Stop $3,000?",
-      "Beyond the Nvidia boom: portfolio manager likes AI stocks TSMC, ASML",
-      "Why ASML's sales forecast lift is a 'real vote of confidence' for the AI trade",
-      "ASML raises 2026 forecast, expands capacity on AI chip demand",
-      "ASML Holding's Next Earnings Report on July 15 Could Send the Stock Soaring",
-      "Here’s How Much Traders Expect ASML Stock to Move After Earnings",
-      "US Equity Investors to Focus on Banks Kicking Off Q2 Earnings, Warsh's Take on Inflation, Worsening Geopolitics This Week",
-      "Huge Earnings, Inflation Data and Other Key Things to Watch this Week",
-      "ASML and the West’s technology dilemma",
+      "Forget Taiwan Semiconductor: 2 AI Semiconductor Equipment Stocks to Buy and Hold Instead",
+      "Chinese AI Chipmakers Poised to Gain From Beijing’s Tech Push",
+      "PancakeSwap Expands Tokenized Equity Offerings with 10 New 'bStocks' on BNB Chain",
+      "Tesla's $16.8 Billion Chip Bet Could Create Several New Winners",
+      "Nuclear Utility Constellation Leads Nasdaq 100 After Earnings",
+      "European Indexes Rise as Earnings Drive Markets",
+      "Applied Materials Fell 11% Last Month: A Prominent Wall Street Pro Predicts 70% Gains Moving Forward",
       "Will ASML Split Its Stock This Year?",
+      "The Ultimate Bull Case for NVIDIA Is Here: Their Powerful B200 Systems Are Sold Out",
+      "Could ASML Holding N.V. (ASML) Be the Most Durable Winner From the AI Chip Boom?",
+      "ASML and the West’s technology dilemma",
       "If ASML Is Awesome Again, This ETF Could Surge",
       "Why ASML Stock Lost 18% in July",
       "Here’s How Much You Would Have Made Owning ASML Holding Stock In The Last 10 Years",
@@ -1054,26 +1053,26 @@
       "ASML and 21 More Stocks to Consider Buying Out of the AI Wreckage"
     ],
     "STX": [
-      "SpaceX, Honeywell Aerospace, Sandisk, D-Wave, Datadog, and More Stocks That Explain Today’s Market",
-      "Western Digital Sinks 16%, SanDisk Falls 11%, Micron Drops 6% as Memory Selloff Hits Storage Stocks",
+      "Jim Cramer Didn’t Think Seagate Technology Holdings plc (NASDAQ:STX)’s Earnings Were Bad",
+      "SK Hynix Drops 5% After Approving $38B in New Memory Fabs; Seagate Falls 7%, Micron Barely Dips",
+      "Tech Stocks Shake Off Another Memory Stock Slide",
       "Dow Jones Futures Rise As Cloudflare Leads Big Software Winners; Jobs Report On Tap",
       "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
+      "SpaceX, Honeywell Aerospace, Sandisk, D-Wave, Datadog, and More Stocks That Explain Today’s Market",
       "Buy 5 Top-Ranked Growth Stocks for August to Tap Market Rally",
       "Seagate (STX) Stock Fair Value Rises After Analysts Lift Storage Demand Assumptions",
-      "Western Digital shares fall as margin outlook tempers strong Q4 results",
-      "Western Digital Stock Tanks. An Earnings Beat Isn’t Enough These Days.",
-      "Why Western Digital Stock Is Tumbling Despite A Big Earnings Beat",
-      "Why Is Western Digital Stock Sinking Thursday?",
+      "Sandisk's Outlook Just Shook the Entire AI Memory Trade",
+      "Sandisk's Weak Guidance Sends AI Chip Stocks Tumbling",
       "Czech National Bank Boosts Stock Position in Seagate Technology Holdings PLC $STX",
+      "Seagate Fell 8% Today: Why the Market Is Ignoring the Record Backlog",
+      "Seagate Technology Holdings PLC Stock (STX) Moved Down by 8.62% on Aug 7: What Signal Does It Send?",
       "Seagate Technology Holdings PLC stock rises Tuesday, still underperforms market",
-      "Seagate Technology Holdings PLC Stock (STX) Moved Up by 3.53% on Aug 6",
-      "The Bull Case For Seagate Technology Holdings (STX) Could Change Following Strong Q4 Results And Upbeat Guidance",
+      "Seagate (STX) Heads To FMS 2026 With Its Tech Leaders In Focus",
       "Sanders Capital (STX) discloses 3.5M Seagate shares under 5% ownership level",
+      "The Bull Case For Seagate Technology Holdings (STX) Could Change Following Strong Q4 Results And Upbeat Guidance",
       "Seagate Technology Holdings (STX) Following Its Pullback Is The AI Storage Story Fully Valued",
       "Seagate Technology Holdings Insider Sold Shares Worth $10,380,838, According to a Recent SEC Filing",
-      "Seagate (STX) Stock Looks Below Fair Value While Earnings Look Fair",
-      "Seagate Technology (NASDAQ:STX) Trading 1.8% Higher - Time to Buy?",
-      "Seagate Technology Holdings PLC stock underperforms Monday when compared to competitors"
+      "Seagate (STX) Stock Looks Below Fair Value While Earnings Look Fair"
     ],
     "MU": [
       "Micron Stock Falls -- Apple Tests Chinese Memory Chips From Rising Rival",
@@ -1239,8 +1238,7 @@
       6,
       0,
       4,
-      3,
-      2
+      3
     ],
     "price_event": [
       3,
@@ -1290,19 +1288,19 @@
     "AIXA.DE": 40.3,
     "IFX.DE": 61.76,
     "ASML.AS": 1501.4,
-    "MU": 877.23,
-    "TSM": 420.08,
-    "KLAC": 198.79,
-    "STX": 823.48,
-    "ANET": 189.07,
-    "LRCX": 311.18,
-    "FORM": 118.4,
-    "AVGO": 426.98,
-    "AMAT": 541.09,
-    "AMD": 481.18,
-    "MRVL": 218.14,
-    "NVDA": 222.93,
-    "WDC": 439.05
+    "MU": 873.24,
+    "TSM": 418.82,
+    "KLAC": 196.76,
+    "STX": 818.53,
+    "ANET": 188.69,
+    "LRCX": 309.66,
+    "FORM": 117.0,
+    "AVGO": 425.44,
+    "AMAT": 537.41,
+    "AMD": 478.3,
+    "MRVL": 216.38,
+    "NVDA": 222.91,
+    "WDC": 436.65
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1328,8 +1326,8 @@
     "IFX.DE": "2026-08-05",
     "WDC": "2026-08-07"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29768801,
+  "next_pulse_interval": 43,
+  "last_pulse_post_min": 29768861,
   "eu_slots": [
     {
       "slot": 0,
