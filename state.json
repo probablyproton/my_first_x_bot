@@ -1,7 +1,7 @@
 {
   "date": "2026-08-07",
   "daily_posts": 0,
-  "daily_keyword_posts": 0,
+  "daily_keyword_posts": 1,
   "daily_pulse_posts": 0,
   "gemini_calls_today": 0,
   "evergreen_opinion_posts_today": 0,
@@ -63,9 +63,9 @@
     "KLAC": 1142,
     "TSM": 1322,
     "AMAT": 1322,
-    "WDC": 302
+    "WDC": 482
   },
-  "event_log_next_id": 240,
+  "event_log_next_id": 241,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -110,7 +110,7 @@
     "news_TSM": 1322,
     "IFX.DE": 724,
     "news_AMAT": 1322,
-    "news_WDC": 302,
+    "news_WDC": 482,
     "news_BESI.AS": 783,
     "news_IFX.DE": 964
   },
@@ -815,6 +815,7 @@
       "Stocks Settle Lower as Middle East Tensions Rise"
     ],
     "AVGO": [
+      "Is Broadcom the Best Chip Stock to Own Now? Maybe",
       "Where to Invest in AI in 2026: A Guide for Advisors",
       "Earn 14% On MRVL Stock Now, Or Own It 60% Cheaper Later",
       "Anthropic SPVs Stack $71 Billion in Chip-Lease Debt in 60 Days",
@@ -824,9 +825,7 @@
       "AMD's Record Quarter Landed With A Margin Guide That Did Not Move",
       "Microsoft vs. Broadcom: Two AI Powerhouses, One Better Investment",
       "What You Are Actually Underwriting In NVIDIA Stock",
-      "The 6.4% Monthly Payer That Beat JEPI by 8 Points With No NAV Bleed",
-      "Broadcom (AVGO) And Google’s $200 Billion AI Build Put Its Chip Role In Focus",
-      "Broadcom loses court bid to suspend EU antitrust request for US legal papers",
+      "Chipmaker Broadcom is breaking out. How Tony Zhang is trading it",
       "Broadcom updates VMware security for AI-era threats",
       "Broadcom, Nvidia Face Risk From China AI Component Ban - Broadcom (NASDAQ:AVGO), Advanced Micro Devices",
       "Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats",
@@ -834,6 +833,7 @@
       "Why Are Nvidia, Micron, AMD, Marvell, and Broadcom Stocks Rising Today? August 4",
       "Broadcom adds multi-tenant security and API protection to VMware, opens MSP opportunities",
       "VMware updates tout security and API armor against AI model threats",
+      "The Zacks Analyst Blog Highlights Broadcom, The Coca-Cola and Palantir",
       "My 12 Top-Ranked Stocks to Buy Now in August (2026)"
     ],
     "KLAC": [
@@ -847,14 +847,14 @@
       "KLA Corporation Cratered 40% Over The Last 30 Days: The Next 12 Months Will Bring 75% Returns According to One Wall Street Pro",
       "Bearish Pressure Is Building Around These 3 Stocks",
       "KLA (KLAC) Upgraded to Strong Buy: What Does It Mean for the Stock?",
-      "KLA Corporation (KLAC) Declares Quarterly Cash Dividend of $0.23 Per Share",
-      "KLA Corp | 10-K: Annual report",
-      "KLA Names Aug. 17 as Record Date for Its Quarterly Dividend",
       "5 Must-Read Analyst Questions From KLA Corporation’s Q2 Earnings Call",
-      "KLA declares quarterly dividend of $0.23 per share",
       "KLA CORP FY 2026: Revenue $13.58B, EPS $3.66— 10-K Summary",
       "KLA Corp. stock outperforms competitors despite losses on the day",
-      "KLA Q3 FY2026 slides: market share hits 58%, ambitious 2030 targets",
+      "KLA Declares Quarterly Dividend of $0.23 per Share After Giving Effect To Recent Stock Split; Payable Sept. 1, to Shareholders of Record Aug. 17",
+      "KLA Corp (KLAC) EVP Mary Beth Wilkinson sells 13,802 shares under 10b5-1 plan",
+      "KLA declares quarterly dividend of $0.23 per share By Investing.com",
+      "KLA Corp declares $0.23 quarterly dividend paya...",
+      "Fund Update: 30,010 KLA (KLAC) shares added to AMF Tjanstepension AB portfolio",
       "Stocks Waver on Mixed Earnings and Chipmaker Strength",
       "Stocks Finish Sharply Higher on Strong Earnings and Push to Reopen Hormuz"
     ],
@@ -958,11 +958,11 @@
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
-      "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
       "Aixtron (AIXA) Stock Price, News & Analysis",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Aixtron SE vs Veeco Instruments",
-      "AIXTRON SE N (AIXA.DU) stock price, news, quote and history"
+      "AIXTRON SE N (AIXA.DU) stock price, news, quote and history",
+      "Gallium nitride vertical-channel junction field-effect transistors"
     ],
     "AMD": [
       "Nvidia at $212: The No-Brainer Reason to Take Advantage of Nvidia Right Now",
@@ -1010,23 +1010,24 @@
     ],
     "ANET": [
       "Arista Networks Stock Followed Its Chip Orders, Not Its Headlines",
-      "Why Is Arista Networks (ANET) Asking Bigger Questions After Its First $3 Billion Quarter?",
-      "Arista Books Its First $3 Billion Quarter, Stock Rises 10%",
-      "Arista Stock Jumps 5.2% as AI Networking Revenue Crushes Forecasts",
-      "Why Arista Networks Stock Rallied Today",
-      "Arista Q2 Earnings Surpass Estimates on Solid Revenue Growth",
-      "Company News for Aug 6, 2026",
       "The New York Times Q2 Earnings Beat Estimates as Digital Ads Rise",
       "Is Arista Networks (ANET) Outperforming Other Computer and Technology Stocks This Year?",
+      "Company News for Aug 6, 2026",
+      "Why Is Arista Networks (ANET) Asking Bigger Questions After Its First $3 Billion Quarter?",
       "JPMorgan Resets Arista Stock Target After AI Surge",
+      "Arista Books Its First $3 Billion Quarter, Stock Rises 10%",
+      "Stock Market Today: Dow Scores Record As SpaceX Craters; SharkNinja Soars",
+      "The companies emerging as new leaders in this renewed AI rally",
+      "Arista Stock Jumps 5.2% as AI Networking Revenue Crushes Forecasts",
+      "Arista Networks Just Delivered Its First $3 Billion Quarter",
+      "Arista Networks Stock Surges as Earnings Prove AI Demand Is Real",
       "Stocks making the biggest moves after the bell: SpaceX, AMD, Pinterest, Arista Networks, Wynn Resorts & more",
-      "Arista Networks, Inc. Reports Second Quarter 2026 Financial Results",
-      "Arista Networks Stock Leads Fast Growth Picks With High Insider Ownership",
-      "Stock of the Week: Arista Networks—A Second-Tier Technology with Top-Tier Results",
-      "Arista Networks (NYSE:ANET) Trading Down 2.5% Following Insider Selling",
-      "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
-      "Arista Networks’ stock jumps on stellar earnings and revenue beat and strong forecast",
-      "Arista Networks Stock Climbs 25% On A 5-Day Winning Streak"
+      "Arista surges after Q2 results and outlook keep analysts bullish",
+      "Arista forecasts upbeat quarterly revenue on AI-driven networking demand",
+      "Arista Earnings: Supply Upside Drives a Big Raise to Guidance",
+      "New Arista Network Price Target After $2.1 Billion Projection Boost",
+      "Arista Earnings Beat. Cloud Networking Leader Hikes 2026 Sales Guidance.",
+      "Arista Networks Stock Investors Just Got Fantastic News From CEO Jayshree Ullal"
     ],
     "ASML.AS": [
       "Chinese AI Chipmakers Poised to Gain From Beijing’s Tech Push",
@@ -1114,106 +1115,6 @@
           "source": "dpa-international.com",
           "summary": "Siemens raised its full-year earnings outlook on Thursday after reporting a sharp increase in third-quarter profit, driven by record orders, stronger performance in its industrial businesses and US tariff refunds. Net income rose 15% to €2.",
           "published": "2026-08-06T06:18:27"
-        }
-      ]
-    },
-    {
-      "symbol": "WDC",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://stocktwits.com/news-articles/markets/equity/sndk-stock-edges-up-overnight-jefferies-slashes-price-target-by-nearly-50-on-memory-growth-concerns/cZoOAccRJJz?.tsrc=rss",
-      "source": "stocktwits.com",
-      "method": "keyword",
-      "published": "2026-08-07T03:57:08",
-      "queued_min": 29767981,
-      "all_articles": [
-        {
-          "headline": "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
-          "link": "https://stocktwits.com/news-articles/markets/equity/sndk-stock-edges-up-overnight-jefferies-slashes-price-target-by-nearly-50-on-memory-growth-concerns/cZoOAccRJJz?.tsrc=rss",
-          "source": "stocktwits.com",
-          "summary": "SanDisk and Western Digital stocks inched higher overnight after two days of sharp losses, but analysts say moderating growth is beginning to raise red flags.",
-          "published": "2026-08-07T03:57:08"
-        },
-        {
-          "headline": "Stock Market Today, Aug. 6: Datadog Plummets 19%, Leading Software Stock Slide",
-          "link": "https://www.fool.com/coverage/stock-market-today/2026/08/06/stock-market-today-aug-6-datadog-plummets-19-leading-software-stock-slide/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Today, Aug. 6, 2026, software and cloud names tumbled as investors question valuations while geopolitical tensions added fresh headwinds.",
-          "published": "2026-08-06T22:04:36"
-        },
-        {
-          "headline": "Western Digital Stock Drops 11% Despite 44% Revenue Surge",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-stock-drops-11-211410579.html?.tsrc=rss",
-          "source": null,
-          "summary": "Western Digital delivered expanding margins and strong guidance, but extraordinary expectations left little tolerance for an ordinary beat.",
-          "published": "2026-08-06T21:14:10"
-        },
-        {
-          "headline": "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
-          "link": "https://finance.yahoo.com/m/cc4bce1f-18fb-31cf-84fe-ebe8d5450eb5/micron-pares-most-of-its.html?.tsrc=rss",
-          "source": null,
-          "summary": "Shares dipped and then recovered after Sandisk and Western Digital failed to deliver the sort of knockout guidance investors are used to.",
-          "published": "2026-08-06T20:59:00"
-        },
-        {
-          "headline": "Stock Market Today: Dow Sinks 464 Points, But Chip Firm Surges; Microsoft Surpasses Buy Zone (Live Coverage)",
-          "link": "https://finance.yahoo.com/m/786ee4d7-d4c1-31a2-876f-42e58d681c63/stock-market-today%3A-dow-sinks.html?.tsrc=rss",
-          "source": null,
-          "summary": "Stock Market Today: The Dow Jones index ends lower Thursday, as does the Nasdaq composite. Sandisk and Western Digital slump.",
-          "published": "2026-08-06T20:58:05"
-        },
-        {
-          "headline": "Sandisk Earnings Were So Much Better Than Expected. Why the Stock Is Dropping Anyway.",
-          "link": "https://finance.yahoo.com/m/1b53b2c0-2a97-33a2-9ad0-71d1341b42cf/sandisk-earnings-were-so-much.html?.tsrc=rss",
-          "source": null,
-          "summary": "Sandisk stock falls Thursday after a disappointing outlook from the memory maker seemed to overshadow strong fourth-quarter results.",
-          "published": "2026-08-06T19:28:00"
-        },
-        {
-          "headline": "Western Digital (WDC) Stock May Be 49% Undervalued After AI Storage Deal Talks",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-stock-may-191055945.html?.tsrc=rss",
-          "source": null,
-          "summary": "Western Digital stock has posted a very large 3 year return while current valuation checks suggest the shares still screen as undervalued on both intrinsic value and market multiple views. After a sharp pullback in recent weeks and fresh news around long term AI storage demand, investors are weighing how much of the story is already reflected in the current price. Over the past 3 years, Western Digital has delivered a very large total return, which puts a lot of focus on whether the current...",
-          "published": "2026-08-06T19:10:55"
-        },
-        {
-          "headline": "SpaceX, Honeywell Aerospace, Sandisk, D-Wave, Datadog, and More Stocks That Explain Today’s Market",
-          "link": "https://finance.yahoo.com/m/5568b857-6a34-35d8-b75b-382bd81ef107/spacex%2C-honeywell-aerospace%2C.html?.tsrc=rss",
-          "source": null,
-          "summary": "Up to 911.5 million shares of SpaceX that are held by insiders and early investors are available to trade beginning Thursday.",
-          "published": "2026-08-06T17:59:00"
-        },
-        {
-          "headline": "AI storage stocks crash: is capital rotating?",
-          "link": "http://videos.coindesk.com/previews/I5SDPWqU?.tsrc=rss",
-          "source": "videos.coindesk.com",
-          "summary": "Sandisk and Western Digital both fell despite record quarterly results, a sign the AI trade may be stalling. With gold climbing and bitcoin holding above $64,000, is this a sign that traders are seeing capital rotating back toward crypto? CoinDesk's Jennifer Sanasie hosts \"CoinDesk Daily.\"",
-          "published": "2026-08-06T17:36:46"
-        },
-        {
-          "headline": "Sandisk's Outlook Just Shook the Entire AI Memory Trade",
-          "link": "https://finance.yahoo.com/technology/ai/articles/sandisks-outlook-just-shook-entire-170146630.html?.tsrc=rss",
-          "source": null,
-          "summary": "Western Digital, Micron, SK Hynix and Samsung also moved lower.",
-          "published": "2026-08-06T17:01:46"
-        },
-        {
-          "headline": "Western Digital Stock Tanks. An Earnings Beat Isn’t Enough These Days.",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQd3NLQVNNbmFhTkdKOGEyWnpkdFpEZVNWTE10VlhzanByRHFwcnFRelFBaHhxcTFSUkFWcm5pWUF1RkY5MnFDUHpMMjVucG5BeU5rWjdiRmVSWUFyV0RJYzVRbWNfUkpYWGNjM3ZTUXpkcjZNdzNfbU0wcTBPamRKNHUyV3p2enU2eGc?oc=5",
-          "source": "barrons.com",
-          "summary": "",
-          "published": "2026-08-06T16:11:00"
-        },
-        {
-          "headline": "Stocks Settle Lower as Middle East Tensions Rise",
-          "link": "https://www.nasdaq.com/articles/stocks-settle-lower-middle-east-tensions-rise",
-          "source": "Barchart",
-          "summary": "The S&P 500 Index ($SPX ) (SPY ) closed down -0.18% on Thursday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed down -0.85%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down -0.39%. September E-mini S&P futures (ESU26 ) fell -0.18%, and September E-mini Nasdaq futures...",
-          "published": "2026-08-07T03:43:51"
         }
       ]
     }
@@ -1305,7 +1206,8 @@
       "analyst_note": 1322
     },
     "WDC": {
-      "earnings": 302
+      "earnings": 302,
+      "analyst_note": 482
     },
     "BESI.AS": {
       "analyst_note": 783
@@ -1316,13 +1218,13 @@
   },
   "recent_post_sources": [
     "DatacenterDynamics",
-    "DatacenterDynamics",
     "Investing.com Canada",
     "Moomoo",
     "marketscreener.com",
-    "DatacenterDynamics"
+    "DatacenterDynamics",
+    "stocktwits.com"
   ],
-  "last_news_post_min": 29767084,
+  "last_news_post_min": 29768042,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
