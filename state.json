@@ -2,8 +2,8 @@
   "date": "2026-08-07",
   "daily_posts": 0,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 3,
-  "gemini_calls_today": 9,
+  "daily_pulse_posts": 4,
+  "gemini_calls_today": 10,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 482
   },
-  "event_log_next_id": 245,
+  "event_log_next_id": 246,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -324,15 +324,15 @@
       "Macnica Invests in Malaysia's Leading Digital Transformation Company, Orangeleaf Consulting, to Expand Digital Transformation Services for Japan's Manufacturing Industry",
       "Resilience and Digital Transformation Spearhead the Energy Infrastructure Transition",
       "Siemens Energy AG (ENR.F) stock price, news, quote and history",
-      "SIEMENS AG N (SIE.DU) Q3 FY2026 earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy AG N (ENR.DE) Q3 FY2026 earnings call transcript",
+      "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility"
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
+      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -795,14 +795,14 @@
     "WDC": [
       "US Jobs Report in Focus as Middle East Tensions and Corporate News Shape Markets: Dow Jones, S&P, Nasdaq, Wall Street Futures",
       "SNDK, WDC Rout Tests Chip Rally — Roundhill CEO Says ‘Beat And Raise Is Not Enough’ As Investors Return To NVDA",
-      "Western Digital Stock Drops 11% Despite 44% Revenue Surge",
-      "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
-      "Western Digital (WDC) Stock May Be 49% Undervalued After AI Storage Deal Talks",
-      "SpaceX, Honeywell Aerospace, Sandisk, D-Wave, Datadog, and More Stocks That Explain Today’s Market",
+      "Earnings Have Been Excellent. Why Stocks Aren’t Showing It.",
       "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
       "Stock Market Today, Aug. 6: Datadog Plummets 19%, Leading Software Stock Slide",
+      "Western Digital Stock Drops 11% Despite 44% Revenue Surge",
+      "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
       "Stock Market Today: Dow Sinks 464 Points, But Chip Firm Surges; Microsoft Surpasses Buy Zone (Live Coverage)",
       "Sandisk Earnings Were So Much Better Than Expected. Why the Stock Is Dropping Anyway.",
+      "Western Digital (WDC) Stock May Be 49% Undervalued After AI Storage Deal Talks",
       "Western Digital Stock Tanks. An Earnings Beat Isn’t Enough These Days.",
       "Western Digital Corp (WDC) (Q4 2026) Earnings Call Highlights: R",
       "Western Digital Sinks 16%, SanDisk Falls 11%, Micron Drops 6% as Memory Selloff Hits Storage Stocks",
@@ -812,9 +812,10 @@
       "Sandisk and Western Digital Are Set to Report Earnings Soon. Here’s What to Expect",
       "Western Digital Beats Q4 Estimates, Stock Falls on Guidance",
       "Western Digital Corp reports results for the quarter ended June 30 - Earnings Summary",
-      "WDC Earnings: Western Digital Stock Falls 10% Despite Strong Financial Results"
+      "Stocks Settle Lower as Middle East Tensions Rise"
     ],
     "AVGO": [
+      "AI Chips Update - AMD Advances AI Strategy With Taalas Acquisition",
       "Is Broadcom the Best Chip Stock to Own Now? Maybe",
       "Where to Invest in AI in 2026: A Guide for Advisors",
       "Earn 14% On MRVL Stock Now, Or Own It 60% Cheaper Later",
@@ -824,10 +825,9 @@
       "Qualcomm's Largest Revenue Line Is Shrinking From Both Sides",
       "AMD's Record Quarter Landed With A Margin Guide That Did Not Move",
       "Microsoft vs. Broadcom: Two AI Powerhouses, One Better Investment",
-      "What You Are Actually Underwriting In NVIDIA Stock",
       "Chipmaker Broadcom is breaking out. How Tony Zhang is trading it",
-      "Broadcom, Nvidia Face Risk From China AI Component Ban - Broadcom (NASDAQ:AVGO), Advanced Micro Devices",
       "Broadcom updates VMware security for AI-era threats",
+      "Broadcom, Nvidia Face Risk From China AI Component Ban - Broadcom (NASDAQ:AVGO), Advanced Micro Devices",
       "Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats",
       "Why Are Nvidia, Micron, AMD, Marvell, and Broadcom Stocks Rising Today? August 4",
       "Broadcom adds multi-tenant security and API protection to VMware, opens MSP opportunities",
@@ -876,9 +876,9 @@
       "An Analysis of SAP SE (SAP) in the AI Transition Era",
       "SAP Quarterly Statement Q2 2026",
       "SAP SE-SPONSORED ADR (NYSE:SAP): A Quality Stock with Superior Capital Efficiency and Strong Cash Generation",
-      "SAP Slides Ahead of Q2 Results as Investors Brace for High Expectations",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
-      "SAP edges up after Q2 financial results feature strong cloud growth"
+      "SAP Slides Ahead of Q2 Results as Investors Brace for High Expectations",
+      "SAP SE (SAP) Shares Surge 3.3% -- What GF Score of 81 Tells Inve"
     ],
     "BESI.AS": [
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
@@ -958,11 +958,12 @@
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
-      "AIXTRON SE N (AIXA.DU) Stock Price, News, Quote & History",
-      "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
       "Aixtron (AIXA) Stock Price, News & Analysis",
       "Aixtron SE vs Veeco Instruments",
-      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe"
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "IQE plc (IQE.L) stock price, news, quote and history",
+      "Polarization-engineered high mobility of two-dimensional hole gas in GaN",
+      "IQE plc (IQE.L) Stock Price, News, Quote & History"
     ],
     "AMD": [
       "Nvidia at $212: The No-Brainer Reason to Take Advantage of Nvidia Right Now",
@@ -1221,7 +1222,14 @@
     "evergreen": [
       2
     ],
-    "mover": [],
+    "mover": [
+      3,
+      5,
+      4,
+      1,
+      6,
+      2
+    ],
     "price_event": [],
     "quiet": [
       0,
@@ -1235,8 +1243,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 303.65,
-    "SIE.DE": 279.8,
+    "SU.PA": 304.17,
+    "SIE.DE": 279.7,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1262,11 +1270,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 176.64,
-    "BESI.AS": 220.7,
-    "AIXA.DE": 40.43,
-    "IFX.DE": 62.37,
-    "ASML.AS": 1511.2,
+    "SAP.DE": 175.76,
+    "BESI.AS": 221.2,
+    "AIXA.DE": 40.46,
+    "IFX.DE": 62.32,
+    "ASML.AS": 1513.2,
     "MU": 902.75,
     "TSM": 422.54,
     "KLAC": 196.34,
@@ -1304,8 +1312,8 @@
     "KLAC": "2026-08-04",
     "IFX.DE": "2026-08-05"
   },
-  "next_pulse_interval": 37,
-  "last_pulse_post_min": 29768361,
+  "next_pulse_interval": 40,
+  "last_pulse_post_min": 29768400,
   "eu_slots": [
     {
       "slot": 0,
