@@ -2,8 +2,8 @@
   "date": "2026-08-10",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 0,
-  "gemini_calls_today": 3,
+  "daily_pulse_posts": 1,
+  "gemini_calls_today": 4,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 270,
+  "event_log_next_id": 271,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -329,10 +329,10 @@
       "SIEMENS AG N (SIE.F) Q3 FY2026 earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
-      "SIEMENS AG N (SIE.DU) Q3 FY2026 (Media) earnings call transcript",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "SIEMENS AG N (SIE.DU) Q3 FY2026 (Media) earnings call transcript",
       "Siemens Achieves $1B in U.S. Manufacturing Investments",
       "Siemens Energy AG N (ENR.F) Q3 FY2026 earnings call transcript"
     ],
@@ -795,42 +795,44 @@
       "3 Stocks to Buy as AI Infrastructure Continues to Surge"
     ],
     "WDC": [
+      "Sandisk Has Surged More Than 3,000% in 12 Months. Is a Stock Split Coming?",
+      "MU Outpaced SNDK, WDC This Week: Now, Retail Traders Bet On Outlook Raise At Key Analyst Event",
+      "Don’t Assume Micron Will Share SanDisk’s Fate",
+      "Memory Sector Stocks Are Down 30% or More From Their Highs, But These 2 Are Worth Buying Now",
+      "Western Digital Says AI Customers Are Already Negotiating Storage Deals Through 2031: 'Visibility Remains Very Strong'",
+      "BofA resets its Western Digital target after mixed signal",
+      "A Volatile Week for Tech Revealed New Stock Narratives—and 1 Bargain",
       "Tech Stocks Shake Off Another Memory Stock Slide",
       "Can MU Stock Compound Its Way Higher?",
       "US Jobs Report in Focus as Middle East Tensions and Corporate News Shape Markets: Dow Jones, S&P, Nasdaq, Wall Street Futures",
-      "SNDK, WDC Rout Tests Chip Rally — Roundhill CEO Says ‘Beat And Raise Is Not Enough’ As Investors Return To NVDA",
-      "Earnings Have Been Excellent. Why Stocks Aren’t Showing It.",
-      "SNDK Stock Edges Up Overnight: Jefferies Slashes Price Target By Nearly 50% On Memory Growth Concerns",
-      "Stock Market Today, Aug. 6: Datadog Plummets 19%, Leading Software Stock Slide",
-      "Western Digital Stock Drops 11% Despite 44% Revenue Surge",
-      "Micron Pares Most of Its Losses Even as Other Memory Stocks Reel",
-      "Stock Market Today: Dow Sinks 464 Points, But Chip Firm Surges; Microsoft Surpasses Buy Zone (Live Coverage)",
-      "Western Digital Sinks 16%, SanDisk Falls 11%, Micron Drops 6% as Memory Selloff Hits Storage Stocks",
-      "Western Digital: When A Cyclical Is Priced As A Compounder (NASDAQ:WDC)",
-      "Nasdaq Futures Slip as Western Digital and Sandisk Sink on Disappointing Guidance",
-      "Sandisk earnings impact on Micron, Western Digital, and Seagate",
-      "Sandisk and Western Digital Are Set to Report Earnings Soon. Here’s What to Expect",
       "Why Is Western Digital Stock Sinking Thursday?",
-      "Buy Western Digital (WDC) Stock as Q4 Earnings Approach?",
-      "Western Digital's AI Rally Just Hit a Much Higher Bar",
-      "Western Digital Q4 Earnings Beat as Revenue Jumps 44% on Cloud Demand",
-      "Western Digital shares fall as margin outlook tempers strong Q4 results"
+      "Western Digital Corporation 2026 Q4 - Results - Earnings Call Presentation (NASDAQ:WDC) 2026-08-06",
+      "Western Digital Corporation $WDC is UNICOM Systems Inc.'s 9th Largest Position",
+      "Western Digital Corporation Stock 12‑Month Price Target Raised to $671.57, Implies 29% Upside",
+      "Western Digital Fell 20% This Week. Here’s What Could Drive Shares in 2026",
+      "GUIDANCE: (WDC) Western Digital Corporation Expects Q1 Adjusted EPS Range $3.85 - $4.15",
+      "Cardano Risk Management B.V. Takes Position in Western Digital Corporation $WDC",
+      "Western Digital: Watch For Technological Threats Following Post-Earnings Sell-Off (NASDAQ:WDC)",
+      "Western Digital Corp (WDC) (Q4 2026) Earnings Call Highlights: Record Revenue and EPS Soar on ...",
+      "Western Digital Stock Slumps 9% as Current Quarter Projections Underwhelm Traders"
     ],
     "AVGO": [
-      "A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028",
-      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
-      "Top Semiconductor Stock Outpacing Nvidia With a 36% Gain Over 6 Months",
-      "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
       "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
-      "Nvidia, Micron or Broadcom: What Would Raymond Dalio Do?",
-      "Alphabet CEO Sundar Pichai Just Made a Decision That Could Move Nvidia and Broadcom Stock",
       "Does Broadcom (AVGO) Now Lead The Biggest AI Infrastructure Spend Outside GPUs?",
       "Broadcom Vs. Nvidia: The Real Challenger and Champion Story in Chips",
       "Why Broadcom Inc. (AVGO) Outpaced the Stock Market Today",
+      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
+      "Alphabet CEO Sundar Pichai Just Made a Decision That Could Move Nvidia and Broadcom Stock",
+      "A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028",
+      "Forget VFIAX: Vanguard Sells You the Same S&P 500 Fund Without the $3,000 Toll, or the $75 Fee Fidelity Charges to Buy It",
+      "Nvidia, Micron or Broadcom: What Would Raymond Dalio Do?",
+      "The Toughest Questions AMD Faced On Its Latest Call",
       "Broadcom Will Survive the AI Bubble, But Everyone Else Won't",
       "Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats",
       "Is Broadcom the Best Chip Stock to Own Now? Maybe",
       "Prediction: Sandisk Will Reclaim Its All-Time High by the End of the Year",
+      "Top Semiconductor Stock Outpacing Nvidia With a 36% Gain Over 6 Months",
+      "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
       "Beyond NVIDIA and GPUs: The Next AI & Quantum Winners Leading 2026",
       "Notable Friday Option Activity: MSFT, MCHP, AVGO",
       "AMD Drops 6% Post Q2 Earnings: Is the Stock a Buy on the Dip?",
@@ -1123,6 +1125,58 @@
           "published": "2026-08-09T05:37:16"
         }
       ]
+    },
+    {
+      "symbol": "WDC",
+      "classification": {
+        "symbol": "WDC",
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "Cardano Risk Management B.V. Takes Position in Western Digital Corporation $WDC",
+        "reason": "A named institution, Cardano Risk Management B.V., has taken a position in Western Digital Corporation, which qualifies as a large share purchase."
+      },
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTUdmTEVFNnZ5WUQ3SVotai1UcXVwTTZYcE1LZXRpdTdmOURlaXdmNURNNktUaFY2U0JTVnF5Y04zWlNXRGhIbFRDd2NXWlNsZ0l5cXAzSDlldnJHeHdYbF9FN0xOVlZyd2dxdWJxeGN4ZGo3M3B1OGlQLUhtdWd5UUh4ZGNOMVZrTllpSG5qZERyX0pUWnZUUTB2UkZScGZhTnRucUs5OUxOM1Z2UVY1NE51T3UxMWpsS2ItSlRLaGcxa0N3dkhtUzBzLVYxakJSNzNV?oc=5",
+      "source": "MarketBeat",
+      "method": "gemini",
+      "published": "2026-08-09T08:27:42",
+      "queued_min": 29772441,
+      "all_articles": [
+        {
+          "headline": "Sandisk Has Surged More Than 3,000% in 12 Months. Is a Stock Split Coming?",
+          "link": "https://www.fool.com/investing/2026/08/09/sandisk-has-surged-more-than-3000-in-12-months-is/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Sandisk's meteoric rise has some wondering if a stock split is next, but the bigger story is whether its AI-fueled momentum can keep powering the rally.",
+          "published": "2026-08-10T02:35:00"
+        },
+        {
+          "headline": "MU Outpaced SNDK, WDC This Week: Now, Retail Traders Bet On Outlook Raise At Key Analyst Event",
+          "link": "https://stocktwits.com/news-articles/markets/equity/mu-outpaced-sndk-wdc-this-week-now-retail-traders-bet-on-outlook-raise-at-key-analyst-event/cZojBFpRJam?.tsrc=rss",
+          "source": "stocktwits.com",
+          "summary": "Micron executives are scheduled to present at a Keybanc analyst event on Monday.",
+          "published": "2026-08-10T02:09:24"
+        },
+        {
+          "headline": "Don’t Assume Micron Will Share SanDisk’s Fate",
+          "link": "https://www.barchart.com/story/news/3745065/dont-assume-micron-will-share-sandisks-fate-here-s-why?.tsrc=rss",
+          "source": "barchart.com",
+          "summary": "Micron has been caught in the memory sell-off, but its AI-driven business makes it a different story.",
+          "published": "2026-08-09T15:00:02"
+        },
+        {
+          "headline": "Memory Sector Stocks Are Down 30% or More From Their Highs, But These 2 Are Worth Buying Now",
+          "link": "https://www.fool.com/investing/2026/08/09/memory-sector-stock-down-from-high-buy/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Rather than chasing the biggest AI memory winners, investors may find better long-term opportunities in discounted companies like Western Digital and Silicon Motion.",
+          "published": "2026-08-09T13:15:00"
+        },
+        {
+          "headline": "Cardano Risk Management B.V. Takes Position in Western Digital Corporation $WDC",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTUdmTEVFNnZ5WUQ3SVotai1UcXVwTTZYcE1LZXRpdTdmOURlaXdmNURNNktUaFY2U0JTVnF5Y04zWlNXRGhIbFRDd2NXWlNsZ0l5cXAzSDlldnJHeHdYbF9FN0xOVlZyd2dxdWJxeGN4ZGo3M3B1OGlQLUhtdWd5UUh4ZGNOMVZrTllpSG5qZERyX0pUWnZUUTB2UkZScGZhTnRucUs5OUxOM1Z2UVY1NE51T3UxMWpsS2ItSlRLaGcxa0N3dkhtUzBzLVYxakJSNzNV?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-09T08:27:42"
+        }
+      ]
     }
   ],
   "holding_disclosures_seen": {
@@ -1265,8 +1319,7 @@
     "mover": [
       6,
       0,
-      4,
-      3
+      4
     ],
     "price_event": [
       3,
@@ -1284,8 +1337,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 304.25,
-    "SIE.DE": 280.65,
+    "SU.PA": 305.75,
+    "SIE.DE": 278.05,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1311,11 +1364,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 178.92,
-    "BESI.AS": 221.7,
-    "AIXA.DE": 40.3,
-    "IFX.DE": 61.76,
-    "ASML.AS": 1501.4,
+    "SAP.DE": 177.52,
+    "BESI.AS": 224.7,
+    "AIXA.DE": 41.07,
+    "IFX.DE": 63.51,
+    "ASML.AS": 1525.2,
     "MU": 878.87,
     "TSM": 419.93,
     "KLAC": 198.14,
@@ -1355,7 +1408,7 @@
     "WDC": "2026-08-07"
   },
   "next_pulse_interval": 43,
-  "last_pulse_post_min": 29768861,
+  "last_pulse_post_min": 29772441,
   "eu_slots": [
     {
       "slot": 0,
@@ -1370,7 +1423,9 @@
       "fire_time": "17:58"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
