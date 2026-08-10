@@ -2,8 +2,8 @@
   "date": "2026-08-10",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 3,
-  "gemini_calls_today": 8,
+  "daily_pulse_posts": 4,
+  "gemini_calls_today": 9,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 273,
+  "event_log_next_id": 275,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -317,14 +317,14 @@
     "SIE.DE": [
       "Siemens Stock Falls 5% Despite Record AI-Fueled Industrial Profit",
       "Siemens AG (SIEGY) (Q3 2026) Earnings Call Highlights: Record Orders and Raised Guidance Signal ...",
+      "ARC Advisory Group Positions Trace One as a Major Player in the 2026 MarketMap for Formulation Technologies",
+      "Siemens (XTRA:SIE) Could Be 10% Undervalued On Record Q3 And Guidance Upgrade",
+      "European Indexes Rise as Earnings Drive Markets",
       "Siemens shares plunge on disappointing guidance raise",
-      "Siemens lifts full-year forecast after record orders in third quarter",
+      "Siemens Aktiengesellschaft Q3 Earnings Call Highlights",
       "Siemens Is Winning Customers in China, CEO Says",
-      "Energy and Utilities Analytics Market Surges to $10.10 billion at a CAGR 10.6% by 2031 | Report by MarketsandMarkets™",
-      "Siemens and Tulip Emerge as Leaders as AI in MES Prioritizes Trust, Governance, and Human Oversight",
+      "Macnica Invests in Malaysia's Leading Digital Transformation Company, Orangeleaf Consulting, to Expand Digital Transformation Services for Japan's Manufacturing Industry",
       "Resilience and Digital Transformation Spearhead the Energy Infrastructure Transition",
-      "CXO Summit Opens Sponsorship Opportunities for Enterprise Leaders",
-      "What Multibillion Dollar Industrial AI Deals Say About The Market",
       "Siemens Healthineers AG (SHL.DE) Stock Price, News, Quote & History",
       "SIEMENS AG N (SIE.F) Q3 FY2026 earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
@@ -723,9 +723,9 @@
       "Marvell Technology, Inc. Reports First Quarter of Fiscal Year 2027 Financial Results",
       "Marvell stock soars 32% as Nvidia's Huang says it could be the next trillion-dollar company",
       "Marvell to Invest $250 Million in India, Expanding Bangalore Facility to Drive Next-generation AI Technology Development",
-      "Marvell Technology, Inc. $MRVL Shares Sold by NewEdge Advisors LLC",
+      "StoneCrest Wealth Management Inc. Invests $2.98 Million in Marvell Technology, Inc. $MRVL",
       "Marvell Technology, Inc. Announces Conference Call to Review Second Quarter of Fiscal Year 2027 Financial Results; Announces Investor Day on October 6, 2026",
-      "Marvell Technology stock: what analysts expect ahead of earnings",
+      "Marvell Shares Rise 4% After Key Trading Signal",
       "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears"
     ],
     "FORM": [
@@ -838,17 +838,17 @@
     ],
     "KLAC": [
       "KLA Corporation Has Had a Rough Month: A Wall Street Pro Sees 70% Upside Because of It",
-      "KLA (KLAC) Stock Looks Fully Valued After Its Huge Run",
       "AI Boom: Top Stocks to Consider for Your Portfolio",
       "Tesla-SpaceX Terafab Bet: 4 Chip Equipment Stocks That Could Benefit",
       "KLA Declares Regular Cash Dividend",
       "Applied Materials Fell 11% Last Month: A Prominent Wall Street Pro Predicts 70% Gains Moving Forward",
+      "KLA (KLAC) Stock Looks Fully Valued After Its Huge Run",
       "Teradyne Is Overvalued at 10.36X PS: Should You Still Buy the Stock?",
       "Lam Research Plunges 16% in a Month: Should You Still Buy the Stock?",
       "How KLA Went From Cheaper Than Teradyne To The Pricier Stock",
       "BofA’s $1.18T cloud forecast puts 3 chip stocks in focus",
+      "Valeo Financial Advisors LLC Purchases 5,655 Shares of KLA Corporation $KLAC",
       "5 Must-Read Analyst Questions From KLA Corporation’s Q2 Earnings Call",
-      "Norway Savings Bank Purchases 13,589 Shares of KLA Corporation $KLAC",
       "KLA Stock Gains Amid Broad Semiconductor Rally, AI Demand",
       "KLA Corp (KLAC) insider plans $475K sale after restricted stock vests",
       "Fund Update: 1,209,718 KLA (KLAC) shares added to Fiera Capital Corp portfolio",
@@ -859,16 +859,16 @@
       "Stocks Rally on Earnings and Fed-Friendly US Payroll Report"
     ],
     "SAP.DE": [
-      "SAP loosens ERP maintenance and support rules",
-      "SAP (XTRA:SAP) Stock Looks Below Fair Value Despite AI Hopes",
-      "Palantir Expands SAP Transformation Push With SNP Partnership",
-      "Is SAP SE (SAP) A Good Stock To Buy Now?",
-      "Why SAP (XTRA:SAP) Is Up 7.1% After AI-Focused Overhaul And New Consumption-Based Pricing",
-      "SAP Celebrates America's 250th with Investment in the Next Generation",
-      "SAP SE (SAP) Among Jefferies’ Top European Software Stock Picks",
-      "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
-      "Is SAP SE (SAP) Positioned to Benefit from AI?",
-      "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
+      "FUJIY Q1 Earnings Fall Y/Y on Bio CDMO Costs, Revenues Rise",
+      "ARC Advisory Group Positions Trace One as a Major Player in the 2026 MarketMap for Formulation Technologies",
+      "Khimji Ramdas Group Chooses Rimini Street to Reduce SAP Support Costs, Protect 700+ Customizations and Reinvest Savings in Innovation",
+      "Ironclad Launches AI Agents to Help Procurement Teams Save Money, Move Faster, and Manage Risk",
+      "Connected Talent Solutions™ from Match2 Now Available on SAP® Store",
+      "Analysis-Europe's established tech firms emerge as unexpected AI winners",
+      "SAP (XTRA:SAP) Launches AI Agent Hub As AI Governance Reaches The Boardroom",
+      "Loftware and RiseNow Partner to Accelerate Supply Chain Performance and Compliance",
+      "Tungsten Automation Appoints Gopi Kalahasthy as Chief Revenue Officer",
+      "Rimini Street Launches Rimini Govern™ for AI to Deliver Comprehensive AI Agent Governance, Security & Interoperability as a Service",
       "SAP SE (SAP.DE) Stock Price, News, Quote & History",
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
       "SAP SE Stock (SAP) Moved Up by 3.66% on Aug 7: Facts Behind the Movement",
@@ -1010,23 +1010,21 @@
       "Q4 2025 Infineon Technologies AG Earnings Call Transcript"
     ],
     "ANET": [
-      "3 Reasons Why Growth Investors Shouldn't Overlook Arista Networks (ANET)",
-      "Is ANET Worth Buying Now or Waiting for a Better Entry Point?",
-      "How Arista's New AI Platform Could Expand ANET's Growth Story",
-      "Arista Networks Stock Followed Its Chip Orders, Not Its Headlines",
       "Adobe vs. Arista Networks: Which Technology Stock Is a Better Buy in 2026?",
-      "Stock Market Rally Powers Ahead; SpaceX, Palantir, Sandisk Are Key Earnings Movers: Weekly Review",
-      "Company News for Aug 6, 2026",
+      "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Arista Networks (ANET) Stock Could Stay Grounded On Fresh AI Demand News",
       "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Arista Beats Views",
       "Cisco Stock Is Finally Pricing In A New Growth Story",
-      "Arista Networks: Nice Growth; Don't Buy It (NYSE:ANET)",
       "Top Stock Reports for SpaceX, Arista Networks & Boeing",
+      "3 Reasons Why Growth Investors Shouldn't Overlook Arista Networks (ANET)",
+      "Stock Market Rally Powers Ahead; SpaceX, Palantir, Sandisk Are Key Earnings Movers: Weekly Review",
+      "Is ANET Worth Buying Now or Waiting for a Better Entry Point?",
+      "How Arista's New AI Platform Could Expand ANET's Growth Story",
+      "Arista Networks: Nice Growth; Don't Buy It (NYSE:ANET)",
       "Arista Networks’ AI-Fueled Earnings Call Signals Upbeat Path",
       "Arista Networks Earnings: Supply Upside Drives a Big Raise to Guidance",
       "Stocks making the biggest moves after the bell: SpaceX, AMD, Pinterest, Arista Networks, Wynn Resorts & more",
       "Arista Networks Just Delivered Its First $3 Billion Quarter",
-      "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Arista Networks Insider Sold Shares Worth $60,989,688, According to a Recent SEC Filing"
     ],
     "ASML.AS": [
@@ -1097,36 +1095,6 @@
   },
   "pending_news_posts": [
     {
-      "symbol": "FORM",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "Assenagon Asset Management S.A. Cuts Stake in FormFactor, Inc. $FORM",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVmFnTnVjc1Zmd0h6Z2JzZWpDRjc3eFVNT0xWM0tYVGM4UTFDQlh0SnoyMkdPY0dYcXhyTllzZTRHNVVnRFRFdS1XNURzWjBld0tWNWppNTFvMWhqeVY2YTUxSkRkemVqVzZRdVZVNEw0V1hfNExaZWZUOEU1ZVB2NFphWjkxS0hIVmc3S0tibDNrNktEV0xjQ1gyV250VlEyWldwZGh3LVBZYlJvUjBIbFpWQ0NvU0kxZXpnZkhFNVljdw?oc=5",
-      "source": "MarketBeat",
-      "method": "keyword",
-      "published": "2026-08-09T08:13:42",
-      "queued_min": 29772221,
-      "all_articles": [
-        {
-          "headline": "Assenagon Asset Management S.A. Cuts Stake in FormFactor, Inc. $FORM",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVmFnTnVjc1Zmd0h6Z2JzZWpDRjc3eFVNT0xWM0tYVGM4UTFDQlh0SnoyMkdPY0dYcXhyTllzZTRHNVVnRFRFdS1XNURzWjBld0tWNWppNTFvMWhqeVY2YTUxSkRkemVqVzZRdVZVNEw0V1hfNExaZWZUOEU1ZVB2NFphWjkxS0hIVmc3S0tibDNrNktEV0xjQ1gyV250VlEyWldwZGh3LVBZYlJvUjBIbFpWQ0NvU0kxZXpnZkhFNVljdw?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-09T08:13:42"
-        },
-        {
-          "headline": "FormFactor Stock Leads 3 Cash Flow Picks In AI Infrastructure",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOaFRqaVM3aTUxUGNFXzhEUU5TWndsZU1NcFdXaXZfZUZaQlEyUTlyYkgwZlFLdDRDeHVmVEVLaEFaN08tSUlwWDJyZGliTFVOOUlYQlh4Sm5LVFp6dXpBR3doVERmZ0Y2U3hHbzNfNGhGQVdWN0pQclc1X2Q2RjNFcmRUdGdRLWxKUk84Q0xFY0lxS3ZYZlJXelVjN19TSXpEdWlJbUVjMDAzUzVPY1F6QXFzeC1aUXJ1MUdyN0dXQ21kbVNhbGlaUkQ3SDV2WGJy0gHWAUFVX3lxTFBPQnEwQXJuRFZQUXZvY3pvdF95MXFzMG5LZUdGTzVGMXRtTTJTZkhnaGlMMUJybUJqSDVNV00wenZjdVlEdEdFbXBBbnVqTjZHbDlqZW1EZHczOGcwNTRBdVNwcXFuMDFIeEJLaTdfZ0pyRFlaQ0hGNWs1NG8xQ2l5aGs2QUFUSHEyVWJCMVlFb01ab00tMUI0WjFfenVUdWltMGhnM1lOUTVPT1lhRXp0QXByUmlqSHNiMm1iVU5yUlF4QXRHSlV1bFoza0g1LVRfaDRab1E?oc=5",
-          "source": "simplywall.st",
-          "summary": "",
-          "published": "2026-08-09T05:37:16"
-        }
-      ]
-    },
-    {
       "symbol": "WDC",
       "classification": {
         "symbol": "WDC",
@@ -1191,7 +1159,8 @@
     "anet:easternbank:27324": "2026-08-04",
     "klac:versantcapitalmanagementinc:7337": "2026-08-06",
     "lrcx:pensiondanmarkpensionsforsikringsaktieselskab:11902": "2026-08-07",
-    "klac:norwaysavingsbank:13589": "2026-08-09"
+    "klac:norwaysavingsbank:13589": "2026-08-09",
+    "klac:valeofinancialadvisorsllc:5655": "2026-08-10"
   },
   "news_category_posted": {
     "VST": {
@@ -1316,9 +1285,7 @@
       2,
       4
     ],
-    "mover": [
-      6
-    ],
+    "mover": [],
     "price_event": [
       3,
       2
@@ -1335,8 +1302,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 304.3,
-    "SIE.DE": 280.2,
+    "SU.PA": 304.25,
+    "SIE.DE": 280.1,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1362,11 +1329,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 177.78,
-    "BESI.AS": 225.4,
+    "SAP.DE": 178.4,
+    "BESI.AS": 225.2,
     "AIXA.DE": 40.88,
-    "IFX.DE": 64.49,
-    "ASML.AS": 1539.4,
+    "IFX.DE": 64.22,
+    "ASML.AS": 1537.7,
     "MU": 878.87,
     "TSM": 419.93,
     "KLAC": 198.14,
@@ -1405,8 +1372,8 @@
     "IFX.DE": "2026-08-05",
     "WDC": "2026-08-07"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29772540,
+  "next_pulse_interval": 30,
+  "last_pulse_post_min": 29772600,
   "eu_slots": [
     {
       "slot": 0,
