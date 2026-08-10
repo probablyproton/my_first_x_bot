@@ -1,10 +1,10 @@
 {
   "date": "2026-08-10",
   "daily_posts": 2,
-  "daily_keyword_posts": 0,
+  "daily_keyword_posts": 1,
   "daily_pulse_posts": 8,
   "gemini_calls_today": 18,
-  "evergreen_opinion_posts_today": 0,
+  "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-10",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 280,
+  "event_log_next_id": 281,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -327,15 +327,15 @@
       "Macnica Invests in Malaysia's Leading Digital Transformation Company, Orangeleaf Consulting, to Expand Digital Transformation Services for Japan's Manufacturing Industry",
       "Resilience and Digital Transformation Spearhead the Energy Infrastructure Transition",
       "Siemens Healthineers AG (SHL.DE) Stock Price, News, Quote & History",
-      "SIEMENS AG N (SIE.F) Q3 FY2026 earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
+      "SIEMENS AG N (SIE.F) Q3 FY2026 earnings call transcript",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
+      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
+      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
       "SIEMENS AG N (SIE.DU) Q3 FY2026 (Media) earnings call transcript",
-      "Siemens Energy AG N (ENR.F) Q3 FY2026 earnings call transcript",
-      "SIEMENS AG N (SIE.DE) Stock Price, News, Quote & History",
-      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion"
+      "Siemens Energy AG N (ENR.F) Q3 FY2026 earnings call transcript"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -746,8 +746,8 @@
       "FormFactor, Inc. Stock 12‑Month Price Target Raised to $149.29, Implies 27% Upside",
       "Fund Update: 764,000 FORMFACTOR (FORM) shares added to GF FUND MANAGEMENT CO. LTD. portfolio",
       "FormFactor (NASDAQ: FORM) CEO RSUs vest, tax shares withheld",
+      "Assenagon Asset Management S.A. Cuts Stake in FormFactor, Inc. $FORM",
       "FormFactor Stock Leads 3 Cash Flow Picks In AI Infrastructure",
-      "FormFactor (NASDAQ:FORM) Downgraded by Wall Street Zen to \"Buy\"",
       "FormFactor (NASDAQ: FORM) CFO settles 1,620 RSUs, withholds 404 shares for taxes",
       "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?"
     ],
@@ -768,10 +768,10 @@
       "AI demand, risk and strategy at Lam Research (NASDAQ: LRCX) in 2026",
       "What a $10,000 Investment in Lam Research 10 Years Ago Would Be Worth Today",
       "Lam Research Corporation Stock 12‑Month Price Target Raised to $381, Implies 20% Upside",
-      "Worth Asset Management LLC Sells 6,379 Shares of Lam Research Corporation $LRCX",
+      "Cardano Risk Management B.V. Takes $232.16 Million Position in Lam Research Corporation $LRCX",
       "Lam Research Corporation (LRCX) Stock forecasts",
       "Lam Research (NASDAQ: LRCX) CEO trades 30K shares via options",
-      "Professional Advisory Services Inc. Lowers Stock Holdings in Lam Research Corporation $LRCX"
+      "Worth Asset Management LLC Sells 6,379 Shares of Lam Research Corporation $LRCX"
     ],
     "TSM": [
       "MediaTek Wants 20% of Custom AI Chips. Alphabet (GOOGL) Could Win Before Broadcom (AVGO) Loses",
@@ -818,44 +818,44 @@
       "Western Digital Stock Slumps 9% as Current Quarter Projections Underwhelm Traders"
     ],
     "AVGO": [
+      "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
+      "Does Broadcom (AVGO) Now Lead The Biggest AI Infrastructure Spend Outside GPUs?",
+      "Broadcom Vs. Nvidia: The Real Challenger and Champion Story in Chips",
+      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
+      "Alphabet CEO Sundar Pichai Just Made a Decision That Could Move Nvidia and Broadcom Stock",
+      "Intel Falls 5% on Proposed $15B Share Sale as AMD, NVIDIA, Broadcom Hold Steady",
       "TSMC Sales Jumps 45% as Nvidia-Driven AI Boom Powers Chip Demand",
       "A $10,000 Investment in Taiwan Semiconductor Today Will Be Worth This Much by 2028",
-      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
       "10 Shady Things Amazon Doesn't Want You To Know",
+      "Forget VFIAX: Vanguard Sells You the Same S&P 500 Fund Without the $3,000 Toll, or the $75 Fee Fidelity Charges to Buy It",
+      "Here are Monday's biggest analyst calls: Nvidia, Apple, SpaceX, Dick's, Micron, Broadcom, Microsoft & more",
       "Top Semiconductor Stock Outpacing Nvidia With a 36% Gain Over 6 Months",
-      "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
-      "Broadcom (AVGO) Pairs AI Chip Boom With A Software Security Push",
       "Nvidia, Micron or Broadcom: What Would Raymond Dalio Do?",
-      "Alphabet CEO Sundar Pichai Just Made a Decision That Could Move Nvidia and Broadcom Stock",
-      "Does Broadcom (AVGO) Now Lead The Biggest AI Infrastructure Spend Outside GPUs?",
       "Markets News, June 4, 2026: Dow Soars 875 Points to Record Close; S&P 500 Overcomes Broadcom-Led Tech Pullback; Oil Retreats",
+      "What's Going On With Broadcom Stock Monday?",
       "Alphabet boosts 2026 capex to $195B-$205B, benefiting Nvidia, Broadcom",
-      "Why Broadcom Inc. (AVGO) Outpaced the Stock Market Today",
-      "Broadcom Will Survive the AI Bubble, But Everyone Else Won't",
-      "Is Broadcom the Best Chip Stock to Own Now? Maybe",
       "Prediction: Sandisk Will Reclaim Its All-Time High by the End of the Year",
-      "Beyond NVIDIA and GPUs: The Next AI & Quantum Winners Leading 2026",
-      "Notable Friday Option Activity: MSFT, MCHP, AVGO",
-      "AMD Drops 6% Post Q2 Earnings: Is the Stock a Buy on the Dip?",
-      "SERV Q2 Loss Wider Than Expected, Revenues Increase Y/Y, Stock Down"
+      "How Many of the Largest Companies Do You Own -- and Should You Own More or Fewer?",
+      "Why Broadcom Inc. (AVGO) Outpaced the Stock Market Today",
+      "Beyond NVIDIA and GPUs: The Next AI & Quantum Winners Leading 2026"
     ],
     "KLAC": [
       "KLA Corporation Has Had a Rough Month: A Wall Street Pro Sees 70% Upside Because of It",
-      "KLA (KLAC) Stock Looks Fully Valued After Its Huge Run",
       "AI Boom: Top Stocks to Consider for Your Portfolio",
       "Tesla-SpaceX Terafab Bet: 4 Chip Equipment Stocks That Could Benefit",
       "KLA Declares Regular Cash Dividend",
       "Applied Materials Fell 11% Last Month: A Prominent Wall Street Pro Predicts 70% Gains Moving Forward",
+      "KLA (KLAC) Stock Looks Fully Valued After Its Huge Run",
       "Teradyne Is Overvalued at 10.36X PS: Should You Still Buy the Stock?",
       "Lam Research Plunges 16% in a Month: Should You Still Buy the Stock?",
       "How KLA Went From Cheaper Than Teradyne To The Pricier Stock",
       "BofA’s $1.18T cloud forecast puts 3 chip stocks in focus",
       "TOWER TRUST & INVESTMENT Co Raises Stock Holdings in KLA Corporation $KLAC",
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
+      "Valeo Financial Advisors LLC Purchases 5,655 Shares of KLA Corporation $KLAC",
       "Is KLAC Overvalued? DCF Says Worth $117",
       "5 Must-Read Analyst Questions From KLA Corporation’s Q2 Earnings Call",
       "KLA Stock Gains Amid Broad Semiconductor Rally, AI Demand",
-      "Valeo Financial Advisors LLC Purchases 5,655 Shares of KLA Corporation $KLAC",
       "KLA Corp (KLAC) insider plans $475K sale after restricted stock vests",
       "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears",
       "Stocks Supported as Fed Rate Hike Fears Ease",
@@ -951,14 +951,14 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
@@ -1024,14 +1024,14 @@
       "Stock Market Rally Powers Ahead; SpaceX, Palantir, Sandisk Are Key Earnings Movers: Weekly Review",
       "Is ANET Worth Buying Now or Waiting for a Better Entry Point?",
       "How Arista's New AI Platform Could Expand ANET's Growth Story",
+      "Arista Networks Stock: Analyst Estimates & Ratings",
       "Arista Networks Stock Surges as Earnings Prove AI Demand Is Real",
       "BNP Paribas Adjusts PT on Arista Networks to $248 From $200, Maintains Outperform Rating",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
+      "Arista Networks’ AI-Fueled Earnings Call Signals Upbeat Path",
       "Arista Networks, Inc. Reports Second Quarter 2026 Financial Results",
       "Arista Networks (NYSE:ANET): A Quality Stock That Passes the Test",
-      "Arista Networks: Despite Clear AI Tailwinds, Gains Will Be More Limited Here (Downgrade)",
-      "Memory is the new gold, says Arista Networks CEO Jayshree Ullal",
-      "Arista Networks Insider Sold Shares Worth $60,989,688, According to a Recent SEC Filing"
+      "Arista Networks: Despite Clear AI Tailwinds, Gains Will Be More Limited Here (Downgrade)"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1100,60 +1100,7 @@
       "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "WDC",
-      "classification": {
-        "symbol": "WDC",
-        "is_major": true,
-        "category": "large_share_purchases",
-        "headline": "Cardano Risk Management B.V. Takes Position in Western Digital Corporation $WDC",
-        "reason": "A named institution, Cardano Risk Management B.V., has taken a position in Western Digital Corporation, which qualifies as a large share purchase."
-      },
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTUdmTEVFNnZ5WUQ3SVotai1UcXVwTTZYcE1LZXRpdTdmOURlaXdmNURNNktUaFY2U0JTVnF5Y04zWlNXRGhIbFRDd2NXWlNsZ0l5cXAzSDlldnJHeHdYbF9FN0xOVlZyd2dxdWJxeGN4ZGo3M3B1OGlQLUhtdWd5UUh4ZGNOMVZrTllpSG5qZERyX0pUWnZUUTB2UkZScGZhTnRucUs5OUxOM1Z2UVY1NE51T3UxMWpsS2ItSlRLaGcxa0N3dkhtUzBzLVYxakJSNzNV?oc=5",
-      "source": "MarketBeat",
-      "method": "gemini",
-      "published": "2026-08-09T08:27:42",
-      "queued_min": 29772441,
-      "all_articles": [
-        {
-          "headline": "Sandisk Has Surged More Than 3,000% in 12 Months. Is a Stock Split Coming?",
-          "link": "https://www.fool.com/investing/2026/08/09/sandisk-has-surged-more-than-3000-in-12-months-is/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Sandisk's meteoric rise has some wondering if a stock split is next, but the bigger story is whether its AI-fueled momentum can keep powering the rally.",
-          "published": "2026-08-10T02:35:00"
-        },
-        {
-          "headline": "MU Outpaced SNDK, WDC This Week: Now, Retail Traders Bet On Outlook Raise At Key Analyst Event",
-          "link": "https://stocktwits.com/news-articles/markets/equity/mu-outpaced-sndk-wdc-this-week-now-retail-traders-bet-on-outlook-raise-at-key-analyst-event/cZojBFpRJam?.tsrc=rss",
-          "source": "stocktwits.com",
-          "summary": "Micron executives are scheduled to present at a Keybanc analyst event on Monday.",
-          "published": "2026-08-10T02:09:24"
-        },
-        {
-          "headline": "Don’t Assume Micron Will Share SanDisk’s Fate",
-          "link": "https://www.barchart.com/story/news/3745065/dont-assume-micron-will-share-sandisks-fate-here-s-why?.tsrc=rss",
-          "source": "barchart.com",
-          "summary": "Micron has been caught in the memory sell-off, but its AI-driven business makes it a different story.",
-          "published": "2026-08-09T15:00:02"
-        },
-        {
-          "headline": "Memory Sector Stocks Are Down 30% or More From Their Highs, But These 2 Are Worth Buying Now",
-          "link": "https://www.fool.com/investing/2026/08/09/memory-sector-stock-down-from-high-buy/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Rather than chasing the biggest AI memory winners, investors may find better long-term opportunities in discounted companies like Western Digital and Silicon Motion.",
-          "published": "2026-08-09T13:15:00"
-        },
-        {
-          "headline": "Cardano Risk Management B.V. Takes Position in Western Digital Corporation $WDC",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTUdmTEVFNnZ5WUQ3SVotai1UcXVwTTZYcE1LZXRpdTdmOURlaXdmNURNNktUaFY2U0JTVnF5Y04zWlNXRGhIbFRDd2NXWlNsZ0l5cXAzSDlldnJHeHdYbF9FN0xOVlZyd2dxdWJxeGN4ZGo3M3B1OGlQLUhtdWd5UUh4ZGNOMVZrTllpSG5qZERyX0pUWnZUUTB2UkZScGZhTnRucUs5OUxOM1Z2UVY1NE51T3UxMWpsS2ItSlRLaGcxa0N3dkhtUzBzLVYxakJSNzNV?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-09T08:27:42"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1259,12 +1206,12 @@
     }
   },
   "recent_post_sources": [
-    "DatacenterDynamics",
     "stocktwits.com",
     "DatacenterDynamics",
     "DatacenterDynamics",
     "benzinga.com",
-    "MarketBeat"
+    "MarketBeat",
+    "DatacenterDynamics"
   ],
   "last_news_post_min": 29768782,
   "evergreen_opinion_used": {
@@ -1283,14 +1230,14 @@
     "asturias government targets data center project in salas, spain": "2026-08-05",
     "y combinator-backed impact drones launches, offers missile-intercepting drone service for data centers and grid operators": "2026-08-06",
     "indosat reinforces ai push with 1gw data center play": "2026-08-07",
-    "sponsored: efficient data center water cooling for australia’s market": "2026-08-07"
+    "sponsored: efficient data center water cooling for australia’s market": "2026-08-07",
+    "gigawatt-scale data center in atlanta, georgia, withdrawn by developer": "2026-08-10"
   },
   "pulse_template_decks": {
     "evergreen": [
       3,
       1,
-      2,
-      4
+      2
     ],
     "mover": [
       3,
@@ -1308,13 +1255,13 @@
       2
     ]
   },
-  "last_evergreen_min": 29768700,
+  "last_evergreen_min": 29772821,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 304.35,
-    "SIE.DE": 278.7,
+    "SU.PA": 304.7,
+    "SIE.DE": 278.3,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1340,24 +1287,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 176.96,
-    "BESI.AS": 226.5,
-    "AIXA.DE": 41.16,
-    "IFX.DE": 64.45,
-    "ASML.AS": 1549.6,
-    "MU": 878.87,
-    "TSM": 419.93,
-    "KLAC": 198.14,
-    "STX": 814.23,
-    "ANET": 188.62,
-    "LRCX": 311.38,
-    "FORM": 117.39,
-    "AVGO": 427.75,
-    "AMAT": 538.91,
-    "AMD": 483.21,
-    "MRVL": 218.74,
-    "NVDA": 224.09,
-    "WDC": 433.95
+    "SAP.DE": 176.34,
+    "BESI.AS": 226.9,
+    "AIXA.DE": 41.2,
+    "IFX.DE": 64.44,
+    "ASML.AS": 1553.8,
+    "MU": 860.44,
+    "TSM": 417.09,
+    "KLAC": 199.57,
+    "STX": 802.83,
+    "ANET": 187.35,
+    "LRCX": 311.18,
+    "FORM": 115.48,
+    "AVGO": 428.21,
+    "AMAT": 542.22,
+    "AMD": 472.14,
+    "MRVL": 216.94,
+    "NVDA": 222.72,
+    "WDC": 433.79
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1417,6 +1364,8 @@
       "fire_time": "22:32"
     }
   ],
-  "us_posted": [],
+  "us_posted": [
+    0
+  ],
   "eu_flexible_used": 1
 }
