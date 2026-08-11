@@ -2,7 +2,7 @@
   "date": "2026-08-11",
   "daily_posts": 0,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 11,
+  "daily_pulse_posts": 12,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 308,
+  "event_log_next_id": 309,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -318,6 +318,7 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
+      "Should You Hold or Fold SNPS Stock After a 20% Decline in 3 Months?",
       "Nucleus Research Releases 2026 Manufacturing Execution System Technology Value Matrix",
       "PROLIM Launches New Innovation Center to Accelerate Global Growth",
       "Babcock & Wilcox secures 1 GW of Siemens steam turbines for FastPower projects",
@@ -327,7 +328,6 @@
       "Siemens Stock Falls 5% Despite Record AI-Fueled Industrial Profit",
       "Siemens AG (SIEGY) (Q3 2026) Earnings Call Highlights: Record Orders and Raised Guidance Signal ...",
       "ARC Advisory Group Positions Trace One as a Major Player in the 2026 MarketMap for Formulation Technologies",
-      "Siemens (XTRA:SIE) Could Be 10% Undervalued On Record Q3 And Guidance Upgrade",
       "SIEMENS AG N (SIE.F) Q3 FY2026 earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
@@ -710,14 +710,14 @@
       "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29"
     ],
     "MRVL": [
+      "NVIDIA's Falling Multiple Is A Bill, Not A Bargain",
       "Microsoft's Maia 300 Could Be a Win for Marvell and TSMC",
-      "The AI Trade Has a New Battleground and One Stock is Emerging as a Winner",
-      "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
-      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
-      "Apple Among Three Stocks In Voracious Demand. Funds Also Feast On 14 Others.",
       "Can MRVL's NVDA Alliance Help it Challenge ALAB & AVGO?",
       "AMD's Bigger Risk Sits In Its Revenue Mix, Not Its Multiple",
+      "The AI Trade Has a New Battleground and One Stock is Emerging as a Winner",
+      "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
       "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
+      "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
       "Nvidia Stock Slips as Its AI Investments Draw Fresh Scrutiny",
       "Broadcom’s Brilliant Positioning is Why I Am Loading Up Over and Over",
       "Marvell Technology Stock’s Multiple Leans On Profit From Below The Operating Line",
@@ -798,26 +798,26 @@
       "3 Stocks to Buy as AI Infrastructure Continues to Surge"
     ],
     "WDC": [
-      "Can Western Digital Expand Margins on Higher-Capacity Drives?",
-      "Is Western Digital (WDC) a Buy as Wall Street Analysts Look Optimistic?",
-      "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
+      "Seagate Technology Gains From AI Boom: Is Long-Term Growth Secured?",
       "WDC Q2 Deep Dive: Market Reacts to Inventory Build Despite Strong AI-Driven Demand",
+      "Can Western Digital Expand Margins on Higher-Capacity Drives?",
       "WDC Beats Q4 Expectations: More AI-Driven Upside Ahead for the Stock?",
+      "Is Western Digital (WDC) a Buy as Wall Street Analysts Look Optimistic?",
       "Can Micron's Take-or-Pay Deals Improve Revenue Growth Visibility?",
       "SK Hynix Has Suffered Post-IPO as Memory Flags: A Wall Street Pro Remains Sanguine With 160% Returns Predicted",
+      "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
+      "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
       "The Next Breakout For This Tech Stock Could Be Hiding in Plain Sight",
-      "The Two Primary Risks For SanDisk And What to Do Now",
-      "Does STX Stock Still Have More Room to Run After Solid Q4 Earnings?",
       "Western Digital Corporation $WDC Stock Position Lifted by Handelsbanken Fonder AB",
       "Western Digital: AI Is Creating 300 Trillion Tokens A Day, Buy The Storage (NASDAQ:WDC)",
       "What's Going On With Western Digital Stock Monday?",
       "Western Digital Corporation Stock 12‑Month Price Target Raised to $671.57, Implies 29% Upside",
-      "Western Digital Fell 20% This Week. Here’s What Could Drive Shares in 2026",
       "Why Is Western Digital Stock Sinking Thursday?",
       "Western Digital Corporation $WDC Stock Holdings Lessened by Assenagon Asset Management S.A.",
+      "Western Digital: Q4 2026 Confirms The Market Is Still Underpricing EPS Growth (NASDAQ:WDC)",
+      "Stocks Supported by Renewed Middle East Optimism",
       "Notable ETF Inflow Detected - IYW, TXN, WDC, DELL",
-      "Sandisk Has Surged More Than 3,000% in 12 Months. Is a Stock Split Coming?",
-      "Memory Sector Stocks Are Down 30% or More From Their Highs, But These 2 Are Worth Buying Now"
+      "Does STX Stock Still Have More Room to Run After Solid Q4 Earnings?"
     ],
     "AVGO": [
       "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
@@ -970,7 +970,7 @@
       "Aixtron (AIXA) Stock Price, News & Analysis",
       "Aixtron SE vs Veeco Instruments",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
-      "Polarization-engineered high mobility of two-dimensional hole gas in GaN"
+      "AIXA.DE Stock Price | Analyst Target 47.50 & Hold Consensus"
     ],
     "AMD": [
       "Why AMD Stock Tumbled 18% in July",
@@ -1027,15 +1027,15 @@
       "The Zacks Analyst Blog Highlights SpaceX, Arista Networks and The Boeing",
       "Does Arista Networks (ANET) Have the Potential to Rally 26.33% as Wall Street Analysts Expect?",
       "Arista Witnesses an Uptrend in Estimate Revision: Is it Worth Buying?",
-      "As AI Networks Scale In Three Directions, So Does Arista",
-      "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
-      "Adobe vs. Arista Networks: Which Technology Stock Is a Better Buy in 2026?",
-      "Arista Networks: Hefty Growth Premium Baked In - AI Pick/Shovel Status Proven",
-      "Stocks making the biggest moves after the bell: SpaceX, AMD, Pinterest, Arista Networks, Wynn Resorts & more",
-      "Arista Networks Just Delivered Its First $3 Billion Quarter",
       "Arista Networks, Inc. $ANET Shares Sold by Handelsbanken Fonder AB",
+      "Arista Networks: Hefty Growth Premium Baked In - AI Pick/Shovel Status Proven",
+      "As AI Networks Scale In Three Directions, So Does Arista",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
+      "Arista Networks Stock: Analyst Estimates & Ratings",
+      "Arista Networks Insider Sold Shares Worth $79,383,281, According to a Recent SEC Filing",
+      "Arista Networks (ANET) major holder Bechtolsheim sells 411,848 shares under 10b5-1 plan",
+      "Arista Networks Stock Surges as Earnings Prove AI Demand Is Real",
       "Should Buy, Sell or Hold Cisco Stock Before Q4 Earnings?"
     ],
     "ASML.AS": [
@@ -1386,8 +1386,7 @@
       0,
       2,
       5,
-      1,
-      3
+      1
     ],
     "price_event": [
       3
@@ -1435,19 +1434,19 @@
     "AIXA.DE": 42.02,
     "IFX.DE": 63.33,
     "ASML.AS": 1564.2,
-    "MU": 855.59,
-    "TSM": 421.39,
+    "MU": 853.67,
+    "TSM": 422.24,
     "KLAC": 199.11,
-    "STX": 817.34,
-    "ANET": 195.53,
-    "LRCX": 310.67,
-    "FORM": 118.07,
-    "AVGO": 419.53,
-    "AMAT": 528.11,
-    "AMD": 469.87,
-    "MRVL": 209.77,
-    "NVDA": 218.85,
-    "WDC": 441.08
+    "STX": 815.37,
+    "ANET": 195.38,
+    "LRCX": 310.84,
+    "FORM": 118.72,
+    "AVGO": 419.92,
+    "AMAT": 528.29,
+    "AMD": 467.35,
+    "MRVL": 210.7,
+    "NVDA": 218.48,
+    "WDC": 439.26
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1474,8 +1473,8 @@
     "WDC": "2026-08-07",
     "ASML.AS": "2026-08-10"
   },
-  "next_pulse_interval": 40,
-  "last_pulse_post_min": 29774361,
+  "next_pulse_interval": 39,
+  "last_pulse_post_min": 29774407,
   "eu_slots": [
     {
       "slot": 0,
