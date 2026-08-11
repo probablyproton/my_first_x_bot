@@ -2,8 +2,8 @@
   "date": "2026-08-11",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 0,
-  "gemini_calls_today": 3,
+  "daily_pulse_posts": 1,
+  "gemini_calls_today": 4,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 296,
+  "event_log_next_id": 297,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -722,11 +722,11 @@
       "Intel Announces Leadership Appointment to Strengthen Customer Engagement and Accelerate Growth",
       "Marvell Technology Stock’s Multiple Leans On Profit From Below The Operating Line",
       "Marvell expands AI memory portfolio to support growing Agentic AI workloads",
+      "Intel hires Marvell executive as sales chief",
       "Benzinga Bulls And Bears: Palantir, Marvell, AppLovin",
       "Marvell Stock, Corning, and Lumentum Surge on Report of Import China Ban",
       "Marvell Technology, Inc. Reports First Quarter of Fiscal Year 2027 Financial Results",
       "Marvell stock soars 32% as Nvidia's Huang says it could be the next trillion-dollar company",
-      "Marvell to Invest $250 Million in India, Expanding Bangalore Facility to Drive Next-generation AI Technology Development",
       "Marvell Technology (NASDAQ:MRVL) Shares Down 4.6% - Here's What Happened",
       "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
       "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears"
@@ -798,6 +798,7 @@
       "3 Stocks to Buy as AI Infrastructure Continues to Surge"
     ],
     "WDC": [
+      "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
       "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
       "The Next Breakout For This Tech Stock Could Be Hiding in Plain Sight",
       "The Two Primary Risks For SanDisk And What to Do Now",
@@ -807,16 +808,15 @@
       "Don’t Assume Micron Will Share SanDisk’s Fate",
       "Memory Sector Stocks Are Down 30% or More From Their Highs, But These 2 Are Worth Buying Now",
       "Western Digital Says AI Customers Are Already Negotiating Storage Deals Through 2031: 'Visibility Remains Very Strong'",
-      "BofA resets its Western Digital target after mixed signal",
+      "Why Is Western Digital Stock Sinking Thursday?",
       "What's Going On With Western Digital Stock Monday?",
       "Western Digital Corporation $WDC is UNICOM Systems Inc.'s 9th Largest Position",
       "Western Digital Corporation 2026 Q4 - Results - Earnings Call Presentation (NASDAQ:WDC) 2026-08-06",
       "Western Digital Corporation Stock 12‑Month Price Target Raised to $671.57, Implies 29% Upside",
       "Western Digital Fell 20% This Week. Here’s What Could Drive Shares in 2026",
-      "Why Is Western Digital Stock Sinking Thursday?",
+      "Western Digital (WDC) Stock Price Retreats Despite AI Fueled Margin Strength",
       "Cardano Risk Management B.V. Takes Position in Western Digital Corporation $WDC",
       "Western Digital: Watch For Technological Threats Following Post-Earnings Sell-Off (NASDAQ:WDC)",
-      "Western Digital tops estimates, offers above-consensus guidance but shares sink",
       "Does STX Stock Still Have More Room to Run After Solid Q4 Earnings?"
     ],
     "AVGO": [
@@ -864,16 +864,16 @@
       "Stocks Supported as Fed Rate Hike Fears Ease"
     ],
     "SAP.DE": [
-      "SAP loosens ERP maintenance and support rules",
-      "SAP (XTRA:SAP) Stock Looks Below Fair Value Despite AI Hopes",
-      "Palantir Expands SAP Transformation Push With SNP Partnership",
-      "Is SAP SE (SAP) A Good Stock To Buy Now?",
-      "Why SAP (XTRA:SAP) Is Up 7.1% After AI-Focused Overhaul And New Consumption-Based Pricing",
-      "SAP Celebrates America's 250th with Investment in the Next Generation",
-      "SAP SE (SAP) Among Jefferies’ Top European Software Stock Picks",
-      "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
-      "Is SAP SE (SAP) Positioned to Benefit from AI?",
-      "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
+      "Salesforce Declines 17% Over the Past Year: How to Play CRM Stock?",
+      "FUJIY Q1 Earnings Fall Y/Y on Bio CDMO Costs, Revenues Rise",
+      "ARC Advisory Group Positions Trace One as a Major Player in the 2026 MarketMap for Formulation Technologies",
+      "Khimji Ramdas Group Chooses Rimini Street to Reduce SAP Support Costs, Protect 700+ Customizations and Reinvest Savings in Innovation",
+      "Ironclad Launches AI Agents to Help Procurement Teams Save Money, Move Faster, and Manage Risk",
+      "Connected Talent Solutions™ from Match2 Now Available on SAP® Store",
+      "Analysis-Europe's established tech firms emerge as unexpected AI winners",
+      "SAP (XTRA:SAP) Launches AI Agent Hub As AI Governance Reaches The Boardroom",
+      "Loftware and RiseNow Partner to Accelerate Supply Chain Performance and Compliance",
+      "Tungsten Automation Appoints Gopi Kalahasthy as Chief Revenue Officer",
       "SAP SE (SAP) stock price, news, quote and history",
       "SAP SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
@@ -953,14 +953,14 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON SE N (AIXA.DU) Stock Price, News, Quote & History",
@@ -1277,8 +1277,7 @@
     "quiet": [
       0,
       3,
-      1,
-      2
+      1
     ]
   },
   "last_evergreen_min": 29773002,
@@ -1286,7 +1285,7 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 303.1,
+    "SU.PA": 302.7,
     "SIE.DE": 276.75,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
@@ -1313,11 +1312,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 179.24,
-    "BESI.AS": 220.1,
-    "AIXA.DE": 40.42,
-    "IFX.DE": 63.12,
-    "ASML.AS": 1514.4,
+    "SAP.DE": 180.14,
+    "BESI.AS": 220.6,
+    "AIXA.DE": 40.58,
+    "IFX.DE": 62.57,
+    "ASML.AS": 1530.6,
     "MU": 861.6,
     "TSM": 418.49,
     "KLAC": 192.81,
@@ -1357,8 +1356,8 @@
     "WDC": "2026-08-07",
     "ASML.AS": "2026-08-10"
   },
-  "next_pulse_interval": 40,
-  "last_pulse_post_min": 29773200,
+  "next_pulse_interval": 34,
+  "last_pulse_post_min": 29773881,
   "eu_slots": [
     {
       "slot": 0,
@@ -1373,7 +1372,9 @@
       "fire_time": "17:58"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
