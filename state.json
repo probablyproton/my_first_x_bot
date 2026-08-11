@@ -2,8 +2,8 @@
   "date": "2026-08-11",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 6,
-  "gemini_calls_today": 12,
+  "daily_pulse_posts": 7,
+  "gemini_calls_today": 13,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 302,
+  "event_log_next_id": 303,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -318,16 +318,16 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
-      "Business Chief Opens Speaker Applications for CXO Summit 2026",
       "Siemens Wins $80 Million Award for Advanced Army Manufacturing",
-      "Siemens’ gas turbine backlog nears 70 GW as company expands manufacturing",
       "Siemens Stock Falls 5% Despite Record AI-Fueled Industrial Profit",
       "Siemens AG (SIEGY) (Q3 2026) Earnings Call Highlights: Record Orders and Raised Guidance Signal ...",
-      "ARC Advisory Group Positions Trace One as a Major Player in the 2026 MarketMap for Formulation Technologies",
-      "Siemens (XTRA:SIE) Could Be 10% Undervalued On Record Q3 And Guidance Upgrade",
-      "European Indexes Rise as Earnings Drive Markets",
       "Siemens shares plunge on disappointing guidance raise",
-      "Siemens Aktiengesellschaft Q3 Earnings Call Highlights",
+      "Siemens lifts full-year forecast after record orders in third quarter",
+      "Siemens Is Winning Customers in China, CEO Says",
+      "Siemens’ gas turbine backlog nears 70 GW as company expands manufacturing",
+      "Resilience and Digital Transformation Spearhead the Energy Infrastructure Transition",
+      "CXO Summit Opens Sponsorship Opportunities for Enterprise Leaders",
+      "Business Chief Opens Speaker Applications for CXO Summit 2026",
       "Siemens Healthineers AG (SHL.DE) Stock Price, News, Quote & History",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "SIEMENS AG N (SIE.F) Q3 FY2026 earnings call transcript",
@@ -721,12 +721,12 @@
       "How To Earn 11% On NVDA Stock And Set A 30% Safety Net",
       "Intel Announces Leadership Appointment to Strengthen Customer Engagement and Accelerate Growth",
       "Marvell expands AI memory portfolio to support growing Agentic AI workloads",
+      "Marvell Technology (NASDAQ:MRVL) Shares Down 4.6% - Here's What Happened",
       "Benzinga Bulls And Bears: Palantir, Marvell, AppLovin",
       "Marvell Stock, Corning, and Lumentum Surge on Report of Import China Ban",
       "Marvell Technology, Inc. Reports First Quarter of Fiscal Year 2027 Financial Results",
       "Marvell stock soars 32% as Nvidia's Huang says it could be the next trillion-dollar company",
       "Marvell Technology Stock’s Multiple Leans On Profit From Below The Operating Line",
-      "Handelsbanken Fonder AB Decreases Position in Marvell Technology, Inc. $MRVL",
       "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
       "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears",
       "Stocks Supported as Fed Rate Hike Fears Ease"
@@ -798,16 +798,16 @@
       "3 Stocks to Buy as AI Infrastructure Continues to Surge"
     ],
     "WDC": [
+      "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
       "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
-      "Memory Sector Stocks Are Down 30% or More From Their Highs, But These 2 Are Worth Buying Now",
       "The Next Breakout For This Tech Stock Could Be Hiding in Plain Sight",
       "The Two Primary Risks For SanDisk And What to Do Now",
-      "Does STX Stock Still Have More Room to Run After Solid Q4 Earnings?",
-      "HDD Industry Revenue Could Top $30B In 2026",
+      "Micron Technology Stock Surged On A Shortage The Company Had Already Described",
       "Sandisk Has Surged More Than 3,000% in 12 Months. Is a Stock Split Coming?",
+      "MU Outpaced SNDK, WDC This Week: Now, Retail Traders Bet On Outlook Raise At Key Analyst Event",
       "Don’t Assume Micron Will Share SanDisk’s Fate",
+      "Memory Sector Stocks Are Down 30% or More From Their Highs, But These 2 Are Worth Buying Now",
       "Western Digital Says AI Customers Are Already Negotiating Storage Deals Through 2031: 'Visibility Remains Very Strong'",
-      "BofA resets its Western Digital target after mixed signal",
       "Western Digital Corporation $WDC Stock Position Lifted by Handelsbanken Fonder AB",
       "Why Is Western Digital Stock Sinking Thursday?",
       "Western Digital: Q4 2026 Confirms The Market Is Still Underpricing EPS Growth (NASDAQ:WDC)",
@@ -817,7 +817,7 @@
       "Western Digital Corporation $WDC Stock Holdings Lessened by Assenagon Asset Management S.A.",
       "Western Digital Corporation 2026 Q4 - Results - Earnings Call Presentation (NASDAQ:WDC) 2026-08-06",
       "Western Digital Corporation $WDC is UNICOM Systems Inc.'s 9th Largest Position",
-      "Micron vs. Sandisk: Which Is the Better AI Memory Stock to Own for the Next 3 Years?"
+      "Does STX Stock Still Have More Room to Run After Solid Q4 Earnings?"
     ],
     "AVGO": [
       "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
@@ -1270,8 +1270,7 @@
     ],
     "mover": [
       2,
-      5,
-      4
+      5
     ],
     "price_event": [
       3
@@ -1287,8 +1286,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 304.1,
-    "SIE.DE": 276.4,
+    "SU.PA": 304.3,
+    "SIE.DE": 276.65,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1314,11 +1313,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.7,
-    "BESI.AS": 224.9,
-    "AIXA.DE": 41.27,
-    "IFX.DE": 63.16,
-    "ASML.AS": 1544.6,
+    "SAP.DE": 181.66,
+    "BESI.AS": 224.7,
+    "AIXA.DE": 41.32,
+    "IFX.DE": 63.21,
+    "ASML.AS": 1545.2,
     "MU": 861.6,
     "TSM": 418.49,
     "KLAC": 192.81,
@@ -1358,8 +1357,8 @@
     "WDC": "2026-08-07",
     "ASML.AS": "2026-08-10"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29774100,
+  "next_pulse_interval": 43,
+  "last_pulse_post_min": 29774160,
   "eu_slots": [
     {
       "slot": 0,
