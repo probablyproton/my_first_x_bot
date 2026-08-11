@@ -2,7 +2,7 @@
   "date": "2026-08-11",
   "daily_posts": 0,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 9,
+  "daily_pulse_posts": 10,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 306,
+  "event_log_next_id": 307,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -710,18 +710,18 @@
       "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29"
     ],
     "MRVL": [
-      "AMD's Bigger Risk Sits In Its Revenue Mix, Not Its Multiple",
       "The AI Trade Has a New Battleground and One Stock is Emerging as a Winner",
-      "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
-      "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
       "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
+      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
+      "Apple Among Three Stocks In Voracious Demand. Funds Also Feast On 14 Others.",
+      "AMD's Bigger Risk Sits In Its Revenue Mix, Not Its Multiple",
+      "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
       "Nvidia Stock Slips as Its AI Investments Draw Fresh Scrutiny",
       "Broadcom’s Brilliant Positioning is Why I Am Loading Up Over and Over",
-      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
-      "Beyond NVIDIA and GPUs: The Next AI & Quantum Winners Leading 2026",
       "The Toughest Questions AMD Faced On Its Latest Call",
-      "Marvell expands AI memory portfolio to support growing Agentic AI workloads",
+      "Should Lumentum Stock Be in Your Portfolio Pre-Q4 Earnings?",
       "Marvell Technology (NASDAQ:MRVL) Shares Down 4.6% - Here's What Happened",
+      "Marvell expands AI memory portfolio to support growing Agentic AI workloads",
       "Broadcom vs. Marvell: Which Stock Has More AI Upside?",
       "Benzinga Bulls And Bears: Palantir, Marvell, AppLovin",
       "Marvell Stock, Corning, and Lumentum Surge on Report of Import China Ban",
@@ -749,9 +749,9 @@
       "Reinhart Partners LLC. Lowers Stock Holdings in FormFactor, Inc. $FORM",
       "FormFactor, Inc. Stock 12‑Month Price Target Raised to $149.29, Implies 27% Upside",
       "Fund Update: 764,000 FORMFACTOR (FORM) shares added to GF FUND MANAGEMENT CO. LTD. portfolio",
-      "FormFactor (NASDAQ:FORM) Delivers Impressive Q2, Stock Jumps 16.6%",
       "Assenagon Asset Management S.A. Cuts Stake in FormFactor, Inc. $FORM",
-      "FormFactor Stock Leads 3 Cash Flow Picks In AI Infrastructure"
+      "FormFactor Stock Leads 3 Cash Flow Picks In AI Infrastructure",
+      "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?"
     ],
     "LRCX": [
       "Is Lam Research, KLA, or Applied Materials the Best Chip Equipment Buy? Jim Cramer Weighs In",
@@ -817,7 +817,7 @@
       "Western Digital Fell 20% This Week. Here’s What Could Drive Shares in 2026",
       "Western Digital Corporation $WDC Stock Holdings Lessened by Assenagon Asset Management S.A.",
       "Western Digital tops estimates, offers above-consensus guidance but shares sink",
-      "Western Digital Corporation $WDC is UNICOM Systems Inc.'s 9th Largest Position"
+      "Western Digital: AI Is Creating 300 Trillion Tokens A Day, Buy The Storage (NASDAQ:WDC)"
     ],
     "AVGO": [
       "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
@@ -875,6 +875,7 @@
       "Loftware and RiseNow Partner to Accelerate Supply Chain Performance and Compliance",
       "Tungsten Automation Appoints Gopi Kalahasthy as Chief Revenue Officer",
       "SAP SE (SAP) stock price, news, quote and history",
+      "SAP SE: Release of a capital market information",
       "Dimensional Fund Advisors LP Sells 12,640 Shares of SAP SE $SAP",
       "SAP SE Stock (SAP) Moved Up by 3.66% on Aug 7: Facts Behind the Movement",
       "SAP Quarterly Statement Q2 2026",
@@ -882,8 +883,7 @@
       "SAP Announces Q2 and Half-Year 2026 Results",
       "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
       "SAP SE-SPONSORED ADR (NYSE:SAP): A Quality Stock with Superior Capital Efficiency and Strong Cash Generation",
-      "An Analysis of SAP SE (SAP) in the AI Transition Era",
-      "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP"
+      "An Analysis of SAP SE (SAP) in the AI Transition Era"
     ],
     "BESI.AS": [
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
@@ -953,14 +953,14 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
@@ -1017,25 +1017,25 @@
     ],
     "ANET": [
       "Here's How Much You'd Have If You Invested $1000 in Arista Networks a Decade Ago",
-      "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Airbnb, AppLovin, Autodesk, Best Buy, BigBear.ai, Boeing, Fiserv, Jabil, Spotify Technology and More",
       "A 14% Yield On ANET Stock, And A Shot At Buying It 40% Lower",
       "Arista’s (ANET) Record Quarter Reignites The AI Networking Debate",
-      "Is DDOG Stock Worth Investing in After Q2 Beat & Solid '26 Guidance?",
-      "Ciena Down 29% in Past 3 Months: Should Investors Buy, Hold or Sell?",
-      "The Zacks Analyst Blog Highlights SpaceX, Arista Networks and The Boeing",
       "Does Arista Networks (ANET) Have the Potential to Rally 26.33% as Wall Street Analysts Expect?",
       "Arista Witnesses an Uptrend in Estimate Revision: Is it Worth Buying?",
       "Arista Networks Stock: Analyst Estimates & Ratings",
+      "Adobe vs. Arista Networks: Which Technology Stock Is a Better Buy in 2026?",
+      "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Airbnb, AppLovin, Autodesk, Best Buy, BigBear.ai, Boeing, Fiserv, Jabil, Spotify Technology and More",
+      "Is DDOG Stock Worth Investing in After Q2 Beat & Solid '26 Guidance?",
+      "Ciena Down 29% in Past 3 Months: Should Investors Buy, Hold or Sell?",
       "As AI Networks Scale In Three Directions, So Does Arista",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
-      "Adobe vs. Arista Networks: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks: Hefty Growth Premium Baked In - AI Pick/Shovel Status Proven",
       "Stocks making the biggest moves after the bell: SpaceX, AMD, Pinterest, Arista Networks, Wynn Resorts & more",
       "Arista Networks Just Delivered Its First $3 Billion Quarter",
       "Arista Networks, Inc. $ANET Shares Sold by Handelsbanken Fonder AB",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
-      "Arista Networks Insider Sold Shares Worth $79,383,281, According to a Recent SEC Filing",
-      "Should Buy, Sell or Hold Cisco Stock Before Q4 Earnings?"
+      "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
+      "Should Buy, Sell or Hold Cisco Stock Before Q4 Earnings?",
+      "The Zacks Analyst Blog Highlights SpaceX, Arista Networks and The Boeing"
     ],
     "ASML.AS": [
       "ASML Stock Rises 1.7% as AI Demand Signal Strengthens",
@@ -1381,7 +1381,14 @@
     "evergreen": [
       3
     ],
-    "mover": [],
+    "mover": [
+      0,
+      2,
+      5,
+      1,
+      3,
+      6
+    ],
     "price_event": [
       3
     ],
@@ -1396,8 +1403,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 305.5,
-    "SIE.DE": 279.0,
+    "SU.PA": 306.55,
+    "SIE.DE": 280.25,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1423,24 +1430,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.62,
-    "BESI.AS": 226.8,
-    "AIXA.DE": 42.07,
-    "IFX.DE": 63.46,
-    "ASML.AS": 1567.2,
-    "MU": 846.79,
-    "TSM": 422.58,
-    "KLAC": 202.14,
-    "STX": 803.76,
-    "ANET": 197.71,
-    "LRCX": 315.45,
-    "FORM": 119.57,
-    "AVGO": 420.65,
-    "AMAT": 533.34,
-    "AMD": 467.91,
-    "MRVL": 211.05,
-    "NVDA": 219.41,
-    "WDC": 438.23
+    "SAP.DE": 181.92,
+    "BESI.AS": 227.7,
+    "AIXA.DE": 42.14,
+    "IFX.DE": 63.65,
+    "ASML.AS": 1572.8,
+    "MU": 851.72,
+    "TSM": 421.59,
+    "KLAC": 200.51,
+    "STX": 807.54,
+    "ANET": 195.89,
+    "LRCX": 313.06,
+    "FORM": 118.78,
+    "AVGO": 421.66,
+    "AMAT": 532.66,
+    "AMD": 467.65,
+    "MRVL": 210.91,
+    "NVDA": 218.95,
+    "WDC": 439.9
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1467,8 +1474,8 @@
     "WDC": "2026-08-07",
     "ASML.AS": "2026-08-10"
   },
-  "next_pulse_interval": 43,
-  "last_pulse_post_min": 29774261,
+  "next_pulse_interval": 34,
+  "last_pulse_post_min": 29774321,
   "eu_slots": [
     {
       "slot": 0,
