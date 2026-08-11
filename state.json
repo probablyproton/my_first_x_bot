@@ -2,8 +2,8 @@
   "date": "2026-08-11",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 5,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 6,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 297,
+  "event_log_next_id": 298,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -720,16 +720,16 @@
       "The Toughest Questions AMD Faced On Its Latest Call",
       "How To Earn 11% On NVDA Stock And Set A 30% Safety Net",
       "Intel Announces Leadership Appointment to Strengthen Customer Engagement and Accelerate Growth",
-      "Marvell Technology Stock’s Multiple Leans On Profit From Below The Operating Line",
       "Marvell expands AI memory portfolio to support growing Agentic AI workloads",
+      "Intel hires Marvell executive as sales chief",
       "Benzinga Bulls And Bears: Palantir, Marvell, AppLovin",
       "Marvell Stock, Corning, and Lumentum Surge on Report of Import China Ban",
       "Marvell Technology, Inc. Reports First Quarter of Fiscal Year 2027 Financial Results",
       "Marvell stock soars 32% as Nvidia's Huang says it could be the next trillion-dollar company",
-      "Marvell Technology (NASDAQ:MRVL) Shares Down 4.6% - Here's What Happened",
-      "Marvell Technology (MRVL) Commits $250 Million To India Chip R And D Growth",
+      "Marvell Technology Stock’s Multiple Leans On Profit From Below The Operating Line",
       "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
-      "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears"
+      "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears",
+      "Stocks Supported as Fed Rate Hike Fears Ease"
     ],
     "FORM": [
       "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
@@ -864,16 +864,16 @@
       "Stocks Supported as Fed Rate Hike Fears Ease"
     ],
     "SAP.DE": [
-      "SAP loosens ERP maintenance and support rules",
-      "SAP (XTRA:SAP) Stock Looks Below Fair Value Despite AI Hopes",
-      "Palantir Expands SAP Transformation Push With SNP Partnership",
-      "Is SAP SE (SAP) A Good Stock To Buy Now?",
-      "Why SAP (XTRA:SAP) Is Up 7.1% After AI-Focused Overhaul And New Consumption-Based Pricing",
-      "SAP Celebrates America's 250th with Investment in the Next Generation",
-      "SAP SE (SAP) Among Jefferies’ Top European Software Stock Picks",
-      "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
-      "Is SAP SE (SAP) Positioned to Benefit from AI?",
-      "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
+      "Salesforce Declines 17% Over the Past Year: How to Play CRM Stock?",
+      "FUJIY Q1 Earnings Fall Y/Y on Bio CDMO Costs, Revenues Rise",
+      "ARC Advisory Group Positions Trace One as a Major Player in the 2026 MarketMap for Formulation Technologies",
+      "Khimji Ramdas Group Chooses Rimini Street to Reduce SAP Support Costs, Protect 700+ Customizations and Reinvest Savings in Innovation",
+      "Ironclad Launches AI Agents to Help Procurement Teams Save Money, Move Faster, and Manage Risk",
+      "Connected Talent Solutions™ from Match2 Now Available on SAP® Store",
+      "Analysis-Europe's established tech firms emerge as unexpected AI winners",
+      "SAP (XTRA:SAP) Launches AI Agent Hub As AI Governance Reaches The Boardroom",
+      "Loftware and RiseNow Partner to Accelerate Supply Chain Performance and Compliance",
+      "Tungsten Automation Appoints Gopi Kalahasthy as Chief Revenue Officer",
       "SAP SE (SAP) stock price, news, quote and history",
       "SAP SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
@@ -953,14 +953,14 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON SE N (AIXA.DU) Stock Price, News, Quote & History",
@@ -1268,9 +1268,7 @@
       3,
       1
     ],
-    "mover": [
-      6
-    ],
+    "mover": [],
     "price_event": [
       3
     ],
@@ -1285,8 +1283,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 302.7,
-    "SIE.DE": 277.1,
+    "SU.PA": 303.2,
+    "SIE.DE": 276.45,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1312,11 +1310,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 179.7,
-    "BESI.AS": 220.8,
-    "AIXA.DE": 40.85,
-    "IFX.DE": 62.83,
-    "ASML.AS": 1531.4,
+    "SAP.DE": 179.44,
+    "BESI.AS": 222.4,
+    "AIXA.DE": 41.24,
+    "IFX.DE": 62.66,
+    "ASML.AS": 1536.8,
     "MU": 861.6,
     "TSM": 418.49,
     "KLAC": 192.81,
@@ -1356,8 +1354,8 @@
     "WDC": "2026-08-07",
     "ASML.AS": "2026-08-10"
   },
-  "next_pulse_interval": 34,
-  "last_pulse_post_min": 29773881,
+  "next_pulse_interval": 30,
+  "last_pulse_post_min": 29773920,
   "eu_slots": [
     {
       "slot": 0,
