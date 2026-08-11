@@ -2,7 +2,7 @@
   "date": "2026-08-11",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 5,
+  "daily_pulse_posts": 6,
   "gemini_calls_today": 11,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 301,
+  "event_log_next_id": 302,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -710,16 +710,16 @@
       "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29"
     ],
     "MRVL": [
-      "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
-      "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
       "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
+      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
+      "Apple Among Three Stocks In Voracious Demand. Funds Also Feast On 14 Others.",
+      "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
       "Nvidia Stock Slips as Its AI Investments Draw Fresh Scrutiny",
       "Broadcom’s Brilliant Positioning is Why I Am Loading Up Over and Over",
-      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
-      "Beyond NVIDIA and GPUs: The Next AI & Quantum Winners Leading 2026",
       "The Toughest Questions AMD Faced On Its Latest Call",
-      "How To Earn 11% On NVDA Stock And Set A 30% Safety Net",
-      "Intel Announces Leadership Appointment to Strengthen Customer Engagement and Accelerate Growth",
+      "Should Lumentum Stock Be in Your Portfolio Pre-Q4 Earnings?",
+      "Should You Buy NVIDIA Stock After Its 11% Rally in a Month?",
+      "Insight Enterprises Q2 Earnings Call Highlights",
       "Marvell expands AI memory portfolio to support growing Agentic AI workloads",
       "Benzinga Bulls And Bears: Palantir, Marvell, AppLovin",
       "Marvell Stock, Corning, and Lumentum Surge on Report of Import China Ban",
@@ -732,16 +732,16 @@
       "Stocks Supported as Fed Rate Hike Fears Ease"
     ],
     "FORM": [
+      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
+      "FormFactor (FORM) Stock Sees Modest Fair Value Cut As Analysts Reset AI Expectations",
+      "FormFactor Q2 Earnings Call Highlights AI Demand Drives Growth",
+      "Why FormFactor Stock Is Skyrocketing Today",
+      "FormFactor Inc (FORM) (Q2 2026) Earnings Call Highlights: Record Revenue and EPS Fueled by AI ...",
+      "FormFactor (FORM) Q2 Earnings and Revenues Surpass Estimates",
+      "FormFactor Q2 Earnings Call Highlights",
+      "FormFactor (NASDAQ:FORM) Delivers Impressive Q2, Stock Jumps 16.6%",
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
-      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
-      "New Strong Buy Stocks for August 3rd",
-      "FormFactor (FORM) Stock Sees Modest Fair Value Cut As Analysts Reset AI Expectations",
-      "STARTRADER expands AI offering with 31 New US Share & ETF CFDs in Semiconductors, Optical Networking & Nuclear",
-      "Why FormFactor (FORM) Stock Is Up Today",
-      "FORM vs. AEHR: Which Semi Test Equipment Stock is a Better Buy?",
-      "FormFactor's Q2 Earnings Beat Estimates, Revenues Increase Y/Y",
-      "FormFactor Q2 Earnings Call Highlights AI Demand Drives Growth",
       "FormFactor Inc (FORM) Shares Fall 4.3% -- What GF Score of 59 Te",
       "FormFactor Inc (FORM) CEO Slessor logs major RSU vesting and fresh 27,696-unit grant",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
@@ -751,7 +751,7 @@
       "Fund Update: 764,000 FORMFACTOR (FORM) shares added to GF FUND MANAGEMENT CO. LTD. portfolio",
       "Assenagon Asset Management S.A. Cuts Stake in FormFactor, Inc. $FORM",
       "FormFactor Stock Leads 3 Cash Flow Picks In AI Infrastructure",
-      "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?"
+      "New Strong Buy Stocks for August 3rd"
     ],
     "LRCX": [
       "Lam Research (LRCX) Upgraded to Strong Buy",
@@ -815,8 +815,8 @@
       "Western Digital Corporation Stock 12‑Month Price Target Raised to $671.57, Implies 29% Upside",
       "Western Digital Fell 20% This Week. Here’s What Could Drive Shares in 2026",
       "Western Digital Corporation $WDC Stock Holdings Lessened by Assenagon Asset Management S.A.",
+      "Western Digital Corporation 2026 Q4 - Results - Earnings Call Presentation (NASDAQ:WDC) 2026-08-06",
       "Western Digital Corporation $WDC is UNICOM Systems Inc.'s 9th Largest Position",
-      "Western Digital tops estimates, offers above-consensus guidance but shares sink",
       "Does STX Stock Still Have More Room to Run After Solid Q4 Earnings?"
     ],
     "AVGO": [
@@ -963,9 +963,9 @@
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
-      "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "AIXTRON SE N (AIXA.DU) Stock Price, News, Quote & History",
       "AIXTRON SE N (AIXA.DU) stock price, news, quote and history",
+      "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
       "Aixtron (AIXA) Stock Price, News & Analysis",
       "Aixtron SE vs Veeco Instruments",
@@ -1018,24 +1018,21 @@
     "ANET": [
       "A 14% Yield On ANET Stock, And A Shot At Buying It 40% Lower",
       "Arista’s (ANET) Record Quarter Reignites The AI Networking Debate",
+      "Is DDOG Stock Worth Investing in After Q2 Beat & Solid '26 Guidance?",
+      "Ciena Down 29% in Past 3 Months: Should Investors Buy, Hold or Sell?",
+      "The Zacks Analyst Blog Highlights SpaceX, Arista Networks and The Boeing",
       "Does Arista Networks (ANET) Have the Potential to Rally 26.33% as Wall Street Analysts Expect?",
       "Arista Witnesses an Uptrend in Estimate Revision: Is it Worth Buying?",
       "Arista Networks Stock: Analyst Estimates & Ratings",
-      "3 Reasons Why Growth Investors Shouldn't Overlook Arista Networks (ANET)",
-      "Is ANET Worth Buying Now or Waiting for a Better Entry Point?",
       "Adobe vs. Arista Networks: Which Technology Stock Is a Better Buy in 2026?",
-      "Stock Market Rally Powers Ahead; SpaceX, Palantir, Sandisk Are Key Earnings Movers: Weekly Review",
-      "Is DDOG Stock Worth Investing in After Q2 Beat & Solid '26 Guidance?",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
-      "The Zacks Analyst Blog Highlights SpaceX, Arista Networks and The Boeing",
       "Arista Networks: Hefty Growth Premium Baked In - AI Pick/Shovel Status Proven",
       "Top Stock Reports for SpaceX, Arista Networks & Boeing",
       "Stocks making the biggest moves after the bell: SpaceX, AMD, Pinterest, Arista Networks, Wynn Resorts & more",
       "Arista Networks Just Delivered Its First $3 Billion Quarter",
       "Arista Networks, Inc. $ANET Shares Sold by Handelsbanken Fonder AB",
       "As AI Networks Scale In Three Directions, So Does Arista",
-      "Should Buy, Sell or Hold Cisco Stock Before Q4 Earnings?",
-      "Ciena Down 29% in Past 3 Months: Should Investors Buy, Hold or Sell?"
+      "Should Buy, Sell or Hold Cisco Stock Before Q4 Earnings?"
     ],
     "ASML.AS": [
       "ASML Stock Rises 1.7% as AI Demand Signal Strengthens",
@@ -1274,8 +1271,7 @@
     "mover": [
       2,
       5,
-      4,
-      1
+      4
     ],
     "price_event": [
       3
@@ -1291,8 +1287,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 303.7,
-    "SIE.DE": 276.4,
+    "SU.PA": 303.85,
+    "SIE.DE": 276.55,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1318,11 +1314,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 180.76,
-    "BESI.AS": 225.0,
-    "AIXA.DE": 41.29,
-    "IFX.DE": 63.03,
-    "ASML.AS": 1541.4,
+    "SAP.DE": 180.84,
+    "BESI.AS": 225.5,
+    "AIXA.DE": 41.36,
+    "IFX.DE": 62.98,
+    "ASML.AS": 1544.0,
     "MU": 861.6,
     "TSM": 418.49,
     "KLAC": 192.81,
@@ -1363,7 +1359,7 @@
     "ASML.AS": "2026-08-10"
   },
   "next_pulse_interval": 42,
-  "last_pulse_post_min": 29774040,
+  "last_pulse_post_min": 29774100,
   "eu_slots": [
     {
       "slot": 0,
