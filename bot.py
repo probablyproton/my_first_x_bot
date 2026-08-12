@@ -812,12 +812,12 @@ def generate_zero_llm_weekend_post(tickers: list[str]) -> str | None:
     worst_t, worst_v = ranked[-1]
 
     def fmt(t, v):
-        return f"${_base_symbol(t)} {'+' if v >= 0 else ''}{v}% WTD"
+        return f"${_display_ticker(t)} {'+' if v >= 0 else ''}{v}% WTD"
 
     values = {
-        "best": f"${_base_symbol(best_t)}",
+        "best": f"${_display_ticker(best_t)}",
         "best_pct": f"{'+' if best_v >= 0 else ''}{best_v}% WTD",
-        "worst": f"${_base_symbol(worst_t)}",
+        "worst": f"${_display_ticker(worst_t)}",
         "worst_pct": f"{'+' if worst_v >= 0 else ''}{worst_v}% WTD",
         "spread": round(best_v - worst_v, 1),
         "top3": "\n".join(fmt(t, v) for t, v in ranked[:3]),
@@ -895,7 +895,7 @@ def generate_zero_llm_pulse(tickers: list[str], state: dict) -> str | None:
     ctx = contexts[base_t]
     pct = ctx["change_pct"]
     values = {
-        "base": _base_symbol(base_t),
+        "base": _display_ticker(base_t),
         "price": ctx["price"],
         "currency": ctx.get("currency_symbol", "$"),
         "pct": pct,
@@ -919,7 +919,7 @@ def generate_zero_llm_price_event(symbol: str, price_ctx: dict, state: dict) -> 
     if "day_high" in price_ctx and "day_low" in price_ctx:
         range_str = f" Intraday range: low {cur}{price_ctx['day_low']} / high {cur}{price_ctx['day_high']}."
     values = {
-        "base": _base_symbol(symbol),
+        "base": _display_ticker(symbol),
         "price": price_ctx["price"],
         "currency": cur,
         "pct": pct,
@@ -939,7 +939,7 @@ def generate_zero_llm_poll(tickers: list[str]) -> tuple[str, list[str]] | None:
     if len(top) < 2:
         return None
     question = random.choice(POLL_QUESTION_TEMPLATES)
-    options = [f"${_base_symbol(t)}" for t in top]
+    options = [f"${_display_ticker(t)}" for t in top]
     return question, options
 
 # ── Helpers ───────────────────────────────────────────────────────────[[...]
@@ -1069,8 +1069,12 @@ Write one concise, engaging tweet about the provided stock using only the suppli
   "(NYSE: VRT)" or "($VRT)" — a bracketed ticker won't render as a clickable cashtag on X. If you
   ever need the company name for clarity, write it plainly followed by the bare ticker with no
   brackets between them: "Vertiv $VRT", not "Vertiv ($VRT)".
+- If the "Ticker:" line includes an exchange suffix (e.g. $ASML.AS, $SAP.DE), reproduce it EXACTLY
+  as given, suffix included — do not strip it down to $ASML or $SAP. Several EU-listed names share
+  their bare ticker with an unrelated or differently-priced US listing, so dropping the suffix on a
+  post about the EU listing reads as if it's quoting the US one.
 - The price data already comes with its correct currency symbol attached (e.g. € for EUR-denominated
-  stocks like $SAP, $ASML, $SU). Reproduce that symbol exactly as given — never convert it to $.
+  stocks like $SAP.DE, $ASML.AS, $SU.PA). Reproduce that symbol exactly as given — never convert it to $.
 - Frame all forward-looking statements as possibilities, never certainties.
   Use: could, might, may, potentially, worth watching, raises the question.
   Never: will, confirms, proves, guarantees.
@@ -1242,7 +1246,7 @@ def generate_tweet(symbol: str, slot: dict, price_ctx: dict,
     angle      = event_trigger if event_trigger else slot["angle"]
     tweet_type = "event"      if event_trigger else slot["type"]
 
-    prompt = f"""Ticker: ${_base_symbol(symbol)}
+    prompt = f"""Ticker: ${_display_ticker(symbol)}
 {price_str}
 
 Market phase: {phase_instruction}
@@ -1627,8 +1631,12 @@ Write one immediate, specific reaction tweet using only the supplied headline an
   "(NYSE: VRT)" or "($VRT)" — a bracketed ticker won't render as a clickable cashtag on X. If you
   ever need the company name for clarity, write it plainly followed by the bare ticker with no
   brackets between them: "Vertiv $VRT", not "Vertiv ($VRT)".
+- If the "Ticker:" line includes an exchange suffix (e.g. $ASML.AS, $SAP.DE), reproduce it EXACTLY
+  as given, suffix included — do not strip it down to $ASML or $SAP. Several EU-listed names share
+  their bare ticker with an unrelated or differently-priced US listing, so dropping the suffix on a
+  post about the EU listing reads as if it's quoting the US one.
 - The price data already comes with its correct currency symbol attached (e.g. € for EUR-denominated
-  stocks like $SAP, $ASML, $SU). Reproduce that symbol exactly as given — never convert it to $.
+  stocks like $SAP.DE, $ASML.AS, $SU.PA). Reproduce that symbol exactly as given — never convert it to $.
 - Use line breaks – no walls of text
 - Emoji: sparingly. 🟢🔴 only for a direct "green or red at the open?" question — place them on their own line immediately before that question.
 - Never use em dash. Use en dash (–) only.
@@ -1676,7 +1684,7 @@ def generate_news_event_tweet(symbol: str, classification: dict, price_ctx: dict
         if link else ""
     )
 
-    prompt = f"""Ticker: ${_base_symbol(symbol)}
+    prompt = f"""Ticker: ${_display_ticker(symbol)}
 {price_str}
 
 Major news headline: {classification['headline']}
@@ -1714,7 +1722,7 @@ def generate_keyword_event_tweet(symbol: str, classification: dict, price_ctx: d
     Used only when Gemini classification wasn't available for this ticker this cycle.
     No explicit source attribution line — the link itself (and its preview card) already
     makes the source obvious."""
-    base = _base_symbol(symbol)
+    base = _display_ticker(symbol)
     price_str = ""
     if price_ctx:
         cur = price_ctx.get("currency_symbol", "$")
@@ -1773,8 +1781,12 @@ this general discretion.
   bracketed ticker won't render as a clickable cashtag on X. If the company name is ever needed for
   clarity, write it plainly followed by the bare ticker with no brackets: "Vertiv $VRT", not
   "Vertiv ($VRT)".
+- The $TICKER shown for each line in the "Market data" block below may include an exchange suffix
+  (e.g. $ASML.AS, $SAP.DE) — reproduce it EXACTLY as given, suffix included, never strip it down to
+  $ASML or $SAP. Several EU-listed names share their bare ticker with an unrelated or
+  differently-priced US listing, so dropping the suffix reads as if you're quoting the US one.
 - Each ticker's price in the data below already comes with its correct currency symbol attached —
-  EU_WATCHLIST names (e.g. $SAP, $ASML, $SU) are EUR-denominated and shown with €, not $. Reproduce
+  EU_WATCHLIST names (e.g. $SAP.DE, $ASML.AS, $SU.PA) are EUR-denominated and shown with €, not $. Reproduce
   whichever symbol is given for each ticker exactly, never normalize every price to $.
 - When the post covers more than one ticker, give EACH its own line — a short, CLEAR, complete
   phrase (e.g. "$VRT -6.6% at $314.26, off its $335.66 high"), not multiple tickers woven into one
@@ -1859,6 +1871,15 @@ def _base_symbol(t: str) -> str:
     return t.split(".")[0].split("-")[0]
 
 
+def _display_ticker(t: str) -> str:
+    """Cashtag text to show in a tweet. EU_WATCHLIST symbols keep their exchange suffix
+    (e.g. $ASML.AS, $SAP.DE) — many EU names share a bare ticker with an unrelated or
+    differently-priced US listing (ASML also trades on Nasdaq as plain $ASML), so dropping
+    the suffix on a tweet about the EU listing's price reads as if it's the US listing's.
+    US_WATCHLIST symbols have no such collision and keep the plain base symbol."""
+    return t if t in EU_WATCHLIST else _base_symbol(t)
+
+
 def _has_unknown_ticker(tweet: str, allowed_symbols) -> bool:
     """True if the tweet $-mentions a ticker with no real supplied price data —
     guards against the model fabricating a price/% move for a company it only
@@ -1884,7 +1905,7 @@ def generate_market_update_tweet(key: str, ranked: list[str], ticker_data: dict,
             source_note  = f" ({research_spotlight['source']})" if research_spotlight.get("source") else ""
             summary_note = f"\nReport summary: {research_spotlight['summary']}" if research_spotlight.get("summary") else ""
             phase_instruction += (
-                f"\n\nRESEARCH SPOTLIGHT this week on ${_base_symbol(research_spotlight['symbol'])}: "
+                f"\n\nRESEARCH SPOTLIGHT this week on ${_display_ticker(research_spotlight['symbol'])}: "
                 f"\"{research_spotlight['headline']}\"{source_note}.{summary_note}\n"
                 "This is a genuine named-firm research view, not routine chatter. Distill it into a "
                 "tight, high-level executive-summary callout — the specific number or thesis that "
@@ -1923,7 +1944,7 @@ def generate_market_update_tweet(key: str, ranked: list[str], ticker_data: dict,
     lines = []
     for t in ranked:
         ctx  = ticker_data.get(t, {})
-        base = _base_symbol(t)
+        base = _display_ticker(t)
         cur  = ctx.get("currency_symbol", "$")
         if phase == "weekend":
             line = f"${base}: last close {cur}{ctx['price']}" if ctx else f"${base}:"
@@ -2033,12 +2054,12 @@ Keep it casual, direct, simple everyday English, under 280 characters."""))
             # engagement-post rule for this one post since the ranking itself is the point.
             top5_sorted = sorted(top5, key=lambda t: wtd.get(t, float("-inf")), reverse=True)
             vol_lines = "\n".join(
-                f"${_base_symbol(t)}: {'+' if wtd[t] >= 0 else ''}{wtd[t]}%" if t in wtd else f"${_base_symbol(t)}"
+                f"${_display_ticker(t)}: {'+' if wtd[t] >= 0 else ''}{wtd[t]}%" if t in wtd else f"${_display_ticker(t)}"
                 for t in top5_sorted
             )
             news_by_ticker = {t: get_ticker_context(t, max_messages=1) for t in top5_sorted}
             news_lines = "\n".join(
-                f"${_base_symbol(t)}: {headlines[0]}" if (headlines := news_by_ticker.get(t)) else f"${_base_symbol(t)}: no notable headline this week"
+                f"${_display_ticker(t)}: {headlines[0]}" if (headlines := news_by_ticker.get(t)) else f"${_display_ticker(t)}: no notable headline this week"
                 for t in top5_sorted
             )
             n = len(top5_sorted)
@@ -2435,7 +2456,7 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
             )
         direction = "up" if price_ctx["change_pct"] > 0 else "down"
         trigger = (
-            f"${_base_symbol(symbol)} is {direction} {day_pct:.1f}% today (now {cur}{current}).{intraday} "
+            f"${_display_ticker(symbol)} is {direction} {day_pct:.1f}% today (now {cur}{current}).{intraday} "
             f"This is a significant day move. React with conviction."
         )
         candidates.append((day_pct, symbol, price_ctx, trigger))
