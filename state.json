@@ -2,7 +2,7 @@
   "date": "2026-08-12",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 8,
+  "daily_pulse_posts": 9,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 328,
+  "event_log_next_id": 329,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -710,25 +710,25 @@
       "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29"
     ],
     "MRVL": [
-      "Lumentum, CoreWeave, SMCI, and More Stocks That Explain Today’s Market",
       "Why Is Marvell Technology (MRVL) Investing $250 Million In India Now?",
+      "Marvell Could Be Next Winner in Microsoft AI Bet",
+      "Microsoft's Maia 300 Could Be a Win for Marvell and TSMC",
+      "The AI Trade Has a New Battleground and One Stock is Emerging as a Winner",
+      "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
+      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
+      "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
       "What Is The Market Really Expecting From AVGO Stock?",
       "The Options Market Says Marvell Stock Could Halve Or More Than Double",
-      "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
-      "Marvell Could Be Next Winner in Microsoft AI Bet",
       "NVIDIA's Falling Multiple Is A Bill, Not A Bargain",
-      "Microsoft's Maia 300 Could Be a Win for Marvell and TSMC",
-      "Can MRVL's NVDA Alliance Help it Challenge ALAB & AVGO?",
-      "AMD's Bigger Risk Sits In Its Revenue Mix, Not Its Multiple",
       "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
       "Marvell Technology Stock’s Multiple Leans On Profit From Below The Operating Line",
       "Marvell: Don't Get Shaken Out Of The Sharp Sell-Off (NASDAQ:MRVL)",
       "Marvell expands AI memory portfolio to support growing Agentic AI workloads",
       "Broadcom vs. Marvell: Which Stock Has More AI Upside?",
       "Marvell Technology (NASDAQ:MRVL) Shares Down 4.6% - Here's What Happened",
-      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
       "Stocks Settle Lower Ahead of Wednesday’s CPI Report",
       "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
+      "Can MRVL's NVDA Alliance Help it Challenge ALAB & AVGO?",
       "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears"
     ],
     "FORM": [
@@ -754,26 +754,26 @@
       "Assenagon Asset Management S.A. Cuts Stake in FormFactor, Inc. $FORM"
     ],
     "LRCX": [
-      "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
+      "Lam Research and NY Creates Team Up to Enable Training of University Students for the Semiconductor Workforce",
       "Elon Musk’s Newest Factory is 15X The Size of The Pentagon. Micron and Memory Stocks Should be Terrified.",
       "5 Insightful Analyst Questions From Lam Research’s Q2 Earnings Call",
-      "Lam Research Enters Panel-Level Packaging: Is This a Growth Catalyst?",
-      "Bernstein raises WFE growth estimates, boosts price targets",
       "Buy and Hold These 2 Top-Ranked AI-Led Semiconductor Equipment Stocks",
       "Is Lam Research, KLA, or Applied Materials the Best Chip Equipment Buy? Jim Cramer Weighs In",
+      "Chip equipment stocks rise after Taiwan Semiconductor revenue surges 45%",
+      "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
+      "Lam Research Enters Panel-Level Packaging: Is This a Growth Catalyst?",
+      "Bernstein raises WFE growth estimates, boosts price targets",
       "Lam Research (LRCX) Gains An AI Supply Chain Tailwind As Customer Demand Surges",
-      "Lam Research (LRCX) Upgraded to Strong Buy",
-      "ASML Dropped 5% Over a Month But a Prominent Wall Street Wealth Manager Sees 50% Returns Coming",
-      "Lam Research Corporation $LRCX Shares Sold by Handelsbanken Fonder AB",
+      "Lam's virtual chipmaking platform could train about 3,500 students",
+      "Lam Research Corporation $LRCX Holdings Lowered by Wedge Capital Management L L P NC",
       "Lam Research Corporation Reports Financial Results for the Quarter Ended June 28, 2026",
-      "Bernstein Adjusts Lam Research Price Target to $385 From $360, Maintains Outperform Rating",
+      "The Zacks Analyst Blog Highlights SpaceX, Tesla KLA Corp, Onto Innovation, Applied Materials and Lam Research",
+      "Lam Research Corporation $LRCX Shares Sold by Insight Wealth Strategies LLC",
       "AI demand, risk and strategy at Lam Research (NASDAQ: LRCX) in 2026",
-      "Generali Investments Management Co LLC Sells 4,351 Shares of Lam Research Corporation $LRCX",
-      "Redhawk Wealth Advisors Inc. Purchases 7,613 Shares of Lam Research Corporation $LRCX",
+      "Sapient Capital LLC Has $240,000 Stock Position in Lam Research Corporation $LRCX",
+      "Stocks Settle Lower Ahead of Wednesday’s CPI Report",
       "Stocks Supported by Renewed Middle East Optimism",
-      "Stocks Mostly Higher in Hopes for a Deal to Reopen Hormuz",
-      "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
-      "AMAT to Post Q3 Earnings: Time to Buy, Sell or Hold the Stock?"
+      "Stocks Mostly Higher in Hopes for a Deal to Reopen Hormuz"
     ],
     "TSM": [
       "MediaTek Wants 20% of Custom AI Chips. Alphabet (GOOGL) Could Win Before Broadcom (AVGO) Loses",
@@ -857,9 +857,9 @@
       "Final Trades: Snowflake, KLA Corp, Gilead Sciences and Airbnb",
       "KLA Corp (KLAC) Insider Sell: SVP & Chief Accounting Officer Vir",
       "KLA Corp (KLAC) EVP Wilkinson sells 1,661 shares under Rule 10b5-1 plan",
-      "KLA Corp | 144: Notice of proposed sale of securities pursuant to Rule 144",
       "KLA (KLAC) Stock Looks Above Fair Value Even With AI Hopes",
       "KLA Declares Regular Cash Dividend",
+      "KLA Corp | 144: Notice of proposed sale of securities pursuant to Rule 144",
       "Stocks Settle Lower Ahead of Wednesday’s CPI Report",
       "Stocks Supported by Renewed Middle East Optimism"
     ],
@@ -891,19 +891,19 @@
       "Buy These 5 Top-Ranked Efficient Stocks With Strong Growth Potential",
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Highlights: Record Growth and ...",
       "BE Semiconductor Reports Strong Q2 Growth as AI Demand Drives Record Orders",
-      "European semiconductor stocks diverge as investors weigh AI demand, growth expectations",
-      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "Besi orders more than double as AI and hybrid bonding tech drive demand",
       "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
+      "BE Semiconductor Industries NV (BESIY) Q1 2026 Earnings Call Highlights: Record Growth in ...",
+      "BE Semiconductor Industries N.V. Announces Q1-26 Results",
+      "Besi orders more than double as AI and hybrid bonding tech drive demand",
       "BE Semiconductor Industries N.V. (BESI.VI) stock price, news, quote and history",
       "Why BE Semiconductor Industries (ENXTAM:BESI) Is Up 10.1% After Strong Half-Year Earnings And Efficiency Gains",
       "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
       "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
-      "BE Semiconductor Industries N.V. Announces Q1-26 Results",
       "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
       "Press Release: BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
       "Q3 2025 BE Semiconductor Industries NV Earnings Call Transcript",
-      "BE Semiconductor Industries (OTCMKTS:BESIY) Shares Gap Down - Here's Why"
+      "BE Semiconductor Industries (OTCMKTS:BESIY) Shares Gap Down - Here's Why",
+      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results"
     ],
     "AMAT": [
       "IPGP Q2 Earnings Beat Estimates on Industrial Solutions Growth",
@@ -1310,8 +1310,7 @@
       1,
       5,
       6,
-      2,
-      3
+      2
     ],
     "price_event": [
       3
@@ -1327,8 +1326,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 310.25,
-    "SIE.DE": 282.0,
+    "SU.PA": 309.9,
+    "SIE.DE": 281.75,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1354,11 +1353,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 178.68,
-    "BESI.AS": 233.5,
-    "AIXA.DE": 44.09,
-    "IFX.DE": 65.34,
-    "ASML.AS": 1588.0,
+    "SAP.DE": 176.88,
+    "BESI.AS": 233.8,
+    "AIXA.DE": 44.12,
+    "IFX.DE": 65.31,
+    "ASML.AS": 1589.8,
     "MU": 868.34,
     "TSM": 422.19,
     "KLAC": 200.29,
@@ -1398,8 +1397,8 @@
     "WDC": "2026-08-07",
     "ASML.AS": "2026-08-10"
   },
-  "next_pulse_interval": 35,
-  "last_pulse_post_min": 29775631,
+  "next_pulse_interval": 45,
+  "last_pulse_post_min": 29775676,
   "eu_slots": [
     {
       "slot": 0,
@@ -1432,7 +1431,7 @@
     }
   ],
   "us_posted": [],
-  "last_pulse_ticker": "IFX.DE",
+  "last_pulse_ticker": "AIXA.DE",
   "pulse_news_seen": {
     "mrvl:why is marvell technology (mrvl) investing $250 million in india now?": "2026-08-12",
     "avgo:broadcom trades at 71 times earnings and 27 times next year's. history says which side gives.": "2026-08-12",
