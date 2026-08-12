@@ -1,10 +1,10 @@
 {
   "date": "2026-08-12",
   "daily_posts": 2,
-  "daily_keyword_posts": 1,
-  "daily_pulse_posts": 12,
+  "daily_keyword_posts": 2,
+  "daily_pulse_posts": 13,
   "gemini_calls_today": 18,
-  "evergreen_opinion_posts_today": 1,
+  "evergreen_opinion_posts_today": 2,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-10",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 335,
+  "event_log_next_id": 336,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -711,16 +711,16 @@
       "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29"
     ],
     "MRVL": [
-      "Nvidia Will Be The World’s First $10 Trillion Company",
       "Why Is Marvell Technology (MRVL) Investing $250 Million In India Now?",
+      "Marvell Could Be Next Winner in Microsoft AI Bet",
+      "Microsoft's Maia 300 Could Be a Win for Marvell and TSMC",
+      "The AI Trade Has a New Battleground and One Stock is Emerging as a Winner",
+      "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
+      "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
+      "Nvidia Will Be The World’s First $10 Trillion Company",
       "What Is The Market Really Expecting From AVGO Stock?",
       "The Options Market Says Marvell Stock Could Halve Or More Than Double",
-      "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
-      "Marvell Could Be Next Winner in Microsoft AI Bet",
       "NVIDIA's Falling Multiple Is A Bill, Not A Bargain",
-      "Microsoft's Maia 300 Could Be a Win for Marvell and TSMC",
-      "Can MRVL's NVDA Alliance Help it Challenge ALAB & AVGO?",
-      "AMD's Bigger Risk Sits In Its Revenue Mix, Not Its Multiple",
       "Marvell Technology Stock’s Multiple Leans On Profit From Below The Operating Line",
       "Marvell: Don't Get Shaken Out Of The Sharp Sell-Off (NASDAQ:MRVL)",
       "Marvell Technology (NASDAQ:MRVL) Shares Down 4.6% - Here's What Happened",
@@ -747,7 +747,7 @@
       "FormFactor Inc (FORM) Shares Fall 4.3% -- What GF Score of 59 Te",
       "FormFactor Jumps 6.4% Amid Sector-Wide Rally",
       "Why FormFactor (FORM) Is Up 7.9% After Strong Q2, Taiwan Expansion And New Share Shelf - And What's Next",
-      "FormFactor (NASDAQ:FORM) Trading Up 6.1% - Should You Buy?",
+      "Assenagon Asset Management S.A. Cuts Stake in FormFactor, Inc. $FORM",
       "FormFactor, Inc. Stock 12‑Month Price Target Raised to $149.29, Implies 27% Upside",
       "FormFactor Stock Leads Quantum Computing Picks As AI Chip Testing Demand Builds",
       "Fund Update: 764,000 FORMFACTOR (FORM) shares added to GF FUND MANAGEMENT CO. LTD. portfolio",
@@ -756,15 +756,15 @@
     ],
     "LRCX": [
       "Lam Research and NY Creates Team Up to Enable Training of University Students for the Semiconductor Workforce",
-      "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
       "Elon Musk’s Newest Factory is 15X The Size of The Pentagon. Micron and Memory Stocks Should be Terrified.",
       "5 Insightful Analyst Questions From Lam Research’s Q2 Earnings Call",
-      "Lam Research Enters Panel-Level Packaging: Is This a Growth Catalyst?",
-      "Bernstein raises WFE growth estimates, boosts price targets",
       "Buy and Hold These 2 Top-Ranked AI-Led Semiconductor Equipment Stocks",
       "Is Lam Research, KLA, or Applied Materials the Best Chip Equipment Buy? Jim Cramer Weighs In",
+      "Chip equipment stocks rise after Taiwan Semiconductor revenue surges 45%",
+      "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
+      "Lam Research Enters Panel-Level Packaging: Is This a Growth Catalyst?",
+      "Bernstein raises WFE growth estimates, boosts price targets",
       "Lam Research (LRCX) Gains An AI Supply Chain Tailwind As Customer Demand Surges",
-      "Lam Research (LRCX) Upgraded to Strong Buy",
       "Lam's virtual chipmaking platform could train about 3,500 students",
       "Lam Research Corporation $LRCX Holdings Lowered by Wedge Capital Management L L P NC",
       "Lam Research Corp Stock (LRCX) Opened Up by 4.92% on Aug 12",
@@ -809,13 +809,13 @@
       "SanDisk Traded Margin Upside For Years Of Contracted Revenue",
       "Chasing NVIDIA? Western Digital May Be the Smarter AI Bet",
       "Seagate Technology Gains From AI Boom: Is Long-Term Growth Secured?",
+      "Western Digital Corp Stock (WDC) Moved Up by 4.79% on Aug 12: Key Drivers Unveiled",
       "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
-      "WESTERN DIGITAL CORP SEC Filing (Aug 11, 2026)",
+      "Western Digital Corporation $WDC Stock Holdings Lessened by Assenagon Asset Management S.A.",
       "Western Digital: AI Is Creating 300 Trillion Tokens A Day, Buy The Storage (NASDAQ:WDC)",
-      "Western Digital Corporation $WDC is UNICOM Systems Inc.'s 9th Largest Position",
+      "WESTERN DIGITAL CORP SEC Filing (Aug 11, 2026)",
       "What's Going On With Western Digital Stock Monday?",
-      "Western Digital Pulls Back Nearly 50% in Short Term, Stock Risks Plunging Over 30% More",
-      "Western Digital Fell 20% This Week. Here’s What Could Drive Shares in 2026",
+      "Are Western Digital’s AI Storage Deals Quietly Redefining Its Long‑Term Strategy and Capital Priorities (WDC)?",
       "Stocks Supported by Renewed Middle East Optimism",
       "Notable ETF Inflow Detected - IYW, TXN, WDC, DELL",
       "Can Western Digital Expand Margins on Higher-Capacity Drives?"
@@ -876,15 +876,15 @@
       "SAP (XTRA:SAP) Launches AI Agent Hub As AI Governance Reaches The Boardroom",
       "Loftware and RiseNow Partner to Accelerate Supply Chain Performance and Compliance",
       "SAP SE (SAP.DE) Stock Price, News, Quote & History",
+      "SAP SE Stock (SAP) Moved Down by 3.03% on Aug 12: Key Drivers Unveiled",
       "Dimensional Fund Advisors LP Sells 12,640 Shares of SAP SE $SAP",
       "SAP Quarterly Statement Q2 2026",
-      "SAP SE Stock (SAP) Moved Up by 3.66% on Aug 7: Facts Behind the Movement",
       "SAP Announces Q2 and Half-Year 2026 Results",
       "SAP SE-SPONSORED ADR (NYSE:SAP): A Quality Stock with Superior Capital Efficiency and Strong Cash Generation",
       "SAP SE: Release of a capital market information",
       "An Analysis of SAP SE (SAP) in the AI Transition Era",
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
-      "SAP Completes Acquisition of Prior Labs"
+      "SAP SE Stock (SAP) Moved Up by 3.66% on Aug 7: Facts Behind the Movement"
     ],
     "BESI.AS": [
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
@@ -953,14 +953,14 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
@@ -999,11 +999,11 @@
       "Infineon Technologies (XTRA:IFX) Sets Record AI Revenue, Is It Fully Priced?",
       "Infineon Technologies AG (IFNNF) (Q3 2026) Earnings Call Highlights: Record Revenue and AI ...",
       "Infineon hits revenue record: AI data centres drive growth",
-      "AI and Chips Are Turning Malaysia Into Asia’s Growth Standout",
+      "German chipmaker Infineon posts record revenue as AI fuels growth",
       "Chip Stocks Climb as AI Rally Regains Strength",
-      "Chip Stocks Rise After Pause in Middle East Fighting",
       "Japan's Power-Chip Giants Target September Deal to Challenge Infineon",
       "European chip stocks fall after sharp U.S. peers’ selloff",
+      "Chips stocks fall. UnitedHealth rises. Netflix earnings are up next",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "INFINEON TECHNOLOGIES AG N (IFX.HM) Q3 FY2026 (Media) earnings call transcript",
       "Infineon Technologies AG: Release of a capital market information",
@@ -1016,26 +1016,26 @@
       "INFINEON TECHNOLOGIES AG : Bernstein reiterates its Buy rating"
     ],
     "ANET": [
-      "Is Arista Networks (ANET) a Buy as Wall Street Analysts Look Optimistic?",
+      "Arista (ANET) Q2 2026 Earnings Call Transcript",
       "Arista Networks Stock Is Waiting On Parts, Not Orders",
-      "Arista Networks (ANET) Is In Focus Again, So What Is The Market Weighing?",
       "Jim Cramer Highlights Arista Networks (ANET) Following Q2 Beat and 50% Rally",
       "Arista Networks (ANET) Is Up 4.61% in One Week",
       "Nokia Declines 28.7% in Three Months: Should You Buy the Dip?",
-      "EVER Enhances AI-Powered P&C Insurance Solutions With Waniwani",
       "Here's How Much You'd Have If You Invested $1000 in Arista Networks a Decade Ago",
-      "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Airbnb, AppLovin, Autodesk, Best Buy, BigBear.ai, Boeing, Fiserv, Jabil, Spotify Technology and More",
       "A 14% Yield On ANET Stock, And A Shot At Buying It 40% Lower",
       "Arista’s (ANET) Record Quarter Reignites The AI Networking Debate",
+      "Does Arista Networks (ANET) Have the Potential to Rally 26.33% as Wall Street Analysts Expect?",
+      "Arista Witnesses an Uptrend in Estimate Revision: Is it Worth Buying?",
       "As AI Networks Scale In Three Directions, So Does Arista",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "Adobe vs. Arista Networks: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Stocks making the biggest moves after the bell: SpaceX, AMD, Pinterest, Arista Networks, Wynn Resorts & more",
       "Top Stock Reports for SpaceX, Arista Networks & Boeing",
-      "Arista Networks Gains as Strong Earnings and AI Networking Demand Support Shares",
-      "Arista (ANET) Q2 2026 Earnings Call Transcript",
-      "Is DDOG Stock Worth Investing in After Q2 Beat & Solid '26 Guidance?"
+      "Is Arista Networks (ANET) a Buy as Wall Street Analysts Look Optimistic?",
+      "EVER Enhances AI-Powered P&C Insurance Solutions With Waniwani",
+      "Is DDOG Stock Worth Investing in After Q2 Beat & Solid '26 Guidance?",
+      "Should Buy, Sell or Hold Cisco Stock Before Q4 Earnings?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1220,12 +1220,12 @@
     }
   },
   "recent_post_sources": [
-    "DatacenterDynamics",
     "TipRanks",
     "MarketBeat",
     "DatacenterDynamics",
     "DatacenterDynamics",
-    "Axios"
+    "Axios",
+    "Utility Dive"
   ],
   "last_news_post_min": 29773242,
   "evergreen_opinion_used": {
@@ -1249,18 +1249,17 @@
     "data center opens on tribal lands in california to support fiber network": "2026-08-10",
     "gic and macquarie form theseus infrastructure to serve anthropic's data center needs": "2026-08-11",
     "nvidia ai interconnect darling point2 bags $136m funding from arm, others": "2026-08-11",
-    "dc blox sues over metro's data center moratorium": "2026-08-12"
+    "dc blox sues over metro's data center moratorium": "2026-08-12",
+    "pjm eyes data center, crypto reliability requirements after 3.8 gw of load trips offline": "2026-08-12"
   },
   "pulse_template_decks": {
     "evergreen": [
       3,
       1,
-      2,
-      0
+      2
     ],
     "mover": [
-      0,
-      1
+      0
     ],
     "price_event": [],
     "quiet": [
@@ -1269,7 +1268,7 @@
       1
     ]
   },
-  "last_evergreen_min": 29775692,
+  "last_evergreen_min": 29775872,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
@@ -1306,19 +1305,19 @@
     "AIXA.DE": 43.25,
     "IFX.DE": 63.41,
     "ASML.AS": 1574.2,
-    "MU": 925.24,
-    "TSM": 429.26,
-    "KLAC": 208.43,
-    "STX": 881.62,
-    "ANET": 207.65,
-    "LRCX": 327.73,
-    "FORM": 128.44,
-    "AVGO": 419.26,
-    "AMAT": 551.94,
-    "AMD": 486.57,
-    "MRVL": 220.58,
-    "NVDA": 223.54,
-    "WDC": 457.33
+    "MU": 922.74,
+    "TSM": 428.41,
+    "KLAC": 208.18,
+    "STX": 881.84,
+    "ANET": 208.18,
+    "LRCX": 327.96,
+    "FORM": 128.78,
+    "AVGO": 418.99,
+    "AMAT": 550.91,
+    "AMD": 486.69,
+    "MRVL": 222.45,
+    "NVDA": 222.98,
+    "WDC": 455.49
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1346,8 +1345,8 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-12"
   },
-  "next_pulse_interval": 39,
-  "last_pulse_post_min": 29775826,
+  "next_pulse_interval": 43,
+  "last_pulse_post_min": 29775871,
   "eu_slots": [
     {
       "slot": 0,
@@ -1363,7 +1362,8 @@
     }
   ],
   "eu_posted": [
-    0
+    0,
+    1
   ],
   "us_slots": [
     {
@@ -1382,12 +1382,13 @@
   "us_posted": [
     0
   ],
-  "last_pulse_ticker": "STX",
+  "last_pulse_ticker": "SAP.DE",
   "pulse_news_seen": {
     "mrvl:why is marvell technology (mrvl) investing $250 million in india now?": "2026-08-12",
     "avgo:broadcom trades at 71 times earnings and 27 times next year's. history says which side gives.": "2026-08-12",
     "ifx.de:infineon technologies ag: release according to article 40, section 1 of the wphg [the german securities trading act] with the objective of europe-wide distribution": "2026-08-12",
-    "mu:ai infrastructure stocks surge after strong earnings from coreweave, supermicro": "2026-08-12"
+    "mu:ai infrastructure stocks surge after strong earnings from coreweave, supermicro": "2026-08-12",
+    "sap.de:rimini street expands c-suite leadership for growth with appointment of two proven industry veterans as chief operating officer and chief delivery officer": "2026-08-12"
   },
   "us_flexible_used": 1
 }
