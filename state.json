@@ -3,7 +3,7 @@
   "daily_posts": 0,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 3,
-  "gemini_calls_today": 8,
+  "gemini_calls_today": 9,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -319,15 +319,15 @@
     ],
     "SIE.DE": [
       "Siemens (XTRA:SIE) Stock May Be 28% Below Fair Value As Profit Outlook Rises",
-      "BW Stock Edges Higher Overnight: Babcock & Wilcox Signs Agreement With Siemens Energy On 20 Steam Turbines",
-      "Babcock & Wilcox stakes out another perch in AI, data center bonanza",
-      "Should You Hold or Fold SNPS Stock After a 20% Decline in 3 Months?",
-      "Nucleus Research Releases 2026 Manufacturing Execution System Technology Value Matrix",
       "PROLIM Launches New Innovation Center to Accelerate Global Growth",
-      "Babcock & Wilcox secures 1 GW of Siemens steam turbines for FastPower projects",
-      "Business Chief Opens Speaker Applications for CXO Summit 2026",
       "Siemens Wins $80 Million Award for Advanced Army Manufacturing",
-      "Siemens Energy’s gas turbine backlog nears 70 GW as company expands manufacturing",
+      "Siemens Stock Falls 5% Despite Record AI-Fueled Industrial Profit",
+      "Siemens AG (SIEGY) (Q3 2026) Earnings Call Highlights: Record Orders and Raised Guidance Signal ...",
+      "Siemens shares plunge on disappointing guidance raise",
+      "Siemens lifts full-year forecast after record orders in third quarter",
+      "Babcock & Wilcox stakes out another perch in AI, data center bonanza",
+      "Nucleus Research Releases 2026 Manufacturing Execution System Technology Value Matrix",
+      "Babcock & Wilcox secures 1 GW of Siemens steam turbines for FastPower projects",
       "SIEMENS AG N (SIE.DU) Q3 FY2026 (Media) earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "SIEMENS AG N (SIE.F) Q3 FY2026 earnings call transcript",
@@ -810,12 +810,12 @@
       "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
       "Western Digital: AI Is Creating 300 Trillion Tokens A Day, Buy The Storage (NASDAQ:WDC)",
       "WESTERN DIGITAL CORP SEC Filing (Aug 11, 2026)",
-      "Are Western Digital’s AI Storage Deals Quietly Redefining Its Long‑Term Strategy and Capital Priorities (WDC)?",
       "Western Digital Pulls Back Nearly 50% in Short Term, Stock Risks Plunging Over 30% More",
       "Western Digital Corporation $WDC is UNICOM Systems Inc.'s 9th Largest Position",
       "What's Going On With Western Digital Stock Monday?",
       "Western Digital Corporation Stock 12‑Month Price Target Raised to $671.57, Implies 29% Upside",
       "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
+      "Western Digital Corporation $WDC Stock Position Lifted by Handelsbanken Fonder AB",
       "Stocks Supported by Renewed Middle East Optimism",
       "Notable ETF Inflow Detected - IYW, TXN, WDC, DELL"
     ],
@@ -951,14 +951,14 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
@@ -1191,6 +1191,30 @@
           "published": "2026-08-11T14:15:22"
         }
       ]
+    },
+    {
+      "symbol": "WDC",
+      "classification": {
+        "symbol": "WDC",
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "Western Digital Corporation $WDC Stock Position Lifted by Handelsbanken Fonder AB",
+        "reason": "A named institution, Handelsbanken Fonder AB, lifted its stock position, which qualifies as a large share purchase."
+      },
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS3lGSllkdGdpSEhaUDdEMFVCeWFTMmREVnFKdnhMUU82Qlg3T1BkcTdnSzE4RmFHVFFrMjhreEE0ZnRQNEVnRWwySFBCaGRHYW5EQVlHNGlrOXEtRU1qczBMYXp6NlRhaEFscjh0a1JvZkJwdEpVaFBMd1YxRExsNkRSUGFXeUxlSkl0bGFSbkJNSlZuVEpmNnVrNnpwS1g2XzdZMlZTR3VOMXczWERKaGp4d01NbjhQRk4wVHFuTUJod2h2WXVBVzRKeEpwV2xkLVVOcUwyZEM?oc=5",
+      "source": "MarketBeat",
+      "method": "gemini",
+      "published": "2026-08-11T10:34:21",
+      "queued_min": 29775436,
+      "all_articles": [
+        {
+          "headline": "Western Digital Corporation $WDC Stock Position Lifted by Handelsbanken Fonder AB",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS3lGSllkdGdpSEhaUDdEMFVCeWFTMmREVnFKdnhMUU82Qlg3T1BkcTdnSzE4RmFHVFFrMjhreEE0ZnRQNEVnRWwySFBCaGRHYW5EQVlHNGlrOXEtRU1qczBMYXp6NlRhaEFscjh0a1JvZkJwdEpVaFBMd1YxRExsNkRSUGFXeUxlSkl0bGFSbkJNSlZuVEpmNnVrNnpwS1g2XzdZMlZTR3VOMXczWERKaGp4d01NbjhQRk4wVHFuTUJod2h2WXVBVzRKeEpwV2xkLVVOcUwyZEM?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-11T10:34:21"
+        }
+      ]
     }
   ],
   "holding_disclosures_seen": {
@@ -1360,8 +1384,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 309.25,
-    "SIE.DE": 281.15,
+    "SU.PA": 309.4,
+    "SIE.DE": 282.15,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1387,11 +1411,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 178.26,
-    "BESI.AS": 229.2,
-    "AIXA.DE": 42.82,
-    "IFX.DE": 64.43,
-    "ASML.AS": 1581.8,
+    "SAP.DE": 178.58,
+    "BESI.AS": 229.3,
+    "AIXA.DE": 43.03,
+    "IFX.DE": 64.75,
+    "ASML.AS": 1582.4,
     "MU": 868.34,
     "TSM": 422.19,
     "KLAC": 200.29,
