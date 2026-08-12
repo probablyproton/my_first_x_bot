@@ -2,7 +2,7 @@
   "date": "2026-08-12",
   "daily_posts": 2,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 11,
+  "daily_pulse_posts": 12,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 334,
+  "event_log_next_id": 335,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -711,16 +711,16 @@
       "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29"
     ],
     "MRVL": [
-      "Nvidia Will Be The World’s First $10 Trillion Company",
-      "Nebius, CoreWeave, Lumentum, Quantinuum, Super Micro, and More Stocks That Explain Today’s Market",
       "Why Is Marvell Technology (MRVL) Investing $250 Million In India Now?",
+      "Marvell Could Be Next Winner in Microsoft AI Bet",
+      "Microsoft's Maia 300 Could Be a Win for Marvell and TSMC",
+      "The AI Trade Has a New Battleground and One Stock is Emerging as a Winner",
+      "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
+      "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
+      "Nvidia Will Be The World’s First $10 Trillion Company",
       "What Is The Market Really Expecting From AVGO Stock?",
       "The Options Market Says Marvell Stock Could Halve Or More Than Double",
-      "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
-      "Marvell Could Be Next Winner in Microsoft AI Bet",
       "NVIDIA's Falling Multiple Is A Bill, Not A Bargain",
-      "Microsoft's Maia 300 Could Be a Win for Marvell and TSMC",
-      "Can MRVL's NVDA Alliance Help it Challenge ALAB & AVGO?",
       "Marvell Technology Stock’s Multiple Leans On Profit From Below The Operating Line",
       "Marvell: Don't Get Shaken Out Of The Sharp Sell-Off (NASDAQ:MRVL)",
       "Marvell Technology (NASDAQ:MRVL) Shares Down 4.6% - Here's What Happened",
@@ -730,7 +730,7 @@
       "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
       "Stocks Settle Lower Ahead of Wednesday’s CPI Report",
       "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
-      "Broadcom vs. Marvell: Which Stock Has More AI Upside?"
+      "Can MRVL's NVDA Alliance Help it Challenge ALAB & AVGO?"
     ],
     "FORM": [
       "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
@@ -799,26 +799,26 @@
       "3 Stocks to Buy as AI Infrastructure Continues to Surge"
     ],
     "WDC": [
+      "SK Hynix and SanDisk Climb 8%, Western Digital Gains 4% as Memory Shortage Deepens",
+      "The Zacks Analyst Blog Highlights NVIDIA and Western Digital",
+      "Can Sandisk's Strong Cash Generation Boost Shareholder Returns?",
+      "Is Seagate's Strong Margin and Cash Flow Momentum Sustainable?",
+      "Micron Set A Margin Record On Prices It Has Agreed To Cap",
+      "The Old Fear-Based Paradigm Around Memory Cyclicality is Dead, So I’m Buying Micron",
+      "3 of Wall Street’s Favorite Stocks to Research Further",
       "SanDisk Traded Margin Upside For Years Of Contracted Revenue",
       "Chasing NVIDIA? Western Digital May Be the Smarter AI Bet",
       "Seagate Technology Gains From AI Boom: Is Long-Term Growth Secured?",
-      "WDC Q2 Deep Dive: Market Reacts to Inventory Build Despite Strong AI-Driven Demand",
-      "Can Western Digital Expand Margins on Higher-Capacity Drives?",
-      "WDC Beats Q4 Expectations: More AI-Driven Upside Ahead for the Stock?",
-      "Is Western Digital (WDC) a Buy as Wall Street Analysts Look Optimistic?",
-      "Can Micron's Take-or-Pay Deals Improve Revenue Growth Visibility?",
-      "SK Hynix Has Suffered Post-IPO as Memory Flags: A Wall Street Pro Remains Sanguine With 160% Returns Predicted",
-      "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
-      "Western Digital: AI Is Creating 300 Trillion Tokens A Day, Buy The Storage (NASDAQ:WDC)",
+      "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
       "WESTERN DIGITAL CORP SEC Filing (Aug 11, 2026)",
-      "Western Digital Pulls Back Nearly 50% in Short Term, Stock Risks Plunging Over 30% More",
+      "Western Digital: AI Is Creating 300 Trillion Tokens A Day, Buy The Storage (NASDAQ:WDC)",
       "Western Digital Corporation $WDC is UNICOM Systems Inc.'s 9th Largest Position",
       "What's Going On With Western Digital Stock Monday?",
-      "Western Digital Corporation Stock 12‑Month Price Target Raised to $671.57, Implies 29% Upside",
-      "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
-      "Western Digital Corporation $WDC Stock Position Lifted by Handelsbanken Fonder AB",
+      "Are Western Digital’s AI Storage Deals Quietly Redefining Its Long‑Term Strategy and Capital Priorities (WDC)?",
+      "Western Digital Pulls Back Nearly 50% in Short Term, Stock Risks Plunging Over 30% More",
       "Stocks Supported by Renewed Middle East Optimism",
-      "Notable ETF Inflow Detected - IYW, TXN, WDC, DELL"
+      "Notable ETF Inflow Detected - IYW, TXN, WDC, DELL",
+      "Can Western Digital Expand Margins on Higher-Capacity Drives?"
     ],
     "AVGO": [
       "Is Broadcom’s (AVGO) Next Big Bet Hidden in Plain Sight?",
@@ -843,26 +843,26 @@
       "Broadcom vs. Marvell: Which Stock Has More AI Upside?"
     ],
     "KLAC": [
-      "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
       "KLA (KLAC) Is Up 5.5% After Strong Earnings, AI-Driven Outlook And Dividend Hike - What's Changed",
+      "Buy 3 Stocks That Recently Announced Dividend Hikes Amid Volatility",
+      "KLA Corporation Has Had a Rough Month: A Wall Street Pro Sees 70% Upside Because of It",
+      "KLA (KLAC) Stock Looks Fully Valued After Its Huge Run",
+      "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
       "Lam Research Enters Panel-Level Packaging: Is This a Growth Catalyst?",
       "Bernstein raises WFE growth estimates, boosts price targets",
-      "Buy 3 Stocks That Recently Announced Dividend Hikes Amid Volatility",
       "Is Lam Research, KLA, or Applied Materials the Best Chip Equipment Buy? Jim Cramer Weighs In",
       "ASML Dropped 5% Over a Month But a Prominent Wall Street Wealth Manager Sees 50% Returns Coming",
       "AMAT to Post Q3 Earnings: Time to Buy, Sell or Hold the Stock?",
-      "The Zacks Analyst Blog Highlights SpaceX, Tesla KLA Corp, Onto Innovation, Applied Materials and Lam Research",
-      "KLA Corporation Has Had a Rough Month: A Wall Street Pro Sees 70% Upside Because of It",
       "Wedge Capital Management L L P NC Raises Holdings in KLA Corporation $KLAC",
+      "KLA, Snowflake, Airbnb And A Health Care Stock On CNBC’s ‘Final Trades’",
       "KLA Corp Stock (KLAC) Moved Up by 3.59% on Aug 12: Key Drivers Unveiled",
       "KLA Corp (KLAC) Insider Sell: SVP & Chief Accounting Officer Vir",
+      "The Zacks Analyst Blog Highlights SpaceX, Tesla KLA Corp, Onto Innovation, Applied Materials and Lam Research",
       "KLA Corp (KLAC) EVP Wilkinson sells 1,661 shares under Rule 10b5-1 plan",
       "KLA Declares Regular Cash Dividend",
       "KLA (KLAC) Stock Looks Above Fair Value Even With AI Hopes",
-      "KLA Corp | 144: Notice of proposed sale of securities pursuant to Rule 144",
       "Stocks Settle Lower Ahead of Wednesday’s CPI Report",
-      "Stocks Supported by Renewed Middle East Optimism",
-      "Stocks Mostly Higher in Hopes for a Deal to Reopen Hormuz"
+      "Stocks Supported by Renewed Middle East Optimism"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -893,17 +893,17 @@
       "Buy These 5 Top-Ranked Efficient Stocks With Strong Growth Potential",
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Highlights: Record Growth and ...",
       "BE Semiconductor Reports Strong Q2 Growth as AI Demand Drives Record Orders",
-      "European semiconductor stocks diverge as investors weigh AI demand, growth expectations",
-      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "Besi orders more than double as AI and hybrid bonding tech drive demand",
       "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
+      "BE Semiconductor Industries NV (BESIY) Q1 2026 Earnings Call Highlights: Record Growth in ...",
+      "BE Semiconductor Industries N.V. Announces Q1-26 Results",
+      "Besi orders more than double as AI and hybrid bonding tech drive demand",
       "BE Semiconductor Industries N.V. (BESI.VI) stock price, news, quote and history",
       "Why BE Semiconductor Industries (ENXTAM:BESI) Is Up 10.1% After Strong Half-Year Earnings And Efficiency Gains",
       "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
       "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
-      "BE Semiconductor Industries N.V. Announces Q1-26 Results",
       "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
       "Press Release: BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
+      "European semiconductor stocks diverge as investors weigh AI demand, growth expectations",
       "Q3 2025 BE Semiconductor Industries NV Earnings Call Transcript",
       "BE Semiconductor Industries (OTCMKTS:BESIY) Shares Gap Down - Here's Why"
     ],
@@ -953,23 +953,23 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
-      "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "AIXTRON SE N (AIXA.DU) stock price, news, quote and history",
+      "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
       "Aixtron (AIXA) Stock Price, News & Analysis",
-      "Aixtron SE vs Veeco Instruments",
-      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe"
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "AIXA.DE Stock Price | Analyst Target 47.50 & Hold Consensus"
     ],
     "AMD": [
       "Wedbush Flags Surprise AMD Catalyst From Anthropic",
@@ -1260,8 +1260,7 @@
     ],
     "mover": [
       0,
-      1,
-      5
+      1
     ],
     "price_event": [],
     "quiet": [
@@ -1307,19 +1306,19 @@
     "AIXA.DE": 43.25,
     "IFX.DE": 63.41,
     "ASML.AS": 1574.2,
-    "MU": 926.18,
-    "TSM": 429.4,
-    "KLAC": 208.05,
-    "STX": 883.63,
-    "ANET": 206.31,
-    "LRCX": 326.95,
-    "FORM": 128.55,
-    "AVGO": 419.31,
-    "AMAT": 549.15,
-    "AMD": 488.7,
-    "MRVL": 223.15,
-    "NVDA": 223.82,
-    "WDC": 458.31
+    "MU": 921.66,
+    "TSM": 429.07,
+    "KLAC": 207.15,
+    "STX": 879.82,
+    "ANET": 207.06,
+    "LRCX": 325.88,
+    "FORM": 127.72,
+    "AVGO": 419.34,
+    "AMAT": 547.84,
+    "AMD": 486.52,
+    "MRVL": 221.45,
+    "NVDA": 222.96,
+    "WDC": 454.14
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1347,8 +1346,8 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-12"
   },
-  "next_pulse_interval": 44,
-  "last_pulse_post_min": 29775780,
+  "next_pulse_interval": 39,
+  "last_pulse_post_min": 29775826,
   "eu_slots": [
     {
       "slot": 0,
@@ -1383,7 +1382,7 @@
   "us_posted": [
     0
   ],
-  "last_pulse_ticker": "MU",
+  "last_pulse_ticker": "STX",
   "pulse_news_seen": {
     "mrvl:why is marvell technology (mrvl) investing $250 million in india now?": "2026-08-12",
     "avgo:broadcom trades at 71 times earnings and 27 times next year's. history says which side gives.": "2026-08-12",
