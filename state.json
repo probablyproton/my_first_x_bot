@@ -2,8 +2,8 @@
   "date": "2026-08-12",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 0,
-  "gemini_calls_today": 2,
+  "daily_pulse_posts": 1,
+  "gemini_calls_today": 3,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 318,
+  "event_log_next_id": 319,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -337,7 +337,7 @@
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -711,24 +711,24 @@
     ],
     "MRVL": [
       "Why Is Marvell Technology (MRVL) Investing $250 Million In India Now?",
+      "Marvell Could Be Next Winner in Microsoft AI Bet",
+      "Microsoft's Maia 300 Could Be a Win for Marvell and TSMC",
+      "The AI Trade Has a New Battleground and One Stock is Emerging as a Winner",
+      "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
+      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
+      "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
       "What Is The Market Really Expecting From AVGO Stock?",
       "The Options Market Says Marvell Stock Could Halve Or More Than Double",
-      "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
-      "Marvell Could Be Next Winner in Microsoft AI Bet",
       "NVIDIA's Falling Multiple Is A Bill, Not A Bargain",
-      "Microsoft's Maia 300 Could Be a Win for Marvell and TSMC",
-      "Can MRVL's NVDA Alliance Help it Challenge ALAB & AVGO?",
-      "AMD's Bigger Risk Sits In Its Revenue Mix, Not Its Multiple",
-      "The AI Trade Has a New Battleground and One Stock is Emerging as a Winner",
       "Marvell Technology Stock’s Multiple Leans On Profit From Below The Operating Line",
       "Marvell: Don't Get Shaken Out Of The Sharp Sell-Off (NASDAQ:MRVL)",
       "Marvell Technology (NASDAQ:MRVL) Shares Down 4.6% - Here's What Happened",
       "Marvell expands AI memory portfolio to support growing Agentic AI workloads",
       "Broadcom vs. Marvell: Which Stock Has More AI Upside?",
       "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
-      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
       "Stocks Settle Lower Ahead of Wednesday’s CPI Report",
       "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
+      "Can MRVL's NVDA Alliance Help it Challenge ALAB & AVGO?",
       "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears"
     ],
     "FORM": [
@@ -798,26 +798,26 @@
       "3 Stocks to Buy as AI Infrastructure Continues to Surge"
     ],
     "WDC": [
-      "Can Western Digital Expand Margins on Higher-Capacity Drives?",
-      "Is Western Digital (WDC) a Buy as Wall Street Analysts Look Optimistic?",
-      "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
+      "SanDisk Traded Margin Upside For Years Of Contracted Revenue",
       "Chasing NVIDIA? Western Digital May Be the Smarter AI Bet",
-      "WDC Q2 Deep Dive: Market Reacts to Inventory Build Despite Strong AI-Driven Demand",
       "Seagate Technology Gains From AI Boom: Is Long-Term Growth Secured?",
+      "WDC Q2 Deep Dive: Market Reacts to Inventory Build Despite Strong AI-Driven Demand",
+      "Can Western Digital Expand Margins on Higher-Capacity Drives?",
       "WDC Beats Q4 Expectations: More AI-Driven Upside Ahead for the Stock?",
+      "Is Western Digital (WDC) a Buy as Wall Street Analysts Look Optimistic?",
       "Can Micron's Take-or-Pay Deals Improve Revenue Growth Visibility?",
       "SK Hynix Has Suffered Post-IPO as Memory Flags: A Wall Street Pro Remains Sanguine With 160% Returns Predicted",
-      "The Next Breakout For This Tech Stock Could Be Hiding in Plain Sight",
+      "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
       "Western Digital: AI Is Creating 300 Trillion Tokens A Day, Buy The Storage (NASDAQ:WDC)",
+      "WESTERN DIGITAL CORP SEC Filing (Aug 11, 2026)",
+      "Western Digital Pulls Back Nearly 50% in Short Term, Stock Risks Plunging Over 30% More",
       "Western Digital Corporation $WDC Stock Position Lifted by Handelsbanken Fonder AB",
-      "Why Is Western Digital Stock Sinking Thursday?",
       "What's Going On With Western Digital Stock Monday?",
-      "Western Digital: Q4 2026 Confirms The Market Is Still Underpricing EPS Growth (NASDAQ:WDC)",
-      "Western Digital Corporation $WDC Stock Holdings Lessened by Assenagon Asset Management S.A.",
+      "Western Digital Corporation Stock 12‑Month Price Target Raised to $671.57, Implies 29% Upside",
+      "Western Digital (WDC) Is Down 17.6% After AI-Fueled Earnings Surge And Dividend Boost - Has The Bull Case Changed?",
+      "Western Digital Corporation $WDC is UNICOM Systems Inc.'s 9th Largest Position",
       "Stocks Supported by Renewed Middle East Optimism",
-      "Notable ETF Inflow Detected - IYW, TXN, WDC, DELL",
-      "Does STX Stock Still Have More Room to Run After Solid Q4 Earnings?",
-      "Sandisk Has Surged More Than 3,000% in 12 Months. Is a Stock Split Coming?"
+      "Notable ETF Inflow Detected - IYW, TXN, WDC, DELL"
     ],
     "AVGO": [
       "Is Broadcom’s (AVGO) Next Big Bet Hidden in Plain Sight?",
@@ -951,14 +951,14 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
@@ -1026,15 +1026,15 @@
       "Does Arista Networks (ANET) Have the Potential to Rally 26.33% as Wall Street Analysts Expect?",
       "Arista Witnesses an Uptrend in Estimate Revision: Is it Worth Buying?",
       "As AI Networks Scale In Three Directions, So Does Arista",
+      "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "Adobe vs. Arista Networks: Which Technology Stock Is a Better Buy in 2026?",
-      "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Arista Networks: Nice Growth; Don't Buy It (NYSE:ANET)",
       "Stocks making the biggest moves after the bell: SpaceX, AMD, Pinterest, Arista Networks, Wynn Resorts & more",
       "Top Stock Reports for SpaceX, Arista Networks & Boeing",
-      "Arista Networks Just Delivered Its First $3 Billion Quarter",
       "EVER Enhances AI-Powered P&C Insurance Solutions With Waniwani",
-      "Is DDOG Stock Worth Investing in After Q2 Beat & Solid '26 Guidance?"
+      "Is DDOG Stock Worth Investing in After Q2 Beat & Solid '26 Guidance?",
+      "Should Buy, Sell or Hold Cisco Stock Before Q4 Earnings?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1309,7 +1309,14 @@
   },
   "pulse_template_decks": {
     "evergreen": [],
-    "mover": [],
+    "mover": [
+      5,
+      3,
+      6,
+      2,
+      0,
+      1
+    ],
     "price_event": [
       3
     ],
@@ -1324,8 +1331,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 304.95,
-    "SIE.DE": 281.0,
+    "SU.PA": 307.8,
+    "SIE.DE": 281.85,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1351,11 +1358,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.82,
-    "BESI.AS": 226.1,
-    "AIXA.DE": 42.02,
-    "IFX.DE": 63.33,
-    "ASML.AS": 1564.2,
+    "SAP.DE": 180.1,
+    "BESI.AS": 229.2,
+    "AIXA.DE": 42.57,
+    "IFX.DE": 63.79,
+    "ASML.AS": 1585.2,
     "MU": 868.34,
     "TSM": 422.19,
     "KLAC": 200.29,
@@ -1395,8 +1402,8 @@
     "WDC": "2026-08-07",
     "ASML.AS": "2026-08-10"
   },
-  "next_pulse_interval": 39,
-  "last_pulse_post_min": 29774601,
+  "next_pulse_interval": 37,
+  "last_pulse_post_min": 29775321,
   "eu_slots": [
     {
       "slot": 0,
@@ -1411,7 +1418,9 @@
       "fire_time": "17:59"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
