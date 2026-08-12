@@ -1,14 +1,14 @@
 {
   "date": "2026-08-12",
-  "daily_posts": 0,
+  "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 4,
-  "gemini_calls_today": 10,
+  "daily_pulse_posts": 5,
+  "gemini_calls_today": 11,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-10",
-    "wednesday": "2026-08-05"
+    "wednesday": "2026-08-12"
   },
   "zero_llm_posts": {},
   "research_spotlights_used": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 322,
+  "event_log_next_id": 324,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -742,14 +742,14 @@
       "FormFactor (NASDAQ:FORM) Delivers Impressive Q2, Stock Jumps 16.6%",
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
-      "FormFactor (NASDAQ:FORM) Trading Up 6.1% - Should You Buy?",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
+      "FormFactor (NASDAQ:FORM) Trading Up 6.1% - Should You Buy?",
       "FormFactor Jumps 6.4% Amid Sector-Wide Rally",
       "FormFactor Inc (FORM) Shares Fall 4.3% -- What GF Score of 59 Te",
       "Why FormFactor (FORM) Is Up 7.9% After Strong Q2, Taiwan Expansion And New Share Shelf - And What's Next",
       "FormFactor, Inc. Stock 12‑Month Price Target Raised to $149.29, Implies 27% Upside",
-      "FormFactor Stock Leads Quantum Computing Picks As AI Chip Testing Demand Builds",
       "Fund Update: 764,000 FORMFACTOR (FORM) shares added to GF FUND MANAGEMENT CO. LTD. portfolio",
+      "FormFactor Stock Leads Quantum Computing Picks As AI Chip Testing Demand Builds",
       "FormFactor Inc (FORM) CEO Slessor logs major RSU vesting and fresh 27,696-unit grant",
       "Assenagon Asset Management S.A. Cuts Stake in FormFactor, Inc. $FORM"
     ],
@@ -951,14 +951,14 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
@@ -967,8 +967,7 @@
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
       "Aixtron (AIXA) Stock Price, News & Analysis",
       "Aixtron SE vs Veeco Instruments",
-      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
-      "AIXA.DE Stock Price | Analyst Target 47.50 & Hold Consensus"
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe"
     ],
     "AMD": [
       "Wedbush Flags Surprise AMD Catalyst From Anthropic",
@@ -1366,8 +1365,7 @@
     "evergreen": [],
     "mover": [
       5,
-      3,
-      6
+      3
     ],
     "price_event": [
       3
@@ -1383,8 +1381,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 309.35,
-    "SIE.DE": 280.7,
+    "SU.PA": 309.65,
+    "SIE.DE": 281.9,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1410,11 +1408,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 179.4,
-    "BESI.AS": 230.0,
-    "AIXA.DE": 43.4,
-    "IFX.DE": 64.69,
-    "ASML.AS": 1585.6,
+    "SAP.DE": 179.06,
+    "BESI.AS": 229.9,
+    "AIXA.DE": 43.48,
+    "IFX.DE": 64.77,
+    "ASML.AS": 1585.2,
     "MU": 868.34,
     "TSM": 422.19,
     "KLAC": 200.29,
@@ -1454,8 +1452,8 @@
     "WDC": "2026-08-07",
     "ASML.AS": "2026-08-10"
   },
-  "next_pulse_interval": 37,
-  "last_pulse_post_min": 29775451,
+  "next_pulse_interval": 41,
+  "last_pulse_post_min": 29775497,
   "eu_slots": [
     {
       "slot": 0,
@@ -1488,7 +1486,7 @@
     }
   ],
   "us_posted": [],
-  "last_pulse_ticker": "MRVL",
+  "last_pulse_ticker": "AIXA.DE",
   "pulse_news_seen": {
     "mrvl:why is marvell technology (mrvl) investing $250 million in india now?": "2026-08-12"
   }
