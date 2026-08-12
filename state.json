@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-11",
+  "date": "2026-08-12",
   "daily_posts": 0,
-  "daily_keyword_posts": 2,
-  "daily_pulse_posts": 16,
-  "gemini_calls_today": 18,
-  "evergreen_opinion_posts_today": 2,
+  "daily_keyword_posts": 0,
+  "daily_pulse_posts": 0,
+  "gemini_calls_today": 0,
+  "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-10",
@@ -318,26 +318,26 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
-      "PROLIM Launches New Innovation Center to Accelerate Global Growth",
-      "Siemens Wins $80 Million Award for Advanced Army Manufacturing",
-      "Siemens Stock Falls 5% Despite Record AI-Fueled Industrial Profit",
-      "Siemens AG (SIEGY) (Q3 2026) Earnings Call Highlights: Record Orders and Raised Guidance Signal ...",
-      "Siemens shares plunge on disappointing guidance raise",
-      "Siemens lifts full-year forecast after record orders in third quarter",
-      "Siemens Is Winning Customers in China, CEO Says",
+      "BW Stock Edges Higher Overnight: Babcock & Wilcox Signs Agreement With Siemens Energy On 20 Steam Turbines",
       "Babcock & Wilcox stakes out another perch in AI, data center bonanza",
+      "Should You Hold or Fold SNPS Stock After a 20% Decline in 3 Months?",
       "Nucleus Research Releases 2026 Manufacturing Execution System Technology Value Matrix",
+      "PROLIM Launches New Innovation Center to Accelerate Global Growth",
       "Babcock & Wilcox secures 1 GW of Siemens steam turbines for FastPower projects",
-      "SIEMENS AG N (SIE.F) Q3 FY2026 earnings call transcript",
+      "Business Chief Opens Speaker Applications for CXO Summit 2026",
+      "Siemens Wins $80 Million Award for Advanced Army Manufacturing",
+      "Siemens Energy’s gas turbine backlog nears 70 GW as company expands manufacturing",
+      "Siemens Stock Falls 5% Despite Record AI-Fueled Industrial Profit",
+      "SIEMENS AG N (SIE.DU) Q3 FY2026 (Media) earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
+      "SIEMENS AG N (SIE.F) Q3 FY2026 earnings call transcript",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "SIEMENS AG N (SIE.DU) Q3 FY2026 (Media) earnings call transcript"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -710,24 +710,24 @@
       "Legrand SA 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:LGRDY) 2026-07-29"
     ],
     "MRVL": [
-      "Marvell Could Be Next Winner in Microsoft AI Bet",
-      "Microsoft's Maia 300 Could Be a Win for Marvell and TSMC",
-      "The AI Trade Has a New Battleground and One Stock is Emerging as a Winner",
-      "Marvell Technology Stock's Multiple Leans On Profit From Below The Operating Line",
-      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
-      "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
+      "What Is The Market Really Expecting From AVGO Stock?",
       "The Options Market Says Marvell Stock Could Halve Or More Than Double",
+      "Microsoft New AI Chip Could Be a Big Win for Marvell and TSMC",
+      "Marvell Could Be Next Winner in Microsoft AI Bet",
       "NVIDIA's Falling Multiple Is A Bill, Not A Bargain",
+      "Microsoft's Maia 300 Could Be a Win for Marvell and TSMC",
       "Can MRVL's NVDA Alliance Help it Challenge ALAB & AVGO?",
       "AMD's Bigger Risk Sits In Its Revenue Mix, Not Its Multiple",
+      "The AI Trade Has a New Battleground and One Stock is Emerging as a Winner",
+      "12 Nasdaq Stocks Doubled in 2026, But None Are Magnificent Seven",
       "Marvell Technology Stock’s Multiple Leans On Profit From Below The Operating Line",
       "Marvell Technology (NASDAQ:MRVL) Shares Down 4.6% - Here's What Happened",
       "Marvell expands AI memory portfolio to support growing Agentic AI workloads",
+      "Marvell: Don't Get Shaken Out Of The Sharp Sell-Off (NASDAQ:MRVL)",
       "Broadcom vs. Marvell: Which Stock Has More AI Upside?",
       "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
-      "Marvell Stock, Corning, and Lumentum Surge on Report of Import China Ban",
-      "Marvell Technology, Inc. Reports First Quarter of Fiscal Year 2027 Financial Results",
-      "Marvell stock soars 32% as Nvidia's Huang says it could be the next trillion-dollar company",
+      "Marvell (MRVL) vs. AVGO and NVDA: Can AI Interconnect Growth Deliver the Earnings Its Premium Valuation Demands?",
+      "Stocks Settle Lower Ahead of Wednesday’s CPI Report",
       "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears",
       "Stocks Settle Higher as a Weak Jobs Report Allays Rate Hike Fears"
     ],
@@ -747,10 +747,10 @@
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "FormFactor Inc (FORM) Shares Fall 4.3% -- What GF Score of 59 Te",
       "Why FormFactor (FORM) Is Up 7.9% After Strong Q2, Taiwan Expansion And New Share Shelf - And What's Next",
-      "FormFactor Inc (FORM) CEO Slessor logs major RSU vesting and fresh 27,696-unit grant",
       "FormFactor, Inc. Stock 12‑Month Price Target Raised to $149.29, Implies 27% Upside",
       "FormFactor Stock Leads Quantum Computing Picks As AI Chip Testing Demand Builds",
       "Fund Update: 764,000 FORMFACTOR (FORM) shares added to GF FUND MANAGEMENT CO. LTD. portfolio",
+      "FormFactor Inc (FORM) CEO Slessor logs major RSU vesting and fresh 27,696-unit grant",
       "Assenagon Asset Management S.A. Cuts Stake in FormFactor, Inc. $FORM"
     ],
     "LRCX": [
@@ -856,12 +856,12 @@
       "KLA Corp (KLAC) EVP Wilkinson sells 1,661 shares under Rule 10b5-1 plan",
       "Handelsbanken Fonder AB Raises Stock Holdings in KLA Corporation $KLAC",
       "Why is KLA stock rallying today?",
+      "KLA Corp | 144: Notice of proposed sale of securities pursuant to Rule 144",
       "KLA Corp Stock (KLAC) Moved Up by 3.07% on Aug 11: A Full Analysis",
       "KLA Declares Regular Cash Dividend",
-      "KLA Corp | 144: Notice of proposed sale of securities pursuant to Rule 144",
-      "Stocks Mostly Higher in Hopes for a Deal to Reopen Hormuz",
+      "Stocks Settle Lower Ahead of Wednesday’s CPI Report",
       "Stocks Supported by Renewed Middle East Optimism",
-      "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears"
+      "Stocks Mostly Higher in Hopes for a Deal to Reopen Hormuz"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -874,15 +874,15 @@
       "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
       "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
-      "SAP SE (SAP) stock price, news, quote and history",
+      "SAP SE (SAP.DE) Stock Price, News, Quote & History",
       "SAP SE: Release of a capital market information",
       "Dimensional Fund Advisors LP Sells 12,640 Shares of SAP SE $SAP",
-      "SAP SE Stock (SAP) Moved Up by 3.66% on Aug 7: Facts Behind the Movement",
       "SAP Quarterly Statement Q2 2026",
+      "SAP SE Stock (SAP) Moved Up by 3.66% on Aug 7: Facts Behind the Movement",
       "SAP Announces Q2 and Half-Year 2026 Results",
-      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
       "SAP SE-SPONSORED ADR (NYSE:SAP): A Quality Stock with Superior Capital Efficiency and Strong Cash Generation",
-      "SAP (NYSE: SAP) details strong H1 2026 cloud growth and AI deals"
+      "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
+      "SAP Completes Acquisition of Prior Labs"
     ],
     "BESI.AS": [
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
@@ -961,9 +961,9 @@
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
-      "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "AIXTRON SE N (AIXA.DU) Stock Price, News, Quote & History",
       "AIXTRON SE N (AIXA.DU) stock price, news, quote and history",
+      "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
       "Aixtron (AIXA) Stock Price, News & Analysis",
       "Aixtron SE vs Veeco Instruments",
@@ -1025,16 +1025,16 @@
       "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Airbnb, AppLovin, Autodesk, Best Buy, BigBear.ai, Boeing, Fiserv, Jabil, Spotify Technology and More",
       "A 14% Yield On ANET Stock, And A Shot At Buying It 40% Lower",
       "Arista’s (ANET) Record Quarter Reignites The AI Networking Debate",
-      "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "As AI Networks Scale In Three Directions, So Does Arista",
+      "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "Adobe vs. Arista Networks: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks: Hefty Growth Premium Baked In - AI Pick/Shovel Status Proven",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
+      "Stocks making the biggest moves after the bell: SpaceX, AMD, Pinterest, Arista Networks, Wynn Resorts & more",
+      "Arista Networks: Nice Growth; Don't Buy It (NYSE:ANET)",
+      "Arista (ANET) Q2 2026 Earnings Call Transcript",
       "Is DDOG Stock Worth Investing in After Q2 Beat & Solid '26 Guidance?",
-      "Should Buy, Sell or Hold Cisco Stock Before Q4 Earnings?",
-      "Ciena Down 29% in Past 3 Months: Should Investors Buy, Hold or Sell?",
-      "The Zacks Analyst Blog Highlights SpaceX, Arista Networks and The Boeing",
-      "Does Arista Networks (ANET) Have the Potential to Rally 26.33% as Wall Street Analysts Expect?"
+      "Should Buy, Sell or Hold Cisco Stock Before Q4 Earnings?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1343,35 +1343,29 @@
       "slot": 0,
       "type": "hook",
       "target_time": "08:50",
-      "fire_time": "08:45"
+      "fire_time": "08:53"
     },
     {
       "slot": 1,
       "type": "close_summary",
       "target_time": "18:00",
-      "fire_time": "17:58"
+      "fire_time": "17:59"
     }
   ],
-  "eu_posted": [
-    0,
-    1
-  ],
+  "eu_posted": [],
   "us_slots": [
     {
       "slot": 0,
       "type": "hook",
       "target_time": "15:10",
-      "fire_time": "15:11"
+      "fire_time": "15:09"
     },
     {
       "slot": 1,
       "type": "wrap",
       "target_time": "22:30",
-      "fire_time": "22:25"
+      "fire_time": "22:30"
     }
   ],
-  "us_posted": [
-    0,
-    1
-  ]
+  "us_posted": []
 }
