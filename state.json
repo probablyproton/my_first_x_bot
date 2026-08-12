@@ -2,8 +2,8 @@
   "date": "2026-08-12",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 5,
-  "gemini_calls_today": 12,
+  "daily_pulse_posts": 6,
+  "gemini_calls_today": 13,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 325,
+  "event_log_next_id": 326,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -748,8 +748,8 @@
       "FormFactor Inc (FORM) Shares Fall 4.3% -- What GF Score of 59 Te",
       "Why FormFactor (FORM) Is Up 7.9% After Strong Q2, Taiwan Expansion And New Share Shelf - And What's Next",
       "FormFactor, Inc. Stock 12‑Month Price Target Raised to $149.29, Implies 27% Upside",
-      "Fund Update: 764,000 FORMFACTOR (FORM) shares added to GF FUND MANAGEMENT CO. LTD. portfolio",
       "FormFactor Stock Leads Quantum Computing Picks As AI Chip Testing Demand Builds",
+      "Fund Update: 764,000 FORMFACTOR (FORM) shares added to GF FUND MANAGEMENT CO. LTD. portfolio",
       "FormFactor Inc (FORM) CEO Slessor logs major RSU vesting and fresh 27,696-unit grant",
       "Assenagon Asset Management S.A. Cuts Stake in FormFactor, Inc. $FORM"
     ],
@@ -842,38 +842,38 @@
       "Broadcom vs. Marvell: Which Stock Has More AI Upside?"
     ],
     "KLAC": [
-      "KLA (KLAC) Is Up 5.5% After Strong Earnings, AI-Driven Outlook And Dividend Hike - What's Changed",
-      "Buy 3 Stocks That Recently Announced Dividend Hikes Amid Volatility",
-      "KLA Corporation Has Had a Rough Month: A Wall Street Pro Sees 70% Upside Because of It",
-      "KLA (KLAC) Stock Looks Fully Valued After Its Huge Run",
       "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
+      "KLA (KLAC) Is Up 5.5% After Strong Earnings, AI-Driven Outlook And Dividend Hike - What's Changed",
       "Lam Research Enters Panel-Level Packaging: Is This a Growth Catalyst?",
       "Bernstein raises WFE growth estimates, boosts price targets",
+      "Buy 3 Stocks That Recently Announced Dividend Hikes Amid Volatility",
       "Is Lam Research, KLA, or Applied Materials the Best Chip Equipment Buy? Jim Cramer Weighs In",
       "ASML Dropped 5% Over a Month But a Prominent Wall Street Wealth Manager Sees 50% Returns Coming",
       "AMAT to Post Q3 Earnings: Time to Buy, Sell or Hold the Stock?",
+      "The Zacks Analyst Blog Highlights SpaceX, Tesla KLA Corp, Onto Innovation, Applied Materials and Lam Research",
+      "KLA Corporation Has Had a Rough Month: A Wall Street Pro Sees 70% Upside Because of It",
+      "KLA Corporation $KLAC is Butensky & Cohen Financial Security Inc.'s Largest Position",
       "Final Trades: Snowflake, KLA Corp, Gilead Sciences and Airbnb",
       "KLA Corp (KLAC) EVP Wilkinson sells 1,661 shares under Rule 10b5-1 plan",
-      "Handelsbanken Fonder AB Raises Stock Holdings in KLA Corporation $KLAC",
-      "Why is KLA stock rallying today?",
+      "KLA Corp (KLAC) Insider Sell: SVP & Chief Accounting Officer Vir",
       "KLA Corp | 144: Notice of proposed sale of securities pursuant to Rule 144",
-      "KLA Corp Stock (KLAC) Moved Up by 3.07% on Aug 11: A Full Analysis",
+      "Why is KLA stock rallying today?",
       "KLA Declares Regular Cash Dividend",
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
       "Stocks Settle Lower Ahead of Wednesday’s CPI Report",
       "Stocks Supported by Renewed Middle East Optimism"
     ],
     "SAP.DE": [
-      "SAP loosens ERP maintenance and support rules",
-      "SAP (XTRA:SAP) Stock Looks Below Fair Value Despite AI Hopes",
-      "Palantir Expands SAP Transformation Push With SNP Partnership",
-      "Is SAP SE (SAP) A Good Stock To Buy Now?",
-      "Why SAP (XTRA:SAP) Is Up 7.1% After AI-Focused Overhaul And New Consumption-Based Pricing",
-      "SAP Celebrates America's 250th with Investment in the Next Generation",
-      "SAP SE (SAP) Among Jefferies’ Top European Software Stock Picks",
-      "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
-      "Is SAP SE (SAP) Positioned to Benefit from AI?",
-      "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
+      "Salesforce Declines 17% Over the Past Year: How to Play CRM Stock?",
+      "FUJIY Q1 Earnings Fall Y/Y on Bio CDMO Costs, Revenues Rise",
+      "ARC Advisory Group Positions Trace One as a Major Player in the 2026 MarketMap for Formulation Technologies",
+      "Khimji Ramdas Group Chooses Rimini Street to Reduce SAP Support Costs, Protect 700+ Customizations and Reinvest Savings in Innovation",
+      "Ironclad Launches AI Agents to Help Procurement Teams Save Money, Move Faster, and Manage Risk",
+      "Connected Talent Solutions™ from Match2 Now Available on SAP® Store",
+      "Analysis-Europe's established tech firms emerge as unexpected AI winners",
+      "SAP (XTRA:SAP) Launches AI Agent Hub As AI Governance Reaches The Boardroom",
+      "Loftware and RiseNow Partner to Accelerate Supply Chain Performance and Compliance",
+      "Tungsten Automation Appoints Gopi Kalahasthy as Chief Revenue Officer",
       "SAP SE (SAP.DE) Stock Price, News, Quote & History",
       "SAP SE: Release of a capital market information",
       "Dimensional Fund Advisors LP Sells 12,640 Shares of SAP SE $SAP",
@@ -951,14 +951,14 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
@@ -1306,8 +1306,7 @@
   "pulse_template_decks": {
     "evergreen": [],
     "mover": [
-      5,
-      3
+      5
     ],
     "price_event": [
       3
@@ -1323,8 +1322,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 310.1,
-    "SIE.DE": 282.4,
+    "SU.PA": 310.25,
+    "SIE.DE": 282.5,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1350,11 +1349,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 179.14,
-    "BESI.AS": 230.6,
-    "AIXA.DE": 43.64,
-    "IFX.DE": 65.04,
-    "ASML.AS": 1587.0,
+    "SAP.DE": 179.46,
+    "BESI.AS": 230.5,
+    "AIXA.DE": 43.56,
+    "IFX.DE": 65.02,
+    "ASML.AS": 1585.0,
     "MU": 868.34,
     "TSM": 422.19,
     "KLAC": 200.29,
@@ -1394,8 +1393,8 @@
     "WDC": "2026-08-07",
     "ASML.AS": "2026-08-10"
   },
-  "next_pulse_interval": 41,
-  "last_pulse_post_min": 29775497,
+  "next_pulse_interval": 39,
+  "last_pulse_post_min": 29775540,
   "eu_slots": [
     {
       "slot": 0,
@@ -1428,8 +1427,9 @@
     }
   ],
   "us_posted": [],
-  "last_pulse_ticker": "AIXA.DE",
+  "last_pulse_ticker": "AVGO",
   "pulse_news_seen": {
-    "mrvl:why is marvell technology (mrvl) investing $250 million in india now?": "2026-08-12"
+    "mrvl:why is marvell technology (mrvl) investing $250 million in india now?": "2026-08-12",
+    "avgo:broadcom trades at 71 times earnings and 27 times next year's. history says which side gives.": "2026-08-12"
   }
 }
