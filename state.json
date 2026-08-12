@@ -1,8 +1,8 @@
 {
   "date": "2026-08-12",
-  "daily_posts": 1,
+  "daily_posts": 2,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 9,
+  "daily_pulse_posts": 10,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -57,7 +57,7 @@
     "BESI.AS": 783,
     "ASML.AS": 1183,
     "IFX.DE": 964,
-    "LRCX": 844,
+    "LRCX": 976,
     "FORM": 1320,
     "AVGO": 1221,
     "KLAC": 1142,
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1042
   },
-  "event_log_next_id": 329,
+  "event_log_next_id": 331,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -117,7 +117,8 @@
     "news_STX": 1362,
     "ASML.AS": 862,
     "news_ASML.AS": 1183,
-    "news_AVGO": 1221
+    "news_AVGO": 1221,
+    "LRCX": 976
   },
   "news_seen": {
     "ETN": [
@@ -744,8 +745,8 @@
       "FormFactor Q2 Earnings Call Highlights AI Demand Drives Growth",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "FormFactor (NASDAQ:FORM) Trading Up 6.1% - Should You Buy?",
-      "FormFactor Jumps 6.4% Amid Sector-Wide Rally",
       "FormFactor Inc (FORM) Shares Fall 4.3% -- What GF Score of 59 Te",
+      "FormFactor Jumps 6.4% Amid Sector-Wide Rally",
       "Why FormFactor (FORM) Is Up 7.9% After Strong Q2, Taiwan Expansion And New Share Shelf - And What's Next",
       "FormFactor, Inc. Stock 12‑Month Price Target Raised to $149.29, Implies 27% Upside",
       "FormFactor Stock Leads Quantum Computing Picks As AI Chip Testing Demand Builds",
@@ -755,15 +756,15 @@
     ],
     "LRCX": [
       "Lam Research and NY Creates Team Up to Enable Training of University Students for the Semiconductor Workforce",
+      "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
       "Elon Musk’s Newest Factory is 15X The Size of The Pentagon. Micron and Memory Stocks Should be Terrified.",
       "5 Insightful Analyst Questions From Lam Research’s Q2 Earnings Call",
-      "Buy and Hold These 2 Top-Ranked AI-Led Semiconductor Equipment Stocks",
-      "Is Lam Research, KLA, or Applied Materials the Best Chip Equipment Buy? Jim Cramer Weighs In",
-      "Chip equipment stocks rise after Taiwan Semiconductor revenue surges 45%",
-      "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
       "Lam Research Enters Panel-Level Packaging: Is This a Growth Catalyst?",
       "Bernstein raises WFE growth estimates, boosts price targets",
+      "Buy and Hold These 2 Top-Ranked AI-Led Semiconductor Equipment Stocks",
+      "Is Lam Research, KLA, or Applied Materials the Best Chip Equipment Buy? Jim Cramer Weighs In",
       "Lam Research (LRCX) Gains An AI Supply Chain Tailwind As Customer Demand Surges",
+      "Lam Research (LRCX) Upgraded to Strong Buy",
       "Lam's virtual chipmaking platform could train about 3,500 students",
       "Lam Research Corporation $LRCX Holdings Lowered by Wedge Capital Management L L P NC",
       "The Zacks Analyst Blog Highlights SpaceX, Tesla KLA Corp, Onto Innovation, Applied Materials and Lam Research",
@@ -892,17 +893,17 @@
       "Buy These 5 Top-Ranked Efficient Stocks With Strong Growth Potential",
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Highlights: Record Growth and ...",
       "BE Semiconductor Reports Strong Q2 Growth as AI Demand Drives Record Orders",
-      "European semiconductor stocks diverge as investors weigh AI demand, growth expectations",
-      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "Besi orders more than double as AI and hybrid bonding tech drive demand",
       "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
+      "BE Semiconductor Industries NV (BESIY) Q1 2026 Earnings Call Highlights: Record Growth in ...",
+      "BE Semiconductor Industries N.V. Announces Q1-26 Results",
+      "Besi orders more than double as AI and hybrid bonding tech drive demand",
       "BE Semiconductor Industries N.V. (BESI.VI) stock price, news, quote and history",
       "Why BE Semiconductor Industries (ENXTAM:BESI) Is Up 10.1% After Strong Half-Year Earnings And Efficiency Gains",
       "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
       "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
-      "BE Semiconductor Industries N.V. Announces Q1-26 Results",
       "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
       "Press Release: BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
+      "European semiconductor stocks diverge as investors weigh AI demand, growth expectations",
       "Q3 2025 BE Semiconductor Industries NV Earnings Call Transcript",
       "BE Semiconductor Industries (OTCMKTS:BESIY) Shares Gap Down - Here's Why"
     ],
@@ -1316,12 +1317,9 @@
       0,
       1,
       5,
-      6,
-      2
+      6
     ],
-    "price_event": [
-      3
-    ],
+    "price_event": [],
     "quiet": [
       0,
       3,
@@ -1333,8 +1331,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 311.25,
-    "SIE.DE": 282.0,
+    "SU.PA": 310.15,
+    "SIE.DE": 281.95,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1360,24 +1358,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 177.66,
-    "BESI.AS": 233.7,
-    "AIXA.DE": 43.96,
-    "IFX.DE": 65.01,
-    "ASML.AS": 1586.2,
-    "MU": 920.79,
-    "TSM": 431.27,
-    "KLAC": 207.68,
-    "STX": 887.59,
-    "ANET": 206.6,
-    "LRCX": 326.86,
-    "FORM": 127.83,
-    "AVGO": 421.63,
-    "AMAT": 550.52,
-    "AMD": 486.58,
-    "MRVL": 223.06,
-    "NVDA": 223.79,
-    "WDC": 463.47
+    "SAP.DE": 176.42,
+    "BESI.AS": 232.5,
+    "AIXA.DE": 43.62,
+    "IFX.DE": 64.73,
+    "ASML.AS": 1583.0,
+    "MU": 919.61,
+    "TSM": 430.76,
+    "KLAC": 207.34,
+    "STX": 880.06,
+    "ANET": 206.37,
+    "LRCX": 326.32,
+    "FORM": 128.51,
+    "AVGO": 422.3,
+    "AMAT": 548.51,
+    "AMD": 488.32,
+    "MRVL": 223.04,
+    "NVDA": 223.18,
+    "WDC": 460.86
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1402,10 +1400,11 @@
     "KLAC": "2026-08-04",
     "IFX.DE": "2026-08-05",
     "WDC": "2026-08-07",
-    "ASML.AS": "2026-08-10"
+    "ASML.AS": "2026-08-10",
+    "LRCX": "2026-08-12"
   },
-  "next_pulse_interval": 45,
-  "last_pulse_post_min": 29775676,
+  "next_pulse_interval": 43,
+  "last_pulse_post_min": 29775736,
   "eu_slots": [
     {
       "slot": 0,
@@ -1440,10 +1439,11 @@
   "us_posted": [
     0
   ],
-  "last_pulse_ticker": "AIXA.DE",
+  "last_pulse_ticker": "STX",
   "pulse_news_seen": {
     "mrvl:why is marvell technology (mrvl) investing $250 million in india now?": "2026-08-12",
     "avgo:broadcom trades at 71 times earnings and 27 times next year's. history says which side gives.": "2026-08-12",
     "ifx.de:infineon technologies ag: release according to article 40, section 1 of the wphg [the german securities trading act] with the objective of europe-wide distribution": "2026-08-12"
-  }
+  },
+  "us_flexible_used": 1
 }
