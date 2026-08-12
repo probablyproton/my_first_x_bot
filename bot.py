@@ -875,10 +875,11 @@ def _draw_template(state: dict, pool_key: str, templates: list[str]) -> str:
     return templates[deck.pop()]
 
 
-def generate_zero_llm_pulse(tickers: list[str], state: dict) -> str | None:
+def generate_zero_llm_pulse(tickers: list[str], state: dict) -> tuple[str, str] | None:
     """Fill a template with the biggest live mover right now. No Gemini call. Only considers
     tickers whose market is actually open, so the number shown is always live, not a stale
-    closed-market print."""
+    closed-market print. Returns (text, ticker) so the caller can tell whether this would
+    repeat the same ticker as last time."""
     open_tickers = [t for t in tickers if _is_market_open_for(t)]
     if not open_tickers:
         return None
@@ -906,7 +907,52 @@ def generate_zero_llm_pulse(tickers: list[str], state: dict) -> str | None:
         text = _draw_template(state, "mover", PULSE_MOVER_TEMPLATES).format(**values)
     else:
         text = _draw_template(state, "quiet", PULSE_QUIET_TEMPLATES).format(**values)
-    return text if len(text) <= 280 else None
+    return (text, base_t) if len(text) <= 280 else None
+
+
+def generate_zero_llm_news_pulse(tickers: list[str], state: dict) -> tuple[str, str] | None:
+    """Zero-LLM substitute for the price pulse when the biggest mover is the same ticker as
+    last pulse — its % change won't have meaningfully moved within the ~30-45min gap, so
+    repeating it reads as stale/spammy. Pulls a fresh, not-yet-used headline from ANY
+    watchlist ticker's news feeds instead (Yahoo/Google News/Nasdaq — same fetch already used
+    elsewhere), picked in random order so which ticker/source surfaces varies pulse to pulse.
+    Returns (text, ticker) or None if nothing fresh and unused is available right now."""
+    seen = state.setdefault("pulse_news_seen", {})
+    _prune_date_keyed_dict(seen, 2)
+    queued_symbols = {item["symbol"] for item in state.get("pending_news_posts", [])}
+    now_dt = datetime.datetime.utcnow()
+
+    shuffled = list(tickers)
+    random.shuffle(shuffled)
+    for t in shuffled:
+        if t in queued_symbols:
+            continue  # already has a proper news reaction queued — don't duplicate it here
+        try:
+            articles = get_ticker_context_with_dates(t, max_messages=3)
+        except Exception:
+            continue
+        for a in articles:
+            if not a.get("published") or (now_dt - a["published"]).total_seconds() > NEWS_FRESHNESS_HOURS * 3600:
+                continue
+            fp = f"{t.lower()}:{a['headline'].strip().lower()}"
+            if fp in seen:
+                continue
+            price_ctx = get_price_context(t)
+            price_str = ""
+            if price_ctx:
+                cur = price_ctx.get("currency_symbol", "$")
+                sign = "+" if price_ctx["change_pct"] >= 0 else ""
+                price_str = f" ({cur}{price_ctx['price']}, {sign}{price_ctx['change_pct']}%)"
+            prefix = f"${_display_ticker(t)}{price_str}: "
+            headline = a["headline"]
+            max_len = 280 - len(prefix)
+            if max_len < 20:
+                continue
+            if len(headline) > max_len:
+                headline = headline[:max_len].rsplit(" ", 1)[0] + "…"
+            seen[fp] = today()
+            return prefix + headline, t
+    return None
 
 
 def generate_zero_llm_price_event(symbol: str, price_ctx: dict, state: dict) -> str | None:
@@ -3435,17 +3481,23 @@ _EVERGREEN_OPINION_QUERIES = [
     'regulator OR ratepayer)',
     # High-signal majors that are paywalled / have no clean RSS — reached via Google News site:
     # search (which indexes their headlines) rather than a direct feed. One OR-group = one fetch.
+    # datacentremagazine.com/aimagazine.com (BizClik network) and theinformation.com all 403/challenge
+    # a direct fetch even with a browser UA — same treatment as the wire majors below rather than a
+    # direct feed hitting a Cloudflare-gated domain on a schedule from a GH Actions IP.
     '("data center" OR "AI infrastructure" OR "power grid") (site:reuters.com OR site:bloomberg.com '
-    'OR site:cnbc.com OR site:politico.com OR site:axios.com)',
+    'OR site:cnbc.com OR site:politico.com OR site:axios.com OR site:datacentremagazine.com '
+    'OR site:aimagazine.com OR site:theinformation.com)',
 ]
 # Direct RSS feeds from credible AI-infra / grid trade press — fetched alongside the topic searches
 # so their coverage reliably surfaces instead of depending on Google News to index it. All confirmed
 # live with full pubDate coverage. The source label is forced (these link to their own domain, which
-# would otherwise show as a bare hostname). DCD/DCK cover data centers; Power Magazine / Utility Dive
-# / Canary Media cover the grid + utility-economics side the basket's power names hinge on.
+# would otherwise show as a bare hostname). DCD/DCK/Intelligent Data Centres cover data centers;
+# Power Magazine / Utility Dive / Canary Media cover the grid + utility-economics side the basket's
+# power names hinge on.
 _EVERGREEN_DIRECT_FEEDS = [
     ("https://www.datacenterdynamics.com/en/rss/", "DatacenterDynamics"),
     ("https://www.datacenterknowledge.com/rss.xml", "Data Center Knowledge"),
+    ("https://www.intelligentdatacentres.com/feed/", "Intelligent Data Centres"),
     ("https://www.powermag.com/feed/", "POWER Magazine"),
     ("https://www.utilitydive.com/feeds/news/", "Utility Dive"),
     ("https://www.canarymedia.com/feed", "Canary Media"),
@@ -3476,10 +3528,11 @@ _OPINION_SOURCE_PREFERRED = {s.lower() for s in [
     "Wall Street Journal", "MIT", "Brookings", "RAND", "Economist", "Financial Times", "Bloomberg",
     "Reuters", "Bain", "BCG", "Boston Consulting", "Deloitte", "PwC", "Gartner", "IDC", "Harvard",
     "Stanford", "Department of Energy", "CNBC", "Barron", "Axios", "The Atlantic", "Foreign Affairs",
-    "Politico",
+    "Politico", "The Information",
     # AI-infra / grid trade press + the regulatory bodies that shape the sector
-    "DatacenterDynamics", "Data Center Knowledge", "Data Center Frontier", "FERC", "NERC",
-    "POWER Magazine", "Utility Dive", "Canary Media",
+    "DatacenterDynamics", "Data Center Knowledge", "Data Center Frontier", "Intelligent Data Centres",
+    "Data Centre Magazine", "AI Magazine", "FERC", "NERC", "POWER Magazine", "Utility Dive",
+    "Canary Media",
 ]}
 _NAV_JUNK_RE = re.compile(r"\b(subscribe|donate|newsletter|cookie|sign\s+up|log\s+in|browse|"
                           r"all\s+scholars|menu|advertisement)\b", re.I)
@@ -3608,6 +3661,14 @@ def _find_evergreen_opinion(state: dict) -> dict | None:
     candidates.sort(key=lambda a: a["published"], reverse=True)
     candidates.sort(key=lambda a: 0 if any(
         p in (a.get("source") or "").lower() for p in _OPINION_SOURCE_PREFERRED) else 1)
+    # Applied last = highest priority: a source used in one of the last RECENT_SOURCE_MEMORY posts
+    # (news or evergreen — same shared list) drops behind any not-recently-used candidate, even if
+    # it's fresher or "preferred". Without this, DatacenterDynamics' sheer posting volume plus its
+    # own preferred-source status let it win the #1 slot almost every time, regardless of what else
+    # is in the pool — this is what actually fixes the single-source-reposter problem, not just
+    # having more sources available.
+    recent_sources = {s.lower() for s in state.get("recent_post_sources", [])}
+    candidates.sort(key=lambda a: (a.get("source") or "").lower() in recent_sources)
     return candidates[0] if candidates else None
 
 
@@ -3729,12 +3790,26 @@ def check_zero_llm_pulse(state: dict) -> dict:
     if not tickers:
         return state
 
-    text = generate_zero_llm_pulse(tickers, state)
-    log_kwargs = dict(mechanism="pulse", generation_method="zero_llm_template")
+    result = generate_zero_llm_pulse(tickers, state)
+    text, used_ticker = result if result else (None, None)
+    generation_method = "zero_llm_template"
+
+    # Same ticker as last pulse means its % change hasn't meaningfully moved in the ~30-45min
+    # gap — repeating that line reads as stale/spammy. Swap in a fresh headline from any
+    # watchlist ticker instead, when one's available; otherwise fall back to the price line
+    # anyway (still-fresh data beats nothing).
+    if used_ticker and used_ticker == state.get("last_pulse_ticker"):
+        news_result = generate_zero_llm_news_pulse(tickers, state)
+        if news_result:
+            text, used_ticker = news_result
+            generation_method = "zero_llm_news_pulse"
+
+    log_kwargs = dict(mechanism="pulse", generation_method=generation_method)
     if text:
         log.info("Zero-LLM pulse (%d chars):\n%s", len(text), text)
         if post_tweet(text, state, pool="pulse"):
             state["last_pulse_post_min"] = _epoch_minutes()
+            state["last_pulse_ticker"] = used_ticker
             state["next_pulse_interval"] = random.randint(PULSE_INTERVAL_MIN_MINUTES, PULSE_INTERVAL_MAX_MINUTES)
             save_state(state)
             _log_event(state, **log_kwargs, pool_used="pulse", posted="Y",
