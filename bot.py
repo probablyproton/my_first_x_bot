@@ -2956,10 +2956,17 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                        news_category=category,
                        posted="N", skip_reason="duplicate_category_24h")
             return
-        # Only attach a link if we could identify a real, named, non-aggregator source —
-        # never cite/link Yahoo's or Google's own domain as if it were "the source".
+        # Attribution vs. the link are separate concerns: only NAME a source in the tweet when
+        # it's a real, named, non-aggregator publisher — never credit Yahoo's or Google's own
+        # domain as if it were "the source" (see the domain fallback in the RSS parser above).
+        # But the article URL is unconditional — it's still the genuine, directly-relevant
+        # article even when the feed gave no clean attribution (e.g. Yahoo Finance's own
+        # originally-authored pieces resolve exactly this way too, since their RSS carries no
+        # <source> tag either). Dropping the link here previously meant posting a question-style
+        # headline ("$MRVL: Why Is Marvell Investing $250M In India?") with no way to read the
+        # actual answer — worse than just not naming a source.
         source = meta.get("source")
-        link = meta.get("link") if source else None
+        link = meta.get("link")
         log.info("NEWS EVENT queued [%s] for $%s [%s]: %s (source: %s)",
                  method, symbol, category, classification["headline"], source or "unknown")
         queue.append({
