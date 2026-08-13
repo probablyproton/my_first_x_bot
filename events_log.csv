@@ -830,3 +830,7 @@ https://www.datacenterfrontier.com/machine-learning/article/55397821/nvidia-push
 361,2026-08-13,19:46:26,Thursday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,Biggest mover this hour: $WDC +8.03% at $492.93.,48,,,,,
 362,2026-08-13,20:31:58,Thursday,pulse,,,zero_llm_news_pulse,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$MU ($968.0, +5.16%): Micron Faces a New Burry Bet as China Memory Pressure Builds",82,,,,,
 363,2026-08-13,21:16:31,Thursday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"Hourly check-in: $WDC +6.79% to $487.29, well ahead of the rest of the board.",77,,,,,
+364,2026-08-13,21:32:03,Thursday,price_event,us,,zero_llm_template,WDC,WDC,,NYSE,Y,open,485.33,6.36,502.51,447.29,,,,,,,6.36,,,N,18,llm,Y,,Sharp move: $WDC +6.36% to $485.33 today. Intraday range: low $447.29 / high $502.51.,85,,,,,
+365,2026-08-13,21:32:51,Thursday,news_event,,,keyword,AMD,AMD,,,,,487.35,0.9,,,Advanced Micro Devices (AMD) Plans $5 Billion Bond Sale For AI Expansion,,https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-plans-171018268.html?.tsrc=rss,,contract,,,,,N,18,keyword,Y,,"$AMD ($487.35, +0.9% today): Advanced Micro Devices (AMD) Plans $5 Billion Bond Sale For AI Expansion
+
+https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-plans-171018268.html?.tsrc=rss",209,,,,,
