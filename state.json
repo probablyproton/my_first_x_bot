@@ -2,7 +2,7 @@
   "date": "2026-08-14",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 6,
+  "daily_pulse_posts": 7,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 374,
+  "event_log_next_id": 375,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -319,16 +319,16 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
-      "Siemens (XTRA:SIE) Stock May Be 28% Below Fair Value As Profit Outlook Rises",
-      "PROLIM Launches New Innovation Center to Accelerate Global Growth",
-      "Siemens Wins $80 Million Award for Advanced Army Manufacturing",
-      "Siemens Stock Falls 5% Despite Record AI-Fueled Industrial Profit",
-      "Siemens AG (SIEGY) (Q3 2026) Earnings Call Highlights: Record Orders and Raised Guidance Signal ...",
+      "FiscalNote Launches PolicyNote MCP in Anthropic's Claude Connectors Directory, Expanding Access to Its Policy Intelligence Amid Accelerating Enterprise Adoption",
+      "CloudSEK Identifies More than 2,500 Organisations Potentially Impacted by AI Supply Chain Exposure Affecting 434,000 Software Pipelines",
       "AI-Enabled Imaging Modalities Market Report: Evaluating AI Software Integration, FDA Approvals, and Competitive Strategies of GE HealthCare, Canon, Siemens, and Philips",
+      "Siemens (XTRA:SIE) Stock May Be 28% Below Fair Value As Profit Outlook Rises",
+      "BW Stock Edges Higher Overnight: Babcock & Wilcox Signs Agreement With Siemens Energy On 20 Steam Turbines",
       "Babcock & Wilcox stakes out another perch in AI, data center bonanza",
+      "Should You Hold or Fold SNPS Stock After a 20% Decline in 3 Months?",
       "Nucleus Research Releases 2026 Manufacturing Execution System Technology Value Matrix",
+      "PROLIM Launches New Innovation Center to Accelerate Global Growth",
       "Babcock & Wilcox secures 1 GW of Siemens steam turbines for FastPower projects",
-      "Siemens Energy’s gas turbine backlog nears 70 GW as company expands manufacturing",
       "Siemens Healthineers AG (SHL.DE) stock price, news, quote and history",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "SIEMENS AG N (SIE.DU) Q3 FY2026 (Media) earnings call transcript",
@@ -733,16 +733,16 @@
       "SE Q2 Earnings Miss Estimates as Costs Rise, Revenues Beat & Grew Y/Y"
     ],
     "FORM": [
+      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?",
       "FormFactor Announces Participation at Upcoming Conferences",
-      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
-      "FormFactor (FORM) Stock Sees Modest Fair Value Cut As Analysts Reset AI Expectations",
-      "FormFactor Q2 Earnings Call Highlights AI Demand Drives Growth",
-      "Why FormFactor Stock Is Skyrocketing Today",
-      "FormFactor Inc (FORM) (Q2 2026) Earnings Call Highlights: Record Revenue and EPS Fueled by AI ...",
-      "FormFactor (FORM) Q2 Earnings and Revenues Surpass Estimates",
+      "4 Semiconductor Stocks to Buy Amid Top Hyperscalers' $745B AI CapEx Bet",
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
-      "4 Semiconductor Stocks to Buy Amid Top Hyperscalers' $745B AI CapEx Bet",
+      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
+      "New Strong Buy Stocks for August 3rd",
+      "FormFactor (FORM) Stock Sees Modest Fair Value Cut As Analysts Reset AI Expectations",
+      "STARTRADER expands AI offering with 31 New US Share & ETF CFDs in Semiconductors, Optical Networking & Nuclear",
+      "Why FormFactor (FORM) Stock Is Up Today",
       "FormFactor (FORM) Beat Expectations And Lifted Guidance, Is The Stock Still Cheap?",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Fund Update: 408,358 FORMFACTOR (FORM) shares added to NORTHWESTERN MUTUAL WEALTH MANAGEMENT CO portfolio",
@@ -752,7 +752,7 @@
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
       "FormFactor (NASDAQ:FORM) Trading Up 6.1% - Should You Buy?",
       "FormFactor Inc (FORM) CEO Slessor logs major RSU vesting and fresh 27,696-unit grant",
-      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?"
+      "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?"
     ],
     "LRCX": [
       "Lam Research Announces Plans to Invest More than $3B to Expand Global Lab Network, Increase Innovation Velocity in the AI Era",
@@ -856,13 +856,13 @@
       "KLA Corporation",
       "KLA Corp(KLAC.US) Officer Sells US$6.61 Million in Common Stock",
       "KLA Stock And 2 AI Chip Equipment Picks For US Growth Investors",
-      "KLA Corporation • Robinhood Token (KLAC) Price, MarketCap, Charts and Fundamentals Info",
       "Final Trades: Snowflake, KLA Corp, Gilead Sciences and Airbnb",
       "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know",
       "Wedge Capital Management L L P NC Raises Holdings in KLA Corporation $KLAC",
       "Stocks Settle Lower Ahead of Wednesday’s CPI Report",
       "Stocks Supported by Renewed Middle East Optimism",
-      "Stocks Mostly Higher in Hopes for a Deal to Reopen Hormuz"
+      "Stocks Mostly Higher in Hopes for a Deal to Reopen Hormuz",
+      "Stocks Finish Lower as Soaring Crude Prices Spur Inflation Fears"
     ],
     "SAP.DE": [
       "Computerized Maintenance Management System (CMMS) Market Analysis and Growth Forecast 2026-2032: AI and IoT Drive Predictive Maintenance Demand",
@@ -952,20 +952,20 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
+      "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "AIXTRON SE N (AIXA.DU) stock price, news, quote and history",
       "Aixtron receives multiple tool orders from Lumentum",
-      "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
       "Despite lower earnings than a year ago, AIXTRON (ETR:AIXA) investors are up 49% since then",
       "Aixtron (AIXA) Stock Price, News & Analysis",
@@ -1016,26 +1016,26 @@
       "Infineon-led European project Moore4Power launches"
     ],
     "ANET": [
-      "Get Paid 18% A Year To Cap Your ANET Stock At 21% Higher",
-      "How Far Can Arista Stock Move Without Anything Going Wrong?",
-      "Arista (ANET) Q2 2026 Earnings Call Transcript",
-      "Arista Networks Stock Is Waiting On Parts, Not Orders",
-      "Fidelity’s Contrafund, FCNTX, Bet Against the Crowd and Got Enormous Doing It",
       "Jim Cramer Said Arista Networks, Inc. (NYSE:ANET) and Snowflake Inc. (NYSE:SNOW) Were Worth It",
       "Arista Networks Stock Is Priced For Its Peak Margin",
       "The Number Cisco Stopped Leading With Explains What You Now Own",
+      "Fidelity’s Contrafund, FCNTX, Bet Against the Crowd and Got Enormous Doing It",
       "Stock Market Today, Aug. 13: Cisco Falls on Margin Concerns Despite Record Revenue and AI Demand",
       "Collect 13% On CIEN Stock Now, Own It 60% Cheaper If It Dips",
+      "CLS vs. ANET: Which AI Stock Offers the Better Growth Opportunity?",
+      "Cisco Drops 7% on Gross Margin Fears: Five Firms Raise CSCO Price Target Anyway",
+      "The Case For SMCI Stock Survives One Real Flaw",
+      "Dell Rises 4% and HP 6% Premarket. Cisco Sinks 7%. What’s Causing the Biggest Premarket Moves?",
+      "Get Paid 18% A Year To Cap Your ANET Stock At 21% Higher",
+      "Arista Networks Stock Is Waiting On Parts, Not Orders",
       "Cisco Says It's Taking Customers From Rivals. Is Arista's Lead Narrowing?",
+      "How Far Can Arista Stock Move Without Anything Going Wrong?",
       "Jim Cramer Highlights Arista Networks (ANET) Following Q2 Beat and 50% Rally",
       "Arista Networks (ANET) Is In Focus Again, So What Is The Market Weighing?",
       "A 14% Yield On ANET Stock, And A Shot At Buying It 40% Lower",
       "Adobe vs. Arista Networks: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks (ANET) Stock Looks Expensive With Fair Value Close By",
-      "CLS vs. ANET: Which AI Stock Offers the Better Growth Opportunity?",
-      "The Zacks Rank Explained: How to Find Strong Buy Computer and Technology Stocks",
-      "How to Boost Your Portfolio with Top Computer and Technology Stocks Set to Beat Earnings",
-      "See Which Recent 13F Filers Hold ANET But McLaughlin Asset Management and Ballast Advisors Exited"
+      "The Zacks Rank Explained: How to Find Strong Buy Computer and Technology Stocks"
     ],
     "ASML.AS": [
       "Analyst Sees Trouble Brewing for Hot Chip Stocks",
@@ -1261,8 +1261,7 @@
     ],
     "mover": [
       2,
-      4,
-      5
+      4
     ],
     "price_event": [
       3,
@@ -1277,8 +1276,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 308.25,
-    "SIE.DE": 283.95,
+    "SU.PA": 308.4,
+    "SIE.DE": 283.8,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1304,11 +1303,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 184.38,
-    "BESI.AS": 234.1,
-    "AIXA.DE": 41.61,
-    "IFX.DE": 62.47,
-    "ASML.AS": 1606.6,
+    "SAP.DE": 183.76,
+    "BESI.AS": 234.8,
+    "AIXA.DE": 41.92,
+    "IFX.DE": 62.57,
+    "ASML.AS": 1606.2,
     "MU": 949.89,
     "TSM": 430.55,
     "KLAC": 209.39,
@@ -1349,9 +1348,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 30,
-  "last_pulse_post_min": 29778420,
-  "last_pulse_ticker": "SAP.DE",
+  "next_pulse_interval": 35,
+  "last_pulse_post_min": 29778451,
+  "last_pulse_ticker": "ANET",
   "pulse_news_seen": {
     "mrvl:why is marvell technology (mrvl) investing $250 million in india now?": "2026-08-12",
     "avgo:broadcom trades at 71 times earnings and 27 times next year's. history says which side gives.": "2026-08-12",
@@ -1368,7 +1367,8 @@
     "mu:micron faces a new burry bet as china memory pressure builds": "2026-08-13",
     "asml.as:asml vs. tsmc: which semiconductor giant has the deeper moat?": "2026-08-13",
     "form:formfactor (form) beat expectations and lifted guidance, is the stock still cheap?": "2026-08-14",
-    "amd:us stock futures rangebound after s&p 500 ends at record highs as data shows cooling inflation — wday, sndk, amd, dell, htz in focus": "2026-08-14"
+    "amd:us stock futures rangebound after s&p 500 ends at record highs as data shows cooling inflation — wday, sndk, amd, dell, htz in focus": "2026-08-14",
+    "anet:cisco says it's taking customers from rivals. is arista's lead narrowing?": "2026-08-14"
   },
   "eu_slots": [
     {
