@@ -3,7 +3,7 @@
   "daily_posts": 1,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 1,
+  "gemini_calls_today": 2,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -336,8 +336,8 @@
       "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility"
     ],
     "APLD": [
@@ -721,28 +721,28 @@
       "Reddit is Up 11% Premarket After S&P 500 Addition. Here’s How Other New S&P 500 Stocks Performed.",
       "Here’s What Jim Cramer Is Saying About Semis in August",
       "Marvell (MRVL) Stock Trades At A Premium After A 290% Run",
-      "Marvell Technology Has Just Shared Great News (Rating Upgrade) (NASDAQ:MRVL)",
-      "Marvell Stock (MRVL) Could Swing 14% on Q2 Earnings, Options Market Signals",
-      "Lumentum Puts The Insane Opportunity for Companies like Marvell and Ciena Into Focus With One Stunning Quote",
-      "Marvell stock soars 32% as Nvidia's Huang says it could be the next trillion-dollar company",
       "How Investors May Respond To Marvell Technology (MRVL) Expanding Its AI Data Center Memory Infrastructure Portfolio",
       "Down 37% From Its Highs, Is Marvell Technology Stock a Buy on the Dip?",
+      "Marvell Technology Has Just Shared Great News (Rating Upgrade) (NASDAQ:MRVL)",
       "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
-      "Can Optical Connectivity Strengthen STMicroelectronics' AI Strategy?",
-      "Stocks See Support from Favorable PPI Report",
-      "Quantum-Si Incorporated (QSI) Reports Q2 Loss, Tops Revenue Estimates"
+      "Marvell Technology Stock (MRVL) Opinions on AI Infrastructure Expansion",
+      "Marvell Technology (MRVL) Stock Might Offer a Quick Bounce Before Earnings",
+      "Marvell Technology, Inc. $MRVL Position Increased by Merit Financial Group LLC",
+      "$Marvell Technology (MRVL.US)$ Clocking out",
+      "Here's Why Marvell Technology (MRVL) Fell More Than Broader Market",
+      "TB Alternative Assets Ltd. Buys New Stake in Marvell Technology, Inc. $MRVL"
     ],
     "FORM": [
       "3 Profitable Stocks That Fall Short",
       "3 of Wall Street’s Favorite Stocks We Keep Off Our Radar",
-      "FormFactor (FORM) Shares Skyrocket, What You Need To Know",
-      "Aehr Test Systems Soars Again Friday. Shares Now Up More than 500% On the Year.",
-      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?",
       "FormFactor Announces Participation at Upcoming Conferences",
-      "4 Semiconductor Stocks to Buy Amid Top Hyperscalers' $745B AI CapEx Bet",
+      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
+      "FormFactor (FORM) Stock Sees Modest Fair Value Cut As Analysts Reset AI Expectations",
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
-      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
+      "FormFactor (FORM) Shares Skyrocket, What You Need To Know",
+      "Aehr Test Systems Soars Again Friday. Shares Now Up More than 500% On the Year.",
+      "4 Semiconductor Stocks to Buy Amid Top Hyperscalers' $745B AI CapEx Bet",
       "Oppenheimer Asset Management Inc. Takes $5.01 Million Position in FormFactor, Inc. $FORM",
       "FormFactor (FORM) Beat Expectations And Lifted Guidance, Is The Stock Still Cheap?",
       "Fund Update: 408,358 FORMFACTOR (FORM) shares added to NORTHWESTERN MUTUAL WEALTH MANAGEMENT CO portfolio",
@@ -751,8 +751,8 @@
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "FormFactor Number of Employees 2026 | Employee Count & Headcount Data",
       "FormFactor Jumps 6.4% Amid Sector-Wide Rally",
-      "New Strong Buy Stocks for August 3rd",
-      "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?"
+      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?",
+      "New Strong Buy Stocks for August 3rd"
     ],
     "LRCX": [
       "Lam Research bets $3 billion on speed, not size",
@@ -854,13 +854,13 @@
       "KLA Corporation (KLAC) Positioned to Benefit from Semiconductor Chip Complexity",
       "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
+      "KLA Corporation Revenue Breakdown – MIL:1KLAC",
       "KLA (KLAC) Affirms Dividend, Is It Still 12% Undervalued?",
       "KLA Corporation",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "After A Punishing July, KLA Stock Is Now A Buy (Rating Upgrade)",
       "KLA Corp (KLAC) EVP Brian Lorig Sells 59,586 Shares",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
-      "Final Trades: Snowflake, KLA Corp, Gilead Sciences and Airbnb",
       "KLA Corporation Has Had a Rough Month: A Wall Street Pro Sees 70% Upside Because of It",
       "Stocks Settle Lower Ahead of Wednesday’s CPI Report"
     ],
@@ -1032,8 +1032,8 @@
       "Arista Networks, Inc. $ANET Shares Acquired by Janney Montgomery Scott LLC",
       "Arista Networks Stock Is Priced For Its Peak Margin",
       "Arista Networks Inc. stock underperforms Friday when compared to competitors",
+      "Arista Networks Just Hit a Record High After Its First $3 Billion Quarter. Is It Too Late to Buy?",
       "Principal Financial Group Inc. Sells 149,619 Shares of Arista Networks, Inc. $ANET",
-      "Arista Networks Stock Is Waiting On Parts, Not Orders",
       "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET",
       "CLS vs. ANET: Which AI Stock Offers the Better Growth Opportunity?",
       "The Zacks Rank Explained: How to Find Strong Buy Computer and Technology Stocks"
@@ -1095,7 +1095,39 @@
       "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "MRVL",
+      "classification": {
+        "symbol": "MRVL",
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "Marvell Technology, Inc. $MRVL Position Increased by Merit Financial Group LLC",
+        "reason": "A named financial institution increased its position in the company's shares, qualifying as a large share purchase."
+      },
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZXFVVGxZT2pJOUlQaERBNFZSMGlGc0o5QzhnYTNCdHFURW9BdXF5YXNjTmVjNEo2TW9Rc19KYnlVYnA4TlhHZG90ZDl2bkc5Uy02clZqd2NiZkh1U0hDOWVmVXJQblBBWHVVS2hJc3FWcDNGbmVER3laNERJX3hFZjVfSUpsRTd2RXQxTzVGN3hQenBtZnNYXzByVlhnRWtHMEYxc3NjY3ZUdGQtekgwRVlXUWFJVHNtT0RmcUhWWldpY1liWkdqMUlHeF8yNFJUY3c?oc=5",
+      "source": "MarketBeat",
+      "method": "gemini",
+      "published": "2026-08-16T09:34:26",
+      "queued_min": 29782486,
+      "all_articles": [
+        {
+          "headline": "Marvell Technology, Inc. $MRVL Position Increased by Merit Financial Group LLC",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZXFVVGxZT2pJOUlQaERBNFZSMGlGc0o5QzhnYTNCdHFURW9BdXF5YXNjTmVjNEo2TW9Rc19KYnlVYnA4TlhHZG90ZDl2bkc5Uy02clZqd2NiZkh1U0hDOWVmVXJQblBBWHVVS2hJc3FWcDNGbmVER3laNERJX3hFZjVfSUpsRTd2RXQxTzVGN3hQenBtZnNYXzByVlhnRWtHMEYxc3NjY3ZUdGQtekgwRVlXUWFJVHNtT0RmcUhWWldpY1liWkdqMUlHeF8yNFJUY3c?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-16T09:34:26"
+        },
+        {
+          "headline": "TB Alternative Assets Ltd. Buys New Stake in Marvell Technology, Inc. $MRVL",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbktLRTlINURNazByWWFPZURjSHNnelZrRGc1d2F3aElYcXQ3VUl5YWtjY1MwVDZaczZ1SUxWUFdWY0NEeUcwd2NGQ1pIek1YRW00ZHo2QnpsUjZwN0VWakdPUUJ2bjVZaGFzSXdidm0zVlRFV0dUdE93WndsMnJmc3VENjRuTHZSc3RVaThxNEdkTkVORDZ0V3A1bWdEcDRub3lhWmNiVXJzRjZuWU9zemZhX0J3bi00Tl9Hb0FJTGJ0XzhnLUwtTE81WFA?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-16T09:24:15"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
