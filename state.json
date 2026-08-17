@@ -2,7 +2,7 @@
   "date": "2026-08-17",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 4,
+  "daily_pulse_posts": 5,
   "gemini_calls_today": 8,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 400,
+  "event_log_next_id": 401,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -843,17 +843,16 @@
       "Stocks See Support as Weak US Economic Reports Curb Fed Rate-Hike Expectations"
     ],
     "KLAC": [
-      "KLA Drops 9% in a Month: Should You Buy the Stock on the Dip?",
-      "KLA (KLAC) Is Up 5.5% After Strong Earnings, AI-Driven Outlook And Dividend Hike - What's Changed",
-      "Buy 3 Stocks That Recently Announced Dividend Hikes Amid Volatility",
-      "Lam Research, Applied Materials, and Camtek Rise After SanDisk Issues Bullish Financial Targets",
       "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
       "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know",
       "Applied Materials is Down 6% Premarket. Will It Drag Down Lam Research, KLA, and Other Semi Equipment Stocks?",
       "Applied Materials Forecast Gets Tepid Reaction After Stock Rally",
+      "KLA Drops 9% in a Month: Should You Buy the Stock on the Dip?",
+      "Lam Research, Applied Materials, and Camtek Rise After SanDisk Issues Bullish Financial Targets",
       "Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?",
       "MG vs. KLAC: Which Stock Should Value Investors Buy Now?",
       "KLA Corporation (KLAC) Positioned to Benefit from Semiconductor Chip Complexity",
+      "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
       "KLA Corporation Revenue Breakdown – MIL:1KLAC",
       "KLA Corporation",
@@ -862,7 +861,8 @@
       "KLA (KLAC) Affirms Dividend, Is It Still 12% Undervalued?",
       "KLA Corp (KLAC) EVP Brian Lorig Sells 59,586 Shares",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
-      "Insider Selling: KLA (NASDAQ:KLAC) EVP Sells 59,586 Shares"
+      "Insider Selling: KLA (NASDAQ:KLAC) EVP Sells 59,586 Shares",
+      "Stocks Settle Lower Ahead of Wednesday’s CPI Report"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -875,15 +875,16 @@
       "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
       "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
-      "An Analysis of SAP SE (SAP) in the AI Transition Era",
       "SAP SE: Gina Vargiu-Breuer, buy",
-      "SAP Quarterly Statement Q2 2026",
+      "An Analysis of SAP SE (SAP) in the AI Transition Era",
       "SAP SE Stock (SAP) Moved Down by 3.03% on Aug 12: Key Drivers Unveiled",
+      "SAP Quarterly Statement Q2 2026",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "SAP Announces Q2 and Half-Year 2026 Results",
-      "SAP SE $SAP Shares Sold by Allspring Global Investments Holdings LLC",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
-      "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP"
+      "Dimensional Fund Advisors LP Sells 12,640 Shares of SAP SE $SAP",
+      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
+      "SAP (NYSE: SAP) details strong H1 2026 cloud growth and AI deals",
+      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
     ],
     "BESI.AS": [
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
@@ -1033,10 +1034,10 @@
       "Arista Networks Stock Is Priced For Its Peak Margin",
       "Arista Networks Inc. stock underperforms Friday when compared to competitors",
       "Spirepoint Private Client LLC Purchases 66,141 Shares of Arista Networks, Inc. $ANET",
-      "Arista Networks Stock Is Waiting On Parts, Not Orders",
       "Mosaic Family Wealth Partners LLC Acquires Shares of 8,549 Arista Networks, Inc. $ANET",
       "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET",
-      "CLS vs. ANET: Which AI Stock Offers the Better Growth Opportunity?"
+      "CLS vs. ANET: Which AI Stock Offers the Better Growth Opportunity?",
+      "The Zacks Rank Explained: How to Find Strong Buy Computer and Technology Stocks"
     ],
     "ASML.AS": [
       "How ASML became Europe’s most valuable company",
@@ -1297,9 +1298,7 @@
       1,
       3
     ],
-    "mover": [
-      4
-    ],
+    "mover": [],
     "price_event": [
       3,
       4
@@ -1313,8 +1312,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 308.3,
-    "SIE.DE": 283.95,
+    "SU.PA": 308.2,
+    "SIE.DE": 283.5,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1340,11 +1339,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 178.8,
-    "BESI.AS": 239.3,
-    "AIXA.DE": 42.11,
-    "IFX.DE": 62.45,
-    "ASML.AS": 1618.8,
+    "SAP.DE": 178.68,
+    "BESI.AS": 239.4,
+    "AIXA.DE": 42.09,
+    "IFX.DE": 62.47,
+    "ASML.AS": 1619.4,
     "MU": 972.78,
     "TSM": 426.32,
     "KLAC": 203.73,
@@ -1386,10 +1385,11 @@
     "LRCX": "2026-08-13"
   },
   "next_pulse_interval": 44,
-  "last_pulse_post_min": 29782636,
-  "last_pulse_ticker": "ASML.AS",
+  "last_pulse_post_min": 29782696,
+  "last_pulse_ticker": "AVGO",
   "pulse_news_seen": {
-    "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17"
+    "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
+    "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17"
   },
   "eu_slots": [
     {
