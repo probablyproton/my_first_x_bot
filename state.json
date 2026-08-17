@@ -2,7 +2,7 @@
   "date": "2026-08-17",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 6,
+  "daily_pulse_posts": 7,
   "gemini_calls_today": 13,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 402,
+  "event_log_next_id": 403,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -319,16 +319,16 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
-      "Siemens (XTRA:SIE) Stock May Be 28% Below Fair Value As Profit Outlook Rises",
-      "PROLIM Launches New Innovation Center to Accelerate Global Growth",
-      "Siemens Wins $80 Million Award for Advanced Army Manufacturing",
-      "Siemens Stock Falls 5% Despite Record AI-Fueled Industrial Profit",
-      "AI-Enabled Imaging Modalities Market Report: Evaluating AI Software Integration, FDA Approvals, and Competitive Strategies of GE HealthCare, Canon, Siemens, and Philips",
-      "Babcock & Wilcox stakes out another perch in AI, data center bonanza",
-      "Nucleus Research Releases 2026 Manufacturing Execution System Technology Value Matrix",
-      "Babcock & Wilcox secures 1 GW of Siemens steam turbines for FastPower projects",
-      "Siemens Energy’s gas turbine backlog nears 70 GW as company expands manufacturing",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
+      "CDNS Falls 12.9% in the Past Month. Is the Sell-Off an Opportunity?",
+      "Cadence Raises 2026 Outlook as AI Agents Drive Broader EDA Demand",
+      "Is Cadence Worth Buying as AI Growth Collides With Premium Valuation?",
+      "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
+      "FiscalNote Launches PolicyNote MCP in Anthropic's Claude Connectors Directory, Expanding Access to Its Policy Intelligence Amid Accelerating Enterprise Adoption",
+      "CloudSEK Identifies More than 2,500 Organisations Potentially Impacted by AI Supply Chain Exposure Affecting 434,000 Software Pipelines",
+      "AI-Enabled Imaging Modalities Market Report: Evaluating AI Software Integration, FDA Approvals, and Competitive Strategies of GE HealthCare, Canon, Siemens, and Philips",
+      "Siemens (XTRA:SIE) Stock May Be 28% Below Fair Value As Profit Outlook Rises",
+      "BW Stock Edges Higher Overnight: Babcock & Wilcox Signs Agreement With Siemens Energy On 20 Steam Turbines",
       "SIEMENS AG N (SIE.HA) Q3 FY2026 earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
@@ -733,26 +733,26 @@
       "TB Alternative Assets Ltd. Buys New Stake in Marvell Technology, Inc. $MRVL"
     ],
     "FORM": [
-      "3 Profitable Stocks That Fall Short",
-      "3 of Wall Street’s Favorite Stocks We Keep Off Our Radar",
-      "FormFactor (FORM) Shares Skyrocket, What You Need To Know",
-      "Aehr Test Systems Soars Again Friday. Shares Now Up More than 500% On the Year.",
-      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?",
-      "FormFactor Announces Participation at Upcoming Conferences",
-      "4 Semiconductor Stocks to Buy Amid Top Hyperscalers' $745B AI CapEx Bet",
-      "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
-      "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
-      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
       "Andar Capital Management HK Ltd Takes $4.32 Million Position in FormFactor, Inc. $FORM",
+      "FormFactor (FORM) Shares Skyrocket, What You Need To Know",
       "FormFactor (FORM) Beat Expectations And Lifted Guidance, Is The Stock Still Cheap?",
       "Fund Update: 408,358 FORMFACTOR (FORM) shares added to NORTHWESTERN MUTUAL WEALTH MANAGEMENT CO portfolio",
+      "FormFactor Announces Participation at Upcoming Conferences",
       "EARNEST Partners (FORM) reports 3.76M FormFactor shares, a 4.8% stake",
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "FormFactor Number of Employees 2026 | Employee Count & Headcount Data",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
+      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?",
+      "4 Semiconductor Stocks to Buy Amid Top Hyperscalers' $745B AI CapEx Bet",
+      "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
+      "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
+      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
       "New Strong Buy Stocks for August 3rd",
-      "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?"
+      "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?",
+      "FORM vs. AEHR: Which Semi Test Equipment Stock is a Better Buy?",
+      "FormFactor's Q2 Earnings Beat Estimates, Revenues Increase Y/Y",
+      "FormFactor Q2 Earnings Call Highlights AI Demand Drives Growth"
     ],
     "LRCX": [
       "Lam Research bets $3 billion on speed, not size",
@@ -1302,8 +1302,7 @@
       1,
       2,
       0,
-      4,
-      5
+      4
     ],
     "price_event": [
       3,
@@ -1318,8 +1317,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 309.35,
-    "SIE.DE": 284.2,
+    "SU.PA": 309.2,
+    "SIE.DE": 284.0,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1345,11 +1344,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 179.4,
-    "BESI.AS": 238.0,
-    "AIXA.DE": 41.98,
-    "IFX.DE": 62.23,
-    "ASML.AS": 1618.8,
+    "SAP.DE": 179.38,
+    "BESI.AS": 237.8,
+    "AIXA.DE": 42.0,
+    "IFX.DE": 62.25,
+    "ASML.AS": 1617.2,
     "MU": 972.78,
     "TSM": 426.32,
     "KLAC": 203.73,
@@ -1390,12 +1389,13 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 43,
-  "last_pulse_post_min": 29782756,
-  "last_pulse_ticker": "ASML.AS",
+  "next_pulse_interval": 44,
+  "last_pulse_post_min": 29782800,
+  "last_pulse_ticker": "LRCX",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
-    "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17"
+    "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
+    "lrcx:laraway financial advisors inc takes $3.42 million position in lam research corporation $lrcx": "2026-08-17"
   },
   "eu_slots": [
     {
