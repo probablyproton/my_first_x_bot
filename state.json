@@ -3,7 +3,7 @@
   "daily_posts": 1,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 8,
-  "gemini_calls_today": 13,
+  "gemini_calls_today": 14,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 404,
+  "event_log_next_id": 405,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -329,10 +329,10 @@
       "Babcock & Wilcox secures 1 GW of Siemens steam turbines for FastPower projects",
       "Siemens Energy’s gas turbine backlog nears 70 GW as company expands manufacturing",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
+      "SIEMENS AG N (SIE.DU) Q3 FY2026 (Media) earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "SIEMENS AG N (SIE.HA) Q3 FY2026 earnings call transcript",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
-      "SIEMENS AG N (SIE.F) Q3 FY2026 (Media) earnings call transcript",
+      "SIEMENS AG N (SIE.HA) Q3 FY2026 earnings call transcript",
       "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
@@ -735,14 +735,14 @@
     "FORM": [
       "3 Profitable Stocks That Fall Short",
       "3 of Wall Street’s Favorite Stocks We Keep Off Our Radar",
-      "FormFactor (FORM) Shares Skyrocket, What You Need To Know",
-      "Aehr Test Systems Soars Again Friday. Shares Now Up More than 500% On the Year.",
-      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?",
       "FormFactor Announces Participation at Upcoming Conferences",
-      "4 Semiconductor Stocks to Buy Amid Top Hyperscalers' $745B AI CapEx Bet",
+      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
+      "FormFactor (FORM) Stock Sees Modest Fair Value Cut As Analysts Reset AI Expectations",
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
-      "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
+      "FormFactor (FORM) Shares Skyrocket, What You Need To Know",
+      "Aehr Test Systems Soars Again Friday. Shares Now Up More than 500% On the Year.",
+      "4 Semiconductor Stocks to Buy Amid Top Hyperscalers' $745B AI CapEx Bet",
       "Andar Capital Management HK Ltd Takes $4.32 Million Position in FormFactor, Inc. $FORM",
       "FormFactor (FORM) Beat Expectations And Lifted Guidance, Is The Stock Still Cheap?",
       "Fund Update: 408,358 FORMFACTOR (FORM) shares added to NORTHWESTERN MUTUAL WEALTH MANAGEMENT CO portfolio",
@@ -751,8 +751,8 @@
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "FormFactor Number of Employees 2026 | Employee Count & Headcount Data",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
-      "New Strong Buy Stocks for August 3rd",
-      "Vishay Q2 Earnings Loom: Buy, Sell or Hold the Stock Ahead of Results?"
+      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?",
+      "New Strong Buy Stocks for August 3rd"
     ],
     "LRCX": [
       "Lam Research bets $3 billion on speed, not size",
@@ -799,16 +799,16 @@
       "3 Stocks to Buy as AI Infrastructure Continues to Surge"
     ],
     "WDC": [
-      "What Does Western Digital (WDC) Signal With A $93.9 Billion Spin Off Backlog?",
-      "Sandisk stock surges as Wall Street cheers flash memory maker's bullish outlook",
-      "Western Digital (WDC) Upgraded to Strong Buy: What Does It Mean for the Stock?",
-      "Sandisk Jumps 7%, Western Digital Gains 4%, Micron Climbs 3% as the Kospi Returns to a Bull Market",
-      "Jim Cramer Wondered Whether Sandisk Is No Longer Cyclical & Expected Western Digital To Raise Guidance More",
-      "Sandisk Stock Is Getting Its Mojo Back Amid China Memory-Chip Move",
+      "Why Sandisk Stock Is Getting Its Mojo Back",
       "Intel, Oracle, Marvell, Alibaba, and More Stocks That Explain Today’s Market",
+      "What Does Western Digital (WDC) Signal With A $93.9 Billion Spin Off Backlog?",
       "SanDisk Stock Locks In $94B Backlog, Targets 80% Margins by 2030",
       "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
       "Marvell Technology, MACOM, Micron, Western Digital, and Semtech Shares Skyrocket, What You Need To Know",
+      "SanDisk Has Delivered A Return The Index Cannot, And The Swings That Come With It",
+      "Sandisk Stock Tops the S&P 500 Today as Analysts Rally Behind Its AI Expansion",
+      "3 Reasons Why Western Digital (WDC) Is a Great Growth Stock",
+      "Western Digital (WDC) Upgraded to Strong Buy: What Does It Mean for the Stock?",
       "Titiun Yejiel Takes Position in Western Digital Corporation $WDC",
       "Western Digital's $3.5B FCF: Can Growth Continue in Fiscal 2027?",
       "Western Digital (WDC) leans on cloud HDD demand amid AI and customer concentration risks",
@@ -853,6 +853,7 @@
       "Applied Materials Forecast Gets Tepid Reaction After Stock Rally",
       "Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?",
       "MG vs. KLAC: Which Stock Should Value Investors Buy Now?",
+      "KLA Corporation Had a Tough Month: 60% Returns Will Come According to This Wall Street Stalwart",
       "Plato Investment Management Ltd Makes New $12.14 Million Investment in KLA Corporation $KLAC",
       "KLA Corporation (KLAC) Positioned to Benefit from Semiconductor Chip Complexity",
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
@@ -861,8 +862,7 @@
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "After A Punishing July, KLA Stock Is Now A Buy (Rating Upgrade)",
       "Is KLAC Overvalued? DCF Says Worth $117",
-      "KLA (KLAC) Affirms Dividend, Is It Still 12% Undervalued?",
-      "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS"
+      "KLA (KLAC) Affirms Dividend, Is It Still 12% Undervalued?"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -876,14 +876,14 @@
       "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
       "An Analysis of SAP SE (SAP) in the AI Transition Era",
-      "SAP Announces Q2 and Half-Year 2026 Results",
-      "SAP shrugs off fears of AI eating software with big earnings beat",
+      "SAP SE: Gina Vargiu-Breuer, buy",
       "SAP Quarterly Statement Q2 2026",
       "SAP SE Stock (SAP) Moved Down by 3.03% on Aug 12: Key Drivers Unveiled",
-      "SAP SE: Gina Vargiu-Breuer, buy",
+      "SAP shrugs off fears of AI eating software with big earnings beat",
+      "SAP Announces Q2 and Half-Year 2026 Results",
+      "SAP SE $SAP Shares Sold by Allspring Global Investments Holdings LLC",
       "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
-      "Here’s Why ​SAP SE (SAP) is One of the Best Stocks to Buy Before the Next Bull Run",
-      "SAP SE (SAP) Fell After Goldman Sachs Trimmed Margins Forecasts, Can The Stock Bounce Back?"
+      "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP"
     ],
     "BESI.AS": [
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
@@ -951,14 +951,14 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
@@ -1020,19 +1020,19 @@
       "Arista Networks vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks (ANET) Is Up 5.9% After AI-Fueled Q3 Revenue Guidance Upgrade - Has The Bull Case Changed?",
       "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
-      "Fidelity’s Contrafund, FCNTX, Bet Against the Crowd and Got Enormous Doing It",
       "Cisco Beat On Every Line, Then Fell On What AI Costs To Ship",
       "Cisco Just Gave Investors 3 Big Reasons to Be Bullish",
       "Super Micro's Margin Surprise Is Already Guided Back Down",
       "Will Ciena's Rising Backlog Improve Revenue Visibility Into 2027?",
       "The Quiet Winner of the AI Buildout Just Posted Its Best Year Ever",
+      "Jim Cramer Said Arista Networks, Inc. (NYSE:ANET) and Snowflake Inc. (NYSE:SNOW) Were Worth It",
       "HighTower Advisors LLC Grows Position in Arista Networks, Inc. $ANET",
       "Arista Networks (ANET) Shares Just Moved, So What Is Driving Attention Now?",
-      "Jim Cramer Said Arista Networks, Inc. (NYSE:ANET) and Snowflake Inc. (NYSE:SNOW) Were Worth It",
       "Arista Networks Stock Is Priced For Its Peak Margin",
       "Arista Networks Inc. stock underperforms Friday when compared to competitors",
       "Arista Networks, Inc. $ANET Shares Sold by BLB&B Advisors LLC",
       "Spirepoint Private Client LLC Purchases 66,141 Shares of Arista Networks, Inc. $ANET",
+      "Arista Networks (ANET) Stock Looks Expensive With Fair Value Close By",
       "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET",
       "CLS vs. ANET: Which AI Stock Offers the Better Growth Opportunity?",
       "The Zacks Rank Explained: How to Find Strong Buy Computer and Technology Stocks"
@@ -1094,39 +1094,7 @@
       "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "MRVL",
-      "classification": {
-        "symbol": "MRVL",
-        "is_major": true,
-        "category": "large_share_purchases",
-        "headline": "Marvell Technology, Inc. $MRVL Position Increased by Merit Financial Group LLC",
-        "reason": "A named financial institution increased its position in the company's shares, qualifying as a large share purchase."
-      },
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZXFVVGxZT2pJOUlQaERBNFZSMGlGc0o5QzhnYTNCdHFURW9BdXF5YXNjTmVjNEo2TW9Rc19KYnlVYnA4TlhHZG90ZDl2bkc5Uy02clZqd2NiZkh1U0hDOWVmVXJQblBBWHVVS2hJc3FWcDNGbmVER3laNERJX3hFZjVfSUpsRTd2RXQxTzVGN3hQenBtZnNYXzByVlhnRWtHMEYxc3NjY3ZUdGQtekgwRVlXUWFJVHNtT0RmcUhWWldpY1liWkdqMUlHeF8yNFJUY3c?oc=5",
-      "source": "MarketBeat",
-      "method": "gemini",
-      "published": "2026-08-16T09:34:26",
-      "queued_min": 29782486,
-      "all_articles": [
-        {
-          "headline": "Marvell Technology, Inc. $MRVL Position Increased by Merit Financial Group LLC",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZXFVVGxZT2pJOUlQaERBNFZSMGlGc0o5QzhnYTNCdHFURW9BdXF5YXNjTmVjNEo2TW9Rc19KYnlVYnA4TlhHZG90ZDl2bkc5Uy02clZqd2NiZkh1U0hDOWVmVXJQblBBWHVVS2hJc3FWcDNGbmVER3laNERJX3hFZjVfSUpsRTd2RXQxTzVGN3hQenBtZnNYXzByVlhnRWtHMEYxc3NjY3ZUdGQtekgwRVlXUWFJVHNtT0RmcUhWWldpY1liWkdqMUlHeF8yNFJUY3c?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-16T09:34:26"
-        },
-        {
-          "headline": "TB Alternative Assets Ltd. Buys New Stake in Marvell Technology, Inc. $MRVL",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbktLRTlINURNazByWWFPZURjSHNnelZrRGc1d2F3aElYcXQ3VUl5YWtjY1MwVDZaczZ1SUxWUFdWY0NEeUcwd2NGQ1pIek1YRW00ZHo2QnpsUjZwN0VWakdPUUJ2bjVZaGFzSXdidm0zVlRFV0dUdE93WndsMnJmc3VENjRuTHZSc3RVaThxNEdkTkVORDZ0V3A1bWdEcDRub3lhWmNiVXJzRjZuWU9zemZhX0J3bi00Tl9Hb0FJTGJ0XzhnLUwtTE81WFA?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-16T09:24:15"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1315,8 +1283,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 308.65,
-    "SIE.DE": 283.35,
+    "SU.PA": 308.55,
+    "SIE.DE": 283.2,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1342,11 +1310,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 179.04,
-    "BESI.AS": 236.9,
-    "AIXA.DE": 41.9,
-    "IFX.DE": 62.12,
-    "ASML.AS": 1613.4,
+    "SAP.DE": 179.24,
+    "BESI.AS": 237.0,
+    "AIXA.DE": 41.82,
+    "IFX.DE": 62.02,
+    "ASML.AS": 1611.4,
     "MU": 972.78,
     "TSM": 426.32,
     "KLAC": 203.73,
