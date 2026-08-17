@@ -2,7 +2,7 @@
   "date": "2026-08-17",
   "daily_posts": 1,
   "daily_keyword_posts": 2,
-  "daily_pulse_posts": 13,
+  "daily_pulse_posts": 14,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 412,
+  "event_log_next_id": 413,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -337,8 +337,8 @@
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility"
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -722,15 +722,15 @@
       "Insight Enterprises Bets on AI Infrastructure, Services and Leaner Operations",
       "Marvell Technology, MACOM, Micron, Western Digital, and Semtech Shares Skyrocket, What You Need To Know",
       "Semtech, Marvell positioned well ahead of earnings, UBS says (MRVL:NASDAQ)",
+      "Why is Marvell Technology stock surging today?",
       "Nvidia (NVDA) or Marvell (MRVL): Which Chip Stock Is a Better Buy Ahead of Earnings?",
       "Marvell Stock (MRVL) Could Swing 14% on Q2 Earnings, Options Market Signals",
       "NVIDIA Invested $2 Billion in Marvell. Which Stock Is the Better Buy in August?",
       "Marvell Technology, Inc. Reports First Quarter of Fiscal Year 2027 Financial Results",
       "Marvell stock soars 32% as Nvidia's Huang says it could be the next trillion-dollar company",
-      "Marvell Technology Is Down 10% This Month but Rising Quickly: A Wall Street Pro Sees Near 100% Returns Ahead",
+      "Stock Indices Waver on Strength in Chipmakers vs Weakness in Software Companies",
       "Stocks Mixed on Strength in Chipmakers vs Weakness in Software Companies",
-      "Will Credo Maintain Strong Margins Despite Higher R&D Spending in FY27?",
-      "Wall Street Says the Stock Market's Return Will Crush the Long-Term Average in the Next Year"
+      "Will Credo Maintain Strong Margins Despite Higher R&D Spending in FY27?"
     ],
     "FORM": [
       "3 Profitable Stocks That Fall Short",
@@ -757,15 +757,14 @@
     "LRCX": [
       "Lam Research (LRCX) Stock Looks Fully Valued After Its 499% Run",
       "Billionaire Stanley Druckenmiller and Brad Gerstner Both Dumped Broadcom (AVGO) and Bought This AI Stock Instead",
-      "KLA Corporation Had a Tough Month: 60% Returns Will Come According to This Wall Street Stalwart",
-      "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
-      "Third Point Exited Nvidia and Broadcom, Made New Bet on Warner Bros. Discovery in Second Quarter",
       "Lam Research bets $3 billion on speed, not size",
       "Lam Research’s Etch Moat Could Become the Most Profitable Lever in Next‑Gen Semiconductor Manufacturing",
-      "AMKR Stock Slides 18% in Three Months: Is the Dip Worth Buying?",
       "Why Lam Research (LRCX) Became This Portfolio’s Top Performer",
-      "AMAT Stock Falls After Wall Street Split On Q3 Results — Morgan Stanley Says Earnings Were 'Good, But Not Great'",
+      "Applied Materials is Down 6% Premarket. Will It Drag Down Lam Research, KLA, and Other Semi Equipment Stocks?",
+      "Here's How Much a $1000 Investment in Lam Research Made 10 Years Ago Would Be Worth Today",
+      "Why Lam Research (LRCX) Is Up 10.2% After $3 Billion Global R&D Lab Expansion Plan",
       "Lam Research Announces Plans to Invest More than $3B to Expand Global Lab Network, Increase Innovation Velocity in the AI Era",
+      "Chip equipment maker Lam Research to invest more than $3 billion to expand R&D labs",
       "Laraway Financial Advisors Inc Takes $3.42 Million Position in Lam Research Corporation $LRCX",
       "Lam Research Corp Stock (LRCX) Moved Up by 3.01% on Aug 17: Drivers Behind the Movement",
       "Lam Research and NY Creates Team Up to Enable Training of University Students for the Semiconductor Workforce",
@@ -774,7 +773,8 @@
       "Hennessy Advisors Inc. Acquires New Stake in Lam Research Corporation $LRCX",
       "OFI Invest Asset Management Has $43.12 Million Holdings in Lam Research Corporation $LRCX",
       "Sequoia Financial Advisors LLC Decreases Stock Position in Lam Research Corporation $LRCX",
-      "HM Payson & Co. Has $351.43 Million Stock Holdings in Lam Research Corporation $LRCX"
+      "Stock Indices Waver on Strength in Chipmakers vs Weakness in Software Companies",
+      "Stocks Rally on the Favorable US PPI Report"
     ],
     "TSM": [
       "MediaTek Wants 20% of Custom AI Chips. Alphabet (GOOGL) Could Win Before Broadcom (AVGO) Loses",
@@ -865,16 +865,16 @@
       "Stocks Mixed on Strength in Chipmakers vs Weakness in Software Companies"
     ],
     "SAP.DE": [
-      "ChainIT Announces Strategic Partnership with excelerated to Strengthen Supplier Compliance and Final-Mile Supply Chain Visibility",
-      "SAP (XTRA:SAP) Recognition Puts Its Valuation Back In Focus",
-      "What Do SAP (XTRA:SAP) Security Patches And Supply Chain Awards Mean?",
-      "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
-      "Computerized Maintenance Management System (CMMS) Market Analysis and Growth Forecast 2026-2032: AI and IoT Drive Predictive Maintenance Demand",
-      "PetMed Express, Inc. Q1 2027 Earnings Call Summary",
-      "NTT DATA awarded Golden Certificate by SAP as Global Operations Partner, reflecting the scale of its Global Managed Services expertise",
-      "Rimini Street Expands C-Suite Leadership for Growth with Appointment of Two Proven Industry Veterans as Chief Operating Officer and Chief Delivery Officer",
-      "Salesforce Declines 17% Over the Past Year: How to Play CRM Stock?",
-      "FUJIY Q1 Earnings Fall Y/Y on Bio CDMO Costs, Revenues Rise",
+      "SAP loosens ERP maintenance and support rules",
+      "SAP (XTRA:SAP) Stock Looks Below Fair Value Despite AI Hopes",
+      "Palantir Expands SAP Transformation Push With SNP Partnership",
+      "Is SAP SE (SAP) A Good Stock To Buy Now?",
+      "Why SAP (XTRA:SAP) Is Up 7.1% After AI-Focused Overhaul And New Consumption-Based Pricing",
+      "SAP Celebrates America's 250th with Investment in the Next Generation",
+      "SAP SE (SAP) Among Jefferies’ Top European Software Stock Picks",
+      "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
+      "Is SAP SE (SAP) Positioned to Benefit from AI?",
+      "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
       "An Analysis of SAP SE (SAP) in the AI Transition Era",
       "SAP SE: Gina Vargiu-Breuer, buy",
       "SAP Quarterly Statement Q2 2026",
@@ -883,7 +883,6 @@
       "SAP Announces Q2 and Half-Year 2026 Results",
       "SAP SE $SAP Shares Sold by Allspring Global Investments Holdings LLC",
       "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
-      "SAP Celebrates America's 250th with Investment in the Next Generation",
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP"
     ],
     "BESI.AS": [
@@ -893,20 +892,18 @@
       "Buy These 5 Top-Ranked Efficient Stocks With Strong Growth Potential",
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Highlights: Record Growth and ...",
       "BE Semiconductor Reports Strong Q2 Growth as AI Demand Drives Record Orders",
-      "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
-      "BE Semiconductor Industries NV (BESIY) Q1 2026 Earnings Call Highlights: Record Growth in ...",
-      "BE Semiconductor Industries N.V. Announces Q1-26 Results",
-      "Besi orders more than double as AI and hybrid bonding tech drive demand",
-      "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
+      "European semiconductor stocks diverge as investors weigh AI demand, growth expectations",
       "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
+      "Besi orders more than double as AI and hybrid bonding tech drive demand",
+      "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
+      "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
       "BE Semiconductor Industries (OTCMKTS:BESIY) Sees Unusually-High Trading Volume - Time to Buy?",
       "Q4 2025 BE Semiconductor Industries NV Earnings Call Transcript",
       "BE Semiconductor Industries N.V.: Target Price Consensus and Analysts Recommendations | BESI | NL0012866412",
+      "BE Semiconductor Industries N.V. Announces Q1-26 Results",
       "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
-      "Why BE Semiconductor Industries (ENXTAM:BESI) Is Up 10.1% After Strong Half-Year Earnings And Efficiency Gains",
       "Why is BE Semiconductor Industries stock rallying today?",
-      "Hybrid bonding bookings lift Besi orders to €269.7 million",
-      "European semiconductor stocks diverge as investors weigh AI demand, growth expectations"
+      "BE Semiconductor Industries Upgraded to Buy as Berenberg Notes 'Opportunity' Amid Recent Share Weakness"
     ],
     "AMAT": [
       "IPGP Q2 Earnings Beat Estimates on Industrial Solutions Growth",
@@ -1012,11 +1009,11 @@
       "Infineon Technologies Ag Provides Earnings Guidance for the Fourth Quarter and Fiscal Year 2026",
       "Infineon Leads the Automotive Semiconductor",
       "Infineon Technologies AG : Goldman Sachs reiterates its Buy rating",
-      "North America Intelligent Power Module Market Report",
       "North America Silicon Carbide (SiC) Market",
-      "INFINEON TECHNOLOGIES AG : Jefferies remains its Buy rating",
-      "EU approves 920 million euro German aid for Infineon chips plant",
-      "Infineon-led European project Moore4Power launches"
+      "North America Intelligent Power Module Market Report",
+      "Infineon-led European project Moore4Power launches",
+      "Infineon upbeat on AI chips but cautious on automotive, industrials",
+      "Infineon Technologies Ag - IFNNY - Stock Price & News"
     ],
     "ANET": [
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
@@ -1272,8 +1269,7 @@
       1,
       3,
       2,
-      4,
-      6
+      4
     ],
     "price_event": [
       3,
@@ -1320,19 +1316,19 @@
     "AIXA.DE": 42.28,
     "IFX.DE": 62.17,
     "ASML.AS": 1620.6,
-    "MU": 1030.72,
-    "TSM": 433.08,
-    "KLAC": 207.59,
-    "STX": 994.36,
-    "ANET": 200.88,
-    "LRCX": 344.1,
-    "FORM": 138.81,
-    "AVGO": 397.77,
-    "AMAT": 538.92,
-    "AMD": 511.23,
-    "MRVL": 238.43,
-    "NVDA": 227.08,
-    "WDC": 534.49
+    "MU": 1027.22,
+    "TSM": 431.39,
+    "KLAC": 205.23,
+    "STX": 995.36,
+    "ANET": 201.02,
+    "LRCX": 341.46,
+    "FORM": 138.21,
+    "AVGO": 397.17,
+    "AMAT": 535.1,
+    "AMD": 509.74,
+    "MRVL": 236.21,
+    "NVDA": 226.33,
+    "WDC": 531.21
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1360,14 +1356,15 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 40,
-  "last_pulse_post_min": 29783071,
-  "last_pulse_ticker": "MRVL",
+  "next_pulse_interval": 45,
+  "last_pulse_post_min": 29783116,
+  "last_pulse_ticker": "FORM",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
     "lrcx:laraway financial advisors inc takes $3.42 million position in lam research corporation $lrcx": "2026-08-17",
-    "klac:kla corporation had a tough month: 60% returns will come according to this wall street stalwart": "2026-08-17"
+    "klac:kla corporation had a tough month: 60% returns will come according to this wall street stalwart": "2026-08-17",
+    "form:formfactor (nasdaq:form) trading 4.8% higher - here's why": "2026-08-17"
   },
   "eu_slots": [
     {
