@@ -3,7 +3,7 @@
   "daily_posts": 1,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 4,
-  "gemini_calls_today": 6,
+  "gemini_calls_today": 7,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -814,9 +814,9 @@
       "Western Digital (WDC) leans on cloud HDD demand amid AI and customer concentration risks",
       "Western Digital Stock Drops As Earnings, Targets Surge",
       "Western Digital Corp Stock (WDC) Opened Up by 3.53% on Aug 14: What Signal Does It Send?",
+      "GSA Capital Partners LLP Takes Position in Western Digital Corporation $WDC",
       "Is Western Digital Stock a Buy After Q4 Earnings? Here’s What You Need to Know.",
       "Western Digital: AI Is Creating 300 Trillion Tokens A Day, Buy The Storage (NASDAQ:WDC)",
-      "Focus Partners Advisor Solutions LLC Buys New Shares in Western Digital Corporation $WDC",
       "Western Digital Corporation (WDC) Surged on Strong Hard Drive Demand and Tighter Supply",
       "Western Digital Corp Stock (WDC) Moved Up by 7.72% on Aug 13: What Signal Does It Send?"
     ],
@@ -843,16 +843,17 @@
       "Stocks See Support as Weak US Economic Reports Curb Fed Rate-Hike Expectations"
     ],
     "KLAC": [
+      "KLA Drops 9% in a Month: Should You Buy the Stock on the Dip?",
+      "KLA (KLAC) Is Up 5.5% After Strong Earnings, AI-Driven Outlook And Dividend Hike - What's Changed",
+      "Buy 3 Stocks That Recently Announced Dividend Hikes Amid Volatility",
+      "Lam Research, Applied Materials, and Camtek Rise After SanDisk Issues Bullish Financial Targets",
       "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
       "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know",
       "Applied Materials is Down 6% Premarket. Will It Drag Down Lam Research, KLA, and Other Semi Equipment Stocks?",
       "Applied Materials Forecast Gets Tepid Reaction After Stock Rally",
-      "KLA Drops 9% in a Month: Should You Buy the Stock on the Dip?",
-      "Lam Research, Applied Materials, and Camtek Rise After SanDisk Issues Bullish Financial Targets",
       "Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?",
       "MG vs. KLAC: Which Stock Should Value Investors Buy Now?",
       "KLA Corporation (KLAC) Positioned to Benefit from Semiconductor Chip Complexity",
-      "Intel Just Increased Its Stock Offering to $20B. Why That’s Good News for ASML.",
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
       "KLA Corporation Revenue Breakdown – MIL:1KLAC",
       "KLA Corporation",
@@ -861,8 +862,7 @@
       "KLA (KLAC) Affirms Dividend, Is It Still 12% Undervalued?",
       "KLA Corp (KLAC) EVP Brian Lorig Sells 59,586 Shares",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
-      "Insider Selling: KLA (NASDAQ:KLAC) EVP Sells 59,586 Shares",
-      "Stocks Settle Lower Ahead of Wednesday’s CPI Report"
+      "Insider Selling: KLA (NASDAQ:KLAC) EVP Sells 59,586 Shares"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -875,16 +875,15 @@
       "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
       "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
-      "SAP SE: Gina Vargiu-Breuer, buy",
       "An Analysis of SAP SE (SAP) in the AI Transition Era",
-      "SAP SE Stock (SAP) Moved Down by 3.03% on Aug 12: Key Drivers Unveiled",
+      "SAP SE: Gina Vargiu-Breuer, buy",
       "SAP Quarterly Statement Q2 2026",
+      "SAP SE Stock (SAP) Moved Down by 3.03% on Aug 12: Key Drivers Unveiled",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "SAP Announces Q2 and Half-Year 2026 Results",
-      "Dimensional Fund Advisors LP Sells 12,640 Shares of SAP SE $SAP",
-      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
-      "SAP (NYSE: SAP) details strong H1 2026 cloud growth and AI deals",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
+      "SAP SE $SAP Shares Sold by Allspring Global Investments Holdings LLC",
+      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
+      "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP"
     ],
     "BESI.AS": [
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
@@ -1033,9 +1032,9 @@
       "Jim Cramer Said Arista Networks, Inc. (NYSE:ANET) and Snowflake Inc. (NYSE:SNOW) Were Worth It",
       "Arista Networks Stock Is Priced For Its Peak Margin",
       "Arista Networks Inc. stock underperforms Friday when compared to competitors",
-      "Arista Networks Just Hit a Record High After Its First $3 Billion Quarter. Is It Too Late to Buy?",
-      "Arista Networks, Inc. $ANET Shares Acquired by Janney Montgomery Scott LLC",
+      "Spirepoint Private Client LLC Purchases 66,141 Shares of Arista Networks, Inc. $ANET",
       "Arista Networks Stock Is Waiting On Parts, Not Orders",
+      "KBC Group NV Sells 19,804 Shares of Arista Networks, Inc. $ANET",
       "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET",
       "CLS vs. ANET: Which AI Stock Offers the Better Growth Opportunity?"
     ],
@@ -1153,7 +1152,9 @@
     "lrcx:burneyco:30723": "2026-08-14",
     "nvda:versantcapitalmanagementinc:3556": "2026-08-14",
     "mrvl:fisherfundsmanagementltd:8700": "2026-08-14",
-    "anet:principalfinancialgroupinc:149619": "2026-08-17"
+    "anet:principalfinancialgroupinc:149619": "2026-08-17",
+    "anet:spirepointprivateclientllc:66141": "2026-08-17",
+    "anet:kbcgroupnv:19804": "2026-08-17"
   },
   "news_category_posted": {
     "VST": {
@@ -1313,7 +1314,7 @@
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
     "SU.PA": 308.3,
-    "SIE.DE": 283.95,
+    "SIE.DE": 283.75,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1339,11 +1340,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 178.98,
-    "BESI.AS": 238.6,
-    "AIXA.DE": 41.85,
-    "IFX.DE": 62.27,
-    "ASML.AS": 1615.4,
+    "SAP.DE": 178.88,
+    "BESI.AS": 238.9,
+    "AIXA.DE": 42.04,
+    "IFX.DE": 62.31,
+    "ASML.AS": 1617.0,
     "MU": 972.78,
     "TSM": 426.32,
     "KLAC": 203.73,
