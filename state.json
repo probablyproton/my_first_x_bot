@@ -1,13 +1,13 @@
 {
   "date": "2026-08-17",
-  "daily_posts": 0,
+  "daily_posts": 1,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 0,
+  "gemini_calls_today": 1,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
-    "monday": "2026-08-10",
+    "monday": "2026-08-17",
     "wednesday": "2026-08-12"
   },
   "zero_llm_posts": {},
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 393,
+  "event_log_next_id": 394,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -319,16 +319,16 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
-      "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
-      "CDNS Falls 12.9% in the Past Month. Is the Sell-Off an Opportunity?",
-      "Cadence Raises 2026 Outlook as AI Agents Drive Broader EDA Demand",
-      "Is Cadence Worth Buying as AI Growth Collides With Premium Valuation?",
-      "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
-      "FiscalNote Launches PolicyNote MCP in Anthropic's Claude Connectors Directory, Expanding Access to Its Policy Intelligence Amid Accelerating Enterprise Adoption",
-      "CloudSEK Identifies More than 2,500 Organisations Potentially Impacted by AI Supply Chain Exposure Affecting 434,000 Software Pipelines",
-      "AI-Enabled Imaging Modalities Market Report: Evaluating AI Software Integration, FDA Approvals, and Competitive Strategies of GE HealthCare, Canon, Siemens, and Philips",
       "Siemens (XTRA:SIE) Stock May Be 28% Below Fair Value As Profit Outlook Rises",
-      "BW Stock Edges Higher Overnight: Babcock & Wilcox Signs Agreement With Siemens Energy On 20 Steam Turbines",
+      "PROLIM Launches New Innovation Center to Accelerate Global Growth",
+      "Siemens Wins $80 Million Award for Advanced Army Manufacturing",
+      "Siemens Stock Falls 5% Despite Record AI-Fueled Industrial Profit",
+      "AI-Enabled Imaging Modalities Market Report: Evaluating AI Software Integration, FDA Approvals, and Competitive Strategies of GE HealthCare, Canon, Siemens, and Philips",
+      "Babcock & Wilcox stakes out another perch in AI, data center bonanza",
+      "Nucleus Research Releases 2026 Manufacturing Execution System Technology Value Matrix",
+      "Babcock & Wilcox secures 1 GW of Siemens steam turbines for FastPower projects",
+      "Siemens Energy’s gas turbine backlog nears 70 GW as company expands manufacturing",
+      "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "SIEMENS AG N (SIE.HA) Q3 FY2026 earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
@@ -336,8 +336,8 @@
       "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility"
     ],
     "APLD": [
@@ -727,7 +727,7 @@
       "Marvell stock soars 32% as Nvidia's Huang says it could be the next trillion-dollar company",
       "How Investors May Respond To Marvell Technology (MRVL) Expanding Its AI Data Center Memory Infrastructure Portfolio",
       "Down 37% From Its Highs, Is Marvell Technology Stock a Buy on the Dip?",
-      "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
+      "So when prices drop, it's suddenly all your business, but when they rise, it has nothing to do with you?",
       "Can Optical Connectivity Strengthen STMicroelectronics' AI Strategy?",
       "Stocks See Support from Favorable PPI Report",
       "Quantum-Si Incorporated (QSI) Reports Q2 Loss, Tops Revenue Estimates"
@@ -749,8 +749,8 @@
       "EARNEST Partners (FORM) reports 3.76M FormFactor shares, a 4.8% stake",
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
-      "FormFactor Jumps 6.4% Amid Sector-Wide Rally",
       "FormFactor Number of Employees 2026 | Employee Count & Headcount Data",
+      "FormFactor Jumps 6.4% Amid Sector-Wide Rally",
       "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?",
       "New Strong Buy Stocks for August 3rd"
     ],
@@ -854,14 +854,14 @@
       "Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?",
       "MG vs. KLAC: Which Stock Should Value Investors Buy Now?",
       "KLA Corporation (KLAC) Positioned to Benefit from Semiconductor Chip Complexity",
-      "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
       "KLA Corporation Revenue Breakdown – MIL:1KLAC",
+      "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
       "KLA (KLAC) Affirms Dividend, Is It Still 12% Undervalued?",
-      "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corporation",
+      "KLA Corp. stock outperforms competitors despite losses on the day",
       "After A Punishing July, KLA Stock Is Now A Buy (Rating Upgrade)",
+      "KLA Corp (KLAC) EVP Brian Lorig Sells 59,586 Shares",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
-      "KLA Corporation $KLAC is Butensky & Cohen Financial Security Inc.'s Largest Position",
       "Final Trades: Snowflake, KLA Corp, Gilead Sciences and Airbnb"
     ],
     "SAP.DE": [
