@@ -2,8 +2,8 @@
   "date": "2026-08-18",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 3,
-  "gemini_calls_today": 8,
+  "daily_pulse_posts": 4,
+  "gemini_calls_today": 9,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 427,
+  "event_log_next_id": 428,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -332,14 +332,14 @@
       "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
       "SIEMENS AG N (SIE.F) Q3 FY2026 (Media) earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
+      "Siemens Launches Wendell Microgrid at HQ Campus",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
-      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Mobility North America appoints president"
+      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -804,12 +804,12 @@
       "Can Western Digital (WDC) Run Higher on Rising Earnings Estimates?",
       "Why Western Digital Stock Popped Today",
       "Chip stocks rally as US pressure on Chinese memory suppliers boosts sentiment",
+      "Meet the Vanguard ETF That's Crushing the S&P 500 and Nasdaq-100 Despite Not Owning Micron, Sandisk, or Any of the \"Magnificent Seven\" Stocks",
       "“Sometimes the Opportunity Is Too Great and You Can’t Afford Not to Take It”: Cramer Says Red-Hot Stock Can Double Again",
       "4 Memory Stocks Cramer Says Could Avoid an AI Bust and Keep Climbing",
       "Micron Reclaims $1,000 Amid Fresh Memory Momentum: Jim Cramer Says MU Stock Can ‘Double Again’",
       "Micron and Western Digital Shares Are Soaring, What You Need To Know",
       "Micron Stock Has A New Profit Floor, But Did It Build A Ceiling Too?",
-      "Why Sandisk Stock Is Getting Its Mojo Back",
       "Performance Wealth Partners LLC Buys Shares of 20,000 Western Digital Corporation $WDC",
       "Stocks to Watch: BHP, Western Digital, Home Depot, Baidu -- WSJ",
       "Western Digital Stock Is Gaining Monday: What's Going On?",
@@ -1314,8 +1314,7 @@
       4,
       6,
       0,
-      1,
-      2
+      1
     ],
     "price_event": [
       3,
@@ -1330,8 +1329,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 300.95,
-    "SIE.DE": 278.65,
+    "SU.PA": 301.05,
+    "SIE.DE": 278.5,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1357,11 +1356,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.9,
-    "BESI.AS": 228.2,
-    "AIXA.DE": 39.47,
-    "IFX.DE": 58.89,
-    "ASML.AS": 1570.2,
+    "SAP.DE": 182.04,
+    "BESI.AS": 229.5,
+    "AIXA.DE": 39.6,
+    "IFX.DE": 59.05,
+    "ASML.AS": 1571.4,
     "MU": 1011.25,
     "TSM": 431.13,
     "KLAC": 205.87,
@@ -1402,9 +1401,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 33,
-  "last_pulse_post_min": 29784166,
-  "last_pulse_ticker": "AIXA.DE",
+  "next_pulse_interval": 32,
+  "last_pulse_post_min": 29784211,
+  "last_pulse_ticker": "AMD",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
@@ -1412,7 +1411,8 @@
     "klac:kla corporation had a tough month: 60% returns will come according to this wall street stalwart": "2026-08-17",
     "form:formfactor (nasdaq:form) trading 4.8% higher - here's why": "2026-08-17",
     "amd:amd rises on $4.75 billion debt offering": "2026-08-17",
-    "avgo:broadcom's ai financing could reach $370 billion. but it's not as bad as it sounds.": "2026-08-18"
+    "avgo:broadcom's ai financing could reach $370 billion. but it's not as bad as it sounds.": "2026-08-18",
+    "amd:cathie wood's ark invest adds nvidia stake, sells amd stock across four etfs": "2026-08-18"
   },
   "eu_slots": [
     {
