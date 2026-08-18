@@ -2,8 +2,8 @@
   "date": "2026-08-18",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 3,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 4,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 424,
+  "event_log_next_id": 426,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -744,6 +744,7 @@
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
       "Here's Why AXTI Stock Is a Buy Despite Its Premium 48.12X Valuation",
       "FormFactor (FORM) Shares Skyrocket, What You Need To Know",
+      "3 Reasons FORM is Risky and 1 Stock to Buy Instead",
       "GSA Capital Partners LLP Invests $1.25 Million in FormFactor, Inc. $FORM",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "FormFactor Inc (FORM) CEO Mike Slessor Sells 16,002 Shares",
@@ -752,7 +753,6 @@
       "FormFactor (FORM) CEO sells 16,002 shares in preset plan",
       "FormFactor (NASDAQ:FORM) CEO Mike Slessor Sells 16,002 Shares",
       "FormFactor Inc (FORM) Shares Surge 5.0% -- What GF Score of 72 T",
-      "FormFactor (NASDAQ:FORM) Trading 4.8% Higher - Here's Why",
       "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?"
     ],
     "LRCX": [
@@ -811,13 +811,13 @@
       "Why Sandisk Stock Is Getting Its Mojo Back",
       "Prediction: Micron Is Up 240% This Year, and Here Is the Next Catalyst",
       "Deutsche Bank AG Takes Position in Western Digital Corporation $WDC",
-      "Western Digital Stock Is Gaining Monday: What's Going On?",
       "Stocks to Watch: BHP, Western Digital, Home Depot, Baidu -- WSJ",
+      "Western Digital Stock Is Gaining Monday: What's Going On?",
       "Western Digital Corp Stock (WDC) Opened Up by 4.03% on Aug 17: Drivers Behind the Movement",
       "Citizens Financial Group Inc. RI Invests $5.74 Million in Western Digital Corporation $WDC",
       "3 Reasons Why Western Digital (WDC) Is a Great Growth Stock",
       "Western Digital (NASDAQ:WDC) Trading Up 5.3% - Here's Why",
-      "Titiun Yejiel Takes Position in Western Digital Corporation $WDC",
+      "SanDisk Rallies 8%, Western Digital Rises 6%, Micron Gains 5% as Elon Musk Flags a Memory Bottleneck",
       "Stocks Settle Lower on Rising Crude Prices and Higher Bond Yields",
       "Stock Indices Waver on Strength in Chipmakers vs Weakness in Software Companies"
     ],
@@ -854,9 +854,9 @@
       "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
       "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know",
       "Applied Materials is Down 6% Premarket. Will It Drag Down Lam Research, KLA, and Other Semi Equipment Stocks?",
+      "Trust Co. of Vermont Makes New $3.18 Million Investment in KLA Corporation $KLAC",
       "KLA Corp. stock underperforms Monday when compared to competitors despite daily gains",
       "KLA Corporation (KLAC) Positioned to Benefit from Semiconductor Chip Complexity",
-      "Plato Investment Management Ltd Makes New $12.14 Million Investment in KLA Corporation $KLAC",
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
       "KLA Corporation Revenue Breakdown – MIL:1KLAC",
       "KLA Corporation",
@@ -1035,7 +1035,7 @@
       "Private Advisory Group LLC Purchases 13,888 Shares of Arista Networks, Inc. $ANET",
       "Jim Cramer Said Arista Networks, Inc. (NYSE:ANET) and Snowflake Inc. (NYSE:SNOW) Were Worth It",
       "Arista Networks, Inc. (NYSE:ANET) Short Interest Down 35.6% in July",
-      "Arista Networks (ANET) Shares Just Moved, So What Is Driving Attention Now?",
+      "Focus Partners Advisor Solutions LLC Sells 18,121 Shares of Arista Networks, Inc. $ANET",
       "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET",
       "Will Ciena's Rising Backlog Improve Revenue Visibility Into 2027?",
       "CLS vs. ANET: Which AI Stock Offers the Better Growth Opportunity?"
@@ -1284,9 +1284,7 @@
       0,
       4
     ],
-    "mover": [
-      0
-    ],
+    "mover": [],
     "price_event": [
       3,
       4
@@ -1300,8 +1298,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 300.5,
-    "SIE.DE": 278.5,
+    "SU.PA": 300.65,
+    "SIE.DE": 278.3,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1327,11 +1325,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 180.58,
+    "SAP.DE": 181.3,
     "BESI.AS": 229.4,
-    "AIXA.DE": 39.55,
-    "IFX.DE": 59.21,
-    "ASML.AS": 1568.8,
+    "AIXA.DE": 39.58,
+    "IFX.DE": 59.2,
+    "ASML.AS": 1568.2,
     "MU": 1011.25,
     "TSM": 431.13,
     "KLAC": 205.87,
@@ -1372,16 +1370,17 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 36,
-  "last_pulse_post_min": 29784076,
-  "last_pulse_ticker": "AIXA.DE",
+  "next_pulse_interval": 44,
+  "last_pulse_post_min": 29784120,
+  "last_pulse_ticker": "AVGO",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
     "lrcx:laraway financial advisors inc takes $3.42 million position in lam research corporation $lrcx": "2026-08-17",
     "klac:kla corporation had a tough month: 60% returns will come according to this wall street stalwart": "2026-08-17",
     "form:formfactor (nasdaq:form) trading 4.8% higher - here's why": "2026-08-17",
-    "amd:amd rises on $4.75 billion debt offering": "2026-08-17"
+    "amd:amd rises on $4.75 billion debt offering": "2026-08-17",
+    "avgo:broadcom's ai financing could reach $370 billion. but it's not as bad as it sounds.": "2026-08-18"
   },
   "eu_slots": [
     {
