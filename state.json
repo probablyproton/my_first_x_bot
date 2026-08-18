@@ -330,7 +330,6 @@
       "Siemens Energy’s gas turbine backlog nears 70 GW as company expands manufacturing",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
-      "SIEMENS AG N (SIE.HA) Q3 FY2026 earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy to invest $421 million in NC",
@@ -339,7 +338,8 @@
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Mobility North America appoints president"
+      "Siemens Mobility North America appoints president",
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -749,8 +749,8 @@
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "FormFactor Inc (FORM) CEO Mike Slessor Sells 16,002 Shares",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
-      "FormFactor Jumps 5.6% Amid Sector-Wide Rally",
       "FormFactor (FORM) CEO sells 16,002 shares in preset plan",
+      "FormFactor Jumps 5.6% Amid Sector-Wide Rally",
       "TimesSquare Capital Management LLC Buys Shares of 58,321 FormFactor, Inc. $FORM",
       "FormFactor Inc (FORM) Shares Surge 5.0% -- What GF Score of 72 T",
       "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?"
@@ -878,14 +878,14 @@
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
       "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
       "SAP SE: Gina Vargiu-Breuer, buy",
-      "SAP SE Share Price Live Today – NYSE:SAP Stock Price, Chart, News, History",
       "SAP Quarterly Statement Q2 2026",
       "SAP SE Stock (SAP) Moved Down by 3.03% on Aug 12: Key Drivers Unveiled",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "SAP Announces Q2 and Half-Year 2026 Results",
       "Dimensional Fund Advisors LP Sells 12,640 Shares of SAP SE $SAP",
       "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
-      "SAP (NYSE: SAP) details strong H1 2026 cloud growth and AI deals"
+      "SAP (NYSE: SAP) details strong H1 2026 cloud growth and AI deals",
+      "An Analysis of SAP SE (SAP) in the AI Transition Era"
     ],
     "BESI.AS": [
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
@@ -1036,8 +1036,8 @@
       "Mitsubishi UFJ Asset Management Co. Ltd. Acquires 205,919 Shares of Arista Networks, Inc. $ANET",
       "Jim Cramer Said Arista Networks, Inc. (NYSE:ANET) and Snowflake Inc. (NYSE:SNOW) Were Worth It",
       "Private Advisory Group LLC Purchases 13,888 Shares of Arista Networks, Inc. $ANET",
-      "Arista Networks, Inc. (NYSE:ANET) Short Interest Down 35.6% in July",
       "Pallas Capital Advisors LLC Cuts Stock Holdings in Arista Networks, Inc. $ANET",
+      "Arista Networks, Inc. (NYSE:ANET) Short Interest Down 35.6% in July",
       "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET"
     ],
     "ASML.AS": [
@@ -1305,8 +1305,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 300.65,
-    "SIE.DE": 278.35,
+    "SU.PA": 300.8,
+    "SIE.DE": 278.45,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1332,11 +1332,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 182.06,
-    "BESI.AS": 228.0,
-    "AIXA.DE": 39.55,
-    "IFX.DE": 58.94,
-    "ASML.AS": 1564.8,
+    "SAP.DE": 181.78,
+    "BESI.AS": 227.8,
+    "AIXA.DE": 39.51,
+    "IFX.DE": 58.87,
+    "ASML.AS": 1565.0,
     "MU": 1011.25,
     "TSM": 431.13,
     "KLAC": 205.87,
