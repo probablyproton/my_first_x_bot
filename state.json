@@ -2,7 +2,7 @@
   "date": "2026-08-18",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 5,
+  "daily_pulse_posts": 6,
   "gemini_calls_today": 12,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 429,
+  "event_log_next_id": 430,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -331,15 +331,15 @@
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Launches Wendell Microgrid at HQ Campus",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Siemens Mobility North America appoints president"
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Mobility North America appoints president",
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -881,8 +881,8 @@
       "SAP Quarterly Statement Q2 2026",
       "SAP SE Stock (SAP) Moved Down by 3.03% on Aug 12: Key Drivers Unveiled",
       "SAP shrugs off fears of AI eating software with big earnings beat",
-      "SAP Announces Q2 and Half-Year 2026 Results",
       "Dimensional Fund Advisors LP Sells 12,640 Shares of SAP SE $SAP",
+      "SAP Announces Q2 and Half-Year 2026 Results",
       "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
       "SAP (NYSE: SAP) details strong H1 2026 cloud growth and AI deals",
       "An Analysis of SAP SE (SAP) in the AI Transition Era"
@@ -899,11 +899,12 @@
       "BE Semiconductor Industries N.V. Announces Q1-26 Results",
       "Besi orders more than double as AI and hybrid bonding tech drive demand",
       "BE Semiconductor Industries NV (OTCMKTS:BESIY) Receives Consensus Recommendation of \"Buy\" from Analysts",
-      "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
       "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "Fidelity Series International Small Cap Fund's BE Semiconductor Industries NV(XAMS:BESI) Holding History",
+      "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
       "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
       "Why is BE Semiconductor Industries stock rallying today?",
+      "Fidelity Series International Small Cap Fund's BE Semiconductor Industries NV(XAMS:BESI) Holding History",
+      "Hybrid bonding bookings lift Besi orders to €269.7 million",
       "European semiconductor stocks diverge as investors weigh AI demand, growth expectations",
       "BE Semiconductor Industries Upgraded to Buy as Berenberg Notes 'Opportunity' Amid Recent Share Weakness"
     ],
@@ -1033,11 +1034,11 @@
       "Arista Networks Inc. stock underperforms Monday when compared to competitors despite daily gains",
       "Adobe vs. Arista Networks: Which Technology Stock Is a Better Buy in 2026?",
       "Pallas Capital Advisors LLC Cuts Stock Holdings in Arista Networks, Inc. $ANET",
-      "Jim Cramer Said Arista Networks, Inc. (NYSE:ANET) and Snowflake Inc. (NYSE:SNOW) Were Worth It",
       "Mitsubishi UFJ Asset Management Co. Ltd. Acquires 205,919 Shares of Arista Networks, Inc. $ANET",
       "Private Advisory Group LLC Purchases 13,888 Shares of Arista Networks, Inc. $ANET",
       "Arista Networks, Inc. (NYSE:ANET) Short Interest Down 35.6% in July",
-      "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET"
+      "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET",
+      "Will Ciena's Rising Backlog Improve Revenue Visibility Into 2027?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1311,8 +1312,7 @@
     "mover": [
       5,
       4,
-      6,
-      0
+      6
     ],
     "price_event": [
       3,
@@ -1327,8 +1327,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 300.9,
-    "SIE.DE": 278.15,
+    "SU.PA": 300.4,
+    "SIE.DE": 277.85,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1354,11 +1354,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.96,
-    "BESI.AS": 227.3,
+    "SAP.DE": 182.04,
+    "BESI.AS": 227.2,
     "AIXA.DE": 39.25,
-    "IFX.DE": 58.84,
-    "ASML.AS": 1563.6,
+    "IFX.DE": 58.76,
+    "ASML.AS": 1563.4,
     "MU": 1011.25,
     "TSM": 431.13,
     "KLAC": 205.87,
@@ -1399,9 +1399,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 35,
-  "last_pulse_post_min": 29784257,
-  "last_pulse_ticker": "AIXA.DE",
+  "next_pulse_interval": 32,
+  "last_pulse_post_min": 29784300,
+  "last_pulse_ticker": "MU",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
@@ -1410,7 +1410,8 @@
     "form:formfactor (nasdaq:form) trading 4.8% higher - here's why": "2026-08-17",
     "amd:amd rises on $4.75 billion debt offering": "2026-08-17",
     "avgo:broadcom's ai financing could reach $370 billion. but it's not as bad as it sounds.": "2026-08-18",
-    "amd:cathie wood's ark invest adds nvidia stake, sells amd stock across four etfs": "2026-08-18"
+    "amd:cathie wood's ark invest adds nvidia stake, sells amd stock across four etfs": "2026-08-18",
+    "mu:billionaire david tepper’s top 5 holdings just revealed": "2026-08-18"
   },
   "eu_slots": [
     {
