@@ -2,7 +2,7 @@
   "date": "2026-08-18",
   "daily_posts": 2,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 7,
+  "daily_pulse_posts": 8,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 432,
+  "event_log_next_id": 433,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -800,7 +800,7 @@
       "3 Stocks to Buy as AI Infrastructure Continues to Surge"
     ],
     "WDC": [
-      "Micron Technology Falls 5%, SanDisk Sinks 6%, Western Digital Drops 7% as Higher Rates Test the Memory Boom",
+      "Micron Falls 5%, SanDisk Sinks 6%, Western Digital Drops 7% as Higher Rates Test the Memory Boom",
       "Jim Cramer names 4 memory stocks to buy amid AI boom",
       "Memory’s Cyclicality is No More, So I Keep Loading Up on Micron",
       "Cramer’s Career-Long Trading Rule Just Got Shattered by SanDisk’s Parabolic Run",
@@ -1310,8 +1310,7 @@
       4
     ],
     "mover": [
-      5,
-      4
+      5
     ],
     "price_event": [
       3,
@@ -1326,8 +1325,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 296.75,
-    "SIE.DE": 276.45,
+    "SU.PA": 295.8,
+    "SIE.DE": 276.0,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1353,24 +1352,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 183.4,
-    "BESI.AS": 225.4,
-    "AIXA.DE": 39.1,
-    "IFX.DE": 58.3,
-    "ASML.AS": 1552.6,
-    "MU": 952.3,
-    "TSM": 414.16,
-    "KLAC": 196.16,
-    "STX": 929.39,
-    "ANET": 194.39,
-    "LRCX": 319.89,
-    "FORM": 124.5,
-    "AVGO": 377.91,
-    "AMAT": 504.01,
-    "AMD": 479.08,
-    "MRVL": 217.42,
-    "NVDA": 219.22,
-    "WDC": 501.24
+    "SAP.DE": 183.22,
+    "BESI.AS": 224.7,
+    "AIXA.DE": 39.05,
+    "IFX.DE": 58.18,
+    "ASML.AS": 1549.8,
+    "MU": 956.0,
+    "TSM": 415.4,
+    "KLAC": 197.73,
+    "STX": 931.66,
+    "ANET": 193.93,
+    "LRCX": 323.93,
+    "FORM": 126.67,
+    "AVGO": 379.26,
+    "AMAT": 509.6,
+    "AMD": 482.02,
+    "MRVL": 218.42,
+    "NVDA": 220.26,
+    "WDC": 502.89
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1398,9 +1397,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29784346,
-  "last_pulse_ticker": "FORM",
+  "next_pulse_interval": 38,
+  "last_pulse_post_min": 29784392,
+  "last_pulse_ticker": "ANET",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
@@ -1410,7 +1409,8 @@
     "amd:amd rises on $4.75 billion debt offering": "2026-08-17",
     "avgo:broadcom's ai financing could reach $370 billion. but it's not as bad as it sounds.": "2026-08-18",
     "amd:cathie wood's ark invest adds nvidia stake, sells amd stock across four etfs": "2026-08-18",
-    "mu:billionaire david tepper’s top 5 holdings just revealed": "2026-08-18"
+    "mu:billionaire david tepper’s top 5 holdings just revealed": "2026-08-18",
+    "anet:deutsche bank ag acquires 388,354 shares of arista networks, inc. $anet": "2026-08-18"
   },
   "eu_slots": [
     {
