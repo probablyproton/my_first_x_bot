@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-17",
-  "daily_posts": 1,
-  "daily_keyword_posts": 4,
-  "daily_pulse_posts": 17,
-  "gemini_calls_today": 18,
-  "evergreen_opinion_posts_today": 2,
+  "date": "2026-08-18",
+  "daily_posts": 0,
+  "daily_keyword_posts": 0,
+  "daily_pulse_posts": 1,
+  "gemini_calls_today": 1,
+  "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-17",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 422,
+  "event_log_next_id": 424,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -323,16 +323,16 @@
       "Siemens (XTRA:SIE) Stock May Be 28% Below Fair Value As Profit Outlook Rises",
       "PROLIM Launches New Innovation Center to Accelerate Global Growth",
       "Siemens Wins $80 Million Award for Advanced Army Manufacturing",
-      "Siemens Stock Falls 5% Despite Record AI-Fueled Industrial Profit",
       "AI-Enabled Imaging Modalities Market Report: Evaluating AI Software Integration, FDA Approvals, and Competitive Strategies of GE HealthCare, Canon, Siemens, and Philips",
       "Babcock & Wilcox stakes out another perch in AI, data center bonanza",
       "Nucleus Research Releases 2026 Manufacturing Execution System Technology Value Matrix",
       "Babcock & Wilcox secures 1 GW of Siemens steam turbines for FastPower projects",
       "Siemens Energy’s gas turbine backlog nears 70 GW as company expands manufacturing",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
+      "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
       "SIEMENS AG N (SIE.HA) Q3 FY2026 earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "SIEMENS AG N (SIE.F) Q3 FY2026 (Media) earnings call transcript",
+      "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
@@ -734,6 +734,7 @@
       "Stock Indices Waver on Strength in Chipmakers vs Weakness in Software Companies"
     ],
     "FORM": [
+      "Marvell Technology, FormFactor, and Applied Materials Shares Are Soaring, What You Need To Know",
       "3 Profitable Stocks That Fall Short",
       "3 of Wall Street’s Favorite Stocks We Keep Off Our Radar",
       "FormFactor Announces Participation at Upcoming Conferences",
@@ -743,17 +744,16 @@
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
       "Here's Why AXTI Stock Is a Buy Despite Its Premium 48.12X Valuation",
       "FormFactor (FORM) Shares Skyrocket, What You Need To Know",
-      "Aehr Test Systems Soars Again Friday. Shares Now Up More than 500% On the Year.",
-      "Marvell Technology, FormFactor, and Applied Materials Shares Are Soaring, What You Need To Know",
+      "GSA Capital Partners LLP Invests $1.25 Million in FormFactor, Inc. $FORM",
+      "FormFactor CEO Mike Slessor sells $2.1m in common stock",
+      "FormFactor Inc (FORM) CEO Mike Slessor Sells 16,002 Shares",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor Jumps 5.6% Amid Sector-Wide Rally",
+      "FormFactor (FORM) CEO sells 16,002 shares in preset plan",
+      "FormFactor (NASDAQ:FORM) CEO Mike Slessor Sells 16,002 Shares",
+      "FormFactor Inc (FORM) Shares Surge 5.0% -- What GF Score of 72 T",
       "FormFactor (NASDAQ:FORM) Trading 4.8% Higher - Here's Why",
-      "Fund Update: 408,358 FORMFACTOR (FORM) shares added to NORTHWESTERN MUTUAL WEALTH MANAGEMENT CO portfolio",
-      "EARNEST Partners (FORM) reports 3.76M FormFactor shares, a 4.8% stake",
-      "Andar Capital Management HK Ltd Takes $4.32 Million Position in FormFactor, Inc. $FORM",
-      "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
-      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?",
-      "4 Semiconductor Stocks to Buy Amid Top Hyperscalers' $745B AI CapEx Bet"
+      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?"
     ],
     "LRCX": [
       "Lam Research (LRCX) Stock Looks Fully Valued After Its 499% Run",
@@ -844,26 +844,26 @@
       "Stock Indices Waver on Strength in Chipmakers vs Weakness in Software Companies"
     ],
     "KLAC": [
-      "Own KLAC Stock? Here Is How To Collect 21% A Year On It",
+      "KLA (KLAC) Could Be 12% Undervalued On Its Dividend Decision",
       "KLA Corporation Had a Tough Month: 60% Returns Will Come According to This Wall Street Stalwart",
+      "KLA Drops 9% in a Month: Should You Buy the Stock on the Dip?",
+      "KLA (KLAC) Is Up 5.5% After Strong Earnings, AI-Driven Outlook And Dividend Hike - What's Changed",
+      "Buy 3 Stocks That Recently Announced Dividend Hikes Amid Volatility",
+      "Lam Research, Applied Materials, and Camtek Rise After SanDisk Issues Bullish Financial Targets",
+      "Own KLAC Stock? Here Is How To Collect 21% A Year On It",
       "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
       "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know",
       "Applied Materials is Down 6% Premarket. Will It Drag Down Lam Research, KLA, and Other Semi Equipment Stocks?",
-      "Applied Materials Forecast Gets Tepid Reaction After Stock Rally",
-      "KLA Drops 9% in a Month: Should You Buy the Stock on the Dip?",
-      "Lam Research, Applied Materials, and Camtek Rise After SanDisk Issues Bullish Financial Targets",
-      "Teradyne Drives Robotics With AI: Can It Outpace KLAC and COHU?",
-      "MG vs. KLAC: Which Stock Should Value Investors Buy Now?",
+      "KLA Corp. stock underperforms Monday when compared to competitors despite daily gains",
+      "KLA Corporation (KLAC) Positioned to Benefit from Semiconductor Chip Complexity",
       "Plato Investment Management Ltd Makes New $12.14 Million Investment in KLA Corporation $KLAC",
-      "KLA stock dips 9% amid China sales concerns des...",
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
       "KLA Corporation Revenue Breakdown – MIL:1KLAC",
       "KLA Corporation",
+      "KLA stock dips 9% amid China sales concerns des...",
       "After A Punishing July, KLA Stock Is Now A Buy (Rating Upgrade)",
-      "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
-      "KLA Corp. stock outperforms competitors despite losses on the day",
-      "Stocks Mixed on Strength in Chipmakers vs Weakness in Software Companies",
-      "Stocks Settle Lower Ahead of Wednesday’s CPI Report"
+      "Stocks Settle Lower on Rising Crude Prices and Higher Bond Yields",
+      "Stocks Mixed on Strength in Chipmakers vs Weakness in Software Companies"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -876,15 +876,16 @@
       "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
       "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
-      "An Analysis of SAP SE (SAP) in the AI Transition Era",
+      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
       "SAP SE: Gina Vargiu-Breuer, buy",
       "SAP Quarterly Statement Q2 2026",
-      "SAP shrugs off fears of AI eating software with big earnings beat",
       "SAP SE Stock (SAP) Moved Down by 3.03% on Aug 12: Key Drivers Unveiled",
+      "SAP shrugs off fears of AI eating software with big earnings beat",
       "SAP Announces Q2 and Half-Year 2026 Results",
-      "SAP SE $SAP Shares Sold by Allspring Global Investments Holdings LLC",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
-      "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP"
+      "Dimensional Fund Advisors LP Sells 12,640 Shares of SAP SE $SAP",
+      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
+      "SAP (NYSE: SAP) details strong H1 2026 cloud growth and AI deals",
+      "An Analysis of SAP SE (SAP) in the AI Transition Era"
     ],
     "BESI.AS": [
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
@@ -953,25 +954,25 @@
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
       "Aixtron Q1 Earnings Call Highlights",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
       "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
+      "European chip stocks fall after sharp U.S. peers’ selloff",
+      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
+      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
       "AIXTRON SE increases FY 2026 guidance",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
+      "Mida, Aixtron ink deal to build semiconductor manufacturing facility in Penang",
       "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
       "Aixtron receives multiple tool orders from Lumentum",
-      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
-      "Aixtron SE vs Veeco Instruments"
+      "Aixtron (AIXA) Stock Price, News & Analysis"
     ],
     "AMD": [
       "AMD filing reveals unexpected SpaceX and Nutanix bet",
@@ -1018,23 +1019,23 @@
       "Infineon-led European project Moore4Power launches"
     ],
     "ANET": [
-      "Cisco Grew Faster By Selling Hardware And Charging More For It",
-      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
-      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks (ANET) Is Up 5.9% After AI-Fueled Q3 Revenue Guidance Upgrade - Has The Bull Case Changed?",
       "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
+      "What Kept Coming Up When Analysts Grilled CSCO",
+      "Cisco Grew Faster By Selling Hardware And Charging More For It",
+      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
+      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
       "Cisco Beat On Every Line, Then Fell On What AI Costs To Ship",
       "Cisco Just Gave Investors 3 Big Reasons to Be Bullish",
-      "Super Micro's Margin Surprise Is Already Guided Back Down",
-      "HighTower Advisors LLC Grows Position in Arista Networks, Inc. $ANET",
+      "The Bull Case For Arista Networks (ANET) Could Change Following Its Upbeat AI Networking Revenue Outlook",
+      "Arista Networks, Inc. (NYSE:ANET) Short Interest Down 35.6% in July",
+      "Arista Networks Inc. stock underperforms Monday when compared to competitors despite daily gains",
+      "Focus Partners Advisor Solutions LLC Sells 18,121 Shares of Arista Networks, Inc. $ANET",
       "Jim Cramer Said Arista Networks, Inc. (NYSE:ANET) and Snowflake Inc. (NYSE:SNOW) Were Worth It",
-      "Arista Networks Stock Is Priced For Its Peak Margin",
+      "Global Retirement Partners LLC Acquires Shares of 27,708 Arista Networks, Inc. $ANET",
       "Arista Networks (ANET) Shares Just Moved, So What Is Driving Attention Now?",
-      "KBC Group NV Sells 19,804 Shares of Arista Networks, Inc. $ANET",
-      "Spirepoint Private Client LLC Purchases 66,141 Shares of Arista Networks, Inc. $ANET",
-      "Arista Networks (ANET) Stock Looks Expensive With Fair Value Close By",
       "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET",
       "Will Ciena's Rising Backlog Improve Revenue Visibility Into 2027?",
       "CLS vs. ANET: Which AI Stock Offers the Better Growth Opportunity?"
@@ -1106,66 +1107,7 @@
       "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "WDC",
-      "classification": {
-        "is_major": true,
-        "category": "large_share_purchases",
-        "headline": "4,859 Shares in Western Digital Corporation $WDC Purchased by Persistent Asset Partners Ltd",
-        "reason": "Sizeable institutional share purchase"
-      },
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdC0wU0VLTXdYblpyamJESDhwd0hpZUw1VmJBUHFqc0U1ZTk3SlkwVGh6bFBzNjJ0RXBCblVKczVoUGdxN2ZvcnRrNnRabWVjYXBwTmVXTHVSZVhFU2tYdy1vczdUOUM1UW5yaVBaTzVRUDI5LWN2MFhjZ0xnZk5HRmRIdUUzcnhfcjVHNUJNZzVPZVhURHk0ekc1aWx6bmVLU1ZRM1p2SDl4RnpJQ05vWjJvck4zZ0c5bmRxM0xxNkFUS0VBcjVIXzlyWkdqa3NEeVExTzNlbS1tejlWam4xazJqaXE?oc=5",
-      "source": "MarketBeat",
-      "method": "keyword",
-      "published": "2026-08-17T10:34:53",
-      "queued_min": 29783220,
-      "all_articles": [
-        {
-          "headline": "Nasdaq treads water as investors brace for a busy week of retail results",
-          "link": "https://www.proactiveinvestors.com/companies/news/1097132/wall-street-eyes-retail-earnings-as-futures-drift-ahead-of-the-bell-1097132.html?.tsrc=rss",
-          "source": "proactiveinvestors.com",
-          "summary": "Traders are caught between the Federal Reserve's next move and a fresh batch of retail earnings",
-          "published": "2026-08-17T11:48:00"
-        },
-        {
-          "headline": "Western Digital Stock Is Gaining Monday: What's Going On?",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWVJ5QVFCWDVSUzc0Z01EVUdNVFlPRDczQnBBN2ZodE5hQ1RtLURTZ0pBcEh1VWtjdl9YcXJ1TXhPeVc5MUZMQlNWWkFaZXQzN1VucE9kckh5RHZXNjRlYTZxdVdEZENCTTdycTZaRDFmb1dMZVZYTUU1YTZqWTVkUDJncS1xMUZaNThXNkMtYVpxNUlMdVFhc2ZsM3RZODNRUGRsbkVMZXo0VlhrdGxSd0FCLU5nUWw5?oc=5",
-          "source": "Benzinga",
-          "summary": "",
-          "published": "2026-08-17T13:06:22"
-        },
-        {
-          "headline": "Titiun Yejiel Takes Position in Western Digital Corporation $WDC",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOX3B5RHpHMW43UlFRcXVXaWJNQTM5UUpMWFFobHFJMnpjbktqVXZvT3paeG9jeHF5cmJBMFQ1YzM5ZUd6Z2E3SDZoZldlOGlOeUFuVkNMUEp3LUdrS21OU2ZaWUQzRUJCUTlmTkJ2dXJEVk16R2o5UzNlVzlucmdwbEJ3X2ZBREhjRl9PckhKNVVxR0haRWR3cEQxQ00xYVh4UE1NUFFJTEFTMXh0b0lrUkdSVjJXMWoxakE3bTl2bzBzQQ?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-17T10:11:57"
-        },
-        {
-          "headline": "Western Digital Corp Stock (WDC) Opened Up by 4.03% on Aug 17: Drivers Behind the Movement",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ3FWWXg4UXNFcFZoTkRuQ2lYa3JXbVVidW03WFI3NWlJbUJFRFJBUmJfdkhlNHR2ZEJ1SkNvQUw4UVNpdEJPZGsxYmpVclZEUkl0enRseEJZckRZQXk4MTFxUFBnR1VDQTFWSnIwZGc5Rl9ITzRmX0NPZjRzWGxsWEJKa2JlUHBOcnc?oc=5",
-          "source": "TradingKey",
-          "summary": "",
-          "published": "2026-08-17T13:47:15"
-        },
-        {
-          "headline": "4,859 Shares in Western Digital Corporation $WDC Purchased by Persistent Asset Partners Ltd",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdC0wU0VLTXdYblpyamJESDhwd0hpZUw1VmJBUHFqc0U1ZTk3SlkwVGh6bFBzNjJ0RXBCblVKczVoUGdxN2ZvcnRrNnRabWVjYXBwTmVXTHVSZVhFU2tYdy1vczdUOUM1UW5yaVBaTzVRUDI5LWN2MFhjZ0xnZk5HRmRIdUUzcnhfcjVHNUJNZzVPZVhURHk0ekc1aWx6bmVLU1ZRM1p2SDl4RnpJQ05vWjJvck4zZ0c5bmRxM0xxNkFUS0VBcjVIXzlyWkdqa3NEeVExTzNlbS1tejlWam4xazJqaXE?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-17T10:34:53"
-        },
-        {
-          "headline": "Global Retirement Partners LLC Purchases New Shares in Western Digital Corporation $WDC",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOWUpRcFZqdGFHaW1iTnVXZGlSdFZ1THlKSzZOZUQ1U2RxRmE1eV94U2ZvQWh6aHFIOVVUXzFWbUJFd0JiN3N1bEFpWkFrWWprNmVEak8xc041VTR4TjV2c3d4U09lVXVFNDB5bTN6S1g2eHpScTFhak56MU1wX2l4d3dSQVFMRWNVVk15X3BodHFCb0twNll2U1V0N3RVQTlVT2ZJMk1YQXEzNUk3M1h0bXVfQ3Zwel91Q09tanNEZGc3by1WNUwtemVpZ2xGcHRDRlVTSzN1c0FqUklPUnlrMA?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-17T08:36:35"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1192,7 +1134,8 @@
     "mrvl:fisherfundsmanagementltd:8700": "2026-08-14",
     "anet:principalfinancialgroupinc:149619": "2026-08-17",
     "anet:spirepointprivateclientllc:66141": "2026-08-17",
-    "anet:kbcgroupnv:19804": "2026-08-17"
+    "anet:kbcgroupnv:19804": "2026-08-17",
+    "anet:focuspartnersadvisorsolutionsllc:18121": "2026-08-18"
   },
   "news_category_posted": {
     "VST": {
@@ -1340,8 +1283,7 @@
       4
     ],
     "mover": [
-      0,
-      1
+      0
     ],
     "price_event": [
       3,
@@ -1356,8 +1298,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 308.5,
-    "SIE.DE": 283.15,
+    "SU.PA": 301.25,
+    "SIE.DE": 278.5,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1383,11 +1325,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 179.46,
-    "BESI.AS": 238.0,
-    "AIXA.DE": 42.28,
-    "IFX.DE": 62.17,
-    "ASML.AS": 1620.6,
+    "SAP.DE": 180.3,
+    "BESI.AS": 230.0,
+    "AIXA.DE": 39.61,
+    "IFX.DE": 59.34,
+    "ASML.AS": 1569.8,
     "MU": 1011.25,
     "TSM": 431.13,
     "KLAC": 205.87,
@@ -1428,9 +1370,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 35,
-  "last_pulse_post_min": 29783266,
-  "last_pulse_ticker": "MRVL",
+  "next_pulse_interval": 36,
+  "last_pulse_post_min": 29784076,
+  "last_pulse_ticker": "AIXA.DE",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
@@ -1444,18 +1386,17 @@
       "slot": 0,
       "type": "hook",
       "target_time": "08:50",
-      "fire_time": "08:48"
+      "fire_time": "08:47"
     },
     {
       "slot": 1,
       "type": "close_summary",
       "target_time": "18:00",
-      "fire_time": "17:55"
+      "fire_time": "18:01"
     }
   ],
   "eu_posted": [
-    0,
-    1
+    0
   ],
   "us_slots": [
     {
@@ -1468,11 +1409,8 @@
       "slot": 1,
       "type": "wrap",
       "target_time": "22:30",
-      "fire_time": "22:26"
+      "fire_time": "22:31"
     }
   ],
-  "us_posted": [
-    0,
-    1
-  ]
+  "us_posted": []
 }
