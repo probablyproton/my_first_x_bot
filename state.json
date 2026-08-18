@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-18",
-  "daily_posts": 2,
+  "date": "2026-08-19",
+  "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 9,
-  "gemini_calls_today": 18,
-  "evergreen_opinion_posts_today": 1,
+  "daily_pulse_posts": 0,
+  "gemini_calls_today": 0,
+  "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-17",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 434,
+  "event_log_next_id": 435,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -1052,32 +1052,7 @@
       "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "FORM",
-      "classification": {
-        "symbol": "FORM",
-        "is_major": true,
-        "category": "large_share_purchases",
-        "headline": "WT Asset Management Ltd Acquires New Stake in FormFactor, Inc. $FORM",
-        "reason": "A named institution acquired a new stake in the company, fitting the criteria for a large share purchase."
-      },
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPREhaMEV1VjJwcmNfTFUza0xpSmdQQWNhU3gyYUI3c1RjSzEweTRKMFE5aDFXOGNNaWlPSUpQaXhpcFdFd2NDUGo4OXo4UUdXVHVpVmp3QVlJRXFxUkFZSGlPTkduekVZMUNsU0U0RVFjcmxHSmNRQlFOUGVNX3FoTXZleTdJNU4tQ3pZMjdoWUI2aTVaRl9sRHc3RVk2c2VtS0xtZV9FNlBMS3UtVFcxUkxhUVFPN05hMGx2SXlhbWpXcFM2?oc=5",
-      "source": "MarketBeat",
-      "method": "gemini",
-      "published": "2026-08-18T10:36:00",
-      "queued_min": 29784197,
-      "all_articles": [
-        {
-          "headline": "WT Asset Management Ltd Acquires New Stake in FormFactor, Inc. $FORM",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPREhaMEV1VjJwcmNfTFUza0xpSmdQQWNhU3gyYUI3c1RjSzEweTRKMFE5aDFXOGNNaWlPSUpQaXhpcFdFd2NDUGo4OXo4UUdXVHVpVmp3QVlJRXFxUkFZSGlPTkduekVZMUNsU0U0RVFjcmxHSmNRQlFOUGVNX3FoTXZleTdJNU4tQ3pZMjdoWUI2aTVaRl9sRHc3RVk2c2VtS0xtZV9FNlBMS3UtVFcxUkxhUVFPN05hMGx2SXlhbWpXcFM2?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-18T10:36:00"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1361,34 +1336,29 @@
       "slot": 0,
       "type": "hook",
       "target_time": "08:50",
-      "fire_time": "08:47"
+      "fire_time": "08:53"
     },
     {
       "slot": 1,
       "type": "close_summary",
       "target_time": "18:00",
-      "fire_time": "18:01"
+      "fire_time": "18:04"
     }
   ],
-  "eu_posted": [
-    0
-  ],
+  "eu_posted": [],
   "us_slots": [
     {
       "slot": 0,
       "type": "hook",
       "target_time": "15:10",
-      "fire_time": "15:07"
+      "fire_time": "15:12"
     },
     {
       "slot": 1,
       "type": "wrap",
       "target_time": "22:30",
-      "fire_time": "22:31"
+      "fire_time": "22:34"
     }
   ],
-  "us_posted": [
-    0
-  ],
-  "eu_flexible_used": 1
+  "us_posted": []
 }
