@@ -3,7 +3,7 @@
   "daily_posts": 0,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 3,
-  "gemini_calls_today": 7,
+  "gemini_calls_today": 8,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -330,6 +330,7 @@
       "Siemens Energy’s gas turbine backlog nears 70 GW as company expands manufacturing",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
+      "SIEMENS AG N (SIE.F) Q3 FY2026 (Media) earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy to invest $421 million in NC",
@@ -338,8 +339,7 @@
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Mobility North America appoints president",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
+      "Siemens Mobility North America appoints president"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -745,13 +745,13 @@
       "Here's Why AXTI Stock Is a Buy Despite Its Premium 48.12X Valuation",
       "FormFactor (FORM) Shares Skyrocket, What You Need To Know",
       "3 Reasons FORM is Risky and 1 Stock to Buy Instead",
-      "GSA Capital Partners LLP Invests $1.25 Million in FormFactor, Inc. $FORM",
+      "WT Asset Management Ltd Acquires New Stake in FormFactor, Inc. $FORM",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "FormFactor Inc (FORM) CEO Mike Slessor Sells 16,002 Shares",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor (FORM) CEO sells 16,002 shares in preset plan",
       "FormFactor Jumps 5.6% Amid Sector-Wide Rally",
-      "TimesSquare Capital Management LLC Buys Shares of 58,321 FormFactor, Inc. $FORM",
+      "GSA Capital Partners LLP Invests $1.25 Million in FormFactor, Inc. $FORM",
       "FormFactor Inc (FORM) Shares Surge 5.0% -- What GF Score of 72 T",
       "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?"
     ],
@@ -810,11 +810,11 @@
       "Micron and Western Digital Shares Are Soaring, What You Need To Know",
       "Micron Stock Has A New Profit Floor, But Did It Build A Ceiling Too?",
       "Why Sandisk Stock Is Getting Its Mojo Back",
-      "Deutsche Bank AG Takes Position in Western Digital Corporation $WDC",
+      "Performance Wealth Partners LLC Buys Shares of 20,000 Western Digital Corporation $WDC",
       "Stocks to Watch: BHP, Western Digital, Home Depot, Baidu -- WSJ",
       "Western Digital Stock Is Gaining Monday: What's Going On?",
       "Western Digital Corp Stock (WDC) Opened Up by 4.03% on Aug 17: Drivers Behind the Movement",
-      "Performance Wealth Partners LLC Buys Shares of 20,000 Western Digital Corporation $WDC",
+      "Deutsche Bank AG Takes Position in Western Digital Corporation $WDC",
       "3 Reasons Why Western Digital (WDC) Is a Great Growth Stock",
       "WT Asset Management Ltd Invests $500.89 Million in Western Digital Corporation $WDC",
       "Pallas Capital Advisors LLC Acquires Shares of 8,514 Western Digital Corporation $WDC",
@@ -1107,7 +1107,32 @@
       "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "FORM",
+      "classification": {
+        "symbol": "FORM",
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "WT Asset Management Ltd Acquires New Stake in FormFactor, Inc. $FORM",
+        "reason": "A named institution acquired a new stake in the company, fitting the criteria for a large share purchase."
+      },
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPREhaMEV1VjJwcmNfTFUza0xpSmdQQWNhU3gyYUI3c1RjSzEweTRKMFE5aDFXOGNNaWlPSUpQaXhpcFdFd2NDUGo4OXo4UUdXVHVpVmp3QVlJRXFxUkFZSGlPTkduekVZMUNsU0U0RVFjcmxHSmNRQlFOUGVNX3FoTXZleTdJNU4tQ3pZMjdoWUI2aTVaRl9sRHc3RVk2c2VtS0xtZV9FNlBMS3UtVFcxUkxhUVFPN05hMGx2SXlhbWpXcFM2?oc=5",
+      "source": "MarketBeat",
+      "method": "gemini",
+      "published": "2026-08-18T10:36:00",
+      "queued_min": 29784197,
+      "all_articles": [
+        {
+          "headline": "WT Asset Management Ltd Acquires New Stake in FormFactor, Inc. $FORM",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPREhaMEV1VjJwcmNfTFUza0xpSmdQQWNhU3gyYUI3c1RjSzEweTRKMFE5aDFXOGNNaWlPSUpQaXhpcFdFd2NDUGo4OXo4UUdXVHVpVmp3QVlJRXFxUkFZSGlPTkduekVZMUNsU0U0RVFjcmxHSmNRQlFOUGVNX3FoTXZleTdJNU4tQ3pZMjdoWUI2aTVaRl9sRHc3RVk2c2VtS0xtZV9FNlBMS3UtVFcxUkxhUVFPN05hMGx2SXlhbWpXcFM2?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-18T10:36:00"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1305,8 +1330,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 300.8,
-    "SIE.DE": 278.45,
+    "SU.PA": 300.95,
+    "SIE.DE": 278.65,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1332,11 +1357,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.78,
-    "BESI.AS": 227.8,
-    "AIXA.DE": 39.51,
-    "IFX.DE": 58.87,
-    "ASML.AS": 1565.0,
+    "SAP.DE": 181.9,
+    "BESI.AS": 228.2,
+    "AIXA.DE": 39.47,
+    "IFX.DE": 58.89,
+    "ASML.AS": 1570.2,
     "MU": 1011.25,
     "TSM": 431.13,
     "KLAC": 205.87,
