@@ -2,8 +2,8 @@
   "date": "2026-08-18",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 2,
-  "gemini_calls_today": 6,
+  "daily_pulse_posts": 3,
+  "gemini_calls_today": 7,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 426,
+  "event_log_next_id": 427,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -801,6 +801,15 @@
     ],
     "WDC": [
       "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
+      "Can Western Digital (WDC) Run Higher on Rising Earnings Estimates?",
+      "Why Western Digital Stock Popped Today",
+      "Chip stocks rally as US pressure on Chinese memory suppliers boosts sentiment",
+      "“Sometimes the Opportunity Is Too Great and You Can’t Afford Not to Take It”: Cramer Says Red-Hot Stock Can Double Again",
+      "4 Memory Stocks Cramer Says Could Avoid an AI Bust and Keep Climbing",
+      "Micron Reclaims $1,000 Amid Fresh Memory Momentum: Jim Cramer Says MU Stock Can ‘Double Again’",
+      "Micron and Western Digital Shares Are Soaring, What You Need To Know",
+      "Micron Stock Has A New Profit Floor, But Did It Build A Ceiling Too?",
+      "Why Sandisk Stock Is Getting Its Mojo Back",
       "Deutsche Bank AG Takes Position in Western Digital Corporation $WDC",
       "Stocks to Watch: BHP, Western Digital, Home Depot, Baidu -- WSJ",
       "Western Digital Stock Is Gaining Monday: What's Going On?",
@@ -808,16 +817,9 @@
       "Performance Wealth Partners LLC Buys Shares of 20,000 Western Digital Corporation $WDC",
       "3 Reasons Why Western Digital (WDC) Is a Great Growth Stock",
       "WT Asset Management Ltd Invests $500.89 Million in Western Digital Corporation $WDC",
-      "Why Western Digital Stock Popped Today",
       "Pallas Capital Advisors LLC Acquires Shares of 8,514 Western Digital Corporation $WDC",
       "Stocks Settle Lower on Rising Crude Prices and Higher Bond Yields",
-      "Stock Indices Waver on Strength in Chipmakers vs Weakness in Software Companies",
-      "Stocks Mixed on Strength in Chipmakers vs Weakness in Software Companies",
-      "Can Western Digital (WDC) Run Higher on Rising Earnings Estimates?",
-      "Can Strong End Markets & Pricing Tailwinds Keep WDC's Momentum Alive?",
-      "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
-      "Western Digital (WDC) Upgraded to Strong Buy: What Does It Mean for the Stock?",
-      "Sandisk’s Margins Look Like Software. Can They Last?"
+      "Stock Indices Waver on Strength in Chipmakers vs Weakness in Software Companies"
     ],
     "AVGO": [
       "Broadcom's AI Financing Could Reach $370 Billion. But It's Not as Bad as It Sounds.",
@@ -876,14 +878,14 @@
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
       "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
       "SAP SE: Gina Vargiu-Breuer, buy",
+      "SAP SE Share Price Live Today – NYSE:SAP Stock Price, Chart, News, History",
       "SAP Quarterly Statement Q2 2026",
       "SAP SE Stock (SAP) Moved Down by 3.03% on Aug 12: Key Drivers Unveiled",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "SAP Announces Q2 and Half-Year 2026 Results",
       "Dimensional Fund Advisors LP Sells 12,640 Shares of SAP SE $SAP",
       "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
-      "SAP (NYSE: SAP) details strong H1 2026 cloud growth and AI deals",
-      "An Analysis of SAP SE (SAP) in the AI Transition Era"
+      "SAP (NYSE: SAP) details strong H1 2026 cloud growth and AI deals"
     ],
     "BESI.AS": [
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
@@ -966,9 +968,9 @@
       "AIXTRON SE increases FY 2026 guidance",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
-      "Aixtron receives multiple tool orders from Lumentum",
       "Mida, Aixtron ink deal to build semiconductor manufacturing facility in Penang",
       "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
+      "Aixtron receives multiple tool orders from Lumentum",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Aixtron (AIXA) Stock Price, News & Analysis"
     ],
@@ -1031,12 +1033,12 @@
       "The Bull Case For Arista Networks (ANET) Could Change Following Its Upbeat AI Networking Revenue Outlook",
       "Arista Networks Inc. stock underperforms Monday when compared to competitors despite daily gains",
       "Adobe vs. Arista Networks: Which Technology Stock Is a Better Buy in 2026?",
-      "Private Advisory Group LLC Purchases 13,888 Shares of Arista Networks, Inc. $ANET",
-      "Jim Cramer Said Arista Networks, Inc. (NYSE:ANET) and Snowflake Inc. (NYSE:SNOW) Were Worth It",
-      "Arista Networks, Inc. (NYSE:ANET) Short Interest Down 35.6% in July",
       "Mitsubishi UFJ Asset Management Co. Ltd. Acquires 205,919 Shares of Arista Networks, Inc. $ANET",
-      "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET",
-      "Will Ciena's Rising Backlog Improve Revenue Visibility Into 2027?"
+      "Jim Cramer Said Arista Networks, Inc. (NYSE:ANET) and Snowflake Inc. (NYSE:SNOW) Were Worth It",
+      "Private Advisory Group LLC Purchases 13,888 Shares of Arista Networks, Inc. $ANET",
+      "Arista Networks, Inc. (NYSE:ANET) Short Interest Down 35.6% in July",
+      "Pallas Capital Advisors LLC Cuts Stock Holdings in Arista Networks, Inc. $ANET",
+      "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1282,7 +1284,14 @@
       0,
       4
     ],
-    "mover": [],
+    "mover": [
+      5,
+      4,
+      6,
+      0,
+      1,
+      2
+    ],
     "price_event": [
       3,
       4
@@ -1296,8 +1305,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 300.15,
-    "SIE.DE": 277.95,
+    "SU.PA": 300.65,
+    "SIE.DE": 278.35,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1323,11 +1332,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 182.4,
-    "BESI.AS": 228.1,
-    "AIXA.DE": 39.48,
-    "IFX.DE": 58.83,
-    "ASML.AS": 1563.0,
+    "SAP.DE": 182.06,
+    "BESI.AS": 228.0,
+    "AIXA.DE": 39.55,
+    "IFX.DE": 58.94,
+    "ASML.AS": 1564.8,
     "MU": 1011.25,
     "TSM": 431.13,
     "KLAC": 205.87,
@@ -1368,9 +1377,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 44,
-  "last_pulse_post_min": 29784120,
-  "last_pulse_ticker": "AVGO",
+  "next_pulse_interval": 33,
+  "last_pulse_post_min": 29784166,
+  "last_pulse_ticker": "AIXA.DE",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
