@@ -2,8 +2,8 @@
   "date": "2026-08-18",
   "daily_posts": 2,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 6,
-  "gemini_calls_today": 16,
+  "daily_pulse_posts": 7,
+  "gemini_calls_today": 17,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 431,
+  "event_log_next_id": 432,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -330,6 +330,7 @@
       "Siemens Energy’s gas turbine backlog nears 70 GW as company expands manufacturing",
       "Acuity Inc. Names Ruth Gratzke President of Acuity Brands Lighting",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
+      "SIEMENS AG N (SIE.F) Q3 FY2026 (Media) earnings call transcript",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy to invest $421 million in NC",
@@ -338,8 +339,7 @@
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Mobility North America appoints president",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
+      "Siemens Mobility North America appoints president"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -804,19 +804,19 @@
       "Can Western Digital (WDC) Run Higher on Rising Earnings Estimates?",
       "Jim Cramer names 4 memory stocks to buy amid AI boom",
       "Chip stocks rally as US pressure on Chinese memory suppliers boosts sentiment",
+      "Cramer’s Career-Long Trading Rule Just Got Shattered by SanDisk’s Parabolic Run",
       "Meet the Vanguard ETF That's Crushing the S&P 500 and Nasdaq-100 Despite Not Owning Micron, Sandisk, or Any of the \"Magnificent Seven\" Stocks",
       "“Sometimes the Opportunity Is Too Great and You Can’t Afford Not to Take It”: Cramer Says Red-Hot Stock Can Double Again",
       "4 Memory Stocks Cramer Says Could Avoid an AI Bust and Keep Climbing",
       "Micron Reclaims $1,000 Amid Fresh Memory Momentum: Jim Cramer Says MU Stock Can ‘Double Again’",
       "Micron and Western Digital Shares Are Soaring, What You Need To Know",
-      "Micron Stock Has A New Profit Floor, But Did It Build A Ceiling Too?",
       "Performance Wealth Partners LLC Buys Shares of 20,000 Western Digital Corporation $WDC",
       "Stocks to Watch: BHP, Western Digital, Home Depot, Baidu -- WSJ",
       "Western Digital Erased Its Earnings Crash. Its New 10-K Names the Risk the Rally Ignored",
       "Western Digital Stock Is Gaining Monday: What's Going On?",
       "Deutsche Bank AG Takes Position in Western Digital Corporation $WDC",
       "WT Asset Management Ltd Invests $500.89 Million in Western Digital Corporation $WDC",
-      "3 Reasons Why Western Digital (WDC) Is a Great Growth Stock",
+      "Why Western Digital Stock Popped Today",
       "Pallas Capital Advisors LLC Acquires Shares of 8,514 Western Digital Corporation $WDC",
       "Stocks Settle Lower on Rising Crude Prices and Higher Bond Yields",
       "Meet the Vanguard ETF That's Crushing the S&P 500 and Nasdaq-100 Despite Not Owning Micron, Sandisk, or Any of the &quot;Magnificent Seven&quot; Stocks"
@@ -905,8 +905,7 @@
       "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
       "Why is BE Semiconductor Industries stock rallying today?",
       "European semiconductor stocks diverge as investors weigh AI demand, growth expectations",
-      "BE Semiconductor Industries Upgraded to Buy as Berenberg Notes 'Opportunity' Amid Recent Share Weakness",
-      "BE Semiconductor Industries (OTCMKTS:BESIY) Sees Unusually-High Trading Volume - Time to Buy?"
+      "BE Semiconductor Industries Upgraded to Buy as Berenberg Notes 'Opportunity' Amid Recent Share Weakness"
     ],
     "AMAT": [
       "IPGP Q2 Earnings Beat Estimates on Industrial Solutions Growth",
@@ -1312,8 +1311,7 @@
     ],
     "mover": [
       5,
-      4,
-      6
+      4
     ],
     "price_event": [
       3,
@@ -1328,8 +1326,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 299.6,
-    "SIE.DE": 277.8,
+    "SU.PA": 298.95,
+    "SIE.DE": 277.3,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1355,24 +1353,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.96,
-    "BESI.AS": 227.5,
-    "AIXA.DE": 39.35,
-    "IFX.DE": 58.7,
-    "ASML.AS": 1559.4,
-    "MU": 969.05,
-    "TSM": 418.1,
-    "KLAC": 198.8,
-    "STX": 941.73,
-    "ANET": 194.54,
-    "LRCX": 328.36,
-    "FORM": 128.38,
-    "AVGO": 384.76,
-    "AMAT": 516.12,
-    "AMD": 489.54,
-    "MRVL": 223.33,
-    "NVDA": 220.17,
-    "WDC": 515.02
+    "SAP.DE": 182.24,
+    "BESI.AS": 227.8,
+    "AIXA.DE": 39.27,
+    "IFX.DE": 58.74,
+    "ASML.AS": 1568.4,
+    "MU": 964.8,
+    "TSM": 416.55,
+    "KLAC": 197.76,
+    "STX": 936.8,
+    "ANET": 195.68,
+    "LRCX": 322.85,
+    "FORM": 126.53,
+    "AVGO": 381.51,
+    "AMAT": 507.59,
+    "AMD": 485.51,
+    "MRVL": 219.34,
+    "NVDA": 220.4,
+    "WDC": 503.76
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1400,9 +1398,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 32,
-  "last_pulse_post_min": 29784300,
-  "last_pulse_ticker": "MU",
+  "next_pulse_interval": 42,
+  "last_pulse_post_min": 29784346,
+  "last_pulse_ticker": "FORM",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
