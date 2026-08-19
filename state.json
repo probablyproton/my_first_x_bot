@@ -2,8 +2,8 @@
   "date": "2026-08-19",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 0,
-  "gemini_calls_today": 0,
+  "daily_pulse_posts": 1,
+  "gemini_calls_today": 1,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 436,
+  "event_log_next_id": 437,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -336,8 +336,8 @@
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Mobility North America appoints president",
       "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
@@ -745,12 +745,12 @@
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "FormFactor (NASDAQ:FORM) Shares Gap Down After Insider Selling",
-      "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "FormFactor Jumps 5.6% Amid Sector-Wide Rally",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
+      "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "FormFactor Inc (FORM) CEO Mike Slessor Sells 16,002 Shares",
       "WT Asset Management Ltd Acquires New Stake in FormFactor, Inc. $FORM",
-      "GSA Capital Partners LLP Invests $1.25 Million in FormFactor, Inc. $FORM",
+      "FormFactor (FORM) Shares Skyrocket, What You Need To Know",
       "Here's Why AXTI Stock Is a Buy Despite Its Premium 48.12X Valuation",
       "Is SiTime the Best AI Stock You've Never Heard Of?",
       "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?"
@@ -801,25 +801,25 @@
     ],
     "WDC": [
       "Micron Falls 5%, SanDisk Sinks 6%, Western Digital Drops 7% as Higher Rates Test the Memory Boom",
-      "Jim Cramer names 4 memory stocks to buy amid AI boom",
+      "MU, SNDK Dip Overnight: KOSPI Hits Halt Amid Asian Tech Chip Rout, SoftBank, Samsung, SK Hynix Retreat",
+      "Western Digital, Nova, and Penguin Solutions Shares Plummet, What You Need To Know",
+      "WSJ Report Sends Memory Stocks Down. SanDisk Down 9%, Micron Down 7%, Western Digital Down 5%",
+      "Micron, Coherent, SpaceX, Klarna, Amylyx, and More Stocks That Explain Today’s Market",
+      "Convertible Bonds Are the New AI Bet. The High Returns Hide Bigger Risks.",
+      "Cerebras, Intel, and AMD Shares Fall Ahead of Tonight’s ‘Supernova’ Event",
+      "Prediction: Wall Street May Be Sleeping on This AI Cloud Giant",
+      "Are You Looking for a Top Momentum Pick? Why Western Digital (WDC) is a Great Choice",
       "Memory’s Cyclicality is No More, So I Keep Loading Up on Micron",
-      "Cramer’s Career-Long Trading Rule Just Got Shattered by SanDisk’s Parabolic Run",
-      "Meet the Vanguard ETF That's Crushing the S&P 500 and Nasdaq-100 Despite Not Owning Micron, Sandisk, or Any of the \"Magnificent Seven\" Stocks",
-      "“Sometimes the Opportunity Is Too Great and You Can’t Afford Not to Take It”: Cramer Says Red-Hot Stock Can Double Again",
-      "4 Memory Stocks Cramer Says Could Avoid an AI Bust and Keep Climbing",
-      "Micron Reclaims $1,000 Amid Fresh Memory Momentum: Jim Cramer Says MU Stock Can ‘Double Again’",
-      "Micron and Western Digital Shares Are Soaring, What You Need To Know",
-      "Micron Stock Has A New Profit Floor, But Did It Build A Ceiling Too?",
-      "Stocks Settle Lower on Rising Crude Prices and Higher Bond Yields",
-      "Seagate's Growth Engine Gains Momentum Across 3 Fronts",
-      "Meet the Vanguard ETF That's Crushing the S&P 500 and Nasdaq-100 Despite Not Owning Micron, Sandisk, or Any of the &quot;Magnificent Seven&quot; Stocks",
-      "Stock Indices Waver on Strength in Chipmakers vs Weakness in Software Companies",
-      "Stocks Mixed on Strength in Chipmakers vs Weakness in Software Companies",
-      "Can Western Digital (WDC) Run Higher on Rising Earnings Estimates?",
+      "What's Going On With Western Digital Stock Tuesday?",
+      "Western Digital (NASDAQ:WDC) Shares Down 7.4% - What's Next?",
+      "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
+      "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
+      "Western Digital Corp Stock (WDC) Moved Down by 6.69% on Aug 18: Facts Behind the Movement",
+      "Western Digital (NASDAQ:WDC) Shares Gap Down - Here's Why",
+      "Western Digital Stock Is Gaining Monday: What's Going On?",
       "Why Western Digital Stock Popped Today",
-      "Can Strong End Markets & Pricing Tailwinds Keep WDC's Momentum Alive?",
-      "Prediction: This Is What a $1,000 Investment in Sandisk Will Be Worth by 2030",
-      "3 Reasons Why Western Digital (WDC) Is a Great Growth Stock"
+      "Performance Wealth Partners LLC Buys Shares of 20,000 Western Digital Corporation $WDC",
+      "WT Asset Management Ltd Invests $500.89 Million in Western Digital Corporation $WDC"
     ],
     "AVGO": [
       "Broadcom's AI Financing Could Reach $370 Billion. But It's Not as Bad as It Sounds.",
@@ -859,8 +859,8 @@
       "KLA Corp. stock underperforms Tuesday when compared to competitors",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "KLA Corporation (KLAC) Positioned to Benefit from Semiconductor Chip Complexity",
-      "KLA Corp Stock (KLAC) Moved Down by 5.69% on Aug 18: Drivers Behind the Movement",
       "KLA Stock: Covered Call Strategy Could Generate 21% Annualized Income",
+      "KLA Corp Stock (KLAC) Moved Down by 5.69% on Aug 18: Drivers Behind the Movement",
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
       "KLA Corporation Revenue Breakdown – MIL:1KLAC",
       "Stocks Finish Lower as Chipmakers and AI Stocks Fall"
@@ -878,14 +878,13 @@
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
       "SAP SE: Release of a capital market information",
       "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
-      "SAP SE: Gina Vargiu-Breuer, buy",
       "SAP Quarterly Statement Q2 2026",
+      "SAP SE: Gina Vargiu-Breuer, buy",
       "SAP Announces Q2 and Half-Year 2026 Results",
-      "Wells Fargo Releases a Buy Rating on SAP SE (0NW4)",
       "SAP shrugs off fears of AI eating software with big earnings beat",
-      "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
-      "SAP SE Stock (SAP) Moved Down by 3.03% on Aug 12: Key Drivers Unveiled",
-      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve"
+      "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
+      "Wells Fargo Releases a Buy Rating on SAP SE (0NW4)",
+      "An Analysis of SAP SE (SAP) in the AI Transition Era"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -960,10 +959,10 @@
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Is It Time To Consider Buying AIXTRON SE (ETR:AIXA)?",
-      "Mida, Aixtron ink deal to build semiconductor manufacturing facility in Penang",
       "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
       "Aixtron receives multiple tool orders from Lumentum",
-      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe"
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "Aixtron (AIXA) Stock Price, News & Analysis"
     ],
     "AMD": [
       "AMD filing reveals unexpected SpaceX and Nutanix bet",
@@ -1014,10 +1013,10 @@
       "Arista Networks (NYSE:ANET) Stock Price Down 4.6% - What's Next?",
       "Arista Networks Inc (ANET) Shares Fall 4.3% -- GF Value Says Sti",
       "Arista Networks Inc Stock (ANET) Moved Down by 5.06% on Aug 18",
-      "Transcript : Arista Networks, Inc. Presents at Rosenblatt's 6th Annual Technology Summit",
       "The Bull Case For Arista Networks (ANET) Could Change Following Its Upbeat AI Networking Revenue Outlook",
+      "Transcript : Arista Networks, Inc. Presents at Rosenblatt's 6th Annual Technology Summit",
       "Comparative Growth Paths of Arista and Palantir",
-      "Arista Networks at Rosenblatt AI summit: AI networking broadens By Investing.com",
+      "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
       "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET"
     ],
@@ -1088,7 +1087,130 @@
       "Seagate and Western Digital Dive 6%, SK Hynix and Micron Slide 5% as Memory Stocks Cool"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "WDC",
+      "classification": {
+        "symbol": "WDC",
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "WT Asset Management Ltd Invests $500.89 Million in Western Digital Corporation $WDC",
+        "reason": "WT Asset Management Ltd, a named institution, invested a significant amount ($500.89 Million) by purchasing shares of the company, which qualifies as a large share purchase."
+      },
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYzAxTVBUVjh3NGVfVmJUaGEySjl6QVdCUEMydWhGVlhfeURCa3RnREEzYTZKWWE5Z1V4MFlLY0toaUZVVmgtRVdWZmJTOHNabEUyWE1Bb0ljYmZ4bC1SaEhzenlrUFFROGFfLXJUMlprdHNudi1HaWpnSjB0MXA2ZUttYVNZT0FCQ0I3MVdVZ1R6ald0VnpUZy1LNEtMVlZwYTRVWGdkOTY1VGZick9ieHNoTm4waTlkR0cyRHVtWEJXRFZuOHhaUUFKSVZiak11cXRDbUtlMkM?oc=5",
+      "source": "marketbeat.com",
+      "method": "gemini",
+      "published": "2026-08-18T10:22:51",
+      "queued_min": 29785430,
+      "all_articles": [
+        {
+          "headline": "MU, SNDK Dip Overnight: KOSPI Hits Halt Amid Asian Tech Chip Rout, SoftBank, Samsung, SK Hynix Retreat",
+          "link": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-dip-overnight-kospi-hits-halt-amid-asian-tech-chip-rout-soft-bank-samsung-sk-hynix-retreat/cZYdEEaRJkB?.tsrc=rss",
+          "source": "stocktwits.com",
+          "summary": "Global tech stocks dropped on Wednesday as bond yields in the U.S. and elsewhere scored fresh milestones.",
+          "published": "2026-08-19T05:24:38"
+        },
+        {
+          "headline": "Western Digital, Nova, and Penguin Solutions Shares Plummet, What You Need To Know",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-nova-penguin-solutions-210133950.html?.tsrc=rss",
+          "source": null,
+          "summary": "A number of stocks fell in the morning session after the 30-year U.S. Treasury yield hit a 19-year high and oil stayed elevated as a window for a U.S.–Iran deal closed without a breakthrough, a CNBC report revealed.",
+          "published": "2026-08-18T21:01:33"
+        },
+        {
+          "headline": "WSJ Report Sends Memory Stocks Down. SanDisk Down 9%, Micron Down 7%, Western Digital Down 5%",
+          "link": "https://247wallst.com/investing/2026/08/18/wsj-report-sends-memory-stocks-down-sandisk-down-9-micron-down-7-western-digital-down-5/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "A Wall Street Journal report on hidden tech commitments just triggered a brutal midday selloff in memory stocks, and the sheer size of the drops exposes exactly how crowded this trade had become.",
+          "published": "2026-08-18T16:50:44"
+        },
+        {
+          "headline": "Micron, Coherent, SpaceX, Klarna, Amylyx, and More Stocks That Explain Today’s Market",
+          "link": "https://finance.yahoo.com/m/50aebea7-647e-3adc-9ba2-a10e96115411/micron%2C-coherent%2C-spacex%2C.html?.tsrc=rss",
+          "source": null,
+          "summary": "FEATURE Stocks dropped Tuesday, dragged down by pressure on artificial-intelligence infrastructure companies and heightened tensions in the Middle East. Optical network provider Coherent sank 13%, making it the worst-performing stock in the The stock surged 7.",
+          "published": "2026-08-18T20:27:00"
+        },
+        {
+          "headline": "Convertible Bonds Are the New AI Bet. The High Returns Hide Bigger Risks.",
+          "link": "https://finance.yahoo.com/m/54238455-1a1d-349f-b75b-e2328d80e713/convertible-bonds-are-the-new.html?.tsrc=rss",
+          "source": null,
+          "summary": "Issuers sold nearly than $90 billion in convertible bonds in the second quarter, the strongest on record.",
+          "published": "2026-08-18T18:24:00"
+        },
+        {
+          "headline": "Cerebras, Intel, and AMD Shares Fall Ahead of Tonight’s ‘Supernova’ Event",
+          "link": "https://247wallst.com/investing/2026/08/18/cerebras-intel-and-amd-shares-fall-ahead-of-tonights-supernova-event/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "AI hardware stocks are bleeding out hours before Cerebras' most anticipated product reveal yet, and the reasons go well beyond one company's event.",
+          "published": "2026-08-18T17:56:07"
+        },
+        {
+          "headline": "Prediction: Wall Street May Be Sleeping on This AI Cloud Giant",
+          "link": "https://247wallst.com/investing/2026/08/18/prediction-wall-street-may-be-sleeping-on-this-ai-cloud-giant/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Micron has surged over 250% this year on an AI memory boom, but our price target sits below where shares trade today while Wall Street analysts aim far higher. The gap between those two views reveals a fundamental disagreement about whether this cycle is different from every one that came before it.",
+          "published": "2026-08-18T17:00:00"
+        },
+        {
+          "headline": "Are You Looking for a Top Momentum Pick? Why Western Digital (WDC) is a Great Choice",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/looking-top-momentum-pick-why-160004755.html?.tsrc=rss",
+          "source": null,
+          "summary": "Does Western Digital (WDC) have what it takes to be a top stock pick for momentum investors? Let's find out.",
+          "published": "2026-08-18T16:00:04"
+        },
+        {
+          "headline": "What's Going On With Western Digital Stock Tuesday?",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSmJ5NG9ybnhlUHJNRDByOGw0M01XVzJxN2dGWmZULTZ2dTdzUmFISFRpNzFwM0E1NktlZ1VMaDN6UHNMM1pwcmFQRVZKS3h4QkVHRlZxY3N0b1l2TWQzVGZMbUsxQWxaUC1teTlZNGRiNW5wX2tLRUJDZlBLU0tacmFXXzQ4SHhBZ2pCVDNOSWx3UU9hRm96VU9jUHN1WF9FZmd1aFIySm5DcmFwSjE5WS13?oc=5",
+          "source": "Benzinga",
+          "summary": "",
+          "published": "2026-08-18T18:07:25"
+        },
+        {
+          "headline": "Western Digital (NASDAQ:WDC) Shares Down 7.4% - What's Next?",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSVFodVFyZjQ2d2czdHRHbmlRdGdYN2xQSmFmQ1ljaFRVWnJQajU3NGREN0NOOXNZNFg1Y2dsTFpwaE4zekczcU9EUWVPbExKcEZUWFVHcURSX2ZETlFYX2kwTVRrRDZPR2lBNThIYVdIUERYdUhhZ2cxUEJlekJBak5CUXlHeW5SM0hraHRDMW50Zl9uNEN2elJTc0RXOHNRMjJFQ2FVMWI?oc=5",
+          "source": "marketbeat.com",
+          "summary": "",
+          "published": "2026-08-18T21:42:57"
+        },
+        {
+          "headline": "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeU1xSTVmS1p6ZGZ5amRNOVJUZmY3XzRhakFpcFZGVENmQ1dNeU9uODc2RHBwZUtlZXl0SlVTMkVFclU0M2p6ejVQYS05NW8tT2xfdWRlQUhQNi1ENzhmbEZfN2JEdjIwTGhjNWtQTWpxMktsR0V3LTdTa0ZtN2V3bFBqaEdzV1BUcVR4amxneVEwTEJFZEY2dnVtVWNGdzRpS2RlV3UycEszRXcwQ21RTlZROWFfYWJuUkJEX3lZRzFzUnFYbzJkZUdDTl9EdFlwQU0yMTg5WQ?oc=5",
+          "source": "tohoku.ac.jp",
+          "summary": "",
+          "published": "2026-08-19T00:22:02"
+        },
+        {
+          "headline": "Western Digital Corp Stock (WDC) Moved Down by 6.69% on Aug 18: Facts Behind the Movement",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSVNsUWZ5Ry1SOGt2ZzhWNk9vQXBkNDZuLXljbGo5TE5USnJMRWEtb2xYOVVfamVzbVEzTXpadnlzM3c4eVJlNV9hVXZaUlhlcU5jVnpnZU9EeTd1cmNDMWltRlFGMmt4TEl0bU44bGhiTkR2NUV4cjlMeS1FSGJnRlBQT2FLd2tWZlE?oc=5",
+          "source": "TradingKey",
+          "summary": "",
+          "published": "2026-08-18T17:15:36"
+        },
+        {
+          "headline": "Western Digital (NASDAQ:WDC) Shares Gap Down - Here's Why",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVW1hdFI4amxETE5iMUZENTA2cGJZd3VwSDB2eW5iYVVzNVZIVkZidmozeGZzcWEySVFXRURCZk1UTUl4OV80SW9FWWFWeU1TdXRnMjE4alVsSW9EVUpTSkxMSWdORnMwcXc2Y2FzTG1JcG5PZXp1NjFlZ1BzS0o3MURxYS1qM3g0U3VEU0QyWjQ2dHFJcGFpbGRTZzNzRllSc3dkdjFxekk?oc=5",
+          "source": "marketbeat.com",
+          "summary": "",
+          "published": "2026-08-18T15:08:16"
+        },
+        {
+          "headline": "Performance Wealth Partners LLC Buys Shares of 20,000 Western Digital Corporation $WDC",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRWV5Qm4xZzQ4V0tXdGZzUV82OWpRRXRFN3J5TXF4M0RNSUk5X0t3NHpTOU5yc3FkQkpmNERFUGllWGxvSWNPNEZOUlpuOHJYaEl0VnpJVmdOcWlCWlc1d29iWDdKNXEzMmFBOHZrS01BYi1TMnBKV3lBb3Z6U3BRSzd3Z1B1Nl9uZWZBbFNhbEI3QkZHUDZWSEFsMlVrcUZVU2RSSFhINk0wRFh4VDlabDBmVlNBbHpianRKS0NJdHFVSEdYcjJwcU9OREE5TWZjMGI4ZGxnYUREUUo3NHc?oc=5",
+          "source": "marketbeat.com",
+          "summary": "",
+          "published": "2026-08-18T10:22:51"
+        },
+        {
+          "headline": "WT Asset Management Ltd Invests $500.89 Million in Western Digital Corporation $WDC",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYzAxTVBUVjh3NGVfVmJUaGEySjl6QVdCUEMydWhGVlhfeURCa3RnREEzYTZKWWE5Z1V4MFlLY0toaUZVVmgtRVdWZmJTOHNabEUyWE1Bb0ljYmZ4bC1SaEhzenlrUFFROGFfLXJUMlprdHNudi1HaWpnSjB0MXA2ZUttYVNZT0FCQ0I3MVdVZ1R6ald0VnpUZy1LNEtMVlZwYTRVWGdkOTY1VGZick9ieHNoTm4waTlkR0cyRHVtWEJXRFZuOHhaUUFKSVZiak11cXRDbUtlMkM?oc=5",
+          "source": "marketbeat.com",
+          "summary": "",
+          "published": "2026-08-18T10:22:51"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1271,17 +1393,15 @@
       3,
       4
     ],
-    "quiet": [
-      0
-    ]
+    "quiet": []
   },
   "last_evergreen_min": 29784332,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 295.05,
-    "SIE.DE": 275.05,
+    "SU.PA": 295.55,
+    "SIE.DE": 277.85,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1307,11 +1427,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 182.74,
-    "BESI.AS": 222.6,
-    "AIXA.DE": 38.56,
-    "IFX.DE": 57.47,
-    "ASML.AS": 1538.8,
+    "SAP.DE": 180.82,
+    "BESI.AS": 219.8,
+    "AIXA.DE": 37.98,
+    "IFX.DE": 56.88,
+    "ASML.AS": 1552.4,
     "MU": 944.71,
     "TSM": 413.78,
     "KLAC": 193.81,
@@ -1352,9 +1472,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29784436,
-  "last_pulse_ticker": "FORM",
+  "next_pulse_interval": 39,
+  "last_pulse_post_min": 29785430,
+  "last_pulse_ticker": "AIXA.DE",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
@@ -1381,7 +1501,9 @@
       "fire_time": "18:04"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
