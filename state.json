@@ -3,7 +3,7 @@
   "daily_posts": 1,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 2,
-  "gemini_calls_today": 5,
+  "gemini_calls_today": 6,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-07-05",
@@ -800,26 +800,26 @@
       "3 Stocks to Buy as AI Infrastructure Continues to Surge"
     ],
     "WDC": [
-      "Micron Falls 5%, SanDisk Sinks 6%, Western Digital Drops 7% as Higher Rates Test the Memory Boom",
+      "Western Digital (WDC) Could Be 51% Overvalued On Apple China Memory Push",
       "MU, SNDK Dip Overnight: KOSPI Hits Halt Amid Asian Tech Chip Rout, SoftBank, Samsung, SK Hynix Retreat",
       "Western Digital, Nova, and Penguin Solutions Shares Plummet, What You Need To Know",
       "WSJ Report Sends Memory Stocks Down. SanDisk Down 9%, Micron Down 7%, Western Digital Down 5%",
+      "SanDisk Is Up 3,911% Over Twelve Months. Hedge Funds Can’t Agree on What to Do.",
+      "2 Semiconductor Stocks Worth Your Attention and 1 We Brush Off",
       "Micron, Coherent, SpaceX, Klarna, Amylyx, and More Stocks That Explain Today’s Market",
       "Convertible Bonds Are the New AI Bet. The High Returns Hide Bigger Risks.",
       "Cerebras, Intel, and AMD Shares Fall Ahead of Tonight’s ‘Supernova’ Event",
       "Prediction: Wall Street May Be Sleeping on This AI Cloud Giant",
-      "Are You Looking for a Top Momentum Pick? Why Western Digital (WDC) is a Great Choice",
-      "Memory’s Cyclicality is No More, So I Keep Loading Up on Micron",
-      "What's Going On With Western Digital Stock Tuesday?",
-      "Western Digital (NASDAQ:WDC) Shares Down 7.4% - What's Next?",
+      "Wealthfront Advisers LLC Acquires New Holdings in Western Digital Corporation $WDC",
       "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
+      "What's Going On With Western Digital Stock Tuesday?",
       "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
+      "Comprehensive Financial Planning Inc. PA Makes New Investment in Western Digital Corporation $WDC",
       "Western Digital Corp Stock (WDC) Moved Down by 6.69% on Aug 18: Facts Behind the Movement",
-      "Western Digital (NASDAQ:WDC) Shares Gap Down - Here's Why",
       "Western Digital Stock Is Gaining Monday: What's Going On?",
-      "Why Western Digital Stock Popped Today",
-      "Performance Wealth Partners LLC Buys Shares of 20,000 Western Digital Corporation $WDC",
-      "WT Asset Management Ltd Invests $500.89 Million in Western Digital Corporation $WDC"
+      "Empirical Asset Management LLC Purchases New Shares in Western Digital Corporation $WDC",
+      "Danica Pension Livsforsikringsaktieselskab Buys New Shares in Western Digital Corporation $WDC",
+      "Robotti Robert Takes $13.91 Million Position in Western Digital Corporation $WDC"
     ],
     "AVGO": [
       "Broadcom's AI Financing Could Reach $370 Billion. But It's Not as Bad as It Sounds.",
@@ -844,6 +844,7 @@
       "Stock Indices Waver on Strength in Chipmakers vs Weakness in Software Companies"
     ],
     "KLAC": [
+      "Is KLA (KLAC) a Buy as Wall Street Analysts Look Optimistic?",
       "KLA (KLAC) Could Be 12% Undervalued On Its Dividend Decision",
       "KLA Corporation Had a Tough Month: 60% Returns Will Come According to This Wall Street Stalwart",
       "KLA Drops 9% in a Month: Should You Buy the Stock on the Dip?",
@@ -853,7 +854,6 @@
       "ONTO's $720 Million Rigaku Stake Opens a Major New X-Ray Growth Avenue",
       "ONTO Surged 26.1% in the Past Month. Can Its Rally Keep Going Strong?",
       "Own KLAC Stock? Here Is How To Collect 21% A Year On It",
-      "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
       "KLA Corp. stock underperforms Tuesday when compared to competitors",
       "KLA Corp (KLAC) Shares Fall 5.3% -- What GF Score of 84 Tells In",
       "Trust Co. of Vermont Makes New $3.18 Million Investment in KLA Corporation $KLAC",
@@ -861,8 +861,8 @@
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "KLA Corporation Revenue Breakdown – MIL:1KLAC",
-      "KLA Stock: Covered Call Strategy Could Generate 21% Annualized Income",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
+      "KLA Stock: Covered Call Strategy Could Generate 21% Annualized Income",
       "Stocks Finish Lower as Chipmakers and AI Stocks Fall"
     ],
     "SAP.DE": [
@@ -878,14 +878,14 @@
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
       "SAP SE: Release of a capital market information",
       "SAP|SAP SE|Price:210.460|Chg%:+2.620",
-      "An Analysis of SAP SE (SAP) in the AI Transition Era",
+      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
+      "SAP SE: Gina Vargiu-Breuer, buy",
       "SAP Quarterly Statement Q2 2026",
       "SAP Announces Q2 and Half-Year 2026 Results",
-      "SAP SE: Gina Vargiu-Breuer, buy",
       "SAP shrugs off fears of AI eating software with big earnings beat",
-      "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
+      "Wells Fargo Releases a Buy Rating on SAP SE (0NW4)",
+      "Resilient SAP stock trades around $208 as AI deals reshape 2026 guidance"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -1149,6 +1149,79 @@
           "published": "2026-08-19T10:28:10"
         }
       ]
+    },
+    {
+      "symbol": "WDC",
+      "classification": {
+        "symbol": "WDC",
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "Wealthfront Advisers LLC Acquires New Holdings in Western Digital Corporation $WDC",
+        "reason": "A named institution, Wealthfront Advisers LLC, is reported to be acquiring new shares of the company, which qualifies as a 'large share purchase' according to the rules."
+      },
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRzhoVWo5RlJPb21WWFVCbEFWVDhKNWY0SEt6dU85RW9DNWUyS2RoRUxFUmpLbFJ2U3FrQ0VpaEdJZEhwTDNkUVFjLVRpa3ZhV1NPeUQ2MmRuMTduUlRncExpWDl5d0ZFY3RuYTROZkN5dW1GMkN0NWVfU1RFTGVySUFEa1dIVlVaR0pzVDY3dk02eUtiWFBWSS1tNkdDOU1CMUFrQWw0VmxpYk9XM0IyTDFwZTBCbFpzNWRtN1ZvOTlha3MwTUp1TlRSNUZxaF9vUW5uYU5XaE52QQ?oc=5",
+      "source": "marketbeat.com",
+      "method": "gemini",
+      "published": "2026-08-19T10:29:52",
+      "queued_min": 29785851,
+      "all_articles": [
+        {
+          "headline": "Western Digital (WDC) Could Be 51% Overvalued On Apple China Memory Push",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-could-51-081428418.html?.tsrc=rss",
+          "source": null,
+          "summary": "Recent US government opposition to Apple sourcing high bandwidth memory from Chinese suppliers has pushed Western Digital (WDC) into sharper focus for investors, who are weighing potential shifts in demand toward domestic storage providers. See our latest analysis for Western Digital. Western Digital’s share price has been volatile in recent sessions, with a 1 day share price return that declined 7.43%. However, the 7 day share price return of 13.30% and year to date share price return of...",
+          "published": "2026-08-19T08:14:28"
+        },
+        {
+          "headline": "SanDisk Is Up 3,911% Over Twelve Months. Hedge Funds Can’t Agree on What to Do.",
+          "link": "https://247wallst.com/investing/2026/08/19/sandisk-is-up-3911-over-twelve-months-hedge-funds-cant-agree-on-what-to-do/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "SanDisk just posted one of the most violent stock runs in large-cap history, yet institutional investors are betting against each other in the options market with unusual aggression. The bull and bear cases point to very different versions of the same company.",
+          "published": "2026-08-19T14:00:17"
+        },
+        {
+          "headline": "2 Semiconductor Stocks Worth Your Attention and 1 We Brush Off",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/2-semiconductor-stocks-worth-attention-101402594.html?.tsrc=rss",
+          "source": null,
+          "summary": "Semiconductors are the silicon backbone of the digital revolution. The way we live and work is also changing with AI, which is creating secular demand for more powerful chips. As a result, the industry has seen solid stock price performance over the last six months as its gain of 47.4% has outpaced the S&P 500’s 12.9% return.",
+          "published": "2026-08-19T10:14:02"
+        },
+        {
+          "headline": "Wealthfront Advisers LLC Acquires New Holdings in Western Digital Corporation $WDC",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQRzhoVWo5RlJPb21WWFVCbEFWVDhKNWY0SEt6dU85RW9DNWUyS2RoRUxFUmpLbFJ2U3FrQ0VpaEdJZEhwTDNkUVFjLVRpa3ZhV1NPeUQ2MmRuMTduUlRncExpWDl5d0ZFY3RuYTROZkN5dW1GMkN0NWVfU1RFTGVySUFEa1dIVlVaR0pzVDY3dk02eUtiWFBWSS1tNkdDOU1CMUFrQWw0VmxpYk9XM0IyTDFwZTBCbFpzNWRtN1ZvOTlha3MwTUp1TlRSNUZxaF9vUW5uYU5XaE52QQ?oc=5",
+          "source": "marketbeat.com",
+          "summary": "",
+          "published": "2026-08-19T10:29:52"
+        },
+        {
+          "headline": "Comprehensive Financial Planning Inc. PA Makes New Investment in Western Digital Corporation $WDC",
+          "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcjNtOUdiRzRYZUNpT0VxLVZQbV9URDRIZVJzNHpPNjY5bFhXZ0lVakdCaHlTVzNVWkRvZ2Vrdk1NUUk2cHlxd0RMYWNkemQ2cndhU1B5N1BIQkVSV1FOTlZYZnZGRmhKVzRTcWhsa2Q2N3ZaM1owUGVsSUJIc2J0TXR2QjBNR2VvRmNUWXdmdWhCVG1OTVBjREJUdDh3RjJsZWc0LW9LRTRCdTJ3Q2RKZzQ3a0JoeTlqQmViMHJPNmNibC1jeWpqenp2OTF5UnpsUDVfR3NJcXRyeHlTMC11X3FjWTBRb1ZLOFFabw?oc=5",
+          "source": "marketbeat.com",
+          "summary": "",
+          "published": "2026-08-19T08:34:10"
+        },
+        {
+          "headline": "Empirical Asset Management LLC Purchases New Shares in Western Digital Corporation $WDC",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQNnVfNnk2V0RpM0NPdnpaSDdxTmYxVFJ2dW9uMjU3ak1uUllBY0kxNE1RbGx4UDE2eEhzTkt3ZWZoRFlETDJQWWRSOGpKVERYT1lKUVVtSTZKQUQwMVBzSEV6NDEtQ1FkUVNPZUdWZGZZVlZ0ZDc5MlZZMC1pS216UnFXZElYY1VOMVpmQ2l2VmNPdmhfemx5MFBEZzR6RmR2RGV0ZUlSTlh1UU41TXh0M0tKdWtkdGJJakhLS190a2ppeE12THNKQ25rSmd5TDd1aHc4anVvNVlNQmRfRFBIWg?oc=5",
+          "source": "marketbeat.com",
+          "summary": "",
+          "published": "2026-08-19T08:39:26"
+        },
+        {
+          "headline": "Danica Pension Livsforsikringsaktieselskab Buys New Shares in Western Digital Corporation $WDC",
+          "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQb3pPOHZvbTZRTzFWV2N0alo5M1FxR085UU9fVFphbDcySTBRQ1hRTVNhRHlCVmNQQjJwLTNVVE5LaEFUWVA4cHJQVFBYdTVQVEI3N2NBeS1IemxURVZHSjRwMTNtbWJkVUZOMDBIN2FKY29ERHZBcnE5LWwzblJZSWdEOU8zYmhKVWFoY2lXajhCQ3hMbXhtMndOa040RnJ0ZC1YdkdMM195YWdQRDRxdk1IdVRHVm5haE1CRGg2V0lWVE1KeWtVNU1UdElkQVJ2OEJOVEFIQUtiTFMtV3F0cDB6V2YwLUhteVE?oc=5",
+          "source": "marketbeat.com",
+          "summary": "",
+          "published": "2026-08-19T08:35:37"
+        },
+        {
+          "headline": "Robotti Robert Takes $13.91 Million Position in Western Digital Corporation $WDC",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQNWVoVHZqUzhCemE5N3R2UmJLUC1xSFBLSlhOV1BKZndfcnBsblROZUR3cTdaMmIySWFUeW1jMVBVTl9oQ3FQQUNMekZocDBFdHlfdmhOR1dtTmxhelFVeUJvRmpFdmg0Q3dXUW4xVHlxWjhid01iQlRBYk52c3hOS3BYWklYNTQ4MTdUWktIRDRLQ0FkSEZzVmZEdnROZ2RNejlLM2pxSWZNMmxRazRjcHJkSGxIUTdqTnZvWkhRVWtJSFdwMFc5NmJxWkFGTjRETU9HUA?oc=5",
+          "source": "marketbeat.com",
+          "summary": "",
+          "published": "2026-08-19T10:39:55"
+        }
+      ]
     }
   ],
   "holding_disclosures_seen": {
@@ -1348,8 +1421,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 293.5,
-    "SIE.DE": 276.75,
+    "SU.PA": 294.05,
+    "SIE.DE": 276.95,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1375,24 +1448,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 184.94,
-    "BESI.AS": 212.9,
-    "AIXA.DE": 37.32,
-    "IFX.DE": 55.13,
-    "ASML.AS": 1506.6,
-    "MU": 930.42,
-    "TSM": 411.38,
-    "KLAC": 187.4,
-    "STX": 850.71,
-    "ANET": 186.09,
-    "LRCX": 312.53,
-    "FORM": 116.6,
-    "AVGO": 357.82,
-    "AMAT": 495.41,
-    "AMD": 463.51,
-    "MRVL": 232.34,
-    "NVDA": 218.04,
-    "WDC": 472.36
+    "SAP.DE": 185.44,
+    "BESI.AS": 213.6,
+    "AIXA.DE": 37.69,
+    "IFX.DE": 55.27,
+    "ASML.AS": 1510.6,
+    "MU": 924.71,
+    "TSM": 411.78,
+    "KLAC": 186.53,
+    "STX": 845.84,
+    "ANET": 187.16,
+    "LRCX": 311.92,
+    "FORM": 116.79,
+    "AVGO": 360.88,
+    "AMAT": 493.68,
+    "AMD": 464.52,
+    "MRVL": 231.76,
+    "NVDA": 219.28,
+    "WDC": 469.13
   },
   "day_event_fired": {
     "BE": "2026-07-07",
