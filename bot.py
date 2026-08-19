@@ -3525,13 +3525,22 @@ _EVERGREEN_OPINION_QUERIES = [
     '("data center" OR "AI infrastructure" OR "power grid") (site:reuters.com OR site:bloomberg.com '
     'OR site:cnbc.com OR site:politico.com OR site:axios.com '
     'OR site:aimagazine.com OR site:theinformation.com)',
+    # More infra-focused outlets with no clean RSS of their own — Data Center Frontier's feed
+    # 404s on every standard path (/rss.xml, /feed), The Register's datacenter tag returns the
+    # HTML page instead of a feed at every RSS convention tried, Uptime Institute's Journal has
+    # no discoverable feed either.
+    '("data center" OR "AI infrastructure") (site:datacenterfrontier.com OR site:theregister.com '
+    'OR site:uptimeinstitute.com)',
 ]
 # Direct RSS feeds from credible AI-infra / grid trade press — fetched alongside the topic searches
 # so their coverage reliably surfaces instead of depending on Google News to index it. All confirmed
 # live with full pubDate coverage. The source label is forced (these link to their own domain, which
-# would otherwise show as a bare hostname). DCD/DCK/Intelligent Data Centres/Data Centre Magazine
-# cover data centers; Power Magazine / Utility Dive / Canary Media cover the grid + utility-economics
-# side the basket's power names hinge on.
+# would otherwise show as a bare hostname). DCD/DCK/Intelligent Data Centres/Data Centre Magazine/
+# ServeTheHome/The Next Platform/HPCwire/Top500/OpenCompute/SemiAnalysis cover data centers/HPC/AI
+# infra directly; Power Magazine/Utility Dive/Canary Media cover the grid + utility-economics side
+# the basket's power names hinge on. EE Times/Tom's Hardware/Network World/IEEE Spectrum are broad
+# general-tech outlets (most of their volume is unrelated to data centers/AI infra) — these four are
+# gated by the stricter _STRICT_AI_INFRA_RE filter below instead of the loose one everything else uses.
 _EVERGREEN_DIRECT_FEEDS = [
     ("https://www.datacenterdynamics.com/en/rss/", "DatacenterDynamics"),
     ("https://www.datacenterknowledge.com/rss.xml", "Data Center Knowledge"),
@@ -3542,10 +3551,32 @@ _EVERGREEN_DIRECT_FEEDS = [
     ("https://www.powermag.com/feed/", "POWER Magazine"),
     ("https://www.utilitydive.com/feeds/news/", "Utility Dive"),
     ("https://www.canarymedia.com/feed", "Canary Media"),
+    ("https://newsletter.semianalysis.com/feed", "SemiAnalysis"),
+    ("https://www.servethehome.com/feed/", "ServeTheHome"),
+    ("https://www.nextplatform.com/feed/", "The Next Platform"),
+    ("https://www.hpcwire.com/feed/", "HPCwire"),
+    ("https://www.top500.org/news/feed/", "Top500"),
+    ("https://www.opencompute.org/news/rss", "Open Compute Project"),
+    ("https://www.eetimes.com/feed/", "EE Times"),
+    ("https://www.tomshardware.com/feeds/all", "Tom's Hardware"),
+    ("https://www.networkworld.com/feed/", "Network World"),
+    ("https://spectrum.ieee.org/rss/fulltext", "IEEE Spectrum"),
 ]
+# anandtech.com has stopped publishing (its RSS path now redirects into a bot-challenge page on
+# its forums) — no usable feed. ieee.org's own site (not Spectrum) never returned a real feed body.
+# ashrae.org's given URL is a bookstore product page, not a news source — no feed to look for.
 _AI_INFRA_TOPIC_RE = re.compile(
-    r"\b(AI|artificial intelligence|data cent(?:er|re)|infrastructure|compute|hyperscal|grid|"
+    r"\b(AI|artificial intelligence|data cent(?:er|re)|infrastructure|compute|hyperscal\w*|grid|"
     r"power|electricity|colocation|nuclear)\b", re.I)
+# EE Times/Tom's Hardware/Network World/IEEE Spectrum publish far more than AI-infra content
+# (automotive chips, consumer GPU reviews, general networking, unrelated engineering fields) — the
+# loose topic regex above (any mention of "AI" or "power") would let a lot of that through. These
+# four sources require an explicit data-center/AI-infra-specific term instead.
+_BROAD_SOURCE_DOMAINS = ("eetimes.com", "tomshardware.com", "networkworld.com", "spectrum.ieee.org")
+_STRICT_AI_INFRA_RE = re.compile(
+    r"\bdata\s?cent(?:er|re)|hyperscal|colocation|liquid[- ]cooling|rack\s+density|"
+    r"\bAI\s+(?:infrastructure|cluster|supercomputer|data\s?cent\w*)|GPU\s+cluster|"
+    r"power\s+grid|\bmegawatt|\bAI\s+(?:chip|accelerator)|accelerator\s+chip", re.I)
 _OPINION_NOISE_RE = re.compile(
     r"\b(top\s+\d+\s+stocks?|best\s+stocks?|stocks?\s+to\s+buy|which\s+of\s+these|buy\s+the\s+dip|"
     r"price\s+target|fair\s+value|\d+%\s+(?:upside|downside)|scorecard|earnings\s+call|"
@@ -3573,7 +3604,9 @@ _OPINION_SOURCE_PREFERRED = {s.lower() for s in [
     # AI-infra / grid trade press + the regulatory bodies that shape the sector
     "DatacenterDynamics", "Data Center Knowledge", "Data Center Frontier", "Intelligent Data Centres",
     "Data Centre Magazine", "AI Magazine", "FERC", "NERC", "POWER Magazine", "Utility Dive",
-    "Canary Media",
+    "Canary Media", "SemiAnalysis", "ServeTheHome", "The Next Platform", "HPCwire", "Top500",
+    "Open Compute Project", "EE Times", "Tom's Hardware", "Network World", "IEEE Spectrum",
+    "The Register",
 ]}
 _NAV_JUNK_RE = re.compile(r"\b(subscribe|donate|newsletter|cookie|sign\s+up|log\s+in|browse|"
                           r"all\s+scholars|menu|advertisement)\b", re.I)
@@ -3666,6 +3699,7 @@ def _find_evergreen_opinion(state: dict) -> dict | None:
         except Exception as e:
             log.warning("Evergreen opinion fetch failed (%s): %s", url, e)
             continue
+        is_broad_source = any(d in url for d in _BROAD_SOURCE_DOMAINS)
         for a in items:
             if source_override:
                 a["source"] = source_override
@@ -3681,6 +3715,8 @@ def _find_evergreen_opinion(state: dict) -> dict | None:
                 continue
             if not _AI_INFRA_TOPIC_RE.search(h):
                 continue  # tangential result — not actually about AI infra
+            if is_broad_source and not _STRICT_AI_INFRA_RE.search(h):
+                continue  # broad general-tech source — needs an explicit infra term, not just "AI"
             if _is_generic_analysis_piece(h) or _OPINION_NOISE_RE.search(h) or _STOCK_SPECIFIC_RE.search(h):
                 continue  # stock-tout / valuation clickbait / single-stock piece, not a sector piece
             if any(b in (a.get("source") or "").lower() for b in _OPINION_SOURCE_BLOCKLIST):
