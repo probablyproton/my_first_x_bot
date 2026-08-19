@@ -1208,7 +1208,7 @@ Company-specific:
 - Loss of a top 3 customer: any
 - Patent win or loss in core business area: any
 
-Ignore: opinion pieces, analysis recaps, general market commentary not specific to the ticker, and any headline that appears to be about a different company that shares part of the ticker's name.
+Ignore: opinion pieces, editorials/op-eds, analysis recaps, general market commentary not specific to the ticker, sponsored content/advertorials/paid placements (anything reading like promotion rather than reporting), press releases with no real new information, and any headline that appears to be about a different company that shares part of the ticker's name.
 
 Respond with a JSON array, exactly one object per ticker given, in the same order:
 [
@@ -1475,6 +1475,13 @@ def _prune_date_keyed_dict(d: dict, max_age_days: int):
 # reporting news. A bare category-keyword match can't tell "reporting X happened" from
 # "mentioning X happened as background", so these title templates are excluded outright.
 _ANALYSIS_PIECE_PATTERNS = [
+    # Editorial/opinion genre labels and paid promotional content — this account reports news, it
+    # doesn't repost someone's op-ed or, worse, sponsored/paid placement dressed up as an article.
+    # Prefix-labeled ("Opinion: ...", "Sponsored: ...") since that's how these are actually tagged
+    # in the wild; a bare "sponsor" mention mid-headline (e.g. a company sponsoring an event) isn't
+    # this, so the label must anchor the start of the headline.
+    re.compile(r"^\s*(opinion|op-ed|editorial|commentary|sponsored|advertorial|"
+               r"partner content|paid (?:content|post|program)|press release)\s*[:—-]", re.I),
     re.compile(r"\bis\s+.+\s+a\s+good\s+(investment|stock|buy)\b", re.I),
     re.compile(r"\bstock\s+look(s)?\s+(cheap|expensive|undervalued|overvalued)\b", re.I),
     re.compile(r"\bwhat\s+to\s+expect\s+from\b", re.I),
@@ -3515,22 +3522,24 @@ _EVERGREEN_OPINION_QUERIES = [
     '("AI infrastructure" OR "data center") (FERC OR "Department of Energy" OR interconnection OR '
     '"power purchase" OR "demand response" OR transmission OR permitting OR moratorium OR '
     'regulator OR ratepayer)',
-    # High-signal majors that are paywalled / have no clean RSS — reached via Google News site:
-    # search (which indexes their headlines) rather than a direct feed. One OR-group = one fetch.
-    # aimagazine.com (BizClik network) and theinformation.com both 403/challenge a direct fetch
-    # even with a browser UA — same treatment as the wire majors below rather than a direct feed
-    # hitting a Cloudflare-gated domain on a schedule from a GH Actions IP. datacentremagazine.com
-    # (same BizClik network as aimagazine.com) moved to a direct feed below via an rss.app proxy —
-    # its own domain still has no public feed, but the proxy resolves it cleanly.
+    # Broad outlets that are paywalled / have no clean RSS AND publish far more than AI-infra
+    # content — the topic keywords here do real work narrowing results, unlike the dedicated-source
+    # group below. One OR-group = one fetch. aimagazine.com (BizClik network) and theinformation.com
+    # both 403/challenge a direct fetch even with a browser UA. datacentremagazine.com (same BizClik
+    # network as aimagazine.com) moved to a direct feed below via an rss.app proxy — its own domain
+    # still has no public feed, but the proxy resolves it cleanly. The Register lives here rather
+    # than the dedicated group below because Google's site: operator can't scope to just their
+    # /tag/datacenter/ path — a bare site:theregister.com would pull ALL their coverage (security,
+    # general hardware, etc.), so it needs the topic-keyword narrowing too.
     '("data center" OR "AI infrastructure" OR "power grid") (site:reuters.com OR site:bloomberg.com '
-    'OR site:cnbc.com OR site:politico.com OR site:axios.com '
+    'OR site:cnbc.com OR site:politico.com OR site:axios.com OR site:theregister.com '
     'OR site:aimagazine.com OR site:theinformation.com)',
-    # More infra-focused outlets with no clean RSS of their own — Data Center Frontier's feed
-    # 404s on every standard path (/rss.xml, /feed), The Register's datacenter tag returns the
-    # HTML page instead of a feed at every RSS convention tried, Uptime Institute's Journal has
-    # no discoverable feed either.
-    '("data center" OR "AI infrastructure") (site:datacenterfrontier.com OR site:theregister.com '
-    'OR site:uptimeinstitute.com)',
+    # Dedicated infra outlets with no clean RSS of their own — Data Center Frontier's feed 404s on
+    # every standard path (/rss.xml, /feed), Uptime Institute's Journal has no discoverable feed
+    # either. Unlike the broad group above, these publish almost nothing OFF-topic, so a bare site:
+    # search (no topic keywords required) maximizes recall — the shared _AI_INFRA_TOPIC_RE filter
+    # downstream still screens out anything that isn't actually infra-relevant.
+    'site:datacenterfrontier.com OR site:uptimeinstitute.com',
 ]
 # Direct RSS feeds from credible AI-infra / grid trade press — fetched alongside the topic searches
 # so their coverage reliably surfaces instead of depending on Google News to index it. All confirmed
