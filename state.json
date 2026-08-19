@@ -1,10 +1,10 @@
 {
   "date": "2026-08-19",
-  "daily_posts": 0,
+  "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 2,
-  "evergreen_opinion_posts_today": 0,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 5,
+  "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-17",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 437,
+  "event_log_next_id": 439,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -331,15 +331,15 @@
       "Acuity Inc. Names Ruth Gratzke President of Acuity Brands Lighting",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "Siemens Launches Wendell Microgrid at HQ Campus",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC"
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
+      "Siemens Mobility North America appoints president",
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -744,12 +744,12 @@
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
-      "FormFactor (NASDAQ:FORM) Shares Gap Down After Insider Selling",
+      "WT Asset Management Ltd Acquires New Stake in FormFactor, Inc. $FORM",
       "FormFactor Jumps 5.6% Amid Sector-Wide Rally",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "FormFactor Inc (FORM) CEO Mike Slessor Sells 16,002 Shares",
-      "WT Asset Management Ltd Acquires New Stake in FormFactor, Inc. $FORM",
+      "GSA Capital Partners LLP Invests $1.25 Million in FormFactor, Inc. $FORM",
       "FormFactor (FORM) Shares Skyrocket, What You Need To Know",
       "Here's Why AXTI Stock Is a Buy Despite Its Premium 48.12X Valuation",
       "Is SiTime the Best AI Stock You've Never Heard Of?",
@@ -856,13 +856,13 @@
       "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
       "KLA Corp. stock underperforms Tuesday when compared to competitors",
       "KLA Corp (KLAC) Shares Fall 5.3% -- What GF Score of 84 Tells In",
-      "KLA Sees Unusually High Options Volume (NASDAQ:KLAC)",
-      "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
+      "Trust Co. of Vermont Makes New $3.18 Million Investment in KLA Corporation $KLAC",
       "KLA Corporation (KLAC) Positioned to Benefit from Semiconductor Chip Complexity",
-      "KLA Stock: Covered Call Strategy Could Generate 21% Annualized Income",
-      "KLA Corp Stock (KLAC) Moved Down by 5.69% on Aug 18: Drivers Behind the Movement",
       "Can KLA's Advanced Packaging Strength Support $1B Revenue Target?",
+      "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "KLA Corporation Revenue Breakdown – MIL:1KLAC",
+      "KLA Stock: Covered Call Strategy Could Generate 21% Annualized Income",
+      "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
       "Stocks Finish Lower as Chipmakers and AI Stocks Fall"
     ],
     "SAP.DE": [
@@ -877,14 +877,15 @@
       "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
       "SAP SE: Release of a capital market information",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
+      "SAP|SAP SE|Price:210.460|Chg%:+2.620",
+      "An Analysis of SAP SE (SAP) in the AI Transition Era",
       "SAP Quarterly Statement Q2 2026",
-      "SAP SE: Gina Vargiu-Breuer, buy",
       "SAP Announces Q2 and Half-Year 2026 Results",
+      "SAP SE: Gina Vargiu-Breuer, buy",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
-      "Wells Fargo Releases a Buy Rating on SAP SE (0NW4)",
-      "An Analysis of SAP SE (SAP) in the AI Transition Era"
+      "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
+      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -896,7 +897,16 @@
       "BE Semiconductor Reports Strong Q2 Growth as AI Demand Drives Record Orders",
       "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
       "BE Semiconductor Industries NV (BESIY) Q1 2026 Earnings Call Highlights: Record Growth in ...",
-      "BE Semiconductor Industries N.V. Announces Q1-26 Results"
+      "BE Semiconductor Industries N.V. Announces Q1-26 Results",
+      "BE Semiconductor Industries N.V. (BSI.DE) Stock Price, News, Quote & History",
+      "BE Semiconductor Industries NV (OTCMKTS:BESIY) Receives Consensus Recommendation of \"Buy\" from Analysts",
+      "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
+      "Fidelity Series International Small Cap Fund's BE Semiconductor Industries NV(XAMS:BESI) Holding History",
+      "EU3330.EUR Bond Coupon Profile — Rate & Payments",
+      "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
+      "Why is BE Semiconductor stock sliding today?",
+      "BE Semiconductor Industries Upgraded to Buy as Berenberg Notes 'Opportunity' Amid Recent Share Weakness",
+      "Q4 2025 BE Semiconductor Industries NV Earnings Call Transcript"
     ],
     "AMAT": [
       "IPGP Q2 Earnings Beat Estimates on Industrial Solutions Growth",
@@ -959,9 +969,9 @@
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Is It Time To Consider Buying AIXTRON SE (ETR:AIXA)?",
-      "Mida, Aixtron ink deal to build semiconductor manufacturing facility in Penang",
       "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
       "Aixtron receives multiple tool orders from Lumentum",
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Aixtron (AIXA) Stock Price, News & Analysis"
     ],
     "AMD": [
@@ -1004,21 +1014,21 @@
       "Arista Networks vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks (ANET) Is Up 5.9% After AI-Fueled Q3 Revenue Guidance Upgrade - Has The Bull Case Changed?",
       "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
+      "3 AI Networking Stocks Quietly Dominating Their Niche in August",
       "Cerebras Unveils CS-4, OpenAI and AMD Partnerships to Accelerate AI Inference",
       "What You Actually Pay To Join The CSCO Run",
       "What Kept Coming Up When Analysts Grilled CSCO",
       "Cisco Grew Faster By Selling Hardware And Charging More For It",
-      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
+      "Arista Networks calls time on server line due to supply chain pressures",
+      "Arista Networks, Inc. $ANET Shares Bought by Danske Bank A S",
+      "President Capital Adjusts Price Target on Arista Networks to $238 From $180, Maintains Buy Rating",
       "Arista Networks Inc. stock outperforms competitors despite losses on the day",
-      "Arista Networks (NYSE:ANET) Stock Price Down 4.6% - What's Next?",
       "Arista Networks Inc (ANET) Shares Fall 4.3% -- GF Value Says Sti",
-      "Arista Networks Inc Stock (ANET) Moved Down by 5.06% on Aug 18",
       "The Bull Case For Arista Networks (ANET) Could Change Following Its Upbeat AI Networking Revenue Outlook",
-      "Transcript : Arista Networks, Inc. Presents at Rosenblatt's 6th Annual Technology Summit",
-      "Comparative Growth Paths of Arista and Palantir",
+      "Arista Networks, Inc. $ANET Shares Purchased by Wealthfront Advisers LLC",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
-      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
-      "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET"
+      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
+      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1089,124 +1099,54 @@
   },
   "pending_news_posts": [
     {
-      "symbol": "WDC",
+      "symbol": "ANET",
       "classification": {
-        "symbol": "WDC",
+        "symbol": "ANET",
         "is_major": true,
         "category": "large_share_purchases",
-        "headline": "WT Asset Management Ltd Invests $500.89 Million in Western Digital Corporation $WDC",
-        "reason": "WT Asset Management Ltd, a named institution, invested a significant amount ($500.89 Million) by purchasing shares of the company, which qualifies as a large share purchase."
+        "headline": "Arista Networks, Inc. $ANET Shares Bought by Danske Bank A S",
+        "reason": "A named institution, Danske Bank A S, made a purchase of the company's shares, qualifying as a large share purchase."
       },
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYzAxTVBUVjh3NGVfVmJUaGEySjl6QVdCUEMydWhGVlhfeURCa3RnREEzYTZKWWE5Z1V4MFlLY0toaUZVVmgtRVdWZmJTOHNabEUyWE1Bb0ljYmZ4bC1SaEhzenlrUFFROGFfLXJUMlprdHNudi1HaWpnSjB0MXA2ZUttYVNZT0FCQ0I3MVdVZ1R6ald0VnpUZy1LNEtMVlZwYTRVWGdkOTY1VGZick9ieHNoTm4waTlkR0cyRHVtWEJXRFZuOHhaUUFKSVZiak11cXRDbUtlMkM?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOE1JRDF0R0Q5V0FqQkROaVRfY0ZqdnJXXzBIcEx0OWpXd3YxSzhZUlV1SGJhcUZHUWhTZC10VUs5bWxjbHc2MEYtV2toejhaQ21JV2xYWEo5NUo1MWQxRVZYeWlEOWN5eDdDX3FYTVk3UC1Oam96cDEyX3BETktHZ0xCNy16Q3kxSHppbUViRktlbUNOdmVzVm5GX0RSaW9HMEl6bjRBc2pybWE1M2VMQ0MwREw2RjhJTUE?oc=5",
       "source": "marketbeat.com",
       "method": "gemini",
-      "published": "2026-08-18T10:22:51",
-      "queued_min": 29785430,
+      "published": "2026-08-19T08:35:32",
+      "queued_min": 29785836,
       "all_articles": [
         {
-          "headline": "MU, SNDK Dip Overnight: KOSPI Hits Halt Amid Asian Tech Chip Rout, SoftBank, Samsung, SK Hynix Retreat",
-          "link": "https://stocktwits.com/news-articles/markets/equity/mu-sndk-dip-overnight-kospi-hits-halt-amid-asian-tech-chip-rout-soft-bank-samsung-sk-hynix-retreat/cZYdEEaRJkB?.tsrc=rss",
-          "source": "stocktwits.com",
-          "summary": "Global tech stocks dropped on Wednesday as bond yields in the U.S. and elsewhere scored fresh milestones.",
-          "published": "2026-08-19T05:24:38"
-        },
-        {
-          "headline": "Western Digital, Nova, and Penguin Solutions Shares Plummet, What You Need To Know",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-nova-penguin-solutions-210133950.html?.tsrc=rss",
-          "source": null,
-          "summary": "A number of stocks fell in the morning session after the 30-year U.S. Treasury yield hit a 19-year high and oil stayed elevated as a window for a U.S.–Iran deal closed without a breakthrough, a CNBC report revealed.",
-          "published": "2026-08-18T21:01:33"
-        },
-        {
-          "headline": "WSJ Report Sends Memory Stocks Down. SanDisk Down 9%, Micron Down 7%, Western Digital Down 5%",
-          "link": "https://247wallst.com/investing/2026/08/18/wsj-report-sends-memory-stocks-down-sandisk-down-9-micron-down-7-western-digital-down-5/?.tsrc=rss",
+          "headline": "3 AI Networking Stocks Quietly Dominating Their Niche in August",
+          "link": "https://247wallst.com/investing/2026/08/19/3-ai-networking-stocks-quietly-dominating-their-niche-in-august-3/?.tsrc=rss",
           "source": "247wallst.com",
-          "summary": "A Wall Street Journal report on hidden tech commitments just triggered a brutal midday selloff in memory stocks, and the sheer size of the drops exposes exactly how crowded this trade had become.",
-          "published": "2026-08-18T16:50:44"
+          "summary": "GPUs and hyperscaler spending dominate the headlines, but the real compounding is happening one layer below in the switches, optics, and custom silicon stitching AI clusters together. Three networking stocks have separated from the pack, and their latest earnings reports suggest the gap is widening.",
+          "published": "2026-08-19T11:03:17"
         },
         {
-          "headline": "Micron, Coherent, SpaceX, Klarna, Amylyx, and More Stocks That Explain Today’s Market",
-          "link": "https://finance.yahoo.com/m/50aebea7-647e-3adc-9ba2-a10e96115411/micron%2C-coherent%2C-spacex%2C.html?.tsrc=rss",
-          "source": null,
-          "summary": "FEATURE Stocks dropped Tuesday, dragged down by pressure on artificial-intelligence infrastructure companies and heightened tensions in the Middle East. Optical network provider Coherent sank 13%, making it the worst-performing stock in the The stock surged 7.",
-          "published": "2026-08-18T20:27:00"
-        },
-        {
-          "headline": "Convertible Bonds Are the New AI Bet. The High Returns Hide Bigger Risks.",
-          "link": "https://finance.yahoo.com/m/54238455-1a1d-349f-b75b-e2328d80e713/convertible-bonds-are-the-new.html?.tsrc=rss",
-          "source": null,
-          "summary": "Issuers sold nearly than $90 billion in convertible bonds in the second quarter, the strongest on record.",
-          "published": "2026-08-18T18:24:00"
-        },
-        {
-          "headline": "Cerebras, Intel, and AMD Shares Fall Ahead of Tonight’s ‘Supernova’ Event",
-          "link": "https://247wallst.com/investing/2026/08/18/cerebras-intel-and-amd-shares-fall-ahead-of-tonights-supernova-event/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "AI hardware stocks are bleeding out hours before Cerebras' most anticipated product reveal yet, and the reasons go well beyond one company's event.",
-          "published": "2026-08-18T17:56:07"
-        },
-        {
-          "headline": "Prediction: Wall Street May Be Sleeping on This AI Cloud Giant",
-          "link": "https://247wallst.com/investing/2026/08/18/prediction-wall-street-may-be-sleeping-on-this-ai-cloud-giant/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "Micron has surged over 250% this year on an AI memory boom, but our price target sits below where shares trade today while Wall Street analysts aim far higher. The gap between those two views reveals a fundamental disagreement about whether this cycle is different from every one that came before it.",
-          "published": "2026-08-18T17:00:00"
-        },
-        {
-          "headline": "Are You Looking for a Top Momentum Pick? Why Western Digital (WDC) is a Great Choice",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/looking-top-momentum-pick-why-160004755.html?.tsrc=rss",
-          "source": null,
-          "summary": "Does Western Digital (WDC) have what it takes to be a top stock pick for momentum investors? Let's find out.",
-          "published": "2026-08-18T16:00:04"
-        },
-        {
-          "headline": "What's Going On With Western Digital Stock Tuesday?",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNSmJ5NG9ybnhlUHJNRDByOGw0M01XVzJxN2dGWmZULTZ2dTdzUmFISFRpNzFwM0E1NktlZ1VMaDN6UHNMM1pwcmFQRVZKS3h4QkVHRlZxY3N0b1l2TWQzVGZMbUsxQWxaUC1teTlZNGRiNW5wX2tLRUJDZlBLU0tacmFXXzQ4SHhBZ2pCVDNOSWx3UU9hRm96VU9jUHN1WF9FZmd1aFIySm5DcmFwSjE5WS13?oc=5",
-          "source": "Benzinga",
+          "headline": "Arista Networks calls time on server line due to supply chain pressures",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZGY2dkpMdWVyRzNsVm1sTDRNdk5xc0dIWXlKOUZyTUZPVHVtUHlLcUdMZUxiWFh6ejgycXdJcUxtMWJ6QVZ2R3FRdEU3NU9PZ1owYW96bU1YaWhrQllJUUUwVllTd3l3aVJjRUZOTjd3TUpKUl9ITms1WjlFOGdadDdvN05QQzRaSlFtRjNvVVBpY3BZOUphX2ZjNUtscFdudjAtY1Bmdw?oc=5",
+          "source": "SDxCentral",
           "summary": "",
-          "published": "2026-08-18T18:07:25"
+          "published": "2026-08-19T13:46:03"
         },
         {
-          "headline": "Western Digital (NASDAQ:WDC) Shares Down 7.4% - What's Next?",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSVFodVFyZjQ2d2czdHRHbmlRdGdYN2xQSmFmQ1ljaFRVWnJQajU3NGREN0NOOXNZNFg1Y2dsTFpwaE4zekczcU9EUWVPbExKcEZUWFVHcURSX2ZETlFYX2kwTVRrRDZPR2lBNThIYVdIUERYdUhhZ2cxUEJlekJBak5CUXlHeW5SM0hraHRDMW50Zl9uNEN2elJTc0RXOHNRMjJFQ2FVMWI?oc=5",
+          "headline": "Arista Networks, Inc. $ANET Shares Bought by Danske Bank A S",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNOE1JRDF0R0Q5V0FqQkROaVRfY0ZqdnJXXzBIcEx0OWpXd3YxSzhZUlV1SGJhcUZHUWhTZC10VUs5bWxjbHc2MEYtV2toejhaQ21JV2xYWEo5NUo1MWQxRVZYeWlEOWN5eDdDX3FYTVk3UC1Oam96cDEyX3BETktHZ0xCNy16Q3kxSHppbUViRktlbUNOdmVzVm5GX0RSaW9HMEl6bjRBc2pybWE1M2VMQ0MwREw2RjhJTUE?oc=5",
           "source": "marketbeat.com",
           "summary": "",
-          "published": "2026-08-18T21:42:57"
+          "published": "2026-08-19T08:35:32"
         },
         {
-          "headline": "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeU1xSTVmS1p6ZGZ5amRNOVJUZmY3XzRhakFpcFZGVENmQ1dNeU9uODc2RHBwZUtlZXl0SlVTMkVFclU0M2p6ejVQYS05NW8tT2xfdWRlQUhQNi1ENzhmbEZfN2JEdjIwTGhjNWtQTWpxMktsR0V3LTdTa0ZtN2V3bFBqaEdzV1BUcVR4amxneVEwTEJFZEY2dnVtVWNGdzRpS2RlV3UycEszRXcwQ21RTlZROWFfYWJuUkJEX3lZRzFzUnFYbzJkZUdDTl9EdFlwQU0yMTg5WQ?oc=5",
-          "source": "tohoku.ac.jp",
+          "headline": "President Capital Adjusts Price Target on Arista Networks to $238 From $180, Maintains Buy Rating",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVklSRlpQYVctcXNweGYya1VWME5wU3FSWXJGeERYSUhMcXYwSnZUTGFkM2s5azlSeFVzNG1wZ3dhYUZONFlvOUJub3BZblVuVTRGSFdQTkJpYk95c3NXV2szQjhTY2VJNUhEb3BnYmJfN1ZzdmVoMDUzTklhYWEtOHVTdHZtSDQ5eEQxMkNWTUhKLV9WTjJNcHE1YUtuSy1NTk1nN1ZqM2RxYkNRUHJKZi1PTHA0LVExVTJIV3dtVmdaUlREUl85MmhYV01rYmNqekF4Z0FKQVVyek51Mkg4cg?oc=5",
+          "source": "marketscreener.com",
           "summary": "",
-          "published": "2026-08-19T00:22:02"
+          "published": "2026-08-19T09:54:10"
         },
         {
-          "headline": "Western Digital Corp Stock (WDC) Moved Down by 6.69% on Aug 18: Facts Behind the Movement",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSVNsUWZ5Ry1SOGt2ZzhWNk9vQXBkNDZuLXljbGo5TE5USnJMRWEtb2xYOVVfamVzbVEzTXpadnlzM3c4eVJlNV9hVXZaUlhlcU5jVnpnZU9EeTd1cmNDMWltRlFGMmt4TEl0bU44bGhiTkR2NUV4cjlMeS1FSGJnRlBQT2FLd2tWZlE?oc=5",
-          "source": "TradingKey",
-          "summary": "",
-          "published": "2026-08-18T17:15:36"
-        },
-        {
-          "headline": "Western Digital (NASDAQ:WDC) Shares Gap Down - Here's Why",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVW1hdFI4amxETE5iMUZENTA2cGJZd3VwSDB2eW5iYVVzNVZIVkZidmozeGZzcWEySVFXRURCZk1UTUl4OV80SW9FWWFWeU1TdXRnMjE4alVsSW9EVUpTSkxMSWdORnMwcXc2Y2FzTG1JcG5PZXp1NjFlZ1BzS0o3MURxYS1qM3g0U3VEU0QyWjQ2dHFJcGFpbGRTZzNzRllSc3dkdjFxekk?oc=5",
+          "headline": "Arista Networks, Inc. $ANET Shares Purchased by Wealthfront Advisers LLC",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObkd6ajE1Z1k5bEE1VlhDUzJEOWo0SmJCeGgzWmY3bGluT1FLNFV0RGJsSFBUSXRDdnFJdTJrR0JjREw2VWRoQjExRUV3OWQ1bjd4X1dGOHgxQkpsT3JzUkJFVDQ5aWdCdGIzOFI5UzB4Vmp2VUZ3VjVuUDRkc0RWbXp3VFc5MlluUUR5Zm81UUpmTExMUndxVkdXVERvLTc5NFlnSllSSlhBVUNJb19NWkc1ODl5M2RncjBldm4wUVJnS0ViS0pMNnR3?oc=5",
           "source": "marketbeat.com",
           "summary": "",
-          "published": "2026-08-18T15:08:16"
-        },
-        {
-          "headline": "Performance Wealth Partners LLC Buys Shares of 20,000 Western Digital Corporation $WDC",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRWV5Qm4xZzQ4V0tXdGZzUV82OWpRRXRFN3J5TXF4M0RNSUk5X0t3NHpTOU5yc3FkQkpmNERFUGllWGxvSWNPNEZOUlpuOHJYaEl0VnpJVmdOcWlCWlc1d29iWDdKNXEzMmFBOHZrS01BYi1TMnBKV3lBb3Z6U3BRSzd3Z1B1Nl9uZWZBbFNhbEI3QkZHUDZWSEFsMlVrcUZVU2RSSFhINk0wRFh4VDlabDBmVlNBbHpianRKS0NJdHFVSEdYcjJwcU9OREE5TWZjMGI4ZGxnYUREUUo3NHc?oc=5",
-          "source": "marketbeat.com",
-          "summary": "",
-          "published": "2026-08-18T10:22:51"
-        },
-        {
-          "headline": "WT Asset Management Ltd Invests $500.89 Million in Western Digital Corporation $WDC",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYzAxTVBUVjh3NGVfVmJUaGEySjl6QVdCUEMydWhGVlhfeURCa3RnREEzYTZKWWE5Z1V4MFlLY0toaUZVVmgtRVdWZmJTOHNabEUyWE1Bb0ljYmZ4bC1SaEhzenlrUFFROGFfLXJUMlprdHNudi1HaWpnSjB0MXA2ZUttYVNZT0FCQ0I3MVdVZ1R6ald0VnpUZy1LNEtMVlZwYTRVWGdkOTY1VGZick9ieHNoTm4waTlkR0cyRHVtWEJXRFZuOHhaUUFKSVZiak11cXRDbUtlMkM?oc=5",
-          "source": "marketbeat.com",
-          "summary": "",
-          "published": "2026-08-18T10:22:51"
+          "published": "2026-08-19T10:28:10"
         }
       ]
     }
@@ -1344,12 +1284,12 @@
     }
   },
   "recent_post_sources": [
-    "POWER Magazine",
     "DatacenterDynamics",
     "Bloomberg",
     "MarketBeat",
     "marketscreener.com",
-    "Data Center Knowledge"
+    "Data Center Knowledge",
+    "Tom's Hardware"
   ],
   "last_news_post_min": 29783296,
   "evergreen_opinion_used": {
@@ -1381,27 +1321,35 @@
     "texas 2.5-gw gas-plus-nuclear project proceeds to engineering, licensing phase": "2026-08-14",
     "iren delivers first phase of ai capacity to microsoft in texas": "2026-08-17",
     "nvidia to invest up to $105 billion for openai data center in ohio": "2026-08-17",
-    "for high-density ai, available data center space may not be usable": "2026-08-18"
+    "for high-density ai, available data center space may not be usable": "2026-08-18",
+    "jason kelce-led marketing campaign asks beer drinkers to send their pee to ai data centers — liquid death and garage beer skit claims 'ai data centers waste millions of gallons of water'": "2026-08-19"
   },
   "pulse_template_decks": {
     "evergreen": [
       0,
       4
     ],
-    "mover": [],
+    "mover": [
+      6,
+      3,
+      0,
+      2,
+      5,
+      4
+    ],
     "price_event": [
       3,
       4
     ],
     "quiet": []
   },
-  "last_evergreen_min": 29784332,
+  "last_evergreen_min": 29785837,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 296.0,
-    "SIE.DE": 277.8,
+    "SU.PA": 293.5,
+    "SIE.DE": 276.75,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1427,24 +1375,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.28,
-    "BESI.AS": 219.3,
-    "AIXA.DE": 38.15,
-    "IFX.DE": 56.6,
-    "ASML.AS": 1558.0,
-    "MU": 944.71,
-    "TSM": 413.78,
-    "KLAC": 193.81,
-    "STX": 915.05,
-    "ANET": 191.64,
-    "LRCX": 322.66,
-    "FORM": 123.54,
-    "AVGO": 380.77,
-    "AMAT": 506.28,
-    "AMD": 480.86,
-    "MRVL": 215.23,
-    "NVDA": 219.98,
-    "WDC": 499.85
+    "SAP.DE": 184.94,
+    "BESI.AS": 212.9,
+    "AIXA.DE": 37.32,
+    "IFX.DE": 55.13,
+    "ASML.AS": 1506.6,
+    "MU": 930.42,
+    "TSM": 411.38,
+    "KLAC": 187.4,
+    "STX": 850.71,
+    "ANET": 186.09,
+    "LRCX": 312.53,
+    "FORM": 116.6,
+    "AVGO": 357.82,
+    "AMAT": 495.41,
+    "AMD": 463.51,
+    "MRVL": 232.34,
+    "NVDA": 218.04,
+    "WDC": 472.36
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1472,9 +1420,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 39,
-  "last_pulse_post_min": 29785430,
-  "last_pulse_ticker": "AIXA.DE",
+  "next_pulse_interval": 40,
+  "last_pulse_post_min": 29785834,
+  "last_pulse_ticker": "MRVL",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
@@ -1518,5 +1466,7 @@
       "fire_time": "22:34"
     }
   ],
-  "us_posted": []
+  "us_posted": [
+    0
+  ]
 }
