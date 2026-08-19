@@ -3525,10 +3525,8 @@ _EVERGREEN_OPINION_QUERIES = [
     # Broad outlets that are paywalled / have no clean RSS AND publish far more than AI-infra
     # content — the topic keywords here do real work narrowing results, unlike the dedicated-source
     # group below. One OR-group = one fetch. aimagazine.com (BizClik network) and theinformation.com
-    # both 403/challenge a direct fetch even with a browser UA. datacentremagazine.com (same BizClik
-    # network as aimagazine.com) moved to a direct feed below via an rss.app proxy — its own domain
-    # still has no public feed, but the proxy resolves it cleanly. The Register lives here rather
-    # than the dedicated group below because Google's site: operator can't scope to just their
+    # both 403/challenge a direct fetch even with a browser UA. The Register lives here rather than
+    # the dedicated group below because Google's site: operator can't scope to just their
     # /tag/datacenter/ path — a bare site:theregister.com would pull ALL their coverage (security,
     # general hardware, etc.), so it needs the topic-keyword narrowing too.
     '("data center" OR "AI infrastructure" OR "power grid") (site:reuters.com OR site:bloomberg.com '
@@ -3536,27 +3534,29 @@ _EVERGREEN_OPINION_QUERIES = [
     'OR site:aimagazine.com OR site:theinformation.com)',
     # Dedicated infra outlets with no clean RSS of their own — Data Center Frontier's feed 404s on
     # every standard path (/rss.xml, /feed), Uptime Institute's Journal has no discoverable feed
-    # either. Unlike the broad group above, these publish almost nothing OFF-topic, so a bare site:
-    # search (no topic keywords required) maximizes recall — the shared _AI_INFRA_TOPIC_RE filter
-    # downstream still screens out anything that isn't actually infra-relevant.
-    'site:datacenterfrontier.com OR site:uptimeinstitute.com',
+    # either, and datacentremagazine.com (same BizClik network as aimagazine.com) 403/404s on every
+    # RSS convention too — a third-party rss.app proxy feed did work for it, but that's an external
+    # dependency on a personal proxy URL rather than the publisher's own infrastructure, so it's
+    # covered here instead. Unlike the broad group above, these publish almost nothing OFF-topic, so
+    # a bare site: search (no topic keywords required) maximizes recall — the shared
+    # _AI_INFRA_TOPIC_RE filter downstream still screens out anything that isn't actually
+    # infra-relevant.
+    'site:datacenterfrontier.com OR site:uptimeinstitute.com OR site:datacentremagazine.com',
 ]
 # Direct RSS feeds from credible AI-infra / grid trade press — fetched alongside the topic searches
 # so their coverage reliably surfaces instead of depending on Google News to index it. All confirmed
 # live with full pubDate coverage. The source label is forced (these link to their own domain, which
-# would otherwise show as a bare hostname). DCD/DCK/Intelligent Data Centres/Data Centre Magazine/
-# ServeTheHome/The Next Platform/HPCwire/Top500/OpenCompute/SemiAnalysis cover data centers/HPC/AI
-# infra directly; Power Magazine/Utility Dive/Canary Media cover the grid + utility-economics side
-# the basket's power names hinge on. EE Times/Tom's Hardware/Network World/IEEE Spectrum are broad
-# general-tech outlets (most of their volume is unrelated to data centers/AI infra) — these four are
-# gated by the stricter _STRICT_AI_INFRA_RE filter below instead of the loose one everything else uses.
+# would otherwise show as a bare hostname). DCD/DCK/Intelligent Data Centres/ServeTheHome/The Next
+# Platform/HPCwire/Top500/OpenCompute/SemiAnalysis cover data centers/HPC/AI infra directly; Power
+# Magazine/Utility Dive/Canary Media cover the grid + utility-economics side the basket's power names
+# hinge on. EE Times/Tom's Hardware/Network World/IEEE Spectrum are broad general-tech outlets (most
+# of their volume is unrelated to data centers/AI infra) — these four are gated by the stricter
+# _STRICT_AI_INFRA_RE filter below instead of the loose one everything else uses. Data Centre
+# Magazine is covered via the Google News site: search group instead of a direct feed — see there.
 _EVERGREEN_DIRECT_FEEDS = [
     ("https://www.datacenterdynamics.com/en/rss/", "DatacenterDynamics"),
     ("https://www.datacenterknowledge.com/rss.xml", "Data Center Knowledge"),
     ("https://www.intelligentdatacentres.com/feed/", "Intelligent Data Centres"),
-    # datacentremagazine.com has no public feed of its own (confirmed: /rss, /feed, /rss.xml all
-    # 403/404) — this is an rss.app-generated proxy feed instead, pointed at the same site.
-    ("https://rss.app/feeds/TvMAwanH8LEvRcRq.xml", "Data Centre Magazine"),
     ("https://www.powermag.com/feed/", "POWER Magazine"),
     ("https://www.utilitydive.com/feeds/news/", "Utility Dive"),
     ("https://www.canarymedia.com/feed", "Canary Media"),
