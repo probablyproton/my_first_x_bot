@@ -1156,15 +1156,19 @@ do not let one ticker's news influence another's classification.
 A headline qualifies as MAJOR if it meets ANY of these criteria:
 
 Earnings:
-- EPS beat or miss vs estimate: >5%
-- Revenue beat or miss vs estimate: >3%
+- EPS beat or miss vs estimate: >3%
+- Revenue beat or miss vs estimate: >2%
 - Full-year guidance raise or cut: any
-- Margin guidance change: >2 percentage points
+- Margin guidance change: >1.5 percentage points
 
 Contract / Partnership:
-- Contract value: >$100M or described as "major", "significant", "multi-year"
+- Contract value: >$50M or described as "major", "significant", "multi-year"
 - New major customer win or loss: any
 - Government or defense contract: any
+
+Expansion / Capital investment (category "expansion"):
+- New facility, plant, or capacity expansion: >$25M
+- Named capital investment in a country/region/site (e.g. "investing $250 million in India"): >$25M
 
 M&A:
 - Acquisition, merger, or buyout of the COMPANY ITSELF (the ticker being taken over, or the
@@ -1193,12 +1197,12 @@ Regulatory / Geopolitical:
 - CHIPS Act or equivalent government funding: any
 
 Macro:
-- Hyperscaler capex revision: >$1B
+- Hyperscaler capex revision: >$500M
 - Fed rate decision surprise vs expectation: any
-- Semiconductor supply/demand shift: >10%
+- Semiconductor supply/demand shift: >7%
 
 Company-specific:
-- Share buyback announcement: >$500M
+- Share buyback announcement: >$200M
 - Insider buying: >$1M in a single transaction
 - Dividend change: any
 - Loss of a top 3 customer: any
@@ -1211,7 +1215,7 @@ Respond with a JSON array, exactly one object per ticker given, in the same orde
   {
     "symbol": "the ticker this judgment is about",
     "is_major": true or false,
-    "category": "earnings|contract|ma|large_share_purchases|analyst_note|regulatory|macro|company|none",
+    "category": "earnings|contract|expansion|ma|large_share_purchases|analyst_note|regulatory|macro|company|none",
     "headline": "the exact headline that triggered this (omit or empty if is_major is false)",
     "reason": "one sentence explaining why it qualifies or not"
   }
@@ -1364,6 +1368,14 @@ _KEYWORD_RULES = [
     ("ma",         re.compile(r"\b(acquir\w*|merger|buyout|takeover)\b", re.I), None),
     ("contract",   re.compile(r"\b(contract|partnership|deal)\b", re.I),
                    re.compile(r"\$[\d,.]+\s?(million|billion|M|B)\b", re.I)),
+    # Capital investment / capacity expansion ("Marvell Investing $250 Million In India") — a
+    # real, substantive company development that previously matched NO category at all, since
+    # "invest"/"expand"/"facility" aren't "contract"/"partnership"/"deal". Same shape as the
+    # contract rule (a real dollar figure required alongside the keyword) so it stays just as
+    # tight, not a loophole for vague "expanding into new markets" fluff pieces.
+    ("expansion",  re.compile(r"\b(invest\w*|expand\w*|capacity|"
+                               r"(?:new|build\w*)\b(?:\s+\S+){0,4}?\s+(?:plant|facility|factory)\b)", re.I),
+                   re.compile(r"\$[\d,.]+\s?(million|billion|M|B)\b", re.I)),
     ("earnings",   re.compile(r"\b(beats?|misses?)\s+(Q\d\s+)?estimates?\b|\btops? estimates?\b|"
                                r"\bguidance (raised|cut|lowered)\b", re.I), None),
     ("buyback",    re.compile(r"\b(buyback|share repurchase)\b", re.I),
@@ -1470,6 +1482,16 @@ _ANALYSIS_PIECE_PATTERNS = [
     re.compile(r"\bbuy\s+or\s+sell\b", re.I),
     re.compile(r"\b(the\s+)?better\s+buy\b", re.I),
     re.compile(r"\btop\s+\d*\s*stocks?\s+to\b", re.I),
+    # Numbered-listicle stock-tout templates ("3 Semiconductor Stocks to Buy Before the Next AI
+    # Earnings Wave in August") — the above "top N stocks to" pattern requires the literal word
+    # "top", which most listicles don't use, and requires the number directly adjacent to "stocks"
+    # with no sector/theme qualifier in between. This catches the bare-number form instead: a
+    # leading cardinal followed eventually (allowing up to a few qualifier words, e.g.
+    # "Semiconductor"/"AI"/"Dividend") by "stock(s) to {buy/watch/...}". Confirmed miss on the real
+    # watchlist: exactly this headline posted as if it were MRVL-specific news, with MRVL just one
+    # of the 3 names the listicle happened to mention.
+    re.compile(r"\b\d+\s+[\w&'-]+(?:\s+[\w&'-]+){0,4}?\s+stocks?\s+to\s+"
+               r"(?:buy|watch|consider|own|sell|avoid|add)\b", re.I),
     re.compile(r"\bwhy\s+.+\s+is(n'?t)?\s+a\s+good\s+investment\b", re.I),
     re.compile(r"\bis\s+it\s+time\s+to\s+buy\b", re.I),
     re.compile(r"\bworth\s+(buying|investing)\b", re.I),
@@ -3070,29 +3092,36 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                 item.get("all_articles", []), state.get("recent_post_sources", []))
             link = _resolve_google_news_url(raw_link)
 
-            # "In doubt" covers two different things: the link never resolved off Google's
-            # redirect wrapper at all (imprecise — a bad preview card, not evidence of stale
-            # content), or it resolved but failed the destination-page staleness check (evidence
-            # the CONTENT itself is old, e.g. an MSN re-publish of a 2024 filing). Either way,
-            # prefer a different wire distribution of the same story that we CAN vouch for over
-            # posting an imprecise link or dropping a real story over one bad distribution of it.
+            # "In doubt" covers three different things: no link at all (the source article's own
+            # <link> was empty/missing — e.g. some Nasdaq/wire items carry no clean link even when
+            # a real source name is known), the link never resolved off Google's redirect wrapper
+            # at all (imprecise — a bad preview card, not evidence of stale content), or it
+            # resolved but failed the destination-page staleness check (evidence the CONTENT itself
+            # is old, e.g. an MSN re-publish of a 2024 filing). Either way, prefer a different wire
+            # distribution of the same story that we CAN vouch for over posting with no/an
+            # imprecise link, or dropping a real story over one bad distribution of it.
+            missing    = not link
             unresolved = bool(link) and "news.google.com" in link
             stale      = bool(link) and not unresolved and _is_confirmed_stale(link)
 
-            if unresolved or stale:
+            if missing or unresolved or stale:
                 alt = _find_verifiable_alternate_link(classification["headline"],
                                                        item.get("all_articles", []), exclude_link=link)
                 if alt:
                     log.info("NEWS EVENT link swapped for $%s (original was %s) — using verified "
                               "alternate source instead: %s",
-                              symbol, "an unresolved Google redirect" if unresolved else "confirmed stale",
+                              symbol,
+                              "missing" if missing else
+                              "an unresolved Google redirect" if unresolved else "confirmed stale",
                               alt[1])
                     link, source = alt
                     stale = False
-                elif stale:
-                    log.warning("NEWS EVENT dropped (confirmed stale via destination page, "
-                                "published >%dh ago, no verifiable alternate source found) — $%s: %s",
-                                NEWS_FRESHNESS_HOURS, symbol, classification["headline"])
+                elif stale or missing:
+                    log.warning("NEWS EVENT dropped (%s, no verifiable alternate source found) "
+                                "— $%s: %s",
+                                "confirmed stale via destination page, published "
+                                f">{NEWS_FRESHNESS_HOURS}h ago" if stale else "no link available anywhere",
+                                symbol, classification["headline"])
                     if pool:
                         _refund_slot(state, symbol, pool)
                     _log_event(state, mechanism="news_event", generation_method=method,
@@ -3101,7 +3130,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                                headline_link=link or "", news_category=classification["category"],
                                price=price_ctx.get("price") if price_ctx else "",
                                change_pct=price_ctx.get("change_pct") if price_ctx else "",
-                               posted="N", skip_reason="confirmed_stale_source")
+                               posted="N", skip_reason="confirmed_stale_source" if stale else "no_link_available")
                     continue
                 # else: still just an unresolved redirect, not confirmed stale, no alternate found
                 # — fall through and use it as a last resort, same as before this feature existed.
@@ -3488,23 +3517,28 @@ _EVERGREEN_OPINION_QUERIES = [
     'regulator OR ratepayer)',
     # High-signal majors that are paywalled / have no clean RSS — reached via Google News site:
     # search (which indexes their headlines) rather than a direct feed. One OR-group = one fetch.
-    # datacentremagazine.com/aimagazine.com (BizClik network) and theinformation.com all 403/challenge
-    # a direct fetch even with a browser UA — same treatment as the wire majors below rather than a
-    # direct feed hitting a Cloudflare-gated domain on a schedule from a GH Actions IP.
+    # aimagazine.com (BizClik network) and theinformation.com both 403/challenge a direct fetch
+    # even with a browser UA — same treatment as the wire majors below rather than a direct feed
+    # hitting a Cloudflare-gated domain on a schedule from a GH Actions IP. datacentremagazine.com
+    # (same BizClik network as aimagazine.com) moved to a direct feed below via an rss.app proxy —
+    # its own domain still has no public feed, but the proxy resolves it cleanly.
     '("data center" OR "AI infrastructure" OR "power grid") (site:reuters.com OR site:bloomberg.com '
-    'OR site:cnbc.com OR site:politico.com OR site:axios.com OR site:datacentremagazine.com '
+    'OR site:cnbc.com OR site:politico.com OR site:axios.com '
     'OR site:aimagazine.com OR site:theinformation.com)',
 ]
 # Direct RSS feeds from credible AI-infra / grid trade press — fetched alongside the topic searches
 # so their coverage reliably surfaces instead of depending on Google News to index it. All confirmed
 # live with full pubDate coverage. The source label is forced (these link to their own domain, which
-# would otherwise show as a bare hostname). DCD/DCK/Intelligent Data Centres cover data centers;
-# Power Magazine / Utility Dive / Canary Media cover the grid + utility-economics side the basket's
-# power names hinge on.
+# would otherwise show as a bare hostname). DCD/DCK/Intelligent Data Centres/Data Centre Magazine
+# cover data centers; Power Magazine / Utility Dive / Canary Media cover the grid + utility-economics
+# side the basket's power names hinge on.
 _EVERGREEN_DIRECT_FEEDS = [
     ("https://www.datacenterdynamics.com/en/rss/", "DatacenterDynamics"),
     ("https://www.datacenterknowledge.com/rss.xml", "Data Center Knowledge"),
     ("https://www.intelligentdatacentres.com/feed/", "Intelligent Data Centres"),
+    # datacentremagazine.com has no public feed of its own (confirmed: /rss, /feed, /rss.xml all
+    # 403/404) — this is an rss.app-generated proxy feed instead, pointed at the same site.
+    ("https://rss.app/feeds/TvMAwanH8LEvRcRq.xml", "Data Centre Magazine"),
     ("https://www.powermag.com/feed/", "POWER Magazine"),
     ("https://www.utilitydive.com/feeds/news/", "Utility Dive"),
     ("https://www.canarymedia.com/feed", "Canary Media"),
