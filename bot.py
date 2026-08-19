@@ -844,11 +844,11 @@ PULSE_MOVER_TEMPLATES = [
 ]
 
 PULSE_QUIET_TEMPLATES = [
-    "Quiet stretch across the board – ${base} holding near flat at {currency}{price}.",
+    "Quiet stretch for ${base} – holding near flat at {currency}{price}.",
     "Nothing dramatic this hour. ${base} sits at {currency}{price} ({sign}{pct}%).",
     "Calm session so far – ${base} at {currency}{price}, barely moved ({sign}{pct}%).",
-    "${base} holding steady at {currency}{price} ({sign}{pct}%) – a quiet stretch for the group.",
-    "Low-key hour across the watchlist. ${base} at {currency}{price}, {sign}{pct}%.",
+    "${base} holding steady at {currency}{price} ({sign}{pct}%) – a quiet stretch.",
+    "Low-key hour for ${base}, at {currency}{price} ({sign}{pct}%).",
 ]
 
 # Fallback for a genuine >= EVENT_DAY_THRESHOLD_PCT day move when Gemini's daily budget is
