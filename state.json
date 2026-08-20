@@ -2,7 +2,7 @@
   "date": "2026-08-20",
   "daily_posts": 1,
   "daily_keyword_posts": 2,
-  "daily_pulse_posts": 12,
+  "daily_pulse_posts": 13,
   "gemini_calls_today": 19,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 461,
+  "event_log_next_id": 464,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -856,12 +856,12 @@
       "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Abacus FCF Advisors LLC Makes New Investment in KLA Corporation $KLAC",
+      "Alger Growth & Income Fund Q2 2026 Portfolio Review",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "Trust Co. of Vermont Makes New $3.18 Million Investment in KLA Corporation $KLAC",
-      "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know",
       "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide",
       "Stocks Mixed on Lower Bond Yields and Chip Stock Weakness"
     ],
@@ -884,8 +884,8 @@
       "SAP Quarterly Statement Q2 2026",
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
       "SAP shrugs off fears of AI eating software with big earnings beat",
-      "Resilient SAP stock trades around $208 as AI deals reshape 2026 guidance",
-      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve"
+      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
+      "Resilient SAP stock trades around $208 as AI deals reshape 2026 guidance"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -1014,8 +1014,8 @@
       "Infineon Technologies Ag Provides Earnings Guidance for the Fourth Quarter and Fiscal Year 2026",
       "North America Intelligent Power Module Market Report",
       "North America Silicon Carbide (SiC) Market",
-      "INFINEON TECHNOLOGIES AG : Jefferies remains its Buy rating",
-      "Infineon Technologies (IFNNY) is an Incredible Growth Stock: 3 Reasons Why"
+      "Infineon Technologies (IFNNY) is an Incredible Growth Stock: 3 Reasons Why",
+      "INFINEON TECHNOLOGIES AG : Jefferies remains its Buy rating"
     ],
     "ANET": [
       "Strong Track Record Reinforces Arista Networks’ (ANET) Long Term Delivery",
@@ -1029,7 +1029,7 @@
       "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
       "Genpact Stock Gains 13% in a Month",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
-      "Arista Networks calls time on server line due to supply chain pressures",
+      "Forrester challenge to Nvidia's networking claims by crowning Cisco, Arista, and Huawei",
       "Arista Networks Inc. stock outperforms competitors despite losses on the day",
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
@@ -1106,63 +1106,7 @@
       "Micron Stock Closes Above $1,000 After Key Move by Trump Administration"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "WDC",
-      "classification": {
-        "symbol": "WDC",
-        "is_major": true,
-        "category": "large_share_purchases",
-        "headline": "Trivest Advisors Ltd Acquires New Holdings in Western Digital Corporation $WDC",
-        "reason": "A named institution acquired new holdings (shares) in the company, qualifying as a large share purchase."
-      },
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdF8yQkhiZ296Ti1PUy1zWlhOMWdlZ0tqdVVrQ182SnBPVk5OOEFJNFpkeUUyT1psSVRKUHFJWUJCNk10dHpJRFpOWC0yaXktT1VvR3JtX0JvVV9YR1NSTUNuTDVyUVJEZ1h5d1plTGVvaWw0UnJlMzFrVHN0UVNLQXFPOFhPZHY4VlVjeXdPbnQzTGJhdHVkdzA3TTV2anVCMDQ3aHRBWU51Y3E5T21udVNYZjZZY0d0N0VnVE1ydGJxbzgwTHFYaFVyMnRyVFVsTWladw?oc=5",
-      "source": "MarketBeat",
-      "method": "gemini",
-      "published": "2026-08-20T11:07:27",
-      "queued_min": 29787076,
-      "all_articles": [
-        {
-          "headline": "Trivest Advisors Ltd Acquires New Holdings in Western Digital Corporation $WDC",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdF8yQkhiZ296Ti1PUy1zWlhOMWdlZ0tqdVVrQ182SnBPVk5OOEFJNFpkeUUyT1psSVRKUHFJWUJCNk10dHpJRFpOWC0yaXktT1VvR3JtX0JvVV9YR1NSTUNuTDVyUVJEZ1h5d1plTGVvaWw0UnJlMzFrVHN0UVNLQXFPOFhPZHY4VlVjeXdPbnQzTGJhdHVkdzA3TTV2anVCMDQ3aHRBWU51Y3E5T21udVNYZjZZY0d0N0VnVE1ydGJxbzgwTHFYaFVyMnRyVFVsTWladw?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-20T11:07:27"
-        }
-      ]
-    },
-    {
-      "symbol": "FORM",
-      "classification": {
-        "symbol": "FORM",
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "FormFactor (NASDAQ:FORM) Upgraded at Zacks Research",
-        "reason": "A named research firm, Zacks Research, upgraded the company's rating, which qualifies as an analyst note."
-      },
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVTVqUGRlRURXM0FWYzI0Ulk1bFNvX25FNE5GQ3pPTGtLTEJ6ekYwWWFsRGtzaEJLa0RlTm1vaGtRRHRBaGdxQTlQYjMxamxqTDg4R01NU2FRQWpLQ2ZORnBkb0FySUViM01FanVBZnRvaHlCUzBaNW4xMzZGMHJ3cU40a0Y4emlCUThqMXMyZ2c1TlhsMlVyUmpfUDBoQXhHOU42cg?oc=5",
-      "source": "MarketBeat",
-      "method": "gemini",
-      "published": "2026-08-20T11:11:30",
-      "queued_min": 29787076,
-      "all_articles": [
-        {
-          "headline": "FormFactor (NASDAQ:FORM) Upgraded at Zacks Research",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVTVqUGRlRURXM0FWYzI0Ulk1bFNvX25FNE5GQ3pPTGtLTEJ6ekYwWWFsRGtzaEJLa0RlTm1vaGtRRHRBaGdxQTlQYjMxamxqTDg4R01NU2FRQWpLQ2ZORnBkb0FySUViM01FanVBZnRvaHlCUzBaNW4xMzZGMHJ3cU40a0Y4emlCUThqMXMyZ2c1TlhsMlVyUmpfUDBoQXhHOU42cg?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-20T11:11:30"
-        },
-        {
-          "headline": "Lisanti Capital Growth LLC Makes New $6.63 Million Investment in FormFactor, Inc. $FORM",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxORUZ0bXktZlhxMVJrZDZXdVF2ZkVQdG9EaU5LVndYTzNQYUppYldLeERMV3pSM2dsRUstZS0wdUZ5VFh6QVNTZndXMjdrdWdtVXRYV3I2Ukp5Vy1aTU55M2x0TjNRMjlFLVpLc1lFT041SHdjRnV4ZHZEOC0yX1JjR0VtVy1aM19aRmVReXlzY1ByWVltRVJ0UlpOaWZ5Wm1uX2VqU1QzWGl3dUhtRW5ramJhLXc2MmkwVnlaR3ZYTHpHOEJTMHBPZ29SampWUWR3Q1RkUXplaWxrMTg?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-20T10:29:21"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1342,7 +1286,14 @@
   },
   "pulse_template_decks": {
     "evergreen": [],
-    "mover": [],
+    "mover": [
+      0,
+      2,
+      4,
+      5,
+      6,
+      1
+    ],
     "price_event": [
       3,
       4
@@ -1391,19 +1342,19 @@
     "AIXA.DE": 37.49,
     "IFX.DE": 55.66,
     "ASML.AS": 1515.8,
-    "MU": 957.29,
-    "TSM": 415.41,
-    "KLAC": 187.19,
-    "STX": 853.04,
-    "ANET": 186.02,
-    "LRCX": 308.47,
-    "FORM": 114.88,
-    "AVGO": 363.17,
-    "AMAT": 493.61,
-    "AMD": 463.64,
-    "MRVL": 243.61,
-    "NVDA": 217.35,
-    "WDC": 468.81
+    "MU": 954.11,
+    "TSM": 415.53,
+    "KLAC": 185.41,
+    "STX": 851.65,
+    "ANET": 184.34,
+    "LRCX": 306.65,
+    "FORM": 115.4,
+    "AVGO": 365.12,
+    "AMAT": 489.78,
+    "AMD": 463.67,
+    "MRVL": 245.29,
+    "NVDA": 216.75,
+    "WDC": 466.94
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1431,9 +1382,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 32,
-  "last_pulse_post_min": 29787421,
-  "last_pulse_ticker": "AMAT",
+  "next_pulse_interval": 45,
+  "last_pulse_post_min": 29787481,
+  "last_pulse_ticker": "MRVL",
   "pulse_news_seen": {
     "avgo:broadcom's ai financing could reach $370 billion. but it's not as bad as it sounds.": "2026-08-18",
     "amd:cathie wood's ark invest adds nvidia stake, sells amd stock across four etfs": "2026-08-18",
@@ -1441,7 +1392,8 @@
     "anet:deutsche bank ag acquires 388,354 shares of arista networks, inc. $anet": "2026-08-18",
     "tsm:tsmc trades 30.87% above gf value as chip capacity tightens": "2026-08-20",
     "asml.as:taiwan semiconductor vs. asml: which semiconductor titan is the better buy today?": "2026-08-20",
-    "su.pa:intralogistex dallas: schneider electric’s srivatsan prativathi on unlocking smarter warehouse performance": "2026-08-20"
+    "su.pa:intralogistex dallas: schneider electric’s srivatsan prativathi on unlocking smarter warehouse performance": "2026-08-20",
+    "mrvl:marvell technology likely to post slight q2 beat, rbc says": "2026-08-20"
   },
   "eu_slots": [
     {
