@@ -1,9 +1,9 @@
 {
   "date": "2026-08-20",
-  "daily_posts": 0,
+  "daily_posts": 1,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 10,
-  "gemini_calls_today": 17,
+  "daily_pulse_posts": 11,
+  "gemini_calls_today": 19,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-07-05",
@@ -54,7 +54,7 @@
     "ANET": 1262,
     "MU": 1322,
     "AMD": 1292,
-    "BESI.AS": 917,
+    "BESI.AS": 1083,
     "ASML.AS": 1183,
     "IFX.DE": 964,
     "LRCX": 1261,
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 458,
+  "event_log_next_id": 460,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -331,15 +331,15 @@
       "Acuity Inc. Names Ruth Gratzke President of Acuity Brands Lighting",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
+      "Harry Siemens Honored for Farm Reporting",
       "Siemens Launches Wendell Microgrid at HQ Campus",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
-      "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC"
+      "Tobias Bauer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -857,12 +857,12 @@
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Abacus FCF Advisors LLC Makes New Investment in KLA Corporation $KLAC",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
-      "KLA Corp. stock underperforms Wednesday when compared to competitors",
       "Qnity installs KLA defect inspection system in Massachusetts",
-      "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know",
+      "KLA Corp. stock underperforms Wednesday when compared to competitors",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
-      "KLA Corp Stock (KLAC) Moved Down by 3.81% on Aug 19: A Full Analysis",
+      "KLA Corporation Revenue Breakdown – MIL:1KLAC",
+      "Trust Co. of Vermont Makes New $3.18 Million Investment in KLA Corporation $KLAC",
       "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide"
     ],
     "SAP.DE": [
@@ -964,15 +964,15 @@
       "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
-      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON SE increases FY 2026 guidance",
+      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Is It Time To Consider Buying AIXTRON SE (ETR:AIXA)?",
-      "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
       "Aixtron receives multiple tool orders from Lumentum",
-      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
-      "Aixtron SE vs Veeco Instruments"
+      "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
+      "Despite lower earnings than a year ago, AIXTRON (ETR:AIXA) investors are up 49% since then",
+      "Aixtron (AIXA) Stock Price, News & Analysis"
     ],
     "AMD": [
       "Tech sell-off resumes, counterbalancing bond yield relief: AlphaCheck",
@@ -1005,8 +1005,8 @@
       "German chipmaker Infineon posts record revenue as AI fuels growth",
       "Chip Stocks Climb as AI Rally Regains Strength",
       "Japan's Power-Chip Giants Target September Deal to Challenge Infineon",
+      "Marvell Technology vs. Verizon Communications: Which Technology Stock Is a Better Buy in 2026?",
       "JEDEC® Announces Automotive Electronics Forum in September 2026",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon Technologies AG: Release of a capital market information",
       "Infineon Number of Employees 2026 | Employee Count & Headcount Data",
@@ -1015,7 +1015,7 @@
       "Infineon Technologies Ag Provides Earnings Guidance for the Fourth Quarter and Fiscal Year 2026",
       "North America Intelligent Power Module Market Report",
       "North America Silicon Carbide (SiC) Market",
-      "Infineon-led European project Moore4Power launches"
+      "Infineon Technologies (IFNNY) is an Incredible Growth Stock: 3 Reasons Why"
     ],
     "ANET": [
       "Strong Track Record Reinforces Arista Networks’ (ANET) Long Term Delivery",
@@ -1033,11 +1033,11 @@
       "Arista Networks calls time on server line due to supply chain pressures",
       "Arista Networks Inc. stock outperforms competitors despite losses on the day",
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
+      "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
       "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
       "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
       "Arista Networks vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
-      "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
-      "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET"
+      "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1343,9 +1343,7 @@
     "evergreen": [
       0
     ],
-    "mover": [
-      6
-    ],
+    "mover": [],
     "price_event": [
       3,
       4
@@ -1389,19 +1387,19 @@
     "AIXA.DE": 37.49,
     "IFX.DE": 55.66,
     "ASML.AS": 1515.8,
-    "MU": 961.67,
-    "TSM": 416.73,
-    "KLAC": 188.65,
-    "STX": 867.11,
-    "ANET": 187.04,
-    "LRCX": 311.91,
-    "FORM": 116.14,
-    "AVGO": 366.08,
-    "AMAT": 496.63,
-    "AMD": 467.75,
-    "MRVL": 246.54,
-    "NVDA": 218.07,
-    "WDC": 476.58
+    "MU": 960.4,
+    "TSM": 414.64,
+    "KLAC": 186.91,
+    "STX": 858.72,
+    "ANET": 185.55,
+    "LRCX": 309.04,
+    "FORM": 114.97,
+    "AVGO": 364.04,
+    "AMAT": 495.17,
+    "AMD": 463.85,
+    "MRVL": 242.55,
+    "NVDA": 216.34,
+    "WDC": 473.9
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1429,16 +1427,17 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 45,
-  "last_pulse_post_min": 29787301,
-  "last_pulse_ticker": "STX",
+  "next_pulse_interval": 32,
+  "last_pulse_post_min": 29787361,
+  "last_pulse_ticker": "SU.PA",
   "pulse_news_seen": {
     "avgo:broadcom's ai financing could reach $370 billion. but it's not as bad as it sounds.": "2026-08-18",
     "amd:cathie wood's ark invest adds nvidia stake, sells amd stock across four etfs": "2026-08-18",
     "mu:billionaire david tepper’s top 5 holdings just revealed": "2026-08-18",
     "anet:deutsche bank ag acquires 388,354 shares of arista networks, inc. $anet": "2026-08-18",
     "tsm:tsmc trades 30.87% above gf value as chip capacity tightens": "2026-08-20",
-    "asml.as:taiwan semiconductor vs. asml: which semiconductor titan is the better buy today?": "2026-08-20"
+    "asml.as:taiwan semiconductor vs. asml: which semiconductor titan is the better buy today?": "2026-08-20",
+    "su.pa:intralogistex dallas: schneider electric’s srivatsan prativathi on unlocking smarter warehouse performance": "2026-08-20"
   },
   "eu_slots": [
     {
@@ -1455,7 +1454,8 @@
     }
   ],
   "eu_posted": [
-    0
+    0,
+    1
   ],
   "us_slots": [
     {
