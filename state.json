@@ -1,7 +1,7 @@
 {
   "date": "2026-08-20",
   "daily_posts": 1,
-  "daily_keyword_posts": 2,
+  "daily_keyword_posts": 3,
   "daily_pulse_posts": 14,
   "gemini_calls_today": 19,
   "evergreen_opinion_posts_today": 2,
@@ -55,7 +55,7 @@
     "MU": 1322,
     "AMD": 1292,
     "BESI.AS": 1083,
-    "ASML.AS": 1183,
+    "ASML.AS": 1322,
     "IFX.DE": 964,
     "LRCX": 1261,
     "FORM": 1320,
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 465,
+  "event_log_next_id": 466,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -116,7 +116,7 @@
     "WDC": 1292,
     "news_STX": 1362,
     "ASML.AS": 862,
-    "news_ASML.AS": 1183,
+    "news_ASML.AS": 1322,
     "news_AVGO": 1400,
     "LRCX": 1111,
     "news_MRVL": 1336
@@ -746,14 +746,14 @@
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "FormFactor (NASDAQ:FORM) Upgraded at Zacks Research",
+      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor Jumps 5.6% Amid Sector-Wide Rally",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "FormFactor Inc (FORM) CEO Mike Slessor Sells 16,002 Shares",
       "Lisanti Capital Growth LLC Makes New $6.63 Million Investment in FormFactor, Inc. $FORM",
-      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
-      "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
+      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
     ],
     "LRCX": [
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
@@ -763,17 +763,17 @@
       "Lam Research's DRAM Push Gains Steam: Can It Boost Growth Further?",
       "Lam Research (LRCX) Stock Looks Fully Valued After Its 499% Run",
       "Billionaire Stanley Druckenmiller and Brad Gerstner Both Dumped Broadcom (AVGO) and Bought This AI Stock Instead",
-      "Lam Research bets $3 billion on speed, not size",
       "3 High-Flying Stocks for Long-Term Investors",
-      "Broadcom (AVGO) Faces Rising Hedge Fund Caution",
-      "Why Lam Research (LRCX) Stock Is Down Today",
-      "Lam Research Corporation $LRCX Shares Sold by Phraction Management LLC",
-      "Lam Research Announces Plans to Invest More than $3B to Expand Global Lab Network, Increase Innovation Velocity in the AI Era - Aug 13, 2026",
-      "Lam Research Corp Stock (LRCX) Moved Down by 4.50% on Aug 19: A Full Analysis",
+      "Billionaire Stanley Druckenmiller Dumped Micron, Intel, and Broadcom: Here Are the AI Infrastructure Stocks He Bought Instead",
+      "Can Applied Materials Sustain Its Growth Amid AI-Driven Demand?",
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What's Prompting the Selloff in Chip Equipment Stocks?",
-      "Royal Fund Management LLC Takes $21.44 Million Position in Lam Research Corporation $LRCX",
-      "How Lam's Global Lab Network Compresses the Path From Discovery to Fab Deployment",
-      "Lam Research Plunges 16% in a Month: Should You Still Buy the Stock?",
+      "Lam Research Announces Plans to Invest More than $3B to Expand Global Lab Network, Increase Innovation Velocity in the AI Era - Aug 13, 2026",
+      "Triasima Portfolio Management inc. Decreases Stake in Lam Research Corporation $LRCX",
+      "Why Lam Research (LRCX) Stock Is Down Today",
+      "Oak Thistle LLC Sells 15,967 Shares of Lam Research Corporation $LRCX",
+      "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide",
+      "See Which Recent 13F Filers Hold LRCX",
+      "Analog Devices Q3 Earnings Beat Estimates, Revenues Rise Y/Y",
       "Stocks Mixed on Lower Bond Yields and Chip Stock Weakness",
       "Stocks Supported by Lower Bond Yields"
     ],
@@ -858,8 +858,8 @@
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Alger Growth & Income Fund Q2 2026 Portfolio Review",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
-      "KLA Corp. stock underperforms Wednesday when compared to competitors",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
+      "KLA Corp. stock underperforms Monday when compared to competitors despite daily gains",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "Trust Co. of Vermont Makes New $3.18 Million Investment in KLA Corporation $KLAC",
       "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide",
@@ -1106,66 +1106,7 @@
       "Micron Stock Closes Above $1,000 After Key Move by Trump Administration"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "ASML.AS",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "Somerville Kurt F Invests $3.94 Million in ASML Holding N.V. $ASML",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSE5CYU1jY1B0TEdZMTgzNjc0ZG45RDJPajBFWVBrVEM2eHNIRlZ0bGZMeUg0NUtYcGVkUXo2aE80NGc1MEdoT3VhY0xoY0tXOWV2U0ZTQ0dEaV81ek9VRlJrS1Z4YkZkbXlCazJXMTVTR0JDU1dHaUdrYkRKRDAwTFRNN3dUOEJsMUg2U3llaFU1eE1XZmptZXdoZEJ1R2YzUmpFNm5RR3NEUEVjdUs1ZVFiTkl4RUtXMjN2WmFDZw?oc=5",
-      "source": "MarketBeat",
-      "method": "keyword",
-      "published": "2026-08-20T10:59:13",
-      "queued_min": 29787542,
-      "all_articles": [
-        {
-          "headline": "If You Invested $1000 In ASML Holding Stock 15 Years Ago, You Would Have This Much Today",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS2NkMG1jTWZzZnFNaldDeThUNU5GaWJ6VmMyUU5tb05xeGJvTWpRZ29kbEgwM1hhNVBsc3BrYnJfSm9UMnozZTZvMm5IcHhPVjFhWjhSWVA3RmFZOHV2cHg3WFE0WHotVHU5Vl9xdS1Bc3E4WGNUZ3dFTVBZa1RDRnlNWUJWRUZ0OGJWMGRYR2hlWFY0d3NGbVoxZVpFS1VCWVJsWDVla3Nfeld5MU81dms5MFYxNVZkRlVXdUs3Wks?oc=5",
-          "source": "Benzinga",
-          "summary": "",
-          "published": "2026-08-20T15:30:37"
-        },
-        {
-          "headline": "ASML: The Price Is Fair For Such A Crucial Company (NASDAQ:ASML)",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZWkxSmRlN1hSY1RkbzdMLXFneFI3XzV4R2ZVaWxuVmtwYWZMd1NPZ2ZhZjNwX1FMc01sNHRadE5sMlMtTnJET1BMeWJkd2lqQXdFeVRKd3Q3ZU5TeUpWaFpucGFrSGduYkxXZkMwX3Y3Z283MTBVajRWN0pJNzg4VHU1cUNzRG44WjJLLWZsY243Qmp6?oc=5",
-          "source": "Seeking Alpha",
-          "summary": "",
-          "published": "2026-08-20T13:28:48"
-        },
-        {
-          "headline": "Taiwan Semiconductor vs. ASML: Which Semiconductor Titan Is the Better Buy Today?",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT3NrV2ZaTENsa09nN1RTLUZwd1o4QVFKeC1MLWZmNWJnQ3lfZHNERkY1a3VWaHFpU0FBZ1BCaDJlZXN2RXpyaWRpSXA2Qm56b2Rtb0F3YlBhWWQ3U2FEYUFNeGp4c0hXNUxBMmozc0p1SE1lM3NrSnZrTzJlTVYzWDl6NzdzcHotemtBRXhGLThGZ1IxNUxmOQ?oc=5",
-          "source": "The Motley Fool",
-          "summary": "",
-          "published": "2026-08-20T09:35:00"
-        },
-        {
-          "headline": "U.S. preparing to force Netherlands to ban ASML from selling to China",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMXFoVGpQRlZGWVBFeTFFOEpERFVHUjIxSXhaRFFHcnV2NmlORkVrYWNMcXd2b0xvM3NIN0liRWtLZDFwUXM1TkVENWdzQkFhZjNWbG84aGxuYTVmSm9YVmtBNzdZY3ZrbTRINjNCWThELThFMWFlNFotRnBaWlhMUHJ3bkx1NVZibURF?oc=5",
-          "source": "NL Times",
-          "summary": "",
-          "published": "2026-08-20T06:38:37"
-        },
-        {
-          "headline": "ASML Gains as TSMC's Spending Forecast Hits $85 Billion",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGZzcEZQblB1aDU3QzRlekpkcVFaeXVETTRLV3RocDREbjl2RGV6cnBBcE9xWnV2UzktOWlOYXdEU0VWaWtmRnZBcGRqMUxSRS05WjNwQ1g0YVhMS2FrRkRENEp1TXdUTUFaUlYzeTJ1dENQWnVDV24xU25LR01adm0ybkJPMWFUVWVNVWFsWDUtRy14RndF?oc=5",
-          "source": "GuruFocus",
-          "summary": "",
-          "published": "2026-08-20T18:32:22"
-        },
-        {
-          "headline": "Somerville Kurt F Invests $3.94 Million in ASML Holding N.V. $ASML",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSE5CYU1jY1B0TEdZMTgzNjc0ZG45RDJPajBFWVBrVEM2eHNIRlZ0bGZMeUg0NUtYcGVkUXo2aE80NGc1MEdoT3VhY0xoY0tXOWV2U0ZTQ0dEaV81ek9VRlJrS1Z4YkZkbXlCazJXMTVTR0JDU1dHaUdrYkRKRDAwTFRNN3dUOEJsMUg2U3llaFU1eE1XZmptZXdoZEJ1R2YzUmpFNm5RR3NEUEVjdUs1ZVFiTkl4RUtXMjN2WmFDZw?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-20T10:59:13"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1196,7 +1137,8 @@
     "anet:focuspartnersadvisorsolutionsllc:18121": "2026-08-18",
     "anet:deutschebankag:388354": "2026-08-18",
     "anet:privateadvisorygroupllc:13888": "2026-08-18",
-    "anet:abacusfcfadvisorsllc:6237": "2026-08-20"
+    "anet:abacusfcfadvisorsllc:6237": "2026-08-20",
+    "lrcx:oakthistlellc:15967": "2026-08-20"
   },
   "news_category_posted": {
     "VST": {
@@ -1290,7 +1232,8 @@
       "large_share_purchases": 1362
     },
     "ASML.AS": {
-      "analyst_note": 1183
+      "analyst_note": 1183,
+      "expansion": 1322
     },
     "AVGO": {
       "analyst_note": 1221,
@@ -1301,14 +1244,14 @@
     }
   },
   "recent_post_sources": [
-    "marketscreener.com",
     "Data Center Knowledge",
     "Tom's Hardware",
     "The Motley Fool",
     "DatacenterDynamics",
-    "POWER Magazine"
+    "POWER Magazine",
+    "MarketBeat"
   ],
-  "last_news_post_min": 29786240,
+  "last_news_post_min": 29787602,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
