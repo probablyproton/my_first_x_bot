@@ -1,10 +1,10 @@
 {
   "date": "2026-08-20",
   "daily_posts": 1,
-  "daily_keyword_posts": 1,
-  "daily_pulse_posts": 11,
+  "daily_keyword_posts": 2,
+  "daily_pulse_posts": 12,
   "gemini_calls_today": 19,
-  "evergreen_opinion_posts_today": 1,
+  "evergreen_opinion_posts_today": 2,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-17",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 460,
+  "event_log_next_id": 461,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -331,15 +331,15 @@
       "Acuity Inc. Names Ruth Gratzke President of Acuity Brands Lighting",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Harry Siemens Honored for Farm Reporting",
-      "Siemens Launches Wendell Microgrid at HQ Campus",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Tobias Bauer"
+      "Harry Siemens Honored for Farm Reporting",
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Mobility North America appoints president",
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
+      "Siemens Launches Wendell Microgrid at HQ Campus"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -857,13 +857,13 @@
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Abacus FCF Advisors LLC Makes New Investment in KLA Corporation $KLAC",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
-      "Qnity installs KLA defect inspection system in Massachusetts",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
-      "KLA Corporation Revenue Breakdown – MIL:1KLAC",
       "Trust Co. of Vermont Makes New $3.18 Million Investment in KLA Corporation $KLAC",
-      "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide"
+      "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know",
+      "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide",
+      "Stocks Mixed on Lower Bond Yields and Chip Stock Weakness"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -902,11 +902,10 @@
       "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
       "Fidelity Series International Small Cap Fund's BE Semiconductor Industries NV(XAMS:BESI) Holding History",
       "EU3330.EUR Bond Profile — Key Metrics",
-      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
       "Why is BE Semiconductor stock sliding today?",
       "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
       "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "Hybrid bonding bookings lift Besi orders to €269.7 million"
+      "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI"
     ],
     "AMAT": [
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
@@ -1015,6 +1014,7 @@
       "Infineon Technologies Ag Provides Earnings Guidance for the Fourth Quarter and Fiscal Year 2026",
       "North America Intelligent Power Module Market Report",
       "North America Silicon Carbide (SiC) Market",
+      "INFINEON TECHNOLOGIES AG : Jefferies remains its Buy rating",
       "Infineon Technologies (IFNNY) is an Incredible Growth Stock: 3 Reasons Why"
     ],
     "ANET": [
@@ -1029,7 +1029,6 @@
       "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
       "Genpact Stock Gains 13% in a Month",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
-      "3 AI Networking Stocks Quietly Dominating Their Niche in August",
       "Arista Networks calls time on server line due to supply chain pressures",
       "Arista Networks Inc. stock outperforms competitors despite losses on the day",
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
@@ -1037,7 +1036,8 @@
       "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
       "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
       "Arista Networks vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
-      "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?"
+      "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
+      "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1298,12 +1298,12 @@
     }
   },
   "recent_post_sources": [
-    "MarketBeat",
     "marketscreener.com",
     "Data Center Knowledge",
     "Tom's Hardware",
     "The Motley Fool",
-    "DatacenterDynamics"
+    "DatacenterDynamics",
+    "POWER Magazine"
   ],
   "last_news_post_min": 29786240,
   "evergreen_opinion_used": {
@@ -1337,20 +1337,24 @@
     "nvidia to invest up to $105 billion for openai data center in ohio": "2026-08-17",
     "for high-density ai, available data center space may not be usable": "2026-08-18",
     "jason kelce-led marketing campaign asks beer drinkers to send their pee to ai data centers — liquid death and garage beer skit claims 'ai data centers waste millions of gallons of water'": "2026-08-19",
-    "data center rumored to be coming to hofheim in state of hesse, germany": "2026-08-20"
+    "data center rumored to be coming to hofheim in state of hesse, germany": "2026-08-20",
+    "pjm widens response to data center load as capacity shortfalls deepen": "2026-08-20"
   },
   "pulse_template_decks": {
-    "evergreen": [
-      0
-    ],
+    "evergreen": [],
     "mover": [],
     "price_event": [
       3,
       4
     ],
-    "quiet": []
+    "quiet": [
+      3,
+      2,
+      0,
+      1
+    ]
   },
-  "last_evergreen_min": 29787242,
+  "last_evergreen_min": 29787422,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
@@ -1387,19 +1391,19 @@
     "AIXA.DE": 37.49,
     "IFX.DE": 55.66,
     "ASML.AS": 1515.8,
-    "MU": 960.4,
-    "TSM": 414.64,
-    "KLAC": 186.91,
-    "STX": 858.72,
-    "ANET": 185.55,
-    "LRCX": 309.04,
-    "FORM": 114.97,
-    "AVGO": 364.04,
-    "AMAT": 495.17,
-    "AMD": 463.85,
-    "MRVL": 242.55,
-    "NVDA": 216.34,
-    "WDC": 473.9
+    "MU": 957.29,
+    "TSM": 415.41,
+    "KLAC": 187.19,
+    "STX": 853.04,
+    "ANET": 186.02,
+    "LRCX": 308.47,
+    "FORM": 114.88,
+    "AVGO": 363.17,
+    "AMAT": 493.61,
+    "AMD": 463.64,
+    "MRVL": 243.61,
+    "NVDA": 217.35,
+    "WDC": 468.81
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1428,8 +1432,8 @@
     "LRCX": "2026-08-13"
   },
   "next_pulse_interval": 32,
-  "last_pulse_post_min": 29787361,
-  "last_pulse_ticker": "SU.PA",
+  "last_pulse_post_min": 29787421,
+  "last_pulse_ticker": "AMAT",
   "pulse_news_seen": {
     "avgo:broadcom's ai financing could reach $370 billion. but it's not as bad as it sounds.": "2026-08-18",
     "amd:cathie wood's ark invest adds nvidia stake, sells amd stock across four etfs": "2026-08-18",
