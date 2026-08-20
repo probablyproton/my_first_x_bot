@@ -2,8 +2,8 @@
   "date": "2026-08-20",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 0,
-  "gemini_calls_today": 0,
+  "daily_pulse_posts": 1,
+  "gemini_calls_today": 1,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 447,
+  "event_log_next_id": 448,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -331,15 +331,15 @@
       "Acuity Inc. Names Ruth Gratzke President of Acuity Brands Lighting",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Launches Wendell Microgrid at HQ Campus",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC"
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Mobility North America appoints president",
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -804,22 +804,22 @@
       "MU, SNDK Dip Overnight: KOSPI Hits Halt Amid Asian Tech Chip Rout, SoftBank, Samsung, SK Hynix Retreat",
       "Western Digital, Nova, and Penguin Solutions Shares Plummet, What You Need To Know",
       "WSJ Report Sends Memory Stocks Down. SanDisk Down 9%, Micron Down 7%, Western Digital Down 5%",
+      "SanDisk Looks Cheap On Consensus, But The Payoff Sits In Its Contracts",
       "SanDisk Is Up 3,911% Over Twelve Months. Hedge Funds Can’t Agree on What to Do.",
       "2 Semiconductor Stocks Worth Your Attention and 1 We Brush Off",
       "Micron, Coherent, SpaceX, Klarna, Amylyx, and More Stocks That Explain Today’s Market",
       "Convertible Bonds Are the New AI Bet. The High Returns Hide Bigger Risks.",
       "Cerebras, Intel, and AMD Shares Fall Ahead of Tonight’s ‘Supernova’ Event",
-      "Prediction: Wall Street May Be Sleeping on This AI Cloud Giant",
-      "Wealthfront Advisers LLC Acquires New Holdings in Western Digital Corporation $WDC",
-      "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
-      "What's Going On With Western Digital Stock Tuesday?",
-      "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
-      "Comprehensive Financial Planning Inc. PA Makes New Investment in Western Digital Corporation $WDC",
-      "Western Digital Corp Stock (WDC) Moved Down by 6.69% on Aug 18: Facts Behind the Movement",
+      "Micron Falls 5%, SanDisk Sinks 6%, Western Digital Drops 7% as Higher Rates Test the Memory Boom",
       "Western Digital Stock Is Gaining Monday: What's Going On?",
-      "Empirical Asset Management LLC Purchases New Shares in Western Digital Corporation $WDC",
+      "Western Digital (NASDAQ:WDC) Trading Down 6.9% - Time to Sell?",
+      "Western Digital Corp Stock (WDC) Moved Down by 6.23% on Aug 19: What Signal Does It Send?",
+      "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
+      "Wealthfront Advisers LLC Acquires New Holdings in Western Digital Corporation $WDC",
+      "Why Is Western Digital Stock Sinking Thursday?",
+      "Robotti Robert Takes $13.91 Million Position in Western Digital Corporation $WDC",
       "Danica Pension Livsforsikringsaktieselskab Buys New Shares in Western Digital Corporation $WDC",
-      "Robotti Robert Takes $13.91 Million Position in Western Digital Corporation $WDC"
+      "Comprehensive Financial Planning Inc. PA Makes New Investment in Western Digital Corporation $WDC"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -885,7 +885,7 @@
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "Resilient SAP stock trades around $208 as AI deals reshape 2026 guidance",
-      "Wells Fargo Releases a Buy Rating on SAP SE (0NW4)"
+      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -963,15 +963,15 @@
       "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
-      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
+      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON SE increases FY 2026 guidance",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Is It Time To Consider Buying AIXTRON SE (ETR:AIXA)?",
       "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
-      "Aixtron receives multiple tool orders from Lumentum",
       "Aixtron (AIXA) Stock Price, News & Analysis",
+      "Aixtron receives multiple tool orders from Lumentum",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe"
     ],
     "AMD": [
@@ -1028,13 +1028,13 @@
       "Genpact Stock Gains 13% in a Month",
       "3 AI Networking Stocks Quietly Dominating Their Niche in August",
       "Cerebras Unveils CS-4, OpenAI and AMD Partnerships to Accelerate AI Inference",
+      "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
-      "Arista Networks calls time on server line due to supply chain pressures",
       "A Look at Arista Networks Inc (ANET) After 3.5% Decline -- GF Va",
+      "Arista Networks calls time on server line due to supply chain pressures",
       "Arista Networks Inc. stock outperforms competitors despite losses on the day",
       "Arista Networks (NYSE:ANET) Shares Down 3.5% - Should You Sell?",
       "Arista Networks Inc Stock (ANET) Closed Down by 3.64% on Aug 19: A Full Analysis",
-      "President Capital Adjusts Price Target on Arista Networks to $238 From $180, Maintains Buy Rating",
       "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
       "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?"
@@ -1336,15 +1336,20 @@
       3,
       4
     ],
-    "quiet": []
+    "quiet": [
+      3,
+      2,
+      0,
+      1
+    ]
   },
   "last_evergreen_min": 29785837,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 294.85,
-    "SIE.DE": 277.1,
+    "SU.PA": 295.15,
+    "SIE.DE": 276.8,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1370,11 +1375,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 185.38,
-    "BESI.AS": 213.6,
-    "AIXA.DE": 37.61,
-    "IFX.DE": 55.27,
-    "ASML.AS": 1514.6,
+    "SAP.DE": 183.7,
+    "BESI.AS": 215.0,
+    "AIXA.DE": 37.9,
+    "IFX.DE": 55.99,
+    "ASML.AS": 1520.0,
     "MU": 932.33,
     "TSM": 412.47,
     "KLAC": 188.42,
@@ -1415,9 +1420,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 40,
-  "last_pulse_post_min": 29785834,
-  "last_pulse_ticker": "MRVL",
+  "next_pulse_interval": 32,
+  "last_pulse_post_min": 29786836,
+  "last_pulse_ticker": "IFX.DE",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
@@ -1444,7 +1449,9 @@
       "fire_time": "17:59"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
