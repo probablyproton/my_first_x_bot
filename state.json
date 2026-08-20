@@ -2,7 +2,7 @@
   "date": "2026-08-20",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 3,
+  "daily_pulse_posts": 4,
   "gemini_calls_today": 7,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 450,
+  "event_log_next_id": 452,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -819,7 +819,7 @@
       "Wealthfront Advisers LLC Acquires New Holdings in Western Digital Corporation $WDC",
       "Comprehensive Financial Planning Inc. PA Makes New Investment in Western Digital Corporation $WDC",
       "Danica Pension Livsforsikringsaktieselskab Buys New Shares in Western Digital Corporation $WDC",
-      "Robotti Robert Takes $13.91 Million Position in Western Digital Corporation $WDC"
+      "Danske Bank A S Invests $180.31 Million in Western Digital Corporation $WDC"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -1029,15 +1029,15 @@
       "3 AI Networking Stocks Quietly Dominating Their Niche in August",
       "Cerebras Unveils CS-4, OpenAI and AMD Partnerships to Accelerate AI Inference",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
+      "Arista Networks calls time on server line due to supply chain pressures",
+      "Arista Networks Inc. stock outperforms competitors despite losses on the day",
+      "Arista Networks • Robinhood Token - ANET - Stock Price & News",
+      "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
       "Edmond DE Rothschild Holding S.A. Has $19.61 Million Stake in Arista Networks, Inc. $ANET",
       "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
-      "A Look at Arista Networks Inc (ANET) After 3.5% Decline -- GF Va",
-      "Arista Networks Inc. stock outperforms competitors despite losses on the day",
-      "Arista Networks calls time on server line due to supply chain pressures",
-      "Arista Networks Inc Stock (ANET) Closed Down by 3.64% on Aug 19: A Full Analysis",
       "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
       "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
-      "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?"
+      "Arista Networks vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1106,45 +1106,7 @@
       "Micron Stock Closes Above $1,000 After Key Move by Trump Administration"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "KLAC",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "KLA Sheds $24 Billion in Value in Two Days as $4 Billion Revenue Forecast Fails to Reassure Investors",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVTVyQkNmcVQ4YmNpVFVSbzdHSEdGUWVpSUJmeWphTmxUa1I2OTI1b0Z6M0tQZXRpY3FiMk51a0YweXFNMnQzcEdUMDB5RzhsQ0s4cVh4d2RockFYQjZfeW83TkFRZi1ZLW1EU2R2TVdlamVKZWxHTHEzNUNsMjZTa21DT0M1MDNWamZHU0dGc0J5aHZkQ1lN?oc=5",
-      "source": "TechStock²",
-      "method": "keyword",
-      "published": "2026-08-19T23:31:14",
-      "queued_min": 29786596,
-      "all_articles": [
-        {
-          "headline": "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNeDE1ak0yenJadC1oemVET3Y4S1c5ZzByVWpQUTVINHE2SDhreWNpT0FweXhVSC1JQjFTbVNZVms3XzktbVk4RFdhNlcxYjNQczR0OGpVVEdBUG9OX2hYenJmRW9Sdnhlekc0ZE1PVnJCd3c3bHA4bDZQaTRjcTBYT3pra2hQcmtwanBrSTI2M0FCdk1wV09EOWxtSEtRZ21VVHlpamNR?oc=5",
-          "source": "GuruFocus",
-          "summary": "",
-          "published": "2026-08-19T21:33:45"
-        },
-        {
-          "headline": "KLA Sheds $24 Billion in Value in Two Days as $4 Billion Revenue Forecast Fails to Reassure Investors",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVTVyQkNmcVQ4YmNpVFVSbzdHSEdGUWVpSUJmeWphTmxUa1I2OTI1b0Z6M0tQZXRpY3FiMk51a0YweXFNMnQzcEdUMDB5RzhsQ0s4cVh4d2RockFYQjZfeW83TkFRZi1ZLW1EU2R2TVdlamVKZWxHTHEzNUNsMjZTa21DT0M1MDNWamZHU0dGc0J5aHZkQ1lN?oc=5",
-          "source": "TechStock²",
-          "summary": "",
-          "published": "2026-08-19T23:31:14"
-        },
-        {
-          "headline": "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide",
-          "link": "https://www.nasdaq.com/articles/stocks-finish-mixed-bond-yields-fall-and-chipmakers-slide",
-          "source": "Barchart",
-          "summary": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.21% on Wednesday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +0.22%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down by -0.22%. E-mini S&P futures (ESU26 ) rose +0.20%, and September E-mini...",
-          "published": "2026-08-20T01:16:30"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1328,8 +1290,7 @@
     "mover": [
       6,
       3,
-      0,
-      2
+      0
     ],
     "price_event": [
       3,
@@ -1347,8 +1308,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 294.35,
-    "SIE.DE": 275.25,
+    "SU.PA": 294.5,
+    "SIE.DE": 275.65,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1374,11 +1335,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 183.02,
-    "BESI.AS": 214.2,
+    "SAP.DE": 183.26,
+    "BESI.AS": 214.6,
     "AIXA.DE": 37.53,
-    "IFX.DE": 55.02,
-    "ASML.AS": 1505.8,
+    "IFX.DE": 55.14,
+    "ASML.AS": 1506.4,
     "MU": 932.33,
     "TSM": 412.47,
     "KLAC": 188.42,
@@ -1419,9 +1380,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 36,
-  "last_pulse_post_min": 29786926,
-  "last_pulse_ticker": "TSM",
+  "next_pulse_interval": 31,
+  "last_pulse_post_min": 29786971,
+  "last_pulse_ticker": "SAP.DE",
   "pulse_news_seen": {
     "avgo:broadcom's ai financing could reach $370 billion. but it's not as bad as it sounds.": "2026-08-18",
     "amd:cathie wood's ark invest adds nvidia stake, sells amd stock across four etfs": "2026-08-18",
