@@ -3,7 +3,7 @@
   "daily_posts": 0,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 1,
-  "gemini_calls_today": 1,
+  "gemini_calls_today": 2,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -1035,9 +1035,9 @@
       "Arista Networks Inc. stock outperforms competitors despite losses on the day",
       "Arista Networks (NYSE:ANET) Shares Down 3.5% - Should You Sell?",
       "Arista Networks Inc Stock (ANET) Closed Down by 3.64% on Aug 19: A Full Analysis",
+      "President Capital Adjusts Price Target on Arista Networks to $238 From $180, Maintains Buy Rating",
       "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
-      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
-      "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?"
+      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1348,8 +1348,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 295.15,
-    "SIE.DE": 276.8,
+    "SU.PA": 294.75,
+    "SIE.DE": 277.05,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1375,11 +1375,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 183.7,
-    "BESI.AS": 215.0,
-    "AIXA.DE": 37.9,
-    "IFX.DE": 55.99,
-    "ASML.AS": 1520.0,
+    "SAP.DE": 182.86,
+    "BESI.AS": 214.2,
+    "AIXA.DE": 37.31,
+    "IFX.DE": 55.18,
+    "ASML.AS": 1510.4,
     "MU": 932.33,
     "TSM": 412.47,
     "KLAC": 188.42,
