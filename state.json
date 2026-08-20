@@ -856,8 +856,8 @@
       "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Abacus FCF Advisors LLC Makes New Investment in KLA Corporation $KLAC",
-      "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
+      "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "Qnity installs KLA defect inspection system in Massachusetts",
       "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know",
       "KLA Corp Stock (KLAC) Moved Down by 3.81% on Aug 19: A Full Analysis",
@@ -885,7 +885,7 @@
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "Resilient SAP stock trades around $208 as AI deals reshape 2026 guidance",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
+      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -902,11 +902,11 @@
       "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
       "Fidelity Series International Small Cap Fund's BE Semiconductor Industries NV(XAMS:BESI) Holding History",
       "EU3330.EUR Bond Profile — Key Metrics",
+      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
       "Why is BE Semiconductor stock sliding today?",
       "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
       "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "Hybrid bonding bookings lift Besi orders to €269.7 million",
-      "BE Semiconductor Industries Upgraded to Buy as Berenberg Notes 'Opportunity' Amid Recent Share Weakness"
+      "Hybrid bonding bookings lift Besi orders to €269.7 million"
     ],
     "AMAT": [
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
@@ -1359,8 +1359,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 291.8,
-    "SIE.DE": 274.9,
+    "SU.PA": 292.0,
+    "SIE.DE": 275.15,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1386,11 +1386,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 185.36,
-    "BESI.AS": 211.2,
-    "AIXA.DE": 36.91,
-    "IFX.DE": 54.54,
-    "ASML.AS": 1490.2,
+    "SAP.DE": 185.64,
+    "BESI.AS": 210.9,
+    "AIXA.DE": 36.98,
+    "IFX.DE": 54.61,
+    "ASML.AS": 1494.6,
     "MU": 932.33,
     "TSM": 412.47,
     "KLAC": 188.42,
