@@ -2,8 +2,8 @@
   "date": "2026-08-20",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 2,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 4,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 448,
+  "event_log_next_id": 449,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -818,8 +818,8 @@
       "Wealthfront Advisers LLC Acquires New Holdings in Western Digital Corporation $WDC",
       "Why Is Western Digital Stock Sinking Thursday?",
       "Robotti Robert Takes $13.91 Million Position in Western Digital Corporation $WDC",
-      "Danica Pension Livsforsikringsaktieselskab Buys New Shares in Western Digital Corporation $WDC",
-      "Comprehensive Financial Planning Inc. PA Makes New Investment in Western Digital Corporation $WDC"
+      "Meeder Advisory Services Inc. Acquires New Holdings in Western Digital Corporation $WDC",
+      "Danica Pension Livsforsikringsaktieselskab Buys New Shares in Western Digital Corporation $WDC"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -1029,11 +1029,11 @@
       "3 AI Networking Stocks Quietly Dominating Their Niche in August",
       "Cerebras Unveils CS-4, OpenAI and AMD Partnerships to Accelerate AI Inference",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
+      "Abacus FCF Advisors LLC Sells 6,237 Shares of Arista Networks, Inc. $ANET",
       "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
       "A Look at Arista Networks Inc (ANET) After 3.5% Decline -- GF Va",
       "Arista Networks calls time on server line due to supply chain pressures",
       "Arista Networks Inc. stock outperforms competitors despite losses on the day",
-      "Arista Networks (NYSE:ANET) Shares Down 3.5% - Should You Sell?",
       "Arista Networks Inc Stock (ANET) Closed Down by 3.64% on Aug 19: A Full Analysis",
       "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
       "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
@@ -1174,7 +1174,8 @@
     "anet:kbcgroupnv:19804": "2026-08-17",
     "anet:focuspartnersadvisorsolutionsllc:18121": "2026-08-18",
     "anet:deutschebankag:388354": "2026-08-18",
-    "anet:privateadvisorygroupllc:13888": "2026-08-18"
+    "anet:privateadvisorygroupllc:13888": "2026-08-18",
+    "anet:abacusfcfadvisorsllc:6237": "2026-08-20"
   },
   "news_category_posted": {
     "VST": {
@@ -1329,8 +1330,7 @@
       3,
       0,
       2,
-      5,
-      4
+      5
     ],
     "price_event": [
       3,
@@ -1348,8 +1348,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 294.0,
-    "SIE.DE": 276.3,
+    "SU.PA": 295.2,
+    "SIE.DE": 276.85,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1375,11 +1375,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 183.12,
-    "BESI.AS": 214.2,
-    "AIXA.DE": 37.53,
-    "IFX.DE": 55.22,
-    "ASML.AS": 1509.6,
+    "SAP.DE": 182.9,
+    "BESI.AS": 215.9,
+    "AIXA.DE": 37.75,
+    "IFX.DE": 55.39,
+    "ASML.AS": 1517.4,
     "MU": 932.33,
     "TSM": 412.47,
     "KLAC": 188.42,
@@ -1420,9 +1420,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 32,
-  "last_pulse_post_min": 29786836,
-  "last_pulse_ticker": "IFX.DE",
+  "next_pulse_interval": 45,
+  "last_pulse_post_min": 29786880,
+  "last_pulse_ticker": "SAP.DE",
   "pulse_news_seen": {
     "wdc:what does western digital (wdc) signal with a $93.9 billion spin off backlog?": "2026-08-17",
     "avgo:avgo stock rebounds after worst drop in two months: retail traders look past vmware worry, bet on rebound": "2026-08-17",
