@@ -751,9 +751,9 @@
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "FormFactor Inc (FORM) CEO Mike Slessor Sells 16,002 Shares",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
+      "GSA Capital Partners LLP Invests $1.25 Million in FormFactor, Inc. $FORM",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
-      "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?",
-      "Here's Why AXTI Stock Is a Buy Despite Its Premium 48.12X Valuation"
+      "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
     "LRCX": [
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
@@ -817,9 +817,9 @@
       "Western Digital Corp Stock (WDC) Moved Down by 6.23% on Aug 19: What Signal Does It Send?",
       "E Fund Management Co. Ltd. Acquires New Position in Western Digital Corporation $WDC",
       "Western Digital (NASDAQ:WDC) Trading Down 6.9% - Time to Sell?",
-      "Wealthfront Advisers LLC Acquires New Holdings in Western Digital Corporation $WDC",
       "Comprehensive Financial Planning Inc. PA Makes New Investment in Western Digital Corporation $WDC",
-      "Danica Pension Livsforsikringsaktieselskab Buys New Shares in Western Digital Corporation $WDC"
+      "Danica Pension Livsforsikringsaktieselskab Buys New Shares in Western Digital Corporation $WDC",
+      "Wealthfront Advisers LLC Acquires New Holdings in Western Digital Corporation $WDC"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -855,8 +855,8 @@
       "Own KLAC Stock? Here Is How To Collect 21% A Year On It",
       "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
       "Abacus FCF Advisors LLC Makes New Investment in KLA Corporation $KLAC",
-      "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
+      "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "KLA Corp Stock (KLAC) Moved Down by 3.81% on Aug 19: A Full Analysis",
       "Entegris, Penguin Solutions, Seagate, Applied Materials, and KLA Corporation Shares Are Soaring, What You Need To Know",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
@@ -885,7 +885,7 @@
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "Resilient SAP stock trades around $208 as AI deals reshape 2026 guidance",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
+      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -964,13 +964,13 @@
       "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
-      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON SE increases FY 2026 guidance",
-      "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
+      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Is It Time To Consider Buying AIXTRON SE (ETR:AIXA)?",
-      "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
       "Aixtron receives multiple tool orders from Lumentum",
+      "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
+      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Aixtron SE vs Veeco Instruments"
     ],
@@ -1307,8 +1307,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 294.05,
-    "SIE.DE": 276.0,
+    "SU.PA": 293.8,
+    "SIE.DE": 275.95,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1334,11 +1334,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 184.16,
-    "BESI.AS": 214.7,
-    "AIXA.DE": 37.42,
-    "IFX.DE": 55.17,
-    "ASML.AS": 1506.4,
+    "SAP.DE": 185.06,
+    "BESI.AS": 214.6,
+    "AIXA.DE": 37.44,
+    "IFX.DE": 55.14,
+    "ASML.AS": 1508.2,
     "MU": 932.33,
     "TSM": 412.47,
     "KLAC": 188.42,
