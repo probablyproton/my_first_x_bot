@@ -2,7 +2,7 @@
   "date": "2026-08-20",
   "daily_posts": 1,
   "daily_keyword_posts": 2,
-  "daily_pulse_posts": 13,
+  "daily_pulse_posts": 14,
   "gemini_calls_today": 19,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 464,
+  "event_log_next_id": 465,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -744,14 +744,14 @@
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
+      "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "FormFactor (NASDAQ:FORM) Upgraded at Zacks Research",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
-      "Lisanti Capital Growth LLC Makes New $6.63 Million Investment in FormFactor, Inc. $FORM",
       "FormFactor Jumps 5.6% Amid Sector-Wide Rally",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
-      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
-      "FormFactor (NASDAQ:FORM) Trading Down 6.2% - Should You Sell?",
+      "FormFactor Inc (FORM) CEO Mike Slessor Sells 16,002 Shares",
+      "Lisanti Capital Growth LLC Makes New $6.63 Million Investment in FormFactor, Inc. $FORM",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
@@ -803,21 +803,21 @@
       "Western Digital (WDC) Could Be 51% Overvalued On Apple China Memory Push",
       "MU, SNDK Dip Overnight: KOSPI Hits Halt Amid Asian Tech Chip Rout, SoftBank, Samsung, SK Hynix Retreat",
       "Western Digital, Nova, and Penguin Solutions Shares Plummet, What You Need To Know",
-      "WSJ Report Sends Memory Stocks Down. SanDisk Down 9%, Micron Down 7%, Western Digital Down 5%",
+      "SK Hynix Climbs 4% on Record Buyback, Micron Ticks Up as Memory Defies the Tech Selloff",
+      "Seagate Has Already Surged 900% in 5 Years. Where Will it be In 2027?",
+      "Jim Cramer names 4 'indispensable' memory stocks he says investors 'can't afford' to skip as AI demand soars",
+      "Micron's Biggest Risk Is Written In Its Construction Budget",
+      "Super Micro Computer and Western Digital: Analyzing Recent Revenue Trends and Business Scale",
       "SanDisk Looks Cheap On Consensus, But The Payoff Sits In Its Contracts",
       "SanDisk Is Up 3,911% Over Twelve Months. Hedge Funds Can’t Agree on What to Do.",
-      "2 Semiconductor Stocks Worth Your Attention and 1 We Brush Off",
-      "Micron, Coherent, SpaceX, Klarna, Amylyx, and More Stocks That Explain Today’s Market",
-      "Convertible Bonds Are the New AI Bet. The High Returns Hide Bigger Risks.",
-      "Cerebras, Intel, and AMD Shares Fall Ahead of Tonight’s ‘Supernova’ Event",
-      "Micron Falls 5%, SanDisk Sinks 6%, Western Digital Drops 7% as Higher Rates Test the Memory Boom",
+      "Micron and Western Digital Shares Are Soaring, What You Need To Know",
       "Western Digital Stock Is Gaining Monday: What's Going On?",
       "22,648 Shares in Western Digital Corporation $WDC Bought by NewEdge Wealth LLC",
       "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
       "Western Digital Corp Stock (WDC) Moved Down by 6.23% on Aug 19: What Signal Does It Send?",
       "Trivest Advisors Ltd Acquires New Holdings in Western Digital Corporation $WDC",
       "E Fund Management Co. Ltd. Acquires New Position in Western Digital Corporation $WDC",
-      "Western Digital (NASDAQ:WDC) Trading Down 6.9% - Time to Sell?",
+      "Robotti Robert Takes $13.91 Million Position in Western Digital Corporation $WDC",
       "Comprehensive Financial Planning Inc. PA Makes New Investment in Western Digital Corporation $WDC",
       "Danica Pension Livsforsikringsaktieselskab Buys New Shares in Western Digital Corporation $WDC"
     ],
@@ -854,8 +854,8 @@
       "ONTO Surged 26.1% in the Past Month. Can Its Rally Keep Going Strong?",
       "Own KLAC Stock? Here Is How To Collect 21% A Year On It",
       "Wall Street’s Biggest Funds Are Dumping Broadcom and Adding Taiwan Semiconductor. Time to Follow the ‘Smart Money?’",
-      "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Abacus FCF Advisors LLC Makes New Investment in KLA Corporation $KLAC",
+      "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Alger Growth & Income Fund Q2 2026 Portfolio Review",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
@@ -884,8 +884,8 @@
       "SAP Quarterly Statement Q2 2026",
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
       "SAP shrugs off fears of AI eating software with big earnings beat",
-      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
-      "Resilient SAP stock trades around $208 as AI deals reshape 2026 guidance"
+      "Resilient SAP stock trades around $208 as AI deals reshape 2026 guidance",
+      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -1007,37 +1007,37 @@
       "Marvell Technology vs. Verizon Communications: Which Technology Stock Is a Better Buy in 2026?",
       "JEDEC® Announces Automotive Electronics Forum in September 2026",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
-      "Infineon Technologies AG: Release of a capital market information",
       "Infineon Number of Employees 2026 | Employee Count & Headcount Data",
+      "Infineon Technologies Ag Provides Earnings Guidance for the Fourth Quarter and Fiscal Year 2026",
       "Infineon further extends its global leadership in the automotive semiconductor market",
       "Infineon Leads the Automotive Semiconductor",
-      "Infineon Technologies Ag Provides Earnings Guidance for the Fourth Quarter and Fiscal Year 2026",
+      "Infineon Technologies AG: Release of a capital market information",
       "North America Intelligent Power Module Market Report",
       "North America Silicon Carbide (SiC) Market",
       "Infineon Technologies (IFNNY) is an Incredible Growth Stock: 3 Reasons Why",
       "INFINEON TECHNOLOGIES AG : Jefferies remains its Buy rating"
     ],
     "ANET": [
+      "Arista Networks vs. CoreWeave: What Revenue Trends Tell Investors About These Artificial Intelligence Companies",
       "Strong Track Record Reinforces Arista Networks’ (ANET) Long Term Delivery",
       "Arista Networks Says AI Demand Broadens as Supply Limits Upside to 40% Growth Guide",
       "What You Are Really Paying For In Arista Networks Stock",
       "Arista Benefits From AI Networking Surge: Will Momentum Persist?",
       "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
       "Enterprise Networking Market Surges to $193.77 billion at a CAGR 9.2% by 2030 | Report by MarketsandMarkets™",
+      "Tom Lee Recommends Arista Networks (ANET) and JPMorgan (JPM), Analysts Weigh In",
       "Tom Lee Says Avoid Crypto Favorite Robinhood Stock Despite Record Q2 Growth",
       "How Wide A Year Are Cisco Holders Actually Signed Up For?",
-      "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
-      "Genpact Stock Gains 13% in a Month",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "Forrester challenge to Nvidia's networking claims by crowning Cisco, Arista, and Huawei",
       "Arista Networks Inc. stock outperforms competitors despite losses on the day",
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
-      "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
+      "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
+      "Genpact Stock Gains 13% in a Month",
       "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
       "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
       "Arista Networks vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?",
-      "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
-      "Notable ETF Inflow Detected - QUAL, GOOG, ROST, ANET"
+      "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1050,16 +1050,16 @@
       "Here’s How Much Traders Expect ASML Stock to Move After Earnings",
       "US Equity Investors to Focus on Banks Kicking Off Q2 Earnings, Warsh's Take on Inflation, Worsening Geopolitics This Week",
       "Huge Earnings, Inflation Data and Other Key Things to Watch this Week",
-      "ASML Stock Takes A Break After Rebounding",
-      "Why ASML (ASML) Could Remain a Long-Term Winner in Advanced Semiconductors",
+      "If You Invested $1000 In ASML Holding Stock 15 Years Ago, You Would Have This Much Today",
+      "ASML: The Price Is Fair For Such A Crucial Company (NASDAQ:ASML)",
+      "Taiwan Semiconductor vs. ASML: Which Semiconductor Titan Is the Better Buy Today?",
+      "U.S. preparing to force Netherlands to ban ASML from selling to China",
       "Why ASML Holding (ASML) Stock Is Down Today",
-      "Lee Johnson Capital Management LLC Acquires Shares of 3,076 ASML Holding N.V. $ASML",
-      "10 Stocks with the Largest Fair Value Estimate Increases During Q2 Earnings",
+      "ASML Gains as TSMC's Spending Forecast Hits $85 Billion",
+      "Somerville Kurt F Invests $3.94 Million in ASML Holding N.V. $ASML",
       "The West may have created ASML’s biggest competitor",
-      "ASML’s Extreme Ultraviolet Lithography and the Limits of Reverse Engineering in China",
-      "ASML: The AI Story Gets More Interesting When You Look One Layer Deeper",
-      "ASML Stock Pauses After Rebounding as Semiconductor Rally Faces Consolidation - Debt Analysis Report",
-      "ASML and the West’s technology dilemma"
+      "ASML Stock Takes A Break After Rebounding",
+      "ASML Stock Is Up 55% in 2026. Can the Rally Continue?"
     ],
     "STX": [
       "Seagate Technology (STX) Could Keep Surging as Storage Prices Rise",
@@ -1106,7 +1106,66 @@
       "Micron Stock Closes Above $1,000 After Key Move by Trump Administration"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "ASML.AS",
+      "classification": {
+        "is_major": true,
+        "category": "expansion",
+        "headline": "Somerville Kurt F Invests $3.94 Million in ASML Holding N.V. $ASML",
+        "reason": "Keyword rule matched (category: expansion)"
+      },
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSE5CYU1jY1B0TEdZMTgzNjc0ZG45RDJPajBFWVBrVEM2eHNIRlZ0bGZMeUg0NUtYcGVkUXo2aE80NGc1MEdoT3VhY0xoY0tXOWV2U0ZTQ0dEaV81ek9VRlJrS1Z4YkZkbXlCazJXMTVTR0JDU1dHaUdrYkRKRDAwTFRNN3dUOEJsMUg2U3llaFU1eE1XZmptZXdoZEJ1R2YzUmpFNm5RR3NEUEVjdUs1ZVFiTkl4RUtXMjN2WmFDZw?oc=5",
+      "source": "MarketBeat",
+      "method": "keyword",
+      "published": "2026-08-20T10:59:13",
+      "queued_min": 29787542,
+      "all_articles": [
+        {
+          "headline": "If You Invested $1000 In ASML Holding Stock 15 Years Ago, You Would Have This Much Today",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS2NkMG1jTWZzZnFNaldDeThUNU5GaWJ6VmMyUU5tb05xeGJvTWpRZ29kbEgwM1hhNVBsc3BrYnJfSm9UMnozZTZvMm5IcHhPVjFhWjhSWVA3RmFZOHV2cHg3WFE0WHotVHU5Vl9xdS1Bc3E4WGNUZ3dFTVBZa1RDRnlNWUJWRUZ0OGJWMGRYR2hlWFY0d3NGbVoxZVpFS1VCWVJsWDVla3Nfeld5MU81dms5MFYxNVZkRlVXdUs3Wks?oc=5",
+          "source": "Benzinga",
+          "summary": "",
+          "published": "2026-08-20T15:30:37"
+        },
+        {
+          "headline": "ASML: The Price Is Fair For Such A Crucial Company (NASDAQ:ASML)",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQZWkxSmRlN1hSY1RkbzdMLXFneFI3XzV4R2ZVaWxuVmtwYWZMd1NPZ2ZhZjNwX1FMc01sNHRadE5sMlMtTnJET1BMeWJkd2lqQXdFeVRKd3Q3ZU5TeUpWaFpucGFrSGduYkxXZkMwX3Y3Z283MTBVajRWN0pJNzg4VHU1cUNzRG44WjJLLWZsY243Qmp6?oc=5",
+          "source": "Seeking Alpha",
+          "summary": "",
+          "published": "2026-08-20T13:28:48"
+        },
+        {
+          "headline": "Taiwan Semiconductor vs. ASML: Which Semiconductor Titan Is the Better Buy Today?",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT3NrV2ZaTENsa09nN1RTLUZwd1o4QVFKeC1MLWZmNWJnQ3lfZHNERkY1a3VWaHFpU0FBZ1BCaDJlZXN2RXpyaWRpSXA2Qm56b2Rtb0F3YlBhWWQ3U2FEYUFNeGp4c0hXNUxBMmozc0p1SE1lM3NrSnZrTzJlTVYzWDl6NzdzcHotemtBRXhGLThGZ1IxNUxmOQ?oc=5",
+          "source": "The Motley Fool",
+          "summary": "",
+          "published": "2026-08-20T09:35:00"
+        },
+        {
+          "headline": "U.S. preparing to force Netherlands to ban ASML from selling to China",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMXFoVGpQRlZGWVBFeTFFOEpERFVHUjIxSXhaRFFHcnV2NmlORkVrYWNMcXd2b0xvM3NIN0liRWtLZDFwUXM1TkVENWdzQkFhZjNWbG84aGxuYTVmSm9YVmtBNzdZY3ZrbTRINjNCWThELThFMWFlNFotRnBaWlhMUHJ3bkx1NVZibURF?oc=5",
+          "source": "NL Times",
+          "summary": "",
+          "published": "2026-08-20T06:38:37"
+        },
+        {
+          "headline": "ASML Gains as TSMC's Spending Forecast Hits $85 Billion",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGZzcEZQblB1aDU3QzRlekpkcVFaeXVETTRLV3RocDREbjl2RGV6cnBBcE9xWnV2UzktOWlOYXdEU0VWaWtmRnZBcGRqMUxSRS05WjNwQ1g0YVhMS2FrRkRENEp1TXdUTUFaUlYzeTJ1dENQWnVDV24xU25LR01adm0ybkJPMWFUVWVNVWFsWDUtRy14RndF?oc=5",
+          "source": "GuruFocus",
+          "summary": "",
+          "published": "2026-08-20T18:32:22"
+        },
+        {
+          "headline": "Somerville Kurt F Invests $3.94 Million in ASML Holding N.V. $ASML",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPSE5CYU1jY1B0TEdZMTgzNjc0ZG45RDJPajBFWVBrVEM2eHNIRlZ0bGZMeUg0NUtYcGVkUXo2aE80NGc1MEdoT3VhY0xoY0tXOWV2U0ZTQ0dEaV81ek9VRlJrS1Z4YkZkbXlCazJXMTVTR0JDU1dHaUdrYkRKRDAwTFRNN3dUOEJsMUg2U3llaFU1eE1XZmptZXdoZEJ1R2YzUmpFNm5RR3NEUEVjdUs1ZVFiTkl4RUtXMjN2WmFDZw?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-20T10:59:13"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1291,8 +1350,7 @@
       2,
       4,
       5,
-      6,
-      1
+      6
     ],
     "price_event": [
       3,
@@ -1342,19 +1400,19 @@
     "AIXA.DE": 37.49,
     "IFX.DE": 55.66,
     "ASML.AS": 1515.8,
-    "MU": 954.11,
-    "TSM": 415.53,
-    "KLAC": 185.41,
-    "STX": 851.65,
-    "ANET": 184.34,
-    "LRCX": 306.65,
-    "FORM": 115.4,
-    "AVGO": 365.12,
-    "AMAT": 489.78,
-    "AMD": 463.67,
-    "MRVL": 245.29,
-    "NVDA": 216.75,
-    "WDC": 466.94
+    "MU": 958.97,
+    "TSM": 415.37,
+    "KLAC": 185.17,
+    "STX": 850.7,
+    "ANET": 184.32,
+    "LRCX": 306.92,
+    "FORM": 115.49,
+    "AVGO": 363.33,
+    "AMAT": 488.66,
+    "AMD": 464.11,
+    "MRVL": 246.01,
+    "NVDA": 216.63,
+    "WDC": 466.91
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1382,9 +1440,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 45,
-  "last_pulse_post_min": 29787481,
-  "last_pulse_ticker": "MRVL",
+  "next_pulse_interval": 32,
+  "last_pulse_post_min": 29787542,
+  "last_pulse_ticker": "AMAT",
   "pulse_news_seen": {
     "avgo:broadcom's ai financing could reach $370 billion. but it's not as bad as it sounds.": "2026-08-18",
     "amd:cathie wood's ark invest adds nvidia stake, sells amd stock across four etfs": "2026-08-18",
