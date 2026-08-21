@@ -1,10 +1,10 @@
 {
   "date": "2026-08-21",
-  "daily_posts": 0,
+  "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 6,
-  "gemini_calls_today": 10,
-  "evergreen_opinion_posts_today": 0,
+  "daily_pulse_posts": 7,
+  "gemini_calls_today": 11,
+  "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-17",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 475,
+  "event_log_next_id": 476,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -856,13 +856,13 @@
       "ONTO Surged 26.1% in the Past Month. Can Its Rally Keep Going Strong?",
       "Bank of New York Mellon Corp Invests $2.52 Billion in KLA Corporation $KLAC",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
-      "McLaughlin Asset Management, Inc.'s KLA Corp(KLAC) Holding History",
+      "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "KLA Corporation (NASDAQ:KLAC) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "KLA Q4 Earnings Call Highlights",
-      "2 High-Flying Stocks to Own for Decades and 1 We Brush Off",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
+      "2 High-Flying Stocks to Own for Decades and 1 We Brush Off",
       "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide"
     ],
     "SAP.DE": [
@@ -885,7 +885,7 @@
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "Weekly Recap: €2.6B SAP buyback plan and SAP stock surge after earnings",
       "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
+      "SAP adds to earnings rally with another 7% advance (SAP:NYSE)"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -901,12 +901,11 @@
       "BE Semiconductor Industries NV (OTCMKTS:BESIY) Receives Consensus Recommendation of \"Buy\" from Analysts",
       "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
       "EU3330.EUR Bond Profile — Key Metrics",
-      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
       "Why is BE Semiconductor stock sliding today?",
-      "Hybrid bonding bookings lift Besi orders to €269.7 million",
       "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
       "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "KBC Securities Upgrades BE Semiconductor Industries to Hold"
+      "KBC Securities Upgrades BE Semiconductor Industries to Hold",
+      "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI"
     ],
     "AMAT": [
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
@@ -963,16 +962,7 @@
       "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
-      "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
-      "EQS-PVR: AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
-      "AIXTRON SE increases FY 2026 guidance",
-      "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
-      "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
-      "Is It Time To Consider Buying AIXTRON SE (ETR:AIXA)?",
-      "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
-      "Despite lower earnings than a year ago, AIXTRON (ETR:AIXA) investors are up 49% since then",
-      "Aixtron leads project to make SiC deposition more efficient",
-      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe"
+      "Nitrogen-polar III-N HFETs on 200mm sapphire substrates"
     ],
     "AMD": [
       "Cathie Wood Sends Fresh Warning on AMD Stock",
@@ -1270,12 +1260,12 @@
     }
   },
   "recent_post_sources": [
-    "Data Center Knowledge",
     "Tom's Hardware",
     "The Motley Fool",
     "DatacenterDynamics",
     "POWER Magazine",
-    "MarketBeat"
+    "MarketBeat",
+    "Canary Media"
   ],
   "last_news_post_min": 29787602,
   "evergreen_opinion_used": {
@@ -1310,15 +1300,15 @@
     "for high-density ai, available data center space may not be usable": "2026-08-18",
     "jason kelce-led marketing campaign asks beer drinkers to send their pee to ai data centers — liquid death and garage beer skit claims 'ai data centers waste millions of gallons of water'": "2026-08-19",
     "data center rumored to be coming to hofheim in state of hesse, germany": "2026-08-20",
-    "pjm widens response to data center load as capacity shortfalls deepen": "2026-08-20"
+    "pjm widens response to data center load as capacity shortfalls deepen": "2026-08-20",
+    "solar and storage still dominate us power plant construction": "2026-08-21"
   },
   "pulse_template_decks": {
     "evergreen": [],
     "mover": [
       0,
       2,
-      4,
-      5
+      4
     ],
     "price_event": [
       3,
@@ -1330,13 +1320,13 @@
       1
     ]
   },
-  "last_evergreen_min": 29787422,
+  "last_evergreen_min": 29788683,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 298.7,
-    "SIE.DE": 279.75,
+    "SU.PA": 298.35,
+    "SIE.DE": 281.0,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1362,24 +1352,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 184.72,
-    "BESI.AS": 213.6,
-    "AIXA.DE": 37.8,
-    "IFX.DE": 55.92,
-    "ASML.AS": 1514.2,
-    "MU": 958.97,
-    "TSM": 415.37,
-    "KLAC": 185.17,
-    "STX": 850.7,
-    "ANET": 184.32,
-    "LRCX": 306.92,
-    "FORM": 115.49,
-    "AVGO": 363.33,
-    "AMAT": 488.66,
-    "AMD": 464.11,
-    "MRVL": 246.01,
-    "NVDA": 216.63,
-    "WDC": 466.91
+    "SAP.DE": 184.44,
+    "BESI.AS": 212.9,
+    "AIXA.DE": 37.52,
+    "IFX.DE": 55.73,
+    "ASML.AS": 1504.0,
+    "MU": 975.92,
+    "TSM": 419.57,
+    "KLAC": 183.97,
+    "STX": 850.74,
+    "ANET": 188.12,
+    "LRCX": 311.36,
+    "FORM": 112.55,
+    "AVGO": 366.1,
+    "AMAT": 488.97,
+    "AMD": 469.86,
+    "MRVL": 245.41,
+    "NVDA": 216.47,
+    "WDC": 463.4
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1407,9 +1397,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 35,
-  "last_pulse_post_min": 29788621,
-  "last_pulse_ticker": "SU.PA",
+  "next_pulse_interval": 38,
+  "last_pulse_post_min": 29788682,
+  "last_pulse_ticker": "ANET",
   "pulse_news_seen": {
     "tsm:tsmc trades 30.87% above gf value as chip capacity tightens": "2026-08-20",
     "asml.as:taiwan semiconductor vs. asml: which semiconductor titan is the better buy today?": "2026-08-20",
@@ -1449,5 +1439,7 @@
       "fire_time": "22:33"
     }
   ],
-  "us_posted": []
+  "us_posted": [
+    0
+  ]
 }
