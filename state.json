@@ -2,8 +2,8 @@
   "date": "2026-08-21",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 1,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 2,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 469,
+  "event_log_next_id": 470,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -332,14 +332,14 @@
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
+      "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Harry Siemens Honored for Farm Reporting",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Mobility North America appoints president",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "Siemens Launches Wendell Microgrid at HQ Campus"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -744,14 +744,14 @@
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
+      "10,484,409 Shares in FormFactor, Inc. $FORM Bought by BlackRock Inc.",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
-      "FormFactor (NASDAQ:FORM) Upgraded at Zacks Research",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor Jumps 5.6% Amid Sector-Wide Rally",
-      "Lisanti Capital Growth LLC Makes New $6.63 Million Investment in FormFactor, Inc. $FORM",
+      "FormFactor (NASDAQ:FORM) Upgraded at Zacks Research",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
@@ -810,16 +810,16 @@
       "Super Micro Computer and Western Digital: Analyzing Recent Revenue Trends and Business Scale",
       "SanDisk Looks Cheap On Consensus, But The Payoff Sits In Its Contracts",
       "SanDisk Is Up 3,911% Over Twelve Months. Hedge Funds Can’t Agree on What to Do.",
-      "Micron and Western Digital Shares Are Soaring, What You Need To Know",
-      "Western Digital Stock Is Gaining Monday: What's Going On?",
-      "22,648 Shares in Western Digital Corporation $WDC Bought by NewEdge Wealth LLC",
+      "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
+      "Allworth Financial LP Acquires New Holdings in Western Digital Corporation $WDC",
+      "Western Digital Stock Is Gaining Monday: What's Going On?",
       "Western Digital Corp Stock (WDC) Moved Down by 6.23% on Aug 19: What Signal Does It Send?",
+      "B. Metzler seel. Sohn & Co. AG Purchases Shares of 69,916 Western Digital Corporation $WDC",
+      "Western Digital (NASDAQ:WDC) Trading Up 1.5% - Still a Buy?",
+      "22,648 Shares in Western Digital Corporation $WDC Bought by NewEdge Wealth LLC",
       "Trivest Advisors Ltd Acquires New Holdings in Western Digital Corporation $WDC",
-      "E Fund Management Co. Ltd. Acquires New Position in Western Digital Corporation $WDC",
-      "Robotti Robert Takes $13.91 Million Position in Western Digital Corporation $WDC",
-      "Comprehensive Financial Planning Inc. PA Makes New Investment in Western Digital Corporation $WDC",
-      "Danica Pension Livsforsikringsaktieselskab Buys New Shares in Western Digital Corporation $WDC"
+      "Robotti Robert Takes $13.91 Million Position in Western Digital Corporation $WDC"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -854,15 +854,15 @@
       "Billionaire Joel Greenblatt’s 5 Biggest Moves This Quarter Reveal a Surprising Defensive Shift",
       "ONTO's $720 Million Rigaku Stake Opens a Major New X-Ray Growth Avenue",
       "ONTO Surged 26.1% in the Past Month. Can Its Rally Keep Going Strong?",
-      "KLA Corporation (NASDAQ:KLAC) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
+      "Bank of New York Mellon Corp Invests $2.52 Billion in KLA Corporation $KLAC",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
+      "KLA Corporation (NASDAQ:KLAC) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
-      "Alger Growth & Income Fund Q2 2026 Portfolio Review",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
+      "Alger Growth & Income Fund Q2 2026 Portfolio Review",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
-      "Abacus FCF Advisors LLC Makes New Investment in KLA Corporation $KLAC",
-      "KLA Corp. stock underperforms Tuesday when compared to competitors",
+      "KLA Q4 Earnings Call Highlights",
       "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide"
     ],
     "SAP.DE": [
@@ -880,12 +880,12 @@
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP SE: Release of a capital market information",
       "SAP Announces Q2 and Half-Year 2026 Results",
+      "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
       "SAP Quarterly Statement Q2 2026",
+      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
       "SAP shrugs off fears of AI eating software with big earnings beat",
-      "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
-      "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
-      "SAP Completes Acquisition of Prior Labs"
+      "Weekly Recap: €2.6B SAP buyback plan and SAP stock surge after earnings"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -1028,9 +1028,9 @@
       "Enterprise Networking Market Surges to $193.77 billion at a CAGR 9.2% by 2030 | Report by MarketsandMarkets™",
       "Tom Lee Recommends Arista Networks (ANET) and JPMorgan (JPM), Analysts Weigh In",
       "Tom Lee Says Avoid Crypto Favorite Robinhood Stock Despite Record Q2 Growth",
-      "Arista Networks (NYSE:ANET) Trading Down 1.3% - What's Next?",
-      "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
+      "Bank of New York Mellon Corp Cuts Position in Arista Networks, Inc. $ANET",
       "Arista Networks Inc. stock underperforms Thursday when compared to competitors",
+      "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
       "Arista Stock Is Up 40% This Year. The Guidance Raises Explain Why.",
       "Arista Networks calls time on server line due to supply chain pressures",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
@@ -1293,8 +1293,7 @@
       0,
       2,
       4,
-      5,
-      6
+      5
     ],
     "price_event": [
       3,
@@ -1311,8 +1310,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 294.3,
-    "SIE.DE": 276.0,
+    "SU.PA": 297.25,
+    "SIE.DE": 277.1,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1338,11 +1337,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 185.64,
-    "BESI.AS": 210.8,
-    "AIXA.DE": 37.31,
-    "IFX.DE": 55.41,
-    "ASML.AS": 1505.4,
+    "SAP.DE": 184.34,
+    "BESI.AS": 215.9,
+    "AIXA.DE": 38.02,
+    "IFX.DE": 56.56,
+    "ASML.AS": 1529.6,
     "MU": 958.97,
     "TSM": 415.37,
     "KLAC": 185.17,
@@ -1383,9 +1382,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 35,
-  "last_pulse_post_min": 29788261,
-  "last_pulse_ticker": "BESI.AS",
+  "next_pulse_interval": 38,
+  "last_pulse_post_min": 29788321,
+  "last_pulse_ticker": "AIXA.DE",
   "pulse_news_seen": {
     "avgo:broadcom's ai financing could reach $370 billion. but it's not as bad as it sounds.": "2026-08-18",
     "amd:cathie wood's ark invest adds nvidia stake, sells amd stock across four etfs": "2026-08-18",
@@ -1410,7 +1409,9 @@
       "fire_time": "18:04"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
