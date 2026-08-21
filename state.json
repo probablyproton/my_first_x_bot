@@ -750,30 +750,30 @@
       "M6 MacBook Pro rumors: Improved performance, in a familiar form factor",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
-      "FormFactor (NASDAQ:FORM) Gains Attention As Semiconductor Testing Demand Expands",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
+      "FormFactor (NASDAQ:FORM) Gains Attention As Semiconductor Testing Demand Expands",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor, Inc. (NASDAQ:FORM) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
     ],
     "LRCX": [
+      "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
       "The Zacks Analyst Blog Highlights Visa, Lam Research, Caterpillar, Q.E.P and Altigen",
       "Top Analyst Reports for Visa, Lam Research & Caterpillar",
       "Applied Materials Rockets 98% in 2026: How Does AMAT Compare to Lam Research and KLA as AI Capex Powers Chip Gear Stocks?",
       "Lam Research's DRAM Push Gains Steam: Can It Boost Growth Further?",
-      "Lam Research (LRCX) Stock Looks Fully Valued After Its 499% Run",
-      "Billionaire Stanley Druckenmiller and Brad Gerstner Both Dumped Broadcom (AVGO) and Bought This AI Stock Instead",
       "3 High-Flying Stocks for Long-Term Investors",
-      "Billionaire Stanley Druckenmiller Dumped Micron, Intel, and Broadcom: Here Are the AI Infrastructure Stocks He Bought Instead",
-      "Can Applied Materials Sustain Its Growth Amid AI-Driven Demand?",
-      "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What's Prompting the Selloff in Chip Equipment Stocks?",
+      "Applied Materials (AMAT) Beat Estimates and Investors Sold Anyway. Lam Research Corporation (LRCX) Didn’t Have That Problem",
+      "Coatue Management Opens New Position in AMD Stock. View This as a Renewed Bet on the AI Trade.",
+      "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
       "Lam Research Announces Plans to Invest More than $3B to Expand Global Lab Network, Increase Innovation Velocity in the AI Era - Aug 13, 2026",
-      "Triasima Portfolio Management inc. Decreases Stake in Lam Research Corporation $LRCX",
+      "Franchise GP Ltd Makes New Investment in Lam Research Corporation $LRCX",
       "Lam Research Corporation Reports Financial Results for the Quarter Ended June 28, 2026",
       "Why Lam Research (LRCX) Stock Is Down Today",
-      "Oak Thistle LLC Sells 15,967 Shares of Lam Research Corporation $LRCX",
+      "Stocks Supported as Crude Oil Stabilizes",
       "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide",
+      "Can Applied Materials Sustain Its Growth Amid AI-Driven Demand?",
       "See Which Recent 13F Filers Hold LRCX",
       "Analog Devices Q3 Earnings Beat Estimates, Revenues Rise Y/Y",
       "Stocks Mixed on Lower Bond Yields and Chip Stock Weakness"
@@ -857,10 +857,10 @@
       "ONTO's $720 Million Rigaku Stake Opens a Major New X-Ray Growth Avenue",
       "Bank of New York Mellon Corp Invests $2.52 Billion in KLA Corporation $KLAC",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
-      "2 High-Flying Stocks to Own for Decades and 1 We Brush Off",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
-      "KLA Corporation (NASDAQ:KLAC) Chip Innovation Draws Market Attention",
+      "2 High-Flying Stocks to Own for Decades and 1 We Brush Off",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
+      "KLA Corporation (NASDAQ:KLAC) Chip Innovation Draws Market Attention",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "KLA Q4 Earnings Call Highlights",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
@@ -884,9 +884,9 @@
       "SAP Quarterly Statement Q2 2026",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
-      "Weekly Recap: €2.6B SAP buyback plan and SAP stock surge after earnings",
       "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
-      "SAP adds to earnings rally with another 7% advance (SAP:NYSE)"
+      "SAP adds to earnings rally with another 7% advance (SAP:NYSE)",
+      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -1108,6 +1108,64 @@
     ]
   },
   "pending_news_posts": [
+    {
+      "symbol": "LRCX",
+      "classification": {
+        "is_major": true,
+        "category": "earnings",
+        "headline": "Applied Materials (AMAT) Beat Estimates and Investors Sold Anyway. Lam Research Corporation (LRCX) Didn’t Have That Problem",
+        "reason": "Keyword rule matched (category: earnings)"
+      },
+      "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-beat-estimates-000516701.html?.tsrc=rss",
+      "source": null,
+      "method": "keyword",
+      "published": "2026-08-21T00:05:16",
+      "queued_min": 29789041,
+      "all_articles": [
+        {
+          "headline": "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/lam-research-lrcx-outperforming-other-134002982.html?.tsrc=rss",
+          "source": null,
+          "summary": "Here is how Lam Research (LRCX) and Aehr Test Systems (AEHR) have performed compared to their sector so far this year.",
+          "published": "2026-08-21T13:40:02"
+        },
+        {
+          "headline": "Applied Materials (AMAT) Beat Estimates and Investors Sold Anyway. Lam Research Corporation (LRCX) Didn’t Have That Problem",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-beat-estimates-000516701.html?.tsrc=rss",
+          "source": null,
+          "summary": "On August 13, 2026, Applied Materials, Inc. (NASDAQ:AMAT) reported fiscal third-quarter results that topped Wall Street estimates on both revenue and adjusted profit, yet shares fell nearly 5% in after-hours trading and kept sliding into August 14, 2026. Rival Lam Research Corporation (NASDAQ:LRCX) posted its own stronger-than-expected results on July 29, 2026, and saw shares […]",
+          "published": "2026-08-21T00:05:16"
+        },
+        {
+          "headline": "Coatue Management Opens New Position in AMD Stock. View This as a Renewed Bet on the AI Trade.",
+          "link": "https://www.barchart.com/story/news/3959404/coatue-management-opens-new-position-in-amd-stock-view-this-as-a-renewed-bet-on-the-ai-trade?.tsrc=rss",
+          "source": "barchart.com",
+          "summary": "Coatue Management started a new AMD stock position worth $55.8 million in Q2, joining a wave of fresh AI bets from the hedge fund giant.",
+          "published": "2026-08-20T21:47:33"
+        },
+        {
+          "headline": "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
+          "link": "https://247wallst.com/investing/2026/08/20/the-biggest-risk-facing-the-first-trust-nasdaq-semiconductor-etf-ftxl-right-now/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "FTXL has handed holders a stunning run, but the modified-equal-weight label that made the fund feel safe may be hiding a concentration problem that turns one bad earnings call into a portfolio event.",
+          "published": "2026-08-20T21:10:39"
+        },
+        {
+          "headline": "Franchise GP Ltd Makes New Investment in Lam Research Corporation $LRCX",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWFo2TGNodmdCQjRPVGwxSV9PUHZOSnR5RTdudDRxbFFuV2ozcUdUNzJFbVhqTHRjM3NvMHlLN1d4UHEyWE4xekNHQlZLWkhkaVQ4Z00wVWdrQlptVTRpNlpDNUxlSkdfc01wNU9xa3ZCTmxweWFJWGtENk9HWTdDby1mQWNtMDV5elZ5WGpKOWtpYmZWVU5yMnFqWkUxcjlJVllXc3hoZGRYUTVmOVVMNXpzbzdQVUQ4M2wwUUF1V3lSRWt1Tkd0MG15Yw?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-21T07:41:59"
+        },
+        {
+          "headline": "Stocks Supported as Crude Oil Stabilizes",
+          "link": "https://www.nasdaq.com/articles/stocks-supported-crude-oil-stabilizes",
+          "source": "Barchart",
+          "summary": "The S&P 500 Index ($SPX ) (SPY ) is up by +0.38% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.69%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up by +0.09%. E-mini S&P futures (ESU26 ) are up +0.37%, and September E-mini...",
+          "published": "2026-08-21T19:39:20"
+        }
+      ]
+    },
     {
       "symbol": "WDC",
       "classification": {
