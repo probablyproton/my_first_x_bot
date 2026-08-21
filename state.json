@@ -1,14 +1,15 @@
 {
   "date": "2026-08-21",
-  "daily_posts": 1,
+  "daily_posts": 2,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 7,
-  "gemini_calls_today": 11,
+  "daily_pulse_posts": 8,
+  "gemini_calls_today": 13,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-17",
-    "wednesday": "2026-08-12"
+    "wednesday": "2026-08-12",
+    "friday": "2026-08-21"
   },
   "zero_llm_posts": {},
   "research_spotlights_used": {
@@ -65,7 +66,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 476,
+  "event_log_next_id": 478,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -857,8 +858,8 @@
       "Bank of New York Mellon Corp Invests $2.52 Billion in KLA Corporation $KLAC",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
-      "KLA Corporation (NASDAQ:KLAC) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
+      "KLA Corporation (NASDAQ:KLAC) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "KLA Q4 Earnings Call Highlights",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
@@ -962,7 +963,16 @@
       "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
-      "Nitrogen-polar III-N HFETs on 200mm sapphire substrates"
+      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
+      "AIXTRON SE increases FY 2026 guidance",
+      "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
+      "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
+      "Is It Time To Consider Buying AIXTRON SE (ETR:AIXA)?",
+      "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
+      "Aixtron leads project to make SiC deposition more efficient",
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "Aixtron SE vs Veeco Instruments"
     ],
     "AMD": [
       "Cathie Wood Sends Fresh Warning on AMD Stock",
@@ -1009,26 +1019,26 @@
       "INFINEON TECHNOLOGIES AG : Jefferies remains its Buy rating"
     ],
     "ANET": [
+      "Hyperscale Data Center Market Surges to $608.54 billion at a CAGR 24.6% by 2030 | Report by MarketsandMarkets™",
       "Can ANET Stock Compound Its Way Higher?",
       "Arista Networks vs. CoreWeave: What Revenue Trends Tell Investors About These Artificial Intelligence Companies",
       "Strong Track Record Reinforces Arista Networks’ (ANET) Long Term Delivery",
       "Arista Networks Says AI Demand Broadens as Supply Limits Upside to 40% Growth Guide",
       "What You Are Really Paying For In Arista Networks Stock",
       "Arista Benefits From AI Networking Surge: Will Momentum Persist?",
-      "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
       "Enterprise Networking Market Surges to $193.77 billion at a CAGR 9.2% by 2030 | Report by MarketsandMarkets™",
+      "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility",
       "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Eli Lilly Tops Buy Point",
-      "Tom Lee Recommends Arista Networks (ANET) and JPMorgan (JPM), Analysts Weigh In",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
+      "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
       "Forrester challenge to Nvidia's networking claims by crowning Cisco, Arista, and Huawei",
       "3 AI Networking Stocks Quietly Dominating Their Niche in August",
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
+      "Tom Lee Recommends Arista Networks (ANET) and JPMorgan (JPM), Analysts Weigh In",
       "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
       "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
       "Genpact Stock Gains 13% in a Month",
-      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
-      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
-      "Arista Networks vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?"
+      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1307,8 +1317,7 @@
     "evergreen": [],
     "mover": [
       0,
-      2,
-      4
+      2
     ],
     "price_event": [
       3,
@@ -1325,8 +1334,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 298.35,
-    "SIE.DE": 281.0,
+    "SU.PA": 297.3,
+    "SIE.DE": 280.85,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1352,24 +1361,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 184.44,
-    "BESI.AS": 212.9,
-    "AIXA.DE": 37.52,
-    "IFX.DE": 55.73,
-    "ASML.AS": 1504.0,
-    "MU": 975.92,
-    "TSM": 419.57,
-    "KLAC": 183.97,
-    "STX": 850.74,
-    "ANET": 188.12,
-    "LRCX": 311.36,
-    "FORM": 112.55,
-    "AVGO": 366.1,
-    "AMAT": 488.97,
-    "AMD": 469.86,
-    "MRVL": 245.41,
-    "NVDA": 216.47,
-    "WDC": 463.4
+    "SAP.DE": 187.28,
+    "BESI.AS": 212.0,
+    "AIXA.DE": 37.44,
+    "IFX.DE": 55.81,
+    "ASML.AS": 1501.0,
+    "MU": 964.35,
+    "TSM": 417.48,
+    "KLAC": 183.1,
+    "STX": 840.16,
+    "ANET": 184.64,
+    "LRCX": 305.15,
+    "FORM": 111.44,
+    "AVGO": 367.32,
+    "AMAT": 484.7,
+    "AMD": 465.29,
+    "MRVL": 235.77,
+    "NVDA": 215.0,
+    "WDC": 463.07
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1397,9 +1406,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 38,
-  "last_pulse_post_min": 29788682,
-  "last_pulse_ticker": "ANET",
+  "next_pulse_interval": 37,
+  "last_pulse_post_min": 29788742,
+  "last_pulse_ticker": "MRVL",
   "pulse_news_seen": {
     "tsm:tsmc trades 30.87% above gf value as chip capacity tightens": "2026-08-20",
     "asml.as:taiwan semiconductor vs. asml: which semiconductor titan is the better buy today?": "2026-08-20",
