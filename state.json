@@ -1,10 +1,10 @@
 {
   "date": "2026-08-21",
-  "daily_posts": 2,
+  "daily_posts": 3,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 10,
-  "gemini_calls_today": 15,
-  "evergreen_opinion_posts_today": 1,
+  "daily_pulse_posts": 11,
+  "gemini_calls_today": 17,
+  "evergreen_opinion_posts_today": 2,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-17",
@@ -66,7 +66,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 481,
+  "event_log_next_id": 482,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -753,8 +753,8 @@
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor, Inc. (NASDAQ:FORM) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
-      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
-      "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
+      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
+      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
     ],
     "LRCX": [
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
@@ -802,25 +802,25 @@
     ],
     "WDC": [
       "Western Digital (WDC) Could Be 51% Overvalued On Apple China Memory Push",
+      "This Stock Could Be a Major AI Winner Through 2027. What’s It Worth?",
       "MU, SNDK Dip Overnight: KOSPI Hits Halt Amid Asian Tech Chip Rout, SoftBank, Samsung, SK Hynix Retreat",
       "Western Digital, Nova, and Penguin Solutions Shares Plummet, What You Need To Know",
+      "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
+      "Micron Technology Stock Has Become A Bet On Memory Prices",
+      "Memory Stocks Struggle for Momentum With ‘Smart Money’ Moving On",
       "SK Hynix Climbs 4% on Record Buyback, Micron Ticks Up as Memory Defies the Tech Selloff",
       "Seagate Has Already Surged 900% in 5 Years. Where Will it be In 2027?",
       "Jim Cramer names 4 'indispensable' memory stocks he says investors 'can't afford' to skip as AI demand soars",
-      "Micron's Biggest Risk Is Written In Its Construction Budget",
-      "Super Micro Computer and Western Digital: Analyzing Recent Revenue Trends and Business Scale",
-      "SanDisk Looks Cheap On Consensus, But The Payoff Sits In Its Contracts",
-      "SanDisk Is Up 3,911% Over Twelve Months. Hedge Funds Can’t Agree on What to Do.",
-      "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
+      "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
+      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
       "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
+      "NFJ Investment Group LLC Acquires Shares of 9,193 Western Digital Corporation $WDC",
+      "Why Is Western Digital Stock Sinking Thursday?",
+      "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Ceredex Value Advisors LLC Buys New Position in Western Digital Corporation $WDC",
-      "Western Digital Stock Is Gaining Monday: What's Going On?",
-      "Western Digital Corp Stock (WDC) Moved Down by 6.23% on Aug 19: What Signal Does It Send?",
-      "Allworth Financial LP Acquires New Holdings in Western Digital Corporation $WDC",
-      "2,585 Shares in Western Digital Corporation $WDC Purchased by Tocqueville Asset Management L.P.",
-      "B. Metzler seel. Sohn & Co. AG Purchases Shares of 69,916 Western Digital Corporation $WDC",
-      "Western Digital (NASDAQ:WDC) Trading Up 1.5% - Still a Buy?",
-      "22,648 Shares in Western Digital Corporation $WDC Bought by NewEdge Wealth LLC"
+      "13,997 Shares in Western Digital Corporation $WDC Acquired by Vise Technologies Inc.",
+      "Stocks Supported as Crude Oil Stabilizes",
+      "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -848,23 +848,23 @@
       "Is KLA (KLAC) a Buy as Wall Street Analysts Look Optimistic?",
       "KLA (KLAC) Could Be 12% Undervalued On Its Dividend Decision",
       "KLA Corporation Had a Tough Month: 60% Returns Will Come According to This Wall Street Stalwart",
+      "OSIS Q4 Earnings Beat on Margin Gains, Revenues Miss Estimates",
       "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
       "Paul Tudor Jones Just Liquidated His Entire Stake in Applied Materials Stock. I Don’t Think He’s 100% Bearish on AI Though… Yet",
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
       "Applied Materials Rockets 98% in 2026: How Does AMAT Compare to Lam Research and KLA as AI Capex Powers Chip Gear Stocks?",
       "Billionaire Joel Greenblatt’s 5 Biggest Moves This Quarter Reveal a Surprising Defensive Shift",
       "ONTO's $720 Million Rigaku Stake Opens a Major New X-Ray Growth Avenue",
-      "ONTO Surged 26.1% in the Past Month. Can Its Rally Keep Going Strong?",
       "Bank of New York Mellon Corp Invests $2.52 Billion in KLA Corporation $KLAC",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
+      "2 High-Flying Stocks to Own for Decades and 1 We Brush Off",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
+      "KLA Corporation (NASDAQ:KLAC) Chip Innovation Draws Market Attention",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "KLA Q4 Earnings Call Highlights",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
-      "2 High-Flying Stocks to Own for Decades and 1 We Brush Off",
-      "KLA Corporation (NASDAQ:KLAC) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
-      "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide"
+      "Stocks Supported as Crude Oil Stabilizes"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -884,9 +884,9 @@
       "SAP Quarterly Statement Q2 2026",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
+      "Weekly Recap: €2.6B SAP buyback plan and SAP stock surge after earnings",
       "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
-      "SAP adds to earnings rally with another 7% advance (SAP:NYSE)",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
+      "SAP adds to earnings rally with another 7% advance (SAP:NYSE)"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -1033,9 +1033,9 @@
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "Forrester challenge to Nvidia's networking claims by crowning Cisco, Arista, and Huawei",
       "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
-      "3 AI Networking Stocks Quietly Dominating Their Niche in August",
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks (ANET) Stock May Be Fully Priced On Its 7x Five Year Run",
+      "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
       "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
       "Genpact Stock Gains 13% in a Month",
       "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?"
@@ -1107,7 +1107,119 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "WDC",
+      "classification": {
+        "symbol": "WDC",
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
+        "reason": "A named institution acquired shares of the company, which falls under the large share purchases criterion."
+      },
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVTRjd2hjZUNGN3d5T3N3ZzdYV2xzaTRzQVJCeUR3bThtU0tncHlTLU50cDlVU19qUUFCaDY3V2FPSy1JMWQySEpRb2k1Tm9Hc1FZNC1BME84SjFtN1lVWTh4cjhuQVdveEFIV0lhOTZ1bHNvWmJrbWhkZUZTdXlCOGt5ci1CNHNxT3J3U00yS2RSaC1pLURrWnRac1gzcVFGYkZGeWZmcnhGZ1V1VWVHTmpDOUN5NjR2OEd2YW56bklBT2l0dXdEbzJrRVVtQzNRaThFWVE0MkRWN0o2MXNN?oc=5",
+      "source": "MarketBeat",
+      "method": "gemini",
+      "published": "2026-08-21T10:33:26",
+      "queued_min": 29788922,
+      "all_articles": [
+        {
+          "headline": "This Stock Could Be a Major AI Winner Through 2027. What’s It Worth?",
+          "link": "https://247wallst.com/investing/2026/08/21/this-stock-could-be-a-major-ai-winner-through-2027-whats-it-worth/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Micron has turned memory into one of the purest AI plays on the market, with revenues exploding and $100 billion in locked-in contracts, but whether the stock still has room to run or has already priced in the boom is a question worth answering before the next move.",
+          "published": "2026-08-21T14:30:32"
+        },
+        {
+          "headline": "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-stock-may-161154176.html?.tsrc=rss",
+          "source": null,
+          "summary": "Western Digital stock has delivered an exceptionally strong run over the past three years, yet the current valuation checks still lean toward the shares looking inexpensive on several measures. After such a sharp move higher, investors are weighing whether that apparent discount is still meaningful or already reflects the optimism in the story. Western Digital has returned about 14.6x over the past three years, which puts recent pullbacks in a much longer period of very strong gains. AI...",
+          "published": "2026-08-21T16:11:54"
+        },
+        {
+          "headline": "Micron Technology Stock Has Become A Bet On Memory Prices",
+          "link": "https://www.trefis.com/articles/612378/micron-technology-stock-has-become-a-bet-on-memory-prices/2026-08-21?.tsrc=rss",
+          "source": "trefis.com",
+          "summary": "Micron's record revenue arrived on shipments that barely grew, which leaves the price of memory carrying the entire case.",
+          "published": "2026-08-21T11:47:53"
+        },
+        {
+          "headline": "Memory Stocks Struggle for Momentum With ‘Smart Money’ Moving On",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/memory-stocks-struggle-momentum-smart-080700264.html?.tsrc=rss",
+          "source": null,
+          "summary": "After ripping through the first half of the year, memory stocks are struggling to regain momentum as growing concerns about the state of the artificial intelligence trade overshadow their strong fundamental backdrop.",
+          "published": "2026-08-21T08:07:00"
+        },
+        {
+          "headline": "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOVTRjd2hjZUNGN3d5T3N3ZzdYV2xzaTRzQVJCeUR3bThtU0tncHlTLU50cDlVU19qUUFCaDY3V2FPSy1JMWQySEpRb2k1Tm9Hc1FZNC1BME84SjFtN1lVWTh4cjhuQVdveEFIV0lhOTZ1bHNvWmJrbWhkZUZTdXlCOGt5ci1CNHNxT3J3U00yS2RSaC1pLURrWnRac1gzcVFGYkZGeWZmcnhGZ1V1VWVHTmpDOUN5NjR2OEd2YW56bklBT2l0dXdEbzJrRVVtQzNRaThFWVE0MkRWN0o2MXNN?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-21T10:33:26"
+        },
+        {
+          "headline": "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSmhYY195aXJ1ZGIxSVdQTWhURlhOOWU4MEpPMU40WTlJWVhUTUlwbkxva290Uml5X1ppNTA0bEJWMDNGckZzdEZqMnF6WklqNk9ESXJCaG5EZWY1Ql80X0FYd1VRX3N3X2RXOWdrbS0yV0ZKa2N2TDVQb3h3MXVrZ0QwVTZsQ0ZRMUUtcjVnMmljYW9sakhNZmxBLW9kSUN6NnZGdGxTS2xRbnZaWnBFRk9iTnF3MDFIRWJjazk4N3ExWGdNT3htakdsUm1HYXh6?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-21T10:06:33"
+        },
+        {
+          "headline": "NFJ Investment Group LLC Acquires Shares of 9,193 Western Digital Corporation $WDC",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNR0VBaU5QOGZWZ0E4eURJWERpTXRkWTVDWkJiLTZSVkM0VkZhdVhyTEpSUG9Jd2pJTW1wRlJPZFZfRlNwNHM2M1prT0VRTlZhU3B2eHF4OTBTS28yY09BenRKU2VjTDdaQVROTXJkdTFITGpGRHI1em9RZUVXN3RmbXFwZzhaRGlCZFJXU2UtUDlLMnA3blVyX3pOZHN4emEtY01HQTQxVkJuVnAyMTVtTnFBLXV1Q1A4VEhrdWplT09FZDd4amItUU5iZTl0b053THlFSlRuV1A?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-21T10:33:25"
+        },
+        {
+          "headline": "13,997 Shares in Western Digital Corporation $WDC Acquired by Vise Technologies Inc.",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxORjkxS1JCVkhiWGxlclNFdGtvd05rcmFXbm9PUU1GZ2gyNGJoeXJPOTdfRkp4eGhoMmVpQzM5TGlNV2tSY2hGN0tMLWNXTmFobnFCd09hZ1hMOGtERnFhbEhRUHVHZ1NJeDZoQ1ZkSTNfbk5GVXFtdnhsMDB1WFhRVDBHVThtZHRwbHFreDVfWHdsRi1GV2htSlJTUG9mTGl4RExRekJzaTRzb2VCLWQ1RF8yNW11QkNTVERjYnQzZFdVWE5US0EwbS13bk96b0ZHTlJOTG9VT1dpUQ?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-21T10:09:08"
+        },
+        {
+          "headline": "Stocks Supported as Crude Oil Stabilizes",
+          "link": "https://www.nasdaq.com/articles/stocks-supported-crude-oil-stabilizes",
+          "source": "Barchart",
+          "summary": "The S&P 500 Index ($SPX ) (SPY ) is up by +0.38% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.69%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up by +0.09%. E-mini S&P futures (ESU26 ) are up +0.37%, and September E-mini...",
+          "published": "2026-08-21T17:35:57"
+        },
+        {
+          "headline": "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide",
+          "link": "https://www.nasdaq.com/articles/stocks-finish-mixed-bond-yields-fall-and-chipmakers-slide",
+          "source": "Barchart",
+          "summary": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.21% on Wednesday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +0.22%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed down by -0.22%. E-mini S&P futures (ESU26 ) rose +0.20%, and September E-mini...",
+          "published": "2026-08-20T18:14:29"
+        }
+      ]
+    },
+    {
+      "symbol": "ANET",
+      "classification": {
+        "symbol": "ANET",
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
+        "reason": "A named institution increased its stock holdings in the company, which falls under the large share purchases criterion."
+      },
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQc0tCNEl1OUpoS18tSjBvWkpfeE82R0dtX0hDT1dNNUJFRXZwREFEOW1ONWlMT0VRbDZvVk1tdlBraDJtSW1wWjRtU2xyQkhYcEZDN0s0R3dEUjI2S1Zqb2lPVUNrWVdaSHFhYXYxS3ozNUZ5bXdHWVVXMU9DTHBFdDZsUmJHM2x5SnVVZTl1aXk3WjRSWGpLTXlTanhVOEYtSThFWTdVM2g4Nl9YdmhZTktzbnIzVjIyS0hzRlZydlZFcUszUVB3Nzc1Q0FFd0lzNDIxbFE1VW5HZw?oc=5",
+      "source": "MarketBeat",
+      "method": "gemini",
+      "published": "2026-08-21T09:46:21",
+      "queued_min": 29788922,
+      "all_articles": [
+        {
+          "headline": "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQc0tCNEl1OUpoS18tSjBvWkpfeE82R0dtX0hDT1dNNUJFRXZwREFEOW1ONWlMT0VRbDZvVk1tdlBraDJtSW1wWjRtU2xyQkhYcEZDN0s0R3dEUjI2S1Zqb2lPVUNrWVdaSHFhYXYxS3ozNUZ5bXdHWVVXMU9DTHBFdDZsUmJHM2x5SnVVZTl1aXk3WjRSWGpLTXlTanhVOEYtSThFWTdVM2g4Nl9YdmhZTktzbnIzVjIyS0hzRlZydlZFcUszUVB3Nzc1Q0FFd0lzNDIxbFE1VW5HZw?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-21T09:46:21"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1246,12 +1358,12 @@
     }
   },
   "recent_post_sources": [
-    "Tom's Hardware",
     "The Motley Fool",
     "DatacenterDynamics",
     "POWER Magazine",
     "MarketBeat",
-    "Canary Media"
+    "Canary Media",
+    "ServeTheHome"
   ],
   "last_news_post_min": 29787602,
   "evergreen_opinion_used": {
@@ -1287,11 +1399,19 @@
     "jason kelce-led marketing campaign asks beer drinkers to send their pee to ai data centers — liquid death and garage beer skit claims 'ai data centers waste millions of gallons of water'": "2026-08-19",
     "data center rumored to be coming to hofheim in state of hesse, germany": "2026-08-20",
     "pjm widens response to data center load as capacity shortfalls deepen": "2026-08-20",
-    "solar and storage still dominate us power plant construction": "2026-08-21"
+    "solar and storage still dominate us power plant construction": "2026-08-21",
+    "bosgame m5 amd ryzen ai max+ 395 128gb ai desktop review": "2026-08-21"
   },
   "pulse_template_decks": {
     "evergreen": [],
-    "mover": [],
+    "mover": [
+      4,
+      2,
+      1,
+      5,
+      0,
+      3
+    ],
     "price_event": [
       3,
       4
@@ -1302,7 +1422,7 @@
       1
     ]
   },
-  "last_evergreen_min": 29788683,
+  "last_evergreen_min": 29788923,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
@@ -1339,19 +1459,19 @@
     "AIXA.DE": 37.44,
     "IFX.DE": 55.81,
     "ASML.AS": 1501.0,
-    "MU": 964.61,
-    "TSM": 418.06,
-    "KLAC": 183.01,
-    "STX": 849.89,
-    "ANET": 189.02,
-    "LRCX": 311.6,
-    "FORM": 113.39,
-    "AVGO": 366.83,
-    "AMAT": 487.2,
-    "AMD": 469.66,
-    "MRVL": 234.32,
-    "NVDA": 215.24,
-    "WDC": 464.07
+    "MU": 967.46,
+    "TSM": 419.71,
+    "KLAC": 184.57,
+    "STX": 854.95,
+    "ANET": 189.38,
+    "LRCX": 313.1,
+    "FORM": 114.14,
+    "AVGO": 366.79,
+    "AMAT": 491.67,
+    "AMD": 471.79,
+    "MRVL": 238.07,
+    "NVDA": 215.75,
+    "WDC": 465.73
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1379,9 +1499,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 41,
-  "last_pulse_post_min": 29788861,
-  "last_pulse_ticker": "MRVL",
+  "next_pulse_interval": 31,
+  "last_pulse_post_min": 29788921,
+  "last_pulse_ticker": "ANET",
   "pulse_news_seen": {
     "tsm:tsmc trades 30.87% above gf value as chip capacity tightens": "2026-08-20",
     "asml.as:taiwan semiconductor vs. asml: which semiconductor titan is the better buy today?": "2026-08-20",
@@ -1389,7 +1509,8 @@
     "mrvl:marvell technology likely to post slight q2 beat, rbc says": "2026-08-20",
     "stx:the zacks analyst blog highlights salesforce, seagate, at&t and daily journal": "2026-08-21",
     "avgo:broadcom’s (avgo) massive new debt deal points to where ai is headed": "2026-08-21",
-    "form:madison asset management llc buys new stake in formfactor, inc. $form": "2026-08-21"
+    "form:madison asset management llc buys new stake in formfactor, inc. $form": "2026-08-21",
+    "anet:hyperscale data center market surges to $608.54 billion at a cagr 24.6% by 2030 | report by marketsandmarkets™": "2026-08-21"
   },
   "eu_slots": [
     {
