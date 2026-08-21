@@ -2,8 +2,8 @@
   "date": "2026-08-21",
   "daily_posts": 3,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 11,
-  "gemini_calls_today": 17,
+  "daily_pulse_posts": 12,
+  "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
     "sunday": "2026-07-05",
@@ -66,7 +66,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 482,
+  "event_log_next_id": 483,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -747,13 +747,13 @@
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
       "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
+      "M6 MacBook Pro rumors: Improved performance, in a familiar form factor",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "FormFactor (NASDAQ:FORM) Gains Attention As Semiconductor Testing Demand Expands",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor, Inc. (NASDAQ:FORM) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
-      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
     ],
     "LRCX": [
@@ -1409,8 +1409,7 @@
       2,
       1,
       5,
-      0,
-      3
+      0
     ],
     "price_event": [
       3,
@@ -1459,19 +1458,19 @@
     "AIXA.DE": 37.44,
     "IFX.DE": 55.81,
     "ASML.AS": 1501.0,
-    "MU": 967.46,
-    "TSM": 419.71,
-    "KLAC": 184.57,
-    "STX": 854.95,
-    "ANET": 189.38,
-    "LRCX": 313.1,
-    "FORM": 114.14,
-    "AVGO": 366.79,
-    "AMAT": 491.67,
-    "AMD": 471.79,
-    "MRVL": 238.07,
-    "NVDA": 215.75,
-    "WDC": 465.73
+    "MU": 969.66,
+    "TSM": 419.79,
+    "KLAC": 184.55,
+    "STX": 858.77,
+    "ANET": 190.37,
+    "LRCX": 314.11,
+    "FORM": 114.55,
+    "AVGO": 367.26,
+    "AMAT": 492.81,
+    "AMD": 472.57,
+    "MRVL": 237.77,
+    "NVDA": 215.43,
+    "WDC": 467.49
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1499,9 +1498,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 31,
-  "last_pulse_post_min": 29788921,
-  "last_pulse_ticker": "ANET",
+  "next_pulse_interval": 42,
+  "last_pulse_post_min": 29788981,
+  "last_pulse_ticker": "MRVL",
   "pulse_news_seen": {
     "tsm:tsmc trades 30.87% above gf value as chip capacity tightens": "2026-08-20",
     "asml.as:taiwan semiconductor vs. asml: which semiconductor titan is the better buy today?": "2026-08-20",
