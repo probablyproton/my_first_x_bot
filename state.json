@@ -2,8 +2,8 @@
   "date": "2026-08-21",
   "daily_posts": 2,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 9,
-  "gemini_calls_today": 14,
+  "daily_pulse_posts": 10,
+  "gemini_calls_today": 15,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-07-05",
@@ -66,7 +66,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 479,
+  "event_log_next_id": 481,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -749,10 +749,10 @@
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
+      "FormFactor (NASDAQ:FORM) Gains Attention As Semiconductor Testing Demand Expands",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor, Inc. (NASDAQ:FORM) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
-      "10,484,409 Shares in FormFactor, Inc. $FORM Bought by BlackRock Inc.",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
@@ -856,14 +856,14 @@
       "ONTO's $720 Million Rigaku Stake Opens a Major New X-Ray Growth Avenue",
       "ONTO Surged 26.1% in the Past Month. Can Its Rally Keep Going Strong?",
       "Bank of New York Mellon Corp Invests $2.52 Billion in KLA Corporation $KLAC",
-      "McLaughlin Asset Management, Inc.'s KLA Corp(KLAC) Holding History",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
+      "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "KLA Q4 Earnings Call Highlights",
-      "KLA Corporation (NASDAQ:KLAC) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "2 High-Flying Stocks to Own for Decades and 1 We Brush Off",
+      "KLA Corporation (NASDAQ:KLAC) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
       "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide"
     ],
     "SAP.DE": [
@@ -900,14 +900,13 @@
       "BE Semiconductor Industries NV (BESIY) Q1 2026 Earnings Call Highlights: Record Growth in ...",
       "BE Semiconductor Industries N.V. Announces Q1-26 Results",
       "BE Semiconductor Industries N.V. (BESIY) Stock Price, News, Quote & History",
-      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "After Leaping 30% BE Semiconductor Industries N.V. (AMS:BESI) Shares Are Not Flying Under The Radar",
-      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
-      "Netherlands stocks lower at close of trade; AEX down 0.27%",
-      "Victory Trivalent International Small-Cap Fund Q2 2026 Commentary",
-      "Signify stock holds in mid-€15 range as investors digest latest lighting results",
-      "With 57% ownership of the shares, BE Semiconductor Industries N.V. (AMS:BESI) is heavily dominated by institutional owners",
-      "At €130, Is BE Semiconductor Industries N.V. (AMS:BESI) Worth Looking At Closely?"
+      "BE Semiconductor Industries NV (OTCMKTS:BESIY) Receives Consensus Recommendation of \"Buy\" from Analysts",
+      "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
+      "EU3330.EUR Bond Profile — Key Metrics",
+      "Why is BE Semiconductor stock sliding today?",
+      "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
+      "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
+      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results"
     ],
     "AMAT": [
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
@@ -1030,16 +1029,16 @@
       "Enterprise Networking Market Surges to $193.77 billion at a CAGR 9.2% by 2030 | Report by MarketsandMarkets™",
       "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility",
       "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Eli Lilly Tops Buy Point",
+      "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "Forrester challenge to Nvidia's networking claims by crowning Cisco, Arista, and Huawei",
       "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
+      "3 AI Networking Stocks Quietly Dominating Their Niche in August",
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
-      "Tom Lee Recommends Arista Networks (ANET) and JPMorgan (JPM), Analysts Weigh In",
-      "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
+      "Arista Networks (ANET) Stock May Be Fully Priced On Its 7x Five Year Run",
       "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
       "Genpact Stock Gains 13% in a Month",
-      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
-      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth"
+      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1108,31 +1107,7 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "WDC",
-      "classification": {
-        "is_major": true,
-        "category": "large_share_purchases",
-        "headline": "2,585 Shares in Western Digital Corporation $WDC Purchased by Tocqueville Asset Management L.P.",
-        "reason": "Sizeable institutional share purchase"
-      },
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNGpRcF93aEw0ckJrT2hVVVlRc3JKZEVuR1BXZnQ4TFlSS1pBTEVhZ09RemRWWG82QnVPQTQyTzJlT293WjJaN1I4VGwyLWhIQ0xTNG1jc3lrWXlyTUloZV83NVJiQVJpMGRxUzNBY3diTFdZS1dZRmlaby1RbHoyT1JBNU8zcWZJMHFxV0d1dXRJcnRYT3BjeTFQMW5JNDEwWFlwMjFqdy10dUNfVlpQVWlEREQ5cFZtWXpER0VxOXFxMHdSM1I3akNqSmJiTFByWmlZTFN1UVhOU2ZXTFN0Z3lwTS1HNUE?oc=5",
-      "source": "MarketBeat",
-      "method": "keyword",
-      "published": "2026-08-21T09:46:23",
-      "queued_min": 29788442,
-      "all_articles": [
-        {
-          "headline": "2,585 Shares in Western Digital Corporation $WDC Purchased by Tocqueville Asset Management L.P.",
-          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNGpRcF93aEw0ckJrT2hVVVlRc3JKZEVuR1BXZnQ4TFlSS1pBTEVhZ09RemRWWG82QnVPQTQyTzJlT293WjJaN1I4VGwyLWhIQ0xTNG1jc3lrWXlyTUloZV83NVJiQVJpMGRxUzNBY3diTFdZS1dZRmlaby1RbHoyT1JBNU8zcWZJMHFxV0d1dXRJcnRYT3BjeTFQMW5JNDEwWFlwMjFqdy10dUNfVlpQVWlEREQ5cFZtWXpER0VxOXFxMHdSM1I3akNqSmJiTFByWmlZTFN1UVhOU2ZXTFN0Z3lwTS1HNUE?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-21T09:46:23"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1316,9 +1291,7 @@
   },
   "pulse_template_decks": {
     "evergreen": [],
-    "mover": [
-      0
-    ],
+    "mover": [],
     "price_event": [
       3,
       4
@@ -1366,19 +1339,19 @@
     "AIXA.DE": 37.44,
     "IFX.DE": 55.81,
     "ASML.AS": 1501.0,
-    "MU": 966.93,
-    "TSM": 418.98,
-    "KLAC": 183.89,
-    "STX": 850.12,
-    "ANET": 188.78,
-    "LRCX": 311.76,
-    "FORM": 113.85,
-    "AVGO": 367.93,
-    "AMAT": 488.62,
-    "AMD": 469.35,
-    "MRVL": 235.71,
-    "NVDA": 216.23,
-    "WDC": 465.74
+    "MU": 964.61,
+    "TSM": 418.06,
+    "KLAC": 183.01,
+    "STX": 849.89,
+    "ANET": 189.02,
+    "LRCX": 311.6,
+    "FORM": 113.39,
+    "AVGO": 366.83,
+    "AMAT": 487.2,
+    "AMD": 469.66,
+    "MRVL": 234.32,
+    "NVDA": 215.24,
+    "WDC": 464.07
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1406,9 +1379,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 38,
-  "last_pulse_post_min": 29788802,
-  "last_pulse_ticker": "FORM",
+  "next_pulse_interval": 41,
+  "last_pulse_post_min": 29788861,
+  "last_pulse_ticker": "MRVL",
   "pulse_news_seen": {
     "tsm:tsmc trades 30.87% above gf value as chip capacity tightens": "2026-08-20",
     "asml.as:taiwan semiconductor vs. asml: which semiconductor titan is the better buy today?": "2026-08-20",
@@ -1433,7 +1406,8 @@
     }
   ],
   "eu_posted": [
-    0
+    0,
+    1
   ],
   "us_slots": [
     {
