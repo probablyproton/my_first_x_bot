@@ -1,7 +1,7 @@
 {
   "date": "2026-08-21",
   "daily_posts": 3,
-  "daily_keyword_posts": 0,
+  "daily_keyword_posts": 1,
   "daily_pulse_posts": 12,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
@@ -58,7 +58,7 @@
     "BESI.AS": 1083,
     "ASML.AS": 1322,
     "IFX.DE": 964,
-    "LRCX": 1261,
+    "LRCX": 1382,
     "FORM": 1320,
     "AVGO": 1400,
     "KLAC": 1142,
@@ -66,7 +66,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 483,
+  "event_log_next_id": 485,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -102,7 +102,7 @@
     "news_MU": 1322,
     "news_AMD": 1292,
     "BESI.AS": 917,
-    "news_LRCX": 1261,
+    "news_LRCX": 1382,
     "FORM": 1320,
     "AMD": 1022,
     "AVGO": 1082,
@@ -746,12 +746,12 @@
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
       "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
-      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "M6 MacBook Pro rumors: Improved performance, in a familiar form factor",
+      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
-      "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "FormFactor (NASDAQ:FORM) Gains Attention As Semiconductor Testing Demand Expands",
+      "FormFactor CEO Mike Slessor sells $2.1m in common stock",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor, Inc. (NASDAQ:FORM) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
@@ -860,8 +860,8 @@
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "2 High-Flying Stocks to Own for Decades and 1 We Brush Off",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
-      "KLA Corporation (NASDAQ:KLAC) Chip Innovation Draws Market Attention",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
+      "KLA Corporation (NASDAQ:KLAC) Chip Innovation Draws Market Attention",
       "KLA Q4 Earnings Call Highlights",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Stocks Supported as Crude Oil Stabilizes"
@@ -881,7 +881,6 @@
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP SE: Release of a capital market information",
       "SAP Announces Q2 and Half-Year 2026 Results",
-      "SAP Quarterly Statement Q2 2026",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
@@ -931,26 +930,26 @@
       "Stocks Supported by Lower Bond Yields"
     ],
     "NVDA": [
-      "Waymo is making its own AI chip for its robotaxi service",
-      "B.O.S. Better Online Solutions Ltd. Q2 2026 Earnings Call Summary",
-      "LSI Industries Inc. Q4 2026 Earnings Call Summary",
-      "Waymo Builds Its Own Chip and Reduces Its Nvidia Dependence",
-      "Burger King's $700 Million Fix Is Paying Off for Restaurant Brands International",
-      "Why Estee Lauder Rallied This Week",
-      "Billionaire Investor David Tepper Recently Dumped Appaloosa Management's Stake in Sandisk and Initiated a New Position In a Stock That Some Wall Street Experts Think Could Eventually Be Worth $10 Trillion",
-      "Sector Update: Tech Stocks Decline Late Afternoon",
-      "Is Rocket Lab Stock a Buy After Its Big Contract Win?",
-      "Broadcom repoirtedly seeking to raise over $60 billion for AI chip deal",
-      "BofA Sees Nvidia Trading at Up to 50% Discount on AI Risks",
-      "Super Micro Says Top Management Didn’t Know of Diversion Scheme",
+      "Nvidia earnings are on deck next week. These 3 themes will be mission-critical.",
+      "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia, CrowdStrike, Warsh In Focus",
+      "NVIDIA Corporation (NVDA) & Advanced Micro Devices (AMD): Nvidia Might Ship AI Chips With Less Memory. AMD Says It’s Not Worried",
+      "Jefferies Drops Hot Take on Nvidia Before Earnings",
+      "Goldman Sachs Sees Nvidia Setup Few Expect",
+      "Nvidia Makes Another Bet on the AI Power Bottleneck",
+      "Stock Market Today: Dow Gains 500 Points; SpaceX Snaps A Losing Streak, Bitcoin Pops",
+      "Why Clean Energy Fuels Stock Slumped This Week",
+      "AMD Falls as Nvidia's Earnings Test Looms Over AI Chips",
+      "Alphabet's TPU Chips Generated Revenue for the First Time Last Quarter",
+      "Nvidia: There Is No Plan B (NASDAQ:NVDA)",
+      "What NVIDIA’s $500 Billion “Checkmate” Means for Investors",
+      "This Earnings Report Could Steal The Show Next Week (Not Nvidia)",
+      "Nvidia in Talks With Chip Startup Rebellions for Potential Deal",
+      "Nvidia to Pay Poolside a $6 Billion License, Tap Startup’s Staff",
       "Mortal Shell II & The Sinking City 2 Launch This Week With DLSS",
-      "Nvidia Holds More Than 122 Million Shares of SPCX Stock After Q2. Barchart Data Shows It’s Making a High-Upside Bet.",
-      "Nvidia backing $105 billion in financing for OpenAI data center in Ohio",
-      "8 Stocks Nvidia Has Invested In",
-      "Michael Burry Says This AI Chip Startup Is 'Serious Competition' for Nvidia",
-      "NVIDIA Corporation $NVDA Stake Raised by World Equity Group Inc.",
-      "Nvidia plans China AI return with new specialized chip, report says",
-      "NVIDIA vs. Broadcom: The AI Stock You Should Buy Right Now"
+      "Trending stocks to watch: NVIDIA, Super Micro, Intel and more",
+      "SpaceX Revenue Growth vs Nvidia: Musk Says Estimates Are Low - SpaceX (NASDAQ:SPCX)",
+      "Meet Madison Huang, daughter of multibillionaire Nvidia CEO Jensen Huang",
+      "NVIDIA Corporation $NVDA Stake Increased by Paladin Wealth LLC"
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
@@ -975,26 +974,26 @@
       "Aixtron SE vs Veeco Instruments"
     ],
     "AMD": [
-      "Cathie Wood Sends Fresh Warning on AMD Stock",
-      "AMD Falls as Google Expands Its $120 Billion Custom-Chip Push",
-      "Broadcom vs. AMD vs. Nvidia: Three Different AI Chip Strategies, Three Very Different Valuations. Here's the Metric That Explains the Gap.",
-      "Is Advanced Micro Devices (AMD) Priced For Perfection Or Trading At A Discount?",
-      "Broadcom Holds Steady as ARK Buys the Dip, Intel Slips, AMD Eases After Google’s Marvell Chip Deal",
-      "Waymo Builds Its Own Chip and Reduces Its Nvidia Dependence",
-      "Billionaire Stanley Druckenmiller Sells Micron and Is Piling Into This Other Unstoppable Artificial Intelligence (AI) Chip Stock Instead",
-      "Is AMD Catching Up With Nvidia? Here's the Best Stock to Buy Today.",
-      "AMD and Intel Shares Plummet, What You Need To Know",
-      "AMD Just Split Two of Wall Street’s Biggest Contrarian Investors",
-      "Where Will AMD Stock Be in 5 Years?",
+      "NVIDIA Corporation (NVDA) & Advanced Micro Devices (AMD): Nvidia Might Ship AI Chips With Less Memory. AMD Says It’s Not Worried",
+      "AMD Falls as Nvidia's Earnings Test Looms Over AI Chips",
+      "Advanced Micro Devices vs. Arm Holdings: Comparing Revenue Trends Between These Artificial Intelligence Companies",
+      "Advanced Micro Devices (AMD) Posts Record Sales, But Musk’s NVIDIA (NVDA) Pledge Sinks the Stock",
+      "AMD Has More Than Tripled Off Its Low and Still Trades 20% Below Its High",
+      "AMD vs. Nvidia: Is AMD Finally Closing the AI Gap?",
+      "AMD Lost SpaceX to Nvidia. Is Its AI Challenge Already Falling Apart?",
+      "Nvidia, AMD, and Intel: Wall Street Says to Buy 2 and Avoid 1. I Disagree.",
+      "Goldman Sachs Sees Nvidia Setup Few Expect",
+      "Can Cerebras' Latest CS-4 Help the Stock in Confronting NVDA & AMD?",
+      "Earn 17% On AMD Stock Now, For Capping Your Upside At 24%",
+      "Coatue Management Opens New Position in AMD Stock. View This as a Renewed Bet on the AI Trade.",
       "Broadcom Holds Steady as ARK Buys the Dip, Intel Slips, AMD Eases After Google's Marvell Chip Deal",
-      "State of Wyoming Acquires 2,540 Shares of Advanced Micro Devices, Inc. $AMD",
-      "SpaceX Has Big Investors Like Nvidia, Google, and AMD. That Could Be Dangerous for You.",
+      "1,437 Shares in Advanced Micro Devices, Inc. $AMD Acquired by Peachtree Investment Partners LLC",
       "What's Going On With AMD Stock Wednesday?",
-      "AMD filing reveals unexpected SpaceX and Nutanix bet",
-      "Advanced Micro Devices (AMD) Raises $5b For AI As Its Valuation Debate Heats Up",
-      "Prediction: AMD Stock Will Hit $650 on This Date",
-      "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide",
-      "Why Is AMD Borrowing Money if Profits are Booming?"
+      "Is AMD Catching Up With Nvidia? Here's the Best Stock to Buy Today.",
+      "Stocks Supported as Crude Oil Stabilizes",
+      "Chip Stocks Didn't Fall on Chip News This Week. They Fell on a 19-Year High in the 30-Year Treasury Yield.",
+      "NVIDIA Earnings in 5 Days: Should You Buy, Hold, or Sell NVDA?",
+      "Notable ETF Inflow Detected - SOXX, MU, AMD, AVGO"
     ],
     "IFX.DE": [
       "Infineon and MediaTek partner on automotive AI systems",
@@ -1016,7 +1015,7 @@
       "North America Silicon Carbide (SiC) Market",
       "Infineon Technologies (IFNNY) is an Incredible Growth Stock: 3 Reasons Why",
       "Infineon-led European project Moore4Power launches",
-      "Infineon upbeat on AI chips but cautious on automotive, industrials"
+      "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG"
     ],
     "ANET": [
       "Hyperscale Data Center Market Surges to $608.54 billion at a CAGR 24.6% by 2030 | Report by MarketsandMarkets™",
@@ -1109,60 +1108,144 @@
   },
   "pending_news_posts": [
     {
-      "symbol": "LRCX",
+      "symbol": "NVDA",
       "classification": {
         "is_major": true,
-        "category": "earnings",
-        "headline": "Applied Materials (AMAT) Beat Estimates and Investors Sold Anyway. Lam Research Corporation (LRCX) Didn’t Have That Problem",
-        "reason": "Keyword rule matched (category: earnings)"
+        "category": "analyst_note",
+        "headline": "Goldman Sachs Sees Nvidia Setup Few Expect",
+        "reason": "Named-firm analyst research note"
       },
-      "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-beat-estimates-000516701.html?.tsrc=rss",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-sees-nvidia-setup-201703480.html?.tsrc=rss",
       "source": null,
       "method": "keyword",
-      "published": "2026-08-21T00:05:16",
-      "queued_min": 29789041,
+      "published": "2026-08-21T20:17:03",
+      "queued_min": 29789101,
       "all_articles": [
         {
-          "headline": "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/lam-research-lrcx-outperforming-other-134002982.html?.tsrc=rss",
+          "headline": "Nvidia earnings are on deck next week. These 3 themes will be mission-critical.",
+          "link": "https://finance.yahoo.com/video/nvidia-earnings-deck-next-week-200251512.html?.tsrc=rss",
           "source": null,
-          "summary": "Here is how Lam Research (LRCX) and Aehr Test Systems (AEHR) have performed compared to their sector so far this year.",
-          "published": "2026-08-21T13:40:02"
+          "summary": "Nvidia (NVDA) is set to report second quarter earnings results on Wednesday, Aug. 26, after markets close. Yahoo Finance Technology Editor Dan Howley discusses his expectations for the earnings print, highlighting what investors will be keeping an eye on.",
+          "published": "2026-08-21T20:02:51"
         },
         {
-          "headline": "Applied Materials (AMAT) Beat Estimates and Investors Sold Anyway. Lam Research Corporation (LRCX) Didn’t Have That Problem",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/applied-materials-amat-beat-estimates-000516701.html?.tsrc=rss",
+          "headline": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia, CrowdStrike, Warsh In Focus",
+          "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-market.html?.tsrc=rss",
           "source": null,
-          "summary": "On August 13, 2026, Applied Materials, Inc. (NASDAQ:AMAT) reported fiscal third-quarter results that topped Wall Street estimates on both revenue and adjusted profit, yet shares fell nearly 5% in after-hours trading and kept sliding into August 14, 2026. Rival Lam Research Corporation (NASDAQ:LRCX) posted its own stronger-than-expected results on July 29, 2026, and saw shares […]",
-          "published": "2026-08-21T00:05:16"
+          "summary": "The market rally suffered damage last week, though bitcoin and gold shined. Nvidia and CrowdStrike earnings are critical while Fed's Warsh will make a big speech.",
+          "published": "2026-08-21T20:48:30"
         },
         {
-          "headline": "Coatue Management Opens New Position in AMD Stock. View This as a Renewed Bet on the AI Trade.",
-          "link": "https://www.barchart.com/story/news/3959404/coatue-management-opens-new-position-in-amd-stock-view-this-as-a-renewed-bet-on-the-ai-trade?.tsrc=rss",
-          "source": "barchart.com",
-          "summary": "Coatue Management started a new AMD stock position worth $55.8 million in Q2, joining a wave of fresh AI bets from the hedge fund giant.",
-          "published": "2026-08-20T21:47:33"
+          "headline": "NVIDIA Corporation (NVDA) & Advanced Micro Devices (AMD): Nvidia Might Ship AI Chips With Less Memory. AMD Says It’s Not Worried",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-corporation-nvda-advanced-micro-204025825.html?.tsrc=rss",
+          "source": null,
+          "summary": "NVIDIA Corporation (NASDAQ:NVDA) is weighing a step that would have seemed unthinkable a year ago: shipping its next-generation Rubin Ultra GPU with less memory than originally promised. According to The Information, the company has been testing at least three versions with reduced high-bandwidth memory, some as low as 192GB to 256GB, well below the 1 […]",
+          "published": "2026-08-21T20:40:25"
         },
         {
-          "headline": "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
-          "link": "https://247wallst.com/investing/2026/08/20/the-biggest-risk-facing-the-first-trust-nasdaq-semiconductor-etf-ftxl-right-now/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "FTXL has handed holders a stunning run, but the modified-equal-weight label that made the fund feel safe may be hiding a concentration problem that turns one bad earnings call into a portfolio event.",
-          "published": "2026-08-20T21:10:39"
+          "headline": "Jefferies Drops Hot Take on Nvidia Before Earnings",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-drops-hot-nvidia-earnings-201706386.html?.tsrc=rss",
+          "source": null,
+          "summary": "Wall Street may still be underestimating Nvidia's AI momentum",
+          "published": "2026-08-21T20:17:06"
         },
         {
-          "headline": "Franchise GP Ltd Makes New Investment in Lam Research Corporation $LRCX",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWFo2TGNodmdCQjRPVGwxSV9PUHZOSnR5RTdudDRxbFFuV2ozcUdUNzJFbVhqTHRjM3NvMHlLN1d4UHEyWE4xekNHQlZLWkhkaVQ4Z00wVWdrQlptVTRpNlpDNUxlSkdfc01wNU9xa3ZCTmxweWFJWGtENk9HWTdDby1mQWNtMDV5elZ5WGpKOWtpYmZWVU5yMnFqWkUxcjlJVllXc3hoZGRYUTVmOVVMNXpzbzdQVUQ4M2wwUUF1V3lSRWt1Tkd0MG15Yw?oc=5",
+          "headline": "Goldman Sachs Sees Nvidia Setup Few Expect",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-sees-nvidia-setup-201703480.html?.tsrc=rss",
+          "source": null,
+          "summary": "Institutional caution could become fresh buying pressure fast",
+          "published": "2026-08-21T20:17:03"
+        },
+        {
+          "headline": "Nvidia Makes Another Bet on the AI Power Bottleneck",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-makes-another-bet-ai-200702046.html?.tsrc=rss",
+          "source": null,
+          "summary": "The chipmaker is investing in data center developer Cloverleaf Infrastructure.",
+          "published": "2026-08-21T20:07:02"
+        },
+        {
+          "headline": "Stock Market Today: Dow Gains 500 Points; SpaceX Snaps A Losing Streak, Bitcoin Pops",
+          "link": "https://finance.yahoo.com/m/ab896025-9eb7-3478-b19c-7560fd065b92/stock-market-today%3A-dow-gains.html?.tsrc=rss",
+          "source": null,
+          "summary": "Stock Market Today: The Dow Jones index rises Friday after selling off a day earlier. Nvidia falls ahead of Q2 earnings.",
+          "published": "2026-08-21T20:40:11"
+        },
+        {
+          "headline": "Why Clean Energy Fuels Stock Slumped This Week",
+          "link": "https://www.fool.com/investing/2026/08/21/why-clean-energy-fuels-stock-slumped-this-week/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "An analyst significantly reduced his price target on the company's equity.",
+          "published": "2026-08-21T20:26:56"
+        },
+        {
+          "headline": "AMD Falls as Nvidia's Earnings Test Looms Over AI Chips",
+          "link": "https://finance.yahoo.com/technology/ai/articles/amd-falls-nvidias-earnings-test-200822269.html?.tsrc=rss",
+          "source": null,
+          "summary": "The market is demanding proof that AMD can convert enormous customer agreements into profitable accelerator deployments.",
+          "published": "2026-08-21T20:08:22"
+        },
+        {
+          "headline": "Alphabet's TPU Chips Generated Revenue for the First Time Last Quarter",
+          "link": "https://www.fool.com/investing/2026/08/21/alphabets-tpu-chips-generated-revenue-for-the-firs/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "The technology giant just entered a business that could be worth $1 trillion per year within a decade.",
+          "published": "2026-08-21T19:50:00"
+        },
+        {
+          "headline": "Nvidia: There Is No Plan B (NASDAQ:NVDA)",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iUDdiMk81bkQ5VmtiVEduVDNrQzZ6Wm1KMnowOEUxRGhDQ2xVN2pjNmZqdV9jVXNsYjlaRlJpeGkwOGVNV0NJcmpOUXdUYnNfbkZIUlBGamhoU2lma3JiMUNiTmVtejZBSDZmZTdaYjh5V21i?oc=5",
+          "source": "Seeking Alpha",
+          "summary": "",
+          "published": "2026-08-21T12:00:00"
+        },
+        {
+          "headline": "This Earnings Report Could Steal The Show Next Week (Not Nvidia)",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdjNtcDdreDJyV084WERCUy01Y2ttSndLR3RXT3RHMW9Vc0F1bnBNMjB0WmdqbzJlY2RTS3h4ZlZ6SGdrMjc5RmhhTG00cUNkQmdPSk1rYS1ETjg2QjVzYVdJeVdYSlphSVFoazlOcUNCSDg2VjZ2QXJPXzRNUVRHUDllb0k0SldOaWg0OXRiLVFLZzNCS0pQdWU1YmQxV202WEpSbXFNV2cwZTJjMWFGVmNtY0VtRWF5dDN2WExB?oc=5",
+          "source": "Forbes",
+          "summary": "",
+          "published": "2026-08-21T20:40:24"
+        },
+        {
+          "headline": "Nvidia in Talks With Chip Startup Rebellions for Potential Deal",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYVdKT3RrZ2R6RXppSndKZ1E2NFRCUHp2Y0pHUkpxMFphcGJhWkxHZlgxTUd5cGt2Y3ZwLTFTbXBEeGlMWnJhX2ZnMW8yc2Myck5wU2pRaFdFUzJOQWYwdzFDS3F4UXJ1Qjg2MWpWOE9qaEpHTUtCS1FwLUJ3cVM3S1g2a2NoREUtWUFKLTBTelB1SWJicVFMcDZ0amR4NldhS1FGRkxKMllTX25hdE83SUF1N1o?oc=5",
+          "source": "Bloomberg.com",
+          "summary": "",
+          "published": "2026-08-21T07:45:43"
+        },
+        {
+          "headline": "Nvidia to Pay Poolside a $6 Billion License, Tap Startup’s Staff",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWmJ5RmJNbU4yU01fMTVSeXVwa0haVFl4TnJSMHJkc2h1QmNjcEhIdTV2OHo5TVdvY0VXNDdMUl90R0ZqNFhWZjkxMWhXd08xWnFobzdRVjlGcVpTak01cU1TeUlzbzBzTGRnNHlaQ1cwMXN5dTBfYnFma3RNVlJDeWtWTnByZlVqbkZqVkZFSUxPMUZLQTNtNQ?oc=5",
+          "source": "Yahoo Finance",
+          "summary": "",
+          "published": "2026-08-21T18:14:48"
+        },
+        {
+          "headline": "Trending stocks to watch: NVIDIA, Super Micro, Intel and more",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQ1ZoUlRDcFNfcUdpZVRvaE41Nk94MmU4VzlhVG02em9Uc0FRNV9kZHFzUFhKVHp0T0lneEd1N1NtRnFPRjFjZGFQQy1JS3RyVGxzUEc1dUlHLVRJSTIzb1pKeHduNkR0ZGV6WlNSUVBsWTBtNGNwZEdiTGVDY0lWd0tCQ1lZT2dlYUF6U01vSnM3OVFVd3J0Q19oRzRYODJCRl9hLTY5ZWtXb1BaMjlSMUZtYl9YekNNUk5oRg?oc=5",
+          "source": "Investing.com",
+          "summary": "",
+          "published": "2026-08-21T19:40:34"
+        },
+        {
+          "headline": "SpaceX Revenue Growth vs Nvidia: Musk Says Estimates Are Low - SpaceX (NASDAQ:SPCX)",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS1pMUlNFLUhNVC1JbjA1WlViajRPR2NOMFRuQ1lxUEpvMFVMdG9mMzI2eUp4bzAwTDFtb01pYS1vTEtESExnZ3FRLWJQb2Y5UWpfNDlKZGc3X3pnZmhkU096akVrN2FNcjVXSjdLYmxzMnNWdmE5X3VOeWNqMFJ0NzZ2dkNtWUtfb1ZoUmV1YkExUQ?oc=5",
+          "source": "Benzinga",
+          "summary": "",
+          "published": "2026-08-21T13:00:38"
+        },
+        {
+          "headline": "Meet Madison Huang, daughter of multibillionaire Nvidia CEO Jensen Huang",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMHhLNHc3Q1J5dGZmaVRMckpVeWdqT2twTlA0WE1WcnljWmxmNExxSjA5Q05XeVlTckJlcFpKekM0dUZjNG0yeTJEUUo2UVlCZGFIQ29pWmxta1BlaFZjSVN5VWh6ZE9iQXNjR09vSVZJOHRsZGY3YkpVME9yazRQSk52bHJrR043Z1FNNjF3Z0ZpN0Z3NzloNWR3VkM0S2ROeWdwU3haeklZZV9pXzVzSDQtdXlmWWlaeE9LTHNyXzc2Qy10REFpMmJtaU1wVnlEOENpYjczdTFfTXpQMnFDWTE0MHFaUdIB5gFBVV95cUxQcTFpR19SejN2bEc4RVRhS0lNOElMelVlbnROREplQlMwLWtyd3FXMk9vVFhXRy1DMGlucFZPSndUaVduSVRzNzhxSXZHNTAwZTZTS1A3LUJXWGVCb2l6Y01HZkd0QWpscmVEaTlYVDBhdEZ6YVpJT1E5MEs0dHZvY1V4OTJnVDV6WDlhX0VQcXJnUG0zWnUwVXFqaUxXM2RaYkNIQkZ5RHBmODBtY3NGYUNEamc4ZFpHelJFcURwalotcnRxd0ttYlBFT3hwZ0N6cnBNc3p2T1I0YnZJcWpMeS1kRVBKQQ?oc=5",
+          "source": "South China Morning Post",
+          "summary": "",
+          "published": "2026-08-21T09:14:05"
+        },
+        {
+          "headline": "NVIDIA Corporation $NVDA Stake Increased by Paladin Wealth LLC",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY1NoMzJobW5VbHlSX1MxamhFWl9QNzZOSVgyRG1fVXJmUElGYXNuczBDYTUxWGYyamJJWVdycVhBWmJOT0pSWlNDc3NwRjFrUkptd0J6R3F6dmRZVC1oTEhDUEdHcU9kdTlocWVDY3JUSExpaXp1NzlRdUJodk1UWXZ0RktHSDdVc25jTnptMU1qVXBlelNUbk0zV0VUVlppcE1YMnVOZ3FMeEJiTnBaSTVmSWY5emxFX21CUDNrSQ?oc=5",
           "source": "MarketBeat",
           "summary": "",
-          "published": "2026-08-21T07:41:59"
-        },
-        {
-          "headline": "Stocks Supported as Crude Oil Stabilizes",
-          "link": "https://www.nasdaq.com/articles/stocks-supported-crude-oil-stabilizes",
-          "source": "Barchart",
-          "summary": "The S&P 500 Index ($SPX ) (SPY ) is up by +0.38% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.69%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is up by +0.09%. E-mini S&P futures (ESU26 ) are up +0.37%, and September E-mini...",
-          "published": "2026-08-21T19:39:20"
+          "published": "2026-08-21T09:08:15"
         }
       ]
     },
@@ -1378,7 +1461,8 @@
     },
     "LRCX": {
       "large_share_purchases": 844,
-      "ma": 1261
+      "ma": 1261,
+      "earnings": 1382
     },
     "NVDA": {
       "contract": 1262
@@ -1423,7 +1507,7 @@
     "Canary Media",
     "ServeTheHome"
   ],
-  "last_news_post_min": 29787602,
+  "last_news_post_min": 29789102,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -1602,6 +1686,7 @@
     }
   ],
   "us_posted": [
-    0
+    0,
+    1
   ]
 }
