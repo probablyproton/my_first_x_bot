@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 467,
+  "event_log_next_id": 468,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -332,14 +332,14 @@
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
-      "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Harry Siemens Honored for Farm Reporting",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Mobility North America appoints president",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
+      "Siemens Launches Wendell Microgrid at HQ Campus"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -880,8 +880,8 @@
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP SE: Release of a capital market information",
       "SAP Announces Q2 and Half-Year 2026 Results",
-      "SAP Quarterly Statement Q2 2026",
       "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
+      "SAP Quarterly Statement Q2 2026",
       "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "Resilient SAP stock trades around $208 as AI deals reshape 2026 guidance",
@@ -1033,11 +1033,11 @@
       "Arista Networks Inc. stock underperforms Thursday when compared to competitors",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "Arista Stock Is Up 40% This Year. The Guidance Raises Explain Why.",
+      "Arista Networks calls time on server line due to supply chain pressures",
       "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
       "Genpact Stock Gains 13% in a Month",
       "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
-      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
-      "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?"
+      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1106,157 +1106,7 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "MU",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "Micron Jumps 2.2% After Unveiling $10 Billion AI Memory Lab",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://finance.yahoo.com/technology/ai/articles/micron-jumps-2-2-unveiling-171253611.html?.tsrc=rss",
-      "source": null,
-      "method": "keyword",
-      "published": "2026-08-20T17:12:53",
-      "queued_min": 29787662,
-      "all_articles": [
-        {
-          "headline": "SK Hynix Climbs 4% on Record Buyback, Micron Ticks Up as Memory Defies the Tech Selloff",
-          "link": "https://247wallst.com/investing/2026/08/20/sk-hynix-climbs-4-on-record-buyback-micron-ticks-up-as-memory-defies-the-tech-selloff/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "While the rest of the tech sector bleeds red Thursday, memory stocks are defying gravity, and the catalyst powering the biggest winner has nothing to do with AI chips.",
-          "published": "2026-08-20T18:31:39"
-        },
-        {
-          "headline": "Micron Quietly Pours $10 Billion Into Next Big Move",
-          "link": "https://finance.yahoo.com/technology/ai/articles/micron-quietly-pours-10-billion-182903705.html?.tsrc=rss",
-          "source": null,
-          "summary": "A massive research push could sharpen Micron's competitive edge",
-          "published": "2026-08-20T18:29:03"
-        },
-        {
-          "headline": "Billionaire Stanley Druckenmiller Dumped Micron, Intel, and Broadcom: Here Are the AI Infrastructure Stocks He Bought Instead",
-          "link": "https://247wallst.com/investing/2026/08/20/billionaire-stanley-druckenmiller-dumped-micron-intel-and-broadcom-here-are-the-ai-infrastructure-stocks-he-bought-instead/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "Stanley Druckenmiller just closed out three of the most talked-about semiconductor positions on Wall Street and immediately put the proceeds to work in a pair of AI infrastructure names most income investors overlook entirely.",
-          "published": "2026-08-20T17:46:17"
-        },
-        {
-          "headline": "Billionaire Stanley Druckenmiller Sells Micron and Is Piling Into This Other Unstoppable Artificial Intelligence (AI) Chip Stock Instead",
-          "link": "https://www.fool.com/investing/2026/08/20/billionaire-stanley-druckenmiller-sells-micron-and/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Druckenmiller's Duquesne Family Office just dumped its entire position in Micron stock.",
-          "published": "2026-08-20T17:35:00"
-        },
-        {
-          "headline": "Micron Plans $10 Billion Research Lab—Trump and Apple Love It",
-          "link": "https://finance.yahoo.com/m/231fbe3e-e023-3506-8d82-b258b0d1e42b/micron-plans-%2410-billion.html?.tsrc=rss",
-          "source": null,
-          "summary": "Micron unveils Micron Research Labs, a new research institution. Its stock has soared more than 700% over the last year, and was up again Thursday.",
-          "published": "2026-08-20T17:14:00"
-        },
-        {
-          "headline": "Micron Jumps 2.2% After Unveiling $10 Billion AI Memory Lab",
-          "link": "https://finance.yahoo.com/technology/ai/articles/micron-jumps-2-2-unveiling-171253611.html?.tsrc=rss",
-          "source": null,
-          "summary": "The decade-long Boise investment targets technologies beyond today's HBM boom and strengthens Micron's U.S. research footprint.",
-          "published": "2026-08-20T17:12:53"
-        },
-        {
-          "headline": "Micron launches $10 billion AI memory research lab in Boise",
-          "link": "https://qz.com/micron-research-labs-ai-memory-boise-082026?.tsrc=rss",
-          "source": "qz.com",
-          "summary": "The planned decade-long investment will fund a flagship Boise campus, university partnerships, and satellite labs worldwide",
-          "published": "2026-08-20T17:04:52"
-        },
-        {
-          "headline": "Micron’s $50 Billion Idaho Buildout Is Minting Millionaires and Straining Local Infrastructure",
-          "link": "https://247wallst.com/investing/2026/08/20/microns-50-billion-idaho-buildout-is-minting-millionaires-and-straining-local-infrastructure/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "A $50 billion semiconductor buildout is turning Boise workers into millionaires almost overnight, but the same forces reshaping personal fortunes are pushing Idaho's housing, utilities, and infrastructure to a breaking point.",
-          "published": "2026-08-20T16:56:14"
-        },
-        {
-          "headline": "Micron's Biggest Risk Is Written In Its Construction Budget",
-          "link": "https://www.trefis.com/articles/612237/microns-biggest-risk-is-written-in-its-construction-budget/2026-08-20?.tsrc=rss",
-          "source": "trefis.com",
-          "summary": "Micron is spending record cash flow on new fabs whose output arrives into the same year its own outlook expects memory supply to improve.",
-          "published": "2026-08-20T15:21:12"
-        },
-        {
-          "headline": "Why Micron Isn’t Buying Back Stock Like Memory-Chip Rivals—and Why It Could",
-          "link": "https://finance.yahoo.com/m/ddc253bf-3397-3b35-bf19-c0dd18b2380b/why-micron-isn%E2%80%99t-buying-back.html?.tsrc=rss",
-          "source": null,
-          "summary": "Micron rivals are buying back stock at a rapid clip but the American company will have to wait to return capital to shareholders.",
-          "published": "2026-08-20T14:41:00"
-        },
-        {
-          "headline": "Micron unveils $10 billion AI memory research lab in Boise",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOU0dOS0FhM005bXNxVTkwWUNSR3pCaHJKb01nbXpualU1V0FNakliNmJMeHZsdXYtREhjOThWLUdVVGlTZExHZXBaVDFHcHJ3ZHRPY3BsLUxfX2NHMmV4U2hmRm9ibE1MTkhmV3FFWXY3aXVsYWRaWElRa2MwdDdaNVI4VnFXYWZvQ0FLeFlWY2dFNWlhVlB1TUh5dEwyeUFXV1hLNHZWX1Y3dUx2WVE?oc=5",
-          "source": "Reuters",
-          "summary": "",
-          "published": "2026-08-20T13:45:44"
-        },
-        {
-          "headline": "Prediction: Micron Stock Could Go Parabolic After Aug. 26",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZXI3Yi1tUXR1blphcFJPM2FsRFZ3aWtHYjdieW9jQXlGcTRqOExTTU1vSnZTb09NNzBOSGdaMWlkR0QzMDRtNzl1VDhoekhqLTItUmxBbWlvLTZyQjNfdWRzcmpWTlpPQnotY2dfdUtlS3ZGbXdyeXB5cy1nTFA5RmZlalNNbG40R3FTTUpXZEljZE1SSXRicjBPWEdTaTZkRUVIN2pMdw?oc=5",
-          "source": "Yahoo Finance",
-          "summary": "",
-          "published": "2026-08-20T13:22:00"
-        },
-        {
-          "headline": "Vaquero Private Wealth Ltd. Makes New Investment in Micron Technology, Inc. $MU",
-          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNMTNmbWw4MHMtbVBkcEZ5ZmVkVzBwc2wzVjdfQ01tVVV5VW5pdXBfM0daalB6S3I3RXktNUxHc1EwLWIyNGJxdm1rZi1hQ1hCb3ZRR3o0V3JmTXdWWWpnSG40Rk1hM2pLWFZ0UTVfUVlmOTVZd0dIR1hOYTRlS2p5WVVYSEZXQjNUUE4xd3ZIaGZkOUUwb19KMmduQkxidjNTa0ZDMXBUVzd0a2J1X3NieEpFTXFnT1ZXbkJzd3JjWElCMmlCQVdoUDhXUDlGUm1VcXc?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-20T09:10:41"
-        },
-        {
-          "headline": "Micron rolls out big guns to support Boise memory lab launch as WD looks to Japan to for storage innovation lab",
-          "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUDBvZGZsTDJGc29uM1VST3pKb0pRcjFWV1JSMWhpNUN4UkZFNnNpY1VaWTctaC1tdEkxNVlDQk5DNV8yeExDV1pucHI5VXBhYkF6RHZuSzY0aXJTTWVuYmhkZXhpUVhQWmljbnZfdDJaZHgwN2JBVjdmbFU3cDZpZHJWeDdDRTJBNlI3UWpocTNidlcyaHZtenhBTC1nZVNlRGlNTzVXWmlRY1JuaVFfaWRxUVZQZGVGNkhtbGNnZUJiUDZfNlMzT2stV1gxNkNhY29SWFhKVUNSV1BJazRrMWpvTDhnbUdCU0JJbDZZZ291TUJIMFJSRWhUSQ?oc=5",
-          "source": "Blocks & Files",
-          "summary": "",
-          "published": "2026-08-20T16:57:00"
-        },
-        {
-          "headline": "MU Stock Gains On Micron's $10B AI Memory Bet – Nvidia's Jensen Huang, Apple's Tim Cook Back Research Push",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMFlaTERXVHBlYkFrTHZURU45YlBUNW1UemNaQmVXTVBOSWswV2JybjgtbWRvLXI2QjdtMzY4YmZ4b24tRVpweEQtLVF5Rlo2N0ZtWXkzd2tFOWdQaUg4ektDXzI0Unl2ZDVTNGNIU2p3aFdFMktCdnBqblZUSlBWczVYaThFQVVaOE5SVU5MWjZLZE9wbFZLbFo2MktjcU0yeTg3ZzR4SV9Od1RuWlpTZjZ0cTdOemVab0I1ajZ2b3Fzdw?oc=5",
-          "source": "Stocktwits",
-          "summary": "",
-          "published": "2026-08-20T13:47:52"
-        },
-        {
-          "headline": "MICRON TO BUILD $10 BILLION RESEARCH CAMPUS IN BOISE",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYWFQRWtzV0ZQWkVPU1NFMEtJMl9JOWpEODdvVEdBd0diWWVLSTdwWERWdVFwbk1VV0RpYi1GSk9JNXY3WUQ0aXhnemtzTTZZajVrSk5tVFVGQkRrZEp4dW1nZUhqUUVDVmxPcDZCRG9RMjgyd0llaF82YnYxUk9meFl0ZUs0dVI4bmg1OXN1NA?oc=5",
-          "source": "Boise Dev",
-          "summary": "",
-          "published": "2026-08-20T13:48:07"
-        },
-        {
-          "headline": "Tech leaders react to Micron's expansion in Boise",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT2xaeXFROE45b3VvcnZlN1lXZmpjZjJMdEdpd19vV2FHWXVvdnYyU2F3UWRvXzFiWUpOc0pGdGhDQ2pNMmhnMlQtVk05YWFwN0JZTDJZVmU1QTBaNzNlUVV4ZE1VU2YzNDlOTXpDVXcySGpyZjZDY0FBdngtUWJpQnEzWXZzTG5w?oc=5",
-          "source": "KBOI",
-          "summary": "",
-          "published": "2026-08-20T14:08:15"
-        },
-        {
-          "headline": "Micron announces $10 billion research lab coming to Boise",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTUw4VklPZVJVQU1icTFUakE0Qkdhb3NiOVRMelpDdkQyTmI3YXBia3BsTEs4NVB6dHc4R0Y4QmJlQmNkNWZvbFo3SWpCM1JMRS15Qi1LNFBsZVlHWFkzVklYeDcwTnFqajQxM0Jra1F3YlYxc245ZlZUVTBseGd4VktCaHh5WWl4OHl4Um5tVDVnNmJtcS1MbGpQc0hLcG9ydUo3aHZOMlI2dmNjbG5mNG50Ykd5MjhXWUFaaXhB?oc=5",
-          "source": "KTVB",
-          "summary": "",
-          "published": "2026-08-20T15:50:00"
-        },
-        {
-          "headline": "Walmart's 10% Plunge Weighs on All Three Major Indexes",
-          "link": "https://www.nasdaq.com/articles/walmarts-10-plunge-weighs-all-three-major-indexes",
-          "source": "The Motley Fool",
-          "summary": "Key PointsWalmart's U.S. comparable sales grew just 2.6%, well short of the 3.7% analysts expected and the slowest pace since late 2020.",
-          "published": "2026-08-20T17:04:43"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
