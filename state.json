@@ -2,8 +2,8 @@
   "date": "2026-08-21",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 3,
-  "gemini_calls_today": 4,
+  "daily_pulse_posts": 4,
+  "gemini_calls_today": 6,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 471,
+  "event_log_next_id": 472,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -744,14 +744,14 @@
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
-      "10,484,409 Shares in FormFactor, Inc. $FORM Bought by BlackRock Inc.",
-      "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
+      "FormFactor, Inc. (NASDAQ:FORM) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
+      "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
+      "10,484,409 Shares in FormFactor, Inc. $FORM Bought by BlackRock Inc.",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor Jumps 5.6% Amid Sector-Wide Rally",
-      "FormFactor (NASDAQ:FORM) Upgraded at Zacks Research",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
@@ -816,10 +816,10 @@
       "Western Digital Stock Is Gaining Monday: What's Going On?",
       "Western Digital Corp Stock (WDC) Moved Down by 6.23% on Aug 19: What Signal Does It Send?",
       "Allworth Financial LP Acquires New Holdings in Western Digital Corporation $WDC",
+      "2,585 Shares in Western Digital Corporation $WDC Purchased by Tocqueville Asset Management L.P.",
       "B. Metzler seel. Sohn & Co. AG Purchases Shares of 69,916 Western Digital Corporation $WDC",
       "Western Digital (NASDAQ:WDC) Trading Up 1.5% - Still a Buy?",
-      "22,648 Shares in Western Digital Corporation $WDC Bought by NewEdge Wealth LLC",
-      "Trivest Advisors Ltd Acquires New Holdings in Western Digital Corporation $WDC"
+      "22,648 Shares in Western Digital Corporation $WDC Bought by NewEdge Wealth LLC"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -855,14 +855,14 @@
       "ONTO's $720 Million Rigaku Stake Opens a Major New X-Ray Growth Avenue",
       "ONTO Surged 26.1% in the Past Month. Can Its Rally Keep Going Strong?",
       "Bank of New York Mellon Corp Invests $2.52 Billion in KLA Corporation $KLAC",
-      "KLA Corporation (NASDAQ:KLAC) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
-      "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
+      "KLA Corporation (NASDAQ:KLAC) Receives Consensus Recommendation of \"Moderate Buy\" from Analysts",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
+      "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
+      "KLA Q4 Earnings Call Highlights",
       "Alger Growth & Income Fund Q2 2026 Portfolio Review",
-      "KLA Corp. stock underperforms Tuesday when compared to competitors",
       "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide"
     ],
     "SAP.DE": [
@@ -880,12 +880,12 @@
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP SE: Release of a capital market information",
       "SAP Announces Q2 and Half-Year 2026 Results",
-      "NewEdge Advisors LLC Purchases 20,024 Shares of SAP SE $SAP",
       "SAP Quarterly Statement Q2 2026",
-      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
       "SAP shrugs off fears of AI eating software with big earnings beat",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?",
-      "Weekly Recap: €2.6B SAP buyback plan and SAP stock surge after earnings"
+      "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
+      "SAP Number of Employees 2026 | Employee Count & Headcount Data",
+      "SAP adds to earnings rally with another 7% advance (SAP:NYSE)",
+      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -1028,11 +1028,11 @@
       "Enterprise Networking Market Surges to $193.77 billion at a CAGR 9.2% by 2030 | Report by MarketsandMarkets™",
       "Tom Lee Recommends Arista Networks (ANET) and JPMorgan (JPM), Analysts Weigh In",
       "Tom Lee Says Avoid Crypto Favorite Robinhood Stock Despite Record Q2 Growth",
-      "Bank of New York Mellon Corp Cuts Position in Arista Networks, Inc. $ANET",
+      "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
       "Arista Networks Inc. stock underperforms Thursday when compared to competitors",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
-      "Arista Stock Is Up 40% This Year. The Guidance Raises Explain Why.",
       "Arista Networks calls time on server line due to supply chain pressures",
+      "Arista Stock Is Up 40% This Year. The Guidance Raises Explain Why.",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
       "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
@@ -1106,7 +1106,31 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "WDC",
+      "classification": {
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "2,585 Shares in Western Digital Corporation $WDC Purchased by Tocqueville Asset Management L.P.",
+        "reason": "Sizeable institutional share purchase"
+      },
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNGpRcF93aEw0ckJrT2hVVVlRc3JKZEVuR1BXZnQ4TFlSS1pBTEVhZ09RemRWWG82QnVPQTQyTzJlT293WjJaN1I4VGwyLWhIQ0xTNG1jc3lrWXlyTUloZV83NVJiQVJpMGRxUzNBY3diTFdZS1dZRmlaby1RbHoyT1JBNU8zcWZJMHFxV0d1dXRJcnRYT3BjeTFQMW5JNDEwWFlwMjFqdy10dUNfVlpQVWlEREQ5cFZtWXpER0VxOXFxMHdSM1I3akNqSmJiTFByWmlZTFN1UVhOU2ZXTFN0Z3lwTS1HNUE?oc=5",
+      "source": "MarketBeat",
+      "method": "keyword",
+      "published": "2026-08-21T09:46:23",
+      "queued_min": 29788442,
+      "all_articles": [
+        {
+          "headline": "2,585 Shares in Western Digital Corporation $WDC Purchased by Tocqueville Asset Management L.P.",
+          "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPNGpRcF93aEw0ckJrT2hVVVlRc3JKZEVuR1BXZnQ4TFlSS1pBTEVhZ09RemRWWG82QnVPQTQyTzJlT293WjJaN1I4VGwyLWhIQ0xTNG1jc3lrWXlyTUloZV83NVJiQVJpMGRxUzNBY3diTFdZS1dZRmlaby1RbHoyT1JBNU8zcWZJMHFxV0d1dXRJcnRYT3BjeTFQMW5JNDEwWFlwMjFqdy10dUNfVlpQVWlEREQ5cFZtWXpER0VxOXFxMHdSM1I3akNqSmJiTFByWmlZTFN1UVhOU2ZXTFN0Z3lwTS1HNUE?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-21T09:46:23"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1300,8 +1324,7 @@
       4
     ],
     "quiet": [
-      3,
-      2
+      3
     ]
   },
   "last_evergreen_min": 29787422,
@@ -1309,8 +1332,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 297.25,
-    "SIE.DE": 278.2,
+    "SU.PA": 295.65,
+    "SIE.DE": 277.9,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1336,11 +1359,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 185.66,
-    "BESI.AS": 213.3,
-    "AIXA.DE": 37.79,
-    "IFX.DE": 55.78,
-    "ASML.AS": 1503.8,
+    "SAP.DE": 185.22,
+    "BESI.AS": 212.8,
+    "AIXA.DE": 37.66,
+    "IFX.DE": 55.55,
+    "ASML.AS": 1507.4,
     "MU": 958.97,
     "TSM": 415.37,
     "KLAC": 185.17,
@@ -1381,9 +1404,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 32,
-  "last_pulse_post_min": 29788381,
-  "last_pulse_ticker": "STX",
+  "next_pulse_interval": 30,
+  "last_pulse_post_min": 29788441,
+  "last_pulse_ticker": "AIXA.DE",
   "pulse_news_seen": {
     "tsm:tsmc trades 30.87% above gf value as chip capacity tightens": "2026-08-20",
     "asml.as:taiwan semiconductor vs. asml: which semiconductor titan is the better buy today?": "2026-08-20",
