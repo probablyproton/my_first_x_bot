@@ -3,7 +3,7 @@
   "daily_posts": 0,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 5,
-  "gemini_calls_today": 7,
+  "gemini_calls_today": 9,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
@@ -65,7 +65,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 473,
+  "event_log_next_id": 474,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -861,8 +861,8 @@
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "KLA Q4 Earnings Call Highlights",
+      "2 High-Flying Stocks to Own for Decades and 1 We Brush Off",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
-      "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
       "Stocks Finish Mixed as Bond Yields Fall and Chipmakers Slide"
     ],
     "SAP.DE": [
@@ -1028,16 +1028,16 @@
       "Enterprise Networking Market Surges to $193.77 billion at a CAGR 9.2% by 2030 | Report by MarketsandMarkets™",
       "Tom Lee Recommends Arista Networks (ANET) and JPMorgan (JPM), Analysts Weigh In",
       "Tom Lee Says Avoid Crypto Favorite Robinhood Stock Despite Record Q2 Growth",
-      "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
-      "Arista Networks Inc. stock underperforms Thursday when compared to competitors",
-      "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
-      "Arista Networks calls time on server line due to supply chain pressures",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
-      "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
-      "Arista Stock Is Up 40% This Year. The Guidance Raises Explain Why.",
+      "Forrester challenge to Nvidia's networking claims by crowning Cisco, Arista, and Huawei",
+      "3 AI Networking Stocks Quietly Dominating Their Niche in August",
+      "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
+      "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
       "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
       "Genpact Stock Gains 13% in a Month",
-      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?"
+      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
+      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth",
+      "Arista Networks vs. International Business Machines: Which Technology Stock Is a Better Buy in 2026?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1323,15 +1323,20 @@
       3,
       4
     ],
-    "quiet": []
+    "quiet": [
+      0,
+      2,
+      1,
+      4
+    ]
   },
   "last_evergreen_min": 29787422,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 296.05,
-    "SIE.DE": 278.05,
+    "SU.PA": 297.05,
+    "SIE.DE": 278.85,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1358,10 +1363,10 @@
     "ASML": 1615.92,
     "NBIS": 186.0,
     "SAP.DE": 184.7,
-    "BESI.AS": 212.7,
-    "AIXA.DE": 37.75,
-    "IFX.DE": 55.64,
-    "ASML.AS": 1506.2,
+    "BESI.AS": 213.2,
+    "AIXA.DE": 37.82,
+    "IFX.DE": 55.82,
+    "ASML.AS": 1511.2,
     "MU": 958.97,
     "TSM": 415.37,
     "KLAC": 185.17,
