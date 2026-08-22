@@ -66,7 +66,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 487,
+  "event_log_next_id": 488,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -747,11 +747,11 @@
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
       "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
-      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "FormFactor (NASDAQ:FORM) Gains Attention As Semiconductor Testing Demand Expands",
       "M6 MacBook Pro rumors: Improved performance, in a familiar form factor",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
+      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "FormFactor, Inc. (NASDAQ:FORM) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
@@ -1106,150 +1106,7 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "analyst_note",
-        "headline": "Goldman Sachs Sees Nvidia Setup Few Expect",
-        "reason": "Named-firm analyst research note"
-      },
-      "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-sees-nvidia-setup-201703480.html?.tsrc=rss",
-      "source": null,
-      "method": "keyword",
-      "published": "2026-08-21T20:17:03",
-      "queued_min": 29789101,
-      "all_articles": [
-        {
-          "headline": "Nvidia earnings are on deck next week. These 3 themes will be mission-critical.",
-          "link": "https://finance.yahoo.com/video/nvidia-earnings-deck-next-week-200251512.html?.tsrc=rss",
-          "source": null,
-          "summary": "Nvidia (NVDA) is set to report second quarter earnings results on Wednesday, Aug. 26, after markets close. Yahoo Finance Technology Editor Dan Howley discusses his expectations for the earnings print, highlighting what investors will be keeping an eye on.",
-          "published": "2026-08-21T20:02:51"
-        },
-        {
-          "headline": "Dow Jones Futures: Market Rally Repairs Some Damage; Nvidia, CrowdStrike, Warsh In Focus",
-          "link": "https://finance.yahoo.com/m/0e4d198b-0fbe-345f-9a59-99f6074c2273/dow-jones-futures%3A-market.html?.tsrc=rss",
-          "source": null,
-          "summary": "The market rally suffered damage last week, though bitcoin and gold shined. Nvidia and CrowdStrike earnings are critical while Fed's Warsh will make a big speech.",
-          "published": "2026-08-21T20:48:30"
-        },
-        {
-          "headline": "NVIDIA Corporation (NVDA) & Advanced Micro Devices (AMD): Nvidia Might Ship AI Chips With Less Memory. AMD Says It’s Not Worried",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-corporation-nvda-advanced-micro-204025825.html?.tsrc=rss",
-          "source": null,
-          "summary": "NVIDIA Corporation (NASDAQ:NVDA) is weighing a step that would have seemed unthinkable a year ago: shipping its next-generation Rubin Ultra GPU with less memory than originally promised. According to The Information, the company has been testing at least three versions with reduced high-bandwidth memory, some as low as 192GB to 256GB, well below the 1 […]",
-          "published": "2026-08-21T20:40:25"
-        },
-        {
-          "headline": "Jefferies Drops Hot Take on Nvidia Before Earnings",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jefferies-drops-hot-nvidia-earnings-201706386.html?.tsrc=rss",
-          "source": null,
-          "summary": "Wall Street may still be underestimating Nvidia's AI momentum",
-          "published": "2026-08-21T20:17:06"
-        },
-        {
-          "headline": "Goldman Sachs Sees Nvidia Setup Few Expect",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/goldman-sachs-sees-nvidia-setup-201703480.html?.tsrc=rss",
-          "source": null,
-          "summary": "Institutional caution could become fresh buying pressure fast",
-          "published": "2026-08-21T20:17:03"
-        },
-        {
-          "headline": "Nvidia Makes Another Bet on the AI Power Bottleneck",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-makes-another-bet-ai-200702046.html?.tsrc=rss",
-          "source": null,
-          "summary": "The chipmaker is investing in data center developer Cloverleaf Infrastructure.",
-          "published": "2026-08-21T20:07:02"
-        },
-        {
-          "headline": "Stock Market Today: Dow Gains 500 Points; SpaceX Snaps A Losing Streak, Bitcoin Pops",
-          "link": "https://finance.yahoo.com/m/ab896025-9eb7-3478-b19c-7560fd065b92/stock-market-today%3A-dow-gains.html?.tsrc=rss",
-          "source": null,
-          "summary": "Stock Market Today: The Dow Jones index rises Friday after selling off a day earlier. Nvidia falls ahead of Q2 earnings.",
-          "published": "2026-08-21T20:40:11"
-        },
-        {
-          "headline": "Why Clean Energy Fuels Stock Slumped This Week",
-          "link": "https://www.fool.com/investing/2026/08/21/why-clean-energy-fuels-stock-slumped-this-week/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "An analyst significantly reduced his price target on the company's equity.",
-          "published": "2026-08-21T20:26:56"
-        },
-        {
-          "headline": "AMD Falls as Nvidia's Earnings Test Looms Over AI Chips",
-          "link": "https://finance.yahoo.com/technology/ai/articles/amd-falls-nvidias-earnings-test-200822269.html?.tsrc=rss",
-          "source": null,
-          "summary": "The market is demanding proof that AMD can convert enormous customer agreements into profitable accelerator deployments.",
-          "published": "2026-08-21T20:08:22"
-        },
-        {
-          "headline": "Alphabet's TPU Chips Generated Revenue for the First Time Last Quarter",
-          "link": "https://www.fool.com/investing/2026/08/21/alphabets-tpu-chips-generated-revenue-for-the-firs/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "The technology giant just entered a business that could be worth $1 trillion per year within a decade.",
-          "published": "2026-08-21T19:50:00"
-        },
-        {
-          "headline": "Nvidia: There Is No Plan B (NASDAQ:NVDA)",
-          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iUDdiMk81bkQ5VmtiVEduVDNrQzZ6Wm1KMnowOEUxRGhDQ2xVN2pjNmZqdV9jVXNsYjlaRlJpeGkwOGVNV0NJcmpOUXdUYnNfbkZIUlBGamhoU2lma3JiMUNiTmVtejZBSDZmZTdaYjh5V21i?oc=5",
-          "source": "Seeking Alpha",
-          "summary": "",
-          "published": "2026-08-21T12:00:00"
-        },
-        {
-          "headline": "This Earnings Report Could Steal The Show Next Week (Not Nvidia)",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdjNtcDdreDJyV084WERCUy01Y2ttSndLR3RXT3RHMW9Vc0F1bnBNMjB0WmdqbzJlY2RTS3h4ZlZ6SGdrMjc5RmhhTG00cUNkQmdPSk1rYS1ETjg2QjVzYVdJeVdYSlphSVFoazlOcUNCSDg2VjZ2QXJPXzRNUVRHUDllb0k0SldOaWg0OXRiLVFLZzNCS0pQdWU1YmQxV202WEpSbXFNV2cwZTJjMWFGVmNtY0VtRWF5dDN2WExB?oc=5",
-          "source": "Forbes",
-          "summary": "",
-          "published": "2026-08-21T20:40:24"
-        },
-        {
-          "headline": "Nvidia in Talks With Chip Startup Rebellions for Potential Deal",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYVdKT3RrZ2R6RXppSndKZ1E2NFRCUHp2Y0pHUkpxMFphcGJhWkxHZlgxTUd5cGt2Y3ZwLTFTbXBEeGlMWnJhX2ZnMW8yc2Myck5wU2pRaFdFUzJOQWYwdzFDS3F4UXJ1Qjg2MWpWOE9qaEpHTUtCS1FwLUJ3cVM3S1g2a2NoREUtWUFKLTBTelB1SWJicVFMcDZ0amR4NldhS1FGRkxKMllTX25hdE83SUF1N1o?oc=5",
-          "source": "Bloomberg.com",
-          "summary": "",
-          "published": "2026-08-21T07:45:43"
-        },
-        {
-          "headline": "Nvidia to Pay Poolside a $6 Billion License, Tap Startup’s Staff",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWmJ5RmJNbU4yU01fMTVSeXVwa0haVFl4TnJSMHJkc2h1QmNjcEhIdTV2OHo5TVdvY0VXNDdMUl90R0ZqNFhWZjkxMWhXd08xWnFobzdRVjlGcVpTak01cU1TeUlzbzBzTGRnNHlaQ1cwMXN5dTBfYnFma3RNVlJDeWtWTnByZlVqbkZqVkZFSUxPMUZLQTNtNQ?oc=5",
-          "source": "Yahoo Finance",
-          "summary": "",
-          "published": "2026-08-21T18:14:48"
-        },
-        {
-          "headline": "Trending stocks to watch: NVIDIA, Super Micro, Intel and more",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQ1ZoUlRDcFNfcUdpZVRvaE41Nk94MmU4VzlhVG02em9Uc0FRNV9kZHFzUFhKVHp0T0lneEd1N1NtRnFPRjFjZGFQQy1JS3RyVGxzUEc1dUlHLVRJSTIzb1pKeHduNkR0ZGV6WlNSUVBsWTBtNGNwZEdiTGVDY0lWd0tCQ1lZT2dlYUF6U01vSnM3OVFVd3J0Q19oRzRYODJCRl9hLTY5ZWtXb1BaMjlSMUZtYl9YekNNUk5oRg?oc=5",
-          "source": "Investing.com",
-          "summary": "",
-          "published": "2026-08-21T19:40:34"
-        },
-        {
-          "headline": "SpaceX Revenue Growth vs Nvidia: Musk Says Estimates Are Low - SpaceX (NASDAQ:SPCX)",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNS1pMUlNFLUhNVC1JbjA1WlViajRPR2NOMFRuQ1lxUEpvMFVMdG9mMzI2eUp4bzAwTDFtb01pYS1vTEtESExnZ3FRLWJQb2Y5UWpfNDlKZGc3X3pnZmhkU096akVrN2FNcjVXSjdLYmxzMnNWdmE5X3VOeWNqMFJ0NzZ2dkNtWUtfb1ZoUmV1YkExUQ?oc=5",
-          "source": "Benzinga",
-          "summary": "",
-          "published": "2026-08-21T13:00:38"
-        },
-        {
-          "headline": "Meet Madison Huang, daughter of multibillionaire Nvidia CEO Jensen Huang",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMHhLNHc3Q1J5dGZmaVRMckpVeWdqT2twTlA0WE1WcnljWmxmNExxSjA5Q05XeVlTckJlcFpKekM0dUZjNG0yeTJEUUo2UVlCZGFIQ29pWmxta1BlaFZjSVN5VWh6ZE9iQXNjR09vSVZJOHRsZGY3YkpVME9yazRQSk52bHJrR043Z1FNNjF3Z0ZpN0Z3NzloNWR3VkM0S2ROeWdwU3haeklZZV9pXzVzSDQtdXlmWWlaeE9LTHNyXzc2Qy10REFpMmJtaU1wVnlEOENpYjczdTFfTXpQMnFDWTE0MHFaUdIB5gFBVV95cUxQcTFpR19SejN2bEc4RVRhS0lNOElMelVlbnROREplQlMwLWtyd3FXMk9vVFhXRy1DMGlucFZPSndUaVduSVRzNzhxSXZHNTAwZTZTS1A3LUJXWGVCb2l6Y01HZkd0QWpscmVEaTlYVDBhdEZ6YVpJT1E5MEs0dHZvY1V4OTJnVDV6WDlhX0VQcXJnUG0zWnUwVXFqaUxXM2RaYkNIQkZ5RHBmODBtY3NGYUNEamc4ZFpHelJFcURwalotcnRxd0ttYlBFT3hwZ0N6cnBNc3p2T1I0YnZJcWpMeS1kRVBKQQ?oc=5",
-          "source": "South China Morning Post",
-          "summary": "",
-          "published": "2026-08-21T09:14:05"
-        },
-        {
-          "headline": "NVIDIA Corporation $NVDA Stake Increased by Paladin Wealth LLC",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY1NoMzJobW5VbHlSX1MxamhFWl9QNzZOSVgyRG1fVXJmUElGYXNuczBDYTUxWGYyamJJWVdycVhBWmJOT0pSWlNDc3NwRjFrUkptd0J6R3F6dmRZVC1oTEhDUEdHcU9kdTlocWVDY3JUSExpaXp1NzlRdUJodk1UWXZ0RktHSDdVc25jTnptMU1qVXBlelNUbk0zV0VUVlppcE1YMnVOZ3FMeEJiTnBaSTVmSWY5emxFX21CUDNrSQ?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-21T09:08:15"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
