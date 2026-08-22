@@ -860,13 +860,13 @@
       "ONTO's $720 Million Rigaku Stake Opens a Major New X-Ray Growth Avenue",
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "Abacus FCF Advisors LLC Makes New Investment in KLA Corporation $KLAC",
-      "KLA Corporation Cratered 40% Over The Last 30 Days: The Next 12 Months Will Bring 75% Returns According to One Wall Street Pro",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
+      "KLA Corporation Cratered 40% Over The Last 30 Days: The Next 12 Months Will Bring 75% Returns According to One Wall Street Pro",
+      "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
+      "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "KLA Corporation stock slips further as valuation debate intensifies",
-      "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
-      "Is KLA (KLAC) Above Fair Value After The AI Rally?",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "SAP.DE": [
@@ -888,7 +888,7 @@
       "Royal Bank of Canada Sells 14,789 Shares of SAP SE $SAP",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
-      "Weekly Recap: €2.6B SAP buyback plan and SAP stock surge after earnings"
+      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -905,9 +905,9 @@
       "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
       "Why is BE Semiconductor stock sliding today?",
       "Short Interest in BE Semiconductor Industries NV (OTCMKTS:BESIY) Rises By 86.9%",
-      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
       "BE Semiconductor: A Directional Bet On AI CapEx Spending (OTCMKTS:BESIY)",
       "BE Semiconductor Industries NV (XAMS:BESI) Q1 2026 Earnings Repo",
+      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
       "BE Semiconductor Hits Record High as BofA Says Market is Underestimating Demand"
     ],
     "AMAT": [
@@ -1030,7 +1030,7 @@
       "Arista Networks Says AI Demand Broadens as Supply Limits Upside to 40% Growth Guide",
       "What You Are Really Paying For In Arista Networks Stock",
       "Arista Benefits From AI Networking Surge: Will Momentum Persist?",
-      "Enterprise Networking Market Surges to $193.77 billion at a CAGR 9.2% by 2030 | Report by MarketsandMarkets™",
+      "This Stock Is Quietly Becoming an AI Powerhouse in 2026",
       "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
@@ -1451,7 +1451,8 @@
     0,
     1,
     2,
-    3
+    3,
+    4
   ],
   "us_slots": [
     {
@@ -1501,6 +1502,7 @@
     0,
     1,
     2,
-    3
+    3,
+    4
   ]
 }
