@@ -748,14 +748,14 @@
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
       "Deutsche Bank AG Takes Position in FormFactor, Inc. $FORM",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
+      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "FormFactor (NASDAQ:FORM) Gains Attention As Semiconductor Testing Demand Expands",
       "M6 MacBook Pro rumors: Improved performance, in a familiar form factor",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
-      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
-      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
-      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
+      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
+      "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
     "LRCX": [
       "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
@@ -815,11 +815,11 @@
       "Western Digital, Nova, and Penguin Solutions Shares Plummet, What You Need To Know",
       "Western Digital (NASDAQ: WDC) officer plans sale of 235 shares",
       "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
-      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
-      "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
       "NFJ Investment Group LLC Acquires Shares of 9,193 Western Digital Corporation $WDC",
+      "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
+      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
       "Why Is Western Digital Stock Sinking Thursday?",
-      "13,997 Shares in Western Digital Corporation $WDC Acquired by Vise Technologies Inc.",
+      "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Stocks Settle Higher as Crude Oil Prices Stabilize",
       "Stocks Supported as Crude Oil Stabilizes"
     ],
@@ -859,12 +859,12 @@
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "Abacus FCF Advisors LLC Makes New Investment in KLA Corporation $KLAC",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
-      "Is KLA (KLAC) Above Fair Value After The AI Rally?",
-      "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
-      "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
+      "KLA Corporation Cratered 40% Over The Last 30 Days: The Next 12 Months Will Bring 75% Returns According to One Wall Street Pro",
       "KLA Corporation (NASDAQ:KLAC) Chip Innovation Draws Market Attention",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
-      "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
+      "Is KLA (KLAC) Above Fair Value After The AI Rally?",
+      "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
+      "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "SAP.DE": [
@@ -1445,7 +1445,9 @@
       "fire_time": "18:55"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
@@ -1490,5 +1492,7 @@
       "fire_time": "18:57"
     }
   ],
-  "us_posted": []
+  "us_posted": [
+    0
+  ]
 }
