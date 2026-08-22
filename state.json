@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-22",
-  "daily_posts": 4,
-  "daily_keyword_posts": 1,
+  "date": "2026-08-23",
+  "daily_posts": 0,
+  "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 4,
-  "evergreen_opinion_posts_today": 2,
+  "gemini_calls_today": 0,
+  "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-17",
@@ -1403,54 +1403,46 @@
       "slot": 0,
       "type": "hook",
       "target_time": "10:00",
-      "fire_time": "10:02"
+      "fire_time": "10:00"
     },
     {
       "slot": 1,
       "type": "analytical",
       "target_time": "11:30",
-      "fire_time": "11:31"
+      "fire_time": "11:27"
     },
     {
       "slot": 2,
       "type": "analytical",
       "target_time": "13:00",
-      "fire_time": "12:56"
+      "fire_time": "12:58"
     },
     {
       "slot": 3,
       "type": "question",
       "target_time": "14:30",
-      "fire_time": "14:28"
+      "fire_time": "14:31"
     },
     {
       "slot": 4,
       "type": "analytical",
       "target_time": "16:00",
-      "fire_time": "16:03"
+      "fire_time": "15:59"
     },
     {
       "slot": 5,
       "type": "question",
       "target_time": "17:30",
-      "fire_time": "17:27"
+      "fire_time": "17:25"
     },
     {
       "slot": 6,
       "type": "wrap",
       "target_time": "19:00",
-      "fire_time": "18:55"
+      "fire_time": "18:56"
     }
   ],
-  "eu_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-  ],
+  "eu_posted": [],
   "us_slots": [
     {
       "slot": 0,
@@ -1462,46 +1454,38 @@
       "slot": 1,
       "type": "analytical",
       "target_time": "11:30",
-      "fire_time": "11:25"
+      "fire_time": "11:26"
     },
     {
       "slot": 2,
       "type": "analytical",
       "target_time": "13:00",
-      "fire_time": "12:55"
+      "fire_time": "13:03"
     },
     {
       "slot": 3,
       "type": "question",
       "target_time": "14:30",
-      "fire_time": "14:26"
+      "fire_time": "14:32"
     },
     {
       "slot": 4,
       "type": "analytical",
       "target_time": "16:00",
-      "fire_time": "16:04"
+      "fire_time": "15:59"
     },
     {
       "slot": 5,
       "type": "question",
       "target_time": "17:30",
-      "fire_time": "17:31"
+      "fire_time": "17:27"
     },
     {
       "slot": 6,
       "type": "wrap",
       "target_time": "19:00",
-      "fire_time": "18:57"
+      "fire_time": "19:00"
     }
   ],
-  "us_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-  ]
+  "us_posted": []
 }
