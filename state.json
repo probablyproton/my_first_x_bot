@@ -339,11 +339,11 @@
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Harry Siemens Honored for Farm Reporting",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
+      "Siemens Launches Wendell Microgrid at HQ Campus"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -752,10 +752,10 @@
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
+      "Mitsubishi UFJ Asset Management Co. Ltd. Buys Shares of 9,123 FormFactor, Inc. $FORM",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
-      "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
-      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
+      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
@@ -862,8 +862,8 @@
       "Abacus FCF Advisors LLC Makes New Investment in KLA Corporation $KLAC",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
-      "Is KLA (KLAC) Above Fair Value After The AI Rally?",
       "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
+      "Is KLA (KLAC) Above Fair Value After The AI Rally?",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
       "KLA Corporation stock slips further as valuation debate intensifies",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
@@ -884,10 +884,11 @@
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP SE: Release of a capital market information",
       "SAP Announces Q2 and Half-Year 2026 Results",
-      "SAP shrugs off fears of AI eating software with big earnings beat",
       "Royal Bank of Canada Sells 14,789 Shares of SAP SE $SAP",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
-      "SAP Gives AI Product Oversight to CEO and COO in Reshuffle"
+      "SAP shrugs off fears of AI eating software with big earnings beat",
+      "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
+      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -900,13 +901,13 @@
       "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
       "BE Semiconductor Industries NV (BESIY) Q1 2026 Earnings Call Highlights: Record Growth in ...",
       "BE Semiconductor Industries N.V. Announces Q1-26 Results",
-      "BE Semiconductor Industries N.V. (BESIY) Stock Price, News, Quote & History",
-      "BE Semiconductor Industries NV (OTCMKTS:BESIY) Receives Consensus Recommendation of \"Buy\" from Analysts",
-      "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
       "EU3330.EUR Bond Profile — Key Metrics",
       "Why is BE Semiconductor stock sliding today?",
-      "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
-      "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
+      "Short Interest in BE Semiconductor Industries NV (OTCMKTS:BESIY) Rises By 86.9%",
+      "BE Semiconductor Industries N.V. 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:BESIY) 2026-07-27",
+      "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
+      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
+      "BE Semiconductor Industries NV (XAMS:BESI) Q1 2026 Earnings Repo",
       "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results"
     ],
     "AMAT": [
@@ -964,9 +965,9 @@
       "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
+      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
       "AIXTRON SE increases FY 2026 guidance",
-      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Is It Time To Consider Buying AIXTRON SE (ETR:AIXA)?",
@@ -1450,7 +1451,8 @@
   "eu_posted": [
     0,
     1,
-    2
+    2,
+    3
   ],
   "us_slots": [
     {
@@ -1499,6 +1501,7 @@
   "us_posted": [
     0,
     1,
-    2
+    2,
+    3
   ]
 }
