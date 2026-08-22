@@ -747,8 +747,8 @@
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
+      "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "Mitsubishi UFJ Asset Management Co. Ltd. Buys Shares of 9,123 FormFactor, Inc. $FORM",
-      "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
@@ -854,13 +854,13 @@
       "ONTO's $720 Million Rigaku Stake Opens a Major New X-Ray Growth Avenue",
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "Abacus FCF Advisors LLC Makes New Investment in KLA Corporation $KLAC",
-      "KLA Corporation Cratered 40% Over The Last 30 Days: The Next 12 Months Will Bring 75% Returns According to One Wall Street Pro",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
+      "KLA Corporation (KLAC) Positioned to Benefit from Semiconductor Chip Complexity",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
-      "KLA Corporation stock slips further as valuation debate intensifies",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "2 High-Flying Stocks to Own for Decades and 1 We Brush Off",
+      "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "SAP.DE": [
@@ -879,10 +879,10 @@
       "SAP SE: Release of a capital market information",
       "SAP Announces Q2 and Half-Year 2026 Results",
       "SAP shrugs off fears of AI eating software with big earnings beat",
-      "Royal Bank of Canada Sells 14,789 Shares of SAP SE $SAP",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
+      "Royal Bank of Canada Sells 14,789 Shares of SAP SE $SAP",
       "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
+      "Weekly Recap: €2.6B SAP buyback plan and SAP stock surge after earnings"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -1006,13 +1006,13 @@
       "Infineon Number of Employees 2026 | Employee Count & Headcount Data",
       "INFINEON TECHNOLOGIES AG : Jefferies remains its Buy rating",
       "Infineon further extends its global leadership in the automotive semiconductor market",
+      "Infineon Leads the Automotive Semiconductor",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "North America Intelligent Power Module Market Report",
       "North America Silicon Carbide (SiC) Market",
       "Infineon-led European project Moore4Power launches",
       "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
-      "Infineon upbeat on AI chips but cautious on automotive, industrials",
-      "Infineon Completes Acquisition of Marvell’s Automotive Ethernet Business"
+      "Infineon upbeat on AI chips but cautious on automotive, industrials"
     ],
     "ANET": [
       "Arista Networks (ANET) Is A Key Player In Hyperscale Data Center Growth",
@@ -1500,6 +1500,7 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ]
 }
