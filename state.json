@@ -1,10 +1,10 @@
 {
   "date": "2026-08-22",
-  "daily_posts": 2,
+  "daily_posts": 3,
   "daily_keyword_posts": 1,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 2,
-  "evergreen_opinion_posts_today": 1,
+  "gemini_calls_today": 3,
+  "evergreen_opinion_posts_today": 2,
   "engagement": {
     "sunday": "2026-07-05",
     "monday": "2026-08-17",
@@ -336,10 +336,10 @@
       "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
-      "Siemens Energy to invest $421 million in NC",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Harry Siemens Honored for Farm Reporting",
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
@@ -750,14 +750,14 @@
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
       "Deutsche Bank AG Takes Position in FormFactor, Inc. $FORM",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
+      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "FormFactor CEO Mike Slessor sells $2.1m in common stock",
-      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
-      "FormFactor (NASDAQ:FORM) Gains Attention As Semiconductor Testing Demand Expands",
-      "M6 MacBook Pro rumors: Improved performance, in a familiar form factor",
+      "Is FormFactor’s New ESOP Shelf Registration Quietly Rewriting Its AI Capital Allocation Story (FORM)?",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
-      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
+      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
+      "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
     "LRCX": [
       "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
@@ -814,16 +814,16 @@
       "Micron Technology Stock Has Become A Bet On Memory Prices",
       "Memory Stocks Struggle for Momentum With ‘Smart Money’ Moving On",
       "SK Hynix Climbs 4% on Record Buyback, Micron Ticks Up as Memory Defies the Tech Selloff",
-      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
       "Western Digital (NASDAQ: WDC) officer plans sale of 235 shares",
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
+      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
       "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
       "Why Is Western Digital Stock Sinking Thursday?",
       "Ceredex Value Advisors LLC Buys New Position in Western Digital Corporation $WDC",
       "Allworth Financial LP Acquires New Holdings in Western Digital Corporation $WDC",
-      "Stocks Settle Higher as Crude Oil Prices Stabilize",
-      "Stocks Supported as Crude Oil Stabilizes"
+      "NFJ Investment Group LLC Acquires Shares of 9,193 Western Digital Corporation $WDC",
+      "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -863,10 +863,10 @@
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "Is KLA (KLAC) Above Fair Value After The AI Rally?",
-      "KLA Corporation Cratered 40% Over The Last 30 Days: The Next 12 Months Will Bring 75% Returns According to One Wall Street Pro",
+      "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
       "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
+      "KLA Corporation stock slips further as valuation debate intensifies",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
-      "2 High-Flying Stocks to Own for Decades and 1 We Brush Off",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "SAP.DE": [
@@ -884,11 +884,10 @@
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP SE: Release of a capital market information",
       "SAP Announces Q2 and Half-Year 2026 Results",
+      "SAP shrugs off fears of AI eating software with big earnings beat",
       "Royal Bank of Canada Sells 14,789 Shares of SAP SE $SAP",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
-      "SAP shrugs off fears of AI eating software with big earnings beat",
-      "SAP Gives AI Product Oversight to CEO and COO in Reshuffle",
-      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
+      "SAP Gives AI Product Oversight to CEO and COO in Reshuffle"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -1034,13 +1033,13 @@
       "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
-      "3 AI Networking Stocks Quietly Dominating Their Niche in August",
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks (ANET) Stock May Be Fully Priced On Its 7x Five Year Run",
       "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility",
       "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
       "Genpact Stock Gains 13% in a Month",
-      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?"
+      "NOK Rides on Strength of Network Infrastructure: Will the Gain Last?",
+      "Top-Ranked ALAB & ANET Set to Thrive on AI-Cloud Networking Growth"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1249,12 +1248,12 @@
     }
   },
   "recent_post_sources": [
-    "DatacenterDynamics",
     "POWER Magazine",
     "MarketBeat",
     "Canary Media",
     "ServeTheHome",
-    "Data Center Knowledge"
+    "Data Center Knowledge",
+    "Network World"
   ],
   "last_news_post_min": 29789102,
   "evergreen_opinion_used": {
@@ -1292,7 +1291,8 @@
     "pjm widens response to data center load as capacity shortfalls deepen": "2026-08-20",
     "solar and storage still dominate us power plant construction": "2026-08-21",
     "bosgame m5 amd ryzen ai max+ 395 128gb ai desktop review": "2026-08-21",
-    "zayo locks up corning fiber capacity for ai network buildout": "2026-08-22"
+    "zayo locks up corning fiber capacity for ai network buildout": "2026-08-22",
+    "nvidia scales back financing guarantee for openai data center": "2026-08-22"
   },
   "pulse_template_decks": {
     "evergreen": [],
@@ -1313,7 +1313,7 @@
       1
     ]
   },
-  "last_evergreen_min": 29789762,
+  "last_evergreen_min": 29790002,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
@@ -1449,7 +1449,8 @@
   ],
   "eu_posted": [
     0,
-    1
+    1,
+    2
   ],
   "us_slots": [
     {
@@ -1497,6 +1498,7 @@
   ],
   "us_posted": [
     0,
-    1
+    1,
+    2
   ]
 }
