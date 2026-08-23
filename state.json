@@ -745,11 +745,11 @@
       "Deutsche Bank AG Takes Position in FormFactor, Inc. $FORM",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
-      "Mitsubishi UFJ Asset Management Co. Ltd. Buys Shares of 9,123 FormFactor, Inc. $FORM",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
+      "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
       "FormFactor Inc (FORM) Shares Surge 5.0% -- What GF Score of 72 T",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
-      "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
+      "Mitsubishi UFJ Asset Management Co. Ltd. Buys Shares of 9,123 FormFactor, Inc. $FORM",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
@@ -808,15 +808,15 @@
       "Micron Technology Stock Has Become A Bet On Memory Prices",
       "Memory Stocks Struggle for Momentum With ‘Smart Money’ Moving On",
       "SK Hynix Climbs 4% on Record Buyback, Micron Ticks Up as Memory Defies the Tech Selloff",
-      "Super Micro Computer and Western Digital: Analyzing Recent Revenue Trends and Business Scale",
+      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Western Digital (NASDAQ: WDC) officer plans sale of 235 shares",
-      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
-      "Why Is Western Digital Stock Sinking Thursday?",
-      "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
       "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
+      "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
+      "Why Is Western Digital Stock Sinking Thursday?",
       "Ceredex Value Advisors LLC Buys New Position in Western Digital Corporation $WDC",
       "Allworth Financial LP Acquires New Holdings in Western Digital Corporation $WDC",
+      "NFJ Investment Group LLC Acquires Shares of 9,193 Western Digital Corporation $WDC",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "AVGO": [
@@ -1449,7 +1449,9 @@
       "fire_time": "18:56"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
@@ -1494,5 +1496,7 @@
       "fire_time": "19:00"
     }
   ],
-  "us_posted": []
+  "us_posted": [
+    0
+  ]
 }
