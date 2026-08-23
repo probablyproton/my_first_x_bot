@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 491,
+  "event_log_next_id": 492,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -744,10 +744,10 @@
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
       "Northwestern Mutual Wealth Management Co. Takes Position in FormFactor, Inc. $FORM",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
-      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
-      "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
-      "FormFactor Inc (FORM) Shares Surge 5.0% -- What GF Score of 72 T",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
+      "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
+      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
+      "Mitsubishi UFJ Asset Management Co. Ltd. Buys Shares of 9,123 FormFactor, Inc. $FORM",
       "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
       "Deutsche Bank AG Takes Position in FormFactor, Inc. $FORM",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
@@ -1025,16 +1025,16 @@
       "What You Are Really Paying For In Arista Networks Stock",
       "Arista Benefits From AI Networking Surge: Will Momentum Persist?",
       "This Stock Is Quietly Becoming an AI Powerhouse in 2026",
-      "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
-      "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
-      "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
-      "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
       "Tom Lee Recommends Arista Networks (ANET) and JPMorgan (JPM), Analysts Weigh In",
+      "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
       "Arista Networks Stock Is Waiting On Parts, Not Orders",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
-      "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility",
-      "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
-      "Genpact Stock Gains 13% in a Month"
+      "Arista Networks (ANET) Stock May Be Fully Priced On Its 7x Five Year Run",
+      "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
+      "Arista Networks calls time on server line due to supply chain pressures",
+      "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
+      "Arista Networks Inc. stock underperforms Thursday when compared to competitors",
+      "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1452,7 +1452,8 @@
   ],
   "eu_posted": [
     0,
-    1
+    1,
+    2
   ],
   "us_slots": [
     {
@@ -1500,6 +1501,7 @@
   ],
   "us_posted": [
     0,
-    1
+    1,
+    2
   ]
 }
