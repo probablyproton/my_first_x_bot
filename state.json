@@ -801,13 +801,13 @@
       "Don’t Sell SanDisk Corporation (NASDAQ:SNDK) Because A Billionaire Did So, Says Jim Cramer",
       "Micron Fell 7% on Tuesday. Is This an Opportunity to Buy?",
       "This Stock Could Be a Major AI Winner Through 2027. What’s It Worth?",
+      "Micron Technology: Is MU Stock a No-Brainer Buy as AI Memory Demand Surges in 2026?",
       "Is It Too Late to Buy Sandisk After Its 568% Run?",
       "The AI Spending Boom Is Outrunning Wall Street Estimates",
       "Why higher yields aren't scaring off retail traders",
       "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
       "Micron Technology Stock Has Become A Bet On Memory Prices",
       "Memory Stocks Struggle for Momentum With ‘Smart Money’ Moving On",
-      "SK Hynix Climbs 4% on Record Buyback, Micron Ticks Up as Memory Defies the Tech Selloff",
       "Super Micro Computer and Western Digital: Analyzing Recent Revenue Trends and Business Scale",
       "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
@@ -876,12 +876,12 @@
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
       "Is SAP (SAP) Mispriced as AI Fears Overshadow Its Core ERP Strength?",
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
-      "SAP SE: Release of a capital market information",
       "SAP Announces Q2 and Half-Year 2026 Results",
+      "SAP SE: Release of a capital market information",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
-      "SAP shrugs off fears of AI eating software with big earnings beat",
       "Royal Bank of Canada Sells 14,789 Shares of SAP SE $SAP",
       "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
+      "SAP shrugs off fears of AI eating software with big earnings beat",
       "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
     ],
     "BESI.AS": [
@@ -895,14 +895,13 @@
       "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
       "BE Semiconductor Industries NV (BESIY) Q1 2026 Earnings Call Highlights: Record Growth in ...",
       "BE Semiconductor Industries N.V. Announces Q1-26 Results",
+      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
       "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
       "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
       "Why is BE Semiconductor stock sliding today?",
-      "Short Interest in BE Semiconductor Industries NV (OTCMKTS:BESIY) Rises By 86.9%",
-      "BE Semiconductor Industries N.V. 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:BESIY) 2026-07-27",
-      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "BE Semiconductor Industries NV (XAMS:BESI) Q1 2026 Earnings Repo",
-      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results"
+      "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
+      "BE Semiconductor Industries (OTCMKTS:BESIY) Sees Unusually-High Trading Volume - Time to Buy?",
+      "BE Semiconductor Industries N.V. 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:BESIY) 2026-07-27"
     ],
     "AMAT": [
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
@@ -1453,7 +1452,8 @@
   "eu_posted": [
     0,
     1,
-    2
+    2,
+    3
   ],
   "us_slots": [
     {
@@ -1502,6 +1502,7 @@
   "us_posted": [
     0,
     1,
-    2
+    2,
+    3
   ]
 }
