@@ -808,15 +808,15 @@
       "Micron Technology Stock Has Become A Bet On Memory Prices",
       "Memory Stocks Struggle for Momentum With ‘Smart Money’ Moving On",
       "SK Hynix Climbs 4% on Record Buyback, Micron Ticks Up as Memory Defies the Tech Selloff",
-      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
+      "Super Micro Computer and Western Digital: Analyzing Recent Revenue Trends and Business Scale",
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Western Digital (NASDAQ: WDC) officer plans sale of 235 shares",
-      "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
-      "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
+      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
       "Why Is Western Digital Stock Sinking Thursday?",
+      "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
+      "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
       "Ceredex Value Advisors LLC Buys New Position in Western Digital Corporation $WDC",
       "Allworth Financial LP Acquires New Holdings in Western Digital Corporation $WDC",
-      "NFJ Investment Group LLC Acquires Shares of 9,193 Western Digital Corporation $WDC",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "AVGO": [
@@ -1030,8 +1030,8 @@
       "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks vs. Intel: Which Technology Stock Is a Better Buy in 2026?",
       "Tom Lee Recommends Arista Networks (ANET) and JPMorgan (JPM), Analysts Weigh In",
+      "Arista Networks Stock Is Waiting On Parts, Not Orders",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
-      "Arista Networks (ANET) Stock May Be Fully Priced On Its 7x Five Year Run",
       "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility",
       "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?",
       "Genpact Stock Gains 13% in a Month"
@@ -1450,7 +1450,8 @@
     }
   ],
   "eu_posted": [
-    0
+    0,
+    1
   ],
   "us_slots": [
     {
@@ -1497,6 +1498,7 @@
     }
   ],
   "us_posted": [
-    0
+    0,
+    1
   ]
 }
