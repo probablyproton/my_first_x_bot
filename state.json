@@ -1,12 +1,12 @@
 {
   "date": "2026-08-23",
-  "daily_posts": 1,
+  "daily_posts": 3,
   "daily_keyword_posts": 1,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 1,
+  "gemini_calls_today": 3,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
-    "sunday": "2026-07-05",
+    "sunday": "2026-08-23",
     "monday": "2026-08-17",
     "wednesday": "2026-08-12",
     "friday": "2026-08-21",
@@ -46,7 +46,7 @@
     "NEE": 992,
     "SAP.DE": 1141,
     "STX": 1362,
-    "AIXA.DE": 1022,
+    "AIXA.DE": 1142,
     "NVDA": 1262,
     "MRVL": 1336,
     "ANET": 1262,
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 492,
+  "event_log_next_id": 494,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -332,12 +332,12 @@
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "Harry Siemens Honored for Farm Reporting",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Launches Wendell Microgrid at HQ Campus",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -748,8 +748,8 @@
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "Mitsubishi UFJ Asset Management Co. Ltd. Buys Shares of 9,123 FormFactor, Inc. $FORM",
+      "FormFactor, Inc. (NASDAQ:FORM) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
       "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
-      "Deutsche Bank AG Takes Position in FormFactor, Inc. $FORM",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
@@ -852,8 +852,8 @@
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
       "Applied Materials Rockets 98% in 2026: How Does AMAT Compare to Lam Research and KLA as AI Capex Powers Chip Gear Stocks?",
       "Billionaire Joel Greenblatt’s 5 Biggest Moves This Quarter Reveal a Surprising Defensive Shift",
-      "Can KLA Outgrow Chip Equipment Market Through 2030?",
       "KLA Corp. stock underperforms Friday when compared to competitors",
+      "Can KLA Outgrow Chip Equipment Market Through 2030?",
       "KLA Corporation Cratered 40% Over The Last 30 Days: The Next 12 Months Will Bring 75% Returns According to One Wall Street Pro",
       "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
@@ -879,8 +879,8 @@
       "SAP SE: Release of a capital market information",
       "SAP Announces Q2 and Half-Year 2026 Results",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
-      "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
       "Royal Bank of Canada Sells 14,789 Shares of SAP SE $SAP",
+      "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
     ],
@@ -1004,14 +1004,14 @@
       "JEDEC® Announces Automotive Electronics Forum in September 2026",
       "Infineon Number of Employees 2026 | Employee Count & Headcount Data",
       "Infineon Technologies AG: Release of a capital market information",
-      "Infineon Leads the Automotive Semiconductor",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "INFINEON TECHNOLOGIES AG : Jefferies remains its Buy rating",
       "North America Intelligent Power Module Market Report",
       "North America Silicon Carbide (SiC) Market",
       "Infineon-led European project Moore4Power launches",
       "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
-      "Infineon upbeat on AI chips but cautious on automotive, industrials"
+      "Infineon upbeat on AI chips but cautious on automotive, industrials",
+      "Infineon Completes Acquisition of Marvell’s Automotive Ethernet Business"
     ],
     "ANET": [
       "Arista Networks (ANET) Is A Key Player In Hyperscale Data Center Growth",
@@ -1027,12 +1027,12 @@
       "Tom Lee Recommends Arista Networks (ANET) and JPMorgan (JPM), Analysts Weigh In",
       "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
       "Arista Networks Stock Is Waiting On Parts, Not Orders",
-      "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
       "Arista Networks (ANET) Stock May Be Fully Priced On Its 7x Five Year Run",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "Arista Networks calls time on server line due to supply chain pressures",
       "Arista Networks Inc. stock underperforms Thursday when compared to competitors",
       "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
+      "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
       "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility"
     ],
     "ASML.AS": [
@@ -1455,7 +1455,8 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "us_slots": [
     {
