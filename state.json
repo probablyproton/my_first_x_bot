@@ -1026,14 +1026,14 @@
       "This Stock Is Quietly Becoming an AI Powerhouse in 2026",
       "Tom Lee Recommends Arista Networks (ANET) and JPMorgan (JPM), Analysts Weigh In",
       "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
-      "Arista Networks Stock Is Waiting On Parts, Not Orders",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
       "Arista Networks (ANET) Stock May Be Fully Priced On Its 7x Five Year Run",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "Arista Networks calls time on server line due to supply chain pressures",
       "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
-      "Arista Networks Inc. stock underperforms Thursday when compared to competitors",
-      "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility"
+      "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
+      "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility",
+      "Cisco Drops 10% Post Q4 Earnings: Buy, Sell or Hold the Stock?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1453,7 +1453,8 @@
     0,
     1,
     2,
-    3
+    3,
+    4
   ],
   "us_slots": [
     {
@@ -1503,6 +1504,7 @@
     0,
     1,
     2,
-    3
+    3,
+    4
   ]
 }
