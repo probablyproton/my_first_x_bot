@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 494,
+  "event_log_next_id": 495,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -746,10 +746,10 @@
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
+      "FormFactor aStock (AFORM) Price Prediction for 2026 to 2031",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "Mitsubishi UFJ Asset Management Co. Ltd. Buys Shares of 9,123 FormFactor, Inc. $FORM",
       "FormFactor, Inc. (NASDAQ:FORM) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
-      "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
@@ -808,15 +808,15 @@
       "Why higher yields aren't scaring off retail traders",
       "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
       "Micron Technology Stock Has Become A Bet On Memory Prices",
-      "Super Micro Computer and Western Digital: Analyzing Recent Revenue Trends and Business Scale",
-      "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
+      "Western Digital Stock Is Up 146% in 2026 Even After This Week’s Pullback",
+      "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
+      "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
+      "Western Digital (NASDAQ: WDC) officer plans sale of 235 shares",
       "Why Is Western Digital Stock Sinking Thursday?",
       "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
       "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
       "Ceredex Value Advisors LLC Buys New Position in Western Digital Corporation $WDC",
-      "Allworth Financial LP Acquires New Holdings in Western Digital Corporation $WDC",
-      "NFJ Investment Group LLC Acquires Shares of 9,193 Western Digital Corporation $WDC",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "AVGO": [
@@ -926,26 +926,26 @@
       "Stocks Supported by Lower Bond Yields"
     ],
     "NVDA": [
-      "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports",
-      "Forget JEPI: BlackRock’s Answer Pays 7.6%, Charges the Same 0.35%, and Beat It by 10 Points This Year",
-      "Ross Stores Grew Comparable Sales 10%. TJX Grew 4%. Only One Stock Went Up.",
-      "Billionaire Stanley Druckenmiller Just Sold Some Sandisk Stock and Bought These 3 Unstoppable Artificial Intelligence (AI) Stocks",
-      "Does Greg Abel Know Something Wall Street Doesn't? New Berkshire Hathaway CEO Doubles Down On a Legacy Department Store Stock With a 3.3% Dividend Yield",
-      "Can This 6.3% Yield Survive if Oil Crashes Again?",
-      "My 3 Favorite High-Yield Dividend Stocks to Buy Right Now",
-      "TSMC's $100 Billion Arizona Expansion Shows The Stock Is a No-Brainer Buy",
-      "Want $10,000 a Year on $100K? The Private-Credit Funds Banks Can’t Compete With Pay 10%+",
-      "Warren Buffett's Hand-Picked Successor, Greg Abel, Has 72% of Berkshire Hathaway's Portfolio Invested in Just 5 Stocks. Here's My Top Pick for August.",
-      "Nvidia to Pay Poolside a $6 Billion License, Tap Startup’s Staff",
+      "Dow Jones Futures Due With Market At Key Point; Nvidia, Tariffs, Warsh In Focus",
+      "2 Energy Stocks Riding the Data Center Power Crunch",
+      "Billionaires Stanley Druckenmiller and Dan Loeb Both Sold Broadcom and Piled Into This Virtual Monopoly Artificial Intelligence (AI) Stock Instead",
+      "SK Hynix Is Buying Back 3.3% of Its Shares and Canceling Every One",
+      "Oracle vs. Amazon: Which Is the Better AI Cloud Stock to Own for the Next 5 Years?",
+      "$22 Billion in Customer Deposits Did Not Stop This Chip CEO From Selling $37 Million",
+      "Vistra Is the Quietest Big Winner of the AI Power Boom",
+      "This Company Has Raised Its Dividend for 72 Straight Years. Almost Nobody Talks About It.",
+      "This Chinese Tech Giant Quietly Cut Its Buyback 80% to Fund AI",
+      "Prediction: ExxonMobil Raises Its Dividend More Than Wall Street Expects",
+      "Here's what Nvidia needs to do to unlock an even better stock valuation",
       "Nvidia customers reportedly warned about AI-related price hikes",
-      "Nvidia partners with data center developer Cloverleaf",
-      "Should You Add NVIDIA Stock to Your Portfolio Ahead of Q2 Earnings?",
-      "Trending stocks to watch: NVIDIA, Super Micro, Intel and more",
-      "Affiance Financial LLC Has $1.88 Million Stake in NVIDIA Corporation $NVDA",
-      "CoreWeave Lands Multibillion-Dollar Hudson River Deal as Wall Street Races for Nvidia Chips",
-      "Advanced Micro Devices (AMD) Posts Record Sales, But Musk’s NVIDIA (NVDA) Pledge Sinks the Stock",
       "Nvidia Customers Notified About AI-Related Price Hikes Above 15%",
-      "Nvidia initiated, Teradyne downgraded: Wall Street's top analyst calls"
+      "Nvidia customers notified about AI-related price hikes above 15%, Bloomberg News reports",
+      "Nvidia: It’s All About SpaceX Now (NASDAQ:NVDA)",
+      "Nvidia in Talks With Chip Startup Rebellions for Potential Deal",
+      "Whitener Capital Management Inc. Has $26.14 Million Stake in NVIDIA Corporation $NVDA",
+      "Nvidia to compete with US, Chinese AI models under $6B Poolside deal",
+      "Nvidia to Pay Poolside a $6 Billion License, Tap Startup’s Staff",
+      "Your Last Chance to Buy Nvidia Stock for Cheap in 2026 May Be Near"
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
@@ -970,6 +970,7 @@
       "Aixtron stock holds firm as analysts keep a close eye"
     ],
     "AMD": [
+      "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC",
       "These 3 AI stocks are bought by both hedge funds and mutual funds",
       "Advanced Micro Devices (AMD) Adds Tim Ryan To Board After Director Retirement",
       "AMD Investors Must Be Ready For Major News On Aug. 26",
@@ -979,15 +980,14 @@
       "Advanced Micro Devices vs. Arm Holdings: Comparing Revenue Trends Between These Artificial Intelligence Companies",
       "Advanced Micro Devices (AMD) Posts Record Sales, But Musk’s NVIDIA (NVDA) Pledge Sinks the Stock",
       "AMD Has More Than Tripled Off Its Low and Still Trades 20% Below Its High",
-      "AMD vs. Nvidia: Is AMD Finally Closing the AI Gap?",
       "Earn 17% On AMD Stock Now, For Capping Your Upside At 24%",
-      "Google Is Reportedly Working with AMD for Its New TPU. What This Means for AMD Stock.",
-      "Advanced Micro Devices: Insider Selling vs. 40% Upside",
-      "Nvidia, AMD, and Intel: Wall Street Says to Buy 2 and Avoid 1. I Disagree.",
+      "Meeder Advisory Services Inc. Grows Position in Advanced Micro Devices, Inc. $AMD",
+      "Coatue Management Opens New Position in AMD Stock. View This as a Renewed Bet on the AI Trade.",
       "Broadcom Holds Steady as ARK Buys the Dip, Intel Slips, AMD Eases After Google's Marvell Chip Deal",
-      "Oarsman Capital Inc. Sells 1,610 Shares of Advanced Micro Devices, Inc. $AMD",
-      "What's Going On With AMD Stock Wednesday?",
+      "Nvidia, AMD, and Intel: Wall Street Says to Buy 2 and Avoid 1. I Disagree.",
       "Stocks Settle Higher as Crude Oil Prices Stabilize",
+      "Your Last Chance to Buy Nvidia Stock for Cheap in 2026 May Be Near",
+      "Forget Broadcom: Nvidia (NVDA) Is Still the Top Semiconductor Stock for 2027 and Beyond",
       "Prediction: This Artificial Intelligence (AI) Semiconductor Stock Will Outperform Nvidia Over the Next 3 Years",
       "Google Is Getting Paid in Marvell Stock Warrants for Buying Marvell's Chips"
     ],
@@ -1102,7 +1102,52 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "AMD",
+      "classification": {
+        "is_major": true,
+        "category": "expansion",
+        "headline": "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC",
+        "reason": "Keyword rule matched (category: expansion)"
+      },
+      "link": "https://www.fool.com/investing/2026/08/23/amd-is-investing-more-than-xx-billion-in-taiwan-to/?.tsrc=rss",
+      "source": "fool.com",
+      "method": "keyword",
+      "published": "2026-08-23T15:50:00",
+      "queued_min": 29791981,
+      "all_articles": [
+        {
+          "headline": "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC",
+          "link": "https://www.fool.com/investing/2026/08/23/amd-is-investing-more-than-xx-billion-in-taiwan-to/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "AMD's biggest AI challenge may no longer be winning customers but making enough hardware to serve them.",
+          "published": "2026-08-23T15:50:00"
+        },
+        {
+          "headline": "Meeder Advisory Services Inc. Grows Position in Advanced Micro Devices, Inc. $AMD",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNzhBZEVmYkRjSjZ2UXBZdGpUdnVZeF9hNmR1WFJXQndHck4tZzZLOE5qLUpDSFZCUlgzV1dtTGY0QjRDQnZ3Yk1qRlc5T05ESkNIMlZSSDRaVDBBSUc4QmJuZzJrYmlIa2d1eUZwZmZDS1pkSGJfMkdUMk45MC15Q2JxRk5jbjE2aVBteGk3NVZuQ2pxUUVsTkVRWmNjNlU1bVl4QTJWdVpjd3RpWkxxa0NDbUdPS2hNUUhnb0xBcGR2SE9QeVVGNldTcjVLRkZFd3dwbA?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-23T09:14:08"
+        },
+        {
+          "headline": "Your Last Chance to Buy Nvidia Stock for Cheap in 2026 May Be Near",
+          "link": "https://www.nasdaq.com/articles/your-last-chance-buy-nvidia-stock-cheap-2026-may-be-near",
+          "source": "The Motley Fool",
+          "summary": "Key PointsNvidia reports Q2 earnings on Wednesday, Aug. 26.",
+          "published": "2026-08-23T16:55:00"
+        },
+        {
+          "headline": "Forget Broadcom: Nvidia (NVDA) Is Still the Top Semiconductor Stock for 2027 and Beyond",
+          "link": "https://www.nasdaq.com/articles/forget-broadcom-nvidia-nvda-still-top-semiconductor-stock-2027-and-beyond",
+          "source": "The Motley Fool",
+          "summary": "Key PointsNvidia dominates AI infrastructure through its GPUs, networking, software, and full-stack data center systems.",
+          "published": "2026-08-23T09:30:00"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
