@@ -1,10 +1,10 @@
 {
   "date": "2026-08-24",
   "daily_posts": 2,
-  "daily_keyword_posts": 0,
-  "daily_pulse_posts": 11,
-  "gemini_calls_today": 17,
-  "evergreen_opinion_posts_today": 1,
+  "daily_keyword_posts": 1,
+  "daily_pulse_posts": 12,
+  "gemini_calls_today": 19,
+  "evergreen_opinion_posts_today": 2,
   "engagement": {
     "sunday": "2026-08-23",
     "monday": "2026-08-24",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 508,
+  "event_log_next_id": 509,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -742,16 +742,13 @@
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
-      "Panview Capital Ltd Invests $36.57 Million in FormFactor, Inc. $FORM",
-      "Nvidia Has Investors Looking Again At These AI Data Center Chip Stocks",
-      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
-      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
-      "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
-      "Polymer Capital Management HK LTD Purchases Shares of 25,000 FormFactor, Inc. $FORM",
-      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
-      "Q3 Earnings Forecast for FormFactor Issued By Zacks Research",
-      "Connor Clark & Lunn Investment Management Ltd. Takes $60.47 Million Position in FormFactor, Inc. $FORM",
-      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
+      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
+      "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?",
+      "Here's Why AXTI Stock Is a Buy Despite Its Premium 48.12X Valuation",
+      "Is SiTime the Best AI Stock You've Never Heard Of?",
+      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?",
+      "4 Semiconductor Stocks to Buy Amid Top Hyperscalers' $745B AI CapEx Bet",
+      "New Strong Buy Stocks for August 3rd"
     ],
     "LRCX": [
       "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
@@ -801,13 +798,13 @@
       "WDC's Strong Q4 Raises the Stakes for Its Fiscal 2027 Product Ramp",
       "WDC Fell 11.6% in the Past Month. Is the Weakness an Opportunity?",
       "Is WDC Still a Buy as Growth Surges but Valuation Stays Expensive?",
+      "SNDK Jumps 25% in a Month: Is there More Room for the Stock to Rise?",
       "Jim Cramer doubles down on his bold call on memory stocks",
       "Don’t Sell SanDisk Corporation (NASDAQ:SNDK) Because A Billionaire Did So, Says Jim Cramer",
       "Micron Fell 7% on Tuesday. Is This an Opportunity to Buy?",
       "This Stock Could Be a Major AI Winner Through 2027. What’s It Worth?",
       "Memory Stocks Slide on Report Apple May Source Chinese Chips: SanDisk Down 9%, Micron and Western Digital Down 7%",
       "Micron Technology: Is MU Stock a No-Brainer Buy as AI Memory Demand Surges in 2026?",
-      "Is It Too Late to Buy Sandisk After Its 568% Run?",
       "What's Going On With Western Digital Stock Monday?",
       "Western Digital Corp Stock (WDC) Moved Down by 5.55% on Aug 24: Key Drivers Unveiled",
       "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
@@ -861,7 +858,7 @@
       "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
-      "Stocks Settle Higher as Crude Oil Prices Stabilize"
+      "Rout in Chipmakers Weighs on Broader Market"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -1004,13 +1001,13 @@
       "JEDEC® Announces Automotive Electronics Forum in September 2026",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon Number of Employees 2026 | Employee Count & Headcount Data",
-      "Infineon Technologies AG 2026 Q3 - Results - Earnings Call Presentation (OTCMKTS:IFNNY) 2026-08-05",
       "Infineon Technologies AG: Release of a capital market information",
       "Infineon Leads the Automotive Semiconductor",
       "North America Intelligent Power Module Market Report",
       "INFINEON TECHNOLOGIES AG : Jefferies remains its Buy rating",
       "North America Silicon Carbide (SiC) Market",
       "Infineon-led European project Moore4Power launches",
+      "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
       "Infineon upbeat on AI chips but cautious on automotive, industrials"
     ],
     "ANET": [
@@ -1022,17 +1019,17 @@
       "Strong Track Record Reinforces Arista Networks’ (ANET) Long Term Delivery",
       "Arista Networks Says AI Demand Broadens as Supply Limits Upside to 40% Growth Guide",
       "What You Are Really Paying For In Arista Networks Stock",
-      "This Stock Is Quietly Becoming an AI Powerhouse in 2026",
       "Forget Nvidia. Cisco Could Be a Hidden Winner From the AI Boom",
+      "This Stock Is Quietly Becoming an AI Powerhouse in 2026",
+      "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
-      "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks Stock Is Waiting On Parts, Not Orders",
       "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
-      "Arista Networks (ANET) Stock May Be Fully Priced On Its 7x Five Year Run",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
-      "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
       "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
+      "Arista Networks (NYSE: ANET) director to resell 422 shares in 2026",
+      "Arista Networks calls time on server line due to supply chain pressures",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG"
     ],
     "ASML.AS": [
@@ -1243,12 +1240,12 @@
     }
   },
   "recent_post_sources": [
-    "ServeTheHome",
     "Data Center Knowledge",
     "Network World",
     "DatacenterDynamics",
     "Tom's Hardware",
-    "Utility Dive"
+    "Utility Dive",
+    "Canary Media"
   ],
   "last_news_post_min": 29789102,
   "evergreen_opinion_used": {
@@ -1290,16 +1287,23 @@
     "nvidia scales back financing guarantee for openai data center": "2026-08-22",
     "ignis and acciona look to build a data center in segovia, spain": "2026-08-23",
     "local officials face death threats and gunfire over ai data center projects — more than 500 towns restrict builds as councils shutter public comment": "2026-08-23",
-    "people + vertical ai: the new operating model for energy and utilities": "2026-08-24"
+    "people + vertical ai: the new operating model for energy and utilities": "2026-08-24",
+    "arizona is having a grid battery growth spurt. will that last?": "2026-08-24"
   },
   "pulse_template_decks": {
     "evergreen": [
       4,
       1,
-      0,
-      3
+      0
     ],
-    "mover": [],
+    "mover": [
+      4,
+      1,
+      2,
+      3,
+      0,
+      6
+    ],
     "price_event": [
       3,
       4
@@ -1309,7 +1313,7 @@
       2
     ]
   },
-  "last_evergreen_min": 29793003,
+  "last_evergreen_min": 29793243,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
@@ -1346,19 +1350,19 @@
     "AIXA.DE": 36.97,
     "IFX.DE": 54.49,
     "ASML.AS": 1492.6,
-    "MU": 911.27,
-    "TSM": 408.6,
-    "KLAC": 180.05,
-    "STX": 796.19,
-    "ANET": 188.25,
-    "LRCX": 305.4,
-    "FORM": 107.28,
-    "AVGO": 360.62,
-    "AMAT": 481.93,
-    "AMD": 458.95,
-    "MRVL": 227.81,
-    "NVDA": 209.66,
-    "WDC": 434.21
+    "MU": 911.96,
+    "TSM": 408.3,
+    "KLAC": 180.9,
+    "STX": 797.24,
+    "ANET": 187.68,
+    "LRCX": 309.0,
+    "FORM": 107.11,
+    "AVGO": 360.33,
+    "AMAT": 485.91,
+    "AMD": 457.89,
+    "MRVL": 228.54,
+    "NVDA": 209.73,
+    "WDC": 434.89
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1386,13 +1390,14 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29793181,
-  "last_pulse_ticker": "STX",
+  "next_pulse_interval": 34,
+  "last_pulse_post_min": 29793241,
+  "last_pulse_ticker": "AMD",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
-    "wdc:wdc's strong q4 raises the stakes for its fiscal 2027 product ramp": "2026-08-24"
+    "wdc:wdc's strong q4 raises the stakes for its fiscal 2027 product ramp": "2026-08-24",
+    "amd:semiconductor stocks slide ahead of nvidia earnings: intel falls 5%, amd slides 4%, taiwan semiconductor slips 3%": "2026-08-24"
   },
   "eu_slots": [
     {
