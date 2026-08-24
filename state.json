@@ -2,8 +2,8 @@
   "date": "2026-08-24",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 2,
-  "gemini_calls_today": 3,
+  "daily_pulse_posts": 3,
+  "gemini_calls_today": 4,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 499,
+  "event_log_next_id": 500,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -332,12 +332,12 @@
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "Harry Siemens Honored for Farm Reporting",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Launches Wendell Microgrid at HQ Campus",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -747,9 +747,9 @@
       "Q3 Earnings Forecast for FormFactor Issued By Zacks Research",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
+      "Connor Clark & Lunn Investment Management Ltd. Takes $60.47 Million Position in FormFactor, Inc. $FORM",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "Mitsubishi UFJ Asset Management Co. Ltd. Buys Shares of 9,123 FormFactor, Inc. $FORM",
-      "FormFactor, Inc. (NASDAQ:FORM) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
@@ -876,8 +876,8 @@
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
       "Is SAP (SAP) Mispriced as AI Fears Overshadow Its Core ERP Strength?",
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
-      "SAP SE: Release of a capital market information",
       "SAP Announces Q2 and Half-Year 2026 Results",
+      "SAP SE: Release of a capital market information",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
       "SAP shrugs off fears of AI eating software with big earnings beat",
@@ -965,8 +965,8 @@
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron receives multiple tool orders from Lumentum",
       "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
-      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Aixtron stock holds firm as analysts keep a close eye"
     ],
     "AMD": [
@@ -1024,6 +1024,7 @@
       "What You Are Really Paying For In Arista Networks Stock",
       "Arista Benefits From AI Networking Surge: Will Momentum Persist?",
       "This Stock Is Quietly Becoming an AI Powerhouse in 2026",
+      "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
       "Arista Networks Stock Is Waiting On Parts, Not Orders",
@@ -1032,7 +1033,6 @@
       "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
       "Arista Networks Inc. stock underperforms Thursday when compared to competitors",
       "Arista Networks calls time on server line due to supply chain pressures",
-      "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
       "3 Growth Stocks That Could Skyrocket in the Second Half of 2026"
     ],
     "ASML.AS": [
@@ -1309,8 +1309,7 @@
       4
     ],
     "quiet": [
-      0,
-      2
+      0
     ]
   },
   "last_evergreen_min": 29791382,
@@ -1318,8 +1317,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 294.7,
-    "SIE.DE": 280.7,
+    "SU.PA": 295.35,
+    "SIE.DE": 281.5,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1345,11 +1344,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 186.88,
-    "BESI.AS": 211.5,
-    "AIXA.DE": 37.23,
-    "IFX.DE": 55.17,
-    "ASML.AS": 1503.2,
+    "SAP.DE": 186.32,
+    "BESI.AS": 212.2,
+    "AIXA.DE": 37.51,
+    "IFX.DE": 55.42,
+    "ASML.AS": 1510.6,
     "MU": 969.66,
     "TSM": 419.79,
     "KLAC": 184.55,
@@ -1390,18 +1389,11 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 37,
-  "last_pulse_post_min": 29792641,
-  "last_pulse_ticker": "IFX.DE",
+  "next_pulse_interval": 35,
+  "last_pulse_post_min": 29792701,
+  "last_pulse_ticker": "MRVL",
   "pulse_news_seen": {
-    "tsm:tsmc trades 30.87% above gf value as chip capacity tightens": "2026-08-20",
-    "asml.as:taiwan semiconductor vs. asml: which semiconductor titan is the better buy today?": "2026-08-20",
-    "su.pa:intralogistex dallas: schneider electric’s srivatsan prativathi on unlocking smarter warehouse performance": "2026-08-20",
-    "mrvl:marvell technology likely to post slight q2 beat, rbc says": "2026-08-20",
-    "stx:the zacks analyst blog highlights salesforce, seagate, at&t and daily journal": "2026-08-21",
-    "avgo:broadcom’s (avgo) massive new debt deal points to where ai is headed": "2026-08-21",
-    "form:madison asset management llc buys new stake in formfactor, inc. $form": "2026-08-21",
-    "anet:hyperscale data center market surges to $608.54 billion at a cagr 24.6% by 2030 | report by marketsandmarkets™": "2026-08-21"
+    "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24"
   },
   "eu_slots": [
     {
