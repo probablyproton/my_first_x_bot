@@ -2,7 +2,7 @@
   "date": "2026-08-24",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 0,
+  "daily_pulse_posts": 1,
   "gemini_calls_today": 1,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 497,
+  "event_log_next_id": 498,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -329,15 +329,15 @@
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
-      "Siemens Launches Wendell Microgrid at HQ Campus",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
+      "Siemens Launches Wendell Microgrid at HQ Campus",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
       "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "Siemens manufacturing plant in Fort Worth, TX"
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -809,14 +809,14 @@
       "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
       "Micron Technology Stock Has Become A Bet On Memory Prices",
       "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
-      "Western Digital Stock Is Up 146% in 2026 Even After This Week’s Pullback",
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
-      "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
+      "Western Digital Stock Is Up 146% in 2026 Even After This Week’s Pullback",
       "Western Digital (NASDAQ: WDC) officer plans sale of 235 shares",
+      "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
       "Why Is Western Digital Stock Sinking Thursday?",
       "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
-      "Western Digital Stock Jumps Over 6% as Memory Rally Accelerates",
       "Ceredex Value Advisors LLC Buys New Position in Western Digital Corporation $WDC",
+      "Allworth Financial LP Acquires New Holdings in Western Digital Corporation $WDC",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "AVGO": [
@@ -852,15 +852,15 @@
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
       "Applied Materials Rockets 98% in 2026: How Does AMAT Compare to Lam Research and KLA as AI Capex Powers Chip Gear Stocks?",
       "Billionaire Joel Greenblatt’s 5 Biggest Moves This Quarter Reveal a Surprising Defensive Shift",
-      "KLA Corp. stock underperforms Friday when compared to competitors",
       "Can KLA Outgrow Chip Equipment Market Through 2030?",
       "KLA Corporation Cratered 40% Over The Last 30 Days: The Next 12 Months Will Bring 75% Returns According to One Wall Street Pro",
-      "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
+      "KLA Corp. stock underperforms Friday when compared to competitors",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
+      "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
-      "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
-      "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
+      "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
+      "KLA Corporation (KLAC) Positioned to Benefit from Semiconductor Chip Complexity",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "SAP.DE": [
@@ -965,8 +965,8 @@
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron receives multiple tool orders from Lumentum",
       "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
-      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Aixtron (AIXA) Stock Price, News & Analysis",
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Aixtron stock holds firm as analysts keep a close eye"
     ],
     "AMD": [
@@ -1031,8 +1031,8 @@
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "OVERSEA CHINESE BANKING Corp Ltd Grows Stock Holdings in Arista Networks, Inc. $ANET",
       "Arista Networks Inc. stock underperforms Thursday when compared to competitors",
+      "Arista Networks calls time on server line due to supply chain pressures",
       "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
-      "Arista Networks (NYSE: ANET) director to resell 422 shares in 2026",
       "3 Growth Stocks That Could Skyrocket in the Second Half of 2026"
     ],
     "ASML.AS": [
@@ -1302,8 +1302,7 @@
       4,
       2,
       1,
-      5,
-      0
+      5
     ],
     "price_event": [
       3,
@@ -1320,8 +1319,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 297.3,
-    "SIE.DE": 280.85,
+    "SU.PA": 296.8,
+    "SIE.DE": 280.35,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1347,11 +1346,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 187.28,
-    "BESI.AS": 212.0,
-    "AIXA.DE": 37.44,
-    "IFX.DE": 55.81,
-    "ASML.AS": 1501.0,
+    "SAP.DE": 188.12,
+    "BESI.AS": 212.8,
+    "AIXA.DE": 37.69,
+    "IFX.DE": 55.97,
+    "ASML.AS": 1506.0,
     "MU": 969.66,
     "TSM": 419.79,
     "KLAC": 184.55,
@@ -1392,9 +1391,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29788981,
-  "last_pulse_ticker": "MRVL",
+  "next_pulse_interval": 39,
+  "last_pulse_post_min": 29792581,
+  "last_pulse_ticker": "SIE.DE",
   "pulse_news_seen": {
     "tsm:tsmc trades 30.87% above gf value as chip capacity tightens": "2026-08-20",
     "asml.as:taiwan semiconductor vs. asml: which semiconductor titan is the better buy today?": "2026-08-20",
