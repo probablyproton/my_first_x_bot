@@ -2,8 +2,8 @@
   "date": "2026-08-24",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 4,
-  "gemini_calls_today": 5,
+  "daily_pulse_posts": 5,
+  "gemini_calls_today": 7,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 501,
+  "event_log_next_id": 502,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -332,12 +332,12 @@
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "Harry Siemens Honored for Farm Reporting",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Launches Wendell Microgrid at HQ Campus",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -744,12 +744,12 @@
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
       "Northwestern Mutual Wealth Management Co. Takes Position in FormFactor, Inc. $FORM",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
-      "Q3 Earnings Forecast for FormFactor Issued By Zacks Research",
+      "Panview Capital Ltd Invests $36.57 Million in FormFactor, Inc. $FORM",
       "Nvidia Has Investors Looking Again At These AI Data Center Chip Stocks",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Earnings To Watch: Semtech (SMTC) Reports Q2 Results Tomorrow",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
-      "Connor Clark & Lunn Investment Management Ltd. Takes $60.47 Million Position in FormFactor, Inc. $FORM",
+      "Q3 Earnings Forecast for FormFactor Issued By Zacks Research",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
     ],
@@ -808,15 +808,15 @@
       "Why higher yields aren't scaring off retail traders",
       "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
       "Micron Technology Stock Has Become A Bet On Memory Prices",
-      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Western Digital (NASDAQ: WDC) officer plans sale of 235 shares",
-      "Western Digital Stock Is Up 146% in 2026 Even After This Week’s Pullback",
       "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
       "Why Is Western Digital Stock Sinking Thursday?",
+      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
       "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
       "Ceredex Value Advisors LLC Buys New Position in Western Digital Corporation $WDC",
       "Allworth Financial LP Acquires New Holdings in Western Digital Corporation $WDC",
+      "NFJ Investment Group LLC Acquires Shares of 9,193 Western Digital Corporation $WDC",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "AVGO": [
@@ -858,9 +858,9 @@
       "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
+      "KLA Corporation stock holds strong after recent earnings beat",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
-      "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "SAP.DE": [
@@ -878,9 +878,9 @@
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP Announces Q2 and Half-Year 2026 Results",
       "SAP SE: Release of a capital market information",
-      "SAP shrugs off fears of AI eating software with big earnings beat",
-      "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
+      "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
+      "SAP shrugs off fears of AI eating software with big earnings beat",
       "Royal Bank of Canada Sells 14,789 Shares of SAP SE $SAP",
       "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
     ],
@@ -965,8 +965,8 @@
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron receives multiple tool orders from Lumentum",
       "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
-      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Aixtron stock holds firm as analysts keep a close eye"
     ],
     "AMD": [
@@ -1308,7 +1308,12 @@
       3,
       4
     ],
-    "quiet": []
+    "quiet": [
+      0,
+      2,
+      4,
+      1
+    ]
   },
   "last_evergreen_min": 29791382,
   "post_backlog": [],
@@ -1316,7 +1321,7 @@
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
     "SU.PA": 295.35,
-    "SIE.DE": 281.15,
+    "SIE.DE": 281.25,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1342,11 +1347,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 185.86,
-    "BESI.AS": 212.7,
-    "AIXA.DE": 37.53,
-    "IFX.DE": 55.37,
-    "ASML.AS": 1510.8,
+    "SAP.DE": 186.14,
+    "BESI.AS": 212.2,
+    "AIXA.DE": 37.4,
+    "IFX.DE": 55.28,
+    "ASML.AS": 1506.6,
     "MU": 969.66,
     "TSM": 419.79,
     "KLAC": 184.55,
@@ -1387,9 +1392,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 41,
-  "last_pulse_post_min": 29792761,
-  "last_pulse_ticker": "SAP.DE",
+  "next_pulse_interval": 35,
+  "last_pulse_post_min": 29792821,
+  "last_pulse_ticker": "IFX.DE",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24"
   },
