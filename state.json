@@ -2,7 +2,7 @@
   "date": "2026-08-24",
   "daily_posts": 2,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 12,
+  "daily_pulse_posts": 13,
   "gemini_calls_today": 19,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 509,
+  "event_log_next_id": 510,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -332,12 +332,12 @@
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "Harry Siemens Honored for Farm Reporting",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Launches Wendell Microgrid at HQ Campus",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -742,13 +742,16 @@
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
-      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
-      "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?",
-      "Here's Why AXTI Stock Is a Buy Despite Its Premium 48.12X Valuation",
-      "Is SiTime the Best AI Stock You've Never Heard Of?",
-      "Can Aehr's $22M AI Order Unlock a Bigger WLBI Opportunity?",
-      "4 Semiconductor Stocks to Buy Amid Top Hyperscalers' $745B AI CapEx Bet",
-      "New Strong Buy Stocks for August 3rd"
+      "FormFactor Drops 7.6% Amid Sector-Wide Selling",
+      "Panview Capital Ltd Invests $36.57 Million in FormFactor, Inc. $FORM",
+      "Nvidia Has Investors Looking Again At These AI Data Center Chip Stocks",
+      "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
+      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
+      "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
+      "Polymer Capital Management HK LTD Purchases Shares of 25,000 FormFactor, Inc. $FORM",
+      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
+      "Q3 Earnings Forecast for FormFactor Issued By Zacks Research",
+      "Connor Clark & Lunn Investment Management Ltd. Takes $60.47 Million Position in FormFactor, Inc. $FORM"
     ],
     "LRCX": [
       "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
@@ -803,18 +806,18 @@
       "Don’t Sell SanDisk Corporation (NASDAQ:SNDK) Because A Billionaire Did So, Says Jim Cramer",
       "Micron Fell 7% on Tuesday. Is This an Opportunity to Buy?",
       "This Stock Could Be a Major AI Winner Through 2027. What’s It Worth?",
+      "Wall Street is rotating out of 2026's biggest winners: Chart of the Day",
       "Memory Stocks Slide on Report Apple May Source Chinese Chips: SanDisk Down 9%, Micron and Western Digital Down 7%",
-      "Micron Technology: Is MU Stock a No-Brainer Buy as AI Memory Demand Surges in 2026?",
       "What's Going On With Western Digital Stock Monday?",
       "Western Digital Corp Stock (WDC) Moved Down by 5.55% on Aug 24: Key Drivers Unveiled",
+      "SanDisk, Micron, Western Digital Remain Cheap as Cyclical and AI Bubble Concerns Remain",
       "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Western Digital (NASDAQ: WDC) officer plans sale of 235 shares",
       "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
       "Why Is Western Digital Stock Sinking Thursday?",
       "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
-      "Rout in Chipmakers Weighs on Broader Market",
-      "Stocks Settle Higher as Crude Oil Prices Stabilize"
+      "Rout in Chipmakers Weighs on Broader Market"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -874,8 +877,8 @@
       "How SAP SE (SAP) Is Monetizing AI Through Joule and Data Cloud",
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP Announces Q2 and Half-Year 2026 Results",
-      "SAP SE: Release of a capital market information",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
+      "SAP SE: Release of a capital market information",
       "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "Royal Bank of Canada Sells 14,789 Shares of SAP SE $SAP",
@@ -961,10 +964,10 @@
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron receives multiple tool orders from Lumentum",
+      "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Aixtron (AIXA) Stock Price, News & Analysis",
-      "Aixtron stock holds firm as analysts keep a close eye",
-      "Gallium nitride vertical-channel junction field-effect transistors"
+      "Aixtron stock holds firm as analysts keep a close eye"
     ],
     "AMD": [
       "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC",
@@ -1019,18 +1022,18 @@
       "Strong Track Record Reinforces Arista Networks’ (ANET) Long Term Delivery",
       "Arista Networks Says AI Demand Broadens as Supply Limits Upside to 40% Growth Guide",
       "What You Are Really Paying For In Arista Networks Stock",
+      "Cisco Systems (CSCO) & Arista Networks (ANET): Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?",
       "Forget Nvidia. Cisco Could Be a Hidden Winner From the AI Boom",
-      "This Stock Is Quietly Becoming an AI Powerhouse in 2026",
       "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
-      "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Arista Networks Stock Is Waiting On Parts, Not Orders",
       "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
+      "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
-      "Arista Networks Slides as AI Trade Cools and Investors Digest Recent Gains",
       "Arista Networks (NYSE: ANET) director to resell 422 shares in 2026",
-      "Arista Networks calls time on server line due to supply chain pressures",
-      "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG"
+      "Arista Networks Inc. stock underperforms Thursday when compared to competitors",
+      "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
+      "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1099,7 +1102,66 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "FORM",
+      "classification": {
+        "is_major": true,
+        "category": "expansion",
+        "headline": "Panview Capital Ltd Invests $36.57 Million in FormFactor, Inc. $FORM",
+        "reason": "Keyword rule matched (category: expansion)"
+      },
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeXlNQWpueDUwa0RFS3V4Qi04cDFHc3RTdElOb0c5bTFraXdDc3QxNVhtMGRCMUFxZHY3emJPMnR1cjVNZDV5Q18yaFB5dEpZUlp4RGo3eVlFMERNeks5YTh4d3NjQ0pvRENZR09ZWXJMZWlLNmw3dVpkWjktRU5wQ1hQX19FUW9CRnhvVWQ5Y2RMaThQbTFDeXJFYUFTWmhNZTdRamRnRnQ3c0ZoOG5LWEowMy1zdjFCZjgzMXBEWTlBUQ?oc=5",
+      "source": "MarketBeat",
+      "method": "keyword",
+      "published": "2026-08-24T10:59:28",
+      "queued_min": 29793301,
+      "all_articles": [
+        {
+          "headline": "FormFactor Drops 7.6% Amid Sector-Wide Selling",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNT05KSmNodkpOSFBjOWlHQTZ5Y0FHRkVZVUtVYmRBNFFfYm9VLUdFWl9aRWh3T0daQ3RIQXE3RlRQMEE0TWRnUmtub09sVi05bndsZExva0JsaTd1aUhlSmJfM0JldjdoMnVTSTJPNXU3VGxTOVNMZjNNZHNqNHFuV3VrRdIBgwFBVV95cUxNT05KSmNodkpOSFBjOWlHQTZ5Y0FHRkVZVUtVYmRBNFFfYm9VLUdFWl9aRWh3T0daQ3RIQXE3RlRQMEE0TWRnUmtub09sVi05bndsZExva0JsaTd1aUhlSmJfM0JldjdoMnVTSTJPNXU3VGxTOVNMZjNNZHNqNHFuV3VrRQ?oc=5",
+          "source": "AlphaStreet",
+          "summary": "",
+          "published": "2026-08-24T14:46:51"
+        },
+        {
+          "headline": "Panview Capital Ltd Invests $36.57 Million in FormFactor, Inc. $FORM",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeXlNQWpueDUwa0RFS3V4Qi04cDFHc3RTdElOb0c5bTFraXdDc3QxNVhtMGRCMUFxZHY3emJPMnR1cjVNZDV5Q18yaFB5dEpZUlp4RGo3eVlFMERNeks5YTh4d3NjQ0pvRENZR09ZWXJMZWlLNmw3dVpkWjktRU5wQ1hQX19FUW9CRnhvVWQ5Y2RMaThQbTFDeXJFYUFTWmhNZTdRamRnRnQ3c0ZoOG5LWEowMy1zdjFCZjgzMXBEWTlBUQ?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-24T10:59:28"
+        },
+        {
+          "headline": "Nvidia Has Investors Looking Again At These AI Data Center Chip Stocks",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNFRLanJUcFlyX2xDZXVGdWVyS2NETVg3VzJHVmlyREM4dExkdnNjdG5WQzdZb21FcGFnT0R0X2lrWDBfa201WEszTUdBSEhJdHpqTnVfOGF0WHVHWEJpRnNMQWk5X2w3MVI2N2xOZmF0d3RMOFpPZG5KUGFmV3dBSVFva1o4Z3JOMzhhQ3pLOVRkdFpxUGszblhNTE1ueldYNU5LQWQ2R0tDTjJPOUhuT2tyZGRlOUFKUlpHSmpOQUNlTEN1MUQycnlidkNLQTRs0gHWAUFVX3lxTE8xeTJrSV9YTFliSHdmd2g4UGtZclV6TVdKOWQ5Sm9VRmh4NUlEWG0xaS1Zc2JQMlFPWUE2d0NCVFVIUnVoRFM5dGhXTXh3Z2JaeVphVXU5WnExUFZaejlNQmMxNHBnQ3Z4aEsxa2N3X1JWYmZDOWRValBzeHBNcEtXSkRaVGJMaEh5WFoydXVLRVpsTldSTXZld1REWk9uR2NEUGJKbWtiUVFickM4VUhMRjFSWTcyWFc4MWhzNmE5ejY2WmJqbHpFUGo2QjlTMW5iYXpuS0E?oc=5",
+          "source": "simplywall.st",
+          "summary": "",
+          "published": "2026-08-24T09:36:58"
+        },
+        {
+          "headline": "Polymer Capital Management HK LTD Purchases Shares of 25,000 FormFactor, Inc. $FORM",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONmtNczliWmdPdGxqcXdmNjRHZlo0WGdWVzVZNFYxcUEzX1ZZNDZhbzFOelJjX3RlbW1WXzlUR1JlbWc5cmhGQ25BM25kNV9PNVEwTXFlY1FialR1MW5rcGZ2ekkzWGNTLUpPYmY1RE9vN1lkMTRBY2hiUXAyQTgtNW94ZmJvaWFZQ2dhVEZiN1JnLTcwcjhwb3FGWVo4d0dCUkw0THg0NTNNXzJnWmlCTkZrYlFWWXZLOGwxWkQ4MmlTVU9LTnc0SFExT3VIaTc1QUtSWmJVOA?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-24T10:13:01"
+        },
+        {
+          "headline": "Q3 Earnings Forecast for FormFactor Issued By Zacks Research",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRGFUOFhtZDZqcnpEV0J3dDVWcDY2dlh4cjdiWnI2c0h4Wll0Nmc4UXo3UUhGcUk5Y01jamczV3NCYkVwQldKV2JlcjRWRGpGUmNvekIzVVBaSWhkWDZkOXdtNjg4RDcteTIwbFBGMUMydGI2djNOYXBXUjZjU1BRRU5sVUM2Qm91MTE5NUxWdlMxM1ZnaGROaHQ3bkUwbFczT3JHam1mRTUzQURuY2RsLVBvaGo?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-24T05:19:48"
+        },
+        {
+          "headline": "Connor Clark & Lunn Investment Management Ltd. Takes $60.47 Million Position in FormFactor, Inc. $FORM",
+          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUlJ6RHNwaDh4YXdRX295TmZwSmZZTHF1RWh1MVdPb1BDVlNEYVJQbTBUOHRuZHJHUGVldjdZcW53UG9WY1k1UmhqSXVTVWdVQ2RxbG9KVHNCSmEzYUVVM3dmWkptZWpyaGw1cjNlWXhyd0xVLVBfaFF4OXRIMWZJdC1fYmJPWkFPa2FUekVtRVFmeG1TRFBpak9yX3hJd3RPTVdnUnRzbkhwNnBsYWZVeFpydHRDUmJINE0tWS1lMUZ1VnF2MkNOdDFLbktKcjVnUkxobVBKcEltM1hfRTRTa2tGMTd6SWtjLWtR?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-24T09:00:28"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1301,8 +1363,7 @@
       1,
       2,
       3,
-      0,
-      6
+      0
     ],
     "price_event": [
       3,
@@ -1350,19 +1411,19 @@
     "AIXA.DE": 36.97,
     "IFX.DE": 54.49,
     "ASML.AS": 1492.6,
-    "MU": 911.96,
-    "TSM": 408.3,
-    "KLAC": 180.9,
-    "STX": 797.24,
-    "ANET": 187.68,
-    "LRCX": 309.0,
-    "FORM": 107.11,
-    "AVGO": 360.33,
-    "AMAT": 485.91,
-    "AMD": 457.89,
-    "MRVL": 228.54,
-    "NVDA": 209.73,
-    "WDC": 434.89
+    "MU": 914.59,
+    "TSM": 411.14,
+    "KLAC": 182.04,
+    "STX": 802.2,
+    "ANET": 187.66,
+    "LRCX": 310.33,
+    "FORM": 107.8,
+    "AVGO": 360.83,
+    "AMAT": 484.97,
+    "AMD": 457.86,
+    "MRVL": 231.26,
+    "NVDA": 209.42,
+    "WDC": 436.32
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1390,9 +1451,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 34,
-  "last_pulse_post_min": 29793241,
-  "last_pulse_ticker": "AMD",
+  "next_pulse_interval": 38,
+  "last_pulse_post_min": 29793301,
+  "last_pulse_ticker": "FORM",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
