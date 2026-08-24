@@ -2,8 +2,8 @@
   "date": "2026-08-24",
   "daily_posts": 2,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 10,
-  "gemini_calls_today": 16,
+  "daily_pulse_posts": 11,
+  "gemini_calls_today": 17,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 507,
+  "event_log_next_id": 508,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -332,12 +332,12 @@
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Harry Siemens Honored for Farm Reporting",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Launches Wendell Microgrid at HQ Campus",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -809,14 +809,14 @@
       "Micron Technology: Is MU Stock a No-Brainer Buy as AI Memory Demand Surges in 2026?",
       "Is It Too Late to Buy Sandisk After Its 568% Run?",
       "What's Going On With Western Digital Stock Monday?",
-      "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
+      "Western Digital Corp Stock (WDC) Moved Down by 5.55% on Aug 24: Key Drivers Unveiled",
+      "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Western Digital (NASDAQ: WDC) officer plans sale of 235 shares",
-      "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
-      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
-      "Silvant Capital Management LLC Acquires New Shares in Western Digital Corporation $WDC",
+      "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
       "Why Is Western Digital Stock Sinking Thursday?",
-      "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks",
+      "4,576 Shares in Western Digital Corporation $WDC Purchased by PCM Encore LLC",
+      "Rout in Chipmakers Weighs on Broader Market",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "AVGO": [
@@ -857,9 +857,9 @@
       "KLA shares dip 14% despite strong outlook and m...",
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "Can KLA Outgrow Chip Equipment Market Through 2030?",
+      "KLA (KLAC) Gains From Advanced Nodes, HBM and Packaging",
       "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
-      "KLA Corporation stock holds strong after recent earnings beat",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
@@ -896,13 +896,12 @@
       "BE Semiconductor Industries NV (BESIY) Q1 2026 Earnings Call Highlights: Record Growth in ...",
       "BE Semiconductor Industries N.V. Announces Q1-26 Results",
       "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
       "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
+      "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
       "Why is BE Semiconductor stock sliding today?",
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
       "BE Semiconductor Industries (OTCMKTS:BESIY) Sees Unusually-High Trading Volume - Time to Buy?",
-      "BE Semiconductor Industries N.V. 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:BESIY) 2026-07-27",
-      "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions"
+      "BE Semiconductor Industries N.V. 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:BESIY) 2026-07-27"
     ],
     "AMAT": [
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
@@ -1005,13 +1004,13 @@
       "JEDEC® Announces Automotive Electronics Forum in September 2026",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon Number of Employees 2026 | Employee Count & Headcount Data",
+      "Infineon Technologies AG 2026 Q3 - Results - Earnings Call Presentation (OTCMKTS:IFNNY) 2026-08-05",
       "Infineon Technologies AG: Release of a capital market information",
       "Infineon Leads the Automotive Semiconductor",
       "North America Intelligent Power Module Market Report",
       "INFINEON TECHNOLOGIES AG : Jefferies remains its Buy rating",
       "North America Silicon Carbide (SiC) Market",
       "Infineon-led European project Moore4Power launches",
-      "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
       "Infineon upbeat on AI chips but cautious on automotive, industrials"
     ],
     "ANET": [
@@ -1023,8 +1022,8 @@
       "Strong Track Record Reinforces Arista Networks’ (ANET) Long Term Delivery",
       "Arista Networks Says AI Demand Broadens as Supply Limits Upside to 40% Growth Guide",
       "What You Are Really Paying For In Arista Networks Stock",
-      "Arista Benefits From AI Networking Surge: Will Momentum Persist?",
       "This Stock Is Quietly Becoming an AI Powerhouse in 2026",
+      "Forget Nvidia. Cisco Could Be a Hidden Winner From the AI Boom",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Arista Networks vs. AppLovin: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks Stock Is Waiting On Parts, Not Orders",
@@ -1300,9 +1299,7 @@
       0,
       3
     ],
-    "mover": [
-      4
-    ],
+    "mover": [],
     "price_event": [
       3,
       4
@@ -1349,19 +1346,19 @@
     "AIXA.DE": 36.97,
     "IFX.DE": 54.49,
     "ASML.AS": 1492.6,
-    "MU": 912.51,
-    "TSM": 409.55,
-    "KLAC": 180.45,
-    "STX": 802.34,
-    "ANET": 189.02,
-    "LRCX": 306.67,
-    "FORM": 107.29,
-    "AVGO": 361.96,
-    "AMAT": 482.42,
-    "AMD": 460.53,
-    "MRVL": 227.79,
-    "NVDA": 210.16,
-    "WDC": 434.9
+    "MU": 911.27,
+    "TSM": 408.6,
+    "KLAC": 180.05,
+    "STX": 796.19,
+    "ANET": 188.25,
+    "LRCX": 305.4,
+    "FORM": 107.28,
+    "AVGO": 360.62,
+    "AMAT": 481.93,
+    "AMD": 458.95,
+    "MRVL": 227.81,
+    "NVDA": 209.66,
+    "WDC": 434.21
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1389,9 +1386,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 31,
-  "last_pulse_post_min": 29793121,
-  "last_pulse_ticker": "WDC",
+  "next_pulse_interval": 42,
+  "last_pulse_post_min": 29793181,
+  "last_pulse_ticker": "STX",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
@@ -1412,7 +1409,8 @@
     }
   ],
   "eu_posted": [
-    0
+    0,
+    1
   ],
   "us_slots": [
     {
