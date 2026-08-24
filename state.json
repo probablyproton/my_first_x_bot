@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 495,
+  "event_log_next_id": 496,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -746,12 +746,12 @@
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
+      "Earnings To Watch: Semtech (SMTC) Reports Q2 Results Tomorrow",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "Mitsubishi UFJ Asset Management Co. Ltd. Buys Shares of 9,123 FormFactor, Inc. $FORM",
       "FormFactor, Inc. (NASDAQ:FORM) Receives Consensus Recommendation of \"Moderate Buy\" from Brokerages",
       "Madison Asset Management LLC Buys New Stake in FormFactor, Inc. $FORM",
-      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
-      "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
+      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
     ],
     "LRCX": [
       "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
@@ -860,7 +860,7 @@
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
       "KLA Corp (KLAC) Shares Fall 3.9% -- What GF Score of 84 Tells Investors",
       "KLA Falls 4.2% as Investors Digest Guidance, Sector Pressure, and an Ex-Dividend Session",
-      "Trending Industry Today: KLA Corp Leads Losses In Solar Power Stocks",
+      "KLA Corp. stock underperforms Wednesday when compared to competitors",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
     ],
     "SAP.DE": [
@@ -1102,52 +1102,7 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "AMD",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://www.fool.com/investing/2026/08/23/amd-is-investing-more-than-xx-billion-in-taiwan-to/?.tsrc=rss",
-      "source": "fool.com",
-      "method": "keyword",
-      "published": "2026-08-23T15:50:00",
-      "queued_min": 29791981,
-      "all_articles": [
-        {
-          "headline": "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC",
-          "link": "https://www.fool.com/investing/2026/08/23/amd-is-investing-more-than-xx-billion-in-taiwan-to/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "AMD's biggest AI challenge may no longer be winning customers but making enough hardware to serve them.",
-          "published": "2026-08-23T15:50:00"
-        },
-        {
-          "headline": "Meeder Advisory Services Inc. Grows Position in Advanced Micro Devices, Inc. $AMD",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNzhBZEVmYkRjSjZ2UXBZdGpUdnVZeF9hNmR1WFJXQndHck4tZzZLOE5qLUpDSFZCUlgzV1dtTGY0QjRDQnZ3Yk1qRlc5T05ESkNIMlZSSDRaVDBBSUc4QmJuZzJrYmlIa2d1eUZwZmZDS1pkSGJfMkdUMk45MC15Q2JxRk5jbjE2aVBteGk3NVZuQ2pxUUVsTkVRWmNjNlU1bVl4QTJWdVpjd3RpWkxxa0NDbUdPS2hNUUhnb0xBcGR2SE9QeVVGNldTcjVLRkZFd3dwbA?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-23T09:14:08"
-        },
-        {
-          "headline": "Your Last Chance to Buy Nvidia Stock for Cheap in 2026 May Be Near",
-          "link": "https://www.nasdaq.com/articles/your-last-chance-buy-nvidia-stock-cheap-2026-may-be-near",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNvidia reports Q2 earnings on Wednesday, Aug. 26.",
-          "published": "2026-08-23T16:55:00"
-        },
-        {
-          "headline": "Forget Broadcom: Nvidia (NVDA) Is Still the Top Semiconductor Stock for 2027 and Beyond",
-          "link": "https://www.nasdaq.com/articles/forget-broadcom-nvidia-nvda-still-top-semiconductor-stock-2027-and-beyond",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNvidia dominates AI infrastructure through its GPUs, networking, software, and full-stack data center systems.",
-          "published": "2026-08-23T09:30:00"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
