@@ -2,8 +2,8 @@
   "date": "2026-08-25",
   "daily_posts": 2,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 12,
-  "gemini_calls_today": 17,
+  "daily_pulse_posts": 13,
+  "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 526,
+  "event_log_next_id": 527,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -732,26 +732,26 @@
       "Best Semiconductor Stocks to Buy: Marvell Stock vs. Broadcom Stock"
     ],
     "FORM": [
+      "Wall Street Analysts Think FormFactor (FORM) Could Surge 28.92%: Read This Before Placing a Bet",
       "Marvell Technology, FormFactor, and Applied Materials Shares Are Soaring, What You Need To Know",
       "3 Profitable Stocks That Fall Short",
       "3 of Wall Street’s Favorite Stocks We Keep Off Our Radar",
       "FormFactor Announces Participation at Upcoming Conferences",
       "All You Need to Know About FormFactor (FORM) Rating Upgrade to Strong Buy",
-      "FormFactor (FORM) Stock Sees Modest Fair Value Cut As Analysts Reset AI Expectations",
       "3 Reasons FORM is Risky and 1 Stock to Buy Instead",
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
-      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
-      "16,897 Shares in FormFactor, Inc. $FORM Acquired by Nicholas Investment Partners LP",
+      "1 Quantum Computing Stock Everyone's Ignoring While IonQ Gets the Headlines",
+      "FormFactor (NASDAQ:FORM) Shares Gap Up - What's Next?",
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "A Look at FormFactor Inc (FORM) After 5.5% Decline -- GF Value $57.55 vs Price $107.90",
       "FormFactor Drops 7.6% Amid Sector-Wide Selling",
+      "16,897 Shares in FormFactor, Inc. $FORM Acquired by Nicholas Investment Partners LP",
+      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Paradigm Capital Management Inc. NY Acquires Shares of 27,900 FormFactor, Inc. $FORM",
-      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
-      "Photronics (PLAB) Reports Earnings Tomorrow: What To Expect",
-      "Bank of New York Mellon Corp Buys New Stake in FormFactor, Inc. $FORM",
-      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?"
+      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
+      "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
     "LRCX": [
       "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
@@ -810,7 +810,7 @@
       "One AI Stock I’d Watch Before Nvidia’s Earnings",
       "Western Digital: Time To Jump In Before Beast Mode Arrives Again (NASDAQ:WDC)",
       "What's Going On With Western Digital Stock Tuesday?",
-      "Western Digital (NASDAQ: WDC) legal chief sells shares, 1,488 withheld for taxes",
+      "Western Digital (NASDAQ: WDC) officer to sell 684 shares",
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
@@ -853,11 +853,11 @@
       "OSIS Q4 Earnings Beat on Margin Gains, Revenues Miss Estimates",
       "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
       "Here’s How Much You Would Have Made Owning KLA Stock In The Last 10 Years",
+      "KLA Corporation rated 'Buy' after strong Q4 and promising 2027 outlook despite recent stock drop",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
-      "KLA (KLAC) Earnings Beat Puts Fair Value Back In Focus",
       "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
-      "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
+      "KLA (KLAC) Earnings Beat Puts Fair Value Back In Focus",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
       "SCHG, LLY, KLAC, LIN: Large Inflows Detected at ETF",
       "Rout in Chipmakers Weighs on Broader Market",
@@ -874,15 +874,15 @@
       "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
       "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
+      "How SAP SE’s (SAP) Enterprise Brainstem Shields It from the AI Software Sell-Off",
       "SAP SE: Release of a capital market information",
-      "How SAP SE (SAP) Is Monetizing AI Through Joule and Data Cloud",
       "SAP SE (NYSE:SAP) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
+      "How SAP SE (SAP) Is Monetizing AI Through Joule and Data Cloud",
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP Completes Acquisition of Prior Labs",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
-      "SAP shrugs off fears of AI eating software with big earnings beat",
-      "Is SAP (SAP) Mispriced as AI Fears Overshadow Its Core ERP Strength?"
+      "SAP shrugs off fears of AI eating software with big earnings beat"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -961,13 +961,13 @@
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON SE increases FY 2026 guidance",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
-      "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron receives multiple tool orders from Lumentum",
-      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Aixtron (AIXA) Stock Price, News & Analysis",
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Aixtron stock holds firm as analysts keep a close eye",
-      "Gallium nitride vertical-channel junction field-effect transistors"
+      "Gallium nitride vertical-channel junction field-effect transistors",
+      "Polarization-engineered high mobility of two-dimensional hole gas in GaN"
     ],
     "AMD": [
       "AMD Sinks 2.9% Before Nvidia's Critical Earnings Test",
@@ -1024,14 +1024,14 @@
       "Arista Networks Says AI Demand Broadens as Supply Limits Upside to 40% Growth Guide",
       "What You Are Really Paying For In Arista Networks Stock",
       "Cisco Systems (CSCO) & Arista Networks (ANET): Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?",
+      "Why Arista Networks (ANET) Is Down 6.8% After Surging AI Orders And 2026 Outlook Hike",
       "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
       "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Arista Networks president, CTO Duda sells $8.03m in stock",
-      "Arista Networks (NYSE: ANET) director vests 538 RSUs in stock award",
       "Why Arista Networks (NYSE:ANET) Is Back on the Market Radar?",
+      "Arista Networks (NYSE: ANET) director vests 538 RSUs in stock award",
       "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
-      "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?"
     ],
@@ -1102,7 +1102,32 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "ANET",
+      "classification": {
+        "symbol": "ANET",
+        "is_major": true,
+        "category": "earnings",
+        "headline": "Why Arista Networks (ANET) Is Down 6.8% After Surging AI Orders And 2026 Outlook Hike",
+        "reason": "The headline indicates a hike in the company's 2026 outlook, which qualifies as a full-year guidance raise under earnings criteria."
+      },
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLWNLOWlVRElXeXNOeXJlaHdRR21JR3lQaDgyZjJLWGdKZU1Pb3E2N1BzMkVCVHFuLVBURHdwV1I4WXNpNkVSY1lfSVFPQUE0d1lZTHlkaW5iU0JndHYzZXJIVW14ZEZqcWo3RWRZdjliUDBJYTMxR3VwQ0h2cHh0SF9WT1JkVjZ3SjNEX3k0QnZheENPZDRGOVlQOE1ubUZBdGgzZ1VzOUNlN1ZpT3BBbDhnMFJudXZPcjRRay1QQS1xSEZQdEHSAcsBQVVfeXFMUENySHN5eGdRcGp0SFYzQ2g0U3hXQjRIQVdPclgwdmhaQ3FLaWR5MmtSbkZfclVVei1VUkVkdWZ4NUFrS1FfdjhoVTFHZzZieXZIbmFUMU9YRWdqa0xKVE9YYmtTUG9BOTVFM1MySVF4LTFqY3ZTVlhJZ1E2YklrWlg1Qk9EZ0dPS1FXcW9rSUFZN2FPWFFCSUZMYVJuTlRva2RMVngtS05uQ21OQW1wamdlc21sd1VhenhwbDRQanFwYUVSVHFVbEpNX28?oc=5",
+      "source": "simplywall.st",
+      "method": "gemini",
+      "published": "2026-08-25T18:40:55",
+      "queued_min": 29794742,
+      "all_articles": [
+        {
+          "headline": "Why Arista Networks (ANET) Is Down 6.8% After Surging AI Orders And 2026 Outlook Hike",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLWNLOWlVRElXeXNOeXJlaHdRR21JR3lQaDgyZjJLWGdKZU1Pb3E2N1BzMkVCVHFuLVBURHdwV1I4WXNpNkVSY1lfSVFPQUE0d1lZTHlkaW5iU0JndHYzZXJIVW14ZEZqcWo3RWRZdjliUDBJYTMxR3VwQ0h2cHh0SF9WT1JkVjZ3SjNEX3k0QnZheENPZDRGOVlQOE1ubUZBdGgzZ1VzOUNlN1ZpT3BBbDhnMFJudXZPcjRRay1QQS1xSEZQdEHSAcsBQVVfeXFMUENySHN5eGdRcGp0SFYzQ2g0U3hXQjRIQVdPclgwdmhaQ3FLaWR5MmtSbkZfclVVei1VUkVkdWZ4NUFrS1FfdjhoVTFHZzZieXZIbmFUMU9YRWdqa0xKVE9YYmtTUG9BOTVFM1MySVF4LTFqY3ZTVlhJZ1E2YklrWlg1Qk9EZ0dPS1FXcW9rSUFZN2FPWFFCSUZMYVJuTlRva2RMVngtS05uQ21OQW1wamdlc21sd1VhenhwbDRQanFwYUVSVHFVbEpNX28?oc=5",
+          "source": "simplywall.st",
+          "summary": "",
+          "published": "2026-08-25T18:40:55"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1302,7 +1327,14 @@
       1,
       0
     ],
-    "mover": [],
+    "mover": [
+      2,
+      6,
+      3,
+      4,
+      5,
+      0
+    ],
     "price_event": [
       3,
       4
@@ -1349,19 +1381,19 @@
     "AIXA.DE": 37.27,
     "IFX.DE": 55.06,
     "ASML.AS": 1503.0,
-    "MU": 922.62,
-    "TSM": 415.3,
-    "KLAC": 182.18,
-    "STX": 814.18,
-    "ANET": 188.69,
-    "LRCX": 311.73,
-    "FORM": 106.97,
-    "AVGO": 356.85,
-    "AMAT": 476.16,
-    "AMD": 477.4,
-    "MRVL": 241.03,
-    "NVDA": 212.18,
-    "WDC": 444.52
+    "MU": 927.27,
+    "TSM": 417.05,
+    "KLAC": 182.88,
+    "STX": 816.92,
+    "ANET": 189.52,
+    "LRCX": 313.58,
+    "FORM": 107.09,
+    "AVGO": 356.87,
+    "AMAT": 478.1,
+    "AMD": 480.42,
+    "MRVL": 240.74,
+    "NVDA": 213.23,
+    "WDC": 443.56
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1389,9 +1421,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 37,
-  "last_pulse_post_min": 29794681,
-  "last_pulse_ticker": "WDC",
+  "next_pulse_interval": 42,
+  "last_pulse_post_min": 29794741,
+  "last_pulse_ticker": "AMD",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
