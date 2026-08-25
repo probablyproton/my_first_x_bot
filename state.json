@@ -1,10 +1,10 @@
 {
   "date": "2026-08-25",
-  "daily_posts": 0,
+  "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 7,
-  "gemini_calls_today": 8,
-  "evergreen_opinion_posts_today": 0,
+  "daily_pulse_posts": 8,
+  "gemini_calls_today": 11,
+  "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-08-23",
     "monday": "2026-08-24",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 520,
+  "event_log_next_id": 521,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -798,6 +798,7 @@
       "Is SpaceX a Millionaire-Maker Stock?"
     ],
     "WDC": [
+      "Western Digital vs. Teradata: Which AI Data Stock Has Stronger Upside?",
       "Western Digital Sits 46% Below Its High and Has Still More Than Doubled This Year",
       "Micron, Seagate, Western Digital, Semtech, and Penguin Solutions Shares Are Falling, What You Need To Know",
       "WD to Participate in Upcoming Investor Conference",
@@ -807,17 +808,16 @@
       "Is WDC Still a Buy as Growth Surges but Valuation Stays Expensive?",
       "SNDK Jumps 25% in a Month: Is there More Room for the Stock to Rise?",
       "Jim Cramer doubles down on his bold call on memory stocks",
-      "Don’t Sell SanDisk Corporation (NASDAQ:SNDK) Because A Billionaire Did So, Says Jim Cramer",
       "Western Digital: Time To Jump In Before Beast Mode Arrives Again (NASDAQ:WDC)",
       "What's Going On With Western Digital Stock Tuesday?",
       "Western Digital (NASDAQ: WDC) officer to sell 684 shares",
-      "Western Digital Corp Stock (WDC) Moved Down by 5.55% on Aug 24: Key Drivers Unveiled",
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
+      "Western Digital Corp Stock (WDC) Moved Down by 5.55% on Aug 24: Key Drivers Unveiled",
       "Western Digital (NASDAQ: WDC) legal chief sells shares, 1,488 withheld for taxes",
       "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
       "What's Going On With Western Digital Stock Monday?",
-      "Ceredex Value Advisors LLC Buys New Position in Western Digital Corporation $WDC",
-      "Stock Indices Finish Mostly Lower on Chipmaker Weakness"
+      "Stock Indices Finish Mostly Lower on Chipmaker Weakness",
+      "Can Strong Enterprise Demand Sustain Quantum's Momentum?"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -872,12 +872,12 @@
       "SAP Celebrates America's 250th with Investment in the Next Generation",
       "SAP SE (SAP) Among Jefferies’ Top European Software Stock Picks",
       "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
+      "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
-      "Goldman’s Top Strategist Says Europe Is Quietly Keeping Pace With the S&P 500. Here’s the AI Spillover Nobody’s Watching",
       "How SAP SE (SAP) Is Monetizing AI Through Joule and Data Cloud",
       "SAP SE (NYSE:SAP) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
-      "SAP Announces Q2 and Half-Year 2026 Results",
+      "SAP Completes Acquisition of Prior Labs",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
       "SAP shrugs off fears of AI eating software with big earnings beat",
@@ -902,7 +902,7 @@
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
       "The BE Semiconductor Industries N.V. (AMS:BESI) Second-Quarter Results Are Out And Analysts Have Published New Forecasts",
       "BE Semiconductor Industries (OTCMKTS:BESIY) Sees Unusually-High Trading Volume - Time to Buy?",
-      "BE Semiconductor Industries N.V. 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:BESIY) 2026-07-27"
+      "BE Semiconductor: A Directional Bet On AI CapEx Spending (OTCMKTS:BESIY)"
     ],
     "AMAT": [
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
@@ -1029,8 +1029,8 @@
       "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
       "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Arista Networks (NYSE: ANET) director vests 538 RSUs in stock award",
-      "Arista Networks president, CTO Duda sells $8.03m in stock",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
+      "Arista Networks president, CTO Duda sells $8.03m in stock",
       "Arista Networks (NYSE: ANET) insider now holds 31,770 shares",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?",
@@ -1270,12 +1270,12 @@
     }
   },
   "recent_post_sources": [
-    "Data Center Knowledge",
     "Network World",
     "DatacenterDynamics",
     "Tom's Hardware",
     "Utility Dive",
-    "Canary Media"
+    "Canary Media",
+    "POWER Magazine"
   ],
   "last_news_post_min": 29789102,
   "evergreen_opinion_used": {
@@ -1318,7 +1318,8 @@
     "ignis and acciona look to build a data center in segovia, spain": "2026-08-23",
     "local officials face death threats and gunfire over ai data center projects — more than 500 towns restrict builds as councils shutter public comment": "2026-08-23",
     "people + vertical ai: the new operating model for energy and utilities": "2026-08-24",
-    "arizona is having a grid battery growth spurt. will that last?": "2026-08-24"
+    "arizona is having a grid battery growth spurt. will that last?": "2026-08-24",
+    "nric adds 13 projects to nuclear energy launch pad, expanding advanced reactor and fuel-cycle pipeline": "2026-08-25"
   },
   "pulse_template_decks": {
     "evergreen": [
@@ -1330,8 +1331,7 @@
       4,
       5,
       1,
-      3,
-      6
+      3
     ],
     "price_event": [
       3,
@@ -1342,13 +1342,13 @@
       2
     ]
   },
-  "last_evergreen_min": 29793243,
+  "last_evergreen_min": 29794443,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 297.85,
-    "SIE.DE": 285.9,
+    "SU.PA": 297.75,
+    "SIE.DE": 286.15,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1374,24 +1374,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 183.78,
-    "BESI.AS": 199.5,
-    "AIXA.DE": 37.37,
-    "IFX.DE": 55.48,
-    "ASML.AS": 1513.0,
-    "MU": 914.59,
-    "TSM": 411.14,
-    "KLAC": 182.04,
-    "STX": 802.2,
-    "ANET": 187.66,
-    "LRCX": 310.33,
-    "FORM": 107.8,
-    "AVGO": 360.83,
-    "AMAT": 484.97,
-    "AMD": 457.86,
-    "MRVL": 231.26,
-    "NVDA": 209.42,
-    "WDC": 436.32
+    "SAP.DE": 186.48,
+    "BESI.AS": 196.65,
+    "AIXA.DE": 37.5,
+    "IFX.DE": 55.13,
+    "ASML.AS": 1512.2,
+    "MU": 931.47,
+    "TSM": 416.55,
+    "KLAC": 183.57,
+    "STX": 819.0,
+    "ANET": 191.83,
+    "LRCX": 313.27,
+    "FORM": 109.84,
+    "AVGO": 359.34,
+    "AMAT": 485.9,
+    "AMD": 474.98,
+    "MRVL": 245.41,
+    "NVDA": 213.21,
+    "WDC": 441.05
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1419,9 +1419,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 39,
-  "last_pulse_post_min": 29794382,
-  "last_pulse_ticker": "BESI.AS",
+  "next_pulse_interval": 37,
+  "last_pulse_post_min": 29794442,
+  "last_pulse_ticker": "MRVL",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
@@ -1461,5 +1461,7 @@
       "fire_time": "22:28"
     }
   ],
-  "us_posted": []
+  "us_posted": [
+    0
+  ]
 }
