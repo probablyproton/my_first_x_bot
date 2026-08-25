@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 510,
+  "event_log_next_id": 511,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -854,8 +854,8 @@
       "Paul Tudor Jones Just Liquidated His Entire Stake in Applied Materials Stock. I Don’t Think He’s 100% Bearish on AI Though… Yet",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
-      "Wrapped KLA Corporation Tokenized Stock (xStock) price today, wKLACx to USD live price, marketcap and chart",
       "KLA (KLAC) Earnings Beat Puts Fair Value Back In Focus",
+      "Wrapped KLA Corporation Tokenized Stock (xStock) price today, wKLACx to USD live price, marketcap and chart",
       "KLA shares dip 14% despite strong outlook and m...",
       "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
@@ -880,8 +880,8 @@
       "SAP Announces Q2 and Half-Year 2026 Results",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
-      "SAP SE: Release of a capital market information",
       "SAP shrugs off fears of AI eating software with big earnings beat",
+      "SAP SE: Release of a capital market information",
       "Is SAP (SAP) Mispriced as AI Fears Overshadow Its Core ERP Strength?"
     ],
     "BESI.AS": [
@@ -1104,64 +1104,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "FORM",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "Panview Capital Ltd Invests $36.57 Million in FormFactor, Inc. $FORM",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeXlNQWpueDUwa0RFS3V4Qi04cDFHc3RTdElOb0c5bTFraXdDc3QxNVhtMGRCMUFxZHY3emJPMnR1cjVNZDV5Q18yaFB5dEpZUlp4RGo3eVlFMERNeks5YTh4d3NjQ0pvRENZR09ZWXJMZWlLNmw3dVpkWjktRU5wQ1hQX19FUW9CRnhvVWQ5Y2RMaThQbTFDeXJFYUFTWmhNZTdRamRnRnQ3c0ZoOG5LWEowMy1zdjFCZjgzMXBEWTlBUQ?oc=5",
-      "source": "MarketBeat",
-      "method": "keyword",
-      "published": "2026-08-24T10:59:28",
-      "queued_min": 29793301,
-      "all_articles": [
-        {
-          "headline": "FormFactor Drops 7.6% Amid Sector-Wide Selling",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNT05KSmNodkpOSFBjOWlHQTZ5Y0FHRkVZVUtVYmRBNFFfYm9VLUdFWl9aRWh3T0daQ3RIQXE3RlRQMEE0TWRnUmtub09sVi05bndsZExva0JsaTd1aUhlSmJfM0JldjdoMnVTSTJPNXU3VGxTOVNMZjNNZHNqNHFuV3VrRdIBgwFBVV95cUxNT05KSmNodkpOSFBjOWlHQTZ5Y0FHRkVZVUtVYmRBNFFfYm9VLUdFWl9aRWh3T0daQ3RIQXE3RlRQMEE0TWRnUmtub09sVi05bndsZExva0JsaTd1aUhlSmJfM0JldjdoMnVTSTJPNXU3VGxTOVNMZjNNZHNqNHFuV3VrRQ?oc=5",
-          "source": "AlphaStreet",
-          "summary": "",
-          "published": "2026-08-24T14:46:51"
-        },
-        {
-          "headline": "Panview Capital Ltd Invests $36.57 Million in FormFactor, Inc. $FORM",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeXlNQWpueDUwa0RFS3V4Qi04cDFHc3RTdElOb0c5bTFraXdDc3QxNVhtMGRCMUFxZHY3emJPMnR1cjVNZDV5Q18yaFB5dEpZUlp4RGo3eVlFMERNeks5YTh4d3NjQ0pvRENZR09ZWXJMZWlLNmw3dVpkWjktRU5wQ1hQX19FUW9CRnhvVWQ5Y2RMaThQbTFDeXJFYUFTWmhNZTdRamRnRnQ3c0ZoOG5LWEowMy1zdjFCZjgzMXBEWTlBUQ?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-24T10:59:28"
-        },
-        {
-          "headline": "Nvidia Has Investors Looking Again At These AI Data Center Chip Stocks",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNFRLanJUcFlyX2xDZXVGdWVyS2NETVg3VzJHVmlyREM4dExkdnNjdG5WQzdZb21FcGFnT0R0X2lrWDBfa201WEszTUdBSEhJdHpqTnVfOGF0WHVHWEJpRnNMQWk5X2w3MVI2N2xOZmF0d3RMOFpPZG5KUGFmV3dBSVFva1o4Z3JOMzhhQ3pLOVRkdFpxUGszblhNTE1ueldYNU5LQWQ2R0tDTjJPOUhuT2tyZGRlOUFKUlpHSmpOQUNlTEN1MUQycnlidkNLQTRs0gHWAUFVX3lxTE8xeTJrSV9YTFliSHdmd2g4UGtZclV6TVdKOWQ5Sm9VRmh4NUlEWG0xaS1Zc2JQMlFPWUE2d0NCVFVIUnVoRFM5dGhXTXh3Z2JaeVphVXU5WnExUFZaejlNQmMxNHBnQ3Z4aEsxa2N3X1JWYmZDOWRValBzeHBNcEtXSkRaVGJMaEh5WFoydXVLRVpsTldSTXZld1REWk9uR2NEUGJKbWtiUVFickM4VUhMRjFSWTcyWFc4MWhzNmE5ejY2WmJqbHpFUGo2QjlTMW5iYXpuS0E?oc=5",
-          "source": "simplywall.st",
-          "summary": "",
-          "published": "2026-08-24T09:36:58"
-        },
-        {
-          "headline": "Polymer Capital Management HK LTD Purchases Shares of 25,000 FormFactor, Inc. $FORM",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONmtNczliWmdPdGxqcXdmNjRHZlo0WGdWVzVZNFYxcUEzX1ZZNDZhbzFOelJjX3RlbW1WXzlUR1JlbWc5cmhGQ25BM25kNV9PNVEwTXFlY1FialR1MW5rcGZ2ekkzWGNTLUpPYmY1RE9vN1lkMTRBY2hiUXAyQTgtNW94ZmJvaWFZQ2dhVEZiN1JnLTcwcjhwb3FGWVo4d0dCUkw0THg0NTNNXzJnWmlCTkZrYlFWWXZLOGwxWkQ4MmlTVU9LTnc0SFExT3VIaTc1QUtSWmJVOA?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-24T10:13:01"
-        },
-        {
-          "headline": "Q3 Earnings Forecast for FormFactor Issued By Zacks Research",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRGFUOFhtZDZqcnpEV0J3dDVWcDY2dlh4cjdiWnI2c0h4Wll0Nmc4UXo3UUhGcUk5Y01jamczV3NCYkVwQldKV2JlcjRWRGpGUmNvekIzVVBaSWhkWDZkOXdtNjg4RDcteTIwbFBGMUMydGI2djNOYXBXUjZjU1BRRU5sVUM2Qm91MTE5NUxWdlMxM1ZnaGROaHQ3bkUwbFczT3JHam1mRTUzQURuY2RsLVBvaGo?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-24T05:19:48"
-        },
-        {
-          "headline": "Connor Clark & Lunn Investment Management Ltd. Takes $60.47 Million Position in FormFactor, Inc. $FORM",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOUlJ6RHNwaDh4YXdRX295TmZwSmZZTHF1RWh1MVdPb1BDVlNEYVJQbTBUOHRuZHJHUGVldjdZcW53UG9WY1k1UmhqSXVTVWdVQ2RxbG9KVHNCSmEzYUVVM3dmWkptZWpyaGw1cjNlWXhyd0xVLVBfaFF4OXRIMWZJdC1fYmJPWkFPa2FUekVtRVFmeG1TRFBpak9yX3hJd3RPTVdnUnRzbkhwNnBsYWZVeFpydHRDUmJINE0tWS1lMUZ1VnF2MkNOdDFLbktKcjVnUkxobVBKcEltM1hfRTRTa2tGMTd6SWtjLWtR?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-24T09:00:28"
-        }
-      ]
-    },
     {
       "symbol": "AMD",
       "classification": {
