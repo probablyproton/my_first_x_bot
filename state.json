@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-25",
-  "daily_posts": 2,
+  "date": "2026-08-26",
+  "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 13,
-  "gemini_calls_today": 18,
-  "evergreen_opinion_posts_today": 2,
+  "daily_pulse_posts": 0,
+  "gemini_calls_today": 0,
+  "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
     "monday": "2026-08-24",
@@ -1583,19 +1583,16 @@
       "slot": 0,
       "type": "hook",
       "target_time": "08:50",
-      "fire_time": "08:46"
+      "fire_time": "08:52"
     },
     {
       "slot": 1,
       "type": "close_summary",
       "target_time": "18:00",
-      "fire_time": "17:56"
+      "fire_time": "18:02"
     }
   ],
-  "eu_posted": [
-    0,
-    1
-  ],
+  "eu_posted": [],
   "us_slots": [
     {
       "slot": 0,
@@ -1607,11 +1604,8 @@
       "slot": 1,
       "type": "wrap",
       "target_time": "22:30",
-      "fire_time": "22:28"
+      "fire_time": "22:31"
     }
   ],
-  "us_posted": [
-    0,
-    1
-  ]
+  "us_posted": []
 }
