@@ -2,8 +2,8 @@
   "date": "2026-08-25",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 9,
-  "gemini_calls_today": 12,
+  "daily_pulse_posts": 10,
+  "gemini_calls_today": 14,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 522,
+  "event_log_next_id": 523,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -328,16 +328,16 @@
       "Acuity Inc. Names Ruth Gratzke President of Acuity Brands Lighting",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
+      "Siemens at Work on $10 Billion in North American Projects, Driven by Renewables, NGCC",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
-      "Siemens Achieves $1B in U.S. Manufacturing Investments",
       "Siemens Energy to invest $421 million in NC",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
+      "Siemens Launches Wendell Microgrid at HQ Campus",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
+      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -814,10 +814,10 @@
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
       "Western Digital (NASDAQ: WDC) legal chief sells shares, 1,488 withheld for taxes",
-      "What's Going On With Western Digital Stock Monday?",
+      "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
       "Stock Indices Finish Mostly Lower on Chipmaker Weakness",
-      "Can Strong Enterprise Demand Sustain Quantum's Momentum?",
-      "Rout in Chipmakers Weighs on Broader Market"
+      "Western Digital (WDC) is a Top-Ranked Growth Stock: Should You Buy?",
+      "Can Strong Enterprise Demand Sustain Quantum's Momentum?"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -842,26 +842,26 @@
       "Is SpaceX a Millionaire-Maker Stock?"
     ],
     "KLAC": [
+      "3 Electronics Stocks Set to Benefit From a Prospering Industry",
       "Is Wall Street Bullish or Bearish on KLA Corporation Stock?",
       "KLA (KLAC) Gains From Advanced Nodes, HBM and Packaging",
       "KLA Corporation: See What Wall Street Sees",
       "Is KLA (KLAC) a Buy as Wall Street Analysts Look Optimistic?",
-      "KLA (KLAC) Could Be 12% Undervalued On Its Dividend Decision",
       "2 Mega-Cap Stocks to Own for Decades and 1 That Underwhelm",
       "3 Market-Beating Stocks with Competitive Advantages",
       "KLA (KLAC) Stock Looks Overvalued After Strong Earnings Based Optimism",
       "OSIS Q4 Earnings Beat on Margin Gains, Revenues Miss Estimates",
       "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
+      "Here’s How Much You Would Have Made Owning KLA Stock In The Last 10 Years",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
+      "Can KLA Outgrow Chip Equipment Market Through 2030?",
       "KLA (KLAC) Earnings Beat Puts Fair Value Back In Focus",
       "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
-      "Wrapped KLA Corporation Tokenized Stock (xStock) price today, wKLACx to USD live price, marketcap and chart",
-      "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
+      "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
+      "SCHG, LLY, KLAC, LIN: Large Inflows Detected at ETF",
       "Rout in Chipmakers Weighs on Broader Market",
-      "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks",
-      "Stocks Settle Higher as Crude Oil Prices Stabilize",
-      "Stocks Supported as Crude Oil Stabilizes"
+      "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -874,14 +874,15 @@
       "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
       "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
+      "SAP SE: Release of a capital market information",
       "How SAP SE (SAP) Is Monetizing AI Through Joule and Data Cloud",
       "SAP SE (NYSE:SAP) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
-      "SAP SE: Release of a capital market information",
-      "Is SAP (SAP) Mispriced as AI Fears Overshadow Its Core ERP Strength?",
-      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
       "SAP Completes Acquisition of Prior Labs",
-      "Royal Bank of Canada Sells 14,789 Shares of SAP SE $SAP"
+      "SAP Number of Employees 2026 | Employee Count & Headcount Data",
+      "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
+      "SAP shrugs off fears of AI eating software with big earnings beat",
+      "Is SAP (SAP) Mispriced as AI Fears Overshadow Its Core ERP Strength?"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -991,6 +992,7 @@
       "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks"
     ],
     "IFX.DE": [
+      "Chip Stocks Edge Higher After Monday Rout",
       "Infineon and MediaTek partner on automotive AI systems",
       "Infineon Technologies (XTRA:IFX) Stock Fair Value Rises After Analysts Lift Targets",
       "Infineon Technologies (XTRA:IFX) Sets Record AI Revenue, Is It Fully Priced?",
@@ -1000,17 +1002,16 @@
       "Chip Stocks Climb as AI Rally Regains Strength",
       "Japan's Power-Chip Giants Target September Deal to Challenge Infineon",
       "Marvell Technology vs. Verizon Communications: Which Technology Stock Is a Better Buy in 2026?",
-      "JEDEC® Announces Automotive Electronics Forum in September 2026",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "Germany Infineon Technologies C2i Semiconductors Acquisition",
       "Infineon Number of Employees 2026 | Employee Count & Headcount Data",
-      "Infineon Technologies AG 2026 Q3 - Results - Earnings Call Presentation (OTCMKTS:IFNNY) 2026-08-05",
-      "INFINEON TECHNOLOGIES AG : Jefferies remains its Buy rating",
       "Infineon Leads the Automotive Semiconductor",
       "North America Intelligent Power Module Market Report",
       "North America Silicon Carbide (SiC) Market",
       "Infineon-led European project Moore4Power launches",
+      "Infineon upbeat on AI chips but cautious on automotive, industrials",
       "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
-      "Infineon upbeat on AI chips but cautious on automotive, industrials"
+      "Infineon bolsters global lead in automotive semiconductors with number one position in microcontrollers driving this success"
     ],
     "ANET": [
       "Arista Networks Is Buying Further Ahead Than It Can See",
@@ -1026,9 +1027,9 @@
       "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
       "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
-      "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Arista Networks (NYSE: ANET) director vests 538 RSUs in stock award",
       "Arista Networks president, CTO Duda sells $8.03m in stock",
+      "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Arista Networks (NYSE: ANET) insider now holds 31,770 shares",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?",
@@ -1327,8 +1328,7 @@
     ],
     "mover": [
       4,
-      5,
-      1
+      5
     ],
     "price_event": [
       3,
@@ -1376,19 +1376,19 @@
     "AIXA.DE": 37.27,
     "IFX.DE": 55.06,
     "ASML.AS": 1503.0,
-    "MU": 928.07,
-    "TSM": 415.49,
-    "KLAC": 181.84,
-    "STX": 816.46,
-    "ANET": 190.46,
-    "LRCX": 310.03,
-    "FORM": 108.39,
-    "AVGO": 359.73,
-    "AMAT": 480.1,
-    "AMD": 478.4,
-    "MRVL": 243.23,
-    "NVDA": 210.84,
-    "WDC": 441.3
+    "MU": 926.75,
+    "TSM": 415.3,
+    "KLAC": 182.35,
+    "STX": 823.58,
+    "ANET": 189.94,
+    "LRCX": 313.43,
+    "FORM": 107.96,
+    "AVGO": 360.7,
+    "AMAT": 479.89,
+    "AMD": 477.58,
+    "MRVL": 241.87,
+    "NVDA": 211.76,
+    "WDC": 442.06
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1416,9 +1416,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 30,
-  "last_pulse_post_min": 29794502,
-  "last_pulse_ticker": "MRVL",
+  "next_pulse_interval": 44,
+  "last_pulse_post_min": 29794561,
+  "last_pulse_ticker": "MU",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
@@ -1426,7 +1426,8 @@
     "amd:semiconductor stocks slide ahead of nvidia earnings: intel falls 5%, amd slides 4%, taiwan semiconductor slips 3%": "2026-08-24",
     "asml.as:where canon can actually disrupt asml": "2026-08-25",
     "wdc:western digital sits 46% below its high and has still more than doubled this year": "2026-08-25",
-    "mrvl:prediction: marvell technology stock could go parabolic after its next custom chip deal": "2026-08-25"
+    "mrvl:prediction: marvell technology stock could go parabolic after its next custom chip deal": "2026-08-25",
+    "mu:memory shortage deepens to worst levels since 2017 — here’s why micron investors will cash in": "2026-08-25"
   },
   "eu_slots": [
     {
