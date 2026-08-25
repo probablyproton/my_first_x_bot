@@ -2,8 +2,8 @@
   "date": "2026-08-25",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 2,
-  "gemini_calls_today": 2,
+  "daily_pulse_posts": 3,
+  "gemini_calls_today": 3,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 515,
+  "event_log_next_id": 516,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -328,10 +328,10 @@
       "Acuity Inc. Names Ruth Gratzke President of Acuity Brands Lighting",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
-      "Siemens at Work on $10 Billion in North American Projects, Driven by Renewables, NGCC",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
+      "Siemens Energy to invest $421 million in NC",
       "Harry Siemens Honored for Farm Reporting",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
@@ -852,9 +852,9 @@
       "OSIS Q4 Earnings Beat on Margin Gains, Revenues Miss Estimates",
       "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
       "Paul Tudor Jones Just Liquidated His Entire Stake in Applied Materials Stock. I Don’t Think He’s 100% Bearish on AI Though… Yet",
+      "2 Mega-Cap Stocks to Own for Decades and 1 That Underwhelm",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
-      "Wrapped KLA Corporation Tokenized Stock (xStock) price today, wKLACx to USD live price, marketcap and chart",
       "KLA (KLAC) Earnings Beat Puts Fair Value Back In Focus",
       "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
@@ -965,8 +965,8 @@
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron receives multiple tool orders from Lumentum",
-      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Aixtron (AIXA) Stock Price, News & Analysis",
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Aixtron stock holds firm as analysts keep a close eye",
       "Gallium nitride vertical-channel junction field-effect transistors"
     ],
@@ -1025,16 +1025,16 @@
       "Arista Networks Says AI Demand Broadens as Supply Limits Upside to 40% Growth Guide",
       "What You Are Really Paying For In Arista Networks Stock",
       "Cisco Systems (CSCO) & Arista Networks (ANET): Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?",
+      "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
       "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Arista Networks (NYSE: ANET) director vests 538 RSUs in stock award",
+      "Arista Networks president, CTO Duda sells $8.03m in stock",
+      "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
-      "Arista Networks president, CTO Duda sells $8.03m in stock By Investing.com",
       "Arista Networks (NYSE: ANET) insider now holds 31,770 shares",
-      "Arista Networks Stock Is Waiting On Parts, Not Orders",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?",
-      "3 Growth Stocks That Could Skyrocket in the Second Half of 2026",
-      "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility"
+      "3 Growth Stocks That Could Skyrocket in the Second Half of 2026"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1303,8 +1303,7 @@
     ],
     "mover": [
       4,
-      1,
-      2
+      1
     ],
     "price_event": [
       3,
@@ -1320,8 +1319,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 294.95,
-    "SIE.DE": 283.25,
+    "SU.PA": 295.7,
+    "SIE.DE": 284.6,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1347,11 +1346,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 186.52,
-    "BESI.AS": 200.9,
-    "AIXA.DE": 37.23,
-    "IFX.DE": 55.31,
-    "ASML.AS": 1502.0,
+    "SAP.DE": 186.08,
+    "BESI.AS": 199.4,
+    "AIXA.DE": 37.19,
+    "IFX.DE": 55.26,
+    "ASML.AS": 1502.2,
     "MU": 914.59,
     "TSM": 411.14,
     "KLAC": 182.04,
@@ -1392,14 +1391,15 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 34,
-  "last_pulse_post_min": 29794081,
-  "last_pulse_ticker": "BESI.AS",
+  "next_pulse_interval": 45,
+  "last_pulse_post_min": 29794141,
+  "last_pulse_ticker": "ASML.AS",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
     "wdc:wdc's strong q4 raises the stakes for its fiscal 2027 product ramp": "2026-08-24",
-    "amd:semiconductor stocks slide ahead of nvidia earnings: intel falls 5%, amd slides 4%, taiwan semiconductor slips 3%": "2026-08-24"
+    "amd:semiconductor stocks slide ahead of nvidia earnings: intel falls 5%, amd slides 4%, taiwan semiconductor slips 3%": "2026-08-24",
+    "asml.as:where canon can actually disrupt asml": "2026-08-25"
   },
   "eu_slots": [
     {
