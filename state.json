@@ -2,8 +2,8 @@
   "date": "2026-08-25",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 10,
-  "gemini_calls_today": 14,
+  "daily_pulse_posts": 11,
+  "gemini_calls_today": 15,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 523,
+  "event_log_next_id": 524,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -855,9 +855,9 @@
       "Here’s How Much You Would Have Made Owning KLA Stock In The Last 10 Years",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
-      "Can KLA Outgrow Chip Equipment Market Through 2030?",
       "KLA (KLAC) Earnings Beat Puts Fair Value Back In Focus",
       "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
+      "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
       "SCHG, LLY, KLAC, LIN: Large Inflows Detected at ETF",
       "Rout in Chipmakers Weighs on Broader Market",
@@ -879,9 +879,9 @@
       "SAP SE (NYSE:SAP) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP Completes Acquisition of Prior Labs",
-      "SAP Number of Employees 2026 | Employee Count & Headcount Data",
-      "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
       "SAP shrugs off fears of AI eating software with big earnings beat",
+      "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
+      "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "Is SAP (SAP) Mispriced as AI Fears Overshadow Its Core ERP Strength?"
     ],
     "BESI.AS": [
@@ -1009,8 +1009,8 @@
       "North America Intelligent Power Module Market Report",
       "North America Silicon Carbide (SiC) Market",
       "Infineon-led European project Moore4Power launches",
-      "Infineon upbeat on AI chips but cautious on automotive, industrials",
       "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
+      "Infineon upbeat on AI chips but cautious on automotive, industrials",
       "Infineon bolsters global lead in automotive semiconductors with number one position in microcontrollers driving this success"
     ],
     "ANET": [
@@ -1029,11 +1029,11 @@
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Arista Networks (NYSE: ANET) director vests 538 RSUs in stock award",
       "Arista Networks president, CTO Duda sells $8.03m in stock",
+      "Why Arista Networks (NYSE:ANET) Is Back on the Market Radar?",
       "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
-      "Arista Networks (NYSE: ANET) insider now holds 31,770 shares",
+      "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
-      "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?",
-      "3 Growth Stocks That Could Skyrocket in the Second Half of 2026"
+      "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1327,8 +1327,7 @@
       0
     ],
     "mover": [
-      4,
-      5
+      4
     ],
     "price_event": [
       3,
@@ -1376,19 +1375,19 @@
     "AIXA.DE": 37.27,
     "IFX.DE": 55.06,
     "ASML.AS": 1503.0,
-    "MU": 926.75,
-    "TSM": 415.3,
-    "KLAC": 182.35,
-    "STX": 823.58,
-    "ANET": 189.94,
-    "LRCX": 313.43,
-    "FORM": 107.96,
-    "AVGO": 360.7,
-    "AMAT": 479.89,
-    "AMD": 477.58,
-    "MRVL": 241.87,
-    "NVDA": 211.76,
-    "WDC": 442.06
+    "MU": 925.9,
+    "TSM": 415.58,
+    "KLAC": 182.71,
+    "STX": 815.8,
+    "ANET": 189.66,
+    "LRCX": 312.51,
+    "FORM": 108.06,
+    "AVGO": 358.85,
+    "AMAT": 479.45,
+    "AMD": 476.88,
+    "MRVL": 241.42,
+    "NVDA": 212.19,
+    "WDC": 442.89
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1416,9 +1415,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 44,
-  "last_pulse_post_min": 29794561,
-  "last_pulse_ticker": "MU",
+  "next_pulse_interval": 32,
+  "last_pulse_post_min": 29794621,
+  "last_pulse_ticker": "MRVL",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
@@ -1444,7 +1443,8 @@
     }
   ],
   "eu_posted": [
-    0
+    0,
+    1
   ],
   "us_slots": [
     {
