@@ -2,8 +2,8 @@
   "date": "2026-08-25",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 4,
-  "gemini_calls_today": 4,
+  "daily_pulse_posts": 5,
+  "gemini_calls_today": 5,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 517,
+  "event_log_next_id": 518,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -328,16 +328,16 @@
       "Acuity Inc. Names Ruth Gratzke President of Acuity Brands Lighting",
       "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market",
       "AXT, T1 Energy and Babcock & Wilcox Soaring Higher On Friday",
+      "Siemens at Work on $10 Billion in North American Projects, Driven by Renewables, NGCC",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
-      "Tobias Bauer",
-      "Siemens Energy to invest $421 million in NC",
-      "Tata Power Delhi Distribution smart meters",
-      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Powers DrinkPAK with Automation & Digital Tech",
-      "Siemens in Chicago, IL",
-      "Siemens Opens $190M Fort Worth Manufacturing Hub to Support AI Infrastructure Boom"
+      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
+      "Harry Siemens Honored for Farm Reporting",
+      "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
+      "Siemens Launches Wendell Microgrid at HQ Campus",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
+      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -742,16 +742,16 @@
       "Earnings Estimates Rising for FormFactor (FORM): Will It Gain?",
       "ASE Technology Surges 82% in 6 Months: Buy, Sell or Hold the Stock?",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What’s Hitting These Semiconductor Test Equipment Stocks?",
-      "Bank of New York Mellon Corp Buys New Stake in FormFactor, Inc. $FORM",
+      "Paradigm Capital Management Inc. NY Acquires Shares of 27,900 FormFactor, Inc. $FORM",
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "A Look at FormFactor Inc (FORM) After 5.5% Decline -- GF Value $57.55 vs Price $107.90",
       "FormFactor Drops 7.6% Amid Sector-Wide Selling",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
+      "Bank of New York Mellon Corp Buys New Stake in FormFactor, Inc. $FORM",
       "Photronics (PLAB) Reports Earnings Tomorrow: What To Expect",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
-      "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
-      "Panview Capital Ltd Invests $36.57 Million in FormFactor, Inc. $FORM",
-      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?"
+      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
+      "Northwestern Mutual Wealth Management Co. Takes Position in FormFactor, Inc. $FORM"
     ],
     "LRCX": [
       "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
@@ -816,8 +816,8 @@
       "Western Digital (NASDAQ: WDC) legal chief sells shares, 1,488 withheld for taxes",
       "Western Digital (WDC) Stock May Be Reasonable After Fresh AI Storage News",
       "Ceredex Value Advisors LLC Buys New Position in Western Digital Corporation $WDC",
-      "Stock Indices Finish Mostly Lower on Chipmaker Weakness",
-      "Rout in Chipmakers Weighs on Broader Market"
+      "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
+      "Stock Indices Finish Mostly Lower on Chipmaker Weakness"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -965,8 +965,8 @@
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron receives multiple tool orders from Lumentum",
-      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Aixtron stock holds firm as analysts keep a close eye",
       "Gallium nitride vertical-channel junction field-effect transistors"
     ],
@@ -1026,15 +1026,15 @@
       "What You Are Really Paying For In Arista Networks Stock",
       "Cisco Systems (CSCO) & Arista Networks (ANET): Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?",
       "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
+      "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
       "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Arista Networks (NYSE: ANET) director vests 538 RSUs in stock award",
       "Arista Networks president, CTO Duda sells $8.03m in stock",
-      "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Arista Networks (NYSE: ANET) insider now holds 31,770 shares",
-      "Arista Networks (NYSE: ANET) executive sells 43K shares",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
-      "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?"
+      "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?",
+      "3 Growth Stocks That Could Skyrocket in the Second Half of 2026"
     ],
     "ASML.AS": [
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1301,9 +1301,7 @@
       1,
       0
     ],
-    "mover": [
-      4
-    ],
+    "mover": [],
     "price_event": [
       3,
       4
@@ -1318,8 +1316,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 297.05,
-    "SIE.DE": 286.0,
+    "SU.PA": 297.2,
+    "SIE.DE": 287.0,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1345,11 +1343,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 185.7,
-    "BESI.AS": 203.1,
-    "AIXA.DE": 37.3,
-    "IFX.DE": 55.65,
-    "ASML.AS": 1514.2,
+    "SAP.DE": 186.5,
+    "BESI.AS": 200.5,
+    "AIXA.DE": 37.33,
+    "IFX.DE": 55.66,
+    "ASML.AS": 1513.0,
     "MU": 914.59,
     "TSM": 411.14,
     "KLAC": 182.04,
@@ -1390,9 +1388,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 40,
-  "last_pulse_post_min": 29794201,
-  "last_pulse_ticker": "IFX.DE",
+  "next_pulse_interval": 33,
+  "last_pulse_post_min": 29794261,
+  "last_pulse_ticker": "BESI.AS",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
