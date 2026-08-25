@@ -2,7 +2,7 @@
   "date": "2026-08-25",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 0,
+  "daily_pulse_posts": 1,
   "gemini_calls_today": 0,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 512,
+  "event_log_next_id": 513,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -749,7 +749,7 @@
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Photronics (PLAB) Reports Earnings Tomorrow: What To Expect",
       "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
-      "Nvidia Has Investors Looking Again At These AI Data Center Chip Stocks",
+      "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "Polymer Capital Management HK LTD Purchases Shares of 25,000 FormFactor, Inc. $FORM",
       "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?"
     ],
@@ -854,8 +854,8 @@
       "Paul Tudor Jones Just Liquidated His Entire Stake in Applied Materials Stock. I Don’t Think He’s 100% Bearish on AI Though… Yet",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
-      "KLA (KLAC) Earnings Beat Puts Fair Value Back In Focus",
       "Wrapped KLA Corporation Tokenized Stock (xStock) price today, wKLACx to USD live price, marketcap and chart",
+      "KLA (KLAC) Earnings Beat Puts Fair Value Back In Focus",
       "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
       "KLA shares dip 14% despite strong outlook and m...",
@@ -1329,8 +1329,7 @@
       4,
       1,
       2,
-      3,
-      0
+      3
     ],
     "price_event": [
       3,
@@ -1346,8 +1345,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 292.75,
-    "SIE.DE": 279.65,
+    "SU.PA": 291.8,
+    "SIE.DE": 280.6,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1373,11 +1372,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 187.22,
-    "BESI.AS": 208.8,
-    "AIXA.DE": 36.97,
-    "IFX.DE": 54.49,
-    "ASML.AS": 1492.6,
+    "SAP.DE": 187.2,
+    "BESI.AS": 208.0,
+    "AIXA.DE": 36.75,
+    "IFX.DE": 54.16,
+    "ASML.AS": 1489.8,
     "MU": 914.59,
     "TSM": 411.14,
     "KLAC": 182.04,
@@ -1418,9 +1417,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 38,
-  "last_pulse_post_min": 29793301,
-  "last_pulse_ticker": "FORM",
+  "next_pulse_interval": 43,
+  "last_pulse_post_min": 29794021,
+  "last_pulse_ticker": "IFX.DE",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
