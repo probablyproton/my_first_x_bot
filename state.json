@@ -1,10 +1,10 @@
 {
   "date": "2026-08-25",
-  "daily_posts": 1,
+  "daily_posts": 2,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 11,
-  "gemini_calls_today": 15,
-  "evergreen_opinion_posts_today": 1,
+  "daily_pulse_posts": 12,
+  "gemini_calls_today": 17,
+  "evergreen_opinion_posts_today": 2,
   "engagement": {
     "sunday": "2026-08-23",
     "monday": "2026-08-24",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 524,
+  "event_log_next_id": 526,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -798,6 +798,7 @@
       "Is SpaceX a Millionaire-Maker Stock?"
     ],
     "WDC": [
+      "Western Digital vs. Seagate Technology: Which Data Storage Stock Is the Better Buy?",
       "Western Digital vs. Teradata: Which AI Data Stock Has Stronger Upside?",
       "Western Digital Sits 46% Below Its High and Has Still More Than Doubled This Year",
       "Micron, Seagate, Western Digital, Semtech, and Penguin Solutions Shares Are Falling, What You Need To Know",
@@ -807,17 +808,16 @@
       "WDC Fell 11.6% in the Past Month. Is the Weakness an Opportunity?",
       "Is WDC Still a Buy as Growth Surges but Valuation Stays Expensive?",
       "One AI Stock I’d Watch Before Nvidia’s Earnings",
-      "SNDK Jumps 25% in a Month: Is there More Room for the Stock to Rise?",
       "Western Digital: Time To Jump In Before Beast Mode Arrives Again (NASDAQ:WDC)",
       "What's Going On With Western Digital Stock Tuesday?",
-      "Western Digital (NASDAQ: WDC) officer to sell 684 shares",
+      "Western Digital (NASDAQ: WDC) legal chief sells shares, 1,488 withheld for taxes",
       "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
       "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
-      "Western Digital (NASDAQ: WDC) legal chief sells shares, 1,488 withheld for taxes",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
       "Stock Indices Finish Mostly Lower on Chipmaker Weakness",
       "Western Digital (WDC) is a Top-Ranked Growth Stock: Should You Buy?",
-      "Can Strong Enterprise Demand Sustain Quantum's Momentum?"
+      "Can Strong Enterprise Demand Sustain Quantum's Momentum?",
+      "Rout in Chipmakers Weighs on Broader Market"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -879,9 +879,9 @@
       "SAP SE (NYSE:SAP) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP Completes Acquisition of Prior Labs",
-      "SAP shrugs off fears of AI eating software with big earnings beat",
-      "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
+      "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
+      "SAP shrugs off fears of AI eating software with big earnings beat",
       "Is SAP (SAP) Mispriced as AI Fears Overshadow Its Core ERP Strength?"
     ],
     "BESI.AS": [
@@ -961,13 +961,13 @@
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON SE increases FY 2026 guidance",
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
+      "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron receives multiple tool orders from Lumentum",
-      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Aixtron stock holds firm as analysts keep a close eye",
-      "Gallium nitride vertical-channel junction field-effect transistors",
-      "Polarization-engineered high mobility of two-dimensional hole gas in GaN"
+      "Gallium nitride vertical-channel junction field-effect transistors"
     ],
     "AMD": [
       "AMD Sinks 2.9% Before Nvidia's Critical Earnings Test",
@@ -1027,11 +1027,11 @@
       "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
       "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
-      "Arista Networks (NYSE: ANET) director vests 538 RSUs in stock award",
       "Arista Networks president, CTO Duda sells $8.03m in stock",
+      "Arista Networks (NYSE: ANET) director vests 538 RSUs in stock award",
       "Why Arista Networks (NYSE:ANET) Is Back on the Market Radar?",
-      "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
+      "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?"
     ],
@@ -1102,32 +1102,7 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "FORM",
-      "classification": {
-        "symbol": "FORM",
-        "is_major": true,
-        "category": "large_share_purchases",
-        "headline": "16,897 Shares in FormFactor, Inc. $FORM Acquired by Nicholas Investment Partners LP",
-        "reason": "A named institution, Nicholas Investment Partners LP, acquired a specific number of shares (16,897) of the company, which qualifies as a large share purchase."
-      },
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWHBYMmhSVTJYYzZkMXB2TUlvck43cUh3Qk5HcG5FMndJRlYzNzhxSlBlWVdUcGVGb1ozWkNoalUxX2ZKVldTeG84V0V5dlpjRVVWVVhwSmVWMDJEdG1Eb2xlWVgzdVZaWWVzZlJoeU15cHVWbFFMWlJLaDBzM0xzWXFKR3ZwOWVpcWRqR0c2VjhaU3d6YlBDY0JWeVZRTjhfVURtNWFrOFBfczg0TlFwb0NCclhaazl5MmtjbjhaWkswdVN1eTFSeTFRd0dkWEZkU2doblY4aw?oc=5",
-      "source": "MarketBeat",
-      "method": "gemini",
-      "published": "2026-08-25T10:47:54",
-      "queued_min": 29794321,
-      "all_articles": [
-        {
-          "headline": "16,897 Shares in FormFactor, Inc. $FORM Acquired by Nicholas Investment Partners LP",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNWHBYMmhSVTJYYzZkMXB2TUlvck43cUh3Qk5HcG5FMndJRlYzNzhxSlBlWVdUcGVGb1ozWkNoalUxX2ZKVldTeG84V0V5dlpjRVVWVVhwSmVWMDJEdG1Eb2xlWVgzdVZaWWVzZlJoeU15cHVWbFFMWlJLaDBzM0xzWXFKR3ZwOWVpcWRqR0c2VjhaU3d6YlBDY0JWeVZRTjhfVURtNWFrOFBfczg0TlFwb0NCclhaazl5MmtjbjhaWkswdVN1eTFSeTFRd0dkWEZkU2doblY4aw?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-25T10:47:54"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1269,12 +1244,12 @@
     }
   },
   "recent_post_sources": [
-    "Network World",
     "DatacenterDynamics",
     "Tom's Hardware",
     "Utility Dive",
     "Canary Media",
-    "POWER Magazine"
+    "POWER Magazine",
+    "Data Center Knowledge"
   ],
   "last_news_post_min": 29789102,
   "evergreen_opinion_used": {
@@ -1318,7 +1293,8 @@
     "local officials face death threats and gunfire over ai data center projects — more than 500 towns restrict builds as councils shutter public comment": "2026-08-23",
     "people + vertical ai: the new operating model for energy and utilities": "2026-08-24",
     "arizona is having a grid battery growth spurt. will that last?": "2026-08-24",
-    "nric adds 13 projects to nuclear energy launch pad, expanding advanced reactor and fuel-cycle pipeline": "2026-08-25"
+    "nric adds 13 projects to nuclear energy launch pad, expanding advanced reactor and fuel-cycle pipeline": "2026-08-25",
+    "lancium, nvidia partner on gigawatt-scale ai data centers": "2026-08-25"
   },
   "pulse_template_decks": {
     "evergreen": [
@@ -1326,9 +1302,7 @@
       1,
       0
     ],
-    "mover": [
-      4
-    ],
+    "mover": [],
     "price_event": [
       3,
       4
@@ -1338,7 +1312,7 @@
       2
     ]
   },
-  "last_evergreen_min": 29794443,
+  "last_evergreen_min": 29794682,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
@@ -1375,19 +1349,19 @@
     "AIXA.DE": 37.27,
     "IFX.DE": 55.06,
     "ASML.AS": 1503.0,
-    "MU": 925.9,
-    "TSM": 415.58,
-    "KLAC": 182.71,
-    "STX": 815.8,
-    "ANET": 189.66,
-    "LRCX": 312.51,
-    "FORM": 108.06,
-    "AVGO": 358.85,
-    "AMAT": 479.45,
-    "AMD": 476.88,
-    "MRVL": 241.42,
-    "NVDA": 212.19,
-    "WDC": 442.89
+    "MU": 922.62,
+    "TSM": 415.3,
+    "KLAC": 182.18,
+    "STX": 814.18,
+    "ANET": 188.69,
+    "LRCX": 311.73,
+    "FORM": 106.97,
+    "AVGO": 356.85,
+    "AMAT": 476.16,
+    "AMD": 477.4,
+    "MRVL": 241.03,
+    "NVDA": 212.18,
+    "WDC": 444.52
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1415,9 +1389,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 32,
-  "last_pulse_post_min": 29794621,
-  "last_pulse_ticker": "MRVL",
+  "next_pulse_interval": 37,
+  "last_pulse_post_min": 29794681,
+  "last_pulse_ticker": "WDC",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
@@ -1426,7 +1400,8 @@
     "asml.as:where canon can actually disrupt asml": "2026-08-25",
     "wdc:western digital sits 46% below its high and has still more than doubled this year": "2026-08-25",
     "mrvl:prediction: marvell technology stock could go parabolic after its next custom chip deal": "2026-08-25",
-    "mu:memory shortage deepens to worst levels since 2017 — here’s why micron investors will cash in": "2026-08-25"
+    "mu:memory shortage deepens to worst levels since 2017 — here’s why micron investors will cash in": "2026-08-25",
+    "wdc:western digital vs. seagate technology: which data storage stock is the better buy?": "2026-08-25"
   },
   "eu_slots": [
     {
