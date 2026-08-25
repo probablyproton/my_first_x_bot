@@ -331,13 +331,13 @@
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
-      "Harry Siemens Honored for Farm Reporting",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Launches Wendell Microgrid at HQ Campus",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
-      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer"
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
+      "Siemens Marks New Era in American Rail Manufacturing with Opening of North Carolina Facility"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -854,11 +854,11 @@
       "Paul Tudor Jones Just Liquidated His Entire Stake in Applied Materials Stock. I Don’t Think He’s 100% Bearish on AI Though… Yet",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
+      "Wrapped KLA Corporation Tokenized Stock (xStock) price today, wKLACx to USD live price, marketcap and chart",
+      "KLA (KLAC) Earnings Beat Puts Fair Value Back In Focus",
       "KLA shares dip 14% despite strong outlook and m...",
       "Buy KLA Corporation (XKLAC) with credit card | How to Buy KLA Corporation",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
-      "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
-      "KLA Corporation stock holds strong after recent earnings beat",
       "Rout in Chipmakers Weighs on Broader Market",
       "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks",
       "Stocks Settle Higher as Crude Oil Prices Stabilize"
@@ -879,8 +879,8 @@
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP Announces Q2 and Half-Year 2026 Results",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
-      "SAP SE: Release of a capital market information",
       "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
+      "SAP SE: Release of a capital market information",
       "SAP shrugs off fears of AI eating software with big earnings beat",
       "Is SAP (SAP) Mispriced as AI Fears Overshadow Its Core ERP Strength?"
     ],
@@ -965,10 +965,10 @@
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron receives multiple tool orders from Lumentum",
-      "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
-      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
-      "Aixtron stock holds firm as analysts keep a close eye"
+      "Aixtron (AIXA) Stock Price, News & Analysis",
+      "Aixtron stock holds firm as analysts keep a close eye",
+      "Gallium nitride vertical-channel junction field-effect transistors"
     ],
     "AMD": [
       "AMD Sinks 2.9% Before Nvidia's Critical Earnings Test",
@@ -1027,8 +1027,8 @@
       "Cisco Systems (CSCO) & Arista Networks (ANET): Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?",
       "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Arista Networks (NYSE: ANET) director vests 538 RSUs in stock award",
-      "Arista Networks president, CTO Duda sells $8.03m in stock",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
+      "Arista Networks president, CTO Duda sells $8.03m in stock By Investing.com",
       "Arista Networks (NYSE: ANET) insider now holds 31,770 shares",
       "Arista Networks Stock Is Waiting On Parts, Not Orders",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
@@ -1287,6 +1287,29 @@
           "source": "Barchart",
           "summary": "The S&P 500 Index ($SPX ) (SPY ) is down by -0.43% today, the Dow Jones Industrial Average ($DOWI ) (DIA ) is up by +0.19%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) is down by -1.41%. E-mini S&P futures (ESU26 ) are down -0.36%, and September E-mini...",
           "published": "2026-08-24T20:50:58"
+        }
+      ]
+    },
+    {
+      "symbol": "ANET",
+      "classification": {
+        "is_major": true,
+        "category": "expansion",
+        "headline": "Arista Networks president, CTO Duda sells $8.03m in stock By Investing.com",
+        "reason": "Keyword rule matched (category: expansion)"
+      },
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUTMzbWZXb0ZqOE4wUERkMGtZcmFsTmJVUGh5eTlIc2o5SlI5bzhfRjJmX0lRRFNjcUNyTHJuUFhxYlB5ZUVMbFMwVllaSjZkM0NNZTdGNDFiMGhhdUlDS1A4OEVQOW4xLVZSQm1tTlgxSXFyV21jem95cGd1U3lWdS1qNkV3blp5YlhYczd2eDRXYTM2YlN5V3JJOExEVk9sSU9nUDdDb2VDUG1uVFZONHJ6SjAzZw?oc=5",
+      "source": "Investing.com Canada",
+      "method": "keyword",
+      "published": "2026-08-24T23:35:33",
+      "queued_min": 29793661,
+      "all_articles": [
+        {
+          "headline": "Arista Networks president, CTO Duda sells $8.03m in stock By Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUTMzbWZXb0ZqOE4wUERkMGtZcmFsTmJVUGh5eTlIc2o5SlI5bzhfRjJmX0lRRFNjcUNyTHJuUFhxYlB5ZUVMbFMwVllaSjZkM0NNZTdGNDFiMGhhdUlDS1A4OEVQOW4xLVZSQm1tTlgxSXFyV21jem95cGd1U3lWdS1qNkV3blp5YlhYczd2eDRXYTM2YlN5V3JJOExEVk9sSU9nUDdDb2VDUG1uVFZONHJ6SjAzZw?oc=5",
+          "source": "Investing.com Canada",
+          "summary": "",
+          "published": "2026-08-24T23:35:33"
         }
       ]
     }
