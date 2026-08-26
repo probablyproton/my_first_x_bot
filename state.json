@@ -2,8 +2,8 @@
   "date": "2026-08-26",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 2,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 3,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 530,
+  "event_log_next_id": 531,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -746,7 +746,7 @@
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "FormFactor Drops 7.6% Amid Sector-Wide Selling",
       "A Look at FormFactor Inc (FORM) After 5.5% Decline -- GF Value $57.55 vs Price $107.90",
-      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
+      "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "16,897 Shares in FormFactor, Inc. $FORM Acquired by Nicholas Investment Partners LP",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Paradigm Capital Management Inc. NY Acquires Shares of 27,900 FormFactor, Inc. $FORM",
@@ -855,13 +855,13 @@
       "KLA Corporation: Buy The 2027+ Double Tailwind (NASDAQ:KLAC)",
       "KLA Corporation rated 'Buy' after strong Q4 and promising 2027 outlook despite recent stock drop",
       "KLA Corp. stock outperforms competitors despite losses on the day",
-      "Here’s How Much You Would Have Made Owning KLA Stock In The Last 10 Years",
       "KLA (KLAC) Gains From Advanced Nodes, HBM and Packaging",
+      "Here’s How Much You Would Have Made Owning KLA Stock In The Last 10 Years",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
+      "KLA Corporation stock draws analyst attention after fresh earnings beat",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
       "SCHG, LLY, KLAC, LIN: Large Inflows Detected at ETF",
-      "Rout in Chipmakers Weighs on Broader Market",
-      "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks"
+      "Rout in Chipmakers Weighs on Broader Market"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -1028,10 +1028,10 @@
       "Why Arista Networks (ANET) Is Down 6.8% After Surging AI Orders And 2026 Outlook Hike",
       "Arista Networks Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
       "Arista Networks (NYSE: ANET) director sells 422 shares under 10b5-1 plan",
-      "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
-      "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
+      "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
       "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
+      "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?"
     ],
@@ -1366,8 +1366,7 @@
       2,
       6,
       3,
-      4,
-      5
+      4
     ],
     "price_event": [
       3,
@@ -1383,8 +1382,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 296.25,
-    "SIE.DE": 285.55,
+    "SU.PA": 297.95,
+    "SIE.DE": 287.25,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1410,11 +1409,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 185.46,
-    "BESI.AS": 199.2,
-    "AIXA.DE": 37.23,
-    "IFX.DE": 54.85,
-    "ASML.AS": 1501.0,
+    "SAP.DE": 179.32,
+    "BESI.AS": 196.85,
+    "AIXA.DE": 37.0,
+    "IFX.DE": 54.98,
+    "ASML.AS": 1482.2,
     "MU": 927.27,
     "TSM": 417.05,
     "KLAC": 182.88,
@@ -1455,9 +1454,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 36,
-  "last_pulse_post_min": 29795461,
-  "last_pulse_ticker": "BESI.AS",
+  "next_pulse_interval": 43,
+  "last_pulse_post_min": 29795521,
+  "last_pulse_ticker": "SAP.DE",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
@@ -1483,7 +1482,9 @@
       "fire_time": "18:02"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
