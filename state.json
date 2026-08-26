@@ -1,10 +1,10 @@
 {
   "date": "2026-08-26",
   "daily_posts": 2,
-  "daily_keyword_posts": 0,
-  "daily_pulse_posts": 10,
-  "gemini_calls_today": 14,
-  "evergreen_opinion_posts_today": 1,
+  "daily_keyword_posts": 1,
+  "daily_pulse_posts": 11,
+  "gemini_calls_today": 15,
+  "evergreen_opinion_posts_today": 2,
   "engagement": {
     "sunday": "2026-08-23",
     "monday": "2026-08-24",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 541,
+  "event_log_next_id": 543,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -746,12 +746,12 @@
       "PDT Partners LLC Takes Position in FormFactor, Inc. $FORM",
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "FormFactor Drops 7.6% Amid Sector-Wide Selling",
-      "Primecap Management Co. CA Takes $270.30 Million Position in FormFactor, Inc. $FORM",
       "A Look at FormFactor Inc (FORM) After 5.5% Decline -- GF Value $57.55 vs Price $107.90",
+      "Primecap Management Co. CA Takes $270.30 Million Position in FormFactor, Inc. $FORM",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Polymer Capital Management HK LTD Purchases Shares of 25,000 FormFactor, Inc. $FORM",
-      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
-      "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
+      "Bank of New York Mellon Corp Buys New Stake in FormFactor, Inc. $FORM",
+      "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
     ],
     "LRCX": [
       "Is Lam Research (LRCX) Outperforming Other Computer and Technology Stocks This Year?",
@@ -815,9 +815,9 @@
       "WDC Fell 11.6% in the Past Month. Is the Weakness an Opportunity?",
       "Western Digital Corp - Holders to Exchange $1",
       "Western Digital Tokenized Stock (Robinhood) (WDC) Chart",
+      "Wednesday Sector Leaders: Apparel Stores, Computers",
       "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
-      "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
-      "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)"
+      "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -874,15 +874,15 @@
       "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
       "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
-      "How SAP SE’s (SAP) Enterprise Brainstem Shields It from the AI Software Sell-Off",
       "SAP SE: Thomas Heinrich Saueressig, buy",
+      "How SAP SE’s (SAP) Enterprise Brainstem Shields It from the AI Software Sell-Off",
       "SAP SE Stock (SAP) Moved Down by 3.44% on Aug 26",
-      "SAP SE: Release of a capital market information",
       "SAP SE (NYSE:SAP) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "How SAP SE (SAP) Is Monetizing AI Through Joule and Data Cloud",
-      "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
       "SAP Completes Acquisition of Prior Labs",
-      "SAP Gives AI Product Oversight to Top Executives in Reshuffle"
+      "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
+      "SAP Number of Employees 2026 | Employee Count & Headcount Data",
+      "SAP SE: Release of a capital market information"
     ],
     "BESI.AS": [
       "Chip Stocks Mixed Ahead of Nvidia Earnings",
@@ -902,6 +902,7 @@
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
       "BE Semiconductor Industries (OTCMKTS:BESIY) Sees Unusually-High Trading Volume - Time to Buy?",
       "BE Semiconductor: A Directional Bet On AI CapEx Spending (OTCMKTS:BESIY)",
+      "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
       "BE Semiconductor Industries N.V. Announces Q1-26 Results"
     ],
     "AMAT": [
@@ -958,7 +959,17 @@
       "European chip stocks fall after sharp U.S. peers’ selloff",
       "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
       "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
-      "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures"
+      "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures",
+      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "AIXTRON SE increases FY 2026 guidance",
+      "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
+      "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
+      "Aixtron receives multiple tool orders from Lumentum",
+      "Aixtron Se Stock Price Forecast. Should You Buy AIXA.DE?",
+      "Aixtron (AIXA) Stock Price, News & Analysis",
+      "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "Aixtron SE vs Veeco Instruments",
+      "Gallium nitride vertical-channel junction field-effect transistors"
     ],
     "AMD": [
       "Why Nvidia rival AMD may see a 40% rip in its stock",
@@ -1012,16 +1023,16 @@
       "Arista Networks (ANET) Is A Key Player In Hyperscale Data Center Growth",
       "Arista Networks vs. Salesforce: Which Technology Stock Is a Better Buy in 2026?",
       "Hyperscale Data Center Market Surges to $608.54 billion at a CAGR 24.6% by 2030 | Report by MarketsandMarkets™",
-      "Can ANET Stock Compound Its Way Higher?",
       "3 AI Networking Stocks Dominating a Quiet Niche",
       "Cisco Systems (CSCO) & Arista Networks (ANET): Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?",
-      "Arista Networks (ANET) Faces New Political Risk As Voters Push Back On AI Data Centers",
+      "Forget Nvidia. Cisco Could Be a Hidden Winner From the AI Boom",
       "Arista Networks Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
       "3 Growth Stocks That Could Skyrocket in the Second Half of 2026",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
+      "Arista Networks vs. CoreWeave: What Revenue Trends Tell Investors About These Artificial Intelligence Companies",
       "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
+      "Arista Networks (ANET) Faces New Political Risk As Voters Push Back On AI Data Centers",
       "Arista Networks (ANET) director sells $79,057 in stock",
-      "Arista Networks Inc Stock (ANET) Moved Up by 3.15% on Aug 26: Drivers Behind the Movement",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?",
       "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility"
@@ -1093,39 +1104,7 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "KLAC",
-      "classification": {
-        "symbol": "KLAC",
-        "is_major": true,
-        "category": "earnings",
-        "headline": "KLA Corporation stock steadies after earnings beat as guidance and backlog support 2026 outlook",
-        "reason": "The headline indicates an earnings beat and positive guidance, which is a major catalyst under the earnings criteria."
-      },
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQalZHWS04SHpPZmRyODJYT0pIQVRmcDNLT2Qyd29KeUg0M1JlNWVrRGd4a1U1OHA4VUdBN1pXZ2EzM3RSNnFmcWZXX2w5MnBHLTAtWjNudUhPMkhlT3JXSUJTWkwxVm9QSG10djVmSk1QYWRPcWttcDVodldKREloRGNidVIzV01vQ21fQmRsaHd0VkI0MmN0NUx2WWpmLXFXX240cTlqN1RMQVBZYXpoemZMaHplMFIwYmJIU1ZUdDltbmV2SkFQUUNrbW16aV9ERWJB?oc=5",
-      "source": "Ad-hoc-news.de",
-      "method": "gemini",
-      "published": "2026-08-26T09:43:09",
-      "queued_min": 29795643,
-      "all_articles": [
-        {
-          "headline": "Zacks Industry Outlook Kla, Teradyne and Garmin",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-kla-teradyne-090400568.html?.tsrc=rss",
-          "source": null,
-          "summary": "Kla, Teradyne and Garmin have been highlighted in this Industry Outlook article.",
-          "published": "2026-08-26T09:04:00"
-        },
-        {
-          "headline": "KLA Corporation stock steadies after earnings beat as guidance and backlog support 2026 outlook",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQalZHWS04SHpPZmRyODJYT0pIQVRmcDNLT2Qyd29KeUg0M1JlNWVrRGd4a1U1OHA4VUdBN1pXZ2EzM3RSNnFmcWZXX2w5MnBHLTAtWjNudUhPMkhlT3JXSUJTWkwxVm9QSG10djVmSk1QYWRPcWttcDVodldKREloRGNidVIzV01vQ21fQmRsaHd0VkI0MmN0NUx2WWpmLXFXX240cTlqN1RMQVBZYXpoemZMaHplMFIwYmJIU1ZUdDltbmV2SkFQUUNrbW16aV9ERWJB?oc=5",
-          "source": "Ad-hoc-news.de",
-          "summary": "",
-          "published": "2026-08-26T09:43:09"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1268,12 +1247,12 @@
     }
   },
   "recent_post_sources": [
-    "Tom's Hardware",
     "Utility Dive",
     "Canary Media",
     "POWER Magazine",
     "Data Center Knowledge",
-    "ServeTheHome"
+    "ServeTheHome",
+    "DatacenterDynamics"
   ],
   "last_news_post_min": 29789102,
   "evergreen_opinion_used": {
@@ -1319,18 +1298,17 @@
     "arizona is having a grid battery growth spurt. will that last?": "2026-08-24",
     "nric adds 13 projects to nuclear energy launch pad, expanding advanced reactor and fuel-cycle pipeline": "2026-08-25",
     "lancium, nvidia partner on gigawatt-scale ai data centers": "2026-08-25",
-    "openai jalapeno custom ai asic at hot chips 2026": "2026-08-26"
+    "openai jalapeno custom ai asic at hot chips 2026": "2026-08-26",
+    "empyrion closes financing for taipei, taiwan data center with e.sun bank": "2026-08-26"
   },
   "pulse_template_decks": {
     "evergreen": [
       4,
-      1,
-      0
+      1
     ],
     "mover": [
       4,
-      5,
-      3
+      5
     ],
     "price_event": [
       3,
@@ -1341,7 +1319,7 @@
       2
     ]
   },
-  "last_evergreen_min": 29795882,
+  "last_evergreen_min": 29796062,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
@@ -1378,19 +1356,19 @@
     "AIXA.DE": 36.55,
     "IFX.DE": 55.15,
     "ASML.AS": 1499.6,
-    "MU": 938.25,
-    "TSM": 416.07,
-    "KLAC": 181.65,
-    "STX": 838.36,
-    "ANET": 197.84,
-    "LRCX": 311.87,
-    "FORM": 106.8,
-    "AVGO": 350.85,
-    "AMAT": 478.31,
-    "AMD": 482.97,
-    "MRVL": 239.79,
-    "NVDA": 210.33,
-    "WDC": 462.54
+    "MU": 939.36,
+    "TSM": 417.31,
+    "KLAC": 182.18,
+    "STX": 841.75,
+    "ANET": 198.93,
+    "LRCX": 312.83,
+    "FORM": 106.92,
+    "AVGO": 351.64,
+    "AMAT": 478.35,
+    "AMD": 482.76,
+    "MRVL": 241.82,
+    "NVDA": 209.88,
+    "WDC": 464.72
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1418,9 +1396,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 37,
-  "last_pulse_post_min": 29796001,
-  "last_pulse_ticker": "ANET",
+  "next_pulse_interval": 36,
+  "last_pulse_post_min": 29796061,
+  "last_pulse_ticker": "TSM",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
@@ -1434,7 +1412,8 @@
     "su.pa:schneider electric launches schneider charge, a level 2 residential ev charger with built-in dynamic load management": "2026-08-26",
     "amat:applied materials stock and the factory buildout investors may be missing": "2026-08-26",
     "stx:zacks.com featured highlights seagate technology, western digital and dell": "2026-08-26",
-    "form:formfactor (form) stock may be 48% undervalued on cash flow strength": "2026-08-26"
+    "form:formfactor (form) stock may be 48% undervalued on cash flow strength": "2026-08-26",
+    "tsm:price prediction: tsm will trade at this price in 2027": "2026-08-26"
   },
   "eu_slots": [
     {
@@ -1451,7 +1430,8 @@
     }
   ],
   "eu_posted": [
-    0
+    0,
+    1
   ],
   "us_slots": [
     {
