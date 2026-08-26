@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
   "daily_posts": 2,
-  "daily_keyword_posts": 1,
+  "daily_keyword_posts": 2,
   "daily_pulse_posts": 13,
   "gemini_calls_today": 17,
   "evergreen_opinion_posts_today": 2,
@@ -47,7 +47,7 @@
     "SAP.DE": 1141,
     "STX": 1362,
     "AIXA.DE": 1142,
-    "NVDA": 1262,
+    "NVDA": 1382,
     "MRVL": 1336,
     "ANET": 1262,
     "MU": 1322,
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 545,
+  "event_log_next_id": 546,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -104,7 +104,7 @@
     "AMD": 1022,
     "AVGO": 1082,
     "KLAC": 1142,
-    "news_NVDA": 1262,
+    "news_NVDA": 1382,
     "news_TSM": 1322,
     "IFX.DE": 724,
     "news_AMAT": 1322,
@@ -333,11 +333,11 @@
       "Siemens Energy is investing $1 billion and creating highly skilled jobs in the United States",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
+      "Siemens Energy to invest $421 million in NC",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Launches Wendell Microgrid at HQ Campus",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District"
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -776,28 +776,29 @@
       "Stocks Mixed on Lower Bond Yields and Chip Stock Weakness"
     ],
     "TSM": [
-      "U.S. Markets Prepare For AI Compute Derivatives Tied To TSMC, Nvidia GPU Prices",
-      "SoundHound AI vs. Taiwan Semiconductor Manufacturing: Which Technology Stock Is a Better Buy in 2026?",
-      "One of Wall Street’s Best-Known Hedge Funds Just Loaded Up on These 5 Stocks",
-      "How Intel and TSMC Could Benefit From Samsung Hiking Chipmaking Prices",
-      "After TSMC, Samsung Is Also Reportedly Planning To Hike Chip Prices Amid Demand Surge Fueled By Nvidia, Apple, Tesla And Others",
-      "Samsung Sinks 7.8% Even as AI Chip Prices Jump 15%",
-      "Can Amkor Turn Advanced Packaging Into an Edge Over Competitors?",
-      "Veteran fund manager rethinks Intel stock target",
-      "Harvard Reveals $2.2 Billion SpaceX Stake, Its Largest Public Equity Holding: University's Bet on Elon Musk-led Company Outshines Amazon and Nvidia",
-      "Harvard Just Disclosed a $2.2 Billion Stake in This Tech Stock",
-      "Taiwan Semiconductor Manufacturing Company (TSM) Looks Built for Long-Term Growth, but What Happens in the Next Downturn?",
-      "Taiwan Semiconductor’s AI Bottleneck Hands Samsung a Powerful Pricing Opportunity",
-      "100,462 Shares in Taiwan Semiconductor Manufacturing Company Ltd. $TSM Purchased by Trust Co. of Vermont",
-      "Taiwan Semiconductor Manufacturing (TSM) Could Be 13% Overvalued On Maia 300 Focus",
-      "Taiwan Semiconductor Manufacturing Company Stock (TSM) Opinions on AI Semiconductor Surge",
-      "Taiwan Semiconductor Manufacturing Co Ltd (TSM) Stock Down 4.1% but Still Overvalued -- GF Score: 97/100",
-      "Taiwan Semiconductor Manufacturing Company Ltd. (NYSE:TSM) Given Consensus Recommendation of \"Buy\" by Analysts",
+      "Sony Group (SONY) and Taiwan Semiconductor (TSM) Are Betting $4.7 Billion on the “Eyes” of AI Machines",
+      "TSMC's July Surge Raises the Bar for Nvidia's Foundry",
+      "Price Prediction: TSM Will Trade at This Price in 2027",
+      "EvCap Investments and Point Acquisitions Acquire North Phoenix Retail Center",
+      "He Followed TSMC From Taiwan to Phoenix at 60. Social Security Said His 30-Year Career Had Just Begun.",
+      "TSMC Jumps Before Nvidia Tests Its Capacity Bet",
+      "Top Investors Name 5 AI Stocks That Could Win No Matter Which Model Leads",
+      "Prediction: TSMC Stock Will Soar After Aug. 26 Thanks to Nvidia’s Historic Quarter",
+      "Are Emerging Markets Now An AI Trade? TSMC, Samsung, SK Hynix Drive More Than Half The Gains",
+      "TSMC (TSM) Falls More Steeply Than Broader Market",
+      "Could Taiwan Semiconductor Manufacturing Co. (TSM) Be the Biggest Long-Term Winner From the AI Chip Boom?",
+      "Why Taiwan Semiconductor Manufacturing (TSM) Stock Is Down Today",
+      "Taiwan Semiconductor Manufacturing (TSM) Stock Could Be 27% Overvalued On Fresh AI Demand News",
+      "Japan’s Air Water buys 35% stake in Taiwan semiconductor gas supplier",
+      "Taiwan Semiconductor Manufacturing Partners With Xiaomi to Produce Smartphone Chips",
+      "Taiwan Semiconductor Manufacturing Co Ltd Stock (TSM) Moved Down by 3.11% on Aug 24: Facts Behind the Movement",
       "Taiwan Semiconductor Manufacturing (TSM) Eyes Faster 3 Nanometer Output, Is The Stock Expensive?",
-      "Altrafin AG Has $228,000 Stake in Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
-      "Is SpaceX a Millionaire-Maker Stock?"
+      "Intel vs. TSM: Which Semiconductor Stock Looks Like the Better Investment?",
+      "Does Taiwan Semiconductor Manufacturing (TSM) Risk Losing AI Chip Orders To Capacity Limits?",
+      "AI Can't Thrive Without This Stock. Hint: It's Not Nvidia."
     ],
     "WDC": [
+      "Western Digital Stock Is Down Sharply: Why the Bull Case Still Looks Strong",
       "Western Digital (WDC) May Find a Bottom Soon, Here's Why You Should Buy the Stock Now",
       "Zacks.com featured highlights Seagate Technology, Western Digital and Dell",
       "Western Digital (WDC) Is Assessing New Iran Sanctions Exposure",
@@ -807,17 +808,16 @@
       "Seagate & 2 Momentum Stocks to Buy Now for Explosive Upside",
       "One AI Stock I’d Watch Before Nvidia’s Earnings",
       "Prediction: Seagate Could Be One of AI’s Most Unexpected Winners",
-      "The Options Market Says Micron Stock Can Halve Or Double From Here",
       "Western Digital: Time To Jump In Before Beast Mode Arrives Again (NASDAQ:WDC)",
       "What's Going on With Western Digital Stock on Wednesday?",
       "Western Digital Restructures Convertible Debt Through Exchange Agreements",
       "Micron, Seagate, Western Digital, Semtech, and Penguin Solutions Shares Are Falling, What You Need To Know",
       "WDC Fell 11.6% in the Past Month. Is the Weakness an Opportunity?",
       "Western Digital Rises as Investors Weigh Fresh Debt Exchange Against Strong AI Storage Demand",
-      "Western Digital Corp - Holders to Exchange $1",
-      "Western Digital Tokenized Stock (Robinhood) (WDC) Chart",
+      "Western Digital (NASDAQ: WDC) plans new share sale under Rule 144",
       "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
-      "Notable Wednesday Option Activity: GEV, UBER, WDC"
+      "Notable Wednesday Option Activity: GEV, UBER, WDC",
+      "Wednesday Sector Leaders: Apparel Stores, Computers"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -852,11 +852,11 @@
       "2 Mega-Cap Stocks to Own for Decades and 1 That Underwhelm",
       "3 Market-Beating Stocks with Competitive Advantages",
       "KLA (KLAC) Stock Looks Overvalued After Strong Earnings Based Optimism",
+      "Is KLA (KLAC) Using AI-Fueled Advanced Packaging To Quietly Reinvent Its Recurring Revenue Base?",
       "KLA Corporation: Buy The 2027+ Double Tailwind (NASDAQ:KLAC)",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
       "KLA CORPORATION REPORTS FISCAL 2026 FOURTH QUARTER AND FULL YEAR RESULTS",
-      "KLA Corporation rated 'Buy' after strong Q4 and promising 2027 outlook despite recent stock drop",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
       "SCHG, LLY, KLAC, LIN: Large Inflows Detected at ETF",
       "Rout in Chipmakers Weighs on Broader Market",
@@ -902,51 +902,52 @@
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
       "BE Semiconductor Industries (OTCMKTS:BESIY) Sees Unusually-High Trading Volume - Time to Buy?",
       "BE Semiconductor: A Directional Bet On AI CapEx Spending (OTCMKTS:BESIY)",
+      "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
       "BE Semiconductor Industries N.V. Announces Q1-26 Results"
     ],
     "AMAT": [
-      "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
-      "Best Momentum Stock to Buy for August 19th",
+      "Applied Materials (AMAT) Enters a New AI-Driven Growth Cycle",
+      "Applied Materials’ China Problem Is Getting Worse",
+      "AMAT's AGS Business Gains Momentum: How Long Will it Sustain?",
+      "Applied Materials Drops 34%. Here’s Why You Should Buy the Dip in AMAT Stock.",
+      "Applied Materials (AMAT) Is Positioned to Capture More of the AI Chip Manufacturing Boom",
+      "Applied Materials (AMAT) Is Considered a Good Investment by Brokers: Is That True?",
+      "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
+      "Applied Materials (AMAT) Q3 2026 Earnings Call Transcript",
+      "Paul Tudor Jones Just Liquidated His Entire Stake in Applied Materials Stock. I Don’t Think He’s 100% Bearish on AI Though… Yet",
+      "Can Applied Materials Sustain Its Growth Amid AI-Driven Demand?",
+      "Applied Materials Stock (AMAT) Is Named a ‘Top Pick’ at Goldman Sachs",
+      "Does Applied Materials (AMAT) Have the Potential to Rally 34.71% as Wall Street Analysts Expect?",
       "Applied Materials Rockets 98% in 2026: How Does AMAT Compare to Lam Research and KLA as AI Capex Powers Chip Gear Stocks?",
-      "Should You Buy, Sell or Hold AMAT Stock After a 31% Rise in 3 Months?",
-      "Applied Material Falls Despite Posting Above-Average Q3 Results. Why, and What to  Do With AMAT Stock Now.",
-      "ASX vs. AMAT: Which AI Semiconductor Stock is the Better Buy?",
-      "Genpact Stock Gains 13% in a Month",
-      "Don't Overlook Applied Materials (AMAT) International Revenue Trends While Assessing the Stock",
-      "Marvell Technology, FormFactor, and Applied Materials Shares Are Soaring, What You Need To Know",
-      "S&P 500's Best Stock In 2026 Leads Index With A Bullish Move",
-      "Top Research Reports for NVIDIA, Applied Materials & ConocoPhillips",
-      "The Market Says AI Bubble, The Guidance Says Buy",
-      "Here's How Much $100 Invested In Applied Materials 15 Years Ago Would Be Worth Today",
-      "Applied Materials Trades More Than 25% Below Its High With Revenue at a Record",
-      "Applied Materials AMAT Stock Prediction: $760 Bull vs $310 Bear",
-      "SpaceX, Sandisk, Micron, Workday, Applied Materials, Reddit, Unusual Machines, and More Stocks That Explain Today’s Market",
-      "Stocks making the biggest moves premarket: Reddit, Applied Materials, Sandisk, Wayfair & more",
-      "Applied Materials shares are down on guidance and margin concerns. Analysts call it time to buy.",
-      "Stocks Mixed on Lower Bond Yields and Chip Stock Weakness",
-      "Stocks Supported by Lower Bond Yields"
+      "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What's Prompting the Selloff in Chip Equipment Stocks?",
+      "Time to Accumulate Applied Materials Before Foundry Ramps Hit?",
+      "KLA Gains From Advanced Packaging: Can it Outpace ONTO & AMAT?",
+      "Semtech's Q2 Earnings Surpass Estimates, Revenues Increase Y/Y",
+      "Analysts Predict 17% Gains Ahead For The Holdings of TRUT",
+      "Rout in Chipmakers Weighs on Broader Market",
+      "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks"
     ],
     "NVDA": [
-      "Dow Jones Futures: Stocks Rise Cautiously Into Fed Inflation Data, Nvidia Earnings; Robinhood In Buy Area",
-      "Stock Market Today: Nasdaq Leads As Key Inflation Report Looms; Nvidia, Micron Gain",
-      "Dow Jones AI Giant Nvidia Tests Key Support Level As Pivotal Earnings Report Looms",
-      "1 High-Yield Dividend Stock Worth Loading Up On Right Now",
-      "Why Rezolve AI Stock Rocketed Higher Today",
-      "Nvidia revenue, return on investment key, says portfolio manager",
-      "History Says Nvidia Is Likely To Fall on Wednesday",
-      "That Quantum Fund Is Up 40% in 2026 and Just Crossed $6 Billion. The Field Keeps Beating the Stock-Pickers",
-      "Why Super Micro Computer Rallied Today",
-      "Why RUM Group (RUM) Stock Is Trading Up Today",
-      "Nvidia stock is on a 7-day losing streak ahead of its big earnings report",
-      "SpaceXAI Adopts NVIDIA Vera CPU to Accelerate Agentic AI at Massive Scale",
-      "Nvidia just snapped a seven-day losing streak the day before its earnings release.",
+      "Nvidia reports impressive Q2 earnings as AI boom rolls on",
+      "Nvidia Stock Slips Ahead Of Earnings Call, Despite Q2 Beat",
+      "For Now, Profitability Remains Strong",
+      "Nvidia smashes Q2 forecasts with $96.2bn in revenue as AI hits 'inflection point'",
+      "Why Box Stock Ticked Higher on Wednesday",
+      "I'd Rather Own Bloom Energy Than Nvidia Right Now. Here's My Case.",
+      "Nvidia Data Center Sales Shine Again",
+      "Strong AI chip demand fuels Nvidia's Q2 results well beyond Wall Street's expectations",
+      "Nvidia's Outlook Raises Some Concern About Pricing Power",
+      "Nvidia Reports Solid Earnings, but the Stock Slides Anyway",
+      "Nvidia’s earnings to test resurgent AI trade",
+      "Nvidia slips even as Q2 results, guidance top estimates (NVDA:NASDAQ)",
       "OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests",
-      "Nvidia’s dependence on hyperscalers faces big test in earnings report",
-      "Where Is Nvidia Stock Headed By 2030? What To Watch",
-      "Nvidia Q2 earnings on deck: Focus on Vera Rubin ramp-up, AI financing (NVDA:NASDAQ)",
-      "NVIDIA Groq 3 LPX Now in Full Production With World-Class Speed for Agentic AI",
-      "Nvidia's dedicated inference accelerator Groq 3 LPX enters full production to supercharge AI agents",
-      "Nvidia’s $20 Billion Groq Bet Is Going Live Before the End of 2026. Here’s What It Means for Investors."
+      "OpenAI's Jalapeño, Nvidia networking among key takeaways at Hot Chips: BNP",
+      "OpenAI’s Custom Chip Embarrasses Nvidia, While Company Vows to Keep Buying From It",
+      "Stocks churn before Nvidia’s results as bonds fall",
+      "Nvidia’s $20 Billion Groq Bet Is Going Live Before the End of 2026. Here’s What It Means for Investors.",
+      "NVIDIA Announces Jetson Orin Nano 2 Robotics Computer to Redefine Entry-Level Edge AI",
+      "STAR WARS Zero Company™ GeForce Game Ready Driver Released",
+      "NVIDIA Corporation Q2 Income Rises"
     ],
     "AIXA.DE": [
       "Aixtron Q2 Earnings Call Highlights",
@@ -971,26 +972,26 @@
       "Polarization-engineered high mobility of two-dimensional hole gas in GaN"
     ],
     "AMD": [
-      "Why Nvidia rival AMD may see a 40% rip in its stock",
-      "AMD Stock Upgraded To Strong Buy",
-      "AMD Just Got a Major AI Vote of Confidence",
-      "AMD, Marvell Technology, Semtech, Allegro MicroSystems, and MACOM Stocks Trade Up, What You Need To Know",
-      "AMD May Have Found Its Next Big AI Growth Engine",
-      "AMD Jumps 3.9% as $641 Target Reprices Server CPUs",
-      "AMD Stock Gets a ‘Strong Buy’ Upgrade: Why It Could Outperform Nvidia",
-      "Moderna, Nvidia, Apple, Dick’s, Robinhood, AMD, and More Stocks That Explain Today’s Market",
-      "Company News for Aug 25, 2026",
-      "AMD and Intel Rise 3% on a Strong Buy Upgrade and a Pelosi Disclosure, NVIDIA and Broadcom Tick Up",
+      "/C O R R E C T I O N -- OPAQUE/",
+      "Prediction: AMD’s Next Move Could Be HUGE and Here’s Where The Stock is Going",
+      "Advanced Micro Devices (AMD) and Intel (INTC) Both Just Raised Billions for AI. Here’s How Their Strategies Differ",
+      "1 Wall Street Analyst Just Upgraded AMD Stock and Estimates 30% Upside",
+      "AMD vs. Marvell: Which Is the Better AI Chip Stock to Own for the Next 5 Years?",
+      "Cathie Wood Dumps AMD and Adds to This AI Chip Stock",
+      "GIGABYTE Partners with AMD to Bring Onimusha: Way of the Sword Game Bundle to Gamers",
+      "Why a Single Wire Report About Government Cash Sent AMD, Intel, and Micron Higher Overnight",
+      "Kodiak AI and AMD Collaborate to Advance Computing Power for Driverless Trucking",
+      "/C O R R E C T I O N -- The Linux Foundation/",
+      "What You Actually Pay To Join The AMD Run",
+      "AMD Stock Upgraded To Strong Buy. Here’s Why.",
       "Stocks making the biggest moves premarket: Dick's Sporting Goods, Advanced Micro Devices, Kura Oncology & more",
-      "Csenge Advisory Group Sells 2,408 Shares of Advanced Micro Devices, Inc. $AMD",
-      "Advanced Micro Devices (AMD) Is Down 6.5% After $4.75 Billion Debt Raise And Taiwan AI Push",
-      "AMD Is Winning Nvidia (NVDA) Customers But Investors May Be Missing The Catch",
-      "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC",
-      "Advanced Micro Devices (AMD) Posts Record Sales, But Musk’s NVIDIA (NVDA) Pledge Sinks the Stock",
-      "NVIDIA Corporation (NVDA) & Advanced Micro Devices (AMD): Nvidia Might Ship AI Chips With Less Memory. AMD Says It’s Not Worried",
-      "AMD Gets a Boost, So Here’s My Plan",
-      "Stocks Supported by Slumping Crude Prices and Lower Bond Yields",
-      "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower"
+      "AMD Chips Away at Nvidia’s Moat. The Chip Maker Could Dominate the CPU Market and Rise 40%.",
+      "Odyssean LLC Buys New Shares in Advanced Micro Devices, Inc. $AMD",
+      "AMD vs. Broadcom: Which AI Stock Has the Bigger Upside Potential?",
+      "AMD Stock at $479: $680 Bull vs $300 Bear After Debt Raise",
+      "AMD's Next AI Accelerator Carries 432 Gigabytes of Memory -- 50% More Than the Last One. Here's the Bill That Comes With It.",
+      "I'd Rather Own Bloom Energy Than Nvidia Right Now. Here's My Case.",
+      "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks"
     ],
     "IFX.DE": [
       "Chip Stocks Edge Higher After Monday Rout",
@@ -1003,16 +1004,16 @@
       "Chip Stocks Climb as AI Rally Regains Strength",
       "Chip Stocks Mixed Ahead of Nvidia Earnings",
       "Marvell Technology vs. Verizon Communications: Which Technology Stock Is a Better Buy in 2026?",
-      "Germany Infineon Technologies C2i Semiconductors Acquisition",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "Germany Infineon Technologies C2i Semiconductors Acquisition",
       "Infineon Number of Employees 2026 | Employee Count & Headcount Data",
-      "Infineon Technologies (IFNNY) is an Incredible Growth Stock: 3 Reasons Why",
       "Infineon Leads the Automotive Semiconductor",
       "North America Intelligent Power Module Market Report",
       "North America Silicon Carbide (SiC) Market",
       "Infineon-led European project Moore4Power launches",
+      "Infineon upbeat on AI chips but cautious on automotive, industrials",
       "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
-      "Infineon upbeat on AI chips but cautious on automotive, industrials"
+      "Infineon bolsters global lead in automotive semiconductors with number one position in microcontrollers driving this success"
     ],
     "ANET": [
       "Wall Street Analysts Believe Arista Networks (ANET) Could Rally 26.74%: Here's is How to Trade",
@@ -1025,7 +1026,7 @@
       "Cisco Systems (CSCO) & Arista Networks (ANET): Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?",
       "Forget Nvidia. Cisco Could Be a Hidden Winner From the AI Boom",
       "This Stock Is Quietly Becoming an AI Powerhouse in 2026",
-      "Arista Networks Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
+      "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "Arista Networks Jumps as Wall Street Sees More Upside",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
       "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
@@ -1042,21 +1043,20 @@
       "ASML Stock: Next Stop $3,000?",
       "Beyond the Nvidia boom: portfolio manager likes AI stocks TSMC, ASML",
       "Why ASML's sales forecast lift is a 'real vote of confidence' for the AI trade",
-      "ASML raises 2026 forecast, expands capacity on AI chip demand",
-      "ASML Holding's Next Earnings Report on July 15 Could Send the Stock Soaring",
-      "Here’s How Much Traders Expect ASML Stock to Move After Earnings",
-      "US Equity Investors to Focus on Banks Kicking Off Q2 Earnings, Warsh's Take on Inflation, Worsening Geopolitics This Week",
-      "Huge Earnings, Inflation Data and Other Key Things to Watch this Week",
-      "If You Invested $1000 In ASML Holding Stock 15 Years Ago, You Would Have This Much Today",
-      "ASML: The Price Is Fair For Such A Crucial Company (NASDAQ:ASML)",
+      "From bubbles to bottlenecks, what Wall Street is thinking about AI",
+      "Taiwan Semiconductor (TSM) Sales Just Jumped 45%. Why is the Chip Sector Still Selling Off?",
+      "What it will take for Big Tech to wow investors this earnings season",
+      "TSM reports 77% profit jump, 5th consecutive quarter of record-breaking profits",
+      "Is the chip stock sell-off becoming a 'chicken or the egg' situation?",
+      "[News] U.S. May Push Near-Total ASML China Ban on DUV Sales and Servicing Amid China Domestic Lithography Push",
+      "If US targets ASML, Netherlands should learn from Canada",
+      "ASML Slips Before Nvidia Tests a 23% Sales Ramp",
+      "ASML or AAOI: Which Tech Stock Is Better-Placed at Present?",
+      "ASML And KLA: Both Winning The AI Buildout - Only The Former Is Still Worth Buying",
+      "United States Government May Restrict ASML's DUV Tool Exports to China",
+      "Where Canon Can Actually Disrupt ASML",
       "Taiwan Semiconductor vs. ASML: Which Semiconductor Titan Is the Better Buy Today?",
-      "U.S. preparing to force Netherlands to ban ASML from selling to China",
-      "Why ASML Holding (ASML) Stock Is Down Today",
-      "ASML Gains as TSMC's Spending Forecast Hits $85 Billion",
-      "Somerville Kurt F Invests $3.94 Million in ASML Holding N.V. $ASML",
-      "The West may have created ASML’s biggest competitor",
-      "ASML Stock Takes A Break After Rebounding",
-      "ASML Stock Is Up 55% in 2026. Can the Rally Continue?"
+      "U.S. preparing to force Netherlands to ban ASML from selling to China"
     ],
     "STX": [
       "Seagate Technology (STX) Could Keep Surging as Storage Prices Rise",
@@ -1103,7 +1103,143 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "AMD",
+      "classification": {
+        "is_major": true,
+        "category": "expansion",
+        "headline": "Advanced Micro Devices (AMD) and Intel (INTC) Both Just Raised Billions for AI. Here’s How Their Strategies Differ",
+        "reason": "Keyword rule matched (category: expansion)"
+      },
+      "link": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-intel-170203392.html?.tsrc=rss",
+      "source": null,
+      "method": "keyword",
+      "published": "2026-08-26T17:02:03",
+      "queued_min": 29796302,
+      "all_articles": [
+        {
+          "headline": "/C O R R E C T I O N -- OPAQUE/",
+          "link": "https://finance.yahoo.com/technology/ai/articles/c-o-r-r-e-191500967.html?.tsrc=rss",
+          "source": null,
+          "summary": "OPAQUE, the Confidential AI company, today announced TRACE (Trust, Runtime Attestation, and Compliance Evidence), an open, portable, hardware-enforced governance record for AI agents and other confidential workloads. Developed in collaboration with leading hardware and AI infrastructure companies and contributed to the Linux Foundation, TRACE establishes a vendor-neutral format for proving what software ran, which policies governed execution, what data classifications were involved and which too",
+          "published": "2026-08-26T19:15:00"
+        },
+        {
+          "headline": "Prediction: AMD’s Next Move Could Be HUGE and Here’s Where The Stock is Going",
+          "link": "https://247wallst.com/investing/2026/08/26/prediction-amds-next-move-could-be-huge-and-heres-where-the-stock-is-going/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "AMD has surged nearly 200% in a year, and the Helios GPU ramp is just getting started, but a stretched valuation and export policy risks mean the next move could break either way in a hurry.",
+          "published": "2026-08-26T17:30:02"
+        },
+        {
+          "headline": "Advanced Micro Devices (AMD) and Intel (INTC) Both Just Raised Billions for AI. Here’s How Their Strategies Differ",
+          "link": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-intel-170203392.html?.tsrc=rss",
+          "source": null,
+          "summary": "On August 13, 2026, Advanced Micro Devices, Inc. (NASDAQ:AMD) launched a four-part bond offering that could raise between $4 billion and $5 billion. The firm joined a broader wave of tech-sector fundraising for AI investment just days after rival Intel Corporation (NASDAQ:INTC) raised $20 billion in an upsized stock offering. Why This Matters Both chip […]",
+          "published": "2026-08-26T17:02:03"
+        },
+        {
+          "headline": "1 Wall Street Analyst Just Upgraded AMD Stock and Estimates 30% Upside",
+          "link": "https://www.fool.com/investing/2026/08/26/wall-street-analyst-upgrade-amd-stock-bull/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "AMD is riding the next wave of AI chip demand.",
+          "published": "2026-08-26T16:45:56"
+        },
+        {
+          "headline": "AMD vs. Marvell: Which Is the Better AI Chip Stock to Own for the Next 5 Years?",
+          "link": "https://www.fool.com/investing/2026/08/26/amd-vs-marvell-which-better-ai-chip-stock-own/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "AMD and Marvell have both performed well over the past year.",
+          "published": "2026-08-26T16:45:00"
+        },
+        {
+          "headline": "Cathie Wood Dumps AMD and Adds to This AI Chip Stock",
+          "link": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-dumps-amd-adds-163701218.html?.tsrc=rss",
+          "source": null,
+          "summary": "Ark bought $17.2 million of Cerebras shares.",
+          "published": "2026-08-26T16:37:01"
+        },
+        {
+          "headline": "GIGABYTE Partners with AMD to Bring Onimusha: Way of the Sword Game Bundle to Gamers",
+          "link": "https://finance.yahoo.com/technology/articles/gigabyte-partners-amd-bring-onimusha-150000944.html?.tsrc=rss",
+          "source": null,
+          "summary": "GIGABYTE, the world's leading computer brand, announced the Onimusha: Way of the Sword Game Bundle for eligible graphics cards and gaming desktops powered by the latest AMD technologies. Featuring select products equipped with AMD Radeon™ RX 9070 XT, RX 9070, or RX 9070 GRE graphics, the bundle brings together the AMD RDNA™ 4 architecture, advanced ray tracing, and AMD HYPR-RX technologies with GIGABYTE's WINDFORCE cooling system and patented Hawk fan to deliver high-performance gaming for the h",
+          "published": "2026-08-26T15:00:00"
+        },
+        {
+          "headline": "Why a Single Wire Report About Government Cash Sent AMD, Intel, and Micron Higher Overnight",
+          "link": "https://247wallst.com/investing/2026/08/26/why-a-single-wire-report-about-government-cash-sent-amd-intel-and-micron-higher-overnight/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "A single wire report about a government cash account nobody was watching sent AMD, Marvell, and Micron surging overnight, and the reason explains exactly why the same trade can unwind just as fast.",
+          "published": "2026-08-26T14:15:31"
+        },
+        {
+          "headline": "Kodiak AI and AMD Collaborate to Advance Computing Power for Driverless Trucking",
+          "link": "https://finance.yahoo.com/technology/ai/articles/kodiak-ai-amd-collaborate-advance-130000980.html?.tsrc=rss",
+          "source": null,
+          "summary": "AMD EPYC™ processors deliver higher compute performance, faster processing speeds, lower power consumption, and improved efficiency for the Kodiak Driver Kodiak AI and AMD AMD EPYC™ processors deliver higher compute performance, faster processing speeds, lower power consumption, and improved efficiency for the Kodiak Driver MOUNTAIN VIEW, Calif., Aug. 26, 2026 (GLOBE NEWSWIRE) -- Kodiak AI, Inc. (\"Kodiak”) (Nasdaq: KDK), a leading provider of physical AI-powered autonomous driving technology, to",
+          "published": "2026-08-26T13:00:00"
+        },
+        {
+          "headline": "/C O R R E C T I O N -- The Linux Foundation/",
+          "link": "https://finance.yahoo.com/technology/ai/articles/c-o-r-r-e-183700180.html?.tsrc=rss",
+          "source": null,
+          "summary": "The Linux Foundation, the nonprofit organization enabling mass innovation through open source, announced the contribution of TRACE (Trust, Runtime Attestation and Compliance Evidence), from OPAQUE. Collaboratively developed by AMD, Intel, Microsoft, OPAQUE and the Technology Innovation Institute (TII), TRACE creates a standard, open evidence layer that enables reliable governance records for AI agents and other confidential workloads.",
+          "published": "2026-08-26T18:37:00"
+        },
+        {
+          "headline": "What You Actually Pay To Join The AMD Run",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSDFLOXNXOEhCdUx1VFBaMVBjZXcwQWVWQ24xQ0l0cmg3RmtRWE5ybHQ5Ujd6OVF0bFUzcFNkOHp2YURtRDBNRnV5ZW5HcHJqWWI5dG85Ni1acEpTX2RlaXppUmFKWDV3c1dtNHJ4UnhEQXhzSk1jM3RXdlRlX0FDY09URTFiTmUyekZMcmZueld6UHRlTk8zVA?oc=5",
+          "source": "Trefis",
+          "summary": "",
+          "published": "2026-08-25T22:33:58"
+        },
+        {
+          "headline": "Odyssean LLC Buys New Shares in Advanced Micro Devices, Inc. $AMD",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMzVzYml5dnc4Y2ducm9Eb2RwalczVlh5bjgydWY4d1RNYVQ4QllpbDlTdW1SY2FHOGhoalhjOWZmSHVTQlROcFkyVVE5cHJxdzBfaU9nUDFGUC1BdlhMVzlPSW53bHBUVDF0QWwzQWhFWmt4UXNtX0FZYUJ5a2VHZDFsQk0wU2VkSFREZGxzdl9qR3l6MzlMQ0RnbXZFWFVNb202S0w3OWdkaTJyU1VPa2xxTnA3dXBhM2hwdlE0bVo?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-26T10:54:49"
+        },
+        {
+          "headline": "AMD vs. Broadcom: Which AI Stock Has the Bigger Upside Potential?",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMFZCWUlPTGVJNnFaMUFtTmJtYVdvem1WQldWbEptcTBsVng0YlJmSXByOGVnYWpyWkxxM3F3UWVBTnROWndjaEhuWVBoSHlGMUtBQmdFeTgzVEdOWEd1MXZ3Nm9od1pGZ2Fib204ajYwVEFLMm1XcW53TmJJNmRYdENaSmdrVk5FOUd2MmFsMkxvZnkya01JczdrR2tJX2QxMUZfOFd2ZFN4TTlGdnNaZkVhaFBidm4yY1V4cWMwZlltZ1pBNFJXZ1RUTW8xVGc2NmNyenhGTENxbzI0QlZJ?oc=5",
+          "source": "The Globe and Mail",
+          "summary": "",
+          "published": "2026-08-26T13:06:36"
+        },
+        {
+          "headline": "AMD Stock at $479: $680 Bull vs $300 Bear After Debt Raise",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdUF5b0Y4d3RhSWxxYnNpYTRkX2JDb3Btd0NPdFItYnVCT3ZpdnpjS1dfcGhSek00M3NJMG5UTF9XNkF0eGxBYm5RUkpKd0p6cDR0ZENHdnpCZDhheC05S0VGVkNCZUNzNm5wbmlFOXZaTW5PdThpUGJuRFJ0OEh3RG91cw?oc=5",
+          "source": "FinanceFeeds",
+          "summary": "",
+          "published": "2026-08-26T09:36:56"
+        },
+        {
+          "headline": "AMD's Next AI Accelerator Carries 432 Gigabytes of Memory -- 50% More Than the Last One. Here's the Bill That Comes With It.",
+          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPU3g5TlVZcG9vb1Y0NjljMnEteGU0REZUaEJ6ZkFaUmRHcG9zMDFfWG1kMWVJZ3ByWHA0M1NIbmhXbTRWeTFiUmRmVTdSeFJDSEQzR2dtclFEb0d3SWlTU3dDaURZRXlMS04zUUxieE5RSWRUOFk3YkFjQ2E0YjN1WWxBVXpYSmZxLVBjRGZncGFqcmF0d3VLOGItODNrNkw1LTFkOTVZelFGMVFNVTRrVjNGVkhCbTlfbVVmUWFHRnI0bmdCS2lqMnRqWkRleWVKSVd0M2pTREZLZVVLeVNKZXh1MGhGMFJ5Yi14OXgzUTRCaDA?oc=5",
+          "source": "The Motley Fool",
+          "summary": "",
+          "published": "2026-08-26T04:06:00"
+        },
+        {
+          "headline": "I'd Rather Own Bloom Energy Than Nvidia Right Now. Here's My Case.",
+          "link": "https://www.nasdaq.com/articles/id-rather-own-bloom-energy-nvidia-right-now-heres-my-case",
+          "source": "The Motley Fool",
+          "summary": "Key PointsNvidia’s stock could soar even higher as the AI market expands.",
+          "published": "2026-08-26T20:50:00"
+        },
+        {
+          "headline": "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
+          "link": "https://www.nasdaq.com/articles/stocks-settle-higher-lower-crude-prices-ease-inflation-risks",
+          "source": "Barchart",
+          "summary": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.32% on Tuesday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +0.30%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up by +0.64%. E-mini S&P futures (ESU26 ) rose +0.30%, and September E-mini...",
+          "published": "2026-08-26T18:57:08"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1211,7 +1347,8 @@
       "earnings": 1382
     },
     "NVDA": {
-      "contract": 1262
+      "contract": 1262,
+      "analyst_note": 1382
     },
     "TSM": {
       "large_share_purchases": 1322
@@ -1253,7 +1390,7 @@
     "ServeTheHome",
     "DatacenterDynamics"
   ],
-  "last_news_post_min": 29789102,
+  "last_news_post_min": 29796302,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -1445,6 +1582,7 @@
     }
   ],
   "us_posted": [
-    0
+    0,
+    1
   ]
 }
