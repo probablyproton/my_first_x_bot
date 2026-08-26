@@ -2,8 +2,8 @@
   "date": "2026-08-26",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 5,
-  "gemini_calls_today": 6,
+  "daily_pulse_posts": 6,
+  "gemini_calls_today": 8,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 535,
+  "event_log_next_id": 536,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -334,8 +334,8 @@
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens Launches Wendell Microgrid at HQ Campus",
+      "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District"
     ],
@@ -744,12 +744,12 @@
       "1 Quantum Computing Stock Everyone's Ignoring While IonQ Gets the Headlines",
       "PDT Partners LLC Takes Position in FormFactor, Inc. $FORM",
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
+      "Primecap Management Co. CA Takes $270.30 Million Position in FormFactor, Inc. $FORM",
       "FormFactor Drops 7.6% Amid Sector-Wide Selling",
       "A Look at FormFactor Inc (FORM) After 5.5% Decline -- GF Value $57.55 vs Price $107.90",
-      "FormFactor (NASDAQ:FORM) Shares Gap Up - What's Next?",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
+      "FormFactor (NASDAQ:FORM) Shares Gap Up - What's Next?",
       "Polymer Capital Management HK LTD Purchases Shares of 25,000 FormFactor, Inc. $FORM",
-      "Bank of New York Mellon Corp Buys New Stake in FormFactor, Inc. $FORM",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
@@ -878,8 +878,8 @@
       "SAP SE: Release of a capital market information",
       "SAP SE (NYSE:SAP) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "How SAP SE (SAP) Is Monetizing AI Through Joule and Data Cloud",
-      "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP Completes Acquisition of Prior Labs",
+      "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
       "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "SAP shrugs off fears of AI eating software with big earnings beat"
@@ -1022,16 +1022,16 @@
       "Can ANET Stock Compound Its Way Higher?",
       "Arista Networks vs. CoreWeave: What Revenue Trends Tell Investors About These Artificial Intelligence Companies",
       "Strong Track Record Reinforces Arista Networks’ (ANET) Long Term Delivery",
-      "Arista Networks Says AI Demand Broadens as Supply Limits Upside to 40% Growth Guide",
+      "3 AI Networking Stocks Dominating a Quiet Niche",
       "Cisco Systems (CSCO) & Arista Networks (ANET): Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?",
       "Arista Networks (ANET) director sells $79,057 in stock",
       "Why Arista Networks (ANET) Is Down 6.8% After Surging AI Orders And 2026 Outlook Hike",
       "Arista Networks Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
-      "Arista Networks (NYSE: ANET) director sells 422 shares under 10b5-1 plan",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
+      "Arista Networks (NYSE: ANET) director sells 422 shares under 10b5-1 plan",
       "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
-      "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
+      "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?"
     ],
@@ -1393,9 +1393,7 @@
       1,
       0
     ],
-    "mover": [
-      2
-    ],
+    "mover": [],
     "price_event": [
       3,
       4
@@ -1410,8 +1408,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 298.5,
-    "SIE.DE": 288.0,
+    "SU.PA": 298.85,
+    "SIE.DE": 288.6,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1437,11 +1435,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 178.86,
-    "BESI.AS": 197.85,
-    "AIXA.DE": 36.96,
-    "IFX.DE": 55.29,
-    "ASML.AS": 1496.0,
+    "SAP.DE": 178.62,
+    "BESI.AS": 197.3,
+    "AIXA.DE": 36.82,
+    "IFX.DE": 55.18,
+    "ASML.AS": 1494.6,
     "MU": 927.27,
     "TSM": 417.05,
     "KLAC": 182.88,
@@ -1482,9 +1480,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 30,
-  "last_pulse_post_min": 29795702,
-  "last_pulse_ticker": "AMAT",
+  "next_pulse_interval": 42,
+  "last_pulse_post_min": 29795761,
+  "last_pulse_ticker": "SAP.DE",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
