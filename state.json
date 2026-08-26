@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 527,
+  "event_log_next_id": 528,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -857,7 +857,7 @@
       "Here’s How Much You Would Have Made Owning KLA Stock In The Last 10 Years",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA (KLAC) Gains From Advanced Nodes, HBM and Packaging",
-      "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
+      "KLA Corporation stock draws analyst attention after fresh earnings beat",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
       "SCHG, LLY, KLAC, LIN: Large Inflows Detected at ETF",
       "Rout in Chipmakers Weighs on Broader Market",
@@ -876,13 +876,14 @@
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
       "How SAP SE’s (SAP) Enterprise Brainstem Shields It from the AI Software Sell-Off",
       "SAP SE: Release of a capital market information",
+      "SAP Stock Quote Price and Forecast",
       "SAP SE (NYSE:SAP) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "How SAP SE (SAP) Is Monetizing AI Through Joule and Data Cloud",
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP Completes Acquisition of Prior Labs",
-      "SAP Number of Employees 2026 | Employee Count & Headcount Data",
-      "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
-      "SAP shrugs off fears of AI eating software with big earnings beat"
+      "SAP Quarterly Statement Q2 2026",
+      "Is SAP (SAP) Mispriced as AI Fears Overshadow Its Core ERP Strength?",
+      "Is This the Good Time to Increase Your Holdings in SAP SE (SAP)?"
     ],
     "BESI.AS": [
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -963,8 +964,8 @@
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron receives multiple tool orders from Lumentum",
-      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Aixtron stock holds firm as analysts keep a close eye",
       "Gallium nitride vertical-channel junction field-effect transistors",
       "Polarization-engineered high mobility of two-dimensional hole gas in GaN"
@@ -1103,30 +1104,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "ANET",
-      "classification": {
-        "symbol": "ANET",
-        "is_major": true,
-        "category": "earnings",
-        "headline": "Why Arista Networks (ANET) Is Down 6.8% After Surging AI Orders And 2026 Outlook Hike",
-        "reason": "The headline indicates a hike in the company's 2026 outlook, which qualifies as a full-year guidance raise under earnings criteria."
-      },
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLWNLOWlVRElXeXNOeXJlaHdRR21JR3lQaDgyZjJLWGdKZU1Pb3E2N1BzMkVCVHFuLVBURHdwV1I4WXNpNkVSY1lfSVFPQUE0d1lZTHlkaW5iU0JndHYzZXJIVW14ZEZqcWo3RWRZdjliUDBJYTMxR3VwQ0h2cHh0SF9WT1JkVjZ3SjNEX3k0QnZheENPZDRGOVlQOE1ubUZBdGgzZ1VzOUNlN1ZpT3BBbDhnMFJudXZPcjRRay1QQS1xSEZQdEHSAcsBQVVfeXFMUENySHN5eGdRcGp0SFYzQ2g0U3hXQjRIQVdPclgwdmhaQ3FLaWR5MmtSbkZfclVVei1VUkVkdWZ4NUFrS1FfdjhoVTFHZzZieXZIbmFUMU9YRWdqa0xKVE9YYmtTUG9BOTVFM1MySVF4LTFqY3ZTVlhJZ1E2YklrWlg1Qk9EZ0dPS1FXcW9rSUFZN2FPWFFCSUZMYVJuTlRva2RMVngtS05uQ21OQW1wamdlc21sd1VhenhwbDRQanFwYUVSVHFVbEpNX28?oc=5",
-      "source": "simplywall.st",
-      "method": "gemini",
-      "published": "2026-08-25T18:40:55",
-      "queued_min": 29794742,
-      "all_articles": [
-        {
-          "headline": "Why Arista Networks (ANET) Is Down 6.8% After Surging AI Orders And 2026 Outlook Hike",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLWNLOWlVRElXeXNOeXJlaHdRR21JR3lQaDgyZjJLWGdKZU1Pb3E2N1BzMkVCVHFuLVBURHdwV1I4WXNpNkVSY1lfSVFPQUE0d1lZTHlkaW5iU0JndHYzZXJIVW14ZEZqcWo3RWRZdjliUDBJYTMxR3VwQ0h2cHh0SF9WT1JkVjZ3SjNEX3k0QnZheENPZDRGOVlQOE1ubUZBdGgzZ1VzOUNlN1ZpT3BBbDhnMFJudXZPcjRRay1QQS1xSEZQdEHSAcsBQVVfeXFMUENySHN5eGdRcGp0SFYzQ2g0U3hXQjRIQVdPclgwdmhaQ3FLaWR5MmtSbkZfclVVei1VUkVkdWZ4NUFrS1FfdjhoVTFHZzZieXZIbmFUMU9YRWdqa0xKVE9YYmtTUG9BOTVFM1MySVF4LTFqY3ZTVlhJZ1E2YklrWlg1Qk9EZ0dPS1FXcW9rSUFZN2FPWFFCSUZMYVJuTlRva2RMVngtS05uQ21OQW1wamdlc21sd1VhenhwbDRQanFwYUVSVHFVbEpNX28?oc=5",
-          "source": "simplywall.st",
-          "summary": "",
-          "published": "2026-08-25T18:40:55"
-        }
-      ]
-    },
     {
       "symbol": "NVDA",
       "classification": {
