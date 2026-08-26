@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 528,
+  "event_log_next_id": 529,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -1026,10 +1026,10 @@
       "Cisco Systems (CSCO) & Arista Networks (ANET): Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?",
       "Why Arista Networks (ANET) Is Down 6.8% After Surging AI Orders And 2026 Outlook Hike",
       "Arista Networks Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
-      "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
       "Arista Networks (NYSE: ANET) director sells 422 shares under 10b5-1 plan",
-      "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
+      "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
+      "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?",
@@ -1102,150 +1102,7 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "Nvidia’s $20 Billion Groq Bet Is Going Live Before the End of 2026. Here’s What It Means for Investors.",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTUVnRHJuZTRkREFrY0FTNGsyNDJlaFNwbHVFaTVBUjg3TnZpVGdjS3RIN1ZrN2hSM2syZGhZVjE5ZTgwaHhDNVk4dVdSZkpOZzNraG9BZ0xncTR5ZlIzU2xtOWFJZGhzWXVvNHNyNDc1dkRNdE9VaTZ2bWJieWV5bkI2aEZMWDRXNHo4VU9ELUM1VTh3bG1ubDk2RHNvQlhEZUpkVURnU3RTOVR6RWduRWVwUTFxUzJ4TzZDMUM4WTZEWHpPeC0tLUl1bGNodTA5MmswZ29RLTZVZ1Z1elFN?oc=5",
-      "source": "The Motley Fool",
-      "method": "keyword",
-      "published": "2026-08-24T23:43:00",
-      "queued_min": 29794861,
-      "all_articles": [
-        {
-          "headline": "Dow Jones Futures: Stocks Rise Cautiously Into Fed Inflation Data, Nvidia Earnings; Robinhood In Buy Area",
-          "link": "https://finance.yahoo.com/m/a1a5cb94-36b5-3bbd-869f-362442258823/dow-jones-futures%3A-stocks.html?.tsrc=rss",
-          "source": null,
-          "summary": "The stock market rose Tuesday amid lower oil prices and yields, but cautiously heading into Fed inflation data and Nvidia earnings.",
-          "published": "2026-08-25T20:48:14"
-        },
-        {
-          "headline": "Stock Market Today: Nasdaq Leads As Key Inflation Report Looms; Nvidia, Micron Gain",
-          "link": "https://finance.yahoo.com/m/de79ffd0-f04e-3c28-992c-6801c26cfde3/stock-market-today%3A-nasdaq.html?.tsrc=rss",
-          "source": null,
-          "summary": "Stock Market Today: The Dow Jones index rises Tuesday as Treasury yields and oil prices drop. Nvidia, Micron and Sandisk rebound.",
-          "published": "2026-08-25T20:46:04"
-        },
-        {
-          "headline": "Dow Jones AI Giant Nvidia Tests Key Support Level As Pivotal Earnings Report Looms",
-          "link": "https://finance.yahoo.com/m/13e32ab7-57d7-31ee-970c-d09a9ea7a281/dow-jones-ai-giant-nvidia.html?.tsrc=rss",
-          "source": null,
-          "summary": "Dow Jones AI giant Nvidia stock is trying to find support at a key level. Nvidia earnings are due Wednesday after the close.",
-          "published": "2026-08-25T20:41:22"
-        },
-        {
-          "headline": "1 High-Yield Dividend Stock Worth Loading Up On Right Now",
-          "link": "https://www.fool.com/investing/2026/08/25/1-high-yield-dividend-stock-worth-loading-up-on-ri/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Here's why Black Hills stands out in 2026.",
-          "published": "2026-08-25T20:25:00"
-        },
-        {
-          "headline": "Why Rezolve AI Stock Rocketed Higher Today",
-          "link": "https://www.fool.com/investing/2026/08/25/why-rezolve-ai-stock-rocketed-higher-today/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Investors are celebrating the first major commercial deployment of the AI upstart's distributed database platform.",
-          "published": "2026-08-25T20:16:26"
-        },
-        {
-          "headline": "Nvidia revenue, return on investment key, says portfolio manager",
-          "link": "https://finance.yahoo.com/video/nvidia-revenue-return-investment-key-201204774.html?.tsrc=rss",
-          "source": null,
-          "summary": "STORY: The chip giant is expected to show that AI-driven demand remains robust. Any signs of slowing growth could reignite concerns over stretched valuations and how far the AI-fueled rally can extend. \"Are the Nvidia's of the world achieving the economics of the spending in a way that justifies the position they have... as well as excitement that a lot of investors have about Nvidia kind of that's been there for a couple of years now?,\" asked Buchanan.",
-          "published": "2026-08-25T20:12:04"
-        },
-        {
-          "headline": "History Says Nvidia Is Likely To Fall on Wednesday",
-          "link": "https://www.fool.com/investing/2026/08/25/history-says-nvidia-is-likely-to-fall-on-wednesday/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Nvidia stock has fallen on its last four earnings reports.",
-          "published": "2026-08-25T20:05:00"
-        },
-        {
-          "headline": "That Quantum Fund Is Up 40% in 2026 and Just Crossed $6 Billion. The Field Keeps Beating the Stock-Pickers",
-          "link": "https://247wallst.com/investing/2026/08/25/that-quantum-fund-is-up-40-in-2026-and-just-crossed-6-billion-the-field-keeps-beating-the-stock-pickers/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "The Defiance Quantum ETF has crushed the market in 2026, and plenty of investors are now eyeing a swap into the pure-play name everyone keeps talking about. The trade looks obvious until you actually run the numbers.",
-          "published": "2026-08-25T20:33:38"
-        },
-        {
-          "headline": "Why Super Micro Computer Rallied Today",
-          "link": "https://www.fool.com/investing/2026/08/25/why-super-micro-computer-rallied-today/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Super Micro received a big boost from Cisco today.",
-          "published": "2026-08-25T20:31:06"
-        },
-        {
-          "headline": "Why RUM Group (RUM) Stock Is Trading Up Today",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/why-rum-group-rum-stock-201444534.html?.tsrc=rss",
-          "source": null,
-          "summary": "Shares of video sharing platform RUM Group (NASDAQGM:RUM) jumped 12.8% in the afternoon session after investors continued to digest the company's newly unveiled six-year, $13.7 billion GPU services agreement with a major U.S. cloud customer. According to regulatory filings, the contract covers GPU services at RUM’s under-development Maysville, Georgia site and includes warrants for up to 50.8 million Class A shares at $0.01 each that vest as the customer buys capacity. The deal follows RUM’s rec",
-          "published": "2026-08-25T20:14:44"
-        },
-        {
-          "headline": "Nvidia stock is on a 7-day losing streak ahead of its big earnings report",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcERWSDRueE5tTEJLWGdZeDB3ZVpUQmZJWkVXa29Ua1U2SW9Lbno0YmQyRlZ1RUxpS20xaV85cXNvbjktM0tfWGZlOWFMNmh2dWUtSy0zYUpfdHAxcGJRc1NNNEtGNTNGZWJrcmxNSTRHdnI0OTZGNFdzZ09hQk13MkNqSlB6NzN2dW9MNkdtRkYtczJJSWFzZE04d3V1aXFaWi1WOVUzMlRWRXZCN0tzVjVVcU9SMmtXY3VyRjNNUmVFTWdua0pkekJOOTB6aVZjMVNB?oc=5",
-          "source": "Yahoo Finance",
-          "summary": "",
-          "published": "2026-08-25T12:15:27"
-        },
-        {
-          "headline": "SpaceXAI Adopts NVIDIA Vera CPU to Accelerate Agentic AI at Massive Scale",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ0VWYXd5MnAyUzdGRDB5YkJsdzk4ZW5zbDZnTUdRNVZDS1d1dE5ISUVkVzUyUmRLcDBjNzJLQ1dWMUNkUUI3MWxIT2xZWHp6bndLYy1hM2I2ZnF1emNZRWh5ZzAxQzVYWEI3ZTFVZzJpUjhLQ05rTmVybjVkeWNfMmtMQlFPSTZGX0ZPNnRIdDJ5bmoyZlJ6TVppbHVkWnJnVmJlMU1JNDhpV1VY?oc=5",
-          "source": "NVIDIA Newsroom",
-          "summary": "",
-          "published": "2026-08-25T03:32:45"
-        },
-        {
-          "headline": "Nvidia just snapped a seven-day losing streak the day before its earnings release.",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1iSEo5OTJjMGZCdC16UVZERDA0RVR3ZmdzS2UybF92Q1pISHBNaEdrSE5YZ2JzOWxZV0xkRkRiQmpSeUdjVjktUHdPSFRqNVJkMlhiY3pJVlBKNm9fNTNYSkQ5QjdMdFQxSl9PNlBOTHozdzhZOWJ3UTByZGY5QQ?oc=5",
-          "source": "Yahoo Finance",
-          "summary": "",
-          "published": "2026-08-25T20:30:38"
-        },
-        {
-          "headline": "OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS0xINWRaSDFhQkxzcWtKd3Q4ZmNhUndScGdaQWl4U0J6dURXY1J0UmJ6aE96ajBIdzZHa3hGWUE2dktKYjJkdE44N05YZ1E3MmR1WXJ5Wm1xTWNFQW5oUHl0bEZXZklvd1RhaFFTSFBmcXFNX3pFYWRkLXpIQ1FleW4xdlhmTXcwdUlCQUZkUFpYWl9mSnA2cTFGWGtsT1Jad1RsaGRVYTdyREpiSUtXemx4djJHNkhrS1lUMw?oc=5",
-          "source": "Bloomberg",
-          "summary": "",
-          "published": "2026-08-25T16:19:39"
-        },
-        {
-          "headline": "Nvidia’s dependence on hyperscalers faces big test in earnings report",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUW1ETzlYdmdSM2tOdEVPN1kzZUhSM1lMRjctVkpQOFl3VFNhT3N5eG1QTTZMVkh4cG9pQWRKUGt0ZmdCaXl6V3FJdFBaUF9oMUdrS2xqeENNV2I1bUhaQ3J6NTN4MFJyZDVzMlpkcEt2RHVhTTZ5V3U3TVh3ZzBCRWdnazFPQmh1bTBqWXgyRkFaUklaM0s2S0ttWnlUVGFBdmJNclpzRHrSAa4BQVVfeXFMTXlMb2p6dVN6Vmg0Wk83T3RLalNJTDlOQnVOOUtUNTlUUV9UelZ5SEp3TW9GZGhqeDIxUklXQ09XblJtY2cyVHFNYXI1SElQQXlHWHJIZ18xTFg0WkNKc1haZmoxRU1EVHc4dlRjQ25CWktUUjBKNV9qd2xmRWZKNDRTY0hpNTdRTlN3ZjdWbWhac2R1TjdUZ0ZIM3kybEZQamNpYm5yRDEwM2xlNjJ3?oc=5",
-          "source": "CNBC",
-          "summary": "",
-          "published": "2026-08-25T12:00:01"
-        },
-        {
-          "headline": "Where Is Nvidia Stock Headed By 2030? What To Watch",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZTRqVkFNVHpCTkFDdGZnUWQtSFdIZEYyY1BqOUNKQmlFVUJUXzFtYVpMdURYMVduSVg1RGVQVkVpVHFsMHdpSFk5NWRDcFNRQTFvTElBbFNsaU4xVVpIZWJHYkl4VjN3WDdlcXFDbjNSdENZU09RRW9YSl9DNlNOdVhSdw?oc=5",
-          "source": "Forbes",
-          "summary": "",
-          "published": "2026-08-25T18:18:42"
-        },
-        {
-          "headline": "Nvidia Q2 earnings on deck: Focus on Vera Rubin ramp-up, AI financing (NVDA:NASDAQ)",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdUZyeVp3OG9aT3VMQVlCVUJ5TW8wb2ZXZnBPQnpRZV9PZEZlek5iTHZ5VTh1eHU3a29EQ1k5VUNwZUs4b0pPOWFOdnpoSDNYSmtYMHg3QS1BMHlLaUdTR1ZpNXRiUWlfcEpXMnJLWElBbjVrb1Q3QjUtNEVKeEJlUGMwTERxMzBRdkMxZG9iWWRwbVFxbGRMX2JmSHp2YWs2a05LblN0Si0?oc=5",
-          "source": "Seeking Alpha",
-          "summary": "",
-          "published": "2026-08-25T17:21:35"
-        },
-        {
-          "headline": "Nvidia’s $20 Billion Groq Bet Is Going Live Before the End of 2026. Here’s What It Means for Investors.",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPTUVnRHJuZTRkREFrY0FTNGsyNDJlaFNwbHVFaTVBUjg3TnZpVGdjS3RIN1ZrN2hSM2syZGhZVjE5ZTgwaHhDNVk4dVdSZkpOZzNraG9BZ0xncTR5ZlIzU2xtOWFJZGhzWXVvNHNyNDc1dkRNdE9VaTZ2bWJieWV5bkI2aEZMWDRXNHo4VU9ELUM1VTh3bG1ubDk2RHNvQlhEZUpkVURnU3RTOVR6RWduRWVwUTFxUzJ4TzZDMUM4WTZEWHpPeC0tLUl1bGNodTA5MmswZ29RLTZVZ1Z1elFN?oc=5",
-          "source": "The Motley Fool",
-          "summary": "",
-          "published": "2026-08-24T23:43:00"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
