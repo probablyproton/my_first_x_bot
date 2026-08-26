@@ -2,7 +2,7 @@
   "date": "2026-08-26",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 2,
+  "daily_pulse_posts": 3,
   "gemini_calls_today": 3,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 531,
+  "event_log_next_id": 532,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -858,10 +858,10 @@
       "KLA (KLAC) Gains From Advanced Nodes, HBM and Packaging",
       "Here’s How Much You Would Have Made Owning KLA Stock In The Last 10 Years",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
-      "KLA Corporation stock draws analyst attention after fresh earnings beat",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
       "SCHG, LLY, KLAC, LIN: Large Inflows Detected at ETF",
-      "Rout in Chipmakers Weighs on Broader Market"
+      "Rout in Chipmakers Weighs on Broader Market",
+      "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -1365,8 +1365,7 @@
     "mover": [
       2,
       6,
-      3,
-      4
+      3
     ],
     "price_event": [
       3,
@@ -1382,8 +1381,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 297.95,
-    "SIE.DE": 287.25,
+    "SU.PA": 298.55,
+    "SIE.DE": 288.7,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1409,11 +1408,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 179.32,
-    "BESI.AS": 196.85,
-    "AIXA.DE": 37.0,
-    "IFX.DE": 54.98,
-    "ASML.AS": 1482.2,
+    "SAP.DE": 178.36,
+    "BESI.AS": 196.95,
+    "AIXA.DE": 36.97,
+    "IFX.DE": 55.26,
+    "ASML.AS": 1491.4,
     "MU": 927.27,
     "TSM": 417.05,
     "KLAC": 182.88,
@@ -1454,9 +1453,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 43,
-  "last_pulse_post_min": 29795521,
-  "last_pulse_ticker": "SAP.DE",
+  "next_pulse_interval": 44,
+  "last_pulse_post_min": 29795581,
+  "last_pulse_ticker": "SU.PA",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
@@ -1466,7 +1465,8 @@
     "wdc:western digital sits 46% below its high and has still more than doubled this year": "2026-08-25",
     "mrvl:prediction: marvell technology stock could go parabolic after its next custom chip deal": "2026-08-25",
     "mu:memory shortage deepens to worst levels since 2017 — here’s why micron investors will cash in": "2026-08-25",
-    "wdc:western digital vs. seagate technology: which data storage stock is the better buy?": "2026-08-25"
+    "wdc:western digital vs. seagate technology: which data storage stock is the better buy?": "2026-08-25",
+    "su.pa:schneider electric launches schneider charge, a level 2 residential ev charger with built-in dynamic load management": "2026-08-26"
   },
   "eu_slots": [
     {
