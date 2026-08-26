@@ -1,14 +1,14 @@
 {
   "date": "2026-08-26",
-  "daily_posts": 0,
+  "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 3,
-  "gemini_calls_today": 3,
+  "daily_pulse_posts": 4,
+  "gemini_calls_today": 5,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
     "monday": "2026-08-24",
-    "wednesday": "2026-08-12",
+    "wednesday": "2026-08-26",
     "friday": "2026-08-21",
     "saturday": "2026-08-22"
   },
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 532,
+  "event_log_next_id": 534,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -749,7 +749,7 @@
       "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
       "16,897 Shares in FormFactor, Inc. $FORM Acquired by Nicholas Investment Partners LP",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
-      "Paradigm Capital Management Inc. NY Acquires Shares of 27,900 FormFactor, Inc. $FORM",
+      "Polymer Capital Management HK LTD Purchases Shares of 25,000 FormFactor, Inc. $FORM",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert",
       "Can AEHR Turn Silicon Photonics Momentum Into Sustained Growth?"
     ],
@@ -842,6 +842,7 @@
       "Is SpaceX a Millionaire-Maker Stock?"
     ],
     "KLAC": [
+      "Zacks Industry Outlook Kla, Teradyne and Garmin",
       "3 Electronics Stocks Set to Benefit From a Prospering Industry",
       "Is Wall Street Bullish or Bearish on KLA Corporation Stock?",
       "KLA (KLAC) Gains From Advanced Nodes, HBM and Packaging",
@@ -851,13 +852,12 @@
       "3 Market-Beating Stocks with Competitive Advantages",
       "KLA (KLAC) Stock Looks Overvalued After Strong Earnings Based Optimism",
       "OSIS Q4 Earnings Beat on Margin Gains, Revenues Miss Estimates",
-      "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
       "KLA Corporation: Buy The 2027+ Double Tailwind (NASDAQ:KLAC)",
       "KLA Corporation rated 'Buy' after strong Q4 and promising 2027 outlook despite recent stock drop",
       "KLA Corp. stock outperforms competitors despite losses on the day",
-      "KLA (KLAC) Gains From Advanced Nodes, HBM and Packaging",
       "Here’s How Much You Would Have Made Owning KLA Stock In The Last 10 Years",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
+      "KLA Corporation stock steadies after earnings beat as guidance and backlog support 2026 outlook",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
       "SCHG, LLY, KLAC, LIN: Large Inflows Detected at ETF",
       "Rout in Chipmakers Weighs on Broader Market",
@@ -880,8 +880,8 @@
       "How SAP SE (SAP) Is Monetizing AI Through Joule and Data Cloud",
       "SAP SE Stock (SAP) Moved Up by 3.52% on Aug 19: A Full Analysis",
       "SAP Completes Acquisition of Prior Labs",
-      "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "SAP Gives AI Product Oversight to Top Executives in Reshuffle",
+      "SAP Number of Employees 2026 | Employee Count & Headcount Data",
       "SAP shrugs off fears of AI eating software with big earnings beat"
     ],
     "BESI.AS": [
@@ -1030,8 +1030,8 @@
       "Arista Networks (NYSE: ANET) director sells 422 shares under 10b5-1 plan",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
-      "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
+      "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?"
     ],
@@ -1158,6 +1158,37 @@
           "source": "The Motley Fool",
           "summary": "Key PointsWestern Digital management noted earlier this year that it had sold out its 2026 storage capacity.",
           "published": "2026-08-25T21:21:01"
+        }
+      ]
+    },
+    {
+      "symbol": "KLAC",
+      "classification": {
+        "symbol": "KLAC",
+        "is_major": true,
+        "category": "earnings",
+        "headline": "KLA Corporation stock steadies after earnings beat as guidance and backlog support 2026 outlook",
+        "reason": "The headline indicates an earnings beat and positive guidance, which is a major catalyst under the earnings criteria."
+      },
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQalZHWS04SHpPZmRyODJYT0pIQVRmcDNLT2Qyd29KeUg0M1JlNWVrRGd4a1U1OHA4VUdBN1pXZ2EzM3RSNnFmcWZXX2w5MnBHLTAtWjNudUhPMkhlT3JXSUJTWkwxVm9QSG10djVmSk1QYWRPcWttcDVodldKREloRGNidVIzV01vQ21fQmRsaHd0VkI0MmN0NUx2WWpmLXFXX240cTlqN1RMQVBZYXpoemZMaHplMFIwYmJIU1ZUdDltbmV2SkFQUUNrbW16aV9ERWJB?oc=5",
+      "source": "Ad-hoc-news.de",
+      "method": "gemini",
+      "published": "2026-08-26T09:43:09",
+      "queued_min": 29795643,
+      "all_articles": [
+        {
+          "headline": "Zacks Industry Outlook Kla, Teradyne and Garmin",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-industry-outlook-kla-teradyne-090400568.html?.tsrc=rss",
+          "source": null,
+          "summary": "Kla, Teradyne and Garmin have been highlighted in this Industry Outlook article.",
+          "published": "2026-08-26T09:04:00"
+        },
+        {
+          "headline": "KLA Corporation stock steadies after earnings beat as guidance and backlog support 2026 outlook",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQalZHWS04SHpPZmRyODJYT0pIQVRmcDNLT2Qyd29KeUg0M1JlNWVrRGd4a1U1OHA4VUdBN1pXZ2EzM3RSNnFmcWZXX2w5MnBHLTAtWjNudUhPMkhlT3JXSUJTWkwxVm9QSG10djVmSk1QYWRPcWttcDVodldKREloRGNidVIzV01vQ21fQmRsaHd0VkI0MmN0NUx2WWpmLXFXX240cTlqN1RMQVBZYXpoemZMaHplMFIwYmJIU1ZUdDltbmV2SkFQUUNrbW16aV9ERWJB?oc=5",
+          "source": "Ad-hoc-news.de",
+          "summary": "",
+          "published": "2026-08-26T09:43:09"
         }
       ]
     }
@@ -1364,8 +1395,7 @@
     ],
     "mover": [
       2,
-      6,
-      3
+      6
     ],
     "price_event": [
       3,
@@ -1381,8 +1411,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 298.55,
-    "SIE.DE": 288.7,
+    "SU.PA": 298.1,
+    "SIE.DE": 288.5,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1408,11 +1438,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 178.36,
-    "BESI.AS": 196.95,
-    "AIXA.DE": 36.97,
+    "SAP.DE": 178.22,
+    "BESI.AS": 198.3,
+    "AIXA.DE": 37.18,
     "IFX.DE": 55.26,
-    "ASML.AS": 1491.4,
+    "ASML.AS": 1498.0,
     "MU": 927.27,
     "TSM": 417.05,
     "KLAC": 182.88,
@@ -1454,8 +1484,8 @@
     "LRCX": "2026-08-13"
   },
   "next_pulse_interval": 44,
-  "last_pulse_post_min": 29795581,
-  "last_pulse_ticker": "SU.PA",
+  "last_pulse_post_min": 29795643,
+  "last_pulse_ticker": "SAP.DE",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
