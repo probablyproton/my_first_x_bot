@@ -2,8 +2,8 @@
   "date": "2026-08-26",
   "daily_posts": 1,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 6,
-  "gemini_calls_today": 8,
+  "daily_pulse_posts": 7,
+  "gemini_calls_today": 9,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 536,
+  "event_log_next_id": 537,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -334,8 +334,8 @@
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Siemens Launches Wendell Microgrid at HQ Campus",
       "Nonprofit kicks off $9.25M electrical workforce initiative in NC",
+      "Siemens Launches Wendell Microgrid at HQ Campus",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District"
     ],
@@ -885,6 +885,7 @@
       "SAP shrugs off fears of AI eating software with big earnings beat"
     ],
     "BESI.AS": [
+      "Chip Stocks Mixed Ahead of Nvidia Earnings",
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
       "Zacks.com featured highlights Celestica, Zurn Elkay, Lam, BE Semiconductor and Johnson Controls",
@@ -894,14 +895,14 @@
       "BE Semiconductor Reports Strong Q2 Growth as AI Demand Drives Record Orders",
       "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
       "BE Semiconductor Industries NV (BESIY) Q1 2026 Earnings Call Highlights: Record Growth in ...",
-      "BE Semiconductor Industries N.V. Announces Q1-26 Results",
       "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
       "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
-      "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
       "Why is BE Semiconductor stock sliding today?",
+      "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
       "BE Semiconductor Industries (OTCMKTS:BESIY) Sees Unusually-High Trading Volume - Time to Buy?",
-      "BE Semiconductor: A Directional Bet On AI CapEx Spending (OTCMKTS:BESIY)"
+      "BE Semiconductor: A Directional Bet On AI CapEx Spending (OTCMKTS:BESIY)",
+      "BE Semiconductor Industries N.V. Announces Q1-26 Results"
     ],
     "AMAT": [
       "Applied Materials Falls 4%, Lam Research and Teradyne Sink 5%: What’s Prompting the Selloff in Chip Equipment Stocks?",
@@ -1021,9 +1022,10 @@
       "Hyperscale Data Center Market Surges to $608.54 billion at a CAGR 24.6% by 2030 | Report by MarketsandMarkets™",
       "Can ANET Stock Compound Its Way Higher?",
       "Arista Networks vs. CoreWeave: What Revenue Trends Tell Investors About These Artificial Intelligence Companies",
-      "Strong Track Record Reinforces Arista Networks’ (ANET) Long Term Delivery",
       "3 AI Networking Stocks Dominating a Quiet Niche",
       "Cisco Systems (CSCO) & Arista Networks (ANET): Cisco Just Beat Every Estimate. Why Did the Stock Still Drop 8%?",
+      "Forget Nvidia. Cisco Could Be a Hidden Winner From the AI Boom",
+      "Arista Networks (ANET) Faces New Political Risk As Voters Push Back On AI Data Centers",
       "Arista Networks (ANET) director sells $79,057 in stock",
       "Why Arista Networks (ANET) Is Down 6.8% After Surging AI Orders And 2026 Outlook Hike",
       "Arista Networks Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
@@ -1031,7 +1033,6 @@
       "Arista Networks (NYSE: ANET) director sells 422 shares under 10b5-1 plan",
       "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
       "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
-      "Calls of the Day: Arista Networks, Amphenol, Seagate, Apple, Cisco, Nvidia, CrowdStrike and Impinj",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?"
     ],
@@ -1393,7 +1394,14 @@
       1,
       0
     ],
-    "mover": [],
+    "mover": [
+      4,
+      5,
+      3,
+      1,
+      0,
+      6
+    ],
     "price_event": [
       3,
       4
@@ -1408,8 +1416,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 298.85,
-    "SIE.DE": 288.6,
+    "SU.PA": 299.8,
+    "SIE.DE": 289.1,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1435,11 +1443,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 178.62,
-    "BESI.AS": 197.3,
-    "AIXA.DE": 36.82,
-    "IFX.DE": 55.18,
-    "ASML.AS": 1494.6,
+    "SAP.DE": 178.9,
+    "BESI.AS": 195.05,
+    "AIXA.DE": 36.55,
+    "IFX.DE": 55.0,
+    "ASML.AS": 1489.4,
     "MU": 927.27,
     "TSM": 417.05,
     "KLAC": 182.88,
@@ -1480,9 +1488,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29795761,
-  "last_pulse_ticker": "SAP.DE",
+  "next_pulse_interval": 31,
+  "last_pulse_post_min": 29795821,
+  "last_pulse_ticker": "STX",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
@@ -1494,7 +1502,8 @@
     "mu:memory shortage deepens to worst levels since 2017 — here’s why micron investors will cash in": "2026-08-25",
     "wdc:western digital vs. seagate technology: which data storage stock is the better buy?": "2026-08-25",
     "su.pa:schneider electric launches schneider charge, a level 2 residential ev charger with built-in dynamic load management": "2026-08-26",
-    "amat:applied materials stock and the factory buildout investors may be missing": "2026-08-26"
+    "amat:applied materials stock and the factory buildout investors may be missing": "2026-08-26",
+    "stx:zacks.com featured highlights seagate technology, western digital and dell": "2026-08-26"
   },
   "eu_slots": [
     {
