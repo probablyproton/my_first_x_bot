@@ -2,8 +2,8 @@
   "date": "2026-08-26",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 0,
-  "gemini_calls_today": 0,
+  "daily_pulse_posts": 1,
+  "gemini_calls_today": 2,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 529,
+  "event_log_next_id": 530,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -746,7 +746,7 @@
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "FormFactor Drops 7.6% Amid Sector-Wide Selling",
       "A Look at FormFactor Inc (FORM) After 5.5% Decline -- GF Value $57.55 vs Price $107.90",
-      "Is It Time To Consider Buying FormFactor, Inc. (NASDAQ:FORM)?",
+      "Aehr Test Systems Sinks 10%, Teradyne Falls 5%, FormFactor Drops 6%: What's Hitting These Semiconductor Test Equipment Stocks?",
       "16,897 Shares in FormFactor, Inc. $FORM Acquired by Nicholas Investment Partners LP",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Paradigm Capital Management Inc. NY Acquires Shares of 27,900 FormFactor, Inc. $FORM",
@@ -798,6 +798,7 @@
       "Is SpaceX a Millionaire-Maker Stock?"
     ],
     "WDC": [
+      "Western Digital (WDC) Is Assessing New Iran Sanctions Exposure",
       "Western Digital vs. Seagate Technology: Which Data Storage Stock Is the Better Buy?",
       "Western Digital vs. Teradata: Which AI Data Stock Has Stronger Upside?",
       "Western Digital Sits 46% Below Its High and Has Still More Than Doubled This Year",
@@ -806,18 +807,17 @@
       "Why Western Digital (WDC) Is Down 14.3% After Rotation From AI-Chip Winners To Other Sectors",
       "Seagate & 2 Momentum Stocks to Buy Now for Explosive Upside",
       "One AI Stock I’d Watch Before Nvidia’s Earnings",
-      "SNDK Jumps 25% in a Month: Is there More Room for the Stock to Rise?",
-      "Cramer Warns iPhone Prices Will Rise Without Chinese Memory — Here’s Why Apple Can’t Wait for U.S. Production",
+      "Can You Stomach The Plunge In Micron Stock?",
       "Western Digital: Time To Jump In Before Beast Mode Arrives Again (NASDAQ:WDC)",
       "What's Going On With Western Digital Stock Tuesday?",
-      "Western Digital Corp Stock (WDC) Closed Up by 3.53% on Aug 25: Key Drivers Unveiled",
-      "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
+      "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
+      "Western Digital Rebounds 3% as Nasdaq Futures Climb, But Key Technical Hurdles Loom",
       "Western Digital (NASDAQ: WDC) officer to sell 684 shares",
+      "Advisors Preferred LLC Makes New Investment in Western Digital Corporation $WDC",
+      "Western Digital Corp Stock (WDC) Closed Up by 3.53% on Aug 25: Key Drivers Unveiled",
+      "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
-      "Stock Indices Finish Mostly Lower on Chipmaker Weakness",
-      "Western Digital (WDC) is a Top-Ranked Growth Stock: Should You Buy?",
-      "Can Strong Enterprise Demand Sustain Quantum's Momentum?",
-      "Rout in Chipmakers Weighs on Broader Market"
+      "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -854,8 +854,8 @@
       "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now",
       "KLA Corporation: Buy The 2027+ Double Tailwind (NASDAQ:KLAC)",
       "KLA Corporation rated 'Buy' after strong Q4 and promising 2027 outlook despite recent stock drop",
-      "Here’s How Much You Would Have Made Owning KLA Stock In The Last 10 Years",
       "KLA Corp. stock outperforms competitors despite losses on the day",
+      "Here’s How Much You Would Have Made Owning KLA Stock In The Last 10 Years",
       "KLA (KLAC) Gains From Advanced Nodes, HBM and Packaging",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
@@ -963,8 +963,8 @@
       "AIXTRON (XTRA:AIXA) Confirmed Its Raised Outlook, Is The Stock Now Too Pricey?",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron receives multiple tool orders from Lumentum",
-      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "Aixtron (AIXA) Stock Price, News & Analysis",
       "Aixtron stock holds firm as analysts keep a close eye",
       "Gallium nitride vertical-channel junction field-effect transistors",
       "Polarization-engineered high mobility of two-dimensional hole gas in GaN"
@@ -1031,7 +1031,7 @@
       "Arista Networks (NYSE:ANET): High-Growth Leadership and Momentum",
       "Arista Networks vs. Arm: Comparing Revenue Growth Trajectories for These Artificial Intelligence Companies",
       "Arista Networks Insider Sold Shares Worth $8,034,699, According to a Recent SEC Filing",
-      "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
+      "Arista Networks (ANET) Shares Just Moved, What Is Driving Attention Now?",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?"
     ],
@@ -1102,7 +1102,66 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "WDC",
+      "classification": {
+        "is_major": true,
+        "category": "regulatory",
+        "headline": "Western Digital (WDC) Is Assessing New Iran Sanctions Exposure",
+        "reason": "Keyword rule matched (category: regulatory)"
+      },
+      "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-assessing-iran-002036591.html?.tsrc=rss",
+      "source": null,
+      "method": "keyword",
+      "published": "2026-08-26T00:20:36",
+      "queued_min": 29795462,
+      "all_articles": [
+        {
+          "headline": "Western Digital (WDC) Is Assessing New Iran Sanctions Exposure",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-assessing-iran-002036591.html?.tsrc=rss",
+          "source": null,
+          "summary": "Western Digital (NasdaqGS:WDC) is assessing potential effects on its global operations following new U.S. sanctions targeting countries that trade with Iran, announced in August 2026. The measures focus on technology exports and financial dealings with Iran's trading partners, which could affect cross border supply chains and component sourcing. Investors are watching for any impact on Western Digital's compliance costs, shipment routes, and relationships with contract manufacturers in...",
+          "published": "2026-08-26T00:20:36"
+        },
+        {
+          "headline": "Can You Stomach The Plunge In Micron Stock?",
+          "link": "https://www.trefis.com/articles/612783/can-you-stomach-the-plunge-in-micron-stock-2/2026-08-25?.tsrc=rss",
+          "source": "trefis.com",
+          "summary": "The memory chip maker's history of deep, prolonged drawdowns is the real risk for shareholders today.",
+          "published": "2026-08-25T22:23:44"
+        },
+        {
+          "headline": "Western Digital (WDC) Price Forecast: 50% Gross Margin Record Fails to Stop Triangle Breakdown",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPandpR3VSdnRLM3VxVGxueG5LME95VmREbExfSE5kbUk3VU8zSW02MG5LR012WWM4SWVaQXg1dkZ5N1VaMHl4NExpZ0NuSHRLQXBXMWdwRmcyYU1ucGxHaEZBc3hLQWh0RVJxVzZmNkdwWDBmNXI4aWFoZHM1cjE1SENUZ3lJTktpQ2ZsdTUxYU5RekE1VVd6Q1RwN0d1UW4teHZQRE9sQlV0Rm9ra3E4Rzc3V1Zob05GdXFGX0dTdkFyb2xaUEpORUZhYkw?oc=5",
+          "source": "TradingKey",
+          "summary": "",
+          "published": "2026-08-25T18:40:27"
+        },
+        {
+          "headline": "Western Digital Rebounds 3% as Nasdaq Futures Climb, But Key Technical Hurdles Loom",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aUTQ3dGwwOHNKaThqMHQ3aWJPMVFCckVyLXNMTnYxajQyYkZvSWwycEdhR0hTQmNfdTdGbTM3ZFJjTC1XRUFlLVVwYWE4dWVRZmt2UjhWRDBDLV9YY25mQ3FQanZncURqUmszVHRhU1k2VmZQZkE?oc=5",
+          "source": "finance.biggo.com",
+          "summary": "",
+          "published": "2026-08-25T18:46:00"
+        },
+        {
+          "headline": "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
+          "link": "https://www.nasdaq.com/articles/stocks-settle-higher-lower-crude-prices-ease-inflation-risks",
+          "source": "Barchart",
+          "summary": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.32% on Tuesday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +0.30%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up by +0.64%. E-mini S&P futures (ESU26 ) rose +0.30%, and September E-mini...",
+          "published": "2026-08-26T01:57:37"
+        },
+        {
+          "headline": "Prediction: This Memory Stock Will Soar 165% in 3 Years (Hint: It's not Micron or Sandisk)",
+          "link": "https://www.nasdaq.com/articles/prediction-memory-stock-will-soar-165-3-years-hint-its-not-micron-or-sandisk",
+          "source": "The Motley Fool",
+          "summary": "Key PointsWestern Digital management noted earlier this year that it had sold out its 2026 storage capacity.",
+          "published": "2026-08-25T21:21:01"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1308,8 +1367,7 @@
       6,
       3,
       4,
-      5,
-      0
+      5
     ],
     "price_event": [
       3,
@@ -1352,11 +1410,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 186.3,
-    "BESI.AS": 198.65,
-    "AIXA.DE": 37.27,
-    "IFX.DE": 55.06,
-    "ASML.AS": 1503.0,
+    "SAP.DE": 185.46,
+    "BESI.AS": 199.2,
+    "AIXA.DE": 37.23,
+    "IFX.DE": 54.85,
+    "ASML.AS": 1501.0,
     "MU": 927.27,
     "TSM": 417.05,
     "KLAC": 182.88,
@@ -1397,9 +1455,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 42,
-  "last_pulse_post_min": 29794741,
-  "last_pulse_ticker": "AMD",
+  "next_pulse_interval": 36,
+  "last_pulse_post_min": 29795461,
+  "last_pulse_ticker": "BESI.AS",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
