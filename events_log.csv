@@ -1190,3 +1190,8 @@ With a grand to invest today, which of these five would you add to your portfoli
 534,2026-08-26,13:02:24,Wednesday,pulse,,,zero_llm_news_pulse,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$AMAT ($480.88, +0.47%): Applied Materials Stock And The Factory Buildout Investors May Be Missing",98,,,,,
 535,2026-08-26,14:01:53,Wednesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$SAP.DE standing out at -3.89%, now €178.66.",44,,,,,
 536,2026-08-26,15:01:39,Wednesday,pulse,,,zero_llm_news_pulse,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$STX ($812.87, -0.94%): Zacks.com featured highlights Seagate Technology, Western Digital and Dell",98,,,,,
+537,2026-08-26,16:01:49,Wednesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$WDC pulling away at +4.41%, now trading at $467.74.",52,,,,,
+538,2026-08-26,16:02:07,Wednesday,news_event,,,keyword,WDC,WDC,,,,,,,,,Western Digital (WDC) Is Assessing New Iran Sanctions Exposure,,https://finance.yahoo.com/markets/stocks/articles/western-digital-wdc-assessing-iran-002036591.html?.tsrc=rss,2026-08-26T00:20:36,regulatory,,,,,,,,N,queue_aged_out,,,,,,,
+539,2026-08-26,16:02:49,Wednesday,evergreen_opinion,,,gemini,,,,,,,,,,,OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026,ServeTheHome,https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026/,2026-08-26T00:45:45,,,,,,,,llm,Y,,"OpenAI detailed 'Jalapeño,' an in-house inference ASIC built with Broadcom, targeting state-of-the-art performance per watt and low latency for its own workloads.
+
+https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026/",232,,,,,
