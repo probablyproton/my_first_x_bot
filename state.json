@@ -2,8 +2,8 @@
   "date": "2026-08-26",
   "daily_posts": 2,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 11,
-  "gemini_calls_today": 15,
+  "daily_pulse_posts": 12,
+  "gemini_calls_today": 16,
   "evergreen_opinion_posts_today": 2,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 543,
+  "event_log_next_id": 544,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -813,11 +813,11 @@
       "Western Digital Restructures Convertible Debt Through Exchange Agreements",
       "Micron, Seagate, Western Digital, Semtech, and Penguin Solutions Shares Are Falling, What You Need To Know",
       "WDC Fell 11.6% in the Past Month. Is the Weakness an Opportunity?",
+      "Western Digital Rises as Investors Weigh Fresh Debt Exchange Against Strong AI Storage Demand",
       "Western Digital Corp - Holders to Exchange $1",
       "Western Digital Tokenized Stock (Robinhood) (WDC) Chart",
-      "Wednesday Sector Leaders: Apparel Stores, Computers",
       "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
-      "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower"
+      "Notable Wednesday Option Activity: GEV, UBER, WDC"
     ],
     "AVGO": [
       "Marvell Stock Jumps On Google Deal, Broadcom Slides",
@@ -842,6 +842,7 @@
       "Is SpaceX a Millionaire-Maker Stock?"
     ],
     "KLAC": [
+      "KLA Gains From Advanced Packaging: Can it Outpace ONTO & AMAT?",
       "Zacks Industry Outlook Kla, Teradyne and Garmin",
       "3 Electronics Stocks Set to Benefit From a Prospering Industry",
       "Is Wall Street Bullish or Bearish on KLA Corporation Stock?",
@@ -851,17 +852,16 @@
       "2 Mega-Cap Stocks to Own for Decades and 1 That Underwhelm",
       "3 Market-Beating Stocks with Competitive Advantages",
       "KLA (KLAC) Stock Looks Overvalued After Strong Earnings Based Optimism",
-      "OSIS Q4 Earnings Beat on Margin Gains, Revenues Miss Estimates",
       "KLA Corporation: Buy The 2027+ Double Tailwind (NASDAQ:KLAC)",
-      "KLA Corporation rated 'Buy' after strong Q4 and promising 2027 outlook despite recent stock drop",
       "KLA Corp. stock outperforms competitors despite losses on the day",
-      "Here’s How Much You Would Have Made Owning KLA Stock In The Last 10 Years",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
-      "KLA Corporation stock steadies after earnings beat as guidance and backlog support 2026 outlook",
+      "KLA Corporation rated 'Buy' after strong Q4 and promising 2027 outlook despite recent stock drop",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
       "SCHG, LLY, KLAC, LIN: Large Inflows Detected at ETF",
       "Rout in Chipmakers Weighs on Broader Market",
-      "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks"
+      "Stocks Pressured by Weakness in Chipmakers and AI-Infrastructure Stocks",
+      "Stocks Settle Higher as Crude Oil Prices Stabilize",
+      "Stocks Supported as Crude Oil Stabilizes"
     ],
     "SAP.DE": [
       "SAP loosens ERP maintenance and support rules",
@@ -875,8 +875,8 @@
       "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
       "SAP SE: Thomas Heinrich Saueressig, buy",
-      "How SAP SE’s (SAP) Enterprise Brainstem Shields It from the AI Software Sell-Off",
       "SAP SE Stock (SAP) Moved Down by 3.44% on Aug 26",
+      "How SAP SE’s (SAP) Enterprise Brainstem Shields It from the AI Software Sell-Off",
       "SAP SE (NYSE:SAP) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "How SAP SE (SAP) Is Monetizing AI Through Joule and Data Cloud",
       "SAP Completes Acquisition of Prior Labs",
@@ -895,14 +895,13 @@
       "BE Semiconductor Reports Strong Q2 Growth as AI Demand Drives Record Orders",
       "How BE Semiconductor Industries (BESIY) Is Turning Hybrid Bonding Demand Into a Bigger AI Packaging Growth Target",
       "BE Semiconductor Industries NV (BESIY) Q1 2026 Earnings Call Highlights: Record Growth in ...",
-      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
       "BE Semiconductor Industries N : Announces Transactions Under Share Repurchase Program",
+      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
       "Why is BE Semiconductor stock sliding today?",
       "BE Semiconductor Industries N.V. Revenue Breakdown – EURONEXT:BESI",
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
       "BE Semiconductor Industries (OTCMKTS:BESIY) Sees Unusually-High Trading Volume - Time to Buy?",
       "BE Semiconductor: A Directional Bet On AI CapEx Spending (OTCMKTS:BESIY)",
-      "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
       "BE Semiconductor Industries N.V. Announces Q1-26 Results"
     ],
     "AMAT": [
@@ -1032,7 +1031,7 @@
       "Arista Networks vs. CoreWeave: What Revenue Trends Tell Investors About These Artificial Intelligence Companies",
       "Arista Networks vs. Palantir Technologies: Which Technology Stock Is a Better Buy in 2026?",
       "Arista Networks (ANET) Faces New Political Risk As Voters Push Back On AI Data Centers",
-      "Arista Networks (ANET) director sells $79,057 in stock",
+      "Arista Networks Rises as AI Networking Strength and Analyst Optimism Support Shares",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?",
       "5 High ROE Stocks to Buy as Markets Sway on Intense Volatility"
@@ -1307,8 +1306,7 @@
       1
     ],
     "mover": [
-      4,
-      5
+      4
     ],
     "price_event": [
       3,
@@ -1356,19 +1354,19 @@
     "AIXA.DE": 36.55,
     "IFX.DE": 55.15,
     "ASML.AS": 1499.6,
-    "MU": 939.36,
-    "TSM": 417.31,
-    "KLAC": 182.18,
-    "STX": 841.75,
-    "ANET": 198.93,
-    "LRCX": 312.83,
-    "FORM": 106.92,
-    "AVGO": 351.64,
-    "AMAT": 478.35,
-    "AMD": 482.76,
-    "MRVL": 241.82,
-    "NVDA": 209.88,
-    "WDC": 464.72
+    "MU": 940.85,
+    "TSM": 417.87,
+    "KLAC": 183.24,
+    "STX": 839.98,
+    "ANET": 200.2,
+    "LRCX": 313.85,
+    "FORM": 107.38,
+    "AVGO": 352.69,
+    "AMAT": 477.93,
+    "AMD": 482.8,
+    "MRVL": 243.15,
+    "NVDA": 210.45,
+    "WDC": 465.27
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1396,9 +1394,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 36,
-  "last_pulse_post_min": 29796061,
-  "last_pulse_ticker": "TSM",
+  "next_pulse_interval": 43,
+  "last_pulse_post_min": 29796121,
+  "last_pulse_ticker": "ANET",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
