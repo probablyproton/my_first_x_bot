@@ -1,9 +1,9 @@
 {
   "date": "2026-08-27",
-  "daily_posts": 3,
+  "daily_posts": 5,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 2,
-  "gemini_calls_today": 11,
+  "daily_pulse_posts": 3,
+  "gemini_calls_today": 14,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -46,7 +46,7 @@
     "NEE": 992,
     "SAP.DE": 1141,
     "STX": 1362,
-    "AIXA.DE": 1142,
+    "AIXA.DE": 29796992,
     "NVDA": 29796945,
     "MRVL": 1336,
     "ANET": 1262,
@@ -59,11 +59,11 @@
     "FORM": 1320,
     "AVGO": 1400,
     "KLAC": 1142,
-    "TSM": 1322,
+    "TSM": 29796994,
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 552,
+  "event_log_next_id": 555,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -92,7 +92,7 @@
     "news_NVT": 1315,
     "SAP.DE": 1001,
     "STX": 1101,
-    "AIXA.DE": 1022,
+    "AIXA.DE": 29796992,
     "NVDA": 1142,
     "MRVL": 1202,
     "ANET": 1262,
@@ -105,7 +105,7 @@
     "AVGO": 1082,
     "KLAC": 1142,
     "news_NVDA": 29796945,
-    "news_TSM": 1322,
+    "news_TSM": 29796994,
     "IFX.DE": 724,
     "news_AMAT": 1322,
     "news_WDC": 482,
@@ -457,12 +457,12 @@
       "Schneider Electric Strengthens Partner Ecosystem for Software-Defined Automation",
       "Need a panel upgrade for an EV charger? Schneider may have a workaround",
       "Schneider Level 2 EV Charger Canada | Fast Home Charging",
-      "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
       "Schneider Electric’s new Level 2 residential EV charger has built-in load management",
+      "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
       "Schneider Electric launches residential EV charger in Canada",
       "Schneider Charge Residential EV Charger Debuts With SmartAmp",
-      "Schneider Electric launches Easy UPS 3S Pro for critical infrastructure and applications",
       "Schneider Electric’s new EV charger eliminates pricey upgrades",
+      "Schneider Electric launches Easy UPS 3S Pro for critical infrastructure and applications",
       "Schneider Electric unveils Schneider Charge: A smart, simple residential EV charger built for today's home energy needs – Company Announcement - FT.com",
       "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?",
@@ -806,19 +806,19 @@
       "Western Digital Stock Jumped 13% in a Day. Is the Bounce Real?",
       "Western Digital Corp. stock outperforms competitors on strong trading day",
       "Western Digital Tokenized Stock (Robinhood) (WDC) Chart",
-      "WD to Participate in Upcoming Investor Conference",
       "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
-      "Western Digital Corp (NASDAQ:WDC)",
-      "How News Moves The Stock Price Of Western Digital Corporation ($WDC) #WDC Danhausen (OhyNkcAprg)",
-      "How Western Digital used AI to turbocharge collection of supplier emissions data",
       "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
-      "List of 11 Acquisitions by Western Digital (Aug 2026)",
+      "Western Digital blows hard disk drive future wide open",
+      "WD Customer Survey Highlights Growing Focus on Scale, Economics, and Reliability in AI Infrastructure Planning",
+      "WD Unifies its Professional Content Creator Storage Portfolio Under the G-DRIVE® Brand",
+      "Western Digital Corp. stock outperforms competitors despite losses on the day",
       "Western Digital Stock Is Down Sharply: Why the Bull Case Still Looks Strong",
       "Western Digital (WDC) May Find a Bottom Soon, Here's Why You Should Buy the Stock Now",
       "Zacks.com featured highlights Seagate Technology, Western Digital and Dell",
       "Western Digital (WDC) Is Assessing New Iran Sanctions Exposure",
       "Western Digital vs. Seagate Technology: Which Data Storage Stock Is the Better Buy?",
-      "Western Digital vs. Teradata: Which AI Data Stock Has Stronger Upside?"
+      "Western Digital vs. Teradata: Which AI Data Stock Has Stronger Upside?",
+      "Western Digital Sits 46% Below Its High and Has Still More Than Doubled This Year"
     ],
     "AVGO": [
       "Broadcom | History, Acquisitions, Controversies, & Facts",
@@ -892,21 +892,21 @@
       "BE Semiconductor Industries Acquires Laurier | News & Features | Jan 2002",
       "BE Semiconductor Industries NV (BESIY) Q2 2026 Earnings Call Hig",
       "BE Semiconductor Stock: The AI Packaging Bottleneck Play Investors Overlook (BESIY)",
-      "BE Semiconductor Hits Record High as BofA Says Market is Underestimating Demand",
-      "Breakingviews - Europe's chip programme could do with a reset",
-      "SK hynix Orders Hybrid Bonding Equipment From Applied Materials and Besi",
-      "Besi APac Aims To Cut Emission With SAF For Semiconductor Shipment",
-      "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
-      "Dutch semiconductor giant Besi plans €10M to further build production facility in Vietnam",
-      "Besi APac inks deal with DHL Express to reduce greenhouse gas emissions via sustainable aviation fuel",
-      "Besi Advances Repayment of its 2029 Convertible Bonds",
       "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
-      "ASML shares hit lowest since June as China reportedly begins mass production of chipmaking machines",
+      "Dutch semiconductor giant Besi plans €10M to further build production facility in Vietnam",
+      "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
+      "Breakingviews - Europe's chip programme could do with a reset",
+      "Advanced Energy unveils dual-output 400W module for NeoPower configurable power supplies",
+      "SK hynix Orders Hybrid Bonding Equipment From Applied Materials and Besi",
+      "BE Semiconductor Hits Record High as BofA Says Market is Underestimating Demand",
+      "Besi APac Aims To Cut Emission With SAF For Semiconductor Shipment",
+      "Besi Advances Repayment of its 2029 Convertible Bonds",
       "Chip Stocks Mixed Ahead of Nvidia Earnings",
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
       "Zacks.com featured highlights Celestica, Zurn Elkay, Lam, BE Semiconductor and Johnson Controls",
-      "BE Semiconductor Stock Rises 5% on Berenberg Upgrade"
+      "BE Semiconductor Stock Rises 5% on Berenberg Upgrade",
+      "Buy These 5 Top-Ranked Efficient Stocks With Strong Growth Potential"
     ],
     "AMAT": [
       "Applied Materials Extends AI Chip Role With NEXX Packaging Acquisition",
@@ -915,20 +915,20 @@
       "Benicia chip manufacturing tool maker acquired by Applied Materials",
       "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
       "Nouri joins Applied Materials as global head of ventures",
-      "Applied Materials, Inc. AMAT Stock Price Analysis Today Cathay Pacific (M872wGA8LQ)",
       "Applied Materials Inc. stock outperforms competitors despite losses on the day",
+      "Applied Materials, Inc. AMAT Stock Price Analysis Today Alain Delon (sqABbaCOHB)",
       "AI energy bottleneck is driving semiconductor materials innovation, says Applied Materials",
       "Applied Materials to Participate in Upcoming Investor Conferences",
-      "Applied Materials Tokenized Stock (Robinhood)",
       "The Zacks Analyst Blog Highlights NVIDIA, Applied Materials and ConocoPhillips",
+      "Applied Materials Tokenized Stock (Robinhood)",
       "FILE PHOTO: Illustration shows Applied Materials logo",
-      "Applied Materials, Inc. AMAT Stock Price Analysis Today Alain Delon (sqABbaCOHB)",
+      "Applied Materials executive says data centers set new AI competition standard",
+      "Applied Materials Stock Is -35% Off Its Highs: Here Is The Price I'll Start Buying $AMAT Smh Stock (2lwp69YoQ5)",
       "Applied Materials (AMAT) Enters a New AI-Driven Growth Cycle",
       "Applied Materials’ China Problem Is Getting Worse",
       "AMAT's AGS Business Gains Momentum: How Long Will it Sustain?",
       "Applied Materials Drops 34%. Here’s Why You Should Buy the Dip in AMAT Stock.",
-      "Applied Materials (AMAT) Is Positioned to Capture More of the AI Chip Manufacturing Boom",
-      "Applied Materials (AMAT) Is Considered a Good Investment by Brokers: Is That True?"
+      "Applied Materials (AMAT) Is Positioned to Capture More of the AI Chip Manufacturing Boom"
     ],
     "NVDA": [
       "Orgel Wealth Management LLC Acquires Shares of 3,630 NVIDIA Corporation $NVDA",
@@ -956,7 +956,6 @@
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON SE increases FY 2026 guidance",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
-      "Aixtron SE vs Veeco Instruments",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Polarization-engineered high mobility of two-dimensional hole gas in GaN",
       "Gallium nitride vertical-channel junction field-effect transistors",
@@ -1018,8 +1017,8 @@
     "ANET": [
       "Arista Results Highlight AI Networking Growth And VeloCloud SD WAN Expansion",
       "Celestica vs. Arista: Which AI Infrastructure Stock is a Better Buy?",
-      "Arista acquires VeloCloud SD-WAN business from Broadcom",
       "Arista Networks’ Duda sells shares worth $3.85 million",
+      "Arista acquires VeloCloud SD-WAN business from Broadcom",
       "Most significant networking acquisitions of 2025",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "J. Goldman takes new $6.97M stake in Arista Networks",
@@ -1049,10 +1048,10 @@
       "ASML Korea boosts hiring to staff growing chip hubs nationwide - CHOSUNBIZ",
       "ASML and the West’s technology dilemma",
       "Which of these companies once owned meaningful chunks of TSMC, ASML, and NXP – and today owns none of them?",
+      "ASML Holding NV Tokenized Stock (Robinhood) Exchanges ASML Markets | Buy & Sell & Trade",
       "How ASML became Europe’s most valuable company",
       "ASML Supplier Zeiss Says It Can Handle Demand for Key AI Parts",
       "U.S. preparing to force Netherlands to ban ASML from selling to China",
-      "ASML’s Extreme Ultraviolet Lithography and the Limits of Reverse Engineering in China",
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
       "ASML Shares Slide",
       "ASML Stock: Next Stop $3,000?",
@@ -1097,45 +1096,14 @@
       "Silicon Valley leaders back Micron’s $10B AI memory research effort",
       "Micron announces new $10 billion research facility in Boise",
       "Micron unveils Boise-based research lab, plans $10 billion investment over next decade",
+      "Zacks Earnings Trends Highlights: Alphabet, Micron and  Nvidia",
       "MU, SNDK, SKHY: Memory Stocks Surge Overnight After Nvidia More Than Doubles Purchases",
       "Prediction: Micron Stock Will Reach $1,300 by the End of 2026",
       "Jim Cramer Is Bullish on Micron (MU) as AI Fuels Memory Demand",
-      "Micron Technology to Report Fiscal Fourth Quarter Results on September 30, 2026",
-      "MU Stock Alert: What to Know as Micron Appoints New Executives"
+      "Micron Technology to Report Fiscal Fourth Quarter Results on September 30, 2026"
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "TSM",
-      "classification": {
-        "symbol": "TSM",
-        "is_major": true,
-        "category": "contract",
-        "headline": "Why Is Taiwan Semiconductor Manufacturing (TSM) Winning More 3nm AI Chip Work?",
-        "reason": "The headline indicates that TSMC is winning new and additional high-value 3nm AI chip work through a partnership with Xiaomi, which qualifies as a new major customer win or significant contract."
-      },
-      "link": "https://finance.yahoo.com/technology/ai/articles/why-taiwan-semiconductor-manufacturing-tsm-061348015.html?.tsrc=rss",
-      "source": null,
-      "method": "gemini",
-      "published": "2026-08-27T06:13:48",
-      "queued_min": 29796934,
-      "all_articles": [
-        {
-          "headline": "Movandi Redefines Synthesizer PLL Efficiency, Delivering Peak Performance at Lower Power for Next-Gen Wireless and AI Infrastructure",
-          "link": "https://finance.yahoo.com/technology/ai/articles/movandi-redefines-synthesizer-pll-efficiency-070100746.html?.tsrc=rss",
-          "source": null,
-          "summary": "IRVINE, Calif. & MUSCAT, Oman & RIYADH, Saudi Arabia, August 27, 2026--Movandi’s new MV3564 and MV3514 deliver peak performance at lower power, reducing power and footprint for next-gen wireless and AI infrastructure.",
-          "published": "2026-08-27T07:01:00"
-        },
-        {
-          "headline": "Why Is Taiwan Semiconductor Manufacturing (TSM) Winning More 3nm AI Chip Work?",
-          "link": "https://finance.yahoo.com/technology/ai/articles/why-taiwan-semiconductor-manufacturing-tsm-061348015.html?.tsrc=rss",
-          "source": null,
-          "summary": "Taiwan Semiconductor Manufacturing (NYSE:TSM) is set to produce advanced chips for Xiaomi, including the new Xring O3 processor, using its 3-nanometer technology. The Xiaomi partnership extends TSMC's reach into AI focused consumer devices and autonomous driving products. The new 3nm orders highlight how TSMC is securing additional high value work beyond its traditional set of large chip designer customers. This kind of demand for advanced AI hardware points to a broader trend across...",
-          "published": "2026-08-27T06:13:48"
-        }
-      ]
-    },
     {
       "symbol": "AVGO",
       "classification": {
@@ -1406,7 +1374,8 @@
       "ma": 29796945
     },
     "TSM": {
-      "large_share_purchases": 1322
+      "large_share_purchases": 1322,
+      "contract": 29796994
     },
     "AMAT": {
       "analyst_note": 1322
@@ -1446,7 +1415,7 @@
     "DatacenterDynamics",
     "Electronics360"
   ],
-  "last_news_post_min": 29796962,
+  "last_news_post_min": 29796994,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -1512,6 +1481,18 @@
     "quiet": [
       0,
       2
+    ],
+    "mover_strong": [
+      4,
+      0,
+      1,
+      10,
+      7,
+      9,
+      6,
+      5,
+      2,
+      3
     ]
   },
   "last_evergreen_min": 29796062,
@@ -1519,8 +1500,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 301.35,
-    "SIE.DE": 287.85,
+    "SU.PA": 301.8,
+    "SIE.DE": 288.1,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1546,11 +1527,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.6,
-    "BESI.AS": 194.6,
-    "AIXA.DE": 38.1,
-    "IFX.DE": 56.4,
-    "ASML.AS": 1517.4,
+    "SAP.DE": 181.94,
+    "BESI.AS": 195.7,
+    "AIXA.DE": 38.4,
+    "IFX.DE": 56.63,
+    "ASML.AS": 1523.8,
     "MU": 940.9,
     "TSM": 418.78,
     "KLAC": 183.88,
@@ -1577,7 +1558,7 @@
     "APLD": "2026-07-07",
     "SAP.DE": "2026-08-07",
     "STX": "2026-08-07",
-    "AIXA.DE": "2026-08-03",
+    "AIXA.DE": "2026-08-27",
     "NVDA": "2026-08-03",
     "MRVL": "2026-08-03",
     "ANET": "2026-08-03",
@@ -1591,14 +1572,10 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 44,
-  "last_pulse_post_min": 29796933,
-  "last_pulse_ticker": "AIXA.DE",
+  "next_pulse_interval": 30,
+  "last_pulse_post_min": 29796991,
+  "last_pulse_ticker": "LRCX",
   "pulse_news_seen": {
-    "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
-    "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
-    "wdc:wdc's strong q4 raises the stakes for its fiscal 2027 product ramp": "2026-08-24",
-    "amd:semiconductor stocks slide ahead of nvidia earnings: intel falls 5%, amd slides 4%, taiwan semiconductor slips 3%": "2026-08-24",
     "asml.as:where canon can actually disrupt asml": "2026-08-25",
     "wdc:western digital sits 46% below its high and has still more than doubled this year": "2026-08-25",
     "mrvl:prediction: marvell technology stock could go parabolic after its next custom chip deal": "2026-08-25",
@@ -1609,7 +1586,8 @@
     "stx:zacks.com featured highlights seagate technology, western digital and dell": "2026-08-26",
     "form:formfactor (form) stock may be 48% undervalued on cash flow strength": "2026-08-26",
     "tsm:price prediction: tsm will trade at this price in 2027": "2026-08-26",
-    "lrcx:lam research vs. microchip: which chip stock is the better buy?": "2026-08-26"
+    "lrcx:lam research vs. microchip: which chip stock is the better buy?": "2026-08-26",
+    "lrcx:lam research breaks ground on new oregon lab to accelerate ai era semiconductor research & development locally, globally – company announcement - ft.com": "2026-08-27"
   },
   "eu_slots": [
     {
@@ -1643,6 +1621,6 @@
     }
   ],
   "us_posted": [],
-  "eu_flexible_used": 1,
-  "us_flexible_used": 2
+  "eu_flexible_used": 2,
+  "us_flexible_used": 3
 }
