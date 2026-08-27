@@ -3,7 +3,7 @@
   "daily_posts": 0,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 1,
-  "gemini_calls_today": 2,
+  "gemini_calls_today": 3,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -745,11 +745,11 @@
       "FormFactor (FORM) Stock May Be 48% Undervalued On Cash Flow Strength",
       "PDT Partners LLC Takes Position in FormFactor, Inc. $FORM",
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
+      "FormFactor Drops 7.6% Amid Sector-Wide Selling",
       "A Look at FormFactor Inc (FORM) After 5.5% Decline -- GF Value $57.55 vs Price $107.90",
       "Primecap Management Co. CA Takes $270.30 Million Position in FormFactor, Inc. $FORM",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Polymer Capital Management HK LTD Purchases Shares of 25,000 FormFactor, Inc. $FORM",
-      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "Bank of New York Mellon Corp Buys New Stake in FormFactor, Inc. $FORM",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
     ],
@@ -813,8 +813,8 @@
       "Western Digital Restructures Convertible Debt Through Exchange Agreements",
       "Micron, Seagate, Western Digital, Semtech, and Penguin Solutions Shares Are Falling, What You Need To Know",
       "WDC Fell 11.6% in the Past Month. Is the Weakness an Opportunity?",
+      "Can Western Digital's Strong Cash Flow Outweigh its Leverage Concerns?",
       "Western Digital Rises as Investors Weigh Fresh Debt Exchange Against Strong AI Storage Demand",
-      "Western Digital (NASDAQ: WDC) plans new share sale under Rule 144",
       "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
       "Notable Wednesday Option Activity: GEV, UBER, WDC",
       "Wednesday Sector Leaders: Apparel Stores, Computers"
@@ -1434,7 +1434,9 @@
       "fire_time": "17:55"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
