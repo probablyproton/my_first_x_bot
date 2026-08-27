@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 546,
+  "event_log_next_id": 547,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -874,9 +874,9 @@
       "SAP freezes hiring and travel to fund ’significant’ AI push - Reports",
       "Is SAP SE (SAP) Positioned to Benefit from AI?",
       "Anaphora Events Now Available on SAP Store, Bringing On-Brand Event Execution into SAP CX Workflows",
-      "SAP SE Stock (SAP) Moved Down by 3.44% on Aug 26",
       "How SAP SE’s (SAP) Enterprise Brainstem Shields It from the AI Software Sell-Off",
       "SAP SE: Thomas Heinrich Saueressig, buy",
+      "SAP SE Stock (SAP) Moved Down by 3.44% on Aug 26",
       "SAP SE (NYSE:SAP) Given Consensus Recommendation of \"Moderate Buy\" by Analysts",
       "How SAP SE (SAP) Is Monetizing AI Through Joule and Data Cloud",
       "SAP SE (SAP) Shares Surge 3.1% -- What GF Score of 81 Tells Inve",
@@ -1027,11 +1027,11 @@
       "Forget Nvidia. Cisco Could Be a Hidden Winner From the AI Boom",
       "This Stock Is Quietly Becoming an AI Powerhouse in 2026",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
-      "3 Growth Stocks That Could Skyrocket in the Second Half of 2026",
       "Arista Networks Jumps as Wall Street Sees More Upside",
+      "3 Growth Stocks That Could Skyrocket in the Second Half of 2026",
       "Arista Networks: Q2 2026 Justifies A Higher Price Target (NYSE:ANET)",
+      "Arista Networks (ANET) Q1 2026 Earnings Call Transcript",
       "Arista Networks Rises as AI Networking Strength and Analyst Optimism Support Shares",
-      "Arista Networks Jumps 5.8% Amid Sector-Wide Rally",
       "Intel Sees Strong Cash Flow Growth: Will the Trend Persist?",
       "Notable ETF Inflow Detected - GRNY, ANET, HOOD, PKG",
       "Are Computer and Technology Stocks Lagging  Entegris (ENTG) This Year?",
@@ -1103,143 +1103,7 @@
       "Walmart's 10% Plunge Weighs on All Three Major Indexes"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "AMD",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "Advanced Micro Devices (AMD) and Intel (INTC) Both Just Raised Billions for AI. Here’s How Their Strategies Differ",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-intel-170203392.html?.tsrc=rss",
-      "source": null,
-      "method": "keyword",
-      "published": "2026-08-26T17:02:03",
-      "queued_min": 29796302,
-      "all_articles": [
-        {
-          "headline": "/C O R R E C T I O N -- OPAQUE/",
-          "link": "https://finance.yahoo.com/technology/ai/articles/c-o-r-r-e-191500967.html?.tsrc=rss",
-          "source": null,
-          "summary": "OPAQUE, the Confidential AI company, today announced TRACE (Trust, Runtime Attestation, and Compliance Evidence), an open, portable, hardware-enforced governance record for AI agents and other confidential workloads. Developed in collaboration with leading hardware and AI infrastructure companies and contributed to the Linux Foundation, TRACE establishes a vendor-neutral format for proving what software ran, which policies governed execution, what data classifications were involved and which too",
-          "published": "2026-08-26T19:15:00"
-        },
-        {
-          "headline": "Prediction: AMD’s Next Move Could Be HUGE and Here’s Where The Stock is Going",
-          "link": "https://247wallst.com/investing/2026/08/26/prediction-amds-next-move-could-be-huge-and-heres-where-the-stock-is-going/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "AMD has surged nearly 200% in a year, and the Helios GPU ramp is just getting started, but a stretched valuation and export policy risks mean the next move could break either way in a hurry.",
-          "published": "2026-08-26T17:30:02"
-        },
-        {
-          "headline": "Advanced Micro Devices (AMD) and Intel (INTC) Both Just Raised Billions for AI. Here’s How Their Strategies Differ",
-          "link": "https://finance.yahoo.com/technology/ai/articles/advanced-micro-devices-amd-intel-170203392.html?.tsrc=rss",
-          "source": null,
-          "summary": "On August 13, 2026, Advanced Micro Devices, Inc. (NASDAQ:AMD) launched a four-part bond offering that could raise between $4 billion and $5 billion. The firm joined a broader wave of tech-sector fundraising for AI investment just days after rival Intel Corporation (NASDAQ:INTC) raised $20 billion in an upsized stock offering. Why This Matters Both chip […]",
-          "published": "2026-08-26T17:02:03"
-        },
-        {
-          "headline": "1 Wall Street Analyst Just Upgraded AMD Stock and Estimates 30% Upside",
-          "link": "https://www.fool.com/investing/2026/08/26/wall-street-analyst-upgrade-amd-stock-bull/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "AMD is riding the next wave of AI chip demand.",
-          "published": "2026-08-26T16:45:56"
-        },
-        {
-          "headline": "AMD vs. Marvell: Which Is the Better AI Chip Stock to Own for the Next 5 Years?",
-          "link": "https://www.fool.com/investing/2026/08/26/amd-vs-marvell-which-better-ai-chip-stock-own/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "AMD and Marvell have both performed well over the past year.",
-          "published": "2026-08-26T16:45:00"
-        },
-        {
-          "headline": "Cathie Wood Dumps AMD and Adds to This AI Chip Stock",
-          "link": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-dumps-amd-adds-163701218.html?.tsrc=rss",
-          "source": null,
-          "summary": "Ark bought $17.2 million of Cerebras shares.",
-          "published": "2026-08-26T16:37:01"
-        },
-        {
-          "headline": "GIGABYTE Partners with AMD to Bring Onimusha: Way of the Sword Game Bundle to Gamers",
-          "link": "https://finance.yahoo.com/technology/articles/gigabyte-partners-amd-bring-onimusha-150000944.html?.tsrc=rss",
-          "source": null,
-          "summary": "GIGABYTE, the world's leading computer brand, announced the Onimusha: Way of the Sword Game Bundle for eligible graphics cards and gaming desktops powered by the latest AMD technologies. Featuring select products equipped with AMD Radeon™ RX 9070 XT, RX 9070, or RX 9070 GRE graphics, the bundle brings together the AMD RDNA™ 4 architecture, advanced ray tracing, and AMD HYPR-RX technologies with GIGABYTE's WINDFORCE cooling system and patented Hawk fan to deliver high-performance gaming for the h",
-          "published": "2026-08-26T15:00:00"
-        },
-        {
-          "headline": "Why a Single Wire Report About Government Cash Sent AMD, Intel, and Micron Higher Overnight",
-          "link": "https://247wallst.com/investing/2026/08/26/why-a-single-wire-report-about-government-cash-sent-amd-intel-and-micron-higher-overnight/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "A single wire report about a government cash account nobody was watching sent AMD, Marvell, and Micron surging overnight, and the reason explains exactly why the same trade can unwind just as fast.",
-          "published": "2026-08-26T14:15:31"
-        },
-        {
-          "headline": "Kodiak AI and AMD Collaborate to Advance Computing Power for Driverless Trucking",
-          "link": "https://finance.yahoo.com/technology/ai/articles/kodiak-ai-amd-collaborate-advance-130000980.html?.tsrc=rss",
-          "source": null,
-          "summary": "AMD EPYC™ processors deliver higher compute performance, faster processing speeds, lower power consumption, and improved efficiency for the Kodiak Driver Kodiak AI and AMD AMD EPYC™ processors deliver higher compute performance, faster processing speeds, lower power consumption, and improved efficiency for the Kodiak Driver MOUNTAIN VIEW, Calif., Aug. 26, 2026 (GLOBE NEWSWIRE) -- Kodiak AI, Inc. (\"Kodiak”) (Nasdaq: KDK), a leading provider of physical AI-powered autonomous driving technology, to",
-          "published": "2026-08-26T13:00:00"
-        },
-        {
-          "headline": "/C O R R E C T I O N -- The Linux Foundation/",
-          "link": "https://finance.yahoo.com/technology/ai/articles/c-o-r-r-e-183700180.html?.tsrc=rss",
-          "source": null,
-          "summary": "The Linux Foundation, the nonprofit organization enabling mass innovation through open source, announced the contribution of TRACE (Trust, Runtime Attestation and Compliance Evidence), from OPAQUE. Collaboratively developed by AMD, Intel, Microsoft, OPAQUE and the Technology Innovation Institute (TII), TRACE creates a standard, open evidence layer that enables reliable governance records for AI agents and other confidential workloads.",
-          "published": "2026-08-26T18:37:00"
-        },
-        {
-          "headline": "What You Actually Pay To Join The AMD Run",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSDFLOXNXOEhCdUx1VFBaMVBjZXcwQWVWQ24xQ0l0cmg3RmtRWE5ybHQ5Ujd6OVF0bFUzcFNkOHp2YURtRDBNRnV5ZW5HcHJqWWI5dG85Ni1acEpTX2RlaXppUmFKWDV3c1dtNHJ4UnhEQXhzSk1jM3RXdlRlX0FDY09URTFiTmUyekZMcmZueld6UHRlTk8zVA?oc=5",
-          "source": "Trefis",
-          "summary": "",
-          "published": "2026-08-25T22:33:58"
-        },
-        {
-          "headline": "Odyssean LLC Buys New Shares in Advanced Micro Devices, Inc. $AMD",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPMzVzYml5dnc4Y2ducm9Eb2RwalczVlh5bjgydWY4d1RNYVQ4QllpbDlTdW1SY2FHOGhoalhjOWZmSHVTQlROcFkyVVE5cHJxdzBfaU9nUDFGUC1BdlhMVzlPSW53bHBUVDF0QWwzQWhFWmt4UXNtX0FZYUJ5a2VHZDFsQk0wU2VkSFREZGxzdl9qR3l6MzlMQ0RnbXZFWFVNb202S0w3OWdkaTJyU1VPa2xxTnA3dXBhM2hwdlE0bVo?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-26T10:54:49"
-        },
-        {
-          "headline": "AMD vs. Broadcom: Which AI Stock Has the Bigger Upside Potential?",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMFZCWUlPTGVJNnFaMUFtTmJtYVdvem1WQldWbEptcTBsVng0YlJmSXByOGVnYWpyWkxxM3F3UWVBTnROWndjaEhuWVBoSHlGMUtBQmdFeTgzVEdOWEd1MXZ3Nm9od1pGZ2Fib204ajYwVEFLMm1XcW53TmJJNmRYdENaSmdrVk5FOUd2MmFsMkxvZnkya01JczdrR2tJX2QxMUZfOFd2ZFN4TTlGdnNaZkVhaFBidm4yY1V4cWMwZlltZ1pBNFJXZ1RUTW8xVGc2NmNyenhGTENxbzI0QlZJ?oc=5",
-          "source": "The Globe and Mail",
-          "summary": "",
-          "published": "2026-08-26T13:06:36"
-        },
-        {
-          "headline": "AMD Stock at $479: $680 Bull vs $300 Bear After Debt Raise",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdUF5b0Y4d3RhSWxxYnNpYTRkX2JDb3Btd0NPdFItYnVCT3ZpdnpjS1dfcGhSek00M3NJMG5UTF9XNkF0eGxBYm5RUkpKd0p6cDR0ZENHdnpCZDhheC05S0VGVkNCZUNzNm5wbmlFOXZaTW5PdThpUGJuRFJ0OEh3RG91cw?oc=5",
-          "source": "FinanceFeeds",
-          "summary": "",
-          "published": "2026-08-26T09:36:56"
-        },
-        {
-          "headline": "AMD's Next AI Accelerator Carries 432 Gigabytes of Memory -- 50% More Than the Last One. Here's the Bill That Comes With It.",
-          "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPU3g5TlVZcG9vb1Y0NjljMnEteGU0REZUaEJ6ZkFaUmRHcG9zMDFfWG1kMWVJZ3ByWHA0M1NIbmhXbTRWeTFiUmRmVTdSeFJDSEQzR2dtclFEb0d3SWlTU3dDaURZRXlMS04zUUxieE5RSWRUOFk3YkFjQ2E0YjN1WWxBVXpYSmZxLVBjRGZncGFqcmF0d3VLOGItODNrNkw1LTFkOTVZelFGMVFNVTRrVjNGVkhCbTlfbVVmUWFHRnI0bmdCS2lqMnRqWkRleWVKSVd0M2pTREZLZVVLeVNKZXh1MGhGMFJ5Yi14OXgzUTRCaDA?oc=5",
-          "source": "The Motley Fool",
-          "summary": "",
-          "published": "2026-08-26T04:06:00"
-        },
-        {
-          "headline": "I'd Rather Own Bloom Energy Than Nvidia Right Now. Here's My Case.",
-          "link": "https://www.nasdaq.com/articles/id-rather-own-bloom-energy-nvidia-right-now-heres-my-case",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNvidia’s stock could soar even higher as the AI market expands.",
-          "published": "2026-08-26T20:50:00"
-        },
-        {
-          "headline": "Stocks Settle Higher as Lower Crude Prices Ease Inflation Risks",
-          "link": "https://www.nasdaq.com/articles/stocks-settle-higher-lower-crude-prices-ease-inflation-risks",
-          "source": "Barchart",
-          "summary": "The S&P 500 Index ($SPX ) (SPY ) closed up by +0.32% on Tuesday, the Dow Jones Industrial Average ($DOWI ) (DIA ) closed up by +0.30%, and the Nasdaq 100 Index ($IUXX ) (QQQ ) closed up by +0.64%. E-mini S&P futures (ESU26 ) rose +0.30%, and September E-mini...",
-          "published": "2026-08-26T18:57:08"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
