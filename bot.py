@@ -3182,16 +3182,31 @@ def _is_confirmed_stale(url: str) -> bool:
 
 def get_ticker_context_with_dates(symbol: str, max_messages: int = 10) -> list[dict]:
     q = _company_name(symbol).replace(" ", "+")
+    # Earnings coverage is the single biggest recurring flood risk — a quarterly print alone can
+    # fill every slot of a bare company-name search with a dozen re-worded "beats/misses
+    # estimates" recaps of the SAME print, crowding out same-day news in any other category (M&A,
+    # regulatory, a contract, an analyst note, ...) with no trace it ever ran. Rather than adding
+    # a dedicated positive-match query per category — which doesn't scale, there are close to a
+    # dozen news categories and more will come — exclude the earnings-recap vocabulary from the
+    # GENERAL query instead. That's one change that structurally frees up slots for whatever else
+    # is happening, for every category at once. Real earnings beats/misses aren't lost — the
+    # keyword "earnings" rule still classifies them fine from the Yahoo/Nasdaq feeds below, which
+    # aren't filtered and are lower-volume/curated per-symbol feeds to begin with.
+    _EARNINGS_NOISE_TERMS = "-earnings -guidance -estimates -Q1 -Q2 -Q3 -Q4"
     sources = [
-        # M&A-scoped query FIRST and deliberately narrow (max 5 below) — a company's bare-name
-        # search can be completely swamped by a single busy news day (an earnings cycle alone
-        # fills all 10 of that query's slots) and bury a genuine acquisition story past the cutoff
-        # below with nothing to show it was ever seen. This query only returns a handful of items
-        # on a normal day, so ordering it first costs almost nothing in the truncation budget
-        # while guaranteeing those few results survive it even when the general query doesn't.
+        # M&A gets its own small, deliberately narrow (max 5 below) positive-match query on top
+        # of the general exclusion above — it's the one category with an immediate-post bypass
+        # (see URGENT_NEWS_CATEGORIES), so it's worth the extra guaranteed-recall query rather
+        # than relying solely on "less crowded out."
         f"https://news.google.com/rss/search?q={q}+(acquisition+OR+acquires+OR+acquire+OR+merger+OR+buyout)&hl=en&gl=US&ceid=US:en",
+        # Filtered query comes BEFORE the unfiltered Yahoo/Nasdaq feeds below — the shared
+        # max_messages*2 cutoff is applied once at the end across every source combined, so
+        # whichever source is processed first has first claim on it. Yahoo's own per-symbol feed
+        # can be just as earnings-flooded as the general search on a print day; putting the
+        # earnings-free query first means it's the (usually redundant) earnings recaps from Yahoo/
+        # Nasdaq that get trimmed if the combined total runs over, not the diverse stuff.
+        f"https://news.google.com/rss/search?q={q}+{_EARNINGS_NOISE_TERMS.replace(' ', '+')}&hl=en&gl=US&ceid=US:en",
         f"https://finance.yahoo.com/rss/headline?s={symbol}",
-        f"https://news.google.com/rss/search?q={q}&hl=en&gl=US&ceid=US:en",
     ]
     if symbol in US_WATCHLIST:
         # Nasdaq's per-symbol feed only understands US-listed tickers — querying it with an
