@@ -78,6 +78,10 @@ NEWS_FRESHNESS_HOURS         = int(os.getenv("NEWS_FRESHNESS_HOURS", "24"))  # s
                                                                               # than the filter it's supposed to be backing up
 NEWS_POST_MIN_GAP_MINUTES    = int(os.getenv("NEWS_POST_MIN_GAP_MINUTES", "10"))    # base minimum gap between any two news-event posts, across all tickers
 NEWS_POST_GAP_JITTER_MINUTES = int(os.getenv("NEWS_POST_GAP_JITTER_MINUTES", "2"))  # +/- randomness applied to that gap each time (e.g. 10+/-2 -> 8-12min)
+# Categories big enough that they shouldn't sit in the queue behind NEWS_POST_MIN_GAP_MINUTES'
+# politeness pacing — a tracked company itself being acquired/acquiring is the clear case. See
+# the release step in check_news_events for exactly what this does and doesn't bypass.
+URGENT_NEWS_CATEGORIES = {"ma"}
 NEWS_QUEUE_MAX_AGE_MINUTES   = int(os.getenv("NEWS_QUEUE_MAX_AGE_MINUTES", "360"))  # drop a held news event if it's waited this long unreleased (6h – too stale)
 NEWS_CLASSIFY_BATCH_SIZE     = int(os.getenv("NEWS_CLASSIFY_BATCH_SIZE", "5"))      # tickers per news-classification Gemini call
 # How many recent posts' sources to remember, to keep the feed from looking like a single-source
@@ -1588,7 +1592,11 @@ def classify_news_batch(ticker_articles: dict[str, list[dict]], state: dict) -> 
 # list but can't verify exact thresholds (a headline rarely states "beat by
 # 6.2%"), so it's deliberately narrower: only categorically unambiguous events.
 _KEYWORD_RULES = [
-    ("ma",         re.compile(r"\b(acquir\w*|merger|buyout|takeover)\b", re.I), None),
+    # acquisit\w* alongside acquir\w* — "acquire/acquires/acquiring" and "acquisition(s)" are
+    # different stems (NOT the same word plus a suffix), so acquir\w* alone misses headlines
+    # phrased as a noun ("... closes in on Hugging Face acquisition") even though acquir\w*
+    # catches the verb form ("... to acquire Hugging Face") just fine.
+    ("ma",         re.compile(r"\b(acquir\w*|acquisit\w*|merger|buyout|takeover)\b", re.I), None),
     ("contract",   re.compile(r"\b(contract|partnership|deal)\b", re.I),
                    re.compile(r"\$[\d,.]+\s?(million|billion|M|B)\b", re.I)),
     # Capital investment / capacity expansion ("Marvell Investing $250 Million In India") — a
@@ -3363,17 +3371,26 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
         if classification:
             _queue_item(symbol, classification, "keyword")
 
-    # ── Release: post at most one held event this cycle, respecting the global gap ──
+    # ── Release: post at most one held event this cycle, respecting the global gap —
+    # EXCEPT a genuine M&A story (the tracked company itself being acquired/acquiring, not a
+    # fund buying shares), which skips the pacing gap entirely and goes out the same cycle it's
+    # detected. Everything else about it still applies: per-ticker cooldown, queue staleness,
+    # Gemini budget for Gemini-routed items — this only removes the "wait since the last news
+    # post" politeness delay, not the correctness/spam gates. ──
+    urgent_queued = any(it["classification"]["category"] in URGENT_NEWS_CATEGORIES for it in queue)
     last_post_min = state.get("last_news_post_min", 0)
     required_gap  = NEWS_POST_MIN_GAP_MINUTES + random.randint(-NEWS_POST_GAP_JITTER_MINUTES, NEWS_POST_GAP_JITTER_MINUTES)
-    if queue and _epoch_minutes() - last_post_min >= required_gap:
+    if queue and (urgent_queued or _epoch_minutes() - last_post_min >= required_gap):
         # Source diversity: only one item is released per cycle, so which one matters. Try items
         # whose source WASN'T used in the last few posts first, then oldest-first — so a run of
         # different stories that all happen to come from one aggregator doesn't post back-to-back
         # from that same aggregator. Each item keeps its own real link, so there's no mismatch risk
         # (unlike link-swapping, which stays reserved for genuine same-story near-duplicates).
+        # Urgent items always sort first, ahead of both of those — a big M&A story shouldn't wait
+        # behind an older, ordinary headline just because that one's source is more "diverse".
         recent_lower = {s.lower() for s in state.get("recent_post_sources", [])}
-        queue.sort(key=lambda it: ((it.get("source") or "").lower() in recent_lower,
+        queue.sort(key=lambda it: (it["classification"]["category"] not in URGENT_NEWS_CATEGORIES,
+                                    (it.get("source") or "").lower() in recent_lower,
                                     it.get("queued_min", 0)))
         remaining = []
         released = False
