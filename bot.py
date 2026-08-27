@@ -39,6 +39,10 @@ import urllib.error
 import pandas_market_calendars as mcal
 from dotenv import load_dotenv
 from playwright.sync_api import sync_playwright
+import matplotlib
+matplotlib.use("Agg")  # headless CI — never touches a display
+import matplotlib.pyplot as plt
+import matplotlib.dates as mdates
 
 ssl._create_default_https_context = ssl._create_unverified_context
 os.environ["PYTHONHTTPSVERIFY"] = "0"
@@ -594,6 +598,8 @@ def get_price_context(symbol: str) -> dict:
         price = None
         day_high = None
         day_low  = None
+        intraday_times  = None
+        intraday_closes = None
         try:
             # prepost=True is required to see pre-market/after-hours prints — without it,
             # yfinance only returns regular-session bars, which is empty before the open
@@ -603,6 +609,11 @@ def get_price_context(symbol: str) -> dict:
                 price    = round(float(hist["Close"].iloc[-1]), 2)
                 day_high = round(float(hist["High"].max()), 2)
                 day_low  = round(float(hist["Low"].min()), 2)
+                # Kept alongside price/change_pct below so a chart built from this context is
+                # rendered from the exact same fetch that produced the number in the tweet text —
+                # never a second, later yfinance call that could show a different move.
+                intraday_times  = hist.index.to_pydatetime().tolist()
+                intraday_closes = [round(float(c), 4) for c in hist["Close"].tolist()]
         except Exception:
             pass
 
@@ -635,6 +646,9 @@ def get_price_context(symbol: str) -> dict:
             result["day_high"] = day_high
         if day_low is not None:
             result["day_low"] = day_low
+        if intraday_times and len(intraday_times) >= 2:
+            result["intraday_times"]  = intraday_times
+            result["intraday_closes"] = intraday_closes
         if not market_open:
             # Only needed for the "last close" framing used when the market's shut — lets a
             # news-event tweet say WHICH session that price is from instead of an undated "last
@@ -649,6 +663,74 @@ def get_price_context(symbol: str) -> dict:
     except Exception as e:
         log.warning("yfinance failed for %s: %s", symbol, e)
         return {}
+
+
+def render_price_chart(symbol: str, price_ctx: dict) -> str | None:
+    """Renders a 1D intraday price chart PNG to a temp file, for attaching to a tweet that
+    states this ticker's price/% move — returns the file path, or None if there's no intraday
+    series to plot (closed market, thin/failed fetch, etc).
+
+    Every number drawn on the chart (price, % change) is read directly from price_ctx — the
+    SAME dict the tweet text's numbers came from — and the line itself is plotted from
+    price_ctx['intraday_closes'], the exact series get_price_context() used to compute
+    change_pct. There is no second yfinance call here, so the chart can only ever show more
+    decimal precision than the tweet text, never a different underlying move."""
+    times  = price_ctx.get("intraday_times")
+    closes = price_ctx.get("intraday_closes")
+    if not times or not closes or len(times) < 2:
+        return None
+
+    price      = price_ctx["price"]
+    change_pct = price_ctx["change_pct"]
+    cur        = price_ctx.get("currency_symbol", "$")
+    up         = change_pct >= 0
+    accent     = "#16C784" if up else "#EA3943"
+
+    try:
+        company = _company_name(symbol)
+    except Exception:
+        company = ""
+    display_symbol = _display_ticker(symbol)
+
+    fig, ax = plt.subplots(figsize=(6, 4), dpi=200)
+    try:
+        fig.patch.set_facecolor("white")
+        ax.set_facecolor("white")
+
+        ax.plot(times, closes, color=accent, linewidth=1.8, solid_capstyle="round", zorder=3)
+        ax.fill_between(times, closes, min(closes), color=accent, alpha=0.08, zorder=2)
+        ax.plot(times[-1], closes[-1], marker="o", markersize=4, color=accent, zorder=4)
+
+        for spine in ax.spines.values():
+            spine.set_visible(False)
+        ax.set_yticks([])
+        ax.grid(axis="y", color="#e6e6e6", linewidth=0.7, zorder=0)
+        ax.tick_params(axis="x", labelsize=8, colors="#8a8f98", length=0)
+        ax.xaxis.set_major_formatter(mdates.DateFormatter("%H:%M"))
+        ax.xaxis.set_major_locator(mdates.AutoDateLocator(maxticks=6, minticks=3))
+        ax.margins(x=0.02)
+
+        fig.subplots_adjust(left=0.04, right=0.96, top=0.68, bottom=0.14)
+
+        sign = "+" if change_pct >= 0 else ""
+        fig.text(0.04, 0.95, f"${display_symbol}", fontsize=20, fontweight="bold",
+                  color="#0f1419", va="top")
+        if company:
+            fig.text(0.04, 0.87, company, fontsize=10, color="#536471", va="top")
+        fig.text(0.96, 0.95, f"{cur}{price}", fontsize=20, fontweight="bold", color="#0f1419",
+                  va="top", ha="right")
+        fig.text(0.96, 0.87, f"{sign}{change_pct:.2f}%  1D", fontsize=11, fontweight="bold",
+                  color=accent, va="top", ha="right")
+
+        fd, out_path = tempfile.mkstemp(suffix=".png", prefix=f"chart_{symbol}_")
+        os.close(fd)
+        fig.savefig(out_path, facecolor=fig.get_facecolor())
+        return out_path
+    except Exception as e:
+        log.warning("Chart render failed for %s: %s", symbol, e)
+        return None
+    finally:
+        plt.close(fig)
 
 
 def _find_move_timestamp(symbol: str) -> datetime.datetime | None:
@@ -875,11 +957,12 @@ def _draw_template(state: dict, pool_key: str, templates: list[str]) -> str:
     return templates[deck.pop()]
 
 
-def generate_zero_llm_pulse(tickers: list[str], state: dict) -> tuple[str, str] | None:
+def generate_zero_llm_pulse(tickers: list[str], state: dict) -> tuple[str, str, dict] | None:
     """Fill a template with the biggest live mover right now. No Gemini call. Only considers
     tickers whose market is actually open, so the number shown is always live, not a stale
-    closed-market print. Returns (text, ticker) so the caller can tell whether this would
-    repeat the same ticker as last time."""
+    closed-market print. Returns (text, ticker, price_ctx) so the caller can tell whether this
+    would repeat the same ticker as last time, and can attach a chart built from the exact same
+    price_ctx used for the text's number."""
     open_tickers = [t for t in tickers if _is_market_open_for(t)]
     if not open_tickers:
         return None
@@ -907,7 +990,7 @@ def generate_zero_llm_pulse(tickers: list[str], state: dict) -> tuple[str, str] 
         text = _draw_template(state, "mover", PULSE_MOVER_TEMPLATES).format(**values)
     else:
         text = _draw_template(state, "quiet", PULSE_QUIET_TEMPLATES).format(**values)
-    return (text, base_t) if len(text) <= 280 else None
+    return (text, base_t, ctx) if len(text) <= 280 else None
 
 
 def generate_zero_llm_news_pulse(tickers: list[str], state: dict) -> tuple[str, str] | None:
@@ -2313,14 +2396,15 @@ def _flush_post_backlog(state: dict) -> dict:
     return state
 
 
-def post_tweet(text: str, state: dict, pool: str = "llm") -> bool:
+def post_tweet(text: str, state: dict, pool: str = "llm", image_path: str | None = None) -> bool:
     counter_key, limit = _POST_POOLS[pool]
     if state.get(counter_key, 0) >= limit:
         log.info("Daily %s post limit (%d) reached – skipping", pool, limit)
         return False
 
     if DRY_RUN:
-        log.info("[DRY RUN] (%d/%d %s)\n%s", state.get(counter_key, 0) + 1, limit, pool, text)
+        log.info("[DRY RUN] (%d/%d %s)%s\n%s", state.get(counter_key, 0) + 1, limit, pool,
+                  " [+chart]" if image_path else "", text)
         state[counter_key] = state.get(counter_key, 0) + 1
         return True
 
@@ -2359,7 +2443,23 @@ def post_tweet(text: str, state: dict, pool: str = "llm") -> bool:
                 page.keyboard.type(char)
                 time.sleep(random.uniform(0.03, 0.11))
 
-            if "http://" in text or "https://" in text:
+            media_attached = False
+            if image_path and os.path.exists(image_path):
+                try:
+                    file_input = page.locator("input[data-testid='fileInput']").first
+                    file_input.set_input_files(image_path)
+                    # The compose box shows a spinner over the thumbnail while the upload is in
+                    # flight; the "remove media" control only appears once it's actually done,
+                    # so wait on that rather than a fixed sleep before allowing the post click.
+                    page.locator("[aria-label='Remove media']").first.wait_for(timeout=20000)
+                    media_attached = True
+                    time.sleep(random.uniform(0.6, 1.2))
+                except Exception as e:
+                    log.warning("Chart attach failed — posting text-only instead: %s", e)
+
+            # X doesn't render a link-preview card on a post that already has attached media,
+            # so only wait for one when there's no chart image going out with this tweet.
+            if not media_attached and ("http://" in text or "https://" in text):
                 # X fetches the link's Open Graph tags asynchronously to build the rich
                 # preview card. A short fixed pause risks clicking post before that finishes,
                 # which publishes with a bare link instead of the image/title card. Wait for
@@ -2382,7 +2482,8 @@ def post_tweet(text: str, state: dict, pool: str = "llm") -> bool:
             browser.close()
 
         state[counter_key] = state.get(counter_key, 0) + 1
-        log.info("Posted (%d/%d %s): %s", state[counter_key], limit, pool, text[:80])
+        log.info("Posted (%d/%d %s%s): %s", state[counter_key], limit, pool,
+                  " +chart" if media_attached else "", text[:80])
         return True
 
     except Exception as e:
@@ -2392,6 +2493,26 @@ def post_tweet(text: str, state: dict, pool: str = "llm") -> bool:
         except Exception:
             pass
         return False
+
+
+def post_tweet_with_chart(text: str, state: dict, symbol: str, price_ctx: dict,
+                           pool: str = "llm") -> bool:
+    """post_tweet(), but attaches a 1D chart for `symbol` when live intraday data is available.
+    Only attaches when the market is actually open — an intraday chart labeled "1D" from a
+    closed session would show a stale, possibly hours-old print next to the tweet's own number.
+    render_price_chart() draws every figure from this same price_ctx, so there's no separate
+    fetch that could disagree with the % move stated in `text`."""
+    image_path = None
+    if price_ctx.get("market_open"):
+        image_path = render_price_chart(symbol, price_ctx)
+    try:
+        return post_tweet(text, state, pool=pool, image_path=image_path)
+    finally:
+        if image_path:
+            try:
+                os.remove(image_path)
+            except OSError:
+                pass
 
 
 def post_poll(question: str, options: list[str], state: dict, duration_hours: int = 24) -> bool:
@@ -2567,7 +2688,7 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
             day_move_pct=day_pct, gemini_call_used="Y" if gemini_used else "N",
             gemini_calls_today_after=state.get("gemini_calls_today", 0),
         )
-        if tweet and post_tweet(tweet, state):
+        if tweet and post_tweet_with_chart(tweet, state, symbol, price_ctx):
             cooldowns[symbol] = now_minutes()
             _record_ticker_post(state, symbol)
             day_event_fired[symbol] = today()
@@ -3160,7 +3281,8 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             )
             if tweet:
                 log.info("News event tweet [%s] (%d chars):\n%s", method, len(tweet), tweet)
-                if post_tweet(tweet, state, pool=("llm" if method == "gemini" else "keyword")):
+                if post_tweet_with_chart(tweet, state, symbol, price_ctx or {},
+                                          pool=("llm" if method == "gemini" else "keyword")):
                     cooldowns[f"news_{symbol}"] = now_minutes()
                     _record_ticker_post(state, symbol)
                     _record_news_category_posted(state, symbol, classification["category"])
@@ -3877,7 +3999,7 @@ def check_zero_llm_pulse(state: dict) -> dict:
         return state
 
     result = generate_zero_llm_pulse(tickers, state)
-    text, used_ticker = result if result else (None, None)
+    text, used_ticker, price_ctx = result if result else (None, None, None)
     generation_method = "zero_llm_template"
 
     # Same ticker as last pulse means its % change hasn't meaningfully moved in the ~30-45min
@@ -3888,12 +4010,15 @@ def check_zero_llm_pulse(state: dict) -> dict:
         news_result = generate_zero_llm_news_pulse(tickers, state)
         if news_result:
             text, used_ticker = news_result
+            price_ctx = None  # a headline pulse, not the price-line one — no chart to match it
             generation_method = "zero_llm_news_pulse"
 
     log_kwargs = dict(mechanism="pulse", generation_method=generation_method)
     if text:
         log.info("Zero-LLM pulse (%d chars):\n%s", len(text), text)
-        if post_tweet(text, state, pool="pulse"):
+        posted = (post_tweet_with_chart(text, state, used_ticker, price_ctx, pool="pulse")
+                  if price_ctx else post_tweet(text, state, pool="pulse"))
+        if posted:
             state["last_pulse_post_min"] = _epoch_minutes()
             state["last_pulse_ticker"] = used_ticker
             state["next_pulse_interval"] = random.randint(PULSE_INTERVAL_MIN_MINUTES, PULSE_INTERVAL_MAX_MINUTES)

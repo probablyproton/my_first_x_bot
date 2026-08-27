@@ -4,3 +4,4 @@ python-dotenv
 playwright
 playwright-stealth
 pandas_market_calendars
+matplotlib
