@@ -3183,6 +3183,13 @@ def _is_confirmed_stale(url: str) -> bool:
 def get_ticker_context_with_dates(symbol: str, max_messages: int = 10) -> list[dict]:
     q = _company_name(symbol).replace(" ", "+")
     sources = [
+        # M&A-scoped query FIRST and deliberately narrow (max 5 below) — a company's bare-name
+        # search can be completely swamped by a single busy news day (an earnings cycle alone
+        # fills all 10 of that query's slots) and bury a genuine acquisition story past the cutoff
+        # below with nothing to show it was ever seen. This query only returns a handful of items
+        # on a normal day, so ordering it first costs almost nothing in the truncation budget
+        # while guaranteeing those few results survive it even when the general query doesn't.
+        f"https://news.google.com/rss/search?q={q}+(acquisition+OR+acquires+OR+acquire+OR+merger+OR+buyout)&hl=en&gl=US&ceid=US:en",
         f"https://finance.yahoo.com/rss/headline?s={symbol}",
         f"https://news.google.com/rss/search?q={q}&hl=en&gl=US&ceid=US:en",
     ]
@@ -3192,9 +3199,10 @@ def get_ticker_context_with_dates(symbol: str, max_messages: int = 10) -> list[d
         sources.append(f"https://www.nasdaq.com/feed/rssoutbound?symbol={_base_symbol(symbol)}")
     seen_titles: set[str] = set()
     results: list[dict] = []
-    for url in sources:
+    for i, url in enumerate(sources):
         try:
-            for item in _fetch_rss_with_dates(url, max_messages):
+            limit = 5 if i == 0 else max_messages
+            for item in _fetch_rss_with_dates(url, limit):
                 if item["headline"] not in seen_titles:
                     seen_titles.add(item["headline"])
                     results.append(item)
