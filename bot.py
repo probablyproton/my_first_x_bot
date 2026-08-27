@@ -43,6 +43,7 @@ import matplotlib
 matplotlib.use("Agg")  # headless CI — never touches a display
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
+import matplotlib.ticker as mticker
 
 ssl._create_default_https_context = ssl._create_unverified_context
 os.environ["PYTHONHTTPSVERIFY"] = "0"
@@ -772,7 +773,13 @@ def render_week_chart(symbol: str, week_ctx: dict, label: str = "WTD") -> str | 
         ax.grid(axis="y", color="#e6e6e6", linewidth=0.7, zorder=0)
         ax.tick_params(axis="x", labelsize=8, colors="#8a8f98", length=0)
         ax.xaxis.set_major_formatter(mdates.DateFormatter("%a"))
-        ax.xaxis.set_major_locator(mdates.DayLocator())
+        # Pinned to the actual data points, NOT mdates.DayLocator() — that ticks at each
+        # calendar-day midnight boundary, and since a trading session doesn't start exactly at
+        # midnight, the first boundary before the data begins falls outside the plotted range
+        # and gets skipped. That silently shifts every weekday label one day late (a Mon-Fri
+        # week reads as Tue-Sat). Ticking the real timestamps instead guarantees each label
+        # names the trading day it's actually sitting above.
+        ax.xaxis.set_major_locator(mticker.FixedLocator(mdates.date2num(times)))
         ax.margins(x=0.04, y=0.15)
 
         fig.subplots_adjust(left=0.04, right=0.96, top=0.68, bottom=0.14)
