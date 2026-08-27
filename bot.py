@@ -733,6 +733,71 @@ def render_price_chart(symbol: str, price_ctx: dict) -> str | None:
         plt.close(fig)
 
 
+def render_week_chart(symbol: str, week_ctx: dict, label: str = "WTD") -> str | None:
+    """Same drawing approach as render_price_chart, but for the multi-day series behind
+    get_week_performance/get_week_to_date_change (via _week_series) — a dashed reference line
+    marks the week's starting price so the % move is visible, not just stated. `label` should
+    match how the accompanying tweet frames the number ("WTD" for week-to-date posts)."""
+    times  = week_ctx.get("times")
+    closes = week_ctx.get("closes")
+    if not times or not closes or len(times) < 2:
+        return None
+
+    start_price = week_ctx["start_price"]
+    pct         = week_ctx["pct"]
+    cur         = week_ctx.get("currency_symbol", "$")
+    up          = pct >= 0
+    accent      = "#16C784" if up else "#EA3943"
+
+    try:
+        company = _company_name(symbol)
+    except Exception:
+        company = ""
+    display_symbol = _display_ticker(symbol)
+
+    fig, ax = plt.subplots(figsize=(6, 4), dpi=200)
+    try:
+        fig.patch.set_facecolor("white")
+        ax.set_facecolor("white")
+
+        ax.plot(times, closes, color=accent, linewidth=1.8, solid_capstyle="round", zorder=3)
+        ax.fill_between(times, closes, min(min(closes), start_price), color=accent, alpha=0.08,
+                         zorder=2)
+        ax.plot(times[-1], closes[-1], marker="o", markersize=4, color=accent, zorder=4)
+        ax.axhline(start_price, color="#8a8f98", linewidth=1.0, linestyle=(0, (4, 3)), zorder=1)
+
+        for spine in ax.spines.values():
+            spine.set_visible(False)
+        ax.set_yticks([])
+        ax.grid(axis="y", color="#e6e6e6", linewidth=0.7, zorder=0)
+        ax.tick_params(axis="x", labelsize=8, colors="#8a8f98", length=0)
+        ax.xaxis.set_major_formatter(mdates.DateFormatter("%a"))
+        ax.xaxis.set_major_locator(mdates.DayLocator())
+        ax.margins(x=0.04, y=0.15)
+
+        fig.subplots_adjust(left=0.04, right=0.96, top=0.68, bottom=0.14)
+
+        sign = "+" if pct >= 0 else ""
+        fig.text(0.04, 0.95, f"${display_symbol}", fontsize=20, fontweight="bold",
+                  color="#0f1419", va="top")
+        if company:
+            fig.text(0.04, 0.87, company, fontsize=10, color="#536471", va="top")
+        fig.text(0.96, 0.95, f"{cur}{closes[-1]:.2f}", fontsize=20, fontweight="bold",
+                  color="#0f1419", va="top", ha="right")
+        fig.text(0.96, 0.87, f"{sign}{pct:.2f}%  {label}", fontsize=11, fontweight="bold",
+                  color=accent, va="top", ha="right")
+
+        fd, out_path = tempfile.mkstemp(suffix=".png", prefix=f"weekchart_{symbol}_")
+        os.close(fd)
+        fig.savefig(out_path, facecolor=fig.get_facecolor())
+        return out_path
+    except Exception as e:
+        log.warning("Week chart render failed for %s: %s", symbol, e)
+        return None
+    finally:
+        plt.close(fig)
+
+
 def _find_move_timestamp(symbol: str) -> datetime.datetime | None:
     """Identifies the approximate UTC moment of the day's sharpest price move, if the day had a
     genuinely catalyst-shaped one — used to correlate against news publish times so a price-event
@@ -785,18 +850,55 @@ def _closest_headline_to_move(move_time: datetime.datetime, articles: list[dict]
     return best
 
 
+def _week_series(symbol: str, mode: str) -> dict | None:
+    """Shared fetch behind get_week_performance ('rolling': last 5 trading sessions, close vs.
+    close) and get_week_to_date_change ('wtd': this week's Monday open vs. latest close) — both
+    functions delegate their % math to this one place, so a chart built from this dict's
+    times/closes/start_price always matches the % those functions report, with no separate
+    fetch that could disagree. Returns None if there's not enough data to compute a change."""
+    try:
+        ticker = yf.Ticker(symbol)
+        hist = ticker.history(period="5d")
+        if hist.empty:
+            return None
+
+        if mode == "wtd":
+            monday = datetime.date.today() - datetime.timedelta(days=datetime.date.today().weekday())
+            hist = hist[hist.index.date >= monday]
+            if hist.empty:
+                return None
+            start_price = float(hist["Open"].iloc[0])
+        else:
+            if len(hist) < 2:
+                return None
+            start_price = float(hist["Close"].iloc[0])
+
+        if start_price <= 0:
+            return None
+
+        times  = hist.index.to_pydatetime().tolist()
+        closes = [round(float(c), 4) for c in hist["Close"].tolist()]
+        end    = closes[-1]
+        pct    = round((end - start_price) / start_price * 100, 2)
+        try:
+            currency = getattr(ticker.fast_info, "currency", None) or "USD"
+        except Exception:
+            currency = "USD"
+        return {
+            "times": times, "closes": closes, "start_price": round(start_price, 4), "pct": pct,
+            "currency_symbol": _currency_symbol(currency),
+        }
+    except Exception as e:
+        log.warning("Week series failed for %s (%s): %s", symbol, mode, e)
+        return None
+
+
 def get_week_performance(symbols: list[str]) -> dict[str, float]:
     result = {}
     for symbol in symbols:
-        try:
-            ticker = yf.Ticker(symbol)
-            hist = ticker.history(period="5d")
-            if len(hist) >= 2:
-                start = hist["Close"].iloc[0]
-                end   = hist["Close"].iloc[-1]
-                result[symbol] = round((end - start) / start * 100, 2)
-        except Exception as e:
-            log.warning("Week performance failed for %s: %s", symbol, e)
+        series = _week_series(symbol, "rolling")
+        if series:
+            result[symbol] = series["pct"]
     return result
 
 
@@ -819,20 +921,11 @@ def get_recent_volatility(symbols: list[str], sessions: int = 3) -> dict[str, fl
 def get_week_to_date_change(symbols: list[str]) -> dict[str, float]:
     """Signed net % change since this week's Monday open — current price vs. Monday's
     opening price. Signed so direction (+xx% / -xx%) is unambiguous at a glance."""
-    monday = datetime.date.today() - datetime.timedelta(days=datetime.date.today().weekday())
     result = {}
     for symbol in symbols:
-        try:
-            hist = yf.Ticker(symbol).history(period="5d")
-            hist = hist[hist.index.date >= monday]
-            if hist.empty:
-                continue
-            monday_open = float(hist["Open"].iloc[0])
-            current = float(hist["Close"].iloc[-1])
-            if monday_open > 0:
-                result[symbol] = round((current - monday_open) / monday_open * 100, 2)
-        except Exception as e:
-            log.warning("Week-to-date change failed for %s: %s", symbol, e)
+        series = _week_series(symbol, "wtd")
+        if series:
+            result[symbol] = series["pct"]
     return result
 
 # ── Zero-LLM content (weekend recaps + polls) ─────────────────────────────────
@@ -878,14 +971,17 @@ POLL_QUESTION_TEMPLATES = [
 ]
 
 
-def generate_zero_llm_weekend_post(tickers: list[str]) -> str | None:
+def generate_zero_llm_weekend_post(tickers: list[str]) -> tuple[str, dict[str, dict]] | None:
     """Fill a random template with this week's real performance numbers. No Gemini call.
-    Uses get_week_to_date_change (Monday's OPEN vs. latest close) rather than get_week_performance
-    (a 5-trading-day rolling window) — the same metric the Wednesday midweek post already uses, so
-    a reader doesn't see two differently-computed "this week" numbers for the same tickers on the
-    same weekend. Every figure is explicitly labeled "WTD" so it's unambiguous which window it
-    covers, rather than a bare % that could be read as a single day's move."""
-    perf = get_week_to_date_change(tickers)
+    Uses the 'wtd' mode of _week_series (Monday's OPEN vs. latest close) rather than the
+    'rolling' one (a 5-trading-day window) — the same metric the Wednesday midweek post already
+    uses, so a reader doesn't see two differently-computed "this week" numbers for the same
+    tickers on the same weekend. Every figure is explicitly labeled "WTD" so it's unambiguous
+    which window it covers, rather than a bare % that could be read as a single day's move.
+    Returns (text, week_contexts) — week_contexts covers every ticker with data, so the caller
+    can chart whichever of them the chosen template actually ended up naming."""
+    week_contexts = {t: c for t in tickers if (c := _week_series(t, "wtd"))}
+    perf = {t: c["pct"] for t, c in week_contexts.items()}
     if len(perf) < 2:
         return None
 
@@ -908,7 +1004,7 @@ def generate_zero_llm_weekend_post(tickers: list[str]) -> str | None:
 
     template = random.choice(WEEKEND_CAPTION_TEMPLATES)
     text = template.format(**values)
-    return text if len(text) <= 280 else None
+    return (text, week_contexts) if len(text) <= 280 else None
 
 
 # Weekday cadence heartbeat — a templated "biggest mover right now" snapshot, zero Gemini calls,
@@ -933,6 +1029,24 @@ PULSE_QUIET_TEMPLATES = [
     "Low-key hour for ${base}, at {currency}{price} ({sign}{pct}%).",
 ]
 
+# Short, chart-led captions for a genuinely strong move (>= EVENT_DAY_THRESHOLD_PCT) — the
+# attached chart does most of the talking, so the text doesn't need to. Direction-specific
+# (unlike the neutral pools above) since "this is how I like it" only reads right on a gain,
+# and blended INTO the existing mover/event pools rather than replacing them, so this style
+# shows up sometimes, not every time.
+PULSE_INFORMAL_UP_TEMPLATES = [
+    "${base} {sign}{pct}% today. This is how I like it. 📈",
+    "${base} {sign}{pct}% right now. Love to see it.",
+    "${base} {sign}{pct}%. Days like this don't get old.",
+    "${base} {sign}{pct}% and running. 🔥",
+]
+PULSE_INFORMAL_DOWN_TEMPLATES = [
+    "${base} {sign}{pct}% today. Rough one. 📉",
+    "${base} {sign}{pct}% right now. Not every day's a green day.",
+    "${base} {sign}{pct}%. This is the part nobody posts about.",
+    "${base} {sign}{pct}% – buy the dip or run? 👇",
+]
+
 # Fallback for a genuine >= EVENT_DAY_THRESHOLD_PCT day move when Gemini's daily budget is
 # already exhausted. No LLM call, so – same discipline as generate_tweet's no-catalyst branch –
 # this only ever describes the move itself, never speculates about a cause.
@@ -942,6 +1056,19 @@ PRICE_EVENT_ZERO_LLM_TEMPLATES = [
     "${base} swinging {sign}{pct}% on the day, now {currency}{price}.{range}",
     "Big print: ${base} {sign}{pct}% at {currency}{price} today – a real standout.{range}",
     "${base} on the move – {sign}{pct}% to {currency}{price} today.{range}",
+]
+
+PRICE_EVENT_INFORMAL_UP_TEMPLATES = [
+    "${base} {sign}{pct}% today. This is how I like it. 📈",
+    "${base} {sign}{pct}%. Love days like this. 📈",
+    "${base} {sign}{pct}% today – no notes.",
+    "${base} {sign}{pct}%. Let it ride.",
+]
+PRICE_EVENT_INFORMAL_DOWN_TEMPLATES = [
+    "${base} {sign}{pct}% today. Rough one. 📉",
+    "${base} {sign}{pct}%. Not every day's a green day.",
+    "${base} {sign}{pct}% today – no sugarcoating it.",
+    "${base} {sign}{pct}%. This is the part nobody posts about.",
 ]
 
 
@@ -986,7 +1113,10 @@ def generate_zero_llm_pulse(tickers: list[str], state: dict) -> tuple[str, str, 
         "sign": "+" if pct >= 0 else "",
     }
 
-    if abs(pct) >= 1.5:
+    if abs(pct) >= EVENT_DAY_THRESHOLD_PCT:
+        informal = PULSE_INFORMAL_UP_TEMPLATES if pct >= 0 else PULSE_INFORMAL_DOWN_TEMPLATES
+        text = _draw_template(state, "mover_strong", PULSE_MOVER_TEMPLATES + informal).format(**values)
+    elif abs(pct) >= 1.5:
         text = _draw_template(state, "mover", PULSE_MOVER_TEMPLATES).format(**values)
     else:
         text = _draw_template(state, "quiet", PULSE_QUIET_TEMPLATES).format(**values)
@@ -1055,7 +1185,10 @@ def generate_zero_llm_price_event(symbol: str, price_ctx: dict, state: dict) -> 
         "sign": "+" if pct >= 0 else "",
         "range": range_str,
     }
-    text = _draw_template(state, "price_event", PRICE_EVENT_ZERO_LLM_TEMPLATES).format(**values)
+    informal = PRICE_EVENT_INFORMAL_UP_TEMPLATES if pct >= 0 else PRICE_EVENT_INFORMAL_DOWN_TEMPLATES
+    pool_key = "price_event_up" if pct >= 0 else "price_event_down"
+    templates = PRICE_EVENT_ZERO_LLM_TEMPLATES + informal
+    text = _draw_template(state, pool_key, templates).format(**values)
     return text if len(text) <= 280 else None
 
 
@@ -2176,9 +2309,12 @@ def check_weekly_engagement(state: dict) -> dict:
     engagement = state.setdefault("engagement", {})
 
     posts = []
+    chart_ctx = {}  # key -> {symbol: week_ctx} — the tickers/data each post's chart(s) may draw from
 
     if weekday == 0 and "07:00" <= now <= "08:30" and engagement.get("monday") != today_str:
-        last_week_perf = get_week_performance(tickers)
+        monday_week_ctx = {t: c for t in tickers if (c := _week_series(t, "rolling"))}
+        last_week_perf = {t: c["pct"] for t, c in monday_week_ctx.items()}
+        chart_ctx["monday"] = monday_week_ctx
         if last_week_perf:
             monday_top5 = sorted(last_week_perf, key=last_week_perf.get, reverse=True)[:5]
             monday_lines = "\n".join(
@@ -2207,7 +2343,9 @@ Keep it casual, direct, simple everyday English, under 280 characters."""))
         vol = get_recent_volatility(tickers, sessions=3)
         top5 = sorted(vol, key=vol.get, reverse=True)[:5]
         if top5:
-            wtd = get_week_to_date_change(top5)
+            wed_week_ctx = {t: c for t in top5 if (c := _week_series(t, "wtd"))}
+            wtd = {t: c["pct"] for t, c in wed_week_ctx.items()}
+            chart_ctx["wednesday"] = wed_week_ctx
             # Biggest gain to biggest loss — NOT alphabetical, overriding the general
             # engagement-post rule for this one post since the ranking itself is the point.
             top5_sorted = sorted(top5, key=lambda t: wtd.get(t, float("-inf")), reverse=True)
@@ -2275,7 +2413,9 @@ Keep it calm, considered, under 280 characters. No hype. No em dash – use en d
         # Week-to-date (Monday's open vs. latest close) — same metric the Wednesday post and the
         # zero-LLM weekend caption both use, so this ticker's % doesn't read differently across
         # the day's several "this week" posts depending on which one happened to generate it.
-        perf = get_week_to_date_change(tickers)
+        sat_week_ctx = {t: c for t in tickers if (c := _week_series(t, "wtd"))}
+        perf = {t: c["pct"] for t, c in sat_week_ctx.items()}
+        chart_ctx["saturday"] = sat_week_ctx
         if perf:
             perf_lines = "\n".join(
                 f"${t}  {'+' if v >= 0 else ''}{v}% WTD" for t, v in sorted(perf.items())
@@ -2317,7 +2457,16 @@ Keep it casual, direct, under 280 characters."""))
             log.info("Engagement [%s] (%d chars):\n%s", key, len(tweet), tweet)
             log_kwargs["gemini_call_used"] = "Y"
             log_kwargs["gemini_calls_today_after"] = state.get("gemini_calls_today", 0)
-            if post_tweet(tweet, state):
+            week_ctx = chart_ctx.get(key)
+            if week_ctx:
+                # Chart only the ticker(s) Gemini's actual output named, not the full candidate
+                # list handed to the prompt — it may have dropped or reordered some, and a chart
+                # must never appear for a ticker the tweet itself doesn't mention.
+                chart_tickers = _extract_tickers(tweet, list(week_ctx))
+                posted = post_tweet_with_week_charts(tweet, state, chart_tickers, week_ctx)
+            else:
+                posted = post_tweet(tweet, state)
+            if posted:
                 engagement[key] = today_str
                 save_state(state)
                 _log_event(state, **log_kwargs, pool_used="llm", posted="Y",
@@ -2396,15 +2545,18 @@ def _flush_post_backlog(state: dict) -> dict:
     return state
 
 
-def post_tweet(text: str, state: dict, pool: str = "llm", image_path: str | None = None) -> bool:
+def post_tweet(text: str, state: dict, pool: str = "llm",
+                image_paths: list[str] | None = None) -> bool:
     counter_key, limit = _POST_POOLS[pool]
     if state.get(counter_key, 0) >= limit:
         log.info("Daily %s post limit (%d) reached – skipping", pool, limit)
         return False
 
+    image_paths = [p for p in (image_paths or []) if p and os.path.exists(p)][:4]  # X's own cap
+
     if DRY_RUN:
         log.info("[DRY RUN] (%d/%d %s)%s\n%s", state.get(counter_key, 0) + 1, limit, pool,
-                  " [+chart]" if image_path else "", text)
+                  f" [+{len(image_paths)} chart(s)]" if image_paths else "", text)
         state[counter_key] = state.get(counter_key, 0) + 1
         return True
 
@@ -2444,15 +2596,31 @@ def post_tweet(text: str, state: dict, pool: str = "llm", image_path: str | None
                 time.sleep(random.uniform(0.03, 0.11))
 
             media_attached = False
-            if image_path and os.path.exists(image_path):
+            if image_paths:
                 try:
                     file_input = page.locator("input[data-testid='fileInput']").first
-                    file_input.set_input_files(image_path)
-                    # The compose box shows a spinner over the thumbnail while the upload is in
-                    # flight; the "remove media" control only appears once it's actually done,
-                    # so wait on that rather than a fixed sleep before allowing the post click.
-                    page.locator("[aria-label='Remove media']").first.wait_for(timeout=20000)
-                    media_attached = True
+                    # X's file input accepts multiple files in one go (all thumbnails start
+                    # uploading together) — pass the whole list rather than calling this once
+                    # per image.
+                    file_input.set_input_files(image_paths)
+                    # The compose box shows a spinner over each thumbnail while its upload is in
+                    # flight; each image's "remove media" control only appears once that image is
+                    # actually done, so wait for all of them rather than a fixed sleep before
+                    # allowing the post click. If some subset never finishes, whatever DID attach
+                    # still posts (each chart is independently numerically correct — it's just
+                    # fewer of them going out than intended), so this only fails the whole attach
+                    # when NONE made it.
+                    removers = page.locator("[aria-label='Remove media']")
+                    deadline = time.time() + 25
+                    while removers.count() < len(image_paths) and time.time() < deadline:
+                        time.sleep(0.5)
+                    attached_count = removers.count()
+                    if attached_count < len(image_paths):
+                        log.warning("Only %d/%d chart(s) finished uploading in time — posting "
+                                    "with what attached", attached_count, len(image_paths))
+                    media_attached = attached_count > 0
+                    if not media_attached:
+                        raise RuntimeError("no charts finished uploading")
                     time.sleep(random.uniform(0.6, 1.2))
                 except Exception as e:
                     log.warning("Chart attach failed — posting text-only instead: %s", e)
@@ -2495,6 +2663,19 @@ def post_tweet(text: str, state: dict, pool: str = "llm", image_path: str | None
         return False
 
 
+def _post_tweet_with_images(text: str, state: dict, image_paths: list[str], pool: str) -> bool:
+    """Shared post + cleanup for the chart-attaching helpers below — posts with whichever chart
+    PNGs were actually rendered, then deletes those temp files regardless of outcome."""
+    try:
+        return post_tweet(text, state, pool=pool, image_paths=image_paths)
+    finally:
+        for p in image_paths:
+            try:
+                os.remove(p)
+            except OSError:
+                pass
+
+
 def post_tweet_with_chart(text: str, state: dict, symbol: str, price_ctx: dict,
                            pool: str = "llm") -> bool:
     """post_tweet(), but attaches a 1D chart for `symbol` when live intraday data is available.
@@ -2502,17 +2683,30 @@ def post_tweet_with_chart(text: str, state: dict, symbol: str, price_ctx: dict,
     closed session would show a stale, possibly hours-old print next to the tweet's own number.
     render_price_chart() draws every figure from this same price_ctx, so there's no separate
     fetch that could disagree with the % move stated in `text`."""
-    image_path = None
+    image_paths = []
     if price_ctx.get("market_open"):
         image_path = render_price_chart(symbol, price_ctx)
-    try:
-        return post_tweet(text, state, pool=pool, image_path=image_path)
-    finally:
         if image_path:
-            try:
-                os.remove(image_path)
-            except OSError:
-                pass
+            image_paths.append(image_path)
+    return _post_tweet_with_images(text, state, image_paths, pool)
+
+
+def post_tweet_with_week_charts(text: str, state: dict, symbols: list[str],
+                                 week_contexts: dict[str, dict], pool: str = "llm",
+                                 label: str = "WTD") -> bool:
+    """post_tweet(), but attaches up to 4 1W charts (X's own per-tweet image cap) for the
+    tickers a weekly engagement post is actually citing numbers for — `symbols` in the same
+    order the tweet lists them, `week_contexts` the {symbol: _week_series(...) result} dict
+    those numbers came from, so each chart matches the figure the tweet states for that ticker."""
+    image_paths = []
+    for symbol in symbols[:4]:
+        ctx = week_contexts.get(symbol)
+        if not ctx:
+            continue
+        image_path = render_week_chart(symbol, ctx, label=label)
+        if image_path:
+            image_paths.append(image_path)
+    return _post_tweet_with_images(text, state, image_paths, pool)
 
 
 def post_poll(question: str, options: list[str], state: dict, duration_hours: int = 24) -> bool:
@@ -3589,13 +3783,19 @@ def check_zero_llm_weekend_content(state: dict) -> dict:
     tickers   = active_tickers_sorted()
 
     if weekday == 5 and "12:00" <= now <= "13:00" and zero_llm.get("caption") != today_str:
-        text = generate_zero_llm_weekend_post(tickers)
+        result = generate_zero_llm_weekend_post(tickers)
+        text, week_contexts = result if result else (None, {})
         caption_kwargs = dict(mechanism="weekend_content", slot_type="caption",
                                generation_method="zero_llm_template",
                                related_tickers=", ".join(f"${t}" for t in tickers))
         if text:
             log.info("Zero-LLM weekend caption (%d chars):\n%s", len(text), text)
-            if post_tweet(text, state, pool="keyword"):
+            # Chart only the ticker(s) the chosen template actually named (best/worst/top3/top5
+            # all vary by template) — extracted from the final text rather than assumed, so a
+            # chart never appears for a ticker the caption doesn't mention.
+            chart_tickers = _extract_tickers(text, list(week_contexts))
+            if post_tweet_with_week_charts(text, state, chart_tickers, week_contexts,
+                                            pool="keyword"):
                 zero_llm["caption"] = today_str
                 save_state(state)
                 _log_event(state, **caption_kwargs, pool_used="keyword", posted="Y",
