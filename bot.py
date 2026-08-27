@@ -1433,7 +1433,12 @@ Company-specific:
 
 Ignore: opinion pieces, editorials/op-eds, analysis recaps, general market commentary not specific to the ticker, sponsored content/advertorials/paid placements (anything reading like promotion rather than reporting), press releases with no real new information, and any headline that appears to be about a different company that shares part of the ticker's name.
 
-Respond with a JSON array, exactly one object per ticker given, in the same order:
+Respond with a JSON array. Emit AT LEAST one object per ticker given (is_major: false with no
+headline, if nothing qualifies) — but if a ticker's headlines describe MULTIPLE genuinely
+distinct major stories (e.g. two separate acquisition targets, or an earnings beat AND an
+unrelated contract win), emit one object per distinct story for that ticker, not just one. Only
+split into multiple objects when the stories are truly about different events — do not emit
+near-duplicate objects for the same underlying story reported by different outlets.
 [
   {
     "symbol": "the ticker this judgment is about",
@@ -1548,12 +1553,15 @@ Write the tweet. Keep it under 280 characters. Be specific – name real events,
 
 # ── News event classifier ─────────────────────────────────────────────────────
 
-def classify_news_batch(ticker_articles: dict[str, list[dict]], state: dict) -> dict[str, dict] | None:
+def classify_news_batch(ticker_articles: dict[str, list[dict]], state: dict) -> dict[str, list[dict]] | None:
     """Classify multiple tickers' fresh headlines (+ summary excerpt where available) in a
-    single Gemini call. Returns {symbol: classification} for tickers judged major (empty dict
-    if the call succeeded but found nothing major), or None if the call itself failed — the
-    caller needs to tell these apart to fall back to keyword classification only on a genuine
-    failure, not silently treat a failure the same as 'nothing major found'."""
+    single Gemini call. Returns {symbol: [classification, ...]} for tickers judged major — a
+    LIST, since a ticker's headlines can describe more than one genuinely distinct major story
+    in the same cycle (e.g. two separate acquisition targets), and the prompt now asks Gemini to
+    emit one object per distinct story rather than being forced to pick just one (empty dict if
+    the call succeeded but found nothing major), or None if the call itself failed — the caller
+    needs to tell these apart to fall back to keyword classification only on a genuine failure,
+    not silently treat a failure the same as 'nothing major found'."""
     if not ticker_articles:
         return {}
 
@@ -1574,7 +1582,7 @@ def classify_news_batch(ticker_articles: dict[str, list[dict]], state: dict) -> 
         for r in results:
             symbol = r.get("symbol", "")
             if symbol in ticker_articles and r.get("is_major"):
-                major[symbol] = r
+                major.setdefault(symbol, []).append(r)
         return major
     except Exception as e:
         log.warning("Batch news classification failed for %s: %s", list(ticker_articles), e)
@@ -1847,10 +1855,15 @@ def _find_research_spotlight(watchlist: list[str], state: dict) -> dict | None:
     return None
 
 
-def classify_news_keyword(symbol: str, articles: list[dict]) -> dict | None:
-    """Zero-LLM classifier for a single ticker's fresh articles. Returns the first article
-    matching a compound rule AND actually being about this company, in the same shape
-    classify_news_batch's Gemini path returns."""
+def classify_news_keyword(symbol: str, articles: list[dict]) -> list[dict]:
+    """Zero-LLM classifier for a single ticker's fresh articles. Returns EVERY article matching
+    a compound rule AND actually being about this company — not just the first — in the same
+    per-item shape classify_news_batch's Gemini path returns. Returning only the first match
+    used to mean a ticker with two genuinely distinct major stories in the same cycle (e.g. two
+    separate acquisition targets) would silently lose the second one forever: every fetched
+    headline gets marked 'seen' right after gather regardless of what classification finds, so a
+    headline that never got a chance to win here never gets reconsidered in a later cycle either."""
+    results = []
     for a in articles:
         if _is_generic_analysis_piece(a["headline"]):
             continue  # opinion/valuation piece, not a news report — skip regardless of keywords
@@ -1865,12 +1878,12 @@ def classify_news_keyword(symbol: str, articles: list[dict]) -> dict | None:
         # into `ma`, because the active-voice "Acquires N Shares" form evades _MA_ROUTINE_RE).
         if _is_share_purchase(text):
             if _is_large_share_purchase(text):
-                return {
+                results.append({
                     "is_major": True,
                     "category": "large_share_purchases",
                     "headline": a["headline"],
                     "reason": "Sizeable institutional share purchase",
-                }
+                })
             continue
         # Named-firm research note (price-target change, rating, initiation, forward call) — a
         # real, price-relevant view competitor accounts post too. Checked before the keyword loop
@@ -1878,12 +1891,13 @@ def classify_news_keyword(symbol: str, articles: list[dict]) -> dict | None:
         # slipping through uncategorized. _is_research_note_headline already excludes generic
         # valuation/opinion clickbait, so this stays tight.
         if _is_research_note_headline(a["headline"]):
-            return {
+            results.append({
                 "is_major": True,
                 "category": "analyst_note",
                 "headline": a["headline"],
                 "reason": "Named-firm analyst research note",
-            }
+            })
+            continue
         for category, primary, secondary in _KEYWORD_RULES:
             if not primary.search(text):
                 continue
@@ -1893,13 +1907,14 @@ def classify_news_keyword(symbol: str, articles: list[dict]) -> dict | None:
                 continue  # speculative preview ("Will X Beat Estimates?"), not a reported beat/miss
             if secondary and not secondary.search(text):
                 continue  # e.g. "partnership" without a dollar figure is too vague to act on
-            return {
+            results.append({
                 "is_major": True,
                 "category": category,
                 "headline": a["headline"],
                 "reason": f"Keyword rule matched (category: {category})",
-            }
-    return None
+            })
+            break  # this article's classified — move to the next article, not the next rule
+    return results
 
 
 NEWS_EVENT_SYSTEM = """## Role
@@ -3267,6 +3282,19 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             if a["published"] and (now_dt - a["published"]).total_seconds() < NEWS_FRESHNESS_HOURS * 3600
         ]
         new_articles = [a for a in recent if a["headline"] not in news_seen.get(symbol, [])]
+
+        if articles and not new_articles:
+            # Nothing reaches classification this cycle, which is otherwise a silent dead end —
+            # no log row at all gets written, so "why didn't $X get covered" is unanswerable after
+            # the fact. Split out the two ways everything can get filtered before classification
+            # ever runs (too old vs. already fetched before) so a ticker with several concurrent,
+            # genuinely distinct stories doesn't look identical to one with nothing going on.
+            stale = len(articles) - len(recent)
+            already_seen = len(recent) - len(new_articles)
+            log.info("NEWS: $%s fetched %d headline(s), 0 reached classification "
+                     "(%d older than %dh, %d already seen before)",
+                     symbol, len(articles), stale, NEWS_FRESHNESS_HOURS, already_seen)
+
         news_seen[symbol] = [a["headline"] for a in articles]
 
         # Drop recycled institutional-holding disclosures (same filer + same share count as a
@@ -3377,17 +3405,16 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             # classification for just this batch instead of dropping it.
             log.warning("Gemini batch failed for %s — falling back to keyword classification", batch)
             for symbol in batch:
-                classification = classify_news_keyword(symbol, candidates[symbol])
-                if classification:
+                for classification in classify_news_keyword(symbol, candidates[symbol]):
                     _queue_item(symbol, classification, "keyword")
             continue
-        for symbol, classification in major.items():
-            _queue_item(symbol, classification, "gemini")
+        for symbol, classifications in major.items():
+            for classification in classifications:
+                _queue_item(symbol, classification, "gemini")
 
     # ── Classify via keyword fallback: pure local pattern matching, no API call ──
     for symbol in keyword_symbols:
-        classification = classify_news_keyword(symbol, candidates[symbol])
-        if classification:
+        for classification in classify_news_keyword(symbol, candidates[symbol]):
             _queue_item(symbol, classification, "keyword")
 
     # ── Release: post at most one held event this cycle, respecting the global gap —
