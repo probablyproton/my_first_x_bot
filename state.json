@@ -1,9 +1,9 @@
 {
   "date": "2026-08-27",
-  "daily_posts": 5,
+  "daily_posts": 6,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 3,
-  "gemini_calls_today": 14,
+  "daily_pulse_posts": 4,
+  "gemini_calls_today": 16,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -57,13 +57,13 @@
     "IFX.DE": 29796935,
     "LRCX": 29796962,
     "FORM": 1320,
-    "AVGO": 1400,
+    "AVGO": 29797022,
     "KLAC": 1142,
     "TSM": 29796994,
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 555,
+  "event_log_next_id": 557,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -115,7 +115,7 @@
     "news_STX": 1362,
     "ASML.AS": 862,
     "news_ASML.AS": 1322,
-    "news_AVGO": 1400,
+    "news_AVGO": 29797022,
     "LRCX": 1111,
     "news_MRVL": 1336
   },
@@ -461,8 +461,8 @@
       "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
       "Schneider Electric launches residential EV charger in Canada",
       "Schneider Charge Residential EV Charger Debuts With SmartAmp",
-      "Schneider Electric’s new EV charger eliminates pricey upgrades",
       "Schneider Electric launches Easy UPS 3S Pro for critical infrastructure and applications",
+      "Schneider Electric’s new EV charger eliminates pricey upgrades",
       "Schneider Electric unveils Schneider Charge: A smart, simple residential EV charger built for today's home energy needs – Company Announcement - FT.com",
       "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?",
@@ -806,12 +806,12 @@
       "Western Digital Stock Jumped 13% in a Day. Is the Bounce Real?",
       "Western Digital Corp. stock outperforms competitors on strong trading day",
       "Western Digital Tokenized Stock (Robinhood) (WDC) Chart",
+      "WD to Participate in Upcoming Investor Conference",
       "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
+      "How Western Digital used AI to turbocharge collection of supplier emissions data",
+      "Western Digital Corp (NASDAQ:WDC)",
       "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
       "Western Digital blows hard disk drive future wide open",
-      "WD Customer Survey Highlights Growing Focus on Scale, Economics, and Reliability in AI Infrastructure Planning",
-      "WD Unifies its Professional Content Creator Storage Portfolio Under the G-DRIVE® Brand",
-      "Western Digital Corp. stock outperforms competitors despite losses on the day",
       "Western Digital Stock Is Down Sharply: Why the Bull Case Still Looks Strong",
       "Western Digital (WDC) May Find a Bottom Soon, Here's Why You Should Buy the Stock Now",
       "Zacks.com featured highlights Seagate Technology, Western Digital and Dell",
@@ -844,10 +844,10 @@
     ],
     "KLAC": [
       "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
-      "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
       "3 Big Reasons to Love KLA Corporation (KLAC)",
       "Semiconductor Manufacturing Stocks Q4 Results: Benchmarking KLA Corporation (NASDAQ:KLAC)",
       "Kwik Lok acquires full ownership of Kwik Lok Australia",
+      "2 Unpopular Stocks That Deserve Some Love and 1 We Brush Off",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "Wrapped KLA Corporation Tokenized Stock (xStock) price today, wKLACx to USD live price, marketcap and chart",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
@@ -871,15 +871,15 @@
       "A&O Shearman advises SAP on strategic AI acquisitions of Dremio and Prior Labs",
       "Accenture to Acquire McCoy, Strengthening SAP Expertise and AI Innovation for Mid-Market",
       "SAP Completes Acquisition of Reltio",
+      "SAP Launches Defense Innovation Hub in Munich",
       "SAP CEO: the AI race is being fought in the wrong place",
       "SAP Plans to Expand AI Access to Customers Who Don’t Use Cloud",
-      "SAP SE (SAP) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
+      "SAP Restricts Hiring, Travel to Fund ‘Significant’ AI Push",
+      "SAP and Syngenta Announce Partnership to Scale AI-Assisted Agriculture",
       "SAP SE Investigated by the Portnoy Law Firm",
+      "SAP Reorganizes Board as CEO Klein to Focus on Developing AI",
+      "SAP Empowers Developers to Drive the Business AI Revolution",
       "SAP SE Launches Munich Hub to Boost Military Digital Readiness",
-      "SAP: Thomas Saueressig Appointed Chief Customer Officer As Company Reorganizes Board To Accelerate AI Focus",
-      "SAP Proposes Dividend of Euro2.50 per Share",
-      "Analysts Offer Insights on Technology Companies: SAP SE (SAP) and TSMC (TSM)",
-      "Why is SAP Acquiring Master Data Management Company Reltio?",
       "SAP loosens ERP maintenance and support rules",
       "SAP (XTRA:SAP) Stock Looks Below Fair Value Despite AI Hopes",
       "Palantir Expands SAP Transformation Push With SNP Partnership",
@@ -915,27 +915,27 @@
       "Benicia chip manufacturing tool maker acquired by Applied Materials",
       "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
       "Nouri joins Applied Materials as global head of ventures",
+      "Applied Materials, Inc. AMAT Stock Price Analysis Today Cathay Pacific (M872wGA8LQ)",
       "Applied Materials Inc. stock outperforms competitors despite losses on the day",
-      "Applied Materials, Inc. AMAT Stock Price Analysis Today Alain Delon (sqABbaCOHB)",
       "AI energy bottleneck is driving semiconductor materials innovation, says Applied Materials",
       "Applied Materials to Participate in Upcoming Investor Conferences",
       "The Zacks Analyst Blog Highlights NVIDIA, Applied Materials and ConocoPhillips",
       "Applied Materials Tokenized Stock (Robinhood)",
       "FILE PHOTO: Illustration shows Applied Materials logo",
-      "Applied Materials executive says data centers set new AI competition standard",
-      "Applied Materials Stock Is -35% Off Its Highs: Here Is The Price I'll Start Buying $AMAT Smh Stock (2lwp69YoQ5)",
+      "Applied Materials, Inc. AMAT Stock Price Analysis Today Alain Delon (sqABbaCOHB)",
       "Applied Materials (AMAT) Enters a New AI-Driven Growth Cycle",
       "Applied Materials’ China Problem Is Getting Worse",
       "AMAT's AGS Business Gains Momentum: How Long Will it Sustain?",
       "Applied Materials Drops 34%. Here’s Why You Should Buy the Dip in AMAT Stock.",
-      "Applied Materials (AMAT) Is Positioned to Capture More of the AI Chip Manufacturing Boom"
+      "Applied Materials (AMAT) Is Positioned to Capture More of the AI Chip Manufacturing Boom",
+      "Applied Materials (AMAT) Is Considered a Good Investment by Brokers: Is That True?"
     ],
     "NVDA": [
+      "Nvidia Agrees to Acquire Hugging Face for $12.9 Billion, Expanding its Control of Open-Source AI Models",
+      "Nvidia Reportedly Ready to Acquire Hugging Face for $12.9bn",
+      "Nvidia opens talks with Rebellions on potential AI chip partnership",
       "Orgel Wealth Management LLC Acquires Shares of 3,630 NVIDIA Corporation $NVDA",
-      "Nvidia in Talks With Chip Startup Rebellions for Potential Deal",
       "Exclusive: Nvidia snaps up Kumo AI in latest acquisition",
-      "Nvidia acquisition of SchedMD sparks worry among AI specialists about software access",
-      "Nvidia in talks to acquire Hugging Face in US$13 billion deal, Business Insider reports",
       "STAR WARS Zero Company™ GeForce Game Ready Driver Released",
       "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
       "New OpenAI chip promises faster, cheaper AI than Nvidia’s",
@@ -943,19 +943,20 @@
       "NVIDIA aStock Price, ANVDA Price, Live Charts, and Marketcap - Coinbase Germany",
       "OpenAI Claims Its New Chips Can Outperform Nvidia Processors in Tests",
       "Nvidia announces AI-related price hikes",
+      "Did Nvidia (NASDAQ:NVDA) just reset the AI build-out story after its report?",
       "Meet Madison Huang, daughter of multibillionaire Nvidia CEO Jensen Huang",
       "US probes S’pore-based Apex Logistics over alleged Nvidia AI chip smuggling",
-      "Samsung, SX Hynix said to up 8-layer HBM4 supply to Nvidia",
-      "1 No-Brainer Dividend ETF to Generate Thousands of Dollars in Passive Income",
-      "Nvidia shares up 5% after-hours",
-      "Nvidia's Earnings Smash Estimates, but Crypto Bettors Aren't Buying a $250 Close by Month-End",
-      "Nvidia net income more than doubles to $59.7bn as revenue climbs 106%",
-      "Nvidia to buy AI platform Hugging Face for $12.9 bn: report"
+      "Stock market today: Dow, S&P 500, Nasdaq futures rise as Nvidia, Salesforce earnings boost tech",
+      "3 Stocks That Are No-Brainer Buys in the Second Half of 2026",
+      "Nvidia bets on another blockbuster year, guiding for 70% growth into 2028",
+      "Asian chip firms lifted by Nvidia forecast but broader markets struggle",
+      "Zacks.com featured highlights LifeStance Health, NVIDIA, Valero, Comfort and National Vision"
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "AIXTRON SE increases FY 2026 guidance",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
+      "Aixtron SE vs Veeco Instruments",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Polarization-engineered high mobility of two-dimensional hole gas in GaN",
       "Gallium nitride vertical-channel junction field-effect transistors",
@@ -993,8 +994,8 @@
       "Advanced Micro Devices (AMD) and Intel (INTC) Both Just Raised Billions for AI. Here’s How Their Strategies Differ"
     ],
     "IFX.DE": [
-      "Infineon’s bets big on SIVR with C2i buy",
       "Germany Infineon Technologies C2i Semiconductors Acquisition",
+      "Infineon’s bets big on SIVR with C2i buy",
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Germany's Infineon acquires Bengaluru-based C2i Semiconductors to strengthen AI data centre power business",
@@ -1004,8 +1005,8 @@
       "Alicia LaMotte Appointed as Head of Emerging Talent Acquisition – Americas at Infineon Technologies",
       "NIELIT Partners with Infineon to Strengthen India’s Semiconductor Ecosystem, Talent Pool",
       "Infineon Startup Challenge 2026 puts humanoid robotics in the spotlight",
-      "Infineon bolsters global lead in automotive semiconductors with number one position in microcontrollers driving this success",
       "Infineon Technologies officially opens new R&D Centre in Cork",
+      "EQS-PVR: Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
       "Chip Stocks Edge Higher After Monday Rout",
       "Infineon and MediaTek partner on automotive AI systems",
       "Infineon Technologies (XTRA:IFX) Stock Fair Value Rises After Analysts Lift Targets",
@@ -1022,8 +1023,8 @@
       "Most significant networking acquisitions of 2025",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "J. Goldman takes new $6.97M stake in Arista Networks",
-      "ANET Stock Analysis | Arista Networks, Inc. | February 19, 2026 Arthur Fils (ETBri7orij)",
       "Arista Networks vs. Salesforce: Which Technology Stock Is a Better Buy in 2026?",
+      "ANET Stock Analysis | Arista Networks, Inc. | February 19, 2026 Arthur Fils (ETBri7orij)",
       "Why Arista Networks (NYSE:ANET) Is Back on the Market Radar?",
       "Arista Networks Inc (NYSE:ANET)",
       "Arista Networks Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
@@ -1047,8 +1048,8 @@
       "United States Government May Restrict ASML's DUV Tool Exports to China",
       "ASML Korea boosts hiring to staff growing chip hubs nationwide - CHOSUNBIZ",
       "ASML and the West’s technology dilemma",
-      "Which of these companies once owned meaningful chunks of TSMC, ASML, and NXP – and today owns none of them?",
       "ASML Holding NV Tokenized Stock (Robinhood) Exchanges ASML Markets | Buy & Sell & Trade",
+      "Which of these companies once owned meaningful chunks of TSMC, ASML, and NXP – and today owns none of them?",
       "How ASML became Europe’s most valuable company",
       "ASML Supplier Zeiss Says It Can Handle Demand for Key AI Parts",
       "U.S. preparing to force Netherlands to ban ASML from selling to China",
@@ -1059,8 +1060,8 @@
       "Why ASML's sales forecast lift is a 'real vote of confidence' for the AI trade"
     ],
     "STX": [
-      "Seagate (STX) exec plans $7.8M RSU tax-share sale of stock",
       "Applied Optoelectronics, SanDisk, Seagate And Other Big Stocks Moving Lower In Monday’s Pre-Market Session",
+      "Seagate Technology (STX) CLO sells 694 shares in 10b5-1 trading plan",
       "Seagate Stock Surged 685% in One Year on AI Storage Demand. Is It Still Worth Buying?",
       "Seagate Technology Reports Fiscal Second Quarter 2026 Financial Results",
       "Wasabi to acquire Seagate’s Lyve Cloud business",
@@ -1104,72 +1105,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "AVGO",
-      "classification": {
-        "symbol": "AVGO",
-        "is_major": true,
-        "category": "large_share_purchases",
-        "headline": "On Nvidia Earnings Day, Cathie Wood’s ARK Loaded Up $20M On Rival Chip Stock",
-        "reason": "Cathie Wood's ARK Investment Management, a named institution, made a sizeable purchase of 57,705 shares of AVGO, meeting the criteria for a large share purchase."
-      },
-      "link": "https://stocktwits.com/news-articles/markets/equity/on-nvidia-earnings-day-cathie-wood-s-ark-loaded-up-20-m-on-rival-chip-stock/cZY8YJSRJpk?.tsrc=rss",
-      "source": "stocktwits.com",
-      "method": "gemini",
-      "published": "2026-08-27T04:44:37",
-      "queued_min": 29796934,
-      "all_articles": [
-        {
-          "headline": "Frontier AI Security and Private Cloud | Broadcom News and Stories",
-          "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxPR0lkTklnckg1N29PWWJWRzVKVFAtS0h2ZjdUenV2U3gyOXhud0tvMVlLT1Q0S3IxOGFObFhqQnVZX1lLNWEzNVlHY1pSejRMUnphenpjbFJCSF96cVQ4SHNIZnROT0l6ZGRCZk44RjVXTzFSQ0FrMFM2bVV3WF90RVFJWlQzaDdlZlNta2VCQ2paTFpwQlF2RGk0Qk5RUlpsTE9ESThLWEgyUzJ5a3ZVSTRscHFaOGlmeGUtbTQzNHJvalpyR3g5ak1IdlNQTTBBWHB1S1g0RXpsTldTemswTjBIMm9VU2JGQjRIOUd3c21tNGNJVllzQl9tdDJwMUFRWFJfd1NRb0xrVWduSmltOWxFaEdWWGEzUmdTd3JneHI?oc=5",
-          "source": "Broadcom",
-          "summary": "",
-          "published": "2026-08-26T10:25:26"
-        },
-        {
-          "headline": "AMD, Broadcom book most of Powertech's FOPLP capacity ahead of 2027 ramp",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQdnNWUFVEUUVYMlhEWnQ1Q0FkYTROQVlLTlJJeEhaa2hMQXIwLVV4ZWcxdFQxQzQwRnV4U3lvRGlFN0tLSmdsSjBIRmhNMnRrZU9SUHFBUk5UVkdmdW1ZRXJPVHhvVWVCS3hfLU5zM0tNMW9PbmQ0M2dfbnRIdWxLSUtsS1BJMXJRTGV0eg?oc=5",
-          "source": "digitimes",
-          "summary": "",
-          "published": "2026-08-27T02:21:18"
-        },
-        {
-          "headline": "On Nvidia Earnings Day, Cathie Wood’s ARK Loaded Up $20M On Rival Chip Stock",
-          "link": "https://stocktwits.com/news-articles/markets/equity/on-nvidia-earnings-day-cathie-wood-s-ark-loaded-up-20-m-on-rival-chip-stock/cZY8YJSRJpk?.tsrc=rss",
-          "source": "stocktwits.com",
-          "summary": "Cathie Wood’s ARK Investment Management bought a total of 57,705 AVGO shares across three of its funds.",
-          "published": "2026-08-27T04:44:37"
-        },
-        {
-          "headline": "NVDA vs. AVGO: Which AI Chip Giant Actually Wins for Retirement Portfolios in 2026?",
-          "link": "https://247wallst.com/investing/2026/08/26/nvda-vs-avgo-which-ai-chip-giant-actually-wins-for-retirement-portfolios-in-2026/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "Both NVIDIA and Broadcom just posted record quarters riding the same AI infrastructure wave, but for retirement investors, one of these chip giants fits the portfolio and one quietly works against it.",
-          "published": "2026-08-26T19:59:49"
-        },
-        {
-          "headline": "OpenAI's New AI Chip Could Be Good News for Broadcom",
-          "link": "https://finance.yahoo.com/technology/ai/articles/openais-ai-chip-could-good-194049805.html?.tsrc=rss",
-          "source": null,
-          "summary": "BNP sees custom accelerators becoming a bigger part of AI infrastructure.",
-          "published": "2026-08-26T19:40:49"
-        },
-        {
-          "headline": "A $60 Billion Reason to Buy Broadcom Stock",
-          "link": "https://www.barchart.com/story/news/4131742/a-60-billion-reason-to-buy-broadcom-stock?.tsrc=rss",
-          "source": "barchart.com",
-          "summary": "Broadcom stock gained on news of fresh $60 billion debt talks with Blackstone and Apollo Global Management.",
-          "published": "2026-08-26T19:23:20"
-        },
-        {
-          "headline": "A Leading Hedge Fund Just Placed Massive Bets on Broadcom and Intel Stocks. Should You Follow Suit?",
-          "link": "https://www.fool.com/investing/2026/08/26/a-leading-hedge-fund-just-placed-massive-bets-on-b/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "These two chipmakers have had very different 2026s.",
-          "published": "2026-08-26T15:40:00"
-        }
-      ]
-    },
     {
       "symbol": "MRVL",
       "classification": {
@@ -1401,21 +1336,22 @@
     },
     "AVGO": {
       "analyst_note": 1221,
-      "expansion": 1400
+      "expansion": 1400,
+      "large_share_purchases": 29797022
     },
     "MRVL": {
       "analyst_note": 1336
     }
   },
   "recent_post_sources": [
-    "Canary Media",
     "POWER Magazine",
     "Data Center Knowledge",
     "ServeTheHome",
     "DatacenterDynamics",
-    "Electronics360"
+    "Electronics360",
+    "stocktwits.com"
   ],
-  "last_news_post_min": 29796994,
+  "last_news_post_min": 29797022,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -1491,8 +1427,7 @@
       9,
       6,
       5,
-      2,
-      3
+      2
     ]
   },
   "last_evergreen_min": 29796062,
@@ -1500,8 +1435,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 301.8,
-    "SIE.DE": 288.1,
+    "SU.PA": 302.05,
+    "SIE.DE": 288.35,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1527,11 +1462,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.94,
-    "BESI.AS": 195.7,
-    "AIXA.DE": 38.4,
-    "IFX.DE": 56.63,
-    "ASML.AS": 1523.8,
+    "SAP.DE": 181.84,
+    "BESI.AS": 195.55,
+    "AIXA.DE": 38.42,
+    "IFX.DE": 56.97,
+    "ASML.AS": 1526.0,
     "MU": 940.9,
     "TSM": 418.78,
     "KLAC": 183.88,
@@ -1573,8 +1508,8 @@
     "LRCX": "2026-08-13"
   },
   "next_pulse_interval": 30,
-  "last_pulse_post_min": 29796991,
-  "last_pulse_ticker": "LRCX",
+  "last_pulse_post_min": 29797021,
+  "last_pulse_ticker": "AIXA.DE",
   "pulse_news_seen": {
     "asml.as:where canon can actually disrupt asml": "2026-08-25",
     "wdc:western digital sits 46% below its high and has still more than doubled this year": "2026-08-25",
@@ -1622,5 +1557,5 @@
   ],
   "us_posted": [],
   "eu_flexible_used": 2,
-  "us_flexible_used": 3
+  "us_flexible_used": 4
 }
