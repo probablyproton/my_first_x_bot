@@ -501,14 +501,14 @@ def _is_market_open_for(symbol: str) -> bool:
 
 
 def _gemini_news_hours_active() -> bool:
-    """News classification only uses Gemini between 08:30 and US close (22:00) CET. The
-    unlock sits 15min before the EU pre-market slot's own 08:45 target (which can itself
-    fire as early as 08:40 with jitter) — giving news its own earlier cron cycle to make
-    any Gemini attempt, rather than competing for the 5-RPM ceiling in the same cycle the
-    pre-market post needs to succeed in. Outside this window it always routes to the
-    keyword fallback, regardless of remaining budget or Gemini's availability — so
-    overnight activity never quietly spends the day's Gemini allowance before it's needed."""
-    return "08:30" <= now_hhmm() <= "22:00"
+    """News classification only uses Gemini between 06:00 and 23:00 CET — wide enough that
+    genuine overnight developments already have AI-written (not just keyword-templated)
+    coverage posted by the time traders start their day, rather than waiting for the EU
+    pre-market slot to open the window. Outside it, news still posts (check_news_events itself
+    runs around the clock) — it just always routes to the keyword fallback regardless of
+    remaining budget or Gemini's availability, so genuinely overnight activity never quietly
+    spends the day's Gemini allowance before it's needed."""
+    return "06:00" <= now_hhmm() <= "23:00"
 
 
 def market_phase(key: str) -> str:
