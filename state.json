@@ -2,8 +2,8 @@
   "date": "2026-08-27",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 0,
-  "gemini_calls_today": 1,
+  "daily_pulse_posts": 1,
+  "gemini_calls_today": 2,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 547,
+  "event_log_next_id": 548,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -745,11 +745,11 @@
       "FormFactor (FORM) Stock May Be 48% Undervalued On Cash Flow Strength",
       "PDT Partners LLC Takes Position in FormFactor, Inc. $FORM",
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
-      "FormFactor Drops 7.6% Amid Sector-Wide Selling",
       "A Look at FormFactor Inc (FORM) After 5.5% Decline -- GF Value $57.55 vs Price $107.90",
       "Primecap Management Co. CA Takes $270.30 Million Position in FormFactor, Inc. $FORM",
       "Should You Buy, Sell or Hold FormFactor Stock Before Q2 Earnings?",
       "Polymer Capital Management HK LTD Purchases Shares of 25,000 FormFactor, Inc. $FORM",
+      "Has FormFactor (FORM) Priced In The Sector Rally Or Is It Fairly Valued?",
       "Bank of New York Mellon Corp Buys New Stake in FormFactor, Inc. $FORM",
       "IJR, PTGX, PAYC, FORM: ETF Outflow Alert"
     ],
@@ -856,7 +856,7 @@
       "Is KLA (KLAC) Using AI-Fueled Advanced Packaging To Quietly Reinvent Its Recurring Revenue Base?",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corp Stock (KLAC) Moved Down by 3.84% on Aug 24: A Full Analysis",
-      "KLA Corporation: Buy The 2027+ Double Tailwind (NASDAQ:KLAC)",
+      "KLA poised for growth with rising chip complexi...",
       "Stocks Rebound as Crude Oil Weakness Knocks Bond Yields Lower",
       "SCHG, LLY, KLAC, LIN: Large Inflows Detected at ETF",
       "Rout in Chipmakers Weighs on Broader Market",
@@ -1306,7 +1306,14 @@
       4,
       1
     ],
-    "mover": [],
+    "mover": [
+      4,
+      3,
+      1,
+      0,
+      6,
+      2
+    ],
     "price_event": [
       3,
       4
@@ -1321,8 +1328,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 300.8,
-    "SIE.DE": 289.15,
+    "SU.PA": 299.2,
+    "SIE.DE": 288.1,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1348,11 +1355,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 180.3,
-    "BESI.AS": 191.8,
-    "AIXA.DE": 36.55,
-    "IFX.DE": 55.15,
-    "ASML.AS": 1499.6,
+    "SAP.DE": 180.02,
+    "BESI.AS": 192.1,
+    "AIXA.DE": 36.77,
+    "IFX.DE": 55.19,
+    "ASML.AS": 1497.6,
     "MU": 940.9,
     "TSM": 418.78,
     "KLAC": 183.88,
@@ -1393,9 +1400,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 40,
-  "last_pulse_post_min": 29796181,
-  "last_pulse_ticker": "LRCX",
+  "next_pulse_interval": 31,
+  "last_pulse_post_min": 29796901,
+  "last_pulse_ticker": "BESI.AS",
   "pulse_news_seen": {
     "mrvl:broadcom has seen its biggest customer drop a key chip before. history says what the stock did next.": "2026-08-24",
     "avgo:beyond nvidia, amd, and broadcom: why this chip stock will emerge as the biggest winner of the ai semiconductor boom": "2026-08-24",
