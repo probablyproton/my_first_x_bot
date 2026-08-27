@@ -1,9 +1,9 @@
 {
   "date": "2026-08-27",
-  "daily_posts": 2,
+  "daily_posts": 3,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 2,
-  "gemini_calls_today": 9,
+  "gemini_calls_today": 11,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -55,7 +55,7 @@
     "BESI.AS": 1083,
     "ASML.AS": 1322,
     "IFX.DE": 29796935,
-    "LRCX": 1382,
+    "LRCX": 29796962,
     "FORM": 1320,
     "AVGO": 1400,
     "KLAC": 1142,
@@ -63,7 +63,7 @@
     "AMAT": 1322,
     "WDC": 1292
   },
-  "event_log_next_id": 551,
+  "event_log_next_id": 552,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -99,7 +99,7 @@
     "news_MU": 1322,
     "news_AMD": 1292,
     "BESI.AS": 917,
-    "news_LRCX": 1382,
+    "news_LRCX": 29796962,
     "FORM": 1320,
     "AMD": 1022,
     "AVGO": 1082,
@@ -461,8 +461,8 @@
       "Schneider Electric’s new Level 2 residential EV charger has built-in load management",
       "Schneider Electric launches residential EV charger in Canada",
       "Schneider Charge Residential EV Charger Debuts With SmartAmp",
-      "Schneider Electric’s new EV charger eliminates pricey upgrades",
       "Schneider Electric launches Easy UPS 3S Pro for critical infrastructure and applications",
+      "Schneider Electric’s new EV charger eliminates pricey upgrades",
       "Schneider Electric unveils Schneider Charge: A smart, simple residential EV charger built for today's home energy needs – Company Announcement - FT.com",
       "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?",
@@ -809,10 +809,10 @@
       "WD to Participate in Upcoming Investor Conference",
       "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
       "Western Digital Corp (NASDAQ:WDC)",
-      "Western Digital Adds Post-Quantum Cryptography to Hard Drives",
+      "How News Moves The Stock Price Of Western Digital Corporation ($WDC) #WDC Danhausen (OhyNkcAprg)",
       "How Western Digital used AI to turbocharge collection of supplier emissions data",
-      "WDC Stock Analysis | Western Digital Corporation | June 29, 2026 Rublev (NwB8Zy90H3)",
       "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
+      "List of 11 Acquisitions by Western Digital (Aug 2026)",
       "Western Digital Stock Is Down Sharply: Why the Bull Case Still Looks Strong",
       "Western Digital (WDC) May Find a Bottom Soon, Here's Why You Should Buy the Stock Now",
       "Zacks.com featured highlights Seagate Technology, Western Digital and Dell",
@@ -898,6 +898,7 @@
       "Besi APac Aims To Cut Emission With SAF For Semiconductor Shipment",
       "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
       "Dutch semiconductor giant Besi plans €10M to further build production facility in Vietnam",
+      "Besi APac inks deal with DHL Express to reduce greenhouse gas emissions via sustainable aviation fuel",
       "Besi Advances Repayment of its 2029 Convertible Bonds",
       "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
       "ASML shares hit lowest since June as China reportedly begins mass production of chipmaking machines",
@@ -905,8 +906,7 @@
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
       "Zacks.com featured highlights Celestica, Zurn Elkay, Lam, BE Semiconductor and Johnson Controls",
-      "BE Semiconductor Stock Rises 5% on Berenberg Upgrade",
-      "Buy These 5 Top-Ranked Efficient Stocks With Strong Growth Potential"
+      "BE Semiconductor Stock Rises 5% on Berenberg Upgrade"
     ],
     "AMAT": [
       "Applied Materials Extends AI Chip Role With NEXX Packaging Acquisition",
@@ -915,12 +915,12 @@
       "Benicia chip manufacturing tool maker acquired by Applied Materials",
       "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
       "Nouri joins Applied Materials as global head of ventures",
-      "Dax Nimmt Die 10.000 Punkte - Bayer Beflügelt Cathay Pacific (872wGA8LQK)",
+      "Applied Materials, Inc. AMAT Stock Price Analysis Today Cathay Pacific (M872wGA8LQ)",
       "Applied Materials Inc. stock outperforms competitors despite losses on the day",
       "AI energy bottleneck is driving semiconductor materials innovation, says Applied Materials",
       "Applied Materials to Participate in Upcoming Investor Conferences",
-      "The Zacks Analyst Blog Highlights NVIDIA, Applied Materials and ConocoPhillips",
       "Applied Materials Tokenized Stock (Robinhood)",
+      "The Zacks Analyst Blog Highlights NVIDIA, Applied Materials and ConocoPhillips",
       "FILE PHOTO: Illustration shows Applied Materials logo",
       "Applied Materials, Inc. AMAT Stock Price Analysis Today Alain Delon (sqABbaCOHB)",
       "Applied Materials (AMAT) Enters a New AI-Driven Growth Cycle",
@@ -972,11 +972,11 @@
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures"
     ],
     "AMD": [
+      "Burnham & Co LLC Acquires New Stake in Advanced Micro Devices, Inc. $AMD",
       "Advanced Micro Devices (AMD) Adds AI Inference Silicon With Taalas Acquisition",
       "Advanced Micro Devices, Inc.",
       "Move Over, Nvidia: Why AMD’s Latest Acquisition Could Redefine Direct-Silicon AI Inference",
       "AMD acquires software built by URI professor and colleagues",
-      "AMD buys chip startup that hardwires AI models into its silicon",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
       "Advanced Micro Devices (AMD) Stock Just Hit A Key Level | What’s Next? Paris Hilton (EI0mT65863)",
       "Advanced Micro Devices Tokenized bStocks Price Today | Live AMDB Price, Chart & Market Data",
@@ -1023,19 +1023,19 @@
       "Most significant networking acquisitions of 2025",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "J. Goldman takes new $6.97M stake in Arista Networks",
+      "ANET Stock Analysis | Arista Networks, Inc. | February 19, 2026 Arthur Fils (ETBri7orij)",
       "Arista Networks vs. Salesforce: Which Technology Stock Is a Better Buy in 2026?",
       "Why Arista Networks (NYSE:ANET) Is Back on the Market Radar?",
       "Arista Networks Inc (NYSE:ANET)",
       "Arista Networks Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
       "Convert 1 ANET (Arista Networks • Robinhood Token) to USD (United States Dollar)",
       "Arista Networks President, CTO Kenneth Duda disposes of USD 3.87 million in common shares",
-      "Forrester challenge to Nvidia's networking claims by crowning Cisco, Arista, and Huawei",
+      "Arista Networks joins the 1.6T race with AI-centric switch platform",
       "Decoding ANET Stock's Premium Valuation",
       "Wall Street Analysts Believe Arista Networks (ANET) Could Rally 26.74%: Here's is How to Trade",
       "Is Arista Networks (ANET) Undervalued As AI Data Center Regulation Draws Political Scrutiny?",
       "Arista Networks Stock Looks Strong. One Number Says Be Careful.",
-      "Arista Networks Is Buying Further Ahead Than It Can See",
-      "Arista Networks (ANET) Is A Key Player In Hyperscale Data Center Growth"
+      "Arista Networks Is Buying Further Ahead Than It Can See"
     ],
     "ASML.AS": [
       "Sapient Capital LLC Acquires 7,416 Shares of ASML Holding N.V. $ASML",
@@ -1048,11 +1048,11 @@
       "United States Government May Restrict ASML's DUV Tool Exports to China",
       "ASML Korea boosts hiring to staff growing chip hubs nationwide - CHOSUNBIZ",
       "ASML and the West’s technology dilemma",
-      "ASML Holding NV Tokenized Stock (Robinhood) Exchanges ASML Markets | Buy & Sell & Trade",
       "Which of these companies once owned meaningful chunks of TSMC, ASML, and NXP – and today owns none of them?",
       "How ASML became Europe’s most valuable company",
       "ASML Supplier Zeiss Says It Can Handle Demand for Key AI Parts",
       "U.S. preparing to force Netherlands to ban ASML from selling to China",
+      "ASML’s Extreme Ultraviolet Lithography and the Limits of Reverse Engineering in China",
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
       "ASML Shares Slide",
       "ASML Stock: Next Stop $3,000?",
@@ -1062,9 +1062,9 @@
     "STX": [
       "Seagate (STX) exec plans $7.8M RSU tax-share sale of stock",
       "Applied Optoelectronics, SanDisk, Seagate And Other Big Stocks Moving Lower In Monday’s Pre-Market Session",
-      "Seagate (NASDAQ: STX) insider may sell 4,000 shares for tax withholding",
       "Seagate Stock Surged 685% in One Year on AI Storage Demand. Is It Still Worth Buying?",
       "Seagate Technology Reports Fiscal Second Quarter 2026 Financial Results",
+      "Wasabi to acquire Seagate’s Lyve Cloud business",
       "Seagate Technology Holdings PLC stock underperforms Monday when compared to competitors",
       "Seagate reaches $175 million settlement of shareholder claims it concealed sales to China's Huawei",
       "Seagate to Participate in Upcoming Investor Events",
@@ -1105,51 +1105,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "LRCX",
-      "classification": {
-        "symbol": "LRCX",
-        "is_major": true,
-        "category": "expansion",
-        "headline": "Lam Research Invests $1.5 Billion in Oregon to Expand Chip R&D",
-        "reason": "The company announced a capital investment of $1.5 billion in Oregon for R&D expansion, which significantly exceeds the $25 million threshold for major expansion."
-      },
-      "link": "https://finance.yahoo.com/video/lam-research-invests-1-5-201250167.html?.tsrc=rss",
-      "source": null,
-      "method": "gemini",
-      "published": "2026-08-26T20:12:50",
-      "queued_min": 29796934,
-      "all_articles": [
-        {
-          "headline": "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally – Company Announcement - FT.com",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbXFELUt2VlhLN2dZOWNHRW1QV0twOUxNb2kyX05CN1pybnRRQkt6bEVzY296UlZqRnBsbUkyR18zeEpJbmhEazM2VW5vMEsyYVl2X3BmZE4zRGtJUndqcnhmLWUzY0NFdmRMTkR4UzlHYzlxazdwX3pfRVdNREZUbHZkWVpXT3pBbDd2NkdqUzJ1SEdqdkxmdg?oc=5",
-          "source": "Financial Times",
-          "summary": "",
-          "published": "2026-08-26T20:26:00"
-        },
-        {
-          "headline": "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
-          "link": "https://finance.yahoo.com/technology/ai/articles/lam-research-breaks-ground-oregon-201500958.html?.tsrc=rss",
-          "source": null,
-          "summary": "In a ceremony today at its world-class research and development (R&D) center in Tualatin, Oregon, Lam Research Corp. (NASDAQ: LRCX) commemorated the start of construction on its new, state-of-the-art Oregon lab, part of a more than $3 billion planned investment in its global lab network over the next five years to accelerate breakthroughs for the creation of advanced AI chips. Located in the Silicon Forest, in close proximity to key customers, the new 120,000-square-foot facility is expected to",
-          "published": "2026-08-26T20:15:00"
-        },
-        {
-          "headline": "Lam Research Invests $1.5 Billion in Oregon to Expand Chip R&D",
-          "link": "https://finance.yahoo.com/video/lam-research-invests-1-5-201250167.html?.tsrc=rss",
-          "source": null,
-          "summary": "Tim Archer, CEO of Lam Research, said that his company is investing over a billion dollars to stay ahead of AI buildout demand and the accelerating pace of AI innovation. Archer said that new AI models are demanding more computational power, bandwidth and storage and Lam Research is focused on semiconductor chip innovation to meet those needs.",
-          "published": "2026-08-26T20:12:50"
-        },
-        {
-          "headline": "Lam Research Corporation Announces Participation at Upcoming Conferences",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/lam-research-corporation-announces-participation-200500255.html?.tsrc=rss",
-          "source": null,
-          "summary": "Lam Research Corp. (Nasdaq: LRCX) today announced that Doug Bettinger, Executive Vice President and Chief Financial Officer, will participate in the following upcoming investor events.",
-          "published": "2026-08-26T20:05:00"
-        }
-      ]
-    },
     {
       "symbol": "TSM",
       "classification": {
@@ -1312,6 +1267,30 @@
           "published": "2026-08-26T11:00:40"
         }
       ]
+    },
+    {
+      "symbol": "AMD",
+      "classification": {
+        "symbol": "AMD",
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "Burnham & Co LLC Acquires New Stake in Advanced Micro Devices, Inc. $AMD",
+        "reason": "A named institution, Burnham & Co LLC, is reported to have acquired a new stake (shares) in the company, which qualifies as a large share purchase."
+      },
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORUhnZzdtMmNidURWWHJDcW1WUDljSUhBeldGVGtOYllwQkZaWm5tcDd3bC02UXgyYVM5Mkc4WktzN3Y3Y2tPVGo4U3RnUHRZYnE3UXFUVVdMR3k5WnlQcENOV0tobFltU2p5MjFIemlDMm5JUzJiUnZac3R5VEttc3FtZUttQzJ0SWFBb09fcTdwaFlFMUhmc2htYnFEM0hlOGVXQl82Z2duckFZM3BJMnM4MkpkbEM1dGh0STFlLWZ3LUFhSmww?oc=5",
+      "source": "MarketBeat",
+      "method": "gemini",
+      "published": "2026-08-27T07:59:59",
+      "queued_min": 29796961,
+      "all_articles": [
+        {
+          "headline": "Burnham & Co LLC Acquires New Stake in Advanced Micro Devices, Inc. $AMD",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORUhnZzdtMmNidURWWHJDcW1WUDljSUhBeldGVGtOYllwQkZaWm5tcDd3bC02UXgyYVM5Mkc4WktzN3Y3Y2tPVGo4U3RnUHRZYnE3UXFUVVdMR3k5WnlQcENOV0tobFltU2p5MjFIemlDMm5JUzJiUnZac3R5VEttc3FtZUttQzJ0SWFBb09fcTdwaFlFMUhmc2htYnFEM0hlOGVXQl82Z2duckFZM3BJMnM4MkpkbEM1dGh0STFlLWZ3LUFhSmww?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-08-27T07:59:59"
+        }
+      ]
     }
   ],
   "holding_disclosures_seen": {
@@ -1418,7 +1397,8 @@
     "LRCX": {
       "large_share_purchases": 844,
       "ma": 1261,
-      "earnings": 1382
+      "earnings": 1382,
+      "expansion": 29796962
     },
     "NVDA": {
       "contract": 1262,
@@ -1466,7 +1446,7 @@
     "DatacenterDynamics",
     "Electronics360"
   ],
-  "last_news_post_min": 29796945,
+  "last_news_post_min": 29796962,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -1539,8 +1519,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 301.0,
-    "SIE.DE": 287.7,
+    "SU.PA": 301.35,
+    "SIE.DE": 287.85,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1566,11 +1546,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.78,
-    "BESI.AS": 195.8,
-    "AIXA.DE": 38.06,
-    "IFX.DE": 56.41,
-    "ASML.AS": 1521.4,
+    "SAP.DE": 181.6,
+    "BESI.AS": 194.6,
+    "AIXA.DE": 38.1,
+    "IFX.DE": 56.4,
+    "ASML.AS": 1517.4,
     "MU": 940.9,
     "TSM": 418.78,
     "KLAC": 183.88,
@@ -1664,5 +1644,5 @@
   ],
   "us_posted": [],
   "eu_flexible_used": 1,
-  "us_flexible_used": 1
+  "us_flexible_used": 2
 }
