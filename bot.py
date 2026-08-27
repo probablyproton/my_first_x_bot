@@ -422,14 +422,10 @@ def now_hhmm() -> str:
     return datetime.datetime.now().strftime("%H:%M")
 
 
-def now_minutes() -> int:
-    n = datetime.datetime.now()
-    return n.hour * 60 + n.minute
-
-
 def _epoch_minutes() -> int:
-    """Absolute minute counter (unlike now_minutes, doesn't reset at midnight) —
-    used for spacing that must hold correctly across a day boundary."""
+    """Absolute minute counter — unlike a minutes-since-local-midnight counter, never resets
+    partway through the day, so subtracting two readings across a day boundary still gives the
+    right elapsed time. Used for all cooldown/dedup spacing."""
     return int(time.time() // 60)
 
 
@@ -2842,7 +2838,7 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
         snapshots[symbol] = current
 
         last_event_min = cooldowns.get(symbol, 0)
-        if now_minutes() - last_event_min < EVENT_COOLDOWN_MINUTES:
+        if _epoch_minutes() - last_event_min < EVENT_COOLDOWN_MINUTES:
             continue
 
         if day_pct < EVENT_DAY_THRESHOLD_PCT:
@@ -2898,7 +2894,7 @@ def check_price_events(state: dict, symbols: list[str]) -> dict:
             gemini_calls_today_after=state.get("gemini_calls_today", 0),
         )
         if tweet and post_tweet_with_chart(tweet, state, symbol, price_ctx):
-            cooldowns[symbol] = now_minutes()
+            cooldowns[symbol] = _epoch_minutes()
             _record_ticker_post(state, symbol)
             day_event_fired[symbol] = today()
             _log_event(state, **log_kwargs, pool_used="llm", posted="Y",
@@ -3261,7 +3257,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
             continue  # already holding a news event for this ticker — don't pile on
 
         last_event_min = cooldowns.get(f"news_{symbol}", 0)
-        if now_minutes() - last_event_min < NEWS_COOLDOWN_MINUTES:
+        if _epoch_minutes() - last_event_min < NEWS_COOLDOWN_MINUTES:
             continue
 
         articles = get_ticker_context_with_dates(symbol, max_messages=10)
@@ -3524,7 +3520,7 @@ def check_news_events(state: dict, symbols: list[str]) -> dict:
                 log.info("News event tweet [%s] (%d chars):\n%s", method, len(tweet), tweet)
                 if post_tweet_with_chart(tweet, state, symbol, price_ctx or {},
                                           pool=("llm" if method == "gemini" else "keyword")):
-                    cooldowns[f"news_{symbol}"] = now_minutes()
+                    cooldowns[f"news_{symbol}"] = _epoch_minutes()
                     _record_ticker_post(state, symbol)
                     _record_news_category_posted(state, symbol, classification["category"])
                     _record_post_source(state, source)
@@ -3593,11 +3589,11 @@ def next_due_slot(plan: list[dict], posted: list[int]) -> dict | None:
 def _ticker_on_cooldown(state: dict, symbol: str) -> bool:
     last_posted = state.get("last_posted", {})
     last_min = last_posted.get(symbol, 0)
-    return now_minutes() - last_min < TICKER_POST_COOLDOWN_MINUTES
+    return _epoch_minutes() - last_min < TICKER_POST_COOLDOWN_MINUTES
 
 
 def _record_ticker_post(state: dict, symbol: str):
-    state.setdefault("last_posted", {})[symbol] = now_minutes()
+    state.setdefault("last_posted", {})[symbol] = _epoch_minutes()
 
 
 def _news_category_posted_recently(state: dict, symbol: str, category: str) -> bool:
@@ -3606,15 +3602,19 @@ def _news_category_posted_recently(state: dict, symbol: str, category: str) -> b
     headline wording from a different outlet, which exact-headline-string tracking and the 2h
     ticker cooldown can both miss if it happens more than 2 hours after the first post.
     Rolling window, not a calendar-day match — a fixed 'today()' comparison would let a story
-    posted at 23:58 dodge dedup entirely by reposting at 00:02 the next day."""
+    posted at 23:58 dodge dedup entirely by reposting at 00:02 the next day. Must use
+    _epoch_minutes (monotonic) here, not a minutes-since-local-midnight counter — the latter
+    would make this comparison go negative across a day boundary and get stuck permanently
+    "recent" until the clock happens to reach the same time of day again, the opposite of a
+    rolling window."""
     last_min = state.get("news_category_posted", {}).get(symbol, {}).get(category)
     if last_min is None:
         return False
-    return now_minutes() - last_min < NEWS_CATEGORY_DEDUP_MINUTES
+    return _epoch_minutes() - last_min < NEWS_CATEGORY_DEDUP_MINUTES
 
 
 def _record_news_category_posted(state: dict, symbol: str, category: str):
-    state.setdefault("news_category_posted", {}).setdefault(symbol, {})[category] = now_minutes()
+    state.setdefault("news_category_posted", {}).setdefault(symbol, {})[category] = _epoch_minutes()
 
 
 def _storyline_key_for(symbol: str) -> str:
