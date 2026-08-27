@@ -1240,3 +1240,6 @@ https://stocktwits.com/news-articles/markets/equity/on-nvidia-earnings-day-cathi
 https://finance.yahoo.com/markets/stocks/articles/rosenblatt-resets-marvell-stock-target-180804171.html?.tsrc=rss",353,,,,,
 559,2026-08-27,12:01:48,Thursday,price_event,eu,,zero_llm_template,IFX.DE,IFX,,XETR,Y,open,57.47,4.02,57.47,56.1,,,,,,,4.02,,,N,18,llm,Y,,$IFX.DE +4.02% today at €57.47 – one of the bigger moves on the board right now. Intraday range: low €56.1 / high €57.47.,121,,,,,
 560,2026-08-27,12:31:31,Thursday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$IFX.DE pulling away at +3.66%, now trading at €57.27.",54,,,,,
+561,2026-08-27,13:02:22,Thursday,news_event,,,keyword,LRCX,LRCX,,,,,322.0,0.23,,,"Proficio Capital Partners LLC Acquires 7,555 Shares of Lam Research Corporation $LRCX",MarketBeat,https://www.marketbeat.com/instant-alerts/filing-proficio-capital-partners-llc-acquires-7555-shares-of-lam-research-corporation-lrcx-2026-08-27/,,large_share_purchases,,,,,N,18,keyword,Y,,"$LRCX ($322.0, +0.23% at last close as of Aug 26): Proficio Capital Partners LLC Acquires 7,555 Shares of Lam Research Corporation $LRCX
+
+https://www.marketbeat.com/instant-alerts/filing-proficio-capital-partners-llc-acquires-7555-shares-of-lam-research-corporation-lrcx-2026-08-27/",282,,,,,
