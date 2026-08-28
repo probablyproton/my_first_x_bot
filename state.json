@@ -1,9 +1,9 @@
 {
   "date": "2026-08-28",
-  "daily_posts": 1,
+  "daily_posts": 2,
   "daily_keyword_posts": 3,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 16,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-23",
@@ -47,7 +47,7 @@
     "SAP.DE": 29798342,
     "STX": 1362,
     "AIXA.DE": 29796992,
-    "NVDA": 29797622,
+    "NVDA": 29798373,
     "MRVL": 29798257,
     "ANET": 1262,
     "MU": 29797712,
@@ -63,7 +63,7 @@
     "AMAT": 29797892,
     "WDC": 29797293
   },
-  "event_log_next_id": 605,
+  "event_log_next_id": 607,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -104,7 +104,7 @@
     "AMD": 1022,
     "AVGO": 1082,
     "KLAC": 1142,
-    "news_NVDA": 29797622,
+    "news_NVDA": 29798373,
     "news_TSM": 29796994,
     "IFX.DE": 29797081,
     "news_AMAT": 29797892,
@@ -318,11 +318,11 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
-      "Siemens acquires Altair to create most complete AI-powered po",
-      "Siemens completes acquisition of Dotmatics",
-      "Siemens acquires Heliox, specialist in eBus and eTruck fast chargi ...",
-      "Siemens agrees to acquire Trayer Engineering Corporation to broade ...",
+      "Siemens acquires electric manufacturer Russelectric",
       "Latham & Watkins Advises Siemens in Completed US$5.1 Billion Acquisition of Dotmatics",
+      "Germany’s Siemens Energy to acquire family-owned Lisburn electrical manufacturing specialist Camlin",
+      "Siemens Acquires Industrial Simulation Software Co. Altair Engineering in $10 Billion Deal",
+      "KPS CAPITAL PARTNERS TO ACQUIRE INNOMOTICS FROM SIEMENS AG",
       "Siemens at Work on $10 Billion in North American Projects, Driven by Renewables, NGCC",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
@@ -712,15 +712,15 @@
     ],
     "MRVL": [
       "Marvell Acquires Polariton Advancing the Future of Optical Connectivity",
-      "Marvell Technology, Inc. (MRVL) Announces Acquisition of Polariton Technologies",
-      "Wilson Sonsini Advises Marvell on $540 Million Acquisition of XConn Technologies",
-      "Latham & Watkins Advises Celestial AI in Acquisition by Marvell Technology",
-      "Marvell Acquires Polariton Technologies | Business | Apr 2026",
+      "Marvell Completes Acquisition of XConn Technologies",
+      "Marvell Completes Acquisition of Celestial AI",
+      "Marvell to Acquire XConn Technologies, Expanding Leadership in AI Data Center Connectivity",
+      "Marvell to Acquire Celestial AI, Accelerating Scale-up Connectivity for Next-Generation Data Centers",
       "Marvell Technology Tokenized Stock (Ondo) price today, MRVLon to USD chart, marketcap and volume",
       "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
-      "Marvell revenue climbs 37% to a record US$2.74 billion on data center demand",
       "Marvell gives Google option to buy $12.2 billion stake in custom AI chip deal",
       "Google's Marvell Partnership Could Reduce 'Efficiency Tax' 04/20/2026",
+      "Marvell revenue climbs 37% to a record US$2.74 billion on data center demand",
       "Marvell Technology (Backpack Securities) (MRVL) Price, MarketCap, Charts and Fundamentals Info",
       "'This is by far our stock pick of the year': Hatfield on Marvell Technology",
       "Prediction: Marvell Technology Stock Could Go Parabolic After Its Next Custom Chip Deal",
@@ -737,7 +737,7 @@
       "FormFactor (FORM) Announces the Acquisition of Keystone Photonics, Here’s What You Need to Know",
       "FormFactor acquires Keystone Photonics to boost silicon photonics testing",
       "WT Asset Management Ltd Acquires New Stake in FormFactor, Inc. $FORM",
-      "FormFactor Jumps 111% YTD: Is There More Room for the Stock to Rise?",
+      "FormFactor Expands Silicon Photonics Test Capabilities With Acquisition of Keystone Photonics",
       "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
@@ -760,21 +760,21 @@
       "Plato Investment Management Ltd Acquires Shares of 39,281 Lam Research Corporation $LRCX",
       "Is Lam Research Corporation (LRCX) Eyeing Besi Industries Merger Amid IBM Pact for Logic Scaling",
       "Applied Materials, Lam Research may be interested in acquiring BE Semiconductor: report (AMAT:NASDAQ)",
+      "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
+      "Lam Research Breaks Ground on Oregon Lab for AI Semiconductor R&D",
       "Lam Research Corp. stock outperforms competitors on strong trading day",
       "Lam Research announces retirement of two key bo...",
-      "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally – Company Announcement - FT.com",
       "Lam Research Corporation Tokenized Stock (Robinhood)",
       "Lam Research to Reduce Board Size Following Retirement of Two Directors",
-      "Lam Research price shows cautious gains - Forecast today - 24-08-2026",
       "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
+      "Lam Research price shows cautious gains - Forecast today - 24-08-2026",
       "Lam Research Corp. stock outperforms competitors despite losses on the day",
-      "Lam Research Corporation Announces June Quarter Financial Conference Call",
-      "Lam Research (LRCX) Stock Falls As AI Chip Demand Slows And Memory Cracks Show",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
-      "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
       "Lam Research Invests $1.5 Billion in Oregon to Expand Chip R&D",
       "Lam Research Corporation Announces Participation at Upcoming Conferences",
-      "Lam Research (LRCX) Is Considered a Good Investment by Brokers: Is That True?"
+      "Lam Research (LRCX) Is Considered a Good Investment by Brokers: Is That True?",
+      "Are Wall Street Analysts Predicting Lam Research Stock Will Climb or Sink?",
+      "Lam Research (LRCX), Why Is Its Latest Update Drawing Attention?"
     ],
     "TSM": [
       "News | Virginia investor is latest to buy into Arizona's manufacturing hotbed",
@@ -813,12 +813,12 @@
       "How Western Digital used AI to turbocharge collection of supplier emissions data",
       "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
       "Western Digital blows hard disk drive future wide open",
+      "Zacks Industry Outlook Western Digital, Sandisk and Super Micro Computer",
       "After Surging 3,110%, Has Sandisk Already Had Its \"Nvidia Moment\"?",
       "Micron Lags Despite NVIDIA’s $279B Memory Commitment; Western Digital Drops 4%, SK Hynix Ticks Up",
       "Is It Worth Investing in Western Digital (WDC) Based on Wall Street's Bullish Views?",
       "Seagate vs. Western Digital: Which One is The Best AI Storage Play for Dividend Investors?",
-      "Western Digital Stock Is Down Sharply: Why the Bull Case Still Looks Strong",
-      "Western Digital (WDC) May Find a Bottom Soon, Here's Why You Should Buy the Stock Now"
+      "Western Digital Stock Is Down Sharply: Why the Bull Case Still Looks Strong"
     ],
     "AVGO": [
       "Broadcom | History, Acquisitions, Controversies, & Facts",
@@ -830,8 +830,8 @@
       "Kyndryl, Broadcom expand partnership to push private clouds for AI work",
       "Frontier AI Security and Private Cloud | Broadcom News and Stories",
       "Hock Tan: The 100 Most Influential People in AI 2026",
-      "Oracle and Broadcom Credit Risk Spikes as AI Debt Hits $182 Billion",
       "Broadcom Thor Ultra Ethernet NIC at Hot Chips 2026",
+      "Oracle and Broadcom Credit Risk Spikes as AI Debt Hits $182 Billion",
       "Broadcom seeks more than $60 billion in latest AI debt deal, Bloomberg News reports",
       "OpenAI’s 700W Jalapeño ASIC outpaces 1,400W Nvidia flagship GPU — claims up to 1.9x throughput per kilowatt and 3.6x lower latency, co-developed with Broadcom",
       "Broadcom Inc. stock outperforms competitors despite losses on the day",
@@ -913,7 +913,7 @@
       "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
       "Applied Materials Acquires NEXX",
       "Benicia chip manufacturing tool maker acquired by Applied Materials",
-      "Applied Materials Targets $3.5 Billion Electrochemical Deposition Market With NEXX Acquisition",
+      "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
       "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials Inc. stock outperforms competitors despite losses on the day",
@@ -954,11 +954,12 @@
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "A Deionized Water-Based Large-Scale Transfer Process For 2D Materials Grown on Sapphire (AMO, RWTH, Aixtron)",
       "Aixtron SE vs Veeco Instruments",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
-      "Polarization-engineered high mobility of two-dimensional hole gas in GaN",
       "Gallium nitride vertical-channel junction field-effect transistors",
+      "Polarization-engineered high mobility of two-dimensional hole gas in GaN",
       "Aixtron Q2 Earnings Call Highlights",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
@@ -972,20 +973,20 @@
     ],
     "AMD": [
       "Gamco Investors INC. ET AL Acquires 12,390 Shares of Advanced Micro Devices, Inc. $AMD",
-      "AMD Acquires MEXT to Advance Memory Optimization for Compute Infrastructure",
-      "AMD buys chip startup that hardwires AI models into its silicon",
-      "Burnham & Co LLC Acquires New Stake in Advanced Micro Devices, Inc. $AMD",
-      "With Its MEXT Acquisition, Advanced Micro Devices Stock Could Rally to Higher Highs",
+      "Move Over, Nvidia: Why AMD’s Latest Acquisition Could Redefine Direct-Silicon AI Inference",
+      "Advanced Micro Devices (AMD) Adds AI Inference Silicon With Taalas Acquisition",
+      "AMD acquires software built by URI professor and colleagues",
+      "Advanced Micro Devices, Inc.",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
       "Advanced Micro Devices (AMD) Price Prediction | Key Levels To Watch Andrei Svechnikov (nzYyh9Anj9)",
       "Advanced Micro Devices aStock (AAMD) Price, MarketCap, Charts and Fundamentals Info",
       "Nokia Doubles Performance with Each New Generation of Servers Advanced by AMD EPYC™ Server CPUs",
       "Monster insider trading alert for AMD stock",
-      "Advanced Micro Devices (NASDAQ:AMD) in focus as AI data-center demand stays firm",
       "Secihti and AMD Will Train AI Talent",
+      "Advanced Micro Devices (NASDAQ:AMD) in focus as AI data-center demand stays firm",
       "AMD Is Investing More Than $10 Billion in Taiwan to Build Advanced Chip Packaging With TSMC",
       "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Malaga Fc (5R9rL8CZaZ)",
-      "Advanced Micro Devices (AMD) Stock Just Hit A Key Level | What’s Next? Paris Hilton (EI0mT65863)",
+      "Advanced Micro Devices (AMD) Stock Update: Current Trend And Critical Support Zones Real Betis Vs Elche (gWf4ycUV3j)",
       "Cathie Wood’s ARK Just Dumped AMD Stock. What She’s Buying Instead.",
       "AMD Stock Alert: Raymond James Sees $201B Revenue Opportunity by 2030",
       "Cathie Wood Sends a $20 Million Signal on Broadcom Stock",
@@ -1005,14 +1006,14 @@
       "Infineon Startup Challenge 2026 puts humanoid robotics in the spotlight",
       "Infineon Technologies officially opens new R&D Centre in Cork",
       "EQS-PVR: Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
-      "Price tag, scope of Infineon's factory expansion plans revealed in incentives application",
       "Chip Stocks Edge Higher After Monday Rout",
       "Infineon and MediaTek partner on automotive AI systems",
       "Infineon Technologies (XTRA:IFX) Stock Fair Value Rises After Analysts Lift Targets",
       "Infineon Technologies (XTRA:IFX) Sets Record AI Revenue, Is It Fully Priced?",
       "Infineon Technologies AG (IFNNF) (Q3 2026) Earnings Call Highlights: Record Revenue and AI ...",
       "Infineon hits revenue record: AI data centres drive growth",
-      "German chipmaker Infineon posts record revenue as AI fuels growth"
+      "German chipmaker Infineon posts record revenue as AI fuels growth",
+      "Chip Stocks Climb as AI Rally Regains Strength"
     ],
     "ANET": [
       "Arista Results Highlight AI Networking Growth And VeloCloud SD WAN Expansion",
@@ -1048,8 +1049,8 @@
       "ASML and the West’s technology dilemma",
       "Marco Pieters starts engineering ASML’s next chapter",
       "How ASML became Europe’s most valuable company",
-      "ASML Holding NV Tokenized Stock (Robinhood) Exchanges ASML Markets | Buy & Sell & Trade",
       "Which of these companies once owned meaningful chunks of TSMC, ASML, and NXP – and today owns none of them?",
+      "ASML Holding NV Tokenized Stock (Robinhood) Exchanges ASML Markets | Buy & Sell & Trade",
       "U.S. preparing to force Netherlands to ban ASML from selling to China",
       "ASML Supplier Zeiss Says It Can Handle Demand for Key AI Parts",
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
@@ -1062,8 +1063,8 @@
       "Applied Optoelectronics, SanDisk, Seagate And Other Big Stocks Moving Lower In Monday’s Pre-Market Session",
       "Seagate Technology (STX) CLO sells 694 shares in 10b5-1 trading plan",
       "Seagate Stock Surged 685% in One Year on AI Storage Demand. Is It Still Worth Buying?",
-      "Seagate Technology Reports Fiscal Second Quarter 2026 Financial Results",
       "Wasabi to acquire Seagate’s Lyve Cloud business",
+      "Wasabi Technologies Acquires Seagate’s Lyve Cloud Business",
       "Seagate to Participate in Upcoming Investor Events",
       "Seagate Technology Holdings PLC stock underperforms Wednesday when compared to competitors despite daily gains",
       "Seagate Technology Holdings Executive VP & CFO Gianluca Romano Sells 35% Of Holding",
@@ -1089,8 +1090,8 @@
       "Have Insiders Sold Micron Technology Shares Recently?",
       "Micron Technology Tokenized Stock price today, MUx to USD chart, marketcap and volume",
       "Micron project neighbors ask judge for new environmental review",
-      "Sanjay Mehrotra: The 100 Most Influential People in AI 2026",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
+      "Sanjay Mehrotra: The 100 Most Influential People in AI 2026",
       "Issue: Micron Technology Campus",
       "Micron opens new training center in partnership with CWI",
       "Micron Announces Leadership Appointments to Accelerate Innovation and Growth",
@@ -1103,53 +1104,7 @@
       "MU Stock In Focus After Trump Hails Micron’s $10B Investment In US Research Labs — ‘One Of The Hottest Companies In The World’"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "symbol": "NVDA",
-        "is_major": true,
-        "category": "earnings",
-        "headline": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
-        "reason": "The headline directly states 'upbeat results for Nvidia', indicating an earnings beat or strong guidance, which is a major earnings catalyst."
-      },
-      "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-gain-upbeat-040450628.html?.tsrc=rss",
-      "source": null,
-      "method": "gemini",
-      "published": "2026-08-28T04:04:50",
-      "queued_min": 29798192,
-      "all_articles": [
-        {
-          "headline": "Bill Ackman Just Made His Biggest Portfolio Overhaul in Years, Adding Netflix, Visa, and Mastercard to Pershing Square. What's the Thesis Behind the Switch?",
-          "link": "https://www.fool.com/investing/2026/08/28/bill-ackman-just-made-his-biggest-portfolio-overha/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "This very concentrated portfolio has a bunch of new holdings -- including some investor favorites.",
-          "published": "2026-08-28T04:20:00"
-        },
-        {
-          "headline": "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amkor-formfactor-vishay-intertechnology-allegro-040907487.html?.tsrc=rss",
-          "source": null,
-          "summary": "A number of stocks jumped in the afternoon session after Nvidia reported blowout quarterly earnings and issued an upbeat revenue forecast, easing investor fears of a slowdown in artificial intelligence infrastructure spending. Shares across the semiconductor industry surged following the chipmaker's strong second-quarter beats on both revenue and profit, alongside an upbeat revenue outlook for the upcoming third quarter. Peer chipmakers and hardware suppliers, including Broadcom, Micron Technolo",
-          "published": "2026-08-28T04:09:07"
-        },
-        {
-          "headline": "Nasdaq Futures Sink While S&P 500, Dow Futures Gain Ahead Of Fed Chief Warsh’s Jackson Hole Speech: PYPL, MRVL, IREN, AFRM Stocks In Focus",
-          "link": "https://stocktwits.com/news-articles/markets/equity/nasdaq-futures-sink-while-s-and-p-500-dow-futures-gain-ahead-of-fed-chief-warsh-s-jackson-hole-speech-pypl-mrvl-iren-afrm-stocks-in-focus/cZYqw0sRJqC?.tsrc=rss",
-          "source": "stocktwits.com",
-          "summary": "Kevin Warsh is scheduled to speak on Friday at the Fed’s annual symposium in Jackson Hole, Wyoming.",
-          "published": "2026-08-28T04:08:56"
-        },
-        {
-          "headline": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
-          "link": "https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-gain-upbeat-040450628.html?.tsrc=rss",
-          "source": null,
-          "summary": "Shares were mostly higher Friday in Asia after Nvidia and other technology stocks led an advance on Wall Street. U.S. futures were little changed and oil prices slipped. In Tokyo, the Nikkei 225 climbed 0.8% to 66,682.88, while Hong Kong's Hang Seng added 0.3% to 25,648.40.",
-          "published": "2026-08-28T04:04:50"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1265,7 +1220,8 @@
       "contract": 29797502,
       "analyst_note": 29797622,
       "ma": 29796945,
-      "expansion": 29797262
+      "expansion": 29797262,
+      "earnings": 29798373
     },
     "TSM": {
       "large_share_purchases": 1322,
@@ -1313,7 +1269,7 @@
     "Zacks",
     "MarketBeat"
   ],
-  "last_news_post_min": 29798312,
+  "last_news_post_min": 29798373,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -1376,8 +1332,7 @@
       4
     ],
     "quiet": [
-      0,
-      2
+      0
     ],
     "mover_strong": [
       6,
@@ -1414,8 +1369,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 297.55,
-    "SIE.DE": 286.95,
+    "SU.PA": 301.7,
+    "SIE.DE": 289.8,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1441,11 +1396,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 189.88,
-    "BESI.AS": 195.0,
-    "AIXA.DE": 37.09,
-    "IFX.DE": 57.17,
-    "ASML.AS": 1486.4,
+    "SAP.DE": 189.37,
+    "BESI.AS": 195.5,
+    "AIXA.DE": 36.94,
+    "IFX.DE": 57.35,
+    "ASML.AS": 1483.2,
     "MU": 919.37,
     "TSM": 425.91,
     "KLAC": 182.7,
@@ -1486,9 +1441,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 30,
-  "last_pulse_post_min": 29798341,
-  "last_pulse_ticker": "SAP.DE",
+  "next_pulse_interval": 34,
+  "last_pulse_post_min": 29798371,
+  "last_pulse_ticker": "SU.PA",
   "pulse_news_seen": {
     "asml.as:where canon can actually disrupt asml": "2026-08-25",
     "wdc:western digital sits 46% below its high and has still more than doubled this year": "2026-08-25",
@@ -1523,7 +1478,9 @@
       "fire_time": "18:00"
     }
   ],
-  "eu_posted": [],
+  "eu_posted": [
+    0
+  ],
   "us_slots": [
     {
       "slot": 0,
@@ -1539,6 +1496,6 @@
     }
   ],
   "us_posted": [],
-  "us_flexible_used": 0,
+  "us_flexible_used": 1,
   "eu_flexible_used": 1
 }

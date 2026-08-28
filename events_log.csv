@@ -1308,3 +1308,7 @@ https://www.marketbeat.com/instant-alerts/filing-burnham-co-llc-acquires-new-sta
 602,2026-08-28,09:01:56,Friday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"Hourly check-in: $SAP.DE +5.48% to €189.88, well ahead of the rest of the board.",80,,,,,
 603,2026-08-28,09:02:36,Friday,scheduled_slot,eu,hook,gemini,SAP.DE,SAP,"$IFX, $BESI, $AIXA, $SU",,,open,189.88,5.48,,,,,,,,,,,,Y,16,,N,generation_failed,,,,,,,
 604,2026-08-28,09:02:53,Friday,price_event,eu,,zero_llm_template,SAP.DE,SAP,,XETR,Y,open,189.88,5.48,,,,,,,,,5.48,,,N,16,llm,Y,,$SAP.DE +5.48% today – no notes.,32,,,,,
+605,2026-08-28,09:31:57,Friday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"Calm session so far – $SU.PA at €301.6, barely moved (+1.26%).",62,,,,,
+606,2026-08-28,09:33:56,Friday,news_event,,,gemini,NVDA,NVDA,,,,,226.15,3.02,,,Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks,,https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-gain-upbeat-040450628.html?.tsrc=rss,,earnings,,,,,Y,18,llm,Y,,"$NVDA up +3.02% after ""upbeat results"" for the chipmaker helped lift US stocks, per recent headlines. This strong performance could signal robust demand for its technologies, potentially reinforcing its leadership in key segments.
+
+https://finance.yahoo.com/markets/world-indices/articles/asian-shares-mostly-gain-upbeat-040450628.html?.tsrc=rss",345,,,,,
