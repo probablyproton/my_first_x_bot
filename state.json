@@ -1,7 +1,7 @@
 {
   "date": "2026-08-28",
   "daily_posts": 2,
-  "daily_keyword_posts": 6,
+  "daily_keyword_posts": 7,
   "daily_pulse_posts": 8,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
@@ -47,7 +47,7 @@
     "SAP.DE": 29798342,
     "STX": 1362,
     "AIXA.DE": 29796992,
-    "NVDA": 29798642,
+    "NVDA": 29798762,
     "MRVL": 29798257,
     "ANET": 1262,
     "MU": 29797712,
@@ -63,7 +63,7 @@
     "AMAT": 29797892,
     "WDC": 29797293
   },
-  "event_log_next_id": 617,
+  "event_log_next_id": 618,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -104,7 +104,7 @@
     "AMD": 1022,
     "AVGO": 1082,
     "KLAC": 1142,
-    "news_NVDA": 29798642,
+    "news_NVDA": 29798762,
     "news_TSM": 29796994,
     "IFX.DE": 29797081,
     "news_AMAT": 29797892,
@@ -323,16 +323,16 @@
       "Germany’s Siemens Energy to acquire family-owned Lisburn electrical manufacturing specialist Camlin",
       "Siemens Acquires Industrial Simulation Software Co. Altair Engineering in $10 Billion Deal",
       "KPS CAPITAL PARTNERS TO ACQUIRE INNOMOTICS FROM SIEMENS AG",
-      "Siemens at Work on $10 Billion in North American Projects, Driven by Renewables, NGCC",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
-      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
+      "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Siemens Energy to invest $421 million in NC",
       "Siemens Achieves $1B in U.S. Manufacturing Investments",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
       "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
       "North Jersey site sold to pharma company planning to create 1,000 jobs",
+      "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
       "Smart Meter Data Management Report Forecasts Market Growth from $2.49B (2025) to $12.65B by 2035, Profiling Oracle, Landis+Gyr, Itron, Siemens, Schneider Electric, and 48 Other Key Players",
       "Siemens (XTRA:SIE) Stock May Be 28% Below Fair Value As Profit Outlook Rises",
       "PROLIM Launches New Innovation Center to Accelerate Global Growth",
@@ -719,18 +719,18 @@
       "Marvell Technology Tokenized bStocks: Latest News, Social Media Updates and Insights",
       "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
       "Marvell Technology Sees AI Connectivity as Next Big Infrastructure Bottleneck",
-      "Marvell Technology Tokenized Stock (Ondo) price today, MRVLon to USD chart, marketcap and volume",
       "Marvell gives Google option to buy $12.2 billion stake in custom AI chip deal",
+      "Marvell Technology Tokenized Stock (Ondo) price today, MRVLon to USD chart, marketcap and volume",
       "Here's How Much $100 Invested In Marvell Technology 10 Years Ago Would Be Worth Today",
       "Marvell revenue climbs 37% to a record US$2.74 billion on data center demand",
       "Prediction: Marvell Technology Stock Could Go Parabolic After Its Next Custom Chip Deal",
       "'This is by far our stock pick of the year': Hatfield on Marvell Technology",
-      "Marvell Technology (Backpack Securities) (MRVL) Price, MarketCap, Charts and Fundamentals Info",
-      "Stock Market Today: Dow, S&P 500 Rise Before Warsh; Marvell, Affirm, PayPal Are Big Movers (Live Coverage)",
+      "What the Google-Marvell Deal Means for Data Centre Chips",
+      "Stock Market Today: Dow, S&P Rise Before Warsh Speech; Marvell, Affirm, PayPal Are Big Movers (Live Coverage)",
+      "Marvell Falls 7% as Google AI Payoff Lands in Fiscal 2029, Intel Slips, NVIDIA Barely Budges",
       "Update: Marvell Technology Shares Fall Pre-Bell on Google Deal Concerns Despite Fiscal Q2 Results Beat",
       "Marvell CEO Calls Google Deal ‘Game Changing’ – Says Custom AI Chip Revenue Could Be ‘A Lot Larger’ Than Modeled",
-      "Dow Jones Futures: Fed Chief Warsh Speech Due; Marvell, Affirm, PayPal, Elastic Are Big Movers",
-      "Marvell Can’t Match Nvidia’s High Bar—But the AI Infrastructure Trade Remains Intact"
+      "Dow Jones Futures: Fed Chief Warsh Speech Due; Marvell, Affirm, PayPal, Elastic Are Big Movers"
     ],
     "FORM": [
       "Paradigm Capital Management Inc. NY Acquires Shares of 27,900 FormFactor, Inc. $FORM",
@@ -738,8 +738,8 @@
       "FormFactor acquires Keystone Photonics to boost silicon photonics testing",
       "WT Asset Management Ltd Acquires New Stake in FormFactor, Inc. $FORM",
       "FormFactor Jumps 111% YTD: Is There More Room for the Stock to Rise?",
-      "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
+      "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
@@ -763,7 +763,6 @@
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
       "Lam Research Corp. stock outperforms competitors on strong trading day",
-      "Lam Research Corporation xStock (LRCXX) Price Prediction for 2026 to 2031",
       "Lam Research Breaks Ground on Oregon Lab for AI Semiconductor R&D",
       "Lam Research announces retirement of two key bo...",
       "Lam Research Corporation Tokenized Stock (Robinhood)",
@@ -774,7 +773,8 @@
       "Lam Research Announces Retirement of Michael R. Cannon and Sohail U. Ahmed from Board of Directors",
       "Lam Research Invests $1.5 Billion in Oregon to Expand Chip R&D",
       "Lam Research Corporation Announces Participation at Upcoming Conferences",
-      "Lam Research (LRCX) Is Considered a Good Investment by Brokers: Is That True?"
+      "Lam Research (LRCX) Is Considered a Good Investment by Brokers: Is That True?",
+      "Are Wall Street Analysts Predicting Lam Research Stock Will Climb or Sink?"
     ],
     "TSM": [
       "News | Virginia investor is latest to buy into Arizona's manufacturing hotbed",
@@ -782,8 +782,8 @@
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
       "Micron’s $1.8B Taiwan Fab Deal: What It Means for AI & Investors",
-      "Taiwan Semiconductor Stock: Does the Booming Revenue Outweigh Geopolitical Risk?",
       "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
+      "Taiwan Semiconductor Stock: Does the Booming Revenue Outweigh Geopolitical Risk?",
       "Taiwan as a “Macro-City” Designed for Chip Manufacturing",
       "Taiwan Semiconductor Ceramic Packaging Materials Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Arizona wants Taiwan’s investors to think beyond chips",
@@ -792,11 +792,11 @@
       "TSMC Kumamoto fab fully operational after quake",
       "Taiwan’s Chip Ecosystem Heads Across the Pacific",
       "TSMC to add 2 advanced chip packaging plants in Chiayi, Taiwan minister says",
+      "How TSMC is Advancing its A14 Technology Roadmap for AI Transformation",
       "TSMC ADRs Jump 2% as Nvidia Extends the Foundry Runway",
       "This Hedge Fund Just Sold Sandisk and Bought Taiwan Semiconductor Manufacturing Stock. Does Wall Street Agree With the Move?",
       "Movandi Redefines Synthesizer PLL Efficiency, Delivering Peak Performance at Lower Power for Next-Gen Wireless and AI Infrastructure",
-      "Why Is Taiwan Semiconductor Manufacturing (TSM) Winning More 3nm AI Chip Work?",
-      "Sony Group (SONY) and Taiwan Semiconductor (TSM) Are Betting $4.7 Billion on the “Eyes” of AI Machines"
+      "Why Is Taiwan Semiconductor Manufacturing (TSM) Winning More 3nm AI Chip Work?"
     ],
     "WDC": [
       "Western Digital (WDC) Revives Kioxia Merger Talks Over Flash Memory Assets",
@@ -832,15 +832,15 @@
       "Broadcom Thor Ultra Ethernet NIC at Hot Chips 2026",
       "Broadcom seeks more than $60 billion in latest AI debt deal, Bloomberg News reports",
       "Hock Tan: The 100 Most Influential People in AI 2026",
-      "Oracle and Broadcom Credit Risk Spikes as AI Debt Hits $182 Billion",
       "OpenAI’s 700W Jalapeño ASIC outpaces 1,400W Nvidia flagship GPU — claims up to 1.9x throughput per kilowatt and 3.6x lower latency, co-developed with Broadcom",
+      "Oracle and Broadcom Credit Risk Spikes as AI Debt Hits $182 Billion",
       "Broadcom Inc. stock outperforms competitors despite losses on the day",
       "OpenAI Jalapeño: Better Than Nvidia Blackwell",
+      "Does Nvidia or Broadcom Have The Greater Core Vulnerability?",
       "Broadcom Built Something Nearly Perfect So I Keep Buying",
       "Kyndryl, Broadcom deepen partnership to build AI-ready private clouds",
       "Spicy Stocks: Why BNP Thinks Jalapeño Could Benefit Broadcom Stock",
-      "Cathie Wood Sends a $20 Million Signal on Broadcom Stock",
-      "Broadcom Faces New AI Challenge as Google Deepens Marvell Partnership"
+      "Cathie Wood Sends a $20 Million Signal on Broadcom Stock"
     ],
     "KLAC": [
       "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
@@ -849,7 +849,6 @@
       "Semiconductor Manufacturing Stocks Q4 Results: Benchmarking KLA Corporation (NASDAQ:KLAC)",
       "Kwik Lok acquires full ownership of Kwik Lok Australia",
       "KLA Corp insiders cashed out $64M while stock slid 40%",
-      "Historical Data for KLA Corporation Tokenized Stock (Robinhood) in USD",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "Wrapped KLA Corporation Tokenized Stock (xStock) price today, wKLACx to USD live price, marketcap and chart",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
@@ -857,6 +856,7 @@
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "KLA Corporation Rings the Nasdaq Stock Market Closing Bell",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
+      "KLA Corp. stock underperforms Tuesday when compared to competitors",
       "What KLA (KLAC)'s AI-Fueled Advanced Packaging Momentum Means For Shareholders",
       "KLAC vs. SNDK: Which Semiconductor Stock is a Better Buy Now?",
       "KLA (KLAC) Up 8% Since Last Earnings Report: Can It Continue?",
@@ -986,7 +986,7 @@
       "Advanced Micro Devices (AMD) Price Prediction | Key Levels To Watch Andrei Svechnikov (nzYyh9Anj9)",
       "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Malaga Fc (5R9rL8CZaZ)",
       "Advanced Micro Devices (AMD) Stock Just Hit A Key Level | What’s Next? Paris Hilton (EI0mT65863)",
-      "Advanced Micro Devices (AMD) Price Prediction | Key Levels To Watch Brewers Game (4bs8Gp4XBk)",
+      "Advanced Micro Devices (AMD) Stock Update: Current Trend And Critical Support Zones Real Betis Vs Elche (gWf4ycUV3j)",
       "Cathie Wood Just Sold Another $18 Million of AMD Stock",
       "Cathie Wood’s ARK Just Dumped AMD Stock. What She’s Buying Instead.",
       "AMD Stock Alert: Raymond James Sees $201B Revenue Opportunity by 2030",
@@ -1023,19 +1023,19 @@
       "Top 5 networking stories of 2025: HPE-Juniper, Cisco dominate networking attention",
       "Analysts Conflicted on These Technology Names: CrowdStrike Holdings (CRWD), Arista Networks (ANET) and HP (HPQ)",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
-      "Arista Networks aStock (AANET) Price, MarketCap, Charts and Fundamentals Info",
       "J. Goldman takes new $6.97M stake in Arista Networks",
+      "Arista Networks aStock (AANET) Price, MarketCap, Charts and Fundamentals Info",
       "Arista Networks (ANET) Stock Analysis | High Growth Stock Azan Awais (axRZ4BsFKe)",
       "Why Arista Networks (NYSE:ANET) Is Back on the Market Radar?",
       "Arista Networks Inc (NYSE:ANET)",
       "Arista Networks Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
       "Arista Networks aStock Price: AANET Live Price Today | AANET Market Cap & Chart Analysis",
       "Arista Networks President, CTO Kenneth Duda disposes of USD 3.87 million in common shares",
+      "Is It Worth Investing in Arista Networks (ANET) Based on Wall Street's Bullish Views?",
       "Here's How Much a $1000 Investment in Arista Networks Made 10 Years Ago Would Be Worth Today",
       "Decoding ANET Stock's Premium Valuation",
       "Wall Street Analysts Believe Arista Networks (ANET) Could Rally 26.74%: Here's is How to Trade",
-      "Is Arista Networks (ANET) Undervalued As AI Data Center Regulation Draws Political Scrutiny?",
-      "Arista Networks Stock Looks Strong. One Number Says Be Careful."
+      "Is Arista Networks (ANET) Undervalued As AI Data Center Regulation Draws Political Scrutiny?"
     ],
     "ASML.AS": [
       "SK Hynix plans to spend 11.9T won to acquire ASML's EUV systems",
@@ -1043,6 +1043,7 @@
       "Albany NanoTech Complex acquires ASML High NA EUV tools for chip research",
       "ASML signs new customer: what does India’s Tata Electronics do?",
       "SK Hynix to Acquire EUV Scanners from ASML Korea for $8 Billion",
+      "ASML Korea to Hire Entry-Level, Experienced Engineers in Second Half",
       "United States Government May Restrict ASML's DUV Tool Exports to China",
       "If US targets ASML, Netherlands should learn from Canada",
       "ASML aStock (AASML) Price, MarketCap, Charts and Fundamentals Info",
@@ -1050,9 +1051,8 @@
       "Marco Pieters starts engineering ASML’s next chapter",
       "How ASML became Europe’s most valuable company",
       "Which of these companies once owned meaningful chunks of TSMC, ASML, and NXP – and today owns none of them?",
+      "ASML Holding NV Tokenized Stock (Robinhood) Exchanges ASML Markets | Buy & Sell & Trade",
       "U.S. preparing to force Netherlands to ban ASML from selling to China",
-      "ASML Supplier Zeiss Says It Can Handle Demand for Key AI Parts",
-      "ASML reports transactions under its current share buyback program",
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
       "ASML Shares Slide",
       "ASML Stock: Next Stop $3,000?",
@@ -1097,87 +1097,14 @@
       "Micron Announces Leadership Appointments to Accelerate Innovation and Growth",
       "Micron Establishes Boise Research Hub for Memory and AI",
       "Sanjay Mehrotra: The 100 Most Influential People in AI 2026",
+      "A Once-in-a-Decade Buying Opportunity: Sandisk and Micron Shares Are Dirt Cheap and Look Primed to Skyrocket",
       "3 Semiconductor Stocks to Buy Heading Into September",
       "Jim Cramer Said Micron Technology, Inc. (NASDAQ:MU) Fell Because Of Samsung’s Share Buybacks",
       "Palo Alto Networks CEO Nikesh Arora Warns Memory ‘Supercycle’ Will Eventually Turn Cyclical, Flagging Risk For Micron, SanDisk",
-      "How Micron’s New AI Research Push And Leadership Shuffle At Micron Technology (MU) Has Changed Its Investment Story",
-      "Micron Should Profit from Nvidia’s Memory Price Warning. Its Stock Hasn’t Budged."
+      "How Micron’s New AI Research Push And Leadership Shuffle At Micron Technology (MU) Has Changed Its Investment Story"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "large_share_purchases",
-        "headline": "Fisher Funds Management LTD Acquires 254,032 Shares of NVIDIA Corporation $NVDA",
-        "reason": "Sizeable institutional share purchase"
-      },
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRHB2SzVNOHFLQXRqekh2NE1hdFp4ZF9ZQ2J4UTVWVENERjlITlF0OURhUHJEYUM5eFRCSXYzR2FzS2ZnQkhKVmpsRm9YU19JUDZCbGNiTUxIN2s5MzR3d1JiSFlEUHNVYXRKSGxEeUJxVVBvRHNLbDJjeXNOMHBkTThtWTQ3S0hhbWRteUp5Z21lYTZDanJBVlF5WE00eThld1k3aGNyTU1ETGFhSERfOTVCdVdfcEtscGdOMlQxS3Zhdkt2SXdMWWViMDd1ay1OQnFhMQ?oc=5",
-      "source": "MarketBeat",
-      "method": "keyword",
-      "published": "2026-08-28T07:33:52",
-      "queued_min": 29798461,
-      "all_articles": [
-        {
-          "headline": "Accurate Wealth Management LLC Acquires 10,724 Shares of NVIDIA Corporation $NVDA",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNaGhKRU1yaF93dTBhbnRIdVpXY2wyZnJ1NVBkUWZsYmhfOWVjUDFfd25xYVBNeElpZ09qQmZCdS1fbHBuVmJyYkU2VnVSVVk4WUFsQnlJUTQ2aUZkWnZXUXZPMjZlS3BhaWV1MlBpSlZPVHVjNjlzMnk1MEZhTmdTS2Y4UDdnWGtWd2ZUbHdjSWY0R1ZvdEFVc0pNNVFqVjFNMXVHRmZtUU1aanNrTDdTOGVVTXB1ZmdtZnBEeXVqYlpJWTFmemNGdDJqMUVkbEp2ZmVYR2RTRQ?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-28T07:33:47"
-        },
-        {
-          "headline": "Fisher Funds Management LTD Acquires 254,032 Shares of NVIDIA Corporation $NVDA",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQRHB2SzVNOHFLQXRqekh2NE1hdFp4ZF9ZQ2J4UTVWVENERjlITlF0OURhUHJEYUM5eFRCSXYzR2FzS2ZnQkhKVmpsRm9YU19JUDZCbGNiTUxIN2s5MzR3d1JiSFlEUHNVYXRKSGxEeUJxVVBvRHNLbDJjeXNOMHBkTThtWTQ3S0hhbWRteUp5Z21lYTZDanJBVlF5WE00eThld1k3aGNyTU1ETGFhSERfOTVCdVdfcEtscGdOMlQxS3Zhdkt2SXdMWWViMDd1ay1OQnFhMQ?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-28T07:33:52"
-        },
-        {
-          "headline": "Meet the Super Semiconductor ETF Obliterating the S&P 500 and the Nasdaq-100 in 2026",
-          "link": "https://www.fool.com/investing/2026/08/28/meet-semiconductor-etf-sp-500-nasdaq-100-in-2026/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "This fund has one-quarter of its assets parked in Nvidia, Micron Technology, and Advanced Micro Devices.",
-          "published": "2026-08-28T08:50:00"
-        },
-        {
-          "headline": "Why Are Nasdaq, S&P 500 Futures Slipping Premarket? NVDA, MU, MRVL, IREN, PYPL, RKLB Stocks In Focus",
-          "link": "https://stocktwits.com/news-articles/markets/equity/why-are-nasdaq-sp500-futures-slipping-premarket-nvda-mu-mrvl-iren-pypl-rklb-stocks-in-focus/cZYATUMRJAW?.tsrc=rss",
-          "source": "stocktwits.com",
-          "summary": "Retail sentiment on Stocktwits improved to ‘bullish’ on SPY and ‘neutral’ on QQQ.",
-          "published": "2026-08-28T08:49:40"
-        },
-        {
-          "headline": "Warsh, Nvidia And oil In focus -  what’s moving markets",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/warsh-nvidia-oil-focus-moving-082852993.html?.tsrc=rss",
-          "source": null,
-          "summary": "Investing.com - U.S. stock futures were little changed on Friday after Nvidia’s blockbuster earnings reignited the technology rally, with investors now turning their attention to Federal Reserve Chair Kevin Warsh’s closely watched speech at Jackson Hole. Meanwhile, renewed uncertainty over U.S.-Iran negotiations pushed oil prices higher, while PayPal tumbled after takeover talks collapsed.",
-          "published": "2026-08-28T08:28:52"
-        },
-        {
-          "headline": "Cloud Gaming for Travelers Outlook 2026-2030 - Featuring Profiles of Microsoft, NVIDIA, and Sony Interactive Entertainment",
-          "link": "https://finance.yahoo.com/technology/articles/cloud-gaming-travelers-outlook-2026-082300460.html?.tsrc=rss",
-          "source": null,
-          "summary": "5G, edge computing and rising travel are driving opportunities in low-latency, cross-device subscriptions, adaptive streaming and in-vehicle cloud gaming. Cloud Gaming for Travelers Market Cloud Gaming for Travelers Market Dublin, Aug. 28, 2026 (GLOBE NEWSWIRE) -- The \"Cloud Gaming for Travelers Market Global Report 2026\" has been added to ResearchAndMarkets.com's offering. Cloud Gaming for Travelers Market to Reach $11.03 Billion by 2030 as 5G and Mobile Gaming Adoption Accelerate The global cl",
-          "published": "2026-08-28T08:23:00"
-        },
-        {
-          "headline": "Most stocks rise as attention turns to Warsh speech",
-          "link": "https://finance.yahoo.com/economy/policy/articles/most-asian-stocks-advance-attention-023917672.html?.tsrc=rss",
-          "source": null,
-          "summary": "Stocks mostly rose Friday ahead of a closely watched speech by Federal Reserve boss Kevin Warsh that investors will be parsing for clues about the outlook for interest rates amid elevated inflation and no sign of an end to the Middle East crisis.\"Recent data have reduced the immediate need for tighter policy, giving Warsh room to re-establish the Fed's inflation-fighting message without signalling imminent action,\" Innes wrote.",
-          "published": "2026-08-28T08:12:04"
-        },
-        {
-          "headline": "Fantastic News for Nvidia Stock Investors!",
-          "link": "https://www.fool.com/investing/2026/08/28/fantastic-news-for-nvidia-stock-investors/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "The skeptics are running out of ammunition.",
-          "published": "2026-08-28T07:50:01"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1298,7 +1225,7 @@
       "ma": 29798522,
       "expansion": 29797262,
       "earnings": 29798373,
-      "large_share_purchases": 29798642
+      "large_share_purchases": 29798762
     },
     "TSM": {
       "large_share_purchases": 1322,
@@ -1339,14 +1266,14 @@
     }
   },
   "recent_post_sources": [
-    "Bloomberg Government News",
     "stocktwits.com",
     "Zacks",
     "MarketBeat",
     "MarketBeat",
-    "DatacenterDynamics"
+    "DatacenterDynamics",
+    "MarketBeat"
   ],
-  "last_news_post_min": 29798642,
+  "last_news_post_min": 29798762,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -1446,8 +1373,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 303.35,
-    "SIE.DE": 291.3,
+    "SU.PA": 302.4,
+    "SIE.DE": 289.85,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1473,24 +1400,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 188.51,
-    "BESI.AS": 200.1,
-    "AIXA.DE": 37.05,
-    "IFX.DE": 57.57,
-    "ASML.AS": 1491.2,
-    "MU": 915.84,
-    "TSM": 426.95,
-    "KLAC": 180.95,
-    "STX": 834.17,
-    "ANET": 196.83,
-    "LRCX": 313.93,
-    "FORM": 108.85,
-    "AVGO": 372.99,
-    "AMAT": 476.24,
-    "AMD": 470.95,
-    "MRVL": 220.32,
-    "NVDA": 226.82,
-    "WDC": 462.0
+    "SAP.DE": 189.86,
+    "BESI.AS": 198.8,
+    "AIXA.DE": 36.73,
+    "IFX.DE": 57.04,
+    "ASML.AS": 1489.4,
+    "MU": 937.99,
+    "TSM": 428.62,
+    "KLAC": 181.2,
+    "STX": 851.96,
+    "ANET": 197.7,
+    "LRCX": 315.94,
+    "FORM": 107.32,
+    "AVGO": 373.8,
+    "AMAT": 473.42,
+    "AMD": 476.42,
+    "MRVL": 222.9,
+    "NVDA": 225.24,
+    "WDC": 473.2
   },
   "day_event_fired": {
     "BE": "2026-07-07",
