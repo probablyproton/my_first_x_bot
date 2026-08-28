@@ -1,10 +1,10 @@
 {
   "date": "2026-08-28",
   "daily_posts": 2,
-  "daily_keyword_posts": 5,
-  "daily_pulse_posts": 7,
+  "daily_keyword_posts": 6,
+  "daily_pulse_posts": 8,
   "gemini_calls_today": 18,
-  "evergreen_opinion_posts_today": 0,
+  "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-08-23",
     "monday": "2026-08-24",
@@ -63,7 +63,7 @@
     "AMAT": 29797892,
     "WDC": 29797293
   },
-  "event_log_next_id": 616,
+  "event_log_next_id": 617,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -455,20 +455,20 @@
       "Schneider Electric Announces Intention To Acquire Cognite",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
       "Schneider Electric home EV charger uses smart load management",
+      "Schneider’s First-Ever Residential EV Charger Comes with Baked in Load Management",
       "Need a panel upgrade for an EV charger? Schneider may have a workaround",
       "Schneider Electric Strengthens Partner Ecosystem for Software-Defined Automation",
       "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
-      "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
+      "Schneider Level 2 EV Charger Canada | Fast Home Charging",
       "Schneider Charge Residential EV Charger Debuts With SmartAmp",
       "Schneider Electric launches residential EV charger in Canada",
-      "Schneider Charge Smart Level 2 EV Charger Fast Home Charging",
       "Schneider Electric launches Easy UPS 3S Pro for critical infrastructure and applications",
       "Schneider Electric’s new EV charger eliminates pricey upgrades",
       "Data Center Power Outlook 2025-2035 - Featuring Profiles of Schneider Electric, Vertiv, and Eaton",
+      "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?",
       "Schneider Electric (ENXTPA:SU) Stock Looks Stretched Despite Its 120% Five Year Run",
-      "Schneider Electric Canada Strengthens Commercial Leadership to Help Customers Navigate the New Energy Landscape",
-      "What Multibillion Dollar Industrial AI Deals Say About The Market"
+      "Schneider Electric Canada Strengthens Commercial Leadership to Help Customers Navigate the New Energy Landscape"
     ],
     "BE": [
       "Bloom Energy vs. Oklo: Which Power Stock Is a Better Buy in 2026?",
@@ -721,10 +721,10 @@
       "Marvell Technology Sees AI Connectivity as Next Big Infrastructure Bottleneck",
       "Marvell Technology Tokenized Stock (Ondo) price today, MRVLon to USD chart, marketcap and volume",
       "Marvell gives Google option to buy $12.2 billion stake in custom AI chip deal",
-      "Marvell revenue climbs 37% to a record US$2.74 billion on data center demand",
       "Here's How Much $100 Invested In Marvell Technology 10 Years Ago Would Be Worth Today",
-      "'This is by far our stock pick of the year': Hatfield on Marvell Technology",
+      "Marvell revenue climbs 37% to a record US$2.74 billion on data center demand",
       "Prediction: Marvell Technology Stock Could Go Parabolic After Its Next Custom Chip Deal",
+      "'This is by far our stock pick of the year': Hatfield on Marvell Technology",
       "Marvell Technology (Backpack Securities) (MRVL) Price, MarketCap, Charts and Fundamentals Info",
       "Stock Market Today: Dow, S&P 500 Rise Before Warsh; Marvell, Affirm, PayPal Are Big Movers (Live Coverage)",
       "Update: Marvell Technology Shares Fall Pre-Bell on Google Deal Concerns Despite Fiscal Q2 Results Beat",
@@ -763,12 +763,12 @@
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
       "Lam Research Corp. stock outperforms competitors on strong trading day",
+      "Lam Research Corporation xStock (LRCXX) Price Prediction for 2026 to 2031",
       "Lam Research Breaks Ground on Oregon Lab for AI Semiconductor R&D",
       "Lam Research announces retirement of two key bo...",
       "Lam Research Corporation Tokenized Stock (Robinhood)",
       "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
       "Lam Research price shows cautious gains - Forecast today - 24-08-2026",
-      "Lam Research to Reduce Board Size Following Retirement of Two Directors",
       "Lam Research Corp. stock outperforms competitors despite losses on the day",
       "AI Lab Buildout And Dividend Hike Could Be A Game Changer For Lam Research (LRCX)",
       "Lam Research Announces Retirement of Michael R. Cannon and Sohail U. Ahmed from Board of Directors",
@@ -782,8 +782,8 @@
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
       "Micron’s $1.8B Taiwan Fab Deal: What It Means for AI & Investors",
-      "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
       "Taiwan Semiconductor Stock: Does the Booming Revenue Outweigh Geopolitical Risk?",
+      "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
       "Taiwan as a “Macro-City” Designed for Chip Manufacturing",
       "Taiwan Semiconductor Ceramic Packaging Materials Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Arizona wants Taiwan’s investors to think beyond chips",
@@ -808,11 +808,11 @@
       "WD to Participate in Upcoming Investor Conference",
       "Western Digital Tokenized Stock (Robinhood) (WDC) Chart",
       "Western Digital Updates Convertible Note Exchange, Reveals Exact Share Issuance",
-      "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
-      "Western Digital Corp (NASDAQ:WDC)",
       "Western Digital Adds Post-Quantum Cryptography to Hard Drives",
+      "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
       "How Western Digital used AI to turbocharge collection of supplier emissions data",
-      "WDC/BBD: Convert Western Digital Corporation (WDC) to Barbadian Dollar (BBD)",
+      "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
+      "Western Digital blows hard disk drive future wide open",
       "Zacks Industry Outlook Western Digital, Sandisk and Super Micro Computer",
       "After Surging 3,110%, Has Sandisk Already Had Its \"Nvidia Moment\"?",
       "Micron Lags Despite NVIDIA’s $279B Memory Commitment; Western Digital Drops 4%, SK Hynix Ticks Up",
@@ -826,16 +826,16 @@
       "Insight CTO On VMware By Broadcom ‘Chaos,’ ‘Pain’ And ‘Confusion,’ Even As VMware Technology Has ‘Never Been Better’",
       "Broadcom, VMware deal good for investors but customers may suffer",
       "How Broadcom’s VMware buy meant a ‘fundamental shift’ for county tech",
+      "Broadcom Credit Risk Soars on Mega AI Debt Financing Backstops",
       "Frontier AI Security and Private Cloud | Broadcom News and Stories",
       "Kyndryl, Broadcom expand partnership to push private clouds for AI work",
       "Broadcom Thor Ultra Ethernet NIC at Hot Chips 2026",
-      "Broadcom Seeks More Than $60 Billion in Latest AI Debt Deal",
       "Broadcom seeks more than $60 billion in latest AI debt deal, Bloomberg News reports",
       "Hock Tan: The 100 Most Influential People in AI 2026",
       "Oracle and Broadcom Credit Risk Spikes as AI Debt Hits $182 Billion",
       "OpenAI’s 700W Jalapeño ASIC outpaces 1,400W Nvidia flagship GPU — claims up to 1.9x throughput per kilowatt and 3.6x lower latency, co-developed with Broadcom",
+      "Broadcom Inc. stock outperforms competitors despite losses on the day",
       "OpenAI Jalapeño: Better Than Nvidia Blackwell",
-      "Microsoft ends one of the last ways to buy VMware without big bundles",
       "Broadcom Built Something Nearly Perfect So I Keep Buying",
       "Kyndryl, Broadcom deepen partnership to build AI-ready private clouds",
       "Spicy Stocks: Why BNP Thinks Jalapeño Could Benefit Broadcom Stock",
@@ -843,11 +843,11 @@
       "Broadcom Faces New AI Challenge as Google Deepens Marvell Partnership"
     ],
     "KLAC": [
+      "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
       "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
       "3 Big Reasons to Love KLA Corporation (KLAC)",
       "Semiconductor Manufacturing Stocks Q4 Results: Benchmarking KLA Corporation (NASDAQ:KLAC)",
       "Kwik Lok acquires full ownership of Kwik Lok Australia",
-      "2 Unpopular Stocks That Deserve Some Love and 1 We Brush Off",
       "KLA Corp insiders cashed out $64M while stock slid 40%",
       "Historical Data for KLA Corporation Tokenized Stock (Robinhood) in USD",
       "KLA Corp. stock outperforms competitors despite losses on the day",
@@ -918,11 +918,11 @@
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials Inc. stock outperforms competitors despite losses on the day",
       "AI energy bottleneck is driving semiconductor materials innovation, says Applied Materials",
-      "ASU joins Applied Materials' EPIC Center as inaugural university research partner",
       "Applied Materials to Participate in Upcoming Investor Conferences",
-      "Applied Materials, Inc. AMAT Stock Price Analysis Today Nick Foligno (038SYJpU8N)",
-      "Applied Materials unveils more advanced chipmaking gear for 3D stacking architectures",
-      "How Applied Materials Is Driving Transformation of the Finance Function with SAP Taulia",
+      "Applied Materials Stock Is -35% Off Its Highs: Here Is The Price I'll Start Buying $AMAT Smh Stock (2lwp69YoQ5)",
+      "The Zacks Analyst Blog Highlights NVIDIA, Applied Materials and ConocoPhillips",
+      "FILE PHOTO: Illustration shows Applied Materials logo",
+      "Applied Materials, Inc. tokenized stock (xStock)",
       "How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet",
       "What Does Applied Materials (AMAT) Gain From Its New Board Appointment?",
       "The AI Buildout Is Turning Applied Materials (AMAT) Into A Profit Machine",
@@ -986,7 +986,7 @@
       "Advanced Micro Devices (AMD) Price Prediction | Key Levels To Watch Andrei Svechnikov (nzYyh9Anj9)",
       "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Malaga Fc (5R9rL8CZaZ)",
       "Advanced Micro Devices (AMD) Stock Just Hit A Key Level | What’s Next? Paris Hilton (EI0mT65863)",
-      "Advanced Micro Devices (AMD) Stock Update: Current Trend And Critical Support Zones Real Betis Vs Elche (gWf4ycUV3j)",
+      "Advanced Micro Devices (AMD) Price Prediction | Key Levels To Watch Brewers Game (4bs8Gp4XBk)",
       "Cathie Wood Just Sold Another $18 Million of AMD Stock",
       "Cathie Wood’s ARK Just Dumped AMD Stock. What She’s Buying Instead.",
       "AMD Stock Alert: Raymond James Sees $201B Revenue Opportunity by 2030",
@@ -996,9 +996,9 @@
     "IFX.DE": [
       "Germany Infineon Technologies C2i Semiconductors Acquisition",
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
+      "Infineon’s bets big on SIVR with C2i buy",
+      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Germany's Infineon acquires Bengaluru-based C2i Semiconductors to strengthen AI data centre power business",
-      "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
-      "Infineon Completes Acquisition of Marvell’s Automotive Ethernet Business",
       "Infineon-led European project Moore4Power launches",
       "North-America Automotive Semiconductor Market Size, Share,Trends, Growth Analysis Report, 2030",
       "North America Intelligent Power Module Market Report",
@@ -1006,14 +1006,14 @@
       "Infineon Startup Challenge 2026 puts humanoid robotics in the spotlight",
       "Infineon Technologies officially opens new R&D Centre in Cork",
       "EQS-PVR: Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
-      "Infineon’s bets big on SIVR with C2i buy",
       "Chip Stocks Edge Higher After Monday Rout",
       "Infineon and MediaTek partner on automotive AI systems",
       "Infineon Technologies (XTRA:IFX) Stock Fair Value Rises After Analysts Lift Targets",
       "Infineon Technologies (XTRA:IFX) Sets Record AI Revenue, Is It Fully Priced?",
       "Infineon Technologies AG (IFNNF) (Q3 2026) Earnings Call Highlights: Record Revenue and AI ...",
       "Infineon hits revenue record: AI data centres drive growth",
-      "German chipmaker Infineon posts record revenue as AI fuels growth"
+      "German chipmaker Infineon posts record revenue as AI fuels growth",
+      "Chip Stocks Climb as AI Rally Regains Strength"
     ],
     "ANET": [
       "Arista Results Highlight AI Networking Growth And VeloCloud SD WAN Expansion",
@@ -1023,6 +1023,7 @@
       "Top 5 networking stories of 2025: HPE-Juniper, Cisco dominate networking attention",
       "Analysts Conflicted on These Technology Names: CrowdStrike Holdings (CRWD), Arista Networks (ANET) and HP (HPQ)",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
+      "Arista Networks aStock (AANET) Price, MarketCap, Charts and Fundamentals Info",
       "J. Goldman takes new $6.97M stake in Arista Networks",
       "Arista Networks (ANET) Stock Analysis | High Growth Stock Azan Awais (axRZ4BsFKe)",
       "Why Arista Networks (NYSE:ANET) Is Back on the Market Radar?",
@@ -1030,7 +1031,6 @@
       "Arista Networks Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
       "Arista Networks aStock Price: AANET Live Price Today | AANET Market Cap & Chart Analysis",
       "Arista Networks President, CTO Kenneth Duda disposes of USD 3.87 million in common shares",
-      "Arista Networks Inc (ANET) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
       "Here's How Much a $1000 Investment in Arista Networks Made 10 Years Ago Would Be Worth Today",
       "Decoding ANET Stock's Premium Valuation",
       "Wall Street Analysts Believe Arista Networks (ANET) Could Rally 26.74%: Here's is How to Trade",
@@ -1339,12 +1339,12 @@
     }
   },
   "recent_post_sources": [
-    "app.moby.co",
     "Bloomberg Government News",
     "stocktwits.com",
     "Zacks",
     "MarketBeat",
-    "MarketBeat"
+    "MarketBeat",
+    "DatacenterDynamics"
   ],
   "last_news_post_min": 29798642,
   "evergreen_opinion_used": {
@@ -1391,14 +1391,21 @@
     "nric adds 13 projects to nuclear energy launch pad, expanding advanced reactor and fuel-cycle pipeline": "2026-08-25",
     "lancium, nvidia partner on gigawatt-scale ai data centers": "2026-08-25",
     "openai jalapeno custom ai asic at hot chips 2026": "2026-08-26",
-    "empyrion closes financing for taipei, taiwan data center with e.sun bank": "2026-08-26"
+    "empyrion closes financing for taipei, taiwan data center with e.sun bank": "2026-08-26",
+    "atnorth signs contract with yit for additional data center building at campus in finland": "2026-08-28"
   },
   "pulse_template_decks": {
     "evergreen": [
-      4,
-      1
+      4
     ],
-    "mover": [],
+    "mover": [
+      5,
+      2,
+      1,
+      4,
+      6,
+      3
+    ],
     "price_event": [
       3,
       4
@@ -1434,13 +1441,13 @@
       1
     ]
   },
-  "last_evergreen_min": 29796062,
+  "last_evergreen_min": 29798732,
   "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 302.6,
-    "SIE.DE": 290.75,
+    "SU.PA": 303.35,
+    "SIE.DE": 291.3,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1466,24 +1473,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 189.06,
-    "BESI.AS": 198.75,
-    "AIXA.DE": 37.04,
-    "IFX.DE": 57.44,
-    "ASML.AS": 1486.6,
-    "MU": 919.37,
-    "TSM": 425.91,
-    "KLAC": 182.7,
-    "STX": 837.5,
-    "ANET": 200.35,
-    "LRCX": 315.23,
-    "FORM": 110.71,
-    "AVGO": 369.16,
-    "AMAT": 477.89,
-    "AMD": 473.71,
-    "MRVL": 243.03,
-    "NVDA": 227.6,
-    "WDC": 453.64
+    "SAP.DE": 188.51,
+    "BESI.AS": 200.1,
+    "AIXA.DE": 37.05,
+    "IFX.DE": 57.57,
+    "ASML.AS": 1491.2,
+    "MU": 915.84,
+    "TSM": 426.95,
+    "KLAC": 180.95,
+    "STX": 834.17,
+    "ANET": 196.83,
+    "LRCX": 313.93,
+    "FORM": 108.85,
+    "AVGO": 372.99,
+    "AMAT": 476.24,
+    "AMD": 470.95,
+    "MRVL": 220.32,
+    "NVDA": 226.82,
+    "WDC": 462.0
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1511,9 +1518,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 44,
-  "last_pulse_post_min": 29798672,
-  "last_pulse_ticker": "BESI.AS",
+  "next_pulse_interval": 42,
+  "last_pulse_post_min": 29798731,
+  "last_pulse_ticker": "AMD",
   "pulse_news_seen": {
     "su.pa:schneider electric launches schneider charge, a level 2 residential ev charger with built-in dynamic load management": "2026-08-26",
     "amat:applied materials stock and the factory buildout investors may be missing": "2026-08-26",
@@ -1528,7 +1535,8 @@
     "anet:arista networks inc. stock outperforms competitors on strong trading day": "2026-08-27",
     "avgo:kyndryl, broadcom expand partnership to push private clouds for ai work": "2026-08-27",
     "amd:burnham & co llc acquires new stake in advanced micro devices, inc. $amd": "2026-08-27",
-    "form:formfactor astock (aform) price, marketcap, charts and fundamentals info": "2026-08-28"
+    "form:formfactor astock (aform) price, marketcap, charts and fundamentals info": "2026-08-28",
+    "amd:compass financial management llc acquires new position in advanced micro devices, inc. $amd": "2026-08-28"
   },
   "eu_slots": [
     {
@@ -1561,7 +1569,9 @@
       "fire_time": "22:27"
     }
   ],
-  "us_posted": [],
+  "us_posted": [
+    0
+  ],
   "us_flexible_used": 1,
   "eu_flexible_used": 1
 }
