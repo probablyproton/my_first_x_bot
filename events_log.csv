@@ -1305,3 +1305,6 @@ https://www.nasdaq.com/articles/marvell-technology-mrvl-q2-earnings-and-revenues
 601,2026-08-28,08:32:42,Friday,news_event,,,keyword,AMD,AMD,,,,,474.29,-2.22,,,"Burnham & Co LLC Acquires New Stake in Advanced Micro Devices, Inc. $AMD",MarketBeat,https://www.marketbeat.com/instant-alerts/filing-burnham-co-llc-acquires-new-stake-in-advanced-micro-devices-inc-amd-2026-08-27/,,ma,,,,,N,14,keyword,Y,,"$AMD ($474.29, -2.22% at last close as of Aug 27): Burnham & Co LLC Acquires New Stake in Advanced Micro Devices, Inc. $AMD
 
 https://www.marketbeat.com/instant-alerts/filing-burnham-co-llc-acquires-new-stake-in-advanced-micro-devices-inc-amd-2026-08-27/",253,,,,,
+602,2026-08-28,09:01:56,Friday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"Hourly check-in: $SAP.DE +5.48% to €189.88, well ahead of the rest of the board.",80,,,,,
+603,2026-08-28,09:02:36,Friday,scheduled_slot,eu,hook,gemini,SAP.DE,SAP,"$IFX, $BESI, $AIXA, $SU",,,open,189.88,5.48,,,,,,,,,,,,Y,16,,N,generation_failed,,,,,,,
+604,2026-08-28,09:02:53,Friday,price_event,eu,,zero_llm_template,SAP.DE,SAP,,XETR,Y,open,189.88,5.48,,,,,,,,,5.48,,,N,16,llm,Y,,$SAP.DE +5.48% today – no notes.,32,,,,,
