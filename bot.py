@@ -44,7 +44,6 @@ import matplotlib
 matplotlib.use("Agg")  # headless CI — never touches a display
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-import matplotlib.ticker as mticker
 
 ssl._create_default_https_context = ssl._create_unverified_context
 os.environ["PYTHONHTTPSVERIFY"] = "0"
@@ -780,10 +779,18 @@ def render_week_chart(symbol: str, week_ctx: dict, label: str = "WTD") -> str | 
         fig.patch.set_facecolor("white")
         ax.set_facecolor("white")
 
-        ax.plot(times, closes, color=accent, linewidth=1.8, solid_capstyle="round", zorder=3)
-        ax.fill_between(times, closes, min(min(closes), start_price), color=accent, alpha=0.08,
+        # Plotted against BAR SEQUENCE (0, 1, 2, ...), not real elapsed time. Hourly bars only
+        # exist during trading hours, so a real-time x-axis has to jump ~17-18 "dead" hours
+        # between Friday's last bar and Monday's first (or ~14-15 overnight) — matplotlib fills
+        # that gap with a straight line at the same slope as everything else, which reads as one
+        # long diagonal ramp each day rather than the flat overnight pause it actually was.
+        # Indexing by position instead makes every bar equally spaced regardless of the clock
+        # time between it and the next one, which is how real trading-platform charts avoid this.
+        x = range(len(closes))
+        ax.plot(x, closes, color=accent, linewidth=1.8, solid_capstyle="round", zorder=3)
+        ax.fill_between(x, closes, min(min(closes), start_price), color=accent, alpha=0.08,
                          zorder=2)
-        ax.plot(times[-1], closes[-1], marker="o", markersize=4, color=accent, zorder=4)
+        ax.plot(x[-1], closes[-1], marker="o", markersize=4, color=accent, zorder=4)
         ax.axhline(start_price, color="#8a8f98", linewidth=1.0, linestyle=(0, (4, 3)), zorder=1)
 
         for spine in ax.spines.values():
@@ -791,22 +798,19 @@ def render_week_chart(symbol: str, week_ctx: dict, label: str = "WTD") -> str | 
         ax.set_yticks([])
         ax.grid(axis="y", color="#e6e6e6", linewidth=0.7, zorder=0)
         ax.tick_params(axis="x", labelsize=8, colors="#8a8f98", length=0)
-        ax.xaxis.set_major_formatter(mdates.DateFormatter("%a"))
-        # One tick per DAY, not per hourly data point — `times` is now hourly-resolution (see
-        # _week_series), so ticking every point would cram ~35-40 overlapping labels onto the
-        # axis. Pinned to each day's own first timestamp, NOT mdates.DayLocator() — that ticks at
-        # calendar-day midnight boundaries, and since a trading session doesn't start exactly at
-        # midnight, the boundary before the data begins falls outside the plotted range and gets
-        # skipped, which silently shifts every weekday label one day late (a Mon-Fri week reads
-        # as Tue-Sat). Ticking each day's real first timestamp instead guarantees each label
-        # names the trading day it's actually sitting above.
-        day_starts, seen_days = [], set()
-        for t in times:
+        # One tick per DAY, not per hourly bar — placed at each day's first bar's sequence
+        # position (not its timestamp, since the x-axis is no longer date-valued), labeled with
+        # that bar's actual weekday.
+        day_start_positions, day_start_labels = [], []
+        seen_days = set()
+        for i, t in enumerate(times):
             d = t.date()
             if d not in seen_days:
                 seen_days.add(d)
-                day_starts.append(t)
-        ax.xaxis.set_major_locator(mticker.FixedLocator(mdates.date2num(day_starts)))
+                day_start_positions.append(i)
+                day_start_labels.append(t.strftime("%a"))
+        ax.set_xticks(day_start_positions)
+        ax.set_xticklabels(day_start_labels)
         ax.margins(x=0.04, y=0.15)
 
         fig.subplots_adjust(left=0.04, right=0.96, top=0.68, bottom=0.14)
