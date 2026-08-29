@@ -787,13 +787,21 @@ def render_week_chart(symbol: str, week_ctx: dict, label: str = "WTD") -> str | 
         ax.grid(axis="y", color="#e6e6e6", linewidth=0.7, zorder=0)
         ax.tick_params(axis="x", labelsize=8, colors="#8a8f98", length=0)
         ax.xaxis.set_major_formatter(mdates.DateFormatter("%a"))
-        # Pinned to the actual data points, NOT mdates.DayLocator() — that ticks at each
-        # calendar-day midnight boundary, and since a trading session doesn't start exactly at
-        # midnight, the first boundary before the data begins falls outside the plotted range
-        # and gets skipped. That silently shifts every weekday label one day late (a Mon-Fri
-        # week reads as Tue-Sat). Ticking the real timestamps instead guarantees each label
+        # One tick per DAY, not per hourly data point — `times` is now hourly-resolution (see
+        # _week_series), so ticking every point would cram ~35-40 overlapping labels onto the
+        # axis. Pinned to each day's own first timestamp, NOT mdates.DayLocator() — that ticks at
+        # calendar-day midnight boundaries, and since a trading session doesn't start exactly at
+        # midnight, the boundary before the data begins falls outside the plotted range and gets
+        # skipped, which silently shifts every weekday label one day late (a Mon-Fri week reads
+        # as Tue-Sat). Ticking each day's real first timestamp instead guarantees each label
         # names the trading day it's actually sitting above.
-        ax.xaxis.set_major_locator(mticker.FixedLocator(mdates.date2num(times)))
+        day_starts, seen_days = [], set()
+        for t in times:
+            d = t.date()
+            if d not in seen_days:
+                seen_days.add(d)
+                day_starts.append(t)
+        ax.xaxis.set_major_locator(mticker.FixedLocator(mdates.date2num(day_starts)))
         ax.margins(x=0.04, y=0.15)
 
         fig.subplots_adjust(left=0.04, right=0.96, top=0.68, bottom=0.14)
@@ -876,16 +884,22 @@ def _week_series(symbol: str, mode: str) -> dict | None:
     close) and get_week_to_date_change ('wtd': this week's Monday open vs. latest close) — both
     functions delegate their % math to this one place, so a chart built from this dict's
     times/closes/start_price always matches the % those functions report, with no separate
-    fetch that could disagree. Returns None if there's not enough data to compute a change."""
+    fetch that could disagree. Hourly bars, not daily, so the chart this feeds has a genuinely
+    detailed intraday shape across the week rather than 5 straight-line segments. Returns None
+    if there's not enough data to compute a change."""
     try:
         ticker = yf.Ticker(symbol)
-        hist = ticker.history(period="5d")
+        # Hourly, not daily, bars — a daily-bar week is only 5 points (one straight-line segment
+        # per day), whereas hourly gives a genuinely detailed intraday shape across the whole
+        # week (~35-40 points for a normal 5-day session) while still covering the same period="5d"
+        # window the % figures are defined over.
+        hist = ticker.history(period="5d", interval="1h")
         if hist.empty:
             return None
 
-        # yfinance can hand back a placeholder row for a day nothing actually traded on (seen on
-        # a weekend fetch: a trailing row for "today" with NaN OHLC) — dropping it here means a
-        # chart's last plotted point is always a genuine close, never a blank session read as
+        # yfinance can hand back a placeholder row for a period nothing actually traded in (seen
+        # on a weekend fetch: a trailing row for "today" with NaN OHLC) — dropping it here means
+        # a chart's last plotted point is always a genuine close, never a blank session read as
         # $nan/€nan. Filtering on Close/Open together (rather than dropna() bare) also makes sure
         # this can't leave a row with a real Close but a NaN Open sneaking through wtd mode below.
         hist = hist.dropna(subset=["Close", "Open"])
@@ -897,11 +911,17 @@ def _week_series(symbol: str, mode: str) -> dict | None:
             hist = hist[hist.index.date >= monday]
             if hist.empty:
                 return None
-            start_price = float(hist["Open"].iloc[0])
+            start_price = float(hist["Open"].iloc[0])  # Monday's first hourly bar = the session open
         else:
-            if len(hist) < 2:
-                return None
-            start_price = float(hist["Close"].iloc[0])
+            # "Last week's performance" is close vs. close, not vs. the oldest hour's own open —
+            # with hourly bars, hist["Close"].iloc[0] would be the FIRST HOUR's close on the
+            # oldest day, not that day's end-of-day close. Anchor to the last hourly bar of the
+            # oldest calendar day present instead, to keep the same close-to-close definition
+            # get_week_performance has always used.
+            first_day = hist.index[0].date()
+            if hist.index[-1].date() == first_day:
+                return None  # window doesn't actually span more than one trading day yet
+            start_price = float(hist[hist.index.date == first_day]["Close"].iloc[-1])
 
         if not (start_price > 0) or not math.isfinite(start_price):
             return None
