@@ -1,7 +1,7 @@
 {
   "date": "2026-08-29",
   "daily_posts": 3,
-  "daily_keyword_posts": 6,
+  "daily_keyword_posts": 7,
   "daily_pulse_posts": 0,
   "gemini_calls_today": 3,
   "evergreen_opinion_posts_today": 1,
@@ -57,7 +57,7 @@
     "BESI.AS": 1083,
     "ASML.AS": 29799931,
     "IFX.DE": 29799931,
-    "LRCX": 29799843,
+    "LRCX": 29799992,
     "FORM": 29798881,
     "AVGO": 29799843,
     "KLAC": 1142,
@@ -65,7 +65,7 @@
     "AMAT": 29799843,
     "WDC": 29797293
   },
-  "event_log_next_id": 657,
+  "event_log_next_id": 658,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -101,7 +101,7 @@
     "news_MU": 29799332,
     "news_AMD": 29799812,
     "BESI.AS": 917,
-    "news_LRCX": 29797142,
+    "news_LRCX": 29799992,
     "FORM": 29798881,
     "AMD": 1022,
     "AVGO": 1082,
@@ -460,17 +460,17 @@
       "Schneider Electric Strengthens Partner Ecosystem for Software-Defined Automation",
       "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
       "Schneider’s First-Ever Residential EV Charger Comes with Baked in Load Management",
-      "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
-      "Schneider Electric launches residential EV charger in Canada",
+      "Schneider Level 2 EV Charger Canada | Fast Home Charging",
       "Schneider Charge Residential EV Charger Debuts With SmartAmp",
-      "Schneider Charge Smart Level 2 EV Charger Fast Home Charging",
+      "Schneider Electric launches residential EV charger in Canada",
       "How UK Multi-Site Operators Cut Energy Costs with Schneider",
+      "Schneider Electric Launches Installed Base Tracking Campaign in India",
       "Data Center Power Outlook 2025-2035 - Featuring Profiles of Schneider Electric, Vertiv, and Eaton",
+      "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?",
       "Schneider Electric (ENXTPA:SU) Stock Looks Stretched Despite Its 120% Five Year Run",
       "Schneider Electric Canada Strengthens Commercial Leadership to Help Customers Navigate the New Energy Landscape",
-      "What Multibillion Dollar Industrial AI Deals Say About The Market",
-      "City of Cadillac Selects Schneider Electric and Budderfly to Advance Resilient Energy Infrastructure with No Upfront Cost"
+      "What Multibillion Dollar Industrial AI Deals Say About The Market"
     ],
     "BE": [
       "Bloom Energy vs. Oklo: Which Power Stock Is a Better Buy in 2026?",
@@ -748,8 +748,8 @@
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "FormFactor aStock (AFORM) Price Prediction for 2026 to 2031",
-      "FormFactor Inc (Carlsbad) WARN Act Investigation",
       "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
+      "Bay Area semiconductor testing company to lay off more than 200 workers",
       "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
       "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
       "FormFactor CEO Mike Slessor Sells 16,002 Shares for $2 Million",
@@ -814,7 +814,7 @@
       "How Western Digital used AI to turbocharge collection of supplier emissions data",
       "WDC/BBD: Convert Western Digital Corporation (WDC) to Barbadian Dollar (BBD)",
       "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
-      "Western Digital jumps 16% amid memory chip stocks rally",
+      "AI infrastructure is multi-tiered, and HDDs are central to scaling AI, WD shares",
       "Western Digital Just Dropped 13% in a Month. Is It Time to Sell?",
       "Zacks Industry Outlook Western Digital, Sandisk and Super Micro Computer",
       "After Surging 3,110%, Has Sandisk Already Had Its \"Nvidia Moment\"?",
@@ -830,14 +830,14 @@
       "How Broadcom’s VMware buy meant a ‘fundamental shift’ for county tech",
       "Broadcom Credit Risk Soars on Mega AI Debt Financing Backstops",
       "Frontier AI Security and Private Cloud | Broadcom News and Stories",
-      "Kyndryl wraps security tendrils around VMware in Broadcom tie-up",
       "Kyndryl, Broadcom expand partnership to push private clouds for AI work",
       "Hock Tan: The 100 Most Influential People in AI 2026",
+      "Kyndryl wraps security tendrils around VMware in Broadcom tie-up",
       "Broadcom Thor Ultra Ethernet NIC at Hot Chips 2026",
       "Broadcom seeks more than $60 billion in latest AI debt deal, Bloomberg News reports",
-      "Broadcom Inc. stock outperforms competitors despite losses on the day",
-      "Oracle and Broadcom Credit Risk Spikes as AI Debt Hits $182 Billion",
+      "Brianne Gardner's Top Picks: Broadcom, Constellation Energy & RB Global",
       "OpenAI’s 700W Jalapeño ASIC outpaces 1,400W Nvidia flagship GPU — claims up to 1.9x throughput per kilowatt and 3.6x lower latency, co-developed with Broadcom",
+      "Oracle and Broadcom Credit Risk Spikes as AI Debt Hits $182 Billion",
       "6 things investors need to watch in the week ahead",
       "How networking became the critical layer of AI",
       "Broadcom vs. AMD: Which AI Chip Stock Has the Better Risk-Reward?",
@@ -849,14 +849,14 @@
       "3 Big Reasons to Love KLA Corporation (KLAC)",
       "Semiconductor Manufacturing Stocks Q4 Results: Benchmarking KLA Corporation (NASDAQ:KLAC)",
       "Kwik Lok acquires full ownership of Kwik Lok Australia",
-      "KLA Corp. stock underperforms Friday when compared to competitors",
       "KLA Corp insiders cashed out $64M while stock slid 40%",
       "KLA Corporation Price Today | xKLAC Live Price, Chart & Market Cap",
+      "KLA Corp. stock outperforms competitors despite losses on the day",
       "Historical Data for KLA Corporation Tokenized Stock (Robinhood) in USD",
       "Wrapped KLA Corporation Tokenized Stock (xStock) price today, wKLACx to USD live price, marketcap and chart",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "KLA Corporation Rings the Nasdaq Stock Market Closing Bell",
-      "KLA Corp. stock outperforms competitors despite losses on the day",
+      "Lam Research and KLA Corporation Stocks Trade Down, What You Need To Know",
       "KLA Corp. stock underperforms Wednesday when compared to competitors",
       "What KLA (KLAC)'s AI-Fueled Advanced Packaging Momentum Means For Shareholders",
       "KLAC vs. SNDK: Which Semiconductor Stock is a Better Buy Now?",
@@ -899,10 +899,10 @@
       "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
       "Breakingviews - Europe's chip programme could do with a reset",
       "Advanced Energy unveils dual-output 400W module for NeoPower configurable power supplies",
+      "SK hynix Orders Hybrid Bonding Equipment From Applied Materials and Besi",
       "BE Semiconductor Hits Record High as BofA Says Market is Underestimating Demand",
       "Besi APac Aims To Cut Emission With SAF For Semiconductor Shipment",
-      "Applied Materials Purchases 9% of BE Semiconductor Industries",
-      "BE Semiconductor Shares Soar as Fourth Quarter Bookings Double",
+      "Besi Advances Repayment of its 2029 Convertible Bonds",
       "Chip Stocks Driven Higher by Nvidia Results and Guidance",
       "Chip Stocks Mixed Ahead of Nvidia Earnings",
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
@@ -950,8 +950,8 @@
       "A Nationwide, Industry-Owned Blockchain Network for Banks Will Launch in 2027",
       "President Donald Trump Claims \"Prices Are Dropping Fast,\" but Trumpflation Data Tells a Different Story -- and That's Potentially Terrible News for Stocks",
       "How networking became the critical layer of AI",
-      "Nvidia Just Locked In a $279 Billion Bet on Memory Chips",
-      "Jim Cramer Explained What Turned The Tide For NVIDIA Corporation (NASDAQ:NVDA)’s Stock",
+      "If a Bear Market Is Coming, History Has Good News for Investors",
+      "Billionaire Stanley Druckenmiller Has Roughly 17% of His $5.2 Billion Duquesne Portfolio in Natera Stock. Is It Still a Buy After an 80% Run?",
       "This “Boring” Vanguard Dividend ETF Is Quietly Beating the S&P 500 in 2026"
     ],
     "AIXA.DE": [
@@ -985,8 +985,8 @@
       "Advanced Micro Devices Inc (Derivatives) Price Today | Live AMD Price, Chart & Market Data",
       "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Malaga Fc (5R9rL8CZaZ)",
       "Secihti and AMD Will Train AI Talent",
-      "Advanced Micro Devices (NASDAQ:AMD) in focus as AI data-center demand stays firm",
       "Latham Watkins Advises Advanced Micro Devices Inc on Revolving Credit Facility",
+      "Advanced Micro Devices (NASDAQ:AMD) in focus as AI data-center demand stays firm",
       "Advanced Micro Devices aStock (AAMD) Price, MarketCap, Charts and Fundamentals Info",
       "Monster insider trading alert for AMD stock",
       "Why Is AMD Stock Trending Today?",
@@ -1054,8 +1054,8 @@
       "Marco Pieters starts engineering ASML’s next chapter",
       "ASML’s Extreme Ultraviolet Lithography and the Limits of Reverse Engineering in China",
       "How ASML became Europe’s most valuable company",
-      "ASML Supplier Zeiss Says It Can Handle Demand for Key AI Parts",
       "The West may have created ASML’s biggest competitor",
+      "ASML Supplier Zeiss Says It Can Handle Demand for Key AI Parts",
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
       "ASML Shares Slide",
       "ASML Stock: Next Stop $3,000?",
@@ -1107,31 +1107,7 @@
       "Micron (MU) CEO: AI Shift Breaks Traditional Memory Market Cycles"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "LRCX",
-      "classification": {
-        "is_major": true,
-        "category": "ma",
-        "headline": "Field & Main Bank Acquires New Shares in Lam Research Corporation $LRCX",
-        "reason": "Keyword rule matched (category: ma)"
-      },
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNDRSWGlTZDZIRXZ5Tm5FamxTTHBsNzFHMmF0NjN1dVlMRE5VX1FTTnpxaE00ZmY4OExEdHhaT2xEdXVVTlZPaGZwUE8zamZsWFQxNUlMeG0tbHg3MEFZTTRiX3kwVjhWWXY4VWh2NVBtVHY1Q1YxX0FGV1VYcXhsX1hvVm52cnFZdmJFTmZnQlcyV2duSkV0bVd1NTc1VFVCdlpSTVczTmhRMEFtR1JFREhXaXFMOVEyV3d3YXd2N1BqVElkY2QwTQ?oc=5",
-      "source": "MarketBeat",
-      "method": "keyword",
-      "published": "2026-08-29T09:04:36",
-      "queued_min": 29799932,
-      "all_articles": [
-        {
-          "headline": "Field & Main Bank Acquires New Shares in Lam Research Corporation $LRCX",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNDRSWGlTZDZIRXZ5Tm5FamxTTHBsNzFHMmF0NjN1dVlMRE5VX1FTTnpxaE00ZmY4OExEdHhaT2xEdXVVTlZPaGZwUE8zamZsWFQxNUlMeG0tbHg3MEFZTTRiX3kwVjhWWXY4VWh2NVBtVHY1Q1YxX0FGV1VYcXhsX1hvVm52cnFZdmJFTmZnQlcyV2duSkV0bVd1NTc1VFVCdlpSTVczTmhRMEFtR1JFREhXaXFMOVEyV3d3YXd2N1BqVElkY2QwTQ?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-08-29T09:04:36"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1243,7 +1219,7 @@
     },
     "LRCX": {
       "large_share_purchases": 29797142,
-      "ma": 1261,
+      "ma": 29799992,
       "earnings": 1382,
       "expansion": 29796962
     },
@@ -1296,14 +1272,14 @@
     }
   },
   "recent_post_sources": [
-    "MarketBeat",
     "WION",
     "The American Bazaar",
     "MarketBeat",
     "Ad-hoc-news.de",
-    "Axios"
+    "Axios",
+    "MarketBeat"
   ],
-  "last_news_post_min": 29799844,
+  "last_news_post_min": 29799992,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
