@@ -24,6 +24,7 @@ GitHub:     runs on workflow_dispatch (headless, TZ=Europe/Amsterdam), dispatche
 
 import os
 import re
+import math
 import tempfile
 import csv
 import ssl
@@ -593,7 +594,7 @@ def get_price_context(symbol: str) -> dict:
         ticker = yf.Ticker(symbol)
         info   = ticker.fast_info
         prev   = round(info.previous_close, 2)
-        if prev <= 0:
+        if not prev or prev <= 0 or not math.isfinite(prev):
             return {}
 
         price = None
@@ -606,14 +607,22 @@ def get_price_context(symbol: str) -> dict:
             # yfinance only returns regular-session bars, which is empty before the open
             # and silently falls back to a stale-looking price with no range data at all.
             hist = ticker.history(period="1d", interval="1m", prepost=True)
+            # A NaN-OHLC row (e.g. a placeholder bar around a data gap) would otherwise slip past
+            # every guard below — NaN comparisons are always False, so neither "price <= 0" nor
+            # the suspicious-move sanity check catches it, and it would ride straight through into
+            # the tweet text and any chart built from this context.
+            hist = hist.dropna(subset=["Close", "High", "Low"])
             if not hist.empty:
                 price    = round(float(hist["Close"].iloc[-1]), 2)
                 day_high = round(float(hist["High"].max()), 2)
                 day_low  = round(float(hist["Low"].min()), 2)
                 # Kept alongside price/change_pct below so a chart built from this context is
                 # rendered from the exact same fetch that produced the number in the tweet text —
-                # never a second, later yfinance call that could show a different move.
-                intraday_times  = hist.index.to_pydatetime().tolist()
+                # never a second, later yfinance call that could show a different move. tzinfo is
+                # stripped (not kept as exchange-local) since matplotlib's date formatting
+                # converts a tz-aware timestamp before rendering it, which can shift a
+                # midnight-local bar onto the previous UTC calendar day and mislabel its weekday.
+                intraday_times  = [t.replace(tzinfo=None) for t in hist.index.to_pydatetime()]
                 intraday_closes = [round(float(c), 4) for c in hist["Close"].tolist()]
         except Exception:
             pass
@@ -623,7 +632,7 @@ def get_price_context(symbol: str) -> dict:
 
         market_open = _is_market_open_for(symbol)
 
-        if price <= 0:
+        if not price or price <= 0 or not math.isfinite(price):
             return {}
 
         fast_price = round(info.last_price, 2)
@@ -679,6 +688,8 @@ def render_price_chart(symbol: str, price_ctx: dict) -> str | None:
     times  = price_ctx.get("intraday_times")
     closes = price_ctx.get("intraday_closes")
     if not times or not closes or len(times) < 2:
+        return None
+    if not all(math.isfinite(c) for c in closes) or not math.isfinite(price_ctx["price"]):
         return None
 
     price      = price_ctx["price"]
@@ -742,6 +753,9 @@ def render_week_chart(symbol: str, week_ctx: dict, label: str = "WTD") -> str | 
     times  = week_ctx.get("times")
     closes = week_ctx.get("closes")
     if not times or not closes or len(times) < 2:
+        return None
+    if (not all(math.isfinite(c) for c in closes)
+            or not math.isfinite(week_ctx["start_price"]) or not math.isfinite(week_ctx["pct"])):
         return None
 
     start_price = week_ctx["start_price"]
@@ -869,6 +883,15 @@ def _week_series(symbol: str, mode: str) -> dict | None:
         if hist.empty:
             return None
 
+        # yfinance can hand back a placeholder row for a day nothing actually traded on (seen on
+        # a weekend fetch: a trailing row for "today" with NaN OHLC) — dropping it here means a
+        # chart's last plotted point is always a genuine close, never a blank session read as
+        # $nan/€nan. Filtering on Close/Open together (rather than dropna() bare) also makes sure
+        # this can't leave a row with a real Close but a NaN Open sneaking through wtd mode below.
+        hist = hist.dropna(subset=["Close", "Open"])
+        if hist.empty:
+            return None
+
         if mode == "wtd":
             monday = datetime.date.today() - datetime.timedelta(days=datetime.date.today().weekday())
             hist = hist[hist.index.date >= monday]
@@ -880,12 +903,19 @@ def _week_series(symbol: str, mode: str) -> dict | None:
                 return None
             start_price = float(hist["Close"].iloc[0])
 
-        if start_price <= 0:
+        if not (start_price > 0) or not math.isfinite(start_price):
             return None
 
-        times  = hist.index.to_pydatetime().tolist()
+        # Strip tzinfo rather than keep the exchange-local tz yfinance attaches — matplotlib's
+        # date formatting converts a tz-aware timestamp before rendering it, which can shift a
+        # midnight-local bar (e.g. Monday 00:00 CEST) onto the PREVIOUS UTC calendar day and
+        # mislabel it "Sun" instead of "Mon". Naive datetimes keep the wall-clock day exactly as
+        # yfinance reported it, with nothing left for matplotlib to convert.
+        times  = [t.replace(tzinfo=None) for t in hist.index.to_pydatetime()]
         closes = [round(float(c), 4) for c in hist["Close"].tolist()]
         end    = closes[-1]
+        if not math.isfinite(end):
+            return None
         pct    = round((end - start_price) / start_price * 100, 2)
         try:
             currency = getattr(ticker.fast_info, "currency", None) or "USD"
