@@ -606,7 +606,12 @@ def get_price_context(symbol: str) -> dict:
             # prepost=True is required to see pre-market/after-hours prints — without it,
             # yfinance only returns regular-session bars, which is empty before the open
             # and silently falls back to a stale-looking price with no range data at all.
-            hist = ticker.history(period="1d", interval="1m", prepost=True)
+            # 15m rather than 1m: a full session at 1-minute resolution is ~390+ points of mostly
+            # noise on a 6x4in chart; 15-minute bars (~26-34 points with pre/post) still show the
+            # day's real shape without looking jagged. price/day_high/day_low still come from this
+            # same fetch, so the tweet text is only ever off from a truly-live 1m price by at most
+            # one bar's worth of staleness — never a second, differently-sourced number.
+            hist = ticker.history(period="1d", interval="15m", prepost=True)
             # A NaN-OHLC row (e.g. a placeholder bar around a data gap) would otherwise slip past
             # every guard below — NaN comparisons are always False, so neither "price <= 0" nor
             # the suspicious-move sanity check catches it, and it would ride straight through into
