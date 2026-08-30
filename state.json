@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-30",
-  "daily_posts": 14,
-  "daily_keyword_posts": 3,
+  "date": "2026-08-31",
+  "daily_posts": 0,
+  "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 16,
-  "evergreen_opinion_posts_today": 2,
+  "gemini_calls_today": 0,
+  "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-30",
     "monday": "2026-08-24",
@@ -460,8 +460,8 @@
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
       "Schneider Electric home EV charger uses smart load management",
       "Schneider Electric Strengthens Partner Ecosystem for Software-Defined Automation",
-      "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
+      "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Schneider Electric stock extends strong 2026 run as fund exposure stays high",
       "Schneider Electric launches residential EV charger in Canada",
       "Schneider Electric To Partners: Stop Treating UPS As A One-And-Done Sale",
@@ -720,16 +720,16 @@
       "Wilson Sonsini Advises Marvell on $540 Million Acquisition of XConn Technologies",
       "Latham & Watkins Advises Celestial AI in Acquisition by Marvell Technology",
       "Marvell Acquires Polariton Technologies | Business | Apr 2026",
+      "Marvell Technology, Inc. Price Today | MRVL Live Price, Chart & Market Cap",
+      "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
       "Marvell Technology Tokenized bStocks: Latest News, Social Media Updates and Insights",
       "Marvell Technology Sees AI Connectivity as Next Big Infrastructure Bottleneck",
       "Precision Trading with Marvell Technology Inc. (MRVL) Risk Zones",
-      "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
       "'This is by far our stock pick of the year': Hatfield on Marvell Technology",
       "MRVL to SGD: Marvell Technology (Backpack Securities) Price in Singapore Dollar",
       "Here's How Much $100 Invested In Marvell Technology 10 Years Ago Would Be Worth Today",
       "Marvell Technology (Derivatives) Price Today | Live MRVL Price, Chart & Market Data",
-      "Prediction: Marvell Technology Stock Could Go Parabolic After Its Next Custom Chip Deal",
-      "Marvell Technology Tokenized Stock (Ondo) price today, MRVLon to USD chart, marketcap and volume",
+      "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
       "Jim Cramer Says Marvell Is Expensive Unless Everything Works, and Then It Is Cheap",
       "Marvell Wins Wall Street. Google Bets $12 Billion. Amazon Fears Fade.",
       "Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?",
@@ -742,7 +742,6 @@
       "FormFactor acquires Keystone Photonics to boost silicon photonics testing",
       "Paradigm Capital Management Inc. NY Acquires Shares of 27,900 FormFactor, Inc. $FORM",
       "FormFactor Jumps 111% YTD: Is There More Room for the Stock to Rise?",
-      "Convert FormFactor, Inc. (FORM) to Singapore dollar (SGD)",
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
@@ -752,6 +751,7 @@
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
       "FormFactor Announces Participation at Upcoming Conferences",
+      "Bay Area semiconductor testing company to lay off more than 200 workers",
       "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
       "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
       "FormFactor CEO Mike Slessor Sells 16,002 Shares for $2 Million",
@@ -785,8 +785,7 @@
       "Nightfood Signs LOI to Acquire 51% of Taiwan Semiconductor Automation Manufacturer",
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
-      "Micron’s $1.8B Taiwan Fab Deal: What It Means for AI & Investors",
-      "TSMC (Taiwan Semiconductor Manufacturing) 2330 TT",
+      "Taiwan government approves TSMC’s 3nm upgrade for second Japan fab",
       "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
       "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
       "Taiwan as a “Macro-City” Designed for Chip Manufacturing",
@@ -796,6 +795,7 @@
       "Arizona wants Taiwan’s investors to think beyond chips",
       "Charts: TSMC's share of Taiwan chip manufacturing revenue falls to 81.8% as memory makers scale up",
       "America’s Chip Future Still Runs Through Taiwan",
+      "TSMC Kumamoto fab fully operational after quake",
       "TSMC vs. ASML: Which Semiconductor Giant Is the Better Stock Buy?",
       "Taiwan Semiconductor Manufacturing (TSM) Stock Looks Stretched As Its 363% Run Continues",
       "Billionaire Stanley Druckenmiller Just Bought Taiwan Semiconductor Stock. Is the Foundry Giant Still a Screaming Buy?",
@@ -878,12 +878,12 @@
       "SAP CEO: the AI race is being fought in the wrong place",
       "SAP Plans to Expand AI Access to Customers Who Don’t Use Cloud",
       "SAP SE Investigated by the Portnoy Law Firm",
-      "SAP SE (SAP) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
-      "SAP: Thomas Saueressig Appointed Chief Customer Officer As Company Reorganizes Board To Accelerate AI Focus",
-      "SAP SE tests its line in the sand after 43% plunge",
       "SAP SE Launches Munich Hub to Boost Military Digital Readiness",
+      "SAP: Thomas Saueressig Appointed Chief Customer Officer As Company Reorganizes Board To Accelerate AI Focus",
       "SAP Proposes Dividend of Euro2.50 per Share",
-      "Analysts Offer Insights on Technology Companies: SAP SE (SAP) and TSMC (TSM)",
+      "Why is SAP Acquiring Master Data Management Company Reltio?",
+      "SAP Launches Defense Innovation Hub in Munich",
+      "UBS Reaffirms Their Buy Rating on SAP SE (0NW4)",
       "SAP loosens ERP maintenance and support rules",
       "SAP (XTRA:SAP) Stock Looks Below Fair Value Despite AI Hopes",
       "Palantir Expands SAP Transformation Push With SNP Partnership",
@@ -927,7 +927,7 @@
       "Benicia chip manufacturing tool maker acquired by Applied Materials",
       "Applied Materials to Participate in Upcoming Investor Conferences",
       "Applied Materials executive says data centers set new AI competition standard",
-      "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
+      "How Applied Materials Is Driving Transformation of the Finance Function with SAP Taulia",
       "These 3 GARP Stocks Show Why Growth and Value Do Not Have to Clash",
       "How Far Applied Materials Stock Can Move On You In A Year",
       "How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet",
@@ -937,7 +937,7 @@
     "NVDA": [
       "BDFS Capital LLC Acquires 7,131 Shares of NVIDIA Corporation $NVDA",
       "Nvidia reportedly acquires AI project hosting platform Hugging Face for $12.9B",
-      "Nvidia Discussed Buying AI Startup Hugging Face, Insider Says",
+      "Nvidia in Talks to Buy AI Startup Hugging Face, Reports Say",
       "Nvidia Agrees to Acquire Hugging Face For $12.9 Billion In One of Its Largest Acquisitions So Far As It Expands Control Of Open-Source AI Models: Report",
       "NVIDIA Corporation | History, GPUs, & Artificial Intelligence",
       "NVIDIA Announces Upcoming Event for Financial Community",
@@ -949,12 +949,12 @@
       "Watch Hugging Face Always Attracts Buyers, Co-Founder Says",
       "Trump praises Nvidia after record revenue",
       "Nvidia follows suit with Meta and Google and launches corporate PAC",
+      "Dow Jones Futures Due Amid Bullish, Bearish Market Signals. What To Do Now.",
       "Meet the Dividend Stock That Warren Buffett Backed for Decades",
       "This Newly Public Nuclear IPO Is Already Using AI to Speed Up Reactor Design. Is It a Buy?",
       "What Happens When You Invest in the Stock Market at the Worst Possible Time? History Has Reassuring News for Investors.",
       "3 Simple ETFs Worth Buying and Holding for Decades",
-      "Jobs, Broadcom, Dell, Hewlett, Planet Labs, and More to Watch This Week",
-      "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race."
+      "Jobs, Broadcom, Dell, Hewlett, Planet Labs, and More to Watch This Week"
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
@@ -980,14 +980,14 @@
       "Fiduciary Financial Advisors Acquires Shares of 1,591 Advanced Micro Devices, Inc. $AMD",
       "AMD acquires software built by URI professor and colleagues",
       "Move Over, Nvidia: Why AMD’s Latest Acquisition Could Redefine Direct-Silicon AI Inference",
+      "Advanced Micro Devices, Inc. (AMD) Stock Forecast | Market Approaching A Decision Point Graham Linehan (c5PnMHeikB)",
       "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race.",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
       "Why Is AMD Stock Sliding on Friday?",
       "Advanced Micro Devices Inc (Derivatives) Price Today | Live AMD Price, Chart & Market Data",
-      "Advanced Micro Devices (AMD) Stock Prediction This Week | Big Move Ahead? Taylor Sheridan Cia Series Update (VrSnT1La4f)",
       "Advanced Micro Devices aStock (AAMD) Price, MarketCap, Charts and Fundamentals Info",
       "Advanced Micro Devices (NASDAQ:AMD) in focus as AI data-center demand stays firm",
-      "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Malaga Fc (5R9rL8CZaZ)",
+      "Advanced Micro Devices (AMD) Stock Prediction This Week | Big Move Ahead? Taylor Sheridan Cia Series Update (VrSnT1La4f)",
       "Advanced Micro Devices Tokenized bStocks Price Today | Live AMDB Price, Chart & Market Data",
       "Why Is AMD Stock Trending Today?",
       "Advanced Micro Devices (AMD) Is Exposed To Proposed US Chip Tariffs",
@@ -1054,8 +1054,8 @@
       "Marco Pieters starts engineering ASML’s next chapter",
       "ASML’s Extreme Ultraviolet Lithography and the Limits of Reverse Engineering in China",
       "The West may have created ASML’s biggest competitor",
-      "ASML–Tata MoU marks significant step in strengthening India’s semiconductor ecosystem: PM Modi",
       "How ASML became Europe’s most valuable company",
+      "ASML–Tata MoU marks significant step in strengthening India’s semiconductor ecosystem: PM Modi",
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
       "ASML Shares Slide",
       "ASML Stock: Next Stop $3,000?",
@@ -1066,23 +1066,23 @@
       "Applied Optoelectronics, SanDisk, Seagate And Other Big Stocks Moving Lower In Monday’s Pre-Market Session",
       "Seagate Technology (STX) CLO sells 694 shares in 10b5-1 trading plan",
       "Seagate Stock Surged 685% in One Year on AI Storage Demand. Is It Still Worth Buying?",
-      "Seagate Technology Reports Fiscal Second Quarter 2026 Financial Results",
-      "Company News for May 19, 2026",
+      "Wasabi Technologies Acquires Seagate’s Lyve Cloud Business",
+      "Seagate (STX) CFO Romano exercises 1,695 RSUs and sells 903 shares",
       "Seagate Technology Holdings PLC stock underperforms Wednesday when compared to competitors despite daily gains",
+      "Seagate to Participate in Upcoming Investor Events",
       "Seagate reaches $175 million settlement of shareholder claims it concealed sales to China's Huawei",
       "Seagate Technology Holdings Executive VP & CFO Gianluca Romano Sells 35% Of Holding",
-      "Seagate to Participate in Upcoming Investor Events",
+      "Seagate Technology $175M Securities Class Action Settlement",
       "Seagate Technology Holdings PLC stock outperforms competitors on strong trading day",
-      "Seagate CFO Gianluca Romano Executes Sale of 880 Shares Under Rule 10b5-1 Plan on August 7, 2026",
-      "Seagate Technology Holdings PLC (STX) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
       "Seagate Technology Holdings PLC stock underperforms Wednesday when compared to competitors",
-      "Seagate Technology Holdings PLC stock rises Tuesday, still underperforms market",
+      "Seagate Introduces Storage Built for Consumer Data Explosion",
       "Seagate Stock Is Off 27%. Why It’s Time to Buy the Dip in STX for 36% Upside.",
       "Seagate (STX) Up 10.7% Since Last Earnings Report: Can It Continue?",
       "Seagate vs. Western Digital: Which One is The Best AI Storage Play for Dividend Investors?",
       "Seagate Technology Holdings (STX) Will Present At The Six Five Summit 2026",
       "Prediction: Seagate Could Be One of AI’s Most Unexpected Winners",
-      "Zacks.com featured highlights Seagate Technology, Western Digital and Dell"
+      "Zacks.com featured highlights Seagate Technology, Western Digital and Dell",
+      "Seagate Says AI Is Making Data Storage More Strategic Than Ever"
     ],
     "MU": [
       "Micron purchases PSMC fabrication site in Taiwan for $1.8B",
@@ -1481,106 +1481,30 @@
     {
       "slot": 0,
       "type": "hook",
-      "target_time": "10:00",
-      "fire_time": "09:57"
+      "target_time": "08:50",
+      "fire_time": "08:51"
     },
     {
       "slot": 1,
-      "type": "analytical",
-      "target_time": "11:30",
-      "fire_time": "11:26"
-    },
-    {
-      "slot": 2,
-      "type": "analytical",
-      "target_time": "13:00",
-      "fire_time": "13:04"
-    },
-    {
-      "slot": 3,
-      "type": "question",
-      "target_time": "14:30",
-      "fire_time": "14:28"
-    },
-    {
-      "slot": 4,
-      "type": "analytical",
-      "target_time": "16:00",
-      "fire_time": "15:57"
-    },
-    {
-      "slot": 5,
-      "type": "question",
-      "target_time": "17:30",
-      "fire_time": "17:34"
-    },
-    {
-      "slot": 6,
-      "type": "wrap",
-      "target_time": "19:00",
-      "fire_time": "19:00"
+      "type": "close_summary",
+      "target_time": "18:00",
+      "fire_time": "17:57"
     }
   ],
-  "eu_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-  ],
+  "eu_posted": [],
   "us_slots": [
     {
       "slot": 0,
       "type": "hook",
-      "target_time": "10:00",
-      "fire_time": "10:02"
+      "target_time": "15:10",
+      "fire_time": "15:13"
     },
     {
       "slot": 1,
-      "type": "analytical",
-      "target_time": "11:30",
-      "fire_time": "11:34"
-    },
-    {
-      "slot": 2,
-      "type": "analytical",
-      "target_time": "13:00",
-      "fire_time": "12:56"
-    },
-    {
-      "slot": 3,
-      "type": "question",
-      "target_time": "14:30",
-      "fire_time": "14:28"
-    },
-    {
-      "slot": 4,
-      "type": "analytical",
-      "target_time": "16:00",
-      "fire_time": "16:04"
-    },
-    {
-      "slot": 5,
-      "type": "question",
-      "target_time": "17:30",
-      "fire_time": "17:28"
-    },
-    {
-      "slot": 6,
       "type": "wrap",
-      "target_time": "19:00",
-      "fire_time": "18:55"
+      "target_time": "22:30",
+      "fire_time": "22:32"
     }
   ],
-  "us_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-  ]
+  "us_posted": []
 }
