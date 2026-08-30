@@ -1522,3 +1522,41 @@ https://es.tradingview.com/news/marketbeat:4174933d1094b:0-marvell-technology-se
 684,2026-08-30,18:32:12,Sunday,news_event,,,keyword,NVDA,NVDA,,,,,217.89,-3.65,,,What Could Nvidia (NVDA) Gain From Its $12.9 Billion AI Platform Deal?,,https://finance.yahoo.com/technology/ai/articles/could-nvidia-nvda-gain-12-141902470.html?.tsrc=rss,,ma,,,,,N,12,keyword,Y,,"$NVDA ($217.89, -3.65% at last close as of Aug 28): What Could Nvidia (NVDA) Gain From Its $12.9 Billion AI Platform Deal?
 
 https://finance.yahoo.com/technology/ai/articles/could-nvidia-nvda-gain-12-141902470.html?.tsrc=rss",223,,,,,
+685,2026-08-30,19:02:13,Sunday,weekly_engagement,,sunday,gemini,,,"$AIXA.DE, $AMAT, $AMD, $ANET, $ASML.AS, $AVGO, $BESI.AS, $FORM, $IFX.DE, $KLAC, $LRCX, $MRVL, $MU, $NVDA, $SAP.DE, $SIE.DE, $STX, $SU.PA, $TSM, $WDC",,,,,,,,,,,,,,,,,Y,13,llm,Y,,"AI infra outlook for the week ahead. All these names could see movement:
+
+$AIXA.DE
+$AMAT
+$AMD
+$ANET
+$ASML.AS
+$AVGO
+$BESI.AS
+$FORM
+$IFX.DE
+$KLAC
+$LRCX
+$MRVL
+$MU
+$NVDA
+$SAP.DE
+$SIE.DE
+$STX
+$SU.PA
+$TSM
+$WDC
+
+Which are you watching into the open?",242,,,,,
+686,2026-08-30,19:04:56,Sunday,scheduled_slot,eu,wrap,gemini,ASML.AS,ASML,"$IFX, $SU, $SIE, $SAP",,,weekend,1492.4,0.63,,,,,,,,,,,,Y,15,llm,Y,,"EU tech M&A focused on AI/data this week.
+
+$ASML.AS (€1492.4): EUV demand (SK Hynix).
+$IFX.DE (€57.08): C2i for AI power.
+$SU.PA (€303.0): AiDASH for grid.
+$SIE.DE (€289.85): Altair for AI ind.
+$SAP.DE (€191.32): Dremio/Reltio for AI.",234,,,,,
+687,2026-08-30,19:06:39,Sunday,scheduled_slot,us,wrap,gemini,AVGO,AVGO,"$AMD, $AMAT, $FORM, $WDC",,,weekend,369.12,-0.5,,,,,,,,,,,,Y,16,llm,Y,,"Strategic plays shaped tech headlines.
+
+$WDC: Kioxia merger talks revived.
+$AVGO: CTO notes VMware 'chaos'; new DISA deal.
+$AMD: MEXT acquired for memory opt.
+$AMAT: NEXX acquisition: AI chip role.
+$FORM: Keystone Photonics acquired for Si photonics.",250,,,,,
