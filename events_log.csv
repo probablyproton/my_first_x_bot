@@ -1467,3 +1467,21 @@ $SIE.DE (€289.85): Acquired Russelectric, Dotmatics.",236,,,,,
 669,2026-08-30,09:32:10,Sunday,news_event,,,keyword,NVDA,NVDA,,,,,217.89,-3.65,,,"BDFS Capital LLC Acquires 7,131 Shares of NVIDIA Corporation $NVDA",MarketBeat,https://www.marketbeat.com/instant-alerts/filing-bdfs-capital-llc-acquires-7131-shares-of-nvidia-corporation-nvda-2026-08-30/,,large_share_purchases,,,,,N,0,keyword,Y,,"$NVDA ($217.89, -3.65% at last close as of Aug 28): BDFS Capital LLC Acquires 7,131 Shares of NVIDIA Corporation $NVDA
 
 https://www.marketbeat.com/instant-alerts/filing-bdfs-capital-llc-acquires-7131-shares-of-nvidia-corporation-nvda-2026-08-30/",245,,,,,
+670,2026-08-30,10:02:29,Sunday,scheduled_slot,eu,hook,gemini,ASML.AS,ASML,"$IFX, $SU, $SIE, $SAP",,,weekend,1492.4,0.63,,,,,,,,,,,,Y,1,llm,Y,,"EU tech M&A, AI & infra focus last week.
+
+$ASML.AS: EUV demand (SK Hynix), acquired Berliner Glas.
+$IFX.DE: C2i acquired for AI datacenter power.
+$SU.PA: AiDASH acquired for grid resilience.
+$SIE.DE: Defacto acquired for EDA/SoC design.",236,,,,,
+671,2026-08-30,10:03:59,Sunday,scheduled_slot,us,hook,gemini,AVGO,AVGO,"$AMD, $MU, $AMAT, $LRCX",,,weekend,369.12,-0.5,,,,,,,,,,,,Y,2,llm,Y,,"Chip sector saw strategic moves last week, eyeing AI.
+
+$AVGO: Carahsoft deal; VMware ""chaos.""
+$AMD: MEXT acquired for compute memory.
+$MU: $1.8B Taiwan fab for AI DRAM.
+$AMAT: NEXX broadens AI packaging.
+$LRCX: Besi merger eyed; board exits.
+
+AI infra race accelerates.",269,,,,,
+672,2026-08-30,10:04:54,Sunday,evergreen_opinion,,,gemini,,,,,,,,,,,Cisco Secure AI Factory with NVIDIA Expands to Supermicro Rack-Scale Systems,ServeTheHome,https://www.servethehome.com/cisco-secure-ai-factory-with-nvidia-expands-to-supermicro-rack-scale-systems/,2026-08-29T20:40:18,,,,,,,,llm,Y,,"ServeTheHome reports Cisco's Secure AI Factory with NVIDIA now incorporates Supermicro rack-scale systems, broadening its offering for large AI clusters.
+
+https://www.servethehome.com/cisco-secure-ai-factory-with-nvidia-expands-to-supermicro-rack-scale-systems/",261,,,,,
