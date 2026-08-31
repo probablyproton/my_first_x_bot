@@ -2,7 +2,7 @@
   "date": "2026-08-31",
   "daily_posts": 2,
   "daily_keyword_posts": 1,
-  "daily_pulse_posts": 4,
+  "daily_pulse_posts": 5,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
@@ -66,7 +66,7 @@
     "AMAT": 29801826,
     "WDC": 29801826
   },
-  "event_log_next_id": 697,
+  "event_log_next_id": 698,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -454,8 +454,8 @@
     ],
     "SU.PA": [
       "Schneider Electric to Acquire Grid Resilience Solutions Provider AiDASH for $350 Million",
-      "Schneider Electric Agrees to Acquire AiDASH for $350 Million",
       "List of 64 Acquisitions by Schneider Electric (Aug 2026)",
+      "Schneider Electric Agrees to Acquire AiDASH for $350 Million",
       "Schneider Electric Announces Intention To Acquire Cognite",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
       "Schneider Electric home EV charger uses smart load management",
@@ -720,12 +720,12 @@
       "Wilson Sonsini Advises Marvell on $540 Million Acquisition of XConn Technologies",
       "Latham & Watkins Advises Celestial AI in Acquisition by Marvell Technology",
       "Marvell Acquires Polariton Technologies | Business | Apr 2026",
-      "MRVL to NOK: Marvell Technology (Backpack Securities) Price in Norwegian Krone",
       "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
       "Marvell Technology Tokenized bStocks: Latest News, Social Media Updates and Insights",
       "Marvell Technology, Inc. Price Today | MRVL Live Price, Chart & Market Cap",
       "Marvell Technology Sees AI Connectivity as Next Big Infrastructure Bottleneck",
       "Precision Trading with Marvell Technology Inc. (MRVL) Risk Zones",
+      "MRVL to SGD: Marvell Technology (Backpack Securities) Price in Singapore Dollar",
       "'This is by far our stock pick of the year': Hatfield on Marvell Technology",
       "Here's How Much $100 Invested In Marvell Technology 10 Years Ago Would Be Worth Today",
       "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
@@ -744,8 +744,8 @@
       "FormFactor Jumps 111% YTD: Is There More Room for the Stock to Rise?",
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
-      "Convert FormFactor, Inc. (FORM) to Singapore dollar (SGD)",
       "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
+      "Convert FormFactor, Inc. (FORM) to Singapore dollar (SGD)",
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "FormFactor, Inc. Rings the Closing Bell",
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
@@ -770,7 +770,7 @@
       "Lam Research Breaks Ground on Oregon Lab for AI Semiconductor R&D",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally – Company Announcement - FT.com",
       "Lam Research Corporation Tokenized Stock (Robinhood)",
-      "Lam Research announces retirement of two key bo...",
+      "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
       "$100 Invested In Lam Research 20 Years Ago Would Be Worth This Much Today",
       "Lam Research Corp. stock underperforms Tuesday when compared to competitors despite daily gains",
       "AI Lab Buildout And Dividend Hike Could Be A Game Changer For Lam Research (LRCX)",
@@ -840,11 +840,11 @@
       "Microsoft ends one of the last ways to buy VMware without big bundles",
       "Oracle and Broadcom Credit Risk Spikes as AI Debt Hits $182 Billion",
       "Broadcom Seeks More Than $60 Billion in Latest AI Debt Deal",
+      "US Equity Investors to Focus on Corporate Earnings, Labor Market Health, Renewed Hostilities Against Iran This Week",
       "Prediction: Broadcom Stock Will Go Parabolic After Sept. 2",
       "Hock Tan Guided Broadcom Past $100 Billion of AI Revenue in 2027. The Stock Is 25% off Its High.",
       "Billionaire Stanley Druckenmiller Sold Broadcom and Bought These Artificial Intelligence (AI) Giants Instead",
-      "How networking became the critical layer of AI",
-      "6 things investors need to watch in the week ahead"
+      "How networking became the critical layer of AI"
     ],
     "KLAC": [
       "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
@@ -919,13 +919,13 @@
       "Applied Materials Targets $3.5 Billion Electrochemical Deposition Market With NEXX Acquisition",
       "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
       "Applied Materials strives to cooperate with chipmakers to shorten equipment lead time",
+      "Applied Materials says equipment lead-time delays to ease in 2-3 years; hybrid bonding timeline up to customers",
       "Applied Materials Says EPIC Platform and ACCK Can Accelerate Innovation",
       "Applied Materials Inc. stock underperforms Friday when compared to competitors",
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials Sees AI Driving Its Biggest Semiconductor Growth Inflection Yet",
       "Have Applied Materials Insiders Been Selling Stock?",
       "Applied tackles AI memory wall with 3D scaling, HBM bonding, CPO in Korea - CHOSUNBIZ",
-      "Applied Materials Inc (Derivatives) Price Today | Live AMAT Price, Chart & Market Data",
       "Applied Materials Stock Price: AMAT Stock Chart, Market Cap & News Today",
       "ASU joins Applied Materials' EPIC Center as inaugural university research partner",
       "These 3 GARP Stocks Show Why Growth and Value Do Not Have to Clash",
@@ -935,26 +935,26 @@
       "The AI Buildout Is Turning Applied Materials (AMAT) Into A Profit Machine"
     ],
     "NVDA": [
-      "Nvidia reportedly acquires AI project hosting platform Hugging Face for $12.9B",
       "Nvidia in Talks to Buy AI Startup Hugging Face, Reports Say",
+      "Nvidia reportedly acquires AI project hosting platform Hugging Face for $12.9B",
       "BDFS Capital LLC Acquires 7,131 Shares of NVIDIA Corporation $NVDA",
       "Nvidia Agrees to Acquire Hugging Face For $12.9 Billion In One of Its Largest Acquisitions So Far As It Expands Control Of Open-Source AI Models: Report",
       "NVIDIA Corporation | History, GPUs, & Artificial Intelligence",
       "NVIDIA Announces Upcoming Event for Financial Community",
-      "Nvidia launches corporate PAC, expanding Washington footprint",
-      "Nvidia Starts PAC as AI Chip Maker Builds DC Influence Force (1)",
-      "Nvidia to start employee-funded US political action committee",
-      "New OpenAI chip promises faster, cheaper AI than Nvidia’s",
       "SpaceXAI Adopts NVIDIA Vera CPU to Accelerate Agentic AI at Massive Scale",
-      "Watch Hugging Face Always Attracts Buyers, Co-Founder Says",
-      "Nazemian v. NVIDIA Corporation",
-      "COMMENTARY: Hormuz gridlock, Canada clash and Nvidia nerves: The financial week in five charts",
+      "Nvidia launches corporate PAC, expanding Washington footprint",
+      "NVIDIA Announces Jetson Orin Nano 2 Robotics Computer to Redefine Entry-Level Edge AI",
+      "Nvidia Starts PAC as AI Chip Maker Builds DC Influence Force (1)",
+      "NVIDIA Groq 3 LPX Now in Full Production With World-Class Speed for Agentic AI",
+      "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory",
+      "Nvidia to start employee-funded US political action committee",
+      "STAR WARS Zero Company™ GeForce Game Ready Driver Released",
+      "New OpenAI chip promises faster, cheaper AI than Nvidia’s",
+      "Are The \"Magnificent Seven\" Stocks Still Worth Buying?",
       "Warren Buffett Has Recommended This 1 Investment for Decades. History Says It Could Turn $100 per Month Into $225,000.",
       "1 Top Cryptocurrency to Buy Before It Hits $1 Million per Token by 2033, According to This Wall Street Analyst",
       "Both Hedge Funds and Mutual Funds Are Buying These Fantastic Fintech Stocks, and That's a Great Signal for Investors to Buy",
-      "The Stock Market Sounds an Alarm as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next.",
-      "Will Nvidia Shock the World and Be the First Company to Reach $1 Trillion in Revenue",
-      "10 Terrifying Words From Fed Chair Kevin Warsh at Jackson Hole Have Spooked Wall Street"
+      "The Stock Market Sounds an Alarm as Investors Get Bad News About President Trump's Economy. History Says This Will Happen Next."
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
@@ -1091,7 +1091,7 @@
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron Signs Letter of Intent to Purchase Tongluo Site, Begin Strategic Partnership with PSMC",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
-      "Taiwan Micron Labor Dispute Follows Samsung, SK Hynix",
+      "Taiwan Micron Unions Demand Bonuses Like Samsung, SK Hynix",
       "Have Insiders Sold Micron Technology Shares Recently?",
       "Micron Technology Tokenized bStocks Price Today | Live MUB Price, Chart & Market Data",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
@@ -1344,9 +1344,7 @@
       3,
       4
     ],
-    "mover": [
-      5
-    ],
+    "mover": [],
     "price_event": [
       3,
       4
@@ -1387,8 +1385,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 299.9,
-    "SIE.DE": 287.85,
+    "SU.PA": 300.45,
+    "SIE.DE": 288.25,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1414,11 +1412,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 188.7,
-    "BESI.AS": 196.2,
-    "AIXA.DE": 36.01,
-    "IFX.DE": 56.56,
-    "ASML.AS": 1479.2,
+    "SAP.DE": 188.84,
+    "BESI.AS": 196.6,
+    "AIXA.DE": 35.96,
+    "IFX.DE": 56.7,
+    "ASML.AS": 1481.6,
     "MU": 929.35,
     "TSM": 418.53,
     "KLAC": 176.1,
@@ -1459,11 +1457,12 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 37,
-  "last_pulse_post_min": 29802841,
-  "last_pulse_ticker": "AIXA.DE",
+  "next_pulse_interval": 34,
+  "last_pulse_post_min": 29802901,
+  "last_pulse_ticker": "TSM",
   "pulse_news_seen": {
-    "amd:axim planning & wealth acquires shares of 1,888 advanced micro devices, inc. $amd": "2026-08-31"
+    "amd:axim planning & wealth acquires shares of 1,888 advanced micro devices, inc. $amd": "2026-08-31",
+    "tsm:tsmc (taiwan semiconductor manufacturing) 2330 tt": "2026-08-31"
   },
   "eu_slots": [
     {
