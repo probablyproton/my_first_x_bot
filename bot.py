@@ -605,12 +605,14 @@ def get_price_context(symbol: str) -> dict:
             # prepost=True is required to see pre-market/after-hours prints — without it,
             # yfinance only returns regular-session bars, which is empty before the open
             # and silently falls back to a stale-looking price with no range data at all.
-            # 15m rather than 1m: a full session at 1-minute resolution is ~390+ points of mostly
-            # noise on a 6x4in chart; 15-minute bars (~26-34 points with pre/post) still show the
-            # day's real shape without looking jagged. price/day_high/day_low still come from this
-            # same fetch, so the tweet text is only ever off from a truly-live 1m price by at most
-            # one bar's worth of staleness — never a second, differently-sourced number.
-            hist = ticker.history(period="1d", interval="15m", prepost=True)
+            # 5m rather than 1m: a full session at 1-minute resolution is ~390+ points of mostly
+            # noise on a 6x4in chart; 5-minute bars (~78-100 points with pre/post) still show the
+            # day's real shape without looking jagged, and stay legible early in the session too
+            # (15-minute bars left barely 2-3 points on the chart in the first hour after open).
+            # price/day_high/day_low still come from this same fetch, so the tweet text is only
+            # ever off from a truly-live 1m price by at most one bar's worth of staleness — never
+            # a second, differently-sourced number.
+            hist = ticker.history(period="1d", interval="5m", prepost=True)
             # A NaN-OHLC row (e.g. a placeholder bar around a data gap) would otherwise slip past
             # every guard below — NaN comparisons are always False, so neither "price <= 0" nor
             # the suspicious-move sanity check catches it, and it would ride straight through into
@@ -713,9 +715,18 @@ def render_price_chart(symbol: str, price_ctx: dict) -> str | None:
         fig.patch.set_facecolor("white")
         ax.set_facecolor("white")
 
+        prev_close = price_ctx.get("prev_close")
+        baseline = min(min(closes), prev_close) if prev_close is not None else min(closes)
         ax.plot(times, closes, color=accent, linewidth=1.8, solid_capstyle="round", zorder=3)
-        ax.fill_between(times, closes, min(closes), color=accent, alpha=0.08, zorder=2)
+        ax.fill_between(times, closes, baseline, color=accent, alpha=0.08, zorder=2)
         ax.plot(times[-1], closes[-1], marker="o", markersize=4, color=accent, zorder=4)
+        if prev_close is not None:
+            # Without this, an intraday recovery off a gap-down open can look like a rising
+            # chart even though the price is still net negative vs. yesterday's close — the sign
+            # in the tweet text and up top is always relative to prev_close, but nothing on the
+            # chart itself showed where that reference point was. Same treatment render_week_chart
+            # already gives its own start-of-period reference line.
+            ax.axhline(prev_close, color="#8a8f98", linewidth=1.0, linestyle=(0, (4, 3)), zorder=1)
 
         for spine in ax.spines.values():
             spine.set_visible(False)
