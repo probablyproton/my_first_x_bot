@@ -1,9 +1,9 @@
 {
   "date": "2026-08-31",
   "daily_posts": 0,
-  "daily_keyword_posts": 0,
+  "daily_keyword_posts": 1,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 1,
+  "gemini_calls_today": 3,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-30",
@@ -48,7 +48,7 @@
     "NOK": 1172,
     "NEE": 992,
     "SAP.DE": 29801824,
-    "STX": 1362,
+    "STX": 29802543,
     "AIXA.DE": 29801643,
     "NVDA": 29801942,
     "MRVL": 29801732,
@@ -66,7 +66,7 @@
     "AMAT": 29801826,
     "WDC": 29801826
   },
-  "event_log_next_id": 689,
+  "event_log_next_id": 691,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -115,7 +115,7 @@
     "news_BESI.AS": 783,
     "news_IFX.DE": 29796935,
     "WDC": 29797293,
-    "news_STX": 1362,
+    "news_STX": 29802543,
     "ASML.AS": 862,
     "news_ASML.AS": 1322,
     "news_AVGO": 29798942,
@@ -330,10 +330,10 @@
       "Siemens at Work on $10 Billion in North American Projects, Driven by Renewables, NGCC",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
-      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
-      "Haddy scales AI-enabled adaptative microfactories with Siemens Xcelerator",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
+      "Haddy scales AI-enabled adaptative microfactories with Siemens Xcelerator",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
+      "Siemens: Using AI & Robotics to Streamline Rail Procurement",
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
       "North Jersey site sold to pharma company planning to create 1,000 jobs",
       "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
@@ -454,12 +454,12 @@
     ],
     "SU.PA": [
       "Schneider Electric to Acquire Grid Resilience Solutions Provider AiDASH for $350 Million",
-      "Schneider Electric Agrees to Acquire AiDASH for $350 Million",
       "List of 64 Acquisitions by Schneider Electric (Aug 2026)",
+      "Schneider Electric Agrees to Acquire AiDASH for $350 Million",
       "Schneider Electric Announces Intention To Acquire Cognite",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
-      "Autonomous & Self-Driving Vehicle News: Schneider Electric, Addionics, BTC POWER, Aptera Motors, BMW Group & Camel Group | auto connected car news",
       "Schneider Electric home EV charger uses smart load management",
+      "Autonomous & Self-Driving Vehicle News: Schneider Electric, Addionics, BTC POWER, Aptera Motors, BMW Group & Camel Group | auto connected car news",
       "Schneider Electric Strengthens Partner Ecosystem for Software-Defined Automation",
       "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
@@ -717,8 +717,8 @@
     "MRVL": [
       "Marvell Acquires Polariton Advancing the Future of Optical Connectivity",
       "Marvell Technology, Inc. (MRVL) Announces Acquisition of Polariton Technologies",
-      "Latham & Watkins Advises Celestial AI in Acquisition by Marvell Technology",
       "Wilson Sonsini Advises Marvell on $540 Million Acquisition of XConn Technologies",
+      "Latham & Watkins Advises Celestial AI in Acquisition by Marvell Technology",
       "Marvell Acquires Polariton Technologies | Business | Apr 2026",
       "Marvell Technology, Inc. Price Today | MRVL Live Price, Chart & Market Cap",
       "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
@@ -730,11 +730,11 @@
       "Here's How Much $100 Invested In Marvell Technology 10 Years Ago Would Be Worth Today",
       "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
       "Marvell Technology Tokenized Stock (Ondo) price today, MRVLon to USD chart, marketcap and volume",
+      "Is Marvell Stock a Buy on the Dip as AI Revenue Soars?",
       "Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week: NVDA, CRWD, MRVL, CRM, ASTS",
       "Jim Cramer Says Marvell Is Expensive Unless Everything Works, and Then It Is Cheap",
       "Marvell Wins Wall Street. Google Bets $12 Billion. Amazon Fears Fade.",
-      "Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?",
-      "Marvell's AI Bookings Are Stellar. But Its Gross Margin Guide Is What Moved the Stock."
+      "Marvell Fell After Its Google Deal. Why Did Investors Sell These Two AI Optics Stocks Too?"
     ],
     "FORM": [
       "Navellier & Associates Inc. Acquires New Shares in FormFactor, Inc. $FORM",
@@ -761,9 +761,9 @@
     "LRCX": [
       "Field & Main Bank Acquires New Shares in Lam Research Corporation $LRCX",
       "Is Lam Research Corporation (LRCX) Eyeing Besi Industries Merger Amid IBM Pact for Logic Scaling",
-      "Lam Research Announces Retirement of Michael R. Cannon and Sohail U. Ahmed from Board of Directors",
-      "Plato Investment Management Ltd Acquires Shares of 39,281 Lam Research Corporation $LRCX",
+      "Proficio Capital Partners LLC Acquires 7,555 Shares of Lam Research Corporation $LRCX",
       "Applied Materials, Lam Research may be interested in acquiring BE Semiconductor: report (AMAT:NASDAQ)",
+      "Newmark Represents Lam Research in $45.77 Million North Phoenix Office Acquisition Near TSMC Campus",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
       "Lam Research breaks ground on AI semiconductor lab in Oregon",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
@@ -774,18 +774,19 @@
       "$100 Invested In Lam Research 20 Years Ago Would Be Worth This Much Today",
       "Lam Research Corp. stock underperforms Tuesday when compared to competitors despite daily gains",
       "AI Lab Buildout And Dividend Hike Could Be A Game Changer For Lam Research (LRCX)",
+      "Lam Research Announces Retirement of Michael R. Cannon and Sohail U. Ahmed from Board of Directors",
       "Lam Research Invests $1.5 Billion in Oregon to Expand Chip R&D",
       "Lam Research Corporation Announces Participation at Upcoming Conferences",
       "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme",
-      "Why Is Lam Research (LRCX) Up 7% Since Last Earnings Report?",
-      "How Far Applied Materials Stock Can Move On You In A Year"
+      "Why Is Lam Research (LRCX) Up 7% Since Last Earnings Report?"
     ],
     "TSM": [
       "News | Virginia investor is latest to buy into Arizona's manufacturing hotbed",
       "Nightfood Signs LOI to Acquire 51% of Taiwan Semiconductor Automation Manufacturer",
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
-      "Micron’s $1.8B Taiwan Fab Deal: What It Means for AI & Investors",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
+      "Micron’s $1.8B Taiwan Fab Deal: What It Means for AI & Investors",
+      "TSMC (Taiwan Semiconductor Manufacturing) - ADR TSM US",
       "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
       "Why Taiwan’s Semiconductor Success Is About Much More Than TSMC",
       "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
@@ -795,7 +796,6 @@
       "Taiwan Semiconductor Ceramic Packaging Materials Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Arizona wants Taiwan’s investors to think beyond chips",
       "Arizona built the Fabs – now let’s build the supply chains",
-      "TSMC to add 2 advanced chip packaging plants in Chiayi, Taiwan minister says",
       "TSMC vs. ASML: Which Semiconductor Giant Is the Better Stock Buy?",
       "Taiwan Semiconductor Manufacturing (TSM) Stock Looks Stretched As Its 363% Run Continues",
       "Billionaire Stanley Druckenmiller Just Bought Taiwan Semiconductor Stock. Is the Foundry Giant Still a Screaming Buy?",
@@ -807,7 +807,7 @@
       "Western Digital Stock Jumped 13% in a Day. Is the Bounce Real?",
       "Western Digital (WDC) Surges 12.5% to $548 - Kioxia Merger Talks, $900 Analyst Target",
       "List of 11 Acquisitions by Western Digital (Aug 2026)",
-      "Western Digital Stock Rallies As Street Hikes Targets And Merger Talk Returns",
+      "WDC and Kioxia \"Re-Opened Talks\" : Potential NAND Deal That Could Reshape Storage",
       "Western Digital Corp. stock outperforms competitors on strong trading day",
       "Western Digital (WDC) Retired Part Of Its 2028 Convertible Debt Early",
       "WD to Participate in Upcoming Investor Conference",
@@ -825,13 +825,13 @@
       "Is It Worth Investing in Western Digital (WDC) Based on Wall Street's Bullish Views?"
     ],
     "AVGO": [
-      "New Broadcom and Carahsoft Agreement With DISA Delivers Uniform Pricing and Cost Transparency for DoW Agencies",
-      "Insight CTO On VMware By Broadcom ‘Chaos,’ ‘Pain’ And ‘Confusion,’ Even As VMware Technology Has ‘Never Been Better’",
-      "How Broadcom’s VMware buy meant a ‘fundamental shift’ for county tech",
-      "VMware customers reduce dependency after Broadcom acquisition",
-      "GSA reaches latest OneGov agreement with Broadcom",
-      "Broadcom Credit Risk Soars on Mega AI Debt Financing Backstops",
+      "Cloud providers continue to push EU court to undo Broadcom-VMware merger",
+      "Broadcom's Acquires Vmware | News",
+      "Broadcom Acquisition: How VMware Users are Taking a Hit",
+      "The Commission Approves Broadcom’s Acquisition of VMware Subject to Remedies",
+      "Everything we know about what's going on at VMware as employees leave in droves ahead of the $61 billion Broadcom acquisition",
       "Frontier AI Security and Private Cloud | Broadcom News and Stories",
+      "Broadcom Credit Risk Soars on Mega AI Debt Financing Backstops",
       "Kyndryl, Broadcom expand partnership to push private clouds for AI work",
       "Hock Tan: The 100 Most Influential People in AI 2026",
       "Broadcom seeks more than $60 billion in latest AI debt deal, Bloomberg News reports",
@@ -935,8 +935,8 @@
       "Applied Materials Appoints Akash Palkhiwala to Board of Directors"
     ],
     "NVDA": [
-      "BDFS Capital LLC Acquires 7,131 Shares of NVIDIA Corporation $NVDA",
       "Nvidia reportedly acquires AI project hosting platform Hugging Face for $12.9B",
+      "BDFS Capital LLC Acquires 7,131 Shares of NVIDIA Corporation $NVDA",
       "Nvidia in Talks to Buy AI Startup Hugging Face, Reports Say",
       "Nvidia Agrees to Acquire Hugging Face For $12.9 Billion In One of Its Largest Acquisitions So Far As It Expands Control Of Open-Source AI Models: Report",
       "NVIDIA Corporation | History, GPUs, & Artificial Intelligence",
@@ -948,13 +948,13 @@
       "SpaceXAI Adopts NVIDIA Vera CPU to Accelerate Agentic AI at Massive Scale",
       "Watch Hugging Face Always Attracts Buyers, Co-Founder Says",
       "Nazemian v. NVIDIA Corporation",
-      "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
+      "COMMENTARY: Hormuz gridlock, Canada clash and Nvidia nerves: The financial week in five charts",
+      "Trump Interrupts Nvidia Meeting With Surprise Call to Jensen Huang, Hours Before Praising 'Incredible' Numbers: Report",
       "Dow Jones Futures Fall, Oil Prices Pop As U.S. Strikes Iran",
       "Nvidia’s $96 billion quarter revealed a surprising constraint",
       "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme",
       "Why Retail Traders Couldn’t Take Their Eyes Off These Stocks Last Week: NVDA, CRWD, MRVL, CRM, ASTS",
-      "If You Invested $1,000 In Nvidia Stock at IPO, Here's How Much You'd Have Now",
-      "2 Dow Jones Stocks Down Over 20% I'd Buy on the Dip"
+      "If You Invested $1,000 In Nvidia Stock at IPO, Here's How Much You'd Have Now"
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
@@ -1002,14 +1002,14 @@
       "Germany's Infineon acquires Bengaluru-based C2i Semiconductors to strengthen AI data centre power business",
       "Infineon completes €570m ams Osram sensor portfolio acquisition",
       "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
-      "North-America Automotive Semiconductor Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Infineon-led European project Moore4Power launches",
+      "North-America Automotive Semiconductor Market Size, Share,Trends, Growth Analysis Report, 2030",
       "North America Intelligent Power Module Market Report",
-      "EQS-PVR: Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
+      "NIELIT Partners with Infineon to Strengthen India’s Semiconductor Ecosystem, Talent Pool",
       "Infineon Technologies officially opens new R&D Centre in Cork",
       "Price tag, scope of Infineon's factory expansion plans revealed in incentives application",
       "Infineon’s bets big on SIVR with C2i buy",
-      "Power integrated circuits (ICs) for motor control and thermal management uses introduced by Infineon",
+      "EQS-PVR: Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
       "Chip Stocks Edge Higher After Monday Rout",
       "Infineon and MediaTek partner on automotive AI systems",
       "Infineon Technologies (XTRA:IFX) Stock Fair Value Rises After Analysts Lift Targets",
@@ -1077,12 +1077,12 @@
       "Seagate Technology Holdings PLC stock outperforms competitors on strong trading day",
       "Seagate Introduces Storage Built for Consumer Data Explosion",
       "Seagate Technology Holdings PLC stock underperforms Wednesday when compared to competitors",
+      "Seagate Technology Holdings (STX) Heads To AI Summit As Investors Ask If The Story Is Priced In",
       "Seagate Stock Is Off 27%. Why It’s Time to Buy the Dip in STX for 36% Upside.",
       "Seagate (STX) Up 10.7% Since Last Earnings Report: Can It Continue?",
       "Seagate vs. Western Digital: Which One is The Best AI Storage Play for Dividend Investors?",
       "Seagate Technology Holdings (STX) Will Present At The Six Five Summit 2026",
-      "Prediction: Seagate Could Be One of AI’s Most Unexpected Winners",
-      "Zacks.com featured highlights Seagate Technology, Western Digital and Dell"
+      "Prediction: Seagate Could Be One of AI’s Most Unexpected Winners"
     ],
     "MU": [
       "Micron purchases PSMC fabrication site in Taiwan for $1.8B",
@@ -1253,7 +1253,8 @@
     },
     "STX": {
       "analyst_note": 1222,
-      "large_share_purchases": 1362
+      "large_share_purchases": 1362,
+      "expansion": 29802543
     },
     "ASML.AS": {
       "analyst_note": 1183,
@@ -1283,7 +1284,7 @@
     "Tom's Hardware",
     "thestreet.com"
   ],
-  "last_news_post_min": 29801942,
+  "last_news_post_min": 29802543,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
