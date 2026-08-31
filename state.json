@@ -2,7 +2,7 @@
   "date": "2026-08-31",
   "daily_posts": 2,
   "daily_keyword_posts": 8,
-  "daily_pulse_posts": 12,
+  "daily_pulse_posts": 13,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -66,7 +66,7 @@
     "AMAT": 29801826,
     "WDC": 29801826
   },
-  "event_log_next_id": 713,
+  "event_log_next_id": 714,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -456,8 +456,8 @@
       "Schneider Electric to Acquire Grid Resilience Solutions Provider AiDASH for $350 Million",
       "Schneider Electric Agrees to Acquire AiDASH for $350 Million",
       "Schneider Electric Announces Intention To Acquire Cognite",
-      "List of 64 Acquisitions by Schneider Electric (Aug 2026)",
-      "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
+      "Schneider Electric acquires Cognite for $3.1B in industrial AI push",
+      "Behind Schneider Electric's Acquisition of AI Firm Cognite",
       "Schneider Electric launches Yuva Yodha tech hackathon",
       "Schneider Electric home EV charger uses smart load management",
       "Schneider Electric Strengthens Partner Ecosystem for Software-Defined Automation",
@@ -725,16 +725,16 @@
       "Marvell Technology Sees AI Connectivity as Next Big Infrastructure Bottleneck",
       "Precision Trading with Marvell Technology Inc. (MRVL) Risk Zones",
       "Marvell Technology, Inc. Price Today | MRVL Live Price, Chart & Market Cap",
-      "MRVL to SGD: Marvell Technology (Backpack Securities) Price in Singapore Dollar",
       "'This is by far our stock pick of the year': Hatfield on Marvell Technology",
+      "MRVL to SGD: Marvell Technology (Backpack Securities) Price in Singapore Dollar",
       "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
       "Here's How Much $100 Invested In Marvell Technology 10 Years Ago Would Be Worth Today",
       "Marvell Technology Tokenized Stock (Ondo) price today, MRVLon to USD chart, marketcap and volume",
+      "Could Marvell Be the Next $100 Billion AI Stock?",
       "LITE's AI Optics Push Boosts Growth Prospects Against MRVL & NVDA",
       "Marvell and Google: Misplaced Fear Should Drive Your Purchase Decision",
       "Wall Street Analysts Believe Marvell (MRVL) Could Rally 34.31%: Here's is How to Trade",
-      "This Thesis for Marvell Technology Keeps Me Accumulating Amid Tailwinds",
-      "Marvell (MRVL) Q2 2027 Earnings Call Transcript"
+      "This Thesis for Marvell Technology Keeps Me Accumulating Amid Tailwinds"
     ],
     "FORM": [
       "Navellier & Associates Inc. Acquires New Shares in FormFactor, Inc. $FORM",
@@ -785,7 +785,7 @@
       "Nightfood Signs LOI to Acquire 51% of Taiwan Semiconductor Automation Manufacturer",
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
-      "Taiwan government approves TSMC’s 3nm upgrade for second Japan fab",
+      "Micron’s $1.8B Taiwan Fab Deal: What It Means for AI & Investors",
       "TSMC (Taiwan Semiconductor Manufacturing) 2330 TT",
       "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
       "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
@@ -831,9 +831,9 @@
       "How Broadcom’s VMware buy meant a ‘fundamental shift’ for county tech",
       "VMware customers reduce dependency after Broadcom acquisition",
       "2026 Broadcom Customer Achievement Award Winners Announced - Broadcom News and Stories",
+      "Broadcom Strengthens Spring Security and Adds Coverage of Java, Python, and Node.js Ecosystems with TrueSource",
       "Broadcom’s VMware Private AI Cloud spans infrastructure, agents, data and security",
       "Broadcom pledges to lock down open source Python, Java libraries",
-      "Broadcom Delivers End-to-End Security, Identity, and Observability for Agentic AI",
       "Broadcom consolidates open-source support under TrueSource",
       "Broadcom AgentMinder Debuts Alongside vDefend, Avi, and TrueSource Upgrades for Agentic AI Security",
       "Broadcom Launches Trusted Artifact Service for Spring Framework",
@@ -856,8 +856,8 @@
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "KLA Corporation Price Today | xKLAC Live Price, Chart & Market Cap",
       "KLA Corporation Rings the Closing Bell",
-      "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Wrapped KLA Corporation Tokenized Stock (xStock) price today, wKLACx to USD live price, marketcap and chart",
+      "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Lam Research and KLA Corporation Stocks Trade Down, What You Need To Know",
       "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corporation Rings the Nasdaq Stock Market Closing Bell",
@@ -959,11 +959,10 @@
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
-      "EQS-PVR: AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
       "Aixtron SE vs Veeco Instruments",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
-      "Gallium nitride vertical-channel junction field-effect transistors",
       "Polarization-engineered high mobility of two-dimensional hole gas in GaN",
+      "Gallium nitride vertical-channel junction field-effect transistors",
       "Aixtron Q2 Earnings Call Highlights",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
       "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
@@ -1054,8 +1053,8 @@
       "ASML and the West’s technology dilemma",
       "If US targets ASML, Netherlands should learn from Canada",
       "ASML is Revising Expectations Higher as Sales Accelerate. Time to Buy?",
-      "Marco Pieters starts engineering ASML’s next chapter",
       "ASML’s Extreme Ultraviolet Lithography and the Limits of Reverse Engineering in China",
+      "Marco Pieters starts engineering ASML’s next chapter",
       "ASML–Tata MoU marks significant step in strengthening India’s semiconductor ecosystem: PM Modi",
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
       "ASML Shares Slide",
@@ -1068,7 +1067,7 @@
       "Seagate Stock Surged 685% in One Year on AI Storage Demand. Is It Still Worth Buying?",
       "Seagate (NASDAQ: STX) exec trades shares, gets new options and RSUs",
       "Applied Optoelectronics, SanDisk, Seagate And Other Big Stocks Moving Lower In Monday’s Pre-Market Session",
-      "Seagate vs. NetApp: Which Data Storage Stock is the Smarter Buy?",
+      "Wasabi Technologies Acquires Seagate’s Lyve Cloud Business",
       "Seagate Technology Holdings PLC stock underperforms Friday when compared to competitors",
       "Seagate to Participate in Upcoming Investor Events",
       "Seagate Technology Holdings PLC stock underperforms Wednesday when compared to competitors despite daily gains",
@@ -1091,13 +1090,13 @@
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron Signs Letter of Intent to Purchase Tongluo Site, Begin Strategic Partnership with PSMC",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
+      "10 Top Companies Hiring Product Engineers",
       "Micron Technology Tokenized bStocks Price Today | Live MUB Price, Chart & Market Data",
       "Have Insiders Sold Micron Technology Shares Recently?",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
       "Micron project neighbors ask judge for new environmental review",
       "Trump praises Micron’s $10 billion investment in US for AI research",
       "Micron unveils Boise-based research lab, plans $10 billion investment over next decade",
-      "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
       "Micron Technology Tokenized Stock price today, MUx to USD chart, marketcap and volume",
       "Micron Announces Leadership Appointments to Accelerate Innovation and Growth",
       "Micron opens new training center in partnership with CWI",
@@ -1164,6 +1163,29 @@
           "source": "fool.com",
           "summary": "Deal skepticism and litigation fears still weigh on this consumer staples stalwart.",
           "published": "2026-08-31T13:35:00"
+        }
+      ]
+    },
+    {
+      "symbol": "MRVL",
+      "classification": {
+        "is_major": true,
+        "category": "contract",
+        "headline": "Could Marvell Be the Next $100 Billion AI Stock?",
+        "reason": "Keyword rule matched (category: contract)"
+      },
+      "link": "https://247wallst.com/investing/2026/08/31/could-marvell-be-the-next-100-billion-ai-stock/?.tsrc=rss",
+      "source": "247wallst.com",
+      "method": "keyword",
+      "published": "2026-08-31T17:45:57",
+      "queued_min": 29803352,
+      "all_articles": [
+        {
+          "headline": "Could Marvell Be the Next $100 Billion AI Stock?",
+          "link": "https://247wallst.com/investing/2026/08/31/could-marvell-be-the-next-100-billion-ai-stock/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Marvell just posted blowout earnings and locked in a landmark Google deal, yet shares fell 10% in a single session. Whether that selloff is a trap or a warning sign depends on what you believe about one very concentrated bet.",
+          "published": "2026-08-31T17:45:57"
         }
       ]
     }
@@ -1403,9 +1425,7 @@
       2,
       3
     ],
-    "mover": [
-      3
-    ],
+    "mover": [],
     "price_event": [
       3,
       4
@@ -1477,19 +1497,19 @@
     "AIXA.DE": 36.08,
     "IFX.DE": 56.49,
     "ASML.AS": 1455.6,
-    "MU": 946.35,
-    "TSM": 416.71,
-    "KLAC": 175.29,
-    "STX": 816.57,
-    "ANET": 195.23,
-    "LRCX": 301.71,
-    "FORM": 101.01,
-    "AVGO": 370.61,
-    "AMAT": 458.35,
-    "AMD": 468.68,
-    "MRVL": 211.18,
-    "NVDA": 219.61,
-    "WDC": 446.69
+    "MU": 947.48,
+    "TSM": 416.0,
+    "KLAC": 175.6,
+    "STX": 820.82,
+    "ANET": 195.87,
+    "LRCX": 302.05,
+    "FORM": 101.35,
+    "AVGO": 371.57,
+    "AMAT": 458.02,
+    "AMD": 468.7,
+    "MRVL": 211.38,
+    "NVDA": 218.78,
+    "WDC": 447.85
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1517,9 +1537,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 32,
-  "last_pulse_post_min": 29803291,
-  "last_pulse_ticker": "MRVL",
+  "next_pulse_interval": 38,
+  "last_pulse_post_min": 29803351,
+  "last_pulse_ticker": "WDC",
   "pulse_news_seen": {
     "amd:axim planning & wealth acquires shares of 1,888 advanced micro devices, inc. $amd": "2026-08-31",
     "tsm:tsmc (taiwan semiconductor manufacturing) 2330 tt": "2026-08-31",
