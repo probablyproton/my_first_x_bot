@@ -1,7 +1,7 @@
 {
   "date": "2026-08-31",
   "daily_posts": 2,
-  "daily_keyword_posts": 9,
+  "daily_keyword_posts": 10,
   "daily_pulse_posts": 14,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
@@ -50,7 +50,7 @@
     "SAP.DE": 29801824,
     "STX": 29802543,
     "AIXA.DE": 29802662,
-    "NVDA": 29803296,
+    "NVDA": 29803442,
     "MRVL": 29803412,
     "ANET": 1262,
     "MU": 29802992,
@@ -66,7 +66,7 @@
     "AMAT": 29801826,
     "WDC": 29801826
   },
-  "event_log_next_id": 716,
+  "event_log_next_id": 717,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -107,7 +107,7 @@
     "AMD": 1022,
     "AVGO": 1082,
     "KLAC": 1142,
-    "news_NVDA": 29803296,
+    "news_NVDA": 29803442,
     "news_TSM": 29796994,
     "IFX.DE": 29797081,
     "news_AMAT": 29797892,
@@ -322,11 +322,6 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
-      "Pharmaceutical company acquires former Siemens Healthineers facility in Mount Olive",
-      "Siemens said to mull acquisition of rail technology firm Mer Mec — Bloomberg",
-      "Siemens acquires Altair to create most complete AI-powered po",
-      "Latham & Watkins Advises Siemens in Completed US$5.1 Billion Acquisition of Dotmatics",
-      "Germany’s Siemens Energy to acquire family-owned Lisburn electrical manufacturing specialist Camlin",
       "Siemens at Work on $10 Billion in North American Projects, Driven by Renewables, NGCC",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
@@ -341,7 +336,12 @@
       "Smart Grid Market Report 2026-2036 Now Available. Sizes the Global Market at $63.81B (2026), Profiling ABB, GE Vernova, Siemens, Schneider Electric, and 78 Other Key Players",
       "Smart Meter Data Management Report Forecasts Market Growth from $2.49B (2025) to $12.65B by 2035, Profiling Oracle, Landis+Gyr, Itron, Siemens, Schneider Electric, and 48 Other Key Players",
       "Siemens (XTRA:SIE) Stock May Be 28% Below Fair Value As Profit Outlook Rises",
-      "He Runs a $251 Billion Company and Responds to Emails with Just 2 Letters: ‘I Value Efficiency’"
+      "He Runs a $251 Billion Company and Responds to Emails with Just 2 Letters: ‘I Value Efficiency’",
+      "AI-Enabled Imaging Modalities Market Report: Evaluating AI Software Integration, FDA Approvals, and Competitive Strategies of GE HealthCare, Canon, Siemens, and Philips",
+      "Babcock & Wilcox stakes out another perch in AI, data center bonanza",
+      "Nucleus Research Releases 2026 Manufacturing Execution System Technology Value Matrix",
+      "Acuity Inc. Names Ruth Gratzke President of Acuity Brands Lighting",
+      "The 4 Words From Jensen Huang That Could Redefine NVIDIA’s Total Addressable Market"
     ],
     "APLD": [
       "TeraWulf Drops 8% Even as Analysts Raise Price Targets on $19B Anthropic Deal, IREN Falls 7%, Applied Digital Slides 6%",
@@ -744,14 +744,14 @@
       "FormFactor Jumps 111% YTD: Is There More Room for the Stock to Rise?",
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
-      "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
+      "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "Convert FormFactor, Inc. (FORM) to Singapore dollar (SGD)",
-      "FormFactor, Inc. Rings the Nasdaq Stock Market Closing Bell",
+      "FormFactor, Inc. Rings the Closing Bell",
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
-      "FormFactor Inc (Carlsbad) WARN Act Investigation",
+      "Bay Area semiconductor testing company to lay off more than 200 workers",
       "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
       "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
       "FormFactor CEO Mike Slessor Sells 16,002 Shares for $2 Million",
@@ -771,21 +771,21 @@
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally – Company Announcement - FT.com",
       "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
       "Lam Research Corporation Tokenized Stock (Robinhood)",
-      "Lam Research announces retirement of two key bo...",
       "$100 Invested In Lam Research 20 Years Ago Would Be Worth This Much Today",
       "AI Lab Buildout And Dividend Hike Could Be A Game Changer For Lam Research (LRCX)",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
       "Lam Research Invests $1.5 Billion in Oregon to Expand Chip R&D",
       "Lam Research Corporation Announces Participation at Upcoming Conferences",
       "Does ASML's Dominant Position in EUV Signal Further Upside?",
-      "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme"
+      "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme",
+      "Why Is Lam Research (LRCX) Up 7% Since Last Earnings Report?"
     ],
     "TSM": [
       "News | Virginia investor is latest to buy into Arizona's manufacturing hotbed",
       "Nightfood Signs LOI to Acquire 51% of Taiwan Semiconductor Automation Manufacturer",
-      "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
+      "Taiwan government approves TSMC’s 3nm upgrade for second Japan fab",
+      "Taiwanese firm Panjit invests $45 mln to expand semiconductor facility in Vietnam",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
-      "Micron’s $1.8B Taiwan Fab Deal: What It Means for AI & Investors",
       "TSMC (Taiwan Semiconductor Manufacturing) 2330 TT",
       "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
       "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
@@ -794,8 +794,8 @@
       "Taiwan Semiconductor Ceramic Packaging Materials Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Taiwan Semiconductor Stock: Does the Booming Revenue Outweigh Geopolitical Risk?",
       "Charts: TSMC's share of Taiwan chip manufacturing revenue falls to 81.8% as memory makers scale up",
+      "Taiwan Semiconductor Manufacturing Tokenized Stock (Ondo) Price Today | Live TSMon Price, Chart & Market Data",
       "America’s Chip Future Still Runs Through Taiwan",
-      "TSMC (Taiwan Semiconductor Manufacturing) - ADR TSM US",
       "Why the head of Taiwan’s stock exchange wants you to look past TSMC—and embrace the ‘technology island’",
       "TSMC vs. ASML: Which Semiconductor Giant Is the Better Stock Buy?",
       "Taiwan Semiconductor Manufacturing (TSM) Stock Looks Stretched As Its 363% Run Continues",
@@ -806,8 +806,8 @@
       "Western Digital (WDC) Revives Kioxia Merger Talks Over Flash Memory Assets",
       "Western Digital Stock Jumped 13% in a Day. Is the Bounce Real?",
       "Western Digital (WDC) Surges 12.5% to $548 - Kioxia Merger Talks, $900 Analyst Target",
-      "WDC and Kioxia \"Re-Opened Talks\" : Potential NAND Deal That Could Reshape Storage",
       "Western Digital Stock Rallies As Street Hikes Targets And Merger Talk Returns",
+      "WDC and Kioxia \"Re-Opened Talks\" : Potential NAND Deal That Could Reshape Storage",
       "Western Digital Corp. stock outperforms competitors on strong trading day",
       "Western Digital (WDC) Retired Part Of Its 2028 Convertible Debt Early",
       "Western Digital Updates Convertible Note Exchange, Reveals Exact Share Issuance",
@@ -851,7 +851,6 @@
       "2 Unpopular Stocks That Deserve Some Love and 1 We Brush Off",
       "Semiconductor Manufacturing Stocks Q4 Results: Benchmarking KLA Corporation (NASDAQ:KLAC)",
       "Kwik Lok acquires full ownership of Kwik Lok Australia",
-      "KLA Corporation’s (NASDAQ:KLAC) Q1 Sales Top Estimates But Stock Drops",
       "KLA Corp insiders cashed out $64M while stock slid 40%",
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "KLA Corporation Price Today | xKLAC Live Price, Chart & Market Cap",
@@ -859,14 +858,15 @@
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "Wrapped KLA Corporation Tokenized Stock (xStock) price today, wKLACx to USD live price, marketcap and chart",
       "Lam Research and KLA Corporation Stocks Trade Down, What You Need To Know",
-      "KLA Corp. stock outperforms competitors despite losses on the day",
       "KLA Corporation Rings the Nasdaq Stock Market Closing Bell",
       "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme",
       "What KLA (KLAC)'s AI-Fueled Advanced Packaging Momentum Means For Shareholders",
       "KLAC vs. SNDK: Which Semiconductor Stock is a Better Buy Now?",
       "KLA (KLAC) Up 8% Since Last Earnings Report: Can It Continue?",
       "Wall Street Analysts Think KLA (KLAC) Could Surge 29.36%: Read This Before Placing a Bet",
-      "KLA Gains From Advanced Packaging: Can it Outpace ONTO & AMAT?"
+      "KLA Gains From Advanced Packaging: Can it Outpace ONTO & AMAT?",
+      "Zacks Industry Outlook Kla, Teradyne and Garmin",
+      "3 Electronics Stocks Set to Benefit From a Prospering Industry"
     ],
     "SAP.DE": [
       "SAP Completes Acquisition of Prior Labs",
@@ -875,7 +875,6 @@
       "A&O Shearman advises SAP on strategic AI acquisitions of Dremio and Prior Labs",
       "Sap SE - Completes Acquisition Of Prior Labs",
       "SAP Completes Acquisition of Reltio",
-      "SAP SE (SAP) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
       "SAP CEO: the AI race is being fought in the wrong place",
       "SAP Plans to Expand AI Access to Customers Who Don’t Use Cloud",
       "SAP SE Investigated by the Portnoy Law Firm",
@@ -884,6 +883,7 @@
       "SAP Proposes Dividend of Euro2.50 per Share",
       "Why is SAP Acquiring Master Data Management Company Reltio?",
       "SAP Launches Defense Innovation Hub in Munich",
+      "UBS Reaffirms Their Buy Rating on SAP SE (0NW4)",
       "SAP loosens ERP maintenance and support rules",
       "SAP (XTRA:SAP) Stock Looks Below Fair Value Despite AI Hopes",
       "Palantir Expands SAP Transformation Push With SNP Partnership",
@@ -892,9 +892,10 @@
     ],
     "BESI.AS": [
       "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
+      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
       "BE Semiconductor Industries Acquires Laurier | News & Features | Jan 2002",
-      "Is Lam Research Corporation (LRCX) Eyeing Besi Industries Merger Amid IBM Pact for Logic Scaling",
-      "BE Semiconductor Industries N.V. 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:BESIY) 2026-07-27",
+      "BE Semiconductor Stock: The AI Packaging Bottleneck Play Investors Overlook (BESIY)",
+      "Changes are imminent in semiconductor equipment! Applied Materials and Lam Research are targeting Besi, aiming to acquire the critical 'hybrid bonding' technology that is vital for AI and memory.",
       "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
       "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
       "Dutch semiconductor giant Besi plans €10M to further build production facility in Vietnam",
@@ -909,8 +910,7 @@
       "Is BE Semiconductor Industries (BESIY) Outperforming Other Computer and Technology Stocks This Year?",
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings",
       "Zacks.com featured highlights Celestica, Zurn Elkay, Lam, BE Semiconductor and Johnson Controls",
-      "BE Semiconductor Stock Rises 5% on Berenberg Upgrade",
-      "Buy These 5 Top-Ranked Efficient Stocks With Strong Growth Potential"
+      "BE Semiconductor Stock Rises 5% on Berenberg Upgrade"
     ],
     "AMAT": [
       "Applied Materials Extends AI Chip Role With NEXX Packaging Acquisition",
@@ -985,17 +985,17 @@
       "Can Advanced Micro Devices (NASDAQ:AMD) Sustain Its Chart Breakout After the Nvidia Spark?",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
       "Why Is AMD Stock Sliding on Friday?",
-      "Advanced Micro Devices, Inc. (AMD) Stock Forecast | Market Approaching A Decision Point Graham Linehan (c5PnMHeikB)",
       "Is Advanced Micro Devices Stock Outperforming the Dow?",
+      "Advanced Micro Devices, Inc. (AMD) Stock Forecast | Market Approaching A Decision Point Graham Linehan (c5PnMHeikB)",
       "Advanced Micro Devices Inc (Derivatives) Price Today | Live AMD Price, Chart & Market Data",
       "Latham Watkins Advises Advanced Micro Devices Inc on Revolving Credit Facility",
       "Advanced Micro Devices (Dinari Tokenized Stock) (AMD) Price Prediction for 2026 to 2031",
       "AMD Appoints Alan Smith as Newest Corporate Fellow",
+      "Not Nvidia, Not AMD. Micron Could Be September's Biggest AI Winner or Loser.",
       "Wall Street Is Looking Here. I’m Looking Somewhere Else",
       "AMD Enters a Sovereign AI Showcase, Not a Revenue Windfall",
       "AMD's Saudi AI Bet Is Scaling Toward 1 Gigawatt",
-      "Cathie Wood Just Swapped $95 Million of AMD for Nvidia and Broadcom",
-      "AMD and Cisco Expand AI Infrastructure in Saudi Arabia"
+      "Cathie Wood Just Swapped $95 Million of AMD for Nvidia and Broadcom"
     ],
     "IFX.DE": [
       "Infineon’s bets big on SIVR with C2i buy",
@@ -1030,11 +1030,11 @@
       "Analysts Conflicted on These Technology Names: CrowdStrike Holdings (CRWD), Arista Networks (ANET) and HP (HPQ)",
       "If You Invested $1000 In Arista Networks Stock 10 Years Ago, You Would Have This Much Today",
       "J. Goldman takes new $6.97M stake in Arista Networks",
-      "Arista Networks aStock (AANET) Price, MarketCap, Charts and Fundamentals Info",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "Arista Networks Tokenized Stock (Robinhood) Exchanges ANET Markets | Buy & Sell & Trade",
       "Arista Networks Stock: Buy or Sell?",
       "Arista Networks Inc. stock underperforms Tuesday when compared to competitors despite daily gains",
+      "Arista Networks Tokenized Stock (Robinhood)",
       "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme",
       "Arista's Price Assumes The Parts Arrive On Time",
       "Is It Worth Investing in Arista Networks (ANET) Based on Wall Street's Bullish Views?",
@@ -1091,8 +1091,8 @@
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron Signs Letter of Intent to Purchase Tongluo Site, Begin Strategic Partnership with PSMC",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
-      "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
       "Micron Stock Flashing Intriguing 'Buy the Dip' Signal",
+      "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
       "10 Top Companies Hiring Product Engineers",
       "Micron Taiwan Unions Demand Bonuses Like Samsung, SK Hynix",
       "Micron Technology Tokenized bStocks Price Today | Live MUB Price, Chart & Market Data",
@@ -1101,73 +1101,14 @@
       "Micron project neighbors ask judge for new environmental review",
       "Trump praises Micron’s $10 billion investment in US for AI research",
       "Micron unveils Boise-based research lab, plans $10 billion investment over next decade",
+      "Not Nvidia, Not AMD. Micron Could Be September's Biggest AI Winner or Loser.",
+      "Apple Just Raised Mac and iPad Prices 20%, So Who Is Getting Rich Off the Shortage?",
       "How to Play the Micron vs. CXMT Memory-Chip War",
       "Jim Cramer has strong message for Micron stock investors",
-      "Micron Is Stuck Below $971. A Breakout Could Open the Door to $1,057",
-      "The Overlooked AI Bet That Could Outperform NVIDIA by 2027",
-      "Micron Technology (MU) Gains Driven by Earnings Upgrades"
+      "Micron Is Stuck Below $971. A Breakout Could Open the Door to $1,057"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "large_share_purchases",
-        "headline": "Cathie Wood's ARK Invest bought $53M of Nvidia stock after earnings",
-        "reason": "Sizeable institutional share purchase"
-      },
-      "link": "https://qz.com/ark-invest-cathie-wood-nvidia-stock-purchase-083126?.tsrc=rss",
-      "source": "qz.com",
-      "method": "keyword",
-      "published": "2026-08-31T12:57:41",
-      "queued_min": 29803082,
-      "all_articles": [
-        {
-          "headline": "Nvidia Makes MediaTek Partnership Even Bigger, Huang Says",
-          "link": "https://finance.yahoo.com/video/nvidia-makes-mediatek-partnership-even-134345562.html?.tsrc=rss",
-          "source": null,
-          "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang and Rick Tsai, MediaTek Inc. CEO, talk about expanding their partnership. Nvidia is investing $3.5 billion in the Taiwanese chipmaker. They speak exclusively to Bloomberg's Ed Ludlow.",
-          "published": "2026-08-31T13:43:45"
-        },
-        {
-          "headline": "Nvidia and MediaTek expand partnership, Nvidia invests $3.5b",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-mediatek-expand-partnership-nvidia-131604418.html?.tsrc=rss",
-          "source": null,
-          "summary": "Investing.com -- Nvidia and MediaTek announced Monday an expansion of their partnership to develop AI computing platforms across infrastructure, local computing and automotive sectors.",
-          "published": "2026-08-31T13:16:04"
-        },
-        {
-          "headline": "Cathie Wood's ARK Invest bought $53M of Nvidia stock after earnings",
-          "link": "https://qz.com/ark-invest-cathie-wood-nvidia-stock-purchase-083126?.tsrc=rss",
-          "source": "qz.com",
-          "summary": "ARK also sold 156,286 shares of Advanced Micro Devices on Friday, continuing a recent pattern of trimming that position",
-          "published": "2026-08-31T12:57:41"
-        },
-        {
-          "headline": "This Thesis for Marvell Technology Keeps Me Accumulating Amid Tailwinds",
-          "link": "https://247wallst.com/investing/2026/08/31/this-thesis-for-marvell-technology-keeps-me-accumulating-amid-tailwinds/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "A post-earnings drop handed one investor a reason to buy more Marvell Technology, not sell it, and a Google warrant that binds a hyperscaler to shareholder returns is only part of why he keeps hitting the buy button.",
-          "published": "2026-08-31T13:50:22"
-        },
-        {
-          "headline": "GE Vernova Slides 3%, Vertiv Holdings and Eaton Sit Out the Selloff: Is the Rivian CFO Handoff Still Driving the Drawdown?",
-          "link": "https://247wallst.com/investing/2026/08/31/ge-vernova-slides-3-vertiv-holdings-and-eaton-sit-out-the-selloff-is-the-rivian-cfo-handoff-still-driving-the-drawdown/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "GE Vernova is shedding 3% Monday morning while Vertiv and Eaton barely flinch, and the reason behind that split tells investors something important about what this selloff actually is.",
-          "published": "2026-08-31T13:48:17"
-        },
-        {
-          "headline": "This Dividend King Just Offered a Buy-the-Dip Opportunity",
-          "link": "https://www.fool.com/investing/2026/08/31/this-dividend-king-just-offered-a-buy-the-dip/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Deal skepticism and litigation fears still weigh on this consumer staples stalwart.",
-          "published": "2026-08-31T13:35:00"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1290,7 +1231,7 @@
       "ma": 29801792,
       "expansion": 29803022,
       "earnings": 29798373,
-      "large_share_purchases": 29801252
+      "large_share_purchases": 29803442
     },
     "TSM": {
       "large_share_purchases": 1322,
@@ -1337,14 +1278,14 @@
     }
   },
   "recent_post_sources": [
-    "Tom's Hardware",
     "thestreet.com",
     "Bloomberg.com",
     "Network World",
     "MarketBeat",
-    "247wallst.com"
+    "247wallst.com",
+    "qz.com"
   ],
-  "last_news_post_min": 29803412,
+  "last_news_post_min": 29803442,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
