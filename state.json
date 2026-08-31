@@ -2,7 +2,7 @@
   "date": "2026-08-31",
   "daily_posts": 2,
   "daily_keyword_posts": 4,
-  "daily_pulse_posts": 7,
+  "daily_pulse_posts": 8,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -66,7 +66,7 @@
     "AMAT": 29801826,
     "WDC": 29801826
   },
-  "event_log_next_id": 703,
+  "event_log_next_id": 704,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -730,11 +730,11 @@
       "Here's How Much $100 Invested In Marvell Technology 10 Years Ago Would Be Worth Today",
       "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
       "Marvell Technology Tokenized Stock (Ondo) price today, MRVLon to USD chart, marketcap and volume",
+      "This Thesis for Marvell Technology Keeps Me Accumulating Amid Tailwinds",
       "Marvell (MRVL) Q2 2027 Earnings Call Transcript",
       "Marvell (MRVL) International Revenue Performance Explored",
       "Prediction: Marvell Stock Could Be on the Verge of Another Big Move",
-      "Company News for Aug 31, 2026",
-      "Is Marvell Stock a Buy on the Dip as AI Revenue Soars?"
+      "Company News for Aug 31, 2026"
     ],
     "FORM": [
       "Navellier & Associates Inc. Acquires New Shares in FormFactor, Inc. $FORM",
@@ -810,13 +810,13 @@
       "Western Digital Stock Rallies As Street Hikes Targets And Merger Talk Returns",
       "Western Digital Corp. stock outperforms competitors on strong trading day",
       "Western Digital (WDC) Retired Part Of Its 2028 Convertible Debt Early",
+      "Western Digital Adds Post-Quantum Cryptography to Hard Drives",
       "WD to Participate in Upcoming Investor Conference",
       "Western Digital Updates Convertible Note Exchange, Reveals Exact Share Issuance",
       "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
-      "Western Digital Adds Post-Quantum Cryptography to Hard Drives",
       "How Western Digital used AI to turbocharge collection of supplier emissions data",
       "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
-      "AI infrastructure is multi-tiered, and HDDs are central to scaling AI, WD shares",
+      "Western Digital blows hard disk drive future wide open",
       "How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?",
       "Western Digital Just Dropped 13% in a Month. Is It Time to Sell?",
       "Zacks Industry Outlook Western Digital, Sandisk and Super Micro Computer",
@@ -825,26 +825,26 @@
       "Is It Worth Investing in Western Digital (WDC) Based on Wall Street's Bullish Views?"
     ],
     "AVGO": [
+      "With VCF 9 'bedrock' in place, Broadcom fleshes out private AI",
       "New Broadcom and Carahsoft Agreement With DISA Delivers Uniform Pricing and Cost Transparency for DoW Agencies",
       "Insight CTO On VMware By Broadcom ‘Chaos,’ ‘Pain’ And ‘Confusion,’ Even As VMware Technology Has ‘Never Been Better’",
       "How Broadcom’s VMware buy meant a ‘fundamental shift’ for county tech",
       "VMware customers reduce dependency after Broadcom acquisition",
-      "GSA reaches latest OneGov agreement with Broadcom",
+      "Broadcom Unveils VMware Private AI Cloud to Scale Secure, Cost-Effective Enterprise AI",
       "Broadcom’s VMware Private AI Cloud spans infrastructure, agents, data and security",
       "Broadcom Delivers End-to-End Security, Identity, and Observability for Agentic AI",
       "Broadcom consolidates open-source support under TrueSource",
       "Broadcom Launches Trusted Artifact Service for Spring Framework",
       "Private AI cloud, agentic infrastructure dominate VMware Explore",
       "Broadcom Unveils AI-Ready Data Foundations in VMware Tanzu Platform to Power Secure Enterprise AI Cloud",
-      "Frontier AI Security and Private Cloud | Broadcom News and Stories",
-      "Broadcom Seeks More Than $60 Billion in Latest AI Debt Deal",
       "Broadcom Unveils AgentMinder, An Enterprise Solution for AI Agent Governance and Runtime Control",
-      "Hock Tan: The 100 Most Influential People in AI 2026",
+      "Broadcom Seeks More Than $60 Billion in Latest AI Debt Deal",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
       "VMware Cloud Foundation Brings Leading AI Models to the Private AI Cloud",
       "Broadcom Strengthens Spring Security and Adds Coverage of Java, Python, and Node.js Ecosystems with TrueSource",
       "Cathie Wood Loads Up $20 Million on Broadcom Ahead of Earnings",
-      "Broadcom Stock Faces an Earnings Test -- AI Sales Are Set to Soar"
+      "Broadcom Stock Faces an Earnings Test -- AI Sales Are Set to Soar",
+      "Prediction: Marvell Stock Could Be on the Verge of Another Big Move"
     ],
     "KLAC": [
       "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
@@ -920,14 +920,14 @@
       "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
       "Applied Materials strives to cooperate with chipmakers to shorten equipment lead time",
       "Applied Materials says equipment lead-time delays to ease in 2-3 years; hybrid bonding timeline up to customers",
-      "Applied Materials Says EPIC Platform and ACCK Can Accelerate Innovation",
       "Applied Materials Inc. stock underperforms Friday when compared to competitors",
+      "Applied Materials Says EPIC Platform and ACCK Can Accelerate Innovation",
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials Sees AI Driving Its Biggest Semiconductor Growth Inflection Yet",
       "Have Applied Materials Insiders Been Selling Stock?",
-      "Applied tackles AI memory wall with 3D scaling, HBM bonding, CPO in Korea - CHOSUNBIZ",
+      "Applied Materials Inc (Derivatives) Price Today | Live AMAT Price, Chart & Market Data",
       "Applied Materials Stock Price: AMAT Stock Chart, Market Cap & News Today",
-      "ASU joins Applied Materials' EPIC Center as inaugural university research partner",
+      "Applied tackles AI memory wall with 3D scaling, HBM bonding, CPO in Korea - CHOSUNBIZ",
       "These 3 GARP Stocks Show Why Growth and Value Do Not Have to Clash",
       "How Far Applied Materials Stock Can Move On You In A Year",
       "How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet",
@@ -949,12 +949,12 @@
       "SpaceXAI Adopts NVIDIA Vera CPU to Accelerate Agentic AI at Massive Scale",
       "Indian firm orders 9,000 of Nvidia’s AI systems",
       "Nazemian v. NVIDIA Corporation",
-      "Cathie Wood Snaps Up $55 Million of Red-Hot Chip Stock",
-      "How Much Can You Earn With the Vanguard S&P 500 ETF (VOO) If You Invest $100 per Month Starting Today",
-      "Is Occidental Petroleum a Bargain or a Value Trap Right Now?",
-      "2 Dividend Kings, 2 Crises: Why Coca-Cola and Exxon Face Divergent Payout Pressures",
-      "ServiceNow Vs. Salesforce: Who’s Better Positioned to Capitalize on AI?",
-      "Will Amazon or Alphabet Better Digest AI Capex This Quarter?"
+      "Nvidia Makes MediaTek Partnership Even Bigger, Huang Says",
+      "Nvidia and MediaTek expand partnership, Nvidia invests $3.5b",
+      "Cathie Wood's ARK Invest bought $53M of Nvidia stock after earnings",
+      "This Thesis for Marvell Technology Keeps Me Accumulating Amid Tailwinds",
+      "GE Vernova Slides 3%, Vertiv Holdings and Eaton Sit Out the Selloff: Is the Rivian CFO Handoff Still Driving the Drawdown?",
+      "This Dividend King Just Offered a Buy-the-Dip Opportunity"
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
@@ -1075,9 +1075,9 @@
       "Seagate reaches $175 million settlement of shareholder claims it concealed sales to China's Huawei",
       "Seagate Technology Holdings Executive VP & CFO Gianluca Romano Sells 35% Of Holding",
       "Seagate Technology $175M Securities Class Action Settlement",
-      "Seagate Technology Holdings PLC stock underperforms Wednesday when compared to competitors",
+      "Seagate Technology Holdings PLC stock underperforms Monday when compared to competitors",
       "Seagate Introduces Storage Built for Consumer Data Explosion",
-      "Seagate Technology Holdings PLC stock outperforms competitors on strong trading day",
+      "Seagate Technology Holdings PLC stock underperforms Wednesday when compared to competitors",
       "Seagate (STX) Stock May Be 30% Undervalued On AI Bubble Fears",
       "Seagate Technology Holdings (STX) Heads To AI Summit As Investors Ask If The Story Is Priced In",
       "Seagate Stock Is Off 27%. Why It’s Time to Buy the Dip in STX for 36% Upside.",
@@ -1090,7 +1090,7 @@
       "Micron Technology (MU) Well-Positioned With New P5 Site Acquisition",
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron Signs Letter of Intent to Purchase Tongluo Site, Begin Strategic Partnership with PSMC",
-      "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
+      "Micron Technology, Inc. Signs Letter of Intent to Acquire P5 Fabrication Site from Powerchip Semiconductor for $1.8 Billion",
       "Taiwan Micron Unions Demand Bonuses Like Samsung, SK Hynix",
       "Have Insiders Sold Micron Technology Shares Recently?",
       "Micron Technology Tokenized bStocks Price Today | Live MUB Price, Chart & Market Data",
@@ -1101,14 +1101,189 @@
       "Micron Technology Tokenized Stock price today, MUx to USD chart, marketcap and volume",
       "Micron Announces Leadership Appointments to Accelerate Innovation and Growth",
       "Micron opens new training center in partnership with CWI",
+      "Leading Economist Warns Chip Tariffs Could Make the AI Buildout More Expensive",
       "Trump Praises Nvidia CEO Jensen Huang On 'Incredible Numbers,' Calls Micron One Of The World's 'Hottest' Companies",
       "Micron Will Report Its Fiscal Q4 Earnings During the Market's Worst Month. History Says This Is What Happens Next.",
       "Prediction: Micron Stock Will Go Parabolic After Sept. 30",
-      "Micron vs. Sandisk: 1 Artificial Intelligence (AI) Memory Stock Is Clearly the Better Buy Today",
-      "Intel Sold Its NAND Memory Business for About $9 Billion. Micron Is Now Worth More Than Twice What Intel Is."
+      "Micron vs. Sandisk: 1 Artificial Intelligence (AI) Memory Stock Is Clearly the Better Buy Today"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "NVDA",
+      "classification": {
+        "is_major": true,
+        "category": "contract",
+        "headline": "Nvidia Makes MediaTek Partnership Even Bigger, Huang Says",
+        "reason": "Keyword rule matched (category: contract)"
+      },
+      "link": "https://finance.yahoo.com/video/nvidia-makes-mediatek-partnership-even-134345562.html?.tsrc=rss",
+      "source": null,
+      "method": "keyword",
+      "published": "2026-08-31T13:43:45",
+      "queued_min": 29803082,
+      "all_articles": [
+        {
+          "headline": "Nvidia Makes MediaTek Partnership Even Bigger, Huang Says",
+          "link": "https://finance.yahoo.com/video/nvidia-makes-mediatek-partnership-even-134345562.html?.tsrc=rss",
+          "source": null,
+          "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang and Rick Tsai, MediaTek Inc. CEO, talk about expanding their partnership. Nvidia is investing $3.5 billion in the Taiwanese chipmaker. They speak exclusively to Bloomberg's Ed Ludlow.",
+          "published": "2026-08-31T13:43:45"
+        },
+        {
+          "headline": "Nvidia and MediaTek expand partnership, Nvidia invests $3.5b",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-mediatek-expand-partnership-nvidia-131604418.html?.tsrc=rss",
+          "source": null,
+          "summary": "Investing.com -- Nvidia and MediaTek announced Monday an expansion of their partnership to develop AI computing platforms across infrastructure, local computing and automotive sectors.",
+          "published": "2026-08-31T13:16:04"
+        },
+        {
+          "headline": "Cathie Wood's ARK Invest bought $53M of Nvidia stock after earnings",
+          "link": "https://qz.com/ark-invest-cathie-wood-nvidia-stock-purchase-083126?.tsrc=rss",
+          "source": "qz.com",
+          "summary": "ARK also sold 156,286 shares of Advanced Micro Devices on Friday, continuing a recent pattern of trimming that position",
+          "published": "2026-08-31T12:57:41"
+        },
+        {
+          "headline": "This Thesis for Marvell Technology Keeps Me Accumulating Amid Tailwinds",
+          "link": "https://247wallst.com/investing/2026/08/31/this-thesis-for-marvell-technology-keeps-me-accumulating-amid-tailwinds/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "A post-earnings drop handed one investor a reason to buy more Marvell Technology, not sell it, and a Google warrant that binds a hyperscaler to shareholder returns is only part of why he keeps hitting the buy button.",
+          "published": "2026-08-31T13:50:22"
+        },
+        {
+          "headline": "GE Vernova Slides 3%, Vertiv Holdings and Eaton Sit Out the Selloff: Is the Rivian CFO Handoff Still Driving the Drawdown?",
+          "link": "https://247wallst.com/investing/2026/08/31/ge-vernova-slides-3-vertiv-holdings-and-eaton-sit-out-the-selloff-is-the-rivian-cfo-handoff-still-driving-the-drawdown/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "GE Vernova is shedding 3% Monday morning while Vertiv and Eaton barely flinch, and the reason behind that split tells investors something important about what this selloff actually is.",
+          "published": "2026-08-31T13:48:17"
+        },
+        {
+          "headline": "This Dividend King Just Offered a Buy-the-Dip Opportunity",
+          "link": "https://www.fool.com/investing/2026/08/31/this-dividend-king-just-offered-a-buy-the-dip/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Deal skepticism and litigation fears still weigh on this consumer staples stalwart.",
+          "published": "2026-08-31T13:35:00"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "classification": {
+        "is_major": true,
+        "category": "contract",
+        "headline": "Nvidia and MediaTek expand partnership, Nvidia invests $3.5b",
+        "reason": "Keyword rule matched (category: contract)"
+      },
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-mediatek-expand-partnership-nvidia-131604418.html?.tsrc=rss",
+      "source": null,
+      "method": "keyword",
+      "published": "2026-08-31T13:16:04",
+      "queued_min": 29803082,
+      "all_articles": [
+        {
+          "headline": "Nvidia Makes MediaTek Partnership Even Bigger, Huang Says",
+          "link": "https://finance.yahoo.com/video/nvidia-makes-mediatek-partnership-even-134345562.html?.tsrc=rss",
+          "source": null,
+          "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang and Rick Tsai, MediaTek Inc. CEO, talk about expanding their partnership. Nvidia is investing $3.5 billion in the Taiwanese chipmaker. They speak exclusively to Bloomberg's Ed Ludlow.",
+          "published": "2026-08-31T13:43:45"
+        },
+        {
+          "headline": "Nvidia and MediaTek expand partnership, Nvidia invests $3.5b",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-mediatek-expand-partnership-nvidia-131604418.html?.tsrc=rss",
+          "source": null,
+          "summary": "Investing.com -- Nvidia and MediaTek announced Monday an expansion of their partnership to develop AI computing platforms across infrastructure, local computing and automotive sectors.",
+          "published": "2026-08-31T13:16:04"
+        },
+        {
+          "headline": "Cathie Wood's ARK Invest bought $53M of Nvidia stock after earnings",
+          "link": "https://qz.com/ark-invest-cathie-wood-nvidia-stock-purchase-083126?.tsrc=rss",
+          "source": "qz.com",
+          "summary": "ARK also sold 156,286 shares of Advanced Micro Devices on Friday, continuing a recent pattern of trimming that position",
+          "published": "2026-08-31T12:57:41"
+        },
+        {
+          "headline": "This Thesis for Marvell Technology Keeps Me Accumulating Amid Tailwinds",
+          "link": "https://247wallst.com/investing/2026/08/31/this-thesis-for-marvell-technology-keeps-me-accumulating-amid-tailwinds/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "A post-earnings drop handed one investor a reason to buy more Marvell Technology, not sell it, and a Google warrant that binds a hyperscaler to shareholder returns is only part of why he keeps hitting the buy button.",
+          "published": "2026-08-31T13:50:22"
+        },
+        {
+          "headline": "GE Vernova Slides 3%, Vertiv Holdings and Eaton Sit Out the Selloff: Is the Rivian CFO Handoff Still Driving the Drawdown?",
+          "link": "https://247wallst.com/investing/2026/08/31/ge-vernova-slides-3-vertiv-holdings-and-eaton-sit-out-the-selloff-is-the-rivian-cfo-handoff-still-driving-the-drawdown/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "GE Vernova is shedding 3% Monday morning while Vertiv and Eaton barely flinch, and the reason behind that split tells investors something important about what this selloff actually is.",
+          "published": "2026-08-31T13:48:17"
+        },
+        {
+          "headline": "This Dividend King Just Offered a Buy-the-Dip Opportunity",
+          "link": "https://www.fool.com/investing/2026/08/31/this-dividend-king-just-offered-a-buy-the-dip/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Deal skepticism and litigation fears still weigh on this consumer staples stalwart.",
+          "published": "2026-08-31T13:35:00"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "classification": {
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "Cathie Wood's ARK Invest bought $53M of Nvidia stock after earnings",
+        "reason": "Sizeable institutional share purchase"
+      },
+      "link": "https://qz.com/ark-invest-cathie-wood-nvidia-stock-purchase-083126?.tsrc=rss",
+      "source": "qz.com",
+      "method": "keyword",
+      "published": "2026-08-31T12:57:41",
+      "queued_min": 29803082,
+      "all_articles": [
+        {
+          "headline": "Nvidia Makes MediaTek Partnership Even Bigger, Huang Says",
+          "link": "https://finance.yahoo.com/video/nvidia-makes-mediatek-partnership-even-134345562.html?.tsrc=rss",
+          "source": null,
+          "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang and Rick Tsai, MediaTek Inc. CEO, talk about expanding their partnership. Nvidia is investing $3.5 billion in the Taiwanese chipmaker. They speak exclusively to Bloomberg's Ed Ludlow.",
+          "published": "2026-08-31T13:43:45"
+        },
+        {
+          "headline": "Nvidia and MediaTek expand partnership, Nvidia invests $3.5b",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-mediatek-expand-partnership-nvidia-131604418.html?.tsrc=rss",
+          "source": null,
+          "summary": "Investing.com -- Nvidia and MediaTek announced Monday an expansion of their partnership to develop AI computing platforms across infrastructure, local computing and automotive sectors.",
+          "published": "2026-08-31T13:16:04"
+        },
+        {
+          "headline": "Cathie Wood's ARK Invest bought $53M of Nvidia stock after earnings",
+          "link": "https://qz.com/ark-invest-cathie-wood-nvidia-stock-purchase-083126?.tsrc=rss",
+          "source": "qz.com",
+          "summary": "ARK also sold 156,286 shares of Advanced Micro Devices on Friday, continuing a recent pattern of trimming that position",
+          "published": "2026-08-31T12:57:41"
+        },
+        {
+          "headline": "This Thesis for Marvell Technology Keeps Me Accumulating Amid Tailwinds",
+          "link": "https://247wallst.com/investing/2026/08/31/this-thesis-for-marvell-technology-keeps-me-accumulating-amid-tailwinds/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "A post-earnings drop handed one investor a reason to buy more Marvell Technology, not sell it, and a Google warrant that binds a hyperscaler to shareholder returns is only part of why he keeps hitting the buy button.",
+          "published": "2026-08-31T13:50:22"
+        },
+        {
+          "headline": "GE Vernova Slides 3%, Vertiv Holdings and Eaton Sit Out the Selloff: Is the Rivian CFO Handoff Still Driving the Drawdown?",
+          "link": "https://247wallst.com/investing/2026/08/31/ge-vernova-slides-3-vertiv-holdings-and-eaton-sit-out-the-selloff-is-the-rivian-cfo-handoff-still-driving-the-drawdown/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "GE Vernova is shedding 3% Monday morning while Vertiv and Eaton barely flinch, and the reason behind that split tells investors something important about what this selloff actually is.",
+          "published": "2026-08-31T13:48:17"
+        },
+        {
+          "headline": "This Dividend King Just Offered a Buy-the-Dip Opportunity",
+          "link": "https://www.fool.com/investing/2026/08/31/this-dividend-king-just-offered-a-buy-the-dip/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Deal skepticism and litigation fears still weigh on this consumer staples stalwart.",
+          "published": "2026-08-31T13:35:00"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1349,8 +1524,7 @@
       5,
       6,
       0,
-      1,
-      2
+      1
     ],
     "price_event": [
       3,
@@ -1391,8 +1565,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 300.15,
-    "SIE.DE": 288.45,
+    "SU.PA": 298.75,
+    "SIE.DE": 286.85,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1418,24 +1592,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 189.4,
-    "BESI.AS": 196.4,
-    "AIXA.DE": 36.2,
-    "IFX.DE": 56.66,
-    "ASML.AS": 1474.2,
-    "MU": 942.1,
-    "TSM": 420.38,
-    "KLAC": 176.02,
-    "STX": 819.43,
-    "ANET": 196.49,
-    "LRCX": 300.05,
-    "FORM": 102.11,
-    "AVGO": 371.62,
-    "AMAT": 461.05,
-    "AMD": 472.72,
-    "MRVL": 216.5,
-    "NVDA": 218.9,
-    "WDC": 455.74
+    "SAP.DE": 190.12,
+    "BESI.AS": 196.5,
+    "AIXA.DE": 36.26,
+    "IFX.DE": 56.78,
+    "ASML.AS": 1462.4,
+    "MU": 950.77,
+    "TSM": 421.89,
+    "KLAC": 175.93,
+    "STX": 826.41,
+    "ANET": 195.79,
+    "LRCX": 301.21,
+    "FORM": 101.87,
+    "AVGO": 369.03,
+    "AMAT": 459.55,
+    "AMD": 472.2,
+    "MRVL": 213.47,
+    "NVDA": 218.66,
+    "WDC": 456.0
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1463,9 +1637,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 44,
-  "last_pulse_post_min": 29803021,
-  "last_pulse_ticker": "AMAT",
+  "next_pulse_interval": 37,
+  "last_pulse_post_min": 29803081,
+  "last_pulse_ticker": "MU",
   "pulse_news_seen": {
     "amd:axim planning & wealth acquires shares of 1,888 advanced micro devices, inc. $amd": "2026-08-31",
     "tsm:tsmc (taiwan semiconductor manufacturing) 2330 tt": "2026-08-31",
@@ -1502,5 +1676,7 @@
       "fire_time": "22:32"
     }
   ],
-  "us_posted": []
+  "us_posted": [
+    0
+  ]
 }
