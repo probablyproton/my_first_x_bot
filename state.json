@@ -1,10 +1,10 @@
 {
-  "date": "2026-08-31",
-  "daily_posts": 2,
-  "daily_keyword_posts": 10,
-  "daily_pulse_posts": 14,
-  "gemini_calls_today": 18,
-  "evergreen_opinion_posts_today": 1,
+  "date": "2026-09-01",
+  "daily_posts": 0,
+  "daily_keyword_posts": 0,
+  "daily_pulse_posts": 0,
+  "gemini_calls_today": 0,
+  "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-30",
     "monday": "2026-08-31",
@@ -456,7 +456,7 @@
       "Schneider Electric to Acquire Grid Resilience Solutions Provider AiDASH for $350 Million",
       "Schneider Electric Agrees to Acquire AiDASH for $350 Million",
       "Schneider Electric Announces Intention To Acquire Cognite",
-      "List of 64 Acquisitions by Schneider Electric (Aug 2026)",
+      "Schneider Electric acquires Cognite in $3.1 billion deal",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
       "Schneider Electric launches Yuva Yodha tech hackathon",
       "Schneider Electric home EV charger uses smart load management",
@@ -793,9 +793,9 @@
       "Arizona wants Taiwan’s investors to think beyond chips",
       "Taiwan Semiconductor Ceramic Packaging Materials Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Taiwan Semiconductor Stock: Does the Booming Revenue Outweigh Geopolitical Risk?",
+      "Charts: TSMC's share of Taiwan chip manufacturing revenue falls to 81.8% as memory makers scale up",
       "America’s Chip Future Still Runs Through Taiwan",
       "TSMC (Taiwan Semiconductor Manufacturing) - ADR TSM US",
-      "Taiwan’s Chip Ecosystem Heads Across the Pacific",
       "Corning vs. Applied Materials: One Stock Beat the Other by 75 Percentage Points. The Better AI Infrastructure Play Is Clear.",
       "Why the head of Taiwan’s stock exchange wants you to look past TSMC—and embrace the ‘technology island’",
       "TSMC vs. ASML: Which Semiconductor Giant Is the Better Stock Buy?",
@@ -830,21 +830,21 @@
       "New Broadcom and Carahsoft Agreement With DISA Delivers Uniform Pricing and Cost Transparency for DoW Agencies",
       "Insight CTO On VMware By Broadcom ‘Chaos,’ ‘Pain’ And ‘Confusion,’ Even As VMware Technology Has ‘Never Been Better’",
       "How Broadcom’s VMware buy meant a ‘fundamental shift’ for county tech",
+      "VMware Cloud Foundation Brings Leading AI Models to the Private AI Cloud",
       "Broadcom pledges to lock down open source Python, Java libraries",
-      "2026 Broadcom Customer Achievement Award Winners Announced - Broadcom News and Stories",
       "Broadcom Strengthens Spring Security and Adds Coverage of Java, Python, and Node.js Ecosystems with TrueSource",
-      "Broadcom’s VMware Private AI Cloud spans infrastructure, agents, data and security",
+      "Private AI agents get a deny-by-default runtime from Broadcom",
       "Broadcom Unveils AgentMinder, An Enterprise Solution for AI Agent Governance and Runtime Control",
       "Broadcom’s VMware bolsters VCF AI foundation, agentic security",
+      "Broadcom Unveils VMware AI Factory with Multi-Vendor Hardware Support",
       "Broadcom consolidates open-source support under TrueSource",
-      "Broadcom Launches Trusted Artifact Service for Spring Framework",
       "Broadcom AgentMinder Debuts Alongside vDefend, Avi, and TrueSource Upgrades for Agentic AI Security",
+      "Broadcom Launches Trusted Artifact Service for Spring Framework",
       "Is Broadcom (AVGO) Stock a Buy Before Its Q3 Earnings?",
       "VGT’s $58 Billion AI Chip Concentration Could Derail Your 2027 Returns",
       "Broadcom Has Trailed the S&P 500 This Year. That Shouldn't Last Much Longer.",
       "There Are 16 Billion Reasons to Pay Attention to Broadcom Earnings on Sept. 2",
-      "What Is Broadcom (AVGO) Saying About Secure Enterprise AI In Private Clouds?",
-      "The TPU Mix Is Thinning Broadcom's Gross Margin, Not Its Profit"
+      "What Is Broadcom (AVGO) Saying About Secure Enterprise AI In Private Clouds?"
     ],
     "KLAC": [
       "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
@@ -948,13 +948,13 @@
       "COMMENTARY: Hormuz gridlock, Canada clash and Nvidia nerves: The financial week in five charts",
       "SpaceXAI Adopts NVIDIA Vera CPU to Accelerate Agentic AI at Massive Scale",
       "Nazemian v. NVIDIA Corporation",
-      "AWS and NVIDIA to Deliver 2 Million Additional GPUs and Next-Generation Infrastructure for Agentic and Physical AI",
+      "Nvidia to invest US$3.5 bil in chipmaker MediaTek",
+      "JPMorgan Built a Version of JEPI Designed to Keep the IRS Waiting",
+      "S&P500, Dow End Lower On US-Iran Flare-Up, While Dow Records Fifth Straight Month Of Gains — NVDA, META, AON, MSTR, TSLA In Focus",
       "You Could Buy Nvidia for Its 106% Revenue Growth and 75% Gross Margin. But There's an Even Better Reason the AI Stock Has Room to Run.",
       "Science Applications International Corporation Q2 2027 Earnings Call Summary",
       "Dow Jones Futures: Trump's Iran Warning Sparks Stock Market Losses; Elon Musk-Led SpaceX, Tesla Rally",
-      "Peter Lynch Made a Fortune by Investing in Familiar Brands. Here Are 2 Consumer Stocks I Think He'd Love Right Now.",
-      "Nvidia Stock Teases Buy Zone After Beat-And-Raise Report. Watch These Clues.",
-      "Sector Update: Tech Stocks Rise Late Afternoon"
+      "Peter Lynch Made a Fortune by Investing in Familiar Brands. Here Are 2 Consumer Stocks I Think He'd Love Right Now."
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
@@ -983,14 +983,14 @@
       "Move Over, Nvidia: Why AMD’s Latest Acquisition Could Redefine Direct-Silicon AI Inference",
       "How AMD Became One of the World’s Leading Semiconductor Companies",
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
-      "Can Advanced Micro Devices (NASDAQ:AMD) Sustain Its Chart Breakout After the Nvidia Spark?",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
       "Why Is AMD Stock Sliding on Friday?",
       "Is Advanced Micro Devices Stock Outperforming the Dow?",
       "Advanced Micro Devices Inc (Derivatives) Price Today | Live AMD Price, Chart & Market Data",
       "Advanced Micro Devices, Inc. (AMD) Stock Forecast | Market Approaching A Decision Point Graham Linehan (c5PnMHeikB)",
+      "Latham Watkins Advises Advanced Micro Devices Inc on Revolving Credit Facility",
       "Advanced Micro Devices (Dinari Tokenized Stock) (AMD) Price Prediction for 2026 to 2031",
-      "Advanced Micro Devices aStock (AAMD) Price, MarketCap, Charts and Fundamentals Info",
+      "AMD, NVIDIA raise bar on AI energy efficiency",
       "Not Nvidia, Not AMD. Micron Could Be September's Biggest AI Winner or Loser.",
       "Wall Street Is Looking Here. I’m Looking Somewhere Else",
       "AMD Enters a Sovereign AI Showcase, Not a Revenue Windfall",
@@ -1001,8 +1001,8 @@
       "Infineon’s bets big on SIVR with C2i buy",
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
       "Germany's Infineon acquires Bengaluru-based C2i Semiconductors to strengthen AI data centre power business",
-      "Infineon completes €570m ams Osram sensor portfolio acquisition",
       "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
+      "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
       "Infineon-led European project Moore4Power launches",
       "North America Intelligent Power Module Market Report",
       "LS Electric and Infineon partner to develop next-gen DC power for AI data centers - CHOSUNBIZ",
@@ -1010,8 +1010,8 @@
       "Infineon Technologies officially opens new R&D Centre in Cork",
       "Price tag, scope of Infineon's factory expansion plans revealed in incentives application",
       "EQS-PVR: Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
-      "Power integrated circuits (ICs) for motor control and thermal management uses introduced by Infineon",
       "Infineon taps Duggan to head North America unit",
+      "Power integrated circuits (ICs) for motor control and thermal management uses introduced by Infineon",
       "$4.12 Billion Avalanche Breakdown Diodes Market Outlook 2026-2030 - Featuring Profiles of Infineon Technologies, Littelfuse and Vishay Intertechnology",
       "Chip Stocks Edge Higher After Monday Rout",
       "Infineon and MediaTek partner on automotive AI systems",
@@ -1099,8 +1099,8 @@
       "Have Insiders Sold Micron Technology Shares Recently?",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
       "Micron unveils Boise-based research lab, plans $10 billion investment over next decade",
-      "Micron project neighbors ask judge for new environmental review",
       "Trump praises Micron’s $10 billion investment in US for AI research",
+      "Micron project neighbors ask judge for new environmental review",
       "How to Play the Micron vs. CXMT Memory-Chip War",
       "Not Nvidia, Not AMD. Micron Could Be September's Biggest AI Winner or Loser.",
       "Apple Just Raised Mac and iPad Prices 20%, So Who Is Getting Rich Off the Shortage?",
@@ -1484,29 +1484,23 @@
       "slot": 1,
       "type": "close_summary",
       "target_time": "18:00",
-      "fire_time": "17:57"
+      "fire_time": "18:04"
     }
   ],
-  "eu_posted": [
-    0,
-    1
-  ],
+  "eu_posted": [],
   "us_slots": [
     {
       "slot": 0,
       "type": "hook",
       "target_time": "15:10",
-      "fire_time": "15:13"
+      "fire_time": "15:10"
     },
     {
       "slot": 1,
       "type": "wrap",
       "target_time": "22:30",
-      "fire_time": "22:32"
+      "fire_time": "22:25"
     }
   ],
-  "us_posted": [
-    0,
-    1
-  ]
+  "us_posted": []
 }
