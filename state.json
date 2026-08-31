@@ -1,8 +1,8 @@
 {
   "date": "2026-08-31",
   "daily_posts": 2,
-  "daily_keyword_posts": 4,
-  "daily_pulse_posts": 8,
+  "daily_keyword_posts": 5,
+  "daily_pulse_posts": 9,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -50,7 +50,7 @@
     "SAP.DE": 29801824,
     "STX": 29802543,
     "AIXA.DE": 29802662,
-    "NVDA": 29803022,
+    "NVDA": 29803143,
     "MRVL": 29801732,
     "ANET": 1262,
     "MU": 29802992,
@@ -66,7 +66,7 @@
     "AMAT": 29801826,
     "WDC": 29801826
   },
-  "event_log_next_id": 704,
+  "event_log_next_id": 706,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -107,7 +107,7 @@
     "AMD": 1022,
     "AVGO": 1082,
     "KLAC": 1142,
-    "news_NVDA": 29803022,
+    "news_NVDA": 29803143,
     "news_TSM": 29796994,
     "IFX.DE": 29797081,
     "news_AMAT": 29797892,
@@ -337,10 +337,10 @@
       "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
       "North Jersey site sold to pharma company planning to create 1,000 jobs",
       "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
+      "Siemens (XTRA:SIE) Is A Key Player In Smart Grid Markets",
       "Smart Grid Market Report 2026-2036 Now Available. Sizes the Global Market at $63.81B (2026), Profiling ABB, GE Vernova, Siemens, Schneider Electric, and 78 Other Key Players",
       "Smart Meter Data Management Report Forecasts Market Growth from $2.49B (2025) to $12.65B by 2035, Profiling Oracle, Landis+Gyr, Itron, Siemens, Schneider Electric, and 48 Other Key Players",
       "Siemens (XTRA:SIE) Stock May Be 28% Below Fair Value As Profit Outlook Rises",
-      "PROLIM Launches New Innovation Center to Accelerate Global Growth",
       "He Runs a $251 Billion Company and Responds to Emails with Just 2 Letters: ‘I Value Efficiency’"
     ],
     "APLD": [
@@ -786,6 +786,7 @@
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
       "Taiwan government approves TSMC’s 3nm upgrade for second Japan fab",
+      "TSMC (Taiwan Semiconductor Manufacturing) 2330 TT",
       "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
       "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
       "Taiwan as a “Macro-City” Designed for Chip Manufacturing",
@@ -795,7 +796,6 @@
       "Charts: TSMC's share of Taiwan chip manufacturing revenue falls to 81.8% as memory makers scale up",
       "America’s Chip Future Still Runs Through Taiwan",
       "Taiwan’s Chip Ecosystem Heads Across the Pacific",
-      "TSMC Kumamoto fab fully operational after quake",
       "Why the head of Taiwan’s stock exchange wants you to look past TSMC—and embrace the ‘technology island’",
       "TSMC vs. ASML: Which Semiconductor Giant Is the Better Stock Buy?",
       "Taiwan Semiconductor Manufacturing (TSM) Stock Looks Stretched As Its 363% Run Continues",
@@ -838,19 +838,20 @@
       "Broadcom’s VMware bolsters VCF AI foundation, agentic security",
       "Private AI cloud, agentic infrastructure dominate VMware Explore",
       "Broadcom Unveils AI-Ready Data Foundations in VMware Tanzu Platform to Power Secure Enterprise AI Cloud",
-      "Broadcom Announces VMware AI Factory, Enabling Faster Time",
+      "Broadcom Strengthens Spring Security and Adds Coverage of Java, Python, and Node.js Ecosystems with TrueSource",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
       "VMware Cloud Foundation Brings Leading AI Models to the Private AI Cloud",
-      "Broadcom Strengthens Spring Security and Adds Coverage of Java, Python, and Node.js Ecosystems with TrueSource",
       "Broadcom Unveils AgentMinder, An Enterprise Solution for AI Agent Governance and Runtime Control",
       "Cathie Wood Loads Up $20 Million on Broadcom Ahead of Earnings",
-      "Broadcom Stock Faces an Earnings Test -- AI Sales Are Set to Soar"
+      "Broadcom Stock Faces an Earnings Test -- AI Sales Are Set to Soar",
+      "Prediction: Marvell Stock Could Be on the Verge of Another Big Move"
     ],
     "KLAC": [
       "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
+      "2 Unpopular Stocks That Deserve Some Love and 1 We Brush Off",
       "Semiconductor Manufacturing Stocks Q4 Results: Benchmarking KLA Corporation (NASDAQ:KLAC)",
-      "Semiconductor Manufacturing Stocks Q3 Teardown: KLA Corporation (NASDAQ:KLAC) Vs The Rest",
-      "KLA completes long-awaited acquisition of Orbotech",
+      "Kwik Lok acquires full ownership of Kwik Lok Australia",
+      "KLA Corporation’s (NASDAQ:KLAC) Q1 Sales Top Estimates But Stock Drops",
       "KLA Corp insiders cashed out $64M while stock slid 40%",
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "KLA Corporation Price Today | xKLAC Live Price, Chart & Market Cap",
@@ -865,8 +866,7 @@
       "KLAC vs. SNDK: Which Semiconductor Stock is a Better Buy Now?",
       "KLA (KLAC) Up 8% Since Last Earnings Report: Can It Continue?",
       "Wall Street Analysts Think KLA (KLAC) Could Surge 29.36%: Read This Before Placing a Bet",
-      "KLA Gains From Advanced Packaging: Can it Outpace ONTO & AMAT?",
-      "Zacks Industry Outlook Kla, Teradyne and Garmin"
+      "KLA Gains From Advanced Packaging: Can it Outpace ONTO & AMAT?"
     ],
     "SAP.DE": [
       "SAP Completes Acquisition of Prior Labs",
@@ -925,9 +925,9 @@
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials Sees AI Driving Its Biggest Semiconductor Growth Inflection Yet",
       "Have Applied Materials Insiders Been Selling Stock?",
-      "Applied tackles AI memory wall with 3D scaling, HBM bonding, CPO in Korea - CHOSUNBIZ",
+      "Applied Materials Inc (Derivatives) Price Today | Live AMAT Price, Chart & Market Data",
       "Applied Materials Stock Price: AMAT Stock Chart, Market Cap & News Today",
-      "ASU joins Applied Materials' EPIC Center as inaugural university research partner",
+      "Applied tackles AI memory wall with 3D scaling, HBM bonding, CPO in Korea - CHOSUNBIZ",
       "These 3 GARP Stocks Show Why Growth and Value Do Not Have to Clash",
       "How Far Applied Materials Stock Can Move On You In A Year",
       "How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet",
@@ -980,7 +980,7 @@
       "AMD Acquires MEXT to Advance Memory Optimization for Compute Infrastructure",
       "Old North State Trust LLC Acquires Shares of 5,871 Advanced Micro Devices, Inc. $AMD",
       "Advanced Micro Devices Stock Ran The Roadmap It Had Already Published",
-      "Move Over, Nvidia: Why AMD’s Latest Acquisition Could Redefine Direct-Silicon AI Inference",
+      "AMD acquires software built by URI professor and colleagues",
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
       "Can Advanced Micro Devices (NASDAQ:AMD) Sustain Its Chart Breakout After the Nvidia Spark?",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
@@ -1051,12 +1051,12 @@
       "United States Government May Restrict ASML's DUV Tool Exports to China",
       "Discipline and Rules-Based Execution in ASML Response",
       "ASML Korea to Hire Entry-Level, Experienced Engineers in Second Half",
-      "ASML and the West’s technology dilemma",
       "If US targets ASML, Netherlands should learn from Canada",
       "ASML is Revising Expectations Higher as Sales Accelerate. Time to Buy?",
+      "ASML and the West’s technology dilemma",
       "Marco Pieters starts engineering ASML’s next chapter",
-      "ASML’s Extreme Ultraviolet Lithography and the Limits of Reverse Engineering in China",
-      "The West may have created ASML’s biggest competitor",
+      "U.S. preparing to force Netherlands to ban ASML from selling to China",
+      "How ASML became Europe’s most valuable company",
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
       "ASML Shares Slide",
       "ASML Stock: Next Stop $3,000?",
@@ -1075,9 +1075,9 @@
       "Seagate reaches $175 million settlement of shareholder claims it concealed sales to China's Huawei",
       "Seagate Technology Holdings Executive VP & CFO Gianluca Romano Sells 35% Of Holding",
       "Seagate Technology $175M Securities Class Action Settlement",
-      "Seagate Technology Holdings PLC stock underperforms Wednesday when compared to competitors",
+      "Seagate Technology Holdings PLC stock underperforms Monday when compared to competitors",
       "Seagate Introduces Storage Built for Consumer Data Explosion",
-      "Seagate Technology Holdings PLC stock outperforms competitors on strong trading day",
+      "Seagate Technology Holdings PLC stock underperforms Wednesday when compared to competitors",
       "Seagate (STX) Stock May Be 30% Undervalued On AI Bubble Fears",
       "Seagate Technology Holdings (STX) Heads To AI Summit As Investors Ask If The Story Is Priced In",
       "Seagate Stock Is Off 27%. Why It’s Time to Buy the Dip in STX for 36% Upside.",
@@ -1101,72 +1101,14 @@
       "Micron Technology Tokenized Stock price today, MUx to USD chart, marketcap and volume",
       "Micron Announces Leadership Appointments to Accelerate Innovation and Growth",
       "Micron opens new training center in partnership with CWI",
+      "Micron Technology (MU) Gains Driven by Earnings Upgrades",
+      "Jim Cramer Warns AI Is Making Even “Diversified” Portfolios More Concentrated",
       "The Floor Under Micron's Worst Case Is Written Into Its Contracts, Not Memory Prices",
       "Leading Economist Warns Chip Tariffs Could Make the AI Buildout More Expensive",
-      "Trump Praises Nvidia CEO Jensen Huang On 'Incredible Numbers,' Calls Micron One Of The World's 'Hottest' Companies",
-      "Micron Will Report Its Fiscal Q4 Earnings During the Market's Worst Month. History Says This Is What Happens Next.",
-      "Prediction: Micron Stock Will Go Parabolic After Sept. 30"
+      "Trump Praises Nvidia CEO Jensen Huang On 'Incredible Numbers,' Calls Micron One Of The World's 'Hottest' Companies"
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "contract",
-        "headline": "Nvidia Makes MediaTek Partnership Even Bigger, Huang Says",
-        "reason": "Keyword rule matched (category: contract)"
-      },
-      "link": "https://finance.yahoo.com/video/nvidia-makes-mediatek-partnership-even-134345562.html?.tsrc=rss",
-      "source": null,
-      "method": "keyword",
-      "published": "2026-08-31T13:43:45",
-      "queued_min": 29803082,
-      "all_articles": [
-        {
-          "headline": "Nvidia Makes MediaTek Partnership Even Bigger, Huang Says",
-          "link": "https://finance.yahoo.com/video/nvidia-makes-mediatek-partnership-even-134345562.html?.tsrc=rss",
-          "source": null,
-          "summary": "Nvidia Corp. Chief Executive Officer Jensen Huang and Rick Tsai, MediaTek Inc. CEO, talk about expanding their partnership. Nvidia is investing $3.5 billion in the Taiwanese chipmaker. They speak exclusively to Bloomberg's Ed Ludlow.",
-          "published": "2026-08-31T13:43:45"
-        },
-        {
-          "headline": "Nvidia and MediaTek expand partnership, Nvidia invests $3.5b",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-mediatek-expand-partnership-nvidia-131604418.html?.tsrc=rss",
-          "source": null,
-          "summary": "Investing.com -- Nvidia and MediaTek announced Monday an expansion of their partnership to develop AI computing platforms across infrastructure, local computing and automotive sectors.",
-          "published": "2026-08-31T13:16:04"
-        },
-        {
-          "headline": "Cathie Wood's ARK Invest bought $53M of Nvidia stock after earnings",
-          "link": "https://qz.com/ark-invest-cathie-wood-nvidia-stock-purchase-083126?.tsrc=rss",
-          "source": "qz.com",
-          "summary": "ARK also sold 156,286 shares of Advanced Micro Devices on Friday, continuing a recent pattern of trimming that position",
-          "published": "2026-08-31T12:57:41"
-        },
-        {
-          "headline": "This Thesis for Marvell Technology Keeps Me Accumulating Amid Tailwinds",
-          "link": "https://247wallst.com/investing/2026/08/31/this-thesis-for-marvell-technology-keeps-me-accumulating-amid-tailwinds/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "A post-earnings drop handed one investor a reason to buy more Marvell Technology, not sell it, and a Google warrant that binds a hyperscaler to shareholder returns is only part of why he keeps hitting the buy button.",
-          "published": "2026-08-31T13:50:22"
-        },
-        {
-          "headline": "GE Vernova Slides 3%, Vertiv Holdings and Eaton Sit Out the Selloff: Is the Rivian CFO Handoff Still Driving the Drawdown?",
-          "link": "https://247wallst.com/investing/2026/08/31/ge-vernova-slides-3-vertiv-holdings-and-eaton-sit-out-the-selloff-is-the-rivian-cfo-handoff-still-driving-the-drawdown/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "GE Vernova is shedding 3% Monday morning while Vertiv and Eaton barely flinch, and the reason behind that split tells investors something important about what this selloff actually is.",
-          "published": "2026-08-31T13:48:17"
-        },
-        {
-          "headline": "This Dividend King Just Offered a Buy-the-Dip Opportunity",
-          "link": "https://www.fool.com/investing/2026/08/31/this-dividend-king-just-offered-a-buy-the-dip/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Deal skepticism and litigation fears still weigh on this consumer staples stalwart.",
-          "published": "2026-08-31T13:35:00"
-        }
-      ]
-    },
     {
       "symbol": "NVDA",
       "classification": {
@@ -1401,7 +1343,7 @@
       "expansion": 29796962
     },
     "NVDA": {
-      "contract": 29797502,
+      "contract": 29803143,
       "analyst_note": 29801942,
       "ma": 29801792,
       "expansion": 29803022,
@@ -1460,7 +1402,7 @@
     "Bloomberg.com",
     "Network World"
   ],
-  "last_news_post_min": 29803022,
+  "last_news_post_min": 29803143,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -1523,8 +1465,7 @@
       3,
       5,
       6,
-      0,
-      1
+      0
     ],
     "price_event": [
       3,
@@ -1565,8 +1506,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 299.1,
-    "SIE.DE": 287.25,
+    "SU.PA": 298.0,
+    "SIE.DE": 286.2,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1592,24 +1533,24 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 190.84,
-    "BESI.AS": 195.35,
-    "AIXA.DE": 36.07,
-    "IFX.DE": 56.46,
-    "ASML.AS": 1456.3,
-    "MU": 939.8,
-    "TSM": 420.98,
-    "KLAC": 174.75,
-    "STX": 820.65,
-    "ANET": 194.02,
-    "LRCX": 299.62,
-    "FORM": 100.46,
-    "AVGO": 367.72,
-    "AMAT": 457.12,
-    "AMD": 467.6,
-    "MRVL": 211.29,
-    "NVDA": 219.89,
-    "WDC": 450.85
+    "SAP.DE": 191.2,
+    "BESI.AS": 195.2,
+    "AIXA.DE": 36.08,
+    "IFX.DE": 56.49,
+    "ASML.AS": 1455.6,
+    "MU": 942.53,
+    "TSM": 419.13,
+    "KLAC": 174.86,
+    "STX": 822.16,
+    "ANET": 194.7,
+    "LRCX": 301.16,
+    "FORM": 99.96,
+    "AVGO": 367.76,
+    "AMAT": 456.4,
+    "AMD": 468.38,
+    "MRVL": 211.1,
+    "NVDA": 219.67,
+    "WDC": 451.7
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1637,9 +1578,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 37,
-  "last_pulse_post_min": 29803081,
-  "last_pulse_ticker": "MU",
+  "next_pulse_interval": 31,
+  "last_pulse_post_min": 29803141,
+  "last_pulse_ticker": "MRVL",
   "pulse_news_seen": {
     "amd:axim planning & wealth acquires shares of 1,888 advanced micro devices, inc. $amd": "2026-08-31",
     "tsm:tsmc (taiwan semiconductor manufacturing) 2330 tt": "2026-08-31",
