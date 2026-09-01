@@ -1684,3 +1684,5 @@ https://qz.com/sb-energy-ipo-filing-nvidia-softbank-090126?.tsrc=rss",163,,,,,
 
 https://www.datacenterdynamics.com/en/news/onzero-partners-with-helen-to-connect-helsinki-ai-data-center-to-district-heating-network/",269,,,,,
 753,2026-09-01,16:01:53,Tuesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"Hourly check-in: $MRVL -3.8% to $203.53, well ahead of the rest of the board.",77,,,,,
+754,2026-09-01,16:32:02,Tuesday,price_event,us,,zero_llm_template,FORM,FORM,,NYSE,Y,open,95.45,-4.45,101.5,94.94,,,,,,,4.45,,,N,18,llm,Y,,$FORM -4.45% today at $95.45 – one of the bigger moves on the board right now. Intraday range: low $94.94 / high $101.5.,120,,,,,
+755,2026-09-01,16:32:36,Tuesday,news_event,,,keyword,NVDA,NVDA,,,,,,,,,Anthropic's $35B cloud deal with Lambda adds new layer to circular financing concerns,,https://finance.yahoo.com/video/anthropics-35b-cloud-deal-lambda-134500271.html?.tsrc=rss,2026-09-01T13:45:00,contract,,,,,,,,N,duplicate_category_24h,,,,,,,
