@@ -1,8 +1,8 @@
 {
   "date": "2026-09-01",
   "daily_posts": 5,
-  "daily_keyword_posts": 2,
-  "daily_pulse_posts": 9,
+  "daily_keyword_posts": 3,
+  "daily_pulse_posts": 10,
   "gemini_calls_today": 18,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
@@ -53,7 +53,7 @@
     "NVDA": 29804492,
     "MRVL": 29803412,
     "ANET": 1262,
-    "MU": 29802992,
+    "MU": 29804643,
     "AMD": 29804014,
     "BESI.AS": 29802662,
     "ASML.AS": 29804102,
@@ -66,7 +66,7 @@
     "AMAT": 29801826,
     "WDC": 29801826
   },
-  "event_log_next_id": 758,
+  "event_log_next_id": 761,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -99,7 +99,7 @@
     "NVDA": 1142,
     "MRVL": 1202,
     "ANET": 1262,
-    "news_MU": 29802992,
+    "news_MU": 29804643,
     "news_AMD": 29804014,
     "BESI.AS": 917,
     "news_LRCX": 29799992,
@@ -322,11 +322,11 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
-      "Siemens said to mull acquisition of rail technology firm Mer Mec — Bloomberg",
       "Siemens acquires Altair to create most complete AI-powered po",
       "Latham & Watkins Advises Siemens in Completed US$5.1 Billion Acquisition of Dotmatics",
       "Germany’s Siemens Energy to acquire family-owned Lisburn electrical manufacturing specialist Camlin",
       "Siemens Acquires Industrial Simulation Software Co. Altair Engineering in $10 Billion Deal",
+      "Siemens acquires Heliox, specialist in eBus and eTruck fast chargi ...",
       "Siemens at Work on $10 Billion in North American Projects, Driven by Renewables, NGCC",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
@@ -466,8 +466,8 @@
       "Autonomous & Self-Driving Vehicle News: Schneider Electric, Addionics, BTC POWER, Aptera Motors, BMW Group & Camel Group | auto connected car news",
       "Schneider Electric To Partners: Stop Treating UPS As A One-And-Done Sale",
       "Schneider’s First-Ever Residential EV Charger Comes with Baked in Load Management",
+      "Schneider Electric launches residential EV charger in Canada",
       "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
-      "Schneider Electric stock holds above €294 as analysts see upside",
       "Smart Grid Market Report 2026-2036 Now Available. Sizes the Global Market at $63.81B (2026), Profiling ABB, GE Vernova, Siemens, Schneider Electric, and 78 Other Key Players",
       "Data Center Power Outlook 2025-2035 - Featuring Profiles of Schneider Electric, Vertiv, and Eaton",
       "Is Schneider Electric (SBGSY) Stock Outpacing Its Industrial Products Peers This Year?",
@@ -763,7 +763,7 @@
       "Is Lam Research Corporation (LRCX) Eyeing Besi Industries Merger Amid IBM Pact for Logic Scaling",
       "Lam Research Announces Retirement of Michael R. Cannon and Sohail U. Ahmed from Board of Directors",
       "Proficio Capital Partners LLC Acquires 7,555 Shares of Lam Research Corporation $LRCX",
-      "Newmark Represents Lam Research in $45.77 Million North Phoenix Office Acquisition Near TSMC Campus",
+      "Applied Materials, Lam Research may be interested in acquiring BE Semiconductor: report (AMAT:NASDAQ)",
       "Lam Research breaks ground on AI semiconductor lab in Oregon",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
       "Lam Research Drives Workforce Development Through Skill Development Program for Advanced Manufacturing",
@@ -794,8 +794,8 @@
       "Taiwan Semiconductor Ceramic Packaging Materials Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Taiwan Semiconductor Manufacturing Co Ltd",
       "America’s Chip Future Still Runs Through Taiwan",
-      "The Case Against the Proposed Chip Security Act in Taiwan",
-      "TSMC (Taiwan Semiconductor Manufacturing) 2330 TT",
+      "Taiwan’s Chip Ecosystem Heads Across the Pacific",
+      "Arizona built the Fabs – now let’s build the supply chains",
       "Taiwan Semiconductor Manufacturing Company (TSM) Limited Continues to Deliver Stellar Financial Results",
       "Corning vs. Applied Materials: One Stock Beat the Other by 75 Percentage Points. The Better AI Infrastructure Play Is Clear.",
       "Why the head of Taiwan’s stock exchange wants you to look past TSMC—and embrace the ‘technology island’",
@@ -826,10 +826,10 @@
     ],
     "AVGO": [
       "Here’s How Much Traders See Broadcom Stock Moving After Earnings",
+      "With VCF 9 'bedrock' in place, Broadcom fleshes out private AI",
       "New Broadcom and Carahsoft Agreement With DISA Delivers Uniform Pricing and Cost Transparency for DoW Agencies",
       "Insight CTO On VMware By Broadcom ‘Chaos,’ ‘Pain’ And ‘Confusion,’ Even As VMware Technology Has ‘Never Been Better’",
       "How Broadcom’s VMware buy meant a ‘fundamental shift’ for county tech",
-      "VMware customers reduce dependency after Broadcom acquisition",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
       "Broadcom pledges to lock down open source Python, Java libraries",
       "Broadcom says that enterprise AI agents need two things: Data they can trust and boundaries they can’t cross",
@@ -891,12 +891,12 @@
       "Why SAP (XTRA:SAP) Is Up 7.1% After AI-Focused Overhaul And New Consumption-Based Pricing"
     ],
     "BESI.AS": [
-      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
-      "Is Lam Research Corporation (LRCX) Eyeing Besi Industries Merger Amid IBM Pact for Logic Scaling",
-      "BE Semiconductor: A Directional Bet On AI CapEx Spending (OTCMKTS:BESIY)",
-      "BESI jumps 10% on takeover interest from Lam Research, Applied Materials",
-      "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
+      "Diodes Completes Acquisition of ElevATE Semiconductor, Expanding Presence in High-Growth ATE Market",
+      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
       "BE Semiconductor Industries Acquires Laurier | News & Features | Jan 2002",
+      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
+      "BE Semiconductor Industries N.V. 2026 Q2 - Results - Earnings Call Presentation (OTCMKTS:BESIY) 2026-07-27",
+      "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
       "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
       "Dutch semiconductor giant Besi plans €10M to further build production facility in Vietnam",
       "Advanced Energy unveils dual-output 400W module for NeoPower configurable power supplies",
@@ -915,8 +915,8 @@
     "AMAT": [
       "Applied Materials Extends AI Chip Role With NEXX Packaging Acquisition",
       "Applied Materials Acquires NEXX",
+      "TELEO Capital Acquires Pharmaceutical Manufacturing Intelligence Platform, Modersys (fka SmartFactory Rx) From Applied Materials",
       "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
-      "Applied Materials Targets $3.5 Billion Electrochemical Deposition Market With NEXX Acquisition",
       "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
       "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
       "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
@@ -935,9 +935,9 @@
       "The AI Buildout Is Turning Applied Materials (AMAT) Into A Profit Machine"
     ],
     "NVDA": [
-      "Nvidia in Talks to Buy AI Startup Hugging Face, Reports Say",
       "Nvidia reportedly acquires AI project hosting platform Hugging Face for $12.9B",
       "BDFS Capital LLC Acquires 7,131 Shares of NVIDIA Corporation $NVDA",
+      "Nvidia in Talks to Buy AI Startup Hugging Face, Reports Say",
       "Nvidia Agrees to Acquire Hugging Face For $12.9 Billion In One of Its Largest Acquisitions So Far As It Expands Control Of Open-Source AI Models: Report",
       "NVIDIA Corporation | History, GPUs, & Artificial Intelligence",
       "NVIDIA Announces Upcoming Event for Financial Community",
@@ -951,10 +951,10 @@
       "Meet Madison Huang, daughter of multibillionaire Nvidia CEO Jensen Huang",
       "Anthropic seals $35bn cloud deal with Nvidia-backed Lambda",
       "Nvidia makes its biggest investment abroad with Mediatek: Why it's a uniquely important deal",
-      "Price Prediction: Will Nvidia Hit $350 in 2027?",
-      "Should NVIDIA Stock Be in Your Portfolio Post Solid Q2 Earnings?",
-      "Anthropic signs $35 billion Lambda cloud deal: WSJ",
-      "Nebius vs. CoreWeave: Which Is the Better Artificial Intelligence (AI) Infrastructure Stock to Buy Right Now"
+      "David Booth Says Picking AI Winners Can Backfire: What About Nvidia?",
+      "Top Midday Stories: Anthropic Reportedly Agrees to $35 Billion Computing Deal With Lambda; GoPro to Merge With Starman Optical",
+      "This 4.5%-Yielding Pipeline Stock Just Made a $4.4 Billion Acquisition",
+      "Nvidia Just Gave a $267 Billion Warning That Micron Stock Could Crash Before 2029 Is Over"
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
@@ -980,8 +980,8 @@
       "Strait & Sound Wealth Management LLC Acquires New Holdings in Advanced Micro Devices, Inc. $AMD",
       "AMD Acquires MEXT to Advance Memory Optimization for Compute Infrastructure",
       "Advanced Micro Devices Stock Ran The Roadmap It Had Already Published",
-      "Move Over, Nvidia: Why AMD’s Latest Acquisition Could Redefine Direct-Silicon AI Inference",
       "Henson Edgewater Management LLC Acquires New Holdings in Advanced Micro Devices, Inc. $AMD",
+      "Move Over, Nvidia: Why AMD’s Latest Acquisition Could Redefine Direct-Silicon AI Inference",
       "How AMD Became One of the World’s Leading Semiconductor Companies",
       "Can Advanced Micro Devices (NASDAQ:AMD) Grab A Bigger Slice Of The AI Chip Market?",
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
@@ -992,18 +992,18 @@
       "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race.",
       "Advanced Micro Devices (AMD) Stock Prediction This Week | Big Move Ahead? Taylor Sheridan Cia Series Update (VrSnT1La4f)",
       "AMD Appoints Alan Smith as Newest Corporate Fellow",
+      "AMD vs. Alphabet: One Stock Could Be the Surprise AI Winner",
       "Two U.S. tech giants power Saudi's AI vision",
       "Semiconductor Stocks Slide as Global Bond Selloff Lifts Yields: Intel Drops 3%, NVIDIA and AMD Slip",
       "What Is Cathie Wood Buying Now? Nvidia, SpaceX And Crypto Stocks Led ARK’s August Trades – While Cutting These Growth Stocks",
-      "Stocks slip on Wall Street under pressure from rising oil prices, bond sell-off",
-      "AMD vs. Nvidia: SpaceX and Tesla CEO Elon Musk Weighs In on His Top Pick"
+      "Stocks slip on Wall Street under pressure from rising oil prices, bond sell-off"
     ],
     "IFX.DE": [
       "Infineon’s bets big on SIVR with C2i buy",
-      "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
-      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
-      "Germany's Infineon acquires Bengaluru-based C2i Semiconductors to strengthen AI data centre power business",
+      "BofA Sees Infineon Expanding AI Datacenter Content, Addressable Market With C2i Acquisition",
       "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
+      "Germany's Infineon acquires Bengaluru-based C2i Semiconductors to strengthen AI data centre power business",
+      "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
       "Infineon-led European project Moore4Power launches",
       "North America Intelligent Power Module Market Report",
       "Infineon Unveils TLE4978: A Breakthrough in High-Speed Current Sensing for AI and EV Infrastructure",
@@ -1027,8 +1027,8 @@
       "Most significant networking acquisitions of 2025",
       "Top 5 networking stories of 2025: HPE-Juniper, Cisco dominate networking attention",
       "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Akamai Technologies, Arista Networks, Booking Holdings, Cisco Systems, Dell Technologies, Duolingo, Robinhood Markets, PG&E, and More",
-      "Arista Networks Tokenized Stock (Robinhood): Latest News, Social Media Updates and Insights",
       "Arista Networks Inc. stock outperforms competitors despite losses on the day",
+      "Arista Networks Tokenized Stock (Robinhood): Latest News, Social Media Updates and Insights",
       "Analysts Conflicted on These Technology Names: CrowdStrike Holdings (CRWD), Arista Networks (ANET) and HP (HPQ)",
       "If You Invested $1000 In Arista Networks Stock 10 Years Ago, You Would Have This Much Today",
       "J. Goldman takes new $6.97M stake in Arista Networks",
@@ -1043,11 +1043,11 @@
       "Decoding ANET Stock's Premium Valuation"
     ],
     "ASML.AS": [
-      "SK Hynix plans to spend 11.9T won to acquire ASML's EUV systems",
+      "Mistral AI acquires industrial engineering AI startup Emmi",
       "ASML Set to Expand with Acquisition of Berliner Glas | light speed | Sep 2020",
       "ASML signs new customer: what does India’s Tata Electronics do?",
+      "Tough luck for Besi, but in semicon, Goliath always wins",
       "SK Hynix to Acquire EUV Scanners from ASML Korea for $8 Billion",
-      "[News] SK hynix Commits $8B to ASML EUV Equipment by 2027 in Push for AI Memory Dominance",
       "China Unlikely to Match ASML’s Top Tool in Next Decade, UBS Says",
       "From Bill Gates to Bernie Sanders, most agree the AI arms race is disastrous. Only Europe can make it stop",
       "[News] ASML Advances High-NA EUV Toward HVM as 10 Systems Reportedly Go Live at 4 Customers",
@@ -1097,16 +1097,16 @@
       "Micron Stock Weakens on Taiwan Dispute and Rate Jitters",
       "Micron’s Taiwan unions threaten strike over bonus dispute",
       "Micron Stock Flashing Intriguing 'Buy the Dip' Signal",
-      "Micron Technology Inc (MU) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
       "Micron Technology CEO vows deeper Taiwan investment as AI grows",
+      "Micron Technology Inc (MU) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
       "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
       "Have Insiders Sold Micron Technology Shares Recently?",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
+      "Nvidia Just Gave a $267 Billion Warning That Micron Stock Could Crash Before 2029 Is Over",
       "Micron shares fall 1.8% following Taiwan incentive pay report",
       "Down 23%, Is Micron Still a Millionaire-Maker Stock?",
       "Micron Is No Longer What It Was So I Keep Loading Up",
-      "Micron’s Workers Are Threatening to Strike. What It Means for the Stock.",
-      "Micron shares slide following Taiwan incentive pay report and tech sector sell-off"
+      "Micron’s Workers Are Threatening to Strike. What It Means for the Stock."
     ]
   },
   "pending_news_posts": [],
@@ -1212,7 +1212,7 @@
     },
     "MU": {
       "analyst_note": 1322,
-      "expansion": 29802992
+      "expansion": 29804643
     },
     "AMD": {
       "large_share_purchases": 29799812,
@@ -1279,14 +1279,14 @@
     }
   },
   "recent_post_sources": [
-    "247wallst.com",
     "qz.com",
     "ASHARQ AL-AWSAT English",
     "Yahoo Finance Australia",
     "qz.com",
-    "DatacenterDynamics"
+    "DatacenterDynamics",
+    "fool.com"
   ],
-  "last_news_post_min": 29804492,
+  "last_news_post_min": 29804643,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -1348,8 +1348,7 @@
     "mover": [
       3,
       6,
-      1,
-      2
+      1
     ],
     "price_event": [
       3,
@@ -1421,19 +1420,19 @@
     "AIXA.DE": 34.88,
     "IFX.DE": 54.91,
     "ASML.AS": 1429.0,
-    "MU": 956.74,
-    "TSM": 416.29,
-    "KLAC": 169.93,
-    "STX": 820.75,
-    "ANET": 191.33,
-    "LRCX": 292.82,
-    "FORM": 96.84,
-    "AVGO": 368.8,
-    "AMAT": 445.67,
-    "AMD": 458.59,
-    "MRVL": 208.46,
-    "NVDA": 218.9,
-    "WDC": 452.9
+    "MU": 959.47,
+    "TSM": 415.55,
+    "KLAC": 171.15,
+    "STX": 822.26,
+    "ANET": 191.4,
+    "LRCX": 294.06,
+    "FORM": 96.77,
+    "AVGO": 368.61,
+    "AMAT": 445.97,
+    "AMD": 459.94,
+    "MRVL": 209.22,
+    "NVDA": 219.96,
+    "WDC": 454.62
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1461,9 +1460,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 45,
-  "last_pulse_post_min": 29804581,
-  "last_pulse_ticker": "FORM",
+  "next_pulse_interval": 37,
+  "last_pulse_post_min": 29804642,
+  "last_pulse_ticker": "ASML.AS",
   "pulse_news_seen": {
     "amd:axim planning & wealth acquires shares of 1,888 advanced micro devices, inc. $amd": "2026-08-31",
     "tsm:tsmc (taiwan semiconductor manufacturing) 2330 tt": "2026-08-31",
@@ -1472,7 +1471,8 @@
     "avgo:with vcf 9 'bedrock' in place, broadcom fleshes out private ai": "2026-08-31",
     "avgo:here’s how much traders see broadcom stock moving after earnings": "2026-09-01",
     "mrvl:marvell’s (mrvl) data center machine keeps rewriting its own forecast": "2026-09-01",
-    "nvda:rebellions, nvidia discuss tie-up, testing s.korea’s sovereign ai ambitions": "2026-09-01"
+    "nvda:rebellions, nvidia discuss tie-up, testing s.korea’s sovereign ai ambitions": "2026-09-01",
+    "asml.as:china unlikely to match asml’s top tool in next decade, ubs says": "2026-09-01"
   },
   "eu_slots": [
     {
