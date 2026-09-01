@@ -1,9 +1,9 @@
 {
   "date": "2026-09-01",
-  "daily_posts": 3,
+  "daily_posts": 4,
   "daily_keyword_posts": 0,
-  "daily_pulse_posts": 1,
-  "gemini_calls_today": 14,
+  "daily_pulse_posts": 2,
+  "gemini_calls_today": 16,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-30",
@@ -50,7 +50,7 @@
     "SAP.DE": 29801824,
     "STX": 29802543,
     "AIXA.DE": 29804102,
-    "NVDA": 29804042,
+    "NVDA": 29804162,
     "MRVL": 29803412,
     "ANET": 1262,
     "MU": 29802992,
@@ -66,7 +66,7 @@
     "AMAT": 29801826,
     "WDC": 29801826
   },
-  "event_log_next_id": 729,
+  "event_log_next_id": 731,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -107,7 +107,7 @@
     "AMD": 1022,
     "AVGO": 1082,
     "KLAC": 1142,
-    "news_NVDA": 29804042,
+    "news_NVDA": 29804162,
     "news_TSM": 29796994,
     "IFX.DE": 29797081,
     "news_AMAT": 29797892,
@@ -322,11 +322,11 @@
       "ADP Gears Up to Report Q4 Earnings: What's Next for Investors?"
     ],
     "SIE.DE": [
-      "Siemens said to mull acquisition of rail technology firm Mer Mec — Bloomberg",
       "Siemens acquires Altair to create most complete AI-powered po",
       "Latham & Watkins Advises Siemens in Completed US$5.1 Billion Acquisition of Dotmatics",
       "Germany’s Siemens Energy to acquire family-owned Lisburn electrical manufacturing specialist Camlin",
       "Siemens Acquires Industrial Simulation Software Co. Altair Engineering in $10 Billion Deal",
+      "Siemens acquires Heliox, specialist in eBus and eTruck fast chargi ...",
       "Siemens at Work on $10 Billion in North American Projects, Driven by Renewables, NGCC",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
@@ -462,8 +462,8 @@
       "Schneider Electric home EV charger uses smart load management",
       "Schneider Electric Strengthens Partner Ecosystem for Software-Defined Automation",
       "Schneider Electric stock holds above €294 as analysts see upside",
-      "Call for Applications: Schneider Electric 2027 Graduate Programme – Nigeria",
       "Autonomous & Self-Driving Vehicle News: Schneider Electric, Addionics, BTC POWER, Aptera Motors, BMW Group & Camel Group | auto connected car news",
+      "Call for Applications: Schneider Electric 2027 Graduate Programme – Nigeria",
       "Schneider’s First-Ever Residential EV Charger Comes with Baked in Load Management",
       "Schneider Electric To Partners: Stop Treating UPS As A One-And-Done Sale",
       "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
@@ -767,12 +767,12 @@
       "Lam Research breaks ground on AI semiconductor lab in Oregon",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
       "Lam Research Corp. stock outperforms competitors on strong trading day",
-      "Lam Research Breaks Ground on Oregon Lab for AI Semiconductor R&D",
-      "Lam Research stock rises on Taiwan approval and a $301.90 close",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally – Company Announcement - FT.com",
+      "Lam Research stock rises on Taiwan approval and a $301.90 close",
       "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
       "Lam Research Corporation Tokenized Stock (Robinhood)",
-      "Lam Research announces retirement of two key bo...",
+      "Lam Research Corporation Announces June Quarter Financial Conference Call",
+      "Lam Research (LRCX) Stock Falls As AI Chip Demand Slows And Memory Cracks Show",
       "AI Lab Buildout And Dividend Hike Could Be A Game Changer For Lam Research (LRCX)",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
       "Lam Research Invests $1.5 Billion in Oregon to Expand Chip R&D",
@@ -836,10 +836,10 @@
       "Broadcom’s VMware Private AI Cloud spans infrastructure, agents, data and security",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time",
       "Broadcom Unveils AgentMinder, An Enterprise Solution for AI Agent Governance and Runtime Control",
+      "Broadcom launches VMware Private AI Cloud for enterprises",
       "Broadcom’s VMware bolsters VCF AI foundation, agentic security",
       "Broadcom Unveils AI-Ready Data Foundations in VMware Tanzu Platform",
       "Broadcom Introduces TrueSource for Open-Source Software Security",
-      "Broadcom consolidates open-source support under TrueSource",
       "Broadcom (AVGO) Reports Earnings Tomorrow: What To Expect",
       "Broadcom's Next Earnings Report on September 2 Could Send the Stock Soaring",
       "Is Broadcom (AVGO) Stock a Buy Before Its Q3 Earnings?",
@@ -871,7 +871,7 @@
     "SAP.DE": [
       "SAP Completes Acquisition of Prior Labs",
       "SAP SE (SAP) to Acquire Dremio to Enhance Business Data Cloud, AI Capabilities",
-      "SAP to Acquire Reltio: Make SAP and Non-SAP Data AI-Ready",
+      "SAP Completes Acquisition of Dremio",
       "A&O Shearman advises SAP on strategic AI acquisitions of Dremio and Prior Labs",
       "Sap SE - Completes Acquisition Of Prior Labs",
       "SAP Completes Acquisition of Reltio",
@@ -935,8 +935,8 @@
       "The AI Buildout Is Turning Applied Materials (AMAT) Into A Profit Machine"
     ],
     "NVDA": [
+      "Why Nvidia’s Hugging Face Acquisition Signals AI’s Full Ecosystem Play",
       "Nvidia reportedly acquires AI project hosting platform Hugging Face for $12.9B",
-      "Nvidia in Talks to Buy AI Startup Hugging Face, Reports Say",
       "BDFS Capital LLC Acquires 7,131 Shares of NVIDIA Corporation $NVDA",
       "Nvidia Agrees to Acquire Hugging Face For $12.9 Billion In One of Its Largest Acquisitions So Far As It Expands Control Of Open-Source AI Models: Report",
       "NVIDIA Corporation | History, GPUs, & Artificial Intelligence",
@@ -999,7 +999,7 @@
     ],
     "IFX.DE": [
       "Infineon’s bets big on SIVR with C2i buy",
-      "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
+      "BofA Sees Infineon Expanding AI Datacenter Content, Addressable Market With C2i Acquisition",
       "Germany's Infineon acquires Bengaluru-based C2i Semiconductors to strengthen AI data centre power business",
       "Infineon completes €570m ams Osram sensor portfolio acquisition",
       "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
@@ -1055,8 +1055,8 @@
       "ASML and the West’s technology dilemma",
       "Marco Pieters starts engineering ASML’s next chapter",
       "ASML reports transactions under its current share buyback program",
-      "ASML’s Extreme Ultraviolet Lithography and the Limits of Reverse Engineering in China",
-      "ASML Supplier Zeiss Says It Can Handle Demand for Key AI Parts",
+      "U.S. preparing to force Netherlands to ban ASML from selling to China",
+      "How ASML became Europe’s most valuable company",
       "ASML stock falls on reports of fresh competition from Chinese chipmaker",
       "ASML Shares Slide",
       "ASML Stock: Next Stop $3,000?",
@@ -1228,7 +1228,7 @@
     "NVDA": {
       "contract": 29803296,
       "analyst_note": 29804042,
-      "ma": 29801792,
+      "ma": 29804162,
       "expansion": 29803022,
       "earnings": 29798373,
       "large_share_purchases": 29803442
@@ -1278,14 +1278,14 @@
     }
   },
   "recent_post_sources": [
-    "Bloomberg.com",
     "Network World",
     "MarketBeat",
     "247wallst.com",
     "qz.com",
-    "ASHARQ AL-AWSAT English"
+    "ASHARQ AL-AWSAT English",
+    "Yahoo Finance Australia"
   ],
-  "last_news_post_min": 29804042,
+  "last_news_post_min": 29804162,
   "evergreen_opinion_used": {
     "eastern us power grid operator orders emergency curbs as electricity use nears record": "2026-07-05",
     "the 20 percent problem: why data center sites fail before they’re built": "2026-07-05",
@@ -1348,8 +1348,7 @@
       6,
       0,
       4,
-      2,
-      5
+      2
     ],
     "price_event": [
       3,
@@ -1390,8 +1389,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 294.2,
-    "SIE.DE": 282.85,
+    "SU.PA": 293.2,
+    "SIE.DE": 283.05,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1417,11 +1416,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 185.56,
-    "BESI.AS": 196.9,
-    "AIXA.DE": 35.94,
-    "IFX.DE": 57.64,
-    "ASML.AS": 1471.0,
+    "SAP.DE": 186.12,
+    "BESI.AS": 195.3,
+    "AIXA.DE": 35.63,
+    "IFX.DE": 57.0,
+    "ASML.AS": 1466.0,
     "MU": 945.13,
     "TSM": 415.82,
     "KLAC": 175.45,
@@ -1462,9 +1461,9 @@
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-08-13"
   },
-  "next_pulse_interval": 34,
-  "last_pulse_post_min": 29804101,
-  "last_pulse_ticker": "SU.PA",
+  "next_pulse_interval": 31,
+  "last_pulse_post_min": 29804161,
+  "last_pulse_ticker": "SAP.DE",
   "pulse_news_seen": {
     "amd:axim planning & wealth acquires shares of 1,888 advanced micro devices, inc. $amd": "2026-08-31",
     "tsm:tsmc (taiwan semiconductor manufacturing) 2330 tt": "2026-08-31",
@@ -1504,5 +1503,5 @@
     }
   ],
   "us_posted": [],
-  "us_flexible_used": 2
+  "us_flexible_used": 3
 }
