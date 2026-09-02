@@ -1765,3 +1765,6 @@ https://www.reuters.com/business/spains-ipronics-raises-125-million-nvidia-other
 
 https://www.marketbeat.com/instant-alerts/filing-denali-advisors-llc-acquires-new-shares-in-advanced-micro-devices-inc-amd-2026-09-02/",242,,,,,
 803,2026-09-02,17:02:00,Wednesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,$STX leading the tape right now: -3.53% to $785.74.,51,,,,,
+804,2026-09-02,18:02:25,Wednesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,$NVDA +4.62% right now. Love to see it.,39,,,,,
+805,2026-09-02,18:02:50,Wednesday,price_event,us,,zero_llm_template,NVDA,NVDA,,NYSE,Y,open,227.57,4.64,227.95,216.07,,,,,,,4.64,,,N,18,llm,Y,,Sharp move: $NVDA +4.64% to $227.57 today. Intraday range: low $216.07 / high $227.95.,86,,,,,
+806,2026-09-02,18:03:26,Wednesday,news_event,,,keyword,NVDA,NVDA,,,,,,,,,Nvidia Nears $12.9 Billion Deal for Hugging Face,,https://finance.yahoo.com/technology/ai/articles/nvidia-nears-12-9-billion-154538468.html?.tsrc=rss,2026-09-02T15:45:38,contract,,,,,,,,N,duplicate_category_24h,,,,,,,
