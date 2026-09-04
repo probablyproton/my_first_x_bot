@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "daily_posts": 6,
+  "daily_posts": 7,
   "daily_keyword_posts": 7,
   "daily_pulse_posts": 10,
   "gemini_calls_today": 18,
@@ -64,9 +64,9 @@
     "KLAC": 29808842,
     "TSM": 29807252,
     "AMAT": 29801826,
-    "WDC": 29807402
+    "WDC": 29808992
   },
-  "event_log_next_id": 959,
+  "event_log_next_id": 961,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -114,7 +114,7 @@
     "news_WDC": 482,
     "news_BESI.AS": 783,
     "news_IFX.DE": 29796935,
-    "WDC": 29807402,
+    "WDC": 29808992,
     "news_STX": 29802543,
     "ASML.AS": 862,
     "news_ASML.AS": 1322,
@@ -326,8 +326,8 @@
       "Siemens acquires Altair to create most complete AI-powered po",
       "Latham & Watkins Advises Siemens in Completed US$5.1 Billion Acquisition of Dotmatics",
       "Siemens Energy begins preparations for the launch of an independent brand",
-      "KPS CAPITAL PARTNERS TO ACQUIRE INNOMOTICS FROM SIEMENS AG",
       "Siemens acquires Heliox, specialist in eBus and eTruck fast chargi ...",
+      "Latham & Watkins Advises Siemens in US$5.1 Billion Acquisition of Dotmatics",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Haddy scales AI-enabled adaptative microfactories with Siemens Xcelerator",
@@ -456,9 +456,9 @@
     "SU.PA": [
       "Schneider Electric to Acquire Grid Resilience Solutions Provider AiDASH for $350 Million",
       "Schneider Electric Announces Intention To Acquire Cognite",
+      "Schneider Electric Agrees to Acquire AiDASH for $350 Million",
       "List of 64 Acquisitions by Schneider Electric (Aug 2026)",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
-      "Schneider Electric acquires Cognite for $3.1B in industrial AI push",
       "Schneider’s New Home EV Charger Undercuts Tesla’s By Bundling A Big Feature",
       "Schneider Electric Named a Top Charitable Company",
       "Boosting Operational Efficiency in Multi-site Businesses",
@@ -717,32 +717,32 @@
     ],
     "MRVL": [
       "Marvell Acquires Polariton Advancing the Future of Optical Connectivity",
+      "Marvell Technology, Inc. (MRVL) Announces Acquisition of Polariton Technologies",
       "Latham & Watkins Advises Celestial AI in Acquisition by Marvell Technology",
       "Marvell Acquires Polariton Technologies | Business | Apr 2026",
       "What Does Marvell's Acquisition of Celestial AI Mean for Photonics?",
-      "Marvell Completes Acquisition of XConn Technologies",
       "September 1, 2026 - 144: Report of proposed sale of securities",
       "Marvell Expands Memory Disaggregation Strategy to Ease AI Infrastructure Bottlenecks",
       "Marvell Technology (Backpack Securities)",
       "Can Marvell Technology (NASDAQ:MRVL) Turn Market Focus Into Momentum?",
       "Why Is Marvell Stock Falling, and is it a Generational Buying Opportunity?",
       "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
-      "Precision Trading with Marvell Technology Inc. (MRVL) Risk Zones",
       "Google pits Marvell against Broadcom as it chases AI crown",
       "MRVL Stock Technical Analysis | Marvell Technology, Inc. | May 22, 2026 Highway 400 (d1guXgSeRD)",
+      "Google expands custom AI chip partnership with Marvell",
       "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
+      "Unpacking Q2 Earnings: Marvell Technology (NASDAQ:MRVL) In The Context Of Other Semiconductor Manufacturing Stocks",
+      "Marvell Rises 6% as Beaten-Down AI Silicon Bounces, Qualcomm Barely Budges",
       "Is Marvell Technology a Millionaire-Maker Stock?",
       "Does Marvell (MRVL) Signal Patience or Urgency With Its AI Data Center Timeline and Buybacks?",
-      "Should You Buy Marvell Stock Because Its Operating Margin Keeps Widening?",
-      "ALAB Stock Down 24% in a Month: Should Investors Buy the Dip or Wait?",
-      "Jim Cramer Explains Why He Isn’t Ready to Pull the Trigger on Marvell (MRVL) Stock Yet"
+      "Should You Buy Marvell Stock Because Its Operating Margin Keeps Widening?"
     ],
     "FORM": [
       "The Manufacturers Life Insurance Company Acquires Shares of 25,685 FormFactor, Inc. $FORM",
-      "FormFactor (FORM) Announces the Acquisition of Keystone Photonics, Here’s What You Need to Know",
       "FormFactor acquires Keystone Photonics to boost silicon photonics testing",
       "Navellier & Associates Inc. Acquires New Shares in FormFactor, Inc. $FORM",
       "OpenAI Acquires Thousands of Mac Computers for AI Training",
+      "FormFactor, Western Digital, IPG Photonics, and Vishay Intertechnology Stocks Trade Down, What You Need To Know",
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "FormFactor, Inc. Rings the Closing Bell",
@@ -762,8 +762,8 @@
     "LRCX": [
       "Field & Main Bank Acquires New Shares in Lam Research Corporation $LRCX",
       "Is Lam Research Corporation (LRCX) Eyeing Besi Industries Merger Amid IBM Pact for Logic Scaling",
-      "Proficio Capital Partners LLC Acquires 7,555 Shares of Lam Research Corporation $LRCX",
       "Lam Research Announces Retirement of Michael R. Cannon and Sohail U. Ahmed from Board of Directors",
+      "Proficio Capital Partners LLC Acquires 7,555 Shares of Lam Research Corporation $LRCX",
       "Applied Materials, Lam Research may be interested in acquiring BE Semiconductor: report (AMAT:NASDAQ)",
       "Lam Research Corp. stock outperforms competitors on strong trading day",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
@@ -789,13 +789,13 @@
       "Micron to pay US$1.8bn for fab site",
       "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
       "Arizona-Taiwan partnership advances semiconductor talent and innovation",
+      "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
       "Solvay to More Than Double Electronic H₂O₂ Capacity in Taiwan",
-      "Taiwan as a “Macro-City” Designed for Chip Manufacturing",
       "Taiwan Semiconductor Chemicals Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Arizona wants Taiwan’s investors to think beyond chips",
       "Taiwan Semiconductor Manufacturing Sees US$67 Billion of Ongoing Construction",
+      "How Taiwan and South Korea Safeguard Semiconductor Supply Chains Amid US-Iranian Tensions",
       "ASU a key partner in US-Taiwan technology relationship",
-      "TSMC (Taiwan Semiconductor Manufacturing) 2330 TT",
       "All-In on AI: How the United States and Taiwan Are Deepening Their Chip Partnership",
       "TSMC's 67.7% Margin Now Needs Twice the Cleaning Chemistry",
       "Apple’s New Foldable iPhone Could Cost $2,000, Citi Says: TSMC, Amphenol Among Stocks To Watch",
@@ -812,13 +812,13 @@
       "Western Digital Corp. stock underperforms Thursday when compared to competitors",
       "Western Digital Corp. stock underperforms Monday when compared to competitors",
       "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
+      "Western Digital Adds Post-Quantum Cryptography to Hard Drives",
+      "How Western Digital used AI to turbocharge collection of supplier emissions data",
       "Western Digital Updates Convertible Note Exchange, Reveals Exact Share Issuance",
       "AI infrastructure is multi-tiered, and HDDs are central to scaling AI, WD shares",
       "WD Customer Survey Highlights Growing Focus on Scale, Economics, and Reliability in AI Infrastructure Planning",
       "Western Digital Ultrastar HDD Storage at Computex 2026",
       "Western Digital Corp. stock outperforms competitors on strong trading day",
-      "Western Digital price collects profits - Forecast today - 18-05-2026",
-      "WD Showcases AI Data Infrastructure Innovations at Computex 2026",
       "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
       "WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?",
       "How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?",
@@ -829,8 +829,8 @@
       "Broadcom | History, Acquisitions, Controversies, & Facts",
       "VMware by Broadcom: Product, service and support news",
       "Nvidia to acquire Hugging Face in $12.9B AI infrastructure deal",
-      "Here’s How Much Traders See Broadcom Stock Moving After Earnings",
       "Top Midday Stories: Nvidia to Acquire Hugging Face for $12.93 Billion; Broadcom Q3 Adjusted Earnings, Guidance Top Estimates",
+      "Here’s How Much Traders See Broadcom Stock Moving After Earnings",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
       "Broadcom and Supermicro unify AI factory management",
       "Broadcom Introduces TrueSource for Open-Source Software Security",
@@ -839,7 +839,7 @@
       "Node.js: Old Technique Makes a Comeback",
       "Why Broadcom should buy Arista (and why it won’t)",
       "VMware subtly promises a return to vSphere Standard",
-      "Arvato and Broadcom integrate security for sovereign private cloud",
+      "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade",
       "AVGO Stock’s 27% Selloff Is Sending A Signal – But Morningstar Sees AI Demand Getting Stronger Through 2030",
       "Broadcom CEO Says AI Demand Could Be ‘Significantly’ Higher — But Land, Power, Chips and Substrates Are Holding Back Data Center Deployments",
       "Broadcom's Artificial Intelligence (AI) Chip Sales Surged 221% to $16.7 Billion Last Quarter: Is the Stock a Screaming Buy Right Now?",
@@ -851,30 +851,30 @@
       "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
       "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
       "Kwik Lok acquires full ownership of Kwik Lok Australia",
-      "2 Mooning Semiconductor Stocks with Competitive Advantages and 1 We Find Risky",
+      "3 Market-Beating Stocks Worth Your Attention",
       "KLA Corporation Tokenized Stock (Robinhood): Latest News, Social Media Updates and Insights",
       "Semiconductor Wafer Inspection Equipment Market Outlook",
+      "KLA Corp insiders cashed out $64M while stock slid 40%",
       "KLA Corp. stock underperforms Friday when compared to competitors",
+      "KLA Corporation Rings the Closing Bell",
       "KLA Corporation Price Today | xKLAC Live Price, Chart & Market Cap",
+      "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "KLA Corp (Derivatives): Latest News, Social Media Updates and Insights",
       "Precision Trading with Kla Corporation (KLAC) Risk Zones",
-      "Marvell Technology, Nova, and KLA Corporation Stocks Trade Down, What You Need To Know",
-      "KLA Corp CFO Bren D. Higgins Sells 31,500 Shares Under Rule 10b5-1 Plan",
       "KLA (KLAC) Could Be 26% Undervalued After Its Recent Pullback",
       "Jim Cramer Explains Why He Recommends Buying KLA (KLAC) Stock in Small Doses",
       "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
       "Is KLA Stock Outperforming the Dow?",
       "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme",
-      "What KLA (KLAC)'s AI-Fueled Advanced Packaging Momentum Means For Shareholders",
-      "KLAC vs. SNDK: Which Semiconductor Stock is a Better Buy Now?"
+      "What KLA (KLAC)'s AI-Fueled Advanced Packaging Momentum Means For Shareholders"
     ],
     "SAP.DE": [
       "SAP Completes Acquisition of Prior Labs",
+      "SAP SE (SAP) to Acquire Dremio to Enhance Business Data Cloud, AI Capabilities",
       "SAP to Acquire Reltio: Make SAP and Non-SAP Data AI-Ready",
       "A&O Shearman advises SAP on strategic AI acquisitions of Dremio and Prior Labs",
-      "SAP SE (SAP) to Acquire Reltio to Support Business Data Cloud, AI Capabilities",
-      "SAP acquires Dremio, Prior Labs to enhance its tabular AI capabilities",
+      "Sap SE - Completes Acquisition Of Prior Labs",
       "SAP Completes Acquisition of Dremio",
       "SAP Chief Quantum Officer: AI is about to commoditize intelligence. Better decisions will be the next competitive advantage",
       "SAP Completes Acquisition of Reltio",
@@ -914,10 +914,15 @@
       "Besi (ENXTAM:BESI) Stock Looks Above Fair Value On Cash Flow And Earnings"
     ],
     "AMAT": [
+      "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
+      "Applied Materials Acquires NEXX",
+      "Applied Materials Targets $3.5 Billion Electrochemical Deposition Market With NEXX Acquisition",
+      "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
+      "Applied Materials To Acquire NEXX For $120 Million",
+      "Applied Materials, Inc. Tokenized Stock price today, AMATx to USD chart, marketcap and volume",
       "Applied Materials’ Advanced Packaging Vision: AI Scaling Is Becoming a System Integration Problem",
       "Applied Materials, Inc. AMAT Stock Price Analysis Today Pfe Stock (giTbKajXWo)",
       "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
-      "Applied Materials, Inc. Tokenized Stock price today, AMATx to USD chart, marketcap and volume",
       "Have Applied Materials Insiders Been Selling Stock?",
       "Applied Materials’ stock buybacks: History & investor impact explained",
       "Semiconductor Wafer Inspection Equipment Market Outlook",
@@ -928,12 +933,7 @@
       "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
       "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?",
       "Applied Materials Just Dropped 14% in a Month. Sell Now, or Buy More?",
-      "Should You Buy, Sell or Hold AMAT Stock After a 72.5% YTD Rise?",
-      "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
-      "These 3 GARP Stocks Show Why Growth and Value Do Not Have to Clash",
-      "How Far Applied Materials Stock Can Move On You In A Year",
-      "How Investors Are Reacting To Applied Materials (AMAT) AI-Fueled Backlog, New Fabs And EPIC Center Bet",
-      "Stocks Settle Lower as Bond Yields Surge"
+      "Should You Buy, Sell or Hold AMAT Stock After a 72.5% YTD Rise?"
     ],
     "NVDA": [
       "Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips",
@@ -949,18 +949,17 @@
       "Nvidia CEO Jensen Huang vows to keep Hugging Face 'an open platform for the entire AI ecosystem'",
       "Nvidia donates $10 million to flood recovery, one of Nepal’s biggest corporate donations",
       "Nvidia to buy AI platform Hugging Face for US$12.9 billion",
+      "Why Fair Isaac Stock Crashed Today",
+      "Bond Yields Are Soaring. Why That's Bad for Homebuilder and Automaker Stocks.",
       "The U.S. Economy Just Added 162,000 Jobs in August, Blowing Past Estimates: That's Both Good and Bad News for the Stock Market.",
+      "Stock Market Today: Dow Sheds 300 Points On Surprise Jobs Report; Nvidia Rises As Tesla Falls (Live Coverage)",
       "Green Thumb Industries Has Hit a Rough Patch",
       "Jensen Huang's Nvidia Guided for 70% Revenue Growth in Fiscal 2028, Far Above the 44% Wall Street Expected, as Amazon Agreed to Buy 2 Million Nvidia GPUs. Is the Growth Forecast Believable?",
-      "If a Bear Market Is Coming, Is VOO or VTI the Safer Investment?",
-      "Why Sandisk Stock Rallied Today",
-      "2 Stocks Down 8% or More That Are Screaming Buys Right Now",
-      "$1.3 Trillion in Projected Data Center Spending in 2027 Makes These Stocks No-Brainer Buys"
+      "If a Bear Market Is Coming, Is VOO or VTI the Safer Investment?"
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
-      "EQS-PVR: AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Polarization-engineered high mobility of two-dimensional hole gas in GaN",
       "Aixtron Q2 Earnings Call Highlights",
@@ -981,12 +980,11 @@
       "Advanced Micro Devices (AMD) Adds AI Inference Silicon With Taalas Acquisition",
       "Advanced Micro Devices, Inc.",
       "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Enfant (79wLLpE4c1)",
-      "Why Does Advanced Micro Devices (NASDAQ:AMD) Matter In Today’s Market?",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
       "Advanced Micro Devices Inc (Derivatives) Price (AMD/USD) Today | Live Price, Market Cap & Chart",
-      "Zyphra Trains Advanced Reasoning Models at Scale with AMD",
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
       "Latham Watkins Advises Advanced Micro Devices Inc on Revolving Credit Facility",
+      "Advanced Micro Devices (NASDAQ:AMD) Momentum Cools After A Powerful AI Run",
       "Why Is AMD Stock Sliding on Friday?",
       "AMD, NVIDIA raise bar on AI energy efficiency",
       "AMD and Delhi University Partner to Upskill 10,000 Students in AI",
@@ -994,7 +992,8 @@
       "AMD (AMD) Stock May Be 24% Undervalued On Saudi AI Expansion",
       "Why Is AMD (AMD) Becoming More Important In Secure AI Infrastructure?",
       "Cathie Wood Sold About $72.8 Million of AMD and Bought About $53 Million of Nvidia. What Changed?",
-      "Could a $10,000 Investment in AMD Double by the End of 2028?"
+      "Could a $10,000 Investment in AMD Double by the End of 2028?",
+      "Cramer Says Nvidia Spent $13 Billion to Make Sure You Never Buy a Rival’s Chip"
     ],
     "IFX.DE": [
       "Infineon's Bangalore Power Play: A Strategic Bet That Markets Are Still Weighing",
@@ -1007,16 +1006,16 @@
       "Infineon-led European project Moore4Power launches",
       "Analysts’ Top Technology Picks: Salesforce (CRM), Disco (DISPF)",
       "North-America Automotive Semiconductor Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "Influence of Temperature on the Reliability of Graphene‐Based Ozone Sensors - Jain - Small",
       "North America Intelligent Power Module Market Report",
-      "Infineon Retains Top Automotive Chip Supplier Position for 6th Consecutive Year",
+      "North-America Magnetic Current Sensor Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Infineon Startup Challenge 2026 puts humanoid robotics in the spotlight",
-      "North-America Automotive Radar Market Size, Share,Trends, Growth Analysis Report, 2031",
-      "More chip production needed in Europe, Infineon CEO says",
       "Sirin Software Joins Infineon Partner Ecosystem as an Associated Partner",
       "Infineon and Tack One win SICC Award for Best Technological Collaboration",
       "$4.12 Billion Avalanche Breakdown Diodes Market Outlook 2026-2030 - Featuring Profiles of Infineon Technologies, Littelfuse and Vishay Intertechnology",
       "Chip Stocks Edge Higher After Monday Rout",
-      "Infineon and MediaTek partner on automotive AI systems"
+      "Infineon and MediaTek partner on automotive AI systems",
+      "Infineon Technologies (XTRA:IFX) Stock Fair Value Rises After Analysts Lift Targets"
     ],
     "ANET": [
       "Why Broadcom should buy Arista (and why it won’t)",
@@ -1024,7 +1023,6 @@
       "Celestica vs. Arista: Which AI Infrastructure Stock is a Better Buy?",
       "Arista acquires VeloCloud SD-WAN business from Broadcom",
       "Arista Networks to protect the edge, bolstering security SD-WAN stance",
-      "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Akamai Technologies, Arista Networks, Booking Holdings, Cisco Systems, Dell Technologies, Duolingo, Robinhood Markets, PG&E, and More",
       "J. Goldman takes new $6.97M stake in Arista Networks",
       "Arista Networks CFO Chantelle Breithaupt Sells 612 Shares Under Rule 10b5-1 Plan",
@@ -1033,6 +1031,7 @@
       "Arista Networks Inc. stock underperforms Wednesday when compared to competitors",
       "Arista Networks Stock: Buy or Sell?",
       "Member Spotlight: Arista Networks",
+      "Arista adds AI-driven zero trust to VeloCloud SD-WAN",
       "ANET Rises 37.3% in Six Months: Is There More Room to Grow?",
       "Arista Networks Offers Entry After 42% Gain Amid Earnings Beat; Data Center Demand Surging",
       "The \"Untouchable\" List: Stocks That Short Sellers Won't Dare Bet Against",
@@ -1074,15 +1073,15 @@
       "Seagate to Participate in Upcoming Investor Events",
       "Seagate Technology $175M Securities Class Action Settlement",
       "Seagate Technology Holdings PLC stock underperforms Tuesday when compared to competitors",
-      "Iran War Unlikely to Hurt AI Supply Chain for Now, Seagate Says",
+      "Memory Is Wall Street’s Favorite Tech Trade as Mag 7 Disappoints",
       "Seagate Introduces Storage Built for Consumer Data Explosion",
       "Seagate Technology Holdings PLC stock underperforms Wednesday when compared to competitors despite daily gains",
+      "Seagate Announces the Retirement of Michael R. Cannon, Lead Independent Director, After a 40 Year History in the Disk Drive Industry",
       "Seagate's YTD Gains are Double the Industry: Is the Stock Still a Buy?",
       "Forget Nvidia. This AI Stock Is Selling the Storage Behind the Boom",
       "Seagate (STX) Stock May Be 30% Undervalued On AI Bubble Fears",
       "Seagate Technology Holdings (STX) Heads To AI Summit As Investors Ask If The Story Is Priced In",
-      "Seagate Stock Is Off 27%. Why It’s Time to Buy the Dip in STX for 36% Upside.",
-      "Billionaire Stephen Mandel’s Top 2 AI Stock Picks"
+      "Seagate Stock Is Off 27%. Why It’s Time to Buy the Dip in STX for 36% Upside."
     ],
     "MU": [
       "Micron purchases PSMC fabrication site in Taiwan for $1.8B",
@@ -1095,11 +1094,11 @@
       "Micron Technology Tokenized bStocks Price (MUB/USD) Today | Live Price, Market Cap & Chart",
       "Can Micron Technology (NASDAQ:MU) Navigate Shifting Market Conditions?",
       "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
-      "Project Bulletin, August 31, 2026: Boise, Idaho; Vilnius, Lithuania; Hillsboro, Oregon",
       "SEMICON Taiwan 2026: Micron Counters Rivals, Declares AI Still 'Massively Undersupplied'",
-      "Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab",
-      "Micron unveils Boise-based research lab, plans $10 billion investment over next decade",
       "Have Insiders Sold Micron Technology Shares Recently?",
+      "Micron unveils Boise-based research lab, plans $10 billion investment over next decade",
+      "Micron project neighbors ask judge for new environmental review",
+      "As Micron’s semiconductor project accelerates, community pushback persists",
       "Why Micron Stock Just Popped",
       "Micron, SanDisk Jump 4% Even as Hot Jobs Report Briefly Flips Fed Hike Odds Above 50%",
       "SanDisk Rises 8%, Micron Gains 5%: Is the NAND Pricing Cycle Still Accelerating?",
@@ -1107,32 +1106,7 @@
       "Micron Stock Is Rising. Why It’s Not What It Seems."
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "ASML.AS",
-      "classification": {
-        "symbol": "ASML.AS",
-        "is_major": true,
-        "category": "expansion",
-        "headline": "[News] ASML Japan to Boost Workforce 40% by 2030 to Support Rapidus, TSMC Advanced Chip Push",
-        "reason": "The headline describes a significant workforce increase (40%) by 2030 to support major customers (Rapidus, TSMC) in advanced chip manufacturing, which constitutes a major capacity expansion indicative of capital investment exceeding $25M."
-      },
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOVg3WE13WjR6OWxkdFpCOHBSQk9kWlIxeTJTb2FReDBicHhlWGpSdVlCVDdsWGxTNVNjdENWTXB5TzFqamkwTlg0bE5oMnpxQ0NZbTd3d1g2LXVQMFJkUlowTDV1ck9uRXdhanU0SG5ETzJKWUJiR21Hb1RWbFNQR3Z3WDFPMXFtNXFvU3VkWXhWbXVlSkF0UGJacDFkdEViYlhwY2RONlZiU201a3FRTTM4Vi1HTUNCcmltOUdhNjRRUjNYdnZuUUQzSmk?oc=5",
-      "source": "TrendForce",
-      "method": "gemini",
-      "published": "2026-09-04T07:30:31",
-      "queued_min": 29808602,
-      "all_articles": [
-        {
-          "headline": "[News] ASML Japan to Boost Workforce 40% by 2030 to Support Rapidus, TSMC Advanced Chip Push",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOVg3WE13WjR6OWxkdFpCOHBSQk9kWlIxeTJTb2FReDBicHhlWGpSdVlCVDdsWGxTNVNjdENWTXB5TzFqamkwTlg0bE5oMnpxQ0NZbTd3d1g2LXVQMFJkUlowTDV1ck9uRXdhanU0SG5ETzJKWUJiR21Hb1RWbFNQR3Z3WDFPMXFtNXFvU3VkWXhWbXVlSkF0UGJacDFkdEViYlhwY2RONlZiU201a3FRTTM4Vi1HTUNCcmltOUdhNjRRUjNYdnZuUUQzSmk?oc=5",
-          "source": "TrendForce",
-          "summary": "",
-          "published": "2026-09-04T07:30:31"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1399,7 +1373,16 @@
       8,
       4
     ],
-    "price_event_up": [],
+    "price_event_up": [
+      8,
+      1,
+      6,
+      2,
+      7,
+      5,
+      3,
+      0
+    ],
     "price_event_down": [
       5,
       3,
@@ -1443,19 +1426,19 @@
     "AIXA.DE": 36.36,
     "IFX.DE": 57.19,
     "ASML.AS": 1472.4,
-    "MU": 999.73,
-    "TSM": 426.09,
-    "KLAC": 186.52,
-    "STX": 838.22,
-    "ANET": 193.63,
-    "LRCX": 303.67,
-    "FORM": 101.74,
-    "AVGO": 356.64,
-    "AMAT": 455.24,
-    "AMD": 470.74,
-    "MRVL": 220.75,
-    "NVDA": 231.02,
-    "WDC": 460.24
+    "MU": 1006.9,
+    "TSM": 427.16,
+    "KLAC": 187.34,
+    "STX": 844.36,
+    "ANET": 192.86,
+    "LRCX": 304.57,
+    "FORM": 102.06,
+    "AVGO": 355.13,
+    "AMAT": 455.61,
+    "AMD": 473.76,
+    "MRVL": 221.19,
+    "NVDA": 231.09,
+    "WDC": 466.44
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1479,7 +1462,7 @@
     "AVGO": "2026-09-03",
     "KLAC": "2026-09-04",
     "IFX.DE": "2026-08-27",
-    "WDC": "2026-09-03",
+    "WDC": "2026-09-04",
     "ASML.AS": "2026-08-10",
     "LRCX": "2026-09-01",
     "MU": "2026-09-04"
@@ -1516,7 +1499,8 @@
     }
   ],
   "eu_posted": [
-    0
+    0,
+    1
   ],
   "us_slots": [
     {
@@ -1535,6 +1519,6 @@
   "us_posted": [
     0
   ],
-  "us_flexible_used": 5,
+  "us_flexible_used": 6,
   "eu_flexible_used": 0
 }
