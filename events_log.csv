@@ -1917,3 +1917,11 @@ https://finance.yahoo.com/markets/stocks/articles/does-marvell-mrvl-signal-patie
 915,2026-09-04,05:02:20,Friday,news_event,,,keyword,NVDA,NVDA,,,,,229.62,1.89,,,Hugging Face Founders Each Worth $1.8 Billion After Nvidia Deal,Bloomberg.com,https://www.bloomberg.com/news/articles/2026-09-03/hugging-face-founders-each-worth-1-8-billion-after-nvidia-deal,,contract,,,,,N,0,keyword,Y,,"$NVDA ($229.62, +1.89% at last close as of Sep 3): Hugging Face Founders Each Worth $1.8 Billion After Nvidia Deal
 
 https://www.bloomberg.com/news/articles/2026-09-03/hugging-face-founders-each-worth-1-8-billion-after-nvidia-deal",229,,,,,
+916,2026-09-04,09:01:36,Friday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$SAP.DE standing out at +2.28%, now €185.58.",44,,,,,
+917,2026-09-04,09:03:06,Friday,scheduled_slot,eu,hook,gemini,SAP.DE,SAP,"$ASML, $SIE, $AIXA, $BESI",,,open,185.58,2.28,,,,,,,,,,,,Y,9,llm,Y,,"$SAP.DE M&A drives tech gains; others slide.
+
+$SAP.DE +2.28% (€185.58) on Reltio AI deal.
+$ASML.AS -1.37% (€1423.4); Tata customer news.
+$SIE.DE -1.17% (€270.6) after Altair AI buy.
+$AIXA.DE -0.76% (€35.43).
+$BESI.AS -0.62% (€191.4).",233,,,,,
