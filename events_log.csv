@@ -1947,3 +1947,14 @@ https://finance.yahoo.com/markets/stocks/articles/market-chatter-nvidia-increase
 935,2026-09-04,14:31:49,Friday,news_event,,,keyword,NVDA,NVDA,,,,,,,,,Nvidia's $13 Billion Hugging Face Deal Expands Open-Source AI,,https://finance.yahoo.com/technology/ai/articles/nvidias-13-billion-hugging-face-121800081.html?.tsrc=rss,2026-09-04T12:18:00,contract,,,,,,,,N,duplicate_category_24h,,,,,,,
 936,2026-09-04,14:31:49,Friday,news_event,,,keyword,NVDA,NVDA,,,,,,,,,Nvidia's $12.93 Billion Hugging Face Deal Reaches Beyond the GPU Rack,,https://finance.yahoo.com/technology/ai/articles/nvidias-12-93-billion-hugging-120637039.html?.tsrc=rss,2026-09-04T12:06:37,contract,,,,,,,,N,duplicate_category_24h,,,,,,,
 937,2026-09-04,15:01:41,Friday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,pulse,Y,,"$AIXA.DE standing out at +3.03%, now €36.41.",44,,,,,
+938,2026-09-04,15:36:35,Friday,news_event,,,keyword,AVGO,AVGO,,,,,,,,,"AVGO Q3 Earnings Beat Estimates, Revenues Rise on Strong AI Demand",Zacks,https://www.nasdaq.com/articles/avgo-q3-earnings-beat-estimates-revenues-rise-strong-ai-demand,2026-09-03T17:49:00,earnings,,,,,,,,N,duplicate_category_24h,,,,,,,
+939,2026-09-04,15:36:35,Friday,news_event,,,keyword,NVDA,NVDA,,,,,,,,,Nvidia AI equity investments hit $99 billion in one year,qz.com,https://qz.com/nvidia-ai-equity-investments-99-billion-090426?.tsrc=rss,2026-09-04T13:25:07,expansion,,,,,,,,N,duplicate_category_24h,,,,,,,
+940,2026-09-04,15:36:35,Friday,news_event,,,keyword,NVDA,NVDA,,,,,,,,,Here’s the Real Reason Nvidia Is Buying Hugging Face,,https://finance.yahoo.com/m/320ca87c-0f9b-361b-a87b-00af4642ffbd/here%E2%80%99s-the-real-reason-nvidia.html?.tsrc=rss,2026-09-04T12:16:00,contract,,,,,,,,N,duplicate_category_24h,,,,,,,
+941,2026-09-04,15:37:06,Friday,news_event,,,keyword,NVDA,NVDA,,,,,232.32,1.18,,,Cathie Wood Cuts AMD and Puts $53 Million Into Nvidia,,https://finance.yahoo.com/technology/ai/articles/cathie-wood-cuts-amd-puts-133412523.html?.tsrc=rss,,analyst_note,,,,,N,18,keyword,Y,,"$NVDA ($232.32, +1.18% today): Cathie Wood Cuts AMD and Puts $53 Million Into Nvidia
+
+https://finance.yahoo.com/technology/ai/articles/cathie-wood-cuts-amd-puts-133412523.html?.tsrc=rss",185,,,,,
+942,2026-09-04,15:38:21,Friday,evergreen_opinion,,,template,,,,,,,,,,,When analyst benchmarks miss the mark: Why Nvidia doesn’t fit Forrester’s data center matrix,Network World,https://www.networkworld.com/article/4218767/when-analyst-benchmarks-miss-the-mark-why-nvidia-doesnt-fit-forresters-data-center-matrix.html,2026-09-04T13:33:25,,,,,,,,keyword,Y,,"Worth a read from Network World:
+
+""When analyst benchmarks miss the mark: Why Nvidia doesn’t fit Forrester’s data center matrix""
+
+https://www.networkworld.com/article/4218767/when-analyst-benchmarks-miss-the-mark-why-nvidia-doesnt-fit-forresters-data-center-matrix.html",269,,,,,
