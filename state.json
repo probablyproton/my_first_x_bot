@@ -66,7 +66,7 @@
     "AMAT": 29810102,
     "WDC": 29808992
   },
-  "event_log_next_id": 1028,
+  "event_log_next_id": 1029,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -336,8 +336,8 @@
       "North Jersey site sold to pharma company planning to create 1,000 jobs",
       "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
       "Siemens Launches Wendell Microgrid at HQ Campus",
+      "Tobias Bauer",
       "Siemens invests $200M in U.S. electrical manufacturing",
-      "Siemens Achieves $1B in U.S. Manufacturing Investments",
       "Siemens (XTRA:SIE) Is A Key Player In Smart Grid Markets",
       "Smart Grid Market Report 2026-2036 Now Available. Sizes the Global Market at $63.81B (2026), Profiling ABB, GE Vernova, Siemens, Schneider Electric, and 78 Other Key Players",
       "Smart Meter Data Management Report Forecasts Market Growth from $2.49B (2025) to $12.65B by 2035, Profiling Oracle, Landis+Gyr, Itron, Siemens, Schneider Electric, and 48 Other Key Players",
@@ -455,10 +455,10 @@
     ],
     "SU.PA": [
       "Schneider Electric to Acquire Grid Resilience Solutions Provider AiDASH for $350 Million",
+      "Schneider Electric Agrees to Acquire AiDASH for $350 Million",
       "Schneider Electric Announces Intention To Acquire Cognite",
       "List of 64 Acquisitions by Schneider Electric (Aug 2026)",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
-      "Schneider Electric acquires Cognite for $3.1B in industrial AI push",
       "Energy technology company to close Tualatin facility, eliminate 87 jobs",
       "Schneider’s New Home EV Charger Undercuts Tesla’s By Bundling A Big Feature",
       "Schneider Electric Appoints Business Vice President",
@@ -769,8 +769,8 @@
       "Lam Research Corp Stock (LRCX) Opened Up by 4.61% on Sep 4",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
       "LAM Research to offer 240-hour training to make people employable in electronics, mechanical assembly jobs",
-      "LAM RESEARCH CORP (NASDAQ: LRCX) Senior VP Varadarajan Seshasayee Disposes of 59,750 Shares at $291.32 Each",
       "Lam Research Launches Skill Development Program in India to Boost Advanced Manufacturing Talent",
+      "LAM RESEARCH CORP (NASDAQ: LRCX) Senior VP Varadarajan Seshasayee Disposes of 59,750 Shares at $291.32 Each",
       "Lam Research Breaks Ground on Oregon Lab for AI Semiconductor R&D",
       "Is Lam Research Stock Outperforming the Nasdaq?",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
@@ -892,11 +892,11 @@
       "Darwinbox Appoints Pannie Sia to Lead Enterprise Growth in Southeast Asia"
     ],
     "BESI.AS": [
-      "Situational Awareness LP Acquires Shares of 7,802,700 STMicroelectronics N.V. $STM",
       "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
       "BE Semiconductor Industries Acquires Laurier | News & Features | Jan 2002",
       "Changes are imminent in semiconductor equipment! Applied Materials and Lam Research are targeting Besi, aiming to acquire the critical 'hybrid bonding' technology that is vital for AI and memory.",
       "Acron Technologies Acquires Alereon, Inc., Expanding Its Advanced Defense Capabilities",
+      "Is onsemi's Synaptics Buyout a Defining Bet on the Physical AI Market?",
       "BE Semiconductor Shares Soar as Fourth Quarter Bookings Double",
       "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
       "Advanced Energy unveils dual-output 400W module for NeoPower configurable power supplies",
@@ -916,19 +916,19 @@
     "AMAT": [
       "Applied Materials Extends AI Chip Role With NEXX Packaging Acquisition",
       "Applied Materials Acquires NEXX",
-      "Benicia chip manufacturing tool maker acquired by Applied Materials",
       "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
-      "TELEO Capital Acquires Pharmaceutical Manufacturing Intelligence Platform, Modersys (fka SmartFactory Rx) From Applied Materials",
+      "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
+      "Applied Materials Targets $3.5 Billion Electrochemical Deposition Market With NEXX Acquisition",
       "Applied Materials Inc. stock outperforms competitors on strong trading day",
       "Applied Materials’ Advanced Packaging Vision: AI Scaling Is Becoming a System Integration Problem",
       "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
       "Applied Materials’ stock buybacks: History & investor impact explained",
+      "ASU joins Applied Materials' EPIC Center as inaugural university research partner",
       "Semiconductor Wafer Inspection Equipment Market Outlook",
       "Have Applied Materials Insiders Been Selling Stock?",
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials strives to cooperate with chipmakers to shorten equipment lead time",
-      "Applied Materials, Inc. AMAT Stock Price Analysis Today Pfe Stock (giTbKajXWo)",
-      "Tampere University, Applied Materials, and European Partners Demonstrate Brain-Inspired Computing with 5-Bit Ferroelectric Capacitors to Slash AI Energy...",
+      "Benicia chip manufacturing tool maker acquired by Applied Materials",
       "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
       "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
       "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?",
@@ -937,27 +937,28 @@
     ],
     "NVDA": [
       "Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips",
-      "Nvidia bets $13 billion on open AI models with Hugging Face deal",
       "Nvidia confirms $13 billion acquisition of open-weight AI platform Hugging Face",
       "Nvidia inks $13 billion deal to buy the AI startup that was hacked by OpenAI",
       "Nvidia confirms $12.9B acquisition of AI hosting platform Hugging Face",
+      "Nvidia Acquires AI Platform Hugging Face for About $13 Billion",
       "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
       "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference | NVIDIA Technical Blog",
       "Breakingviews - COMMENTARY: Nvidia wraps itself in $12.9 bln of insurance",
-      "Nvidia donates $10 million to flood recovery, one of Nepal’s biggest corporate donations",
       "Nvidia to buy Hugging Face for $13B in big bet on open AI models",
+      "Nvidia donates $10 million to flood recovery, one of Nepal’s biggest corporate donations",
       "Nvidia CEO Jensen Huang vows to keep Hugging Face 'an open platform for the entire AI ecosystem'",
       "Nvidia's $13 Billion Hugging Face Deal Expands Open-Source AI",
       "Nvidia to buy AI platform Hugging Face for US$12.9 billion",
       "Jim Cramer Breaks Down P/E Multiples Explaining Why NVIDIA (NVDA) Looks Cheaper Than ServiceNow",
       "Jensen Huang Just Sent a Signal That Could Matter More Than the September Effect",
-      "Is SCHD Still the Best Dividend ETF You Can Buy for Passive Income",
+      "Should You Buy Canopy Growth Stock on the Rebound?",
       "If a Market Crash Is Coming, Here's the 1 Thing You Should Do, According to Warren Buffett",
       "Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That’s Climbed 200,000% Since Its IPO -- And It’s His Top Position.",
       "Watch Out, Solana and Ethereum. Robinhood's Blockchain Is Eating Your Lunch.",
       "Michael Saylor's Strategy Continues to Sell Bitcoin. That's Why I'm Doubling Down on Bitcoin Right Now."
     ],
     "AIXA.DE": [
+      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "EQS-PVR: AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
       "Aixtron SE vs Veeco Instruments",
@@ -1087,9 +1088,9 @@
     "MU": [
       "Micron purchases PSMC fabrication site in Taiwan for $1.8B",
       "Micron Technology (MU) Well-Positioned With New P5 Site Acquisition",
+      "Micron Technology’s $1.8bn Acquisition of PSMC’s P5 Fabrication Site",
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron Technology, Inc. Signs Letter of Intent to Acquire P5 Fabrication Site from Powerchip Semiconductor for $1.8 Billion",
-      "Micron to Buy Taiwan Plant for $1.8 Billion",
       "Micron's Taiwan unions threaten strike over bonus dispute",
       "Micron Technology Tokenized bStocks Price (MUB/USD) Today | Live Price, Market Cap & Chart",
       "Micron Technology Tokenized Stock price today, MUx to USD chart, marketcap and volume",
@@ -1108,29 +1109,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "WDC",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-director-sold-2-055045902.html?.tsrc=rss",
-      "source": null,
-      "method": "keyword",
-      "published": "2026-09-05T05:50:45",
-      "queued_min": 29809801,
-      "all_articles": [
-        {
-          "headline": "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-director-sold-2-055045902.html?.tsrc=rss",
-          "source": null,
-          "summary": "Western Digital director Stephanie Streeter’s family trust sold 5,600 shares across August 31 and September 1 for $2,519,280. The prices ranged from $447.06 to $455, and the trust retained 34,807 shares after the transactions. Western Digital Corporation (NASDAQ:WDC) had climbed roughly 448% over the 12 months through September 2, so the sale landed when investors […]",
-          "published": "2026-09-05T05:50:45"
-        }
-      ]
-    },
     {
       "symbol": "AMD",
       "classification": {
