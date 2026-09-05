@@ -2095,3 +2095,43 @@ https://www.theglobeandmail.com/investing/markets/stocks/NVDA/pressreleases/4444
 1006,2026-09-05,09:32:21,Saturday,news_event,,,keyword,WDC,WDC,,,,,466.71,5.97,,,Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?,,https://finance.yahoo.com/markets/stocks/articles/western-digital-director-sold-2-055045902.html?.tsrc=rss,,expansion,,,,,N,0,,N,post_failed,"$WDC ($466.71, +5.97% at last close as of Sep 4): Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?
 
 https://finance.yahoo.com/markets/stocks/articles/western-digital-director-sold-2-055045902.html?.tsrc=rss",259,,,,,
+1007,2026-09-05,10:02:05,Saturday,weekly_engagement,,saturday,gemini,,,"$AIXA.DE, $AMAT, $AMD, $ANET, $ASML.AS, $AVGO, $BESI.AS, $FORM, $IFX.DE, $KLAC, $LRCX, $MRVL, $MU, $NVDA, $SAP.DE, $SIE.DE, $STX, $SU.PA, $TSM, $WDC",,,,,,,,,,,,,,,,,Y,1,,N,post_failed_backlogged,"WTD numbers:
+
+$AIXA.DE +-0.0%
+$AMAT -1.67%
+$AMD +2.41%
+$ANET -0.88%
+$ASML.AS -0.82%
+$AVGO -3.14%
+$BESI.AS -0.28%
+$FORM +1.38%
+$IFX.DE +0.55%
+$KLAC +5.3%
+$LRCX +1.71%
+$MRVL +3.41%
+$MU +9.0%
+$NVDA +5.25%
+$SAP.DE -1.41%
+$SIE.DE -5.74%
+$STX +2.79%
+$SU.PA -4.2%
+$TSM +2.72%
+$WDC",273,,,,,
+1008,2026-09-05,10:02:55,Saturday,scheduled_slot,eu,hook,gemini,ASML.AS,ASML,"$IFX, $SU, $SIE, $SAP",,,weekend,1471.8,3.33,,,,,,,,,,,,Y,2,,N,post_failed_backlogged,"Euro tech M&A spree this week focused on AI & data.
+
+$ASML.AS: Outlook up after Q2 miss.
+$IFX.DE: Acquired AI, sensor firms.
+$SU.PA: Grid resilience & AI acquisitions.
+$SIE.DE: Boosted EDA, manufacturing.
+$SAP.DE: Acquiring for AI data & cloud.",244,,,,,
+1009,2026-09-05,10:04:22,Saturday,scheduled_slot,us,hook,gemini,AVGO,AVGO,"$NVDA, $AMD, $MU, $AMAT",,,weekend,357.07,0.17,,,,,,,,,,,,Y,3,,N,post_failed_backlogged,"AI infrastructure demand remains central, as Morgan Stanley lifts $AVGO's PT to $505 this week, citing surging demand.
+
+This upgrade, alongside other strategic acquisitions in the sector, highlights an intensifying race for AI leadership.
+
+https://www.thestreet.com/investing/stocks/morgan-stanley-broadcom-avgo-stock-price-target?.tsrc=rss",340,,,,,
+1010,2026-09-05,10:04:52,Saturday,news_event,,,keyword,WDC,WDC,,,,,466.71,5.97,,,Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?,,https://finance.yahoo.com/markets/stocks/articles/western-digital-director-sold-2-055045902.html?.tsrc=rss,,expansion,,,,,N,3,,N,post_failed,"$WDC ($466.71, +5.97% at last close as of Sep 4): Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?
+
+https://finance.yahoo.com/markets/stocks/articles/western-digital-director-sold-2-055045902.html?.tsrc=rss",259,,,,,
+1011,2026-09-05,10:07:19,Saturday,evergreen_opinion,,,gemini,,,,,,,,,,,AMD Announces Threadripper Halo Station: A High-End AI-Centric Developer Workstation,ServeTheHome,https://www.servethehome.com/amd-announces-threadripper-halo-station/,2026-09-04T17:00:02,,,,,,,,,N,post_failed,"ServeTheHome highlights AMD's Threadripper Halo Station, a high-end dev workstation leveraging Threadripper Pro CPUs and liquid-cooled MI350P accelerators, significantly boosting local AI compute.
+
+https://www.servethehome.com/amd-announces-threadripper-halo-station/",267,,,,,
