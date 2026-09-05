@@ -102,11 +102,17 @@ ENABLE_LARGE_SHARE_PURCHASES = os.getenv("ENABLE_LARGE_SHARE_PURCHASES", "true")
 ENABLE_EVERGREEN_OPINION            = os.getenv("ENABLE_EVERGREEN_OPINION", "true").lower() == "true"
 EVERGREEN_OPINION_LOOKBACK_DAYS     = int(os.getenv("EVERGREEN_OPINION_LOOKBACK_DAYS", "30"))   # evergreen: older is fine
 EVERGREEN_OPINION_MEMORY_DAYS       = 60   # don't re-post the same piece within this window
-EVERGREEN_OPINION_DAILY_LIMIT       = int(os.getenv("EVERGREEN_OPINION_DAILY_LIMIT", "2"))
-EVERGREEN_OPINION_MIN_GAP_MINUTES   = int(os.getenv("EVERGREEN_OPINION_MIN_GAP_MINUTES", "180"))
-# "Slow day" = past the midpoint of the combined trading day AND fewer than this many substantive
-# (non-pulse) posts have gone out — i.e. a genuinely quiet news day worth filling.
-SLOW_DAY_SUBSTANTIVE_POST_THRESHOLD = int(os.getenv("SLOW_DAY_SUBSTANTIVE_POST_THRESHOLD", "8"))
+# Raised from 2/180min: this feed is the one channel that catches sector news about companies
+# outside the ticker watchlist (funding rounds, major contracts between private infra players),
+# and it was gated so tightly it only ever fired as afternoon leftover filler. It's real coverage,
+# not just filler, so it gets a bigger daily allowance and a shorter gap between posts.
+EVERGREEN_OPINION_DAILY_LIMIT       = int(os.getenv("EVERGREEN_OPINION_DAILY_LIMIT", "5"))
+EVERGREEN_OPINION_MIN_GAP_MINUTES   = int(os.getenv("EVERGREEN_OPINION_MIN_GAP_MINUTES", "90"))
+# "Slow day" = past this point in the combined trading day AND fewer than this many substantive
+# (non-pulse) posts have gone out — i.e. a quiet-enough news day worth filling. Widened from
+# 15:30-22:00/8 posts so evergreen sector news (the only non-ticker-scoped news source) isn't
+# starved until late afternoon on days that are otherwise chart/pulse-heavy.
+SLOW_DAY_SUBSTANTIVE_POST_THRESHOLD = int(os.getenv("SLOW_DAY_SUBSTANTIVE_POST_THRESHOLD", "12"))
 
 HEADLESS = os.getenv("CI", "false") == "true"
 
@@ -188,13 +194,12 @@ DAILY_KEYWORD_POST_LIMIT = int(os.getenv("DAILY_KEYWORD_POST_LIMIT", "15"))
 # heartbeat crowds out real news — both defeat the point of one or the other.
 # The gap itself is randomized fresh within this range each time (not a fixed base +/- jitter) —
 # a hard fixed interval would make the account's automation trivially obvious from the outside.
-PULSE_INTERVAL_MIN_MINUTES = int(os.getenv("PULSE_INTERVAL_MIN_MINUTES", "30"))
-PULSE_INTERVAL_MAX_MINUTES = int(os.getenv("PULSE_INTERVAL_MAX_MINUTES", "45"))
-# Tightened from 45-60min: over the 09:00-22:00 window this averages ~21 posts/day instead of
-# ~15, pushing weekday volume closer to the 30/day objective. The limit below is raised to match
-# — it used to sit right at the old interval's natural output (~18), which would now silently cap
-# the tighter interval below what it can actually produce.
-DAILY_PULSE_POST_LIMIT = int(os.getenv("DAILY_PULSE_POST_LIMIT", "24"))
+# Backed off from 30-45min/24-a-day: that mix made the feed read as mostly chart snapshots with
+# too little room for actual news. Widening the gap and lowering the daily cap frees up feed share
+# (and Gemini/keyword-post budget headroom) for the news and evergreen-opinion mechanisms instead.
+PULSE_INTERVAL_MIN_MINUTES = int(os.getenv("PULSE_INTERVAL_MIN_MINUTES", "50"))
+PULSE_INTERVAL_MAX_MINUTES = int(os.getenv("PULSE_INTERVAL_MAX_MINUTES", "75"))
+DAILY_PULSE_POST_LIMIT = int(os.getenv("DAILY_PULSE_POST_LIMIT", "14"))
 
 # Maps a post's pool to its (state counter key, daily limit) — one shared lookup so post_tweet/
 # post_poll don't duplicate this logic, and adding a new pool later is a one-line change here.
@@ -4008,6 +4013,15 @@ _EVERGREEN_OPINION_QUERIES = [
     # _AI_INFRA_TOPIC_RE filter downstream still screens out anything that isn't actually
     # infra-relevant.
     'site:datacenterfrontier.com OR site:uptimeinstitute.com OR site:datacentremagazine.com',
+    # Big private-company deals: funding rounds and mega-contracts between AI-infra players that
+    # never show up in per-ticker news because neither side is a public company on the watchlist
+    # (e.g. a private data-center builder raising capital, or signing a multi-billion-dollar buildout
+    # contract with a trading firm/hyperscaler). Named-company OR-list covers the major non-public
+    # (or newly-public) infra players most likely to produce this kind of story.
+    '("data center" OR "AI infrastructure" OR compute) (raises OR raised OR funding OR "series" OR '
+    'valuation OR "billion" OR contract OR deal) (Crusoe OR CoreWeave OR Vantage OR Switch OR '
+    'Lambda OR Nebius OR "Together AI" OR Nscale OR Fluidstack OR "Jane Street" OR "Applied Digital" '
+    'OR QTS OR Aligned OR Compass)',
 ]
 # Direct RSS feeds from credible AI-infra / grid trade press — fetched alongside the topic searches
 # so their coverage reliably surfaces instead of depending on Google News to index it. All confirmed
@@ -4117,10 +4131,10 @@ One post only. No surrounding quotes, no commentary."""
 
 
 def _is_slow_day(state: dict) -> bool:
-    """Past the midpoint of the combined EU+US trading day (>=15:30 CET) but not late evening, AND
-    fewer than SLOW_DAY_SUBSTANTIVE_POST_THRESHOLD substantive (non-pulse) posts out so far — a
-    genuinely quiet news day worth filling with evergreen content."""
-    if not ("15:30" <= now_hhmm() <= "22:00"):
+    """Past the early-afternoon point of the combined EU+US trading day (>=12:00 CET) but not late
+    evening, AND fewer than SLOW_DAY_SUBSTANTIVE_POST_THRESHOLD substantive (non-pulse) posts out
+    so far — a quiet-enough news day worth filling with evergreen content."""
+    if not ("12:00" <= now_hhmm() <= "22:00"):
         return False
     substantive = state.get("daily_posts", 0) + state.get("daily_keyword_posts", 0)
     return substantive < SLOW_DAY_SUBSTANTIVE_POST_THRESHOLD
