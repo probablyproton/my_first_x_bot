@@ -2156,3 +2156,40 @@ https://finance.yahoo.com/markets/stocks/articles/western-digital-director-sold-
 1015,2026-09-05,11:33:26,Saturday,evergreen_opinion,,,gemini,,,,,,,,,,,AMD Announces Threadripper Halo Station: A High-End AI-Centric Developer Workstation,ServeTheHome,https://www.servethehome.com/amd-announces-threadripper-halo-station/,2026-09-04T17:00:02,,,,,,,,,N,post_failed,"ServeTheHome reports AMD’s new Threadripper Halo Station, a high-end AI developer workstation with Threadripper Pro and Instinct MI350P cards. This suggests growing demand for powerful local compute to drive AI development and inference.
 
 https://www.servethehome.com/amd-announces-threadripper-halo-station/",308,,,,,
+1015,2026-09-05,12:01:15,Saturday,weekly_engagement,,saturday,gemini,,,"$AIXA.DE, $AMAT, $AMD, $ANET, $ASML.AS, $AVGO, $BESI.AS, $FORM, $IFX.DE, $KLAC, $LRCX, $MRVL, $MU, $NVDA, $SAP.DE, $SIE.DE, $STX, $SU.PA, $TSM, $WDC",,,,,,,,,,,,,,,,,Y,1,,N,backlog_expired,"WTD numbers:
+
+$AIXA.DE +-0.0%
+$AMAT -1.67%
+$AMD +2.41%
+$ANET -0.88%
+$ASML.AS -0.82%
+$AVGO -3.14%
+$BESI.AS -0.28%
+$FORM +1.38%
+$IFX.DE +0.55%
+$KLAC +5.3%
+$LRCX +1.71%
+$MRVL +3.41%
+$MU +9.0%
+$NVDA +5.25%
+$SAP.DE -1.41%
+$SIE.DE -5.74%
+$STX +2.79%
+$SU.PA -4.2%
+$TSM +2.72%
+$WDC",273,,,,,
+1016,2026-09-05,12:01:36,Saturday,weekend_content,,caption,zero_llm_template,,,"$AIXA.DE, $AMAT, $AMD, $ANET, $ASML.AS, $AVGO, $BESI.AS, $FORM, $IFX.DE, $KLAC, $LRCX, $MRVL, $MU, $NVDA, $SAP.DE, $SIE.DE, $STX, $SU.PA, $TSM, $WDC",,,,,,,,,,,,,,,,,,,,N,post_failed,"This week's names, ranked:
+$MU +9.0% WTD
+$KLAC +5.3% WTD
+$NVDA +5.25% WTD
+
+Monday's open will be the first real test of whether this holds.",139,,,,,
+1017,2026-09-05,12:02:00,Saturday,news_event,,,keyword,NVDA,NVDA,,,,,,,,,Nvidia's $13 Billion Hugging Face Deal Expands Open-Source AI,The Globe and Mail,https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZHI4cFhBUGRhQWwxSFl6T0t6NnZMZ1JfY05ZZUdfVEp3THk3UzhXd2loOXM1UlE2LUEtaHJ1S0dNQWNtbzA2Ul9QZDBzSHV6VW1VVDVxNXJjcjAxVjd0SE1fcVpmNUlwOVl1aXJicC1kN18zdHRYanNDS250U0FvaG1tal9vdGxtT2FlemlKUkpkbHQzbWpOdmd5bHFqZXNvY0JPcVhEZGljc1BWMm9OUWR0VHNlWlBOaElZN19lV2N6YWtwaWhSVzBMQ0NIWVM1Zm15Y3JXSnRYa1Z2?oc=5,2026-09-04T13:22:25,contract,,,,,,,,N,queue_aged_out,,,,,,,
+1018,2026-09-05,12:02:19,Saturday,news_event,,,keyword,WDC,WDC,,,,,466.71,5.97,,,Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?,,https://finance.yahoo.com/markets/stocks/articles/western-digital-director-sold-2-055045902.html?.tsrc=rss,,expansion,,,,,N,4,,N,post_failed,"$WDC ($466.71, +5.97% at last close as of Sep 4): Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?
+
+https://finance.yahoo.com/markets/stocks/articles/western-digital-director-sold-2-055045902.html?.tsrc=rss",259,,,,,
+1019,2026-09-05,12:02:43,Saturday,evergreen_opinion,,,template,,,,,,,,,,,The role of manufacturing in tomorrow’s data center buildouts,DatacenterDynamics,https://www.datacenterdynamics.com/en/opinions/the-role-of-manufacturing-in-tomorrows-data-center-buildouts/,2026-09-05T10:00:34,,,,,,,,,N,post_failed,"On the radar (DatacenterDynamics):
+
+""The role of manufacturing in tomorrow’s data center buildouts""
+
+https://www.datacenterdynamics.com/en/opinions/the-role-of-manufacturing-in-tomorrows-data-center-buildouts/",209,,,,,
