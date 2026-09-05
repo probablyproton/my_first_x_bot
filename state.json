@@ -66,7 +66,7 @@
     "AMAT": 29810282,
     "WDC": 29808992
   },
-  "event_log_next_id": 1037,
+  "event_log_next_id": 1038,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -789,14 +789,14 @@
       "Taiwan government approves TSMC’s 3nm upgrade for second Japan fab",
       "Taiwan’s six-year hunt for China’s undercover chip labs",
       "TSMC says unable to keep pace with AI boom despite fivefold expansion",
+      "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
       "Why Taiwan’s Semiconductor Success Is About Much More Than TSMC",
-      "Taiwan Semiconductor Manufacturing Sees US$67 Billion of Ongoing Construction",
-      "ASU a key partner in US-Taiwan technology relationship",
+      "Arizona-Taiwan partnership advances semiconductor talent and innovation",
+      "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
+      "Taiwan Semiconductor Chemicals Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Solvay to More Than Double Electronic H₂O₂ Capacity in Taiwan",
-      "How Taiwan came to dominate the global chip industry",
       "Taiwan Semiconductor Manufacturing Co Ltd",
-      "All-In on AI: How the United States and Taiwan Are Deepening Their Chip Partnership",
-      "Taiwan Strait Tensions Push Countries to Diversify Semiconductor Supply Chains",
+      "Taiwan Semiconductor Manufacturing Sees US$67 Billion of Ongoing Construction",
       "TSMC (TSM) Increases Despite Market Slip",
       "Prediction: Taiwan Semiconductor Stock Will Surge by 22% Before 2026 Ends",
       "ASML Rockets 4% as TSMC's Tool Hunger Nearly Doubles",
@@ -827,20 +827,20 @@
     ],
     "AVGO": [
       "Broadcom | History, Acquisitions, Controversies, & Facts",
-      "AI’s Next Bottlenecks: Nvidia, Broadcom and CrowdStrike Move Up the Stack",
       "VMware by Broadcom: Product, service and support news",
+      "AI’s Next Bottlenecks: Nvidia, Broadcom and CrowdStrike Move Up the Stack",
       "Nvidia to acquire Hugging Face in $12.9B AI infrastructure deal",
       "Top Midday Stories: Nvidia to Acquire Hugging Face for $12.93 Billion; Broadcom Q3 Adjusted Earnings, Guidance Top Estimates",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
+      "VMware Explore 2026: Broadcom Doubles Down on Private Cloud Economics and Agentic AI",
       "Broadcom Patches Critical VMware Workstation and Fusion VM-Escape Vulnerabilities",
       "Broadcom enlists partners to tie VCF adoption to business outcomes",
       "Broadcom pledges to lock down open source Python, Java libraries",
-      "AI News for the Week of September 4; Updates from Broadcom, Teradata, Wonderful & More",
       "Why Broadcom should buy Arista (and why it won’t)",
+      "AI News for the Week of September 4; Updates from Broadcom, Teradata, Wonderful & More",
       "VMware subtly promises a return to vSphere Standard",
       "Broadcom Introduces TrueSource for Open-Source Software Security",
       "Broadcom Runs on VMware vSphere Kubernetes Service, Containers at Scale, and How to Operate Them Internally",
-      "VMware Cloud Foundation Brings Leading AI Models to the Private AI Cloud",
       "Broadcom (AVGO) AI Revenue Soars, But Wall Street Wants More",
       "Broadcom And 2 Other Undervalued Stocks To Own",
       "Jim Cramer Says “Someone Must Know Something” About Broadcom Inc. (NASDAQ:AVGO)’s Post-Earnings Share Dip",
@@ -862,12 +862,12 @@
       "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know",
       "Precision Trading with Kla Corporation (KLAC) Risk Zones",
       "Marvell Technology, Nova, and KLA Corporation Stocks Trade Down, What You Need To Know",
+      "KLA Corp. stock underperforms Friday when compared to competitors",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "KLA (KLAC) Could Be 26% Undervalued After Its Recent Pullback",
       "Jim Cramer Explains Why He Recommends Buying KLA (KLAC) Stock in Small Doses",
       "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
-      "Is KLA Stock Outperforming the Dow?",
-      "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme"
+      "Is KLA Stock Outperforming the Dow?"
     ],
     "SAP.DE": [
       "SAP Completes Acquisition of Prior Labs",
@@ -892,11 +892,11 @@
       "Darwinbox Appoints Pannie Sia to Lead Enterprise Growth in Southeast Asia"
     ],
     "BESI.AS": [
-      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
+      "BE Semiconductor: Hybrid Bonding Is Becoming AI's Next Bottleneck (OTCMKTS:BESIY)",
+      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
       "BE Semiconductor Industries Acquires Laurier | News & Features | Jan 2002",
       "Changes are imminent in semiconductor equipment! Applied Materials and Lam Research are targeting Besi, aiming to acquire the critical 'hybrid bonding' technology that is vital for AI and memory.",
-      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
-      "Is onsemi's Synaptics Buyout a Defining Bet on the Physical AI Market?",
+      "Acron Technologies Acquires Alereon, Inc., Expanding Its Advanced Defense Capabilities",
       "BE Semiconductor Shares Soar as Fourth Quarter Bookings Double",
       "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
       "Advanced Energy unveils dual-output 400W module for NeoPower configurable power supplies",
@@ -944,9 +944,9 @@
       "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
       "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference | NVIDIA Technical Blog",
       "Breakingviews - COMMENTARY: Nvidia wraps itself in $12.9 bln of insurance",
-      "Nvidia to buy Hugging Face for $13B in big bet on open AI models",
-      "Nvidia donates $10 million to flood recovery, one of Nepal’s biggest corporate donations",
+      "Nvidia to buy Hugging Face for nearly $13 billion in big bet on open AI models",
       "Nvidia buys open-source AI co. Hugging Face for $13b",
+      "Nvidia donates $10 million to flood recovery, one of Nepal’s biggest corporate donations",
       "Nvidia CEO Jensen Huang vows to keep Hugging Face 'an open platform for the entire AI ecosystem'",
       "Nvidia's $13 Billion Hugging Face Deal Expands Open-Source AI",
       "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
@@ -990,12 +990,12 @@
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
       "Advanced Micro Devices (AMD) Faces New AI Data Center Market Shake Up",
       "AMD, NVIDIA raise bar on AI energy efficiency",
+      "Is Advanced Micro Devices Stock Outperforming the Dow?",
       "AMD’s Data Center Revenue and EPS to Double by 2027 — With Shares Down 19%, It’s a Buy",
       "Intel Climbs 4%, AMD Rises 3%, NVIDIA Ticks Up as Chip Stocks Shrug Off Rising Rate Hike Odds",
       "Cathie Wood Cuts AMD and Puts $53 Million Into Nvidia",
       "ORCL Eyes Breakout as AMD and Intel Test Key Support",
-      "Thinking Machines Lab Seeks $40B Valuation as Nvidia Extends Its Capital Allocator Role Into Model-Space",
-      "Cramer Says Nvidia Spent $13 Billion to Make Sure You Never Buy a Rival’s Chip"
+      "Thinking Machines Lab Seeks $40B Valuation as Nvidia Extends Its Capital Allocator Role Into Model-Space"
     ],
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
@@ -1004,20 +1004,20 @@
       "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Analysts Offer Insights on Technology Companies: Infineon Technologies AG (OtherIFNNF) and Salesforce (CRM)",
-      "Infineon Leads the Automotive Semiconductor",
-      "$21.75 Billion eSIM Market Outlook, 2030: Giesecke+Devrient, Infineon Technologies, and Thales Dominate the Industry - ResearchAndMarkets.com",
-      "Price tag, scope of Infineon's factory expansion plans revealed in incentives application",
-      "Cree acquires Infineon’s Morgan Hill plant",
-      "North America Intelligent Power Module Market Report",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
-      "Infineon Introduces New OptiMOS 3 MOSFETs Featuring World’s Lowest On-State Resistance in SuperSO8 Leadless Packages; Increases Power-Density up to 50 Percent in Industrial, Consumer, Telecommunications Applications",
+      "Infineon-led European project Moore4Power launches",
+      "Infineon Leads the Automotive Semiconductor",
+      "Analysts’ Top Technology Picks: Salesforce (CRM), Disco (DISPF)",
+      "North-America Magnetic Current Sensor Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "Influence of Temperature on the Reliability of Graphene‐Based Ozone Sensors - Jain - Small",
+      "North America Intelligent Power Module Market Report",
+      "Infineon Startup Challenge 2026 puts humanoid robotics in the spotlight",
+      "Price tag, scope of Infineon's factory expansion plans revealed in incentives application",
       "Sirin Software Joins Infineon Partner Ecosystem as an Associated Partner",
       "Infineon and Tack One win SICC Award for Best Technological Collaboration",
       "$4.12 Billion Avalanche Breakdown Diodes Market Outlook 2026-2030 - Featuring Profiles of Infineon Technologies, Littelfuse and Vishay Intertechnology",
       "Chip Stocks Edge Higher After Monday Rout",
-      "Infineon and MediaTek partner on automotive AI systems",
-      "Infineon Technologies (XTRA:IFX) Stock Fair Value Rises After Analysts Lift Targets",
-      "Infineon Technologies (XTRA:IFX) Sets Record AI Revenue, Is It Fully Priced?"
+      "Infineon and MediaTek partner on automotive AI systems"
     ],
     "ANET": [
       "Why Broadcom should buy Arista (and why it won’t)",
@@ -1066,9 +1066,9 @@
     "STX": [
       "Seagate (NASDAQ: STX) director prepares stock sale; filing details date and amount",
       "Seagate Stock Surged 685% in One Year on AI Storage Demand. Is It Still Worth Buying?",
-      "Seagate Technology Reports Fiscal Second Quarter 2026 Financial Results",
       "Seagate Technology price target boosted by Bank of America ahead of quarterly report",
       "Wasabi Technologies to acquire Lyve Cloud from Seagate",
+      "Wasabi Technologies Acquires Seagate’s Lyve Cloud Business",
       "Seagate Technology Holdings PLC stock outperforms competitors on strong trading day",
       "Seagate Technology Holdings PLC stock underperforms Thursday when compared to competitors",
       "Seagate to Participate in Upcoming Investor Events",
@@ -1087,20 +1087,20 @@
     ],
     "MU": [
       "Micron purchases PSMC fabrication site in Taiwan for $1.8B",
-      "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
       "Micron Technology (MU) Well-Positioned With New P5 Site Acquisition",
       "Micron Technology’s $1.8bn Acquisition of PSMC’s P5 Fabrication Site",
+      "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron Technology, Inc. Signs Letter of Intent to Acquire P5 Fabrication Site from Powerchip Semiconductor for $1.8 Billion",
       "Micron's Taiwan unions threaten strike over bonus dispute",
       "Micron Technology Tokenized bStocks Price (MUB/USD) Today | Live Price, Market Cap & Chart",
       "Micron Technology Tokenized Stock price today, MUx to USD chart, marketcap and volume",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
       "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
+      "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
       "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
       "Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab",
       "Micron Passes $1 Trillion as AI Memory Demand Sends Shares Soaring",
       "SEMICON Taiwan 2026: Micron Counters Rivals, Declares AI Still 'Massively Undersupplied'",
-      "Microchip Technology, in Collaboration With Micron Technology, Demonstrates High-Performance PCIe",
       "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
       "Recent News From Nvidia and SK Hynix Reveals Exactly What the Market Expects for Micron Technology's Future",
       "China's Biggest Memory Chip Stock Is Almost as Good as Micron",
@@ -1390,27 +1390,7 @@
     ]
   },
   "last_evergreen_min": 29808818,
-  "post_backlog": [
-    {
-      "text": "Last week saw significant M&A activity from EU tech giants. $SAP.DE is buying for AI data, $SIE.DE expanding EDA, while $SU.PA and $IFX.DE also made strategic acquisitions.\n\nIs this intense M&A push positioning European industrials for the next wave of AI-driven demand?",
-      "pool": "llm",
-      "queued_min": 29810372,
-      "log_meta": {
-        "mechanism": "scheduled_slot",
-        "storyline": "eu",
-        "slot_type": "question",
-        "generation_method": "gemini",
-        "symbol": "ASML.AS",
-        "base_symbol": "ASML",
-        "related_tickers": "$IFX, $SU, $SIE, $SAP",
-        "market_phase": "weekend",
-        "price": 1471.8,
-        "change_pct": 3.33,
-        "gemini_call_used": "Y",
-        "gemini_calls_today_after": 8
-      }
-    }
-  ],
+  "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
@@ -1556,7 +1536,8 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "us_slots": [
     {
@@ -1608,6 +1589,7 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ]
 }
