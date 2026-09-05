@@ -66,7 +66,7 @@
     "AMAT": 29801826,
     "WDC": 29808992
   },
-  "event_log_next_id": 987,
+  "event_log_next_id": 989,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -746,13 +746,13 @@
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "FormFactor, Inc. Rings the Closing Bell",
-      "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "Xiaomi unveils a new “mid-fold” form factor with the 18 Fold",
+      "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
       "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
       "Bay Area semiconductor testing company to lay off more than 200 workers",
-      "Formfactor Invests $140 Million To $170 Million To Build Probe Card Manufacturing Facility In Texas",
       "FormFactor Inc (Baldwin Park) WARN Act Investigation",
+      "FormFactor and MPI vie to break SiPh test bottleneck as ficonTEC reportedly exits",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
       "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
@@ -819,9 +819,9 @@
       "AI infrastructure is multi-tiered, and HDDs are central to scaling AI, WD shares",
       "Western Digital Corp. stock underperforms Monday when compared to competitors",
       "WD Customer Survey Highlights Growing Focus on Scale, Economics, and Reliability in AI Infrastructure Planning",
+      "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
       "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
       "WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?",
-      "How Exposed Is Western Digital (WDC) To New Semiconductor Tariffs?",
       "Micron and Western Digital Shares Skyrocket, What You Need To Know",
       "SK Hynix Surges 7% as Memory Bid Widens Beyond NAND; Seagate Rallies 5%"
     ],
@@ -927,8 +927,8 @@
       "Tampere University, Applied Materials, and European Partners Demonstrate Brain-Inspired Computing with 5-Bit Ferroelectric Capacitors to Slash AI Energy...",
       "Applied Materials’ stock buybacks: History & investor impact explained",
       "Have Applied Materials Insiders Been Selling Stock?",
+      "ASU joins Applied Materials' EPIC Center as inaugural university research partner",
       "Semiconductor Wafer Inspection Equipment Market Outlook",
-      "Nouri joins Applied Materials as global head of ventures",
       "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
       "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
       "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?",
@@ -960,9 +960,8 @@
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
-      "EQS-PVR: AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
+      "Aixtron SE vs Veeco Instruments",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
-      "Gallium nitride vertical-channel junction field-effect transistors",
       "Polarization-engineered high mobility of two-dimensional hole gas in GaN",
       "Aixtron Q2 Earnings Call Highlights",
       "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
@@ -998,26 +997,26 @@
       "Cramer Says Nvidia Spent $13 Billion to Make Sure You Never Buy a Rival’s Chip"
     ],
     "IFX.DE": [
+      "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
       "Infineon's Bangalore Bet and Buyback Signal: Why the Market Isn't Buying It",
-      "Germany's Infineon acquires Bengaluru-based C2i Semiconductors to strengthen AI data centre power business",
       "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
-      "Infineon completes €570m ams Osram sensor portfolio acquisition",
       "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
+      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Analysts Offer Insights on Technology Companies: Infineon Technologies AG (OtherIFNNF) and Salesforce (CRM)",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
-      "Infineon Leads the Automotive Semiconductor",
       "Analysts’ Top Technology Picks: Salesforce (CRM), Disco (DISPF)",
       "North-America Magnetic Current Sensor Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "Germany's Infineon acquires Bengaluru-based C2i Semiconductors to strengthen AI data centre power business",
       "Influence of Temperature on the Reliability of Graphene‐Based Ozone Sensors - Jain - Small",
       "North America Intelligent Power Module Market Report",
       "Infineon Startup Challenge 2026 puts humanoid robotics in the spotlight",
+      "Price tag, scope of Infineon's factory expansion plans revealed in incentives application",
       "Sirin Software Joins Infineon Partner Ecosystem as an Associated Partner",
       "Infineon and Tack One win SICC Award for Best Technological Collaboration",
       "$4.12 Billion Avalanche Breakdown Diodes Market Outlook 2026-2030 - Featuring Profiles of Infineon Technologies, Littelfuse and Vishay Intertechnology",
       "Chip Stocks Edge Higher After Monday Rout",
-      "Infineon and MediaTek partner on automotive AI systems",
-      "Infineon Technologies (XTRA:IFX) Stock Fair Value Rises After Analysts Lift Targets"
+      "Infineon and MediaTek partner on automotive AI systems"
     ],
     "ANET": [
       "Why Broadcom should buy Arista (and why it won’t)",
@@ -1098,8 +1097,8 @@
       "MarketWatch reports Micron may increase production of memory for AI",
       "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
       "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
-      "SEMICON Taiwan 2026: Micron Counters Rivals, Declares AI Still 'Massively Undersupplied'",
       "Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab",
+      "SEMICON Taiwan 2026: Micron Counters Rivals, Declares AI Still 'Massively Undersupplied'",
       "Micron Passes $1 Trillion as AI Memory Demand Sends Shares Soaring",
       "Micron and Western Digital Shares Skyrocket, What You Need To Know",
       "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
@@ -1109,106 +1108,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "ma",
-        "headline": "Why Marvell Stock Rallied Today",
-        "reason": "Keyword rule matched (category: ma)"
-      },
-      "link": "https://www.nasdaq.com/articles/why-marvell-stock-rallied-today",
-      "source": "The Motley Fool",
-      "method": "keyword",
-      "published": "2026-09-04T17:21:50",
-      "queued_min": 29809261,
-      "all_articles": [
-        {
-          "headline": "Deal Dispatch: Nvidia Buys Hugging Face for $12.9 Billion, Barilla Acquires Goodles, Park Place Partners Bankruptcy",
-          "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxONlJNdm9jcUN2Y2JlMXNEXy1iX0JCV3FQdXdlYnM4aHJhVkZHRjg3YXI3aWNPVkNQbkxWUkw5RG5QY0tFRnUtZm9fYy1menFYRG0xcTZjbjBpcGZtcU85YWZ2ZDRtNEVVTlRseG5qRW81ZjhiYXhIcTczTWY2Q0hVVnRrRF8zUERGUUY0UTBCWDlDTzczZnhDcE9NV21Rc1dSSjlrR3ZiTTFPVFc2cGYxQi1YMmtYU2lqaHN4Z21wX29Ra3RCN1U3ZHlaeUxoWi10TXg0NFJGeXhDbDdmdm1NZzUzUXpGbEVJc3I0?oc=5",
-          "source": "Benzinga",
-          "summary": "",
-          "published": "2026-09-04T18:46:27"
-        },
-        {
-          "headline": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
-          "link": "https://finance.yahoo.com/m/d5001ca0-1c20-3379-83c3-ddca4526f9c2/dow-jones-futures%3A-nvidia%2C.html?.tsrc=rss",
-          "source": null,
-          "summary": "The stock market fell this week before bouncing. Nvidia, Micron, Sandisk are new buys, but for how long? Apple, inflation data loom.",
-          "published": "2026-09-04T20:52:46"
-        },
-        {
-          "headline": "Jensen Huang Said This Word Exactly 1 Time During Nvidia's Earnings Call, and That Was Enough to Put Artificial Intelligence (AI) Bubble Fears to Rest",
-          "link": "https://www.fool.com/investing/2026/09/04/jensen-huang-said-this-word-exactly-1-time-during/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Some investors worry that the pace of artificial intelligence (AI) infrastructure build-outs is not sustainable.",
-          "published": "2026-09-04T20:28:00"
-        },
-        {
-          "headline": "Why The Trade Desk Stock Fell 5.7% Today",
-          "link": "https://www.fool.com/investing/2026/09/04/why-the-trade-desk-stock-fell-57-today/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Is The Trade Desk's restructuring a warning sign? The filing offered few details, and investors reacted accordingly.",
-          "published": "2026-09-04T20:16:44"
-        },
-        {
-          "headline": "Cramer Says the Magnificent Seven Are Finally Cheap and Most Investors Will Miss It",
-          "link": "https://247wallst.com/investing/2026/09/04/cramer-says-the-magnificent-seven-are-finally-cheap-and-most-investors-will-miss-it/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "Jim Cramer is calling the Magnificent Seven a generational buying opportunity, but the argument only holds for some of them, and getting that distinction wrong is an expensive mistake.",
-          "published": "2026-09-04T19:00:50"
-        },
-        {
-          "headline": "Vertex vs. Regeneron: Which Biotech Giant Is the Better Buy Right Now?",
-          "link": "https://www.fool.com/investing/2026/09/04/vertex-vs-regeneron-which-biotech-giant-is-the-bet/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "They could both outperform the market over the medium term, but one appears to have a clear edge.",
-          "published": "2026-09-04T18:50:00"
-        },
-        {
-          "headline": "The Nasdaq, S&P 500, and Dow All Fell Slightly Friday. The Jobs Report Wasn't Really Why.",
-          "link": "https://www.fool.com/investing/2026/09/04/the-nasdaq-sp-500-and-dow-all-fell-slightly-friday/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "August payrolls came in three times hotter than expected. Stocks barely flinched. What's going on?",
-          "published": "2026-09-04T18:37:30"
-        },
-        {
-          "headline": "After Hours Most Active for Sep 4, 2026 :  NIO, INTC, TEVA, AMZN, F, NVDA, XOM, KO, CNH, ABUS, META, SMCI",
-          "link": "https://www.nasdaq.com/articles/after-hours-most-active-sep-4-2026-nio-intc-teva-amzn-f-nvda-xom-ko-cnh-abus-meta-smci",
-          "source": "NASDAQ.com",
-          "summary": "The NASDAQ 100 After Hours Indicator is down -45.18 to 29,498.97. The total After hours volume is currently 112,199,562 shares traded.The following are the most active stocks for the after hours session: NIO Inc. (NIO) is +0.0015 at $3.80, with 7,386,156 shares traded. NIO's cur",
-          "published": "2026-09-04T20:29:52"
-        },
-        {
-          "headline": "Founder-Led Companies That Are Redefining Technology and Growth",
-          "link": "https://www.nasdaq.com/articles/founder-led-companies-are-redefining-technology-and-growth",
-          "source": "Zacks",
-          "summary": "NVIDIA, Amazon, Palantir, Dell and Fortinet stand out as founder-run companies with strong vision, innovation and long-term growth drivers.",
-          "published": "2026-09-04T18:08:00"
-        },
-        {
-          "headline": "3 Top Quantum Computing Stocks to Buy in September",
-          "link": "https://www.nasdaq.com/articles/3-top-quantum-computing-stocks-buy-september",
-          "source": "The Motley Fool",
-          "summary": "Key PointsAlphabet is heavily investing in quantum computing.",
-          "published": "2026-09-04T17:43:00"
-        },
-        {
-          "headline": "Why Marvell Stock Rallied Today",
-          "link": "https://www.nasdaq.com/articles/why-marvell-stock-rallied-today",
-          "source": "The Motley Fool",
-          "summary": "Key PointsAI chip and infrastructure stocks got a lift from Nvidia's acquisition of Hugging Face.",
-          "published": "2026-09-04T17:21:50"
-        },
-        {
-          "headline": "Prediction: Vera Rubin Is About to Become a $20 Billion Windfall for Nvidia by Next Quarter",
-          "link": "https://www.nasdaq.com/articles/prediction-vera-rubin-about-become-20-billion-windfall-nvidia-next-quarter",
-          "source": "The Motley Fool",
-          "summary": "Key PointsData center sales today make up roughly 90% of Nvidia's entire business.",
-          "published": "2026-09-04T16:20:00"
-        }
-      ]
-    },
     {
       "symbol": "AVGO",
       "classification": {
