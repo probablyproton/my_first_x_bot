@@ -1,9 +1,9 @@
 {
-  "date": "2026-09-05",
+  "date": "2026-09-06",
   "daily_posts": 0,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 9,
+  "gemini_calls_today": 0,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-30",
@@ -66,7 +66,7 @@
     "AMAT": 29810282,
     "WDC": 29808992
   },
-  "event_log_next_id": 1041,
+  "event_log_next_id": 1042,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -326,7 +326,7 @@
       "Siemens acquires Altair to create most complete AI-powered po",
       "Latham & Watkins Advises Siemens in Completed US$5.1 Billion Acquisition of Dotmatics",
       "Germany’s Siemens Energy to acquire family-owned Lisburn electrical manufacturing specialist Camlin",
-      "Siemens Acquires Industrial Simulation Software Co. Altair Engineering in $10 Billion Deal",
+      "DownStream Acquisition Fits Siemens’ ‘Left-Shift’ Model",
       "Siemens acquires Heliox, specialist in eBus and eTruck fast chargi ...",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
@@ -751,8 +751,8 @@
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
       "Xiaomi unveils a new “mid-fold” form factor with the 18 Fold",
+      "FormFactor Inc (Carlsbad) WARN Act Investigation",
       "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
-      "Bay Area semiconductor testing company to lay off more than 200 workers",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
       "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
@@ -815,10 +815,10 @@
       "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
       "Western Digital Adds Post-Quantum Cryptography to Hard Drives",
       "How Western Digital used AI to turbocharge collection of supplier emissions data",
-      "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
       "Western Digital Updates Convertible Note Exchange, Reveals Exact Share Issuance",
       "Western Digital jumps 16% amid memory chip stocks rally",
-      "Western Digital Corp. stock underperforms Monday when compared to competitors",
+      "WD Customer Survey Highlights Growing Focus on Scale, Economics, and Reliability in AI Infrastructure Planning",
+      "AI infrastructure is multi-tiered, and HDDs are central to scaling AI, WD shares",
       "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
       "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
       "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
@@ -835,23 +835,23 @@
       "VMware Explore 2026: Broadcom Doubles Down on Private Cloud Economics and Agentic AI",
       "Broadcom Patches Critical VMware Workstation and Fusion VM-Escape Vulnerabilities",
       "Broadcom enlists partners to tie VCF adoption to business outcomes",
-      "VMware Workstation VM-Escape Bug Hits CVSS 9.3 [2026]",
       "Broadcom pledges to lock down open source Python, Java libraries",
+      "VMware Workstation VM-Escape Bug Hits CVSS 9.3 [2026]",
       "VMware subtly promises a return to vSphere Standard",
-      "Node.js: Old Technique Makes a Comeback",
+      "Broadcom Introduces TrueSource for Open-Source Software Security",
       "Broadcom Runs on VMware vSphere Kubernetes Service, Containers at Scale, and How to Operate Them Internally",
+      "VMware Cloud Foundation Brings Leading AI Models to the Private AI Cloud",
       "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
       "With AI Revenue Set to Surge 400% Over the Next 2 Years, Broadcom Stock Looks Like a Buy on Recent Dip",
       "Broadcom (AVGO) AI Revenue Soars, But Wall Street Wants More",
       "Broadcom And 2 Other Undervalued Stocks To Own",
-      "Jim Cramer Says “Someone Must Know Something” About Broadcom Inc. (NASDAQ:AVGO)’s Post-Earnings Share Dip",
-      "Top Research Reports for Apple, Broadcom & Shell"
+      "Jim Cramer Says “Someone Must Know Something” About Broadcom Inc. (NASDAQ:AVGO)’s Post-Earnings Share Dip"
     ],
     "KLAC": [
       "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
       "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
       "Kwik Lok acquires full ownership of Kwik Lok Australia",
-      "2 Mooning Semiconductor Stocks with Competitive Advantages and 1 We Find Risky",
+      "2 Unpopular Stocks That Deserve Some Love and 1 We Brush Off",
       "Semiconductor Manufacturing Stocks Q4 Results: Benchmarking KLA Corporation (NASDAQ:KLAC)",
       "KLA Corp. stock outperforms competitors on strong trading day",
       "Semiconductor Wafer Inspection Equipment Market Outlook",
@@ -875,15 +875,15 @@
       "SAP to Acquire Reltio: Make SAP and Non-SAP Data AI-Ready",
       "A&O Shearman advises SAP on strategic AI acquisitions of Dremio and Prior Labs",
       "Sap SE - Completes Acquisition Of Prior Labs",
-      "SAP Completes Acquisition of Dremio",
-      "SAP Completes Acquisition of Reltio",
-      "SAP and IBM Announce Client Momentum Across IBM Technology and SAP Cloud ERP Private to Drive AI Innovation",
-      "SAP Launches Defense Innovation Hub in Munich",
       "SAP CEO: the AI race is being fought in the wrong place",
-      "David Robinson Named President of SAP North America",
-      "A Cocktail of Intelligent Solutions From SAP Goes Live at Campari Group",
-      "Thomas Saueressig Appointed SAP Chief Customer Officer",
       "SAP Plans to Expand AI Access to Customers Who Don’t Use Cloud",
+      "SAP SE Stock (SAP) Moved Up by 4.06% on Jul 29: Key Drivers Unveiled",
+      "SAP SE Investigated by the Portnoy Law Firm",
+      "SAP SE Launches Munich Hub to Boost Military Digital Readiness",
+      "SAP: Thomas Saueressig Appointed Chief Customer Officer As Company Reorganizes Board To Accelerate AI Focus",
+      "SAP Completes Acquisition of Dremio",
+      "SAP Restricts Hiring, Travel to Fund ‘Significant’ AI Push",
+      "SAP Completes Acquisition of Reltio",
       "Digital Product Passport Market Projected to Hit $28.80 Billion by 2035 | SNS Insider",
       "AI Is Coming for One of Legacy Software’s Most Defensible Businesses as a New Challenger Takes on Oracle, SAP and Workday",
       "Element Appoints James Lee to the Board of Directors",
@@ -919,6 +919,7 @@
       "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
       "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
       "Applied Materials Targets $3.5 Billion Electrochemical Deposition Market With NEXX Acquisition",
+      "Applied Materials, Inc. Tokenized Stock price today, AMATx to USD chart, marketcap and volume",
       "Applied Materials’ Advanced Packaging Vision: AI Scaling Is Becoming a System Integration Problem",
       "Applied Materials Inc. stock outperforms competitors on strong trading day",
       "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
@@ -926,9 +927,8 @@
       "Applied Materials’ stock buybacks: History & investor impact explained",
       "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
       "Nouri joins Applied Materials as global head of ventures",
-      "Have Applied Materials Insiders Been Selling Stock?",
       "Benicia chip manufacturing tool maker acquired by Applied Materials",
-      "Applied Materials, Inc. AMAT Stock Price Analysis Today Pfe Stock (giTbKajXWo)",
+      "Have Applied Materials Insiders Been Selling Stock?",
       "Jim Cramer Shares His Playbook for Buying Applied Materials (AMAT)",
       "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
       "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
@@ -996,21 +996,21 @@
       "Thinking Machines Lab Seeks $40B Valuation as Nvidia Extends Its Capital Allocator Role Into Model-Space"
     ],
     "IFX.DE": [
-      "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
-      "Infineon's Bangalore Bet and Buyback Signal: Why the Market Isn't Buying It",
+      "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
+      "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
+      "Infineon Completes Acquisition of Marvell’s Automotive Ethernet Business",
       "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
-      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
-      "Infineon to Acquire Indian Power Management Company C2i Semiconductors",
+      "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
       "Analysts’ Top Technology Picks: Salesforce (CRM), Disco (DISPF)",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
       "Infineon Leads the Automotive Semiconductor",
-      "North-America Magnetic Current Sensor Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "North-America Automotive Semiconductor Market Size, Share,Trends, Growth Analysis Report, 2030",
       "North America Intelligent Power Module Market Report",
+      "North-America Magnetic Current Sensor Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Infineon Startup Challenge 2026 puts humanoid robotics in the spotlight",
       "Infineon Technologies officially opens new R&D Centre in Cork",
       "Price tag, scope of Infineon's factory expansion plans revealed in incentives application",
-      "Hyundai Motor and Kia Strengthen Power Semiconductor Supply through Strategic Partnership with Infineon",
       "Sirin Software Joins Infineon Partner Ecosystem as an Associated Partner",
       "Infineon and Tack One win SICC Award for Best Technological Collaboration",
       "$4.12 Billion Avalanche Breakdown Diodes Market Outlook 2026-2030 - Featuring Profiles of Infineon Technologies, Littelfuse and Vishay Intertechnology",
@@ -1018,11 +1018,11 @@
       "Infineon and MediaTek partner on automotive AI systems"
     ],
     "ANET": [
-      "Why Broadcom should buy Arista (and why it won’t)",
-      "Arista Results Highlight AI Networking Growth And VeloCloud SD WAN Expansion",
       "Arista Networks patches VeloCloud exploit inherited from Broadcom buy",
+      "Arista Results Highlight AI Networking Growth And VeloCloud SD WAN Expansion",
       "Celestica vs. Arista: Which AI Infrastructure Stock is a Better Buy?",
       "Arista acquires VeloCloud SD-WAN business from Broadcom",
+      "Most significant networking acquisitions of 2025",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "J. Goldman takes new $6.97M stake in Arista Networks",
       "ANET to SGD: Arista Networks • Robinhood Token Price in Singapore Dollar",
@@ -1030,7 +1030,7 @@
       "Arista Networks : ANET Stock Analysis With Elliott Wave + Trade Setup Richard Gere (Ue8qPhtAlT)",
       "Arista Networks CFO Chantelle Breithaupt Sells 612 Shares Under Rule 10b5-1 Plan",
       "If You Invested $1000 In Arista Networks Stock 10 Years Ago, You Would Have This Much Today",
-      "Arista Networks Stock: Buy or Sell?",
+      "Arista adds AI-driven zero trust to VeloCloud SD-WAN",
       "How Much Track Is Left For ANET Stock?",
       "ANET Rises 37.3% in Six Months: Is There More Room to Grow?",
       "Arista Networks Offers Entry After 42% Gain Amid Earnings Beat; Data Center Demand Surging",
@@ -1066,7 +1066,7 @@
       "Seagate (STX) EVP & CTO logs RSU exercises and 573.75-share sale",
       "Wasabi Technologies to acquire Lyve Cloud from Seagate",
       "Wasabi Technologies Acquires Seagate’s Lyve Cloud Business",
-      "Wasabi acquires Seagate’s cloud storage service in return for equity",
+      "Seagate vs. NetApp: Which Data Storage Stock is the Smarter Buy?",
       "Seagate Technology Holdings PLC stock outperforms competitors on strong trading day",
       "Seagate Technology Holdings PLC stock underperforms Thursday when compared to competitors",
       "Seagate to Participate in Upcoming Investor Events",
@@ -1089,16 +1089,16 @@
       "Micron Technology’s $1.8bn Acquisition of PSMC’s P5 Fabrication Site",
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron Technology, Inc. Signs Letter of Intent to Acquire P5 Fabrication Site from Powerchip Semiconductor for $1.8 Billion",
-      "Micron Technology Tokenized Stock price today, MUx to USD chart, marketcap and volume",
       "Micron Technology Tokenized bStocks Price (MUB/USD) Today | Live Price, Market Cap & Chart",
       "Micron's Taiwan unions threaten strike over bonus dispute",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
       "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
       "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
       "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
-      "Micron Passes $1 Trillion as AI Memory Demand Sends Shares Soaring",
       "Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab",
+      "Micron Passes $1 Trillion as AI Memory Demand Sends Shares Soaring",
       "SEMICON Taiwan 2026: Micron Counters Rivals, Declares AI Still 'Massively Undersupplied'",
+      "Have Insiders Sold Micron Technology Shares Recently?",
       "Dow Jones Futures: U.S., Iran Exchange Attacks; Nvidia, Micron, Sandisk Flash Buy Signals",
       "Why Is Micron Technology (MU) CEO Being Honored In Taiwan?",
       "Dell’s Monster Quarter Just Confirmed Micron’s Biggest Opportunity Is Not Just HBM",
@@ -1583,13 +1583,58 @@
       "slot": 0,
       "type": "hook",
       "target_time": "10:00",
+      "fire_time": "10:01"
+    },
+    {
+      "slot": 1,
+      "type": "analytical",
+      "target_time": "11:30",
+      "fire_time": "11:27"
+    },
+    {
+      "slot": 2,
+      "type": "analytical",
+      "target_time": "13:00",
+      "fire_time": "12:57"
+    },
+    {
+      "slot": 3,
+      "type": "question",
+      "target_time": "14:30",
+      "fire_time": "14:27"
+    },
+    {
+      "slot": 4,
+      "type": "analytical",
+      "target_time": "16:00",
+      "fire_time": "15:59"
+    },
+    {
+      "slot": 5,
+      "type": "question",
+      "target_time": "17:30",
+      "fire_time": "17:34"
+    },
+    {
+      "slot": 6,
+      "type": "wrap",
+      "target_time": "19:00",
+      "fire_time": "19:00"
+    }
+  ],
+  "eu_posted": [],
+  "us_slots": [
+    {
+      "slot": 0,
+      "type": "hook",
+      "target_time": "10:00",
       "fire_time": "09:57"
     },
     {
       "slot": 1,
       "type": "analytical",
       "target_time": "11:30",
-      "fire_time": "11:28"
+      "fire_time": "11:34"
     },
     {
       "slot": 2,
@@ -1601,7 +1646,7 @@
       "slot": 3,
       "type": "question",
       "target_time": "14:30",
-      "fire_time": "14:33"
+      "fire_time": "14:25"
     },
     {
       "slot": 4,
@@ -1613,75 +1658,14 @@
       "slot": 5,
       "type": "question",
       "target_time": "17:30",
-      "fire_time": "17:25"
+      "fire_time": "17:29"
     },
     {
       "slot": 6,
       "type": "wrap",
       "target_time": "19:00",
-      "fire_time": "19:03"
+      "fire_time": "18:57"
     }
   ],
-  "eu_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-  ],
-  "us_slots": [
-    {
-      "slot": 0,
-      "type": "hook",
-      "target_time": "10:00",
-      "fire_time": "09:58"
-    },
-    {
-      "slot": 1,
-      "type": "analytical",
-      "target_time": "11:30",
-      "fire_time": "11:33"
-    },
-    {
-      "slot": 2,
-      "type": "analytical",
-      "target_time": "13:00",
-      "fire_time": "12:56"
-    },
-    {
-      "slot": 3,
-      "type": "question",
-      "target_time": "14:30",
-      "fire_time": "14:31"
-    },
-    {
-      "slot": 4,
-      "type": "analytical",
-      "target_time": "16:00",
-      "fire_time": "16:00"
-    },
-    {
-      "slot": 5,
-      "type": "question",
-      "target_time": "17:30",
-      "fire_time": "17:30"
-    },
-    {
-      "slot": 6,
-      "type": "wrap",
-      "target_time": "19:00",
-      "fire_time": "19:02"
-    }
-  ],
-  "us_posted": [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6
-  ]
+  "us_posted": []
 }
