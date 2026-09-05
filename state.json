@@ -66,7 +66,7 @@
     "AMAT": 29810282,
     "WDC": 29808992
   },
-  "event_log_next_id": 1035,
+  "event_log_next_id": 1036,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -328,6 +328,7 @@
       "Germany’s Siemens Energy to acquire family-owned Lisburn electrical manufacturing specialist Camlin",
       "Siemens acquires Altair to create most complete AI-powered po",
       "DownStream Acquisition Fits Siemens’ ‘Left-Shift’ Model",
+      "Siemens at Work on $10 Billion in North American Projects, Driven by Renewables, NGCC",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Haddy scales AI-enabled adaptative microfactories with Siemens Xcelerator",
@@ -337,7 +338,6 @@
       "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
       "Siemens Launches Wendell Microgrid at HQ Campus",
       "Siemens invests $200M in U.S. electrical manufacturing",
-      "Siemens Achieves $1B in U.S. Manufacturing Investments",
       "Siemens (XTRA:SIE) Is A Key Player In Smart Grid Markets",
       "Smart Grid Market Report 2026-2036 Now Available. Sizes the Global Market at $63.81B (2026), Profiling ABB, GE Vernova, Siemens, Schneider Electric, and 78 Other Key Players",
       "Smart Meter Data Management Report Forecasts Market Growth from $2.49B (2025) to $12.65B by 2035, Profiling Oracle, Landis+Gyr, Itron, Siemens, Schneider Electric, and 48 Other Key Players",
@@ -771,8 +771,8 @@
       "LAM Research to offer 240-hour training to make people employable in electronics, mechanical assembly jobs",
       "Lam Research Launches Skill Development Program in India to Boost Advanced Manufacturing Talent",
       "Lam Research Breaks Ground on Oregon Lab for AI Semiconductor R&D",
-      "LAM RESEARCH CORP (NASDAQ: LRCX) Senior VP Varadarajan Seshasayee Disposes of 59,750 Shares at $291.32 Each",
       "Is Lam Research Stock Outperforming the Nasdaq?",
+      "LAM RESEARCH CORP (NASDAQ: LRCX) Senior VP Varadarajan Seshasayee Disposes of 59,750 Shares at $291.32 Each",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
       "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?",
       "4 Stocks to Buy That Declared Dividend Hikes Amid Geopolitical Woes",
@@ -817,8 +817,8 @@
       "How Western Digital used AI to turbocharge collection of supplier emissions data",
       "Western Digital Updates Convertible Note Exchange, Reveals Exact Share Issuance",
       "Western Digital jumps 16% amid memory chip stocks rally",
-      "Western Digital Corp. stock underperforms Monday when compared to competitors",
       "WD Customer Survey Highlights Growing Focus on Scale, Economics, and Reliability in AI Infrastructure Planning",
+      "AI infrastructure is multi-tiered, and HDDs are central to scaling AI, WD shares",
       "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
       "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
       "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
@@ -826,17 +826,18 @@
       "Micron and Western Digital Shares Skyrocket, What You Need To Know"
     ],
     "AVGO": [
+      "Broadcom | History, Acquisitions, Controversies, & Facts",
+      "AI’s Next Bottlenecks: Nvidia, Broadcom and CrowdStrike Move Up the Stack",
+      "VMware by Broadcom: Product, service and support news",
       "Nvidia to acquire Hugging Face in $12.9B AI infrastructure deal",
-      "VMware subtly promises a return to vSphere Standard",
-      "With VCF 9 'bedrock' in place, Broadcom fleshes out private AI",
-      "How Broadcom’s VMware buy meant a ‘fundamental shift’ for county tech",
-      "Cloud providers continue to push EU court to undo Broadcom-VMware merger",
+      "Top Midday Stories: Nvidia to Acquire Hugging Face for $12.93 Billion; Broadcom Q3 Adjusted Earnings, Guidance Top Estimates",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
       "Broadcom Patches Critical VMware Workstation and Fusion VM-Escape Vulnerabilities",
       "Broadcom enlists partners to tie VCF adoption to business outcomes",
-      "AI News for the Week of September 4; Updates from Broadcom, Teradata, Wonderful & More",
       "Broadcom pledges to lock down open source Python, Java libraries",
+      "AI News for the Week of September 4; Updates from Broadcom, Teradata, Wonderful & More",
       "Why Broadcom should buy Arista (and why it won’t)",
+      "VMware subtly promises a return to vSphere Standard",
       "Broadcom Runs on VMware vSphere Kubernetes Service, Containers at Scale, and How to Operate Them Internally",
       "The Next VMware Growth Opportunity Starts with Our Partners - Broadcom Newsroom",
       "Broadcom and Supermicro unify AI factory management",
@@ -844,8 +845,7 @@
       "Broadcom And 2 Other Undervalued Stocks To Own",
       "Jim Cramer Says “Someone Must Know Something” About Broadcom Inc. (NASDAQ:AVGO)’s Post-Earnings Share Dip",
       "Top Research Reports for Apple, Broadcom & Shell",
-      "5-star analyst resets Broadcom stock price target",
-      "Broadcom Crushed Earnings and the Stock Fell Anyway. Investors Are Ignoring a $230 Billion Signal."
+      "5-star analyst resets Broadcom stock price target"
     ],
     "KLAC": [
       "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
@@ -854,14 +854,14 @@
       "2 Mooning Semiconductor Stocks with Competitive Advantages and 1 We Find Risky",
       "Semiconductor Manufacturing Stocks Q4 Results: Benchmarking KLA Corporation (NASDAQ:KLAC)",
       "KLA Corp. stock outperforms competitors on strong trading day",
+      "KLA Corporation Tokenized Stock (Robinhood): Latest News, Social Media Updates and Insights",
       "Semiconductor Wafer Inspection Equipment Market Outlook",
-      "KLA Corp (Derivatives): Latest News, Social Media Updates and Insights",
       "KLA Corporation Rings the Closing Bell",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "KLA Corporation Price Today | xKLAC Live Price, Chart & Market Cap",
       "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know",
+      "KLA Corp (Derivatives): Latest News, Social Media Updates and Insights",
       "Precision Trading with Kla Corporation (KLAC) Risk Zones",
-      "Marvell Technology, Nova, and KLA Corporation Stocks Trade Down, What You Need To Know",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "KLA (KLAC) Could Be 26% Undervalued After Its Recent Pullback",
       "Jim Cramer Explains Why He Recommends Buying KLA (KLAC) Stock in Small Doses",
@@ -924,7 +924,7 @@
       "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
       "ASU joins Applied Materials' EPIC Center as inaugural university research partner",
       "Applied Materials’ stock buybacks: History & investor impact explained",
-      "Semiconductor Wafer Inspection Equipment Market Outlook",
+      "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
       "Have Applied Materials Insiders Been Selling Stock?",
       "Nouri joins Applied Materials as global head of ventures",
       "Benicia chip manufacturing tool maker acquired by Applied Materials",
@@ -953,9 +953,9 @@
       "3 Incredible High-Growth Stocks to Buy With $10,000 Right Now",
       "If You Buy Amazon With $10,000 at a 10% Discount From Its High, Here's What I Predict It Could Be Worth in 10 Years",
       "Are Stocks Going to Plunge if Congress Is Split Under President Donald Trump",
-      "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
-      "Here's How Many Shares of Procter & Gamble You'd Need for $15,000 in Yearly Dividends",
-      "Why Deere Stock Hit an All-Time High This Week"
+      "Why I'm Still Investing in VTI Right Now No Matter What the Stock Market Does",
+      "If a Downturn Is Coming, 50 Years of Market History Says This Is the Single Best Response",
+      "Here's How Many Shares of Procter & Gamble You'd Need for $15,000 in Yearly Dividends"
     ],
     "AIXA.DE": [
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
@@ -999,10 +999,10 @@
     ],
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
+      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon's Bangalore Bet and Buyback Signal: Why the Market Isn't Buying It",
       "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
       "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
-      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Analysts Offer Insights on Technology Companies: Infineon Technologies AG (OtherIFNNF) and Salesforce (CRM)",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
@@ -1088,9 +1088,9 @@
     "MU": [
       "Micron purchases PSMC fabrication site in Taiwan for $1.8B",
       "Micron Technology (MU) Well-Positioned With New P5 Site Acquisition",
+      "Micron Technology’s $1.8bn Acquisition of PSMC’s P5 Fabrication Site",
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron Technology, Inc. Signs Letter of Intent to Acquire P5 Fabrication Site from Powerchip Semiconductor for $1.8 Billion",
-      "Micron to Buy Taiwan Plant for $1.8 Billion",
       "Micron's Taiwan unions threaten strike over bonus dispute",
       "Micron Technology Tokenized bStocks Price (MUB/USD) Today | Live Price, Market Cap & Chart",
       "Micron Technology Tokenized Stock price today, MUx to USD chart, marketcap and volume",
@@ -1416,25 +1416,6 @@
   "last_evergreen_min": 29808818,
   "post_backlog": [
     {
-      "text": "Morgan Stanley lifted its $AVGO price target to $505, citing surging AI chip demand and Hock Tan's bold revenue outlook. This could signal strong analyst conviction in Broadcom's AI play moving forward. #AI\n\nhttps://www.thestreet.com/investing/stocks/morgan-stanley-broadcom-avgo-stock-price-target?.tsrc=rss",
-      "pool": "llm",
-      "queued_min": 29810282,
-      "log_meta": {
-        "mechanism": "scheduled_slot",
-        "storyline": "us",
-        "slot_type": "analytical",
-        "generation_method": "gemini",
-        "symbol": "AVGO",
-        "base_symbol": "AVGO",
-        "related_tickers": "$NVDA, $AMD, $MU, $AMAT",
-        "market_phase": "weekend",
-        "price": 357.07,
-        "change_pct": 0.17,
-        "gemini_call_used": "Y",
-        "gemini_calls_today_after": 7
-      }
-    },
-    {
       "text": "Last week saw significant M&A activity from EU tech giants. $SAP.DE is buying for AI data, $SIE.DE expanding EDA, while $SU.PA and $IFX.DE also made strategic acquisitions.\n\nIs this intense M&A push positioning European industrials for the next wave of AI-driven demand?",
       "pool": "llm",
       "queued_min": 29810372,
@@ -1650,6 +1631,7 @@
     1,
     2,
     3,
-    4
+    4,
+    5
   ]
 }
