@@ -66,7 +66,7 @@
     "AMAT": 29810102,
     "WDC": 29808992
   },
-  "event_log_next_id": 1026,
+  "event_log_next_id": 1028,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -336,8 +336,8 @@
       "North Jersey site sold to pharma company planning to create 1,000 jobs",
       "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
       "Siemens Launches Wendell Microgrid at HQ Campus",
-      "Tobias Bauer",
       "Siemens invests $200M in U.S. electrical manufacturing",
+      "Siemens Achieves $1B in U.S. Manufacturing Investments",
       "Siemens (XTRA:SIE) Is A Key Player In Smart Grid Markets",
       "Smart Grid Market Report 2026-2036 Now Available. Sizes the Global Market at $63.81B (2026), Profiling ABB, GE Vernova, Siemens, Schneider Electric, and 78 Other Key Players",
       "Smart Meter Data Management Report Forecasts Market Growth from $2.49B (2025) to $12.65B by 2035, Profiling Oracle, Landis+Gyr, Itron, Siemens, Schneider Electric, and 48 Other Key Players",
@@ -455,20 +455,20 @@
     ],
     "SU.PA": [
       "Schneider Electric to Acquire Grid Resilience Solutions Provider AiDASH for $350 Million",
-      "Schneider Electric Agrees to Acquire AiDASH for $350 Million",
       "Schneider Electric Announces Intention To Acquire Cognite",
       "List of 64 Acquisitions by Schneider Electric (Aug 2026)",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
+      "Schneider Electric acquires Cognite for $3.1B in industrial AI push",
       "Energy technology company to close Tualatin facility, eliminate 87 jobs",
       "Schneider’s New Home EV Charger Undercuts Tesla’s By Bundling A Big Feature",
-      "Schneider Electric Named a Top Charitable Company",
+      "Schneider Electric Appoints Business Vice President",
       "Global electric company to close Portland-area factory, lay off 87",
       "Schneider Electric launches Yuva Yodha tech hackathon",
       "Driving efficient water usage through closed-loop cooling",
       "Schneider Electric home EV charger uses smart load management",
       "Boosting Operational Efficiency in Multi-site Businesses",
       "Schneider Electric's shares deliver over 900% return in 5 yrs | 'The growth runway of stock could continue' | Inshorts",
-      "Schneider Electric Appoints Business Vice President",
+      "Schneider Electric on powering the Global South’s next phase of growth",
       "Is Schneider Electric (ENXTPA:SU) Overvalued After A 108% Five Year Return?",
       "Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accelerate",
       "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
@@ -768,8 +768,8 @@
       "Lam Research Corp. stock outperforms competitors on strong trading day",
       "Lam Research Corp Stock (LRCX) Opened Up by 4.61% on Sep 4",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
-      "LAM RESEARCH CORP (NASDAQ: LRCX) Senior VP Varadarajan Seshasayee Disposes of 59,750 Shares at $291.32 Each",
       "LAM Research to offer 240-hour training to make people employable in electronics, mechanical assembly jobs",
+      "LAM RESEARCH CORP (NASDAQ: LRCX) Senior VP Varadarajan Seshasayee Disposes of 59,750 Shares at $291.32 Each",
       "Lam Research Launches Skill Development Program in India to Boost Advanced Manufacturing Talent",
       "Lam Research Breaks Ground on Oregon Lab for AI Semiconductor R&D",
       "Is Lam Research Stock Outperforming the Nasdaq?",
@@ -862,12 +862,12 @@
       "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know",
       "KLA Corp (Derivatives): Latest News, Social Media Updates and Insights",
       "Precision Trading with Kla Corporation (KLAC) Risk Zones",
-      "Marvell Technology, Nova, and KLA Corporation Stocks Trade Down, What You Need To Know",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "KLA (KLAC) Could Be 26% Undervalued After Its Recent Pullback",
       "Jim Cramer Explains Why He Recommends Buying KLA (KLAC) Stock in Small Doses",
       "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
-      "Is KLA Stock Outperforming the Dow?"
+      "Is KLA Stock Outperforming the Dow?",
+      "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme"
     ],
     "SAP.DE": [
       "SAP Completes Acquisition of Prior Labs",
@@ -927,8 +927,8 @@
       "Have Applied Materials Insiders Been Selling Stock?",
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials strives to cooperate with chipmakers to shorten equipment lead time",
-      "Tampere University, Applied Materials, and European Partners Demonstrate Brain-Inspired Computing with 5-Bit Ferroelectric Capacitors to Slash AI Energy...",
       "Applied Materials, Inc. AMAT Stock Price Analysis Today Pfe Stock (giTbKajXWo)",
+      "Tampere University, Applied Materials, and European Partners Demonstrate Brain-Inspired Computing with 5-Bit Ferroelectric Capacitors to Slash AI Energy...",
       "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
       "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
       "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?",
@@ -937,29 +937,30 @@
     ],
     "NVDA": [
       "Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips",
+      "Nvidia bets $13 billion on open AI models with Hugging Face deal",
       "Nvidia confirms $13 billion acquisition of open-weight AI platform Hugging Face",
       "Nvidia inks $13 billion deal to buy the AI startup that was hacked by OpenAI",
       "Nvidia confirms $12.9B acquisition of AI hosting platform Hugging Face",
-      "Nvidia Acquires AI Platform Hugging Face for About $13 Billion",
       "Hugging Face approached Nvidia’s Huang weeks ahead of $12.9B acquisition, CEO tells CNBC",
       "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference | NVIDIA Technical Blog",
-      "Nvidia donates $10 million to flood recovery, one of Nepal’s biggest corporate donations",
       "Breakingviews - COMMENTARY: Nvidia wraps itself in $12.9 bln of insurance",
+      "Nvidia donates $10 million to flood recovery, one of Nepal’s biggest corporate donations",
       "Nvidia to buy Hugging Face for $13B in big bet on open AI models",
       "Nvidia CEO Jensen Huang vows to keep Hugging Face 'an open platform for the entire AI ecosystem'",
       "Nvidia's $13 Billion Hugging Face Deal Expands Open-Source AI",
       "Nvidia to buy AI platform Hugging Face for US$12.9 billion",
+      "Jim Cramer Breaks Down P/E Multiples Explaining Why NVIDIA (NVDA) Looks Cheaper Than ServiceNow",
       "Jensen Huang Just Sent a Signal That Could Matter More Than the September Effect",
       "Is SCHD Still the Best Dividend ETF You Can Buy for Passive Income",
-      "3 Unstoppable Dow Stocks to Buy in September",
+      "If a Market Crash Is Coming, Here's the 1 Thing You Should Do, According to Warren Buffett",
       "Palantir Billionaire Peter Thiel Just Bought Shares of This AI Stock That’s Climbed 200,000% Since Its IPO -- And It’s His Top Position.",
       "Watch Out, Solana and Ethereum. Robinhood's Blockchain Is Eating Your Lunch.",
-      "Michael Saylor's Strategy Continues to Sell Bitcoin. That's Why I'm Doubling Down on Bitcoin Right Now.",
-      "Is Greg Abel Betting on Lower Interest Rates? The Berkshire Hathaway CEO Just Trimmed Bank Stocks Like Bank of America and Bought 3 Stocks That Would Benefit From Lower Yields."
+      "Michael Saylor's Strategy Continues to Sell Bitcoin. That's Why I'm Doubling Down on Bitcoin Right Now."
     ],
     "AIXA.DE": [
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "EQS-PVR: AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
+      "Aixtron SE vs Veeco Instruments",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Polarization-engineered high mobility of two-dimensional hole gas in GaN",
       "Aixtron Q2 Earnings Call Highlights",
@@ -1018,13 +1019,12 @@
       "Infineon and MediaTek partner on automotive AI systems"
     ],
     "ANET": [
+      "Why Broadcom should buy Arista (and why it won’t)",
       "Arista Networks patches VeloCloud exploit inherited from Broadcom buy",
       "Celestica vs. Arista: Which AI Infrastructure Stock is a Better Buy?",
       "Arista acquires VeloCloud SD-WAN business from Broadcom",
-      "Arista buys VeloCloud from Broadcom",
-      "Arista acquires VeloCloud from Broadcom and Todd Nightingale joins as president and COO",
+      "Most significant networking acquisitions of 2025",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
-      "Why Broadcom should buy Arista (and why it won’t)",
       "J. Goldman takes new $6.97M stake in Arista Networks",
       "ANET to SGD: Arista Networks • Robinhood Token Price in Singapore Dollar",
       "Arista Networks Tokenized Stock (Robinhood)",
@@ -1037,7 +1037,8 @@
       "Arista Networks Offers Entry After 42% Gain Amid Earnings Beat; Data Center Demand Surging",
       "The \"Untouchable\" List: Stocks That Short Sellers Won't Dare Bet Against",
       "Ciena Tumbles 10% as In-Line Guidance Overshadows Earnings Beat, Arista Edges Higher",
-      "Why Is Arista Networks (ANET) Down 5.7% Since Last Earnings Report?"
+      "Why Is Arista Networks (ANET) Down 5.7% Since Last Earnings Report?",
+      "Is Arista Networks Stock Outperforming the Dow?"
     ],
     "ASML.AS": [
       "Top Midday Stories: PayPal Reportedly Gets Acquisition Offer From Stripe, Advent; ASML Misses Q2 EPS, Sales Estimates, Lifts Outlook",
@@ -1437,25 +1438,6 @@
   "last_evergreen_min": 29808818,
   "post_backlog": [
     {
-      "text": "Semiconductors: $BESI.AS announced Q4-25 and Full Year 2025 results. This unusually early disclosure suggests significant forward visibility or a strategic message.\n\nWhat does management see that far out? #Semiconductors",
-      "pool": "llm",
-      "queued_min": 29810012,
-      "log_meta": {
-        "mechanism": "scheduled_slot",
-        "storyline": "eu",
-        "slot_type": "analytical",
-        "generation_method": "gemini",
-        "symbol": "AIXA.DE",
-        "base_symbol": "AIXA",
-        "related_tickers": "$BESI",
-        "market_phase": "weekend",
-        "price": 36.15,
-        "change_pct": 2.03,
-        "gemini_call_used": "Y",
-        "gemini_calls_today_after": 4
-      }
-    },
-    {
       "text": "Morgan Stanley raises $AVGO price target to $505, citing surging AI chip demand & Hock Tan's bold revenue outlook. This reflects high conviction in Broadcom's strategic positioning for the ongoing AI infrastructure build-out.\n\n#AI #Semiconductors\n\nhttps://www.thestreet.com/investing/stocks/morgan-stanley-broadcom-avgo-stock-price-target?.tsrc=rss",
       "pool": "llm",
       "queued_min": 29810102,
@@ -1616,7 +1598,8 @@
   ],
   "eu_posted": [
     0,
-    1
+    1,
+    2
   ],
   "us_slots": [
     {
