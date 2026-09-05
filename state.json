@@ -66,7 +66,7 @@
     "AMAT": 29801826,
     "WDC": 29808992
   },
-  "event_log_next_id": 998,
+  "event_log_next_id": 1001,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -324,10 +324,10 @@
     ],
     "SIE.DE": [
       "Siemens to acquire Defacto Technologies to complement its EDA portfolio with automated SoC design creation",
-      "Siemens acquires electric manufacturer Russelectric",
       "Latham & Watkins Advises Siemens in Completed US$5.1 Billion Acquisition of Dotmatics",
       "Germany’s Siemens Energy to acquire family-owned Lisburn electrical manufacturing specialist Camlin",
       "Siemens Energy begins preparations for the launch of an independent brand",
+      "Siemens acquires Altair to create most complete AI-powered po",
       "Siemens Invests $165M for U.S. Data Center Manufacturing",
       "Siemens Energy’s $421 million N.C. expansion adding 500 jobs",
       "Haddy scales AI-enabled adaptative microfactories with Siemens Xcelerator",
@@ -337,7 +337,7 @@
       "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
       "Siemens Launches Wendell Microgrid at HQ Campus",
       "Tobias Bauer",
-      "Siemens Achieves $1B in U.S. Manufacturing Investments",
+      "Siemens invests $200M in U.S. electrical manufacturing",
       "Siemens (XTRA:SIE) Is A Key Player In Smart Grid Markets",
       "Smart Grid Market Report 2026-2036 Now Available. Sizes the Global Market at $63.81B (2026), Profiling ABB, GE Vernova, Siemens, Schneider Electric, and 78 Other Key Players",
       "Smart Meter Data Management Report Forecasts Market Growth from $2.49B (2025) to $12.65B by 2035, Profiling Oracle, Landis+Gyr, Itron, Siemens, Schneider Electric, and 48 Other Key Players",
@@ -463,8 +463,8 @@
       "Schneider’s New Home EV Charger Undercuts Tesla’s By Bundling A Big Feature",
       "Schneider Electric Named a Top Charitable Company",
       "Global electric company to close Portland-area factory, lay off 87",
-      "Boosting Operational Efficiency in Multi-site Businesses",
       "Schneider Electric launches Yuva Yodha tech hackathon",
+      "Boosting Operational Efficiency in Multi-site Businesses",
       "Driving efficient water usage through closed-loop cooling",
       "Schneider Electric home EV charger uses smart load management",
       "Schneider Electric’s new Level 2 residential EV charger has built-in load management",
@@ -723,11 +723,11 @@
       "What Does Marvell's Acquisition of Celestial AI Mean for Photonics?",
       "September 1, 2026 - 144: Report of proposed sale of securities",
       "Best Semiconductor Stock to Buy: Marvell Stock or Qualcomm Stock?",
-      "Marvell Tokenized Stock price today, MRVLX to USD chart, marketcap and volume",
       "Marvell Technology (Backpack Securities)",
       "Marvell Expands Memory Disaggregation Strategy to Ease AI Infrastructure Bottlenecks",
       "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
       "Google pits Marvell against Broadcom as it chases AI crown",
+      "Can Marvell Technology (NASDAQ:MRVL) Turn Market Focus Into Momentum?",
       "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
       "Marvell to Invest $250 Million in India, Expanding Bangalore Facility to Drive Next-generation AI Technology Development",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
@@ -742,7 +742,7 @@
       "FormFactor (FORM) Announces the Acquisition of Keystone Photonics, Here’s What You Need to Know",
       "FormFactor acquires Keystone Photonics to boost silicon photonics testing",
       "Navellier & Associates Inc. Acquires New Shares in FormFactor, Inc. $FORM",
-      "OpenAI Acquires Thousands of Mac Computers for AI Training",
+      "Can AI Infrastructure Demand Keep Driving FormFactor Stock Higher?",
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "FormFactor, Inc. Rings the Closing Bell",
@@ -819,11 +819,11 @@
       "Western Digital jumps 16% amid memory chip stocks rally",
       "AI infrastructure is multi-tiered, and HDDs are central to scaling AI, WD shares",
       "Western Digital Corp. stock underperforms Monday when compared to competitors",
+      "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
       "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
       "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
       "WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?",
-      "Micron and Western Digital Shares Skyrocket, What You Need To Know",
-      "SK Hynix Surges 7% as Memory Bid Widens Beyond NAND; Seagate Rallies 5%"
+      "Micron and Western Digital Shares Skyrocket, What You Need To Know"
     ],
     "AVGO": [
       "Broadcom | History, Acquisitions, Controversies, & Facts",
@@ -876,6 +876,7 @@
       "A&O Shearman advises SAP on strategic AI acquisitions of Dremio and Prior Labs",
       "Sap SE - Completes Acquisition Of Prior Labs",
       "SAP Completes Acquisition of Dremio",
+      "SAP and IBM Announce Client Momentum Across IBM Technology and SAP Cloud ERP Private to Drive AI Innovation",
       "SAP Completes Acquisition of Reltio",
       "SAP CEO: the AI race is being fought in the wrong place",
       "SAP Restricts Hiring, Travel to Fund ‘Significant’ AI Push",
@@ -883,7 +884,6 @@
       "SAP SE Stock (SAP) Moved Up by 4.06% on Jul 29: Key Drivers Unveiled",
       "A Cocktail of Intelligent Solutions From SAP Goes Live at Campari Group",
       "SAP and Google Cloud Expand Partnership to Deploy Multi-Agent AI",
-      "Analysts Offer Insights on Technology Companies: SAP SE (SAP) and TSMC (TSM)",
       "Digital Product Passport Market Projected to Hit $28.80 Billion by 2035 | SNS Insider",
       "AI Is Coming for One of Legacy Software’s Most Defensible Businesses as a New Challenger Takes on Oracle, SAP and Workday",
       "Element Appoints James Lee to the Board of Directors",
@@ -898,6 +898,7 @@
       "Exclusive-Besi fields takeover interest on surging demand for advanced chip packaging, sources say",
       "Changes are imminent in semiconductor equipment! Applied Materials and Lam Research are targeting Besi, aiming to acquire the critical 'hybrid bonding' technology that is vital for AI and memory.",
       "BE Semiconductor Shares Soar as Fourth Quarter Bookings Double",
+      "BE Semiconductor Industries Acquires Laurier | News & Features | Jan 2002",
       "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
       "Breakingviews - COMMENTARY: Europe's chip programme could do with a reset",
       "Advanced Energy unveils dual-output 400W module for NeoPower configurable power supplies",
@@ -906,7 +907,6 @@
       "Besi Advances Repayment of its 2029 Convertible Bonds",
       "Applied Materials Purchases 9% of BE Semiconductor Industries",
       "Optimizing Semiconductor Defect Classification with Generative AI and Vision Foundation Models",
-      "Applied Materials announces a strategic investment in BE semiconductor industries",
       "Is BE Semiconductor Industries (BESIY) Stock Outpacing Its Computer and Technology Peers This Year?",
       "Chip Stocks Driven Higher by Nvidia Results and Guidance",
       "Chip Stocks Mixed Ahead of Nvidia Earnings",
@@ -926,8 +926,8 @@
       "Tampere University, Applied Materials, and European Partners Demonstrate Brain-Inspired Computing with 5-Bit Ferroelectric Capacitors to Slash AI Energy...",
       "Applied Materials’ stock buybacks: History & investor impact explained",
       "Have Applied Materials Insiders Been Selling Stock?",
-      "ASU joins Applied Materials' EPIC Center as inaugural university research partner",
       "Semiconductor Wafer Inspection Equipment Market Outlook",
+      "Applied Materials strives to cooperate with chipmakers to shorten equipment lead time",
       "Nouri joins Applied Materials as global head of ventures",
       "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
       "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
@@ -980,14 +980,14 @@
       "Advanced Micro Devices (AMD) Adds AI Inference Silicon With Taalas Acquisition",
       "Advanced Micro Devices Stock Ran The Roadmap It Had Already Published",
       "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Enfant (79wLLpE4c1)",
-      "Advanced Micro Devices Inc (Derivatives) Price (AMD/USD) Today | Live Price, Market Cap & Chart",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
+      "Advanced Micro Devices Inc (Derivatives) Price (AMD/USD) Today | Live Price, Market Cap & Chart",
       "How AMD Became One of the World’s Leading Semiconductor Companies",
-      "Latham Watkins Advises Advanced Micro Devices Inc on Revolving Credit Facility",
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
       "Advanced Micro Devices (NASDAQ:AMD) Momentum Cools After A Powerful AI Run",
       "Advanced Micro Devices (AMD) Faces New AI Data Center Market Shake Up",
       "AMD, NVIDIA raise bar on AI energy efficiency",
+      "Why Is AMD Stock Sliding on Friday?",
       "Not Nvidia. Not AMD. This Semiconductor Giant Will Be the Ultimate Winner of the Artificial Intelligence (AI) Hardware Race.",
       "AMD’s Data Center Revenue and EPS to Double by 2027 — With Shares Down 19%, It’s a Buy",
       "Intel Climbs 4%, AMD Rises 3%, NVIDIA Ticks Up as Chip Stocks Shrug Off Rising Rate Hike Odds",
@@ -1108,29 +1108,6 @@
   },
   "pending_news_posts": [
     {
-      "symbol": "AVGO",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "Broadcom Crushed Earnings and the Stock Fell Anyway. Investors Are Ignoring a $230 Billion Signal.",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://www.barchart.com/story/news/4450066/broadcom-crushed-earnings-and-the-stock-fell-anyway-investors-are-ignoring-a-230-billion-signal?.tsrc=rss",
-      "source": "barchart.com",
-      "method": "keyword",
-      "published": "2026-09-04T17:13:13",
-      "queued_min": 29809411,
-      "all_articles": [
-        {
-          "headline": "Broadcom Crushed Earnings and the Stock Fell Anyway. Investors Are Ignoring a $230 Billion Signal.",
-          "link": "https://www.barchart.com/story/news/4450066/broadcom-crushed-earnings-and-the-stock-fell-anyway-investors-are-ignoring-a-230-billion-signal?.tsrc=rss",
-          "source": "barchart.com",
-          "summary": "Broadcom's near-term guidance disappointed investors, but its $230 billion AI revenue target for 2028 points to much bigger growth ahead.",
-          "published": "2026-09-04T17:13:13"
-        }
-      ]
-    },
-    {
       "symbol": "NVDA",
       "classification": {
         "is_major": true,
@@ -1192,6 +1169,29 @@
           "source": null,
           "summary": "Nvidia Corp. (NASDAQ:NVDA)’s shares are up by 22% year-to-date as their performance has remained muted after posting major gains in the previous years. While the narrative for the firm surrounds the sustainability of the AI infrastructure buildout and profitability, Cramer has focused on the share price performance. The CNBC TV host has been one of […]",
           "published": "2026-09-04T22:46:59"
+        }
+      ]
+    },
+    {
+      "symbol": "WDC",
+      "classification": {
+        "is_major": true,
+        "category": "expansion",
+        "headline": "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
+        "reason": "Keyword rule matched (category: expansion)"
+      },
+      "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-director-sold-2-055045902.html?.tsrc=rss",
+      "source": null,
+      "method": "keyword",
+      "published": "2026-09-05T05:50:45",
+      "queued_min": 29809801,
+      "all_articles": [
+        {
+          "headline": "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/western-digital-director-sold-2-055045902.html?.tsrc=rss",
+          "source": null,
+          "summary": "Western Digital director Stephanie Streeter’s family trust sold 5,600 shares across August 31 and September 1 for $2,519,280. The prices ranged from $447.06 to $455, and the trust retained 34,807 shares after the transactions. Western Digital Corporation (NASDAQ:WDC) had climbed roughly 448% over the 12 months through September 2, so the sale landed when investors […]",
+          "published": "2026-09-05T05:50:45"
         }
       ]
     }
