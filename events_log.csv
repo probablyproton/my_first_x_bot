@@ -2375,3 +2375,24 @@ https://www.nasdaq.com/articles/most-investors-overpay-ai-hype-nvidia-exception"
 1054,2026-09-06,09:31:48,Sunday,news_event,,,keyword,NVDA,NVDA,,,,,229.5,-0.05,,,"AA Financial Advisors LLC Acquires 2,173 Shares of NVIDIA Corporation $NVDA",marketbeat.com,https://www.marketbeat.com/instant-alerts/filing-aa-financial-advisors-llc-acquires-2173-shares-of-nvidia-corporation-nvda-2026-09-06/,,large_share_purchases,,,,,N,0,,N,post_failed,"$NVDA ($229.5, -0.05% at last close as of Sep 4): AA Financial Advisors LLC Acquires 2,173 Shares of NVIDIA Corporation $NVDA
 
 https://www.marketbeat.com/instant-alerts/filing-aa-financial-advisors-llc-acquires-2173-shares-of-nvidia-corporation-nvda-2026-09-06/",261,,,,,
+1055,2026-09-06,10:02:23,Sunday,scheduled_slot,eu,hook,gemini,ASML.AS,ASML,"$IFX, $SU, $SIE, $SAP",,,weekend,1471.8,3.33,,,,,,,,,,,,Y,1,,N,post_failed_backlogged,"EU tech players leaned into M&A this week.
+
+$ASML.AS: SK Hynix EUV demand.
+$IFX.DE: C2i Semi, ams OSRAM sensor buys.
+$SU.PA: AiDASH (grid), Cognite (digital) M&A.
+$SIE.DE: Altair (AI/SW) acquired; Dotmatics closed.
+$SAP.DE: Dremio, Reltio targeted for AI/data.",260,,,,,
+1056,2026-09-06,10:03:42,Sunday,scheduled_slot,us,hook,gemini,AVGO,AVGO,"$NVDA, $AMD, $MU, $AMAT",,,weekend,357.07,0.17,,,,,,,,,,,,Y,2,,N,post_failed_backlogged,"AI demand fueled semis this week, with $AVGO's outlook a highlight:
+
+$AVGO: MS raises PT to $505 on AI.
+$NVDA: Strategic buys expand AI focus.
+$AMD: MEXT buy for memory.
+$MU: $1.8B PSMC site buy.
+$AMAT: NEXX buy for AI packaging.
+
+https://www.thestreet.com/investing/stocks/morgan-stanley-broadcom-avgo-stock-price-target?.tsrc=rss",331,,,,,
+1057,2026-09-06,10:04:18,Sunday,evergreen_opinion,,,template,,,,,,,,,,,The role of manufacturing in tomorrow’s data center buildouts,DatacenterDynamics,https://www.datacenterdynamics.com/en/opinions/the-role-of-manufacturing-in-tomorrows-data-center-buildouts/,2026-09-05T10:00:34,,,,,,,,,N,post_failed,"On the radar (DatacenterDynamics):
+
+""The role of manufacturing in tomorrow’s data center buildouts""
+
+https://www.datacenterdynamics.com/en/opinions/the-role-of-manufacturing-in-tomorrows-data-center-buildouts/",209,,,,,
