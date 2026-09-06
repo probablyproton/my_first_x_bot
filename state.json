@@ -66,7 +66,7 @@
     "AMAT": 29810282,
     "WDC": 29808992
   },
-  "event_log_next_id": 1053,
+  "event_log_next_id": 1054,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -466,8 +466,8 @@
       "Schneider Electric home EV charger uses smart load management",
       "Driving efficient water usage through closed-loop cooling",
       "Schneider Electric Appoints Business Vice President",
-      "Schneider Electric targets home EV charging capacity limits",
       "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
+      "Schneider Electric targets home EV charging capacity limits",
       "Schneider Electric To Partners: Stop Treating UPS As A One-And-Done Sale",
       "Is Schneider Electric (ENXTPA:SU) Overvalued After A 108% Five Year Return?",
       "Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accelerate",
@@ -751,8 +751,8 @@
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
       "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
-      "FormFactor Inc (Carlsbad) WARN Act Investigation",
       "Xiaomi unveils a new “mid-fold” form factor with the 18 Fold",
+      "Bay Area semiconductor testing company to lay off more than 200 workers",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
       "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
@@ -761,10 +761,10 @@
     ],
     "LRCX": [
       "Proficio Capital Partners LLC Acquires 7,555 Shares of Lam Research Corporation $LRCX",
+      "Is Lam Research Corporation (LRCX) Eyeing Besi Industries Merger Amid IBM Pact for Logic Scaling",
       "Lam Research Announces Retirement of Michael R. Cannon and Sohail U. Ahmed from Board of Directors",
       "Exchange Traded Concepts LLC Acquires 79,850 Shares of Lam Research Corporation $LRCX",
-      "Is Lam Research Corporation (LRCX) Eyeing Besi Industries Merger Amid IBM Pact for Logic Scaling",
-      "Field & Main Bank Acquires New Shares in Lam Research Corporation $LRCX",
+      "Applied Materials, Lam Research may be interested in acquiring BE Semiconductor: report (AMAT:NASDAQ)",
       "Lam Research Corp. stock outperforms competitors on strong trading day",
       "Lam Research Corp Stock (LRCX) Opened Up by 4.61% on Sep 4",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
@@ -806,8 +806,8 @@
     "WDC": [
       "Western Digital (WDC) Revives Kioxia Merger Talks Over Flash Memory Assets",
       "Western Digital Stock Rallies As Street Hikes Targets And Merger Talk Returns",
-      "Western Digital Stock Jumped 13% in a Day. Is the Bounce Real?",
       "Western Digital (WDC) Surges 12.5% to $548 - Kioxia Merger Talks, $900 Analyst Target",
+      "Western Digital Stock Jumped 13% in a Day. Is the Bounce Real?",
       "WDC and Kioxia \"Re-Opened Talks\" : Potential NAND Deal That Could Reshape Storage",
       "Western Digital Corp. stock underperforms Friday when compared to competitors despite daily gains",
       "Western Digital Corp. stock underperforms Thursday when compared to competitors",
@@ -835,11 +835,11 @@
       "VMware Explore 2026: Broadcom Doubles Down on Private Cloud Economics and Agentic AI",
       "Broadcom enlists partners to tie VCF adoption to business outcomes",
       "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade",
-      "Broadcom Patches Critical VMware Workstation and Fusion VM-Escape Vulnerabilities",
       "Why Broadcom should buy Arista (and why it won’t)",
+      "Broadcom Patches Critical VMware Workstation and Fusion VM-Escape Vulnerabilities",
       "VMware subtly promises a return to vSphere Standard",
-      "Broadcom Introduces TrueSource for Open-Source Software Security",
       "Broadcom Runs on VMware vSphere Kubernetes Service, Containers at Scale, and How to Operate Them Internally",
+      "Broadcom Introduces TrueSource for Open-Source Software Security",
       "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
       "With AI Revenue Set to Surge 400% Over the Next 2 Years, Broadcom Stock Looks Like a Buy on Recent Dip",
       "Broadcom (AVGO) AI Revenue Soars, But Wall Street Wants More",
@@ -982,12 +982,12 @@
       "AMD set for 90% crash on this date, according to expert",
       "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Malaga Fc (5R9rL8CZaZ)",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
+      "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
       "Advanced Micro Devices Inc (Derivatives) Price (AMD/USD) Today | Live Price, Market Cap & Chart",
-      "How AMD Became One of the World’s Leading Semiconductor Companies",
       "Latham Watkins Advises Advanced Micro Devices Inc on Revolving Credit Facility",
+      "How AMD Became One of the World’s Leading Semiconductor Companies",
       "Advanced Micro Devices (AMD) Faces New AI Data Center Market Shake Up",
       "AMD, NVIDIA raise bar on AI energy efficiency",
-      "AMD acquires software built by URI professor and colleagues",
       "AMD Committed Up to $5 Billion to Anthropic, and Anthropic's IPO Prospectus Is Reportedly Days Away",
       "AMD’s Data Center Revenue and EPS to Double by 2027 — With Shares Down 19%, It’s a Buy",
       "Intel Climbs 4%, AMD Rises 3%, NVIDIA Ticks Up as Chip Stocks Shrug Off Rising Rate Hike Odds",
@@ -1106,101 +1106,7 @@
       "China's Biggest Memory Chip Stock Is Almost as Good as Micron"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "Most Investors Overpay for AI Hype. Nvidia Is the Exception.",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://www.nasdaq.com/articles/most-investors-overpay-ai-hype-nvidia-exception",
-      "source": "The Motley Fool",
-      "method": "keyword",
-      "published": "2026-09-05T14:29:00",
-      "queued_min": 29810706,
-      "all_articles": [
-        {
-          "headline": "3 Nuclear Stocks to Buy With $2,000 After One Fell 83%",
-          "link": "https://www.fool.com/investing/2026/09/05/3-nuclear-stocks-to-buy-with-usd2-000-after-one-fell-83/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "The stock that crashed 83% designs the reactors -- the companies selling the fuel and the power are still getting paid.",
-          "published": "2026-09-05T20:43:01"
-        },
-        {
-          "headline": "Is SK Hynix (NasdaqGS:SKHY) Undervalued On Tariff Talks And AI Memory Demand?",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/sk-hynix-nasdaqgs-skhy-undervalued-190646491.html?.tsrc=rss",
-          "source": null,
-          "summary": "SK hynix (NasdaqGS:SKHY) stock moved after reports of new tariff talks between South Korea and the U.S. on chip investment and market access. The news drew attention to the company’s AI-focused memory manufacturing plans. Over the past month SK hynix has seen a 1 month share price return of 17.2%, building on a 7 day share price return of 9.9% and leaving the stock with a more modest year to date share price return of 5.4%. Recent gains have come as investors react to AI data center demand,...",
-          "published": "2026-09-05T19:06:46"
-        },
-        {
-          "headline": "Will Eli Lilly Split Its Stock",
-          "link": "https://www.fool.com/investing/2026/09/05/will-eli-lilly-split-its-stock-what-history-says/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Fundamentals, not a stock split, will determine whether the bull case for Eli Lilly continues.",
-          "published": "2026-09-05T18:52:00"
-        },
-        {
-          "headline": "Kraken Robotics Stock Is Down 55% -- Is September the Month to Buy the Dip?",
-          "link": "https://www.nasdaq.com/articles/kraken-robotics-stock-down-55-september-month-buy-dip",
-          "source": "The Motley Fool",
-          "summary": "Key PointsKraken Robotics stock has seen a huge pullback since hitting a lifetime high in March 2026.",
-          "published": "2026-09-05T16:22:00"
-        },
-        {
-          "headline": "Most Investors Overpay for AI Hype. Nvidia Is the Exception.",
-          "link": "https://www.nasdaq.com/articles/most-investors-overpay-ai-hype-nvidia-exception",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNvidia's second-quarter revenue more than doubled to $96.2 billion.",
-          "published": "2026-09-05T14:29:00"
-        },
-        {
-          "headline": "3 Incredible High-Growth Stocks to Buy With $10,000 Right Now",
-          "link": "https://www.nasdaq.com/articles/3-incredible-high-growth-stocks-buy-10000-right-now",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNvidia is growing rapidly at a cheap price tag.",
-          "published": "2026-09-05T14:04:00"
-        },
-        {
-          "headline": "Recent News From Nvidia and SK Hynix Reveals Exactly What the Market Expects for Micron Technology's Future",
-          "link": "https://www.nasdaq.com/articles/recent-news-nvidia-and-sk-hynix-reveals-exactly-what-market-expects-micron-technologys",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNvidia increased its supply commitments by $160 billion last quarter, mostly related to memory.",
-          "published": "2026-09-05T12:05:00"
-        },
-        {
-          "headline": "Nvidia Just Doubled Its Revenue",
-          "link": "https://www.nasdaq.com/articles/nvidia-just-doubled-its-revenue-heres-why-stock-has-underperformed-its-peers",
-          "source": "The Motley Fool",
-          "summary": "Nvidia (NASDAQ: NVDA) recently reported a quarter in which the company not only more than doubled revenue and beat expectations for both revenue and earnings, but also raised its guidance for the rest of its fiscal year. But there's one metric that has kept the stock from perform",
-          "published": "2026-09-05T11:31:00"
-        },
-        {
-          "headline": "Nvidia Stock: Buy or Sell? (My Final Verdict)",
-          "link": "https://www.nasdaq.com/articles/nvidia-stock-buy-or-sell-my-final-verdict",
-          "source": "The Motley Fool",
-          "summary": "Nvidia (NASDAQ: NVDA) is forecasting robust growth for the fiscal year 2028.",
-          "published": "2026-09-05T09:50:00"
-        },
-        {
-          "headline": "Jensen Huang Just Sent a Signal That Could Matter More Than the September Effect",
-          "link": "https://www.nasdaq.com/articles/jensen-huang-just-sent-signal-could-matter-more-september-effect",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNvidia expects fiscal 2028 revenue growth of about 70%, even though customer forecasts point to stronger demand.",
-          "published": "2026-09-05T09:14:00"
-        },
-        {
-          "headline": "Broadcom (AVGO) Stock Is Down After Q3 Earnings: Is It Too Soon to Buy the Dip?",
-          "link": "https://www.nasdaq.com/articles/broadcom-avgo-stock-down-after-q3-earnings-it-too-soon-buy-dip",
-          "source": "Zacks",
-          "summary": "Despite posting strong quarterly results this week, Broadcom stock is down almost 15% over the last month and more than 25% below its all-time high reached in June.",
-          "published": "2026-09-04T22:20:00"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
