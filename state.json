@@ -3,10 +3,10 @@
   "daily_posts": 0,
   "daily_keyword_posts": 1,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 8,
+  "gemini_calls_today": 11,
   "evergreen_opinion_posts_today": 1,
   "engagement": {
-    "sunday": "2026-08-30",
+    "sunday": "2026-09-06",
     "monday": "2026-08-31",
     "wednesday": "2026-08-26",
     "friday": "2026-08-21",
@@ -38,8 +38,8 @@
     "APLD": 1412,
     "DLR": 1173,
     "EOAN.DE": 1142,
-    "SIE.DE": 29811722,
-    "SU.PA": 29811722,
+    "SIE.DE": 29811903,
+    "SU.PA": 29811903,
     "ENGI.PA": 1142,
     "ERIC": 1007,
     "NVT": 1315,
@@ -47,7 +47,7 @@
     "POWL": 1097,
     "NOK": 1172,
     "NEE": 992,
-    "SAP.DE": 29811722,
+    "SAP.DE": 29811903,
     "STX": 29808871,
     "AIXA.DE": 29811632,
     "NVDA": 29811812,
@@ -56,8 +56,8 @@
     "MU": 29811812,
     "AMD": 29811812,
     "BESI.AS": 29811632,
-    "ASML.AS": 29811722,
-    "IFX.DE": 29811722,
+    "ASML.AS": 29811903,
+    "IFX.DE": 29811903,
     "LRCX": 29804731,
     "FORM": 29808931,
     "AVGO": 29811812,
@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1082,
+  "event_log_next_id": 1086,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -334,8 +334,8 @@
       "Haddy scales AI-enabled adaptative microfactories with Siemens Xcelerator",
       "Raleigh to land jobs from Siemens Energy's billion-dollar U.S. investment",
       "Siemens Energy plans 500 new jobs in Charlotte, Raleigh + NC in $421M expansion",
-      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
       "North Jersey site sold to pharma company planning to create 1,000 jobs",
+      "Siemens Healthineers Experience Center USA opens in Charlotte’s Innovation District",
       "Siemens Mobility North America Appoints Shornda Cadore as Chief Procurement Officer",
       "Siemens invests $200M in U.S. electrical manufacturing",
       "Siemens (XTRA:SIE) Is A Key Player In Smart Grid Markets",
@@ -748,11 +748,11 @@
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "FormFactor, Inc. Rings the Closing Bell",
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
+      "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
       "Bay Area semiconductor testing company to lay off more than 200 workers",
       "Xiaomi unveils a new “mid-fold” form factor with the 18 Fold",
-      "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
       "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
@@ -785,8 +785,8 @@
       "Taiwan Semiconductor (NYSE: TSM) SVP adds 12,881 vested shares",
       "Stock awards lift Taiwan Semiconductor (NYSE: TSM) legal chief's stake",
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
-      "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
       "TSMC Revives Longtan for 1.4nm Fabs and CoWoS Hub as Both Sell Out Globally",
+      "Micron purchases PSMC fabrication site in Taiwan for $1.8B",
       "Taiwan’s six-year hunt for China’s undercover chip labs",
       "TSMC says unable to keep pace with AI boom despite fivefold expansion",
       "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
@@ -851,8 +851,8 @@
       "IT firm acquires land on Pallavaram-Thoraipakkam Radial Road for ₹1,020 cr.",
       "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
       "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
+      "Semiconductor Manufacturing Stocks Q4 Results: Benchmarking KLA Corporation (NASDAQ:KLAC)",
       "Kwik Lok acquires full ownership of Kwik Lok Australia",
-      "2 Unpopular Stocks That Deserve Some Love and 1 We Brush Off",
       "KLA Corp. stock outperforms competitors on strong trading day",
       "Semiconductor Wafer Inspection Equipment Market Outlook",
       "KLA Corp (Derivatives): Latest News, Social Media Updates and Insights",
@@ -1005,15 +1005,15 @@
       "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon to Acquire Indian Power Management Company C2i Semiconductors",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
-      "North-America Magnetic Current Sensor Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Infineon-led European project Moore4Power launches",
       "Infineon Leads the Automotive Semiconductor",
+      "North-America Magnetic Current Sensor Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "Influence of Temperature on the Reliability of Graphene‐Based Ozone Sensors - Jain - Small",
       "North America Intelligent Power Module Market Report",
       "Infineon Startup Challenge 2026 puts humanoid robotics in the spotlight",
-      "Influence of Temperature on the Reliability of Graphene‐Based Ozone Sensors - Jain - Small",
+      "Infineon Technologies officially opens new R&D Centre in Cork",
       "Price tag, scope of Infineon's factory expansion plans revealed in incentives application",
       "Power integrated circuits (ICs) for motor control and thermal management uses introduced by Infineon",
-      "Infineon Opens World’s Largest Smart Power Semiconductor Fab in Dresden",
       "Sirin Software Joins Infineon Partner Ecosystem as an Associated Partner",
       "Infineon and Tack One win SICC Award for Best Technological Collaboration",
       "$4.12 Billion Avalanche Breakdown Diodes Market Outlook 2026-2030 - Featuring Profiles of Infineon Technologies, Littelfuse and Vishay Intertechnology",
@@ -1110,29 +1110,6 @@
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "AVGO",
-      "classification": {
-        "is_major": true,
-        "category": "contract",
-        "headline": "Nvidia’s Hugging Face Deal Is a Hedge against Broadcom’s Custom Silicon Threat",
-        "reason": "Keyword rule matched (category: contract)"
-      },
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-hugging-face-deal-hedge-105111039.html?.tsrc=rss",
-      "source": null,
-      "method": "keyword",
-      "published": "2026-09-06T10:51:11",
-      "queued_min": 29811543,
-      "all_articles": [
-        {
-          "headline": "Nvidia’s Hugging Face Deal Is a Hedge against Broadcom’s Custom Silicon Threat",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-hugging-face-deal-hedge-105111039.html?.tsrc=rss",
-          "source": null,
-          "summary": "NVIDIA Corporation (NASDAQ:NVDA) has officially committed billions on AI developer platform Hugging Face for a $12.9 billion. The deal signifies the chipmaker’s move beyond hardware and up the AI stack. The AI chipmaker buying the open-source model hub millions of developers are already using reads differently when compared to Broadcom’s earlier forecast to double its […]",
-          "published": "2026-09-06T10:51:11"
-        }
-      ]
-    },
     {
       "symbol": "NVDA",
       "classification": {
@@ -1504,6 +1481,38 @@
         "gemini_call_used": "Y",
         "gemini_calls_today_after": 8
       }
+    },
+    {
+      "text": "AI infra week ahead. These names could see action:\n\n$AIXA.DE\n$AMAT\n$AMD\n$ANET\n$ASML.AS\n$AVGO\n$BESI.AS\n$FORM\n$IFX.DE\n$KLAC\n$LRCX\n$MRVL\n$MU\n$NVDA\n$SAP.DE\n$SIE.DE\n$STX\n$SU.PA\n$TSM\n$WDC\n\nWhat are you watching at tomorrow's open?",
+      "pool": "llm",
+      "queued_min": 29811902,
+      "log_meta": {
+        "mechanism": "weekly_engagement",
+        "slot_type": "sunday",
+        "generation_method": "gemini",
+        "related_tickers": "$AIXA.DE, $AMAT, $AMD, $ANET, $ASML.AS, $AVGO, $BESI.AS, $FORM, $IFX.DE, $KLAC, $LRCX, $MRVL, $MU, $NVDA, $SAP.DE, $SIE.DE, $STX, $SU.PA, $TSM, $WDC",
+        "gemini_call_used": "Y",
+        "gemini_calls_today_after": 9
+      }
+    },
+    {
+      "text": "EU tech giants' week focused on AI/data acquisitions.\n\n$ASML.AS: SK Hynix, Albany NanoTech invest in EUV.\n$IFX.DE: Infineon acquired C2i & ams OSRAM sensors.\n$SU.PA: Schneider Electric eyes AiDASH, Cognite.\n$SIE.DE: Siemens bolstered AI/SW via Altair, Dotmatics.",
+      "pool": "llm",
+      "queued_min": 29811903,
+      "log_meta": {
+        "mechanism": "scheduled_slot",
+        "storyline": "eu",
+        "slot_type": "wrap",
+        "generation_method": "gemini",
+        "symbol": "ASML.AS",
+        "base_symbol": "ASML",
+        "related_tickers": "$IFX, $SU, $SIE, $SAP",
+        "market_phase": "weekend",
+        "price": 1471.8,
+        "change_pct": 3.33,
+        "gemini_call_used": "Y",
+        "gemini_calls_today_after": 10
+      }
     }
   ],
   "price_snapshots": {
@@ -1651,7 +1660,8 @@
     2,
     3,
     4,
-    5
+    5,
+    6
   ],
   "us_slots": [
     {
