@@ -3,7 +3,7 @@
   "daily_posts": 0,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 4,
+  "gemini_calls_today": 6,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-30",
@@ -49,24 +49,24 @@
     "NEE": 992,
     "SAP.DE": 29811542,
     "STX": 29808871,
-    "AIXA.DE": 29811451,
-    "NVDA": 29811363,
+    "AIXA.DE": 29811632,
+    "NVDA": 29811633,
     "MRVL": 29809292,
     "ANET": 1262,
-    "MU": 29811363,
-    "AMD": 29811363,
-    "BESI.AS": 29811451,
+    "MU": 29811633,
+    "AMD": 29811633,
+    "BESI.AS": 29811632,
     "ASML.AS": 29811542,
     "IFX.DE": 29811542,
     "LRCX": 29804731,
     "FORM": 29808931,
-    "AVGO": 29811363,
+    "AVGO": 29811633,
     "KLAC": 29808842,
     "TSM": 29807252,
-    "AMAT": 29811363,
+    "AMAT": 29811633,
     "WDC": 29808992
   },
-  "event_log_next_id": 1070,
+  "event_log_next_id": 1073,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -455,10 +455,10 @@
     ],
     "SU.PA": [
       "Schneider Electric to Acquire Grid Resilience Solutions Provider AiDASH for $350 Million",
+      "Schneider Electric to acquire Cognite for $3.1 billion to expand industrial AI, operational data capabilities",
       "Schneider Electric Announces Intention To Acquire Cognite",
       "List of 64 Acquisitions by Schneider Electric (Aug 2026)",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
-      "Schneider Electric acquires Cognite for $3.1B in industrial AI push",
       "Energy technology company to close Tualatin facility, eliminate 87 jobs",
       "Schneider’s New Home EV Charger Undercuts Tesla’s By Bundling A Big Feature",
       "Schneider Electric Named a Top Charitable Company",
@@ -743,16 +743,16 @@
       "FormFactor acquires Keystone Photonics to boost silicon photonics testing",
       "Navellier & Associates Inc. Acquires New Shares in FormFactor, Inc. $FORM",
       "FormFactor Jumps 111% YTD: Is There More Room for the Stock to Rise?",
-      "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "Here’s how iPhone Ultra’s form factor could compare to other Apple products",
+      "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "FormFactor, Inc. Rings the Closing Bell",
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
+      "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
-      "FormFactor Inc (Carlsbad) WARN Act Investigation",
-      "Bay Area semiconductor testing company to lay off more than 200 workers",
       "Xiaomi unveils a new “mid-fold” form factor with the 18 Fold",
+      "Bay Area semiconductor testing company to lay off more than 200 workers",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
       "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
@@ -770,23 +770,23 @@
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
       "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
       "Lam Research Breaks Ground on Oregon Lab for AI Semiconductor R&D",
-      "LAM Research to offer 240-hour training to make people employable in electronics, mechanical assembly jobs",
       "Lam Research Launches Skill Development Program in India to Boost Advanced Manufacturing Talent",
-      "Is Lam Research Stock Outperforming the Nasdaq?",
+      "LAM Research to offer 240-hour training to make people employable in electronics, mechanical assembly jobs",
       "Lam Research Corporation Announces June Quarter Financial Conference Call",
+      "Is Lam Research Stock Outperforming the Nasdaq?",
+      "LAM RESEARCH CORP (NASDAQ: LRCX) Senior VP Varadarajan Seshasayee Disposes of 59,750 Shares at $291.32 Each",
       "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?",
       "4 Stocks to Buy That Declared Dividend Hikes Amid Geopolitical Woes",
       "Is the Options Market Predicting a Spike in Lam Research Stock?",
       "This Chip Equipment Stock Just Raised Its Dividend by 26.9%.",
-      "Lam Research (LRCX) Rises Higher Than Market: Key Facts",
-      "Lam Research (LRCX) Stock Looks Fully Priced After Its Big Run"
+      "Lam Research (LRCX) Rises Higher Than Market: Key Facts"
     ],
     "TSM": [
       "Taiwan Semiconductor (NYSE: TSM) SVP adds 12,881 vested shares",
       "Stock awards lift Taiwan Semiconductor (NYSE: TSM) legal chief's stake",
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
+      "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
       "TSMC Revives Longtan for 1.4nm Fabs and CoWoS Hub as Both Sell Out Globally",
-      "Micron purchases PSMC fabrication site in Taiwan for $1.8B",
       "Taiwan’s six-year hunt for China’s undercover chip labs",
       "TSMC says unable to keep pace with AI boom despite fivefold expansion",
       "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
@@ -857,11 +857,11 @@
       "Semiconductor Wafer Inspection Equipment Market Outlook",
       "KLA Corp (Derivatives): Latest News, Social Media Updates and Insights",
       "IT firm acquires land on Pallavaram-Thoraipakkam Radial Road for ₹1,020 cr.",
-      "KLA Corporation Price Today | xKLAC Live Price, Chart & Market Cap",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know",
       "Precision Trading with Kla Corporation (KLAC) Risk Zones",
+      "Lam Research and KLA Corporation Stocks Trade Down, What You Need To Know",
       "KLA Corp CFO Bren D. Higgins Sells 31,500 Shares Under Rule 10b5-1 Plan",
       "Two Chip-Equipment Stocks Just Crushed Nvidia. Is the AI Rally Broadening?",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
@@ -919,10 +919,10 @@
       "Benicia chip manufacturing tool maker acquired by Applied Materials",
       "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
       "TELEO Capital Acquires Pharmaceutical Manufacturing Intelligence Platform, Modersys (fka SmartFactory Rx) From Applied Materials",
-      "Applied Materials, Inc. Tokenized Stock price today, AMATx to USD chart, marketcap and volume",
       "Applied Materials’ Advanced Packaging Vision: AI Scaling Is Becoming a System Integration Problem",
       "Applied Materials Inc. stock outperforms competitors on strong trading day",
       "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
+      "Applied Materials, Inc. Tokenized Stock price today, AMATx to USD chart, marketcap and volume",
       "ASU joins Applied Materials' EPIC Center as inaugural university research partner",
       "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
       "Applied Materials’ stock buybacks: History & investor impact explained",
@@ -958,7 +958,6 @@
       "Elon Musk Says His New Foundry Can Get Gas Turbines Online 18 Months Faster"
     ],
     "AIXA.DE": [
-      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "EQS-PVR: AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
       "Aixtron SE vs Veeco Instruments",
@@ -991,12 +990,12 @@
       "How AMD Became One of the World’s Leading Semiconductor Companies",
       "Advanced Micro Devices (AMD) Faces New AI Data Center Market Shake Up",
       "AMD, NVIDIA raise bar on AI energy efficiency",
+      "Advanced Micro Devices (NASDAQ:AMD) Momentum Cools After A Powerful AI Run",
       "AMD Committed Up to $5 Billion to Anthropic, and Anthropic's IPO Prospectus Is Reportedly Days Away",
       "AMD’s Data Center Revenue and EPS to Double by 2027 — With Shares Down 19%, It’s a Buy",
       "Intel Climbs 4%, AMD Rises 3%, NVIDIA Ticks Up as Chip Stocks Shrug Off Rising Rate Hike Odds",
       "Cathie Wood Cuts AMD and Puts $53 Million Into Nvidia",
-      "ORCL Eyes Breakout as AMD and Intel Test Key Support",
-      "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings"
+      "ORCL Eyes Breakout as AMD and Intel Test Key Support"
     ],
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
@@ -1049,8 +1048,8 @@
       "ASML Set to Expand with Acquisition of Berliner Glas | light speed | Sep 2020",
       "ASML signs new customer: what does India’s Tata Electronics do?",
       "ASML Supplier Says China 15 Years Behind in Top Chipmaking Tools",
-      "China's DUV technology 'at a similar stage to ASML in 2004,' analyst claims — Beijing's semiconductor industry remains well behind Western rivals",
       "Macron tours ASML as Europe chases chip sovereignty",
+      "China's DUV technology 'at a similar stage to ASML in 2004,' analyst claims — Beijing's semiconductor industry remains well behind Western rivals",
       "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC",
       "From Bill Gates to Bernie Sanders, most agree the AI arms race is disastrous. Only Europe can make it stop",
       "[News] ASML Japan to Boost Workforce 40% by 2030 to Support Rapidus, TSMC Advanced Chip Push",
@@ -1067,9 +1066,9 @@
     "STX": [
       "Seagate (NASDAQ: STX) director prepares stock sale; filing details date and amount",
       "Seagate Stock Surged 685% in One Year on AI Storage Demand. Is It Still Worth Buying?",
+      "Seagate Technology price target boosted by Bank of America ahead of quarterly report",
       "Wasabi Technologies Acquires Seagate’s Lyve Cloud Business",
       "Seagate vs. NetApp: Which Data Storage Stock is the Smarter Buy?",
-      "Wasabi acquires Seagate’s cloud storage service in return for equity",
       "Seagate Technology Holdings PLC stock outperforms competitors on strong trading day",
       "Seagate Technology Holdings PLC stock underperforms Thursday when compared to competitors",
       "Seagate to Participate in Upcoming Investor Events",
@@ -1095,18 +1094,18 @@
       "Micron's Taiwan unions threaten strike over bonus dispute",
       "Micron Technology Inc (Derivatives) Price (MU/USD) Today | Live Price, Market Cap & Chart",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
-      "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
       "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
+      "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
       "Microchip Technology, in Collaboration With Micron Technology, Demonstrates High-Performance PCIe",
       "U.S. stock storage sector surges at market open, Micron Technology rises 3.6%",
-      "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
       "Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab",
+      "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
       "Micron Passes $1 Trillion as AI Memory Demand Sends Shares Soaring",
+      "Dow Jones Futures Loom After U.S.-Iran Attacks; Nvidia, Micron, Sandisk Flash Buy Signals",
       "Why Is Micron Technology (MU) CEO Being Honored In Taiwan?",
       "Dell’s Monster Quarter Just Confirmed Micron’s Biggest Opportunity Is Not Just HBM",
       "Recent News From Nvidia and SK Hynix Reveals Exactly What the Market Expects for Micron Technology's Future",
-      "China's Biggest Memory Chip Stock Is Almost as Good as Micron",
-      "Micron and Western Digital Shares Skyrocket, What You Need To Know"
+      "China's Biggest Memory Chip Stock Is Almost as Good as Micron"
     ]
   },
   "pending_news_posts": [
@@ -1458,6 +1457,44 @@
         "gemini_call_used": "Y",
         "gemini_calls_today_after": 4
       }
+    },
+    {
+      "text": "Following $BESI.AS's Q4-25 & FY2025 results announcement, is the market already fully pricing in sustained demand for AI chip equipment as we head into next week?",
+      "pool": "llm",
+      "queued_min": 29811632,
+      "log_meta": {
+        "mechanism": "scheduled_slot",
+        "storyline": "eu",
+        "slot_type": "question",
+        "generation_method": "gemini",
+        "symbol": "AIXA.DE",
+        "base_symbol": "AIXA",
+        "related_tickers": "$BESI",
+        "market_phase": "weekend",
+        "price": 36.15,
+        "change_pct": 2.03,
+        "gemini_call_used": "Y",
+        "gemini_calls_today_after": 5
+      }
+    },
+    {
+      "text": "Broadcom $AVGO is in focus this weekend after Morgan Stanley reset its price target to $505. The move cites surging AI chip demand and CEO Hock Tan's bold revenue outlook.\n\nhttps://www.thestreet.com/investing/stocks/morgan-stanley-broadcom-avgo-stock-price-target?.tsrc=rss",
+      "pool": "llm",
+      "queued_min": 29811633,
+      "log_meta": {
+        "mechanism": "scheduled_slot",
+        "storyline": "us",
+        "slot_type": "question",
+        "generation_method": "gemini",
+        "symbol": "AVGO",
+        "base_symbol": "AVGO",
+        "related_tickers": "$NVDA, $AMD, $MU, $AMAT",
+        "market_phase": "weekend",
+        "price": 357.07,
+        "change_pct": 0.17,
+        "gemini_call_used": "Y",
+        "gemini_calls_today_after": 6
+      }
     }
   ],
   "price_snapshots": {
@@ -1602,7 +1639,8 @@
   "eu_posted": [
     0,
     1,
-    2
+    2,
+    3
   ],
   "us_slots": [
     {
@@ -1651,6 +1689,7 @@
   "us_posted": [
     0,
     1,
-    2
+    2,
+    3
   ]
 }
