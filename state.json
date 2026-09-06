@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1091,
+  "event_log_next_id": 1093,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -750,9 +750,9 @@
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
+      "FormFactor Inc (Carlsbad) WARN Act Investigation",
       "Bay Area semiconductor testing company to lay off more than 200 workers",
       "Xiaomi unveils a new “mid-fold” form factor with the 18 Fold",
-      "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
       "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
@@ -785,7 +785,7 @@
       "Taiwan Semiconductor (NYSE: TSM) SVP adds 12,881 vested shares",
       "Stock awards lift Taiwan Semiconductor (NYSE: TSM) legal chief's stake",
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
-      "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
+      "Taiwan government approves TSMC’s 3nm upgrade for second Japan fab",
       "TSMC Revives Longtan for 1.4nm Fabs and CoWoS Hub as Both Sell Out Globally",
       "Taiwan’s six-year hunt for China’s undercover chip labs",
       "TSMC says unable to keep pace with AI boom despite fivefold expansion",
@@ -794,9 +794,9 @@
       "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
       "Arizona-Taiwan partnership advances semiconductor talent and innovation",
       "Taiwan Semiconductor Manufacturing (Derivatives) Price (TSM/USD) Today | Live Price, Market Cap & Chart",
-      "America’s Chip Future Still Runs Through Taiwan",
       "Taiwan Semiconductor Chemicals Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Taiwan Semiconductor Manufacturing Sees US$67 Billion of Ongoing Construction",
+      "ASU a key partner in US-Taiwan technology relationship",
       "ASML vs. Taiwan Semiconductor: Which Semiconductor Monopoly Is the Safer Investment?",
       "TSMC (TSM) Increases Despite Market Slip",
       "Prediction: Taiwan Semiconductor Stock Will Surge by 22% Before 2026 Ends",
@@ -852,7 +852,6 @@
       "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
       "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
       "Kwik Lok acquires full ownership of Kwik Lok Australia",
-      "2 Unpopular Stocks That Deserve Some Love and 1 We Brush Off",
       "KLA Corp. stock outperforms competitors on strong trading day",
       "Semiconductor Wafer Inspection Equipment Market Outlook",
       "KLA Corp (Derivatives): Latest News, Social Media Updates and Insights",
@@ -867,7 +866,8 @@
       "KLA (KLAC) Could Be 26% Undervalued After Its Recent Pullback",
       "Jim Cramer Explains Why He Recommends Buying KLA (KLAC) Stock in Small Doses",
       "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
-      "Is KLA Stock Outperforming the Dow?"
+      "Is KLA Stock Outperforming the Dow?",
+      "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme"
     ],
     "SAP.DE": [
       "SAP Completes Acquisition of Prior Labs",
@@ -987,8 +987,8 @@
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
       "How AMD Became One of the World’s Leading Semiconductor Companies",
       "Advanced Micro Devices (AMD) Faces New AI Data Center Market Shake Up",
-      "Advanced Micro Devices (NASDAQ:AMD) Momentum Cools After A Powerful AI Run",
       "AMD, NVIDIA raise bar on AI energy efficiency",
+      "Advanced Micro Devices (NASDAQ:AMD) Momentum Cools After A Powerful AI Run",
       "Why Is AMD Stock Sliding on Friday?",
       "AMD acquires software built by URI professor and colleagues",
       "AMD Committed Up to $5 Billion to Anthropic, and Anthropic's IPO Prospectus Is Reportedly Days Away",
@@ -1000,9 +1000,9 @@
     ],
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
+      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon's Bangalore Bet and Buyback Signal: Why the Market Isn't Buying It",
       "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
-      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon to Acquire Indian Power Management Company C2i Semiconductors",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
@@ -1104,9 +1104,9 @@
       "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
       "Dow Jones Futures Loom After U.S.-Iran Attacks; Nvidia, Micron, Sandisk Flash Buy Signals",
       "Prediction: Micron Stock Will Skyrocket After Sept. 30",
+      "Micron Stock More Than Tripled in 2026. Now Taiwan Strike Threat Could Shake the AI Boom.",
       "Why Is Micron Technology (MU) CEO Being Honored In Taiwan?",
-      "Dell’s Monster Quarter Just Confirmed Micron’s Biggest Opportunity Is Not Just HBM",
-      "Recent News From Nvidia and SK Hynix Reveals Exactly What the Market Expects for Micron Technology's Future"
+      "Dell’s Monster Quarter Just Confirmed Micron’s Biggest Opportunity Is Not Just HBM"
     ]
   },
   "pending_news_posts": [
@@ -1462,27 +1462,7 @@
     ]
   },
   "last_evergreen_min": 29811662,
-  "post_backlog": [
-    {
-      "text": "EU tech giants' week focused on AI/data acquisitions.\n\n$ASML.AS: SK Hynix, Albany NanoTech invest in EUV.\n$IFX.DE: Infineon acquired C2i & ams OSRAM sensors.\n$SU.PA: Schneider Electric eyes AiDASH, Cognite.\n$SIE.DE: Siemens bolstered AI/SW via Altair, Dotmatics.",
-      "pool": "llm",
-      "queued_min": 29811903,
-      "log_meta": {
-        "mechanism": "scheduled_slot",
-        "storyline": "eu",
-        "slot_type": "wrap",
-        "generation_method": "gemini",
-        "symbol": "ASML.AS",
-        "base_symbol": "ASML",
-        "related_tickers": "$IFX, $SU, $SIE, $SAP",
-        "market_phase": "weekend",
-        "price": 1471.8,
-        "change_pct": 3.33,
-        "gemini_call_used": "Y",
-        "gemini_calls_today_after": 10
-      }
-    }
-  ],
+  "post_backlog": [],
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
