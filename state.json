@@ -66,7 +66,7 @@
     "AMAT": 29811633,
     "WDC": 29808992
   },
-  "event_log_next_id": 1076,
+  "event_log_next_id": 1077,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -748,9 +748,9 @@
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "FormFactor, Inc. Rings the Closing Bell",
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
-      "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
-      "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
+      "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
+      "FormFactor Inc (Carlsbad) WARN Act Investigation",
       "Bay Area semiconductor testing company to lay off more than 200 workers",
       "Xiaomi unveils a new “mid-fold” form factor with the 18 Fold",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
@@ -763,8 +763,8 @@
       "Compass Financial Management LLC Acquires Shares of 8,814 Lam Research Corporation $LRCX",
       "Is Lam Research Corporation (LRCX) Eyeing Besi Industries Merger Amid IBM Pact for Logic Scaling",
       "Proficio Capital Partners LLC Acquires 7,555 Shares of Lam Research Corporation $LRCX",
+      "Lam Research Announces Retirement of Michael R. Cannon and Sohail U. Ahmed from Board of Directors",
       "Applied Materials, Lam Research may be interested in acquiring BE Semiconductor: report (AMAT:NASDAQ)",
-      "Newmark Represents Lam Research in $45.77 Million North Phoenix Office Acquisition Near TSMC Campus",
       "Lam Research Corp. stock outperforms competitors on strong trading day",
       "Lam Research Corp Stock (LRCX) Opened Up by 4.61% on Sep 4",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
@@ -773,20 +773,20 @@
       "Lam Research Launches Skill Development Program in India to Boost Advanced Manufacturing Talent",
       "Is Lam Research Stock Outperforming the Nasdaq?",
       "LAM RESEARCH CORP (NASDAQ: LRCX) Senior VP Varadarajan Seshasayee Disposes of 59,750 Shares at $291.32 Each",
+      "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
       "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?",
       "4 Stocks to Buy That Declared Dividend Hikes Amid Geopolitical Woes",
       "Is the Options Market Predicting a Spike in Lam Research Stock?",
       "This Chip Equipment Stock Just Raised Its Dividend by 26.9%.",
       "Lam Research (LRCX) Rises Higher Than Market: Key Facts",
-      "Lam Research (LRCX) Stock Looks Fully Priced After Its Big Run",
-      "Lam Research Corporation (LRCX) is Exploring Growth Opportunities in the Semiconductor Equipment Market"
+      "Lam Research (LRCX) Stock Looks Fully Priced After Its Big Run"
     ],
     "TSM": [
       "Taiwan Semiconductor (NYSE: TSM) SVP adds 12,881 vested shares",
       "Stock awards lift Taiwan Semiconductor (NYSE: TSM) legal chief's stake",
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
-      "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
       "TSMC Revives Longtan for 1.4nm Fabs and CoWoS Hub as Both Sell Out Globally",
+      "Micron purchases PSMC fabrication site in Taiwan for $1.8B",
       "Taiwan’s six-year hunt for China’s undercover chip labs",
       "TSMC says unable to keep pace with AI boom despite fivefold expansion",
       "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
@@ -923,24 +923,24 @@
       "Applied Materials Inc. stock outperforms competitors on strong trading day",
       "Applied Materials, Inc. Tokenized Stock price today, AMATx to USD chart, marketcap and volume",
       "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
+      "ASU joins Applied Materials' EPIC Center as inaugural university research partner",
       "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
       "Applied Materials’ stock buybacks: History & investor impact explained",
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials, Inc. AMAT Stock Price Analysis Today Pfe Stock (giTbKajXWo)",
-      "Have Applied Materials Insiders Been Selling Stock?",
-      "Applied Materials CTO sees potential to develop robotics ecosystem in Singapore",
       "Jim Cramer Shares His Playbook for Buying Applied Materials (AMAT)",
       "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
       "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
       "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?",
-      "Applied Materials Just Dropped 14% in a Month. Sell Now, or Buy More?"
+      "Applied Materials Just Dropped 14% in a Month. Sell Now, or Buy More?",
+      "Should You Buy, Sell or Hold AMAT Stock After a 72.5% YTD Rise?"
     ],
     "NVDA": [
-      "AA Financial Advisors LLC Acquires 2,173 Shares of NVIDIA Corporation $NVDA",
+      "Myriad Asset Management Advisors LLC Acquires 6,501 Shares of NVIDIA Corporation $NVDA",
       "Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips",
       "List of 32 Acquisitions by Nvidia (Sep 2026)",
-      "Nvidia confirms $13 billion acquisition of open-weight AI platform Hugging Face",
       "Nvidia confirms $12.9B acquisition of AI hosting platform Hugging Face",
+      "Nvidia Acquires AI Platform Hugging Face for About $13 Billion",
       "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference | NVIDIA Technical Blog",
       "Breakingviews - COMMENTARY: Nvidia wraps itself in $12.9 bln of insurance",
       "Nvidia to buy Hugging Face for $13B in big bet on open AI models",
@@ -948,14 +948,14 @@
       "Nvidia CEO Jensen Huang vows to keep Hugging Face 'an open platform for the entire AI ecosystem'",
       "Nvidia's $13 Billion Hugging Face Deal Expands Open-Source AI",
       "Nvidia to buy AI platform Hugging Face for US$12.9 billion",
-      "Nvidia Starts PAC as AI Chip Maker Builds DC Influence Force (1)",
       "Nvidia agrees to acquire Hugging Face for nearly $13B",
-      "August Job Gains Blew Past Estimates",
-      "Nvidia-backed AI company reveals staggering $103 billion number",
-      "1 Unstoppable Cryptocurrency to Buy Before It Soars 270%",
-      "The S&P 500's Yield Is at Historic Lows. Here Are 3 Dividend Stocks I'd Buy in September.",
-      "Michael Burry Says Palantir's Books Look More Like a Consultant's Than a Software Company's",
-      "Elon Musk Says His New Foundry Can Get Gas Turbines Online 18 Months Faster"
+      "Nvidia donates $10 million to flood recovery, one of Nepal’s biggest corporate donations",
+      "Why Nvidia wants Hugging Face to keep helping its rivals: Chart of the Day",
+      "PepsiCo Hasn't Been This Cheap Relative to Free Cash Flow in 10 Years",
+      "BNY Mellon Oversees $62 Trillion in Client Assets. Custody Is the Quietest Fee Machine in Finance.",
+      "Retirees Face a Familiar Trap: Chase Yield or Chase Growth?",
+      "Despite Revenue Skyrocketing More Than 100%, Nvidia Stock Trades at 24 Times Forward Earnings. Is the Market Warning Investors About What's to Come?",
+      "Social Security's Trump Bump-Led 2027 COLA Should Have Its First Silver Lining Since 2023, but There's a Steep Price to Pay for This Victory"
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
@@ -978,7 +978,7 @@
     ],
     "AMD": [
       "AMD Acquires MEXT to Advance Memory Optimization for Compute Infrastructure",
-      "Moore Capital Management LP Acquires New Position in Advanced Micro Devices, Inc. $AMD",
+      "TD Waterhouse Canada Inc. Acquires 31,995 Shares of Advanced Micro Devices, Inc. $AMD",
       "Move Over, Nvidia: Why AMD’s Latest Acquisition Could Redefine Direct-Silicon AI Inference",
       "Advanced Micro Devices (AMD) Adds AI Inference Silicon With Taalas Acquisition",
       "Advanced Micro Devices Stock Ran The Roadmap It Had Already Published",
@@ -1007,13 +1007,13 @@
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
       "Infineon Leads the Automotive Semiconductor",
-      "North-America Automotive Semiconductor Market Size, Share,Trends, Growth Analysis Report, 2030",
-      "North America Intelligent Power Module Market Report",
       "North-America Magnetic Current Sensor Market Size, Share,Trends, Growth Analysis Report, 2030",
-      "NIELIT Partners with Infineon to Strengthen India’s Semiconductor Ecosystem, Talent Pool",
+      "Influence of Temperature on the Reliability of Graphene‐Based Ozone Sensors - Jain - Small",
+      "North America Intelligent Power Module Market Report",
       "Infineon Startup Challenge 2026 puts humanoid robotics in the spotlight",
       "Infineon Technologies officially opens new R&D Centre in Cork",
       "Price tag, scope of Infineon's factory expansion plans revealed in incentives application",
+      "Power integrated circuits (ICs) for motor control and thermal management uses introduced by Infineon",
       "Sirin Software Joins Infineon Partner Ecosystem as an Associated Partner",
       "Infineon and Tack One win SICC Award for Best Technological Collaboration",
       "$4.12 Billion Avalanche Breakdown Diodes Market Outlook 2026-2030 - Featuring Profiles of Infineon Technologies, Littelfuse and Vishay Intertechnology",
@@ -1033,7 +1033,7 @@
       "Arista Networks Tokenized Stock (Robinhood)",
       "Arista Networks : ANET Stock Analysis With Elliott Wave + Trade Setup Richard Gere (Ue8qPhtAlT)",
       "Arista adds AI-driven zero trust to VeloCloud SD-WAN",
-      "Arista Networks Stock: Buy or Sell?",
+      "If You Invested $1000 In Arista Networks Stock 10 Years Ago, You Would Have This Much Today",
       "How Much Track Is Left For ANET Stock?",
       "ANET Rises 37.3% in Six Months: Is There More Room to Grow?",
       "Arista Networks Offers Entry After 42% Gain Amid Earnings Beat; Data Center Demand Surging",
@@ -1052,8 +1052,8 @@
       "China's DUV technology 'at a similar stage to ASML in 2004,' analyst claims — Beijing's semiconductor industry remains well behind Western rivals",
       "Macron tours ASML as Europe chases chip sovereignty",
       "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC",
-      "From Bill Gates to Bernie Sanders, most agree the AI arms race is disastrous. Only Europe can make it stop",
       "[News] ASML Japan to Boost Workforce 40% by 2030 to Support Rapidus, TSMC Advanced Chip Push",
+      "From Bill Gates to Bernie Sanders, most agree the AI arms race is disastrous. Only Europe can make it stop",
       "United States Government May Restrict ASML's DUV Tool Exports to China",
       "Why ASML Holding Stock Bumped 4% Higher Today",
       "If US targets ASML, Netherlands should learn from Canada",
@@ -1065,9 +1065,9 @@
       "ASML Rockets 4% as TSMC's Tool Hunger Nearly Doubles"
     ],
     "STX": [
-      "Seagate Technology (STX) CLO sells 694 shares in 10b5-1 trading plan",
+      "Seagate (NASDAQ: STX) director prepares stock sale; filing details date and amount",
       "Seagate Stock Surged 685% in One Year on AI Storage Demand. Is It Still Worth Buying?",
-      "Wasabi Technologies to acquire Lyve Cloud from Seagate",
+      "Seagate Technology price target boosted by Bank of America ahead of quarterly report",
       "Wasabi Technologies Acquires Seagate’s Lyve Cloud Business",
       "Seagate vs. NetApp: Which Data Storage Stock is the Smarter Buy?",
       "Seagate Technology Holdings PLC stock outperforms competitors on strong trading day",
@@ -1132,6 +1132,71 @@
           "published": "2026-09-06T10:51:11"
         }
       ]
+    },
+    {
+      "symbol": "NVDA",
+      "classification": {
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "Myriad Asset Management Advisors LLC Acquires 6,501 Shares of NVIDIA Corporation $NVDA",
+        "reason": "Sizeable institutional share purchase"
+      },
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdXB5SGw2blF5ampza25MWG42ajhMdlZKNk1ZZzdmd1FzNWdqTUx6YXNCREwwVEcwaHpQVEZUNTU2ZWdYRlk3MC02YnBRQ09pb2UtcWZoSjlpZVh5Z2ZiR1h2aWpkQng5RlNsTHVGeTVWamw3QU8tREZTQmRROEtESld2Nmo3bTlmUGV4QWZNc25DTTFyWGJndnZoUHc5dU9QdGExLVBDMm14Y1NiSV9HLWptQTZLYjVoN2xMUnJ4am5SajRFQUYyYmN2a0p3ODJxU0sxc0NTVDVvU2h6enc?oc=5",
+      "source": "marketbeat.com",
+      "method": "keyword",
+      "published": "2026-09-06T08:30:27",
+      "queued_min": 29811751,
+      "all_articles": [
+        {
+          "headline": "Myriad Asset Management Advisors LLC Acquires 6,501 Shares of NVIDIA Corporation $NVDA",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdXB5SGw2blF5ampza25MWG42ajhMdlZKNk1ZZzdmd1FzNWdqTUx6YXNCREwwVEcwaHpQVEZUNTU2ZWdYRlk3MC02YnBRQ09pb2UtcWZoSjlpZVh5Z2ZiR1h2aWpkQng5RlNsTHVGeTVWamw3QU8tREZTQmRROEtESld2Nmo3bTlmUGV4QWZNc25DTTFyWGJndnZoUHc5dU9QdGExLVBDMm14Y1NiSV9HLWptQTZLYjVoN2xMUnJ4am5SajRFQUYyYmN2a0p3ODJxU0sxc0NTVDVvU2h6enc?oc=5",
+          "source": "marketbeat.com",
+          "summary": "",
+          "published": "2026-09-06T08:30:27"
+        },
+        {
+          "headline": "Why Nvidia wants Hugging Face to keep helping its rivals: Chart of the Day",
+          "link": "https://finance.yahoo.com/markets/article/why-nvidia-wants-hugging-face-to-keep-helping-its-rivals-chart-of-the-day-132655037.html?.tsrc=rss",
+          "source": null,
+          "summary": "Nvidia got rich selling scarcity in AI — now it's betting on AI abundance.",
+          "published": "2026-09-06T13:26:55"
+        },
+        {
+          "headline": "PepsiCo Hasn't Been This Cheap Relative to Free Cash Flow in 10 Years",
+          "link": "https://www.fool.com/investing/2026/09/06/pepsi-hasnt-been-this-cheap-relative-to-free-cash/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "With plenty of spendable dollars at its disposal, the beverage company has a range of options to improve its overall business.",
+          "published": "2026-09-06T14:20:00"
+        },
+        {
+          "headline": "BNY Mellon Oversees $62 Trillion in Client Assets. Custody Is the Quietest Fee Machine in Finance.",
+          "link": "https://www.fool.com/investing/2026/09/06/bny-mellon-oversees-62-trillion-in-client-assets/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "BNY Mellon has outperformed all other major bank stocks over the past five years.",
+          "published": "2026-09-06T14:05:00"
+        },
+        {
+          "headline": "Retirees Face a Familiar Trap: Chase Yield or Chase Growth?",
+          "link": "https://www.fool.com/investing/2026/09/06/retirees-face-a-familiar-trap-chase-yield-or-chase/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Higher interest rates attract retirees to yield-focused investments, but at what cost?",
+          "published": "2026-09-06T13:48:00"
+        },
+        {
+          "headline": "Despite Revenue Skyrocketing More Than 100%, Nvidia Stock Trades at 24 Times Forward Earnings. Is the Market Warning Investors About What's to Come?",
+          "link": "https://www.fool.com/investing/2026/09/06/skyrocket-nvidia-stock-valuation-market-warning/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Even after a more than tenfold rise in the past five years, it's valid to argue that this AI stock is cheap.",
+          "published": "2026-09-06T13:35:00"
+        },
+        {
+          "headline": "Social Security's Trump Bump-Led 2027 COLA Should Have Its First Silver Lining Since 2023, but There's a Steep Price to Pay for This Victory",
+          "link": "https://www.fool.com/retirement/2026/09/06/social-security-trump-bump-led-2027-cola-first-silver-lining-since-2023-steep-price-to-pay/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Outsize Trump bumps can shorten the timeline to sweeping Social Security benefit cuts.",
+          "published": "2026-09-06T13:26:01"
+        }
+      ]
     }
   ],
   "holding_disclosures_seen": {
@@ -1183,7 +1248,8 @@
     "amd:washingtontrustbank:23022": "2026-09-02",
     "anet:aristanetworkscfochantellebreithaupt:612": "2026-09-04",
     "amd:tdwaterhousecanadainc:31995": "2026-09-05",
-    "nvda:aafinancialadvisorsllc:2173": "2026-09-06"
+    "nvda:aafinancialadvisorsllc:2173": "2026-09-06",
+    "nvda:myriadassetmanagementadvisorsllc:6501": "2026-09-06"
   },
   "news_category_posted": {
     "VST": {
@@ -1421,25 +1487,6 @@
   "last_evergreen_min": 29811662,
   "post_backlog": [
     {
-      "text": "Following $BESI.AS's Q4-25 & FY2025 results announcement, is the market already fully pricing in sustained demand for AI chip equipment as we head into next week?",
-      "pool": "llm",
-      "queued_min": 29811632,
-      "log_meta": {
-        "mechanism": "scheduled_slot",
-        "storyline": "eu",
-        "slot_type": "question",
-        "generation_method": "gemini",
-        "symbol": "AIXA.DE",
-        "base_symbol": "AIXA",
-        "related_tickers": "$BESI",
-        "market_phase": "weekend",
-        "price": 36.15,
-        "change_pct": 2.03,
-        "gemini_call_used": "Y",
-        "gemini_calls_today_after": 5
-      }
-    },
-    {
       "text": "Broadcom $AVGO is in focus this weekend after Morgan Stanley reset its price target to $505. The move cites surging AI chip demand and CEO Hock Tan's bold revenue outlook.\n\nhttps://www.thestreet.com/investing/stocks/morgan-stanley-broadcom-avgo-stock-price-target?.tsrc=rss",
       "pool": "llm",
       "queued_min": 29811633,
@@ -1672,6 +1719,7 @@
     0,
     1,
     2,
-    3
+    3,
+    4
   ]
 }
