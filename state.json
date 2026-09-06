@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1095,
+  "event_log_next_id": 1096,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -457,7 +457,7 @@
       "Schneider Electric to Acquire Grid Resilience Solutions Provider AiDASH for $350 Million",
       "Schneider Electric to acquire Cognite for $3.1 billion to expand industrial AI, operational data capabilities",
       "Schneider Electric Announces Intention To Acquire Cognite",
-      "List of 64 Acquisitions by Schneider Electric (Aug 2026)",
+      "List of 64 Acquisitions by Schneider Electric (Sep 2026)",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
       "Energy technology company to close Tualatin facility, eliminate 87 jobs",
       "Schneider’s New Home EV Charger Undercuts Tesla’s By Bundling A Big Feature",
@@ -766,10 +766,8 @@
       "Lam Research Announces Retirement of Michael R. Cannon and Sohail U. Ahmed from Board of Directors",
       "Applied Materials, Lam Research may be interested in acquiring BE Semiconductor: report (AMAT:NASDAQ)",
       "Lam Research Corp. stock outperforms competitors on strong trading day",
-      "Lam Research Corp Stock (LRCX) Opened Up by 4.61% on Sep 4",
-      "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
       "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
-      "Lam Research Breaks Ground on Oregon Lab for AI Semiconductor R&D",
+      "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
       "LAM Research to offer 240-hour training to make people employable in electronics, mechanical assembly jobs",
       "Lam Research Launches Skill Development Program in India to Boost Advanced Manufacturing Talent",
       "Lam Research Corporation Announces June Quarter Financial Conference Call",
@@ -779,7 +777,9 @@
       "4 Stocks to Buy That Declared Dividend Hikes Amid Geopolitical Woes",
       "Is the Options Market Predicting a Spike in Lam Research Stock?",
       "This Chip Equipment Stock Just Raised Its Dividend by 26.9%.",
-      "Lam Research (LRCX) Rises Higher Than Market: Key Facts"
+      "Lam Research (LRCX) Rises Higher Than Market: Key Facts",
+      "Lam Research (LRCX) Stock Looks Fully Priced After Its Big Run",
+      "Lam Research Corporation (LRCX) is Exploring Growth Opportunities in the Semiconductor Equipment Market"
     ],
     "TSM": [
       "Taiwan Semiconductor (NYSE: TSM) SVP adds 12,881 vested shares",
@@ -836,9 +836,9 @@
       "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade",
       "VMware Explore 2026: Broadcom Doubles Down on Private Cloud Economics and Agentic AI",
       "Why Broadcom should buy Arista (and why it won’t)",
+      "Broadcom Delivers End-to-End Security, Identity, and Observability for Agentic AI",
       "Broadcom Introduces TrueSource for Open-Source Software Security",
       "Broadcom Runs on VMware vSphere Kubernetes Service, Containers at Scale, and How to Operate Them Internally",
-      "Broadcom Delivers End-to-End Security, Identity, and Observability for Agentic AI",
       "AI News for the Week of September 4; Updates from Broadcom, Teradata, Wonderful & More",
       "These AI numbers are getting crazy",
       "Broadcom And 2 Top Growth Stocks To Watch",
@@ -875,15 +875,15 @@
       "SAP to Acquire Reltio: Make SAP and Non-SAP Data AI-Ready",
       "A&O Shearman advises SAP on strategic AI acquisitions of Dremio and Prior Labs",
       "Sap SE - Completes Acquisition Of Prior Labs",
-      "SAP CEO: the AI race is being fought in the wrong place",
+      "SAP Chief Quantum Officer: AI is about to commoditize intelligence. Better decisions will be the next competitive advantage",
       "SAP Plans to Expand AI Access to Customers Who Don’t Use Cloud",
       "SAP SE Stock (SAP) Moved Up by 4.06% on Jul 29: Key Drivers Unveiled",
       "SAP SE Investigated by the Portnoy Law Firm",
       "SAP Completes Acquisition of Dremio",
+      "SAP CEO: the AI race is being fought in the wrong place",
       "SAP Restricts Hiring, Travel to Fund ‘Significant’ AI Push",
       "SAP Completes Acquisition of Reltio",
       "SAP Reorganizes Board as CEO Klein to Focus on Developing AI",
-      "Ericsson Scales AI Across the Enterprise with a Business Data Fabric and SAP",
       "Digital Product Passport Market Projected to Hit $28.80 Billion by 2035 | SNS Insider",
       "AI Is Coming for One of Legacy Software’s Most Defensible Businesses as a New Challenger Takes on Oracle, SAP and Workday",
       "Element Appoints James Lee to the Board of Directors",
@@ -915,10 +915,10 @@
     ],
     "AMAT": [
       "Applied Materials Extends AI Chip Role With NEXX Packaging Acquisition",
+      "TELEO Capital Acquires Pharmaceutical Manufacturing Intelligence Platform, Modersys (fka SmartFactory Rx) From Applied Materials",
       "Applied Materials Acquires NEXX",
       "Benicia chip manufacturing tool maker acquired by Applied Materials",
       "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
-      "TELEO Capital Acquires Pharmaceutical Manufacturing Intelligence Platform, Modersys (fka SmartFactory Rx) From Applied Materials",
       "Applied Materials’ Advanced Packaging Vision: AI Scaling Is Becoming a System Integration Problem",
       "Applied Materials Inc. stock outperforms competitors on strong trading day",
       "Applied Materials, Inc. Tokenized Stock price today, AMATx to USD chart, marketcap and volume",
@@ -928,7 +928,7 @@
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials, Inc. AMAT Stock Price Analysis Today Pfe Stock (giTbKajXWo)",
       "Applied Materials Sees AI Driving Its Biggest Semiconductor Growth Inflection Yet",
-      "Applied Materials CTO sees potential to develop robotics ecosystem in Singapore",
+      "Tampere University, Applied Materials, and European Partners Demonstrate Brain-Inspired Computing with 5-Bit Ferroelectric Capacitors to Slash AI Energy...",
       "Jim Cramer Shares His Playbook for Buying Applied Materials (AMAT)",
       "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
       "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
@@ -1000,9 +1000,9 @@
     ],
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
-      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon's Bangalore Bet and Buyback Signal: Why the Market Isn't Buying It",
       "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
+      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon to Acquire Indian Power Management Company C2i Semiconductors",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
@@ -1012,8 +1012,8 @@
       "North America Intelligent Power Module Market Report",
       "Infineon Startup Challenge 2026 puts humanoid robotics in the spotlight",
       "Infineon Technologies officially opens new R&D Centre in Cork",
+      "SolarEdge and Infineon Collaborate on Next-Gen SST for AI Datacenters",
       "Price tag, scope of Infineon's factory expansion plans revealed in incentives application",
-      "Hyundai Motor and Kia Strengthen Power Semiconductor Supply through Strategic Partnership with Infineon",
       "Sirin Software Joins Infineon Partner Ecosystem as an Associated Partner",
       "Infineon and Tack One win SICC Award for Best Technological Collaboration",
       "$4.12 Billion Avalanche Breakdown Diodes Market Outlook 2026-2030 - Featuring Profiles of Infineon Technologies, Littelfuse and Vishay Intertechnology",
@@ -1095,10 +1095,10 @@
       "Micron's Taiwan unions threaten strike over bonus dispute",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
       "Micron Technology Inc (Derivatives) Price (MU/USD) Today | Live Price, Market Cap & Chart",
+      "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
       "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
       "Microchip Technology, in Collaboration With Micron Technology, Demonstrates High-Performance PCIe",
       "U.S. stock storage sector surges at market open, Micron Technology rises 3.6%",
-      "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
       "Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab",
       "Micron Passes $1 Trillion as AI Memory Demand Sends Shares Soaring",
       "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
@@ -1109,73 +1109,7 @@
       "Dell’s Monster Quarter Just Confirmed Micron’s Biggest Opportunity Is Not Just HBM"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "large_share_purchases",
-        "headline": "Myriad Asset Management Advisors LLC Acquires 6,501 Shares of NVIDIA Corporation $NVDA",
-        "reason": "Sizeable institutional share purchase"
-      },
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdXB5SGw2blF5ampza25MWG42ajhMdlZKNk1ZZzdmd1FzNWdqTUx6YXNCREwwVEcwaHpQVEZUNTU2ZWdYRlk3MC02YnBRQ09pb2UtcWZoSjlpZVh5Z2ZiR1h2aWpkQng5RlNsTHVGeTVWamw3QU8tREZTQmRROEtESld2Nmo3bTlmUGV4QWZNc25DTTFyWGJndnZoUHc5dU9QdGExLVBDMm14Y1NiSV9HLWptQTZLYjVoN2xMUnJ4am5SajRFQUYyYmN2a0p3ODJxU0sxc0NTVDVvU2h6enc?oc=5",
-      "source": "marketbeat.com",
-      "method": "keyword",
-      "published": "2026-09-06T08:30:27",
-      "queued_min": 29811751,
-      "all_articles": [
-        {
-          "headline": "Myriad Asset Management Advisors LLC Acquires 6,501 Shares of NVIDIA Corporation $NVDA",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdXB5SGw2blF5ampza25MWG42ajhMdlZKNk1ZZzdmd1FzNWdqTUx6YXNCREwwVEcwaHpQVEZUNTU2ZWdYRlk3MC02YnBRQ09pb2UtcWZoSjlpZVh5Z2ZiR1h2aWpkQng5RlNsTHVGeTVWamw3QU8tREZTQmRROEtESld2Nmo3bTlmUGV4QWZNc25DTTFyWGJndnZoUHc5dU9QdGExLVBDMm14Y1NiSV9HLWptQTZLYjVoN2xMUnJ4am5SajRFQUYyYmN2a0p3ODJxU0sxc0NTVDVvU2h6enc?oc=5",
-          "source": "marketbeat.com",
-          "summary": "",
-          "published": "2026-09-06T08:30:27"
-        },
-        {
-          "headline": "Why Nvidia wants Hugging Face to keep helping its rivals: Chart of the Day",
-          "link": "https://finance.yahoo.com/markets/article/why-nvidia-wants-hugging-face-to-keep-helping-its-rivals-chart-of-the-day-132655037.html?.tsrc=rss",
-          "source": null,
-          "summary": "Nvidia got rich selling scarcity in AI — now it's betting on AI abundance.",
-          "published": "2026-09-06T13:26:55"
-        },
-        {
-          "headline": "PepsiCo Hasn't Been This Cheap Relative to Free Cash Flow in 10 Years",
-          "link": "https://www.fool.com/investing/2026/09/06/pepsi-hasnt-been-this-cheap-relative-to-free-cash/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "With plenty of spendable dollars at its disposal, the beverage company has a range of options to improve its overall business.",
-          "published": "2026-09-06T14:20:00"
-        },
-        {
-          "headline": "BNY Mellon Oversees $62 Trillion in Client Assets. Custody Is the Quietest Fee Machine in Finance.",
-          "link": "https://www.fool.com/investing/2026/09/06/bny-mellon-oversees-62-trillion-in-client-assets/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "BNY Mellon has outperformed all other major bank stocks over the past five years.",
-          "published": "2026-09-06T14:05:00"
-        },
-        {
-          "headline": "Retirees Face a Familiar Trap: Chase Yield or Chase Growth?",
-          "link": "https://www.fool.com/investing/2026/09/06/retirees-face-a-familiar-trap-chase-yield-or-chase/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Higher interest rates attract retirees to yield-focused investments, but at what cost?",
-          "published": "2026-09-06T13:48:00"
-        },
-        {
-          "headline": "Despite Revenue Skyrocketing More Than 100%, Nvidia Stock Trades at 24 Times Forward Earnings. Is the Market Warning Investors About What's to Come?",
-          "link": "https://www.fool.com/investing/2026/09/06/skyrocket-nvidia-stock-valuation-market-warning/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Even after a more than tenfold rise in the past five years, it's valid to argue that this AI stock is cheap.",
-          "published": "2026-09-06T13:35:00"
-        },
-        {
-          "headline": "Social Security's Trump Bump-Led 2027 COLA Should Have Its First Silver Lining Since 2023, but There's a Steep Price to Pay for This Victory",
-          "link": "https://www.fool.com/retirement/2026/09/06/social-security-trump-bump-led-2027-cola-first-silver-lining-since-2023-steep-price-to-pay/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Outsize Trump bumps can shorten the timeline to sweeping Social Security benefit cuts.",
-          "published": "2026-09-06T13:26:01"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
