@@ -1,10 +1,10 @@
 {
   "date": "2026-09-06",
   "daily_posts": 0,
-  "daily_keyword_posts": 0,
+  "daily_keyword_posts": 1,
   "daily_pulse_posts": 0,
   "gemini_calls_today": 6,
-  "evergreen_opinion_posts_today": 0,
+  "evergreen_opinion_posts_today": 1,
   "engagement": {
     "sunday": "2026-08-30",
     "monday": "2026-08-31",
@@ -66,7 +66,7 @@
     "AMAT": 29811633,
     "WDC": 29808992
   },
-  "event_log_next_id": 1073,
+  "event_log_next_id": 1074,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -726,10 +726,10 @@
       "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
       "Marvell Technology (Backpack Securities)",
       "Marvell Expands Memory Disaggregation Strategy to Ease AI Infrastructure Bottlenecks",
-      "Marvell Tokenized Stock price today, MRVLX to USD chart, marketcap and volume",
       "Google pits Marvell against Broadcom as it chases AI crown",
       "Marvell to Invest $250 Million in India, Expanding Bangalore Facility to Drive Next-generation AI Technology Development",
       "Marvell Keynote at COMPUTEX 2026: The Future of AI Scaling Depends on Connectivity",
+      "Why Is Marvell Stock Falling, and is it a Generational Buying Opportunity?",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "Marvell Raised Its Outlook but Fell as Google Chip Revenue Stayed Distant. Has the AI Payoff Been Priced In? (Ready for review)",
       "Lupin Receives U.S. FDA Approval for Modafinil Tablets, USP",
@@ -743,16 +743,16 @@
       "FormFactor acquires Keystone Photonics to boost silicon photonics testing",
       "Navellier & Associates Inc. Acquires New Shares in FormFactor, Inc. $FORM",
       "FormFactor Jumps 111% YTD: Is There More Room for the Stock to Rise?",
-      "Here’s how iPhone Ultra’s form factor could compare to other Apple products",
       "California-based Semiconductor Company Lands $24.2M Grant for DFW Manufacturing Facility",
+      "Here’s how iPhone Ultra’s form factor could compare to other Apple products",
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "FormFactor, Inc. Rings the Closing Bell",
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
-      "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
-      "Xiaomi unveils a new “mid-fold” form factor with the 18 Fold",
+      "FormFactor Inc (Carlsbad) WARN Act Investigation",
       "Bay Area semiconductor testing company to lay off more than 200 workers",
+      "Xiaomi unveils a new “mid-fold” form factor with the 18 Fold",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
       "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
@@ -774,12 +774,12 @@
       "LAM Research to offer 240-hour training to make people employable in electronics, mechanical assembly jobs",
       "Lam Research Corporation Announces June Quarter Financial Conference Call",
       "Is Lam Research Stock Outperforming the Nasdaq?",
-      "LAM RESEARCH CORP (NASDAQ: LRCX) Senior VP Varadarajan Seshasayee Disposes of 59,750 Shares at $291.32 Each",
       "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?",
       "4 Stocks to Buy That Declared Dividend Hikes Amid Geopolitical Woes",
       "Is the Options Market Predicting a Spike in Lam Research Stock?",
       "This Chip Equipment Stock Just Raised Its Dividend by 26.9%.",
-      "Lam Research (LRCX) Rises Higher Than Market: Key Facts"
+      "Lam Research (LRCX) Rises Higher Than Market: Key Facts",
+      "Lam Research (LRCX) Stock Looks Fully Priced After Its Big Run"
     ],
     "TSM": [
       "Taiwan Semiconductor (NYSE: TSM) SVP adds 12,881 vested shares",
@@ -958,6 +958,7 @@
       "Elon Musk Says His New Foundry Can Get Gas Turbines Online 18 Months Faster"
     ],
     "AIXA.DE": [
+      "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "EQS-PVR: AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
       "Aixtron SE vs Veeco Instruments",
@@ -1048,8 +1049,8 @@
       "ASML Set to Expand with Acquisition of Berliner Glas | light speed | Sep 2020",
       "ASML signs new customer: what does India’s Tata Electronics do?",
       "ASML Supplier Says China 15 Years Behind in Top Chipmaking Tools",
-      "Macron tours ASML as Europe chases chip sovereignty",
       "China's DUV technology 'at a similar stage to ASML in 2004,' analyst claims — Beijing's semiconductor industry remains well behind Western rivals",
+      "Macron tours ASML as Europe chases chip sovereignty",
       "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC",
       "From Bill Gates to Bernie Sanders, most agree the AI arms race is disastrous. Only Europe can make it stop",
       "[News] ASML Japan to Boost Workforce 40% by 2030 to Support Rapidus, TSMC Advanced Chip Push",
@@ -1092,15 +1093,15 @@
       "Micron Technology’s $1.8bn Acquisition of PSMC’s P5 Fabrication Site",
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron's Taiwan unions threaten strike over bonus dispute",
-      "Micron Technology Inc (Derivatives) Price (MU/USD) Today | Live Price, Market Cap & Chart",
+      "Micron Technology Tokenized bStocks Price (MUB/USD) Today | Live Price, Market Cap & Chart",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
       "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
       "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
       "Microchip Technology, in Collaboration With Micron Technology, Demonstrates High-Performance PCIe",
       "U.S. stock storage sector surges at market open, Micron Technology rises 3.6%",
       "Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab",
-      "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
       "Micron Passes $1 Trillion as AI Memory Demand Sends Shares Soaring",
+      "$8 million grant sparks ‘XTREME’ project to position Idaho as leader in resilient microelectronics",
       "Dow Jones Futures Loom After U.S.-Iran Attacks; Nvidia, Micron, Sandisk Flash Buy Signals",
       "Why Is Micron Technology (MU) CEO Being Honored In Taiwan?",
       "Dell’s Monster Quarter Just Confirmed Micron’s Biggest Opportunity Is Not Just HBM",
@@ -1336,18 +1337,15 @@
     }
   },
   "recent_post_sources": [
-    "Zacks",
     "Bloomberg.com",
     "Network World",
     "thestreet.com",
     "Benzinga",
-    "fool.com"
+    "fool.com",
+    "DatacenterDynamics"
   ],
   "last_news_post_min": 29809292,
   "evergreen_opinion_used": {
-    "cameroon's st digital opens data center in gabon": "2026-07-06",
-    "2mw telco data center on sale in cincinnati, ohio": "2026-07-07",
-    "weavegrid, gm advance grid-integrated ev charging and home energy programs": "2026-07-07",
     "second major virginia data center project dies, raising ai site selection stakes": "2026-07-08",
     "plans for 29mw data center in bonner, montana, dropped": "2026-07-08",
     "sponsored: tackling complexity in ai data centers: leveraging fully integrated solutions": "2026-08-02",
@@ -1395,10 +1393,16 @@
     "private ai cloud, agentic infrastructure dominate vmware explore": "2026-08-31",
     "onzero partners with helen to connect helsinki ai data center to district heating network": "2026-09-01",
     "spain's ipronics raises $125 million from nvidia, others for data center networking chips": "2026-09-02",
-    "when analyst benchmarks miss the mark: why nvidia doesn’t fit forrester’s data center matrix": "2026-09-04"
+    "when analyst benchmarks miss the mark: why nvidia doesn’t fit forrester’s data center matrix": "2026-09-04",
+    "the electrical power problem that will decide the ai race": "2026-09-06"
   },
   "pulse_template_decks": {
-    "evergreen": [],
+    "evergreen": [
+      1,
+      2,
+      3,
+      0
+    ],
     "mover": [
       4,
       6,
@@ -1437,27 +1441,8 @@
       8
     ]
   },
-  "last_evergreen_min": 29808818,
+  "last_evergreen_min": 29811662,
   "post_backlog": [
-    {
-      "text": "European tech giants are driving significant M&A activity, signaling strategic growth.\n\n$IFX.DE, $SU.PA, $SIE.DE, $SAP.DE are acquiring to expand in AI, software & industrial tech.\n\nThis inorganic growth trend highlights a strong push for capabilities and market share.",
-      "pool": "llm",
-      "queued_min": 29811542,
-      "log_meta": {
-        "mechanism": "scheduled_slot",
-        "storyline": "eu",
-        "slot_type": "analytical",
-        "generation_method": "gemini",
-        "symbol": "ASML.AS",
-        "base_symbol": "ASML",
-        "related_tickers": "$IFX, $SU, $SIE, $SAP",
-        "market_phase": "weekend",
-        "price": 1471.8,
-        "change_pct": 3.33,
-        "gemini_call_used": "Y",
-        "gemini_calls_today_after": 4
-      }
-    },
     {
       "text": "Following $BESI.AS's Q4-25 & FY2025 results announcement, is the market already fully pricing in sustained demand for AI chip equipment as we head into next week?",
       "pool": "llm",
