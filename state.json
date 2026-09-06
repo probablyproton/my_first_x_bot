@@ -66,7 +66,7 @@
     "AMAT": 29810282,
     "WDC": 29808992
   },
-  "event_log_next_id": 1054,
+  "event_log_next_id": 1055,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -782,11 +782,11 @@
       "Lam Research (LRCX) Stock Looks Fully Priced After Its Big Run"
     ],
     "TSM": [
+      "Taiwan Semiconductor (NYSE: TSM) SVP adds 12,881 vested shares",
       "Stock awards lift Taiwan Semiconductor (NYSE: TSM) legal chief's stake",
-      "TSMC shares stumble on report, but losses minor",
-      "Taiwan semiconductor suppliers are moving to the US, creating new opportunities",
-      "Taiwan Semiconductor Manufacturing Stock Climbs On Record Q1 Revenue Jump Of 35%",
-      "Key facts: TSMC stock hits new highs; U.S. plans semiconductor split; $30M securities acquisition",
+      "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
+      "TSMC Revives Longtan for 1.4nm Fabs and CoWoS Hub as Both Sell Out Globally",
+      "Micron purchases PSMC fabrication site in Taiwan for $1.8B",
       "Taiwan’s six-year hunt for China’s undercover chip labs",
       "TSMC says unable to keep pace with AI boom despite fivefold expansion",
       "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
@@ -810,15 +810,15 @@
       "Western Digital Stock Jumped 13% in a Day. Is the Bounce Real?",
       "WDC and Kioxia \"Re-Opened Talks\" : Potential NAND Deal That Could Reshape Storage",
       "Western Digital Corp. stock underperforms Friday when compared to competitors despite daily gains",
-      "Western Digital Adds Post-Quantum Cryptography to Hard Drives",
       "Western Digital Corp. stock underperforms Thursday when compared to competitors",
       "Western Digital (WDC) Retired Part Of Its 2028 Convertible Debt Early",
       "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
-      "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
+      "Western Digital Adds Post-Quantum Cryptography to Hard Drives",
       "How Western Digital used AI to turbocharge collection of supplier emissions data",
+      "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
+      "Western Digital Updates Convertible Note Exchange, Reveals Exact Share Issuance",
+      "Western Digital jumps 16% amid memory chip stocks rally",
       "Western Digital Corp. stock underperforms Monday when compared to competitors",
-      "WD Customer Survey Highlights Growing Focus on Scale, Economics, and Reliability in AI Infrastructure Planning",
-      "Western Digital Corp. stock underperforms Friday when compared to competitors",
       "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
       "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
       "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
@@ -857,12 +857,12 @@
       "Semiconductor Wafer Inspection Equipment Market Outlook",
       "KLA Corp (Derivatives): Latest News, Social Media Updates and Insights",
       "IT firm acquires land on Pallavaram-Thoraipakkam Radial Road for ₹1,020 cr.",
-      "KLA Corporation Rings the Closing Bell",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
-      "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know",
-      "KLA Corporation Price Today | xKLAC Live Price, Chart & Market Cap",
-      "Precision Trading with Kla Corporation (KLAC) Risk Zones",
       "KLA Corp. stock underperforms Friday when compared to competitors",
+      "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know",
+      "Precision Trading with Kla Corporation (KLAC) Risk Zones",
+      "Lam Research and KLA Corporation Stocks Trade Down, What You Need To Know",
+      "KLA Corp CFO Bren D. Higgins Sells 31,500 Shares Under Rule 10b5-1 Plan",
       "Two Chip-Equipment Stocks Just Crushed Nvidia. Is the AI Rally Broadening?",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "KLA (KLAC) Could Be 26% Undervalued After Its Recent Pullback",
@@ -904,8 +904,8 @@
       "SK hynix Orders Hybrid Bonding Equipment From Applied Materials and Besi",
       "Breakingviews - COMMENTARY: Europe's chip programme could do with a reset",
       "BE Semiconductor Shares Soar as Fourth Quarter Bookings Double",
-      "Semiconductor Back-End Equipment Market to Grow by $9.22",
       "Besi APac Aims To Cut Emission With SAF For Semiconductor Shipment",
+      "Besi Advances Repayment of its 2029 Convertible Bonds",
       "Is BE Semiconductor Industries (BESIY) Stock Outpacing Its Computer and Technology Peers This Year?",
       "Chip Stocks Driven Higher by Nvidia Results and Guidance",
       "Chip Stocks Mixed Ahead of Nvidia Earnings",
@@ -928,7 +928,7 @@
       "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
       "Nouri joins Applied Materials as global head of ventures",
       "Benicia chip manufacturing tool maker acquired by Applied Materials",
-      "Have Applied Materials Insiders Been Selling Stock?",
+      "Applied Materials, Inc. AMAT Stock Price Analysis Today Pfe Stock (giTbKajXWo)",
       "Jim Cramer Shares His Playbook for Buying Applied Materials (AMAT)",
       "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
       "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
@@ -936,11 +936,11 @@
       "Applied Materials Just Dropped 14% in a Month. Sell Now, or Buy More?"
     ],
     "NVDA": [
+      "AA Financial Advisors LLC Acquires 2,173 Shares of NVIDIA Corporation $NVDA",
       "Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips",
       "List of 32 Acquisitions by Nvidia (Sep 2026)",
       "Nvidia confirms $13 billion acquisition of open-weight AI platform Hugging Face",
       "Nvidia confirms $12.9B acquisition of AI hosting platform Hugging Face",
-      "Nvidia Acquires AI Platform Hugging Face for About $13 Billion",
       "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference | NVIDIA Technical Blog",
       "Breakingviews - COMMENTARY: Nvidia wraps itself in $12.9 bln of insurance",
       "Nvidia to buy Hugging Face for $13B in big bet on open AI models",
@@ -1097,11 +1097,11 @@
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
       "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
       "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
-      "Microchip Technology, in Collaboration With Micron Technology, Demonstrates High-Performance PCIe",
-      "Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab",
-      "Micron Passes $1 Trillion as AI Memory Demand Sends Shares Soaring",
       "SEMICON Taiwan 2026: Micron Counters Rivals, Declares AI Still 'Massively Undersupplied'",
       "Have Insiders Sold Micron Technology Shares Recently?",
+      "Micron looks to lock in Taiwanese construction capacity with long-term deals",
+      "Micron unveils Boise-based research lab, plans $10 billion investment over next decade",
+      "Micron project neighbors ask judge for new environmental review",
       "Dow Jones Futures: U.S., Iran Exchange Attacks; Nvidia, Micron, Sandisk Flash Buy Signals",
       "Why Is Micron Technology (MU) CEO Being Honored In Taiwan?",
       "Dell’s Monster Quarter Just Confirmed Micron’s Biggest Opportunity Is Not Just HBM",
@@ -1109,7 +1109,31 @@
       "China's Biggest Memory Chip Stock Is Almost as Good as Micron"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "NVDA",
+      "classification": {
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "AA Financial Advisors LLC Acquires 2,173 Shares of NVIDIA Corporation $NVDA",
+        "reason": "Sizeable institutional share purchase"
+      },
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOTN5X1dUOU1RdlQ0dWpxXzQyV2NpVjhWRE5jOGhsQ2lld0RPRUt0eUJzdHZ6dlB0WHUtQVU4cVBHZ0ZMWWlwOFo2RUdPUTNjbHM4cEFpWmxkbkI3d3g3bDJYUm9yWjIxNXZHaTc0R3AtNkhQMm1WdTVBVzh2MFExdnoyejRJaFR1Q1JrT2VEYnBEYnpLdnZpdmswR012NHJuNV9JMS0td1psbkFkUVlqZnViMnpUcFpZTWJGcTlkektXZkhIeTlQcW1vb3lzejg?oc=5",
+      "source": "marketbeat.com",
+      "method": "keyword",
+      "published": "2026-09-06T07:06:36",
+      "queued_min": 29811331,
+      "all_articles": [
+        {
+          "headline": "AA Financial Advisors LLC Acquires 2,173 Shares of NVIDIA Corporation $NVDA",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOTN5X1dUOU1RdlQ0dWpxXzQyV2NpVjhWRE5jOGhsQ2lld0RPRUt0eUJzdHZ6dlB0WHUtQVU4cVBHZ0ZMWWlwOFo2RUdPUTNjbHM4cEFpWmxkbkI3d3g3bDJYUm9yWjIxNXZHaTc0R3AtNkhQMm1WdTVBVzh2MFExdnoyejRJaFR1Q1JrT2VEYnBEYnpLdnZpdmswR012NHJuNV9JMS0td1psbkFkUVlqZnViMnpUcFpZTWJGcTlkektXZkhIeTlQcW1vb3lzejg?oc=5",
+          "source": "marketbeat.com",
+          "summary": "",
+          "published": "2026-09-06T07:06:36"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1158,7 +1182,8 @@
     "amd:hollencrestcapitalmanagement:6671": "2026-09-02",
     "amd:washingtontrustbank:23022": "2026-09-02",
     "anet:aristanetworkscfochantellebreithaupt:612": "2026-09-04",
-    "amd:tdwaterhousecanadainc:31995": "2026-09-05"
+    "amd:tdwaterhousecanadainc:31995": "2026-09-05",
+    "nvda:aafinancialadvisorsllc:2173": "2026-09-06"
   },
   "news_category_posted": {
     "VST": {
