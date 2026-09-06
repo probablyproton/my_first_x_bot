@@ -3,7 +3,7 @@
   "daily_posts": 0,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 3,
+  "gemini_calls_today": 4,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-08-30",
@@ -38,8 +38,8 @@
     "APLD": 1412,
     "DLR": 1173,
     "EOAN.DE": 1142,
-    "SIE.DE": 29811362,
-    "SU.PA": 29811362,
+    "SIE.DE": 29811542,
+    "SU.PA": 29811542,
     "ENGI.PA": 1142,
     "ERIC": 1007,
     "NVT": 1315,
@@ -47,7 +47,7 @@
     "POWL": 1097,
     "NOK": 1172,
     "NEE": 992,
-    "SAP.DE": 29811362,
+    "SAP.DE": 29811542,
     "STX": 29808871,
     "AIXA.DE": 29811451,
     "NVDA": 29811363,
@@ -56,8 +56,8 @@
     "MU": 29811363,
     "AMD": 29811363,
     "BESI.AS": 29811451,
-    "ASML.AS": 29811362,
-    "IFX.DE": 29811362,
+    "ASML.AS": 29811542,
+    "IFX.DE": 29811542,
     "LRCX": 29804731,
     "FORM": 29808931,
     "AVGO": 29811363,
@@ -66,7 +66,7 @@
     "AMAT": 29811363,
     "WDC": 29808992
   },
-  "event_log_next_id": 1061,
+  "event_log_next_id": 1064,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -723,8 +723,8 @@
       "Marvell Acquires Polariton Technologies | Business | Apr 2026",
       "Marvell to Showcase Advanced AI Memory and Storage Infrastructure Portfolio for Agentic AI Inference at FMS 2026",
       "Best Semiconductor Stock to Buy: Marvell Stock or Qualcomm Stock?",
-      "Marvell Technology (Backpack Securities)",
       "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
+      "Marvell Technology (Backpack Securities)",
       "Marvell Expands Memory Disaggregation Strategy to Ease AI Infrastructure Bottlenecks",
       "Marvell Tokenized Stock price today, MRVLX to USD chart, marketcap and volume",
       "Google pits Marvell against Broadcom as it chases AI crown",
@@ -748,9 +748,9 @@
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "FormFactor, Inc. Rings the Closing Bell",
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
-      "Here's How Much $100 Invested In FormFactor 15 Years Ago Would Be Worth Today",
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
+      "Bay Area semiconductor testing company to lay off more than 200 workers",
       "Xiaomi unveils a new “mid-fold” form factor with the 18 Fold",
       "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
@@ -763,8 +763,8 @@
       "Compass Financial Management LLC Acquires Shares of 8,814 Lam Research Corporation $LRCX",
       "Is Lam Research Corporation (LRCX) Eyeing Besi Industries Merger Amid IBM Pact for Logic Scaling",
       "Proficio Capital Partners LLC Acquires 7,555 Shares of Lam Research Corporation $LRCX",
-      "Lam Research Announces Retirement of Michael R. Cannon and Sohail U. Ahmed from Board of Directors",
       "Applied Materials, Lam Research may be interested in acquiring BE Semiconductor: report (AMAT:NASDAQ)",
+      "Newmark Represents Lam Research in $45.77 Million North Phoenix Office Acquisition Near TSMC Campus",
       "Lam Research Corp. stock outperforms competitors on strong trading day",
       "Lam Research Corp Stock (LRCX) Opened Up by 4.61% on Sep 4",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
@@ -804,48 +804,48 @@
       "TSMC Jumps as a Three-Hectare Lab Attacks Its Packaging Bottleneck"
     ],
     "WDC": [
-      "Western Digital (WDC) Revives Kioxia Merger Talks Over Flash Memory Assets",
-      "Western Digital Stock Rallies As Street Hikes Targets And Merger Talk Returns",
-      "Western Digital (WDC) Surges 12.5% to $548 - Kioxia Merger Talks, $900 Analyst Target",
-      "Western Digital Stock Jumped 13% in a Day. Is the Bounce Real?",
-      "WDC and Kioxia \"Re-Opened Talks\" : Potential NAND Deal That Could Reshape Storage",
       "Western Digital Corp. stock underperforms Friday when compared to competitors despite daily gains",
+      "Western Digital Adds Post-Quantum Cryptography to Hard Drives",
       "Western Digital Corp. stock underperforms Thursday when compared to competitors",
       "Western Digital (WDC) Retired Part Of Its 2028 Convertible Debt Early",
       "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
-      "Western Digital Adds Post-Quantum Cryptography to Hard Drives",
-      "How Western Digital used AI to turbocharge collection of supplier emissions data",
       "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
-      "Western Digital Updates Convertible Note Exchange, Reveals Exact Share Issuance",
-      "Western Digital jumps 16% amid memory chip stocks rally",
+      "How Western Digital used AI to turbocharge collection of supplier emissions data",
       "Western Digital Corp. stock underperforms Monday when compared to competitors",
+      "WD Customer Survey Highlights Growing Focus on Scale, Economics, and Reliability in AI Infrastructure Planning",
+      "Western Digital Corp. stock underperforms Wednesday when compared to competitors",
       "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
       "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
       "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
       "WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?",
-      "Micron and Western Digital Shares Skyrocket, What You Need To Know"
+      "Micron and Western Digital Shares Skyrocket, What You Need To Know",
+      "SK Hynix Surges 7% as Memory Bid Widens Beyond NAND; Seagate Rallies 5%",
+      "Micron Is No Longer What It Was So I Keep Loading Up",
+      "Dear Sandisk Stock Fans, Mark Your Calendars for August 31",
+      "These 2 AI Storage Stocks Soared as the S&P 500 Fell",
+      "Memory, Other AI-Related Stocks Lead the Market’s Top Performers Friday"
     ],
     "AVGO": [
       "VMware by Broadcom: Product, service and support news",
       "Broadcom | History, Acquisitions, Controversies, & Facts",
       "Nvidia to acquire Hugging Face in $12.9B AI infrastructure deal",
       "Top Midday Stories: Nvidia to Acquire Hugging Face for $12.93 Billion; Broadcom Q3 Adjusted Earnings, Guidance Top Estimates",
+      "AI’s Next Bottlenecks: Nvidia, Broadcom and CrowdStrike Move Up the Stack",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
       "VMware Explore 2026: Broadcom Doubles Down on Private Cloud Economics and Agentic AI",
       "Broadcom enlists partners to tie VCF adoption to business outcomes",
       "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade",
-      "Why Broadcom should buy Arista (and why it won’t)",
       "Broadcom Introduces TrueSource for Open-Source Software Security",
       "Broadcom Runs on VMware vSphere Kubernetes Service, Containers at Scale, and How to Operate Them Internally",
       "Node.js: Old Technique Makes a Comeback",
       "Broadcom and Supermicro unify AI factory management",
+      "Broadcom pledges to lock down open source Python, Java libraries",
+      "Nvidia’s Hugging Face Deal Is a Hedge against Broadcom’s Custom Silicon Threat",
       "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
       "With AI Revenue Set to Surge 400% Over the Next 2 Years, Broadcom Stock Looks Like a Buy on Recent Dip",
       "Broadcom (AVGO) AI Revenue Soars, But Wall Street Wants More",
       "Broadcom And 2 Other Undervalued Stocks To Own",
-      "Jim Cramer Says “Someone Must Know Something” About Broadcom Inc. (NASDAQ:AVGO)’s Post-Earnings Share Dip",
-      "Top Research Reports for Apple, Broadcom & Shell",
-      "5-star analyst resets Broadcom stock price target"
+      "Jim Cramer Says “Someone Must Know Something” About Broadcom Inc. (NASDAQ:AVGO)’s Post-Earnings Share Dip"
     ],
     "KLAC": [
       "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
@@ -897,15 +897,15 @@
       "NVIDIA Corporation | History, GPUs, & Artificial Intelligence",
       "BE Semiconductor Stock: The AI Packaging Bottleneck Play Investors Overlook (BESIY)",
       "Changes are imminent in semiconductor equipment! Applied Materials and Lam Research are targeting Besi, aiming to acquire the critical 'hybrid bonding' technology that is vital for AI and memory.",
-      "BE Semiconductor Hits Record High as BofA Says Market is Underestimating Demand",
+      "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
       "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
       "Dutch semiconductor giant Besi plans €10M to further build production facility in Vietnam",
       "Advanced Energy unveils dual-output 400W module for NeoPower configurable power supplies",
       "SK hynix Orders Hybrid Bonding Equipment From Applied Materials and Besi",
       "Breakingviews - COMMENTARY: Europe's chip programme could do with a reset",
-      "BE Semiconductor Shares Soar as Fourth Quarter Bookings Double",
-      "Semiconductor Back-End Equipment Market to Grow by $9.22",
+      "BE Semiconductor Hits Record High as BofA Says Market is Underestimating Demand",
       "Besi APac Aims To Cut Emission With SAF For Semiconductor Shipment",
+      "Besi Advances Repayment of its 2029 Convertible Bonds",
       "Is BE Semiconductor Industries (BESIY) Stock Outpacing Its Computer and Technology Peers This Year?",
       "Chip Stocks Driven Higher by Nvidia Results and Guidance",
       "Chip Stocks Mixed Ahead of Nvidia Earnings",
@@ -1000,10 +1000,10 @@
     ],
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
-      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Infineon's Bangalore Bet and Buyback Signal: Why the Market Isn't Buying It",
-      "Infineon completes €570m ams Osram sensor portfolio acquisition",
       "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
+      "Infineon Technologies AG: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
+      "Infineon to Acquire Indian Power Management Company C2i Semiconductors",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
       "Infineon Leads the Automotive Semiconductor",
@@ -1093,7 +1093,7 @@
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron Technology, Inc. Signs Letter of Intent to Acquire P5 Fabrication Site from Powerchip Semiconductor for $1.8 Billion",
       "Micron's Taiwan unions threaten strike over bonus dispute",
-      "Micron Technology Inc (Derivatives) Price (MU/USD) Today | Live Price, Market Cap & Chart",
+      "Micron Technology Tokenized bStocks Price (MUB/USD) Today | Live Price, Market Cap & Chart",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
       "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
       "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
@@ -1130,6 +1130,29 @@
           "source": "marketbeat.com",
           "summary": "",
           "published": "2026-09-06T07:06:36"
+        }
+      ]
+    },
+    {
+      "symbol": "AVGO",
+      "classification": {
+        "is_major": true,
+        "category": "contract",
+        "headline": "Nvidia’s Hugging Face Deal Is a Hedge against Broadcom’s Custom Silicon Threat",
+        "reason": "Keyword rule matched (category: contract)"
+      },
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-hugging-face-deal-hedge-105111039.html?.tsrc=rss",
+      "source": null,
+      "method": "keyword",
+      "published": "2026-09-06T10:51:11",
+      "queued_min": 29811543,
+      "all_articles": [
+        {
+          "headline": "Nvidia’s Hugging Face Deal Is a Hedge against Broadcom’s Custom Silicon Threat",
+          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-hugging-face-deal-hedge-105111039.html?.tsrc=rss",
+          "source": null,
+          "summary": "NVIDIA Corporation (NASDAQ:NVDA) has officially committed billions on AI developer platform Hugging Face for a $12.9 billion. The deal signifies the chipmaker’s move beyond hardware and up the AI stack. The AI chipmaker buying the open-source model hub millions of developers are already using reads differently when compared to Broadcom’s earlier forecast to double its […]",
+          "published": "2026-09-06T10:51:11"
         }
       ]
     }
@@ -1435,6 +1458,25 @@
         "gemini_call_used": "Y",
         "gemini_calls_today_after": 3
       }
+    },
+    {
+      "text": "European tech giants are driving significant M&A activity, signaling strategic growth.\n\n$IFX.DE, $SU.PA, $SIE.DE, $SAP.DE are acquiring to expand in AI, software & industrial tech.\n\nThis inorganic growth trend highlights a strong push for capabilities and market share.",
+      "pool": "llm",
+      "queued_min": 29811542,
+      "log_meta": {
+        "mechanism": "scheduled_slot",
+        "storyline": "eu",
+        "slot_type": "analytical",
+        "generation_method": "gemini",
+        "symbol": "ASML.AS",
+        "base_symbol": "ASML",
+        "related_tickers": "$IFX, $SU, $SIE, $SAP",
+        "market_phase": "weekend",
+        "price": 1471.8,
+        "change_pct": 3.33,
+        "gemini_call_used": "Y",
+        "gemini_calls_today_after": 4
+      }
     }
   ],
   "price_snapshots": {
@@ -1578,7 +1620,8 @@
   ],
   "eu_posted": [
     0,
-    1
+    1,
+    2
   ],
   "us_slots": [
     {
