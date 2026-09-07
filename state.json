@@ -1,7 +1,7 @@
 {
   "date": "2026-09-07",
   "daily_posts": 1,
-  "daily_keyword_posts": 0,
+  "daily_keyword_posts": 1,
   "daily_pulse_posts": 0,
   "gemini_calls_today": 17,
   "evergreen_opinion_posts_today": 0,
@@ -50,7 +50,7 @@
     "SAP.DE": 29813281,
     "STX": 29808871,
     "AIXA.DE": 29813281,
-    "NVDA": 29811812,
+    "NVDA": 29813582,
     "MRVL": 29809292,
     "ANET": 1262,
     "MU": 29811812,
@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1239,
+  "event_log_next_id": 1240,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -107,7 +107,7 @@
     "AMD": 1022,
     "AVGO": 29807371,
     "KLAC": 29808842,
-    "news_NVDA": 29809262,
+    "news_NVDA": 29813582,
     "news_TSM": 29807252,
     "IFX.DE": 29797081,
     "news_AMAT": 29797892,
@@ -466,9 +466,9 @@
       "Global electric company to close Portland-area factory, lay off 87",
       "Schneider Electric home EV charger uses smart load management",
       "Calcamite partners with Schneider Electric and 4Sight to deliver Cloud‑to‑Edge solution for smart water management",
-      "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Driving efficient water usage through closed-loop cooling",
       "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
+      "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Is Schneider Electric (ENXTPA:SU) Overvalued After A 108% Five Year Return?",
       "Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accelerate",
       "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
@@ -727,7 +727,7 @@
       "Best Semiconductor Stock to Buy: Marvell Stock or Qualcomm Stock?",
       "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
       "Marvell Expands Memory Disaggregation Strategy to Ease AI Infrastructure Bottlenecks",
-      "Google pits Marvell against Broadcom as it chases AI crown",
+      "Marvell Technology (Backpack Securities)",
       "Marvell to Invest $250 Million in India, Expanding Bangalore Facility to Drive Next-generation AI Technology Development",
       "Marvell Keynote at COMPUTEX 2026: The Future of AI Scaling Depends on Connectivity",
       "Should You Buy Marvell Technology Stock Before Oct. 6?",
@@ -751,8 +751,8 @@
       "Formfactor Helps Manufacturers Validate Silicon Photonics Designs",
       "Texas Invests $24.2 Million In Farmers Branch Chip Manufacturing Project",
       "Semiconductor tech company FormFactor gets $24M grant for new facility in Farmers Branch",
-      "FormFactor Inc (Carlsbad) WARN Act Investigation",
       "Bay Area semiconductor testing company to lay off more than 200 workers",
+      "FormFactor aStock (AFORM) Price, MarketCap, Charts and Fundamentals Info",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "FormFactor (FORM) Up 4.6% Since Last Earnings Report: Can It Continue?",
       "Amkor, FormFactor, Vishay Intertechnology, Allegro MicroSystems, and Intel Shares Skyrocket, What You Need To Know",
@@ -766,20 +766,20 @@
       "Applied Materials, Lam Research may be interested in acquiring BE Semiconductor: report (AMAT:NASDAQ)",
       "Newmark Represents Lam Research in $45.77 Million North Phoenix Office Acquisition Near TSMC Campus",
       "Lam Research Corp. stock outperforms competitors on strong trading day",
-      "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
+      "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
       "Lam Research Corporation Announces June Quarter Financial Conference Call",
       "LAM Research to offer 240-hour training to make people employable in electronics, mechanical assembly jobs",
       "Lam Research Launches Skill Development Program in India to Boost Advanced Manufacturing Talent",
       "Is Lam Research Stock Outperforming the Nasdaq?",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
+      "Lam Research Corp Stock (LRCX) Moved Down by 7.40% on Jul 2",
       "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?",
       "4 Stocks to Buy That Declared Dividend Hikes Amid Geopolitical Woes",
       "Is the Options Market Predicting a Spike in Lam Research Stock?",
       "This Chip Equipment Stock Just Raised Its Dividend by 26.9%.",
       "Lam Research (LRCX) Rises Higher Than Market: Key Facts",
-      "Lam Research (LRCX) Stock Looks Fully Priced After Its Big Run",
-      "Lam Research Corporation (LRCX) is Exploring Growth Opportunities in the Semiconductor Equipment Market"
+      "Lam Research (LRCX) Stock Looks Fully Priced After Its Big Run"
     ],
     "TSM": [
       "Taiwan Semiconductor (NYSE: TSM) SVP adds 12,881 vested shares",
@@ -830,16 +830,16 @@
       "Hugging Face $12.9B Acquisition Reveals Critical AI Chip Gap",
       "Nvidia to acquire Hugging Face in $12.9B AI infrastructure deal",
       "Top Midday Stories: Nvidia to Acquire Hugging Face for $12.93 Billion; Broadcom Q3 Adjusted Earnings, Guidance Top Estimates",
-      "AI’s Next Bottlenecks: Nvidia, Broadcom and CrowdStrike Move Up the Stack",
+      "New Broadcom and Carahsoft Agreement With DISA Delivers Uniform Pricing and Cost Transparency for DoW Agencies",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
       "Broadcom and Supermicro unify AI factory management",
-      "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade",
       "VMware Explore 2026: Broadcom Doubles Down on Private Cloud Economics and Agentic AI",
       "Why Broadcom should buy Arista (and why it won’t)",
       "VMware subtly promises a return to vSphere Standard",
       "AI News for the Week of September 4; Updates from Broadcom, Teradata, Wonderful & More",
       "Watch Broadcom Sees AI Chip Boom as It Takes On Nvidia | The Pulse 9/3/2026",
       "Broadcom Patches Critical VMware Workstation and Fusion VM-Escape Vulnerabilities",
+      "Arm in the enterprise is at least three years away, says Broadcom software boss",
       "Broadcom Inc. (AVGO)’s AI Opportunity Expands Across AI Infrastructure",
       "Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner",
       "Broadcom Inc. (AVGO) Is a Trending Stock: Facts to Know Before Betting on It",
@@ -849,17 +849,17 @@
     ],
     "KLAC": [
       "IT firm acquires land on Pallavaram-Thoraipakkam Radial Road for ₹1,020 cr.",
+      "KLA Corporation (KLAC): 3 Reasons We Love This Stock",
       "KLA Corporation (NASDAQ:KLAC) Q2: Beats On Revenue But Stock Drops 10.1%",
       "Semiconductor Manufacturing Stocks Q4 Results: Benchmarking KLA Corporation (NASDAQ:KLAC)",
       "Kwik Lok acquires full ownership of Kwik Lok Australia",
-      "2 Unpopular Stocks That Deserve Some Love and 1 We Brush Off",
       "KLA Corp. stock outperforms competitors on strong trading day",
       "Semiconductor Wafer Inspection Equipment Market Outlook",
       "KLA Corporation Rings the Closing Bell",
       "KLA Corp (Derivatives): Latest News, Social Media Updates and Insights",
       "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
-      "Lam Research and KLA Corporation Stocks Trade Down, What You Need To Know",
+      "Precision Trading with Kla Corporation (KLAC) Risk Zones",
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "KLA Corporation Rings the Nasdaq Stock Market Closing Bell",
       "Two Chip-Equipment Stocks Just Crushed Nvidia. Is the AI Rally Broadening?",
@@ -870,13 +870,13 @@
       "Is KLA Stock Outperforming the Dow?"
     ],
     "SAP.DE": [
-      "SAP Completes Acquisition of Prior Labs",
-      "SAP SE (SAP) to Acquire Dremio to Enhance Business Data Cloud, AI Capabilities",
       "SAP to Acquire Reltio: Make SAP and Non-SAP Data AI-Ready",
+      "SAP SE (SAP) to Acquire Dremio to Enhance Business Data Cloud, AI Capabilities",
       "A&O Shearman advises SAP on strategic AI acquisitions of Dremio and Prior Labs",
+      "SAP Completes Acquisition of Dremio",
       "Sap SE - Completes Acquisition Of Prior Labs",
       "CCoL: SAP SE SAP SF Office Shoot",
-      "SAP Completes Acquisition of Dremio",
+      "SAP Completes Acquisition of Prior Labs",
       "SAP SE (SAP) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
       "SAP Completes Acquisition of Reltio",
       "SAP and IBM Announce Client Momentum Across IBM Technology and SAP Cloud ERP Private to Drive AI Innovation",
@@ -915,20 +915,20 @@
     ],
     "AMAT": [
       "Applied Materials Extends AI Chip Role With NEXX Packaging Acquisition",
-      "Applied Materials Acquires NEXX",
       "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
       "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
       "Applied Materials Targets $3.5 Billion Electrochemical Deposition Market With NEXX Acquisition",
+      "Applied Materials To Acquire NEXX For $120 Million",
       "Contract technician dies at Applied Materials facility in Austin, Texas",
       "Applied Materials’ Advanced Packaging Vision: AI Scaling Is Becoming a System Integration Problem",
       "Applied Materials Inc. stock outperforms competitors on strong trading day",
       "Applied Materials Stock Price: AMAT Stock Chart, Market Cap & News Today",
       "Applied Materials, Inc. Tokenized Stock price today, AMATx to USD chart, marketcap and volume",
-      "ASU joins Applied Materials' EPIC Center as inaugural university research partner",
       "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
-      "Benicia chip manufacturing tool maker acquired by Applied Materials",
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials’ stock buybacks: History & investor impact explained",
+      "Applied Materials, Inc. AMAT Stock Price Analysis Today Pfe Stock (giTbKajXWo)",
+      "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
       "Wall Street Analysts Think Applied Materials (AMAT) Is a Good Investment: Is It?",
       "Jim Cramer Shares His Playbook for Buying Applied Materials (AMAT)",
       "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
@@ -984,13 +984,13 @@
       "AMD stock gains as data center revenue jumps 107 percent",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
       "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Malaga Fc (5R9rL8CZaZ)",
-      "Latham Watkins Advises Advanced Micro Devices Inc on Revolving Credit Facility",
       "Advanced Micro Devices Inc (Derivatives) Price (AMD/USD) Today | Live Price, Market Cap & Chart",
-      "AMD, NVIDIA raise bar on AI energy efficiency",
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
-      "AMD Acquires MEXT to Advance Memory Optimization for Compute Infrastructure",
-      "AMD acquires software built by URI professor and colleagues",
+      "AMD, NVIDIA raise bar on AI energy efficiency",
       "Advanced Micro Devices (NASDAQ:AMD) Momentum Cools After A Powerful AI Run",
+      "Why Is AMD Stock Sliding on Friday?",
+      "AMD acquires software built by URI professor and colleagues",
+      "Is Advanced Micro Devices Stock Outperforming the Dow?",
       "Wall Street Is Worried About AMD. Here’s Why Long-Term Investors Shouldn’t Be",
       "AMD Is Behind The AI Chip Shift Nobody Is Talking About",
       "AMD’s Whole AI Story Has One Threat It Cannot Ignore: Broadcom",
@@ -1001,9 +1001,9 @@
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
       "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
-      "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
       "Infineon's Bangalore Bet and Buyback Signal: Why the Market Isn't Buying It",
       "Infineon to Acquire Indian Power Management Company C2i Semiconductors",
+      "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
       "Infineon Leads the Automotive Semiconductor",
@@ -1056,8 +1056,8 @@
       "ASML reports transactions under its current share buyback program",
       "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC",
       "[News] ASML Japan to Boost Workforce 40% by 2030 to Support Rapidus, TSMC Advanced Chip Push",
-      "United States Government May Restrict ASML's DUV Tool Exports to China",
       "If US targets ASML, Netherlands should learn from Canada",
+      "United States Government May Restrict ASML's DUV Tool Exports to China",
       "Protolabs CEO sees big impact from US reshoring despite potential tariffs",
       "ZEISS SMT CEO: China 15 Years Behind in Top Chip Tools",
       "ASML Bets Big on AI & Capacity Expansion: Should You Buy the Stock?",
@@ -1092,103 +1092,24 @@
       "Micron Technology’s $1.8bn Acquisition of PSMC’s P5 Fabrication Site",
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
-      "Micron's Taiwan unions threaten strike over bonus dispute",
-      "Micron Technology Tokenized bStocks Price (MUB/USD) Today | Live Price, Market Cap & Chart",
-      "Micron Technology stock heads into the open after a 6.0% jump",
-      "Micron Technology Tokenized Stock price today, MUx to USD chart, marketcap and volume",
-      "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
-      "Why Is Micron (NASDAQ:MU) in Focus Ahead of Nasdaq Reopening?",
-      "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
-      "U.S. stock storage sector surges at market open, Micron Technology rises 3.6%",
-      "OCC gets $1M federal grant as demand grows for skilled manufacturing workers",
-      "Have Insiders Sold Micron Technology Shares Recently?",
+      "Micron, SanDisk get new aggressive price targets from top analyst",
       "Is Micron Technology Stock Running Out of Steam?",
       "Why Micron and SK Hynix Sit in the Most Valuable Spot in the Entire Compute Stack",
       "Everyone Is Watching Nvidia. But This Memory Stock Could Be the Next AI Winner",
       "Micron Has Skyrocketed 256% in 2026. What Would It Take to Get MU Stock Up to $1,250?",
-      "Micron Stock Has Reclaimed $1,000—What Comes Next"
+      "Micron Stock Has Reclaimed $1,000—What Comes Next",
+      "Do You Think Micron Technology’s (MU) Return Drivers May Falter Ahead",
+      "Micron Technology, Inc. (MU) Is a Trending Stock: Facts to Know Before Betting on It",
+      "Micron Jumps 6% as AI Memory Trade Keeps Running",
+      "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
+      "Most People Asking &quot;What Should I Invest In?&quot; Are Overthinking It. Start With Index Funds and These 4 Stocks.",
+      "Can Silicon Motion's CRA Compliance Efforts Drive Future Growth?",
+      "Why Micron (MU) is a Top Stock for the Long-Term",
+      "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
+      "Prediction: Micron Stock Will Skyrocket After Sept. 30"
     ]
   },
   "pending_news_posts": [
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "ma",
-        "headline": "NVIDIA's Hugging Face Buyout: Can It Further Strengthen AI Dominance?",
-        "reason": "Keyword rule matched (category: ma)"
-      },
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNVA3Q0xuWmZ6bVFkMTdYRUljaVVBZHROYU9wbG4xLUI1WDgzdldDeUR3cGU2QVBialJyNUFCajJMYXVzN1VPRllWd2RIY1RjMHliTHdvc3RNZ21JSDhhbGdSbDB4WW00QTJhanpTNkhqZDdubE4wMXI1OGlYTFdFVjN5QzN6WVdJVExVMFNrRUlobFQ4VlQ5M0QxM0JqSGd5ZXV1d19UNi11RXB5NHB4Y2lfRnJRNzJISDVxUkpwWUdOM013dXlWZEtoUEZ4SFZxeFZPbkN3WXU5YmtkU21feTUwbE1Ndw?oc=5",
-      "source": "The Globe and Mail",
-      "method": "keyword",
-      "published": "2026-09-07T14:14:55",
-      "queued_min": 29813461,
-      "all_articles": [
-        {
-          "headline": "Venturi Wealth Management LLC Acquires 15,227 Shares of NVIDIA Corporation $NVDA",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNS1sbmF6YW1CWmVxdVM3R3RpRGhhXzJuLURsQzVOX1U0al9yS2lUUlphcXo1MjNyeGw1LThmbEJ5N1NhMHcwSUsyTXhLNGkwUXJ0Wm1PX3B1ZDFrWlVqQm16cm9GTzhRRnkycWcwV3F3SXA2a1MyN0I2VGtFdFJzQV92cGp1YlBUamtUZk84VXIyT0VnQWFqNFNPMDRTYmlwM1owZFJxQ2Rzb2x2UXlaY3hSSnpjRWk4alVJZjkya3g0bGxXVUhGTmdsUFNsNE0zUGR5cklB?oc=5",
-          "source": "MarketBeat",
-          "summary": "",
-          "published": "2026-09-07T08:51:34"
-        },
-        {
-          "headline": "NVIDIA's Hugging Face Buyout: Can It Further Strengthen AI Dominance?",
-          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNVA3Q0xuWmZ6bVFkMTdYRUljaVVBZHROYU9wbG4xLUI1WDgzdldDeUR3cGU2QVBialJyNUFCajJMYXVzN1VPRllWd2RIY1RjMHliTHdvc3RNZ21JSDhhbGdSbDB4WW00QTJhanpTNkhqZDdubE4wMXI1OGlYTFdFVjN5QzN6WVdJVExVMFNrRUlobFQ4VlQ5M0QxM0JqSGd5ZXV1d19UNi11RXB5NHB4Y2lfRnJRNzJISDVxUkpwWUdOM013dXlWZEtoUEZ4SFZxeFZPbkN3WXU5YmtkU21feTUwbE1Ndw?oc=5",
-          "source": "The Globe and Mail",
-          "summary": "",
-          "published": "2026-09-07T14:14:55"
-        },
-        {
-          "headline": "NVIDIA Signs $11.9 Bn Deal to Acquire Hugging Face",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZDdQZHZvaFEzcW83RlNpa1dpM0RpQzlfb2lLR0UzYnN2MUFFZWVkQ2h5SlVrVHpDTTE3WUFzSUVEMFo5V3BqdXZuZzlxSC04b08tQnVkRnl3UUZLVUR4WGtuWjViZGg3WVN5VzRQaFVCamlwTlJsdWZid1RWZzRkck04RzZ0bTQ?oc=5",
-          "source": "techgraph.co",
-          "summary": "",
-          "published": "2026-09-07T12:20:27"
-        },
-        {
-          "headline": "Berkshire Hathaway Owns AI Exposure in 3 Different Ways",
-          "link": "https://www.fool.com/investing/2026/09/07/berkshire-owns-ai-exposure-3-different-ways-heres/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Why doesn't Berkshire own the top AI stock?",
-          "published": "2026-09-07T18:50:00"
-        },
-        {
-          "headline": "Broadcom Inc. (AVGO)’s AI Opportunity Expands Across AI Infrastructure",
-          "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-inc-avgo-ai-opportunity-181909723.html?.tsrc=rss",
-          "source": null,
-          "summary": "The AI infrastructure market is in a powerful expansion phase, with hyperscalers making significant investments in custom AI accelerators, high-speed networking, as well as complex data-center architectures. Even though Nvidia is the dominant GPU supplier, Broadcom Inc. (NASDAQ:AVGO) happens to be a key beneficiary of the transition towards customized AI infrastructure. In its latest results, […]",
-          "published": "2026-09-07T18:18:17"
-        },
-        {
-          "headline": "Should You Buy Marvell Technology Stock Before Oct. 6?",
-          "link": "https://www.fool.com/investing/2026/09/07/should-you-buy-marvell-technology-stock-before-oct-6/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "The company's Investor Day event is coming up next month, which may feature some big announcements.",
-          "published": "2026-09-07T18:14:21"
-        },
-        {
-          "headline": "AI Is Moving Into Everyday Business — These 5 Stocks Sit Squarely in the Path of the Surge",
-          "link": "https://247wallst.com/investing/2026/09/07/ai-is-moving-into-everyday-business-these-5-stocks-sit-squarely-in-the-path-of-the-surge/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "Goldman Sachs data suggests nearly half of all businesses could be running AI in daily operations within months, and the physical infrastructure scrambling to keep up has created a very specific set of winners. Five companies sit at the exact bottlenecks where that buildout cannot proceed without them.",
-          "published": "2026-09-07T16:52:50"
-        },
-        {
-          "headline": "Nvidia Is No Longer Just a Chip Company. It’s the Infrastructure Platform for All of AI",
-          "link": "https://247wallst.com/investing/2026/09/07/nvidia-is-no-longer-just-a-chip-company-its-the-infrastructure-platform-for-all-of-ai/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "Jensen Huang calls it a full-stack AI factory platform, not a chip company, and that distinction is reshaping where billions in hyperscaler spending actually land across five companies fighting over the same supply-constrained foundation.",
-          "published": "2026-09-07T16:50:14"
-        },
-        {
-          "headline": "Jensen Huang Declares “AGI Has Arrived” — Powered by 100,000+ Nvidia Grace Blackwell GPUs",
-          "link": "https://247wallst.com/investing/2026/09/07/jensen-huang-declares-agi-has-arrived-powered-by-100000-nvidia-grace-blackwell-gpus/?.tsrc=rss",
-          "source": "247wallst.com",
-          "summary": "Jensen Huang just bypassed every earnings call caveat and posted two words on X that the AI industry has been arguing over for years. Whether a 100,000-GPU training run actually proves his point is a much messier question.",
-          "published": "2026-09-07T16:30:16"
-        }
-      ]
-    },
     {
       "symbol": "NVDA",
       "classification": {
@@ -1476,7 +1397,7 @@
     "NVDA": {
       "contract": 29808182,
       "analyst_note": 29808817,
-      "ma": 29809262,
+      "ma": 29813582,
       "expansion": 29808632,
       "earnings": 29798373,
       "large_share_purchases": 29807792
@@ -1530,14 +1451,14 @@
     }
   },
   "recent_post_sources": [
-    "Bloomberg.com",
     "Network World",
     "thestreet.com",
     "Benzinga",
     "fool.com",
-    "DatacenterDynamics"
+    "DatacenterDynamics",
+    "The Globe and Mail"
   ],
-  "last_news_post_min": 29809292,
+  "last_news_post_min": 29813582,
   "evergreen_opinion_used": {
     "second major virginia data center project dies, raising ai site selection stakes": "2026-07-08",
     "plans for 29mw data center in bonner, montana, dropped": "2026-07-08",
@@ -1752,7 +1673,8 @@
     }
   ],
   "us_posted": [
-    0
+    0,
+    1
   ],
   "eu_flexible_used": 0
 }
