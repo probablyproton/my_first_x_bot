@@ -1,13 +1,13 @@
 {
   "date": "2026-09-07",
-  "daily_posts": 0,
+  "daily_posts": 1,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 0,
+  "gemini_calls_today": 1,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-09-06",
-    "monday": "2026-08-31",
+    "monday": "2026-09-07",
     "wednesday": "2026-08-26",
     "friday": "2026-08-21",
     "saturday": "2026-09-05"
@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1109,
+  "event_log_next_id": 1111,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -768,12 +768,12 @@
       "Lam Research Corp. stock outperforms competitors on strong trading day",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
       "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
+      "Lam Research Breaks Ground on Oregon Lab for AI Semiconductor R&D",
       "LAM Research to offer 240-hour training to make people employable in electronics, mechanical assembly jobs",
       "Lam Research Launches Skill Development Program in India to Boost Advanced Manufacturing Talent",
       "Lam Research Corporation Announces June Quarter Financial Conference Call",
       "Is Lam Research Stock Outperforming the Nasdaq?",
       "LAM RESEARCH CORP (NASDAQ: LRCX) Senior VP Varadarajan Seshasayee Disposes of 59,750 Shares at $291.32 Each",
-      "Lam Research Corporation Tokenized Stock (Robinhood)",
       "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?",
       "4 Stocks to Buy That Declared Dividend Hikes Amid Geopolitical Woes",
       "Is the Options Market Predicting a Spike in Lam Research Stock?",
@@ -838,8 +838,8 @@
       "Why Broadcom should buy Arista (and why it won’t)",
       "Broadcom Introduces TrueSource for Open-Source Software Security",
       "VMware subtly promises a return to vSphere Standard",
-      "Broadcom Delivers End-to-End Security, Identity, and Observability for Agentic AI",
       "AI News for the Week of September 4; Updates from Broadcom, Teradata, Wonderful & More",
+      "Broadcom Delivers End-to-End Security, Identity, and Observability for Agentic AI",
       "These AI numbers are getting crazy",
       "Broadcom And 2 Top Growth Stocks To Watch",
       "Nvidia’s Hugging Face Deal Is a Hedge against Broadcom’s Custom Silicon Threat",
@@ -919,16 +919,16 @@
       "Applied Materials Broadens Advanced Packaging Portfolio with Acquisition of NEXX",
       "Applied Materials to Acquire NEXX Business from ASMPT Limited, Expanding Advanced Packaging Portfolio for AI Technologies",
       "Applied Materials Targets $3.5 Billion Electrochemical Deposition Market With NEXX Acquisition",
+      "Contract technician dies at Applied Materials facility in Austin, Texas",
       "Applied Materials’ Advanced Packaging Vision: AI Scaling Is Becoming a System Integration Problem",
       "Applied Materials Inc. stock outperforms competitors on strong trading day",
+      "Applied Materials Stock Price: AMAT Stock Chart, Market Cap & News Today",
       "Applied Materials, Inc. Tokenized Stock price today, AMATx to USD chart, marketcap and volume",
       "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
       "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials’ stock buybacks: History & investor impact explained",
       "Applied Materials, Inc. AMAT Stock Price Analysis Today Pfe Stock (giTbKajXWo)",
-      "Applied Materials Sees AI Driving Its Biggest Semiconductor Growth Inflection Yet",
-      "Tampere University, Applied Materials, and European Partners Demonstrate Brain-Inspired Computing with 5-Bit Ferroelectric Capacitors to Slash AI Energy...",
       "Jim Cramer Shares His Playbook for Buying Applied Materials (AMAT)",
       "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
       "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
@@ -983,20 +983,20 @@
       "AMD buys chip startup that hardwires AI models into its silicon",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
       "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Malaga Fc (5R9rL8CZaZ)",
+      "Latham Watkins Advises Advanced Micro Devices Inc on Revolving Credit Facility",
       "Advanced Micro Devices Inc (Derivatives) Price (AMD/USD) Today | Live Price, Market Cap & Chart",
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
-      "How AMD Became One of the World’s Leading Semiconductor Companies",
       "Advanced Micro Devices (AMD) Faces New AI Data Center Market Shake Up",
+      "How AMD Became One of the World’s Leading Semiconductor Companies",
       "AMD, NVIDIA raise bar on AI energy efficiency",
       "Advanced Micro Devices (NASDAQ:AMD) Momentum Cools After A Powerful AI Run",
-      "Why Is AMD Stock Sliding on Friday?",
-      "AMD acquires software built by URI professor and colleagues",
       "Prediction: Data Center Passes 70% of AMD's Revenue in 2027, Before the Helios Ramp Is Finished",
       "AMD Committed Up to $5 Billion to Anthropic, and Anthropic's IPO Prospectus Is Reportedly Days Away",
       "AMD’s Data Center Revenue and EPS to Double by 2027 — With Shares Down 19%, It’s a Buy",
       "Intel Climbs 4%, AMD Rises 3%, NVIDIA Ticks Up as Chip Stocks Shrug Off Rising Rate Hike Odds",
       "Cathie Wood Cuts AMD and Puts $53 Million Into Nvidia",
-      "Did Nvidia Just Say Checkmate to AMD and Intel?"
+      "Did Nvidia Just Say Checkmate to AMD and Intel?",
+      "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy."
     ],
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
@@ -1031,16 +1031,16 @@
       "J. Goldman takes new $6.97M stake in Arista Networks",
       "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Akamai Technologies, Arista Networks, Booking Holdings, Cisco Systems, Dell Technologies, Duolingo, Robinhood Markets, PG&E, and More",
       "ANET to SGD: Arista Networks • Robinhood Token Price in Singapore Dollar",
-      "Arista Networks Tokenized Stock (Robinhood)",
+      "Arista Networks Tokenized Stock (Robinhood) Exchanges ANET Markets | Buy & Sell & Trade",
       "Arista Networks : ANET Stock Analysis With Elliott Wave + Trade Setup Richard Gere (Ue8qPhtAlT)",
       "Arista adds AI-driven zero trust to VeloCloud SD-WAN",
       "Member Spotlight: Arista Networks",
-      "Arista Networks Stock: Buy or Sell?",
       "How Much Track Is Left For ANET Stock?",
       "ANET Rises 37.3% in Six Months: Is There More Room to Grow?",
       "Arista Networks Offers Entry After 42% Gain Amid Earnings Beat; Data Center Demand Surging",
       "The \"Untouchable\" List: Stocks That Short Sellers Won't Dare Bet Against",
-      "Ciena Tumbles 10% as In-Line Guidance Overshadows Earnings Beat, Arista Edges Higher"
+      "Ciena Tumbles 10% as In-Line Guidance Overshadows Earnings Beat, Arista Edges Higher",
+      "Why Is Arista Networks (ANET) Down 5.7% Since Last Earnings Report?"
     ],
     "ASML.AS": [
       "SK Hynix plans to spend 11.9T won to acquire ASML's EUV systems",
@@ -1088,10 +1088,10 @@
     ],
     "MU": [
       "Micron purchases PSMC fabrication site in Taiwan for $1.8B",
+      "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
       "Micron Technology (MU) Well-Positioned With New P5 Site Acquisition",
       "Micron Technology’s $1.8bn Acquisition of PSMC’s P5 Fabrication Site",
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
-      "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
       "Micron Technology Tokenized bStocks Price (MUB/USD) Today | Live Price, Market Cap & Chart",
       "Micron's Taiwan unions threaten strike over bonus dispute",
       "Micron Technology (bStocks Tokenized Stock) Price: MUB/USD Live Price Chart, Market Cap & News Today",
@@ -1109,38 +1109,7 @@
       "Dell’s Monster Quarter Just Confirmed Micron’s Biggest Opportunity Is Not Just HBM"
     ]
   },
-  "pending_news_posts": [
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-first-ever-ahead-223147950.html?.tsrc=rss",
-      "source": null,
-      "method": "keyword",
-      "published": "2026-09-06T22:31:47",
-      "queued_min": 29812261,
-      "all_articles": [
-        {
-          "headline": "Nvidia (NVDA)’s First-Ever Year-Ahead Forecast Puts It on a Path to Pass Apple and Alphabet",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-nvda-first-ever-ahead-223147950.html?.tsrc=rss",
-          "source": null,
-          "summary": "CNBC reported that NVIDIA Corporation (NASDAQ:NVDA) CFO Colette Kress told investors on August 26 that fiscal 2028 revenue growth will reach 70%, far above the 44% average analyst estimate tracked by LSEG, marking the company’s first-ever year-ahead revenue forecast. Applied to the roughly $396 billion consensus estimate for fiscal 2027, that guidance implies fiscal 2028 […]",
-          "published": "2026-09-06T22:31:47"
-        },
-        {
-          "headline": "Did Nvidia Just Say Checkmate to AMD and Intel?",
-          "link": "https://www.fool.com/investing/2026/09/06/did-nvidia-just-say-checkmate-to-amd-and-intel/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "Nvidia is making a $12 billion move.",
-          "published": "2026-09-06T22:30:01"
-        }
-      ]
-    }
-  ],
+  "pending_news_posts": [],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
