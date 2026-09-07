@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1206,
+  "event_log_next_id": 1211,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -465,10 +465,10 @@
       "Schneider’s New Home EV Charger Undercuts Tesla’s By Bundling A Big Feature",
       "Schneider Electric Named a Top Charitable Company",
       "Schneider Electric home EV charger uses smart load management",
-      "Calcamite partners with Schneider Electric and 4Sight to deliver Cloud‑to‑Edge solution for smart water management",
       "Driving efficient water usage through closed-loop cooling",
       "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
+      "Schneider Electric launches Yuva Yodha tech hackathon",
       "Is Schneider Electric (ENXTPA:SU) Overvalued After A 108% Five Year Return?",
       "Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accelerate",
       "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
@@ -832,14 +832,14 @@
       "Top Midday Stories: Nvidia to Acquire Hugging Face for $12.93 Billion; Broadcom Q3 Adjusted Earnings, Guidance Top Estimates",
       "AI’s Next Bottlenecks: Nvidia, Broadcom and CrowdStrike Move Up the Stack",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
-      "Broadcom enlists partners to tie VCF adoption to business outcomes",
+      "Broadcom and Supermicro unify AI factory management",
       "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade",
+      "Broadcom's custom AI chips threaten AMD's growi...",
       "Why Broadcom should buy Arista (and why it won’t)",
       "VMware subtly promises a return to vSphere Standard",
-      "Broadcom's custom AI chips threaten AMD's growi...",
       "AI News for the Week of September 4; Updates from Broadcom, Teradata, Wonderful & More",
       "Watch Broadcom Sees AI Chip Boom as It Takes On Nvidia | The Pulse 9/3/2026",
-      "Broadcom and Supermicro unify AI factory management",
+      "Broadcom enlists partners to tie VCF adoption to business outcomes",
       "Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner",
       "Broadcom Inc. (AVGO) Is a Trending Stock: Facts to Know Before Betting on It",
       "AMD’s Whole AI Story Has One Threat It Cannot Ignore: Broadcom",
@@ -859,15 +859,15 @@
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know",
-      "KLA Corp Stock (KLAC) Moved Up by 3.94% on Jun 25: Drivers Behind the Movement",
+      "Precision Trading with Kla Corporation (KLAC) Risk Zones",
       "Marvell Technology, Nova, and KLA Corporation Stocks Trade Down, What You Need To Know",
+      "KLA Corp. stock outperforms competitors despite losses on the day",
       "Two Chip-Equipment Stocks Just Crushed Nvidia. Is the AI Rally Broadening?",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "KLA (KLAC) Could Be 26% Undervalued After Its Recent Pullback",
       "Jim Cramer Explains Why He Recommends Buying KLA (KLAC) Stock in Small Doses",
       "Semiconductor Wafer Inspection Equipment Market Outlook 2025-2035 Featuring Profiles of KLA Corporation, Applied Materials, Hitachi High-Tech Corporation and More",
-      "Is KLA Stock Outperforming the Dow?",
-      "Top 10 S&P 500 Stocks of the Past Decade Share One Clear Theme"
+      "Is KLA Stock Outperforming the Dow?"
     ],
     "SAP.DE": [
       "SAP Completes Acquisition of Prior Labs",
@@ -892,11 +892,11 @@
       "Element Appoints James Lee to the Board of Directors"
     ],
     "BESI.AS": [
-      "Besi Orders Rise 128.8% as AI Systems Reach About 60% of H1",
       "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
       "BE Semiconductor Industries Acquires Laurier | News & Features | Jan 2002",
       "NVIDIA Corporation | History, GPUs, & Artificial Intelligence",
       "BE Semiconductor Stock: The AI Packaging Bottleneck Play Investors Overlook (BESIY)",
+      "Changes are imminent in semiconductor equipment! Applied Materials and Lam Research are targeting Besi, aiming to acquire the critical 'hybrid bonding' technology that is vital for AI and memory.",
       "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
       "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
       "Dutch semiconductor giant Besi plans €10M to further build production facility in Vietnam",
@@ -926,8 +926,8 @@
       "Applied Materials, Inc. Tokenized Stock price today, AMATx to USD chart, marketcap and volume",
       "Applied Materials Appoints Akash Palkhiwala to Board of Directors",
       "Nouri joins Applied Materials as global head of ventures",
-      "Applied Materials’ stock buybacks: History & investor impact explained",
       "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
+      "Applied Materials’ stock buybacks: History & investor impact explained",
       "Applied Materials Sees AI Driving Its Biggest Semiconductor Growth Inflection Yet",
       "Wall Street Analysts Think Applied Materials (AMAT) Is a Good Investment: Is It?",
       "Jim Cramer Shares His Playbook for Buying Applied Materials (AMAT)",
@@ -1000,10 +1000,10 @@
     ],
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
-      "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
       "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
       "Infineon's Bangalore Bet and Buyback Signal: Why the Market Isn't Buying It",
       "Infineon to Acquire Indian Power Management Company C2i Semiconductors",
+      "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
       "Infineon Leads the Automotive Semiconductor",
@@ -1130,29 +1130,6 @@
           "source": "MarketBeat",
           "summary": "",
           "published": "2026-09-07T10:20:24"
-        }
-      ]
-    },
-    {
-      "symbol": "MRVL",
-      "classification": {
-        "is_major": true,
-        "category": "ma",
-        "headline": "Marvell Technology (MRVL) Stock Rallies 7% Following Nvidia's Massive Hugging Face Acquisition",
-        "reason": "Keyword rule matched (category: ma)"
-      },
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOHNqd0gyeTkyZXVROE5lcWN0V3lWR3RSSWdOOHdOMjZ2WUwxdzJ6SFMyZUhZekFGZlpwRHEyN2J6VjBVZDJjVUVsZmNiRThJbElwandiM2RFZTRETWM2U1k1b3BjR29LOEF0Sm1LR1d2ekc3ZGdtQzRzUGpGYXg5aXN3cUQtamZwUDBXaWhFMzhBcFQxVURYSmxDZHVGZkF2MkZNdDFNZFUyak9fMFlhQV9UMzI?oc=5",
-      "source": "Blockonomi",
-      "method": "keyword",
-      "published": "2026-09-07T09:49:33",
-      "queued_min": 29812951,
-      "all_articles": [
-        {
-          "headline": "Marvell Technology (MRVL) Stock Rallies 7% Following Nvidia's Massive Hugging Face Acquisition",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOHNqd0gyeTkyZXVROE5lcWN0V3lWR3RSSWdOOHdOMjZ2WUwxdzJ6SFMyZUhZekFGZlpwRHEyN2J6VjBVZDJjVUVsZmNiRThJbElwandiM2RFZTRETWM2U1k1b3BjR29LOEF0Sm1LR1d2ekc3ZGdtQzRzUGpGYXg5aXN3cUQtamZwUDBXaWhFMzhBcFQxVURYSmxDZHVGZkF2MkZNdDFNZFUyak9fMFlhQV9UMzI?oc=5",
-          "source": "Blockonomi",
-          "summary": "",
-          "published": "2026-09-07T09:49:33"
         }
       ]
     },
