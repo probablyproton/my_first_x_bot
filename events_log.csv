@@ -2919,3 +2919,28 @@ https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corrido
 1200,2026-09-07,17:33:43,Monday,evergreen_opinion,,,gemini,,,,,,,,,,,"How Energy Security, Load Growth and Infrastructure Arbitrage Could Reshape America’s Power Market",POWER Magazine,https://www.powermag.com/how-energy-security-load-growth-and-infrastructure-arbitrage-could-reshape-americas-power-market/,2026-09-07T14:29:26,,,,,,,,,N,post_failed,"The US power market is shifting focus from generation cost to delivery infrastructure, per POWER Magazine. Driven by AI/data centers, new security policies on foreign grid equipment could create a critical domestic market for grid modernization.
 
 https://www.powermag.com/how-energy-security-load-growth-and-infrastructure-arbitrage-could-reshape-americas-power-market/",369,,,,,
+1200,2026-09-07,18:01:24,Monday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,,N,no_valid_mover_data,,,,,,,
+1201,2026-09-07,18:02:16,Monday,scheduled_slot,eu,close_summary,gemini,AIXA.DE,AIXA,"$IFX, $SU, $SAP, $SIE",,,post_market,38.98,7.83,,,,,,,,,,,,Y,17,,N,post_failed_backlogged,"Market wrap-up: $AIXA.DE surged +7.83% to €38.98, leading EU names.
+
+$AIXA.DE +7.83% €38.98, high.
+$IFX.DE +6.91% €60.79, high on C2i.
+$SU.PA +2.46% €295.8, near high.
+$SAP.DE -1.93% €182.22, off high.
+$SIE.DE -0.83% €270.4, near low.
+
+Chips up, industrials/software down.",272,,,,,
+1202,2026-09-07,18:03:00,Monday,news_event,,,keyword,LRCX,LRCX,,,,,307.25,4.83,,,VIRGINIA RETIREMENT SYSTEMS ET Al Acquires New Stake in Lam Research Corporation $LRCX,MarketBeat,https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-new-stake-in-lam-research-corporation-lrcx-2026-09-07/,,ma,,,,,N,17,,N,post_failed,"$LRCX ($307.25, +4.83% at last close as of Sep 4): VIRGINIA RETIREMENT SYSTEMS ET Al Acquires New Stake in Lam Research Corporation $LRCX
+
+https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-new-stake-in-lam-research-corporation-lrcx-2026-09-07/",285,,,,,
+1203,2026-09-07,18:03:19,Monday,news_event,,,keyword,MRVL,MRVL,,,,,222.39,6.56,,,Marvell Technology (MRVL) Stock Rallies 7% Following Nvidia's Massive Hugging Face Acquisition,Blockonomi,https://blockonomi.com/marvell-technology-mrvl-stock-rallies-7-following-nvidias-massive-hugging-face-acquisition/,,ma,,,,,N,17,,N,post_failed,"$MRVL ($222.39, +6.56% at last close as of Sep 4): Marvell Technology (MRVL) Stock Rallies 7% Following Nvidia's Massive Hugging Face Acquisition
+
+https://blockonomi.com/marvell-technology-mrvl-stock-rallies-7-following-nvidias-massive-hugging-face-acquisition/",261,,,,,
+1204,2026-09-07,18:03:38,Monday,news_event,,,keyword,NVDA,NVDA,,,,,229.5,-0.05,,,Thomasville National Bank Acquires New Shares in NVIDIA Corporation $NVDA,MarketBeat,https://www.marketbeat.com/instant-alerts/filing-thomasville-national-bank-acquires-new-shares-in-nvidia-corporation-nvda-2026-09-07/,,ma,,,,,N,17,,N,post_failed,"$NVDA ($229.5, -0.05% at last close as of Sep 4): Thomasville National Bank Acquires New Shares in NVIDIA Corporation $NVDA
+
+https://www.marketbeat.com/instant-alerts/filing-thomasville-national-bank-acquires-new-shares-in-nvidia-corporation-nvda-2026-09-07/",258,,,,,
+1205,2026-09-07,18:03:57,Monday,news_event,,,keyword,NVDA,NVDA,,,,,229.5,-0.05,,,Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord,,https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corridor-deepens-101058763.html?.tsrc=rss,,ma,,,,,N,17,,N,post_failed,"$NVDA ($229.5, -0.05% at last close as of Sep 4): Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord
+
+https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corridor-deepens-101058763.html?.tsrc=rss",247,,,,,
+1206,2026-09-07,18:04:24,Monday,evergreen_opinion,,,gemini,,,,,,,,,,,"How Energy Security, Load Growth and Infrastructure Arbitrage Could Reshape America’s Power Market",POWER Magazine,https://www.powermag.com/how-energy-security-load-growth-and-infrastructure-arbitrage-could-reshape-americas-power-market/,2026-09-07T14:29:26,,,,,,,,,N,post_failed,"Interesting perspective from POWER Magazine: AI/data center load growth is shifting America's power market focus from generation cost to core infrastructure.
+
+https://www.powermag.com/how-energy-security-load-growth-and-infrastructure-arbitrage-could-reshape-americas-power-market/",281,,,,,

@@ -3,7 +3,7 @@
   "daily_posts": 1,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 16,
+  "gemini_calls_today": 17,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-09-06",
@@ -38,8 +38,8 @@
     "APLD": 1412,
     "DLR": 1173,
     "EOAN.DE": 1142,
-    "SIE.DE": 29812742,
-    "SU.PA": 29812742,
+    "SIE.DE": 29813281,
+    "SU.PA": 29813281,
     "ENGI.PA": 1142,
     "ERIC": 1007,
     "NVT": 1315,
@@ -47,9 +47,9 @@
     "POWL": 1097,
     "NOK": 1172,
     "NEE": 992,
-    "SAP.DE": 29812742,
+    "SAP.DE": 29813281,
     "STX": 29808871,
-    "AIXA.DE": 29812742,
+    "AIXA.DE": 29813281,
     "NVDA": 29811812,
     "MRVL": 29809292,
     "ANET": 1262,
@@ -57,7 +57,7 @@
     "AMD": 29811812,
     "BESI.AS": 29811632,
     "ASML.AS": 29811903,
-    "IFX.DE": 29812742,
+    "IFX.DE": 29813281,
     "LRCX": 29804731,
     "FORM": 29808931,
     "AVGO": 29811812,
@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1200,
+  "event_log_next_id": 1206,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -742,7 +742,7 @@
       "FormFactor (FORM) Announces the Acquisition of Keystone Photonics, Here’s What You Need to Know",
       "FormFactor acquires Keystone Photonics to boost silicon photonics testing",
       "Navellier & Associates Inc. Acquires New Shares in FormFactor, Inc. $FORM",
-      "Paradigm Capital Management Inc. NY Acquires Shares of 27,900 FormFactor, Inc. $FORM",
+      "FormFactor Jumps 111% YTD: Is There More Room for the Stock to Rise?",
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "Here’s how iPhone Ultra’s form factor could compare to other Apple products",
       "FormFactor, Inc. Rings the Closing Bell",
@@ -834,11 +834,11 @@
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
       "Broadcom enlists partners to tie VCF adoption to business outcomes",
       "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade",
-      "VMware Explore 2026: Broadcom Doubles Down on Private Cloud Economics and Agentic AI",
       "Why Broadcom should buy Arista (and why it won’t)",
-      "Broadcom's custom AI chips threaten AMD's growi...",
       "VMware subtly promises a return to vSphere Standard",
+      "Broadcom's custom AI chips threaten AMD's growi...",
       "AI News for the Week of September 4; Updates from Broadcom, Teradata, Wonderful & More",
+      "Watch Broadcom Sees AI Chip Boom as It Takes On Nvidia | The Pulse 9/3/2026",
       "Broadcom and Supermicro unify AI factory management",
       "Broadcom vs Marvell: One of These AI Chip Stocks Is a Clear Winner",
       "Broadcom Inc. (AVGO) Is a Trending Stock: Facts to Know Before Betting on It",
@@ -854,9 +854,9 @@
       "Semiconductor Manufacturing Stocks Q4 Results: Benchmarking KLA Corporation (NASDAQ:KLAC)",
       "Kwik Lok acquires full ownership of Kwik Lok Australia",
       "KLA Corp. stock outperforms competitors on strong trading day",
+      "Semiconductor Wafer Inspection Equipment Market Outlook",
       "KLA Corp (Derivatives): Latest News, Social Media Updates and Insights",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
-      "Semiconductor Wafer Inspection Equipment Market Outlook",
       "KLA Corp. stock underperforms Friday when compared to competitors",
       "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know",
       "KLA Corp Stock (KLAC) Moved Up by 3.94% on Jun 25: Drivers Behind the Movement",
@@ -892,11 +892,11 @@
       "Element Appoints James Lee to the Board of Directors"
     ],
     "BESI.AS": [
+      "Besi Orders Rise 128.8% as AI Systems Reach About 60% of H1",
       "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
       "BE Semiconductor Industries Acquires Laurier | News & Features | Jan 2002",
       "NVIDIA Corporation | History, GPUs, & Artificial Intelligence",
       "BE Semiconductor Stock: The AI Packaging Bottleneck Play Investors Overlook (BESIY)",
-      "Changes are imminent in semiconductor equipment! Applied Materials and Lam Research are targeting Besi, aiming to acquire the critical 'hybrid bonding' technology that is vital for AI and memory.",
       "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
       "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
       "Dutch semiconductor giant Besi plans €10M to further build production facility in Vietnam",
@@ -1000,10 +1000,10 @@
     ],
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
+      "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
       "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
       "Infineon's Bangalore Bet and Buyback Signal: Why the Market Isn't Buying It",
       "Infineon to Acquire Indian Power Management Company C2i Semiconductors",
-      "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
       "Infineon Leads the Automotive Semiconductor",
@@ -1055,21 +1055,21 @@
       "ASML Japan Plans Workforce Expansion Amid Advanced Chip Manufacturing Growth",
       "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC",
       "[News] ASML Japan to Boost Workforce 40% by 2030 to Support Rapidus, TSMC Advanced Chip Push",
-      "United States Government May Restrict ASML's DUV Tool Exports to China",
       "If US targets ASML, Netherlands should learn from Canada",
       "From Bill Gates to Bernie Sanders, most agree the AI arms race is disastrous. Only Europe can make it stop",
+      "Why ASML Holding Stock Bumped 4% Higher Today",
       "Protolabs CEO sees big impact from US reshoring despite potential tariffs",
       "ZEISS SMT CEO: China 15 Years Behind in Top Chip Tools",
+      "ASML Bets Big on AI & Capacity Expansion: Should You Buy the Stock?",
       "ASML Holding N.V. (ASML) Well Positioned as AI Fuels Chip Complexity",
-      "ASML reports transactions under its current share buyback program",
-      "ASML vs. Taiwan Semiconductor: Which Semiconductor Monopoly Is the Safer Investment?"
+      "ASML reports transactions under its current share buyback program"
     ],
     "STX": [
-      "Seagate (NASDAQ: STX) director prepares stock sale; filing details date and amount",
-      "Seagate Technology Reports Fiscal Fourth Quarter and Fiscal Year 2026 Financial Results",
-      "Seagate Technology (STX) Holds Near $856 as High-Capacity Storage Demand Fades and Flows - Merger Arbitrage",
-      "Wilson Sonsini Advises Intevac on Acquisition by Seagate",
-      "Two Silicon Valley companies agree to $119 million merger",
+      "Seagate Technology (STX) CLO sells 694 shares in 10b5-1 trading plan",
+      "Seagate Stock Surged 685% in One Year on AI Storage Demand. Is It Still Worth Buying?",
+      "Why Seagate Shares Are Trading Higher By Around 18%; Here Are 20 Stocks Moving Premarket",
+      "Wasabi Technologies Acquires Seagate’s Lyve Cloud Business",
+      "Wasabi acquires Seagate’s cloud storage service in return for equity",
       "Seagate Technology Holdings PLC stock outperforms competitors on strong trading day",
       "Seagate Technology Holdings PLC stock underperforms Thursday when compared to competitors",
       "Seagate to Participate in Upcoming Investor Events",
@@ -1575,7 +1575,27 @@
     ]
   },
   "last_evergreen_min": 29811662,
-  "post_backlog": [],
+  "post_backlog": [
+    {
+      "text": "Market wrap-up: $AIXA.DE surged +7.83% to €38.98, leading EU names.\n\n$AIXA.DE +7.83% €38.98, high.\n$IFX.DE +6.91% €60.79, high on C2i.\n$SU.PA +2.46% €295.8, near high.\n$SAP.DE -1.93% €182.22, off high.\n$SIE.DE -0.83% €270.4, near low.\n\nChips up, industrials/software down.",
+      "pool": "llm",
+      "queued_min": 29813282,
+      "log_meta": {
+        "mechanism": "scheduled_slot",
+        "storyline": "eu",
+        "slot_type": "close_summary",
+        "generation_method": "gemini",
+        "symbol": "AIXA.DE",
+        "base_symbol": "AIXA",
+        "related_tickers": "$IFX, $SU, $SAP, $SIE",
+        "market_phase": "post_market",
+        "price": 38.98,
+        "change_pct": 7.83,
+        "gemini_call_used": "Y",
+        "gemini_calls_today_after": 17
+      }
+    }
+  ],
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
@@ -1686,7 +1706,8 @@
     }
   ],
   "eu_posted": [
-    0
+    0,
+    1
   ],
   "us_slots": [
     {
