@@ -3,7 +3,7 @@
   "daily_posts": 1,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 11,
+  "gemini_calls_today": 12,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-09-06",
@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1171,
+  "event_log_next_id": 1177,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -468,7 +468,7 @@
       "Driving efficient water usage through closed-loop cooling",
       "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
       "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
-      "Schneider Electric launches Yuva Yodha tech hackathon",
+      "Schneider Electric Appoints Business Vice President",
       "Is Schneider Electric (ENXTPA:SU) Overvalued After A 108% Five Year Return?",
       "Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accelerate",
       "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
@@ -784,9 +784,9 @@
     "TSM": [
       "Taiwan Semiconductor (NYSE: TSM) SVP adds 12,881 vested shares",
       "SVP adds 12,881 shares in stock award at Taiwan Semiconductor (NYSE: TSM)",
+      "News | Virginia investor is latest to buy into Arizona's manufacturing hotbed",
       "Nightfood Signs LOI to Acquire 51% of Taiwan Semiconductor Automation Manufacturer",
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
-      "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
       "Why Taiwan’s Silicon Shield Is Failing",
       "Where Does AMD Make Its Processors?",
       "Taiwan’s six-year hunt for China’s undercover chip labs",
@@ -819,11 +819,11 @@
       "Western Digital jumps 16% amid memory chip stocks rally",
       "Western Digital Updates Convertible Note Exchange, Reveals Exact Share Issuance",
       "Western Digital Corp. stock underperforms Monday when compared to competitors",
+      "Investors Heavily Search Western Digital Corporation (WDC): Here is What You Need to Know",
       "Here's How Much a $1000 Investment in Western Digital Made 10 Years Ago Would Be Worth Today",
       "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
       "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore",
-      "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?",
-      "WDC Stock's Big Rally: Buy, Sell, or Hold After a 70% 6-Month Surge?"
+      "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?"
     ],
     "AVGO": [
       "Hugging Face $12.9B Acquisition Reveals Critical AI Chip Gap",
@@ -833,19 +833,19 @@
       "AI’s Next Bottlenecks: Nvidia, Broadcom and CrowdStrike Move Up the Stack",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
       "Broadcom enlists partners to tie VCF adoption to business outcomes",
-      "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade",
+      "Broadcom's custom AI chips threaten AMD's growi...",
       "VMware Explore 2026: Broadcom Doubles Down on Private Cloud Economics and Agentic AI",
+      "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade",
       "VMware subtly promises a return to vSphere Standard",
       "AI News for the Week of September 4; Updates from Broadcom, Teradata, Wonderful & More",
       "Watch Broadcom Sees AI Chip Boom as It Takes On Nvidia | The Pulse 9/3/2026",
       "Broadcom and Supermicro unify AI factory management",
-      "Arm in the enterprise is at least three years away, says Broadcom software boss",
+      "Broadcom Inc. (AVGO) Is a Trending Stock: Facts to Know Before Betting on It",
       "AMD’s Whole AI Story Has One Threat It Cannot Ignore: Broadcom",
       "These AI numbers are getting crazy",
       "Broadcom And 2 Top Growth Stocks To Watch",
       "Nvidia’s Hugging Face Deal Is a Hedge against Broadcom’s Custom Silicon Threat",
-      "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings",
-      "5 big analyst AI moves: iPhone launch to be negative for Apple stock"
+      "Broadcom vs. Nvidia: 1 Critical Metric Shows Which Artificial Intelligence (AI) Chipmaker Is the Better Buy After Earnings"
     ],
     "KLAC": [
       "IT firm acquires land on Pallavaram-Thoraipakkam Radial Road for ₹1,020 cr.",
@@ -1098,15 +1098,15 @@
       "Why Is Micron (NASDAQ:MU) in Focus Ahead of Nasdaq Reopening?",
       "Micron Technology Tokenized Stock price today, MUx to USD chart, marketcap and volume",
       "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
+      "Microchip Technology, in Collaboration With Micron Technology, Demonstrates High-Performance PCIe",
+      "Micron Accelerates U.S. Investments, Pours First Concrete at New York Fab",
       "U.S. stock storage sector surges at market open, Micron Technology rises 3.6%",
-      "OCC gets $1M federal grant as demand grows for skilled manufacturing workers",
-      "Have Insiders Sold Micron Technology Shares Recently?",
-      "Micron unveils Boise-based research lab, plans $10 billion investment over next decade",
+      "Micron Passes $1 Trillion as AI Memory Demand Sends Shares Soaring",
+      "Micron Technology, Inc. (MU) Is a Trending Stock: Facts to Know Before Betting on It",
       "Micron Jumps 6% as AI Memory Trade Keeps Running",
       "Dow Jones Futures Fall With Iran, Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
       "Prediction: Micron Stock Will Skyrocket After Sept. 30",
-      "Micron Stock More Than Tripled in 2026. Now Taiwan Strike Threat Could Shake the AI Boom.",
-      "Why Is Micron Technology (MU) CEO Being Honored In Taiwan?"
+      "Micron Stock More Than Tripled in 2026. Now Taiwan Strike Threat Could Shake the AI Boom."
     ]
   },
   "pending_news_posts": [
@@ -1560,8 +1560,7 @@
     "mover_strong": [
       7,
       0,
-      10,
-      5
+      10
     ],
     "price_event_up": [
       8,
@@ -1584,8 +1583,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 292.55,
-    "SIE.DE": 270.65,
+    "SU.PA": 294.6,
+    "SIE.DE": 271.3,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1611,10 +1610,10 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 181.98,
+    "SAP.DE": 181.56,
     "BESI.AS": 197.35,
-    "AIXA.DE": 37.6,
-    "IFX.DE": 59.41,
+    "AIXA.DE": 37.69,
+    "IFX.DE": 59.55,
     "ASML.AS": 1472.4,
     "MU": 1004.28,
     "TSM": 428.43,
@@ -1707,6 +1706,8 @@
       "fire_time": "22:28"
     }
   ],
-  "us_posted": [],
+  "us_posted": [
+    0
+  ],
   "eu_flexible_used": 0
 }

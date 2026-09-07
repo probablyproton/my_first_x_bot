@@ -2823,3 +2823,24 @@ https://www.marketbeat.com/instant-alerts/filing-thomasville-national-bank-acqui
 1170,2026-09-07,15:04:33,Monday,news_event,,,keyword,NVDA,NVDA,,,,,229.5,-0.05,,,Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord,,https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corridor-deepens-101058763.html?.tsrc=rss,,ma,,,,,N,11,,N,post_failed,"$NVDA ($229.5, -0.05% at last close as of Sep 4): Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord
 
 https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corridor-deepens-101058763.html?.tsrc=rss",247,,,,,
+1171,2026-09-07,15:31:31,Monday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,,N,post_failed,"Hourly check-in: $IFX.DE +4.51% to €59.56, well ahead of the rest of the board.",79,,,,,
+1172,2026-09-07,15:32:00,Monday,price_event,eu,,gemini,IFX.DE,IFX,,XETR,Y,open,59.55,4.49,59.75,58.2,,,,,,,4.49,,,Y,12,,N,post_failed,"$IFX.DE is up +4.49% to €59.55 today.
+
+The chipmaker could be riding positive sentiment from its partnerships on AI systems, including with MediaTek for automotive AI and Skeleton for data centers.",197,,,,,
+1173,2026-09-07,15:32:48,Monday,news_event,,,keyword,LRCX,LRCX,,,,,307.25,4.83,,,VIRGINIA RETIREMENT SYSTEMS ET Al Acquires New Stake in Lam Research Corporation $LRCX,MarketBeat,https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-new-stake-in-lam-research-corporation-lrcx-2026-09-07/,,ma,,,,,N,12,,N,post_failed,"$LRCX ($307.25, +4.83% at last close as of Sep 4): VIRGINIA RETIREMENT SYSTEMS ET Al Acquires New Stake in Lam Research Corporation $LRCX
+
+https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-new-stake-in-lam-research-corporation-lrcx-2026-09-07/",285,,,,,
+1174,2026-09-07,15:33:07,Monday,news_event,,,keyword,MRVL,MRVL,,,,,222.39,6.56,,,Marvell Technology (MRVL) Stock Rallies 7% Following Nvidia's Massive Hugging Face Acquisition,Blockonomi,https://blockonomi.com/marvell-technology-mrvl-stock-rallies-7-following-nvidias-massive-hugging-face-acquisition/,,ma,,,,,N,12,,N,post_failed,"$MRVL ($222.39, +6.56% at last close as of Sep 4): Marvell Technology (MRVL) Stock Rallies 7% Following Nvidia's Massive Hugging Face Acquisition
+
+https://blockonomi.com/marvell-technology-mrvl-stock-rallies-7-following-nvidias-massive-hugging-face-acquisition/",261,,,,,
+1175,2026-09-07,15:33:26,Monday,news_event,,,keyword,NVDA,NVDA,,,,,229.5,-0.05,,,Thomasville National Bank Acquires New Shares in NVIDIA Corporation $NVDA,MarketBeat,https://www.marketbeat.com/instant-alerts/filing-thomasville-national-bank-acquires-new-shares-in-nvidia-corporation-nvda-2026-09-07/,,ma,,,,,N,12,,N,post_failed,"$NVDA ($229.5, -0.05% at last close as of Sep 4): Thomasville National Bank Acquires New Shares in NVIDIA Corporation $NVDA
+
+https://www.marketbeat.com/instant-alerts/filing-thomasville-national-bank-acquires-new-shares-in-nvidia-corporation-nvda-2026-09-07/",258,,,,,
+1176,2026-09-07,15:33:46,Monday,news_event,,,keyword,NVDA,NVDA,,,,,229.5,-0.05,,,Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord,,https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corridor-deepens-101058763.html?.tsrc=rss,,ma,,,,,N,12,,N,post_failed,"$NVDA ($229.5, -0.05% at last close as of Sep 4): Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord
+
+https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corridor-deepens-101058763.html?.tsrc=rss",247,,,,,
+1177,2026-09-07,15:34:13,Monday,evergreen_opinion,,,template,,,,,,,,,,,Police in eastern German state defuse 21 explosive devices found near power grid,Reuters,https://www.reuters.com/world/europe/police-eastern-german-state-defuse-21-explosive-devices-found-near-power-grid-2026-09-07/,2026-09-07T10:39:52,,,,,,,,,N,post_failed,"Worth a read from Reuters:
+
+""Police in eastern German state defuse 21 explosive devices found near power grid""
+
+https://www.reuters.com/world/europe/police-eastern-german-state-defuse-21-explosive-devices-found-near-power-grid-2026-09-07/",238,,,,,
