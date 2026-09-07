@@ -2865,3 +2865,22 @@ https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corrido
 ""Police in eastern German state defuse 21 explosive devices found near power grid""
 
 https://www.reuters.com/world/europe/police-eastern-german-state-defuse-21-explosive-devices-found-near-power-grid-2026-09-07/",238,,,,,
+1183,2026-09-07,16:31:49,Monday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,,N,post_failed,$AIXA.DE leading the tape right now: +6.1% to €38.41.,53,,,,,
+1184,2026-09-07,16:32:17,Monday,price_event,eu,,gemini,AIXA.DE,AIXA,,XETR,Y,open,38.42,6.13,38.42,36.54,,,,,,,6.13,,,Y,14,,N,post_failed,"$AIXA.DE is up +6.13% today, trading at €38.42 after bouncing off an intraday low of €36.54.
+
+This strong move could reflect sustained investor confidence, possibly stemming from its focus on AI data center optics and past revenue outlook upgrades.",248,,,,,
+1185,2026-09-07,16:32:58,Monday,news_event,,,keyword,LRCX,LRCX,,,,,307.25,4.83,,,VIRGINIA RETIREMENT SYSTEMS ET Al Acquires New Stake in Lam Research Corporation $LRCX,MarketBeat,https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-new-stake-in-lam-research-corporation-lrcx-2026-09-07/,,ma,,,,,N,14,,N,post_failed,"$LRCX ($307.25, +4.83% at last close as of Sep 4): VIRGINIA RETIREMENT SYSTEMS ET Al Acquires New Stake in Lam Research Corporation $LRCX
+
+https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-new-stake-in-lam-research-corporation-lrcx-2026-09-07/",285,,,,,
+1186,2026-09-07,16:33:16,Monday,news_event,,,keyword,MRVL,MRVL,,,,,222.39,6.56,,,Marvell Technology (MRVL) Stock Rallies 7% Following Nvidia's Massive Hugging Face Acquisition,Blockonomi,https://blockonomi.com/marvell-technology-mrvl-stock-rallies-7-following-nvidias-massive-hugging-face-acquisition/,,ma,,,,,N,14,,N,post_failed,"$MRVL ($222.39, +6.56% at last close as of Sep 4): Marvell Technology (MRVL) Stock Rallies 7% Following Nvidia's Massive Hugging Face Acquisition
+
+https://blockonomi.com/marvell-technology-mrvl-stock-rallies-7-following-nvidias-massive-hugging-face-acquisition/",261,,,,,
+1187,2026-09-07,16:33:35,Monday,news_event,,,keyword,NVDA,NVDA,,,,,229.5,-0.05,,,Thomasville National Bank Acquires New Shares in NVIDIA Corporation $NVDA,MarketBeat,https://www.marketbeat.com/instant-alerts/filing-thomasville-national-bank-acquires-new-shares-in-nvidia-corporation-nvda-2026-09-07/,,ma,,,,,N,14,,N,post_failed,"$NVDA ($229.5, -0.05% at last close as of Sep 4): Thomasville National Bank Acquires New Shares in NVIDIA Corporation $NVDA
+
+https://www.marketbeat.com/instant-alerts/filing-thomasville-national-bank-acquires-new-shares-in-nvidia-corporation-nvda-2026-09-07/",258,,,,,
+1188,2026-09-07,16:33:54,Monday,news_event,,,keyword,NVDA,NVDA,,,,,229.5,-0.05,,,Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord,,https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corridor-deepens-101058763.html?.tsrc=rss,,ma,,,,,N,14,,N,post_failed,"$NVDA ($229.5, -0.05% at last close as of Sep 4): Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord
+
+https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corridor-deepens-101058763.html?.tsrc=rss",247,,,,,
+1189,2026-09-07,16:34:23,Monday,evergreen_opinion,,,gemini,,,,,,,,,,,"How Energy Security, Load Growth and Infrastructure Arbitrage Could Reshape America’s Power Market",POWER Magazine,https://www.powermag.com/how-energy-security-load-growth-and-infrastructure-arbitrage-could-reshape-americas-power-market/,2026-09-07T14:29:26,,,,,,,,,N,post_failed,"An interesting perspective from POWER Magazine: America's electricity challenge is now less about generation cost and more about infrastructure for AI-driven load growth.
+
+https://www.powermag.com/how-energy-security-load-growth-and-infrastructure-arbitrage-could-reshape-americas-power-market/",294,,,,,
