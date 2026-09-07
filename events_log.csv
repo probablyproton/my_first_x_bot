@@ -2844,3 +2844,24 @@ https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corrido
 ""Police in eastern German state defuse 21 explosive devices found near power grid""
 
 https://www.reuters.com/world/europe/police-eastern-german-state-defuse-21-explosive-devices-found-near-power-grid-2026-09-07/",238,,,,,
+1177,2026-09-07,16:01:42,Monday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,,N,post_failed,$IFX.DE +5.3% and running. 🔥,28,,,,,
+1178,2026-09-07,16:02:11,Monday,price_event,eu,,gemini,IFX.DE,IFX,,XETR,Y,open,60.02,5.32,60.1,58.2,,,,,,,5.32,,,Y,13,,N,post_failed,"$IFX.DE surges +5.32% to €60.02, trading near its intraday high of €60.1.
+
+This strong move could reflect investor optimism around recent initiatives like its partnership with MediaTek on automotive AI systems.",210,,,,,
+1179,2026-09-07,16:02:52,Monday,news_event,,,keyword,LRCX,LRCX,,,,,307.25,4.83,,,VIRGINIA RETIREMENT SYSTEMS ET Al Acquires New Stake in Lam Research Corporation $LRCX,MarketBeat,https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-new-stake-in-lam-research-corporation-lrcx-2026-09-07/,,ma,,,,,N,13,,N,post_failed,"$LRCX ($307.25, +4.83% at last close as of Sep 4): VIRGINIA RETIREMENT SYSTEMS ET Al Acquires New Stake in Lam Research Corporation $LRCX
+
+https://www.marketbeat.com/instant-alerts/filing-virginia-retirement-systems-et-al-acquires-new-stake-in-lam-research-corporation-lrcx-2026-09-07/",285,,,,,
+1180,2026-09-07,16:03:12,Monday,news_event,,,keyword,MRVL,MRVL,,,,,222.39,6.56,,,Marvell Technology (MRVL) Stock Rallies 7% Following Nvidia's Massive Hugging Face Acquisition,Blockonomi,https://blockonomi.com/marvell-technology-mrvl-stock-rallies-7-following-nvidias-massive-hugging-face-acquisition/,,ma,,,,,N,13,,N,post_failed,"$MRVL ($222.39, +6.56% at last close as of Sep 4): Marvell Technology (MRVL) Stock Rallies 7% Following Nvidia's Massive Hugging Face Acquisition
+
+https://blockonomi.com/marvell-technology-mrvl-stock-rallies-7-following-nvidias-massive-hugging-face-acquisition/",261,,,,,
+1181,2026-09-07,16:03:30,Monday,news_event,,,keyword,NVDA,NVDA,,,,,229.5,-0.05,,,Thomasville National Bank Acquires New Shares in NVIDIA Corporation $NVDA,MarketBeat,https://www.marketbeat.com/instant-alerts/filing-thomasville-national-bank-acquires-new-shares-in-nvidia-corporation-nvda-2026-09-07/,,ma,,,,,N,13,,N,post_failed,"$NVDA ($229.5, -0.05% at last close as of Sep 4): Thomasville National Bank Acquires New Shares in NVIDIA Corporation $NVDA
+
+https://www.marketbeat.com/instant-alerts/filing-thomasville-national-bank-acquires-new-shares-in-nvidia-corporation-nvda-2026-09-07/",258,,,,,
+1182,2026-09-07,16:03:49,Monday,news_event,,,keyword,NVDA,NVDA,,,,,229.5,-0.05,,,Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord,,https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corridor-deepens-101058763.html?.tsrc=rss,,ma,,,,,N,13,,N,post_failed,"$NVDA ($229.5, -0.05% at last close as of Sep 4): Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord
+
+https://finance.yahoo.com/technology/ai/articles/anthropic-ninth-compute-corridor-deepens-101058763.html?.tsrc=rss",247,,,,,
+1183,2026-09-07,16:04:14,Monday,evergreen_opinion,,,template,,,,,,,,,,,Police in eastern German state defuse 21 explosive devices found near power grid,Reuters,https://www.reuters.com/world/europe/police-eastern-german-state-defuse-21-explosive-devices-found-near-power-grid-2026-09-07/,2026-09-07T10:39:52,,,,,,,,,N,post_failed,"Worth a read from Reuters:
+
+""Police in eastern German state defuse 21 explosive devices found near power grid""
+
+https://www.reuters.com/world/europe/police-eastern-german-state-defuse-21-explosive-devices-found-near-power-grid-2026-09-07/",238,,,,,
