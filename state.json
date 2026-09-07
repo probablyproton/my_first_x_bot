@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1150,
+  "event_log_next_id": 1155,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -787,16 +787,16 @@
       "Nightfood Signs LOI to Acquire 51% of Taiwan Semiconductor Automation Manufacturer",
       "Powerchip shares jump after Micron moves to buy Taiwan fab for $1.8 billion",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
+      "Why Taiwan’s Silicon Shield Is Failing",
       "Where Does AMD Make Its Processors?",
       "Taiwan’s six-year hunt for China’s undercover chip labs",
       "Weekly news roundup: AI memory race heats up, Taiwan manufacturing rebounds, Nexperia rift deepens",
       "TSMC says unable to keep pace with AI boom despite fivefold expansion",
-      "Why Taiwan’s Semiconductor Success Is About Much More Than TSMC",
+      "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
+      "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
       "Here Are the First 3 Stocks I'm Buying if the Market Crashes",
+      "Arizona-Taiwan partnership advances semiconductor talent and innovation",
       "America’s Chip Future Still Runs Through Taiwan",
-      "Taiwan Semiconductor Manufacturing Sees US$67 Billion of Ongoing Construction",
-      "How Taiwan came to dominate the global chip industry",
-      "Where the U.S.’s Chip Strategy Is Still Falling Short",
       "Prediction: Taiwan Semiconductor's Market Value Passes $3 Trillion Before 2029",
       "ASML vs. Taiwan Semiconductor: Which Semiconductor Monopoly Is the Safer Investment?",
       "TSMC (TSM) Increases Despite Market Slip",
@@ -835,11 +835,11 @@
       "Broadcom enlists partners to tie VCF adoption to business outcomes",
       "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade",
       "VMware Explore 2026: Broadcom Doubles Down on Private Cloud Economics and Agentic AI",
-      "Why Broadcom should buy Arista (and why it won’t)",
       "Broadcom Introduces TrueSource for Open-Source Software Security",
       "VMware subtly promises a return to vSphere Standard",
       "AI News for the Week of September 4; Updates from Broadcom, Teradata, Wonderful & More",
       "Watch Broadcom Sees AI Chip Boom as It Takes On Nvidia | The Pulse 9/3/2026",
+      "Broadcom Delivers End-to-End Security, Identity, and Observability for Agentic AI",
       "These AI numbers are getting crazy",
       "Broadcom And 2 Top Growth Stocks To Watch",
       "Nvidia’s Hugging Face Deal Is a Hedge against Broadcom’s Custom Silicon Threat",
@@ -877,13 +877,13 @@
       "Sap SE - Completes Acquisition Of Prior Labs",
       "CCoL: SAP SE SAP SF Office Shoot",
       "SAP Completes Acquisition of Dremio",
-      "SAP SE (SAP) Technical Analysis: Support, Resistance, Indicators & Moving Averages",
       "SAP Completes Acquisition of Reltio",
       "Ericsson Scales AI Across the Enterprise with a Business Data Fabric and SAP",
       "SAP and IBM Announce Client Momentum Across IBM Technology and SAP Cloud ERP Private to Drive AI Innovation",
-      "SAP Chief Quantum Officer: AI is about to commoditize intelligence. Better decisions will be the next competitive advantage",
       "SAP Launches Defense Innovation Hub in Munich",
-      "SAP CEO: the AI race is being fought in the wrong place",
+      "SAP Chief Quantum Officer: AI is about to commoditize intelligence. Better decisions will be the next competitive advantage",
+      "SAP Successfully Places €3.5 Billion Eurobond",
+      "David Robinson Named President of SAP North America",
       "Digital Product Passport Market Projected to Hit $28.80 Billion by 2035 | SNS Insider",
       "AI Is Coming for One of Legacy Software’s Most Defensible Businesses as a New Challenger Takes on Oracle, SAP and Workday",
       "Element Appoints James Lee to the Board of Directors",
@@ -892,11 +892,11 @@
       "Darwinbox Appoints Pannie Sia to Lead Enterprise Growth in Southeast Asia"
     ],
     "BESI.AS": [
-      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
+      "BE Semiconductor Industries N.V. Announces Q2-26 and H1-26 Results",
       "BE Semiconductor Industries Acquires Laurier | News & Features | Jan 2002",
-      "NVIDIA Corporation | History, GPUs, & Artificial Intelligence",
-      "BE Semiconductor Stock: The AI Packaging Bottleneck Play Investors Overlook (BESIY)",
+      "BE Semiconductor: A Directional Bet On AI CapEx Spending (OTCMKTS:BESIY)",
       "Changes are imminent in semiconductor equipment! Applied Materials and Lam Research are targeting Besi, aiming to acquire the critical 'hybrid bonding' technology that is vital for AI and memory.",
+      "BE Semiconductor Industries N.V. Announces Q4-25 and Full Year 2025 Results",
       "BE Semiconductor Drops 17% on Demand Fears for Memory Solutions",
       "Dutch semiconductor giant to build $1 billion production facility in Vietnam",
       "Dutch semiconductor giant Besi plans €10M to further build production facility in Vietnam",
@@ -928,7 +928,7 @@
       "Nouri joins Applied Materials as global head of ventures",
       "Applied Materials Touts 3D Scaling Technologies, Develops New Materials for HBM and CPO",
       "Applied Materials’ stock buybacks: History & investor impact explained",
-      "Applied Materials, Inc. AMAT Stock Price Analysis Today Pfe Stock (giTbKajXWo)",
+      "Applied Materials Sees AI Driving Its Biggest Semiconductor Growth Inflection Yet",
       "Jim Cramer Shares His Playbook for Buying Applied Materials (AMAT)",
       "Can Applied Materials (AMAT) Still Look Cheap After A 237% Run?",
       "Why Did Applied Materials Stock Nearly Triple On Single-Digit Trailing Revenue Growth?",
@@ -962,17 +962,7 @@
       "Aixtron SE vs Veeco Instruments",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
       "Gallium nitride vertical-channel junction field-effect transistors",
-      "Polarization-engineered high mobility of two-dimensional hole gas in GaN",
-      "Aixtron Q2 Earnings Call Highlights",
-      "Aixtron Bets AI Data Center Optics Can Offset Silicon Carbide Slump",
-      "There May Be Reason For Hope In AIXTRON's (ETR:AIXA) Disappointing Earnings",
-      "Aixtron Q1 Earnings Call Highlights",
-      "Aixtron Shares Jump 17% As AI Demand Lifts Revenue Outlook",
-      "Chip systems supplier Aixtron lifts 2026 sales outlook, shares jump",
-      "European chip stocks fall after sharp U.S. peers’ selloff",
-      "Lumentum (LITE) Orders New Equipment and Plans a 240,000-Square-Foot AI Laser Facility in North Carolina",
-      "Is It Too Late To Consider AIXTRON (XTRA:AIXA) After A 320% One-Year Surge?",
-      "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures"
+      "Polarization-engineered high mobility of two-dimensional hole gas in GaN"
     ],
     "AMD": [
       "AMD Acquires MEXT to Advance Memory Optimization for Compute Infrastructure",
@@ -984,17 +974,17 @@
       "Advanced Micro Devices Inc (Derivatives) Price (AMD/USD) Today | Live Price, Market Cap & Chart",
       "Advanced Micro Devices (AMD) Faces New AI Data Center Market Shake Up",
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
-      "How AMD Became One of the World’s Leading Semiconductor Companies",
       "AMD, NVIDIA raise bar on AI energy efficiency",
+      "How AMD Became One of the World’s Leading Semiconductor Companies",
       "Advanced Micro Devices (NASDAQ:AMD) Momentum Cools After A Powerful AI Run",
       "Why Is AMD Stock Sliding on Friday?",
       "AMD acquires software built by URI professor and colleagues",
+      "Nvidia just sent a strong signal to AMD and Intel investors",
       "AMD and Intel Soared as Nvidia Lagged: Has the AI Trade Changed?",
       "Prediction: Data Center Passes 70% of AMD's Revenue in 2027, Before the Helios Ramp Is Finished",
       "AMD Committed Up to $5 Billion to Anthropic, and Anthropic's IPO Prospectus Is Reportedly Days Away",
       "AMD’s Data Center Revenue and EPS to Double by 2027 — With Shares Down 19%, It’s a Buy",
-      "Intel Climbs 4%, AMD Rises 3%, NVIDIA Ticks Up as Chip Stocks Shrug Off Rising Rate Hike Odds",
-      "Did Nvidia Just Say Checkmate to AMD and Intel?"
+      "Intel Climbs 4%, AMD Rises 3%, NVIDIA Ticks Up as Chip Stocks Shrug Off Rising Rate Hike Odds"
     ],
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
@@ -1055,12 +1045,7 @@
       "United States Government May Restrict ASML's DUV Tool Exports to China",
       "From Bill Gates to Bernie Sanders, most agree the AI arms race is disastrous. Only Europe can make it stop",
       "Why ASML Holding Stock Bumped 4% Higher Today",
-      "ASML’s Extreme Ultraviolet Lithography and the Limits of Reverse Engineering in China",
-      "Protolabs CEO sees big impact from US reshoring despite potential tariffs",
-      "ZEISS SMT CEO: China 15 Years Behind in Top Chip Tools",
-      "ASML vs. Taiwan Semiconductor: Which Semiconductor Monopoly Is the Safer Investment?",
-      "ASML Plans 40% Japan Workforce Expansion to Support Chip Boom",
-      "ASML Rockets 4% as TSMC's Tool Hunger Nearly Doubles"
+      "ASML’s Extreme Ultraviolet Lithography and the Limits of Reverse Engineering in China"
     ],
     "STX": [
       "Seagate Technology (STX) CLO sells 694 shares in 10b5-1 trading plan",
@@ -1151,234 +1136,6 @@
           "source": "Blockonomi",
           "summary": "",
           "published": "2026-09-07T09:49:33"
-        }
-      ]
-    },
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "ma",
-        "headline": "History Says What Nvidia's Last Big Acquisition Became. Hugging Face Will Cost Nearly Twice as Much.",
-        "reason": "Keyword rule matched (category: ma)"
-      },
-      "link": "https://www.fool.com/investing/2026/09/06/history-says-what-nvidia-s-last-big-acquisition-became-hugging-face-will-cost-nearly-twice-as-much/?.tsrc=rss",
-      "source": "fool.com",
-      "method": "keyword",
-      "published": "2026-09-07T03:38:01",
-      "queued_min": 29812651,
-      "all_articles": [
-        {
-          "headline": "Here's How Long the Average S&P 500 Bull Market Lasts, According to History. Should Investors Be Nervous?",
-          "link": "https://www.fool.com/investing/2026/09/07/heres-how-long-the-average-sp-500-bull-market-last/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "There's no denying this one's getting a little long in the tooth.",
-          "published": "2026-09-07T05:20:00"
-        },
-        {
-          "headline": "Nvidia’s $99 Billion Portfolio Is Turning Intel and CoreWeave Into an AI Stress Test",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-99-billion-portfolio-turning-034218904.html?.tsrc=rss",
-          "source": null,
-          "summary": "Nvidia disclosed roughly $99 billion of public and private equity investments as of July 26, plus about $25 billion of additional commitments. The portfolio included a $30 billion Intel stake and several billion dollars of CoreWeave equity. NVIDIA Corporation (NASDAQ:NVDA) is using its balance sheet to support the ecosystem that buys compute, which makes Intel […]",
-          "published": "2026-09-07T03:42:18"
-        },
-        {
-          "headline": "History Says What Nvidia's Last Big Acquisition Became. Hugging Face Will Cost Nearly Twice as Much.",
-          "link": "https://www.fool.com/investing/2026/09/06/history-says-what-nvidia-s-last-big-acquisition-became-hugging-face-will-cost-nearly-twice-as-much/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "The last big acquisition now anchors a $31 billion business line. The next one runs at more than $150 million a year.",
-          "published": "2026-09-07T03:38:01"
-        },
-        {
-          "headline": "This Vanguard ETF Is Up 27% This Year: Is It Still a Buy for Long-Term Investors?",
-          "link": "https://www.fool.com/investing/2026/09/06/vanguard-etf-up-27-this-year-is-it-still-a-buy-for/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "The Vanguard Information Technology Index Fund ETF should continue to outpace the S&P 500.",
-          "published": "2026-09-07T01:26:00"
-        },
-        {
-          "headline": "Nvidia makes staggering $12.9 billion bet to protect AI empire",
-          "link": "https://www.thestreet.com/investing/nvidia-hugging-face-acquisition-deal-to-protect-ai-empire?.tsrc=rss",
-          "source": "thestreet.com",
-          "summary": "This time, Nvidia isn’t betting on chips.",
-          "published": "2026-09-07T00:03:00"
-        },
-        {
-          "headline": "Prediction: Data Center Passes 70% of AMD's Revenue in 2027, Before the Helios Ramp Is Finished",
-          "link": "https://www.fool.com/investing/2026/09/06/prediction-data-center-passes-70-of-amd-s-revenue-in-2027-before-the-helios-ramp-is-finished/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "One segment doubled last quarter while everything else combined grew 8%. If rates anywhere close to those hold, 70% arrives before the ramp is done.",
-          "published": "2026-09-07T02:46:01"
-        },
-        {
-          "headline": "Could $10,000 Invested in Nvidia Today Make You a Millionaire?",
-          "link": "https://www.nasdaq.com/articles/could-10000-invested-nvidia-today-make-you-millionaire",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNvidia can become a significantly larger company over the next decade, driven by secular growth in the semiconductor market and new catalysts.",
-          "published": "2026-09-06T19:43:00"
-        },
-        {
-          "headline": "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
-          "link": "https://www.nasdaq.com/articles/nvidia-near-its-high-while-its-biggest-chip-peers-sit-18-32-below-theirs-these-are-chip",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNvidia closed Friday 2.6% below its 52-week high, while AMD, Micron, Broadcom, and Marvell finished 18% to 32% below theirs.",
-          "published": "2026-09-06T17:34:01"
-        },
-        {
-          "headline": "What to Invest in for the Next 5 Years: My Prediction Is Boring, and That's the Point",
-          "link": "https://www.nasdaq.com/articles/what-invest-next-5-years-my-prediction-boring-and-thats-point",
-          "source": "The Motley Fool",
-          "summary": "Key PointsThe AI infrastructure build-out is still in its early innings, which suggests that there is still a lot of money to be made for companies supplying it.",
-          "published": "2026-09-06T16:28:00"
-        },
-        {
-          "headline": "Nvidia's Critical Shift Beyond GPUs Could Fuel a New Growth Phase",
-          "link": "https://www.nasdaq.com/articles/nvidias-critical-shift-beyond-gpus-could-fuel-new-growth-phase",
-          "source": "The Motley Fool",
-          "summary": "Nvidia (NASDAQ: NVDA) is moving beyond selling GPUs by helping build the infrastructure that its clients could depend on for decades. Just one AI factory project, for example, creates an intriguing possibility: long-lived facilities that can be upgraded with new generations of Nv",
-          "published": "2026-09-06T15:50:00"
-        },
-        {
-          "headline": "Despite Revenue Skyrocketing More Than 100%, Nvidia Stock Trades at 24 Times Forward Earnings. Is the Market Warning Investors About What's to Come?",
-          "link": "https://www.nasdaq.com/articles/despite-revenue-skyrocketing-more-100-nvidia-stock-trades-24-times-forward-earnings-market",
-          "source": "The Motley Fool",
-          "summary": "Key PointsDuring the most recent fiscal quarter, Nvidia's growth figures showed investors that the AI boom is still in full swing.",
-          "published": "2026-09-06T13:35:00"
-        },
-        {
-          "headline": "Prediction: Nvidia Will Join the Vanguard Russell 1000 Value ETF Before the End of the Year",
-          "link": "https://www.nasdaq.com/articles/prediction-nvidia-will-join-vanguard-russell-1000-value-etf-end-year-heres-why-etf",
-          "source": "The Motley Fool",
-          "summary": "Key PointsThe Vanguard Russell 1000 Value ETF holds stocks traditionally labeled as growth names, including Amazon, Apple, and Microsoft.",
-          "published": "2026-09-06T11:27:00"
-        },
-        {
-          "headline": "Prediction: Nvidia Stock Will Double in Under a Year",
-          "link": "https://www.nasdaq.com/articles/prediction-nvidia-stock-will-double-under-year",
-          "source": "The Motley Fool",
-          "summary": "Key PointsDemand for AI computing products isn't slowing down.",
-          "published": "2026-09-06T10:25:00"
-        },
-        {
-          "headline": "Meet the Nvidia-Backed Stock That's Growing at a 454% Pace (It's a Screaming Buy Right Now)",
-          "link": "https://www.nasdaq.com/articles/meet-nvidia-backed-stock-thats-growing-454-pace-its-screaming-buy-right-now",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNebius's neocloud business is booming thanks to a strong partnership with Nvidia.",
-          "published": "2026-09-06T09:10:00"
-        }
-      ]
-    },
-    {
-      "symbol": "NVDA",
-      "classification": {
-        "is_major": true,
-        "category": "expansion",
-        "headline": "Nvidia’s $99 Billion Portfolio Is Turning Intel and CoreWeave Into an AI Stress Test",
-        "reason": "Keyword rule matched (category: expansion)"
-      },
-      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-99-billion-portfolio-turning-034218904.html?.tsrc=rss",
-      "source": null,
-      "method": "keyword",
-      "published": "2026-09-07T03:42:18",
-      "queued_min": 29812651,
-      "all_articles": [
-        {
-          "headline": "Here's How Long the Average S&P 500 Bull Market Lasts, According to History. Should Investors Be Nervous?",
-          "link": "https://www.fool.com/investing/2026/09/07/heres-how-long-the-average-sp-500-bull-market-last/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "There's no denying this one's getting a little long in the tooth.",
-          "published": "2026-09-07T05:20:00"
-        },
-        {
-          "headline": "Nvidia’s $99 Billion Portfolio Is Turning Intel and CoreWeave Into an AI Stress Test",
-          "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-99-billion-portfolio-turning-034218904.html?.tsrc=rss",
-          "source": null,
-          "summary": "Nvidia disclosed roughly $99 billion of public and private equity investments as of July 26, plus about $25 billion of additional commitments. The portfolio included a $30 billion Intel stake and several billion dollars of CoreWeave equity. NVIDIA Corporation (NASDAQ:NVDA) is using its balance sheet to support the ecosystem that buys compute, which makes Intel […]",
-          "published": "2026-09-07T03:42:18"
-        },
-        {
-          "headline": "History Says What Nvidia's Last Big Acquisition Became. Hugging Face Will Cost Nearly Twice as Much.",
-          "link": "https://www.fool.com/investing/2026/09/06/history-says-what-nvidia-s-last-big-acquisition-became-hugging-face-will-cost-nearly-twice-as-much/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "The last big acquisition now anchors a $31 billion business line. The next one runs at more than $150 million a year.",
-          "published": "2026-09-07T03:38:01"
-        },
-        {
-          "headline": "This Vanguard ETF Is Up 27% This Year: Is It Still a Buy for Long-Term Investors?",
-          "link": "https://www.fool.com/investing/2026/09/06/vanguard-etf-up-27-this-year-is-it-still-a-buy-for/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "The Vanguard Information Technology Index Fund ETF should continue to outpace the S&P 500.",
-          "published": "2026-09-07T01:26:00"
-        },
-        {
-          "headline": "Nvidia makes staggering $12.9 billion bet to protect AI empire",
-          "link": "https://www.thestreet.com/investing/nvidia-hugging-face-acquisition-deal-to-protect-ai-empire?.tsrc=rss",
-          "source": "thestreet.com",
-          "summary": "This time, Nvidia isn’t betting on chips.",
-          "published": "2026-09-07T00:03:00"
-        },
-        {
-          "headline": "Prediction: Data Center Passes 70% of AMD's Revenue in 2027, Before the Helios Ramp Is Finished",
-          "link": "https://www.fool.com/investing/2026/09/06/prediction-data-center-passes-70-of-amd-s-revenue-in-2027-before-the-helios-ramp-is-finished/?.tsrc=rss",
-          "source": "fool.com",
-          "summary": "One segment doubled last quarter while everything else combined grew 8%. If rates anywhere close to those hold, 70% arrives before the ramp is done.",
-          "published": "2026-09-07T02:46:01"
-        },
-        {
-          "headline": "Could $10,000 Invested in Nvidia Today Make You a Millionaire?",
-          "link": "https://www.nasdaq.com/articles/could-10000-invested-nvidia-today-make-you-millionaire",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNvidia can become a significantly larger company over the next decade, driven by secular growth in the semiconductor market and new catalysts.",
-          "published": "2026-09-06T19:43:00"
-        },
-        {
-          "headline": "Nvidia Is Near Its High While Its Biggest Chip Peers Sit 18% to 32% Below Theirs. These Are the Chip Stocks to Buy.",
-          "link": "https://www.nasdaq.com/articles/nvidia-near-its-high-while-its-biggest-chip-peers-sit-18-32-below-theirs-these-are-chip",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNvidia closed Friday 2.6% below its 52-week high, while AMD, Micron, Broadcom, and Marvell finished 18% to 32% below theirs.",
-          "published": "2026-09-06T17:34:01"
-        },
-        {
-          "headline": "What to Invest in for the Next 5 Years: My Prediction Is Boring, and That's the Point",
-          "link": "https://www.nasdaq.com/articles/what-invest-next-5-years-my-prediction-boring-and-thats-point",
-          "source": "The Motley Fool",
-          "summary": "Key PointsThe AI infrastructure build-out is still in its early innings, which suggests that there is still a lot of money to be made for companies supplying it.",
-          "published": "2026-09-06T16:28:00"
-        },
-        {
-          "headline": "Nvidia's Critical Shift Beyond GPUs Could Fuel a New Growth Phase",
-          "link": "https://www.nasdaq.com/articles/nvidias-critical-shift-beyond-gpus-could-fuel-new-growth-phase",
-          "source": "The Motley Fool",
-          "summary": "Nvidia (NASDAQ: NVDA) is moving beyond selling GPUs by helping build the infrastructure that its clients could depend on for decades. Just one AI factory project, for example, creates an intriguing possibility: long-lived facilities that can be upgraded with new generations of Nv",
-          "published": "2026-09-06T15:50:00"
-        },
-        {
-          "headline": "Despite Revenue Skyrocketing More Than 100%, Nvidia Stock Trades at 24 Times Forward Earnings. Is the Market Warning Investors About What's to Come?",
-          "link": "https://www.nasdaq.com/articles/despite-revenue-skyrocketing-more-100-nvidia-stock-trades-24-times-forward-earnings-market",
-          "source": "The Motley Fool",
-          "summary": "Key PointsDuring the most recent fiscal quarter, Nvidia's growth figures showed investors that the AI boom is still in full swing.",
-          "published": "2026-09-06T13:35:00"
-        },
-        {
-          "headline": "Prediction: Nvidia Will Join the Vanguard Russell 1000 Value ETF Before the End of the Year",
-          "link": "https://www.nasdaq.com/articles/prediction-nvidia-will-join-vanguard-russell-1000-value-etf-end-year-heres-why-etf",
-          "source": "The Motley Fool",
-          "summary": "Key PointsThe Vanguard Russell 1000 Value ETF holds stocks traditionally labeled as growth names, including Amazon, Apple, and Microsoft.",
-          "published": "2026-09-06T11:27:00"
-        },
-        {
-          "headline": "Prediction: Nvidia Stock Will Double in Under a Year",
-          "link": "https://www.nasdaq.com/articles/prediction-nvidia-stock-will-double-under-year",
-          "source": "The Motley Fool",
-          "summary": "Key PointsDemand for AI computing products isn't slowing down.",
-          "published": "2026-09-06T10:25:00"
-        },
-        {
-          "headline": "Meet the Nvidia-Backed Stock That's Growing at a 454% Pace (It's a Screaming Buy Right Now)",
-          "link": "https://www.nasdaq.com/articles/meet-nvidia-backed-stock-thats-growing-454-pace-its-screaming-buy-right-now",
-          "source": "The Motley Fool",
-          "summary": "Key PointsNebius's neocloud business is booming thanks to a strong partnership with Nvidia.",
-          "published": "2026-09-06T09:10:00"
         }
       ]
     }
@@ -1632,8 +1389,7 @@
     ],
     "mover": [
       3,
-      5,
-      0
+      5
     ],
     "price_event": [
       3,
@@ -1671,8 +1427,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 290.85,
-    "SIE.DE": 271.2,
+    "SU.PA": 291.15,
+    "SIE.DE": 270.95,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1698,10 +1454,10 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 182.74,
+    "SAP.DE": 182.44,
     "BESI.AS": 197.35,
-    "AIXA.DE": 37.22,
-    "IFX.DE": 58.61,
+    "AIXA.DE": 37.33,
+    "IFX.DE": 58.76,
     "ASML.AS": 1472.4,
     "MU": 1004.28,
     "TSM": 428.43,
