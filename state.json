@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1225,
+  "event_log_next_id": 1229,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -465,10 +465,10 @@
       "Schneider’s New Home EV Charger Undercuts Tesla’s By Bundling A Big Feature",
       "Schneider Electric Named a Top Charitable Company",
       "Schneider Electric home EV charger uses smart load management",
-      "Driving efficient water usage through closed-loop cooling",
+      "Calcamite partners with Schneider Electric and 4Sight to deliver Cloud‑to‑Edge solution for smart water management",
       "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
+      "Driving efficient water usage through closed-loop cooling",
       "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
-      "Schneider Electric launches Yuva Yodha tech hackathon",
       "Is Schneider Electric (ENXTPA:SU) Overvalued After A 108% Five Year Return?",
       "Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accelerate",
       "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
@@ -772,7 +772,7 @@
       "LAM Research to offer 240-hour training to make people employable in electronics, mechanical assembly jobs",
       "Lam Research Launches Skill Development Program in India to Boost Advanced Manufacturing Talent",
       "Is Lam Research Stock Outperforming the Nasdaq?",
-      "Lam Research Corporation Tokenized Stock (Robinhood)",
+      "Lam Research Corporation Tokenized Stock (Robinhood) to Japanese Yen Price Today | Live LRCX to JPY Converter & Exchange Rate",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
       "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?",
       "4 Stocks to Buy That Declared Dividend Hikes Amid Geopolitical Woes",
@@ -793,10 +793,10 @@
       "TSMC says unable to keep pace with AI boom despite fivefold expansion",
       "Weekly news roundup: AI memory race heats up, Taiwan manufacturing rebounds, Nexperia rift deepens",
       "Unbreakable Shield: Why Taiwan’s Chip Expertise Cannot Be Cloned",
-      "Here Are the First 3 Stocks I'm Buying if the Market Crashes",
       "Sony Semiconductor Solutions and TSMC Agreed to Establish Joint Venture for Next-Generation Image Sensors",
       "Arizona-Taiwan partnership advances semiconductor talent and innovation",
-      "Taiwan Semiconductor Chemicals Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "Here Are the First 3 Stocks I'm Buying if the Market Crashes",
+      "America’s Chip Future Still Runs Through Taiwan",
       "Taiwan Semiconductor Manufacturing Company (TSM) Raises Guidance as Demand for Advanced Chips Soars",
       "Buy These 5 Semiconductor Stocks as Sales Skyrocket on Solid AI Demand",
       "Prediction: Taiwan Semiconductor's Market Value Passes $3 Trillion Before 2029",
@@ -826,11 +826,11 @@
       "Western Digital (WDC) Down 2.2% Since Last Earnings Report: Can It Rebound?"
     ],
     "AVGO": [
-      "Hugging Face $12.9B Acquisition Reveals Critical AI Chip Gap",
       "VMware by Broadcom: Product, service and support news",
+      "Hugging Face $12.9B Acquisition Reveals Critical AI Chip Gap",
       "Nvidia to acquire Hugging Face in $12.9B AI infrastructure deal",
       "Top Midday Stories: Nvidia to Acquire Hugging Face for $12.93 Billion; Broadcom Q3 Adjusted Earnings, Guidance Top Estimates",
-      "New Broadcom and Carahsoft Agreement With DISA Delivers Uniform Pricing and Cost Transparency for DoW Agencies",
+      "AI’s Next Bottlenecks: Nvidia, Broadcom and CrowdStrike Move Up the Stack",
       "Broadcom Announces VMware AI Factory, Enabling Faster Time to Production AI and Greater Control Over AI Tokenomics",
       "Broadcom and Supermicro unify AI factory management",
       "VMware swings its focus back to low-end server virt, promises vSphere Standard upgrade",
@@ -936,26 +936,26 @@
       "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?"
     ],
     "NVDA": [
-      "NVIDIA to Acquire Hugging Face",
-      "Thomasville National Bank Acquires New Shares in NVIDIA Corporation $NVDA",
+      "Venturi Wealth Management LLC Acquires 15,227 Shares of NVIDIA Corporation $NVDA",
+      "NVIDIA's Hugging Face Buyout: Can It Further Strengthen AI Dominance?",
       "Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips",
       "List of 32 Acquisitions by Nvidia (Sep 2026)",
-      "Nvidia Acquires AI Platform Hugging Face for About $13 Billion",
-      "Breakingviews - COMMENTARY: China's AI dragons breathe fire on Nvidia's moat",
-      "Nvidia to buy Hugging Face for $13B in big bet on open AI models",
       "Nvidia confirms $12.9B acquisition of AI hosting platform Hugging Face",
+      "Breakingviews - COMMENTARY: China's AI dragons breathe fire on Nvidia's moat",
+      "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference | NVIDIA Technical Blog",
+      "Nvidia to buy Hugging Face for $13B in big bet on open AI models",
       "Nvidia buys open-source AI co. Hugging Face for $13b",
+      "Nvidia inks $13 billion deal to buy the AI startup that was hacked by OpenAI",
       "Nvidia CEO Jensen Huang vows to keep Hugging Face 'an open platform for the entire AI ecosystem'",
       "Nvidia's $13 Billion Hugging Face Deal Expands Open-Source AI",
+      "NVIDIA Signs $11.9 Bn Deal to Acquire Hugging Face",
       "Nvidia to buy AI platform Hugging Face for US$12.9 billion",
-      "This university built an AI curriculum before ChatGPT. Now it wants to help other schools do the same",
-      "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference | NVIDIA Technical Blog",
-      "Jensen Huang Just Said a 1-Gigawatt Facility Is Worth $50 Billion to $60 Billion",
-      "Nvidia just sent a strong signal to AMD and Intel investors",
-      "10-Year Treasuries Yield About 4.8%. Here Are 3 High-Yielding Dividend Stocks That Actually Beat That.",
-      "The Stock Market Is Flashing a Warning Seen Only 6 Times Since 1871, and History Is Crystal Clear That a Disaster Could Be Heading Toward Wall Street",
-      "Anthropic’s Ninth Compute Corridor Deepens Nvidia’s Grip as Supplier and Landlord",
-      "AI computing demand may never be sated, says CEO of Nvidia partner Iren"
+      "Berkshire Hathaway Owns AI Exposure in 3 Different Ways",
+      "Broadcom Inc. (AVGO)’s AI Opportunity Expands Across AI Infrastructure",
+      "Should You Buy Marvell Technology Stock Before Oct. 6?",
+      "AI Is Moving Into Everyday Business — These 5 Stocks Sit Squarely in the Path of the Surge",
+      "Nvidia Is No Longer Just a Chip Company. It’s the Infrastructure Platform for All of AI",
+      "Jensen Huang Declares “AGI Has Arrived” — Powered by 100,000+ Nvidia Grace Blackwell GPUs"
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
@@ -981,14 +981,14 @@
       "TD Waterhouse Canada Inc. Acquires 31,995 Shares of Advanced Micro Devices, Inc. $AMD",
       "Move Over, Nvidia: Why AMD’s Latest Acquisition Could Redefine Direct-Silicon AI Inference",
       "AMD buys chip startup that hardwires AI models into its silicon",
-      "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Malaga Fc (5R9rL8CZaZ)",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
+      "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Malaga Fc (5R9rL8CZaZ)",
       "Latham Watkins Advises Advanced Micro Devices Inc on Revolving Credit Facility",
       "Advanced Micro Devices Inc (Derivatives) Price (AMD/USD) Today | Live Price, Market Cap & Chart",
       "AMD, NVIDIA raise bar on AI energy efficiency",
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
       "AMD Acquires MEXT to Advance Memory Optimization for Compute Infrastructure",
-      "AMD Momentum Gains: Explained",
+      "AMD acquires software built by URI professor and colleagues",
       "Advanced Micro Devices (NASDAQ:AMD) Momentum Cools After A Powerful AI Run",
       "How AMD Became One of the World’s Leading Semiconductor Companies",
       "Wall Street Is Worried About AMD. Here’s Why Long-Term Investors Shouldn’t Be",
@@ -1051,18 +1051,18 @@
       "ASML Supplier Says China 15 Years Behind in Top Chipmaking Tools",
       "ASML Japan plans major workforce expansion as advanced chip manufacturing gathers pace",
       "China's DUV technology 'at a similar stage to ASML in 2004,' analyst claims — Beijing's semiconductor industry remains well behind Western rivals",
+      "Macron tours ASML as Europe chases chip sovereignty",
       "ASML Japan Plans Workforce Expansion Amid Advanced Chip Manufacturing Growth",
+      "ASML reports transactions under its current share buyback program",
       "ASML to expand Japan workforce to aid next-gen chipmakers Rapidus, TSMC",
       "[News] ASML Japan to Boost Workforce 40% by 2030 to Support Rapidus, TSMC Advanced Chip Push",
       "If US targets ASML, Netherlands should learn from Canada",
       "Why ASML Holding Stock Bumped 4% Higher Today",
-      "ASML’s Extreme Ultraviolet Lithography and the Limits of Reverse Engineering in China",
-      "From Bill Gates to Bernie Sanders, most agree the AI arms race is disastrous. Only Europe can make it stop",
       "Protolabs CEO sees big impact from US reshoring despite potential tariffs",
       "ZEISS SMT CEO: China 15 Years Behind in Top Chip Tools",
       "ASML Bets Big on AI & Capacity Expansion: Should You Buy the Stock?",
       "ASML Holding N.V. (ASML) Well Positioned as AI Fuels Chip Complexity",
-      "ASML reports transactions under its current share buyback program"
+      "ASML vs. Taiwan Semiconductor: Which Semiconductor Monopoly Is the Safer Investment?"
     ],
     "STX": [
       "Seagate Technology (STX) CLO sells 694 shares in 10b5-1 trading plan",
@@ -1092,13 +1092,13 @@
       "Micron Technology’s $1.8bn Acquisition of PSMC’s P5 Fabrication Site",
       "Micron To Buy Taiwanese Chip Fab For $1.8 Billion As AI Drives DRAM Demand",
       "Micron Technology Completes Acquisition of Powerchip Semiconductor Manufacturing Corporation's Tongluo Site in Taiwan",
-      "Micron Technology Tokenized bStocks Price (MUB/USD) Today | Live Price, Market Cap & Chart",
       "Micron's Taiwan unions threaten strike over bonus dispute",
+      "Micron Technology Tokenized bStocks Price (MUB/USD) Today | Live Price, Market Cap & Chart",
       "Micron Technology stock heads into the open after a 6.0% jump",
-      "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
       "Micron Technology Tokenized Stock price today, MUx to USD chart, marketcap and volume",
-      "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
+      "PM Modi inaugurates Micron Technology’s Semiconductor plant at Sanand in Gujarat",
       "Why Is Micron (NASDAQ:MU) in Focus Ahead of Nasdaq Reopening?",
+      "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
       "U.S. stock storage sector surges at market open, Micron Technology rises 3.6%",
       "OCC gets $1M federal grant as demand grows for skilled manufacturing workers",
       "Have Insiders Sold Micron Technology Shares Recently?",
@@ -1109,7 +1109,245 @@
       "Do You Think Micron Technology’s (MU) Return Drivers May Falter Ahead"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "NVDA",
+      "classification": {
+        "is_major": true,
+        "category": "ma",
+        "headline": "NVIDIA's Hugging Face Buyout: Can It Further Strengthen AI Dominance?",
+        "reason": "Keyword rule matched (category: ma)"
+      },
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNVA3Q0xuWmZ6bVFkMTdYRUljaVVBZHROYU9wbG4xLUI1WDgzdldDeUR3cGU2QVBialJyNUFCajJMYXVzN1VPRllWd2RIY1RjMHliTHdvc3RNZ21JSDhhbGdSbDB4WW00QTJhanpTNkhqZDdubE4wMXI1OGlYTFdFVjN5QzN6WVdJVExVMFNrRUlobFQ4VlQ5M0QxM0JqSGd5ZXV1d19UNi11RXB5NHB4Y2lfRnJRNzJISDVxUkpwWUdOM013dXlWZEtoUEZ4SFZxeFZPbkN3WXU5YmtkU21feTUwbE1Ndw?oc=5",
+      "source": "The Globe and Mail",
+      "method": "keyword",
+      "published": "2026-09-07T14:14:55",
+      "queued_min": 29813461,
+      "all_articles": [
+        {
+          "headline": "Venturi Wealth Management LLC Acquires 15,227 Shares of NVIDIA Corporation $NVDA",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNS1sbmF6YW1CWmVxdVM3R3RpRGhhXzJuLURsQzVOX1U0al9yS2lUUlphcXo1MjNyeGw1LThmbEJ5N1NhMHcwSUsyTXhLNGkwUXJ0Wm1PX3B1ZDFrWlVqQm16cm9GTzhRRnkycWcwV3F3SXA2a1MyN0I2VGtFdFJzQV92cGp1YlBUamtUZk84VXIyT0VnQWFqNFNPMDRTYmlwM1owZFJxQ2Rzb2x2UXlaY3hSSnpjRWk4alVJZjkya3g0bGxXVUhGTmdsUFNsNE0zUGR5cklB?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-09-07T08:51:34"
+        },
+        {
+          "headline": "NVIDIA's Hugging Face Buyout: Can It Further Strengthen AI Dominance?",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNVA3Q0xuWmZ6bVFkMTdYRUljaVVBZHROYU9wbG4xLUI1WDgzdldDeUR3cGU2QVBialJyNUFCajJMYXVzN1VPRllWd2RIY1RjMHliTHdvc3RNZ21JSDhhbGdSbDB4WW00QTJhanpTNkhqZDdubE4wMXI1OGlYTFdFVjN5QzN6WVdJVExVMFNrRUlobFQ4VlQ5M0QxM0JqSGd5ZXV1d19UNi11RXB5NHB4Y2lfRnJRNzJISDVxUkpwWUdOM013dXlWZEtoUEZ4SFZxeFZPbkN3WXU5YmtkU21feTUwbE1Ndw?oc=5",
+          "source": "The Globe and Mail",
+          "summary": "",
+          "published": "2026-09-07T14:14:55"
+        },
+        {
+          "headline": "NVIDIA Signs $11.9 Bn Deal to Acquire Hugging Face",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZDdQZHZvaFEzcW83RlNpa1dpM0RpQzlfb2lLR0UzYnN2MUFFZWVkQ2h5SlVrVHpDTTE3WUFzSUVEMFo5V3BqdXZuZzlxSC04b08tQnVkRnl3UUZLVUR4WGtuWjViZGg3WVN5VzRQaFVCamlwTlJsdWZid1RWZzRkck04RzZ0bTQ?oc=5",
+          "source": "techgraph.co",
+          "summary": "",
+          "published": "2026-09-07T12:20:27"
+        },
+        {
+          "headline": "Berkshire Hathaway Owns AI Exposure in 3 Different Ways",
+          "link": "https://www.fool.com/investing/2026/09/07/berkshire-owns-ai-exposure-3-different-ways-heres/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Why doesn't Berkshire own the top AI stock?",
+          "published": "2026-09-07T18:50:00"
+        },
+        {
+          "headline": "Broadcom Inc. (AVGO)’s AI Opportunity Expands Across AI Infrastructure",
+          "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-inc-avgo-ai-opportunity-181909723.html?.tsrc=rss",
+          "source": null,
+          "summary": "The AI infrastructure market is in a powerful expansion phase, with hyperscalers making significant investments in custom AI accelerators, high-speed networking, as well as complex data-center architectures. Even though Nvidia is the dominant GPU supplier, Broadcom Inc. (NASDAQ:AVGO) happens to be a key beneficiary of the transition towards customized AI infrastructure. In its latest results, […]",
+          "published": "2026-09-07T18:18:17"
+        },
+        {
+          "headline": "Should You Buy Marvell Technology Stock Before Oct. 6?",
+          "link": "https://www.fool.com/investing/2026/09/07/should-you-buy-marvell-technology-stock-before-oct-6/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "The company's Investor Day event is coming up next month, which may feature some big announcements.",
+          "published": "2026-09-07T18:14:21"
+        },
+        {
+          "headline": "AI Is Moving Into Everyday Business — These 5 Stocks Sit Squarely in the Path of the Surge",
+          "link": "https://247wallst.com/investing/2026/09/07/ai-is-moving-into-everyday-business-these-5-stocks-sit-squarely-in-the-path-of-the-surge/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Goldman Sachs data suggests nearly half of all businesses could be running AI in daily operations within months, and the physical infrastructure scrambling to keep up has created a very specific set of winners. Five companies sit at the exact bottlenecks where that buildout cannot proceed without them.",
+          "published": "2026-09-07T16:52:50"
+        },
+        {
+          "headline": "Nvidia Is No Longer Just a Chip Company. It’s the Infrastructure Platform for All of AI",
+          "link": "https://247wallst.com/investing/2026/09/07/nvidia-is-no-longer-just-a-chip-company-its-the-infrastructure-platform-for-all-of-ai/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Jensen Huang calls it a full-stack AI factory platform, not a chip company, and that distinction is reshaping where billions in hyperscaler spending actually land across five companies fighting over the same supply-constrained foundation.",
+          "published": "2026-09-07T16:50:14"
+        },
+        {
+          "headline": "Jensen Huang Declares “AGI Has Arrived” — Powered by 100,000+ Nvidia Grace Blackwell GPUs",
+          "link": "https://247wallst.com/investing/2026/09/07/jensen-huang-declares-agi-has-arrived-powered-by-100000-nvidia-grace-blackwell-gpus/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Jensen Huang just bypassed every earnings call caveat and posted two words on X that the AI industry has been arguing over for years. Whether a 100,000-GPU training run actually proves his point is a much messier question.",
+          "published": "2026-09-07T16:30:16"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "classification": {
+        "is_major": true,
+        "category": "ma",
+        "headline": "NVIDIA Signs $11.9 Bn Deal to Acquire Hugging Face",
+        "reason": "Keyword rule matched (category: ma)"
+      },
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZDdQZHZvaFEzcW83RlNpa1dpM0RpQzlfb2lLR0UzYnN2MUFFZWVkQ2h5SlVrVHpDTTE3WUFzSUVEMFo5V3BqdXZuZzlxSC04b08tQnVkRnl3UUZLVUR4WGtuWjViZGg3WVN5VzRQaFVCamlwTlJsdWZid1RWZzRkck04RzZ0bTQ?oc=5",
+      "source": "techgraph.co",
+      "method": "keyword",
+      "published": "2026-09-07T12:20:27",
+      "queued_min": 29813461,
+      "all_articles": [
+        {
+          "headline": "Venturi Wealth Management LLC Acquires 15,227 Shares of NVIDIA Corporation $NVDA",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNS1sbmF6YW1CWmVxdVM3R3RpRGhhXzJuLURsQzVOX1U0al9yS2lUUlphcXo1MjNyeGw1LThmbEJ5N1NhMHcwSUsyTXhLNGkwUXJ0Wm1PX3B1ZDFrWlVqQm16cm9GTzhRRnkycWcwV3F3SXA2a1MyN0I2VGtFdFJzQV92cGp1YlBUamtUZk84VXIyT0VnQWFqNFNPMDRTYmlwM1owZFJxQ2Rzb2x2UXlaY3hSSnpjRWk4alVJZjkya3g0bGxXVUhGTmdsUFNsNE0zUGR5cklB?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-09-07T08:51:34"
+        },
+        {
+          "headline": "NVIDIA's Hugging Face Buyout: Can It Further Strengthen AI Dominance?",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNVA3Q0xuWmZ6bVFkMTdYRUljaVVBZHROYU9wbG4xLUI1WDgzdldDeUR3cGU2QVBialJyNUFCajJMYXVzN1VPRllWd2RIY1RjMHliTHdvc3RNZ21JSDhhbGdSbDB4WW00QTJhanpTNkhqZDdubE4wMXI1OGlYTFdFVjN5QzN6WVdJVExVMFNrRUlobFQ4VlQ5M0QxM0JqSGd5ZXV1d19UNi11RXB5NHB4Y2lfRnJRNzJISDVxUkpwWUdOM013dXlWZEtoUEZ4SFZxeFZPbkN3WXU5YmtkU21feTUwbE1Ndw?oc=5",
+          "source": "The Globe and Mail",
+          "summary": "",
+          "published": "2026-09-07T14:14:55"
+        },
+        {
+          "headline": "NVIDIA Signs $11.9 Bn Deal to Acquire Hugging Face",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZDdQZHZvaFEzcW83RlNpa1dpM0RpQzlfb2lLR0UzYnN2MUFFZWVkQ2h5SlVrVHpDTTE3WUFzSUVEMFo5V3BqdXZuZzlxSC04b08tQnVkRnl3UUZLVUR4WGtuWjViZGg3WVN5VzRQaFVCamlwTlJsdWZid1RWZzRkck04RzZ0bTQ?oc=5",
+          "source": "techgraph.co",
+          "summary": "",
+          "published": "2026-09-07T12:20:27"
+        },
+        {
+          "headline": "Berkshire Hathaway Owns AI Exposure in 3 Different Ways",
+          "link": "https://www.fool.com/investing/2026/09/07/berkshire-owns-ai-exposure-3-different-ways-heres/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Why doesn't Berkshire own the top AI stock?",
+          "published": "2026-09-07T18:50:00"
+        },
+        {
+          "headline": "Broadcom Inc. (AVGO)’s AI Opportunity Expands Across AI Infrastructure",
+          "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-inc-avgo-ai-opportunity-181909723.html?.tsrc=rss",
+          "source": null,
+          "summary": "The AI infrastructure market is in a powerful expansion phase, with hyperscalers making significant investments in custom AI accelerators, high-speed networking, as well as complex data-center architectures. Even though Nvidia is the dominant GPU supplier, Broadcom Inc. (NASDAQ:AVGO) happens to be a key beneficiary of the transition towards customized AI infrastructure. In its latest results, […]",
+          "published": "2026-09-07T18:18:17"
+        },
+        {
+          "headline": "Should You Buy Marvell Technology Stock Before Oct. 6?",
+          "link": "https://www.fool.com/investing/2026/09/07/should-you-buy-marvell-technology-stock-before-oct-6/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "The company's Investor Day event is coming up next month, which may feature some big announcements.",
+          "published": "2026-09-07T18:14:21"
+        },
+        {
+          "headline": "AI Is Moving Into Everyday Business — These 5 Stocks Sit Squarely in the Path of the Surge",
+          "link": "https://247wallst.com/investing/2026/09/07/ai-is-moving-into-everyday-business-these-5-stocks-sit-squarely-in-the-path-of-the-surge/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Goldman Sachs data suggests nearly half of all businesses could be running AI in daily operations within months, and the physical infrastructure scrambling to keep up has created a very specific set of winners. Five companies sit at the exact bottlenecks where that buildout cannot proceed without them.",
+          "published": "2026-09-07T16:52:50"
+        },
+        {
+          "headline": "Nvidia Is No Longer Just a Chip Company. It’s the Infrastructure Platform for All of AI",
+          "link": "https://247wallst.com/investing/2026/09/07/nvidia-is-no-longer-just-a-chip-company-its-the-infrastructure-platform-for-all-of-ai/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Jensen Huang calls it a full-stack AI factory platform, not a chip company, and that distinction is reshaping where billions in hyperscaler spending actually land across five companies fighting over the same supply-constrained foundation.",
+          "published": "2026-09-07T16:50:14"
+        },
+        {
+          "headline": "Jensen Huang Declares “AGI Has Arrived” — Powered by 100,000+ Nvidia Grace Blackwell GPUs",
+          "link": "https://247wallst.com/investing/2026/09/07/jensen-huang-declares-agi-has-arrived-powered-by-100000-nvidia-grace-blackwell-gpus/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Jensen Huang just bypassed every earnings call caveat and posted two words on X that the AI industry has been arguing over for years. Whether a 100,000-GPU training run actually proves his point is a much messier question.",
+          "published": "2026-09-07T16:30:16"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "classification": {
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "Venturi Wealth Management LLC Acquires 15,227 Shares of NVIDIA Corporation $NVDA",
+        "reason": "Sizeable institutional share purchase"
+      },
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNS1sbmF6YW1CWmVxdVM3R3RpRGhhXzJuLURsQzVOX1U0al9yS2lUUlphcXo1MjNyeGw1LThmbEJ5N1NhMHcwSUsyTXhLNGkwUXJ0Wm1PX3B1ZDFrWlVqQm16cm9GTzhRRnkycWcwV3F3SXA2a1MyN0I2VGtFdFJzQV92cGp1YlBUamtUZk84VXIyT0VnQWFqNFNPMDRTYmlwM1owZFJxQ2Rzb2x2UXlaY3hSSnpjRWk4alVJZjkya3g0bGxXVUhGTmdsUFNsNE0zUGR5cklB?oc=5",
+      "source": "MarketBeat",
+      "method": "keyword",
+      "published": "2026-09-07T08:51:34",
+      "queued_min": 29813461,
+      "all_articles": [
+        {
+          "headline": "Venturi Wealth Management LLC Acquires 15,227 Shares of NVIDIA Corporation $NVDA",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNS1sbmF6YW1CWmVxdVM3R3RpRGhhXzJuLURsQzVOX1U0al9yS2lUUlphcXo1MjNyeGw1LThmbEJ5N1NhMHcwSUsyTXhLNGkwUXJ0Wm1PX3B1ZDFrWlVqQm16cm9GTzhRRnkycWcwV3F3SXA2a1MyN0I2VGtFdFJzQV92cGp1YlBUamtUZk84VXIyT0VnQWFqNFNPMDRTYmlwM1owZFJxQ2Rzb2x2UXlaY3hSSnpjRWk4alVJZjkya3g0bGxXVUhGTmdsUFNsNE0zUGR5cklB?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-09-07T08:51:34"
+        },
+        {
+          "headline": "NVIDIA's Hugging Face Buyout: Can It Further Strengthen AI Dominance?",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNNVA3Q0xuWmZ6bVFkMTdYRUljaVVBZHROYU9wbG4xLUI1WDgzdldDeUR3cGU2QVBialJyNUFCajJMYXVzN1VPRllWd2RIY1RjMHliTHdvc3RNZ21JSDhhbGdSbDB4WW00QTJhanpTNkhqZDdubE4wMXI1OGlYTFdFVjN5QzN6WVdJVExVMFNrRUlobFQ4VlQ5M0QxM0JqSGd5ZXV1d19UNi11RXB5NHB4Y2lfRnJRNzJISDVxUkpwWUdOM013dXlWZEtoUEZ4SFZxeFZPbkN3WXU5YmtkU21feTUwbE1Ndw?oc=5",
+          "source": "The Globe and Mail",
+          "summary": "",
+          "published": "2026-09-07T14:14:55"
+        },
+        {
+          "headline": "NVIDIA Signs $11.9 Bn Deal to Acquire Hugging Face",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZDdQZHZvaFEzcW83RlNpa1dpM0RpQzlfb2lLR0UzYnN2MUFFZWVkQ2h5SlVrVHpDTTE3WUFzSUVEMFo5V3BqdXZuZzlxSC04b08tQnVkRnl3UUZLVUR4WGtuWjViZGg3WVN5VzRQaFVCamlwTlJsdWZid1RWZzRkck04RzZ0bTQ?oc=5",
+          "source": "techgraph.co",
+          "summary": "",
+          "published": "2026-09-07T12:20:27"
+        },
+        {
+          "headline": "Berkshire Hathaway Owns AI Exposure in 3 Different Ways",
+          "link": "https://www.fool.com/investing/2026/09/07/berkshire-owns-ai-exposure-3-different-ways-heres/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "Why doesn't Berkshire own the top AI stock?",
+          "published": "2026-09-07T18:50:00"
+        },
+        {
+          "headline": "Broadcom Inc. (AVGO)’s AI Opportunity Expands Across AI Infrastructure",
+          "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-inc-avgo-ai-opportunity-181909723.html?.tsrc=rss",
+          "source": null,
+          "summary": "The AI infrastructure market is in a powerful expansion phase, with hyperscalers making significant investments in custom AI accelerators, high-speed networking, as well as complex data-center architectures. Even though Nvidia is the dominant GPU supplier, Broadcom Inc. (NASDAQ:AVGO) happens to be a key beneficiary of the transition towards customized AI infrastructure. In its latest results, […]",
+          "published": "2026-09-07T18:18:17"
+        },
+        {
+          "headline": "Should You Buy Marvell Technology Stock Before Oct. 6?",
+          "link": "https://www.fool.com/investing/2026/09/07/should-you-buy-marvell-technology-stock-before-oct-6/?.tsrc=rss",
+          "source": "fool.com",
+          "summary": "The company's Investor Day event is coming up next month, which may feature some big announcements.",
+          "published": "2026-09-07T18:14:21"
+        },
+        {
+          "headline": "AI Is Moving Into Everyday Business — These 5 Stocks Sit Squarely in the Path of the Surge",
+          "link": "https://247wallst.com/investing/2026/09/07/ai-is-moving-into-everyday-business-these-5-stocks-sit-squarely-in-the-path-of-the-surge/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Goldman Sachs data suggests nearly half of all businesses could be running AI in daily operations within months, and the physical infrastructure scrambling to keep up has created a very specific set of winners. Five companies sit at the exact bottlenecks where that buildout cannot proceed without them.",
+          "published": "2026-09-07T16:52:50"
+        },
+        {
+          "headline": "Nvidia Is No Longer Just a Chip Company. It’s the Infrastructure Platform for All of AI",
+          "link": "https://247wallst.com/investing/2026/09/07/nvidia-is-no-longer-just-a-chip-company-its-the-infrastructure-platform-for-all-of-ai/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Jensen Huang calls it a full-stack AI factory platform, not a chip company, and that distinction is reshaping where billions in hyperscaler spending actually land across five companies fighting over the same supply-constrained foundation.",
+          "published": "2026-09-07T16:50:14"
+        },
+        {
+          "headline": "Jensen Huang Declares “AGI Has Arrived” — Powered by 100,000+ Nvidia Grace Blackwell GPUs",
+          "link": "https://247wallst.com/investing/2026/09/07/jensen-huang-declares-agi-has-arrived-powered-by-100000-nvidia-grace-blackwell-gpus/?.tsrc=rss",
+          "source": "247wallst.com",
+          "summary": "Jensen Huang just bypassed every earnings call caveat and posted two words on X that the AI industry has been arguing over for years. Whether a 100,000-GPU training run actually proves his point is a much messier question.",
+          "published": "2026-09-07T16:30:16"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1160,7 +1398,8 @@
     "anet:aristanetworkscfochantellebreithaupt:612": "2026-09-04",
     "amd:tdwaterhousecanadainc:31995": "2026-09-05",
     "nvda:aafinancialadvisorsllc:2173": "2026-09-06",
-    "nvda:myriadassetmanagementadvisorsllc:6501": "2026-09-06"
+    "nvda:myriadassetmanagementadvisorsllc:6501": "2026-09-06",
+    "nvda:venturiwealthmanagementllc:15227": "2026-09-07"
   },
   "news_category_posted": {
     "VST": {
