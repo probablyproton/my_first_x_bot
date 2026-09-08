@@ -3117,3 +3117,5 @@ https://www.bloomberg.com/news/articles/2026-09-08/asml-tsmc-samsung-intel-back-
 1275,2026-09-08,13:32:21,Tuesday,price_event,eu,,zero_llm_template,BESI.AS,BESI,,NYSE,Y,open,191.2,-6.04,200.2,190.7,,,,,,,6.04,,,N,18,,N,post_failed,Big print: $BESI.AS -6.04% at €191.2 today – a real standout. Intraday range: low €190.7 / high €200.2.,103,,,,,
 1276,2026-09-08,14:01:42,Tuesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,,N,post_failed,"$BESI.AS pulling away at -6.09%, now trading at €191.1.",55,,,,,
 1277,2026-09-08,14:02:03,Tuesday,price_event,eu,,zero_llm_template,BESI.AS,BESI,,NYSE,Y,open,191.1,-6.09,200.2,190.7,,,,,,,6.09,,,N,18,,N,post_failed,Sharp move: $BESI.AS -6.09% to €191.1 today. Intraday range: low €190.7 / high €200.2.,86,,,,,
+1278,2026-09-08,14:31:31,Tuesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,,N,post_failed,"$BESI.AS standing out at -6.12%, now €191.05.",45,,,,,
+1279,2026-09-08,14:31:51,Tuesday,price_event,eu,,zero_llm_template,BESI.AS,BESI,,NYSE,Y,open,191.05,-6.12,200.2,190.7,,,,,,,6.12,,,N,18,,N,post_failed,"$BESI.AS swinging -6.12% on the day, now €191.05. Intraday range: low €190.7 / high €200.2.",91,,,,,
