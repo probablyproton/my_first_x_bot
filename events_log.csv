@@ -3190,3 +3190,22 @@ https://www.thestreet.com/investing/stocks/cantor-sets-600-usd-broadcom-avgo-sto
 ""DOE Closes $1.9-Billion Loan to Restart Duane Arnold Nuclear Plant""
 
 https://www.powermag.com/doe-closes-1-9-billion-loan-to-restart-duane-arnold-nuclear-plant/",196,,,,,
+1306,2026-09-08,18:01:59,Tuesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,,N,post_failed,"$FORM standing out at +7.21%, now $111.17.",42,,,,,
+1307,2026-09-08,18:02:20,Tuesday,price_event,us,,zero_llm_template,FORM,FORM,,NYSE,Y,open,111.26,7.3,111.99,103.98,,,,,,,7.3,,,N,18,,N,post_failed,$FORM +7.3%. Love days like this. 📈,35,,,,,
+1308,2026-09-08,18:03:06,Tuesday,news_event,,,keyword,FORM,FORM,,,,,111.26,7.3,,,Keystone and FormFactor discuss optical probing acquisition with EPIC,Imaging and Machine Vision Europe,https://www.imveurope.com/article/keystone-formfactor-discuss-optical-probing-acquisition-epic,,ma,,,,,N,18,,N,post_failed,"$FORM ($111.26, +7.3% today): Keystone and FormFactor discuss optical probing acquisition with EPIC
+
+https://www.imveurope.com/article/keystone-formfactor-discuss-optical-probing-acquisition-epic",195,,,,,
+1309,2026-09-08,18:03:25,Tuesday,news_event,,,keyword,ASML.AS,ASML,,,,,1517.2,1.07,,,Mistral raises €3B to bet big on sovereign AI,pitchbook.com,https://pitchbook.com/news/articles/mistral-raises-3b-to-bet-big-on-sovereign-ai?.tsrc=rss,,analyst_note,,,,,N,18,,N,post_failed,"$ASML.AS (€1517.2, +1.07% at last close as of Sep 8): Mistral raises €3B to bet big on sovereign AI
+
+https://pitchbook.com/news/articles/mistral-raises-3b-to-bet-big-on-sovereign-ai?.tsrc=rss",191,,,,,
+1310,2026-09-08,18:03:43,Tuesday,news_event,,,keyword,AMD,AMD,,,,,508.98,6.87,,,"Advanced Micro Devices Sees AI Boom Fueling MI450, Helios and Server CPU Growth",marketbeat.com,https://www.marketbeat.com/instant-alerts/event-advanced-micro-devices-sees-ai-boom-fueling-mi450-helios-and-server-cpu-growth-2026-09-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss,,analyst_note,,,,,N,18,,N,post_failed,"$AMD ($508.98, +6.87% today): Advanced Micro Devices Sees AI Boom Fueling MI450, Helios and Server CPU Growth
+
+https://www.marketbeat.com/instant-alerts/event-advanced-micro-devices-sees-ai-boom-fueling-mi450-helios-and-server-cpu-growth-2026-09-08/?utm_source=yahoofinance&utm_medium=yahoofinance&.tsrc=rss",307,,,,,
+1311,2026-09-08,18:04:02,Tuesday,news_event,,,keyword,AVGO,AVGO,,,,,369.62,3.51,,,Top Analyst sets jaw-dropping Broadcom stock target after earnings,thestreet.com,https://www.thestreet.com/investing/stocks/cantor-sets-600-usd-broadcom-avgo-stock-price-target?.tsrc=rss,,analyst_note,,,,,N,18,,N,post_failed,"$AVGO ($369.62, +3.51% today): Top Analyst sets jaw-dropping Broadcom stock target after earnings
+
+https://www.thestreet.com/investing/stocks/cantor-sets-600-usd-broadcom-avgo-stock-price-target?.tsrc=rss",204,,,,,
+1312,2026-09-08,18:04:28,Tuesday,evergreen_opinion,,,template,,,,,,,,,,,DOE Closes $1.9-Billion Loan to Restart Duane Arnold Nuclear Plant,POWER Magazine,https://www.powermag.com/doe-closes-1-9-billion-loan-to-restart-duane-arnold-nuclear-plant/,2026-09-08T14:50:44,,,,,,,,,N,post_failed,"Worth a read from POWER Magazine:
+
+""DOE Closes $1.9-Billion Loan to Restart Duane Arnold Nuclear Plant""
+
+https://www.powermag.com/doe-closes-1-9-billion-loan-to-restart-duane-arnold-nuclear-plant/",196,,,,,
