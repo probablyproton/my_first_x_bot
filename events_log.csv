@@ -3082,3 +3082,8 @@ https://techgraph.co/business/nvidia-signs-11-9-bn-deal-to-acquire-hugging-face/
 1252,2026-09-08,09:02:43,Tuesday,price_event,eu,,zero_llm_template,AIXA.DE,AIXA,,XETR,Y,open,38.98,7.83,,,,,,,,,7.83,,,N,6,,N,post_failed,$AIXA.DE +7.83% today at €38.98 – one of the bigger moves on the board right now.,81,,,,,
 1253,2026-09-08,09:03:05,Tuesday,news_event,,,keyword,NVDA,NVDA,,,,,,,,,NVIDIA Signs $11.9 Bn Deal to Acquire Hugging Face,TechGraph,https://news.google.com/rss/articles/CBMihwFBVV95cUxPZDdQZHZvaFEzcW83RlNpa1dpM0RpQzlfb2lLR0UzYnN2MUFFZWVkQ2h5SlVrVHpDTTE3WUFzSUVEMFo5V3BqdXZuZzlxSC04b08tQnVkRnl3UUZLVUR4WGtuWjViZGg3WVN5VzRQaFVCamlwTlJsdWZid1RWZzRkck04RzZ0bTQ?oc=5,2026-09-07T12:20:27,ma,,,,,,,,N,duplicate_category_24h,,,,,,,
 1254,2026-09-08,09:31:28,Tuesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,,N,post_failed,"Hourly check-in: $BESI.AS -3.59% to €196.2, well ahead of the rest of the board.",80,,,,,
+1255,2026-09-08,10:01:51,Tuesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,,N,post_failed,Biggest mover this hour: $BESI.AS -4.4% at €194.55.,51,,,,,
+1256,2026-09-08,10:02:23,Tuesday,price_event,eu,,gemini,BESI.AS,BESI,,NYSE,Y,open,194.6,-4.37,200.2,194.15,,,,,,,4.37,,,Y,8,,N,post_failed,"$BESI.AS slides 4.37% to €194.6, rebounding slightly from its intraday low of €194.15.
+
+This pullback for the semiconductor equipment name may reflect recent analysis that pegged $BESI.AS as ""above fair value"" on cash flow & earnings.",234,,,,,
+1257,2026-09-08,10:05:34,Tuesday,news_event,,,gemini,ASML.AS,ASML,,,,,1497.0,-0.28,,,ASML Wins Over Top Chipmakers for New EUV Machines,Bloomberg.com,https://www.bloomberg.com/news/articles/2026-09-08/asml-tsmc-samsung-intel-back-12-inch-masks-for-ai-chips,,contract,,,,,Y,11,,N,generation_failed,,,,,,,

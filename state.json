@@ -3,7 +3,7 @@
   "daily_posts": 0,
   "daily_keyword_posts": 0,
   "daily_pulse_posts": 0,
-  "gemini_calls_today": 7,
+  "gemini_calls_today": 11,
   "evergreen_opinion_posts_today": 0,
   "engagement": {
     "sunday": "2026-09-06",
@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1255,
+  "event_log_next_id": 1258,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -467,8 +467,8 @@
       "Schneider Electric home EV charger uses smart load management",
       "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
       "Calcamite partners with Schneider Electric and 4Sight to deliver Cloud‑to‑Edge solution for smart water management",
-      "Driving efficient water usage through closed-loop cooling",
       "Schneider Electric Launches Schneider Charge, a Level 2 Residential EV Charger with Built-In Dynamic Load Management",
+      "Driving efficient water usage through closed-loop cooling",
       "Is Schneider Electric (ENXTPA:SU) Overvalued After A 108% Five Year Return?",
       "Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accelerate",
       "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
@@ -717,10 +717,10 @@
     ],
     "MRVL": [
       "Marvell Acquires Polariton Advancing the Future of Optical Connectivity",
-      "Marvell Completes Acquisition of XConn Technologies",
-      "Marvell Completes Acquisition of Celestial AI",
-      "Marvell to Acquire XConn Technologies, Expanding Leadership in AI Data Center Connectivity",
-      "Marvell to Acquire Celestial AI, Accelerating Scale-up Connectivity for Next-Generation Data Centers",
+      "Marvell Technology, Inc. (MRVL) Announces Acquisition of Polariton Technologies",
+      "Wilson Sonsini Advises Marvell on $540 Million Acquisition of XConn Technologies",
+      "Latham & Watkins Advises Celestial AI in Acquisition by Marvell Technology",
+      "Marvell Acquires Polariton Technologies | Business | Apr 2026",
       "Why is Marvell Technology (NASDAQ:MRVL) In Focus After abor Day?",
       "NVIDIA AI Ecosystem Expands as Marvell Joins Forces Through NVLink Fusion",
       "Best Semiconductor Stock to Buy: Marvell Stock or Qualcomm Stock?",
@@ -742,7 +742,7 @@
       "FormFactor (FORM) Announces the Acquisition of Keystone Photonics, Here’s What You Need to Know",
       "FormFactor acquires Keystone Photonics to boost silicon photonics testing",
       "Navellier & Associates Inc. Acquires New Shares in FormFactor, Inc. $FORM",
-      "Paradigm Capital Management Inc. NY Acquires Shares of 27,900 FormFactor, Inc. $FORM",
+      "FormFactor Jumps 111% YTD: Is There More Room for the Stock to Rise?",
       "FormFactor Secures $24 Million Texas Semiconductor Grant",
       "Here’s how iPhone Ultra’s form factor could compare to other Apple products",
       "FormFactor, Inc. Rings the Closing Bell",
@@ -766,20 +766,20 @@
       "Applied Materials, Lam Research may be interested in acquiring BE Semiconductor: report (AMAT:NASDAQ)",
       "Newmark Represents Lam Research in $45.77 Million North Phoenix Office Acquisition Near TSMC Campus",
       "Lam Research Corp. stock outperforms competitors on strong trading day",
-      "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
       "Lam Research Corporation Announces a 27% Increase in Quarterly Dividend",
+      "IBM and Lam Research Announce Collaboration to Advance Sub-1nm Logic Scaling",
       "Lam Research Corporation Announces June Quarter Financial Conference Call",
       "$100 Invested In Lam Research 20 Years Ago Would Be Worth This Much Today",
       "LAM Research to offer 240-hour training to make people employable in electronics, mechanical assembly jobs",
+      "Lam Research Corporation Tokenized Stock (Robinhood)",
       "Lam Research Breaks Ground on New Oregon Lab to Accelerate AI Era Semiconductor Research & Development Locally, Globally",
       "Lam Research Corp Stock (LRCX) Moved Down by 7.40% on Jul 2",
-      "Lam Research buys $45.8M office building near TSMC’s Phoenix campus",
-      "Lam Research Launches Skill Development Program in India to Boost Advanced Manufacturing Talent",
       "Lam Research Legal Chief Sold $1.5 Million as AI Chip Demand Booms. Is the Signal Bearish?",
       "4 Stocks to Buy That Declared Dividend Hikes Amid Geopolitical Woes",
       "Is the Options Market Predicting a Spike in Lam Research Stock?",
       "This Chip Equipment Stock Just Raised Its Dividend by 26.9%.",
-      "Lam Research (LRCX) Rises Higher Than Market: Key Facts"
+      "Lam Research (LRCX) Rises Higher Than Market: Key Facts",
+      "Lam Research (LRCX) Stock Looks Fully Priced After Its Big Run"
     ],
     "TSM": [
       "Taiwan Semiconductor (NYSE: TSM) SVP adds 12,881 vested shares",
@@ -813,10 +813,10 @@
       "Western Digital Adds Post-Quantum Cryptography to Hard Drives",
       "Western Digital (WDC) Retired Part Of Its 2028 Convertible Debt Early",
       "Western Digital Corp. stock underperforms Thursday when compared to competitors",
+      "Western Digital stock gains on AI storage optimism despite recent volatility",
       "News - Tohoku University Launches AI Data Infrastructure Lab with Western Digital Corporation",
       "WD Advances Next-Generation Trusted Infrastructure with Industry’s First Post-Quantum Cryptography Hard Drives to Help Secure the Future of AI Data",
       "How Western Digital used AI to turbocharge collection of supplier emissions data",
-      "Western Digital stock gains on AI storage optimism despite recent volatility",
       "Western Digital Corp. stock underperforms Monday when compared to competitors",
       "Western Digital Corp. stock underperforms Friday when compared to competitors",
       "Investors Heavily Search Western Digital Corporation (WDC): Here is What You Need to Know",
@@ -936,10 +936,10 @@
       "AMAT Rides on AI-Led WFE Demand: Can it Sustain the Momentum?"
     ],
     "NVDA": [
+      "Guyasuta Investment Advisors Inc. Acquires 2,246 Shares of NVIDIA Corporation $NVDA",
       "NVIDIA's Hugging Face Buyout: Can It Further Strengthen AI Dominance?",
       "Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips",
       "List of 32 Acquisitions by Nvidia (Sep 2026)",
-      "Venturi Wealth Management LLC Acquires 15,227 Shares of NVIDIA Corporation $NVDA",
       "Nvidia confirms $12.9B acquisition of AI hosting platform Hugging Face",
       "Breakingviews - COMMENTARY: China's AI dragons breathe fire on Nvidia's moat",
       "Co-Designing AI Models Using Speculative Decoding for Faster LLM Inference | NVIDIA Technical Blog",
@@ -950,19 +950,19 @@
       "Nvidia's $13 Billion Hugging Face Deal Expands Open-Source AI",
       "Nvidia to buy AI platform Hugging Face for US$12.9 billion",
       "Nazemian v. NVIDIA Corporation",
+      "Jensen Huang Says a 22% Rent Jump Proves Old Nvidia Chips Keep Earning",
       "Could Buying Nvidia Today Set You Up for Life?",
       "Top M&A Deals In September: Nvidia, Dominion Energy, Nextera Energy, Vertiv In Focus",
       "NVDA Rises Overnight After Strong Week: CEO Jensen Huang Pumps Nvidia Chips As ‘Highly Rentable’ Money-Minting Assets",
       "Is a Stock Market Crash Imminent Under President Donald Trump",
-      "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump",
-      "Nvidia Insider Makes Stunning $410 Million Stock Move"
+      "Palantir Stock Leads August Rally -- Nvidia, Salesforce and Super Micro Jump"
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
       "Nitrogen-polar III-N HFETs on 200mm sapphire substrates",
       "EQS-PVR: AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution - boerse.de",
-      "Aixtron SE vs Veeco Instruments",
       "Flexible Complementary Metal-Oxide-Semiconductor Inverter Based on 2D p-type WSe",
+      "Aixtron SE vs Veeco Instruments",
       "Gallium nitride vertical-channel junction field-effect transistors",
       "Polarization-engineered high mobility of two-dimensional hole gas in GaN",
       "Aixtron Q2 Earnings Call Highlights",
@@ -977,21 +977,21 @@
       "AIXTRON SE Increases FY 2026 Guidance and Reports Preliminary Q1/2026 Figures"
     ],
     "AMD": [
-      "Rep. Gilbert Ray Cisneros, Jr. Acquires Shares of Advanced Micro Devices, Inc. (NASDAQ:AMD)",
       "NVIDIA's Hugging Face Buyout: Can It Further Strengthen AI Dominance?",
       "Advanced Micro Devices, Inc.",
+      "TD Waterhouse Canada Inc. Acquires 31,995 Shares of Advanced Micro Devices, Inc. $AMD",
       "Move Over, Nvidia: Why AMD’s Latest Acquisition Could Redefine Direct-Silicon AI Inference",
-      "Advanced Micro Devices (AMD) Adds AI Inference Silicon With Taalas Acquisition",
+      "With Its MEXT Acquisition, Advanced Micro Devices Stock Could Rally to Higher Highs",
       "Advanced Micro Devices (AMD) Brings SEV Into On Premises Confidential Computing",
-      "AMD stock gains as data center revenue jumps 107 percent",
       "Advanced Micro Devices (AMD): What’s Next After Recent Price Action? Malaga Fc (5R9rL8CZaZ)",
+      "AMD stock gains as data center revenue jumps 107 percent",
       "Latham Watkins Advises Advanced Micro Devices Inc on Revolving Credit Facility",
-      "Advanced Micro Devices Tokenized bStocks Price (AMDB/USD) Today | Live Price, Market Cap & Chart",
       "AMD, NVIDIA raise bar on AI energy efficiency",
       "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
       "AMD Acquires MEXT to Advance Memory Optimization for Compute Infrastructure",
       "AMD acquires software built by URI professor and colleagues",
       "Why Is AMD Stock Sliding on Friday?",
+      "How AMD Became One of the World’s Leading Semiconductor Companies",
       "AMD Stock Jumps After Unveiling $100,000-Plus AI Workstation for 2027",
       "Wall Street Is Worried About AMD. Here’s Why Long-Term Investors Shouldn’t Be",
       "AMD Is Behind The AI Chip Shift Nobody Is Talking About",
@@ -1001,9 +1001,9 @@
     "IFX.DE": [
       "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
       "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
-      "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
       "Infineon's Bangalore Bet and Buyback Signal: Why the Market Isn't Buying It",
       "Infineon to Acquire Indian Power Management Company C2i Semiconductors",
+      "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
       "Infineon Leads the Automotive Semiconductor",
@@ -1029,13 +1029,13 @@
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "Arista Networks (NYSE:ANET) Faces A Fresh Inflation-Week Test",
       "Why Broadcom should buy Arista (and why it won’t)",
-      "J. Goldman takes new $6.97M stake in Arista Networks",
       "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Akamai Technologies, Arista Networks, Booking Holdings, Cisco Systems, Dell Technologies, Duolingo, Robinhood Markets, PG&E, and More",
       "Arista adds AI-driven zero trust to VeloCloud SD-WAN",
       "Member Spotlight: Arista Networks",
+      "Arista Networks Tokenized Stock (Robinhood)",
       "Arista Networks : ANET Stock Analysis With Elliott Wave + Trade Setup Richard Gere (Ue8qPhtAlT)",
-      "ANET to SGD: Arista Networks • Robinhood Token Price in Singapore Dollar",
       "Arista Networks Stock: Buy or Sell?",
+      "ANET to SGD: Arista Networks • Robinhood Token Price in Singapore Dollar",
       "Here is Why Growth Investors Should Buy Arista Networks (ANET) Now",
       "How Much Track Is Left For ANET Stock?",
       "ANET Rises 37.3% in Six Months: Is There More Room to Grow?",
@@ -1049,15 +1049,15 @@
       "ASML signs new customer: what does India’s Tata Electronics do?",
       "US Pre-Market: PPI Data Imminent, SK Hynix Falls Over 6%, ASML Rises Nearly 3%, PayPal Acquisition Rumors Ignite Stock Price",
       "Samsung Electronics and ASML Expand Strategic Collaboration for Next-Generation Semiconductor Manufacturing",
+      "ASML to work with major chipmakers to use latest tools for larger chips",
+      "ASML Wins Over Top Chipmakers for New EUV Machines",
       "Intel Foundry and ASML Collaborate to Accelerate Industry Readiness for High-NA EUV",
-      "ASML Wins Over TSMC, Samsung for New EUV Machines as AI Demand Surges",
       "Samsung, ASML deepen partnership to advance High-NA EUV",
-      "Intel Provides Update On High NA EUV",
+      "Huawei drives China’s push to make advanced chips",
       "Samsung to adopt ASML's High NA EUV for memory chips by 2028",
+      "Intel Provides Update On High NA EUV",
       "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline",
       "ASML, Samsung expand chipmaking partnership",
-      "Samsung, ASML team up on next-generation semiconductor manufacturing technology",
-      "Mistral raises 3 billion, Samsung leads round",
       "Protolabs CEO sees big impact from US reshoring despite potential tariffs",
       "ZEISS SMT CEO: China 15 Years Behind in Top Chip Tools",
       "ASML and TSMC Announce Initiative to Pioneer Industry Transition to Large-Format Photomasks for High NA EUV",
@@ -1071,8 +1071,8 @@
       "Wasabi Technologies Acquires Seagate’s Lyve Cloud Business",
       "Wasabi acquires Seagate’s cloud storage service in return for equity",
       "Seagate Technology Holdings PLC stock outperforms competitors on strong trading day",
-      "Seagate Technology Holdings PLC stock underperforms Thursday when compared to competitors",
       "Seagate to Participate in Upcoming Investor Events",
+      "Seagate Technology Holdings PLC stock underperforms Thursday when compared to competitors",
       "Seagate reaches $175 million settlement of shareholder claims it concealed sales to China's Huawei",
       "Seagate Technology Holdings PLC Stock (STX) Closed Up by 3.01% on Aug 26: A Full Analysis",
       "Seagate Technology Holdings Executive VP & CFO Gianluca Romano Sells 35% Of Holding",
@@ -1099,9 +1099,9 @@
       "Micron is doubling down on AI memory chips. That could pay off big time for investors.",
       "U.S. stock storage sector surges at market open, Micron Technology rises 3.6%",
       "SEMICON Taiwan 2026: Micron Counters Rivals, Declares AI Still 'Massively Undersupplied'",
+      "Micron project neighbors ask judge for new environmental review",
       "Why Is Micron (NASDAQ:MU) in Focus Ahead of Nasdaq Reopening?",
       "Have Insiders Sold Micron Technology Shares Recently?",
-      "Micron unveils Boise-based research lab, plans $10 billion investment over next decade",
       "Micron's $50 Billion Guide Gets an 8.3% Signal From Seoul",
       "Micron, SanDisk get new aggressive price targets from top analyst",
       "Is Micron Technology Stock Running Out of Steam?",
@@ -1109,7 +1109,77 @@
       "Everyone Is Watching Nvidia. But This Memory Stock Could Be the Next AI Winner"
     ]
   },
-  "pending_news_posts": [],
+  "pending_news_posts": [
+    {
+      "symbol": "ASML.AS",
+      "classification": {
+        "symbol": "ASML.AS",
+        "is_major": true,
+        "category": "contract",
+        "headline": "ASML Wins Over Top Chipmakers for New EUV Machines",
+        "reason": "This headline indicates a new major customer win for ASML's advanced EUV machines, qualifying under the contract/partnership criteria for a new major customer win."
+      },
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUGdwaDlaY2J0dnkxdHZEenU3SEFLRS1pTlVPaW8ybTA2TTA5am5RMmxidF8wR21hYnh0Mmg3bk9VMEE1ckNMNVpiR2tTV1VnSU1UTVh5WTdKWDlqOTcxamNodmI1bUVocmpnNkZLZTVZenZUR2Q1RkFsaHVMWVpGWEdlQjQ3OUxvdERhYVpoUHlpa1hCci1oWGdkekg3clhKWkJjRnVIdjEzQQ?oc=5",
+      "source": "Bloomberg.com",
+      "method": "gemini",
+      "published": "2026-09-08T06:05:00",
+      "queued_min": 29814242,
+      "all_articles": [
+        {
+          "headline": "ASML to work with major chipmakers to use latest tools for larger chips",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOGlERHBBRHI0TlBlczZQVGdMT2Z6b1RHdV9ZV2VXTkNfcWpmVkl5alFIMTBVaHppb3BNZTZTUHNCUmthLWNUNGhpekpCUVdKUE94TFozMEMxMVNiYzdsNFlZbHFmNkRFRWlTVEs2SkJpQ2dHeDdybkxjNG01X2xuNWVPSEd3MlJzX2dnbEhLYlZxZHkta0NPc1dJS1RNMkYxTDI2WWMydUpraHZnMEhSc1d2V2hwajNfMVBj?oc=5",
+          "source": "Reuters",
+          "summary": "",
+          "published": "2026-09-08T06:06:35"
+        },
+        {
+          "headline": "ASML Wins Over Top Chipmakers for New EUV Machines",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUGdwaDlaY2J0dnkxdHZEenU3SEFLRS1pTlVPaW8ybTA2TTA5am5RMmxidF8wR21hYnh0Mmg3bk9VMEE1ckNMNVpiR2tTV1VnSU1UTVh5WTdKWDlqOTcxamNodmI1bUVocmpnNkZLZTVZenZUR2Q1RkFsaHVMWVpGWEdlQjQ3OUxvdERhYVpoUHlpa1hCci1oWGdkekg3clhKWkJjRnVIdjEzQQ?oc=5",
+          "source": "Bloomberg.com",
+          "summary": "",
+          "published": "2026-09-08T06:05:00"
+        },
+        {
+          "headline": "Huawei drives China’s push to make advanced chips",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMFNTc3V3akREbVlsb2N3VmJMcFY1ZUtKZXlWc28zMnFIcmE3M0R1X0gtMnl4bXZIX2pPX2YtLS1ZbDZsdkxPYTM0MVpyOTc0SlJtd2x3YUgydHNocDBQdnBoWkZsb0Q5QnhCX2tEaVdwMDZYZFl0VXZKWl9DNm56aHU5QV8?oc=5",
+          "source": "Financial Times",
+          "summary": "",
+          "published": "2026-09-08T02:57:46"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "classification": {
+        "symbol": "NVDA",
+        "is_major": true,
+        "category": "large_share_purchases",
+        "headline": "Guyasuta Investment Advisors Inc. Acquires 2,246 Shares of NVIDIA Corporation $NVDA",
+        "reason": "A named institution acquiring a specific number of shares of the company qualifies as a large share purchase."
+      },
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQmZtVTVERFAyMzJGdmN3SjZTajFxZ1otTWcwMU5SUmhDaGlaWDZld0tqT3FJUWU3WnJlOFJLZTdheEdGdHpEMExkT0JuZXRlY1Yxc25OU2cxc2tsM2ZDNy05c1R3YU1DZVJnSXVEcnVBRVpPcFAxNFViUWZLc1lja2JBQUlJWHN4TUJ3bGdMM2V0SkJLczBqQ3NXbWtieTV4Zk8xdzk1OWZmZGtBbHc2b3pzbkNueGZXaTZaUWJkM1BGbFNMTXQ1N2JsQUk4eTFOc3NvSW84Z2g?oc=5",
+      "source": "MarketBeat",
+      "method": "gemini",
+      "published": "2026-09-08T07:41:33",
+      "queued_min": 29814242,
+      "all_articles": [
+        {
+          "headline": "Guyasuta Investment Advisors Inc. Acquires 2,246 Shares of NVIDIA Corporation $NVDA",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQmZtVTVERFAyMzJGdmN3SjZTajFxZ1otTWcwMU5SUmhDaGlaWDZld0tqT3FJUWU3WnJlOFJLZTdheEdGdHpEMExkT0JuZXRlY1Yxc25OU2cxc2tsM2ZDNy05c1R3YU1DZVJnSXVEcnVBRVpPcFAxNFViUWZLc1lja2JBQUlJWHN4TUJ3bGdMM2V0SkJLczBqQ3NXbWtieTV4Zk8xdzk1OWZmZGtBbHc2b3pzbkNueGZXaTZaUWJkM1BGbFNMTXQ1N2JsQUk4eTFOc3NvSW84Z2g?oc=5",
+          "source": "MarketBeat",
+          "summary": "",
+          "published": "2026-09-08T07:41:33"
+        },
+        {
+          "headline": "Jensen Huang Says a 22% Rent Jump Proves Old Nvidia Chips Keep Earning",
+          "link": "https://beincrypto.com/ai-chip-rental-prices-jensen-huang/?.tsrc=rss",
+          "source": "beincrypto.com",
+          "summary": "Jensen Huang says a 22% jump in AI chip rental prices proves older Nvidia hardware still earns. The record says more.",
+          "published": "2026-09-08T07:33:05"
+        }
+      ]
+    }
+  ],
   "holding_disclosures_seen": {
     "vrt:leonteqsecuritiesag:12801": "2026-07-05",
     "vst:hodgescapitalmanagementinc:28236": "2026-07-07",
@@ -1161,7 +1231,8 @@
     "amd:tdwaterhousecanadainc:31995": "2026-09-05",
     "nvda:aafinancialadvisorsllc:2173": "2026-09-06",
     "nvda:myriadassetmanagementadvisorsllc:6501": "2026-09-06",
-    "nvda:venturiwealthmanagementllc:15227": "2026-09-07"
+    "nvda:venturiwealthmanagementllc:15227": "2026-09-07",
+    "nvda:guyasutainvestmentadvisorsinc:2246": "2026-09-08"
   },
   "news_category_posted": {
     "VST": {
@@ -1383,8 +1454,7 @@
       3,
       0,
       8,
-      10,
-      1
+      10
     ],
     "price_event_up": [
       8,
@@ -1406,8 +1476,8 @@
   "price_snapshots": {
     "IBE.MC": 20.61,
     "ENGI.PA": 26.73,
-    "SU.PA": 293.9,
-    "SIE.DE": 270.35,
+    "SU.PA": 294.5,
+    "SIE.DE": 270.3,
     "LR.PA": 132.75,
     "EOAN.DE": 19.09,
     "ABBN.SW": 79.0,
@@ -1433,11 +1503,11 @@
     "PWR": 664.8,
     "ASML": 1615.92,
     "NBIS": 186.0,
-    "SAP.DE": 182.24,
-    "BESI.AS": 196.1,
-    "AIXA.DE": 38.28,
-    "IFX.DE": 59.24,
-    "ASML.AS": 1494.0,
+    "SAP.DE": 182.54,
+    "BESI.AS": 194.6,
+    "AIXA.DE": 38.16,
+    "IFX.DE": 59.18,
+    "ASML.AS": 1497.2,
     "MU": 1004.28,
     "TSM": 428.43,
     "KLAC": 185.04,
