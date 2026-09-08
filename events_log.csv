@@ -3154,3 +3154,20 @@ https://www.thestreet.com/investing/stocks/cantor-sets-600-usd-broadcom-avgo-sto
 ""German police detain suspect after sabotage attacks on power grid""
 
 https://www.reuters.com/world/german-police-detain-suspect-after-sabotage-attacks-power-grid-2026-09-08/",201,,,,,
+1294,2026-09-08,17:02:00,Tuesday,pulse,,,zero_llm_template,,,,,,,,,,,,,,,,,,,,,,,N,post_failed,"Hourly check-in: $FORM +6.66% to $110.6, well ahead of the rest of the board.",77,,,,,
+1295,2026-09-08,17:02:26,Tuesday,price_event,us,,zero_llm_template,FORM,FORM,,NYSE,Y,open,110.6,6.66,110.81,103.98,,,,,,,6.66,,,N,18,,N,post_failed,$FORM +6.66% today – no notes.,30,,,,,
+1296,2026-09-08,17:03:01,Tuesday,news_event,,,keyword,NVDA,NVDA,,,,,,,,,Quantum Cyber Acquires NVIDIA A100 AI Compute Cluster to Power Its Swarm Operating System,Yahoo Finance UK,https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVEpmZXkyTDgyaUVCdGx6OTJvQWF2YmFZaTNHb3NVa0NSUGZwYU9yZzFoby12QVpwN2luT2pFbWJPRk5WRWhsQ1dpSGNDY1czWjZWU0Z0dXpjamR2TGxaaGQwMzktQmRKZzdCbGxFampTTWROQTRaTkhfS1VZMWV1UjE1RGk4QURjbHJn?oc=5,2026-09-08T11:30:00,ma,,,,,,,,N,duplicate_category_24h,,,,,,,
+1297,2026-09-08,17:03:21,Tuesday,news_event,,,keyword,FORM,FORM,,,,,110.6,6.66,,,Keystone and FormFactor discuss optical probing acquisition with EPIC,Imaging and Machine Vision Europe,https://www.imveurope.com/article/keystone-formfactor-discuss-optical-probing-acquisition-epic,,ma,,,,,N,18,,N,post_failed,"$FORM ($110.6, +6.66% today): Keystone and FormFactor discuss optical probing acquisition with EPIC
+
+https://www.imveurope.com/article/keystone-formfactor-discuss-optical-probing-acquisition-epic",195,,,,,
+1298,2026-09-08,17:03:40,Tuesday,news_event,,,keyword,ASML.AS,ASML,,,,,1508.6,0.49,,,Mistral raises €3B to bet big on sovereign AI,pitchbook.com,https://pitchbook.com/news/articles/mistral-raises-3b-to-bet-big-on-sovereign-ai?.tsrc=rss,,analyst_note,,,,,N,18,,N,post_failed,"$ASML.AS (€1508.6, +0.49% today): Mistral raises €3B to bet big on sovereign AI
+
+https://pitchbook.com/news/articles/mistral-raises-3b-to-bet-big-on-sovereign-ai?.tsrc=rss",171,,,,,
+1299,2026-09-08,17:03:59,Tuesday,news_event,,,keyword,AVGO,AVGO,,,,,370.71,3.82,,,Top Analyst sets jaw-dropping Broadcom stock target after earnings,thestreet.com,https://www.thestreet.com/investing/stocks/cantor-sets-600-usd-broadcom-avgo-stock-price-target?.tsrc=rss,,analyst_note,,,,,N,18,,N,post_failed,"$AVGO ($370.71, +3.82% today): Top Analyst sets jaw-dropping Broadcom stock target after earnings
+
+https://www.thestreet.com/investing/stocks/cantor-sets-600-usd-broadcom-avgo-stock-price-target?.tsrc=rss",204,,,,,
+1300,2026-09-08,17:04:27,Tuesday,evergreen_opinion,,,template,,,,,,,,,,,DOE Closes $1.9-Billion Loan to Restart Duane Arnold Nuclear Plant,POWER Magazine,https://www.powermag.com/doe-closes-1-9-billion-loan-to-restart-duane-arnold-nuclear-plant/,2026-09-08T14:50:44,,,,,,,,,N,post_failed,"Worth a read from POWER Magazine:
+
+""DOE Closes $1.9-Billion Loan to Restart Duane Arnold Nuclear Plant""
+
+https://www.powermag.com/doe-closes-1-9-billion-loan-to-restart-duane-arnold-nuclear-plant/",196,,,,,
