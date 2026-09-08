@@ -66,7 +66,7 @@
     "AMAT": 29811812,
     "WDC": 29808992
   },
-  "event_log_next_id": 1312,
+  "event_log_next_id": 1318,
   "event_cooldowns": {
     "news_VST": 1277,
     "news_TLN": 722,
@@ -459,16 +459,16 @@
       "Schneider Electric to acquire Cognite for $3.1 billion to expand industrial AI, operational data capabilities",
       "Schneider Electric Announces Intention To Acquire Cognite",
       "Schneider Electric To Acquire Cognite For Its’ Cutting-Edge Technology",
+      "Schneider Electric and Kraken Announce Partnership",
+      "Q&A: Jerome Soltani on Schneider Electric's Services Unit",
       "Schneider Electric pioneers a ‘grid-to-chip’ approach for AI data centers",
       "Microsoft and Schneider Electric bet big on the gulf",
       "DS Smith and Schneider Electric launch innovative switchgear",
       "Shell, Schneider Electric and Axens install electric refinery heater",
-      "Schneider Electric Named a Top Charitable Company",
       "Schneider’s New Home EV Charger Undercuts Tesla’s By Bundling A Big Feature",
       "Schneider Electric to close energy gap for productivity",
       "Global electric company to close Portland-area factory, lay off 87",
-      "Schneider Electric again tops Gartner’s Top 25 Supply Chain rankings",
-      "Schneider Electric launches Schneider Charge to help electricians streamline home EV Charger installations",
+      "Schneider Electric home EV charger uses smart load management",
       "Is Schneider Electric (ENXTPA:SU) Overvalued After A 108% Five Year Return?",
       "Containerized Data Center Market Outlook 2025-2035 Featuring Profiles of Schneider Electric, Vertiv and Huawei - Industry to Reach $111.36 Billion by 2035 as Cloud, Edge Computing and AI Demand Accelerate",
       "Modular Data Center Structural Steel Skid Market Outlook 2026-2030 Featuring Profiles of Vertiv, Schneider Electric and Eaton - AI and Edge Computing Accelerate Modular Data Center Deployments",
@@ -800,7 +800,7 @@
       "Intel Climbs 5% on High-NA EUV Production Lead, ASML and Taiwan Semiconductor Advance 3%",
       "TSMC and Samsung commit to ASML High NA EUV machines for AI chips",
       "ASML Stock Rises 3% on TSMC and Samsung Commitments",
-      "TSMC, Samsung and Intel Just Gave ASML a Powerful Endorsement",
+      "ASML Just Got the Signal It Wanted From TSMC, Samsung and Intel",
       "INTC Stock Jumps Premarket As Intel Takes Early Lead In ASML's Next-Gen Chipmaking Technology – Samsung, TSMC Are Next"
     ],
     "WDC": [
@@ -819,11 +819,11 @@
       "How Western Digital used AI to turbocharge collection of supplier emissions data",
       "Western Digital Corp. stock underperforms Friday when compared to competitors",
       "Western Digital Corp. stock underperforms Monday when compared to competitors",
+      "Can Western Digital's Strong FCF Sustain Buybacks and Dividends?",
       "AI Data Explosion: Can WDC Become a Bigger Storage Winner?",
       "Investors Heavily Search Western Digital Corporation (WDC): Here is What You Need to Know",
       "Here's How Much a $1000 Investment in Western Digital Made 10 Years Ago Would Be Worth Today",
-      "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?",
-      "Western Digital (WDC) Stock Looks Cheap On Value Checks While Its Share Run Looks Hard To Ignore"
+      "Western Digital Director Sold $2.5 Million After a Fourfold-Plus Run. Is AI Storage Momentum Peaking?"
     ],
     "AVGO": [
       "VMware by Broadcom: Product, service and support news",
@@ -861,7 +861,7 @@
       "KLA Corporation Rings the Closing Bell",
       "KLA Corporation and Teradyne Stocks Trade Down, What You Need To Know",
       "Qnity Accelerates Advanced Node Materials Innovation with Next-Generation KLA Inspection Capabilities",
-      "Precision Trading with Kla Corporation (KLAC) Risk Zones",
+      "KLA Corp. stock underperforms Friday when compared to competitors",
       "Two Chip-Equipment Stocks Just Crushed Nvidia. Is the AI Rally Broadening?",
       "FormFactor, Entegris, Penguin Solutions, Teradyne, and Marvell Technology Stocks Trade Up, What You Need To Know",
       "KLA (KLAC) Could Be 26% Undervalued After Its Recent Pullback",
@@ -950,12 +950,12 @@
       "Nvidia's $13 Billion Hugging Face Deal Expands Open-Source AI",
       "Nvidia to buy AI platform Hugging Face for US$12.9 billion",
       "Nazemian v. NVIDIA Corporation",
+      "2 Nuclear Energy Stocks to Buy Before 2026 Ends",
+      "3 Things Bears Have Wrong About Nvidia Right Now",
+      "3 Reasons Not to Downsize in Retirement",
       "History Shows the Investors Who Make This 1 Move During Bear Markets Build the Most Wealth",
       "If I Could Invest $500 in Just 1 ETF in September, Here's What I'd Buy",
-      "Nvidia’s New Partner Says Banks Want AI on Machines They Can Unplug",
-      "Rubis Turns Expensive Oil Into a Guidance Upgrade",
-      "Jensen Huang just sent Wall Street a message about AGI",
-      "Cathie Wood Just Went Bargain Hunting. Here Are the 3 AI Stocks She Bought."
+      "Nvidia’s New Partner Says Banks Want AI on Machines They Can Unplug"
     ],
     "AIXA.DE": [
       "AIXTRON SE: Release according to Article 40, Section 1 of the WpHG [the German Securities Trading Act] with the objective of Europe-wide distribution",
@@ -999,26 +999,26 @@
       "AMD Stock Jumps After Unveiling $100,000-Plus AI Workstation for 2027"
     ],
     "IFX.DE": [
-      "Infineon Technologies AG agreed to acquire C2i Semiconductors Private Limited.",
-      "Infineon Acquires ams Osram’s Non-Optical Sensor Portfolio",
-      "Infineon's Bangalore Bet and Buyback Signal: Why the Market Isn't Buying It",
-      "Infineon to Acquire Sensor Portfolio from ams OSRAM for €570 Million",
-      "Micross Completes Acquisition of the High-Reliability DC-DC Converter Business of Infineon Technologies AG",
       "Infineon Technologies AG and Skeleton Technologies Join Forces to Advance AI Data Centre Power Solutions",
       "Infineon-led European project Moore4Power launches",
       "Infineon Leads the Automotive Semiconductor",
-      "North-America Magnetic Current Sensor Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "North-America Automotive Semiconductor Market Size, Share,Trends, Growth Analysis Report, 2030",
       "Influence of Temperature on the Reliability of Graphene‐Based Ozone Sensors - Jain - Small",
       "North America Intelligent Power Module Market Report",
+      "North-America Magnetic Current Sensor Market Size, Share,Trends, Growth Analysis Report, 2030",
+      "NIELIT Partners with Infineon to Strengthen India’s Semiconductor Ecosystem, Talent Pool",
       "Infineon Startup Challenge 2026 puts humanoid robotics in the spotlight",
       "Infineon Technologies officially opens new R&D Centre in Cork",
-      "Price tag, scope of Infineon's factory expansion plans revealed in incentives application",
-      "Power integrated circuits (ICs) for motor control and thermal management uses introduced by Infineon",
       "Morgan Stanley turns more selective on European chip stocks",
       "Sirin Software Joins Infineon Partner Ecosystem as an Associated Partner",
       "Infineon and Tack One win SICC Award for Best Technological Collaboration",
       "$4.12 Billion Avalanche Breakdown Diodes Market Outlook 2026-2030 - Featuring Profiles of Infineon Technologies, Littelfuse and Vishay Intertechnology",
-      "Chip Stocks Edge Higher After Monday Rout"
+      "Chip Stocks Edge Higher After Monday Rout",
+      "Infineon and MediaTek partner on automotive AI systems",
+      "Infineon Technologies (XTRA:IFX) Stock Fair Value Rises After Analysts Lift Targets",
+      "Infineon Technologies (XTRA:IFX) Sets Record AI Revenue, Is It Fully Priced?",
+      "Infineon Technologies AG (IFNNF) (Q3 2026) Earnings Call Highlights: Record Revenue and AI ...",
+      "Morgan Stanley upgrades Synopsys as it turns selective on chip stocks"
     ],
     "ANET": [
       "Arista Networks patches VeloCloud exploit inherited from Broadcom buy",
@@ -1028,14 +1028,14 @@
       "Most significant networking acquisitions of 2025",
       "Arista Networks Inc. stock outperforms competitors on strong trading day",
       "Why Broadcom should buy Arista (and why it won’t)",
-      "J. Goldman takes new $6.97M stake in Arista Networks",
       "Arista Networks (NYSE:ANET) Faces A Fresh Inflation-Week Test",
       "Here Are Tuesday’s Top Wall Street Analyst Research Calls: Akamai Technologies, Arista Networks, Booking Holdings, Cisco Systems, Dell Technologies, Duolingo, Robinhood Markets, PG&E, and More",
       "Arista adds AI-driven zero trust to VeloCloud SD-WAN",
       "Member Spotlight: Arista Networks",
-      "Arista Networks Tokenized Stock (Robinhood): Latest News, Social Media Updates and Insights",
+      "Arista Networks Tokenized Stock (Robinhood)",
       "Arista Networks Stock: Buy or Sell?",
       "Arista Networks : ANET Stock Analysis With Elliott Wave + Trade Setup Richard Gere (Ue8qPhtAlT)",
+      "J. Goldman takes new $6.97M stake in Arista Networks",
       "Market Prices Skyrocket, Driving Campus Switch Market to Growth in 2Q 2026, According to Dell'Oro Group",
       "Here is Why Growth Investors Should Buy Arista Networks (ANET) Now",
       "How Much Track Is Left For ANET Stock?",
@@ -1541,12 +1541,10 @@
     "mover_strong": [
       7,
       3,
-      4,
-      9
+      4
     ],
     "price_event_up": [
-      8,
-      1
+      8
     ],
     "price_event_down": [
       7,
@@ -1591,19 +1589,19 @@
     "AIXA.DE": 37.71,
     "IFX.DE": 58.04,
     "ASML.AS": 1510.2,
-    "MU": 1026.89,
-    "TSM": 442.02,
-    "KLAC": 189.53,
-    "STX": 891.4,
-    "ANET": 199.18,
-    "LRCX": 320.16,
-    "FORM": 111.26,
-    "AVGO": 369.44,
-    "AMAT": 471.29,
-    "AMD": 510.23,
-    "MRVL": 231.48,
-    "NVDA": 226.38,
-    "WDC": 477.82
+    "MU": 1020.81,
+    "TSM": 438.6,
+    "KLAC": 187.7,
+    "STX": 895.36,
+    "ANET": 198.19,
+    "LRCX": 318.65,
+    "FORM": 110.48,
+    "AVGO": 366.51,
+    "AMAT": 468.86,
+    "AMD": 507.75,
+    "MRVL": 228.59,
+    "NVDA": 225.55,
+    "WDC": 478.84
   },
   "day_event_fired": {
     "BE": "2026-07-07",
@@ -1666,7 +1664,8 @@
     }
   ],
   "eu_posted": [
-    0
+    0,
+    1
   ],
   "us_slots": [
     {
